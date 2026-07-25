@@ -32,7 +32,7 @@
         <section class="banner-frame flex w-full flex-col" aria-label="Edition details">
           <div class="banner-divider banner-divider--heavy" aria-hidden="true"></div>
           <div class="banner-divider banner-divider--light" aria-hidden="true"></div>
-          <div class="banner flex items-center justify-between gap-4">
+          <div class="banner flex items-center justify-center gap-4">
             <div class="banner-primary whitespace-nowrap">Volume xxiv</div>
             <div class="banner-secondary text-center">
               There is no truth or beauty,<br />
@@ -47,8 +47,8 @@
             </div>
             <div class="ticker-window" aria-live="polite">
               <div id="ticker-track" class="ticker-track">
-                <span>Aapl ▲1.2%</span>
-                <span>Nvda ▲3.1%</span>
+                <span>[Aapl ▲1.2%]</span>
+                <span>[Nvda ▲3.1%]</span>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@
           <img
             src="./images/floral-divider-1.png"
             alt=""
-            class="floral-divider w-full object-contain"
+            class="floral-divider bg-blend-darken object-contain mix-blend-darken"
           />
           <h1 class="headline-title m-0 text-center">
             The end is always breaking
@@ -68,7 +68,7 @@
           <img
             src="./images/floral-divider-2.png"
             alt=""
-            class="floral-divider w-full object-contain"
+            class="floral-divider bg-blend-darken object-contain mix-blend-darken"
           />
         </section>
       </section>
@@ -163,7 +163,12 @@
     </main>
 
     <script>
-      const tickers = ["Aapl ▲1.2%", "Nvda ▲3.1%", "Tsla ▼0.8%", "Spy ▲0.4%"];
+      const tickers = [
+        "[Aapl ▲1.2%]",
+        "[Nvda ▲3.1%]",
+        "[Tsla ▼0.8%]",
+        "[Spy ▲0.4%]",
+      ];
       const tickerTrack = document.querySelector("#ticker-track");
       let tickerIndex = 0;
 
