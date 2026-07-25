@@ -19,6 +19,10 @@
   flex: 0 0 160px;
 }
 
+.banner-frame {
+  gap: 4px;
+}
+
 .banner {
   text-transform: uppercase;
 }
@@ -120,8 +124,8 @@
 }
 
 .floral-divider {
-  width: 100%;
-  min-height: 32px;
+  max-width: 100%;
+  height: auto;
 }
 
 .hero-grid {
