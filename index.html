@@ -12,44 +12,64 @@
     <main class="flex flex-col gap-4 p-4">
       <section class="flex flex-col gap-1">
         <header class="flex items-center justify-between gap-2">
-          <div class="image-slot header-image" data-image-slot="header-left">
-            <span>Header image</span>
+          <div class="header-image bg-blend-darken">
+            <img
+              src="./images/header-image-1.png"
+              alt=""
+              class="h-full w-full object-cover mix-blend-darken"
+            />
           </div>
           <div class="logo text-center">Daily Doomsayer</div>
-          <div class="image-slot header-image" data-image-slot="header-right">
-            <span>Header image</span>
+          <div class="header-image bg-blend-darken">
+            <img
+              src="./images/header-image-2.png"
+              alt=""
+              class="h-full w-full object-cover mix-blend-darken"
+            />
           </div>
         </header>
 
-        <section
-          class="banner flex items-center justify-between gap-4"
-          aria-label="Edition details"
-        >
-          <div class="banner-primary whitespace-nowrap">VOLUME XXIV</div>
-          <div class="banner-secondary text-center">
-            THERE IS NO TRUTH OR BEAUTY, THERE IS ONLY THE BOTTOM LINE
+        <section class="banner-frame flex w-full flex-col" aria-label="Edition details">
+          <div class="banner-divider banner-divider--heavy" aria-hidden="true"></div>
+          <div class="banner-divider banner-divider--light" aria-hidden="true"></div>
+          <div class="banner flex items-center justify-between gap-4">
+            <div class="banner-primary whitespace-nowrap">Volume xxiv</div>
+            <div class="banner-secondary text-center">
+              There is no truth or beauty,<br />
+              there is only the bottom line
+            </div>
+            <time class="banner-primary whitespace-nowrap" datetime="2026-07-23">
+              Thursday, July 23, 2026
+            </time>
+            <div class="banner-secondary text-center">
+              Believe nothing of what you hear,<br />
+              and only half of what you see
+            </div>
+            <div class="ticker-window" aria-live="polite">
+              <div id="ticker-track" class="ticker-track">
+                <span>Aapl ▲1.2%</span>
+                <span>Nvda ▲3.1%</span>
+              </div>
+            </div>
           </div>
-          <time class="banner-primary whitespace-nowrap" datetime="2026-07-23">
-            Thursday, July 23, 2026
-          </time>
-          <div class="banner-secondary text-center">
-            Believe nothing of what you hear, and only half of what you see
-          </div>
-          <div class="ticker-window" aria-live="polite">
-            <span id="stock-ticker" class="ticker-value">AAPL ▲1.2%</span>
-          </div>
+          <div class="banner-divider banner-divider--light" aria-hidden="true"></div>
+          <div class="banner-divider banner-divider--heavy" aria-hidden="true"></div>
         </section>
 
         <section class="flex flex-col gap-1">
-          <div class="image-slot floral-divider" data-image-slot="floral-top">
-            <span>Floral divider</span>
-          </div>
+          <img
+            src="./images/floral-divider-1.png"
+            alt=""
+            class="floral-divider w-full object-contain"
+          />
           <h1 class="headline-title m-0 text-center">
-            THE END IS ALWAYS BREAKING
+            The end is always breaking
           </h1>
-          <div class="image-slot floral-divider" data-image-slot="floral-bottom">
-            <span>Floral divider</span>
-          </div>
+          <img
+            src="./images/floral-divider-2.png"
+            alt=""
+            class="floral-divider w-full object-contain"
+          />
         </section>
       </section>
 
@@ -94,7 +114,7 @@
         </div>
       </section>
 
-      <section class="category-row grid gap-4">
+      <section class="category-row flex">
         <section class="news-category">
           <div class="flex flex-col gap-4">
             <a class="news-link featured-link" href="#">
@@ -107,6 +127,8 @@
           </div>
           <div class="h-px w-full bg-black" aria-hidden="true"></div>
         </section>
+
+        <div class="category-column-divider" aria-hidden="true"></div>
 
         <section class="news-category">
           <div class="flex flex-col gap-4">
@@ -122,6 +144,8 @@
           </div>
           <div class="h-px w-full bg-black" aria-hidden="true"></div>
         </section>
+
+        <div class="category-column-divider" aria-hidden="true"></div>
 
         <section class="news-category">
           <div class="flex flex-col gap-4">
@@ -139,22 +163,21 @@
     </main>
 
     <script>
-      const tickers = [
-        "AAPL ▲1.2%",
-        "NVDA ▲3.1%",
-        "TSLA ▼0.8%",
-        "SPY ▲0.4%",
-      ];
-      const ticker = document.querySelector("#stock-ticker");
+      const tickers = ["Aapl ▲1.2%", "Nvda ▲3.1%", "Tsla ▼0.8%", "Spy ▲0.4%"];
+      const tickerTrack = document.querySelector("#ticker-track");
       let tickerIndex = 0;
 
       window.setInterval(() => {
-        tickerIndex = (tickerIndex + 1) % tickers.length;
-        ticker.textContent = tickers[tickerIndex];
-        ticker.classList.remove("ticker-value");
-        void ticker.offsetWidth;
-        ticker.classList.add("ticker-value");
-      }, 2600);
+        tickerTrack.classList.add("ticker-track--moving");
+
+        window.setTimeout(() => {
+          tickerIndex = (tickerIndex + 1) % tickers.length;
+          const nextIndex = (tickerIndex + 1) % tickers.length;
+          tickerTrack.classList.remove("ticker-track--moving");
+          tickerTrack.children[0].textContent = tickers[tickerIndex];
+          tickerTrack.children[1].textContent = tickers[nextIndex];
+        }, 600);
+      }, 4000);
     </script>
   </body>
 </html>
