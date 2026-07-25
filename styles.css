@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@700&family=Funnel+Display:wght@500&family=Rubik+Broken+Fax&display=swap");
+
+:root {
+  --text-primary: #000000;
+  --link-primary: #000000;
+}
+
+.logo {
+  color: var(--text-primary);
+  font-family: "Rubik Broken Fax", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.header-image {
+  width: 160px;
+  height: 80px;
+  flex: 0 0 160px;
+  border: 1px solid #000000;
+}
+
+.banner-primary,
+.ticker-window {
+  color: var(--text-primary);
+  font-family: "Cossette Titre", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+}
+
+.banner-secondary {
+  max-width: 260px;
+  color: var(--text-primary);
+  font-family: "Cossette Titre", serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.ticker-window {
+  width: 150px;
+  height: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker-value {
+  display: block;
+  animation: ticker-rise 2600ms ease both;
+}
+
+@keyframes ticker-rise {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  20%,
+  78% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+.headline-title {
+  color: var(--text-primary);
+  font-family: "Cossette Titre", serif;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0.03em;
+}
+
+.image-slot {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.image-slot span {
+  font-family: "Funnel Display", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.floral-divider {
+  width: 100%;
+  min-height: 32px;
+}
+
+.hero-grid,
+.category-row {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.hero-image-wrapper {
+  grid-column: span 2;
+}
+
+.headline-image {
+  width: 100%;
+  min-height: 560px;
+}
+
+.news-category {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.news-link {
+  color: var(--link-primary);
+  font-family: "Funnel Display", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  text-decoration: none;
+}
+
+.news-link:hover,
+.news-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.featured-link {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-value {
+    animation: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .banner-secondary {
+    text-align: left;
+  }
+
+  .headline-title {
+    font-size: clamp(48px, 9vw, 96px);
+    line-height: 1;
+  }
+}
+
+@media (max-width: 720px) {
+  .header-image {
+    width: 80px;
+    height: 40px;
+    flex-basis: 80px;
+  }
+
+  .logo {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .hero-grid,
+  .category-row {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image-wrapper {
+    grid-column: auto;
+  }
+
+  .headline-image {
+    min-height: 60vw;
+  }
+}

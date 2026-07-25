@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Doomsayer</title>
+    <meta name="description" content="A one-page news aggregation front page." />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="m-0 min-w-80 bg-[#FF0000] text-black">
+    <main class="flex flex-col gap-4 p-4">
+      <section class="flex flex-col gap-1">
+        <header class="flex items-center justify-between gap-2">
+          <div class="image-slot header-image" data-image-slot="header-left">
+            <span>Header image</span>
+          </div>
+          <div class="logo text-center">Daily Doomsayer</div>
+          <div class="image-slot header-image" data-image-slot="header-right">
+            <span>Header image</span>
+          </div>
+        </header>
+
+        <section
+          class="banner flex items-center justify-between gap-4"
+          aria-label="Edition details"
+        >
+          <div class="banner-primary whitespace-nowrap">VOLUME XXIV</div>
+          <div class="banner-secondary text-center">
+            THERE IS NO TRUTH OR BEAUTY, THERE IS ONLY THE BOTTOM LINE
+          </div>
+          <time class="banner-primary whitespace-nowrap" datetime="2026-07-23">
+            Thursday, July 23, 2026
+          </time>
+          <div class="banner-secondary text-center">
+            Believe nothing of what you hear, and only half of what you see
+          </div>
+          <div class="ticker-window" aria-live="polite">
+            <span id="stock-ticker" class="ticker-value">AAPL ▲1.2%</span>
+          </div>
+        </section>
+
+        <section class="flex flex-col gap-1">
+          <div class="image-slot floral-divider" data-image-slot="floral-top">
+            <span>Floral divider</span>
+          </div>
+          <h1 class="headline-title m-0 text-center">
+            THE END IS ALWAYS BREAKING
+          </h1>
+          <div class="image-slot floral-divider" data-image-slot="floral-bottom">
+            <span>Floral divider</span>
+          </div>
+        </section>
+      </section>
+
+      <section class="hero-grid grid gap-4">
+        <div class="hero-image-wrapper flex flex-col gap-4">
+          <div class="image-slot headline-image" data-image-slot="headline-image">
+            <span>Headline image</span>
+          </div>
+          <div class="h-px w-full bg-black" aria-hidden="true"></div>
+        </div>
+
+        <div class="flex flex-col gap-4">
+          <section class="news-category">
+            <div class="flex flex-col gap-4">
+              <a class="news-link featured-link" href="#">
+                The market opens to another perfectly ordinary crisis
+              </a>
+              <a class="news-link" href="#">
+                Analysts agree that uncertainty remains certain
+              </a>
+              <a class="news-link" href="#">
+                Everything is fine, according to people paid to say so
+              </a>
+            </div>
+            <div class="h-px w-full bg-black" aria-hidden="true"></div>
+          </section>
+
+          <section class="news-category">
+            <div class="flex flex-col gap-4">
+              <a class="news-link" href="#">
+                Weather continues despite mounting objections
+              </a>
+              <a class="news-link" href="#">
+                Local officials unveil a plan to unveil a plan
+              </a>
+              <a class="news-link" href="#">
+                Experts discover tomorrow is already running late
+              </a>
+            </div>
+            <div class="h-px w-full bg-black" aria-hidden="true"></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="category-row grid gap-4">
+        <section class="news-category">
+          <div class="flex flex-col gap-4">
+            <a class="news-link featured-link" href="#">
+              Technology promises to solve the problems it introduced
+            </a>
+            <a class="news-link" href="#">New device requires three more devices</a>
+            <a class="news-link" href="#">
+              Artificial intelligence develops natural skepticism
+            </a>
+          </div>
+          <div class="h-px w-full bg-black" aria-hidden="true"></div>
+        </section>
+
+        <section class="news-category">
+          <div class="flex flex-col gap-4">
+            <a class="news-link" href="#">
+              Culture section declared culturally significant
+            </a>
+            <a class="news-link" href="#">
+              The season’s must-have object is already obsolete
+            </a>
+            <a class="news-link" href="#">
+              Critics praise work for being difficult to enjoy
+            </a>
+          </div>
+          <div class="h-px w-full bg-black" aria-hidden="true"></div>
+        </section>
+
+        <section class="news-category">
+          <div class="flex flex-col gap-4">
+            <a class="news-link" href="#">
+              Sports team defeats different sports team
+            </a>
+            <a class="news-link" href="#">
+              Coach credits discipline, luck, and favorable lighting
+            </a>
+            <a class="news-link" href="#">Fans remain cautiously unreasonable</a>
+          </div>
+          <div class="h-px w-full bg-black" aria-hidden="true"></div>
+        </section>
+      </section>
+    </main>
+
+    <script>
+      const tickers = [
+        "AAPL ▲1.2%",
+        "NVDA ▲3.1%",
+        "TSLA ▼0.8%",
+        "SPY ▲0.4%",
+      ];
+      const ticker = document.querySelector("#stock-ticker");
+      let tickerIndex = 0;
+
+      window.setInterval(() => {
+        tickerIndex = (tickerIndex + 1) % tickers.length;
+        ticker.textContent = tickers[tickerIndex];
+        ticker.classList.remove("ticker-value");
+        void ticker.offsetWidth;
+        ticker.classList.add("ticker-value");
+      }, 2600);
+    </script>
+  </body>
+</html>
