@@ -76,28 +76,11 @@
 .ticker-track span {
   height: 24px;
   flex: 0 0 24px;
-  transition: opacity 600ms ease;
-}
-
-.ticker-track span:first-child {
-  opacity: 1;
-}
-
-.ticker-track span:last-child {
-  opacity: 0;
 }
 
 .ticker-track--moving {
   transform: translateY(-24px);
   transition: transform 600ms ease;
-}
-
-.ticker-track--moving span:first-child {
-  opacity: 0;
-}
-
-.ticker-track--moving span:last-child {
-  opacity: 1;
 }
 
 .headline-title {
@@ -124,8 +107,10 @@
 }
 
 .floral-divider {
+  width: auto;
   max-width: 100%;
   height: auto;
+  align-self: flex-start;
 }
 
 .hero-grid {
@@ -190,9 +175,6 @@
     transition: none;
   }
 
-  .ticker-track span {
-    transition: none;
-  }
 }
 
 @media (max-width: 1024px) {
