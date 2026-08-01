@@ -83,7 +83,7 @@
 
         <div class="flex flex-col gap-4">
           <section class="news-category">
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4" data-news-group="0">
               <a class="news-link featured-link" href="#">
                 The market opens to another perfectly ordinary crisis
               </a>
@@ -98,7 +98,7 @@
           </section>
 
           <section class="news-category">
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4" data-news-group="1">
               <a class="news-link" href="#">
                 Weather continues despite mounting objections
               </a>
@@ -116,7 +116,7 @@
 
       <section class="category-row flex">
         <section class="news-category">
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4" data-news-group="2">
             <a class="news-link featured-link" href="#">
               Technology promises to solve the problems it introduced
             </a>
@@ -131,7 +131,7 @@
         <div class="category-column-divider" aria-hidden="true"></div>
 
         <section class="news-category">
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4" data-news-group="3">
             <a class="news-link" href="#">
               Culture section declared culturally significant
             </a>
@@ -148,7 +148,7 @@
         <div class="category-column-divider" aria-hidden="true"></div>
 
         <section class="news-category">
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4" data-news-group="4">
             <a class="news-link" href="#">
               Sports team defeats different sports team
             </a>
@@ -162,6 +162,8 @@
       </section>
     </main>
 
+    <script src="./articles.js"></script>
+    <script src="./news.js"></script>
     <script>
       const tickers = [
         "[Aapl ▲1.2%]",

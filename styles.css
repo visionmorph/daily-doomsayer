@@ -110,7 +110,7 @@
   width: auto;
   max-width: 100%;
   height: auto;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .hero-grid {

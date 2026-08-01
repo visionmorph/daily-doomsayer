@@ -1,0 +1,11 @@
+{
+  "name": "daily-doomsayer-news-feed",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update-news": "node scripts/fetch-news.mjs"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

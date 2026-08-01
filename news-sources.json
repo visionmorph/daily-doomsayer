@@ -1,0 +1,9 @@
+{
+  "sources": [],
+  "example": {
+    "group": 0,
+    "name": "Publication name",
+    "feed": "https://example.com/rss.xml",
+    "limit": 3
+  }
+}
