@@ -2,14 +2,70 @@
 window.DAILY_DOOMSAYER_ARTICLES = [
   {
     "group": "ai",
+    "title": "EU AI Act Article 50 transparency rules enter force",
+    "url": "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force/",
+    "source": "AI News",
+    "published": "2026-08-03T16:09:25.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Moonquakes could reveal hidden water beneath the lunar surface",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260802223420.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T12:32:07.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260802223422.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T11:58:59.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+    "source": "The Verge AI",
+    "published": "2026-08-03T11:01:11.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "The Morning Risk Report: Trump Adds to China Forced Labor Blacklist - wsj.com",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeERCSWI2U1ViUHBZcjEtVHJHekFsaXp6Z2pVLTlHWXBGdmlHMWRKWjB3Wkw5SWhqTkpaSXBUaTdzM0tDOXlKR1N3cjkwVDlVRm1CUjM5c2Q1OUhCRzVuOUIwaGR5endXbjN6Wnl4cjRtNXFoYV8waDFRRHlCbXdOM1NnUU0wQ0ZhU0VDczJiRXNjejBJbzh6dDJWQWhVdnNLM2tWWDVB?oc=5",
+    "source": "The Wall Street Journal AI",
+    "published": "2026-08-03T10:45:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "AI Conquered Coding. Fast Food Is Next",
+    "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
+    "source": "WIRED AI",
+    "published": "2026-08-03T10:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Why biological data matters more in AI drug discovery",
+    "url": "https://www.artificialintelligence-news.com/news/gsk-relation-therapeutics-ai-drug-discovery-biological-data/",
+    "source": "AI News",
+    "published": "2026-08-03T10:00:00.000Z"
+  },
+  {
+    "group": "ai",
     "title": "The ‘Guardrail Guy’ Went Viral for Posting About Flock Cameras. Then Someone Destroyed Them",
     "url": "https://www.wired.com/story/flock-cameras-guardrail-guy-advocacy-damage-people-dont-like-alprs/",
     "source": "WIRED AI",
     "published": "2026-08-03T09:30:00.000Z"
   },
   {
+    "group": "offbeat",
+    "title": "Two deadly flowers could inspire powerful new medicines",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042818.htm",
+    "source": "ScienceDaily Strange & Offbeat",
+    "published": "2026-08-03T05:51:39.000Z"
+  },
+  {
     "group": "ai",
-    "title": "German Robotics Startup Agile Robots Set to Double Revenue This Year - WSJ",
+    "title": "German Robotics Startup Agile Robots Set to Double Revenue This Year - wsj.com",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTjVvZkVKbDRZaTBMYlBBRlNzb1FZdkhDRTRKQ25nTUU1ODVJMEx4Z3AwZnFCS1ZKc2Yyd0t3U3RCV3VNZUZJTzRzYzFkNFlzQ1NsellQT2EzMmR4X252dmk1U2QybEVja0F5WGo3VC1IM0JMdzJBZmdBRGhCbHNkQlBjR2xLU3gzb1RNMmcxMzl2aFcyLUJOakZlUnRRQXdiWDFoemF4aEE?oc=5",
     "source": "The Wall Street Journal AI",
     "published": "2026-08-03T01:15:00.000Z"
@@ -23,7 +79,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "A Dire Situation - WSJ",
+    "title": "A Dire Situation - wsj.com",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvZmE1SGUtRWxlOGIzcnZhWFlmNUF0LURTU2pmbnJ1Zno0bjBEN2xFS2Jiem1ZUDQwd2QzYWRmSXREVmx4NWthRnpNX0NjYkNJYjQwR0FCQ2pybWxMRnpWcW1KUQ?oc=5",
     "source": "The Wall Street Journal AI",
     "published": "2026-08-02T14:55:00.000Z"
@@ -34,20 +90,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
     "source": "ScienceDaily Technology",
     "published": "2026-08-02T13:26:11.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Mathematicians prove perfectly fair elections are impossible",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042812.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-02T13:10:21.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "AI Images Are Everywhere. Here’s What They Do to Our Brains, and What We Can Do. - WSJ",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tQmdLaE9EYUNjNFdXdElFRS1Lckt2Q3U3RzBCTV9aNGkxNzdMNHdackdGUjVuVG5OUkxXNGRnNWxLdUFwWW5wR0VuNEF2aFl5VFlxVWEwMGJCLWlmcUF4Rmw1RERfQkVpM2xfc0xjeVRfOW5nblN5RQ?oc=5",
-    "source": "The Wall Street Journal AI",
-    "published": "2026-08-02T13:00:00.000Z"
   },
   {
     "group": "ai",
@@ -64,39 +106,11 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "published": "2026-08-02T10:00:00.000Z"
   },
   {
-    "group": "ai",
-    "title": "Mysterious Milky Way object accelerates protons beyond one quadrillion electron volts",
-    "url": "https://www.sciencedaily.com/releases/2026/07/260731034150.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-02T02:59:35.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Is this Billboard Hot 100 hit AI slop?",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-    "source": "The Verge AI",
-    "published": "2026-08-01T18:20:00.000Z"
-  },
-  {
     "group": "offbeat",
     "title": "NASA’s Curiosity rover finds a mysterious honeycomb landscape on Mars",
     "url": "https://www.sciencedaily.com/releases/2026/07/260731034142.htm",
     "source": "ScienceDaily Strange & Offbeat",
     "published": "2026-08-01T13:47:24.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "7 States’ Water Systems Hit by Cyberattacks Likely Tied to Iran",
-    "url": "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran/",
-    "source": "WIRED AI",
-    "published": "2026-08-01T10:30:00.000Z"
-  },
-  {
-    "group": "offbeat",
-    "title": "Scientists found two mysterious ‘ghost’ ancestors hiding in our DNA",
-    "url": "https://www.sciencedaily.com/releases/2026/07/260731034139.htm",
-    "source": "ScienceDaily Strange & Offbeat",
-    "published": "2026-08-01T01:58:37.000Z"
   },
   {
     "group": "ai",
@@ -107,7 +121,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "EU in talks with OpenAI, Anthropic after rogue AI agent hacks - Reuters",
+    "title": "EU in talks with OpenAI, Anthropic after rogue AI agent hacks - reuters.com",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaFU0cGsyYkR2Q3o5TnhiOW1td0YxUFhHbzFYaHd4WlNsUkFXYTJvTkR0a3hxR252aGZUelV5eENtdXhFZlpfNlNCSjBxbTRXaHpTSGZHWWdjSllxRTdxb0dsMTVLaFJabWpRbjhYQmRMeTY0Z3JmYm1wYjk4Z3N2WkF0OUpjLTRfbW9qOWpBcnFKdThPZzd4T3B6a1pkdkdZdW5BWnI1TFc5QjZnRTZ4aWFDTzdITE9JVm9iMnpUOA?oc=5",
     "source": "Reuters AI",
     "published": "2026-07-31T17:10:16.000Z"
@@ -128,28 +142,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "China's MiniMax releases H3 video model - Reuters",
+    "title": "China's MiniMax releases H3 video model - reuters.com",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNDQ3NVlFdGNsSGlVcmUxZzV3YnVWX1V4bHhYc0xjYk0weFRhQWNCRG9JTjB0TmszWkRLSkxYamx2bHFWUWZnUS1QN05obnBMWTlWUnJfUHRiTllNNTlsWGVfaTBQRml4R0Y3N01USlFBZmo0bFgyRHRZV2htU0tRakxJSjdJSU41UWNPbmljdw?oc=5",
     "source": "Reuters AI",
-    "published": "2026-07-31T05:58:23.000Z"
+    "published": "2026-07-31T04:42:00.000Z"
   },
   {
     "group": "ai",
-    "title": "Zuckerberg details Meta’s personal AI superintelligence strategy",
-    "url": "https://www.artificialintelligence-news.com/news/zuckerberg-details-meta-personal-ai-superintelligence-strategy/",
-    "source": "AI News",
-    "published": "2026-07-30T11:12:11.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "How AI is Changing Linux VPS Security for Businesses",
-    "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-linux-vps-security-for-businesses/",
-    "source": "AI News",
-    "published": "2026-07-30T10:41:02.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Nvidia partner ChipAgents raises $60 million to accelerate chip design with AI agents - Reuters",
+    "title": "Nvidia partner ChipAgents raises $60 million to accelerate chip design with AI agents - reuters.com",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRkRHaGJwMjZBLUt2QTBKcTQ2TXJIclVZdjNDSUF6U1d3aFFTa0FtMHIzYXBxNmxRanlKNjA3eG1KYU1uY255d3JhS2dQb0l3dHJUd0ptSk5rSDhGT2xMdlZCVThNMENpMHJYaVZXZjVMMWZRMVlma2MzRER1WlZZMlNSMjRsNWpDYjRZb0hYaENfVks0cVlBMDVBRnJIakdMYUVRTWVmVlk2UDRzT05tZ2RmMVYtb0ttaVFj?oc=5",
     "source": "Reuters AI",
     "published": "2026-07-29T17:01:29.000Z"
