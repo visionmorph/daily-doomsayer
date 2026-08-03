@@ -16,7 +16,7 @@
   }
 
   document.querySelectorAll("[data-news-group]").forEach((groupElement) => {
-    const group = Number(groupElement.dataset.newsGroup);
+    const group = groupElement.dataset.newsGroup;
     const groupArticles = articlesByGroup.get(group) || [];
     const links = groupElement.querySelectorAll("a.news-link");
 
