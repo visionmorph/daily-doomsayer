@@ -2,10 +2,10 @@
 window.DAILY_DOOMSAYER_ARTICLES = [
   {
     "group": "ai",
-    "title": "EU AI Act Article 50 transparency rules enter force",
-    "url": "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force/",
-    "source": "AI News",
-    "published": "2026-08-03T16:09:25.000Z"
+    "title": "Europe’s AI labeling and transparency rules are now in effect",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+    "source": "The Verge AI",
+    "published": "2026-08-03T17:38:45.000Z"
   },
   {
     "group": "ai",
@@ -30,7 +30,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "The Morning Risk Report: Trump Adds to China Forced Labor Blacklist - wsj.com",
+    "title": "The Morning Risk Report: Trump Adds to China Forced Labor Blacklist - WSJ",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeERCSWI2U1ViUHBZcjEtVHJHekFsaXp6Z2pVLTlHWXBGdmlHMWRKWjB3Wkw5SWhqTkpaSXBUaTdzM0tDOXlKR1N3cjkwVDlVRm1CUjM5c2Q1OUhCRzVuOUIwaGR5endXbjN6Wnl4cjRtNXFoYV8waDFRRHlCbXdOM1NnUU0wQ0ZhU0VDczJiRXNjejBJbzh6dDJWQWhVdnNLM2tWWDVB?oc=5",
     "source": "The Wall Street Journal AI",
     "published": "2026-08-03T10:45:00.000Z"
@@ -40,13 +40,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "title": "AI Conquered Coding. Fast Food Is Next",
     "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
     "source": "WIRED AI",
-    "published": "2026-08-03T10:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Why biological data matters more in AI drug discovery",
-    "url": "https://www.artificialintelligence-news.com/news/gsk-relation-therapeutics-ai-drug-discovery-biological-data/",
-    "source": "AI News",
     "published": "2026-08-03T10:00:00.000Z"
   },
   {
@@ -65,7 +58,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "German Robotics Startup Agile Robots Set to Double Revenue This Year - wsj.com",
+    "title": "German Robotics Startup Agile Robots Set to Double Revenue This Year - WSJ",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTjVvZkVKbDRZaTBMYlBBRlNzb1FZdkhDRTRKQ25nTUU1ODVJMEx4Z3AwZnFCS1ZKc2Yyd0t3U3RCV3VNZUZJTzRzYzFkNFlzQ1NsellQT2EzMmR4X252dmk1U2QybEVja0F5WGo3VC1IM0JMdzJBZmdBRGhCbHNkQlBjR2xLU3gzb1RNMmcxMzl2aFcyLUJOakZlUnRRQXdiWDFoemF4aEE?oc=5",
     "source": "The Wall Street Journal AI",
     "published": "2026-08-03T01:15:00.000Z"
@@ -79,7 +72,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "A Dire Situation - wsj.com",
+    "title": "A Dire Situation - WSJ",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvZmE1SGUtRWxlOGIzcnZhWFlmNUF0LURTU2pmbnJ1Zno0bjBEN2xFS2Jiem1ZUDQwd2QzYWRmSXREVmx4NWthRnpNX0NjYkNJYjQwR0FCQ2pybWxMRnpWcW1KUQ?oc=5",
     "source": "The Wall Street Journal AI",
     "published": "2026-08-02T14:55:00.000Z"
@@ -90,13 +83,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
     "source": "ScienceDaily Technology",
     "published": "2026-08-02T13:26:11.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Is paying artists enough to convince them to embrace AI?",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
-    "source": "The Verge AI",
-    "published": "2026-08-02T13:00:00.000Z"
   },
   {
     "group": "ai",
@@ -121,17 +107,10 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "EU in talks with OpenAI, Anthropic after rogue AI agent hacks - reuters.com",
+    "title": "EU in talks with OpenAI, Anthropic after rogue AI agent hacks - Reuters",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaFU0cGsyYkR2Q3o5TnhiOW1td0YxUFhHbzFYaHd4WlNsUkFXYTJvTkR0a3hxR252aGZUelV5eENtdXhFZlpfNlNCSjBxbTRXaHpTSGZHWWdjSllxRTdxb0dsMTVLaFJabWpRbjhYQmRMeTY0Z3JmYm1wYjk4Z3N2WkF0OUpjLTRfbW9qOWpBcnFKdThPZzd4T3B6a1pkdkdZdW5BWnI1TFc5QjZnRTZ4aWFDTzdITE9JVm9iMnpUOA?oc=5",
     "source": "Reuters AI",
     "published": "2026-07-31T17:10:16.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "OpenAI aligns safety practices with EU AI Act’s GPAI Code",
-    "url": "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code/",
-    "source": "AI News",
-    "published": "2026-07-31T15:04:25.000Z"
   },
   {
     "group": "ai",
@@ -142,14 +121,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "China's MiniMax releases H3 video model - reuters.com",
+    "title": "China's MiniMax releases H3 video model - Reuters",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNDQ3NVlFdGNsSGlVcmUxZzV3YnVWX1V4bHhYc0xjYk0weFRhQWNCRG9JTjB0TmszWkRLSkxYamx2bHFWUWZnUS1QN05obnBMWTlWUnJfUHRiTllNNTlsWGVfaTBQRml4R0Y3N01USlFBZmo0bFgyRHRZV2htU0tRakxJSjdJSU41UWNPbmljdw?oc=5",
     "source": "Reuters AI",
     "published": "2026-07-31T04:42:00.000Z"
   },
   {
     "group": "ai",
-    "title": "Nvidia partner ChipAgents raises $60 million to accelerate chip design with AI agents - reuters.com",
+    "title": "Nvidia partner ChipAgents raises $60 million to accelerate chip design with AI agents - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRkRHaGJwMjZBLUt2QTBKcTQ2TXJIclVZdjNDSUF6U1d3aFFTa0FtMHIzYXBxNmxRanlKNjA3eG1KYU1uY255d3JhS2dQb0l3dHJUd0ptSk5rSDhGT2xMdlZCVThNMENpMHJYaVZXZjVMMWZRMVlma2MzRER1WlZZMlNSMjRsNWpDYjRZb0hYaENfVks0cVlBMDVBRnJIakdMYUVRTWVmVlk2UDRzT05tZ2RmMVYtb0ttaVFj?oc=5",
     "source": "Reuters AI",
     "published": "2026-07-29T17:01:29.000Z"
