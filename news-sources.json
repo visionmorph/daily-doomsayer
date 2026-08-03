@@ -1,7 +1,7 @@
 {
   "sources": [
     {
-      "group": 2,
+      "group": "ai",
       "name": "TechCrunch AI",
       "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "limit": 3
