@@ -1,9 +1,10 @@
 {
-  "sources": [],
-  "example": {
-    "group": 0,
-    "name": "Publication name",
-    "feed": "https://example.com/rss.xml",
-    "limit": 3
-  }
+  "sources": [
+    {
+      "group": 2,
+      "name": "TechCrunch AI",
+      "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "limit": 3
+    }
+  ]
 }
