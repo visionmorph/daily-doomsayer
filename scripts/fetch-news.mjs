@@ -6,7 +6,9 @@ const config = JSON.parse(await readFile("news-sources.json", "utf8"));
 const articles = [];
 
 for (const source of config.sources) {
-  if (typeof source.group !== "string" || !source.group.trim()) {
+  const group = String(source.group ?? "").trim();
+
+  if (!group) {
     throw new Error(`Invalid group for source: ${source.name || source.feed}`);
   }
 
@@ -20,7 +22,7 @@ for (const source of config.sources) {
       }
 
       articles.push({
-        group: source.group,
+        group,
         title: item.title.trim(),
         url: item.link,
         source: source.name || feed.title || "",
