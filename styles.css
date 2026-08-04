@@ -5,6 +5,11 @@
   --link-primary: #000000;
 }
 
+main > section {
+  width: 100%;
+  max-width: 1600px;
+}
+
 .logo {
   color: var(--text-primary);
   font-family: "Rubik Broken Fax", sans-serif;
@@ -125,11 +130,11 @@
 }
 
 .hero-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 2fr) 1px minmax(0, 1fr);
 }
 
 .hero-image-wrapper {
-  grid-column: span 2;
+  grid-column: auto;
 }
 
 .headline-image {
@@ -155,6 +160,21 @@
 .news-category-cover-link {
   display: block;
   color: var(--link-primary);
+}
+
+.story-image-link {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.story-image-link.has-story-image::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background: rgb(255 0 0 / 50%);
+  mix-blend-mode: exclusion;
 }
 
 .news-category-cover {
