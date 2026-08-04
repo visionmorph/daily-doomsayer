@@ -177,7 +177,7 @@ main > .category-row {
 .story-image-link.has-story-image::after {
   position: absolute;
   inset: 0;
-  z-index: 2;
+  z-index: 4;
   content: "";
   pointer-events: none;
   background: rgb(255 0 0 / 66%);
@@ -221,9 +221,6 @@ main > .category-row {
 .story-image-base {
   position: relative;
   z-index: 0;
-  animation: story-glitch-scale var(--glitch-base-duration, 2400ms)
-    steps(1, end) var(--glitch-base-delay, 0ms) infinite;
-  will-change: transform;
 }
 
 .glitch-image-layer {
@@ -234,9 +231,9 @@ main > .category-row {
   height: 100%;
   object-fit: cover;
   pointer-events: none;
-  opacity: 0;
-  mix-blend-mode: hue;
-  filter: saturate(1.35) contrast(1.1);
+  opacity: 1;
+  clip-path: inset(100% 0 0 0);
+  transform-origin: center;
   will-change: clip-path, transform, opacity;
 }
 
@@ -244,152 +241,17 @@ main > .category-row {
   object-fit: contain;
 }
 
-.glitch-image-layer--top {
-  animation: story-glitch-layer-one var(--glitch-layer-one-duration, 920ms)
-    steps(1, end) var(--glitch-layer-one-delay, 0ms) infinite;
+.glitch-image-layer--first {
+  z-index: 1;
 }
 
-.glitch-image-layer--bottom {
-  animation: story-glitch-layer-two var(--glitch-layer-two-duration, 1370ms)
-    steps(1, end) var(--glitch-layer-two-delay, 0ms) infinite;
+.glitch-image-layer--second {
+  z-index: 2;
 }
 
-@keyframes story-glitch-scale {
-  0%,
-  3%,
-  31%,
-  34%,
-  72%,
-  75%,
-  100% {
-    transform: scale(1) translate(0);
-  }
-
-  1% {
-    transform: scale(1.018) translate(-1px, 1px);
-  }
-
-  2% {
-    transform: scale(1.006) translate(1px, -1px);
-  }
-
-  32% {
-    transform: scale(1.024) translate(1px, 0);
-  }
-
-  33% {
-    transform: scale(1.008) translate(-1px, 0);
-  }
-
-  73% {
-    transform: scale(1.015) translate(0, -1px);
-  }
-
-  74% {
-    transform: scale(1.004) translate(0, 1px);
-  }
-}
-
-@keyframes story-glitch-layer-one {
-  0%,
-  9%,
-  12%,
-  38%,
-  41%,
-  67%,
-  70%,
-  100% {
-    opacity: 0;
-    clip-path: inset(0 0 100% 0);
-    transform: translate(0) scale(1);
-  }
-
-  10% {
-    opacity: 0.8;
-    clip-path: inset(8% 0 76% 0);
-    transform: translate(4px, -1px) scale(1.01);
-  }
-
-  11% {
-    opacity: 0.45;
-    clip-path: inset(44% 0 39% 0);
-    transform: translate(-3px, 1px) scale(1.02);
-  }
-
-  39% {
-    opacity: 0.65;
-    clip-path: inset(71% 0 12% 0);
-    transform: translate(-5px, 0) scale(1.012);
-  }
-
-  40% {
-    opacity: 0.35;
-    clip-path: inset(22% 0 62% 0);
-    transform: translate(2px, 1px) scale(1.005);
-  }
-
-  68% {
-    opacity: 0.75;
-    clip-path: inset(53% 0 32% 0);
-    transform: translate(5px, -1px) scale(1.018);
-  }
-
-  69% {
-    opacity: 0.4;
-    clip-path: inset(4% 0 87% 0);
-    transform: translate(-2px, 0) scale(1.008);
-  }
-}
-
-@keyframes story-glitch-layer-two {
-  0%,
-  17%,
-  20%,
-  49%,
-  52%,
-  82%,
-  85%,
-  100% {
-    opacity: 0;
-    clip-path: inset(100% 0 0 0);
-    transform: translate(0) scale(1);
-  }
-
-  18% {
-    opacity: 0.55;
-    clip-path: inset(62% 0 18% 0);
-    transform: translate(-4px, 1px) scale(1.025);
-  }
-
-  19% {
-    opacity: 0.3;
-    clip-path: inset(14% 0 73% 0);
-    transform: translate(3px, -1px) scale(1.008);
-  }
-
-  50% {
-    opacity: 0.7;
-    clip-path: inset(35% 0 47% 0);
-    transform: translate(5px, 0) scale(1.015);
-  }
-
-  51% {
-    opacity: 0.35;
-    clip-path: inset(79% 0 8% 0);
-    transform: translate(-3px, 1px) scale(1.006);
-  }
-
-  83% {
-    opacity: 0.6;
-    clip-path: inset(5% 0 82% 0);
-    transform: translate(-5px, -1px) scale(1.02);
-  }
-
-  84% {
-    opacity: 0.3;
-    clip-path: inset(58% 0 27% 0);
-    transform: translate(2px, 0) scale(1.01);
-  }
+.glitch-image-layer--blend {
+  z-index: 3;
+  mix-blend-mode: hue;
 }
 
 .category-column-divider {
