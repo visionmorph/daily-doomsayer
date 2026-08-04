@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daily Doomsayer</title>
+    <title>DAILY DOOMSAYER</title>
     <meta name="description" content="A one-page news aggregation front page." />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles.css" />
@@ -39,7 +39,7 @@
               there is only the bottom line
             </div>
             <time id="edition-date" class="banner-primary whitespace-nowrap">
-              Date and time
+              Date
             </time>
             <div class="banner-secondary text-center">
               Believe nothing of what you hear,<br />
@@ -85,7 +85,7 @@
         <div class="hero-image-wrapper flex flex-col gap-4">
           <a
             id="headline-image-link"
-            class="image-slot headline-image"
+            class="image-slot headline-image story-image-link"
             href="#"
             target="_blank"
             rel="noopener noreferrer"
@@ -95,6 +95,8 @@
           </a>
           <div class="h-px w-full bg-black" aria-hidden="true"></div>
         </div>
+
+        <div class="category-column-divider" aria-hidden="true"></div>
 
         <div class="flex flex-col gap-4">
           <section class="news-category">
@@ -152,15 +154,15 @@
         <div class="category-column-divider" aria-hidden="true"></div>
 
         <section class="news-category">
-          <div class="flex flex-col gap-4" data-news-group="offbeat">
+          <div class="flex flex-col gap-4" data-news-group="ai">
             <a class="news-link" href="#">
-              Culture section declared culturally significant
+              Artificial intelligence reshapes another industry
             </a>
             <a class="news-link" href="#">
-              The season’s must-have object is already obsolete
+              Researchers publish another consequential discovery
             </a>
             <a class="news-link" href="#">
-              Critics praise work for being difficult to enjoy
+              Technology companies prepare for the next disruption
             </a>
             <a class="news-link" href="#">Additional news story</a>
             <a class="news-link" href="#">Additional news story</a>
@@ -242,14 +244,16 @@
         const editionDate = document.querySelector("#edition-date");
         const now = new Date();
 
-        editionDate.dateTime = now.toISOString();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, "0");
+        const day = String(now.getDate()).padStart(2, "0");
+
+        editionDate.dateTime = `${year}-${month}-${day}`;
         editionDate.textContent = new Intl.DateTimeFormat(undefined, {
           weekday: "long",
           year: "numeric",
           month: "long",
           day: "numeric",
-          hour: "numeric",
-          minute: "2-digit",
         }).format(now);
       }
 
