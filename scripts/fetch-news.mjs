@@ -310,6 +310,75 @@ function imageFromHtml(html) {
   return match?.[1] || "";
 }
 
+function cleanImageUrl(value, baseUrl) {
+  if (typeof value !== "string" || !value.trim()) {
+    return "";
+  }
+
+  const decodedValue = value
+    .trim()
+    .replace(/&amp;|&#0*38;/gi, "&")
+    .replace(/&quot;|&#0*34;/gi, '"');
+
+  try {
+    return new URL(decodedValue, baseUrl).href;
+  } catch {
+    return "";
+  }
+}
+
+function tagAttribute(tag, attributeName) {
+  const pattern = new RegExp(
+    `${attributeName}\\s*=\\s*(["'])(.*?)\\1`,
+    "i",
+  );
+  return tag.match(pattern)?.[2] || "";
+}
+
+function socialImageFromHtml(html, pageUrl) {
+  const metaTags = html.match(/<meta\b[^>]*>/gi) || [];
+  const preferredNames = [
+    "og:image:secure_url",
+    "og:image",
+    "twitter:image",
+    "twitter:image:src",
+  ];
+
+  for (const preferredName of preferredNames) {
+    for (const tag of metaTags) {
+      const name = (
+        tagAttribute(tag, "property") || tagAttribute(tag, "name")
+      ).toLowerCase();
+
+      if (name === preferredName) {
+        const imageUrl = cleanImageUrl(tagAttribute(tag, "content"), pageUrl);
+
+        if (imageUrl) {
+          return imageUrl;
+        }
+      }
+    }
+  }
+
+  return "";
+}
+
+async function fetchArticleImage(articleUrl) {
+  const response = await fetch(articleUrl, {
+    headers: {
+      "User-Agent": "Daily Doomsayer RSS aggregator",
+      Accept: "text/html,application/xhtml+xml",
+    },
+    redirect: "follow",
+  });
+
+  if (!response.ok) {
+    throw new Error(`Article page returned ${response.status}`);
+  }
+
+  return socialImageFromHtml(await response.text(), response.url || articleUrl);
+}
+
 function extractImage(item) {
   const enclosureImage =
     item.enclosure?.url &&
@@ -317,14 +386,14 @@ function extractImage(item) {
       ? item.enclosure.url
       : "";
 
-  return (
+  return cleanImageUrl(
     enclosureImage ||
-    mediaUrl(item.mediaContent) ||
-    mediaUrl(item.mediaThumbnail) ||
-    imageFromHtml(item.contentEncoded) ||
-    imageFromHtml(item.content) ||
-    imageFromHtml(item.description) ||
-    ""
+      mediaUrl(item.mediaContent) ||
+      mediaUrl(item.mediaThumbnail) ||
+      imageFromHtml(item.contentEncoded) ||
+      imageFromHtml(item.content) ||
+      imageFromHtml(item.description) ||
+      "",
   );
 }
 
@@ -432,6 +501,16 @@ const featuredArticle = uniqueArticles.find((article) => article.group === "ai")
 
 if (featuredArticle) {
   featuredArticle.featured = true;
+
+  if (!featuredArticle.image) {
+    try {
+      featuredArticle.image = await fetchArticleImage(featuredArticle.url);
+    } catch (error) {
+      console.error(
+        `Could not find a headline image for ${featuredArticle.url}: ${error.message}`,
+      );
+    }
+  }
 }
 
 const publishedArticles = uniqueArticles.map(
