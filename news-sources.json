@@ -1,4 +1,12 @@
 {
+  "ranking": {
+    "coverage": 0.3,
+    "titleImpact": 0.2,
+    "sourceAuthority": 0.15,
+    "freshness": 0.15,
+    "feedPosition": 0.1,
+    "novelty": 0.1
+  },
   "sources": [
     {
       "group": "ai",
