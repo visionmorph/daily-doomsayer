@@ -1,7 +1,15 @@
 import { readFile, writeFile } from "node:fs/promises";
 import Parser from "rss-parser";
 
-const parser = new Parser();
+const parser = new Parser({
+  customFields: {
+    item: [
+      ["media:content", "mediaContent", { keepArray: true }],
+      ["media:thumbnail", "mediaThumbnail", { keepArray: true }],
+      ["content:encoded", "contentEncoded"],
+    ],
+  },
+});
 const config = JSON.parse(await readFile("news-sources.json", "utf8"));
 const articles = [];
 
@@ -71,6 +79,56 @@ function titleSimilarity(firstTitle, secondTitle) {
   return sharedTokens / Math.min(firstTokens.size, secondTokens.size);
 }
 
+function mediaUrl(value) {
+  const entries = Array.isArray(value) ? value : [value];
+
+  for (const entry of entries) {
+    if (!entry) {
+      continue;
+    }
+
+    if (typeof entry === "string" && /^https?:\/\//i.test(entry)) {
+      return entry;
+    }
+
+    const attributes = entry.$ || entry;
+    const url = attributes.url || attributes.href;
+
+    if (typeof url === "string" && /^https?:\/\//i.test(url)) {
+      return url;
+    }
+  }
+
+  return "";
+}
+
+function imageFromHtml(html) {
+  if (typeof html !== "string") {
+    return "";
+  }
+
+  const match = html.match(/<img[^>]+src=["']([^"']+)["']/i);
+  return match?.[1] || "";
+}
+
+function extractImage(item) {
+  const enclosureImage =
+    item.enclosure?.url &&
+    (!item.enclosure.type || item.enclosure.type.startsWith("image/"))
+      ? item.enclosure.url
+      : "";
+
+  return (
+    enclosureImage ||
+    mediaUrl(item.mediaContent) ||
+    mediaUrl(item.mediaThumbnail) ||
+    imageFromHtml(item.contentEncoded) ||
+    imageFromHtml(item.content) ||
+    imageFromHtml(item.description) ||
+    ""
+  );
+}
+
 for (const source of config.sources) {
   const group = String(source.group ?? "").trim();
 
@@ -80,7 +138,7 @@ for (const source of config.sources) {
 
   try {
     const feed = await parser.parseURL(source.feed);
-    const limit = Math.max(1, Math.min(Number(source.limit) || 3, 10));
+    const limit = Math.max(1, Math.min(Number(source.limit) || 10, 10));
     const sourceWeight = Math.max(0.1, Math.min(Number(source.weight) || 1, 2));
 
     for (const [feedPosition, item] of feed.items.slice(0, limit).entries()) {
@@ -94,6 +152,7 @@ for (const source of config.sources) {
         url: item.link,
         source: source.name || feed.title || "",
         published: item.isoDate || item.pubDate || "",
+        image: extractImage(item),
         feedPosition,
         sourceWeight,
         candidateCount: limit,
