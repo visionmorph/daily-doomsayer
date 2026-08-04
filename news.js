@@ -1,11 +1,57 @@
 (function loadNewsArticles() {
   const articles = window.DAILY_DOOMSAYER_ARTICLES;
   let glitchImageIndex = 0;
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
   document.querySelectorAll("a.news-link").forEach((link) => {
     link.target = "_blank";
     link.rel = "noopener noreferrer";
   });
+
+  function randomInteger(minimum, maximum) {
+    return Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
+  }
+
+  function applyRandomGlitch(layer, maximumOffset, shouldScale) {
+    const sliceTop = randomInteger(0, 88);
+    const sliceHeight = randomInteger(3, Math.min(28, 100 - sliceTop));
+    const sliceBottom = Math.max(0, 100 - sliceTop - sliceHeight);
+    const horizontalOffset = randomInteger(-maximumOffset, maximumOffset);
+    const scale = shouldScale
+      ? (Math.random() * (1.1 - 0.9) + 0.9).toFixed(2)
+      : 1;
+
+    layer.style.clipPath = `inset(${sliceTop}% 0 ${sliceBottom}% 0)`;
+    layer.style.transform = `translateX(${horizontalOffset}px) scale(${scale})`;
+  }
+
+  function startGlitchLoop(
+    container,
+    layer,
+    { minimumTime, maximumTime, maximumOffset, shouldScale, initialDelay },
+  ) {
+    function updateLayer() {
+      if (!container.isConnected) {
+        return;
+      }
+
+      if (reducedMotion.matches) {
+        layer.style.clipPath = "inset(100% 0 0 0)";
+        layer.style.transform = "none";
+      } else {
+        applyRandomGlitch(layer, maximumOffset, shouldScale);
+      }
+
+      window.setTimeout(
+        updateLayer,
+        reducedMotion.matches
+          ? 1000
+          : randomInteger(minimumTime, maximumTime),
+      );
+    }
+
+    window.setTimeout(updateLayer, initialDelay);
+  }
 
   function addGlitchLayers(container, image) {
     if (!container || !image || container.querySelector(".glitch-image-layer")) {
@@ -13,36 +59,35 @@
     }
 
     const imageIndex = glitchImageIndex;
-    const baseDuration = 2400 + (imageIndex % 5) * 173;
-    const firstLayerDuration = 920 + (imageIndex % 7) * 83;
-    const secondLayerDuration = 1370 + (imageIndex % 6) * 127;
-
-    container.style.setProperty("--glitch-base-duration", `${baseDuration}ms`);
-    container.style.setProperty(
-      "--glitch-layer-one-duration",
-      `${firstLayerDuration}ms`,
-    );
-    container.style.setProperty(
-      "--glitch-layer-two-duration",
-      `${secondLayerDuration}ms`,
-    );
-    container.style.setProperty(
-      "--glitch-base-delay",
-      `${-((imageIndex * 211) % baseDuration)}ms`,
-    );
-    container.style.setProperty(
-      "--glitch-layer-one-delay",
-      `${-((imageIndex * 347) % firstLayerDuration)}ms`,
-    );
-    container.style.setProperty(
-      "--glitch-layer-two-delay",
-      `${-((imageIndex * 503) % secondLayerDuration)}ms`,
-    );
     glitchImageIndex += 1;
 
     image.classList.add("story-image-base");
 
-    ["top", "bottom"].forEach((position) => {
+    const layerSettings = [
+      {
+        name: "first",
+        minimumTime: 10,
+        maximumTime: 100,
+        maximumOffset: 16,
+        shouldScale: false,
+      },
+      {
+        name: "second",
+        minimumTime: 10,
+        maximumTime: 300,
+        maximumOffset: 40,
+        shouldScale: true,
+      },
+      {
+        name: "blend",
+        minimumTime: 10,
+        maximumTime: 300,
+        maximumOffset: 40,
+        shouldScale: true,
+      },
+    ];
+
+    layerSettings.forEach((settings, layerIndex) => {
       const layer = image.cloneNode(false);
 
       layer.removeAttribute("id");
@@ -50,8 +95,17 @@
       layer.alt = "";
       layer.setAttribute("aria-hidden", "true");
       layer.classList.remove("story-image-base");
-      layer.classList.add("glitch-image-layer", `glitch-image-layer--${position}`);
+      layer.classList.add(
+        "glitch-image-layer",
+        `glitch-image-layer--${settings.name}`,
+      );
       container.append(layer);
+
+      startGlitchLoop(container, layer, {
+        ...settings,
+        initialDelay:
+          ((imageIndex + 1) * (layerIndex + 1) * 73) % settings.maximumTime,
+      });
     });
   }
 
