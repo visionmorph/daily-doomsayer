@@ -39,11 +39,6 @@
       "feed": "https://venturebeat.com/category/ai/feed/"
     },
     {
-      "group": "offbeat",
-      "name": "ScienceDaily Strange & Offbeat",
-      "feed": "https://www.sciencedaily.com/rss/strange_offbeat.xml"
-    },
-    {
       "group": "ai",
       "name": "ScienceDaily Technology",
       "feed": "https://www.sciencedaily.com/rss/top/technology.xml"
