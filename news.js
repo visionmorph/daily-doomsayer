@@ -34,6 +34,7 @@
       headlineImage.src = featuredArticle.image;
       headlineImage.alt = featuredArticle.title;
       headlineImage.hidden = false;
+      headlineImageLink?.classList.add("has-story-image");
 
       if (headlineImagePlaceholder) {
         headlineImagePlaceholder.hidden = true;
@@ -71,7 +72,8 @@
       const coverLink = document.createElement("a");
       const coverImage = document.createElement("img");
 
-      coverLink.className = "news-category-cover-link";
+      coverLink.className =
+        "news-category-cover-link story-image-link has-story-image";
       coverLink.href = coverArticle.url;
       coverLink.target = "_blank";
       coverLink.rel = "noopener noreferrer";
