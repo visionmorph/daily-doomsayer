@@ -50,13 +50,85 @@ const STOP_WORDS = new Set([
   "with",
 ]);
 
+const DEFAULT_RANKING_WEIGHTS = {
+  coverage: 0.3,
+  titleImpact: 0.2,
+  sourceAuthority: 0.15,
+  freshness: 0.15,
+  feedPosition: 0.1,
+  novelty: 0.1,
+};
+
+const TITLE_SIGNAL_PATTERNS = {
+  urgency: [
+    /\b(kill(?:ed|er|ing|s)?|dead|death|fatal)\b/i,
+    /\b(crisis|collapse|crash(?:ed|es)?|disaster|emergency)\b/i,
+    /\b(danger(?:ous)?|risk(?:s|y)?|threat(?:en|ened|ens|s)?)\b/i,
+    /\b(attack(?:ed|s)?|breach(?:ed|es)?|hack(?:ed|er|ers|ing|s)?)\b/i,
+    /\b(ban(?:ned|s)?|block(?:ed|s)?|shutdown|outage)\b/i,
+    /\b(fail(?:ed|ing|s|ure)?|broken|worse|warning|warns?)\b/i,
+    /\b(war|weapon(?:s)?|surveillance|layoffs?|fired)\b/i,
+  ],
+  consequence: [
+    /(?:\$|\b(?:million|billion|trillion|revenue|profit|quarter|market|stock)\b)/i,
+    /\b(job(?:s)?|worker(?:s)?|employment|layoffs?|economy|economic)\b/i,
+    /\b(health|medical|patient(?:s)?|doctor(?:s)?|hospital(?:s)?|disease)\b/i,
+    /\b(privacy|security|safety|data|identity)\b/i,
+    /\b(government|congress|court|judge|law|legal|regulator(?:s|y)?)\b/i,
+    /\b(ceo|president|minister|agency|company|industry)\b/i,
+    /(?:\b\d+(?:\.\d+)?\s*(?:%|percent)\b|%)/i,
+  ],
+  conflict: [
+    /\b(accus(?:e|ed|es|ing)|attack(?:ed|s)?|blame(?:d|s)?|calls?)\b/i,
+    /\b(sue(?:d|s)?|lawsuit|probe|investigat(?:e|ed|es|ion))\b/i,
+    /\b(ban(?:ned|s)?|block(?:ed|s)?|reject(?:ed|s)?|def(?:y|ied|ies))\b/i,
+    /\b(clash(?:ed|es)?|battle(?:d|s)?|fight(?:ing|s)?|versus|vs\.?)\b/i,
+    /\b(slam(?:med|s)?|criticiz(?:e|ed|es)|condemn(?:ed|s)?)\b/i,
+  ],
+  surprise: [
+    /\b(secret(?:s)?|hidden|leak(?:ed|s)?|expos(?:e|ed|es))\b/i,
+    /\b(shock(?:ed|ing|s)?|surpris(?:e|ed|es|ing)|unexpected(?:ly)?)\b/i,
+    /\b(suddenly|quietly|actually|still|already)\b/i,
+    /\b(admit(?:s|ted)?|reveal(?:ed|s)?|reverse(?:d|s)?|abandon(?:ed|s)?)\b/i,
+    /\b(first|last|never|biggest|smallest|record|historic)\b/i,
+    /\b(why|how|what happens|here(?:'|’)?s)\b/i,
+  ],
+};
+
+function normalizedRankingWeights(configuredWeights = {}) {
+  const weights = Object.fromEntries(
+    Object.entries(DEFAULT_RANKING_WEIGHTS).map(([name, fallback]) => {
+      const configured = Number(configuredWeights[name]);
+      return [name, Number.isFinite(configured) && configured >= 0 ? configured : fallback];
+    }),
+  );
+  const total = Object.values(weights).reduce((sum, weight) => sum + weight, 0);
+
+  if (total === 0) {
+    return DEFAULT_RANKING_WEIGHTS;
+  }
+
+  return Object.fromEntries(
+    Object.entries(weights).map(([name, weight]) => [name, weight / total]),
+  );
+}
+
+const rankingWeights = normalizedRankingWeights(config.ranking);
+
+function normalizedTitleWords(title) {
+  return title
+    .normalize("NFKD")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s]/gu, " ")
+    .split(/\s+/)
+    .filter(Boolean);
+}
+
 function titleTokens(title) {
   return new Set(
-    title
-      .toLowerCase()
-      .replace(/[^a-z0-9\s]/g, " ")
-      .split(/\s+/)
-      .filter((word) => word.length > 2 && !STOP_WORDS.has(word)),
+    normalizedTitleWords(title).filter(
+      (word) => word.length > 2 && !STOP_WORDS.has(word),
+    ),
   );
 }
 
@@ -77,6 +149,133 @@ function titleSimilarity(firstTitle, secondTitle) {
   }
 
   return sharedTokens / Math.min(firstTokens.size, secondTokens.size);
+}
+
+function patternScore(title, patterns) {
+  const matches = patterns.filter((pattern) => pattern.test(title)).length;
+  return Math.min(matches / 2, 1);
+}
+
+function namedEntityScore(title) {
+  const words = title.match(/[\p{L}\p{N}][\p{L}\p{N}'’.-]*/gu) || [];
+  let entities = 0;
+
+  words.forEach((word, index) => {
+    if (index === 0 || STOP_WORDS.has(word.toLowerCase())) {
+      return;
+    }
+
+    const isAcronym = word.length > 1 && word === word.toUpperCase();
+    const beginsWithCapital = /^\p{Lu}/u.test(word);
+
+    if (isAcronym || beginsWithCapital) {
+      entities += 1;
+    }
+  });
+
+  return Math.min(entities / 4, 1);
+}
+
+function specificityScore(title, entityScore) {
+  let score = entityScore * 0.35;
+
+  if (/(?:\$|€|£|\b\d+(?:\.\d+)?\b|%)/u.test(title)) {
+    score += 0.4;
+  }
+
+  if (/(?:["“][^"”]+["”]|‘[^’]+’)/u.test(title)) {
+    score += 0.25;
+  }
+
+  if (/[:—–]/u.test(title)) {
+    score += 0.1;
+  }
+
+  return Math.min(score, 1);
+}
+
+function clickbaitPenalty(title) {
+  let penalty = 0;
+
+  if (/[!?]{2,}/u.test(title)) {
+    penalty += 0.1;
+  }
+
+  if (/\b(you won(?:'|’)t believe|what happens next|this one trick)\b/i.test(title)) {
+    penalty += 0.15;
+  }
+
+  if (normalizedTitleWords(title).length < 5) {
+    penalty += 0.1;
+  }
+
+  return Math.min(penalty, 0.25);
+}
+
+function calculateTitleImpact(title) {
+  const urgency = patternScore(title, TITLE_SIGNAL_PATTERNS.urgency);
+  const consequence = patternScore(title, TITLE_SIGNAL_PATTERNS.consequence);
+  const conflict = patternScore(title, TITLE_SIGNAL_PATTERNS.conflict);
+  const surprise = patternScore(title, TITLE_SIGNAL_PATTERNS.surprise);
+  const namedEntities = namedEntityScore(title);
+  const specificity = specificityScore(title, namedEntities);
+  const penalty = clickbaitPenalty(title);
+  const score = Math.max(
+    0,
+    urgency * 0.24 +
+      consequence * 0.22 +
+      conflict * 0.18 +
+      surprise * 0.14 +
+      specificity * 0.12 +
+      namedEntities * 0.1 -
+      penalty,
+  );
+  const reasons = [];
+
+  if (urgency > 0) reasons.push("urgency or risk");
+  if (consequence > 0) reasons.push("real-world consequences");
+  if (conflict > 0) reasons.push("conflict");
+  if (surprise > 0) reasons.push("surprise or reversal");
+  if (specificity >= 0.35) reasons.push("specific details");
+  if (namedEntities >= 0.5) reasons.push("recognizable entities");
+  if (penalty > 0) reasons.push("clickbait penalty");
+
+  return { score: Math.min(score, 1), reasons };
+}
+
+function calculateNoveltyScores(articleList) {
+  const documentFrequency = new Map();
+
+  for (const article of articleList) {
+    for (const token of titleTokens(article.title)) {
+      documentFrequency.set(token, (documentFrequency.get(token) || 0) + 1);
+    }
+  }
+
+  const rawScores = articleList.map((article) => {
+    const tokens = [...titleTokens(article.title)];
+
+    if (tokens.length === 0) {
+      return 0;
+    }
+
+    return (
+      tokens.reduce((sum, token) => {
+        const frequency = documentFrequency.get(token) || 1;
+        return sum + Math.log((articleList.length + 1) / (frequency + 1));
+      }, 0) / tokens.length
+    );
+  });
+  const minimum = Math.min(...rawScores);
+  const maximum = Math.max(...rawScores);
+
+  return rawScores.map((score) =>
+    maximum > minimum ? (score - minimum) / (maximum - minimum) : 0.5,
+  );
+}
+
+function roundedScore(score) {
+  return Number(score.toFixed(4));
 }
 
 function mediaUrl(value) {
@@ -168,8 +367,9 @@ const uniqueArticles = Array.from(
 );
 
 const now = Date.now();
+const noveltyScores = calculateNoveltyScores(uniqueArticles);
 
-for (const article of uniqueArticles) {
+for (const [articleIndex, article] of uniqueArticles.entries()) {
   const relatedSources = new Set([article.source]);
 
   for (const candidate of uniqueArticles) {
@@ -193,15 +393,30 @@ for (const article of uniqueArticles) {
     article.candidateCount > 1
       ? 1 - article.feedPosition / (article.candidateCount - 1)
       : 1;
+  const titleImpact = calculateTitleImpact(article.title);
+  const noveltyScore = noveltyScores[articleIndex];
 
   article.coverageSources = relatedSources.size;
-  article.score = Number(
-    (
-      coverageScore * 0.45 +
-      sourceScore * 0.25 +
-      freshnessScore * 0.2 +
-      positionScore * 0.1
-    ).toFixed(4),
+  article.ranking = {
+    coverage: roundedScore(coverageScore),
+    titleImpact: roundedScore(titleImpact.score),
+    sourceAuthority: roundedScore(sourceScore),
+    freshness: roundedScore(freshnessScore),
+    feedPosition: roundedScore(positionScore),
+    novelty: roundedScore(noveltyScore),
+  };
+  article.rankingReasons = [
+    ...titleImpact.reasons,
+    ...(noveltyScore >= 0.65 ? ["unusual language in the current story batch"] : []),
+    ...(relatedSources.size > 1 ? ["covered by multiple sources"] : []),
+  ];
+  article.score = roundedScore(
+    coverageScore * rankingWeights.coverage +
+      titleImpact.score * rankingWeights.titleImpact +
+      sourceScore * rankingWeights.sourceAuthority +
+      freshnessScore * rankingWeights.freshness +
+      positionScore * rankingWeights.feedPosition +
+      noveltyScore * rankingWeights.novelty,
   );
 }
 
