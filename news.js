@@ -1,5 +1,6 @@
 (function loadNewsArticles() {
   const articles = window.DAILY_DOOMSAYER_ARTICLES;
+  let glitchImageIndex = 0;
 
   document.querySelectorAll("a.news-link").forEach((link) => {
     link.target = "_blank";
@@ -10,6 +11,34 @@
     if (!container || !image || container.querySelector(".glitch-image-layer")) {
       return;
     }
+
+    const imageIndex = glitchImageIndex;
+    const baseDuration = 2400 + (imageIndex % 5) * 173;
+    const firstLayerDuration = 920 + (imageIndex % 7) * 83;
+    const secondLayerDuration = 1370 + (imageIndex % 6) * 127;
+
+    container.style.setProperty("--glitch-base-duration", `${baseDuration}ms`);
+    container.style.setProperty(
+      "--glitch-layer-one-duration",
+      `${firstLayerDuration}ms`,
+    );
+    container.style.setProperty(
+      "--glitch-layer-two-duration",
+      `${secondLayerDuration}ms`,
+    );
+    container.style.setProperty(
+      "--glitch-base-delay",
+      `${-((imageIndex * 211) % baseDuration)}ms`,
+    );
+    container.style.setProperty(
+      "--glitch-layer-one-delay",
+      `${-((imageIndex * 347) % firstLayerDuration)}ms`,
+    );
+    container.style.setProperty(
+      "--glitch-layer-two-delay",
+      `${-((imageIndex * 503) % secondLayerDuration)}ms`,
+    );
+    glitchImageIndex += 1;
 
     image.classList.add("story-image-base");
 
