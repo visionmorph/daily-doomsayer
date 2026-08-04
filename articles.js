@@ -5,202 +5,207 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "title": "Scientists went looking for giant trees in Taiwan and found a lost world",
     "url": "https://www.sciencedaily.com/releases/2026/08/260802223431.htm",
     "source": "ScienceDaily Strange & Offbeat",
-    "published": "2026-08-04T01:18:59.000Z"
+    "published": "2026-08-04T01:18:59.000Z",
+    "coverageSources": 1,
+    "score": 0.3894
   },
   {
     "group": "ai",
-    "title": "Why Governing World Models Is AI's Next Big Policy Challenge - Stanford HAI",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQUExWUVqZURRbnlyNXhrRjdEcU1lX0JnVHAxdVFRTzhuMUw4YTRaeDJNS2xnclQyblFrb19kOVZkN0ZFN01ZVEdjc0RoLUJQUDdDWk8wMmkwY3AwQ1RCTFhxRG5PRGpsMS1qNWZXWDlLclo1Z0NYeGxTU0FSNGVOMHVIY28ybTBGV2NqREYwYVQ5VTg?oc=5",
-    "source": "Stanford HAI",
-    "published": "2026-08-04T00:10:45.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Artificial intelligence: Why firms are struggling to set prices - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tQzBPOW4tVDhjVUJpSmxEQVdJcHVnMlVHODVZRXpnckFpMmdyNXdCNHR3ZW5VWXJlOS1hMVpqQTluTzc5bXo2c2hNMlB5QS03WWRGbm5mOVFJUQ?oc=5",
-    "source": "BBC AI",
-    "published": "2026-08-03T23:21:10.000Z"
+    "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+    "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-03T23:19:50.000Z",
+    "coverageSources": 1,
+    "score": 0.3806,
+    "featured": true
   },
   {
     "group": "ai",
     "title": "Did an AI Music App Just Snitch on the Song of the Summer?",
     "url": "https://www.wired.com/story/ai-music-app-treblo-just-snitched-on-rubberz-song-of-the-summer/",
     "source": "WIRED AI",
-    "published": "2026-08-03T22:27:46.000Z"
+    "published": "2026-08-03T22:27:46.000Z",
+    "coverageSources": 1,
+    "score": 0.3768
+  },
+  {
+    "group": "ai",
+    "title": "Alexander Rakhlin named director of  the MIT Statistics and Data Science Center",
+    "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+    "source": "MIT News AI",
+    "published": "2026-08-03T19:50:00.000Z",
+    "coverageSources": 1,
+    "score": 0.3662
   },
   {
     "group": "ai",
     "title": "Europe’s AI labeling and transparency rules are now in effect",
     "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
     "source": "The Verge AI",
-    "published": "2026-08-03T17:38:45.000Z"
+    "published": "2026-08-03T17:38:45.000Z",
+    "coverageSources": 1,
+    "score": 0.3578
   },
   {
     "group": "ai",
     "title": "EU AI Act Article 50 transparency rules enter force",
     "url": "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force/",
     "source": "AI News",
-    "published": "2026-08-03T16:09:25.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Moonquakes could reveal hidden water beneath the lunar surface",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260802223420.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T12:32:07.000Z"
+    "published": "2026-08-03T16:09:25.000Z",
+    "coverageSources": 1,
+    "score": 0.3524
   },
   {
     "group": "ai",
     "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
     "url": "https://www.sciencedaily.com/releases/2026/08/260802223422.htm",
     "source": "ScienceDaily Technology",
-    "published": "2026-08-03T11:58:59.000Z"
+    "published": "2026-08-03T11:58:59.000Z",
+    "coverageSources": 1,
+    "score": 0.3385
+  },
+  {
+    "group": "ai",
+    "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+    "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-03T20:00:00.000Z",
+    "coverageSources": 1,
+    "score": 0.3168
+  },
+  {
+    "group": "ai",
+    "title": "Moonquakes could reveal hidden water beneath the lunar surface",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260802223420.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T12:32:07.000Z",
+    "coverageSources": 1,
+    "score": 0.2903
   },
   {
     "group": "ai",
     "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
     "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
     "source": "The Verge AI",
-    "published": "2026-08-03T11:01:11.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "The Morning Risk Report: Trump Adds to China Forced Labor Blacklist - WSJ",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeERCSWI2U1ViUHBZcjEtVHJHekFsaXp6Z2pVLTlHWXBGdmlHMWRKWjB3Wkw5SWhqTkpaSXBUaTdzM0tDOXlKR1N3cjkwVDlVRm1CUjM5c2Q1OUhCRzVuOUIwaGR5endXbjN6Wnl4cjRtNXFoYV8waDFRRHlCbXdOM1NnUU0wQ0ZhU0VDczJiRXNjejBJbzh6dDJWQWhVdnNLM2tWWDVB?oc=5",
-    "source": "The Wall Street Journal AI",
-    "published": "2026-08-03T10:45:00.000Z"
+    "published": "2026-08-03T11:01:11.000Z",
+    "coverageSources": 1,
+    "score": 0.2855
   },
   {
     "group": "ai",
     "title": "AI Conquered Coding. Fast Food Is Next",
     "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
     "source": "WIRED AI",
-    "published": "2026-08-03T10:00:00.000Z"
+    "published": "2026-08-03T10:00:00.000Z",
+    "coverageSources": 1,
+    "score": 0.2824
   },
   {
     "group": "ai",
     "title": "Why biological data matters more in AI drug discovery",
     "url": "https://www.artificialintelligence-news.com/news/gsk-relation-therapeutics-ai-drug-discovery-biological-data/",
     "source": "AI News",
-    "published": "2026-08-03T10:00:00.000Z"
+    "published": "2026-08-03T10:00:00.000Z",
+    "coverageSources": 1,
+    "score": 0.2824
+  },
+  {
+    "group": "ai",
+    "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+    "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-03T19:28:57.000Z",
+    "coverageSources": 1,
+    "score": 0.2648
   },
   {
     "group": "ai",
     "title": "The ‘Guardrail Guy’ Went Viral for Posting About Flock Cameras. Then Someone Destroyed Them",
     "url": "https://www.wired.com/story/flock-cameras-guardrail-guy-advocacy-damage-people-dont-like-alprs/",
     "source": "WIRED AI",
-    "published": "2026-08-03T09:30:00.000Z"
-  },
-  {
-    "group": "offbeat",
-    "title": "Two deadly flowers could inspire powerful new medicines",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042818.htm",
-    "source": "ScienceDaily Strange & Offbeat",
-    "published": "2026-08-03T05:51:39.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "German Robotics Startup Agile Robots Set to Double Revenue This Year - WSJ",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTjVvZkVKbDRZaTBMYlBBRlNzb1FZdkhDRTRKQ25nTUU1ODVJMEx4Z3AwZnFCS1ZKc2Yyd0t3U3RCV3VNZUZJTzRzYzFkNFlzQ1NsellQT2EzMmR4X252dmk1U2QybEVja0F5WGo3VC1IM0JMdzJBZmdBRGhCbHNkQlBjR2xLU3gzb1RNMmcxMzl2aFcyLUJOakZlUnRRQXdiWDFoemF4aEE?oc=5",
-    "source": "The Wall Street Journal AI",
-    "published": "2026-08-03T01:15:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-    "source": "The Verge AI",
-    "published": "2026-08-02T19:36:08.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Dark matter’s secret force does the opposite of what scientists expected",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-02T13:26:11.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "AI Images Are Everywhere. Here’s What They Do to Our Brains, and What We Can Do. - WSJ",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tQmdLaE9EYUNjNFdXdElFRS1Lckt2Q3U3RzBCTV9aNGkxNzdMNHdackdGUjVuVG5OUkxXNGRnNWxLdUFwWW5wR0VuNEF2aFl5VFlxVWEwMGJCLWlmcUF4Rmw1RERfQkVpM2xfc0xjeVRfOW5nblN5RQ?oc=5",
-    "source": "The Wall Street Journal AI",
-    "published": "2026-08-02T13:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Google withdraws new Earth AI tool after warnings over misinformation risks - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1adTR6blFZc3dnaHBqN0V6UmdEbXZrbEJYZVVRWl9LclNQRUc3QnY4ZUNUbk9fbWU5c1ozQUE0UkdhOWwtZlVua21aenFzRzRpeUhlYUpDLUgtdw?oc=5",
-    "source": "BBC AI",
-    "published": "2026-07-31T19:39:22.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "EU in talks with OpenAI, Anthropic after rogue AI agent hacks - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaFU0cGsyYkR2Q3o5TnhiOW1td0YxUFhHbzFYaHd4WlNsUkFXYTJvTkR0a3hxR252aGZUelV5eENtdXhFZlpfNlNCSjBxbTRXaHpTSGZHWWdjSllxRTdxb0dsMTVLaFJabWpRbjhYQmRMeTY0Z3JmYm1wYjk4Z3N2WkF0OUpjLTRfbW9qOWpBcnFKdThPZzd4T3B6a1pkdkdZdW5BWnI1TFc5QjZnRTZ4aWFDTzdITE9JVm9iMnpUOA?oc=5",
-    "source": "Reuters AI",
-    "published": "2026-07-31T17:10:16.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "OpenAI aligns safety practices with EU AI Act’s GPAI Code",
-    "url": "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code/",
-    "source": "AI News",
-    "published": "2026-07-31T15:04:25.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "China's MiniMax releases H3 video model - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNDQ3NVlFdGNsSGlVcmUxZzV3YnVWX1V4bHhYc0xjYk0weFRhQWNCRG9JTjB0TmszWkRLSkxYamx2bHFWUWZnUS1QN05obnBMWTlWUnJfUHRiTllNNTlsWGVfaTBQRml4R0Y3N01USlFBZmo0bFgyRHRZV2htU0tRakxJSjdJSU41UWNPbmljdw?oc=5",
-    "source": "Reuters AI",
-    "published": "2026-07-31T04:42:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Nvidia partner ChipAgents raises $60 million to accelerate chip design with AI agents - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRkRHaGJwMjZBLUt2QTBKcTQ2TXJIclVZdjNDSUF6U1d3aFFTa0FtMHIzYXBxNmxRanlKNjA3eG1KYU1uY255d3JhS2dQb0l3dHJUd0ptSk5rSDhGT2xMdlZCVThNMENpMHJYaVZXZjVMMWZRMVlma2MzRER1WlZZMlNSMjRsNWpDYjRZb0hYaENfVks0cVlBMDVBRnJIakdMYUVRTWVmVlk2UDRzT05tZ2RmMVYtb0ttaVFj?oc=5",
-    "source": "Reuters AI",
-    "published": "2026-07-29T17:01:29.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "The Complexities of Governing Mental Health AI - Stanford HAI",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWnVxcElJMlZGQUltZlQ2bTN1bzFpUkhXLUFNNXZnNFpkV1FZNmg0QWNfbWtTenc3U3hVVHpNX0I2QWVpbDJCaDk0NDhFZzl3SW5PcWdsTnUwTndmVXV3S0FqX3RFbnQ2TjVvX1ppV1NFQlMxYTRMRWhhMm95aDl0VDV3?oc=5",
-    "source": "Stanford HAI",
-    "published": "2026-07-24T18:48:45.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "How AI Is Helping States Cut Through Decades of Red Tape - Stanford HAI",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbTcyWWNObWdWZ09EMEdHZzc5dHpWcE1JNnVFTmxUTmQzMFR5R2lobHRkMnE0LV9qemFVQVRCOTd0ckpFZVZMLU9FZ08tMDBMM1hSU0x3VDBNZVc0czVnb2xtakhKWTAxWDJZcExOOWRob3U1UWFXeFhyQzNjd3o1TWgxY1BzTzNJVjdZU2NVRQ?oc=5",
-    "source": "Stanford HAI",
-    "published": "2026-07-23T07:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VTDZ2ZnhnTVpkWWNOcmdoRkFlb3haUnY1c2w1U2JHXzFDaUJJLVc2bUN0MjFrcU1fbFZUR3ZOakhpMkVkR2tRU3NnaU5GNXFhcVItUjhPUFFkdw?oc=5",
-    "source": "BBC AI",
-    "published": "2026-07-22T07:00:00.000Z"
+    "published": "2026-08-03T09:30:00.000Z",
+    "coverageSources": 1,
+    "score": 0.2309
   },
   {
     "group": "ai",
     "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
     "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
     "source": "VentureBeat AI",
-    "published": "2026-05-19T17:45:00.000Z"
+    "published": "2026-05-19T17:45:00.000Z",
+    "coverageSources": 1,
+    "score": 0.225
+  },
+  {
+    "group": "offbeat",
+    "title": "Two deadly flowers could inspire powerful new medicines",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042818.htm",
+    "source": "ScienceDaily Strange & Offbeat",
+    "published": "2026-08-03T05:51:39.000Z",
+    "coverageSources": 1,
+    "score": 0.2207
+  },
+  {
+    "group": "ai",
+    "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+    "source": "The Verge AI",
+    "published": "2026-08-02T19:36:08.000Z",
+    "coverageSources": 1,
+    "score": 0.197
+  },
+  {
+    "group": "ai",
+    "title": "Dark matter’s secret force does the opposite of what scientists expected",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-02T13:26:11.000Z",
+    "coverageSources": 1,
+    "score": 0.1857
+  },
+  {
+    "group": "ai",
+    "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
+    "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
+    "source": "MIT News AI",
+    "published": "2026-07-30T21:00:00.000Z",
+    "coverageSources": 1,
+    "score": 0.1851
   },
   {
     "group": "ai",
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
     "source": "VentureBeat AI",
-    "published": "2026-01-22T14:00:00.000Z"
+    "published": "2026-01-22T14:00:00.000Z",
+    "coverageSources": 1,
+    "score": 0.175
+  },
+  {
+    "group": "ai",
+    "title": "OpenAI aligns safety practices with EU AI Act’s GPAI Code",
+    "url": "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code/",
+    "source": "AI News",
+    "published": "2026-07-31T15:04:25.000Z",
+    "coverageSources": 1,
+    "score": 0.1417
+  },
+  {
+    "group": "ai",
+    "title": "Connecting research to policy on Capitol Hill",
+    "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
+    "source": "MIT News AI",
+    "published": "2026-07-30T20:35:00.000Z",
+    "coverageSources": 1,
+    "score": 0.135
   },
   {
     "group": "ai",
     "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
     "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
     "source": "VentureBeat AI",
-    "published": "2026-01-19T14:00:00.000Z"
+    "published": "2026-01-19T14:00:00.000Z",
+    "coverageSources": 1,
+    "score": 0.125
   }
 ];
