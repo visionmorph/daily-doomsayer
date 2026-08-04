@@ -8,6 +8,37 @@
     link.rel = "noopener noreferrer";
   });
 
+  function doomIndexValue(article) {
+    const score = Number(article?.score);
+
+    if (!Number.isFinite(score)) {
+      return null;
+    }
+
+    return Math.max(0, Math.min(score * 100, 100));
+  }
+
+  function doomClassification(value) {
+    if (value < 20) return "UNEASY";
+    if (value < 40) return "OMINOUS";
+    if (value < 60) return "ALARMING";
+    if (value < 80) return "DIRE";
+    return "CATASTROPHIC";
+  }
+
+  function compactDoomIndex(article) {
+    const value = doomIndexValue(article);
+    return value === null ? "" : `[${value.toFixed(2)}]`;
+  }
+
+  function fullDoomIndex(article) {
+    const value = doomIndexValue(article);
+
+    return value === null
+      ? ""
+      : `[DOOM INDEX ${value.toFixed(2)}/${doomClassification(value)}]`;
+  }
+
   function randomInteger(minimum, maximum) {
     return Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
   }
@@ -118,6 +149,7 @@
   if (featuredArticle) {
     const headlineLink = document.querySelector("#headline-link");
     const headlineTitle = document.querySelector("#headline-title");
+    const headlineDoomIndex = document.querySelector("#headline-doom-index");
     const headlineImageLink = document.querySelector("#headline-image-link");
     const headlineImage = document.querySelector("#headline-image");
     const headlineImagePlaceholder = document.querySelector(
@@ -127,6 +159,10 @@
     if (headlineLink && headlineTitle) {
       headlineLink.href = featuredArticle.url;
       headlineTitle.textContent = featuredArticle.title;
+    }
+
+    if (headlineDoomIndex) {
+      headlineDoomIndex.textContent = fullDoomIndex(featuredArticle);
     }
 
     if (headlineImageLink) {
@@ -199,7 +235,10 @@
         return;
       }
 
-      link.textContent = article.title;
+      const doomIndex = compactDoomIndex(article);
+      link.textContent = doomIndex
+        ? `${article.title} ${doomIndex}`
+        : article.title;
       link.href = article.url;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
