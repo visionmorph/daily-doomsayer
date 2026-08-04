@@ -100,8 +100,19 @@ main > .category-row {
 }
 
 .headline-link {
+  display: block;
   color: var(--text-primary);
   text-decoration: none;
+}
+
+.headline-doom-index {
+  color: var(--text-primary);
+  font-family: "Cossette Titre", serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0;
+  text-transform: uppercase;
 }
 
 .headline-link:hover,
