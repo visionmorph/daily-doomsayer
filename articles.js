@@ -2,26 +2,50 @@
 window.DAILY_DOOMSAYER_ARTICLES = [
   {
     "group": "ai",
-    "title": "How an OpenAI influencer trip backfired",
-    "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
-    "source": "The Verge AI",
-    "published": "2026-08-04T17:46:41.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-04-at-2.13.49-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 2,
+    "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+    "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T19:28:49.000Z",
+    "image": "",
+    "coverageSources": 1,
     "ranking": {
-      "coverage": 0.3333,
-      "titleImpact": 0.1055,
+      "coverage": 0,
+      "titleImpact": 0.192,
       "sourceAuthority": 0.5,
-      "freshness": 0.9542,
-      "feedPosition": 1,
-      "novelty": 0.3427
+      "freshness": 0.9865,
+      "feedPosition": 0.8889,
+      "novelty": 0.8656
     },
     "rankingReasons": [
+      "real-world consequences",
       "surprise or reversal",
-      "covered by multiple sources"
+      "unusual language in the current story batch"
     ],
-    "score": 0.4735,
+    "score": 0.4368,
     "featured": true
+  },
+  {
+    "group": "ai",
+    "title": "Anthropic signs $10 billion deal with AI cloud startup Volta",
+    "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T19:48:40.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.229,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9956,
+      "feedPosition": 1,
+      "novelty": 0.5726
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.4274
   },
   {
     "group": "ai",
@@ -35,7 +59,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9825,
+      "freshness": 0.9689,
       "feedPosition": 1,
       "novelty": 1
     },
@@ -43,7 +67,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.4224
+    "score": 0.4203
   },
   {
     "group": "ai",
@@ -57,7 +81,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7904,
+      "freshness": 0.7795,
       "feedPosition": 1,
       "novelty": 1
     },
@@ -66,28 +90,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.422
-  },
-  {
-    "group": "ai",
-    "title": "Spotify expands AI remix and covers project with Merlin partnership",
-    "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T15:50:06.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.904,
-      "feedPosition": 1,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.4177
+    "score": 0.4203
   },
   {
     "group": "ai",
@@ -101,7 +104,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.184,
       "sourceAuthority": 0.5,
-      "freshness": 0.7795,
+      "freshness": 0.7687,
       "feedPosition": 0.7778,
       "novelty": 1
     },
@@ -110,56 +113,50 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4065
+    "score": 0.4049
   },
   {
     "group": "ai",
-    "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
-    "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T23:19:50.000Z",
-    "image": "",
+    "title": "How an OpenAI influencer trip backfired",
+    "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
+    "source": "The Verge AI",
+    "published": "2026-08-04T17:46:41.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-04-at-2.13.49-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.602,
+      "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.5716,
-      "feedPosition": 0.3333,
-      "novelty": 0.7572
+      "freshness": 0.941,
+      "feedPosition": 1,
+      "novelty": 0.6553
     },
     "rankingReasons": [
-      "urgency or risk",
-      "real-world consequences",
-      "conflict",
-      "specific details",
-      "recognizable entities",
+      "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3902
+    "score": 0.4028
   },
   {
     "group": "ai",
-    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "title": "Spotify expands AI remix and covers project with Merlin partnership",
+    "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
     "source": "TechCrunch AI",
-    "published": "2026-08-04T15:20:06.000Z",
+    "published": "2026-08-04T15:50:06.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.161,
+      "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.8916,
+      "freshness": 0.8915,
       "feedPosition": 0.7778,
-      "novelty": 0.709
+      "novelty": 1
     },
     "rankingReasons": [
-      "conflict",
-      "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3896
+    "score": 0.3936
   },
   {
     "group": "ai",
@@ -173,7 +170,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.7477,
+      "freshness": 0.7373,
       "feedPosition": 0.8889,
       "novelty": 0.8848
     },
@@ -181,7 +178,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3865
+    "score": 0.385
   },
   {
     "group": "ai",
@@ -195,14 +192,37 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.8365,
+      "freshness": 0.8249,
       "feedPosition": 1,
       "novelty": 0.7396
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3744
+    "score": 0.3727
+  },
+  {
+    "group": "ai",
+    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:20:06.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.161,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8792,
+      "feedPosition": 0.5556,
+      "novelty": 0.709
+    },
+    "rankingReasons": [
+      "conflict",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3655
   },
   {
     "group": "ai",
@@ -216,16 +236,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.7849,
+      "freshness": 0.7741,
       "feedPosition": 0.8889,
-      "novelty": 0.4574
+      "novelty": 0.3756
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3698
+    "score": 0.36
   },
   {
     "group": "ai",
@@ -239,7 +259,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.7688,
+      "freshness": 0.7581,
       "feedPosition": 0.5556,
       "novelty": 1
     },
@@ -247,7 +267,33 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3601
+    "score": 0.3585
+  },
+  {
+    "group": "ai",
+    "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+    "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-03T23:19:50.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.602,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5637,
+      "feedPosition": 0.1111,
+      "novelty": 0.6676
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "real-world consequences",
+      "conflict",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3578
   },
   {
     "group": "ai",
@@ -261,12 +307,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0655,
       "sourceAuthority": 0.5,
-      "freshness": 0.9485,
+      "freshness": 0.9353,
       "feedPosition": 0.8889,
       "novelty": 0.4015
     },
     "rankingReasons": [],
-    "score": 0.3594
+    "score": 0.3574
   },
   {
     "group": "ai",
@@ -280,37 +326,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2355,
       "sourceAuthority": 0.5,
-      "freshness": 0.8007,
+      "freshness": 0.7896,
       "feedPosition": 0.6667,
-      "novelty": 0.4435
+      "novelty": 0.499
     },
     "rankingReasons": [
       "real-world consequences",
       "conflict"
     ],
-    "score": 0.3532
-  },
-  {
-    "group": "ai",
-    "title": "Texas halts new data centers as governor calls for audits",
-    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T15:42:35.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2,
-      "sourceAuthority": 0.5,
-      "freshness": 0.9009,
-      "feedPosition": 0.8889,
-      "novelty": 0
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "conflict"
-    ],
-    "score": 0.339
+    "score": 0.3571
   },
   {
     "group": "ai",
@@ -324,14 +348,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.897,
+      "freshness": 0.8846,
       "feedPosition": 0.7778,
       "novelty": 0.2858
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.3379
+    "score": 0.3361
   },
   {
     "group": "ai",
@@ -345,12 +369,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.807,
+      "freshness": 0.7959,
       "feedPosition": 0.8889,
       "novelty": 0.4418
     },
     "rankingReasons": [],
-    "score": 0.3351
+    "score": 0.3334
   },
   {
     "group": "ai",
@@ -364,7 +388,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.5187,
+      "freshness": 0.5115,
       "feedPosition": 0.7778,
       "novelty": 0.5144
     },
@@ -373,29 +397,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3324
-  },
-  {
-    "group": "ai",
-    "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
-    "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T19:09:56.000Z",
-    "image": "",
-    "coverageSources": 2,
-    "ranking": {
-      "coverage": 0.3333,
-      "titleImpact": 0.1055,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5091,
-      "feedPosition": 0,
-      "novelty": 0.5705
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "covered by multiple sources"
-    ],
-    "score": 0.3295
+    "score": 0.3313
   },
   {
     "group": "ai",
@@ -409,7 +411,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.7688,
+      "freshness": 0.7581,
       "feedPosition": 0.6667,
       "novelty": 0.0371
     },
@@ -419,70 +421,29 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3251
+    "score": 0.3235
   },
   {
     "group": "ai",
-    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
-    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+    "title": "Texas halts new data centers as governor calls for audits",
+    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
     "source": "TechCrunch AI",
-    "published": "2026-08-04T12:00:00.000Z",
+    "published": "2026-08-04T15:42:35.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.11,
+      "titleImpact": 0.2,
       "sourceAuthority": 0.5,
-      "freshness": 0.8127,
-      "feedPosition": 0.4444,
-      "novelty": 0.5779
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.3211
-  },
-  {
-    "group": "ai",
-    "title": "Is the future of data centers portable? Runware builds a pod to find out",
-    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T13:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8356,
-      "feedPosition": 0.5556,
-      "novelty": 0.2222
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.3072
-  },
-  {
-    "group": "ai",
-    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
-    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T14:03:01.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8603,
+      "freshness": 0.8884,
       "feedPosition": 0.6667,
-      "novelty": 0.0695
+      "novelty": 0
     },
     "rankingReasons": [
-      "real-world consequences"
+      "real-world consequences",
+      "conflict"
     ],
-    "score": 0.3068
+    "score": 0.3149
   },
   {
     "group": "ai",
@@ -496,7 +457,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7551,
+      "freshness": 0.7446,
       "feedPosition": 0.5556,
       "novelty": 0.3427
     },
@@ -504,7 +465,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3065
+    "score": 0.3049
   },
   {
     "group": "ai",
@@ -518,7 +479,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.558,
+      "freshness": 0.5502,
       "feedPosition": 0.4444,
       "novelty": 0.7396
     },
@@ -527,7 +488,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3055
+    "score": 0.3043
   },
   {
     "group": "ai",
@@ -541,7 +502,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.4235,
+      "freshness": 0.4176,
       "feedPosition": 0.6667,
       "novelty": 0.6975
     },
@@ -549,31 +510,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3029
-  },
-  {
-    "group": "ai",
-    "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
-    "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T19:28:57.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.229,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5136,
-      "feedPosition": 0.1111,
-      "novelty": 0.8992
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2989
+    "score": 0.3021
   },
   {
     "group": "ai",
@@ -587,7 +524,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0372,
+      "freshness": 0.0367,
       "feedPosition": 0.6667,
       "novelty": 1
     },
@@ -597,7 +534,28 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2977
+    "score": 0.2976
+  },
+  {
+    "group": "ai",
+    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T12:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.11,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8014,
+      "feedPosition": 0.2222,
+      "novelty": 0.5779
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2972
   },
   {
     "group": "ai",
@@ -611,58 +569,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.4881,
+      "freshness": 0.4813,
       "feedPosition": 0.4444,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2927
-  },
-  {
-    "group": "ai",
-    "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260802223422.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T11:58:59.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.14,
-      "sourceAuthority": 0.5,
-      "freshness": 0.417,
-      "feedPosition": 0.7778,
-      "novelty": 0.4697
-    },
-    "rankingReasons": [
-      "surprise or reversal"
-    ],
-    "score": 0.2903
-  },
-  {
-    "group": "ai",
-    "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
-    "source": "The Verge AI",
-    "published": "2026-08-03T11:01:11.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2266883826.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1545,
-      "sourceAuthority": 0.5,
-      "freshness": 0.406,
-      "feedPosition": 0.3333,
-      "novelty": 0.8992
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2901
+    "score": 0.2916
   },
   {
     "group": "ai",
@@ -690,6 +604,92 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260802223422.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T11:58:59.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.14,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4113,
+      "feedPosition": 0.7778,
+      "novelty": 0.4697
+    },
+    "rankingReasons": [
+      "surprise or reversal"
+    ],
+    "score": 0.2894
+  },
+  {
+    "group": "ai",
+    "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+    "source": "The Verge AI",
+    "published": "2026-08-03T11:01:11.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2266883826.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1545,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4004,
+      "feedPosition": 0.3333,
+      "novelty": 0.8992
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2892
+  },
+  {
+    "group": "ai",
+    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T14:03:01.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8484,
+      "feedPosition": 0.4444,
+      "novelty": 0.125
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2883
+  },
+  {
+    "group": "ai",
+    "title": "Is the future of data centers portable? Runware builds a pod to find out",
+    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T13:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.824,
+      "feedPosition": 0.3333,
+      "novelty": 0.2222
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2833
+  },
+  {
+    "group": "ai",
     "title": "Scientists just 3D printed one of the hardest metals on Earth",
     "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
     "source": "ScienceDaily Technology",
@@ -700,14 +700,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.7101,
+      "freshness": 0.7002,
       "feedPosition": 0.5556,
       "novelty": 0.2823
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.2795
+    "score": 0.278
   },
   {
     "group": "ai",
@@ -721,7 +721,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.3893,
+      "freshness": 0.3839,
       "feedPosition": 0.2222,
       "novelty": 0.8534
     },
@@ -730,7 +730,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2753
+    "score": 0.2745
   },
   {
     "group": "ai",
@@ -791,7 +791,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3947,
+      "freshness": 0.3892,
       "feedPosition": 0.3333,
       "novelty": 0.6355
     },
@@ -799,7 +799,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2595
+    "score": 0.2587
   },
   {
     "group": "ai",
@@ -815,32 +815,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.2903
+      "novelty": 0.3441
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details"
     ],
-    "score": 0.2511
-  },
-  {
-    "group": "ai",
-    "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
-    "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T20:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5211,
-      "feedPosition": 0.2222,
-      "novelty": 0.5705
-    },
-    "rankingReasons": [],
-    "score": 0.2395
+    "score": 0.2565
   },
   {
     "group": "ai",
@@ -900,7 +881,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.2026,
+      "freshness": 0.1998,
       "feedPosition": 0.1111,
       "novelty": 0.6358
     },
@@ -909,7 +890,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2225
+    "score": 0.2221
   },
   {
     "group": "ai",
@@ -923,12 +904,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.3398,
+      "freshness": 0.3351,
       "feedPosition": 0.3333,
       "novelty": 0.6244
     },
     "rankingReasons": [],
-    "score": 0.2217
+    "score": 0.221
   },
   {
     "group": "ai",
@@ -942,14 +923,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.2229,
+      "freshness": 0.2199,
       "feedPosition": 0.4444,
       "novelty": 0.5286
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2197
+    "score": 0.2193
   },
   {
     "group": "ai",
@@ -963,14 +944,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2213,
+      "freshness": 0.2182,
       "feedPosition": 0.1111,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2193
+    "score": 0.2188
   },
   {
     "group": "ai",
@@ -984,7 +965,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0368,
+      "freshness": 0.0363,
       "feedPosition": 0.5556,
       "novelty": 0.6774
     },
@@ -992,26 +973,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.218
-  },
-  {
-    "group": "ai",
-    "title": "Giant waves are sweeping Mars’ atmosphere into space",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T04:07:54.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3353,
-      "feedPosition": 0.2222,
-      "novelty": 0.6244
-    },
-    "rankingReasons": [],
-    "score": 0.2171
+    "score": 0.2179
   },
   {
     "group": "ai",
@@ -1025,7 +987,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3255,
       "sourceAuthority": 0.5,
-      "freshness": 0.0157,
+      "freshness": 0.0155,
       "feedPosition": 0.4444,
       "novelty": 0.3
     },
@@ -1034,6 +996,25 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal"
     ],
     "score": 0.2169
+  },
+  {
+    "group": "ai",
+    "title": "Giant waves are sweeping Mars’ atmosphere into space",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T04:07:54.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3307,
+      "feedPosition": 0.2222,
+      "novelty": 0.6244
+    },
+    "rankingReasons": [],
+    "score": 0.2164
   },
   {
     "group": "ai",
@@ -1060,6 +1041,25 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+    "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-03T20:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5139,
+      "feedPosition": 0,
+      "novelty": 0.499
+    },
+    "rankingReasons": [],
+    "score": 0.2091
+  },
+  {
+    "group": "ai",
     "title": "7 States’ Water Systems Hit by Cyberattacks Likely Tied to Iran",
     "url": "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran/",
     "source": "WIRED AI",
@@ -1070,7 +1070,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.1055,
+      "freshness": 0.104,
       "feedPosition": 0,
       "novelty": 0.7984
     },
@@ -1079,7 +1079,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2087
+    "score": 0.2084
   },
   {
     "group": "ai",
@@ -1114,14 +1114,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.2646,
+      "freshness": 0.2609,
       "feedPosition": 0.2222,
       "novelty": 0.3982
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2058
+    "score": 0.2053
   },
   {
     "group": "ai",
@@ -1135,14 +1135,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2203,
+      "freshness": 0.2172,
       "feedPosition": 0.1111,
       "novelty": 0.8656
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2057
+    "score": 0.2052
   },
   {
     "group": "ai",
@@ -1156,7 +1156,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1668,
+      "freshness": 0.1645,
       "feedPosition": 0,
       "novelty": 0.8747
     },
@@ -1164,7 +1164,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2017
+    "score": 0.2013
   },
   {
     "group": "ai",
@@ -1180,13 +1180,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.4444,
-      "novelty": 0.5623
+      "novelty": 0.489
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1994
+    "score": 0.192
   },
   {
     "group": "ai",
@@ -1202,13 +1202,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.3333,
-      "novelty": 0.5676
+      "novelty": 0.5056
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1935
+    "score": 0.1873
   },
   {
     "group": "ai",
@@ -1222,7 +1222,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1545,
       "sourceAuthority": 0.5,
-      "freshness": 0.1311,
+      "freshness": 0.1293,
       "feedPosition": 0,
       "novelty": 0.5161
     },
@@ -1230,7 +1230,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1772
+    "score": 0.1769
   },
   {
     "group": "ai",
