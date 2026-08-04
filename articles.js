@@ -2,26 +2,25 @@
 window.DAILY_DOOMSAYER_ARTICLES = [
   {
     "group": "ai",
-    "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
-    "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+    "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+    "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
     "source": "TechCrunch AI",
-    "published": "2026-08-04T19:28:49.000Z",
+    "published": "2026-08-04T20:05:26.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.192,
+      "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.9865,
-      "feedPosition": 0.8889,
-      "novelty": 0.8656
+      "freshness": 0.9953,
+      "feedPosition": 1,
+      "novelty": 0.821
     },
     "rankingReasons": [
       "real-world consequences",
-      "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.4368,
+    "score": 0.4284,
     "featured": true
   },
   {
@@ -36,38 +35,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.229,
       "sourceAuthority": 0.5,
-      "freshness": 0.9956,
-      "feedPosition": 1,
-      "novelty": 0.5726
+      "freshness": 0.9876,
+      "feedPosition": 0.8889,
+      "novelty": 0.641
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.4274
-  },
-  {
-    "group": "ai",
-    "title": "Solving the solvent problem",
-    "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
-    "source": "MIT News AI",
-    "published": "2026-08-04T18:50:00.000Z",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/MIT-nse-solvent-problem.jpg?itok=rXwEm3ti",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.9689,
-      "feedPosition": 1,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "clickbait penalty",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.4203
+    "score": 0.4219
   },
   {
     "group": "ai",
@@ -81,7 +58,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7795,
+      "freshness": 0.7732,
       "feedPosition": 1,
       "novelty": 1
     },
@@ -90,7 +67,52 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4203
+    "score": 0.4194
+  },
+  {
+    "group": "ai",
+    "title": "Solving the solvent problem",
+    "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
+    "source": "MIT News AI",
+    "published": "2026-08-04T18:50:00.000Z",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/MIT-nse-solvent-problem.jpg?itok=rXwEm3ti",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9612,
+      "feedPosition": 1,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "clickbait penalty",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4192
+  },
+  {
+    "group": "ai",
+    "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+    "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T19:28:49.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.192,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9786,
+      "feedPosition": 0.6667,
+      "novelty": 0.8109
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4079
   },
   {
     "group": "ai",
@@ -104,7 +126,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.184,
       "sourceAuthority": 0.5,
-      "freshness": 0.7687,
+      "freshness": 0.7626,
       "feedPosition": 0.7778,
       "novelty": 1
     },
@@ -113,7 +135,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4049
+    "score": 0.404
   },
   {
     "group": "ai",
@@ -127,36 +149,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.941,
+      "freshness": 0.9334,
       "feedPosition": 1,
-      "novelty": 0.6553
+      "novelty": 0.642
     },
     "rankingReasons": [
-      "surprise or reversal",
-      "unusual language in the current story batch"
+      "surprise or reversal"
     ],
-    "score": 0.4028
-  },
-  {
-    "group": "ai",
-    "title": "Spotify expands AI remix and covers project with Merlin partnership",
-    "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T15:50:06.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8915,
-      "feedPosition": 0.7778,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3936
+    "score": 0.4003
   },
   {
     "group": "ai",
@@ -170,15 +170,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.7373,
+      "freshness": 0.7314,
       "feedPosition": 0.8889,
-      "novelty": 0.8848
+      "novelty": 0.8803
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.385
+    "score": 0.3836
   },
   {
     "group": "ai",
@@ -192,37 +192,56 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.8249,
+      "freshness": 0.8183,
       "feedPosition": 1,
-      "novelty": 0.7396
+      "novelty": 0.7296
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3727
+    "score": 0.3707
   },
   {
     "group": "ai",
-    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "title": "Meet Wrinkles, an AI app that uncovers the hidden stories of the places around you",
+    "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
     "source": "TechCrunch AI",
-    "published": "2026-08-04T15:20:06.000Z",
+    "published": "2026-08-04T19:34:34.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.161,
+      "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.8792,
-      "feedPosition": 0.5556,
-      "novelty": 0.709
+      "freshness": 0.9812,
+      "feedPosition": 0.7778,
+      "novelty": 0.4957
     },
     "rankingReasons": [
-      "conflict",
-      "recognizable entities",
+      "surprise or reversal"
+    ],
+    "score": 0.3706
+  },
+  {
+    "group": "ai",
+    "title": "Spotify expands AI remix and covers project with Merlin partnership",
+    "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:50:06.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8844,
+      "feedPosition": 0.5556,
+      "novelty": 1
+    },
+    "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3655
+    "score": 0.3703
   },
   {
     "group": "ai",
@@ -236,16 +255,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.7741,
+      "freshness": 0.7679,
       "feedPosition": 0.8889,
-      "novelty": 0.3756
+      "novelty": 0.4365
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.36
+    "score": 0.3651
   },
   {
     "group": "ai",
@@ -259,7 +278,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.7581,
+      "freshness": 0.752,
       "feedPosition": 0.5556,
       "novelty": 1
     },
@@ -267,52 +286,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3585
-  },
-  {
-    "group": "ai",
-    "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
-    "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T23:19:50.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.602,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5637,
-      "feedPosition": 0.1111,
-      "novelty": 0.6676
-    },
-    "rankingReasons": [
-      "urgency or risk",
-      "real-world consequences",
-      "conflict",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3578
-  },
-  {
-    "group": "ai",
-    "title": "‘Not healthy’ LLM use is more common than you think",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
-    "source": "The Verge AI",
-    "published": "2026-08-04T17:33:46.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2253306515.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0655,
-      "sourceAuthority": 0.5,
-      "freshness": 0.9353,
-      "feedPosition": 0.8889,
-      "novelty": 0.4015
-    },
-    "rankingReasons": [],
-    "score": 0.3574
+    "score": 0.3576
   },
   {
     "group": "ai",
@@ -326,15 +300,57 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2355,
       "sourceAuthority": 0.5,
-      "freshness": 0.7896,
+      "freshness": 0.7833,
       "feedPosition": 0.6667,
-      "novelty": 0.499
+      "novelty": 0.4797
     },
     "rankingReasons": [
       "real-world consequences",
       "conflict"
     ],
-    "score": 0.3571
+    "score": 0.3542
+  },
+  {
+    "group": "ai",
+    "title": "‘Not healthy’ LLM use is more common than you think",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+    "source": "The Verge AI",
+    "published": "2026-08-04T17:33:46.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2253306515.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0655,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9278,
+      "feedPosition": 0.8889,
+      "novelty": 0.3124
+    },
+    "rankingReasons": [],
+    "score": 0.3474
+  },
+  {
+    "group": "ai",
+    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:20:06.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.161,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8722,
+      "feedPosition": 0.3333,
+      "novelty": 0.7518
+    },
+    "rankingReasons": [
+      "conflict",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3465
   },
   {
     "group": "ai",
@@ -348,14 +364,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.8846,
+      "freshness": 0.8775,
       "feedPosition": 0.7778,
-      "novelty": 0.2858
+      "novelty": 0.2583
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.3361
+    "score": 0.3322
   },
   {
     "group": "ai",
@@ -369,12 +385,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.7959,
+      "freshness": 0.7895,
       "feedPosition": 0.8889,
-      "novelty": 0.4418
+      "novelty": 0.4203
     },
     "rankingReasons": [],
-    "score": 0.3334
+    "score": 0.3303
   },
   {
     "group": "ai",
@@ -388,16 +404,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.5115,
+      "freshness": 0.5074,
       "feedPosition": 0.7778,
-      "novelty": 0.5144
+      "novelty": 0.4957
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3313
+    "score": 0.3289
   },
   {
     "group": "ai",
@@ -411,9 +427,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.7581,
+      "freshness": 0.752,
       "feedPosition": 0.6667,
-      "novelty": 0.0371
+      "novelty": 0
     },
     "rankingReasons": [
       "real-world consequences",
@@ -421,29 +437,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3235
-  },
-  {
-    "group": "ai",
-    "title": "Texas halts new data centers as governor calls for audits",
-    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T15:42:35.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8884,
-      "feedPosition": 0.6667,
-      "novelty": 0
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "conflict"
-    ],
-    "score": 0.3149
+    "score": 0.3189
   },
   {
     "group": "ai",
@@ -457,126 +451,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7446,
+      "freshness": 0.7386,
       "feedPosition": 0.5556,
-      "novelty": 0.3427
+      "novelty": 0.3174
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3049
-  },
-  {
-    "group": "ai",
-    "title": "Did an AI Music App Just Snitch on the Song of the Summer?",
-    "url": "https://www.wired.com/story/ai-music-app-treblo-just-snitched-on-rubberz-song-of-the-summer/",
-    "source": "WIRED AI",
-    "published": "2026-08-03T22:27:46.000Z",
-    "image": "https://media.wired.com/photos/6a70c4a6513c0e0e60aeb407/master/pass/Culture_DidAnAIMusicAppJustSnitchontheSongoftheSummer-ezgif.com-video-to-gif-converter.gif",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5502,
-      "feedPosition": 0.4444,
-      "novelty": 0.7396
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3043
-  },
-  {
-    "group": "ai",
-    "title": "Moonquakes could reveal hidden water beneath the lunar surface",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260802223420.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T12:32:07.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.14,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4176,
-      "feedPosition": 0.6667,
-      "novelty": 0.6975
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3021
-  },
-  {
-    "group": "ai",
-    "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
-    "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
-    "source": "MIT News AI",
-    "published": "2026-07-30T21:00:00.000Z",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-csail-daniela-rus-bavarian-award-00.png?itok=9XnNV8-Q",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.252,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0367,
-      "feedPosition": 0.6667,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2976
-  },
-  {
-    "group": "ai",
-    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
-    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T12:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.11,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8014,
-      "feedPosition": 0.2222,
-      "novelty": 0.5779
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.2972
-  },
-  {
-    "group": "ai",
-    "title": "Europe’s AI labeling and transparency rules are now in effect",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-    "source": "The Verge AI",
-    "published": "2026-08-03T17:38:45.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268679_Europes_AI_labeling_and_transparency_rules_are_now_in_effect_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4813,
-      "feedPosition": 0.4444,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2916
+    "score": 0.3015
   },
   {
     "group": "ai",
@@ -592,7 +475,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.8889,
-      "novelty": 0.7311
+      "novelty": 0.8139
     },
     "rankingReasons": [
       "real-world consequences",
@@ -600,28 +483,117 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2899
+    "score": 0.2982
   },
   {
     "group": "ai",
-    "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260802223422.htm",
+    "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
+    "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
+    "source": "MIT News AI",
+    "published": "2026-07-30T21:00:00.000Z",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-csail-daniela-rus-bavarian-award-00.png?itok=9XnNV8-Q",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.252,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0364,
+      "feedPosition": 0.6667,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2975
+  },
+  {
+    "group": "ai",
+    "title": "Texas halts new data centers as governor calls for audits",
+    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:42:35.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8813,
+      "feedPosition": 0.4444,
+      "novelty": 0.0464
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "conflict"
+    ],
+    "score": 0.2963
+  },
+  {
+    "group": "ai",
+    "title": "Moonquakes could reveal hidden water beneath the lunar surface",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260802223420.htm",
     "source": "ScienceDaily Technology",
-    "published": "2026-08-03T11:58:59.000Z",
+    "published": "2026-08-03T12:32:07.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.4113,
-      "feedPosition": 0.7778,
-      "novelty": 0.4697
+      "freshness": 0.4143,
+      "feedPosition": 0.6667,
+      "novelty": 0.6116
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2894
+    "score": 0.293
+  },
+  {
+    "group": "ai",
+    "title": "Europe’s AI labeling and transparency rules are now in effect",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+    "source": "The Verge AI",
+    "published": "2026-08-03T17:38:45.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268679_Europes_AI_labeling_and_transparency_rules_are_now_in_effect_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4775,
+      "feedPosition": 0.4444,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2911
+  },
+  {
+    "group": "ai",
+    "title": "Did an AI Music App Just Snitch on the Song of the Summer?",
+    "url": "https://www.wired.com/story/ai-music-app-treblo-just-snitched-on-rubberz-song-of-the-summer/",
+    "source": "WIRED AI",
+    "published": "2026-08-03T22:27:46.000Z",
+    "image": "https://media.wired.com/photos/6a70c4a6513c0e0e60aeb407/master/pass/Culture_DidAnAIMusicAppJustSnitchontheSongoftheSummer-ezgif.com-video-to-gif-converter.gif",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5458,
+      "feedPosition": 0.4444,
+      "novelty": 0.6099
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.2907
   },
   {
     "group": "ai",
@@ -635,58 +607,37 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1545,
       "sourceAuthority": 0.5,
-      "freshness": 0.4004,
+      "freshness": 0.3972,
       "feedPosition": 0.3333,
-      "novelty": 0.8992
+      "novelty": 0.8953
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2892
-  },
-  {
-    "group": "ai",
-    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
-    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T14:03:01.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8484,
-      "feedPosition": 0.4444,
-      "novelty": 0.125
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
     "score": 0.2883
   },
   {
     "group": "ai",
-    "title": "Is the future of data centers portable? Runware builds a pod to find out",
-    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T13:00:00.000Z",
+    "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260802223422.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T11:58:59.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.1455,
+      "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.824,
-      "feedPosition": 0.3333,
-      "novelty": 0.2222
+      "freshness": 0.408,
+      "feedPosition": 0.7778,
+      "novelty": 0.375
     },
     "rankingReasons": [
-      "real-world consequences"
+      "surprise or reversal"
     ],
-    "score": 0.2833
+    "score": 0.2795
   },
   {
     "group": "ai",
@@ -700,14 +651,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.7002,
+      "freshness": 0.6946,
       "feedPosition": 0.5556,
-      "novelty": 0.2823
+      "novelty": 0.2546
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.278
+    "score": 0.2744
   },
   {
     "group": "ai",
@@ -721,16 +672,37 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.3839,
+      "freshness": 0.3808,
       "feedPosition": 0.2222,
-      "novelty": 0.8534
+      "novelty": 0.8477
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2745
+    "score": 0.2735
+  },
+  {
+    "group": "ai",
+    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T12:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.11,
+      "sourceAuthority": 0.5,
+      "freshness": 0.795,
+      "feedPosition": 0,
+      "novelty": 0.5617
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2724
   },
   {
     "group": "ai",
@@ -746,7 +718,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.6667,
-      "novelty": 0.8534
+      "novelty": 0.8477
     },
     "rankingReasons": [
       "real-world consequences",
@@ -754,7 +726,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2728
+    "score": 0.2722
   },
   {
     "group": "ai",
@@ -770,14 +742,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.7778,
-      "novelty": 0.6202
+      "novelty": 0.6055
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2677
+    "score": 0.2662
   },
   {
     "group": "ai",
@@ -791,15 +763,58 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3892,
+      "freshness": 0.3861,
       "feedPosition": 0.3333,
-      "novelty": 0.6355
+      "novelty": 0.7136
     },
     "rankingReasons": [
       "specific details",
-      "recognizable entities"
+      "recognizable entities",
+      "unusual language in the current story batch"
     ],
-    "score": 0.2587
+    "score": 0.266
+  },
+  {
+    "group": "ai",
+    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T14:03:01.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8416,
+      "feedPosition": 0.2222,
+      "novelty": 0.0913
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2617
+  },
+  {
+    "group": "ai",
+    "title": "Is the future of data centers portable? Runware builds a pod to find out",
+    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T13:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8174,
+      "feedPosition": 0.1111,
+      "novelty": 0.1923
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.257
   },
   {
     "group": "ai",
@@ -815,13 +830,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.3441
+      "novelty": 0.2792
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details"
     ],
-    "score": 0.2565
+    "score": 0.25
   },
   {
     "group": "ai",
@@ -837,14 +852,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.5556,
-      "novelty": 0.6676
+      "novelty": 0.6548
     },
     "rankingReasons": [
       "conflict",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2366
+    "score": 0.2353
   },
   {
     "group": "ai",
@@ -881,16 +896,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.1998,
+      "freshness": 0.1982,
       "feedPosition": 0.1111,
-      "novelty": 0.6358
+      "novelty": 0.6217
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2221
+    "score": 0.2204
   },
   {
     "group": "ai",
@@ -904,33 +919,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.3351,
+      "freshness": 0.3325,
       "feedPosition": 0.3333,
-      "novelty": 0.6244
+      "novelty": 0.6099
     },
     "rankingReasons": [],
-    "score": 0.221
-  },
-  {
-    "group": "ai",
-    "title": "Dark matter’s secret force does the opposite of what scientists expected",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-02T13:26:11.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.07,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2199,
-      "feedPosition": 0.4444,
-      "novelty": 0.5286
-    },
-    "rankingReasons": [
-      "surprise or reversal"
-    ],
-    "score": 0.2193
+    "score": 0.2192
   },
   {
     "group": "ai",
@@ -944,14 +938,35 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2182,
+      "freshness": 0.2165,
       "feedPosition": 0.1111,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2188
+    "score": 0.2186
+  },
+  {
+    "group": "ai",
+    "title": "Dark matter’s secret force does the opposite of what scientists expected",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-02T13:26:11.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.07,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2181,
+      "feedPosition": 0.4444,
+      "novelty": 0.5105
+    },
+    "rankingReasons": [
+      "surprise or reversal"
+    ],
+    "score": 0.2172
   },
   {
     "group": "ai",
@@ -965,37 +980,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0363,
+      "freshness": 0.036,
       "feedPosition": 0.5556,
-      "novelty": 0.6774
+      "novelty": 0.665
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2179
-  },
-  {
-    "group": "ai",
-    "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
-    "url": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
-    "source": "MIT News AI",
-    "published": "2026-07-29T14:00:00.000Z",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-RogerMark-GeorgeMoody.jpg?itok=57wqdl_A",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.3255,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0155,
-      "feedPosition": 0.4444,
-      "novelty": 0.3
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "surprise or reversal"
-    ],
-    "score": 0.2169
+    "score": 0.2167
   },
   {
     "group": "ai",
@@ -1009,12 +1002,55 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.3307,
+      "freshness": 0.328,
       "feedPosition": 0.2222,
-      "novelty": 0.6244
+      "novelty": 0.6099
     },
     "rankingReasons": [],
-    "score": 0.2164
+    "score": 0.2145
+  },
+  {
+    "group": "ai",
+    "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
+    "url": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
+    "source": "MIT News AI",
+    "published": "2026-07-29T14:00:00.000Z",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-RogerMark-GeorgeMoody.jpg?itok=57wqdl_A",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.3255,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0154,
+      "feedPosition": 0.4444,
+      "novelty": 0.273
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "surprise or reversal"
+    ],
+    "score": 0.2142
+  },
+  {
+    "group": "ai",
+    "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+    "source": "The Verge AI",
+    "published": "2026-08-02T19:36:08.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2588,
+      "feedPosition": 0.2222,
+      "novelty": 0.4797
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2131
   },
   {
     "group": "ai",
@@ -1030,56 +1066,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0003,
       "feedPosition": 0.2222,
-      "novelty": 0.8468
+      "novelty": 0.8409
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2103
-  },
-  {
-    "group": "ai",
-    "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
-    "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T20:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5139,
-      "feedPosition": 0,
-      "novelty": 0.499
-    },
-    "rankingReasons": [],
-    "score": 0.2091
-  },
-  {
-    "group": "ai",
-    "title": "7 States’ Water Systems Hit by Cyberattacks Likely Tied to Iran",
-    "url": "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran/",
-    "source": "WIRED AI",
-    "published": "2026-08-01T10:30:00.000Z",
-    "image": "https://media.wired.com/photos/6a6d0ac2eedb5ffa3dae51ac/master/pass/SecurityRoundUp_WaterTowersBeingHacked_v1.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.19,
-      "sourceAuthority": 0.5,
-      "freshness": 0.104,
-      "feedPosition": 0,
-      "novelty": 0.7984
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2084
+    "score": 0.2098
   },
   {
     "group": "ai",
@@ -1104,24 +1098,26 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-    "source": "The Verge AI",
-    "published": "2026-08-02T19:36:08.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "title": "7 States’ Water Systems Hit by Cyberattacks Likely Tied to Iran",
+    "url": "https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran/",
+    "source": "WIRED AI",
+    "published": "2026-08-01T10:30:00.000Z",
+    "image": "https://media.wired.com/photos/6a6d0ac2eedb5ffa3dae51ac/master/pass/SecurityRoundUp_WaterTowersBeingHacked_v1.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.1455,
+      "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.2609,
-      "feedPosition": 0.2222,
-      "novelty": 0.3982
+      "freshness": 0.1032,
+      "feedPosition": 0,
+      "novelty": 0.7906
     },
     "rankingReasons": [
-      "real-world consequences"
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
     ],
-    "score": 0.2053
+    "score": 0.2075
   },
   {
     "group": "ai",
@@ -1135,14 +1131,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2172,
+      "freshness": 0.2155,
       "feedPosition": 0.1111,
-      "novelty": 0.8656
+      "novelty": 0.8604
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2052
+    "score": 0.2045
   },
   {
     "group": "ai",
@@ -1156,15 +1152,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1645,
+      "freshness": 0.1632,
       "feedPosition": 0,
-      "novelty": 0.8747
+      "novelty": 0.8698
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2013
+    "score": 0.2007
   },
   {
     "group": "ai",
@@ -1180,13 +1176,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.4444,
-      "novelty": 0.489
+      "novelty": 0.5112
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.192
+    "score": 0.1943
   },
   {
     "group": "ai",
@@ -1202,35 +1198,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.3333,
-      "novelty": 0.5056
+      "novelty": 0.4763
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1873
-  },
-  {
-    "group": "ai",
-    "title": "Is this Billboard Hot 100 hit AI slop?",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-    "source": "The Verge AI",
-    "published": "2026-08-01T18:20:00.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1545,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1293,
-      "feedPosition": 0,
-      "novelty": 0.5161
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.1769
+    "score": 0.1844
   },
   {
     "group": "ai",
@@ -1252,5 +1226,27 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch"
     ],
     "score": 0.175
+  },
+  {
+    "group": "ai",
+    "title": "Is this Billboard Hot 100 hit AI slop?",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+    "source": "The Verge AI",
+    "published": "2026-08-01T18:20:00.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1545,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1283,
+      "feedPosition": 0,
+      "novelty": 0.4974
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.1749
   }
 ];
