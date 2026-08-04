@@ -2,49 +2,28 @@
 window.DAILY_DOOMSAYER_ARTICLES = [
   {
     "group": "ai",
-    "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
-    "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+    "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+    "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
     "source": "TechCrunch AI",
-    "published": "2026-08-04T20:05:26.000Z",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/08/Z.ai-GLM-5.2-chat.png?resize=1200,576",
+    "published": "2026-08-04T21:07:26.000Z",
+    "image": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1241146892.jpg?resize=1200,800",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.11,
+      "titleImpact": 0.2645,
       "sourceAuthority": 0.5,
-      "freshness": 0.9857,
+      "freshness": 0.9859,
       "feedPosition": 1,
-      "novelty": 0.821
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.427,
-    "featured": true
-  },
-  {
-    "group": "ai",
-    "title": "Anthropic signs $10B deal with AI cloud startup Volta",
-    "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T19:48:40.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.229,
-      "sourceAuthority": 0.5,
-      "freshness": 0.9781,
-      "feedPosition": 0.8889,
-      "novelty": 0.641
+      "novelty": 0.8899
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
-      "recognizable entities"
+      "recognizable entities",
+      "unusual language in the current story batch"
     ],
-    "score": 0.4205
+    "score": 0.4648,
+    "featured": true
   },
   {
     "group": "ai",
@@ -58,7 +37,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7657,
+      "freshness": 0.7442,
       "feedPosition": 1,
       "novelty": 1
     },
@@ -67,7 +46,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4183
+    "score": 0.415
   },
   {
     "group": "ai",
@@ -81,7 +60,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9519,
+      "freshness": 0.9252,
       "feedPosition": 1,
       "novelty": 1
     },
@@ -89,30 +68,52 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.4178
+    "score": 0.4138
   },
   {
     "group": "ai",
-    "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
-    "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+    "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+    "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
     "source": "TechCrunch AI",
-    "published": "2026-08-04T19:28:49.000Z",
+    "published": "2026-08-04T20:05:26.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.192,
+      "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.9691,
-      "feedPosition": 0.6667,
-      "novelty": 0.8109
+      "freshness": 0.958,
+      "feedPosition": 0.8889,
+      "novelty": 0.8119
     },
     "rankingReasons": [
       "real-world consequences",
-      "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.4065
+    "score": 0.4108
+  },
+  {
+    "group": "ai",
+    "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+    "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T19:48:40.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.229,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9506,
+      "feedPosition": 0.7778,
+      "novelty": 0.6227
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.4034
   },
   {
     "group": "ai",
@@ -126,7 +127,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.184,
       "sourceAuthority": 0.5,
-      "freshness": 0.7552,
+      "freshness": 0.734,
       "feedPosition": 0.7778,
       "novelty": 1
     },
@@ -135,7 +136,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4029
+    "score": 0.3997
   },
   {
     "group": "ai",
@@ -149,14 +150,37 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.9244,
+      "freshness": 0.8984,
       "feedPosition": 1,
-      "novelty": 0.642
+      "novelty": 0.6237
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.399
+    "score": 0.3932
+  },
+  {
+    "group": "ai",
+    "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+    "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T19:28:49.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.192,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9419,
+      "feedPosition": 0.5556,
+      "novelty": 0.8012
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3904
   },
   {
     "group": "ai",
@@ -170,15 +194,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.7243,
+      "freshness": 0.704,
       "feedPosition": 0.8889,
-      "novelty": 0.8803
+      "novelty": 0.8742
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3826
+    "score": 0.3789
   },
   {
     "group": "ai",
@@ -192,56 +216,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.8104,
+      "freshness": 0.7877,
       "feedPosition": 1,
-      "novelty": 0.7296
+      "novelty": 0.7158
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3695
-  },
-  {
-    "group": "ai",
-    "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
-    "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T19:34:34.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1055,
-      "sourceAuthority": 0.5,
-      "freshness": 0.9717,
-      "feedPosition": 0.7778,
-      "novelty": 0.4957
-    },
-    "rankingReasons": [
-      "surprise or reversal"
-    ],
-    "score": 0.3692
-  },
-  {
-    "group": "ai",
-    "title": "Spotify expands AI remix and covers project with Merlin partnership",
-    "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T15:50:06.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8758,
-      "feedPosition": 0.5556,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.369
+    "score": 0.3647
   },
   {
     "group": "ai",
@@ -255,16 +237,37 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.7604,
+      "freshness": 0.7391,
       "feedPosition": 0.8889,
-      "novelty": 0.4365
+      "novelty": 0.4076
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.364
+    "score": 0.3579
+  },
+  {
+    "group": "ai",
+    "title": "Spotify expands AI remix and covers project with Merlin partnership",
+    "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:50:06.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8512,
+      "feedPosition": 0.4444,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3542
   },
   {
     "group": "ai",
@@ -278,7 +281,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.7448,
+      "freshness": 0.7239,
       "feedPosition": 0.5556,
       "novelty": 1
     },
@@ -286,7 +289,28 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3565
+    "score": 0.3533
+  },
+  {
+    "group": "ai",
+    "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+    "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T19:34:34.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1055,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9444,
+      "feedPosition": 0.6667,
+      "novelty": 0.4699
+    },
+    "rankingReasons": [
+      "surprise or reversal"
+    ],
+    "score": 0.3514
   },
   {
     "group": "ai",
@@ -300,15 +324,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2355,
       "sourceAuthority": 0.5,
-      "freshness": 0.7757,
+      "freshness": 0.7539,
       "feedPosition": 0.6667,
-      "novelty": 0.4797
+      "novelty": 0.4531
     },
     "rankingReasons": [
       "real-world consequences",
       "conflict"
     ],
-    "score": 0.3531
+    "score": 0.3472
   },
   {
     "group": "ai",
@@ -322,35 +346,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0655,
       "sourceAuthority": 0.5,
-      "freshness": 0.9189,
+      "freshness": 0.8931,
       "feedPosition": 0.8889,
-      "novelty": 0.3124
+      "novelty": 0.2772
     },
     "rankingReasons": [],
-    "score": 0.3461
-  },
-  {
-    "group": "ai",
-    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T15:20:06.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.161,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8637,
-      "feedPosition": 0.3333,
-      "novelty": 0.7518
-    },
-    "rankingReasons": [
-      "conflict",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3453
+    "score": 0.3387
   },
   {
     "group": "ai",
@@ -364,33 +365,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.869,
+      "freshness": 0.8447,
       "feedPosition": 0.7778,
-      "novelty": 0.2583
+      "novelty": 0.2488
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.331
-  },
-  {
-    "group": "ai",
-    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T11:44:58.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.03,
-      "sourceAuthority": 0.5,
-      "freshness": 0.7818,
-      "feedPosition": 0.8889,
-      "novelty": 0.4203
-    },
-    "rankingReasons": [],
-    "score": 0.3292
+    "score": 0.3264
   },
   {
     "group": "ai",
@@ -404,16 +386,58 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.5025,
+      "freshness": 0.4884,
       "feedPosition": 0.7778,
-      "novelty": 0.4957
+      "novelty": 0.4983
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3281
+    "score": 0.3263
+  },
+  {
+    "group": "ai",
+    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-04T11:44:58.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.03,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7599,
+      "feedPosition": 0.8889,
+      "novelty": 0.3906
+    },
+    "rankingReasons": [],
+    "score": 0.3229
+  },
+  {
+    "group": "ai",
+    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:20:06.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.161,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8395,
+      "feedPosition": 0.2222,
+      "novelty": 0.659
+    },
+    "rankingReasons": [
+      "conflict",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3212
   },
   {
     "group": "ai",
@@ -427,7 +451,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.7448,
+      "freshness": 0.7239,
       "feedPosition": 0.6667,
       "novelty": 0
     },
@@ -437,29 +461,31 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3178
+    "score": 0.3146
   },
   {
     "group": "ai",
-    "title": "Mistral Is in the Right Place at the Right Time",
-    "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T09:21:11.000Z",
-    "image": "https://media.wired.com/photos/6a6cc9ac6aed60f089dc69c1/master/pass/Business_Mistral%20Is%20In%20The%20Right%20Place%20At%20The%20Right%20Time_v1.jpg",
+    "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
+    "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
+    "source": "MIT News AI",
+    "published": "2026-07-30T21:00:00.000Z",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-csail-daniela-rus-bavarian-award-00.png?itok=9XnNV8-Q",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.142,
+      "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.7315,
-      "feedPosition": 0.5556,
-      "novelty": 0.3174
+      "freshness": 0.0351,
+      "feedPosition": 0.6667,
+      "novelty": 1
     },
     "rankingReasons": [
+      "real-world consequences",
       "specific details",
-      "recognizable entities"
+      "recognizable entities",
+      "unusual language in the current story batch"
     ],
-    "score": 0.3004
+    "score": 0.2973
   },
   {
     "group": "ai",
@@ -475,7 +501,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.8889,
-      "novelty": 0.8139
+      "novelty": 0.8043
     },
     "rankingReasons": [
       "real-world consequences",
@@ -483,53 +509,29 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2982
+    "score": 0.2972
   },
   {
     "group": "ai",
-    "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
-    "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
-    "source": "MIT News AI",
-    "published": "2026-07-30T21:00:00.000Z",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-csail-daniela-rus-bavarian-award-00.png?itok=9XnNV8-Q",
+    "title": "Mistral Is in the Right Place at the Right Time",
+    "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T09:21:11.000Z",
+    "image": "https://media.wired.com/photos/6a6cc9ac6aed60f089dc69c1/master/pass/Business_Mistral%20Is%20In%20The%20Right%20Place%20At%20The%20Right%20Time_v1.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.252,
+      "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0361,
-      "feedPosition": 0.6667,
-      "novelty": 1
+      "freshness": 0.711,
+      "feedPosition": 0.5556,
+      "novelty": 0.2825
     },
     "rankingReasons": [
-      "real-world consequences",
       "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
+      "recognizable entities"
     ],
-    "score": 0.2975
-  },
-  {
-    "group": "ai",
-    "title": "Texas halts new data centers as governor calls for audits",
-    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T15:42:35.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8728,
-      "feedPosition": 0.4444,
-      "novelty": 0.0464
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "conflict"
-    ],
-    "score": 0.295
+    "score": 0.2938
   },
   {
     "group": "ai",
@@ -543,14 +545,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.4103,
+      "freshness": 0.3988,
       "feedPosition": 0.6667,
-      "novelty": 0.6116
+      "novelty": 0.5917
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2924
+    "score": 0.2887
   },
   {
     "group": "ai",
@@ -564,14 +566,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.4728,
+      "freshness": 0.4596,
       "feedPosition": 0.4444,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2904
+    "score": 0.2884
   },
   {
     "group": "ai",
@@ -585,15 +587,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.5405,
+      "freshness": 0.5254,
       "feedPosition": 0.4444,
-      "novelty": 0.6099
+      "novelty": 0.59
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2899
+    "score": 0.2856
   },
   {
     "group": "ai",
@@ -607,16 +609,38 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1545,
       "sourceAuthority": 0.5,
-      "freshness": 0.3934,
+      "freshness": 0.3823,
       "feedPosition": 0.3333,
-      "novelty": 0.8953
+      "novelty": 0.8899
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2878
+    "score": 0.2856
+  },
+  {
+    "group": "ai",
+    "title": "Texas halts new data centers as governor calls for audits",
+    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:42:35.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8483,
+      "feedPosition": 0.3333,
+      "novelty": 0.0342
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "conflict"
+    ],
+    "score": 0.279
   },
   {
     "group": "ai",
@@ -630,58 +654,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.404,
+      "freshness": 0.3927,
       "feedPosition": 0.7778,
-      "novelty": 0.375
+      "novelty": 0.343
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2789
-  },
-  {
-    "group": "ai",
-    "title": "Scientists just 3D printed one of the hardest metals on Earth",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T07:08:28.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.071,
-      "sourceAuthority": 0.5,
-      "freshness": 0.6879,
-      "feedPosition": 0.5556,
-      "novelty": 0.2546
-    },
-    "rankingReasons": [
-      "recognizable entities"
-    ],
-    "score": 0.2734
-  },
-  {
-    "group": "ai",
-    "title": "The ‘Guardrail Guy’ Went Viral for Posting About Flock Cameras. Then Someone Destroyed Them",
-    "url": "https://www.wired.com/story/flock-cameras-guardrail-guy-advocacy-damage-people-dont-like-alprs/",
-    "source": "WIRED AI",
-    "published": "2026-08-03T09:30:00.000Z",
-    "image": "https://media.wired.com/photos/6a6d2245b481ceaecb2e9fe0/master/pass/FlockCameras.ThenSomeoneDestroyedThem_v1.gif",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.172,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3771,
-      "feedPosition": 0.2222,
-      "novelty": 0.8477
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.273
+    "score": 0.274
   },
   {
     "group": "ai",
@@ -697,7 +677,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.6667,
-      "novelty": 0.8477
+      "novelty": 0.8399
     },
     "rankingReasons": [
       "real-world consequences",
@@ -705,28 +685,51 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2722
+    "score": 0.2715
   },
   {
     "group": "ai",
-    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
-    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T12:00:00.000Z",
+    "title": "The ‘Guardrail Guy’ Went Viral for Posting About Flock Cameras. Then Someone Destroyed Them",
+    "url": "https://www.wired.com/story/flock-cameras-guardrail-guy-advocacy-damage-people-dont-like-alprs/",
+    "source": "WIRED AI",
+    "published": "2026-08-03T09:30:00.000Z",
+    "image": "https://media.wired.com/photos/6a6d2245b481ceaecb2e9fe0/master/pass/FlockCameras.ThenSomeoneDestroyedThem_v1.gif",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.172,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3665,
+      "feedPosition": 0.2222,
+      "novelty": 0.8399
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2706
+  },
+  {
+    "group": "ai",
+    "title": "Scientists just 3D printed one of the hardest metals on Earth",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-04T07:08:28.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.11,
+      "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.7873,
-      "feedPosition": 0,
-      "novelty": 0.5617
+      "freshness": 0.6686,
+      "feedPosition": 0.5556,
+      "novelty": 0.2165
     },
     "rankingReasons": [
-      "real-world consequences"
+      "recognizable entities"
     ],
-    "score": 0.2713
+    "score": 0.2667
   },
   {
     "group": "ai",
@@ -742,14 +745,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.7778,
-      "novelty": 0.6055
+      "novelty": 0.5853
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2662
+    "score": 0.2642
   },
   {
     "group": "ai",
@@ -763,58 +766,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3824,
+      "freshness": 0.3716,
       "feedPosition": 0.3333,
-      "novelty": 0.7136
+      "novelty": 0.699
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2655
-  },
-  {
-    "group": "ai",
-    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
-    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T14:03:01.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8334,
-      "feedPosition": 0.2222,
-      "novelty": 0.0913
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.2605
-  },
-  {
-    "group": "ai",
-    "title": "Is the future of data centers portable? Runware builds a pod to find out",
-    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T13:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8095,
-      "feedPosition": 0.1111,
-      "novelty": 0.1923
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.2559
+    "score": 0.2624
   },
   {
     "group": "ai",
@@ -830,13 +791,55 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.2792
+      "novelty": 0.2423
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details"
     ],
-    "score": 0.25
+    "score": 0.2463
+  },
+  {
+    "group": "ai",
+    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T14:03:01.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8101,
+      "feedPosition": 0.1111,
+      "novelty": 0.0768
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2444
+  },
+  {
+    "group": "ai",
+    "title": "Is the future of data centers portable? Runware builds a pod to find out",
+    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T13:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7868,
+      "feedPosition": 0,
+      "novelty": 0.1794
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2401
   },
   {
     "group": "ai",
@@ -852,14 +855,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.5556,
-      "novelty": 0.6548
+      "novelty": 0.6371
     },
     "rankingReasons": [
       "conflict",
-      "recognizable entities",
-      "unusual language in the current story batch"
+      "recognizable entities"
     ],
-    "score": 0.2353
+    "score": 0.2336
   },
   {
     "group": "ai",
@@ -886,45 +888,24 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives",
-    "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
-    "source": "WIRED AI",
-    "published": "2026-08-02T10:00:00.000Z",
-    "image": "https://media.wired.com/photos/6a6caf7dd48647a2296aebb5/master/pass/073126_Europeans%20Are%20About%20to%20See%20How%20Entrenched%20AI%20Is%20in%20Their%20Daily%20Lives.gif",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.212,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1963,
-      "feedPosition": 0.1111,
-      "novelty": 0.6217
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.2201
-  },
-  {
-    "group": "ai",
-    "title": "Scientists twist crystal layers and reshape matter from within",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042819.htm",
+    "title": "Giant waves are sweeping Mars’ atmosphere into space",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
     "source": "ScienceDaily Technology",
-    "published": "2026-08-03T04:36:48.000Z",
+    "published": "2026-08-03T04:07:54.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0,
+      "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.3292,
-      "feedPosition": 0.3333,
-      "novelty": 0.6099
+      "freshness": 0.3157,
+      "feedPosition": 0.2222,
+      "novelty": 0.7158
     },
-    "rankingReasons": [],
-    "score": 0.2187
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2233
   },
   {
     "group": "ai",
@@ -938,35 +919,56 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2144,
+      "freshness": 0.2084,
       "feedPosition": 0.1111,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2183
+    "score": 0.2174
   },
   {
     "group": "ai",
-    "title": "Dark matter’s secret force does the opposite of what scientists expected",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
+    "title": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives",
+    "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
+    "source": "WIRED AI",
+    "published": "2026-08-02T10:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a6caf7dd48647a2296aebb5/master/pass/073126_Europeans%20Are%20About%20to%20See%20How%20Entrenched%20AI%20Is%20in%20Their%20Daily%20Lives.gif",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.212,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1908,
+      "feedPosition": 0.1111,
+      "novelty": 0.6024
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.2174
+  },
+  {
+    "group": "ai",
+    "title": "Scientists twist crystal layers and reshape matter from within",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042819.htm",
     "source": "ScienceDaily Technology",
-    "published": "2026-08-02T13:26:11.000Z",
+    "published": "2026-08-03T04:36:48.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.07,
+      "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.216,
-      "feedPosition": 0.4444,
-      "novelty": 0.5105
+      "freshness": 0.32,
+      "feedPosition": 0.3333,
+      "novelty": 0.59
     },
-    "rankingReasons": [
-      "surprise or reversal"
-    ],
-    "score": 0.2169
+    "rankingReasons": [],
+    "score": 0.2153
   },
   {
     "group": "ai",
@@ -980,15 +982,35 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0356,
+      "freshness": 0.0346,
       "feedPosition": 0.5556,
-      "novelty": 0.665
+      "novelty": 0.6478
     },
     "rankingReasons": [
-      "recognizable entities",
-      "unusual language in the current story batch"
+      "recognizable entities"
     ],
-    "score": 0.2166
+    "score": 0.2147
+  },
+  {
+    "group": "ai",
+    "title": "Dark matter’s secret force does the opposite of what scientists expected",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-02T13:26:11.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.07,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2099,
+      "feedPosition": 0.4444,
+      "novelty": 0.4854
+    },
+    "rankingReasons": [
+      "surprise or reversal"
+    ],
+    "score": 0.2135
   },
   {
     "group": "ai",
@@ -1002,34 +1024,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3255,
       "sourceAuthority": 0.5,
-      "freshness": 0.0152,
+      "freshness": 0.0148,
       "feedPosition": 0.4444,
-      "novelty": 0.273
+      "novelty": 0.2614
     },
     "rankingReasons": [
       "real-world consequences",
       "surprise or reversal"
     ],
-    "score": 0.2141
-  },
-  {
-    "group": "ai",
-    "title": "Giant waves are sweeping Mars’ atmosphere into space",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T04:07:54.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3249,
-      "feedPosition": 0.2222,
-      "novelty": 0.6099
-    },
-    "rankingReasons": [],
-    "score": 0.214
+    "score": 0.2129
   },
   {
     "group": "ai",
@@ -1043,14 +1046,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.2563,
+      "freshness": 0.2491,
       "feedPosition": 0.2222,
-      "novelty": 0.4797
+      "novelty": 0.4531
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2127
+    "score": 0.209
   },
   {
     "group": "ai",
@@ -1066,14 +1069,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0003,
       "feedPosition": 0.2222,
-      "novelty": 0.8409
+      "novelty": 0.8328
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2098
+    "score": 0.2089
   },
   {
     "group": "ai",
@@ -1108,16 +1111,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.1022,
+      "freshness": 0.0993,
       "feedPosition": 0,
-      "novelty": 0.7906
+      "novelty": 0.7799
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2074
+    "score": 0.2059
   },
   {
     "group": "ai",
@@ -1131,14 +1134,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2134,
+      "freshness": 0.2074,
       "feedPosition": 0.1111,
-      "novelty": 0.8604
+      "novelty": 0.8533
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2042
+    "score": 0.2025
   },
   {
     "group": "ai",
@@ -1152,15 +1155,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1616,
+      "freshness": 0.1571,
       "feedPosition": 0,
-      "novelty": 0.8698
+      "novelty": 0.8632
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2004
+    "score": 0.1991
   },
   {
     "group": "ai",
@@ -1176,13 +1179,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.4444,
-      "novelty": 0.5112
+      "novelty": 0.4862
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1943
+    "score": 0.1918
   },
   {
     "group": "ai",
@@ -1198,13 +1201,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.3333,
-      "novelty": 0.4763
+      "novelty": 0.4495
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1844
+    "score": 0.1817
   },
   {
     "group": "ai",
@@ -1239,14 +1242,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1545,
       "sourceAuthority": 0.5,
-      "freshness": 0.127,
+      "freshness": 0.1235,
       "feedPosition": 0,
-      "novelty": 0.4974
+      "novelty": 0.4717
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1747
+    "score": 0.1716
   }
 ];
