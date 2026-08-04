@@ -6,6 +6,26 @@
     link.rel = "noopener noreferrer";
   });
 
+  function addGlitchLayers(container, image) {
+    if (!container || !image || container.querySelector(".glitch-image-layer")) {
+      return;
+    }
+
+    image.classList.add("story-image-base");
+
+    ["top", "bottom"].forEach((position) => {
+      const layer = image.cloneNode(false);
+
+      layer.removeAttribute("id");
+      layer.removeAttribute("hidden");
+      layer.alt = "";
+      layer.setAttribute("aria-hidden", "true");
+      layer.classList.remove("story-image-base");
+      layer.classList.add("glitch-image-layer", `glitch-image-layer--${position}`);
+      container.append(layer);
+    });
+  }
+
   if (!Array.isArray(articles) || articles.length === 0) {
     return;
   }
@@ -35,6 +55,7 @@
       headlineImage.alt = featuredArticle.title;
       headlineImage.hidden = false;
       headlineImageLink?.classList.add("has-story-image");
+      addGlitchLayers(headlineImageLink, headlineImage);
 
       if (headlineImagePlaceholder) {
         headlineImagePlaceholder.hidden = true;
@@ -84,6 +105,7 @@
       coverImage.loading = "lazy";
 
       coverLink.append(coverImage);
+      addGlitchLayers(coverLink, coverImage);
       groupElement.parentElement.insertBefore(coverLink, groupElement);
     }
 
