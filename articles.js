@@ -12,7 +12,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.319,
       "sourceAuthority": 0.5,
-      "freshness": 0.9446,
+      "freshness": 0.8822,
       "feedPosition": 1,
       "novelty": 1
     },
@@ -23,7 +23,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4805
+    "score": 0.4711
   },
   {
     "group": "ai",
@@ -37,7 +37,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8798,
+      "freshness": 0.8217,
       "feedPosition": 1,
       "novelty": 1
     },
@@ -46,57 +46,29 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4354,
+    "score": 0.4266,
     "featured": true
   },
   {
     "group": "ai",
-    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "title": "Spotify expands AI remix and covers project with Merlin partnership",
+    "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
     "source": "TechCrunch AI",
-    "published": "2026-08-04T15:20:06.000Z",
+    "published": "2026-08-04T15:50:06.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.161,
+      "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.9924,
+      "freshness": 0.9398,
       "feedPosition": 1,
-      "novelty": 0.785
+      "novelty": 1
     },
     "rankingReasons": [
-      "conflict",
-      "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4346
-  },
-  {
-    "group": "ai",
-    "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
-    "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T23:19:50.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.602,
-      "sourceAuthority": 0.5,
-      "freshness": 0.6362,
-      "feedPosition": 0.5556,
-      "novelty": 0.8388
-    },
-    "rankingReasons": [
-      "urgency or risk",
-      "real-world consequences",
-      "conflict",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.4303
+    "score": 0.4231
   },
   {
     "group": "ai",
@@ -110,7 +82,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.184,
       "sourceAuthority": 0.5,
-      "freshness": 0.8676,
+      "freshness": 0.8103,
       "feedPosition": 0.7778,
       "novelty": 1
     },
@@ -119,7 +91,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4197
+    "score": 0.4111
   },
   {
     "group": "ai",
@@ -133,59 +105,64 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.8322,
+      "freshness": 0.7773,
       "feedPosition": 1,
-      "novelty": 0.8964
+      "novelty": 0.8881
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.4115
+    "score": 0.4024
   },
   {
     "group": "ai",
-    "title": "OpenAI drags Apple’s lawsuit into the court of public opinion",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
-    "source": "The Verge AI",
-    "published": "2026-08-04T11:27:55.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:20:06.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.2355,
+      "titleImpact": 0.161,
       "sourceAuthority": 0.5,
-      "freshness": 0.8912,
-      "feedPosition": 1,
-      "novelty": 0.4442
+      "freshness": 0.9268,
+      "feedPosition": 0.7778,
+      "novelty": 0.7174
     },
     "rankingReasons": [
-      "real-world consequences",
-      "conflict"
-    ],
-    "score": 0.4002
-  },
-  {
-    "group": "ai",
-    "title": "Can Reddit fend off a new wave of AI SEO spam?",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
-    "source": "The Verge AI",
-    "published": "2026-08-04T10:00:00.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Verge-RedditBrands_V1-Final.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.071,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8557,
-      "feedPosition": 0.8889,
-      "novelty": 0.8964
-    },
-    "rankingReasons": [
+      "conflict",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3961
+    "score": 0.3957
+  },
+  {
+    "group": "ai",
+    "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+    "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-03T23:19:50.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.602,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5942,
+      "feedPosition": 0.3333,
+      "novelty": 0.7642
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "real-world consequences",
+      "conflict",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3943
   },
   {
     "group": "offbeat",
@@ -199,16 +176,57 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.211,
       "sourceAuthority": 0.5,
-      "freshness": 0.8515,
+      "freshness": 0.7952,
       "feedPosition": 0.7778,
-      "novelty": 0.7192
+      "novelty": 0.6969
     },
     "rankingReasons": [
       "surprise or reversal",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3946
+    "score": 0.3839
+  },
+  {
+    "group": "ai",
+    "title": "‘Not healthy’ LLM use is more common than you think",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+    "source": "The Verge AI",
+    "published": "2026-08-04T17:33:46.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2253306515.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0655,
+      "sourceAuthority": 0.5,
+      "freshness": 0.986,
+      "feedPosition": 1,
+      "novelty": 0.4189
+    },
+    "rankingReasons": [],
+    "score": 0.3779
+  },
+  {
+    "group": "ai",
+    "title": "Can Reddit fend off a new wave of AI SEO spam?",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+    "source": "The Verge AI",
+    "published": "2026-08-04T10:00:00.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Verge-RedditBrands_V1-Final.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.071,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7992,
+      "feedPosition": 0.6667,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3757
   },
   {
     "group": "ai",
@@ -222,14 +240,36 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9311,
+      "freshness": 0.8696,
       "feedPosition": 1,
-      "novelty": 0.7192
+      "novelty": 0.6969
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3866
+    "score": 0.3751
+  },
+  {
+    "group": "ai",
+    "title": "OpenAI drags Apple’s lawsuit into the court of public opinion",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+    "source": "The Verge AI",
+    "published": "2026-08-04T11:27:55.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8323,
+      "feedPosition": 0.7778,
+      "novelty": 0.4695
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "conflict"
+    ],
+    "score": 0.3717
   },
   {
     "group": "ai",
@@ -243,102 +283,37 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.8737,
+      "freshness": 0.816,
       "feedPosition": 0.8889,
-      "novelty": 0.4548
+      "novelty": 0.4116
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3828
+    "score": 0.3698
   },
   {
     "group": "ai",
-    "title": "How Data Centers Broke American Politics",
-    "url": "https://www.wired.com/story/how-data-centers-broke-american-politics/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T10:00:00.000Z",
-    "image": "https://media.wired.com/photos/6a709a8db4004b4e490ab2d7/master/pass/20260719-MattEich-0262.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.322,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8557,
-      "feedPosition": 0.6667,
-      "novelty": 0.4066
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.3751
-  },
-  {
-    "group": "ai",
-    "title": "Is the future of data centers portable? Runware builds a pod to find out",
-    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T13:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.93,
-      "feedPosition": 0.7778,
-      "novelty": 0.4519
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.3666
-  },
-  {
-    "group": "ai",
-    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
-    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T12:00:00.000Z",
-    "image": "",
+    "title": "Texas says data centers must pass an audit before connecting to the grid",
+    "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
+    "source": "The Verge AI",
+    "published": "2026-08-04T15:33:21.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.9046,
-      "feedPosition": 0.6667,
-      "novelty": 0.6703
+      "freshness": 0.9325,
+      "feedPosition": 0.8889,
+      "novelty": 0.3066
     },
     "rankingReasons": [
-      "real-world consequences",
-      "unusual language in the current story batch"
+      "real-world consequences"
     ],
-    "score": 0.3664
-  },
-  {
-    "group": "ai",
-    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T11:44:58.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.03,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8983,
-      "feedPosition": 0.8889,
-      "novelty": 0.5994
-    },
-    "rankingReasons": [],
-    "score": 0.3646
+    "score": 0.3564
   },
   {
     "group": "ai",
@@ -352,37 +327,57 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.5773,
+      "freshness": 0.5392,
       "feedPosition": 0.8889,
-      "novelty": 0.6131
+      "novelty": 0.5285
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3622
+    "score": 0.348
   },
   {
     "group": "ai",
-    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
-    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+    "title": "Texas halts new data centers as governor calls for audits",
+    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
     "source": "TechCrunch AI",
-    "published": "2026-08-04T14:03:01.000Z",
+    "published": "2026-08-04T15:42:35.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.1455,
+      "titleImpact": 0.2,
       "sourceAuthority": 0.5,
-      "freshness": 0.9576,
+      "freshness": 0.9365,
       "feedPosition": 0.8889,
-      "novelty": 0.2547
+      "novelty": 0.0291
     },
     "rankingReasons": [
-      "real-world consequences"
+      "real-world consequences",
+      "conflict"
     ],
-    "score": 0.3621
+    "score": 0.3473
+  },
+  {
+    "group": "ai",
+    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-04T11:44:58.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.03,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8389,
+      "feedPosition": 0.8889,
+      "novelty": 0.458
+    },
+    "rankingReasons": [],
+    "score": 0.3415
   },
   {
     "group": "offbeat",
@@ -396,14 +391,101 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9099,
+      "freshness": 0.8498,
       "feedPosition": 0.5556,
-      "novelty": 0.845
+      "novelty": 0.8327
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3515
+    "score": 0.3413
+  },
+  {
+    "group": "ai",
+    "title": "How Data Centers Broke American Politics",
+    "url": "https://www.wired.com/story/how-data-centers-broke-american-politics/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T10:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a709a8db4004b4e490ab2d7/master/pass/20260719-MattEich-0262.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.322,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7992,
+      "feedPosition": 0.6667,
+      "novelty": 0.0651
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.3324
+  },
+  {
+    "group": "ai",
+    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T12:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.11,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8448,
+      "feedPosition": 0.4444,
+      "novelty": 0.5902
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.3272
+  },
+  {
+    "group": "ai",
+    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T14:03:01.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8943,
+      "feedPosition": 0.6667,
+      "novelty": 0.1504
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.32
+  },
+  {
+    "group": "ai",
+    "title": "Is the future of data centers portable? Runware builds a pod to find out",
+    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T13:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8686,
+      "feedPosition": 0.5556,
+      "novelty": 0.2448
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.3144
   },
   {
     "group": "ai",
@@ -417,83 +499,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8404,
+      "freshness": 0.7849,
       "feedPosition": 0.5556,
-      "novelty": 0.4087
+      "novelty": 0.3618
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3259
-  },
-  {
-    "group": "ai",
-    "title": "Europe’s AI labeling and transparency rules are now in effect",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-    "source": "The Verge AI",
-    "published": "2026-08-03T17:38:45.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268679_Europes_AI_labeling_and_transparency_rules_are_now_in_effect_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5433,
-      "feedPosition": 0.7778,
-      "novelty": 0.8791
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3222
-  },
-  {
-    "group": "ai",
-    "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
-    "source": "The Verge AI",
-    "published": "2026-08-03T11:01:11.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2266883826.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1545,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4519,
-      "feedPosition": 0.6667,
-      "novelty": 0.8186
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3222
-  },
-  {
-    "group": "ai",
-    "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
-    "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T19:28:57.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.229,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5717,
-      "feedPosition": 0.3333,
-      "novelty": 0.8186
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3218
+    "score": 0.3129
   },
   {
     "group": "ai",
@@ -507,16 +521,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.6211,
+      "freshness": 0.58,
       "feedPosition": 0.4444,
-      "novelty": 0.7658
+      "novelty": 0.7472
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3176
+    "score": 0.3096
   },
   {
     "group": "ai",
@@ -530,7 +544,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0414,
+      "freshness": 0.0387,
       "feedPosition": 0.7778,
       "novelty": 1
     },
@@ -540,7 +554,75 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3094
+    "score": 0.309
+  },
+  {
+    "group": "ai",
+    "title": "Europe’s AI labeling and transparency rules are now in effect",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+    "source": "The Verge AI",
+    "published": "2026-08-03T17:38:45.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268679_Europes_AI_labeling_and_transparency_rules_are_now_in_effect_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5074,
+      "feedPosition": 0.5556,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3067
+  },
+  {
+    "group": "ai",
+    "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+    "source": "The Verge AI",
+    "published": "2026-08-03T11:01:11.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2266883826.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1545,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4221,
+      "feedPosition": 0.4444,
+      "novelty": 0.8042
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2941
+  },
+  {
+    "group": "ai",
+    "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+    "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-03T19:28:57.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.229,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5339,
+      "feedPosition": 0.1111,
+      "novelty": 0.8042
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2924
   },
   {
     "group": "ai",
@@ -556,7 +638,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.8889,
-      "novelty": 0.7582
+      "novelty": 0.739
     },
     "rankingReasons": [
       "real-world consequences",
@@ -564,26 +646,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2926
-  },
-  {
-    "group": "offbeat",
-    "title": "Scientists went looking for giant trees in Taiwan and found a lost world",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260802223431.htm",
-    "source": "ScienceDaily Strange & Offbeat",
-    "published": "2026-08-04T01:18:59.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.6723,
-      "feedPosition": 0.6667,
-      "novelty": 0.4253
-    },
-    "rankingReasons": [],
-    "score": 0.2921
+    "score": 0.2907
   },
   {
     "group": "ai",
@@ -597,14 +660,33 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.4714,
+      "freshness": 0.4402,
       "feedPosition": 0.6667,
-      "novelty": 0.5085
+      "novelty": 0.4695
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2912
+    "score": 0.2827
+  },
+  {
+    "group": "offbeat",
+    "title": "Scientists went looking for giant trees in Taiwan and found a lost world",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260802223431.htm",
+    "source": "ScienceDaily Strange & Offbeat",
+    "published": "2026-08-04T01:18:59.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6279,
+      "feedPosition": 0.6667,
+      "novelty": 0.3797
+    },
+    "rankingReasons": [],
+    "score": 0.2809
   },
   {
     "group": "ai",
@@ -618,78 +700,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.4642,
+      "freshness": 0.4335,
       "feedPosition": 0.7778,
-      "novelty": 0.3535
+      "novelty": 0.3022
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2858
-  },
-  {
-    "group": "ai",
-    "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
-    "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T19:09:56.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1055,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5667,
-      "feedPosition": 0.2222,
-      "novelty": 0.7543
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2788
-  },
-  {
-    "group": "ai",
-    "title": "The ‘Guardrail Guy’ Went Viral for Posting About Flock Cameras. Then Someone Destroyed Them",
-    "url": "https://www.wired.com/story/flock-cameras-guardrail-guy-advocacy-damage-people-dont-like-alprs/",
-    "source": "WIRED AI",
-    "published": "2026-08-03T09:30:00.000Z",
-    "image": "https://media.wired.com/photos/6a6d2245b481ceaecb2e9fe0/master/pass/FlockCameras.ThenSomeoneDestroyedThem_v1.gif",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.172,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4333,
-      "feedPosition": 0.2222,
-      "novelty": 0.8021
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2768
-  },
-  {
-    "group": "ai",
-    "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
-    "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T20:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.58,
-      "feedPosition": 0.4444,
-      "novelty": 0.6137
-    },
-    "rankingReasons": [],
-    "score": 0.2749
+    "score": 0.276
   },
   {
     "group": "ai",
@@ -705,7 +723,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.6667,
-      "novelty": 0.8681
+      "novelty": 0.8576
     },
     "rankingReasons": [
       "real-world consequences",
@@ -713,30 +731,30 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2743
+    "score": 0.2732
   },
   {
     "group": "ai",
-    "title": "AI Conquered Coding. Fast Food Is Next",
-    "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
+    "title": "The ‘Guardrail Guy’ Went Viral for Posting About Flock Cameras. Then Someone Destroyed Them",
+    "url": "https://www.wired.com/story/flock-cameras-guardrail-guy-advocacy-damage-people-dont-like-alprs/",
     "source": "WIRED AI",
-    "published": "2026-08-03T10:00:00.000Z",
-    "image": "https://media.wired.com/photos/6a6cd8fd11de1df56dacd659/master/pass/Business_AIIsTakingOverattheDrive-Thru_v1.gif",
+    "published": "2026-08-03T09:30:00.000Z",
+    "image": "https://media.wired.com/photos/6a6d2245b481ceaecb2e9fe0/master/pass/FlockCameras.ThenSomeoneDestroyedThem_v1.gif",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.142,
+      "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.4393,
-      "feedPosition": 0.3333,
-      "novelty": 0.6721
+      "freshness": 0.4046,
+      "feedPosition": 0.2222,
+      "novelty": 0.7864
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2698
+    "score": 0.271
   },
   {
     "group": "ai",
@@ -752,36 +770,36 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.7778,
-      "novelty": 0.6068
+      "novelty": 0.6312
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2664
+    "score": 0.2688
   },
   {
     "group": "ai",
-    "title": "Congress’ favorite AI tool? ChatGPT",
-    "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T16:40:55.000Z",
-    "image": "",
+    "title": "AI Conquered Coding. Fast Food Is Next",
+    "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
+    "source": "WIRED AI",
+    "published": "2026-08-03T10:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a6cd8fd11de1df56dacd659/master/pass/Business_AIIsTakingOverattheDrive-Thru_v1.gif",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.1455,
+      "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.5289,
-      "feedPosition": 0,
-      "novelty": 0.8186
+      "freshness": 0.4103,
+      "feedPosition": 0.3333,
+      "novelty": 0.6461
     },
     "rankingReasons": [
-      "real-world consequences",
-      "unusual language in the current story batch"
+      "specific details",
+      "recognizable entities"
     ],
-    "score": 0.2653
+    "score": 0.2629
   },
   {
     "group": "ai",
@@ -795,36 +813,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.7904,
+      "freshness": 0.7381,
       "feedPosition": 0.5556,
       "novelty": 0
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.2633
-  },
-  {
-    "group": "ai",
-    "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
-    "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-03T18:43:43.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.141,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5599,
-      "feedPosition": 0.1111,
-      "novelty": 0.5992
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "recognizable entities"
-    ],
-    "score": 0.2582
+    "score": 0.2555
   },
   {
     "group": "ai",
@@ -840,120 +836,54 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.3476
+      "novelty": 0.2739
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details"
     ],
-    "score": 0.2569
+    "score": 0.2495
   },
   {
     "group": "ai",
-    "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-    "source": "The Verge AI",
-    "published": "2026-08-02T19:36:08.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2945,
-      "feedPosition": 0.5556,
-      "novelty": 0.523
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.2561
-  },
-  {
-    "group": "ai",
-    "title": "Connecting research to policy on Capitol Hill",
-    "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
-    "source": "MIT News AI",
-    "published": "2026-07-30T20:35:00.000Z",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-spi-congressional-visit-26.jpg?itok=Vo00t4gt",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.071,
-      "sourceAuthority": 0.5,
-      "freshness": 0.041,
-      "feedPosition": 0.6667,
-      "novelty": 0.8549
-    },
-    "rankingReasons": [
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2475
-  },
-  {
-    "group": "ai",
-    "title": "Is paying artists enough to convince them to embrace AI?",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
-    "source": "The Verge AI",
-    "published": "2026-08-02T13:00:00.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Screenshot-2026-07-31-at-4.11.25-PM.png?quality=90&#038;strip=all&#038;crop=2.6881256103516,0,97.311874389648,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2452,
-      "feedPosition": 0.4444,
-      "novelty": 0.8791
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2441
-  },
-  {
-    "group": "offbeat",
-    "title": "Two deadly flowers could inspire powerful new medicines",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042818.htm",
-    "source": "ScienceDaily Strange & Offbeat",
-    "published": "2026-08-03T05:51:39.000Z",
+    "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+    "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-03T19:09:56.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0,
+      "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.3916,
-      "feedPosition": 0.3333,
-      "novelty": 0.7192
+      "freshness": 0.5293,
+      "feedPosition": 0,
+      "novelty": 0.7348
     },
     "rankingReasons": [
+      "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.239
+    "score": 0.249
   },
   {
     "group": "ai",
-    "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
-    "url": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
-    "source": "MIT News AI",
-    "published": "2026-07-29T14:00:00.000Z",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-RogerMark-GeorgeMoody.jpg?itok=57wqdl_A",
+    "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+    "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-03T20:00:00.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.3255,
+      "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0175,
-      "feedPosition": 0.5556,
-      "novelty": 0.3827
+      "freshness": 0.5417,
+      "feedPosition": 0.2222,
+      "novelty": 0.583
     },
-    "rankingReasons": [
-      "real-world consequences",
-      "surprise or reversal"
-    ],
-    "score": 0.2366
+    "rankingReasons": [],
+    "score": 0.2439
   },
   {
     "group": "ai",
@@ -979,6 +909,27 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "score": 0.2352
   },
   {
+    "group": "offbeat",
+    "title": "Two deadly flowers could inspire powerful new medicines",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042818.htm",
+    "source": "ScienceDaily Strange & Offbeat",
+    "published": "2026-08-03T05:51:39.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3657,
+      "feedPosition": 0.3333,
+      "novelty": 0.6969
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2329
+  },
+  {
     "group": "ai",
     "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
     "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
@@ -992,13 +943,57 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.5556,
-      "novelty": 0.5994
+      "novelty": 0.6155
     },
     "rankingReasons": [
       "conflict",
       "recognizable entities"
     ],
-    "score": 0.2298
+    "score": 0.2314
+  },
+  {
+    "group": "ai",
+    "title": "Connecting research to policy on Capitol Hill",
+    "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
+    "source": "MIT News AI",
+    "published": "2026-07-30T20:35:00.000Z",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-spi-congressional-visit-26.jpg?itok=Vo00t4gt",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.071,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0383,
+      "feedPosition": 0.6667,
+      "novelty": 0.6868
+    },
+    "rankingReasons": [
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2303
+  },
+  {
+    "group": "ai",
+    "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
+    "url": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
+    "source": "MIT News AI",
+    "published": "2026-07-29T14:00:00.000Z",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-RogerMark-GeorgeMoody.jpg?itok=57wqdl_A",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.3255,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0164,
+      "feedPosition": 0.5556,
+      "novelty": 0.2851
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "surprise or reversal"
+    ],
+    "score": 0.2266
   },
   {
     "group": "ai",
@@ -1012,38 +1007,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.2256,
+      "freshness": 0.2107,
       "feedPosition": 0.1111,
-      "novelty": 0.6724
+      "novelty": 0.6464
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
+      "recognizable entities"
     ],
-    "score": 0.2296
-  },
-  {
-    "group": "ai",
-    "title": "Mathematicians prove perfectly fair elections are impossible",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042812.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-02T13:10:21.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2463,
-      "feedPosition": 0.1111,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2231
+    "score": 0.2247
   },
   {
     "group": "ai",
@@ -1059,14 +1032,56 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0003,
       "feedPosition": 0.3333,
-      "novelty": 0.8622
+      "novelty": 0.8513
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.223
+    "score": 0.2219
+  },
+  {
+    "group": "ai",
+    "title": "Mathematicians prove perfectly fair elections are impossible",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042812.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-02T13:10:21.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2301,
+      "feedPosition": 0.1111,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2206
+  },
+  {
+    "group": "ai",
+    "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+    "source": "The Verge AI",
+    "published": "2026-08-02T19:36:08.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.275,
+      "feedPosition": 0.3333,
+      "novelty": 0.4157
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2203
   },
   {
     "group": "ai",
@@ -1080,7 +1095,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0005,
+      "freshness": 0.0004,
       "feedPosition": 0.4444,
       "novelty": 1
     },
@@ -1091,22 +1106,24 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Scientists twist crystal layers and reshape matter from within",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042819.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T04:36:48.000Z",
-    "image": "",
+    "title": "Is paying artists enough to convince them to embrace AI?",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+    "source": "The Verge AI",
+    "published": "2026-08-02T13:00:00.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Screenshot-2026-07-31-at-4.11.25-PM.png?quality=90&#038;strip=all&#038;crop=2.6881256103516,0,97.311874389648,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.3783,
-      "feedPosition": 0.3333,
-      "novelty": 0.542
+      "freshness": 0.229,
+      "feedPosition": 0.2222,
+      "novelty": 0.8695
     },
-    "rankingReasons": [],
-    "score": 0.2193
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2185
   },
   {
     "group": "ai",
@@ -1120,14 +1137,33 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.2481,
+      "freshness": 0.2318,
       "feedPosition": 0.4444,
-      "novelty": 0.4253
+      "novelty": 0.4415
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2132
+    "score": 0.2124
+  },
+  {
+    "group": "ai",
+    "title": "Scientists twist crystal layers and reshape matter from within",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042819.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T04:36:48.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3533,
+      "feedPosition": 0.3333,
+      "novelty": 0.5056
+    },
+    "rankingReasons": [],
+    "score": 0.2119
   },
   {
     "group": "ai",
@@ -1141,16 +1177,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.1174,
+      "freshness": 0.1097,
       "feedPosition": 0,
-      "novelty": 0.8186
+      "novelty": 0.8042
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2125
+    "score": 0.2099
   },
   {
     "group": "offbeat",
@@ -1164,15 +1200,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1287,
+      "freshness": 0.1202,
       "feedPosition": 0.2222,
-      "novelty": 0.7543
+      "novelty": 0.7348
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2061
+    "score": 0.2029
   },
   {
     "group": "ai",
@@ -1188,54 +1224,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.4444,
-      "novelty": 0.6063
+      "novelty": 0.575
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2038
-  },
-  {
-    "group": "ai",
-    "title": "Is this Billboard Hot 100 hit AI slop?",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-    "source": "The Verge AI",
-    "published": "2026-08-01T18:20:00.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1545,
-      "sourceAuthority": 0.5,
-      "freshness": 0.146,
-      "feedPosition": 0.3333,
-      "novelty": 0.4196
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.2031
-  },
-  {
-    "group": "ai",
-    "title": "Giant waves are sweeping Mars’ atmosphere into space",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T04:07:54.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3732,
-      "feedPosition": 0.2222,
-      "novelty": 0.4082
-    },
-    "rankingReasons": [],
-    "score": 0.2011
+    "score": 0.2006
   },
   {
     "group": "ai",
@@ -1251,13 +1246,54 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.3333,
-      "novelty": 0.611
+      "novelty": 0.5802
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1978
+    "score": 0.1948
+  },
+  {
+    "group": "ai",
+    "title": "Giant waves are sweeping Mars’ atmosphere into space",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T04:07:54.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3486,
+      "feedPosition": 0.2222,
+      "novelty": 0.3613
+    },
+    "rankingReasons": [],
+    "score": 0.1927
+  },
+  {
+    "group": "ai",
+    "title": "Is this Billboard Hot 100 hit AI slop?",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+    "source": "The Verge AI",
+    "published": "2026-08-01T18:20:00.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1545,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1363,
+      "feedPosition": 0.1111,
+      "novelty": 0.5301
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.1905
   },
   {
     "group": "ai",
@@ -1292,37 +1328,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1857,
+      "freshness": 0.1734,
       "feedPosition": 0,
-      "novelty": 0.6722
+      "novelty": 0.6462
     },
     "rankingReasons": [
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1843
-  },
-  {
-    "group": "ai",
-    "title": "Here’s the problem with putting an AI image generator in Google Earth",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
-    "source": "The Verge AI",
-    "published": "2026-07-31T17:05:46.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Dream-House.mp4_snapshot_00.11.422.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.141,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0724,
-      "feedPosition": 0.1111,
-      "novelty": 0.4849
-    },
-    "rankingReasons": [
-      "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.1737
+    "score": 0.1798
   },
   {
     "group": "ai",
@@ -1336,36 +1349,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.119,
       "sourceAuthority": 0.5,
-      "freshness": 0.0768,
-      "feedPosition": 0.2222,
-      "novelty": 0.3366
+      "freshness": 0.0717,
+      "feedPosition": 0,
+      "novelty": 0.4806
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1662
-  },
-  {
-    "group": "ai",
-    "title": "The major labels propose rules to keep AI slop off the charts",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
-    "source": "The Verge AI",
-    "published": "2026-07-31T16:36:48.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK467_AI_Music.webp?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0714,
-      "feedPosition": 0,
-      "novelty": 0.7279
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1585
+    "score": 0.1576
   },
   {
     "group": "offbeat",
@@ -1379,14 +1371,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0325,
+      "freshness": 0.0303,
       "feedPosition": 0,
-      "novelty": 0.5349
+      "novelty": 0.498
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.1476
+    "score": 0.1435
   },
   {
     "group": "ai",
@@ -1402,12 +1394,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0,
-      "novelty": 0.5729
+      "novelty": 0.539
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.1465
+    "score": 0.1431
   },
   {
     "group": "offbeat",
@@ -1421,11 +1413,11 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0655,
       "sourceAuthority": 0.5,
-      "freshness": 0.0927,
+      "freshness": 0.0865,
       "feedPosition": 0.1111,
-      "novelty": 0.2875
+      "novelty": 0.231
     },
     "rankingReasons": [],
-    "score": 0.1419
+    "score": 0.1353
   }
 ];
