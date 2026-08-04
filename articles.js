@@ -2,6 +2,27 @@
 window.DAILY_DOOMSAYER_ARTICLES = [
   {
     "group": "ai",
+    "title": "Why Governing World Models Is AI's Next Big Policy Challenge - Stanford HAI",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQUExWUVqZURRbnlyNXhrRjdEcU1lX0JnVHAxdVFRTzhuMUw4YTRaeDJNS2xnclQyblFrb19kOVZkN0ZFN01ZVEdjc0RoLUJQUDdDWk8wMmkwY3AwQ1RCTFhxRG5PRGpsMS1qNWZXWDlLclo1Z0NYeGxTU0FSNGVOMHVIY28ybTBGV2NqREYwYVQ5VTg?oc=5",
+    "source": "Stanford HAI",
+    "published": "2026-08-04T00:10:45.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Did an AI Music App Just Snitch on the Song of the Summer?",
+    "url": "https://www.wired.com/story/ai-music-app-treblo-just-snitched-on-rubberz-song-of-the-summer/",
+    "source": "WIRED AI",
+    "published": "2026-08-03T22:27:46.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Breakingviews - Big Tech’s circular AI trade grows too big to veil - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTGlMYXdPSkJjMzdsYmVMLVUxdHFkRDh5TWhnQnJvTXhqc0Y2UjE4TllHRlAwSHNyekhIT1pvZ1lRM016aDUwNXRUM0dDUnd6eWd4cE9VYzlaTWNBWnR5NWlkQ0xQTWlnR01vREFmWmV6SmtwRUJEcmhzQ1EyYnlmRjllQmZTdExodGVGQ1NJM0ZydzdBU3NGamZVUGtCQjJlVjVlRnMwbzRVY00?oc=5",
+    "source": "Reuters AI",
+    "published": "2026-08-03T18:05:22.000Z"
+  },
+  {
+    "group": "ai",
     "title": "Europe’s AI labeling and transparency rules are now in effect",
     "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
     "source": "The Verge AI",
@@ -72,13 +93,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "A Dire Situation - WSJ",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvZmE1SGUtRWxlOGIzcnZhWFlmNUF0LURTU2pmbnJ1Zno0bjBEN2xFS2Jiem1ZUDQwd2QzYWRmSXREVmx4NWthRnpNX0NjYkNJYjQwR0FCQ2pybWxMRnpWcW1KUQ?oc=5",
-    "source": "The Wall Street Journal AI",
-    "published": "2026-08-02T14:55:00.000Z"
-  },
-  {
-    "group": "ai",
     "title": "Dark matter’s secret force does the opposite of what scientists expected",
     "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
     "source": "ScienceDaily Technology",
@@ -86,10 +100,10 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives",
-    "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
-    "source": "WIRED AI",
-    "published": "2026-08-02T10:00:00.000Z"
+    "title": "AI Images Are Everywhere. Here’s What They Do to Our Brains, and What We Can Do. - WSJ",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tQmdLaE9EYUNjNFdXdElFRS1Lckt2Q3U3RzBCTV9aNGkxNzdMNHdackdGUjVuVG5OUkxXNGRnNWxLdUFwWW5wR0VuNEF2aFl5VFlxVWEwMGJCLWlmcUF4Rmw1RERfQkVpM2xfc0xjeVRfOW5nblN5RQ?oc=5",
+    "source": "The Wall Street Journal AI",
+    "published": "2026-08-02T13:00:00.000Z"
   },
   {
     "group": "offbeat",
@@ -128,13 +142,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Nvidia partner ChipAgents raises $60 million to accelerate chip design with AI agents - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRkRHaGJwMjZBLUt2QTBKcTQ2TXJIclVZdjNDSUF6U1d3aFFTa0FtMHIzYXBxNmxRanlKNjA3eG1KYU1uY255d3JhS2dQb0l3dHJUd0ptSk5rSDhGT2xMdlZCVThNMENpMHJYaVZXZjVMMWZRMVlma2MzRER1WlZZMlNSMjRsNWpDYjRZb0hYaENfVks0cVlBMDVBRnJIakdMYUVRTWVmVlk2UDRzT05tZ2RmMVYtb0ttaVFj?oc=5",
-    "source": "Reuters AI",
-    "published": "2026-07-29T17:01:29.000Z"
-  },
-  {
-    "group": "ai",
     "title": "The Complexities of Governing Mental Health AI - Stanford HAI",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWnVxcElJMlZGQUltZlQ2bTN1bzFpUkhXLUFNNXZnNFpkV1FZNmg0QWNfbWtTenc3U3hVVHpNX0I2QWVpbDJCaDk0NDhFZzl3SW5PcWdsTnUwTndmVXV3S0FqX3RFbnQ2TjVvX1ppV1NFQlMxYTRMRWhhMm95aDl0VDV3?oc=5",
     "source": "Stanford HAI",
@@ -153,13 +160,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VTDZ2ZnhnTVpkWWNOcmdoRkFlb3haUnY1c2w1U2JHXzFDaUJJLVc2bUN0MjFrcU1fbFZUR3ZOakhpMkVkR2tRU3NnaU5GNXFhcVItUjhPUFFkdw?oc=5",
     "source": "BBC AI",
     "published": "2026-07-22T07:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Legal AI’s Legibility Problem - Stanford HAI",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhRF8wYkl3WXp3ZUFtSHM1U1l6ZlJsLXEtYVB5UFg4ZVRZd3FhLVVHZ3luWWJRdVpoWHVINXpfb0g1TWxwNXA1NXFXN2ZCLU82VkNJUHhVLU9xV2tUMHd2c2JaWFNYSzFzZ1E?oc=5",
-    "source": "Stanford HAI",
-    "published": "2026-07-20T07:00:00.000Z"
   },
   {
     "group": "ai",
