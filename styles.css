@@ -93,6 +93,17 @@
   text-transform: uppercase;
 }
 
+.headline-link {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.headline-link:hover,
+.headline-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.08em;
+}
+
 .image-slot {
   display: grid;
   place-items: center;
