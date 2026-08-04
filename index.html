@@ -38,8 +38,8 @@
               There is no truth or beauty,<br />
               there is only the bottom line
             </div>
-            <time class="banner-primary whitespace-nowrap" datetime="2026-07-23">
-              Thursday, July 23, 2026
+            <time id="edition-date" class="banner-primary whitespace-nowrap">
+              Date and time
             </time>
             <div class="banner-secondary text-center">
               Believe nothing of what you hear,<br />
@@ -62,7 +62,13 @@
             alt=""
             class="floral-divider bg-blend-darken object-contain mix-blend-darken"
           />
-          <a id="headline-link" class="headline-link" href="#">
+          <a
+            id="headline-link"
+            class="headline-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h1 id="headline-title" class="headline-title m-0 text-center">
               The end is always breaking
             </h1>
@@ -77,9 +83,16 @@
 
       <section class="hero-grid grid gap-4">
         <div class="hero-image-wrapper flex flex-col gap-4">
-          <div class="image-slot headline-image" data-image-slot="headline-image">
-            <span>Headline image</span>
-          </div>
+          <a
+            id="headline-image-link"
+            class="image-slot headline-image"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img id="headline-image" alt="" hidden />
+            <span id="headline-image-placeholder">Headline image</span>
+          </a>
           <div class="h-px w-full bg-black" aria-hidden="true"></div>
         </div>
 
@@ -95,6 +108,8 @@
               <a class="news-link" href="#">
                 Everything is fine, according to people paid to say so
               </a>
+              <a class="news-link" href="#">Additional news story</a>
+              <a class="news-link" href="#">Additional news story</a>
             </div>
             <div class="h-px w-full bg-black" aria-hidden="true"></div>
           </section>
@@ -110,6 +125,8 @@
               <a class="news-link" href="#">
                 Experts discover tomorrow is already running late
               </a>
+              <a class="news-link" href="#">Additional news story</a>
+              <a class="news-link" href="#">Additional news story</a>
             </div>
             <div class="h-px w-full bg-black" aria-hidden="true"></div>
           </section>
@@ -126,6 +143,8 @@
             <a class="news-link" href="#">
               Artificial intelligence develops natural skepticism
             </a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
           </div>
           <div class="h-px w-full bg-black" aria-hidden="true"></div>
         </section>
@@ -143,6 +162,8 @@
             <a class="news-link" href="#">
               Critics praise work for being difficult to enjoy
             </a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
           </div>
           <div class="h-px w-full bg-black" aria-hidden="true"></div>
         </section>
@@ -158,6 +179,47 @@
               Coach credits discipline, luck, and favorable lighting
             </a>
             <a class="news-link" href="#">Fans remain cautiously unreasonable</a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+          </div>
+          <div class="h-px w-full bg-black" aria-hidden="true"></div>
+        </section>
+      </section>
+
+      <section class="category-row flex">
+        <section class="news-category">
+          <div class="flex flex-col gap-4" data-news-group="ai">
+            <a class="news-link featured-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+          </div>
+          <div class="h-px w-full bg-black" aria-hidden="true"></div>
+        </section>
+
+        <div class="category-column-divider" aria-hidden="true"></div>
+
+        <section class="news-category">
+          <div class="flex flex-col gap-4" data-news-group="ai">
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+          </div>
+          <div class="h-px w-full bg-black" aria-hidden="true"></div>
+        </section>
+
+        <div class="category-column-divider" aria-hidden="true"></div>
+
+        <section class="news-category">
+          <div class="flex flex-col gap-4" data-news-group="ai">
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
+            <a class="news-link" href="#">Additional news story</a>
           </div>
           <div class="h-px w-full bg-black" aria-hidden="true"></div>
         </section>
@@ -175,6 +237,24 @@
       ];
       const tickerTrack = document.querySelector("#ticker-track");
       let tickerIndex = 0;
+
+      function updateEditionDate() {
+        const editionDate = document.querySelector("#edition-date");
+        const now = new Date();
+
+        editionDate.dateTime = now.toISOString();
+        editionDate.textContent = new Intl.DateTimeFormat(undefined, {
+          weekday: "long",
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+          hour: "numeric",
+          minute: "2-digit",
+        }).format(now);
+      }
+
+      updateEditionDate();
+      window.setInterval(updateEditionDate, 60000);
 
       window.setInterval(() => {
         tickerTrack.classList.add("ticker-track--moving");
