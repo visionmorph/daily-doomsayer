@@ -2,63 +2,43 @@
   "sources": [
     {
       "group": "ai",
-      "name": "Reuters AI",
-      "feed": "https://news.google.com/rss/search?q=site%3Areuters.com+%22artificial+intelligence%22&hl=en-US&gl=US&ceid=US%3Aen",
-      "limit": 3
+      "name": "TechCrunch AI",
+      "feed": "https://techcrunch.com/category/artificial-intelligence/feed/"
     },
     {
       "group": "ai",
-      "name": "The Wall Street Journal AI",
-      "feed": "https://news.google.com/rss/search?q=site%3Awsj.com%2Ftech%2Fai&hl=en-US&gl=US&ceid=US%3Aen",
-      "limit": 3
+      "name": "MIT News AI",
+      "feed": "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml"
     },
     {
       "group": "ai",
       "name": "WIRED AI",
-      "feed": "https://www.wired.com/feed/tag/ai/latest/rss",
-      "limit": 3
-    },
-    {
-      "group": "ai",
-      "name": "BBC AI",
-      "feed": "https://news.google.com/rss/search?q=site%3Abbc.com%2Fnews+%22artificial+intelligence%22&hl=en-US&gl=US&ceid=US%3Aen",
-      "limit": 3
-    },
-    {
-      "group": "ai",
-      "name": "Stanford HAI",
-      "feed": "https://news.google.com/rss/search?q=site%3Ahai.stanford.edu%2Fnews&hl=en-US&gl=US&ceid=US%3Aen",
-      "limit": 3
+      "feed": "https://www.wired.com/feed/tag/ai/latest/rss"
     },
     {
       "group": "ai",
       "name": "The Verge AI",
-      "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "limit": 3
+      "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
     },
     {
       "group": "ai",
       "name": "AI News",
-      "feed": "https://www.artificialintelligence-news.com/feed/",
-      "limit": 3
+      "feed": "https://www.artificialintelligence-news.com/feed/"
     },
     {
       "group": "ai",
       "name": "VentureBeat AI",
-      "feed": "https://venturebeat.com/category/ai/feed/",
-      "limit": 3
+      "feed": "https://venturebeat.com/category/ai/feed/"
     },
     {
       "group": "offbeat",
       "name": "ScienceDaily Strange & Offbeat",
-      "feed": "https://www.sciencedaily.com/rss/strange_offbeat.xml",
-      "limit": 3
+      "feed": "https://www.sciencedaily.com/rss/strange_offbeat.xml"
     },
     {
       "group": "ai",
       "name": "ScienceDaily Technology",
-      "feed": "https://www.sciencedaily.com/rss/top/technology.xml",
-      "limit": 3
+      "feed": "https://www.sciencedaily.com/rss/top/technology.xml"
     }
   ]
 }
