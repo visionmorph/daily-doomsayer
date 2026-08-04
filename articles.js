@@ -30,17 +30,17 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Breakingviews - Big Tech’s circular AI trade grows too big to veil - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTGlMYXdPSkJjMzdsYmVMLVUxdHFkRDh5TWhnQnJvTXhqc0Y2UjE4TllHRlAwSHNyekhIT1pvZ1lRM016aDUwNXRUM0dDUnd6eWd4cE9VYzlaTWNBWnR5NWlkQ0xQTWlnR01vREFmWmV6SmtwRUJEcmhzQ1EyYnlmRjllQmZTdExodGVGQ1NJM0ZydzdBU3NGamZVUGtCQjJlVjVlRnMwbzRVY00?oc=5",
-    "source": "Reuters AI",
-    "published": "2026-08-03T18:05:22.000Z"
-  },
-  {
-    "group": "ai",
     "title": "Europe’s AI labeling and transparency rules are now in effect",
     "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
     "source": "The Verge AI",
     "published": "2026-08-03T17:38:45.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "EU AI Act Article 50 transparency rules enter force",
+    "url": "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force/",
+    "source": "AI News",
+    "published": "2026-08-03T16:09:25.000Z"
   },
   {
     "group": "ai",
@@ -75,6 +75,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "title": "AI Conquered Coding. Fast Food Is Next",
     "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
     "source": "WIRED AI",
+    "published": "2026-08-03T10:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Why biological data matters more in AI drug discovery",
+    "url": "https://www.artificialintelligence-news.com/news/gsk-relation-therapeutics-ai-drug-discovery-biological-data/",
+    "source": "AI News",
     "published": "2026-08-03T10:00:00.000Z"
   },
   {
@@ -135,10 +142,24 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "OpenAI aligns safety practices with EU AI Act’s GPAI Code",
+    "url": "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code/",
+    "source": "AI News",
+    "published": "2026-07-31T15:04:25.000Z"
+  },
+  {
+    "group": "ai",
     "title": "China's MiniMax releases H3 video model - Reuters",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNDQ3NVlFdGNsSGlVcmUxZzV3YnVWX1V4bHhYc0xjYk0weFRhQWNCRG9JTjB0TmszWkRLSkxYamx2bHFWUWZnUS1QN05obnBMWTlWUnJfUHRiTllNNTlsWGVfaTBQRml4R0Y3N01USlFBZmo0bFgyRHRZV2htU0tRakxJSjdJSU41UWNPbmljdw?oc=5",
     "source": "Reuters AI",
     "published": "2026-07-31T04:42:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Nvidia partner ChipAgents raises $60 million to accelerate chip design with AI agents - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRkRHaGJwMjZBLUt2QTBKcTQ2TXJIclVZdjNDSUF6U1d3aFFTa0FtMHIzYXBxNmxRanlKNjA3eG1KYU1uY255d3JhS2dQb0l3dHJUd0ptSk5rSDhGT2xMdlZCVThNMENpMHJYaVZXZjVMMWZRMVlma2MzRER1WlZZMlNSMjRsNWpDYjRZb0hYaENfVks0cVlBMDVBRnJIakdMYUVRTWVmVlk2UDRzT05tZ2RmMVYtb0ttaVFj?oc=5",
+    "source": "Reuters AI",
+    "published": "2026-07-29T17:01:29.000Z"
   },
   {
     "group": "ai",
