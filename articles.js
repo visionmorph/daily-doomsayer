@@ -6,13 +6,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
     "source": "TechCrunch AI",
     "published": "2026-08-04T20:05:26.000Z",
-    "image": "",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/Z.ai-GLM-5.2-chat.png?resize=1200,576",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.9953,
+      "freshness": 0.9857,
       "feedPosition": 1,
       "novelty": 0.821
     },
@@ -20,12 +20,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.4284,
+    "score": 0.427,
     "featured": true
   },
   {
     "group": "ai",
-    "title": "Anthropic signs $10 billion deal with AI cloud startup Volta",
+    "title": "Anthropic signs $10B deal with AI cloud startup Volta",
     "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
     "source": "TechCrunch AI",
     "published": "2026-08-04T19:48:40.000Z",
@@ -35,7 +35,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.229,
       "sourceAuthority": 0.5,
-      "freshness": 0.9876,
+      "freshness": 0.9781,
       "feedPosition": 0.8889,
       "novelty": 0.641
     },
@@ -44,7 +44,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.4219
+    "score": 0.4205
   },
   {
     "group": "ai",
@@ -58,7 +58,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7732,
+      "freshness": 0.7657,
       "feedPosition": 1,
       "novelty": 1
     },
@@ -67,7 +67,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4194
+    "score": 0.4183
   },
   {
     "group": "ai",
@@ -81,7 +81,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9612,
+      "freshness": 0.9519,
       "feedPosition": 1,
       "novelty": 1
     },
@@ -89,7 +89,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.4192
+    "score": 0.4178
   },
   {
     "group": "ai",
@@ -103,7 +103,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.192,
       "sourceAuthority": 0.5,
-      "freshness": 0.9786,
+      "freshness": 0.9691,
       "feedPosition": 0.6667,
       "novelty": 0.8109
     },
@@ -112,7 +112,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.4079
+    "score": 0.4065
   },
   {
     "group": "ai",
@@ -126,7 +126,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.184,
       "sourceAuthority": 0.5,
-      "freshness": 0.7626,
+      "freshness": 0.7552,
       "feedPosition": 0.7778,
       "novelty": 1
     },
@@ -135,7 +135,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.404
+    "score": 0.4029
   },
   {
     "group": "ai",
@@ -143,20 +143,20 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
     "source": "The Verge AI",
     "published": "2026-08-04T17:46:41.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-04-at-2.13.49-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-04-at-2.13.49-PM.png?quality=90&strip=all&crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.9334,
+      "freshness": 0.9244,
       "feedPosition": 1,
       "novelty": 0.642
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.4003
+    "score": 0.399
   },
   {
     "group": "ai",
@@ -170,7 +170,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.7314,
+      "freshness": 0.7243,
       "feedPosition": 0.8889,
       "novelty": 0.8803
     },
@@ -178,7 +178,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3836
+    "score": 0.3826
   },
   {
     "group": "ai",
@@ -192,18 +192,18 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.8183,
+      "freshness": 0.8104,
       "feedPosition": 1,
       "novelty": 0.7296
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3707
+    "score": 0.3695
   },
   {
     "group": "ai",
-    "title": "Meet Wrinkles, an AI app that uncovers the hidden stories of the places around you",
+    "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
     "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
     "source": "TechCrunch AI",
     "published": "2026-08-04T19:34:34.000Z",
@@ -213,14 +213,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.9812,
+      "freshness": 0.9717,
       "feedPosition": 0.7778,
       "novelty": 0.4957
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.3706
+    "score": 0.3692
   },
   {
     "group": "ai",
@@ -234,14 +234,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.8844,
+      "freshness": 0.8758,
       "feedPosition": 0.5556,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3703
+    "score": 0.369
   },
   {
     "group": "ai",
@@ -255,7 +255,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.7679,
+      "freshness": 0.7604,
       "feedPosition": 0.8889,
       "novelty": 0.4365
     },
@@ -264,7 +264,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3651
+    "score": 0.364
   },
   {
     "group": "ai",
@@ -272,13 +272,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
     "source": "The Verge AI",
     "published": "2026-08-04T10:00:00.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Verge-RedditBrands_V1-Final.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Verge-RedditBrands_V1-Final.jpg?quality=90&strip=all&crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.752,
+      "freshness": 0.7448,
       "feedPosition": 0.5556,
       "novelty": 1
     },
@@ -286,7 +286,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3576
+    "score": 0.3565
   },
   {
     "group": "ai",
@@ -294,13 +294,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
     "source": "The Verge AI",
     "published": "2026-08-04T11:27:55.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2D.jpg?quality=90&strip=all&crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.2355,
       "sourceAuthority": 0.5,
-      "freshness": 0.7833,
+      "freshness": 0.7757,
       "feedPosition": 0.6667,
       "novelty": 0.4797
     },
@@ -308,7 +308,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "conflict"
     ],
-    "score": 0.3542
+    "score": 0.3531
   },
   {
     "group": "ai",
@@ -316,18 +316,18 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
     "source": "The Verge AI",
     "published": "2026-08-04T17:33:46.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2253306515.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2253306515.jpg?quality=90&strip=all&crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.0655,
       "sourceAuthority": 0.5,
-      "freshness": 0.9278,
+      "freshness": 0.9189,
       "feedPosition": 0.8889,
       "novelty": 0.3124
     },
     "rankingReasons": [],
-    "score": 0.3474
+    "score": 0.3461
   },
   {
     "group": "ai",
@@ -341,7 +341,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.161,
       "sourceAuthority": 0.5,
-      "freshness": 0.8722,
+      "freshness": 0.8637,
       "feedPosition": 0.3333,
       "novelty": 0.7518
     },
@@ -350,7 +350,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3465
+    "score": 0.3453
   },
   {
     "group": "ai",
@@ -358,20 +358,20 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
     "source": "The Verge AI",
     "published": "2026-08-04T15:33:21.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_C.jpg?quality=90&strip=all&crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.8775,
+      "freshness": 0.869,
       "feedPosition": 0.7778,
       "novelty": 0.2583
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.3322
+    "score": 0.331
   },
   {
     "group": "ai",
@@ -385,12 +385,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.7895,
+      "freshness": 0.7818,
       "feedPosition": 0.8889,
       "novelty": 0.4203
     },
     "rankingReasons": [],
-    "score": 0.3303
+    "score": 0.3292
   },
   {
     "group": "ai",
@@ -404,7 +404,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.5074,
+      "freshness": 0.5025,
       "feedPosition": 0.7778,
       "novelty": 0.4957
     },
@@ -413,7 +413,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3289
+    "score": 0.3281
   },
   {
     "group": "ai",
@@ -427,7 +427,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.752,
+      "freshness": 0.7448,
       "feedPosition": 0.6667,
       "novelty": 0
     },
@@ -437,7 +437,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3189
+    "score": 0.3178
   },
   {
     "group": "ai",
@@ -451,7 +451,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7386,
+      "freshness": 0.7315,
       "feedPosition": 0.5556,
       "novelty": 0.3174
     },
@@ -459,7 +459,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3015
+    "score": 0.3004
   },
   {
     "group": "ai",
@@ -497,7 +497,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0364,
+      "freshness": 0.0361,
       "feedPosition": 0.6667,
       "novelty": 1
     },
@@ -521,7 +521,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2,
       "sourceAuthority": 0.5,
-      "freshness": 0.8813,
+      "freshness": 0.8728,
       "feedPosition": 0.4444,
       "novelty": 0.0464
     },
@@ -529,7 +529,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "conflict"
     ],
-    "score": 0.2963
+    "score": 0.295
   },
   {
     "group": "ai",
@@ -543,14 +543,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.4143,
+      "freshness": 0.4103,
       "feedPosition": 0.6667,
       "novelty": 0.6116
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.293
+    "score": 0.2924
   },
   {
     "group": "ai",
@@ -558,20 +558,20 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
     "source": "The Verge AI",
     "published": "2026-08-03T17:38:45.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268679_Europes_AI_labeling_and_transparency_rules_are_now_in_effect_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268679_Europes_AI_labeling_and_transparency_rules_are_now_in_effect_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.4775,
+      "freshness": 0.4728,
       "feedPosition": 0.4444,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2911
+    "score": 0.2904
   },
   {
     "group": "ai",
@@ -585,7 +585,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.5458,
+      "freshness": 0.5405,
       "feedPosition": 0.4444,
       "novelty": 0.6099
     },
@@ -593,7 +593,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2907
+    "score": 0.2899
   },
   {
     "group": "ai",
@@ -601,13 +601,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
     "source": "The Verge AI",
     "published": "2026-08-03T11:01:11.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2266883826.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2266883826.jpg?quality=90&strip=all&crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.1545,
       "sourceAuthority": 0.5,
-      "freshness": 0.3972,
+      "freshness": 0.3934,
       "feedPosition": 0.3333,
       "novelty": 0.8953
     },
@@ -616,7 +616,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2883
+    "score": 0.2878
   },
   {
     "group": "ai",
@@ -630,14 +630,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.408,
+      "freshness": 0.404,
       "feedPosition": 0.7778,
       "novelty": 0.375
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2795
+    "score": 0.2789
   },
   {
     "group": "ai",
@@ -651,14 +651,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6946,
+      "freshness": 0.6879,
       "feedPosition": 0.5556,
       "novelty": 0.2546
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.2744
+    "score": 0.2734
   },
   {
     "group": "ai",
@@ -672,7 +672,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.3808,
+      "freshness": 0.3771,
       "feedPosition": 0.2222,
       "novelty": 0.8477
     },
@@ -681,28 +681,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2735
-  },
-  {
-    "group": "ai",
-    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
-    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T12:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.11,
-      "sourceAuthority": 0.5,
-      "freshness": 0.795,
-      "feedPosition": 0,
-      "novelty": 0.5617
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.2724
+    "score": 0.273
   },
   {
     "group": "ai",
@@ -727,6 +706,27 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch"
     ],
     "score": 0.2722
+  },
+  {
+    "group": "ai",
+    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T12:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.11,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7873,
+      "feedPosition": 0,
+      "novelty": 0.5617
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2713
   },
   {
     "group": "ai",
@@ -763,7 +763,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3861,
+      "freshness": 0.3824,
       "feedPosition": 0.3333,
       "novelty": 0.7136
     },
@@ -772,7 +772,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.266
+    "score": 0.2655
   },
   {
     "group": "ai",
@@ -786,14 +786,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.8416,
+      "freshness": 0.8334,
       "feedPosition": 0.2222,
       "novelty": 0.0913
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2617
+    "score": 0.2605
   },
   {
     "group": "ai",
@@ -807,14 +807,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.8174,
+      "freshness": 0.8095,
       "feedPosition": 0.1111,
       "novelty": 0.1923
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.257
+    "score": 0.2559
   },
   {
     "group": "ai",
@@ -896,7 +896,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.1982,
+      "freshness": 0.1963,
       "feedPosition": 0.1111,
       "novelty": 0.6217
     },
@@ -905,7 +905,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2204
+    "score": 0.2201
   },
   {
     "group": "ai",
@@ -919,12 +919,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.3325,
+      "freshness": 0.3292,
       "feedPosition": 0.3333,
       "novelty": 0.6099
     },
     "rankingReasons": [],
-    "score": 0.2192
+    "score": 0.2187
   },
   {
     "group": "ai",
@@ -938,14 +938,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2165,
+      "freshness": 0.2144,
       "feedPosition": 0.1111,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2186
+    "score": 0.2183
   },
   {
     "group": "ai",
@@ -959,14 +959,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.2181,
+      "freshness": 0.216,
       "feedPosition": 0.4444,
       "novelty": 0.5105
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2172
+    "score": 0.2169
   },
   {
     "group": "ai",
@@ -980,7 +980,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.036,
+      "freshness": 0.0356,
       "feedPosition": 0.5556,
       "novelty": 0.665
     },
@@ -988,26 +988,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2167
-  },
-  {
-    "group": "ai",
-    "title": "Giant waves are sweeping Mars’ atmosphere into space",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T04:07:54.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.328,
-      "feedPosition": 0.2222,
-      "novelty": 0.6099
-    },
-    "rankingReasons": [],
-    "score": 0.2145
+    "score": 0.2166
   },
   {
     "group": "ai",
@@ -1021,7 +1002,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3255,
       "sourceAuthority": 0.5,
-      "freshness": 0.0154,
+      "freshness": 0.0152,
       "feedPosition": 0.4444,
       "novelty": 0.273
     },
@@ -1029,7 +1010,26 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "surprise or reversal"
     ],
-    "score": 0.2142
+    "score": 0.2141
+  },
+  {
+    "group": "ai",
+    "title": "Giant waves are sweeping Mars’ atmosphere into space",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T04:07:54.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3249,
+      "feedPosition": 0.2222,
+      "novelty": 0.6099
+    },
+    "rankingReasons": [],
+    "score": 0.214
   },
   {
     "group": "ai",
@@ -1037,20 +1037,20 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
     "source": "The Verge AI",
     "published": "2026-08-02T19:36:08.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&strip=all&crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.2588,
+      "freshness": 0.2563,
       "feedPosition": 0.2222,
       "novelty": 0.4797
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2131
+    "score": 0.2127
   },
   {
     "group": "ai",
@@ -1108,7 +1108,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.1032,
+      "freshness": 0.1022,
       "feedPosition": 0,
       "novelty": 0.7906
     },
@@ -1117,7 +1117,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2075
+    "score": 0.2074
   },
   {
     "group": "ai",
@@ -1125,20 +1125,20 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
     "source": "The Verge AI",
     "published": "2026-08-02T13:00:00.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Screenshot-2026-07-31-at-4.11.25-PM.png?quality=90&#038;strip=all&#038;crop=2.6881256103516,0,97.311874389648,100",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Screenshot-2026-07-31-at-4.11.25-PM.png?quality=90&strip=all&crop=2.6881256103516,0,97.311874389648,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2155,
+      "freshness": 0.2134,
       "feedPosition": 0.1111,
       "novelty": 0.8604
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2045
+    "score": 0.2042
   },
   {
     "group": "ai",
@@ -1152,7 +1152,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1632,
+      "freshness": 0.1616,
       "feedPosition": 0,
       "novelty": 0.8698
     },
@@ -1160,7 +1160,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2007
+    "score": 0.2004
   },
   {
     "group": "ai",
@@ -1233,13 +1233,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
     "source": "The Verge AI",
     "published": "2026-08-01T18:20:00.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&strip=all&crop=0,0,100,100",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.1545,
       "sourceAuthority": 0.5,
-      "freshness": 0.1283,
+      "freshness": 0.127,
       "feedPosition": 0,
       "novelty": 0.4974
     },
@@ -1247,6 +1247,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1749
+    "score": 0.1747
   }
 ];
