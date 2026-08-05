@@ -1,11 +1,15 @@
 import { readFile, writeFile } from "node:fs/promises";
 import Parser from "rss-parser";
 
+const FEED_TIMEOUT_MS = 20_000;
+const ARTICLE_TIMEOUT_MS = 15_000;
+const SOURCE_CONCURRENCY = 4;
+const FEED_HEADERS = {
+  "User-Agent": "Daily Doomsayer RSS aggregator/1.0",
+  Accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+};
+
 const parser = new Parser({
-  headers: {
-    "User-Agent": "Daily Doomsayer RSS aggregator/1.0",
-    Accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
-  },
   customFields: {
     item: [
       ["media:content", "mediaContent", { keepArray: true }],
@@ -284,6 +288,75 @@ function roundedScore(score) {
   return Number(score.toFixed(4));
 }
 
+async function requestText(url, { headers, timeoutMs }) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const response = await fetch(url, {
+      headers,
+      redirect: "follow",
+      signal: controller.signal,
+    });
+
+    if (!response.ok) {
+      throw new Error(`Request returned ${response.status}`);
+    }
+
+    return {
+      text: await response.text(),
+      url: response.url || url,
+    };
+  } catch (error) {
+    if (controller.signal.aborted) {
+      throw new Error(`Request timed out after ${timeoutMs / 1000} seconds`);
+    }
+
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function repairInvalidXmlEntities(xml) {
+  return xml.replace(
+    /&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[\da-f]+);)/gi,
+    "&amp;",
+  );
+}
+
+async function parseFeedXml(xml, sourceName) {
+  try {
+    return await parser.parseString(xml);
+  } catch (error) {
+    const repairedXml = repairInvalidXmlEntities(xml);
+
+    if (repairedXml === xml) {
+      throw error;
+    }
+
+    console.warn(`[feed] ${sourceName}: retrying malformed XML safely`);
+    return parser.parseString(repairedXml);
+  }
+}
+
+async function mapWithConcurrency(values, concurrency, mapper) {
+  const results = new Array(values.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < values.length) {
+      const currentIndex = nextIndex;
+      nextIndex += 1;
+      results[currentIndex] = await mapper(values[currentIndex], currentIndex);
+    }
+  }
+
+  const workerCount = Math.min(concurrency, values.length);
+  await Promise.all(Array.from({ length: workerCount }, () => worker()));
+  return results;
+}
+
 function textValues(value) {
   if (Array.isArray(value)) {
     return value.flatMap(textValues);
@@ -517,19 +590,15 @@ function socialImageFromHtml(html, pageUrl) {
 }
 
 async function fetchArticleImage(articleUrl) {
-  const response = await fetch(articleUrl, {
+  const page = await requestText(articleUrl, {
     headers: {
       "User-Agent": "Daily Doomsayer RSS aggregator",
       Accept: "text/html,application/xhtml+xml",
     },
-    redirect: "follow",
+    timeoutMs: ARTICLE_TIMEOUT_MS,
   });
 
-  if (!response.ok) {
-    throw new Error(`Article page returned ${response.status}`);
-  }
-
-  return socialImageFromHtml(await response.text(), response.url || articleUrl);
+  return socialImageFromHtml(page.text, page.url);
 }
 
 function extractImage(item) {
@@ -550,27 +619,36 @@ function extractImage(item) {
   );
 }
 
-for (const source of config.sources) {
+async function fetchSourceArticles(source) {
   const group = String(source.group ?? "").trim();
+  const sourceName = source.name || source.feed;
 
   if (!group) {
-    throw new Error(`Invalid group for source: ${source.name || source.feed}`);
+    throw new Error(`Invalid group for source: ${sourceName}`);
   }
 
+  const startedAt = Date.now();
+  console.log(`[feed] Fetching ${sourceName}`);
+
   try {
-    const feed = await parser.parseURL(source.feed);
+    const response = await requestText(source.feed, {
+      headers: FEED_HEADERS,
+      timeoutMs: FEED_TIMEOUT_MS,
+    });
+    const feed = await parseFeedXml(response.text, sourceName);
     const limit = Math.max(1, Math.min(Number(source.limit) || 10, 10));
     const sourceWeight = Math.max(0.1, Math.min(Number(source.weight) || 1, 2));
     const acceptedItems = feed.items
       .filter((item) => sourceAcceptsItem(source, item))
       .slice(0, limit);
+    const sourceArticles = [];
 
     for (const [feedPosition, item] of acceptedItems.entries()) {
       if (!item.title || !item.link) {
         continue;
       }
 
-      articles.push({
+      sourceArticles.push({
         group,
         title: item.title.trim(),
         url: item.link,
@@ -582,10 +660,25 @@ for (const source of config.sources) {
         candidateCount: acceptedItems.length,
       });
     }
+
+    console.log(
+      `[feed] Finished ${sourceName}: ${sourceArticles.length} articles in ${Date.now() - startedAt}ms`,
+    );
+    return sourceArticles;
   } catch (error) {
-    console.error(`Skipped ${source.name || source.feed}: ${error.message}`);
+    console.error(
+      `[feed] Skipped ${sourceName} after ${Date.now() - startedAt}ms: ${error.message}`,
+    );
+    return [];
   }
 }
+
+const sourceBatches = await mapWithConcurrency(
+  config.sources,
+  SOURCE_CONCURRENCY,
+  fetchSourceArticles,
+);
+articles.push(...sourceBatches.flat());
 
 const uniqueArticles = Array.from(
   new Map(articles.map((article) => [article.url, article])).values(),
@@ -682,6 +775,10 @@ const output = [
 ].join("\n");
 
 await writeFile("articles.js", output, "utf8");
-console.log(
-  `Wrote ${publishedArticles.length} ranked articles from ${config.sources.length} configured sources.`,
+await new Promise((resolve) =>
+  process.stdout.write(
+    `Wrote ${publishedArticles.length} ranked articles from ${config.sources.length} configured sources.\n`,
+    resolve,
+  ),
 );
+process.exit(0);
