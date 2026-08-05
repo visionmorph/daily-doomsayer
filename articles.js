@@ -12,7 +12,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.9262,
+      "freshness": 0.9224,
       "feedPosition": 1,
       "novelty": 0.7191
     },
@@ -21,7 +21,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.5138,
+    "score": 0.5133,
     "featured": true
   },
   {
@@ -36,7 +36,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.239,
       "sourceAuthority": 0.5,
-      "freshness": 0.9635,
+      "freshness": 0.9596,
       "feedPosition": 1,
       "novelty": 0.4559
     },
@@ -46,7 +46,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.5129
+    "score": 0.5123
   },
   {
     "group": "ai",
@@ -60,7 +60,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.9568,
+      "freshness": 0.9529,
       "feedPosition": 0.6667,
       "novelty": 0.7239
     },
@@ -69,7 +69,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.4816
+    "score": 0.481
   },
   {
     "group": "ai",
@@ -83,7 +83,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9239,
+      "freshness": 0.9201,
       "feedPosition": 0.8889,
       "novelty": 0.746
     },
@@ -91,7 +91,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.4771
+    "score": 0.4765
   },
   {
     "group": "ai",
@@ -105,7 +105,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.9647,
+      "freshness": 0.9608,
       "feedPosition": 1,
       "novelty": 0.8246
     },
@@ -115,7 +115,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4526
+    "score": 0.452
   },
   {
     "group": "ai",
@@ -123,13 +123,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video",
     "source": "The Guardian AI",
     "published": "2026-08-05T14:13:33.000Z",
-    "image": "https://i.guim.co.uk/img/media/0e34c6a5b50569fc6c0b4d17f918a2050a5be0ff/0_237_1080_864/master/1080.jpg?width=140&quality=85&auto=format&fit=max&s=4900cb25860265c101fe24d89e0fdf23",
+    "image": "https://i.guim.co.uk/img/media/0e34c6a5b50569fc6c0b4d17f918a2050a5be0ff/0_237_1080_864/master/1080.jpg?width=800&dpr=2&s=none&crop=none",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.2765,
       "sourceAuthority": 0.5,
-      "freshness": 0.93,
+      "freshness": 0.9262,
       "feedPosition": 0.8889,
       "novelty": 0.7957
     },
@@ -139,7 +139,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4383
+    "score": 0.4377
   },
   {
     "group": "ai",
@@ -153,7 +153,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.9891,
+      "freshness": 0.985,
       "feedPosition": 1,
       "novelty": 0.8468
     },
@@ -162,7 +162,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4364
+    "score": 0.4358
   },
   {
     "group": "ai",
@@ -176,7 +176,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.9374,
+      "freshness": 0.9335,
       "feedPosition": 1,
       "novelty": 0.9191
     },
@@ -185,7 +185,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4359
+    "score": 0.4353
   },
   {
     "group": "ai",
@@ -199,7 +199,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.9524,
+      "freshness": 0.9485,
       "feedPosition": 0.7778,
       "novelty": 0.973
     },
@@ -208,7 +208,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4309
+    "score": 0.4304
   },
   {
     "group": "ai",
@@ -222,7 +222,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.6125,
+      "freshness": 0.61,
       "feedPosition": 0.4444,
       "novelty": 0.6492
     },
@@ -232,7 +232,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.4286
+    "score": 0.4283
   },
   {
     "group": "ai",
@@ -246,7 +246,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.9061,
+      "freshness": 0.9024,
       "feedPosition": 0.8889,
       "novelty": 0.7403
     },
@@ -256,7 +256,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4242
+    "score": 0.4237
   },
   {
     "group": "ai",
@@ -270,14 +270,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.8553,
+      "freshness": 0.8518,
       "feedPosition": 0.5556,
       "novelty": 0.5239
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4183
+    "score": 0.4178
   },
   {
     "group": "ai",
@@ -285,13 +285,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
     "source": "The Guardian AI",
     "published": "2026-08-05T15:15:05.000Z",
-    "image": "https://i.guim.co.uk/img/media/a828d3530ab4763e68a868951a6609a74ae62bb2/379_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=55bd271ede462cc9c3dae8bd11a6f816",
+    "image": "https://i.guim.co.uk/img/media/a828d3530ab4763e68a868951a6609a74ae62bb2/379_0_2915_2333/master/2915.jpg?width=800&dpr=2&s=none&crop=none",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.9569,
+      "freshness": 0.9529,
       "feedPosition": 1,
       "novelty": 0.7298
     },
@@ -299,7 +299,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.4126
+    "score": 0.412
   },
   {
     "group": "ai",
@@ -313,7 +313,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.977,
+      "freshness": 0.973,
       "feedPosition": 0.8889,
       "novelty": 0.7319
     },
@@ -322,7 +322,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.412
+    "score": 0.4114
   },
   {
     "group": "ai",
@@ -330,13 +330,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theguardian.com/technology/2026/aug/05/teachers-unions-ai-training",
     "source": "The Guardian AI",
     "published": "2026-08-05T12:00:19.000Z",
-    "image": "https://i.guim.co.uk/img/media/562f7360760960fb98074e8e10194a943d5ea6a8/141_227_2716_2173/master/2716.jpg?width=140&quality=85&auto=format&fit=max&s=9f5b6baff4dc487b410715a9a69d20b3",
+    "image": "https://i.guim.co.uk/img/media/562f7360760960fb98074e8e10194a943d5ea6a8/141_227_2716_2173/master/2716.jpg?width=800&dpr=2&s=none&crop=none",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.2055,
       "sourceAuthority": 0.5,
-      "freshness": 0.8744,
+      "freshness": 0.8708,
       "feedPosition": 0.7778,
       "novelty": 0.8306
     },
@@ -345,7 +345,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.4081
+    "score": 0.4076
   },
   {
     "group": "ai",
@@ -359,14 +359,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.8117,
+      "freshness": 0.8084,
       "feedPosition": 1,
       "novelty": 0.9075
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3946
+    "score": 0.3941
   },
   {
     "group": "ai",
@@ -380,7 +380,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8674,
+      "freshness": 0.8638,
       "feedPosition": 0.7778,
       "novelty": 0.8246
     },
@@ -389,7 +389,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3937
+    "score": 0.3932
   },
   {
     "group": "ai",
@@ -403,14 +403,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.827,
+      "freshness": 0.8236,
       "feedPosition": 1,
       "novelty": 0.8538
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3868
+    "score": 0.3863
   },
   {
     "group": "ai",
@@ -424,14 +424,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9709,
+      "freshness": 0.9669,
       "feedPosition": 0.8889,
       "novelty": 0.7702
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3865
+    "score": 0.3859
   },
   {
     "group": "ai",
@@ -445,12 +445,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9986,
+      "freshness": 0.9945,
       "feedPosition": 1,
       "novelty": 0.6066
     },
     "rankingReasons": [],
-    "score": 0.3855
+    "score": 0.3848
   },
   {
     "group": "ai",
@@ -464,7 +464,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.6016,
+      "freshness": 0.5991,
       "feedPosition": 0.8889,
       "novelty": 0.8068
     },
@@ -474,7 +474,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3852
+    "score": 0.3848
   },
   {
     "group": "ai",
@@ -488,7 +488,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.154,
       "sourceAuthority": 0.5,
-      "freshness": 0.6308,
+      "freshness": 0.6282,
       "feedPosition": 1,
       "novelty": 0.8306
     },
@@ -497,7 +497,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3835
+    "score": 0.3831
   },
   {
     "group": "ai",
@@ -511,14 +511,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.977,
+      "freshness": 0.973,
       "feedPosition": 0.7778,
       "novelty": 0.8156
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3833
+    "score": 0.3827
   },
   {
     "group": "ai",
@@ -532,14 +532,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.9934,
+      "freshness": 0.9893,
       "feedPosition": 0.8889,
       "novelty": 0.5615
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.3832
+    "score": 0.3826
   },
   {
     "group": "ai",
@@ -553,7 +553,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.8134,
+      "freshness": 0.8101,
       "feedPosition": 0.8333,
       "novelty": 0.7515
     },
@@ -561,7 +561,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "unusual language in the current story batch"
     ],
-    "score": 0.3795
+    "score": 0.379
   },
   {
     "group": "ai",
@@ -575,12 +575,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.9753,
+      "freshness": 0.9713,
       "feedPosition": 1,
       "novelty": 0.4991
     },
     "rankingReasons": [],
-    "score": 0.3783
+    "score": 0.3777
   },
   {
     "group": "ai",
@@ -588,13 +588,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theguardian.com/sport/2026/aug/05/ai-chatgpt-robots-tennis-players-scouting-technology",
     "source": "The Guardian AI",
     "published": "2026-08-05T12:00:18.000Z",
-    "image": "https://i.guim.co.uk/img/media/dc344b3cb9fc91d7e6ba9e0059188a561855dcf7/1076_755_2215_1771/master/2215.jpg?width=140&quality=85&auto=format&fit=max&s=b14ff8b716d18f1a7a2ce517d40b162a",
+    "image": "https://i.guim.co.uk/img/media/dc344b3cb9fc91d7e6ba9e0059188a561855dcf7/1076_755_2215_1771/master/2215.jpg?width=800&dpr=2&s=none&crop=none",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.8743,
+      "freshness": 0.8708,
       "feedPosition": 0.5556,
       "novelty": 0.9269
     },
@@ -602,7 +602,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3779
+    "score": 0.3774
   },
   {
     "group": "ai",
@@ -616,7 +616,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8043,
+      "freshness": 0.801,
       "feedPosition": 0.6667,
       "novelty": 0.8499
     },
@@ -625,7 +625,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3757
+    "score": 0.3752
   },
   {
     "group": "ai",
@@ -639,14 +639,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.7045,
+      "freshness": 0.7016,
       "feedPosition": 0.8889,
       "novelty": 0.9595
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3726
+    "score": 0.3722
   },
   {
     "group": "ai",
@@ -660,7 +660,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7609,
+      "freshness": 0.7577,
       "feedPosition": 0.5556,
       "novelty": 0.9353
     },
@@ -669,7 +669,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3666
+    "score": 0.3661
   },
   {
     "group": "ai",
@@ -683,7 +683,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.324,
       "sourceAuthority": 0.5,
-      "freshness": 0.2664,
+      "freshness": 0.2653,
       "feedPosition": 0.8889,
       "novelty": 0.9281
     },
@@ -693,7 +693,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3615
+    "score": 0.3613
   },
   {
     "group": "ai",
@@ -707,14 +707,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.8859,
+      "freshness": 0.8823,
       "feedPosition": 0.5556,
       "novelty": 0.9029
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3608
+    "score": 0.3603
   },
   {
     "group": "ai",
@@ -722,13 +722,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theguardian.com/fashion/ng-interactive/2026/aug/05/facial-analysis-scans-qoves-epica-looksmaxxing",
     "source": "The Guardian AI",
     "published": "2026-08-05T12:00:18.000Z",
-    "image": "https://i.guim.co.uk/img/media/d1b18bee3fe998473c2ac04230590d4deff1118c/0_251_2400_1919/master/2400.jpg?width=140&quality=85&auto=format&fit=max&s=fd85eadbef91ba5be1f5729f76b15eb3",
+    "image": "https://i.guim.co.uk/img/media/d1b18bee3fe998473c2ac04230590d4deff1118c/0_251_2400_1919/master/2400.jpg?width=800&dpr=2&s=none&crop=none",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.042,
       "sourceAuthority": 0.5,
-      "freshness": 0.8743,
+      "freshness": 0.8708,
       "feedPosition": 0.6667,
       "novelty": 0.7949
     },
@@ -736,7 +736,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3607
+    "score": 0.3602
   },
   {
     "group": "ai",
@@ -750,7 +750,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.462,
       "sourceAuthority": 0.5,
-      "freshness": 0.3198,
+      "freshness": 0.3185,
       "feedPosition": 0.7778,
       "novelty": 0.6537
     },
@@ -762,7 +762,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3585
+    "score": 0.3583
   },
   {
     "group": "ai",
@@ -776,7 +776,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.5056,
+      "freshness": 0.5035,
       "feedPosition": 1,
       "novelty": 0.724
     },
@@ -785,7 +785,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3576
+    "score": 0.3573
   },
   {
     "group": "ai",
@@ -799,14 +799,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9299,
+      "freshness": 0.9261,
       "feedPosition": 0.6667,
       "novelty": 0.7599
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3571
+    "score": 0.3566
   },
   {
     "group": "ai",
@@ -820,7 +820,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.34,
       "sourceAuthority": 0.5,
-      "freshness": 0.3216,
+      "freshness": 0.3203,
       "feedPosition": 1,
       "novelty": 0.6066
     },
@@ -828,7 +828,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "real-world consequences"
     ],
-    "score": 0.3519
+    "score": 0.3517
   },
   {
     "group": "ai",
@@ -842,7 +842,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.8503,
+      "freshness": 0.8468,
       "feedPosition": 0.4444,
       "novelty": 0.8681
     },
@@ -850,7 +850,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.348
+    "score": 0.3475
   },
   {
     "group": "ai",
@@ -858,13 +858,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theguardian.com/lifeandstyle/2026/aug/05/journalist-taking-on-tech-fascists-silicon-valley",
     "source": "The Guardian AI",
     "published": "2026-08-05T09:00:14.000Z",
-    "image": "https://i.guim.co.uk/img/media/83569c06861d2dc3abf0ac0129d5a71f6193cc5f/1584_397_2089_1671/master/2089.jpg?width=140&quality=85&auto=format&fit=max&s=5010b59416ee2c0d1631ad2a859a0618",
+    "image": "https://i.guim.co.uk/img/media/83569c06861d2dc3abf0ac0129d5a71f6193cc5f/1584_397_2089_1671/master/2089.jpg?width=800&dpr=2&s=none&crop=none",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.203,
       "sourceAuthority": 0.5,
-      "freshness": 0.8044,
+      "freshness": 0.8011,
       "feedPosition": 0.3333,
       "novelty": 0.7796
     },
@@ -874,7 +874,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3476
+    "score": 0.3471
   },
   {
     "group": "ai",
@@ -888,7 +888,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.5125,
+      "freshness": 0.5104,
       "feedPosition": 0.7778,
       "novelty": 0.6711
     },
@@ -898,7 +898,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3472
+    "score": 0.3468
   },
   {
     "group": "ai",
@@ -906,13 +906,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theguardian.com/commentisfree/2026/aug/05/anthropic-ai-destroying-books",
     "source": "The Guardian AI",
     "published": "2026-08-05T11:00:16.000Z",
-    "image": "https://i.guim.co.uk/img/media/bb2ccc0cc92bd8a3334cf3973ac18be63600cf97/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=e282c7687fa4aeca546f4c656ce5a6cc",
+    "image": "https://i.guim.co.uk/img/media/bb2ccc0cc92bd8a3334cf3973ac18be63600cf97/250_0_2500_2000/master/2500.jpg?width=800&dpr=2&s=none&crop=none",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.1765,
       "sourceAuthority": 0.5,
-      "freshness": 0.8504,
+      "freshness": 0.8469,
       "feedPosition": 0.4444,
       "novelty": 0.6155
     },
@@ -920,7 +920,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.3438
+    "score": 0.3433
   },
   {
     "group": "ai",
@@ -934,7 +934,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.5696,
+      "freshness": 0.5672,
       "feedPosition": 0.7778,
       "novelty": 0.8246
     },
@@ -942,7 +942,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3427
+    "score": 0.3423
   },
   {
     "group": "ai",
@@ -956,14 +956,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.8385,
+      "freshness": 0.835,
       "feedPosition": 0.4444,
       "novelty": 0.9353
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3387
+    "score": 0.3382
   },
   {
     "group": "ai",
@@ -1000,7 +1000,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5427,
+      "freshness": 0.5404,
       "feedPosition": 1,
       "novelty": 0.8156
     },
@@ -1008,7 +1008,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.338
+    "score": 0.3376
   },
   {
     "group": "ai",
@@ -1022,7 +1022,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2645,
       "sourceAuthority": 0.5,
-      "freshness": 0.5783,
+      "freshness": 0.5759,
       "feedPosition": 0.3333,
       "novelty": 0.8904
     },
@@ -1032,7 +1032,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.337
+    "score": 0.3367
   },
   {
     "group": "ai",
@@ -1046,7 +1046,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.413,
+      "freshness": 0.4113,
       "feedPosition": 0.8889,
       "novelty": 0.8571
     },
@@ -1054,7 +1054,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3335
+    "score": 0.3333
   },
   {
     "group": "ai",
@@ -1068,7 +1068,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.5942,
+      "freshness": 0.5918,
       "feedPosition": 0.3333,
       "novelty": 0.8921
     },
@@ -1078,7 +1078,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3291
+    "score": 0.3287
   },
   {
     "group": "ai",
@@ -1092,7 +1092,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.28,
       "sourceAuthority": 0.5,
-      "freshness": 0.3165,
+      "freshness": 0.3152,
       "feedPosition": 0.6667,
       "novelty": 0.7951
     },
@@ -1102,7 +1102,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3247
+    "score": 0.3245
   },
   {
     "group": "ai",
@@ -1116,14 +1116,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.4246,
+      "freshness": 0.4228,
       "feedPosition": 0.875,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3208
+    "score": 0.3205
   },
   {
     "group": "ai",
@@ -1131,13 +1131,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theguardian.com/commentisfree/2026/aug/05/ai-regulation-donald-trump-artificial-intelligence",
     "source": "The Guardian AI",
     "published": "2026-08-05T07:00:13.000Z",
-    "image": "https://i.guim.co.uk/img/media/a49e30a11ac40a6645f2c7e72f02d47b8b5b7b42/569_0_4202_3362/master/4202.jpg?width=140&quality=85&auto=format&fit=max&s=3e52d41756d570fa880147a45fa15c23",
+    "image": "https://i.guim.co.uk/img/media/a49e30a11ac40a6645f2c7e72f02d47b8b5b7b42/569_0_4202_3362/master/4202.jpg?width=800&dpr=2&s=none&crop=none",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.7609,
+      "freshness": 0.7578,
       "feedPosition": 0.2222,
       "novelty": 0.9497
     },
@@ -1145,7 +1145,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3205
+    "score": 0.3201
   },
   {
     "group": "ai",
@@ -1159,7 +1159,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.2865,
+      "freshness": 0.2853,
       "feedPosition": 0.7778,
       "novelty": 0.7077
     },
@@ -1169,7 +1169,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3169
+    "score": 0.3167
   },
   {
     "group": "ai",
@@ -1183,7 +1183,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.5757,
+      "freshness": 0.5734,
       "feedPosition": 0.3333,
       "novelty": 0.8246
     },
@@ -1192,7 +1192,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3159
+    "score": 0.3155
   },
   {
     "group": "ai",
@@ -1206,14 +1206,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.462,
+      "freshness": 0.4601,
       "feedPosition": 0.7778,
       "novelty": 0.8747
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3096
+    "score": 0.3093
   },
   {
     "group": "ai",
@@ -1251,7 +1251,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.232,
       "sourceAuthority": 0.5,
-      "freshness": 0.3068,
+      "freshness": 0.3055,
       "feedPosition": 0.5556,
       "novelty": 0.799
     },
@@ -1261,7 +1261,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3029
+    "score": 0.3027
   },
   {
     "group": "ai",
@@ -1269,13 +1269,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theguardian.com/business/2026/aug/04/stock-market-records-ai-profits-oil-prices-ease",
     "source": "The Guardian AI",
     "published": "2026-08-04T20:56:59.000Z",
-    "image": "https://i.guim.co.uk/img/media/93edb9c87b7eb6a98a213cee3de3a24230ae3481/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=c958d462821fa2889088d28ee304021b",
+    "image": "https://i.guim.co.uk/img/media/93edb9c87b7eb6a98a213cee3de3a24230ae3481/500_0_5000_4000/master/5000.jpg?width=800&dpr=2&s=none&crop=none",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.18,
       "sourceAuthority": 0.5,
-      "freshness": 0.5755,
+      "freshness": 0.5732,
       "feedPosition": 0,
       "novelty": 0.9676
     },
@@ -1284,7 +1284,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2941
+    "score": 0.2937
   },
   {
     "group": "ai",
@@ -1298,7 +1298,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1545,
       "sourceAuthority": 0.5,
-      "freshness": 0.28,
+      "freshness": 0.2789,
       "feedPosition": 0.5556,
       "novelty": 0.9026
     },
@@ -1307,7 +1307,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2937
+    "score": 0.2935
   },
   {
     "group": "ai",
@@ -1321,7 +1321,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.3059,
+      "freshness": 0.3046,
       "feedPosition": 0.6667,
       "novelty": 0.7494
     },
@@ -1329,30 +1329,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2916
-  },
-  {
-    "group": "ai",
-    "title": "Is This Poker Player Bluffing? The AI Thinks So",
-    "url": "https://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T11:00:00.000Z",
-    "image": "https://media.wired.com/photos/6a711fb5a0e49dc311c087a0/master/pass/Gear_Is-This-Poker-Player-Bluffing-.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4365,
-      "feedPosition": 0.2222,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2911
+    "score": 0.2914
   },
   {
     "group": "ai",
@@ -1366,7 +1343,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0206,
+      "freshness": 0.0205,
       "feedPosition": 0.6667,
       "novelty": 0.9595
     },
@@ -1380,6 +1357,29 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Is This Poker Player Bluffing? The AI Thinks So",
+    "url": "https://www.wired.com/story/ai-tells-detection-world-series-of-poker-espn/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T11:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a711fb5a0e49dc311c087a0/master/pass/Gear_Is-This-Poker-Player-Bluffing-.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4348,
+      "feedPosition": 0.2222,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2908
+  },
+  {
+    "group": "ai",
     "title": "Anthropic signs $10B deal with AI cloud startup Volta",
     "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
     "source": "TechCrunch AI",
@@ -1390,7 +1390,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.229,
       "sourceAuthority": 0.5,
-      "freshness": 0.5576,
+      "freshness": 0.5553,
       "feedPosition": 0.1111,
       "novelty": 0.7494
     },
@@ -1400,7 +1400,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2905
+    "score": 0.2902
   },
   {
     "group": "ai",
@@ -1414,7 +1414,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.2971,
+      "freshness": 0.2959,
       "feedPosition": 0.4444,
       "novelty": 0.6788
     },
@@ -1424,7 +1424,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2823
+    "score": 0.2821
   },
   {
     "group": "ai",
@@ -1438,7 +1438,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3,
       "sourceAuthority": 0.5,
-      "freshness": 0.033,
+      "freshness": 0.0329,
       "feedPosition": 0.6667,
       "novelty": 0.7389
     },
@@ -1462,7 +1462,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.3159,
+      "freshness": 0.3146,
       "feedPosition": 0.6667,
       "novelty": 0.668
     },
@@ -1470,7 +1470,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2794
+    "score": 0.2792
   },
   {
     "group": "ai",
@@ -1484,7 +1484,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.527,
+      "freshness": 0.5248,
       "feedPosition": 0.1111,
       "novelty": 0.9191
     },
@@ -1492,7 +1492,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2782
+    "score": 0.2778
   },
   {
     "group": "ai",
@@ -1506,12 +1506,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.4457,
+      "freshness": 0.4439,
       "feedPosition": 0.6667,
       "novelty": 0.6253
     },
     "rankingReasons": [],
-    "score": 0.2771
+    "score": 0.2768
   },
   {
     "group": "ai",
@@ -1525,7 +1525,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.235,
+      "freshness": 0.2341,
       "feedPosition": 0.5556,
       "novelty": 0.8277
     },
@@ -1534,7 +1534,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.277
+    "score": 0.2768
   },
   {
     "group": "ai",
@@ -1548,7 +1548,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.5619,
+      "freshness": 0.5596,
       "feedPosition": 0.2222,
       "novelty": 0.7298
     },
@@ -1556,7 +1556,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2765
+    "score": 0.2761
   },
   {
     "group": "ai",
@@ -1570,7 +1570,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.184,
       "sourceAuthority": 0.5,
-      "freshness": 0.4305,
+      "freshness": 0.4288,
       "feedPosition": 0,
       "novelty": 1
     },
@@ -1579,7 +1579,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2764
+    "score": 0.2761
   },
   {
     "group": "ai",
@@ -1593,7 +1593,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.2429,
+      "freshness": 0.2419,
       "feedPosition": 0.6667,
       "novelty": 0.674
     },
@@ -1602,7 +1602,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2739
+    "score": 0.2738
   },
   {
     "group": "ai",
@@ -1616,7 +1616,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1765,
       "sourceAuthority": 0.5,
-      "freshness": 0.218,
+      "freshness": 0.2171,
       "feedPosition": 0.75,
       "novelty": 0.4977
     },
@@ -1624,28 +1624,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.2678
-  },
-  {
-    "group": "ai",
-    "title": "SpaceX made more revenue as an AI company than a space company",
-    "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
-    "source": "The Verge AI",
-    "published": "2026-08-04T20:47:55.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2286629860.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.22,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5731,
-      "feedPosition": 0.2222,
-      "novelty": 0.3944
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.2666
+    "score": 0.2676
   },
   {
     "group": "ai",
@@ -1670,6 +1649,27 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch"
     ],
     "score": 0.2665
+  },
+  {
+    "group": "ai",
+    "title": "SpaceX made more revenue as an AI company than a space company",
+    "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+    "source": "The Verge AI",
+    "published": "2026-08-04T20:47:55.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2286629860.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.22,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5708,
+      "feedPosition": 0.2222,
+      "novelty": 0.3944
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2663
   },
   {
     "group": "ai",
@@ -1706,7 +1706,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.362,
       "sourceAuthority": 0.5,
-      "freshness": 0.0616,
+      "freshness": 0.0614,
       "feedPosition": 0.4444,
       "novelty": 0.6271
     },
@@ -1751,7 +1751,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.2303,
+      "freshness": 0.2294,
       "feedPosition": 0.5556,
       "novelty": 0.6998
     },
@@ -1759,7 +1759,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2631
+    "score": 0.2629
   },
   {
     "group": "ai",
@@ -1797,14 +1797,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1651,
+      "freshness": 0.1644,
       "feedPosition": 0.8571,
       "novelty": 0.6594
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2585
+    "score": 0.2584
   },
   {
     "group": "ai",
@@ -1832,28 +1832,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
-    "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T19:34:34.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1055,
-      "sourceAuthority": 0.5,
-      "freshness": 0.554,
-      "feedPosition": 0,
-      "novelty": 0.7853
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2577
-  },
-  {
-    "group": "ai",
     "title": "Your medical provider might be recording your mental health care visits",
     "url": "https://themarkup.org/privacy/2026/06/16/your-medical-provider-might-be-recording-your-mental-health-care-visits",
     "source": "The Markup AI",
@@ -1873,6 +1851,28 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch"
     ],
     "score": 0.2575
+  },
+  {
+    "group": "ai",
+    "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+    "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T19:34:34.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1055,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5517,
+      "feedPosition": 0,
+      "novelty": 0.7853
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2574
   },
   {
     "group": "ai",
@@ -1909,7 +1909,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.2339,
+      "freshness": 0.2329,
       "feedPosition": 0.4444,
       "novelty": 0.718
     },
@@ -1917,7 +1917,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2543
+    "score": 0.2542
   },
   {
     "group": "ai",
@@ -1954,7 +1954,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0349,
+      "freshness": 0.0348,
       "feedPosition": 0.7778,
       "novelty": 0.6383
     },
@@ -1970,20 +1970,20 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://www.theguardian.com/technology/2026/aug/05/ai-generated-stories-rated-better-quality-than-human-written-ones-study-finds",
     "source": "The Guardian AI",
     "published": "2026-08-04T23:01:03.000Z",
-    "image": "https://i.guim.co.uk/img/media/c342f356200c430cadcf8a9e86f4e4e6e7de3a59/550_0_2750_2200/master/2750.jpg?width=140&quality=85&auto=format&fit=max&s=fe19fe22d82508d08f3259cf3dbb7765",
+    "image": "https://i.guim.co.uk/img/media/c342f356200c430cadcf8a9e86f4e4e6e7de3a59/550_0_2750_2200/master/2750.jpg?width=800&dpr=2&s=none&crop=none",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6095,
+      "freshness": 0.607,
       "feedPosition": 0.1111,
       "novelty": 0.7152
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2491
+    "score": 0.2487
   },
   {
     "group": "ai",
@@ -1997,7 +1997,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.4335,
+      "freshness": 0.4317,
       "feedPosition": 0.1111,
       "novelty": 0.5451
     },
@@ -2006,7 +2006,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2481
+    "score": 0.2478
   },
   {
     "group": "ai",
@@ -2088,7 +2088,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2935,
       "sourceAuthority": 0.5,
-      "freshness": 0.0397,
+      "freshness": 0.0395,
       "feedPosition": 0.2222,
       "novelty": 0.7585
     },
@@ -2158,7 +2158,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0203,
+      "freshness": 0.0202,
       "feedPosition": 0.5556,
       "novelty": 0.8705
     },
@@ -2166,7 +2166,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2349
+    "score": 0.2348
   },
   {
     "group": "ai",
@@ -2180,7 +2180,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.0317,
+      "freshness": 0.0315,
       "feedPosition": 0.2222,
       "novelty": 0.789
     },
@@ -2225,7 +2225,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.1275,
+      "freshness": 0.127,
       "feedPosition": 0.4444,
       "novelty": 0.7234
     },
@@ -2233,7 +2233,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2322
+    "score": 0.2321
   },
   {
     "group": "ai",
@@ -2268,7 +2268,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0172,
+      "freshness": 0.0171,
       "feedPosition": 0.4444,
       "novelty": 0.7999
     },
@@ -2291,7 +2291,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.037,
+      "freshness": 0.0369,
       "feedPosition": 0.3333,
       "novelty": 0.6893
     },
@@ -2314,14 +2314,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.3922,
+      "freshness": 0.3906,
       "feedPosition": 0.3333,
       "novelty": 0.4734
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.2287
+    "score": 0.2285
   },
   {
     "group": "ai",
@@ -2335,7 +2335,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.0321,
+      "freshness": 0.0319,
       "feedPosition": 0.625,
       "novelty": 0.6397
     },
@@ -2375,7 +2375,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.09,
       "sourceAuthority": 0.5,
-      "freshness": 0.0411,
+      "freshness": 0.041,
       "feedPosition": 0.5,
       "novelty": 0.7521
     },
@@ -2488,7 +2488,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0002,
+      "freshness": 0.0001,
       "feedPosition": 0.2222,
       "novelty": 0.9026
     },
@@ -2524,25 +2524,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "‘Not healthy’ LLM use is more common than you think",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
-    "source": "The Verge AI",
-    "published": "2026-08-04T17:33:46.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2253306515.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0655,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5238,
-      "feedPosition": 0,
-      "novelty": 0.4732
-    },
-    "rankingReasons": [],
-    "score": 0.214
-  },
-  {
-    "group": "ai",
     "title": "Substackers Say New AI Detection Tool Is a ‘Witch Hunt’",
     "url": "https://www.404media.co/substackers-say-new-ai-detection-tool-is-a-witch-hunt/",
     "source": "404 Media AI",
@@ -2563,6 +2544,25 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch"
     ],
     "score": 0.2139
+  },
+  {
+    "group": "ai",
+    "title": "‘Not healthy’ LLM use is more common than you think",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+    "source": "The Verge AI",
+    "published": "2026-08-04T17:33:46.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2253306515.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0655,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5217,
+      "feedPosition": 0,
+      "novelty": 0.4732
+    },
+    "rankingReasons": [],
+    "score": 0.2137
   },
   {
     "group": "ai",
@@ -2671,7 +2671,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.0404,
+      "freshness": 0.0403,
       "feedPosition": 0.3333,
       "novelty": 0.5178
     },
@@ -2736,7 +2736,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0078,
+      "freshness": 0.0077,
       "feedPosition": 0.375,
       "novelty": 0.8499
     },
@@ -2757,7 +2757,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.161,
       "sourceAuthority": 0.5,
-      "freshness": 0.0404,
+      "freshness": 0.0402,
       "feedPosition": 0.3333,
       "novelty": 0.5586
     },
@@ -2765,7 +2765,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "recognizable entities"
     ],
-    "score": 0.2025
+    "score": 0.2024
   },
   {
     "group": "ai",
@@ -2779,7 +2779,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.038,
+      "freshness": 0.0378,
       "feedPosition": 0.3333,
       "novelty": 0.5979
     },
@@ -2847,7 +2847,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.1231,
+      "freshness": 0.1226,
       "feedPosition": 0.2222,
       "novelty": 0.6774
     },
@@ -2869,14 +2869,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1877,
+      "freshness": 0.1869,
       "feedPosition": 0.1111,
       "novelty": 0.8285
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1971
+    "score": 0.197
   },
   {
     "group": "ai",
@@ -2955,14 +2955,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1852,
+      "freshness": 0.1844,
       "feedPosition": 0,
       "novelty": 0.7957
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1894
+    "score": 0.1893
   },
   {
     "group": "ai",
@@ -3022,7 +3022,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0023,
+      "freshness": 0.0022,
       "feedPosition": 0.1111,
       "novelty": 0.6829
     },
@@ -3067,7 +3067,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0053,
+      "freshness": 0.0052,
       "feedPosition": 0,
       "novelty": 1
     },
@@ -3133,7 +3133,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0233,
+      "freshness": 0.0232,
       "feedPosition": 0.1667,
       "novelty": 0.6816
     },
@@ -3194,7 +3194,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0163,
+      "freshness": 0.0162,
       "feedPosition": 0,
       "novelty": 0.5677
     },
@@ -3238,7 +3238,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.048,
       "sourceAuthority": 0.5,
-      "freshness": 0.038,
+      "freshness": 0.0378,
       "feedPosition": 0,
       "novelty": 0.6983
     },
@@ -3260,7 +3260,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0393,
+      "freshness": 0.0392,
       "feedPosition": 0.1111,
       "novelty": 0.5554
     },
