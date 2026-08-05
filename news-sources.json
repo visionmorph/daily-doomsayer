@@ -110,6 +110,154 @@
         "nominations",
         "funding opportunity"
       ]
+    },
+    {
+      "group": "ai",
+      "name": "BBC News AI",
+      "feed": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "includeKeywords": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "AI-generated",
+        "AI model",
+        "AI models",
+        "AI agent",
+        "AI agents",
+        "large language model",
+        "LLM",
+        "chatbot",
+        "machine learning",
+        "deepfake",
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "xAI"
+      ]
+    },
+    {
+      "group": "ai",
+      "name": "The Guardian AI",
+      "feed": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+    },
+    {
+      "group": "ai",
+      "name": "The Markup AI",
+      "feed": "https://themarkup.org/feeds/rss.xml",
+      "includeKeywords": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "AI-generated",
+        "AI model",
+        "AI models",
+        "AI agent",
+        "AI agents",
+        "large language model",
+        "LLM",
+        "chatbot",
+        "machine learning",
+        "algorithmic",
+        "deepfake",
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "xAI"
+      ]
+    },
+    {
+      "group": "ai",
+      "name": "Tech Policy Press AI",
+      "feed": "https://www.techpolicy.press/rss/feed.xml",
+      "includeCategories": [
+        "AI"
+      ],
+      "includeKeywords": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "AI-generated",
+        "AI model",
+        "AI models",
+        "AI agent",
+        "AI agents",
+        "large language model",
+        "LLM",
+        "chatbot",
+        "machine learning",
+        "deepfake",
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "xAI"
+      ]
+    },
+    {
+      "group": "ai",
+      "name": "Lawfare AI",
+      "feed": "https://www.lawfaremedia.org/feeds/cybersecurity-tech",
+      "includeKeywords": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "AI-generated",
+        "AI model",
+        "AI models",
+        "AI agent",
+        "AI agents",
+        "large language model",
+        "LLM",
+        "chatbot",
+        "machine learning",
+        "deepfake",
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "xAI"
+      ]
+    },
+    {
+      "group": "ai",
+      "name": "EFF AI",
+      "feed": "https://www.eff.org/rss/updates.xml",
+      "includeCategories": [
+        "Artificial Intelligence"
+      ],
+      "includeKeywords": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "AI-generated",
+        "AI model",
+        "AI models",
+        "AI agent",
+        "AI agents",
+        "large language model",
+        "LLM",
+        "chatbot",
+        "machine learning",
+        "algorithmic",
+        "deepfake",
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "xAI"
+      ]
     }
   ]
 }
