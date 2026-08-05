@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "update-news": "node scripts/fetch-news.mjs"
+    "update-news": "node scripts/fetch-news.mjs",
+    "verify-news": "node scripts/verify-doom-index.mjs"
   },
   "dependencies": {
     "rss-parser": "^3.13.0"
