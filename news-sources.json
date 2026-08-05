@@ -42,6 +42,74 @@
       "group": "ai",
       "name": "ScienceDaily Technology",
       "feed": "https://www.sciencedaily.com/rss/top/technology.xml"
+    },
+    {
+      "group": "ai",
+      "name": "404 Media AI",
+      "feed": "https://www.404media.co/tag/ai/rss/"
+    },
+    {
+      "group": "ai",
+      "name": "Rest of World AI",
+      "feed": "https://restofworld.org/feed/latest/",
+      "includeCategories": [
+        "Artificial intelligence"
+      ],
+      "includeKeywords": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "AI-generated",
+        "AI model",
+        "large language model",
+        "LLM",
+        "chatbot",
+        "machine learning",
+        "deepfake",
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek",
+        "ChatGPT",
+        "Gemini"
+      ]
+    },
+    {
+      "group": "ai",
+      "name": "Ars Technica AI",
+      "feed": "https://arstechnica.com/ai/feed/"
+    },
+    {
+      "group": "ai",
+      "name": "Nature AI News & Comment",
+      "feed": "https://www.nature.com/subjects/machine-learning.rss",
+      "includeArticleTypes": [
+        "News",
+        "News & Views",
+        "News Feature",
+        "Comments & Opinion",
+        "Editorial"
+      ],
+      "includeUrlPatterns": [
+        "/articles/d41586-"
+      ]
+    },
+    {
+      "group": "ai",
+      "name": "NASA AI",
+      "feed": "https://science.nasa.gov/category/organizations/ocio/dt/ai/feed/",
+      "excludeCategories": [
+        "Podcast",
+        "Topic",
+        "Blog",
+        "Award"
+      ],
+      "excludeTitleTerms": [
+        "amendment",
+        "webinar",
+        "materials available",
+        "nominations",
+        "funding opportunity"
+      ]
     }
   ]
 }
