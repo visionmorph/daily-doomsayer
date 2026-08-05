@@ -2,17 +2,42 @@
 window.DAILY_DOOMSAYER_ARTICLES = [
   {
     "group": "ai",
+    "title": "OK, Well, Rogue AI Agents Are Hacking Again",
+    "url": "https://www.wired.com/story/ok-well-there-are-even-more-ai-agent-hacking-incidents/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T23:11:31.000Z",
+    "image": "https://media.wired.com/photos/6a726eae679c5abd64d0d058/master/pass/Chat-GPT-Agents-Hacking-More-Business-2275331611.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.262,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8848,
+      "feedPosition": 1,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4601,
+    "featured": true
+  },
+  {
+    "group": "ai",
     "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
     "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
     "source": "TechCrunch AI",
     "published": "2026-08-04T21:07:26.000Z",
-    "image": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1241146892.jpg?resize=1200,800",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.2645,
       "sourceAuthority": 0.5,
-      "freshness": 0.9407,
+      "freshness": 0.8354,
       "feedPosition": 1,
       "novelty": 0.7906
     },
@@ -22,8 +47,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4481,
-    "featured": true
+    "score": 0.4323
   },
   {
     "group": "ai",
@@ -37,7 +61,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.9667,
+      "freshness": 0.8584,
       "feedPosition": 0.8889,
       "novelty": 0.8604
     },
@@ -47,30 +71,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4373
-  },
-  {
-    "group": "ai",
-    "title": "OK, Well, There Are Even More AI Agent Hacking Incidents",
-    "url": "https://www.wired.com/story/ok-well-there-are-even-more-ai-agent-hacking-incidents/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T23:11:31.000Z",
-    "image": "https://media.wired.com/photos/6a726eae679c5abd64d0d058/master/pass/Chat-GPT-Agents-Hacking-More-Business-2275331611.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.262,
-      "sourceAuthority": 0.5,
-      "freshness": 0.9964,
-      "feedPosition": 1,
-      "novelty": 0.4257
-    },
-    "rankingReasons": [
-      "urgency or risk",
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.4194
+    "score": 0.4211
   },
   {
     "group": "ai",
@@ -84,7 +85,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.8828,
+      "freshness": 0.7839,
       "feedPosition": 1,
       "novelty": 1
     },
@@ -92,7 +93,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.4074
+    "score": 0.3926
   },
   {
     "group": "ai",
@@ -106,7 +107,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.9141,
+      "freshness": 0.8118,
       "feedPosition": 0.8889,
       "novelty": 0.821
     },
@@ -114,7 +115,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.4051
+    "score": 0.3898
   },
   {
     "group": "ai",
@@ -128,7 +129,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.229,
       "sourceAuthority": 0.5,
-      "freshness": 0.9071,
+      "freshness": 0.8055,
       "feedPosition": 0.7778,
       "novelty": 0.641
     },
@@ -137,7 +138,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3987
+    "score": 0.3835
   },
   {
     "group": "ai",
@@ -151,7 +152,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.9366,
+      "freshness": 0.8317,
       "feedPosition": 1,
       "novelty": 0.438
     },
@@ -159,7 +160,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "specific details"
     ],
-    "score": 0.398
+    "score": 0.3823
   },
   {
     "group": "ai",
@@ -173,7 +174,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7101,
+      "freshness": 0.6306,
       "feedPosition": 0.7778,
       "novelty": 1
     },
@@ -182,7 +183,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3877
+    "score": 0.3758
   },
   {
     "group": "ai",
@@ -196,7 +197,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.192,
       "sourceAuthority": 0.5,
-      "freshness": 0.8988,
+      "freshness": 0.7981,
       "feedPosition": 0.5556,
       "novelty": 0.8109
     },
@@ -205,7 +206,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3849
+    "score": 0.3698
   },
   {
     "group": "ai",
@@ -219,7 +220,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.6718,
+      "freshness": 0.5965,
       "feedPosition": 0.8889,
       "novelty": 0.8803
     },
@@ -227,7 +228,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3747
+    "score": 0.3634
   },
   {
     "group": "ai",
@@ -241,7 +242,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.184,
       "sourceAuthority": 0.5,
-      "freshness": 0.7003,
+      "freshness": 0.6219,
       "feedPosition": 0.5556,
       "novelty": 1
     },
@@ -250,7 +251,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3724
+    "score": 0.3606
   },
   {
     "group": "ai",
@@ -264,35 +265,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.8573,
+      "freshness": 0.7613,
       "feedPosition": 0.7778,
       "novelty": 0.642
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.3667
-  },
-  {
-    "group": "ai",
-    "title": "This hydrogen turbine turns controlled explosions into electricity",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260803080919.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T13:02:27.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.7516,
-      "feedPosition": 1,
-      "novelty": 0.7296
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3607
+    "score": 0.3523
   },
   {
     "group": "ai",
@@ -306,14 +286,35 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.22,
       "sourceAuthority": 0.5,
-      "freshness": 0.9323,
+      "freshness": 0.8279,
       "feedPosition": 0.8889,
-      "novelty": 0.1206
+      "novelty": 0.1661
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.3598
+    "score": 0.3487
+  },
+  {
+    "group": "ai",
+    "title": "This hydrogen turbine turns controlled explosions into electricity",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260803080919.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-04T13:02:27.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6674,
+      "feedPosition": 1,
+      "novelty": 0.7296
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3481
   },
   {
     "group": "ai",
@@ -327,14 +328,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.8122,
+      "freshness": 0.7213,
       "feedPosition": 0.4444,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3484
+    "score": 0.3347
   },
   {
     "group": "ai",
@@ -348,14 +349,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.9012,
+      "freshness": 0.8003,
       "feedPosition": 0.6667,
       "novelty": 0.4957
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.3475
+    "score": 0.3324
   },
   {
     "group": "ai",
@@ -369,7 +370,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.7052,
+      "freshness": 0.6263,
       "feedPosition": 0.6667,
       "novelty": 0.4365
     },
@@ -378,7 +379,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3335
+    "score": 0.3217
   },
   {
     "group": "ai",
@@ -392,7 +393,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6907,
+      "freshness": 0.6133,
       "feedPosition": 0.3333,
       "novelty": 1
     },
@@ -400,7 +401,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3261
+    "score": 0.3145
   },
   {
     "group": "ai",
@@ -414,7 +415,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2355,
       "sourceAuthority": 0.5,
-      "freshness": 0.7194,
+      "freshness": 0.6388,
       "feedPosition": 0.4444,
       "novelty": 0.4797
     },
@@ -422,72 +423,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "conflict"
     ],
-    "score": 0.3224
-  },
-  {
-    "group": "ai",
-    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T15:20:06.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.161,
-      "sourceAuthority": 0.5,
-      "freshness": 0.801,
-      "feedPosition": 0.2222,
-      "novelty": 0.6756
-    },
-    "rankingReasons": [
-      "conflict",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3171
-  },
-  {
-    "group": "ai",
-    "title": "Alexander Rakhlin named director of  the MIT Statistics and Data Science Center",
-    "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
-    "source": "MIT News AI",
-    "published": "2026-08-03T19:50:00.000Z",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/sasha-rakhlin-mit-A1.jpg?itok=E-0MgF5E",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.252,
-      "sourceAuthority": 0.5,
-      "freshness": 0.466,
-      "feedPosition": 0.7778,
-      "novelty": 0.4026
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.3133
-  },
-  {
-    "group": "ai",
-    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T11:44:58.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.03,
-      "sourceAuthority": 0.5,
-      "freshness": 0.7251,
-      "feedPosition": 0.8889,
-      "novelty": 0.2918
-    },
-    "rankingReasons": [],
-    "score": 0.3078
+    "score": 0.3103
   },
   {
     "group": "ai",
@@ -515,65 +451,68 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "‘Not healthy’ LLM use is more common than you think",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
-    "source": "The Verge AI",
-    "published": "2026-08-04T17:33:46.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2253306515.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "title": "Alexander Rakhlin named director of  the MIT Statistics and Data Science Center",
+    "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+    "source": "MIT News AI",
+    "published": "2026-08-03T19:50:00.000Z",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/sasha-rakhlin-mit-A1.jpg?itok=E-0MgF5E",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.0655,
+      "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.8521,
-      "feedPosition": 0.6667,
-      "novelty": 0.1839
-    },
-    "rankingReasons": [],
-    "score": 0.301
-  },
-  {
-    "group": "ai",
-    "title": "Texas says data centers must pass an audit before connecting to the grid",
-    "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
-    "source": "The Verge AI",
-    "published": "2026-08-04T15:33:21.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.11,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8059,
-      "feedPosition": 0.5556,
-      "novelty": 0.2583
+      "freshness": 0.4138,
+      "feedPosition": 0.7778,
+      "novelty": 0.4026
     },
     "rankingReasons": [
-      "real-world consequences"
+      "real-world consequences",
+      "specific details",
+      "recognizable entities"
     ],
-    "score": 0.2993
+    "score": 0.3055
   },
   {
     "group": "ai",
-    "title": "Moonquakes could reveal hidden water beneath the lunar surface",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260802223420.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T12:32:07.000Z",
+    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:20:06.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.14,
+      "titleImpact": 0.161,
       "sourceAuthority": 0.5,
-      "freshness": 0.3805,
-      "feedPosition": 0.6667,
-      "novelty": 0.7163
+      "freshness": 0.7113,
+      "feedPosition": 0.2222,
+      "novelty": 0.6756
     },
     "rankingReasons": [
-      "surprise or reversal",
+      "conflict",
+      "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2984
+    "score": 0.3037
+  },
+  {
+    "group": "ai",
+    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-04T11:44:58.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.03,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6439,
+      "feedPosition": 0.8889,
+      "novelty": 0.3272
+    },
+    "rankingReasons": [],
+    "score": 0.2992
   },
   {
     "group": "ai",
@@ -587,7 +526,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0334,
+      "freshness": 0.0297,
       "feedPosition": 0.6667,
       "novelty": 1
     },
@@ -597,31 +536,69 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2971
+    "score": 0.2965
   },
   {
     "group": "ai",
-    "title": "How Data Centers Broke American Politics",
-    "url": "https://www.wired.com/story/how-data-centers-broke-american-politics/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T10:00:00.000Z",
-    "image": "https://media.wired.com/photos/6a709a8db4004b4e490ab2d7/master/pass/20260719-MattEich-0262.jpg",
+    "title": "Moonquakes could reveal hidden water beneath the lunar surface",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260802223420.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T12:32:07.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.322,
+      "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.6907,
-      "feedPosition": 0.4444,
-      "novelty": 0
+      "freshness": 0.3379,
+      "feedPosition": 0.6667,
+      "novelty": 0.7163
     },
     "rankingReasons": [
-      "real-world consequences",
       "surprise or reversal",
-      "specific details",
-      "recognizable entities"
+      "unusual language in the current story batch"
     ],
-    "score": 0.2874
+    "score": 0.292
+  },
+  {
+    "group": "ai",
+    "title": "‘Not healthy’ LLM use is more common than you think",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+    "source": "The Verge AI",
+    "published": "2026-08-04T17:33:46.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2253306515.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0655,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7567,
+      "feedPosition": 0.6667,
+      "novelty": 0.2193
+    },
+    "rankingReasons": [],
+    "score": 0.2902
+  },
+  {
+    "group": "ai",
+    "title": "Texas says data centers must pass an audit before connecting to the grid",
+    "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
+    "source": "The Verge AI",
+    "published": "2026-08-04T15:33:21.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.11,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7157,
+      "feedPosition": 0.5556,
+      "novelty": 0.2583
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2857
   },
   {
     "group": "ai",
@@ -649,6 +626,30 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "How Data Centers Broke American Politics",
+    "url": "https://www.wired.com/story/how-data-centers-broke-american-politics/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T10:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a709a8db4004b4e490ab2d7/master/pass/20260719-MattEich-0262.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.322,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6133,
+      "feedPosition": 0.4444,
+      "novelty": 0
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.2758
+  },
+  {
+    "group": "ai",
     "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
     "url": "https://www.sciencedaily.com/releases/2026/08/260802223422.htm",
     "source": "ScienceDaily Technology",
@@ -659,58 +660,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.3747,
+      "freshness": 0.3327,
       "feedPosition": 0.7778,
       "novelty": 0.375
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2745
-  },
-  {
-    "group": "ai",
-    "title": "Texas halts new data centers as governor calls for audits",
-    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T15:42:35.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8094,
-      "feedPosition": 0.3333,
-      "novelty": 0.0464
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "conflict"
-    ],
-    "score": 0.2744
-  },
-  {
-    "group": "ai",
-    "title": "Mistral Is in the Right Place at the Right Time",
-    "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T09:21:11.000Z",
-    "image": "https://media.wired.com/photos/6a6cc9ac6aed60f089dc69c1/master/pass/Business_Mistral%20Is%20In%20The%20Right%20Place%20At%20The%20Right%20Time_v1.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.6784,
-      "feedPosition": 0.3333,
-      "novelty": 0.3174
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.2702
+    "score": 0.2682
   },
   {
     "group": "ai",
@@ -737,24 +694,47 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Scientists just 3D printed one of the hardest metals on Earth",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T07:08:28.000Z",
+    "title": "Texas halts new data centers as governor calls for audits",
+    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:42:35.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.071,
+      "titleImpact": 0.2,
       "sourceAuthority": 0.5,
-      "freshness": 0.638,
-      "feedPosition": 0.5556,
-      "novelty": 0.2546
+      "freshness": 0.7188,
+      "feedPosition": 0.3333,
+      "novelty": 0.0464
     },
     "rankingReasons": [
+      "real-world consequences",
+      "conflict"
+    ],
+    "score": 0.2608
+  },
+  {
+    "group": "ai",
+    "title": "Mistral Is in the Right Place at the Right Time",
+    "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T09:21:11.000Z",
+    "image": "https://media.wired.com/photos/6a6cc9ac6aed60f089dc69c1/master/pass/Business_Mistral%20Is%20In%20The%20Right%20Place%20At%20The%20Right%20Time_v1.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6024,
+      "feedPosition": 0.3333,
+      "novelty": 0.3174
+    },
+    "rankingReasons": [
+      "specific details",
       "recognizable entities"
     ],
-    "score": 0.2659
+    "score": 0.2588
   },
   {
     "group": "ai",
@@ -768,14 +748,35 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.4385,
+      "freshness": 0.3894,
       "feedPosition": 0.2222,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.263
+    "score": 0.2556
+  },
+  {
+    "group": "ai",
+    "title": "Scientists just 3D printed one of the hardest metals on Earth",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-04T07:08:28.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.071,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5665,
+      "feedPosition": 0.5556,
+      "novelty": 0.2546
+    },
+    "rankingReasons": [
+      "recognizable entities"
+    ],
+    "score": 0.2552
   },
   {
     "group": "ai",
@@ -789,7 +790,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.5013,
+      "freshness": 0.4452,
       "feedPosition": 0.2222,
       "novelty": 0.6099
     },
@@ -797,7 +798,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2618
+    "score": 0.2534
   },
   {
     "group": "ai",
@@ -811,7 +812,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.3497,
+      "freshness": 0.3106,
       "feedPosition": 0,
       "novelty": 0.9239
     },
@@ -820,28 +821,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2542
-  },
-  {
-    "group": "ai",
-    "title": "Is the future of data centers portable? Runware builds a pod to find out",
-    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T13:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.7507,
-      "feedPosition": 0,
-      "novelty": 0.3514
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.2518
+    "score": 0.2484
   },
   {
     "group": "ai",
@@ -857,59 +837,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.2021
+      "novelty": 0.2234
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details"
     ],
-    "score": 0.2423
-  },
-  {
-    "group": "ai",
-    "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
-    "source": "The Verge AI",
-    "published": "2026-08-03T11:01:11.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2266883826.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1545,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3648,
-      "feedPosition": 0.1111,
-      "novelty": 0.6859
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2403
-  },
-  {
-    "group": "ai",
-    "title": "AI Conquered Coding. Fast Food Is Next",
-    "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
-    "source": "WIRED AI",
-    "published": "2026-08-03T10:00:00.000Z",
-    "image": "https://media.wired.com/photos/6a6cd8fd11de1df56dacd659/master/pass/Business_AIIsTakingOverattheDrive-Thru_v1.gif",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3546,
-      "feedPosition": 0.1111,
-      "novelty": 0.7136
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2391
+    "score": 0.2444
   },
   {
     "group": "ai",
@@ -925,35 +859,81 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.5556,
-      "novelty": 0.6548
+      "novelty": 0.7208
     },
     "rankingReasons": [
       "conflict",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2353
+    "score": 0.2419
   },
   {
     "group": "ai",
-    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
-    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+    "title": "Is the future of data centers portable? Runware builds a pod to find out",
+    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
     "source": "TechCrunch AI",
-    "published": "2026-08-04T14:03:01.000Z",
+    "published": "2026-08-04T13:00:00.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.7729,
-      "feedPosition": 0.1111,
-      "novelty": 0.0044
+      "freshness": 0.6666,
+      "feedPosition": 0,
+      "novelty": 0.3514
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2316
+    "score": 0.2392
+  },
+  {
+    "group": "ai",
+    "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+    "source": "The Verge AI",
+    "published": "2026-08-03T11:01:11.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2266883826.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1545,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3239,
+      "feedPosition": 0.1111,
+      "novelty": 0.6859
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2342
+  },
+  {
+    "group": "ai",
+    "title": "AI Conquered Coding. Fast Food Is Next",
+    "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
+    "source": "WIRED AI",
+    "published": "2026-08-03T10:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a6cd8fd11de1df56dacd659/master/pass/Business_AIIsTakingOverattheDrive-Thru_v1.gif",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3149,
+      "feedPosition": 0.1111,
+      "novelty": 0.7136
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2331
   },
   {
     "group": "ai",
@@ -980,6 +960,27 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T14:03:01.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6864,
+      "feedPosition": 0.1111,
+      "novelty": 0.0442
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2226
+  },
+  {
+    "group": "ai",
     "title": "Connecting research to policy on Capitol Hill",
     "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
     "source": "MIT News AI",
@@ -990,7 +991,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0331,
+      "freshness": 0.0294,
       "feedPosition": 0.5556,
       "novelty": 0.665
     },
@@ -998,47 +999,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2162
-  },
-  {
-    "group": "ai",
-    "title": "Mathematicians prove perfectly fair elections are impossible",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042812.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-02T13:10:21.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1988,
-      "feedPosition": 0.1111,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2159
-  },
-  {
-    "group": "ai",
-    "title": "Scientists twist crystal layers and reshape matter from within",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042819.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T04:36:48.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3053,
-      "feedPosition": 0.3333,
-      "novelty": 0.6099
-    },
-    "rankingReasons": [],
-    "score": 0.2151
+    "score": 0.2157
   },
   {
     "group": "ai",
@@ -1052,7 +1013,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3255,
       "sourceAuthority": 0.5,
-      "freshness": 0.0141,
+      "freshness": 0.0126,
       "feedPosition": 0.4444,
       "novelty": 0.273
     },
@@ -1060,26 +1021,47 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "surprise or reversal"
     ],
-    "score": 0.214
+    "score": 0.2137
   },
   {
     "group": "ai",
-    "title": "Giant waves are sweeping Mars’ atmosphere into space",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
+    "title": "Mathematicians prove perfectly fair elections are impossible",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042812.htm",
     "source": "ScienceDaily Technology",
-    "published": "2026-08-03T04:07:54.000Z",
+    "published": "2026-08-02T13:10:21.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.0355,
+      "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.3013,
-      "feedPosition": 0.2222,
+      "freshness": 0.1766,
+      "feedPosition": 0.1111,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2126
+  },
+  {
+    "group": "ai",
+    "title": "Scientists twist crystal layers and reshape matter from within",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042819.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T04:36:48.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2711,
+      "feedPosition": 0.3333,
       "novelty": 0.6099
     },
     "rankingReasons": [],
-    "score": 0.2105
+    "score": 0.21
   },
   {
     "group": "ai",
@@ -1116,7 +1098,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0004,
+      "freshness": 0.0003,
       "feedPosition": 0.3333,
       "novelty": 1
     },
@@ -1124,6 +1106,25 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch"
     ],
     "score": 0.2084
+  },
+  {
+    "group": "ai",
+    "title": "Giant waves are sweeping Mars’ atmosphere into space",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T04:07:54.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2675,
+      "feedPosition": 0.2222,
+      "novelty": 0.6099
+    },
+    "rankingReasons": [],
+    "score": 0.2054
   },
   {
     "group": "ai",
@@ -1137,14 +1138,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.2003,
+      "freshness": 0.1779,
       "feedPosition": 0.4444,
       "novelty": 0.4174
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2052
+    "score": 0.2019
   },
   {
     "group": "ai",
@@ -1158,7 +1159,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1499,
+      "freshness": 0.1331,
       "feedPosition": 0,
       "novelty": 0.8698
     },
@@ -1166,7 +1167,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1987
+    "score": 0.1961
   },
   {
     "group": "ai",
@@ -1182,34 +1183,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.4444,
-      "novelty": 0.4572
+      "novelty": 0.5112
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1889
-  },
-  {
-    "group": "ai",
-    "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-    "source": "The Verge AI",
-    "published": "2026-08-02T19:36:08.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2377,
-      "feedPosition": 0,
-      "novelty": 0.4797
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.1877
+    "score": 0.1943
   },
   {
     "group": "ai",
@@ -1232,6 +1212,27 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities"
     ],
     "score": 0.1844
+  },
+  {
+    "group": "ai",
+    "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+    "source": "The Verge AI",
+    "published": "2026-08-02T19:36:08.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2111,
+      "feedPosition": 0,
+      "novelty": 0.4797
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.1837
   },
   {
     "group": "ai",
