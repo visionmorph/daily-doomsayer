@@ -2,6 +2,52 @@
 window.DAILY_DOOMSAYER_ARTICLES = [
   {
     "group": "ai",
+    "title": "Teachers need help with AI. A union is offering training – with $23m in funding from big tech",
+    "url": "https://www.theguardian.com/technology/2026/aug/05/teachers-unions-ai-training",
+    "source": "The Guardian AI",
+    "published": "2026-08-05T12:00:19.000Z",
+    "image": "https://i.guim.co.uk/img/media/562f7360760960fb98074e8e10194a943d5ea6a8/141_227_2716_2173/master/2716.jpg?width=140&quality=85&auto=format&fit=max&s=9f5b6baff4dc487b410715a9a69d20b3",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2055,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9509,
+      "feedPosition": 0.8889,
+      "novelty": 0.8306
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4307,
+    "featured": true
+  },
+  {
+    "group": "ai",
+    "title": "AI models shock UK testers by using stolen identities to trick developers",
+    "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
+    "source": "The Guardian AI",
+    "published": "2026-08-05T12:04:21.000Z",
+    "image": "https://i.guim.co.uk/img/media/a828d3530ab4763e68a868951a6609a74ae62bb2/379_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=55bd271ede462cc9c3dae8bd11a6f816",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1055,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9526,
+      "feedPosition": 1,
+      "novelty": 0.8617
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4252
+  },
+  {
+    "group": "ai",
     "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals",
     "url": "https://www.wired.com/story/iris-nodoca-ai-throat-exam-routine-physical/",
     "source": "WIRED AI",
@@ -12,17 +58,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8866,
+      "freshness": 0.8747,
       "feedPosition": 1,
-      "novelty": 0.8904
+      "novelty": 0.8499
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4254,
-    "featured": true
+    "score": 0.4196
   },
   {
     "group": "ai",
@@ -36,14 +81,36 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.9765,
+      "freshness": 0.9634,
       "feedPosition": 1,
-      "novelty": 0.9029
+      "novelty": 0.8799
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.4189
+    "score": 0.4146
+  },
+  {
+    "group": "ai",
+    "title": "Anthropic AI used fake profiles to target people in hack - then hid the evidence",
+    "url": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News AI",
+    "published": "2026-08-05T09:24:18.000Z",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.12,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8846,
+      "feedPosition": 1,
+      "novelty": 0.8068
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4124
   },
   {
     "group": "ai",
@@ -57,7 +124,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8386,
+      "freshness": 0.8274,
       "feedPosition": 0.8889,
       "novelty": 0.9353
     },
@@ -66,50 +133,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4116
-  },
-  {
-    "group": "ai",
-    "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-    "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-05T11:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.071,
-      "sourceAuthority": 0.5,
-      "freshness": 0.9372,
-      "feedPosition": 0.8889,
-      "novelty": 0.9086
-    },
-    "rankingReasons": [
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.4095
-  },
-  {
-    "group": "ai",
-    "title": "Growth without work: The human cost of the AI revolution",
-    "url": "https://restofworld.org/2026/ai-jobs-economy-impact/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "source": "Rest of World AI",
-    "published": "2026-08-05T10:00:00.000Z",
-    "image": "https://restofworld.org/wp-content/uploads/2026/08/GettyImages-2155295561-768x432.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.012,
-      "sourceAuthority": 0.5,
-      "freshness": 0.9115,
-      "feedPosition": 1,
-      "novelty": 0.9461
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.4087
+    "score": 0.4099
   },
   {
     "group": "ai",
@@ -123,14 +147,80 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.8947,
+      "freshness": 0.8827,
       "feedPosition": 1,
       "novelty": 0.9075
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.4071
+    "score": 0.4053
+  },
+  {
+    "group": "ai",
+    "title": "Game, set, Chat: how tennis players use AI to scout opponents and run their lives",
+    "url": "https://www.theguardian.com/sport/2026/aug/05/ai-chatgpt-robots-tennis-players-scouting-technology",
+    "source": "The Guardian AI",
+    "published": "2026-08-05T12:00:18.000Z",
+    "image": "https://i.guim.co.uk/img/media/dc344b3cb9fc91d7e6ba9e0059188a561855dcf7/1076_755_2215_1771/master/2215.jpg?width=140&quality=85&auto=format&fit=max&s=b14ff8b716d18f1a7a2ce517d40b162a",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1175,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9508,
+      "feedPosition": 0.6667,
+      "novelty": 0.9447
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4023
+  },
+  {
+    "group": "ai",
+    "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+    "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-05T11:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.071,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9247,
+      "feedPosition": 0.8889,
+      "novelty": 0.8499
+    },
+    "rankingReasons": [
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4018
+  },
+  {
+    "group": "ai",
+    "title": "‘It confirmed my flaws’: women are paying for face scans that score beauty and suggest excessive procedures",
+    "url": "https://www.theguardian.com/fashion/ng-interactive/2026/aug/05/facial-analysis-scans-qoves-epica-looksmaxxing",
+    "source": "The Guardian AI",
+    "published": "2026-08-05T12:00:18.000Z",
+    "image": "https://i.guim.co.uk/img/media/d1b18bee3fe998473c2ac04230590d4deff1118c/0_251_2400_1919/master/2400.jpg?width=140&quality=85&auto=format&fit=max&s=fd85eadbef91ba5be1f5729f76b15eb3",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.042,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9508,
+      "feedPosition": 0.7778,
+      "novelty": 0.9706
+    },
+    "rankingReasons": [
+      "specific details",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4009
   },
   {
     "group": "ai",
@@ -144,35 +234,80 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9242,
-      "feedPosition": 0.8889,
-      "novelty": 1
+      "freshness": 0.9118,
+      "feedPosition": 1,
+      "novelty": 0.8705
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.4025
+    "score": 0.3988
   },
   {
     "group": "ai",
-    "title": "Google Assistant will disappear from your phone next month",
-    "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
-    "source": "The Verge AI",
-    "published": "2026-08-05T11:12:50.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/19482921/acastro_180510_1777_google_assistant_0001.0.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
+    "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News AI",
+    "published": "2026-08-05T08:53:40.000Z",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.0355,
+      "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.9428,
+      "freshness": 0.8721,
+      "feedPosition": 0.8333,
+      "novelty": 0.8068
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3978
+  },
+  {
+    "group": "ai",
+    "title": "Growth without work: The human cost of the AI revolution",
+    "url": "https://restofworld.org/2026/ai-jobs-economy-impact/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World AI",
+    "published": "2026-08-05T10:00:00.000Z",
+    "image": "https://restofworld.org/wp-content/uploads/2026/08/GettyImages-2155295561-768x432.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.012,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8993,
       "feedPosition": 1,
-      "novelty": 0.7403
+      "novelty": 0.8538
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3975
+    "score": 0.3977
+  },
+  {
+    "group": "ai",
+    "title": "Tomorrow’s U.S. Senate Vote: Four Internet Bills, One Wrong Direction",
+    "url": "https://www.eff.org/deeplinks/2026/08/senate-vote-tomorrow-four-internet-bills-one-wrong-direction",
+    "source": "EFF AI",
+    "published": "2026-08-05T00:15:11.000Z",
+    "image": "https://www.eff.org/files/banner_library/congress-action_0_0.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.154,
+      "sourceAuthority": 0.5,
+      "freshness": 0.686,
+      "feedPosition": 1,
+      "novelty": 0.8306
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3918
   },
   {
     "group": "ai",
@@ -186,9 +321,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2645,
       "sourceAuthority": 0.5,
-      "freshness": 0.6374,
+      "freshness": 0.6289,
       "feedPosition": 0.7778,
-      "novelty": 0.9191
+      "novelty": 0.8904
     },
     "rankingReasons": [
       "real-world consequences",
@@ -196,31 +331,55 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3932
+    "score": 0.3891
   },
   {
     "group": "ai",
-    "title": "OK, Well, Rogue AI Agents Are Hacking Again",
-    "url": "https://www.wired.com/story/ok-well-there-are-even-more-ai-agent-hacking-incidents/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T23:11:31.000Z",
-    "image": "https://media.wired.com/photos/6a726eae679c5abd64d0d058/master/pass/Chat-GPT-Agents-Hacking-More-Business-2275331611.jpg",
+    "title": "Appeals Court Agrees with EFF that Building a Web Browser Doesn’t Violate the CFAA",
+    "url": "https://www.eff.org/deeplinks/2026/08/appeals-court-agrees-eff-building-web-browser-doesnt-violate-cfaa",
+    "source": "EFF AI",
+    "published": "2026-08-04T22:32:39.000Z",
+    "image": "https://www.eff.org/files/banner_library/coder-cat-2.png",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.262,
+      "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.6751,
-      "feedPosition": 0.6667,
-      "novelty": 0.9353
+      "freshness": 0.6542,
+      "feedPosition": 0.8889,
+      "novelty": 0.766
     },
     "rankingReasons": [
-      "urgency or risk",
+      "real-world consequences",
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3889
+    "score": 0.389
+  },
+  {
+    "group": "ai",
+    "title": "EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?",
+    "url": "https://techpolicy.press/eu-ai-act-transparency-rules-are-now-in-effect-was-it-a-missed-opportunity",
+    "source": "Tech Policy Press AI",
+    "published": "2026-08-03T12:42:27.000Z",
+    "image": "",
+    "coverageSources": 2,
+    "ranking": {
+      "coverage": 0.3333,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2556,
+      "feedPosition": 0.7778,
+      "novelty": 0.6594
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch",
+      "covered by multiple sources"
+    ],
+    "score": 0.3855
   },
   {
     "group": "ai",
@@ -234,14 +393,109 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.7765,
+      "freshness": 0.7661,
       "feedPosition": 0.8889,
       "novelty": 0.9595
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3834
+    "score": 0.3819
+  },
+  {
+    "group": "ai",
+    "title": "AI Is Not Social Media. New Child Safety Laws Should Reflect That.",
+    "url": "https://techpolicy.press/ai-is-not-social-media-new-child-safety-laws-should-reflect-that",
+    "source": "Tech Policy Press AI",
+    "published": "2026-08-04T16:46:21.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.252,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5573,
+      "feedPosition": 1,
+      "novelty": 0.718
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3808
+  },
+  {
+    "group": "ai",
+    "title": "OK, Well, Rogue AI Agents Are Hacking Again",
+    "url": "https://www.wired.com/story/ok-well-there-are-even-more-ai-agent-hacking-incidents/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T23:11:31.000Z",
+    "image": "https://media.wired.com/photos/6a726eae679c5abd64d0d058/master/pass/Chat-GPT-Agents-Hacking-More-Business-2275331611.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.262,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6661,
+      "feedPosition": 0.6667,
+      "novelty": 0.8058
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3746
+  },
+  {
+    "group": "ai",
+    "title": "Why is Anthropic destroying books? | Kathryn James",
+    "url": "https://www.theguardian.com/commentisfree/2026/aug/05/anthropic-ai-destroying-books",
+    "source": "The Guardian AI",
+    "published": "2026-08-05T11:00:16.000Z",
+    "image": "https://i.guim.co.uk/img/media/bb2ccc0cc92bd8a3334cf3973ac18be63600cf97/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=e282c7687fa4aeca546f4c656ce5a6cc",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1765,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9248,
+      "feedPosition": 0.5556,
+      "novelty": 0.6575
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3703
+  },
+  {
+    "group": "ai",
+    "title": "‘If we don’t fight back, we don’t have a future’: the journalist taking on the ‘tech fascists’ of Silicon Valley",
+    "url": "https://www.theguardian.com/lifeandstyle/2026/aug/05/journalist-taking-on-tech-fascists-silicon-valley",
+    "source": "The Guardian AI",
+    "published": "2026-08-05T09:00:14.000Z",
+    "image": "https://i.guim.co.uk/img/media/83569c06861d2dc3abf0ac0129d5a71f6193cc5f/1584_397_2089_1671/master/2089.jpg?width=140&quality=85&auto=format&fit=max&s=5010b59416ee2c0d1631ad2a859a0618",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.203,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8748,
+      "feedPosition": 0.4444,
+      "novelty": 0.7796
+    },
+    "rankingReasons": [
+      "conflict",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3692
   },
   {
     "group": "ai",
@@ -255,110 +509,39 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.5573,
+      "freshness": 0.5499,
       "feedPosition": 1,
-      "novelty": 0.8285
+      "novelty": 0.7702
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3758
+    "score": 0.3689
   },
   {
     "group": "ai",
-    "title": "Privacy risks from medical AI tools are not shared equally",
-    "url": "https://www.nature.com/articles/d41586-026-02288-9",
-    "source": "Nature AI News & Comment",
-    "published": "2026-08-04T00:00:00.000Z",
-    "image": "",
+    "title": "Scaling Laws: DZ Kalman on the Role of Faith in AI Policy",
+    "url": "https://www.lawfaremedia.org/article/scaling-laws--dz-kalman-on-the-role-of-faith-in-ai-policy",
+    "source": "Lawfare AI",
+    "published": "2026-08-04T14:00:00.000Z",
+    "image": "https://lawfare-assets-new.azureedge.net/assets/images/default-source/article-images/scaling-laws-logo.jpg?sfvrsn=7a7b38eb_3",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.34,
+      "titleImpact": 0.154,
       "sourceAuthority": 0.5,
-      "freshness": 0.3545,
+      "freshness": 0.516,
       "feedPosition": 1,
-      "novelty": 0.7957
-    },
-    "rankingReasons": [
-      "urgency or risk",
-      "real-world consequences",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3757
-  },
-  {
-    "group": "ai",
-    "title": "The White House Is Keeping Its AI Cybersecurity Framework Secret",
-    "url": "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T22:06:07.000Z",
-    "image": "https://media.wired.com/photos/6a7199c152cbcac31bc249b1/master/pass/Trump-Admin-Convenes-AI-Labs-to-Share-AI-Framework-Business-2282299237.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.212,
-      "sourceAuthority": 0.5,
-      "freshness": 0.655,
-      "feedPosition": 0.5556,
-      "novelty": 0.9461
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3658
-  },
-  {
-    "group": "ai",
-    "title": "‘Own the Narrative’: Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech",
-    "url": "https://www.404media.co/own-the-narrative-leaked-flock-guide-shows-how-it-teaches-cops-to-promote-its-tech/",
-    "source": "404 Media AI",
-    "published": "2026-08-03T17:13:24.000Z",
-    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/CleanShot-2026-08-03-at-10.03.44@2x.png",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.324,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2937,
-      "feedPosition": 0.8889,
-      "novelty": 0.9281
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3655
-  },
-  {
-    "group": "ai",
-    "title": "AI Influencers Are Heading Into Uncharted Territory",
-    "url": "https://www.wired.com/story/algorithm-turning-on-ai-influencers-are-humans-worried/",
-    "source": "WIRED AI",
-    "published": "2026-08-05T00:00:00.000Z",
-    "image": "https://media.wired.com/photos/6a728e78e934dc2a12186c94/master/pass/Algorithm-Is-Turning-on-AI-Influencers-Business.gif",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.6904,
-      "feedPosition": 0.7778,
-      "novelty": 0.8
+      "novelty": 0.8538
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3647
+    "score": 0.3686
   },
   {
     "group": "ai",
@@ -372,16 +555,135 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.6346,
-      "feedPosition": 0.7778,
-      "novelty": 0.7693
+      "freshness": 0.6261,
+      "feedPosition": 0.8889,
+      "novelty": 0.7045
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3636
+    "score": 0.367
+  },
+  {
+    "group": "ai",
+    "title": "The Senate Should Reject KOSA's Privacy Risks",
+    "url": "https://www.eff.org/deeplinks/2026/08/senate-should-reject-kosas-privacy-risks",
+    "source": "EFF AI",
+    "published": "2026-08-03T23:47:38.000Z",
+    "image": "https://www.eff.org/files/banner_library/ageverificationbanner-3.png",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.462,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3478,
+      "feedPosition": 0.7778,
+      "novelty": 0.692
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "real-world consequences",
+      "conflict",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3665
+  },
+  {
+    "group": "ai",
+    "title": "‘Own the Narrative’: Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech",
+    "url": "https://www.404media.co/own-the-narrative-leaked-flock-guide-shows-how-it-teaches-cops-to-promote-its-tech/",
+    "source": "404 Media AI",
+    "published": "2026-08-03T17:13:24.000Z",
+    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/CleanShot-2026-08-03-at-10.03.44@2x.png",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.324,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2897,
+      "feedPosition": 0.8889,
+      "novelty": 0.9281
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.365
+  },
+  {
+    "group": "ai",
+    "title": "The White House Is Keeping Its AI Cybersecurity Framework Secret",
+    "url": "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T22:06:07.000Z",
+    "image": "https://media.wired.com/photos/6a7199c152cbcac31bc249b1/master/pass/Trump-Admin-Convenes-AI-Labs-to-Share-AI-Framework-Business-2282299237.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.212,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6462,
+      "feedPosition": 0.5556,
+      "novelty": 0.9461
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3645
+  },
+  {
+    "group": "ai",
+    "title": "AI Influencers Are Heading Into Uncharted Territory",
+    "url": "https://www.wired.com/story/algorithm-turning-on-ai-influencers-are-humans-worried/",
+    "source": "WIRED AI",
+    "published": "2026-08-05T00:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a728e78e934dc2a12186c94/master/pass/Algorithm-Is-Turning-on-AI-Influencers-Business.gif",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6812,
+      "feedPosition": 0.7778,
+      "novelty": 0.8
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3634
+  },
+  {
+    "group": "ai",
+    "title": "Privacy risks from medical AI tools are not shared equally",
+    "url": "https://www.nature.com/articles/d41586-026-02288-9",
+    "source": "Nature AI News & Comment",
+    "published": "2026-08-04T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.34,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3497,
+      "feedPosition": 1,
+      "novelty": 0.6274
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "real-world consequences"
+    ],
+    "score": 0.3582
   },
   {
     "group": "ai",
@@ -395,7 +697,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.6278,
+      "freshness": 0.6194,
       "feedPosition": 1,
       "novelty": 0.6816
     },
@@ -403,31 +705,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3593
-  },
-  {
-    "group": "ai",
-    "title": "Anthropic signs $10B deal with AI cloud startup Volta",
-    "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T19:48:40.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.229,
-      "sourceAuthority": 0.5,
-      "freshness": 0.6146,
-      "feedPosition": 0.5556,
-      "novelty": 0.8285
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3514
+    "score": 0.3581
   },
   {
     "group": "ai",
@@ -441,7 +719,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5981,
+      "freshness": 0.5901,
       "feedPosition": 1,
       "novelty": 0.8156
     },
@@ -449,7 +727,31 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.3463
+    "score": 0.3451
+  },
+  {
+    "group": "ai",
+    "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+    "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T19:48:40.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.229,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6064,
+      "feedPosition": 0.5556,
+      "novelty": 0.7702
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3443
   },
   {
     "group": "ai",
@@ -463,58 +765,60 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.4552,
+      "freshness": 0.4491,
       "feedPosition": 0.8889,
-      "novelty": 0.8747
+      "novelty": 0.8571
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3416
+    "score": 0.339
   },
   {
     "group": "ai",
-    "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
-    "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T20:05:26.000Z",
-    "image": "",
+    "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
+    "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
+    "source": "The Markup AI",
+    "published": "2026-07-09T12:00:00.000Z",
+    "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.11,
+      "titleImpact": 0.3875,
       "sourceAuthority": 0.5,
-      "freshness": 0.6194,
-      "feedPosition": 0.6667,
-      "novelty": 0.8277
+      "freshness": 0,
+      "feedPosition": 1,
+      "novelty": 0.857
     },
     "rankingReasons": [
+      "urgency or risk",
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3393
+    "score": 0.3382
   },
   {
     "group": "ai",
-    "title": "SpaceX made more revenue as an AI company than a space company",
-    "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
-    "source": "The Verge AI",
-    "published": "2026-08-04T20:47:55.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2286629860.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "title": "Democracy is at stake when foolish humans bet on machines being intelligent | Rafael Behr",
+    "url": "https://www.theguardian.com/commentisfree/2026/aug/05/ai-regulation-donald-trump-artificial-intelligence",
+    "source": "The Guardian AI",
+    "published": "2026-08-05T07:00:13.000Z",
+    "image": "https://i.guim.co.uk/img/media/a49e30a11ac40a6645f2c7e72f02d47b8b5b7b42/569_0_4202_3362/master/4202.jpg?width=140&quality=85&auto=format&fit=max&s=3e52d41756d570fa880147a45fa15c23",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.22,
+      "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6317,
-      "feedPosition": 0.6667,
-      "novelty": 0.5349
+      "freshness": 0.8275,
+      "feedPosition": 0.3333,
+      "novelty": 0.9041
     },
     "rankingReasons": [
-      "real-world consequences"
+      "recognizable entities",
+      "unusual language in the current story batch"
     ],
-    "score": 0.3339
+    "score": 0.3371
   },
   {
     "group": "ai",
@@ -528,15 +832,58 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.5809,
-      "feedPosition": 0.5556,
-      "novelty": 0.9191
+      "freshness": 0.5731,
+      "feedPosition": 0.6667,
+      "novelty": 0.8617
     },
     "rankingReasons": [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3307
+    "score": 0.3349
+  },
+  {
+    "group": "ai",
+    "title": "SpaceX made more revenue as an AI company than a space company",
+    "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+    "source": "The Verge AI",
+    "published": "2026-08-04T20:47:55.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2286629860.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.22,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6233,
+      "feedPosition": 0.7778,
+      "novelty": 0.4406
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.3343
+  },
+  {
+    "group": "ai",
+    "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+    "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T20:05:26.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.11,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6111,
+      "feedPosition": 0.6667,
+      "novelty": 0.7521
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3305
   },
   {
     "group": "ai",
@@ -550,82 +897,38 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.468,
+      "freshness": 0.4617,
       "feedPosition": 0.875,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3273
+    "score": 0.3264
   },
   {
     "group": "ai",
-    "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
-    "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T19:28:49.000Z",
-    "image": "",
+    "title": "EFF Joins 18 Civil Rights Organizations Calling on Governor Hochul to Reject the Stealth Crawler Prohibition Act",
+    "url": "https://www.eff.org/deeplinks/2026/08/eff-joins-18-civil-rights-organizations-calling-governor-hochul-reject-stealth",
+    "source": "EFF AI",
+    "published": "2026-08-03T23:25:40.000Z",
+    "image": "https://www.eff.org/files/banner_library/ai-robot-warhol-2.png",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.192,
+      "titleImpact": 0.28,
       "sourceAuthority": 0.5,
-      "freshness": 0.609,
-      "feedPosition": 0.3333,
-      "novelty": 0.8581
+      "freshness": 0.3442,
+      "feedPosition": 0.6667,
+      "novelty": 0.759
     },
     "rankingReasons": [
-      "real-world consequences",
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3239
-  },
-  {
-    "group": "ai",
-    "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
-    "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-03T19:00:50.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-82955454-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1545,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3086,
-      "feedPosition": 0.7778,
-      "novelty": 0.9281
-    },
-    "rankingReasons": [
+      "conflict",
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3228
-  },
-  {
-    "group": "ai",
-    "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
-    "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-03T22:11:39.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/Screenshot-2026-08-03-at-5.14.23-PM-1152x648.png",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3371,
-      "feedPosition": 0.8889,
-      "novelty": 0.7692
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3205
+    "score": 0.3252
   },
   {
     "group": "ai",
@@ -639,7 +942,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.4812,
+      "freshness": 0.4747,
       "feedPosition": 0.4444,
       "novelty": 1
     },
@@ -648,7 +951,30 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.32
+    "score": 0.3191
+  },
+  {
+    "group": "ai",
+    "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+    "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T19:28:49.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.192,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6008,
+      "feedPosition": 0.3333,
+      "novelty": 0.819
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3188
   },
   {
     "group": "ai",
@@ -662,7 +988,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.3157,
+      "freshness": 0.3115,
       "feedPosition": 0.7778,
       "novelty": 0.6822
     },
@@ -672,7 +998,52 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3188
+    "score": 0.3181
+  },
+  {
+    "group": "ai",
+    "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
+    "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-03T22:11:39.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/Screenshot-2026-08-03-at-5.14.23-PM-1152x648.png",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3326,
+      "feedPosition": 0.8889,
+      "novelty": 0.7494
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3178
+  },
+  {
+    "group": "ai",
+    "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+    "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-03T19:00:50.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-82955454-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1545,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3045,
+      "feedPosition": 0.7778,
+      "novelty": 0.8828
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3176
   },
   {
     "group": "ai",
@@ -686,36 +1057,37 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5092,
+      "freshness": 0.5024,
       "feedPosition": 0.7778,
       "novelty": 0.8571
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3149
+    "score": 0.3139
   },
   {
     "group": "ai",
-    "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
-    "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T19:34:34.000Z",
-    "image": "",
+    "title": "US stock market hits record highs as AI profits pile and oil prices ease",
+    "url": "https://www.theguardian.com/business/2026/aug/04/stock-market-records-ai-profits-oil-prices-ease",
+    "source": "The Guardian AI",
+    "published": "2026-08-04T20:56:59.000Z",
+    "image": "https://i.guim.co.uk/img/media/93edb9c87b7eb6a98a213cee3de3a24230ae3481/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=c958d462821fa2889088d28ee304021b",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.1055,
+      "titleImpact": 0.18,
       "sourceAuthority": 0.5,
-      "freshness": 0.6106,
-      "feedPosition": 0.4444,
-      "novelty": 0.7853
+      "freshness": 0.6259,
+      "feedPosition": 0.1111,
+      "novelty": 0.9676
     },
     "rankingReasons": [
+      "real-world consequences",
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3107
+    "score": 0.3128
   },
   {
     "group": "ai",
@@ -743,6 +1115,73 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Google's AI Governance Plan Draws the Boundaries of What Counts as Harm",
+    "url": "https://techpolicy.press/googles-ai-governance-plan-draws-the-boundaries-of-what-counts-as-harm",
+    "source": "Tech Policy Press AI",
+    "published": "2026-08-03T13:54:04.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2642,
+      "feedPosition": 0.8889,
+      "novelty": 0.7403
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3059
+  },
+  {
+    "group": "ai",
+    "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+    "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T19:34:34.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1055,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6024,
+      "feedPosition": 0.4444,
+      "novelty": 0.7494
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3058
+  },
+  {
+    "group": "ai",
+    "title": "Europe’s AI labeling and transparency rules are now in effect",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+    "source": "The Verge AI",
+    "published": "2026-08-03T17:38:45.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268679_Europes_AI_labeling_and_transparency_rules_are_now_in_effect_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 2,
+    "ranking": {
+      "coverage": 0.3333,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2932,
+      "feedPosition": 0.1111,
+      "novelty": 0.746
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch",
+      "covered by multiple sources"
+    ],
+    "score": 0.3047
+  },
+  {
+    "group": "ai",
     "title": "‘Everyone Is Doing It’: The Truth About AI in Hollywood",
     "url": "https://www.wired.com/story/the-big-interview-podcast-matthew-belloni-puck/",
     "source": "WIRED AI",
@@ -753,7 +1192,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.184,
       "sourceAuthority": 0.5,
-      "freshness": 0.4745,
+      "freshness": 0.4682,
       "feedPosition": 0.2222,
       "novelty": 1
     },
@@ -762,7 +1201,54 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3052
+    "score": 0.3043
+  },
+  {
+    "group": "ai",
+    "title": "EFF Joins Call for FTC to Drop Its Disastrous AI Policy Proposal",
+    "url": "https://www.eff.org/deeplinks/2026/08/eff-joins-comments-calling-ftc-drop-its-ai-policy-proposal",
+    "source": "EFF AI",
+    "published": "2026-08-03T22:17:56.000Z",
+    "image": "https://www.eff.org/files/banner_library/icon-2026-ai-robot-v2.png",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.232,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3336,
+      "feedPosition": 0.5556,
+      "novelty": 0.7702
+    },
+    "rankingReasons": [
+      "conflict",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.304
+  },
+  {
+    "group": "ai",
+    "title": "Trump administration reportedly drafting ban on Chinese datacenter components",
+    "url": "https://www.theguardian.com/technology/2026/aug/04/fcc-ban-china-datacenter-devices",
+    "source": "The Guardian AI",
+    "published": "2026-08-04T17:21:33.000Z",
+    "image": "https://i.guim.co.uk/img/media/612dfa703511b341162b81618cf403090baf635f/835_0_3085_2470/master/3085.jpg?width=140&quality=85&auto=format&fit=max&s=a95bf3299c2f4e3f25531a89e8dfccb6",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5665,
+      "feedPosition": 0,
+      "novelty": 0.9191
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "conflict",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.301
   },
   {
     "group": "ai",
@@ -776,9 +1262,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.362,
       "sourceAuthority": 0.5,
-      "freshness": 0.0679,
+      "freshness": 0.067,
       "feedPosition": 0.6667,
-      "novelty": 0.7521
+      "novelty": 0.6998
     },
     "rankingReasons": [
       "real-world consequences",
@@ -786,31 +1272,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2995
-  },
-  {
-    "group": "ai",
-    "title": "Company Offering Printed Books to Train AI Stops After 404 Media Coverage",
-    "url": "https://www.404media.co/ai-company-training-scanning-books-database-isbndb/",
-    "source": "404 Media AI",
-    "published": "2026-07-31T14:04:26.000Z",
-    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/photo-1725582205524-6c7c268aee97.jpeg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.3,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0364,
-      "feedPosition": 0.6667,
-      "novelty": 0.8666
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2938
+    "score": 0.2941
   },
   {
     "group": "ai",
@@ -824,16 +1286,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2355,
       "sourceAuthority": 0.5,
-      "freshness": 0.4874,
-      "feedPosition": 0.2222,
-      "novelty": 0.7536
+      "freshness": 0.4809,
+      "feedPosition": 0.3333,
+      "novelty": 0.6335
     },
     "rankingReasons": [
       "real-world consequences",
-      "conflict",
-      "unusual language in the current story batch"
+      "conflict"
     ],
-    "score": 0.2928
+    "score": 0.2909
   },
   {
     "group": "ai",
@@ -847,7 +1308,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0227,
+      "freshness": 0.0224,
       "feedPosition": 0.6667,
       "novelty": 0.9191
     },
@@ -857,114 +1318,52 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2874
+    "score": 0.2873
   },
   {
     "group": "ai",
-    "title": "How One Startup Built a (Mostly) China-Free Robot",
-    "url": "https://www.wired.com/story/how-one-startup-built-a-mostly-china-free-robot/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T10:45:00.000Z",
-    "image": "https://media.wired.com/photos/6a6b1ddcb699cd04dbc2d5af/master/pass/073126_How%20One%20Startup%20Built%20a%20(Mostly)%20China-Free%20Robot.jpg",
+    "title": "Tokenomics: Why making AI pay is tricky",
+    "url": "https://www.bbc.co.uk/news/articles/c872r52x7jgo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News AI",
+    "published": "2026-08-03T23:21:10.000Z",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae1d/live/13ce3de0-79de-11f1-a627-714adb4eed6e.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.212,
+      "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.4778,
-      "feedPosition": 0.3333,
-      "novelty": 0.6376
+      "freshness": 0.3435,
+      "feedPosition": 0.6667,
+      "novelty": 0.6893
     },
     "rankingReasons": [
       "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2856
+  },
+  {
+    "group": "ai",
+    "title": "The Youth AI Privacy Act’s Privacy Paradox",
+    "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
+    "source": "EFF AI",
+    "published": "2026-08-03T21:08:45.000Z",
+    "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.252,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3231,
+      "feedPosition": 0.4444,
+      "novelty": 0.6424
+    },
+    "rankingReasons": [
+      "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2862
-  },
-  {
-    "group": "ai",
-    "title": "Why Silicon Valley is divided over China’s powerful, cheap AI models",
-    "url": "https://restofworld.org/2026/silicon-valley-debate-chinese-open-weight-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "source": "Rest of World AI",
-    "published": "2026-08-03T10:00:00.000Z",
-    "image": "https://restofworld.org/wp-content/uploads/2026/07/illo_opensource_AI_divide_final-768x432.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1765,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2403,
-      "feedPosition": 0.75,
-      "novelty": 0.6358
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "recognizable entities"
-    ],
-    "score": 0.2849
-  },
-  {
-    "group": "ai",
-    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T11:44:58.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.03,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4913,
-      "feedPosition": 0.6667,
-      "novelty": 0.6185
-    },
-    "rankingReasons": [],
-    "score": 0.2832
-  },
-  {
-    "group": "ai",
-    "title": "Spotify expands AI remix and covers project with Merlin partnership",
-    "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T15:50:06.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5503,
-      "feedPosition": 0.2222,
-      "novelty": 0.9538
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2822
-  },
-  {
-    "group": "ai",
-    "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-    "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
-    "source": "VentureBeat AI",
-    "published": "2026-05-19T17:45:00.000Z",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1TD0Sl7Zq6nnBSZMK9FXpl/41ce2cc6da055da7647670c71ba8aa6b/Nuneybits_Vector_art_of_an_oversized_white_search_bar_rimmed_in_695cac3f-1536-4438-acc1-51c16e2ff51f.webp?w=300&q=30",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2355,
-      "sourceAuthority": 0.5,
-      "freshness": 0,
-      "feedPosition": 1,
-      "novelty": 0.5748
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details"
-    ],
-    "score": 0.2796
+    "score": 0.2826
   },
   {
     "group": "ai",
@@ -978,35 +1377,99 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0655,
       "sourceAuthority": 0.5,
-      "freshness": 0.5774,
-      "feedPosition": 0.4444,
-      "novelty": 0.593
+      "freshness": 0.5697,
+      "feedPosition": 0.5556,
+      "novelty": 0.5196
     },
     "rankingReasons": [],
-    "score": 0.2784
+    "score": 0.2811
   },
   {
     "group": "ai",
-    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "title": "Spotify expands AI remix and covers project with Merlin partnership",
+    "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
     "source": "TechCrunch AI",
-    "published": "2026-08-04T15:20:06.000Z",
+    "published": "2026-08-04T15:50:06.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.161,
+      "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.5427,
-      "feedPosition": 0,
-      "novelty": 0.8747
+      "freshness": 0.543,
+      "feedPosition": 0.2222,
+      "novelty": 0.9538
     },
     "rankingReasons": [
-      "conflict",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2811
+  },
+  {
+    "group": "ai",
+    "title": "Company Offering Printed Books to Train AI Stops After 404 Media Coverage",
+    "url": "https://www.404media.co/ai-company-training-scanning-books-database-isbndb/",
+    "source": "404 Media AI",
+    "published": "2026-07-31T14:04:26.000Z",
+    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/photo-1725582205524-6c7c268aee97.jpeg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.3,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0359,
+      "feedPosition": 0.6667,
+      "novelty": 0.7389
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2761
+    "score": 0.2809
+  },
+  {
+    "group": "ai",
+    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-04T11:44:58.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.03,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4847,
+      "feedPosition": 0.6667,
+      "novelty": 0.5905
+    },
+    "rankingReasons": [],
+    "score": 0.2794
+  },
+  {
+    "group": "ai",
+    "title": "How One Startup Built a (Mostly) China-Free Robot",
+    "url": "https://www.wired.com/story/how-one-startup-built-a-mostly-china-free-robot/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T10:45:00.000Z",
+    "image": "https://media.wired.com/photos/6a6b1ddcb699cd04dbc2d5af/master/pass/073126_How%20One%20Startup%20Built%20a%20(Mostly)%20China-Free%20Robot.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.212,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4715,
+      "feedPosition": 0.3333,
+      "novelty": 0.5738
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.2788
   },
   {
     "group": "ai",
@@ -1020,62 +1483,82 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.5461,
-      "feedPosition": 0.3333,
-      "novelty": 0.5905
+      "freshness": 0.5388,
+      "feedPosition": 0.4444,
+      "novelty": 0.5451
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2713
+    "score": 0.2768
   },
   {
     "group": "ai",
-    "title": "How Data Centers Broke American Politics",
-    "url": "https://www.wired.com/story/how-data-centers-broke-american-politics/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T10:00:00.000Z",
-    "image": "https://media.wired.com/photos/6a709a8db4004b4e490ab2d7/master/pass/20260719-MattEich-0262.jpg",
+    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T15:20:06.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.322,
+      "titleImpact": 0.161,
       "sourceAuthority": 0.5,
-      "freshness": 0.468,
-      "feedPosition": 0.1111,
-      "novelty": 0.5029
+      "freshness": 0.5355,
+      "feedPosition": 0,
+      "novelty": 0.8452
     },
     "rankingReasons": [
-      "real-world consequences",
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.271
-  },
-  {
-    "group": "ai",
-    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "source": "VentureBeat AI",
-    "published": "2026-01-16T14:01:00.000Z",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4gD12ThOmNHZuosqC4xCTz/277b1e8968da602108a29fae2eaca440/nuneybits_Vector_art_of_billboard_with_cryptic_code_dbe5b0ff-7644-45e6-a1ca-4a5dceeff986.webp?w=300&q=30",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.229,
-      "sourceAuthority": 0.5,
-      "freshness": 0,
-      "feedPosition": 0.5,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
+      "conflict",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2708
+    "score": 0.272
+  },
+  {
+    "group": "ai",
+    "title": "Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law",
+    "url": "https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law",
+    "source": "The Markup AI",
+    "published": "2026-01-30T17:00:00.000Z",
+    "image": "https://mrkp-static-production.themarkup.org/uploads/2026/01/011226-Zohran-Mamdani-GETTY-MU-01.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2655,
+      "sourceAuthority": 0.5,
+      "freshness": 0,
+      "feedPosition": 0.5,
+      "novelty": 0.9385
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "real-world consequences",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.272
+  },
+  {
+    "group": "ai",
+    "title": "Why Silicon Valley is divided over China’s powerful, cheap AI models",
+    "url": "https://restofworld.org/2026/silicon-valley-debate-chinese-open-weight-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World AI",
+    "published": "2026-08-03T10:00:00.000Z",
+    "image": "https://restofworld.org/wp-content/uploads/2026/07/illo_opensource_AI_divide_final-768x432.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1765,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2371,
+      "feedPosition": 0.75,
+      "novelty": 0.4959
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "recognizable entities"
+    ],
+    "score": 0.2705
   },
   {
     "group": "ai",
@@ -1089,7 +1572,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.2539,
+      "freshness": 0.2505,
       "feedPosition": 0.5556,
       "novelty": 0.7403
     },
@@ -1097,52 +1580,52 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2707
+    "score": 0.2702
   },
   {
     "group": "ai",
-    "title": "Want to get more from AI? Treat every prompt like an experiment",
-    "url": "https://www.nature.com/articles/d41586-026-02083-6",
-    "source": "Nature AI News & Comment",
-    "published": "2026-08-03T00:00:00.000Z",
-    "image": "",
+    "title": "How Data Centers Broke American Politics",
+    "url": "https://www.wired.com/story/how-data-centers-broke-american-politics/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T10:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a709a8db4004b4e490ab2d7/master/pass/20260719-MattEich-0262.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.0355,
+      "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.182,
-      "feedPosition": 0.8571,
-      "novelty": 0.7536
+      "freshness": 0.4617,
+      "feedPosition": 0.1111,
+      "novelty": 0.5029
     },
     "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2705
-  },
-  {
-    "group": "ai",
-    "title": "Claude published malicious code to the Internet and attacked 3 real companies",
-    "url": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
-    "source": "Ars Technica AI",
-    "published": "2026-07-31T20:39:14.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/robot-in-handcuffs-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2935,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0437,
-      "feedPosition": 0.4444,
-      "novelty": 0.8394
-    },
-    "rankingReasons": [
-      "urgency or risk",
-      "conflict",
+      "real-world consequences",
+      "surprise or reversal",
       "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.2701
+  },
+  {
+    "group": "ai",
+    "title": "AI-generated stories rated better quality than human-written ones, study finds",
+    "url": "https://www.theguardian.com/technology/2026/aug/05/ai-generated-stories-rated-better-quality-than-human-written-ones-study-finds",
+    "source": "The Guardian AI",
+    "published": "2026-08-04T23:01:03.000Z",
+    "image": "https://i.guim.co.uk/img/media/c342f356200c430cadcf8a9e86f4e4e6e7de3a59/550_0_2750_2200/master/2750.jpg?width=140&quality=85&auto=format&fit=max&s=fe19fe22d82508d08f3259cf3dbb7765",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6629,
+      "feedPosition": 0.2222,
+      "novelty": 0.7314
+    },
+    "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2686
+    "score": 0.2698
   },
   {
     "group": "ai",
@@ -1158,7 +1641,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.6667,
-      "novelty": 0.7191
+      "novelty": 0.7515
     },
     "rankingReasons": [
       "real-world consequences",
@@ -1166,7 +1649,165 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2665
+    "score": 0.2697
+  },
+  {
+    "group": "ai",
+    "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+    "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+    "source": "VentureBeat AI",
+    "published": "2026-05-19T17:45:00.000Z",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1TD0Sl7Zq6nnBSZMK9FXpl/41ce2cc6da055da7647670c71ba8aa6b/Nuneybits_Vector_art_of_an_oversized_white_search_bar_rimmed_in_695cac3f-1536-4438-acc1-51c16e2ff51f.webp?w=300&q=30",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2355,
+      "sourceAuthority": 0.5,
+      "freshness": 0,
+      "feedPosition": 1,
+      "novelty": 0.446
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details"
+    ],
+    "score": 0.2667
+  },
+  {
+    "group": "ai",
+    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+    "source": "VentureBeat AI",
+    "published": "2026-01-16T14:01:00.000Z",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4gD12ThOmNHZuosqC4xCTz/277b1e8968da602108a29fae2eaca440/nuneybits_Vector_art_of_billboard_with_cryptic_code_dbe5b0ff-7644-45e6-a1ca-4a5dceeff986.webp?w=300&q=30",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.229,
+      "sourceAuthority": 0.5,
+      "freshness": 0,
+      "feedPosition": 0.5,
+      "novelty": 0.9497
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2658
+  },
+  {
+    "group": "ai",
+    "title": "Claude published malicious code to the Internet and attacked 3 real companies",
+    "url": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
+    "source": "Ars Technica AI",
+    "published": "2026-07-31T20:39:14.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/robot-in-handcuffs-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2935,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0431,
+      "feedPosition": 0.4444,
+      "novelty": 0.799
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "conflict",
+      "specific details",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2645
+  },
+  {
+    "group": "ai",
+    "title": "Your medical provider might be recording your mental health care visits",
+    "url": "https://themarkup.org/privacy/2026/06/16/your-medical-provider-might-be-recording-your-mental-health-care-visits",
+    "source": "The Markup AI",
+    "published": "2026-06-16T12:00:00.000Z",
+    "image": "https://mrkp-static-production.themarkup.org/uploads/2026/06/060826-AI-Recordings-RL-CM.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.11,
+      "sourceAuthority": 0.5,
+      "freshness": 0,
+      "feedPosition": 0.8333,
+      "novelty": 0.817
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.262
+  },
+  {
+    "group": "ai",
+    "title": "Want to get more from AI? Treat every prompt like an experiment",
+    "url": "https://www.nature.com/articles/d41586-026-02083-6",
+    "source": "Nature AI News & Comment",
+    "published": "2026-08-03T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1796,
+      "feedPosition": 0.8571,
+      "novelty": 0.6594
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2607
+  },
+  {
+    "group": "ai",
+    "title": "Can Reddit fend off a new wave of AI SEO spam?",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+    "source": "The Verge AI",
+    "published": "2026-08-04T10:00:00.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Verge-RedditBrands_V1-Final.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.071,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4617,
+      "feedPosition": 0.2222,
+      "novelty": 0.7957
+    },
+    "rankingReasons": [
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2603
+  },
+  {
+    "group": "ai",
+    "title": "Google Earth’s New AI Lets Anyone Fabricate Completely Bullshit Satellite Images",
+    "url": "https://www.404media.co/google-earths-new-ai-lets-anyone-fabricate-completely-bullshit-satellite-images/",
+    "source": "404 Media AI",
+    "published": "2026-07-31T16:03:08.000Z",
+    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.038,
+      "feedPosition": 0.7778,
+      "novelty": 0.7134
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2582
   },
   {
     "group": "ai",
@@ -1182,7 +1823,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.7143,
-      "novelty": 0.7654
+      "novelty": 0.6921
     },
     "rankingReasons": [
       "surprise or reversal",
@@ -1190,7 +1831,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2654
+    "score": 0.258
   },
   {
     "group": "ai",
@@ -1204,38 +1845,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.2578,
+      "freshness": 0.2544,
       "feedPosition": 0.4444,
-      "novelty": 0.769
+      "novelty": 0.718
     },
     "rankingReasons": [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.263
-  },
-  {
-    "group": "ai",
-    "title": "Google Earth’s New AI Lets Anyone Fabricate Completely Bullshit Satellite Images",
-    "url": "https://www.404media.co/google-earths-new-ai-lets-anyone-fabricate-completely-bullshit-satellite-images/",
-    "source": "404 Media AI",
-    "published": "2026-07-31T16:03:08.000Z",
-    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0385,
-      "feedPosition": 0.7778,
-      "novelty": 0.7436
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2613
+    "score": 0.2574
   },
   {
     "group": "ai",
@@ -1251,14 +1869,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.5714,
-      "novelty": 1
+      "novelty": 0.9461
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2605
+    "score": 0.2551
   },
   {
     "group": "ai",
@@ -1272,15 +1890,39 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2,
       "sourceAuthority": 0.5,
-      "freshness": 0.5484,
+      "freshness": 0.5411,
       "feedPosition": 0.1111,
-      "novelty": 0.5197
+      "novelty": 0.4734
     },
     "rankingReasons": [
       "real-world consequences",
       "conflict"
     ],
-    "score": 0.2603
+    "score": 0.2546
+  },
+  {
+    "group": "ai",
+    "title": "Is Open-Source AI Really the Dangerous Path?",
+    "url": "https://techpolicy.press/is-open-source-ai-really-the-dangerous-path",
+    "source": "Tech Policy Press AI",
+    "published": "2026-07-31T12:32:51.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.262,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0344,
+      "feedPosition": 0.4444,
+      "novelty": 0.7599
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.253
   },
   {
     "group": "ai",
@@ -1294,16 +1936,61 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0191,
+      "freshness": 0.0189,
       "feedPosition": 0.5556,
-      "novelty": 0.9385
+      "novelty": 0.9026
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2557
+    "score": 0.252
+  },
+  {
+    "group": "ai",
+    "title": "When Users Say 'Goodbye' to AI",
+    "url": "https://techpolicy.press/when-users-say-goodbye-to-ai",
+    "source": "Tech Policy Press AI",
+    "published": "2026-08-02T14:41:50.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1065,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1387,
+      "feedPosition": 0.6667,
+      "novelty": 0.6788
+    },
+    "rankingReasons": [
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2517
+  },
+  {
+    "group": "ai",
+    "title": "Mistral Is in the Right Place at the Right Time",
+    "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T09:21:11.000Z",
+    "image": "https://media.wired.com/photos/6a6cc9ac6aed60f089dc69c1/master/pass/Business_Mistral%20Is%20In%20The%20Right%20Place%20At%20The%20Right%20Time_v1.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4535,
+      "feedPosition": 0,
+      "novelty": 0.7362
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2451
   },
   {
     "group": "ai",
@@ -1319,79 +2006,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.8571,
-      "novelty": 0.6394
+      "novelty": 0.5483
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2531
-  },
-  {
-    "group": "ai",
-    "title": "Can Reddit fend off a new wave of AI SEO spam?",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
-    "source": "The Verge AI",
-    "published": "2026-08-04T10:00:00.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Verge-RedditBrands_V1-Final.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.071,
-      "sourceAuthority": 0.5,
-      "freshness": 0.468,
-      "feedPosition": 0.1111,
-      "novelty": 0.8165
-    },
-    "rankingReasons": [
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2522
-  },
-  {
-    "group": "ai",
-    "title": "Scientists just 3D printed one of the hardest metals on Earth",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T07:08:28.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.071,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4323,
-      "feedPosition": 0.3333,
-      "novelty": 0.5914
-    },
-    "rankingReasons": [
-      "recognizable entities"
-    ],
-    "score": 0.2465
-  },
-  {
-    "group": "ai",
-    "title": "Mistral Is in the Right Place at the Right Time",
-    "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T09:21:11.000Z",
-    "image": "https://media.wired.com/photos/6a6cc9ac6aed60f089dc69c1/master/pass/Business_Mistral%20Is%20In%20The%20Right%20Place%20At%20The%20Right%20Time_v1.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4597,
-      "feedPosition": 0,
-      "novelty": 0.7362
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.246
+    "score": 0.2439
   },
   {
     "group": "ai",
@@ -1405,61 +2026,82 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3255,
       "sourceAuthority": 0.5,
-      "freshness": 0.0096,
+      "freshness": 0.0095,
       "feedPosition": 0.4444,
-      "novelty": 0.5492
+      "novelty": 0.5369
     },
     "rankingReasons": [
       "real-world consequences",
       "surprise or reversal"
     ],
-    "score": 0.2409
+    "score": 0.2397
   },
   {
     "group": "ai",
-    "title": "Reddit keeps its strange DMCA fight over Google search results alive",
-    "url": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
-    "source": "Ars Technica AI",
-    "published": "2026-07-31T21:19:39.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2218358312-1024x648.jpg",
+    "title": "Scientists just 3D printed one of the hardest metals on Earth",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-04T07:08:28.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.161,
+      "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0445,
+      "freshness": 0.4265,
+      "feedPosition": 0.3333,
+      "novelty": 0.4942
+    },
+    "rankingReasons": [
+      "recognizable entities"
+    ],
+    "score": 0.2359
+  },
+  {
+    "group": "ai",
+    "title": "Google Earth AI Fiasco Underscores Why Tech Firms Must Listen to Outside Experts",
+    "url": "https://techpolicy.press/google-earth-ai-fiasco-underscores-why-tech-firms-must-listen-to-outside-experts",
+    "source": "Tech Policy Press AI",
+    "published": "2026-07-31T21:20:27.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.212,
+      "sourceAuthority": 0.5,
+      "freshness": 0.044,
       "feedPosition": 0.5556,
-      "novelty": 0.6816
+      "novelty": 0.546
     },
     "rankingReasons": [
-      "conflict",
-      "recognizable entities",
-      "unusual language in the current story batch"
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities"
     ],
-    "score": 0.2376
+    "score": 0.2341
   },
   {
     "group": "ai",
-    "title": "LinkedIn Introduces a 'Seems Like AI Slop' Button",
-    "url": "https://www.404media.co/linkedin-introduces-a-seems-like-ai-slop-button/",
-    "source": "404 Media AI",
-    "published": "2026-07-30T14:34:29.000Z",
-    "image": "https://images.unsplash.com/photo-1616469829581-73993eb86b02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGxpbmtlZGlufGVufDB8fHx8MTc4NTQyMTY3NXww&ixlib=rb-4.1.0&q=80&w=2000",
+    "title": "AI firms must answer for rogue bots, says boss of hacked company",
+    "url": "https://www.bbc.co.uk/news/articles/cr7k49xjzzeo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News AI",
+    "published": "2026-07-31T18:10:28.000Z",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b89/live/5e05acf0-8d01-11f1-9a29-416a24547568.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.142,
+      "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.019,
-      "feedPosition": 0.4444,
-      "novelty": 0.8538
+      "freshness": 0.0403,
+      "feedPosition": 0.3333,
+      "novelty": 0.7362
     },
     "rankingReasons": [
-      "specific details",
-      "recognizable entities",
+      "urgency or risk",
+      "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2361
+    "score": 0.234
   },
   {
     "group": "ai",
@@ -1473,38 +2115,127 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0167,
+      "freshness": 0.0165,
       "feedPosition": 0.5,
-      "novelty": 0.7957
+      "novelty": 0.7781
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2355
+    "score": 0.2337
   },
   {
     "group": "ai",
-    "title": "Connecting research to policy on Capitol Hill",
-    "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
-    "source": "MIT News AI",
-    "published": "2026-07-30T20:35:00.000Z",
-    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-spi-congressional-visit-26.jpg?itok=Vo00t4gt",
+    "title": "California colleges spend millions on faulty AI systems: 'The chatbot is outdated’",
+    "url": "https://themarkup.org/machine-learning/2026/03/07/california-colleges-spend-millions-on-faulty-ai-systems-the-chatbot-is-outdated",
+    "source": "The Markup AI",
+    "published": "2026-03-07T13:00:00.000Z",
+    "image": "https://mrkp-static-production.themarkup.org/uploads/2026/03/CC-CHATBOT_AH_MU_01.png",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.071,
+      "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.0224,
-      "feedPosition": 0.5556,
-      "novelty": 0.8705
+      "freshness": 0,
+      "feedPosition": 0.6667,
+      "novelty": 0.8904
     },
     "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2331
+  },
+  {
+    "group": "ai",
+    "title": "Data Centers Are Easy to Build. Powering Them Is Complicated, Slow, and Expensive",
+    "url": "https://www.404media.co/data-centers-power-energy-grid-epa-clean-air-act/",
+    "source": "404 Media AI",
+    "published": "2026-07-29T14:03:50.000Z",
+    "image": "https://images.unsplash.com/photo-1552965734-5b9e868808b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHBvd2VyJTIwbGluZXN8ZW58MHx8fHwxNzg1MzMyMzU2fDA&ixlib=rb-4.1.0&q=80&w=2000",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.252,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0095,
+      "feedPosition": 0.3333,
+      "novelty": 0.7239
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2352
+    "score": 0.2325
+  },
+  {
+    "group": "ai",
+    "title": "Scientists using LLMs will ‘do more, less well’, modelling study predicts",
+    "url": "https://www.nature.com/articles/d41586-026-02397-5",
+    "source": "Nature AI News & Comment",
+    "published": "2026-07-31T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0655,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0243,
+      "feedPosition": 0.7143,
+      "novelty": 0.6816
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2313
+  },
+  {
+    "group": "ai",
+    "title": "Reddit keeps its strange DMCA fight over Google search results alive",
+    "url": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
+    "source": "Ars Technica AI",
+    "published": "2026-07-31T21:19:39.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2218358312-1024x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.161,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0439,
+      "feedPosition": 0.5556,
+      "novelty": 0.6169
+    },
+    "rankingReasons": [
+      "conflict",
+      "recognizable entities"
+    ],
+    "score": 0.231
+  },
+  {
+    "group": "ai",
+    "title": "The OpenAI–Hugging Face Incident Demands Urgent Congressional Oversight",
+    "url": "https://techpolicy.press/the-openai-hugging-face-incident-demands-urgent-congressional-oversight",
+    "source": "Tech Policy Press AI",
+    "published": "2026-07-30T13:34:50.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.154,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0182,
+      "feedPosition": 0.3333,
+      "novelty": 0.8904
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2309
   },
   {
     "group": "ai",
@@ -1520,81 +2251,37 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.4286,
-      "novelty": 0.5693
+      "novelty": 0.5285
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2348
+    "score": 0.2307
   },
   {
     "group": "ai",
-    "title": "Scientists using LLMs will ‘do more, less well’, modelling study predicts",
-    "url": "https://www.nature.com/articles/d41586-026-02397-5",
-    "source": "Nature AI News & Comment",
-    "published": "2026-07-31T00:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0655,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0246,
-      "feedPosition": 0.7143,
-      "novelty": 0.7152
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2347
-  },
-  {
-    "group": "ai",
-    "title": "Can we train AI to choose safety over speed?",
-    "url": "https://restofworld.org/2026/india-ai-extreme-weather/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "source": "Rest of World AI",
-    "published": "2026-07-31T13:00:00.000Z",
-    "image": "https://restofworld.org/wp-content/uploads/2026/07/GettyImages-2284107890-768x432.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.11,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0353,
-      "feedPosition": 0.625,
-      "novelty": 0.678
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2326
-  },
-  {
-    "group": "ai",
-    "title": "Data Centers Are Easy to Build. Powering Them Is Complicated, Slow, and Expensive",
-    "url": "https://www.404media.co/data-centers-power-energy-grid-epa-clean-air-act/",
+    "title": "LinkedIn Introduces a 'Seems Like AI Slop' Button",
+    "url": "https://www.404media.co/linkedin-introduces-a-seems-like-ai-slop-button/",
     "source": "404 Media AI",
-    "published": "2026-07-29T14:03:50.000Z",
-    "image": "https://images.unsplash.com/photo-1552965734-5b9e868808b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHBvd2VyJTIwbGluZXN8ZW58MHx8fHwxNzg1MzMyMzU2fDA&ixlib=rb-4.1.0&q=80&w=2000",
+    "published": "2026-07-30T14:34:29.000Z",
+    "image": "https://images.unsplash.com/photo-1616469829581-73993eb86b02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGxpbmtlZGlufGVufDB8fHx8MTc4NTQyMTY3NXww&ixlib=rb-4.1.0&q=80&w=2000",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.252,
+      "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0096,
-      "feedPosition": 0.3333,
-      "novelty": 0.7239
+      "freshness": 0.0187,
+      "feedPosition": 0.4444,
+      "novelty": 0.7999
     },
     "rankingReasons": [
-      "real-world consequences",
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2326
+    "score": 0.2306
   },
   {
     "group": "ai",
@@ -1608,14 +2295,79 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0475,
       "sourceAuthority": 0.5,
-      "freshness": 0.0065,
+      "freshness": 0.0064,
       "feedPosition": 0.5714,
-      "novelty": 0.8828
+      "novelty": 0.8666
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2309
+    "score": 0.2293
+  },
+  {
+    "group": "ai",
+    "title": "Can we train AI to choose safety over speed?",
+    "url": "https://restofworld.org/2026/india-ai-extreme-weather/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World AI",
+    "published": "2026-07-31T13:00:00.000Z",
+    "image": "https://restofworld.org/wp-content/uploads/2026/07/GettyImages-2284107890-768x432.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.11,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0349,
+      "feedPosition": 0.625,
+      "novelty": 0.6155
+    },
+    "rankingReasons": [
+      "real-world consequences"
+    ],
+    "score": 0.2263
+  },
+  {
+    "group": "ai",
+    "title": "Snapchat joins other popular platforms in fight against 'AI slop'",
+    "url": "https://www.bbc.co.uk/news/articles/c77g6dm5pr8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News AI",
+    "published": "2026-07-31T21:57:59.000Z",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1ad/live/074af240-8d23-11f1-92b9-3b7efaf76067.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.09,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0447,
+      "feedPosition": 0.5,
+      "novelty": 0.7521
+    },
+    "rankingReasons": [
+      "conflict",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2249
+  },
+  {
+    "group": "ai",
+    "title": "Connecting research to policy on Capitol Hill",
+    "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
+    "source": "MIT News AI",
+    "published": "2026-07-30T20:35:00.000Z",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202607/mit-spi-congressional-visit-26.jpg?itok=Vo00t4gt",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.071,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0221,
+      "feedPosition": 0.5556,
+      "novelty": 0.7599
+    },
+    "rankingReasons": [
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2241
   },
   {
     "group": "ai",
@@ -1642,26 +2394,72 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Substackers Say New AI Detection Tool Is a ‘Witch Hunt’",
-    "url": "https://www.404media.co/substackers-say-new-ai-detection-tool-is-a-witch-hunt/",
-    "source": "404 Media AI",
-    "published": "2026-07-28T14:53:59.000Z",
-    "image": "https://images.unsplash.com/photo-1775757723445-f789c01da449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5NXx8dHlwaW5nJTIwcm9ib3R8ZW58MHx8fHwxNzg1MjUwMjk4fDA&ixlib=rb-4.1.0&q=80&w=2000",
+    "title": "Brussels Gains New AI Act Enforcement Powers as Autonomous AI Tests Regulators",
+    "url": "https://techpolicy.press/-brussels-gains-new-ai-act-enforcement-powers-as-autonomous-ai-tests-regulators",
+    "source": "Tech Policy Press AI",
+    "published": "2026-07-30T07:24:31.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.172,
+      "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.005,
-      "feedPosition": 0.2222,
-      "novelty": 0.9078
+      "freshness": 0.0153,
+      "feedPosition": 0.1111,
+      "novelty": 0.8499
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2238
+  },
+  {
+    "group": "ai",
+    "title": "We posted a job. Then came the AI slop, impersonator and recruiter scam",
+    "url": "https://themarkup.org/hello-world/2026/01/24/we-posted-a-job-then-came-the-ai-slop-impersonator-and-recruiter-scam",
+    "source": "The Markup AI",
+    "published": "2026-01-24T13:00:00.000Z",
+    "image": "https://mrkp-static-production.themarkup.org/uploads/2025/12/121625-HELLO-WORLD-AI-HIRING-GH-TM.png",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0,
+      "feedPosition": 0.3333,
+      "novelty": 0.8499
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2224
+  },
+  {
+    "group": "ai",
+    "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+    "source": "The Verge AI",
+    "published": "2026-08-03T11:01:11.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2266883826.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1545,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2439,
+      "feedPosition": 0,
+      "novelty": 0.7941
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2232
+    "score": 0.2219
   },
   {
     "group": "ai",
@@ -1677,61 +2475,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.3333,
-      "novelty": 0.7436
+      "novelty": 0.7332
     },
     "rankingReasons": [
       "conflict",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.222
-  },
-  {
-    "group": "ai",
-    "title": "A Court Reporter Submitted AI-Generated Errors in Official Court Transcript, Judge Says",
-    "url": "https://www.404media.co/judge-caught-court-reporter-using-ai-transcript-errors/",
-    "source": "404 Media AI",
-    "published": "2026-07-23T21:41:29.000Z",
-    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/nik-wBjAyR18_yQ-unsplash--1-.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.252,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0002,
-      "feedPosition": 0,
-      "novelty": 0.9595
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2214
-  },
-  {
-    "group": "ai",
-    "title": "2025 Open Science Recognition Prize by the American Geophysical Union",
-    "url": "https://science.nasa.gov/blogs/honors/2025/12/17/2025-open-science-recognition-prize-by-the-american-geophysical-union/",
-    "source": "NASA AI",
-    "published": "2025-12-17T13:58:42.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.19,
-      "sourceAuthority": 0.5,
-      "freshness": 0,
-      "feedPosition": 0.2857,
-      "novelty": 0.7872
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2203
+    "score": 0.221
   },
   {
     "group": "ai",
@@ -1747,77 +2498,132 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0002,
       "feedPosition": 0.2222,
-      "novelty": 0.9385
+      "novelty": 0.9026
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2195
+    "score": 0.2159
   },
   {
     "group": "ai",
-    "title": "Europe’s AI labeling and transparency rules are now in effect",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-    "source": "The Verge AI",
-    "published": "2026-08-03T17:38:45.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268679_Europes_AI_labeling_and_transparency_rules_are_now_in_effect_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2971,
-      "feedPosition": 0,
-      "novelty": 0.9461
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2142
-  },
-  {
-    "group": "ai",
-    "title": "Anxious Chinese students are trusting AI to help pick colleges and majors",
-    "url": "https://restofworld.org/2026/china-ai-bot-college-advice/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "source": "Rest of World AI",
-    "published": "2026-07-29T10:00:00.000Z",
-    "image": "https://restofworld.org/wp-content/uploads/2026/07/GettyImages-2280545010-768x432.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0086,
-      "feedPosition": 0.375,
-      "novelty": 0.9191
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2128
-  },
-  {
-    "group": "ai",
-    "title": "Use AI, but don’t mask it",
-    "url": "https://www.nature.com/articles/d41586-026-02347-1",
-    "source": "Nature AI News & Comment",
-    "published": "2026-07-28T00:00:00.000Z",
+    "title": "2025 Open Science Recognition Prize by the American Geophysical Union",
+    "url": "https://science.nasa.gov/blogs/honors/2025/12/17/2025-open-science-recognition-prize-by-the-american-geophysical-union/",
+    "source": "NASA AI",
+    "published": "2025-12-17T13:58:42.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0,
+      "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.0033,
-      "feedPosition": 0.4286,
-      "novelty": 0.9191
+      "freshness": 0,
+      "feedPosition": 0.2857,
+      "novelty": 0.7286
     },
     "rankingReasons": [
+      "specific details",
+      "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2103
+    "score": 0.2144
+  },
+  {
+    "group": "ai",
+    "title": "Substackers Say New AI Detection Tool Is a ‘Witch Hunt’",
+    "url": "https://www.404media.co/substackers-say-new-ai-detection-tool-is-a-witch-hunt/",
+    "source": "404 Media AI",
+    "published": "2026-07-28T14:53:59.000Z",
+    "image": "https://images.unsplash.com/photo-1775757723445-f789c01da449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5NXx8dHlwaW5nJTIwcm9ib3R8ZW58MHx8fHwxNzg1MjUwMjk4fDA&ixlib=rb-4.1.0&q=80&w=2000",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.172,
+      "sourceAuthority": 0.5,
+      "freshness": 0.005,
+      "feedPosition": 0.2222,
+      "novelty": 0.8156
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2139
+  },
+  {
+    "group": "ai",
+    "title": "Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country",
+    "url": "https://www.eff.org/deeplinks/2026/07/hundreds-drone-first-responder-programs-could-soon-be-launched-across-country",
+    "source": "EFF AI",
+    "published": "2026-07-23T22:00:00.000Z",
+    "image": "https://www.eff.org/files/banner_library/drone-police-by-shelby-criswell.png",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.212,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0002,
+      "feedPosition": 0.1111,
+      "novelty": 0.8214
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2107
+  },
+  {
+    "group": "ai",
+    "title": "A Court Reporter Submitted AI-Generated Errors in Official Court Transcript, Judge Says",
+    "url": "https://www.404media.co/judge-caught-court-reporter-using-ai-transcript-errors/",
+    "source": "404 Media AI",
+    "published": "2026-07-23T21:41:29.000Z",
+    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/nik-wBjAyR18_yQ-unsplash--1-.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.252,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0002,
+      "feedPosition": 0,
+      "novelty": 0.8394
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2094
+  },
+  {
+    "group": "ai",
+    "title": "New EU Court of Justice Ruling on Platform Liability Could Cause Collateral Damage to Freedom of Expression",
+    "url": "https://www.eff.org/deeplinks/2026/07/new-eu-court-justice-ruling-platform-liability-could-cause-collateral-damage",
+    "source": "EFF AI",
+    "published": "2026-07-22T08:34:12.000Z",
+    "image": "https://www.eff.org/files/banner_library/cjeu.png",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.252,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0001,
+      "feedPosition": 0,
+      "novelty": 0.8376
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2092
   },
   {
     "group": "ai",
@@ -1865,48 +2671,24 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "When physicians and AI work together, who is accountable? How to lay out medical liability",
-    "url": "https://www.nature.com/articles/d41586-026-02315-9",
-    "source": "Nature AI News & Comment",
-    "published": "2026-07-28T00:00:00.000Z",
-    "image": "",
+    "title": "Anxious Chinese students are trusting AI to help pick colleges and majors",
+    "url": "https://restofworld.org/2026/china-ai-bot-college-advice/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World AI",
+    "published": "2026-07-29T10:00:00.000Z",
+    "image": "https://restofworld.org/wp-content/uploads/2026/07/GettyImages-2280545010-768x432.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.18,
+      "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0033,
-      "feedPosition": 0.1429,
-      "novelty": 0.7922
+      "freshness": 0.0085,
+      "feedPosition": 0.375,
+      "novelty": 0.8095
     },
     "rankingReasons": [
-      "real-world consequences",
-      "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.205
-  },
-  {
-    "group": "ai",
-    "title": "Dark matter’s secret force does the opposite of what scientists expected",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-02T13:26:11.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.07,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1357,
-      "feedPosition": 0.2222,
-      "novelty": 0.7228
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2039
+    "score": 0.2018
   },
   {
     "group": "ai",
@@ -1931,6 +2713,50 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Dark matter’s secret force does the opposite of what scientists expected",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-02T13:26:11.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.07,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1339,
+      "feedPosition": 0.2222,
+      "novelty": 0.6972
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.201
+  },
+  {
+    "group": "ai",
+    "title": "The CHATBOT Act Forces One Parenting Model On Every Family",
+    "url": "https://www.eff.org/deeplinks/2026/07/chatbot-act-forces-one-parenting-model-every-family",
+    "source": "EFF AI",
+    "published": "2026-07-31T19:06:43.000Z",
+    "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0413,
+      "feedPosition": 0.3333,
+      "novelty": 0.5797
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.2009
+  },
+  {
+    "group": "ai",
     "title": "Scientists twist crystal layers and reshape matter from within",
     "url": "https://www.sciencedaily.com/releases/2026/08/260801042819.htm",
     "source": "ScienceDaily Technology",
@@ -1941,14 +2767,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2069,
+      "freshness": 0.2041,
       "feedPosition": 0.1111,
       "novelty": 0.8285
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2
+    "score": 0.1996
   },
   {
     "group": "ai",
@@ -1962,7 +2788,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0835,
       "sourceAuthority": 0.5,
-      "freshness": 0.0408,
+      "freshness": 0.0403,
       "feedPosition": 0.1111,
       "novelty": 0.9029
     },
@@ -1970,7 +2796,140 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.1992
+    "score": 0.1991
+  },
+  {
+    "group": "ai",
+    "title": "Missed EFF's Livestream with Adam Savage and iFixit? Listen Here!",
+    "url": "https://www.eff.org/deeplinks/2026/07/miss-last-weeks-livestream-adam-savage-and-ifixit-listen-here",
+    "source": "EFF AI",
+    "published": "2026-07-27T19:25:18.000Z",
+    "image": "https://www.eff.org/files/banner_library/effectingchange_banner.png",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0029,
+      "feedPosition": 0.2222,
+      "novelty": 0.7298
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.199
+  },
+  {
+    "group": "ai",
+    "title": "Advanced AI Is Ultrahazardous. Let’s Treat It That Way",
+    "url": "https://techpolicy.press/advanced-ai-is-ultrahazardous-lets-treat-it-that-way",
+    "source": "Tech Policy Press AI",
+    "published": "2026-07-29T16:44:16.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0102,
+      "feedPosition": 0,
+      "novelty": 0.9353
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1985
+  },
+  {
+    "group": "ai",
+    "title": "When physicians and AI work together, who is accountable? How to lay out medical liability",
+    "url": "https://www.nature.com/articles/d41586-026-02315-9",
+    "source": "Nature AI News & Comment",
+    "published": "2026-07-28T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.18,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0033,
+      "feedPosition": 0.1429,
+      "novelty": 0.7068
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1965
+  },
+  {
+    "group": "ai",
+    "title": "Use AI, but don’t mask it",
+    "url": "https://www.nature.com/articles/d41586-026-02347-1",
+    "source": "Nature AI News & Comment",
+    "published": "2026-07-28T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0033,
+      "feedPosition": 0.4286,
+      "novelty": 0.7808
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1964
+  },
+  {
+    "group": "ai",
+    "title": "How we tested and evaluated AI-generated dance videos",
+    "url": "https://themarkup.org/show-your-work/2026/01/21/how-we-tested-ai-generated-dance-videos",
+    "source": "The Markup AI",
+    "published": "2026-01-21T13:30:00.000Z",
+    "image": "https://mrkp-static-production.themarkup.org/uploads/2025/12/121625-DANCE-AI-SYW-AJ-TM.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1055,
+      "sourceAuthority": 0.5,
+      "freshness": 0,
+      "feedPosition": 0.1667,
+      "novelty": 0.8246
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1952
+  },
+  {
+    "group": "ai",
+    "title": "Giant waves are sweeping Mars’ atmosphere into space",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T04:07:54.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2014,
+      "feedPosition": 0,
+      "novelty": 0.8109
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1934
   },
   {
     "group": "ai",
@@ -1986,14 +2945,58 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.1667,
-      "novelty": 0.8158
+      "novelty": 0.7787
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1969
+    "score": 0.1932
+  },
+  {
+    "group": "ai",
+    "title": "Generative AI is eating culture. See how close it’s getting to disrupting dance",
+    "url": "https://themarkup.org/artificial-intelligence/2026/01/21/our-video-tests-prove-generative-ai-still-sucks-at-dancing-see-for-yourself",
+    "source": "The Markup AI",
+    "published": "2026-01-21T13:30:00.000Z",
+    "image": "https://mrkp-static-production.themarkup.org/uploads/2025/12/091924-Zion-Harris-AI-AJ-01-MU.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1055,
+      "sourceAuthority": 0.5,
+      "freshness": 0,
+      "feedPosition": 0,
+      "novelty": 0.9595
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1921
+  },
+  {
+    "group": "ai",
+    "title": "Can AI Agents Be Aligned with Human Rights?",
+    "url": "https://techpolicy.press/can-ai-agents-be-aligned-with-human-rights",
+    "source": "Tech Policy Press AI",
+    "published": "2026-07-30T12:40:13.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0177,
+      "feedPosition": 0.2222,
+      "novelty": 0.5845
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.1867
   },
   {
     "group": "ai",
@@ -2007,35 +3010,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0434,
+      "freshness": 0.0428,
       "feedPosition": 0.3333,
-      "novelty": 0.7463
+      "novelty": 0.6314
     },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1966
-  },
-  {
-    "group": "ai",
-    "title": "Giant waves are sweeping Mars’ atmosphere into space",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T04:07:54.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2041,
-      "feedPosition": 0,
-      "novelty": 0.8109
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1938
+    "rankingReasons": [],
+    "score": 0.185
   },
   {
     "group": "ai",
@@ -2051,36 +3031,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0003,
       "feedPosition": 0.125,
-      "novelty": 0.9078
+      "novelty": 0.8333
     },
     "rankingReasons": [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.1923
-  },
-  {
-    "group": "ai",
-    "title": "Spotify's AI Problem Is So Bad Random People Are Stepping In to Track the Slop",
-    "url": "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/",
-    "source": "404 Media AI",
-    "published": "2026-07-27T13:25:34.000Z",
-    "image": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNwb3RpZnl8ZW58MHx8fHwxNzg0NTczNDk5fDA&ixlib=rb-4.1.0&q=80&w=2000",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0025,
-      "feedPosition": 0.1111,
-      "novelty": 0.7116
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.186
+    "score": 0.1849
   },
   {
     "group": "ai",
@@ -2094,15 +3051,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.048,
       "sourceAuthority": 0.5,
-      "freshness": 0.0418,
+      "freshness": 0.0413,
       "feedPosition": 0.2222,
-      "novelty": 0.7239
+      "novelty": 0.7041
     },
     "rankingReasons": [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.1855
+    "score": 0.1834
   },
   {
     "group": "ai",
@@ -2118,37 +3075,58 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0,
-      "novelty": 0.5866
+      "novelty": 0.5461
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1841
+    "score": 0.18
   },
   {
     "group": "ai",
-    "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
-    "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
-    "source": "VentureBeat AI",
-    "published": "2026-01-07T20:00:00.000Z",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&q=30",
+    "title": "Spotify's AI Problem Is So Bad Random People Are Stepping In to Track the Slop",
+    "url": "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/",
+    "source": "404 Media AI",
+    "published": "2026-07-27T13:25:34.000Z",
+    "image": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNwb3RpZnl8ZW58MHx8fHwxNzg0NTczNDk5fDA&ixlib=rb-4.1.0&q=80&w=2000",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0,
-      "feedPosition": 0,
-      "novelty": 0.7277
+      "freshness": 0.0025,
+      "feedPosition": 0.1111,
+      "novelty": 0.6424
     },
     "rankingReasons": [
       "specific details",
-      "recognizable entities",
+      "recognizable entities"
+    ],
+    "score": 0.1791
+  },
+  {
+    "group": "ai",
+    "title": "Tech Life",
+    "url": "https://www.bbc.co.uk/sounds/play/w3ct8jy6?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News AI",
+    "published": "2026-07-28T20:00:00.000Z",
+    "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0p1bl9m.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0057,
+      "feedPosition": 0,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.1762
+    "score": 0.1759
   },
   {
     "group": "ai",
@@ -2173,63 +3151,44 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "In China, people are renting out their faces to AI",
-    "url": "https://restofworld.org/2026/china-ai-microdramas-face-licensing/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "source": "Rest of World AI",
-    "published": "2026-07-27T10:00:00.000Z",
-    "image": "https://restofworld.org/wp-content/uploads/2026/07/Face-licensing-China_4-768x432.jpg",
+    "title": "Amazon and Apple just told us more about their AI plans - here are three things we learned",
+    "url": "https://www.bbc.co.uk/news/articles/cp87m46g392o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News AI",
+    "published": "2026-07-31T01:31:50.000Z",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f63b/live/04fbebb0-8c7f-11f1-8972-83c327826a89.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0023,
-      "feedPosition": 0.25,
-      "novelty": 0.6492
+      "freshness": 0.0254,
+      "feedPosition": 0.1667,
+      "novelty": 0.6961
     },
-    "rankingReasons": [],
-    "score": 0.1724
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1722
   },
   {
     "group": "ai",
-    "title": "The U.S. wants to contain China’s AI. Silicon Valley keeps using it",
-    "url": "https://restofworld.org/2026/china-siliconvalley-ai-moonshot-kimi/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "source": "Rest of World AI",
-    "published": "2026-07-22T10:00:00.000Z",
-    "image": "https://restofworld.org/wp-content/uploads/2026/07/illo_ideas_diffusion_final-768x432.jpg",
+    "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+    "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+    "source": "VentureBeat AI",
+    "published": "2026-01-07T20:00:00.000Z",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&q=30",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0001,
+      "freshness": 0,
       "feedPosition": 0,
-      "novelty": 0.6898
+      "novelty": 0.6779
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1724
-  },
-  {
-    "group": "ai",
-    "title": "AI scammers outperform humans when it comes to building trust",
-    "url": "https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust/",
-    "source": "Ars Technica AI",
-    "published": "2026-07-31T14:01:40.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/scammer-1-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0364,
-      "feedPosition": 0,
-      "novelty": 0.9075
-    },
-    "rankingReasons": [
       "unusual language in the current story batch"
     ],
     "score": 0.1712
@@ -2257,6 +3216,68 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "In China, people are renting out their faces to AI",
+    "url": "https://restofworld.org/2026/china-ai-microdramas-face-licensing/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World AI",
+    "published": "2026-07-27T10:00:00.000Z",
+    "image": "https://restofworld.org/wp-content/uploads/2026/07/Face-licensing-China_4-768x432.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0022,
+      "feedPosition": 0.25,
+      "novelty": 0.5787
+    },
+    "rankingReasons": [],
+    "score": 0.1653
+  },
+  {
+    "group": "ai",
+    "title": "The U.S. wants to contain China’s AI. Silicon Valley keeps using it",
+    "url": "https://restofworld.org/2026/china-siliconvalley-ai-moonshot-kimi/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World AI",
+    "published": "2026-07-22T10:00:00.000Z",
+    "image": "https://restofworld.org/wp-content/uploads/2026/07/illo_ideas_diffusion_final-768x432.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0001,
+      "feedPosition": 0,
+      "novelty": 0.5738
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.1608
+  },
+  {
+    "group": "ai",
+    "title": "AI scammers outperform humans when it comes to building trust",
+    "url": "https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust/",
+    "source": "Ars Technica AI",
+    "published": "2026-07-31T14:01:40.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/scammer-1-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0359,
+      "feedPosition": 0,
+      "novelty": 0.7702
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1574
+  },
+  {
+    "group": "ai",
     "title": "Medical AI has a measurement problem",
     "url": "https://www.nature.com/articles/d41586-026-02125-z",
     "source": "Nature AI News & Comment",
@@ -2269,11 +3290,11 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0033,
       "feedPosition": 0,
-      "novelty": 0.5233
+      "novelty": 0.4822
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.1498
+    "score": 0.1457
   }
 ];
