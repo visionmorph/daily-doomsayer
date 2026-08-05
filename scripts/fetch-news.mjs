@@ -1293,8 +1293,16 @@ async function fetchSourceArticles(source) {
   }
 }
 
+const configuredFeeds = config.sources.flatMap((source) => {
+  const feeds = Array.isArray(source.feeds) ? source.feeds : [source.feed];
+
+  return feeds
+    .filter((feed) => typeof feed === "string" && feed.trim())
+    .map((feed) => ({ ...source, feed: feed.trim() }));
+});
+
 const sourceBatches = await mapWithConcurrency(
-  config.sources,
+  configuredFeeds,
   SOURCE_CONCURRENCY,
   fetchSourceArticles,
 );
@@ -1391,7 +1399,7 @@ const output = [
 await writeTextFile("articles.js", output);
 await new Promise((resolve) =>
   process.stdout.write(
-    `Wrote ${publishedArticles.length} ranked articles from ${config.sources.length} configured sources.\n`,
+    `Wrote ${publishedArticles.length} ranked articles from ${config.sources.length} configured sources across ${configuredFeeds.length} feeds.\n`,
     resolve,
   ),
 );
