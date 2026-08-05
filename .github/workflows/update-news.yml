@@ -5,26 +5,32 @@ on:
   schedule:
     - cron: "17 * * * *"
 
+concurrency:
+  group: update-news-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
 jobs:
   update-news:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
     steps:
       - name: Check out the website
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
+          package-manager-cache: false
 
       - name: Install the feed reader
-        run: npm install
+        run: npm install --no-audit --no-fund
 
       - name: Fetch the latest articles
+        timeout-minutes: 5
         run: npm run update-news
 
       - name: Save updated articles
