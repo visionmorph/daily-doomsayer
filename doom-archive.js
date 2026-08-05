@@ -4,7 +4,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaVersion": "1.0",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-05T18:00:00.000Z",
+  "generatedAt": "2026-08-05T19:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-05",
@@ -16,12 +16,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 50.68
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 50.45
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -30,12 +30,40 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 50.56
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 49.73
+        },
+        {
+          "storyId": "f404780aaf783ec9f0fd",
+          "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+          "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.73,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T19:00:00.000Z",
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 49.73
+        },
+        {
+          "storyId": "4358b8a7d456f552cec1",
+          "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
+          "url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
+          "peak": 48.8,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T19:00:00.000Z",
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 48.8
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -44,12 +72,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 47
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 46.23
         },
         {
           "storyId": "4f47d4d73942c27efbc9",
@@ -58,12 +86,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.12,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 46.12
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 45.77
+        },
+        {
+          "storyId": "0b4e9b5e36534bbf75f7",
+          "title": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop",
+          "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/master/pass/Discovery%20Loop%20-%20Founders%202.jpg",
+          "peak": 45.97,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T18:00:00.000Z",
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 42.66
         },
         {
           "storyId": "9b1d81026bfef8372016",
@@ -72,12 +114,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
           "peak": 44.54,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 44.54
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 43.73
         },
         {
           "storyId": "a275b40dfcb02fa3fb79",
@@ -86,12 +128,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 44.52,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 44.52
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 44.29
         },
         {
           "storyId": "f7e9ffc806a94fa7bd59",
@@ -100,54 +142,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 44,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 44
-        },
-        {
-          "storyId": "6831149afa29e593e2c4",
-          "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 42.58,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 42.58
-        },
-        {
-          "storyId": "c0bcc974ea561e01dd86",
-          "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
-          "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 42.37,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 42.37
-        },
-        {
-          "storyId": "c94a5a6943bc407802b9",
-          "title": "Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion",
-          "url": "https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/0e34c6a5b50569fc6c0b4d17f918a2050a5be0ff/0_237_1080_864/master/1080.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 42.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 42.01
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 43.75
         }
       ]
     }
@@ -163,12 +163,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 50.68
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 50.45
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -177,12 +177,40 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 50.56
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 49.73
+        },
+        {
+          "storyId": "f404780aaf783ec9f0fd",
+          "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+          "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.73,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T19:00:00.000Z",
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 49.73
+        },
+        {
+          "storyId": "4358b8a7d456f552cec1",
+          "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
+          "url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
+          "peak": 48.8,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T19:00:00.000Z",
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 48.8
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -191,12 +219,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 47
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 46.23
         },
         {
           "storyId": "4f47d4d73942c27efbc9",
@@ -205,12 +233,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.12,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 46.12
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 45.77
+        },
+        {
+          "storyId": "0b4e9b5e36534bbf75f7",
+          "title": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop",
+          "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/master/pass/Discovery%20Loop%20-%20Founders%202.jpg",
+          "peak": 45.97,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T18:00:00.000Z",
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 42.66
         },
         {
           "storyId": "9b1d81026bfef8372016",
@@ -219,12 +261,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
           "peak": 44.54,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 44.54
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 43.73
         },
         {
           "storyId": "a275b40dfcb02fa3fb79",
@@ -233,12 +275,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 44.52,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 44.52
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 44.29
         },
         {
           "storyId": "f7e9ffc806a94fa7bd59",
@@ -247,54 +289,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 44,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 44
-        },
-        {
-          "storyId": "6831149afa29e593e2c4",
-          "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 42.58,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 42.58
-        },
-        {
-          "storyId": "c0bcc974ea561e01dd86",
-          "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
-          "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 42.37,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 42.37
-        },
-        {
-          "storyId": "c94a5a6943bc407802b9",
-          "title": "Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion",
-          "url": "https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/0e34c6a5b50569fc6c0b4d17f918a2050a5be0ff/0_237_1080_864/master/1080.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 42.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 42.01
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 43.75
         }
       ]
     }
@@ -310,12 +310,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 50.68
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 50.45
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -324,12 +324,40 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 50.56
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 49.73
+        },
+        {
+          "storyId": "f404780aaf783ec9f0fd",
+          "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+          "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.73,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T19:00:00.000Z",
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 49.73
+        },
+        {
+          "storyId": "4358b8a7d456f552cec1",
+          "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
+          "url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
+          "peak": 48.8,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T19:00:00.000Z",
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 48.8
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -338,12 +366,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 47
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 46.23
         },
         {
           "storyId": "4f47d4d73942c27efbc9",
@@ -352,12 +380,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.12,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 46.12
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 45.77
+        },
+        {
+          "storyId": "0b4e9b5e36534bbf75f7",
+          "title": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop",
+          "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/master/pass/Discovery%20Loop%20-%20Founders%202.jpg",
+          "peak": 45.97,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T18:00:00.000Z",
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 42.66
         },
         {
           "storyId": "9b1d81026bfef8372016",
@@ -366,12 +408,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
           "peak": 44.54,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 44.54
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 43.73
         },
         {
           "storyId": "a275b40dfcb02fa3fb79",
@@ -380,12 +422,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 44.52,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 44.52
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 44.29
         },
         {
           "storyId": "f7e9ffc806a94fa7bd59",
@@ -394,54 +436,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 44,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 44
-        },
-        {
-          "storyId": "6831149afa29e593e2c4",
-          "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 42.58,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 42.58
-        },
-        {
-          "storyId": "c0bcc974ea561e01dd86",
-          "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
-          "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 42.37,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 42.37
-        },
-        {
-          "storyId": "c94a5a6943bc407802b9",
-          "title": "Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion",
-          "url": "https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/0e34c6a5b50569fc6c0b4d17f918a2050a5be0ff/0_237_1080_864/master/1080.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 42.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-05T18:00:00.000Z",
-          "average": 42.01
+          "lastObservedAt": "2026-08-05T19:00:00.000Z",
+          "average": 43.75
         }
       ]
     }
