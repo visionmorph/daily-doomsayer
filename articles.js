@@ -12,7 +12,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.817,
+      "freshness": 0.812,
       "feedPosition": 1,
       "novelty": 0.7191
     },
@@ -21,10 +21,10 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.4975,
+    "score": 0.4967,
     "featured": true,
     "storyId": "ff8ba60af3e634676f78",
-    "doomIndex": 49.75,
+    "doomIndex": 49.67,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -43,7 +43,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.452,
       "sourceAuthority": 0.5,
-      "freshness": 0.9551,
+      "freshness": 0.9493,
       "feedPosition": 1,
       "novelty": 0.736
     },
@@ -54,9 +54,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4823,
+    "score": 0.4814,
     "storyId": "4358b8a7d456f552cec1",
-    "doomIndex": 48.23,
+    "doomIndex": 48.14,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -75,51 +75,21 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.9499,
-      "feedPosition": 0.8889,
+      "freshness": 0.9441,
+      "feedPosition": 0.7778,
       "novelty": 0.5761
     },
     "rankingReasons": [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.4782,
+    "score": 0.4662,
     "storyId": "f404780aaf783ec9f0fd",
-    "doomIndex": 47.82,
+    "doomIndex": 46.62,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
     "firstSeen": "2026-08-05T19:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
-    "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-05T20:05:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2165,
-      "sourceAuthority": 0.5,
-      "freshness": 0.9653,
-      "feedPosition": 1,
-      "novelty": 0.964
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.4595,
-    "storyId": "a263efd65da673efce7f",
-    "doomIndex": 45.95,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T21:00:00.000Z",
     "lastSeen": "2026-08-05T21:00:00.000Z"
   },
   {
@@ -134,7 +104,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.239,
       "sourceAuthority": 0.5,
-      "freshness": 0.8499,
+      "freshness": 0.8447,
       "feedPosition": 0.6667,
       "novelty": 0.3944
     },
@@ -144,9 +114,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.4564,
+    "score": 0.4556,
     "storyId": "bc5ed6484b462efb110d",
-    "doomIndex": 45.64,
+    "doomIndex": 45.56,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -165,7 +135,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.382,
       "sourceAuthority": 0.5,
-      "freshness": 0.9237,
+      "freshness": 0.9181,
       "feedPosition": 0.8889,
       "novelty": 0.7702
     },
@@ -175,13 +145,43 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4559,
+    "score": 0.455,
     "storyId": "9b1d81026bfef8372016",
-    "doomIndex": 45.59,
+    "doomIndex": 45.5,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
     "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+    "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-05T20:05:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2165,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9593,
+      "feedPosition": 0.8889,
+      "novelty": 0.964
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4475,
+    "storyId": "a263efd65da673efce7f",
+    "doomIndex": 44.75,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T21:00:00.000Z",
     "lastSeen": "2026-08-05T21:00:00.000Z"
   },
   {
@@ -196,7 +196,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8617,
+      "freshness": 0.8565,
       "feedPosition": 0.6667,
       "novelty": 0.4734
     },
@@ -205,9 +205,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.4467,
+    "score": 0.4459,
     "storyId": "0b4e9b5e36534bbf75f7",
-    "doomIndex": 44.67,
+    "doomIndex": 44.59,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -226,7 +226,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.844,
+      "freshness": 0.8388,
       "feedPosition": 0.5556,
       "novelty": 0.6369
     },
@@ -234,9 +234,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "covered by multiple sources"
     ],
-    "score": 0.4448,
+    "score": 0.4441,
     "storyId": "4f47d4d73942c27efbc9",
-    "doomIndex": 44.48,
+    "doomIndex": 44.41,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -255,7 +255,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.8509,
+      "freshness": 0.8457,
       "feedPosition": 1,
       "novelty": 0.789
     },
@@ -265,9 +265,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4319,
+    "score": 0.4312,
     "storyId": "a275b40dfcb02fa3fb79",
-    "doomIndex": 43.19,
+    "doomIndex": 43.12,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -286,7 +286,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2455,
       "sourceAuthority": 0.5,
-      "freshness": 0.9843,
+      "freshness": 0.9783,
       "feedPosition": 1,
       "novelty": 0.6009
     },
@@ -294,9 +294,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "conflict"
     ],
-    "score": 0.4318,
+    "score": 0.4309,
     "storyId": "36afd164b5931dcbff9b",
-    "doomIndex": 43.18,
+    "doomIndex": 43.09,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -315,7 +315,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8861,
+      "freshness": 0.8807,
       "feedPosition": 1,
       "novelty": 0.9353
     },
@@ -324,9 +324,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4298,
+    "score": 0.429,
     "storyId": "f7e9ffc806a94fa7bd59",
-    "doomIndex": 42.98,
+    "doomIndex": 42.9,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -345,7 +345,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.8149,
+      "freshness": 0.8099,
       "feedPosition": 0.5556,
       "novelty": 0.746
     },
@@ -353,9 +353,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.4274,
+    "score": 0.4266,
     "storyId": "ff5a4080dd1ccac6de94",
-    "doomIndex": 42.74,
+    "doomIndex": 42.66,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -374,7 +374,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.885,
+      "freshness": 0.8795,
       "feedPosition": 1,
       "novelty": 0.8411
     },
@@ -382,40 +382,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4132,
+    "score": 0.4123,
     "storyId": "6831149afa29e593e2c4",
-    "doomIndex": 41.32,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion",
-    "url": "https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video",
-    "source": "The Guardian AI",
-    "published": "2026-08-05T14:13:33.000Z",
-    "image": "https://i.guim.co.uk/img/media/0e34c6a5b50569fc6c0b4d17f918a2050a5be0ff/0_237_1080_864/master/1080.jpg?width=800&dpr=2&s=none&crop=none",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2765,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8203,
-      "feedPosition": 0.7778,
-      "novelty": 0.7957
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.4107,
-    "storyId": "c94a5a6943bc407802b9",
-    "doomIndex": 41.07,
+    "doomIndex": 41.23,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -434,9 +403,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.7992,
+      "freshness": 0.7944,
       "feedPosition": 0.8889,
-      "novelty": 0.718
+      "novelty": 0.7585
     },
     "rankingReasons": [
       "real-world consequences",
@@ -444,9 +413,69 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.406,
+    "score": 0.4093,
     "storyId": "eae713dadde24d8f6b53",
-    "doomIndex": 40.6,
+    "doomIndex": 40.93,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Meta launches Muse Code, an AI agent for large code bases",
+    "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-05T21:21:28.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.071,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9939,
+      "feedPosition": 1,
+      "novelty": 0.6912
+    },
+    "rankingReasons": [
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4074,
+    "storyId": "7292944e61ba5b05b253",
+    "doomIndex": 40.74,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T21:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion",
+    "url": "https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video",
+    "source": "The Guardian AI",
+    "published": "2026-08-05T14:13:33.000Z",
+    "image": "https://i.guim.co.uk/img/media/0e34c6a5b50569fc6c0b4d17f918a2050a5be0ff/0_237_1080_864/master/1080.jpg?width=800&dpr=2&s=none&crop=none",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2765,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8153,
+      "feedPosition": 0.7778,
+      "novelty": 0.7629
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4067,
+    "storyId": "c94a5a6943bc407802b9",
+    "doomIndex": 40.67,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -465,16 +494,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.9637,
+      "freshness": 0.9578,
       "feedPosition": 0.8889,
       "novelty": 0.8493
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3994,
+    "score": 0.3985,
     "storyId": "72911541e6097c740088",
-    "doomIndex": 39.94,
+    "doomIndex": 39.85,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -493,48 +522,18 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8724,
+      "freshness": 0.8671,
       "feedPosition": 0.7778,
-      "novelty": 0.8468
+      "novelty": 0.8213
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3967,
+    "score": 0.3934,
     "storyId": "b323c71ed3d014cc4423",
-    "doomIndex": 39.67,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
-    "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-05T15:05:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.19,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8401,
-      "feedPosition": 0.5556,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3946,
-    "storyId": "c0bcc974ea561e01dd86",
-    "doomIndex": 39.46,
+    "doomIndex": 39.34,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -553,17 +552,17 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.844,
+      "freshness": 0.8389,
       "feedPosition": 1,
-      "novelty": 0.6947
+      "novelty": 0.7145
     },
     "rankingReasons": [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3922,
+    "score": 0.3934,
     "storyId": "f3f8b23cc4909870bfe3",
-    "doomIndex": 39.22,
+    "doomIndex": 39.34,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -582,7 +581,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.9593,
+      "freshness": 0.9534,
       "feedPosition": 0.7778,
       "novelty": 0.7431
     },
@@ -590,9 +589,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3852,
+    "score": 0.3843,
     "storyId": "d73b633f50b6854818dc",
-    "doomIndex": 38.52,
+    "doomIndex": 38.43,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -611,7 +610,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.5403,
+      "freshness": 0.537,
       "feedPosition": 0.2222,
       "novelty": 0.5386
     },
@@ -621,9 +620,39 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.3845,
+    "score": 0.384,
     "storyId": "1de55c82ccceed8b4699",
-    "doomIndex": 38.45,
+    "doomIndex": 38.4,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+    "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-05T15:05:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.19,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8349,
+      "feedPosition": 0.4444,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3827,
+    "storyId": "c0bcc974ea561e01dd86",
+    "doomIndex": 38.27,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -642,7 +671,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2055,
       "sourceAuthority": 0.5,
-      "freshness": 0.7712,
+      "freshness": 0.7665,
       "feedPosition": 0.6667,
       "novelty": 0.8306
     },
@@ -651,37 +680,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3815,
+    "score": 0.3808,
     "storyId": "b4095bd206669dc32b1a",
-    "doomIndex": 38.15,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Google Assistant will disappear from your phone next month",
-    "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
-    "source": "The Verge AI",
-    "published": "2026-08-05T11:12:50.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/19482921/acastro_180510_1777_google_assistant_0001.0.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 2,
-    "ranking": {
-      "coverage": 0.3333,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.7545,
-      "feedPosition": 0.4444,
-      "novelty": 0.3787
-    },
-    "rankingReasons": [
-      "covered by multiple sources"
-    ],
-    "score": 0.3776,
-    "storyId": "582b089a4b9568f54f32",
-    "doomIndex": 37.76,
+    "doomIndex": 38.08,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -700,7 +701,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.154,
       "sourceAuthority": 0.5,
-      "freshness": 0.5564,
+      "freshness": 0.553,
       "feedPosition": 1,
       "novelty": 0.8828
     },
@@ -709,9 +710,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3775,
+    "score": 0.377,
     "storyId": "71867721c7a5e5470c1a",
-    "doomIndex": 37.75,
+    "doomIndex": 37.7,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -720,26 +721,26 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "A colossal magma system has been hiding beneath Tuscany",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260804034645.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-05T09:19:43.000Z",
-    "image": "",
-    "coverageSources": 1,
+    "title": "Google Assistant will disappear from your phone next month",
+    "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
+    "source": "The Verge AI",
+    "published": "2026-08-05T11:12:50.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/19482921/acastro_180510_1777_google_assistant_0001.0.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 2,
     "ranking": {
-      "coverage": 0,
+      "coverage": 0.3333,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.716,
-      "feedPosition": 1,
-      "novelty": 0.8747
+      "freshness": 0.7499,
+      "feedPosition": 0.4444,
+      "novelty": 0.3787
     },
     "rankingReasons": [
-      "unusual language in the current story batch"
+      "covered by multiple sources"
     ],
-    "score": 0.377,
-    "storyId": "fd76dc5c8e6b768dc037",
-    "doomIndex": 37.7,
+    "score": 0.3769,
+    "storyId": "582b089a4b9568f54f32",
+    "doomIndex": 37.69,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -758,16 +759,44 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.082,
       "sourceAuthority": 0.5,
-      "freshness": 0.9042,
+      "freshness": 0.8987,
       "feedPosition": 0.8889,
-      "novelty": 0.5867
+      "novelty": 0.6121
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.3746,
+    "score": 0.3763,
     "storyId": "0c82f5269084b14b1a04",
-    "doomIndex": 37.46,
+    "doomIndex": 37.63,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "A colossal magma system has been hiding beneath Tuscany",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260804034645.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-05T09:19:43.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7116,
+      "feedPosition": 1,
+      "novelty": 0.8747
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3763,
+    "storyId": "fd76dc5c8e6b768dc037",
+    "doomIndex": 37.63,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -786,7 +815,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.5306,
+      "freshness": 0.5274,
       "feedPosition": 0.8889,
       "novelty": 0.8068
     },
@@ -796,9 +825,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3746,
+    "score": 0.3741,
     "storyId": "26d70e0b85e61748941b",
-    "doomIndex": 37.46,
+    "doomIndex": 37.41,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -817,16 +846,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.7295,
+      "freshness": 0.725,
       "feedPosition": 1,
       "novelty": 0.8242
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3692,
+    "score": 0.3686,
     "storyId": "495dc4e7c8c440d3ed6a",
-    "doomIndex": 36.92,
+    "doomIndex": 36.86,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -845,16 +874,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.8762,
+      "freshness": 0.8708,
       "feedPosition": 0.7778,
       "novelty": 0.6424
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.3627,
+    "score": 0.3618,
     "storyId": "88e15d0b7e684c66e397",
-    "doomIndex": 36.27,
+    "doomIndex": 36.18,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -873,16 +902,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.6214,
+      "freshness": 0.6176,
       "feedPosition": 0.8889,
       "novelty": 0.9595
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3602,
+    "score": 0.3596,
     "storyId": "a2fd9d7d72cfe5b5b305",
-    "doomIndex": 36.02,
+    "doomIndex": 35.96,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -901,7 +930,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.7175,
+      "freshness": 0.7131,
       "feedPosition": 0.8333,
       "novelty": 0.6961
     },
@@ -909,9 +938,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "unusual language in the current story batch"
     ],
-    "score": 0.3596,
+    "score": 0.3589,
     "storyId": "0a3c0d9f2ec55a3e2d14",
-    "doomIndex": 35.96,
+    "doomIndex": 35.89,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -930,7 +959,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7651,
+      "freshness": 0.7604,
       "feedPosition": 0.5556,
       "novelty": 0.8246
     },
@@ -939,9 +968,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3562,
+    "score": 0.3555,
     "storyId": "ae08d3389057b9b0c040",
-    "doomIndex": 35.62,
+    "doomIndex": 35.55,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -960,7 +989,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.324,
       "sourceAuthority": 0.5,
-      "freshness": 0.235,
+      "freshness": 0.2336,
       "feedPosition": 0.8889,
       "novelty": 0.9026
     },
@@ -970,9 +999,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3542,
+    "score": 0.354,
     "storyId": "551181c299c73018408d",
-    "doomIndex": 35.42,
+    "doomIndex": 35.4,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -991,7 +1020,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.7712,
+      "freshness": 0.7665,
       "feedPosition": 0.4444,
       "novelty": 0.9447
     },
@@ -999,9 +1028,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3531,
+    "score": 0.3524,
     "storyId": "33e5b556d996d3116adf",
-    "doomIndex": 35.31,
+    "doomIndex": 35.24,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1020,7 +1049,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.446,
+      "freshness": 0.4433,
       "feedPosition": 1,
       "novelty": 0.7448
     },
@@ -1029,9 +1058,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3508,
+    "score": 0.3504,
     "storyId": "ca57c385d714512d1dab",
-    "doomIndex": 35.08,
+    "doomIndex": 35.04,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1050,7 +1079,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.462,
       "sourceAuthority": 0.5,
-      "freshness": 0.2821,
+      "freshness": 0.2803,
       "feedPosition": 0.7778,
       "novelty": 0.6241
     },
@@ -1061,37 +1090,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3499,
+    "score": 0.3496,
     "storyId": "23a292887ca5e4c75326",
-    "doomIndex": 34.99,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Hark previews its browser use agent for completing tasks",
-    "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-05T15:46:27.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8564,
-      "feedPosition": 0.6667,
-      "novelty": 0.7957
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3497,
-    "storyId": "01816a9beba266f62bde",
-    "doomIndex": 34.97,
+    "doomIndex": 34.96,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1110,16 +1111,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.8617,
+      "freshness": 0.8565,
       "feedPosition": 0.6667,
       "novelty": 0.7562
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3489,
+    "score": 0.3482,
     "storyId": "e67c805c5c0fca39e9a0",
-    "doomIndex": 34.89,
+    "doomIndex": 34.82,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1138,7 +1139,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.34,
       "sourceAuthority": 0.5,
-      "freshness": 0.2837,
+      "freshness": 0.2819,
       "feedPosition": 1,
       "novelty": 0.6274
     },
@@ -1146,9 +1147,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "real-world consequences"
     ],
-    "score": 0.3483,
+    "score": 0.348,
     "storyId": "1b31b1a391a00190d985",
-    "doomIndex": 34.83,
+    "doomIndex": 34.8,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1167,16 +1168,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5972,
+      "freshness": 0.5936,
       "feedPosition": 1,
       "novelty": 0.8242
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.347,
+    "score": 0.3465,
     "storyId": "8c87b9bfdab1e6f99859",
-    "doomIndex": 34.7,
+    "doomIndex": 34.65,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1195,14 +1196,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.8809,
+      "freshness": 0.8755,
       "feedPosition": 0.8889,
       "novelty": 0.5077
     },
     "rankingReasons": [],
-    "score": 0.3468,
+    "score": 0.346,
     "storyId": "acb096445fcff02d100c",
-    "doomIndex": 34.68,
+    "doomIndex": 34.6,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1221,9 +1222,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.452,
+      "freshness": 0.4493,
       "feedPosition": 0.7778,
-      "novelty": 0.6671
+      "novelty": 0.6958
     },
     "rankingReasons": [
       "real-world consequences",
@@ -1231,9 +1232,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3377,
+    "score": 0.3401,
     "storyId": "94c55c97da6568a59279",
-    "doomIndex": 33.77,
+    "doomIndex": 34.01,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1282,7 +1283,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7095,
+      "freshness": 0.7051,
       "feedPosition": 0.4444,
       "novelty": 0.8277
     },
@@ -1291,9 +1292,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.337,
+    "score": 0.3364,
     "storyId": "8cbabc9e9028576525c5",
-    "doomIndex": 33.7,
+    "doomIndex": 33.64,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1302,24 +1303,26 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
-    "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+    "title": "Hark previews its browser use agent for completing tasks",
+    "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
     "source": "TechCrunch AI",
-    "published": "2026-08-05T15:56:14.000Z",
+    "published": "2026-08-05T15:46:27.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.0355,
+      "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.8602,
-      "feedPosition": 0.7778,
-      "novelty": 0.4743
+      "freshness": 0.8511,
+      "feedPosition": 0.5556,
+      "novelty": 0.7702
     },
-    "rankingReasons": [],
-    "score": 0.3363,
-    "storyId": "1ca2eb754759eaaa9993",
-    "doomIndex": 33.63,
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3352,
+    "storyId": "01816a9beba266f62bde",
+    "doomIndex": 33.52,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1338,7 +1341,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.042,
       "sourceAuthority": 0.5,
-      "freshness": 0.7712,
+      "freshness": 0.7665,
       "feedPosition": 0.5556,
       "novelty": 0.7949
     },
@@ -1346,67 +1349,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3341,
+    "score": 0.3334,
     "storyId": "5d10ae450388bbb45c16",
-    "doomIndex": 33.41,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "The AI Notetaker Has Been Invited to All the Meetings",
-    "url": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/",
-    "source": "WIRED AI",
-    "published": "2026-08-05T07:00:00.000Z",
-    "image": "https://media.wired.com/photos/6a723b563dd3b6c0778900ef/master/pass/Gear_Wispr%20CEO%20Talks%20About%20the%20App%E2%80%99s%20New%20AI%20Notetaker_v1.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.6711,
-      "feedPosition": 0.3333,
-      "novelty": 0.8893
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3263,
-    "storyId": "be01f4f08e51d843c07f",
-    "doomIndex": 32.63,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
-    "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-05T12:28:38.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.7814,
-      "feedPosition": 0.3333,
-      "novelty": 0.9353
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3262,
-    "storyId": "d13c8f68e0b600cee120",
-    "doomIndex": 32.62,
+    "doomIndex": 33.34,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1425,7 +1370,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.3643,
+      "freshness": 0.362,
       "feedPosition": 0.8889,
       "novelty": 0.8571
     },
@@ -1433,9 +1378,65 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3262,
+    "score": 0.3259,
     "storyId": "5926ba0167f609874f5a",
-    "doomIndex": 32.62,
+    "doomIndex": 32.59,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "The AI Notetaker Has Been Invited to All the Meetings",
+    "url": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/",
+    "source": "WIRED AI",
+    "published": "2026-08-05T07:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a723b563dd3b6c0778900ef/master/pass/Gear_Wispr%20CEO%20Talks%20About%20the%20App%E2%80%99s%20New%20AI%20Notetaker_v1.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.667,
+      "feedPosition": 0.3333,
+      "novelty": 0.8893
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3257,
+    "storyId": "be01f4f08e51d843c07f",
+    "doomIndex": 32.57,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+    "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-05T15:56:14.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.855,
+      "feedPosition": 0.6667,
+      "novelty": 0.4743
+    },
+    "rankingReasons": [],
+    "score": 0.3244,
+    "storyId": "1ca2eb754759eaaa9993",
+    "doomIndex": 32.44,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1454,7 +1455,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.4787,
+      "freshness": 0.4757,
       "feedPosition": 1,
       "novelty": 0.7562
     },
@@ -1462,9 +1463,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.3224,
+    "score": 0.322,
     "storyId": "985f27455e446170b0bc",
-    "doomIndex": 32.24,
+    "doomIndex": 32.2,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1483,7 +1484,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.203,
       "sourceAuthority": 0.5,
-      "freshness": 0.7095,
+      "freshness": 0.7052,
       "feedPosition": 0.2222,
       "novelty": 0.7598
     },
@@ -1493,39 +1494,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3202,
+    "score": 0.3196,
     "storyId": "b8a5dddc32b0f2f3cdaa",
-    "doomIndex": 32.02,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Grokipedia Stopped Reviewing Edits in April. It Didn’t Tell Anyone.",
-    "url": "https://www.lawfaremedia.org/article/grokipedia-stopped-reviewing-edits-in-april.-it-didn-t-tell-anyone",
-    "source": "Lawfare AI",
-    "published": "2026-08-05T14:30:41.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8268,
-      "feedPosition": 0,
-      "novelty": 0.9191
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3193,
-    "storyId": "efc32e777488b4ba573a",
-    "doomIndex": 31.93,
+    "doomIndex": 31.96,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1544,7 +1515,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.28,
       "sourceAuthority": 0.5,
-      "freshness": 0.2792,
+      "freshness": 0.2775,
       "feedPosition": 0.6667,
       "novelty": 0.7951
     },
@@ -1554,9 +1525,39 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3191,
+    "score": 0.3188,
     "storyId": "273c2bbfd8ff72015bed",
-    "doomIndex": 31.91,
+    "doomIndex": 31.88,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Grokipedia Stopped Reviewing Edits in April. It Didn’t Tell Anyone.",
+    "url": "https://www.lawfaremedia.org/article/grokipedia-stopped-reviewing-edits-in-april.-it-didn-t-tell-anyone",
+    "source": "Lawfare AI",
+    "published": "2026-08-05T14:30:41.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8218,
+      "feedPosition": 0,
+      "novelty": 0.9191
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3186,
+    "storyId": "efc32e777488b4ba573a",
+    "doomIndex": 31.86,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1575,7 +1576,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1765,
       "sourceAuthority": 0.5,
-      "freshness": 0.7501,
+      "freshness": 0.7455,
       "feedPosition": 0.3333,
       "novelty": 0.6155
     },
@@ -1583,9 +1584,37 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.3177,
+    "score": 0.317,
     "storyId": "673074714b3942032b4b",
-    "doomIndex": 31.77,
+    "doomIndex": 31.7,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
+    "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-05T12:28:38.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7766,
+      "feedPosition": 0.2222,
+      "novelty": 0.9353
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3143,
+    "storyId": "d13c8f68e0b600cee120",
+    "doomIndex": 31.43,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1604,16 +1633,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.3745,
+      "freshness": 0.3722,
       "feedPosition": 0.875,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3133,
+    "score": 0.3129,
     "storyId": "afa784f78ef3eabdb09a",
-    "doomIndex": 31.33,
+    "doomIndex": 31.29,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1632,44 +1661,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.7396,
+      "freshness": 0.7351,
       "feedPosition": 0.3333,
       "novelty": 0.9353
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3128,
+    "score": 0.3121,
     "storyId": "ffc939802f8483ea75c8",
-    "doomIndex": 31.28,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Anthropic is hiring an AI chip design team",
-    "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-05T14:13:18.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8202,
-      "feedPosition": 0.4444,
-      "novelty": 0.6951
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.312,
-    "storyId": "9cccdd1f1ddfe7afbfa8",
-    "doomIndex": 31.2,
+    "doomIndex": 31.21,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1688,7 +1689,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.2527,
+      "freshness": 0.2511,
       "feedPosition": 0.7778,
       "novelty": 0.6983
     },
@@ -1698,69 +1699,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3109,
+    "score": 0.3107,
     "storyId": "8d2b1b80f2b60b18a662",
-    "doomIndex": 31.09,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-    "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-05T11:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.071,
-      "sourceAuthority": 0.5,
-      "freshness": 0.75,
-      "feedPosition": 0.2222,
-      "novelty": 0.8345
-    },
-    "rankingReasons": [
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3074,
-    "storyId": "2daabe6c0da094803b0b",
-    "doomIndex": 30.74,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
-    "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T21:07:26.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2645,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5101,
-      "feedPosition": 0.1111,
-      "novelty": 0.8904
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3046,
-    "storyId": "96bae715b5259597876c",
-    "doomIndex": 30.46,
+    "doomIndex": 31.07,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1810,16 +1751,44 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.4075,
+      "freshness": 0.405,
       "feedPosition": 0.7778,
       "novelty": 0.8747
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3014,
+    "score": 0.301,
     "storyId": "a5f876f26f93554c254e",
-    "doomIndex": 30.14,
+    "doomIndex": 30.1,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Anthropic is hiring an AI chip design team",
+    "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-05T14:13:18.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8152,
+      "feedPosition": 0.3333,
+      "novelty": 0.6951
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3001,
+    "storyId": "9cccdd1f1ddfe7afbfa8",
+    "doomIndex": 30.01,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1838,7 +1807,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.232,
       "sourceAuthority": 0.5,
-      "freshness": 0.2706,
+      "freshness": 0.2689,
       "feedPosition": 0.5556,
       "novelty": 0.799
     },
@@ -1848,9 +1817,38 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2974,
+    "score": 0.2972,
     "storyId": "94524e2b04357887d983",
-    "doomIndex": 29.74,
+    "doomIndex": 29.72,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+    "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-05T11:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.071,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7454,
+      "feedPosition": 0.1111,
+      "novelty": 0.8345
+    },
+    "rankingReasons": [
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2956,
+    "storyId": "2daabe6c0da094803b0b",
+    "doomIndex": 29.56,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1869,7 +1867,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.5024,
+      "freshness": 0.4993,
       "feedPosition": 0.4444,
       "novelty": 0.7838
     },
@@ -1877,9 +1875,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2952,
+    "score": 0.2947,
     "storyId": "db3a207fc7fc08e15bfa",
-    "doomIndex": 29.52,
+    "doomIndex": 29.47,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1898,7 +1896,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.5078,
+      "freshness": 0.5047,
       "feedPosition": 0.2222,
       "novelty": 0.8162
     },
@@ -1907,9 +1905,40 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.2937,
+    "score": 0.2933,
     "storyId": "9be0fafa6f21f3b3158f",
-    "doomIndex": 29.37,
+    "doomIndex": 29.33,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+    "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-04T21:07:26.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2645,
+      "sourceAuthority": 0.5,
+      "freshness": 0.507,
+      "feedPosition": 0,
+      "novelty": 0.8904
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.293,
+    "storyId": "96bae715b5259597876c",
+    "doomIndex": 29.3,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1928,7 +1957,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6712,
+      "freshness": 0.6671,
       "feedPosition": 0.1111,
       "novelty": 0.9203
     },
@@ -1936,40 +1965,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.293,
+    "score": 0.2924,
     "storyId": "789ff7a1de5ed99495c3",
-    "doomIndex": 29.3,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "The White House Is Keeping Its AI Cybersecurity Framework Secret",
-    "url": "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
-    "source": "WIRED AI",
-    "published": "2026-08-04T22:06:07.000Z",
-    "image": "https://media.wired.com/photos/6a7199c152cbcac31bc249b1/master/pass/Trump-Admin-Convenes-AI-Labs-to-Share-AI-Framework-Business-2282299237.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.212,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5242,
-      "feedPosition": 0.1111,
-      "novelty": 0.8382
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.291,
-    "storyId": "bdd2ea490a78966c76a4",
-    "doomIndex": 29.1,
+    "doomIndex": 29.24,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -1988,7 +1986,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0181,
+      "freshness": 0.018,
       "feedPosition": 0.6667,
       "novelty": 0.9595
     },
@@ -2009,6 +2007,37 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "The White House Is Keeping Its AI Cybersecurity Framework Secret",
+    "url": "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
+    "source": "WIRED AI",
+    "published": "2026-08-04T22:06:07.000Z",
+    "image": "https://media.wired.com/photos/6a7199c152cbcac31bc249b1/master/pass/Trump-Admin-Convenes-AI-Labs-to-Share-AI-Framework-Business-2282299237.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.212,
+      "sourceAuthority": 0.5,
+      "freshness": 0.521,
+      "feedPosition": 0.1111,
+      "novelty": 0.8382
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2905,
+    "storyId": "bdd2ea490a78966c76a4",
+    "doomIndex": 29.05,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
     "title": "Company Offering Printed Books to Train AI Stops After 404 Media Coverage",
     "url": "https://www.404media.co/ai-company-training-scanning-books-database-isbndb/",
     "source": "404 Media AI",
@@ -2019,7 +2048,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3,
       "sourceAuthority": 0.5,
-      "freshness": 0.0291,
+      "freshness": 0.029,
       "feedPosition": 0.6667,
       "novelty": 0.7389
     },
@@ -2050,7 +2079,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.2786,
+      "freshness": 0.2769,
       "feedPosition": 0.6667,
       "novelty": 0.714
     },
@@ -2058,9 +2087,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2784,
+    "score": 0.2781,
     "storyId": "4909137d46e5e3801e51",
-    "doomIndex": 27.84,
+    "doomIndex": 27.81,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2079,7 +2108,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.2621,
+      "freshness": 0.2605,
       "feedPosition": 0.4444,
       "novelty": 0.6788
     },
@@ -2089,9 +2118,67 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.277,
+    "score": 0.2768,
     "storyId": "b3989dcfb48ba9b056fe",
-    "doomIndex": 27.7,
+    "doomIndex": 27.68,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?",
+    "url": "https://techpolicy.press/eu-ai-act-transparency-rules-are-now-in-effect-was-it-a-missed-opportunity",
+    "source": "Tech Policy Press AI",
+    "published": "2026-08-03T12:42:27.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.206,
+      "feedPosition": 0.5556,
+      "novelty": 0.8277
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2726,
+    "storyId": "71963bd8f11efab80630",
+    "doomIndex": 27.26,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-04T11:44:58.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.03,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3908,
+      "feedPosition": 0.6667,
+      "novelty": 0.6519
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2715,
+    "storyId": "27d0fa2d620c8fe63fb4",
+    "doomIndex": 27.15,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2112,7 +2199,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.6667,
-      "novelty": 0.7828
+      "novelty": 0.7599
     },
     "rankingReasons": [
       "real-world consequences",
@@ -2120,67 +2207,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2729,
+    "score": 0.2706,
     "storyId": "99a74fa8e5c3257d2eab",
-    "doomIndex": 27.29,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?",
-    "url": "https://techpolicy.press/eu-ai-act-transparency-rules-are-now-in-effect-was-it-a-missed-opportunity",
-    "source": "Tech Policy Press AI",
-    "published": "2026-08-03T12:42:27.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2073,
-      "feedPosition": 0.5556,
-      "novelty": 0.8277
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2728,
-    "storyId": "71963bd8f11efab80630",
-    "doomIndex": 27.28,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T11:44:58.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.03,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3932,
-      "feedPosition": 0.6667,
-      "novelty": 0.6519
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2718,
-    "storyId": "27d0fa2d620c8fe63fb4",
-    "doomIndex": 27.18,
+    "doomIndex": 27.06,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2210,6 +2239,35 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "score": 0.2686,
     "storyId": "4b0b581f96fdff4b22f4",
     "doomIndex": 26.86,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Why Silicon Valley is divided over China’s powerful, cheap AI models",
+    "url": "https://restofworld.org/2026/silicon-valley-debate-chinese-open-weight-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World AI",
+    "published": "2026-08-03T10:00:00.000Z",
+    "image": "https://restofworld.org/wp-content/uploads/2026/07/illo_opensource_AI_divide_final-768x432.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1765,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1911,
+      "feedPosition": 0.75,
+      "novelty": 0.5139
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "recognizable entities"
+    ],
+    "score": 0.2654,
+    "storyId": "0d82654a28c9a1ecc602",
+    "doomIndex": 26.54,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2248,35 +2306,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Why Silicon Valley is divided over China’s powerful, cheap AI models",
-    "url": "https://restofworld.org/2026/silicon-valley-debate-chinese-open-weight-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "source": "Rest of World AI",
-    "published": "2026-08-03T10:00:00.000Z",
-    "image": "https://restofworld.org/wp-content/uploads/2026/07/illo_opensource_AI_divide_final-768x432.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1765,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1923,
-      "feedPosition": 0.75,
-      "novelty": 0.4941
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "recognizable entities"
-    ],
-    "score": 0.2636,
-    "storyId": "0d82654a28c9a1ecc602",
-    "doomIndex": 26.36,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
     "title": "Google's AI Governance Plan Draws the Boundaries of What Counts as Harm",
     "url": "https://techpolicy.press/googles-ai-governance-plan-draws-the-boundaries-of-what-counts-as-harm",
     "source": "Tech Policy Press AI",
@@ -2287,7 +2316,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.2143,
+      "freshness": 0.213,
       "feedPosition": 0.6667,
       "novelty": 0.5979
     },
@@ -2295,9 +2324,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.262,
+    "score": 0.2618,
     "storyId": "5123d402833e11dbd813",
-    "doomIndex": 26.2,
+    "doomIndex": 26.18,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2316,7 +2345,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.2032,
+      "freshness": 0.2019,
       "feedPosition": 0.5556,
       "novelty": 0.7286
     },
@@ -2324,9 +2353,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2619,
+    "score": 0.2617,
     "storyId": "ee09554dd596a6467291",
-    "doomIndex": 26.19,
+    "doomIndex": 26.17,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2345,7 +2374,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3851,
+      "freshness": 0.3827,
       "feedPosition": 0,
       "novelty": 1
     },
@@ -2354,9 +2383,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2612,
+    "score": 0.2608,
     "storyId": "12533673e7cd2af50f94",
-    "doomIndex": 26.12,
+    "doomIndex": 26.08,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2465,7 +2494,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.4648,
+      "freshness": 0.462,
       "feedPosition": 0,
       "novelty": 0.9191
     },
@@ -2473,9 +2502,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2577,
+    "score": 0.2573,
     "storyId": "8a853907275af03bba9e",
-    "doomIndex": 25.77,
+    "doomIndex": 25.73,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2523,7 +2552,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1545,
       "sourceAuthority": 0.5,
-      "freshness": 0.247,
+      "freshness": 0.2455,
       "feedPosition": 0.2222,
       "novelty": 0.9026
     },
@@ -2532,9 +2561,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2554,
+    "score": 0.2552,
     "storyId": "99cc6623e3862006e014",
-    "doomIndex": 25.54,
+    "doomIndex": 25.52,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2583,14 +2612,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1456,
+      "freshness": 0.1448,
       "feedPosition": 0.8571,
       "novelty": 0.6424
     },
     "rankingReasons": [],
-    "score": 0.2539,
+    "score": 0.2538,
     "storyId": "310ca79bd482dfe75ce8",
-    "doomIndex": 25.39,
+    "doomIndex": 25.38,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2609,7 +2638,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.2063,
+      "freshness": 0.205,
       "feedPosition": 0.4444,
       "novelty": 0.7467
     },
@@ -2617,9 +2646,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2531,
+    "score": 0.2529,
     "storyId": "f77f6388e84028731abf",
-    "doomIndex": 25.31,
+    "doomIndex": 25.29,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2638,7 +2667,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0308,
+      "freshness": 0.0306,
       "feedPosition": 0.7778,
       "novelty": 0.6624
     },
@@ -2668,7 +2697,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0153,
+      "freshness": 0.0152,
       "feedPosition": 0.5556,
       "novelty": 0.9026
     },
@@ -2698,7 +2727,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.2698,
+      "freshness": 0.2682,
       "feedPosition": 0.3333,
       "novelty": 0.7239
     },
@@ -2706,9 +2735,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2503,
+    "score": 0.25,
     "storyId": "4f796dafbd4abcc60284",
-    "doomIndex": 25.03,
+    "doomIndex": 25,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2727,16 +2756,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.22,
       "sourceAuthority": 0.5,
-      "freshness": 0.5055,
+      "freshness": 0.5024,
       "feedPosition": 0.1111,
       "novelty": 0.4286
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2488,
+    "score": 0.2483,
     "storyId": "30d8d6544d2f9c31bee1",
-    "doomIndex": 24.88,
+    "doomIndex": 24.83,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -2774,35 +2803,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
-    "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-04T20:05:26.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.11,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4957,
-      "feedPosition": 0,
-      "novelty": 0.7075
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2421,
-    "storyId": "066a3e5176b00d15fb96",
-    "doomIndex": 24.21,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
     "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
     "url": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
     "source": "MIT News AI",
@@ -2813,7 +2813,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3255,
       "sourceAuthority": 0.5,
-      "freshness": 0.0077,
+      "freshness": 0.0076,
       "feedPosition": 0.4444,
       "novelty": 0.5638
     },
@@ -2842,7 +2842,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0077,
+      "freshness": 0.0076,
       "feedPosition": 0.3333,
       "novelty": 0.7853
     },
@@ -2873,7 +2873,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0134,
+      "freshness": 0.0133,
       "feedPosition": 0.5,
       "novelty": 0.803
     },
@@ -2903,7 +2903,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0179,
+      "freshness": 0.0178,
       "feedPosition": 0.5556,
       "novelty": 0.8705
     },
@@ -2990,7 +2990,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.1125,
+      "freshness": 0.1118,
       "feedPosition": 0.4444,
       "novelty": 0.7234
     },
@@ -2998,9 +2998,40 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.23,
+    "score": 0.2298,
     "storyId": "ac687ef7f82db32ea218",
-    "doomIndex": 23,
+    "doomIndex": 22.98,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Is Open-Source AI Really the Dangerous Path?",
+    "url": "https://techpolicy.press/is-open-source-ai-really-the-dangerous-path",
+    "source": "Tech Policy Press AI",
+    "published": "2026-07-31T12:32:51.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.262,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0278,
+      "feedPosition": 0.2222,
+      "novelty": 0.7599
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2298,
+    "storyId": "c5158f5b4317cae01725",
+    "doomIndex": 22.98,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -3019,16 +3050,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5377,
+      "freshness": 0.5344,
       "feedPosition": 0,
       "novelty": 0.7417
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2298,
+    "score": 0.2293,
     "storyId": "dce97353e88c7ce99a01",
-    "doomIndex": 22.98,
+    "doomIndex": 22.93,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -3047,16 +3078,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.3459,
+      "freshness": 0.3438,
       "feedPosition": 0.3333,
       "novelty": 0.5405
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.2285,
+    "score": 0.2282,
     "storyId": "a6111a49c49141876249",
-    "doomIndex": 22.85,
+    "doomIndex": 22.82,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -3103,7 +3134,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.362,
       "sourceAuthority": 0.5,
-      "freshness": 0.0543,
+      "freshness": 0.054,
       "feedPosition": 0.1111,
       "novelty": 0.6097
     },
@@ -3123,29 +3154,26 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Is Open-Source AI Really the Dangerous Path?",
-    "url": "https://techpolicy.press/is-open-source-ai-really-the-dangerous-path",
-    "source": "Tech Policy Press AI",
-    "published": "2026-07-31T12:32:51.000Z",
-    "image": "",
+    "title": "Can we train AI to choose safety over speed?",
+    "url": "https://restofworld.org/2026/india-ai-extreme-weather/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World AI",
+    "published": "2026-07-31T13:00:00.000Z",
+    "image": "https://restofworld.org/wp-content/uploads/2026/07/GettyImages-2284107890-768x432.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.262,
+      "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.0279,
-      "feedPosition": 0.2222,
-      "novelty": 0.7243
+      "freshness": 0.0281,
+      "feedPosition": 0.625,
+      "novelty": 0.6332
     },
     "rankingReasons": [
-      "urgency or risk",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
+      "real-world consequences"
     ],
-    "score": 0.2262,
-    "storyId": "c5158f5b4317cae01725",
-    "doomIndex": 22.62,
+    "score": 0.227,
+    "storyId": "fc8e77ca21900429a094",
+    "doomIndex": 22.7,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -3164,7 +3192,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.0327,
+      "freshness": 0.0325,
       "feedPosition": 0.3333,
       "novelty": 0.6489
     },
@@ -3213,26 +3241,28 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Can we train AI to choose safety over speed?",
-    "url": "https://restofworld.org/2026/india-ai-extreme-weather/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "source": "Rest of World AI",
-    "published": "2026-07-31T13:00:00.000Z",
-    "image": "https://restofworld.org/wp-content/uploads/2026/07/GettyImages-2284107890-768x432.jpg",
+    "title": "2025 Open Science Recognition Prize by the American Geophysical Union",
+    "url": "https://science.nasa.gov/blogs/honors/2025/12/17/2025-open-science-recognition-prize-by-the-american-geophysical-union/",
+    "source": "NASA AI",
+    "published": "2025-12-17T13:58:42.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.11,
+      "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.0283,
-      "feedPosition": 0.625,
-      "novelty": 0.595
+      "freshness": 0,
+      "feedPosition": 0.2857,
+      "novelty": 0.8095
     },
     "rankingReasons": [
-      "real-world consequences"
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
     ],
-    "score": 0.2232,
-    "storyId": "fc8e77ca21900429a094",
-    "doomIndex": 22.32,
+    "score": 0.2225,
+    "storyId": "b4e9a7fe682def4d8954",
+    "doomIndex": 22.25,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -3280,7 +3310,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0655,
       "sourceAuthority": 0.5,
-      "freshness": 0.0197,
+      "freshness": 0.0196,
       "feedPosition": 0.7143,
       "novelty": 0.5906
     },
@@ -3306,7 +3336,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0152,
+      "freshness": 0.0151,
       "feedPosition": 0.4444,
       "novelty": 0.7077
     },
@@ -3318,36 +3348,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "score": 0.2209,
     "storyId": "1718c1d1a33f3d42236b",
     "doomIndex": 22.09,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "2025 Open Science Recognition Prize by the American Geophysical Union",
-    "url": "https://science.nasa.gov/blogs/honors/2025/12/17/2025-open-science-recognition-prize-by-the-american-geophysical-union/",
-    "source": "NASA AI",
-    "published": "2025-12-17T13:58:42.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.19,
-      "sourceAuthority": 0.5,
-      "freshness": 0,
-      "feedPosition": 0.2857,
-      "novelty": 0.7872
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2203,
-    "storyId": "b4e9a7fe682def4d8954",
-    "doomIndex": 22.03,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -3456,7 +3456,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.09,
       "sourceAuthority": 0.5,
-      "freshness": 0.0363,
+      "freshness": 0.0361,
       "feedPosition": 0.5,
       "novelty": 0.6893
     },
@@ -3464,9 +3464,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "unusual language in the current story batch"
     ],
-    "score": 0.2174,
+    "score": 0.2173,
     "storyId": "d6275509c39c66a9e985",
-    "doomIndex": 21.74,
+    "doomIndex": 21.73,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -3564,35 +3564,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "source": "VentureBeat AI",
-    "published": "2026-01-13T13:00:00.000Z",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&q=30",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1965,
-      "sourceAuthority": 0.5,
-      "freshness": 0,
-      "feedPosition": 0.3333,
-      "novelty": 0.6369
-    },
-    "rankingReasons": [
-      "conflict",
-      "recognizable entities"
-    ],
-    "score": 0.2113,
-    "storyId": "0d32aa6b6a8fd310bb9e",
-    "doomIndex": 21.13,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
     "title": "The OpenAI–Hugging Face Incident Demands Urgent Congressional Oversight",
     "url": "https://techpolicy.press/the-openai-hugging-face-incident-demands-urgent-congressional-oversight",
     "source": "Tech Policy Press AI",
@@ -3603,7 +3574,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.154,
       "sourceAuthority": 0.5,
-      "freshness": 0.0148,
+      "freshness": 0.0147,
       "feedPosition": 0.1111,
       "novelty": 0.9191
     },
@@ -3716,6 +3687,35 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+    "source": "VentureBeat AI",
+    "published": "2026-01-13T13:00:00.000Z",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&q=30",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1965,
+      "sourceAuthority": 0.5,
+      "freshness": 0,
+      "feedPosition": 0.3333,
+      "novelty": 0.6171
+    },
+    "rankingReasons": [
+      "conflict",
+      "recognizable entities"
+    ],
+    "score": 0.2093,
+    "storyId": "0d32aa6b6a8fd310bb9e",
+    "doomIndex": 20.93,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
     "title": "Working to automate nuclear plant operations",
     "url": "https://news.mit.edu/2026/working-automate-nuclear-plant-operations-lauren-fortier-0724",
     "source": "MIT News AI",
@@ -3754,7 +3754,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0069,
+      "freshness": 0.0068,
       "feedPosition": 0.375,
       "novelty": 0.8499
     },
@@ -3782,7 +3782,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.0357,
+      "freshness": 0.0354,
       "feedPosition": 0.3333,
       "novelty": 0.4748
     },
@@ -3791,9 +3791,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2036,
+    "score": 0.2035,
     "storyId": "b50e01688f45426a5b3a",
-    "doomIndex": 20.36,
+    "doomIndex": 20.35,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -3812,7 +3812,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0335,
+      "freshness": 0.0333,
       "feedPosition": 0.3333,
       "novelty": 0.6161
     },
@@ -3820,9 +3820,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2034,
+    "score": 0.2033,
     "storyId": "8783dace857ffb140a77",
-    "doomIndex": 20.34,
+    "doomIndex": 20.33,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -3986,7 +3986,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.1086,
+      "freshness": 0.1079,
       "feedPosition": 0.2222,
       "novelty": 0.6774
     },
@@ -3994,9 +3994,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.1953,
+    "score": 0.1952,
     "storyId": "383fcd903d7422fbb7fb",
-    "doomIndex": 19.53,
+    "doomIndex": 19.52,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -4015,16 +4015,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1656,
+      "freshness": 0.1645,
       "feedPosition": 0.1111,
       "novelty": 0.8285
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1938,
+    "score": 0.1936,
     "storyId": "b29b74d462a40d3c9e14",
-    "doomIndex": 19.38,
+    "doomIndex": 19.36,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -4210,36 +4210,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
-    "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-    "source": "VentureBeat AI",
-    "published": "2026-01-12T11:30:00.000Z",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&q=30",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1185,
-      "sourceAuthority": 0.5,
-      "freshness": 0,
-      "feedPosition": 0.1667,
-      "novelty": 0.7105
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1864,
-    "storyId": "157324a9612f0389d5d2",
-    "doomIndex": 18.64,
-    "doomIndexVersion": "1.1.1",
-    "doomIndexFormulaVersion": "1.0",
-    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-05T21:00:00.000Z"
-  },
-  {
-    "group": "ai",
     "title": "Giant waves are sweeping Mars’ atmosphere into space",
     "url": "https://www.sciencedaily.com/releases/2026/08/260801042816.htm",
     "source": "ScienceDaily Technology",
@@ -4250,16 +4220,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1634,
+      "freshness": 0.1624,
       "feedPosition": 0,
       "novelty": 0.7957
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1862,
+    "score": 0.186,
     "storyId": "7dda475bc07a83f5f782",
-    "doomIndex": 18.62,
+    "doomIndex": 18.6,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -4289,6 +4259,36 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "score": 0.1831,
     "storyId": "f58077692cdefc51b5a1",
     "doomIndex": 18.31,
+    "doomIndexVersion": "1.1.1",
+    "doomIndexFormulaVersion": "1.0",
+    "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-05T21:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+    "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+    "source": "VentureBeat AI",
+    "published": "2026-01-12T11:30:00.000Z",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&q=30",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1185,
+      "sourceAuthority": 0.5,
+      "freshness": 0,
+      "feedPosition": 0.1667,
+      "novelty": 0.6649
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1819,
+    "storyId": "157324a9612f0389d5d2",
+    "doomIndex": 18.19,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -4338,16 +4338,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0,
-      "novelty": 0.7453
+      "novelty": 0.7414
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1779,
+    "score": 0.1775,
     "storyId": "fe052daa70a8c4c9c72b",
-    "doomIndex": 17.79,
+    "doomIndex": 17.75,
     "doomIndexVersion": "1.1.1",
     "doomIndexFormulaVersion": "1.0",
     "doomIndexFormulaFingerprint": "d31f077f561d92ba2a05",
@@ -4452,7 +4452,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0206,
+      "freshness": 0.0204,
       "feedPosition": 0.1667,
       "novelty": 0.6877
     },
@@ -4563,7 +4563,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.161,
       "sourceAuthority": 0.5,
-      "freshness": 0.0356,
+      "freshness": 0.0354,
       "feedPosition": 0,
       "novelty": 0.4767
     },
@@ -4592,7 +4592,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0144,
+      "freshness": 0.0143,
       "feedPosition": 0,
       "novelty": 0.4783
     },

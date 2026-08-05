@@ -20,7 +20,7 @@
             "2026-08-05T18Z": 50.68,
             "2026-08-05T19Z": 50.23,
             "2026-08-05T21Z|1.0": {
-              "value": 49.75,
+              "value": 49.67,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -28,9 +28,9 @@
           },
           "open": 50.68,
           "high": 50.68,
-          "low": 49.75,
-          "close": 49.75,
-          "average": 50.22,
+          "low": 49.67,
+          "close": 49.67,
+          "average": 50.19,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -54,10 +54,10 @@
               "formulaVersion": "1.0",
               "open": 50.68,
               "high": 50.68,
-              "low": 49.75,
-              "close": 49.75,
-              "average": 50.22,
-              "scoreTotal": 150.66,
+              "low": 49.67,
+              "close": 49.67,
+              "average": 50.19,
+              "scoreTotal": 150.58,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -80,7 +80,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 150.66
+          "scoreTotal": 150.58
         }
       }
     },
@@ -99,7 +99,7 @@
             "2026-08-05T18Z": 50.56,
             "2026-08-05T19Z": 48.91,
             "2026-08-05T21Z|1.0": {
-              "value": 45.64,
+              "value": 45.56,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -107,9 +107,9 @@
           },
           "open": 50.56,
           "high": 50.56,
-          "low": 45.64,
-          "close": 45.64,
-          "average": 48.37,
+          "low": 45.56,
+          "close": 45.56,
+          "average": 48.34,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -134,10 +134,10 @@
               "formulaVersion": "1.0",
               "open": 50.56,
               "high": 50.56,
-              "low": 45.64,
-              "close": 45.64,
-              "average": 48.37,
-              "scoreTotal": 145.11,
+              "low": 45.56,
+              "close": 45.56,
+              "average": 48.34,
+              "scoreTotal": 145.03,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -161,7 +161,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 145.11
+          "scoreTotal": 145.03
         }
       }
     },
@@ -180,7 +180,7 @@
             "2026-08-05T18Z": 47,
             "2026-08-05T19Z": 45.45,
             "2026-08-05T21Z|1.0": {
-              "value": 42.74,
+              "value": 42.66,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -188,9 +188,9 @@
           },
           "open": 47,
           "high": 47,
-          "low": 42.74,
-          "close": 42.74,
-          "average": 45.06,
+          "low": 42.66,
+          "close": 42.66,
+          "average": 45.04,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -213,10 +213,10 @@
               "formulaVersion": "1.0",
               "open": 47,
               "high": 47,
-              "low": 42.74,
-              "close": 42.74,
-              "average": 45.06,
-              "scoreTotal": 135.19,
+              "low": 42.66,
+              "close": 42.66,
+              "average": 45.04,
+              "scoreTotal": 135.11,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -238,7 +238,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 135.19
+          "scoreTotal": 135.11
         }
       }
     },
@@ -257,7 +257,7 @@
             "2026-08-05T18Z": 46.12,
             "2026-08-05T19Z": 45.41,
             "2026-08-05T21Z|1.0": {
-              "value": 44.48,
+              "value": 44.41,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -265,9 +265,9 @@
           },
           "open": 46.12,
           "high": 46.12,
-          "low": 44.48,
-          "close": 44.48,
-          "average": 45.34,
+          "low": 44.41,
+          "close": 44.41,
+          "average": 45.31,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -291,10 +291,10 @@
               "formulaVersion": "1.0",
               "open": 46.12,
               "high": 46.12,
-              "low": 44.48,
-              "close": 44.48,
-              "average": 45.34,
-              "scoreTotal": 136.01,
+              "low": 44.41,
+              "close": 44.41,
+              "average": 45.31,
+              "scoreTotal": 135.94,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -317,7 +317,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 136.01
+          "scoreTotal": 135.94
         }
       }
     },
@@ -336,21 +336,21 @@
             "2026-08-05T18Z": 44.54,
             "2026-08-05T19Z": 42.93,
             "2026-08-05T21Z|1.0": {
-              "value": 45.59,
+              "value": 45.5,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
             }
           },
           "open": 44.54,
-          "high": 45.59,
+          "high": 45.5,
           "low": 42.93,
-          "close": 45.59,
-          "average": 44.35,
+          "close": 45.5,
+          "average": 44.32,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 45.59,
+          "peakSample": 45.5,
           "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "urgency or risk",
@@ -362,7 +362,7 @@
             "coverage": 0,
             "titleImpact": 0.382,
             "sourceAuthority": 0.5,
-            "freshness": 0.9237,
+            "freshness": 0.9181,
             "feedPosition": 0.8889,
             "novelty": 0.7702
           },
@@ -370,15 +370,15 @@
             "1.0": {
               "formulaVersion": "1.0",
               "open": 44.54,
-              "high": 45.59,
+              "high": 45.5,
               "low": 42.93,
-              "close": 45.59,
-              "average": 44.35,
-              "scoreTotal": 133.06,
+              "close": 45.5,
+              "average": 44.32,
+              "scoreTotal": 132.97,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 45.59,
+              "peakSample": 45.5,
               "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "urgency or risk",
@@ -390,7 +390,7 @@
                 "coverage": 0,
                 "titleImpact": 0.382,
                 "sourceAuthority": 0.5,
-                "freshness": 0.9237,
+                "freshness": 0.9181,
                 "feedPosition": 0.8889,
                 "novelty": 0.7702
               }
@@ -398,7 +398,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 133.06
+          "scoreTotal": 132.97
         }
       }
     },
@@ -417,7 +417,7 @@
             "2026-08-05T18Z": 44.52,
             "2026-08-05T19Z": 44.06,
             "2026-08-05T21Z|1.0": {
-              "value": 43.19,
+              "value": 43.12,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -425,9 +425,9 @@
           },
           "open": 44.52,
           "high": 44.52,
-          "low": 43.19,
-          "close": 43.19,
-          "average": 43.92,
+          "low": 43.12,
+          "close": 43.12,
+          "average": 43.9,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -452,10 +452,10 @@
               "formulaVersion": "1.0",
               "open": 44.52,
               "high": 44.52,
-              "low": 43.19,
-              "close": 43.19,
-              "average": 43.92,
-              "scoreTotal": 131.77,
+              "low": 43.12,
+              "close": 43.12,
+              "average": 43.9,
+              "scoreTotal": 131.7,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -479,7 +479,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 131.77
+          "scoreTotal": 131.7
         }
       }
     },
@@ -498,7 +498,7 @@
             "2026-08-05T18Z": 44,
             "2026-08-05T19Z": 43.51,
             "2026-08-05T21Z|1.0": {
-              "value": 42.98,
+              "value": 42.9,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -506,9 +506,9 @@
           },
           "open": 44,
           "high": 44,
-          "low": 42.98,
-          "close": 42.98,
-          "average": 43.5,
+          "low": 42.9,
+          "close": 42.9,
+          "average": 43.47,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -532,10 +532,10 @@
               "formulaVersion": "1.0",
               "open": 44,
               "high": 44,
-              "low": 42.98,
-              "close": 42.98,
-              "average": 43.5,
-              "scoreTotal": 130.49,
+              "low": 42.9,
+              "close": 42.9,
+              "average": 43.47,
+              "scoreTotal": 130.41,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -558,7 +558,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 130.49
+          "scoreTotal": 130.41
         }
       }
     },
@@ -577,7 +577,7 @@
             "2026-08-05T18Z": 42.58,
             "2026-08-05T19Z": 42.1,
             "2026-08-05T21Z|1.0": {
-              "value": 41.32,
+              "value": 41.23,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -585,9 +585,9 @@
           },
           "open": 42.58,
           "high": 42.58,
-          "low": 41.32,
-          "close": 41.32,
-          "average": 42,
+          "low": 41.23,
+          "close": 41.23,
+          "average": 41.97,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -610,10 +610,10 @@
               "formulaVersion": "1.0",
               "open": 42.58,
               "high": 42.58,
-              "low": 41.32,
-              "close": 41.32,
-              "average": 42,
-              "scoreTotal": 126,
+              "low": 41.23,
+              "close": 41.23,
+              "average": 41.97,
+              "scoreTotal": 125.91,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -635,7 +635,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 126
+          "scoreTotal": 125.91
         }
       }
     },
@@ -654,7 +654,7 @@
             "2026-08-05T18Z": 42.37,
             "2026-08-05T19Z": 40.8,
             "2026-08-05T21Z|1.0": {
-              "value": 39.46,
+              "value": 38.27,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -662,9 +662,9 @@
           },
           "open": 42.37,
           "high": 42.37,
-          "low": 39.46,
-          "close": 39.46,
-          "average": 40.88,
+          "low": 38.27,
+          "close": 38.27,
+          "average": 40.48,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -688,10 +688,10 @@
               "formulaVersion": "1.0",
               "open": 42.37,
               "high": 42.37,
-              "low": 39.46,
-              "close": 39.46,
-              "average": 40.88,
-              "scoreTotal": 122.63,
+              "low": 38.27,
+              "close": 38.27,
+              "average": 40.48,
+              "scoreTotal": 121.44,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -714,7 +714,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 122.63
+          "scoreTotal": 121.44
         }
       }
     },
@@ -733,7 +733,7 @@
             "2026-08-05T18Z": 42.01,
             "2026-08-05T19Z": 41.56,
             "2026-08-05T21Z|1.0": {
-              "value": 41.07,
+              "value": 40.67,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -741,9 +741,9 @@
           },
           "open": 42.01,
           "high": 42.01,
-          "low": 41.07,
-          "close": 41.07,
-          "average": 41.55,
+          "low": 40.67,
+          "close": 40.67,
+          "average": 41.41,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -768,10 +768,10 @@
               "formulaVersion": "1.0",
               "open": 42.01,
               "high": 42.01,
-              "low": 41.07,
-              "close": 41.07,
-              "average": 41.55,
-              "scoreTotal": 124.64,
+              "low": 40.67,
+              "close": 40.67,
+              "average": 41.41,
+              "scoreTotal": 124.24,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -795,7 +795,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 124.64
+          "scoreTotal": 124.24
         }
       }
     },
@@ -814,7 +814,7 @@
             "2026-08-05T18Z": 41.78,
             "2026-08-05T19Z": 40.19,
             "2026-08-05T21Z|1.0": {
-              "value": 39.67,
+              "value": 39.34,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -822,9 +822,9 @@
           },
           "open": 41.78,
           "high": 41.78,
-          "low": 39.67,
-          "close": 39.67,
-          "average": 40.55,
+          "low": 39.34,
+          "close": 39.34,
+          "average": 40.44,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -848,10 +848,10 @@
               "formulaVersion": "1.0",
               "open": 41.78,
               "high": 41.78,
-              "low": 39.67,
-              "close": 39.67,
-              "average": 40.55,
-              "scoreTotal": 121.64,
+              "low": 39.34,
+              "close": 39.34,
+              "average": 40.44,
+              "scoreTotal": 121.31,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -874,7 +874,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 121.64
+          "scoreTotal": 121.31
         }
       }
     },
@@ -893,7 +893,7 @@
             "2026-08-05T18Z": 41.51,
             "2026-08-05T19Z": 41.08,
             "2026-08-05T21Z|1.0": {
-              "value": 40.6,
+              "value": 40.93,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -901,9 +901,9 @@
           },
           "open": 41.51,
           "high": 41.51,
-          "low": 40.6,
-          "close": 40.6,
-          "average": 41.06,
+          "low": 40.93,
+          "close": 40.93,
+          "average": 41.17,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -928,10 +928,10 @@
               "formulaVersion": "1.0",
               "open": 41.51,
               "high": 41.51,
-              "low": 40.6,
-              "close": 40.6,
-              "average": 41.06,
-              "scoreTotal": 123.19,
+              "low": 40.93,
+              "close": 40.93,
+              "average": 41.17,
+              "scoreTotal": 123.52,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -955,7 +955,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 123.19
+          "scoreTotal": 123.52
         }
       }
     },
@@ -974,7 +974,7 @@
             "2026-08-05T18Z": 40.93,
             "2026-08-05T19Z": 39.07,
             "2026-08-05T21Z|1.0": {
-              "value": 38.45,
+              "value": 38.4,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -982,9 +982,9 @@
           },
           "open": 40.93,
           "high": 40.93,
-          "low": 38.45,
-          "close": 38.45,
-          "average": 39.48,
+          "low": 38.4,
+          "close": 38.4,
+          "average": 39.47,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1009,10 +1009,10 @@
               "formulaVersion": "1.0",
               "open": 40.93,
               "high": 40.93,
-              "low": 38.45,
-              "close": 38.45,
-              "average": 39.48,
-              "scoreTotal": 118.45,
+              "low": 38.4,
+              "close": 38.4,
+              "average": 39.47,
+              "scoreTotal": 118.4,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1036,7 +1036,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 118.45
+          "scoreTotal": 118.4
         }
       }
     },
@@ -1055,7 +1055,7 @@
             "2026-08-05T18Z": 40.64,
             "2026-08-05T19Z": 40.18,
             "2026-08-05T21Z|1.0": {
-              "value": 39.22,
+              "value": 39.34,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1063,9 +1063,9 @@
           },
           "open": 40.64,
           "high": 40.64,
-          "low": 39.22,
-          "close": 39.22,
-          "average": 40.01,
+          "low": 39.34,
+          "close": 39.34,
+          "average": 40.05,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1088,10 +1088,10 @@
               "formulaVersion": "1.0",
               "open": 40.64,
               "high": 40.64,
-              "low": 39.22,
-              "close": 39.22,
-              "average": 40.01,
-              "scoreTotal": 120.04,
+              "low": 39.34,
+              "close": 39.34,
+              "average": 40.05,
+              "scoreTotal": 120.16,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1113,7 +1113,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 120.04
+          "scoreTotal": 120.16
         }
       }
     },
@@ -1132,7 +1132,7 @@
             "2026-08-05T18Z": 40.07,
             "2026-08-05T19Z": 39.59,
             "2026-08-05T21Z|1.0": {
-              "value": 37.76,
+              "value": 37.69,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1140,9 +1140,9 @@
           },
           "open": 40.07,
           "high": 40.07,
-          "low": 37.76,
-          "close": 37.76,
-          "average": 39.14,
+          "low": 37.69,
+          "close": 37.69,
+          "average": 39.12,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1164,10 +1164,10 @@
               "formulaVersion": "1.0",
               "open": 40.07,
               "high": 40.07,
-              "low": 37.76,
-              "close": 37.76,
-              "average": 39.14,
-              "scoreTotal": 117.42,
+              "low": 37.69,
+              "close": 37.69,
+              "average": 39.12,
+              "scoreTotal": 117.35,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1188,7 +1188,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 117.42
+          "scoreTotal": 117.35
         }
       }
     },
@@ -1207,7 +1207,7 @@
             "2026-08-05T18Z": 39.35,
             "2026-08-05T19Z": 45.97,
             "2026-08-05T21Z|1.0": {
-              "value": 44.67,
+              "value": 44.59,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1216,8 +1216,8 @@
           "open": 39.35,
           "high": 45.97,
           "low": 39.35,
-          "close": 44.67,
-          "average": 43.33,
+          "close": 44.59,
+          "average": 43.3,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1242,9 +1242,9 @@
               "open": 39.35,
               "high": 45.97,
               "low": 39.35,
-              "close": 44.67,
-              "average": 43.33,
-              "scoreTotal": 129.99,
+              "close": 44.59,
+              "average": 43.3,
+              "scoreTotal": 129.91,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1267,7 +1267,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 129.99
+          "scoreTotal": 129.91
         }
       }
     },
@@ -1286,7 +1286,7 @@
             "2026-08-05T18Z": 39.03,
             "2026-08-05T19Z": 38.61,
             "2026-08-05T21Z|1.0": {
-              "value": 38.15,
+              "value": 38.08,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1294,9 +1294,9 @@
           },
           "open": 39.03,
           "high": 39.03,
-          "low": 38.15,
-          "close": 38.15,
-          "average": 38.6,
+          "low": 38.08,
+          "close": 38.08,
+          "average": 38.57,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1320,10 +1320,10 @@
               "formulaVersion": "1.0",
               "open": 39.03,
               "high": 39.03,
-              "low": 38.15,
-              "close": 38.15,
-              "average": 38.6,
-              "scoreTotal": 115.79,
+              "low": 38.08,
+              "close": 38.08,
+              "average": 38.57,
+              "scoreTotal": 115.72,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1346,7 +1346,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 115.79
+          "scoreTotal": 115.72
         }
       }
     },
@@ -1365,7 +1365,7 @@
             "2026-08-05T18Z": 38.7,
             "2026-08-05T19Z": 38.21,
             "2026-08-05T21Z|1.0": {
-              "value": 37.46,
+              "value": 37.63,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1373,9 +1373,9 @@
           },
           "open": 38.7,
           "high": 38.7,
-          "low": 37.46,
-          "close": 37.46,
-          "average": 38.12,
+          "low": 37.63,
+          "close": 37.63,
+          "average": 38.18,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1397,10 +1397,10 @@
               "formulaVersion": "1.0",
               "open": 38.7,
               "high": 38.7,
-              "low": 37.46,
-              "close": 37.46,
-              "average": 38.12,
-              "scoreTotal": 114.37,
+              "low": 37.63,
+              "close": 37.63,
+              "average": 38.18,
+              "scoreTotal": 114.54,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1421,7 +1421,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 114.37
+          "scoreTotal": 114.54
         }
       }
     },
@@ -1440,7 +1440,7 @@
             "2026-08-05T18Z": 38.52,
             "2026-08-05T19Z": 38.13,
             "2026-08-05T21Z|1.0": {
-              "value": 37.7,
+              "value": 37.63,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1448,9 +1448,9 @@
           },
           "open": 38.52,
           "high": 38.52,
-          "low": 37.7,
-          "close": 37.7,
-          "average": 38.12,
+          "low": 37.63,
+          "close": 37.63,
+          "average": 38.09,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1472,10 +1472,10 @@
               "formulaVersion": "1.0",
               "open": 38.52,
               "high": 38.52,
-              "low": 37.7,
-              "close": 37.7,
-              "average": 38.12,
-              "scoreTotal": 114.35,
+              "low": 37.63,
+              "close": 37.63,
+              "average": 38.09,
+              "scoreTotal": 114.28,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1496,7 +1496,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 114.35
+          "scoreTotal": 114.28
         }
       }
     },
@@ -1515,7 +1515,7 @@
             "2026-08-05T18Z": 38.17,
             "2026-08-05T19Z": 36.59,
             "2026-08-05T21Z|1.0": {
-              "value": 34.97,
+              "value": 33.52,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1523,9 +1523,9 @@
           },
           "open": 38.17,
           "high": 38.17,
-          "low": 34.97,
-          "close": 34.97,
-          "average": 36.58,
+          "low": 33.52,
+          "close": 33.52,
+          "average": 36.09,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1547,10 +1547,10 @@
               "formulaVersion": "1.0",
               "open": 38.17,
               "high": 38.17,
-              "low": 34.97,
-              "close": 34.97,
-              "average": 36.58,
-              "scoreTotal": 109.73,
+              "low": 33.52,
+              "close": 33.52,
+              "average": 36.09,
+              "scoreTotal": 108.28,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1571,7 +1571,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 109.73
+          "scoreTotal": 108.28
         }
       }
     },
@@ -1590,7 +1590,7 @@
             "2026-08-05T18Z": 38.06,
             "2026-08-05T19Z": 37.77,
             "2026-08-05T21Z|1.0": {
-              "value": 37.46,
+              "value": 37.41,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1598,9 +1598,9 @@
           },
           "open": 38.06,
           "high": 38.06,
-          "low": 37.46,
-          "close": 37.46,
-          "average": 37.76,
+          "low": 37.41,
+          "close": 37.41,
+          "average": 37.75,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1625,10 +1625,10 @@
               "formulaVersion": "1.0",
               "open": 38.06,
               "high": 38.06,
-              "low": 37.46,
-              "close": 37.46,
-              "average": 37.76,
-              "scoreTotal": 113.29,
+              "low": 37.41,
+              "close": 37.41,
+              "average": 37.75,
+              "scoreTotal": 113.24,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1652,7 +1652,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 113.29
+          "scoreTotal": 113.24
         }
       }
     },
@@ -1671,7 +1671,7 @@
             "2026-08-05T18Z": 38.05,
             "2026-08-05T19Z": 37.66,
             "2026-08-05T21Z|1.0": {
-              "value": 36.92,
+              "value": 36.86,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1679,9 +1679,9 @@
           },
           "open": 38.05,
           "high": 38.05,
-          "low": 36.92,
-          "close": 36.92,
-          "average": 37.54,
+          "low": 36.86,
+          "close": 36.86,
+          "average": 37.52,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1703,10 +1703,10 @@
               "formulaVersion": "1.0",
               "open": 38.05,
               "high": 38.05,
-              "low": 36.92,
-              "close": 36.92,
-              "average": 37.54,
-              "scoreTotal": 112.63,
+              "low": 36.86,
+              "close": 36.86,
+              "average": 37.52,
+              "scoreTotal": 112.57,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1727,7 +1727,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 112.63
+          "scoreTotal": 112.57
         }
       }
     },
@@ -1746,7 +1746,7 @@
             "2026-08-05T18Z": 37.87,
             "2026-08-05T19Z": 37.73,
             "2026-08-05T21Z|1.0": {
-              "value": 37.75,
+              "value": 37.7,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1754,9 +1754,9 @@
           },
           "open": 37.87,
           "high": 37.87,
-          "low": 37.73,
-          "close": 37.75,
-          "average": 37.78,
+          "low": 37.7,
+          "close": 37.7,
+          "average": 37.77,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1780,10 +1780,10 @@
               "formulaVersion": "1.0",
               "open": 37.87,
               "high": 37.87,
-              "low": 37.73,
-              "close": 37.75,
-              "average": 37.78,
-              "scoreTotal": 113.35,
+              "low": 37.7,
+              "close": 37.7,
+              "average": 37.77,
+              "scoreTotal": 113.3,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1806,7 +1806,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 113.35
+          "scoreTotal": 113.3
         }
       }
     },
@@ -1825,7 +1825,7 @@
             "2026-08-05T18Z": 37.6,
             "2026-08-05T19Z": 36.08,
             "2026-08-05T21Z|1.0": {
-              "value": 35.62,
+              "value": 35.55,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1833,9 +1833,9 @@
           },
           "open": 37.6,
           "high": 37.6,
-          "low": 35.62,
-          "close": 35.62,
-          "average": 36.43,
+          "low": 35.55,
+          "close": 35.55,
+          "average": 36.41,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1859,10 +1859,10 @@
               "formulaVersion": "1.0",
               "open": 37.6,
               "high": 37.6,
-              "low": 35.62,
-              "close": 35.62,
-              "average": 36.43,
-              "scoreTotal": 109.3,
+              "low": 35.55,
+              "close": 35.55,
+              "average": 36.41,
+              "scoreTotal": 109.23,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1885,7 +1885,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 109.3
+          "scoreTotal": 109.23
         }
       }
     },
@@ -1904,7 +1904,7 @@
             "2026-08-05T18Z": 37.35,
             "2026-08-05T19Z": 35.71,
             "2026-08-05T21Z|1.0": {
-              "value": 33.63,
+              "value": 32.44,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1912,9 +1912,9 @@
           },
           "open": 37.35,
           "high": 37.35,
-          "low": 33.63,
-          "close": 33.63,
-          "average": 35.56,
+          "low": 32.44,
+          "close": 32.44,
+          "average": 35.17,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1934,10 +1934,10 @@
               "formulaVersion": "1.0",
               "open": 37.35,
               "high": 37.35,
-              "low": 33.63,
-              "close": 33.63,
-              "average": 35.56,
-              "scoreTotal": 106.69,
+              "low": 32.44,
+              "close": 32.44,
+              "average": 35.17,
+              "scoreTotal": 105.5,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -1956,7 +1956,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 106.69
+          "scoreTotal": 105.5
         }
       }
     },
@@ -1975,7 +1975,7 @@
             "2026-08-05T18Z": 37.01,
             "2026-08-05T19Z": 36.62,
             "2026-08-05T21Z|1.0": {
-              "value": 35.96,
+              "value": 35.89,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -1983,9 +1983,9 @@
           },
           "open": 37.01,
           "high": 37.01,
-          "low": 35.96,
-          "close": 35.96,
-          "average": 36.53,
+          "low": 35.89,
+          "close": 35.89,
+          "average": 36.51,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2008,10 +2008,10 @@
               "formulaVersion": "1.0",
               "open": 37.01,
               "high": 37.01,
-              "low": 35.96,
-              "close": 35.96,
-              "average": 36.53,
-              "scoreTotal": 109.59,
+              "low": 35.89,
+              "close": 35.89,
+              "average": 36.51,
+              "scoreTotal": 109.52,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2033,7 +2033,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 109.59
+          "scoreTotal": 109.52
         }
       }
     },
@@ -2052,7 +2052,7 @@
             "2026-08-05T18Z": 36.73,
             "2026-08-05T19Z": 36.39,
             "2026-08-05T21Z|1.0": {
-              "value": 36.02,
+              "value": 35.96,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2060,9 +2060,9 @@
           },
           "open": 36.73,
           "high": 36.73,
-          "low": 36.02,
-          "close": 36.02,
-          "average": 36.38,
+          "low": 35.96,
+          "close": 35.96,
+          "average": 36.36,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2084,10 +2084,10 @@
               "formulaVersion": "1.0",
               "open": 36.73,
               "high": 36.73,
-              "low": 36.02,
-              "close": 36.02,
-              "average": 36.38,
-              "scoreTotal": 109.14,
+              "low": 35.96,
+              "close": 35.96,
+              "average": 36.36,
+              "scoreTotal": 109.08,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2108,7 +2108,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 109.14
+          "scoreTotal": 109.08
         }
       }
     },
@@ -2127,7 +2127,7 @@
             "2026-08-05T18Z": 36.67,
             "2026-08-05T19Z": 36,
             "2026-08-05T21Z|1.0": {
-              "value": 34.68,
+              "value": 34.6,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2135,9 +2135,9 @@
           },
           "open": 36.67,
           "high": 36.67,
-          "low": 34.68,
-          "close": 34.68,
-          "average": 35.78,
+          "low": 34.6,
+          "close": 34.6,
+          "average": 35.76,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2157,10 +2157,10 @@
               "formulaVersion": "1.0",
               "open": 36.67,
               "high": 36.67,
-              "low": 34.68,
-              "close": 34.68,
-              "average": 35.78,
-              "scoreTotal": 107.35,
+              "low": 34.6,
+              "close": 34.6,
+              "average": 35.76,
+              "scoreTotal": 107.27,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2179,7 +2179,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 107.35
+          "scoreTotal": 107.27
         }
       }
     },
@@ -2198,7 +2198,7 @@
             "2026-08-05T18Z": 36.47,
             "2026-08-05T19Z": 36,
             "2026-08-05T21Z|1.0": {
-              "value": 34.89,
+              "value": 34.82,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2206,9 +2206,9 @@
           },
           "open": 36.47,
           "high": 36.47,
-          "low": 34.89,
-          "close": 34.89,
-          "average": 35.79,
+          "low": 34.82,
+          "close": 34.82,
+          "average": 35.76,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2230,10 +2230,10 @@
               "formulaVersion": "1.0",
               "open": 36.47,
               "high": 36.47,
-              "low": 34.89,
-              "close": 34.89,
-              "average": 35.79,
-              "scoreTotal": 107.36,
+              "low": 34.82,
+              "close": 34.82,
+              "average": 35.76,
+              "scoreTotal": 107.29,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2254,7 +2254,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 107.36
+          "scoreTotal": 107.29
         }
       }
     },
@@ -2273,7 +2273,7 @@
             "2026-08-05T18Z": 36.46,
             "2026-08-05T19Z": 36.79,
             "2026-08-05T21Z|1.0": {
-              "value": 36.27,
+              "value": 36.18,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2281,9 +2281,9 @@
           },
           "open": 36.46,
           "high": 36.79,
-          "low": 36.27,
-          "close": 36.27,
-          "average": 36.51,
+          "low": 36.18,
+          "close": 36.18,
+          "average": 36.48,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2305,10 +2305,10 @@
               "formulaVersion": "1.0",
               "open": 36.46,
               "high": 36.79,
-              "low": 36.27,
-              "close": 36.27,
-              "average": 36.51,
-              "scoreTotal": 109.52,
+              "low": 36.18,
+              "close": 36.18,
+              "average": 36.48,
+              "scoreTotal": 109.43,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2329,7 +2329,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 109.52
+          "scoreTotal": 109.43
         }
       }
     },
@@ -2348,7 +2348,7 @@
             "2026-08-05T18Z": 36.19,
             "2026-08-05T19Z": 35.77,
             "2026-08-05T21Z|1.0": {
-              "value": 35.31,
+              "value": 35.24,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2356,9 +2356,9 @@
           },
           "open": 36.19,
           "high": 36.19,
-          "low": 35.31,
-          "close": 35.31,
-          "average": 35.76,
+          "low": 35.24,
+          "close": 35.24,
+          "average": 35.73,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2381,10 +2381,10 @@
               "formulaVersion": "1.0",
               "open": 36.19,
               "high": 36.19,
-              "low": 35.31,
-              "close": 35.31,
-              "average": 35.76,
-              "scoreTotal": 107.27,
+              "low": 35.24,
+              "close": 35.24,
+              "average": 35.73,
+              "scoreTotal": 107.2,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2406,7 +2406,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 107.27
+          "scoreTotal": 107.2
         }
       }
     },
@@ -2425,7 +2425,7 @@
             "2026-08-05T18Z": 35.94,
             "2026-08-05T19Z": 35.56,
             "2026-08-05T21Z|1.0": {
-              "value": 35.42,
+              "value": 35.4,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2433,9 +2433,9 @@
           },
           "open": 35.94,
           "high": 35.94,
-          "low": 35.42,
-          "close": 35.42,
-          "average": 35.64,
+          "low": 35.4,
+          "close": 35.4,
+          "average": 35.63,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2460,10 +2460,10 @@
               "formulaVersion": "1.0",
               "open": 35.94,
               "high": 35.94,
-              "low": 35.42,
-              "close": 35.42,
-              "average": 35.64,
-              "scoreTotal": 106.92,
+              "low": 35.4,
+              "close": 35.4,
+              "average": 35.63,
+              "scoreTotal": 106.9,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2487,7 +2487,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 106.92
+          "scoreTotal": 106.9
         }
       }
     },
@@ -2506,7 +2506,7 @@
             "2026-08-05T18Z": 35.85,
             "2026-08-05T19Z": 34.13,
             "2026-08-05T21Z|1.0": {
-              "value": 33.7,
+              "value": 33.64,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2514,9 +2514,9 @@
           },
           "open": 35.85,
           "high": 35.85,
-          "low": 33.7,
-          "close": 33.7,
-          "average": 34.56,
+          "low": 33.64,
+          "close": 33.64,
+          "average": 34.54,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2540,10 +2540,10 @@
               "formulaVersion": "1.0",
               "open": 35.85,
               "high": 35.85,
-              "low": 33.7,
-              "close": 33.7,
-              "average": 34.56,
-              "scoreTotal": 103.68,
+              "low": 33.64,
+              "close": 33.64,
+              "average": 34.54,
+              "scoreTotal": 103.62,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2566,7 +2566,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 103.68
+          "scoreTotal": 103.62
         }
       }
     },
@@ -2585,7 +2585,7 @@
             "2026-08-05T18Z": 35.59,
             "2026-08-05T19Z": 35.34,
             "2026-08-05T21Z|1.0": {
-              "value": 35.08,
+              "value": 35.04,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2593,9 +2593,9 @@
           },
           "open": 35.59,
           "high": 35.59,
-          "low": 35.08,
-          "close": 35.08,
-          "average": 35.34,
+          "low": 35.04,
+          "close": 35.04,
+          "average": 35.32,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2619,10 +2619,10 @@
               "formulaVersion": "1.0",
               "open": 35.59,
               "high": 35.59,
-              "low": 35.08,
-              "close": 35.08,
-              "average": 35.34,
-              "scoreTotal": 106.01,
+              "low": 35.04,
+              "close": 35.04,
+              "average": 35.32,
+              "scoreTotal": 105.97,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2645,7 +2645,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 106.01
+          "scoreTotal": 105.97
         }
       }
     },
@@ -2664,7 +2664,7 @@
             "2026-08-05T18Z": 35.41,
             "2026-08-05T19Z": 34.2,
             "2026-08-05T21Z|1.0": {
-              "value": 32.62,
+              "value": 31.43,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2672,9 +2672,9 @@
           },
           "open": 35.41,
           "high": 35.41,
-          "low": 32.62,
-          "close": 32.62,
-          "average": 34.08,
+          "low": 31.43,
+          "close": 31.43,
+          "average": 33.68,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2696,10 +2696,10 @@
               "formulaVersion": "1.0",
               "open": 35.41,
               "high": 35.41,
-              "low": 32.62,
-              "close": 32.62,
-              "average": 34.08,
-              "scoreTotal": 102.23,
+              "low": 31.43,
+              "close": 31.43,
+              "average": 33.68,
+              "scoreTotal": 101.04,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2720,7 +2720,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 102.23
+          "scoreTotal": 101.04
         }
       }
     },
@@ -2739,7 +2739,7 @@
             "2026-08-05T18Z": 35.31,
             "2026-08-05T19Z": 35.16,
             "2026-08-05T21Z|1.0": {
-              "value": 34.99,
+              "value": 34.96,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2747,9 +2747,9 @@
           },
           "open": 35.31,
           "high": 35.31,
-          "low": 34.99,
-          "close": 34.99,
-          "average": 35.15,
+          "low": 34.96,
+          "close": 34.96,
+          "average": 35.14,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2775,10 +2775,10 @@
               "formulaVersion": "1.0",
               "open": 35.31,
               "high": 35.31,
-              "low": 34.99,
-              "close": 34.99,
-              "average": 35.15,
-              "scoreTotal": 105.46,
+              "low": 34.96,
+              "close": 34.96,
+              "average": 35.14,
+              "scoreTotal": 105.43,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2803,7 +2803,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 105.46
+          "scoreTotal": 105.43
         }
       }
     },
@@ -2822,7 +2822,7 @@
             "2026-08-05T18Z": 35.15,
             "2026-08-05T19Z": 35,
             "2026-08-05T21Z|1.0": {
-              "value": 34.83,
+              "value": 34.8,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2830,9 +2830,9 @@
           },
           "open": 35.15,
           "high": 35.15,
-          "low": 34.83,
-          "close": 34.83,
-          "average": 34.99,
+          "low": 34.8,
+          "close": 34.8,
+          "average": 34.98,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2855,10 +2855,10 @@
               "formulaVersion": "1.0",
               "open": 35.15,
               "high": 35.15,
-              "low": 34.83,
-              "close": 34.83,
-              "average": 34.99,
-              "scoreTotal": 104.98,
+              "low": 34.8,
+              "close": 34.8,
+              "average": 34.98,
+              "scoreTotal": 104.95,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2880,7 +2880,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 104.98
+          "scoreTotal": 104.95
         }
       }
     },
@@ -2899,7 +2899,7 @@
             "2026-08-05T18Z": 35.01,
             "2026-08-05T19Z": 33.45,
             "2026-08-05T21Z|1.0": {
-              "value": 31.2,
+              "value": 30.01,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2907,9 +2907,9 @@
           },
           "open": 35.01,
           "high": 35.01,
-          "low": 31.2,
-          "close": 31.2,
-          "average": 33.22,
+          "low": 30.01,
+          "close": 30.01,
+          "average": 32.82,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2931,10 +2931,10 @@
               "formulaVersion": "1.0",
               "open": 35.01,
               "high": 35.01,
-              "low": 31.2,
-              "close": 31.2,
-              "average": 33.22,
-              "scoreTotal": 99.66,
+              "low": 30.01,
+              "close": 30.01,
+              "average": 32.82,
+              "scoreTotal": 98.47,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -2955,7 +2955,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 99.66
+          "scoreTotal": 98.47
         }
       }
     },
@@ -2974,7 +2974,7 @@
             "2026-08-05T18Z": 34.51,
             "2026-08-05T19Z": 33.04,
             "2026-08-05T21Z|1.0": {
-              "value": 32.63,
+              "value": 32.57,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -2982,9 +2982,9 @@
           },
           "open": 34.51,
           "high": 34.51,
-          "low": 32.63,
-          "close": 32.63,
-          "average": 33.39,
+          "low": 32.57,
+          "close": 32.57,
+          "average": 33.37,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3008,10 +3008,10 @@
               "formulaVersion": "1.0",
               "open": 34.51,
               "high": 34.51,
-              "low": 32.63,
-              "close": 32.63,
-              "average": 33.39,
-              "scoreTotal": 100.18,
+              "low": 32.57,
+              "close": 32.57,
+              "average": 33.37,
+              "scoreTotal": 100.12,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3034,7 +3034,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 100.18
+          "scoreTotal": 100.12
         }
       }
     },
@@ -3053,7 +3053,7 @@
             "2026-08-05T18Z": 34.3,
             "2026-08-05T19Z": 34.08,
             "2026-08-05T21Z|1.0": {
-              "value": 33.41,
+              "value": 33.34,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3061,9 +3061,9 @@
           },
           "open": 34.3,
           "high": 34.3,
-          "low": 33.41,
-          "close": 33.41,
-          "average": 33.93,
+          "low": 33.34,
+          "close": 33.34,
+          "average": 33.91,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3086,10 +3086,10 @@
               "formulaVersion": "1.0",
               "open": 34.3,
               "high": 34.3,
-              "low": 33.41,
-              "close": 33.41,
-              "average": 33.93,
-              "scoreTotal": 101.79,
+              "low": 33.34,
+              "close": 33.34,
+              "average": 33.91,
+              "scoreTotal": 101.72,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3111,7 +3111,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 101.79
+          "scoreTotal": 101.72
         }
       }
     },
@@ -3130,7 +3130,7 @@
             "2026-08-05T18Z": 34.29,
             "2026-08-05T19Z": 34.04,
             "2026-08-05T21Z|1.0": {
-              "value": 33.77,
+              "value": 34.01,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3138,9 +3138,9 @@
           },
           "open": 34.29,
           "high": 34.29,
-          "low": 33.77,
-          "close": 33.77,
-          "average": 34.03,
+          "low": 34.01,
+          "close": 34.01,
+          "average": 34.11,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3165,10 +3165,10 @@
               "formulaVersion": "1.0",
               "open": 34.29,
               "high": 34.29,
-              "low": 33.77,
-              "close": 33.77,
-              "average": 34.03,
-              "scoreTotal": 102.1,
+              "low": 34.01,
+              "close": 34.01,
+              "average": 34.11,
+              "scoreTotal": 102.34,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3192,7 +3192,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 102.1
+          "scoreTotal": 102.34
         }
       }
     },
@@ -3211,7 +3211,7 @@
             "2026-08-05T18Z": 34.15,
             "2026-08-05T19Z": 32.45,
             "2026-08-05T21Z|1.0": {
-              "value": 30.74,
+              "value": 29.56,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3219,9 +3219,9 @@
           },
           "open": 34.15,
           "high": 34.15,
-          "low": 30.74,
-          "close": 30.74,
-          "average": 32.45,
+          "low": 29.56,
+          "close": 29.56,
+          "average": 32.05,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3244,10 +3244,10 @@
               "formulaVersion": "1.0",
               "open": 34.15,
               "high": 34.15,
-              "low": 30.74,
-              "close": 30.74,
-              "average": 32.45,
-              "scoreTotal": 97.34,
+              "low": 29.56,
+              "close": 29.56,
+              "average": 32.05,
+              "scoreTotal": 96.16,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3269,7 +3269,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 97.34
+          "scoreTotal": 96.16
         }
       }
     },
@@ -3288,7 +3288,7 @@
             "2026-08-05T18Z": 33.83,
             "2026-08-05T19Z": 32.45,
             "2026-08-05T21Z|1.0": {
-              "value": 29.52,
+              "value": 29.47,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3296,9 +3296,9 @@
           },
           "open": 33.83,
           "high": 33.83,
-          "low": 29.52,
-          "close": 29.52,
-          "average": 31.93,
+          "low": 29.47,
+          "close": 29.47,
+          "average": 31.92,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3321,10 +3321,10 @@
               "formulaVersion": "1.0",
               "open": 33.83,
               "high": 33.83,
-              "low": 29.52,
-              "close": 29.52,
-              "average": 31.93,
-              "scoreTotal": 95.8,
+              "low": 29.47,
+              "close": 29.47,
+              "average": 31.92,
+              "scoreTotal": 95.75,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3346,7 +3346,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 95.8
+          "scoreTotal": 95.75
         }
       }
     },
@@ -3444,7 +3444,7 @@
             "2026-08-05T18Z": 33.38,
             "2026-08-05T19Z": 32.53,
             "2026-08-05T21Z|1.0": {
-              "value": 32.24,
+              "value": 32.2,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3452,9 +3452,9 @@
           },
           "open": 33.38,
           "high": 33.38,
-          "low": 32.24,
-          "close": 32.24,
-          "average": 32.72,
+          "low": 32.2,
+          "close": 32.2,
+          "average": 32.7,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3477,10 +3477,10 @@
               "formulaVersion": "1.0",
               "open": 33.38,
               "high": 33.38,
-              "low": 32.24,
-              "close": 32.24,
-              "average": 32.72,
-              "scoreTotal": 98.15,
+              "low": 32.2,
+              "close": 32.2,
+              "average": 32.7,
+              "scoreTotal": 98.11,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3502,7 +3502,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 98.15
+          "scoreTotal": 98.11
         }
       }
     },
@@ -3521,7 +3521,7 @@
             "2026-08-05T18Z": 33.26,
             "2026-08-05T19Z": 31.87,
             "2026-08-05T21Z|1.0": {
-              "value": 30.46,
+              "value": 29.3,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3529,9 +3529,9 @@
           },
           "open": 33.26,
           "high": 33.26,
-          "low": 30.46,
-          "close": 30.46,
-          "average": 31.86,
+          "low": 29.3,
+          "close": 29.3,
+          "average": 31.48,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3556,10 +3556,10 @@
               "formulaVersion": "1.0",
               "open": 33.26,
               "high": 33.26,
-              "low": 30.46,
-              "close": 30.46,
-              "average": 31.86,
-              "scoreTotal": 95.59,
+              "low": 29.3,
+              "close": 29.3,
+              "average": 31.48,
+              "scoreTotal": 94.43,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3583,7 +3583,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 95.59
+          "scoreTotal": 94.43
         }
       }
     },
@@ -3602,7 +3602,7 @@
             "2026-08-05T18Z": 33.04,
             "2026-08-05T19Z": 32.84,
             "2026-08-05T21Z|1.0": {
-              "value": 32.62,
+              "value": 32.59,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3610,9 +3610,9 @@
           },
           "open": 33.04,
           "high": 33.04,
-          "low": 32.62,
-          "close": 32.62,
-          "average": 32.83,
+          "low": 32.59,
+          "close": 32.59,
+          "average": 32.82,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3635,10 +3635,10 @@
               "formulaVersion": "1.0",
               "open": 33.04,
               "high": 33.04,
-              "low": 32.62,
-              "close": 32.62,
-              "average": 32.83,
-              "scoreTotal": 98.5,
+              "low": 32.59,
+              "close": 32.59,
+              "average": 32.82,
+              "scoreTotal": 98.47,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3660,7 +3660,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 98.5
+          "scoreTotal": 98.47
         }
       }
     },
@@ -3679,7 +3679,7 @@
             "2026-08-05T18Z": 33.03,
             "2026-08-05T19Z": 32.65,
             "2026-08-05T21Z|1.0": {
-              "value": 32.02,
+              "value": 31.96,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3687,9 +3687,9 @@
           },
           "open": 33.03,
           "high": 33.03,
-          "low": 32.02,
-          "close": 32.02,
-          "average": 32.57,
+          "low": 31.96,
+          "close": 31.96,
+          "average": 32.55,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3714,10 +3714,10 @@
               "formulaVersion": "1.0",
               "open": 33.03,
               "high": 33.03,
-              "low": 32.02,
-              "close": 32.02,
-              "average": 32.57,
-              "scoreTotal": 97.7,
+              "low": 31.96,
+              "close": 31.96,
+              "average": 32.55,
+              "scoreTotal": 97.64,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3741,7 +3741,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 97.7
+          "scoreTotal": 97.64
         }
       }
     },
@@ -3760,7 +3760,7 @@
             "2026-08-05T18Z": 32.88,
             "2026-08-05T19Z": 32.43,
             "2026-08-05T21Z|1.0": {
-              "value": 31.93,
+              "value": 31.86,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3768,9 +3768,9 @@
           },
           "open": 32.88,
           "high": 32.88,
-          "low": 31.93,
-          "close": 31.93,
-          "average": 32.41,
+          "low": 31.86,
+          "close": 31.86,
+          "average": 32.39,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3794,10 +3794,10 @@
               "formulaVersion": "1.0",
               "open": 32.88,
               "high": 32.88,
-              "low": 31.93,
-              "close": 31.93,
-              "average": 32.41,
-              "scoreTotal": 97.24,
+              "low": 31.86,
+              "close": 31.86,
+              "average": 32.39,
+              "scoreTotal": 97.17,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3820,7 +3820,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 97.24
+          "scoreTotal": 97.17
         }
       }
     },
@@ -3839,7 +3839,7 @@
             "2026-08-05T18Z": 32.63,
             "2026-08-05T19Z": 32.22,
             "2026-08-05T21Z|1.0": {
-              "value": 31.77,
+              "value": 31.7,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3847,9 +3847,9 @@
           },
           "open": 32.63,
           "high": 32.63,
-          "low": 31.77,
-          "close": 31.77,
-          "average": 32.21,
+          "low": 31.7,
+          "close": 31.7,
+          "average": 32.18,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3872,10 +3872,10 @@
               "formulaVersion": "1.0",
               "open": 32.63,
               "high": 32.63,
-              "low": 31.77,
-              "close": 31.77,
-              "average": 32.21,
-              "scoreTotal": 96.62,
+              "low": 31.7,
+              "close": 31.7,
+              "average": 32.18,
+              "scoreTotal": 96.55,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3897,7 +3897,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 96.62
+          "scoreTotal": 96.55
         }
       }
     },
@@ -3916,7 +3916,7 @@
             "2026-08-05T18Z": 32.23,
             "2026-08-05T19Z": 32.07,
             "2026-08-05T21Z|1.0": {
-              "value": 31.91,
+              "value": 31.88,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -3924,9 +3924,9 @@
           },
           "open": 32.23,
           "high": 32.23,
-          "low": 31.91,
-          "close": 31.91,
-          "average": 32.07,
+          "low": 31.88,
+          "close": 31.88,
+          "average": 32.06,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3951,10 +3951,10 @@
               "formulaVersion": "1.0",
               "open": 32.23,
               "high": 32.23,
-              "low": 31.91,
-              "close": 31.91,
-              "average": 32.07,
-              "scoreTotal": 96.21,
+              "low": 31.88,
+              "close": 31.88,
+              "average": 32.06,
+              "scoreTotal": 96.18,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -3978,7 +3978,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 96.21
+          "scoreTotal": 96.18
         }
       }
     },
@@ -3997,7 +3997,7 @@
             "2026-08-05T18Z": 32.13,
             "2026-08-05T19Z": 31.72,
             "2026-08-05T21Z|1.0": {
-              "value": 31.28,
+              "value": 31.21,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -4005,9 +4005,9 @@
           },
           "open": 32.13,
           "high": 32.13,
-          "low": 31.28,
-          "close": 31.28,
-          "average": 31.71,
+          "low": 31.21,
+          "close": 31.21,
+          "average": 31.69,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4029,10 +4029,10 @@
               "formulaVersion": "1.0",
               "open": 32.13,
               "high": 32.13,
-              "low": 31.28,
-              "close": 31.28,
-              "average": 31.71,
-              "scoreTotal": 95.13,
+              "low": 31.21,
+              "close": 31.21,
+              "average": 31.69,
+              "scoreTotal": 95.06,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4053,7 +4053,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 95.13
+          "scoreTotal": 95.06
         }
       }
     },
@@ -4072,7 +4072,7 @@
             "2026-08-05T18Z": 31.76,
             "2026-08-05T19Z": 31.55,
             "2026-08-05T21Z|1.0": {
-              "value": 31.33,
+              "value": 31.29,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -4080,9 +4080,9 @@
           },
           "open": 31.76,
           "high": 31.76,
-          "low": 31.33,
-          "close": 31.33,
-          "average": 31.55,
+          "low": 31.29,
+          "close": 31.29,
+          "average": 31.53,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4104,10 +4104,10 @@
               "formulaVersion": "1.0",
               "open": 31.76,
               "high": 31.76,
-              "low": 31.33,
-              "close": 31.33,
-              "average": 31.55,
-              "scoreTotal": 94.64,
+              "low": 31.29,
+              "close": 31.29,
+              "average": 31.53,
+              "scoreTotal": 94.6,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4128,7 +4128,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 94.64
+          "scoreTotal": 94.6
         }
       }
     },
@@ -4147,7 +4147,7 @@
             "2026-08-05T18Z": 31.47,
             "2026-08-05T19Z": 31.34,
             "2026-08-05T21Z|1.0": {
-              "value": 31.09,
+              "value": 31.07,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -4155,9 +4155,9 @@
           },
           "open": 31.47,
           "high": 31.47,
-          "low": 31.09,
-          "close": 31.09,
-          "average": 31.3,
+          "low": 31.07,
+          "close": 31.07,
+          "average": 31.29,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4182,10 +4182,10 @@
               "formulaVersion": "1.0",
               "open": 31.47,
               "high": 31.47,
-              "low": 31.09,
-              "close": 31.09,
-              "average": 31.3,
-              "scoreTotal": 93.9,
+              "low": 31.07,
+              "close": 31.07,
+              "average": 31.29,
+              "scoreTotal": 93.88,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4209,7 +4209,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 93.9
+          "scoreTotal": 93.88
         }
       }
     },
@@ -4228,7 +4228,7 @@
             "2026-08-05T18Z": 31.35,
             "2026-08-05T19Z": 29.95,
             "2026-08-05T21Z|1.0": {
-              "value": 29.1,
+              "value": 29.05,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -4236,9 +4236,9 @@
           },
           "open": 31.35,
           "high": 31.35,
-          "low": 29.1,
-          "close": 29.1,
-          "average": 30.13,
+          "low": 29.05,
+          "close": 29.05,
+          "average": 30.12,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4263,10 +4263,10 @@
               "formulaVersion": "1.0",
               "open": 31.35,
               "high": 31.35,
-              "low": 29.1,
-              "close": 29.1,
-              "average": 30.13,
-              "scoreTotal": 90.4,
+              "low": 29.05,
+              "close": 29.05,
+              "average": 30.12,
+              "scoreTotal": 90.35,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4290,7 +4290,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 90.4
+          "scoreTotal": 90.35
         }
       }
     },
@@ -4390,7 +4390,7 @@
             "2026-08-05T18Z": 30.6,
             "2026-08-05T19Z": 30.38,
             "2026-08-05T21Z|1.0": {
-              "value": 30.14,
+              "value": 30.1,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -4398,9 +4398,9 @@
           },
           "open": 30.6,
           "high": 30.6,
-          "low": 30.14,
-          "close": 30.14,
-          "average": 30.37,
+          "low": 30.1,
+          "close": 30.1,
+          "average": 30.36,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4422,10 +4422,10 @@
               "formulaVersion": "1.0",
               "open": 30.6,
               "high": 30.6,
-              "low": 30.14,
-              "close": 30.14,
-              "average": 30.37,
-              "scoreTotal": 91.12,
+              "low": 30.1,
+              "close": 30.1,
+              "average": 30.36,
+              "scoreTotal": 91.08,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4446,7 +4446,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 91.12
+          "scoreTotal": 91.08
         }
       }
     },
@@ -4465,7 +4465,7 @@
             "2026-08-05T18Z": 30.36,
             "2026-08-05T19Z": 29.7,
             "2026-08-05T21Z|1.0": {
-              "value": 29.3,
+              "value": 29.24,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -4473,9 +4473,9 @@
           },
           "open": 30.36,
           "high": 30.36,
-          "low": 29.3,
-          "close": 29.3,
-          "average": 29.79,
+          "low": 29.24,
+          "close": 29.24,
+          "average": 29.77,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4498,10 +4498,10 @@
               "formulaVersion": "1.0",
               "open": 30.36,
               "high": 30.36,
-              "low": 29.3,
-              "close": 29.3,
-              "average": 29.79,
-              "scoreTotal": 89.36,
+              "low": 29.24,
+              "close": 29.24,
+              "average": 29.77,
+              "scoreTotal": 89.3,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4523,7 +4523,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 89.36
+          "scoreTotal": 89.3
         }
       }
     },
@@ -4542,7 +4542,7 @@
             "2026-08-05T18Z": 30.05,
             "2026-08-05T19Z": 29.91,
             "2026-08-05T21Z|1.0": {
-              "value": 29.74,
+              "value": 29.72,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -4550,9 +4550,9 @@
           },
           "open": 30.05,
           "high": 30.05,
-          "low": 29.74,
-          "close": 29.74,
-          "average": 29.9,
+          "low": 29.72,
+          "close": 29.72,
+          "average": 29.89,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4577,10 +4577,10 @@
               "formulaVersion": "1.0",
               "open": 30.05,
               "high": 30.05,
-              "low": 29.74,
-              "close": 29.74,
-              "average": 29.9,
-              "scoreTotal": 89.7,
+              "low": 29.72,
+              "close": 29.72,
+              "average": 29.89,
+              "scoreTotal": 89.68,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4604,7 +4604,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 89.7
+          "scoreTotal": 89.68
         }
       }
     },
@@ -4623,7 +4623,7 @@
             "2026-08-05T18Z": 30.04,
             "2026-08-05T19Z": 29.76,
             "2026-08-05T21Z|1.0": {
-              "value": 29.37,
+              "value": 29.33,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -4631,9 +4631,9 @@
           },
           "open": 30.04,
           "high": 30.04,
-          "low": 29.37,
-          "close": 29.37,
-          "average": 29.72,
+          "low": 29.33,
+          "close": 29.33,
+          "average": 29.71,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4657,10 +4657,10 @@
               "formulaVersion": "1.0",
               "open": 30.04,
               "high": 30.04,
-              "low": 29.37,
-              "close": 29.37,
-              "average": 29.72,
-              "scoreTotal": 89.17,
+              "low": 29.33,
+              "close": 29.33,
+              "average": 29.71,
+              "scoreTotal": 89.13,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4683,7 +4683,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 89.17
+          "scoreTotal": 89.13
         }
       }
     },
@@ -4702,7 +4702,7 @@
             "2026-08-05T18Z": 29.16,
             "2026-08-05T19Z": 27.91,
             "2026-08-05T21Z|1.0": {
-              "value": 25.54,
+              "value": 25.52,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -4710,9 +4710,9 @@
           },
           "open": 29.16,
           "high": 29.16,
-          "low": 25.54,
-          "close": 25.54,
-          "average": 27.54,
+          "low": 25.52,
+          "close": 25.52,
+          "average": 27.53,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4736,10 +4736,10 @@
               "formulaVersion": "1.0",
               "open": 29.16,
               "high": 29.16,
-              "low": 25.54,
-              "close": 25.54,
-              "average": 27.54,
-              "scoreTotal": 82.61,
+              "low": 25.52,
+              "close": 25.52,
+              "average": 27.53,
+              "scoreTotal": 82.59,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4762,7 +4762,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 82.61
+          "scoreTotal": 82.59
         }
       }
     },
@@ -4862,7 +4862,7 @@
             "2026-08-05T18Z": 28.93,
             "2026-08-05T19Z": 27.41,
             "2026-08-05T21Z|1.0": {
-              "value": 25.03,
+              "value": 25,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -4870,9 +4870,9 @@
           },
           "open": 28.93,
           "high": 28.93,
-          "low": 25.03,
-          "close": 25.03,
-          "average": 27.12,
+          "low": 25,
+          "close": 25,
+          "average": 27.11,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4895,10 +4895,10 @@
               "formulaVersion": "1.0",
               "open": 28.93,
               "high": 28.93,
-              "low": 25.03,
-              "close": 25.03,
-              "average": 27.12,
-              "scoreTotal": 81.37,
+              "low": 25,
+              "close": 25,
+              "average": 27.11,
+              "scoreTotal": 81.34,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -4920,7 +4920,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 81.37
+          "scoreTotal": 81.34
         }
       }
     },
@@ -5062,7 +5062,7 @@
             "2026-08-05T18Z": 28,
             "2026-08-05T19Z": 27.86,
             "2026-08-05T21Z|1.0": {
-              "value": 27.7,
+              "value": 27.68,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -5070,8 +5070,8 @@
           },
           "open": 28,
           "high": 28,
-          "low": 27.7,
-          "close": 27.7,
+          "low": 27.68,
+          "close": 27.68,
           "average": 27.85,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
@@ -5097,10 +5097,10 @@
               "formulaVersion": "1.0",
               "open": 28,
               "high": 28,
-              "low": 27.7,
-              "close": 27.7,
+              "low": 27.68,
+              "close": 27.68,
               "average": 27.85,
-              "scoreTotal": 83.56,
+              "scoreTotal": 83.54,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -5124,7 +5124,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 83.56
+          "scoreTotal": 83.54
         }
       }
     },
@@ -5143,21 +5143,21 @@
             "2026-08-05T18Z": 27.69,
             "2026-08-05T19Z": 27.54,
             "2026-08-05T21Z|1.0": {
-              "value": 27.84,
+              "value": 27.81,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
             }
           },
           "open": 27.69,
-          "high": 27.84,
+          "high": 27.81,
           "low": 27.54,
-          "close": 27.84,
-          "average": 27.69,
+          "close": 27.81,
+          "average": 27.68,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 27.84,
+          "peakSample": 27.81,
           "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "surprise or reversal",
@@ -5167,7 +5167,7 @@
             "coverage": 0,
             "titleImpact": 0.1175,
             "sourceAuthority": 0.5,
-            "freshness": 0.2786,
+            "freshness": 0.2769,
             "feedPosition": 0.6667,
             "novelty": 0.714
           },
@@ -5175,15 +5175,15 @@
             "1.0": {
               "formulaVersion": "1.0",
               "open": 27.69,
-              "high": 27.84,
+              "high": 27.81,
               "low": 27.54,
-              "close": 27.84,
-              "average": 27.69,
-              "scoreTotal": 83.07,
+              "close": 27.81,
+              "average": 27.68,
+              "scoreTotal": 83.04,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 27.84,
+              "peakSample": 27.81,
               "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "surprise or reversal",
@@ -5193,7 +5193,7 @@
                 "coverage": 0,
                 "titleImpact": 0.1175,
                 "sourceAuthority": 0.5,
-                "freshness": 0.2786,
+                "freshness": 0.2769,
                 "feedPosition": 0.6667,
                 "novelty": 0.714
               }
@@ -5201,7 +5201,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 83.07
+          "scoreTotal": 83.04
         }
       }
     },
@@ -5220,7 +5220,7 @@
             "2026-08-05T18Z": 27.67,
             "2026-08-05T19Z": 26.35,
             "2026-08-05T21Z|1.0": {
-              "value": 26.12,
+              "value": 26.08,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -5228,9 +5228,9 @@
           },
           "open": 27.67,
           "high": 27.67,
-          "low": 26.12,
-          "close": 26.12,
-          "average": 26.71,
+          "low": 26.08,
+          "close": 26.08,
+          "average": 26.7,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -5254,10 +5254,10 @@
               "formulaVersion": "1.0",
               "open": 27.67,
               "high": 27.67,
-              "low": 26.12,
-              "close": 26.12,
-              "average": 26.71,
-              "scoreTotal": 80.14,
+              "low": 26.08,
+              "close": 26.08,
+              "average": 26.7,
+              "scoreTotal": 80.1,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -5280,7 +5280,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 80.14
+          "scoreTotal": 80.1
         }
       }
     },
@@ -5299,7 +5299,7 @@
             "2026-08-05T18Z": 27.63,
             "2026-08-05T19Z": 27.42,
             "2026-08-05T21Z|1.0": {
-              "value": 27.18,
+              "value": 27.15,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -5307,9 +5307,9 @@
           },
           "open": 27.63,
           "high": 27.63,
-          "low": 27.18,
-          "close": 27.18,
-          "average": 27.41,
+          "low": 27.15,
+          "close": 27.15,
+          "average": 27.4,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -5331,10 +5331,10 @@
               "formulaVersion": "1.0",
               "open": 27.63,
               "high": 27.63,
-              "low": 27.18,
-              "close": 27.18,
-              "average": 27.41,
-              "scoreTotal": 82.23,
+              "low": 27.15,
+              "close": 27.15,
+              "average": 27.4,
+              "scoreTotal": 82.2,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -5355,7 +5355,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 82.23
+          "scoreTotal": 82.2
         }
       }
     },
@@ -5374,7 +5374,7 @@
             "2026-08-05T18Z": 27.52,
             "2026-08-05T19Z": 27.41,
             "2026-08-05T21Z|1.0": {
-              "value": 27.28,
+              "value": 27.26,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -5382,8 +5382,8 @@
           },
           "open": 27.52,
           "high": 27.52,
-          "low": 27.28,
-          "close": 27.28,
+          "low": 27.26,
+          "close": 27.26,
           "average": 27.4,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
@@ -5408,10 +5408,10 @@
               "formulaVersion": "1.0",
               "open": 27.52,
               "high": 27.52,
-              "low": 27.28,
-              "close": 27.28,
+              "low": 27.26,
+              "close": 27.26,
               "average": 27.4,
-              "scoreTotal": 82.21,
+              "scoreTotal": 82.19,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -5434,7 +5434,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 82.21
+          "scoreTotal": 82.19
         }
       }
     },
@@ -5607,7 +5607,7 @@
             "2026-08-05T18Z": 26.8,
             "2026-08-05T19Z": 26.62,
             "2026-08-05T21Z|1.0": {
-              "value": 26.2,
+              "value": 26.18,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -5615,9 +5615,9 @@
           },
           "open": 26.8,
           "high": 26.8,
-          "low": 26.2,
-          "close": 26.2,
-          "average": 26.54,
+          "low": 26.18,
+          "close": 26.18,
+          "average": 26.53,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -5640,10 +5640,10 @@
               "formulaVersion": "1.0",
               "open": 26.8,
               "high": 26.8,
-              "low": 26.2,
-              "close": 26.2,
-              "average": 26.54,
-              "scoreTotal": 79.62,
+              "low": 26.18,
+              "close": 26.18,
+              "average": 26.53,
+              "scoreTotal": 79.6,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -5665,7 +5665,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 79.62
+          "scoreTotal": 79.6
         }
       }
     },
@@ -5765,21 +5765,21 @@
             "2026-08-05T18Z": 26.65,
             "2026-08-05T19Z": 26.88,
             "2026-08-05T21Z|1.0": {
-              "value": 27.29,
+              "value": 27.06,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
             }
           },
           "open": 26.65,
-          "high": 27.29,
+          "high": 27.06,
           "low": 26.65,
-          "close": 27.29,
-          "average": 26.94,
+          "close": 27.06,
+          "average": 26.86,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 27.29,
+          "peakSample": 27.06,
           "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "real-world consequences",
@@ -5793,21 +5793,21 @@
             "sourceAuthority": 0.5,
             "freshness": 0,
             "feedPosition": 0.6667,
-            "novelty": 0.7828
+            "novelty": 0.7599
           },
           "formulaSummaries": {
             "1.0": {
               "formulaVersion": "1.0",
               "open": 26.65,
-              "high": 27.29,
+              "high": 27.06,
               "low": 26.65,
-              "close": 27.29,
-              "average": 26.94,
-              "scoreTotal": 80.82,
+              "close": 27.06,
+              "average": 26.86,
+              "scoreTotal": 80.59,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 27.29,
+              "peakSample": 27.06,
               "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "real-world consequences",
@@ -5821,13 +5821,13 @@
                 "sourceAuthority": 0.5,
                 "freshness": 0,
                 "feedPosition": 0.6667,
-                "novelty": 0.7828
+                "novelty": 0.7599
               }
             }
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 80.82
+          "scoreTotal": 80.59
         }
       }
     },
@@ -5925,22 +5925,22 @@
             "2026-08-05T18Z": 26.41,
             "2026-08-05T19Z": 26.47,
             "2026-08-05T21Z|1.0": {
-              "value": 26.36,
+              "value": 26.54,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
             }
           },
           "open": 26.41,
-          "high": 26.47,
-          "low": 26.36,
-          "close": 26.36,
-          "average": 26.41,
+          "high": 26.54,
+          "low": 26.41,
+          "close": 26.54,
+          "average": 26.47,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 26.47,
-          "peakSampleHour": "2026-08-05T19Z",
+          "peakSample": 26.54,
+          "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "surprise or reversal",
             "recognizable entities"
@@ -5949,24 +5949,24 @@
             "coverage": 0,
             "titleImpact": 0.1765,
             "sourceAuthority": 0.5,
-            "freshness": 0.2,
+            "freshness": 0.1911,
             "feedPosition": 0.75,
-            "novelty": 0.4941
+            "novelty": 0.5139
           },
           "formulaSummaries": {
             "1.0": {
               "formulaVersion": "1.0",
               "open": 26.41,
-              "high": 26.47,
-              "low": 26.36,
-              "close": 26.36,
-              "average": 26.41,
-              "scoreTotal": 79.24,
+              "high": 26.54,
+              "low": 26.41,
+              "close": 26.54,
+              "average": 26.47,
+              "scoreTotal": 79.42,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 26.47,
-              "peakSampleHour": "2026-08-05T19Z",
+              "peakSample": 26.54,
+              "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "surprise or reversal",
                 "recognizable entities"
@@ -5975,15 +5975,15 @@
                 "coverage": 0,
                 "titleImpact": 0.1765,
                 "sourceAuthority": 0.5,
-                "freshness": 0.2,
+                "freshness": 0.1911,
                 "feedPosition": 0.75,
-                "novelty": 0.4941
+                "novelty": 0.5139
               }
             }
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 79.24
+          "scoreTotal": 79.42
         }
       }
     },
@@ -6002,7 +6002,7 @@
             "2026-08-05T18Z": 26.3,
             "2026-08-05T19Z": 26.05,
             "2026-08-05T21Z|1.0": {
-              "value": 25.77,
+              "value": 25.73,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -6010,9 +6010,9 @@
           },
           "open": 26.3,
           "high": 26.3,
-          "low": 25.77,
-          "close": 25.77,
-          "average": 26.04,
+          "low": 25.73,
+          "close": 25.73,
+          "average": 26.03,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -6035,10 +6035,10 @@
               "formulaVersion": "1.0",
               "open": 26.3,
               "high": 26.3,
-              "low": 25.77,
-              "close": 25.77,
-              "average": 26.04,
-              "scoreTotal": 78.12,
+              "low": 25.73,
+              "close": 25.73,
+              "average": 26.03,
+              "scoreTotal": 78.08,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -6060,7 +6060,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 78.12
+          "scoreTotal": 78.08
         }
       }
     },
@@ -6160,7 +6160,7 @@
             "2026-08-05T18Z": 26.13,
             "2026-08-05T19Z": 26.31,
             "2026-08-05T21Z|1.0": {
-              "value": 26.19,
+              "value": 26.17,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -6169,8 +6169,8 @@
           "open": 26.13,
           "high": 26.31,
           "low": 26.13,
-          "close": 26.19,
-          "average": 26.21,
+          "close": 26.17,
+          "average": 26.2,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -6194,9 +6194,9 @@
               "open": 26.13,
               "high": 26.31,
               "low": 26.13,
-              "close": 26.19,
-              "average": 26.21,
-              "scoreTotal": 78.63,
+              "close": 26.17,
+              "average": 26.2,
+              "scoreTotal": 78.61,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -6218,7 +6218,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 78.63
+          "scoreTotal": 78.61
         }
       }
     },
@@ -6395,7 +6395,7 @@
             "2026-08-05T18Z": 25.56,
             "2026-08-05T19Z": 25.76,
             "2026-08-05T21Z|1.0": {
-              "value": 25.39,
+              "value": 25.38,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -6403,8 +6403,8 @@
           },
           "open": 25.56,
           "high": 25.76,
-          "low": 25.39,
-          "close": 25.39,
+          "low": 25.38,
+          "close": 25.38,
           "average": 25.57,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
@@ -6427,10 +6427,10 @@
               "formulaVersion": "1.0",
               "open": 25.56,
               "high": 25.76,
-              "low": 25.39,
-              "close": 25.39,
+              "low": 25.38,
+              "close": 25.38,
               "average": 25.57,
-              "scoreTotal": 76.71,
+              "scoreTotal": 76.7,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -6451,7 +6451,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 76.71
+          "scoreTotal": 76.7
         }
       }
     },
@@ -6588,7 +6588,7 @@
             "2026-08-05T18Z": 25.46,
             "2026-08-05T19Z": 25.18,
             "2026-08-05T21Z|1.0": {
-              "value": 24.88,
+              "value": 24.83,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -6596,9 +6596,9 @@
           },
           "open": 25.46,
           "high": 25.46,
-          "low": 24.88,
-          "close": 24.88,
-          "average": 25.17,
+          "low": 24.83,
+          "close": 24.83,
+          "average": 25.16,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -6620,10 +6620,10 @@
               "formulaVersion": "1.0",
               "open": 25.46,
               "high": 25.46,
-              "low": 24.88,
-              "close": 24.88,
-              "average": 25.17,
-              "scoreTotal": 75.52,
+              "low": 24.83,
+              "close": 24.83,
+              "average": 25.16,
+              "scoreTotal": 75.47,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -6644,7 +6644,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 75.52
+          "scoreTotal": 75.47
         }
       }
     },
@@ -6663,7 +6663,7 @@
             "2026-08-05T18Z": 25.26,
             "2026-08-05T19Z": 25.43,
             "2026-08-05T21Z|1.0": {
-              "value": 25.31,
+              "value": 25.29,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -6672,7 +6672,7 @@
           "open": 25.26,
           "high": 25.43,
           "low": 25.26,
-          "close": 25.31,
+          "close": 25.29,
           "average": 25.33,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
@@ -6697,9 +6697,9 @@
               "open": 25.26,
               "high": 25.43,
               "low": 25.26,
-              "close": 25.31,
+              "close": 25.29,
               "average": 25.33,
-              "scoreTotal": 76,
+              "scoreTotal": 75.98,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -6721,7 +6721,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 76
+          "scoreTotal": 75.98
         }
       }
     },
@@ -6844,7 +6844,7 @@
             "coverage": 0,
             "titleImpact": 0.142,
             "sourceAuthority": 0.5,
-            "freshness": 0.0308,
+            "freshness": 0.0306,
             "feedPosition": 0.7778,
             "novelty": 0.6624
           },
@@ -6871,7 +6871,7 @@
                 "coverage": 0,
                 "titleImpact": 0.142,
                 "sourceAuthority": 0.5,
-                "freshness": 0.0308,
+                "freshness": 0.0306,
                 "feedPosition": 0.7778,
                 "novelty": 0.6624
               }
@@ -7410,7 +7410,7 @@
             "2026-08-05T18Z": 23.46,
             "2026-08-05T19Z": 23.47,
             "2026-08-05T21Z|1.0": {
-              "value": 22.98,
+              "value": 22.93,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -7418,9 +7418,9 @@
           },
           "open": 23.46,
           "high": 23.47,
-          "low": 22.98,
-          "close": 22.98,
-          "average": 23.3,
+          "low": 22.93,
+          "close": 22.93,
+          "average": 23.29,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -7442,10 +7442,10 @@
               "formulaVersion": "1.0",
               "open": 23.46,
               "high": 23.47,
-              "low": 22.98,
-              "close": 22.98,
-              "average": 23.3,
-              "scoreTotal": 69.91,
+              "low": 22.93,
+              "close": 22.93,
+              "average": 23.29,
+              "scoreTotal": 69.86,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -7466,7 +7466,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 69.91
+          "scoreTotal": 69.86
         }
       }
     },
@@ -7600,7 +7600,7 @@
             "2026-08-05T18Z": 23.3,
             "2026-08-05T19Z": 22.64,
             "2026-08-05T21Z|1.0": {
-              "value": 22.62,
+              "value": 22.98,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -7608,9 +7608,9 @@
           },
           "open": 23.3,
           "high": 23.3,
-          "low": 22.62,
-          "close": 22.62,
-          "average": 22.85,
+          "low": 22.64,
+          "close": 22.98,
+          "average": 22.97,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -7635,10 +7635,10 @@
               "formulaVersion": "1.0",
               "open": 23.3,
               "high": 23.3,
-              "low": 22.62,
-              "close": 22.62,
-              "average": 22.85,
-              "scoreTotal": 68.56,
+              "low": 22.64,
+              "close": 22.98,
+              "average": 22.97,
+              "scoreTotal": 68.92,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -7662,7 +7662,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 68.56
+          "scoreTotal": 68.92
         }
       }
     },
@@ -7681,7 +7681,7 @@
             "2026-08-05T18Z": 23.12,
             "2026-08-05T19Z": 23.06,
             "2026-08-05T21Z|1.0": {
-              "value": 23,
+              "value": 22.98,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -7689,9 +7689,9 @@
           },
           "open": 23.12,
           "high": 23.12,
-          "low": 23,
-          "close": 23,
-          "average": 23.06,
+          "low": 22.98,
+          "close": 22.98,
+          "average": 23.05,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -7714,10 +7714,10 @@
               "formulaVersion": "1.0",
               "open": 23.12,
               "high": 23.12,
-              "low": 23,
-              "close": 23,
-              "average": 23.06,
-              "scoreTotal": 69.18,
+              "low": 22.98,
+              "close": 22.98,
+              "average": 23.05,
+              "scoreTotal": 69.16,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -7739,7 +7739,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 69.18
+          "scoreTotal": 69.16
         }
       }
     },
@@ -7833,7 +7833,7 @@
             "2026-08-05T18Z": 22.8,
             "2026-08-05T19Z": 22.55,
             "2026-08-05T21Z|1.0": {
-              "value": 22.32,
+              "value": 22.7,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -7841,9 +7841,9 @@
           },
           "open": 22.8,
           "high": 22.8,
-          "low": 22.32,
-          "close": 22.32,
-          "average": 22.56,
+          "low": 22.55,
+          "close": 22.7,
+          "average": 22.68,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -7865,10 +7865,10 @@
               "formulaVersion": "1.0",
               "open": 22.8,
               "high": 22.8,
-              "low": 22.32,
-              "close": 22.32,
-              "average": 22.56,
-              "scoreTotal": 67.67,
+              "low": 22.55,
+              "close": 22.7,
+              "average": 22.68,
+              "scoreTotal": 68.05,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -7889,7 +7889,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 67.67
+          "scoreTotal": 68.05
         }
       }
     },
@@ -7987,21 +7987,21 @@
             "2026-08-05T18Z": 22.57,
             "2026-08-05T19Z": 22.8,
             "2026-08-05T21Z|1.0": {
-              "value": 22.85,
+              "value": 22.82,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
             }
           },
           "open": 22.57,
-          "high": 22.85,
+          "high": 22.82,
           "low": 22.57,
-          "close": 22.85,
-          "average": 22.74,
+          "close": 22.82,
+          "average": 22.73,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 22.85,
+          "peakSample": 22.82,
           "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "recognizable entities"
@@ -8010,7 +8010,7 @@
             "coverage": 0,
             "titleImpact": 0.071,
             "sourceAuthority": 0.5,
-            "freshness": 0.3459,
+            "freshness": 0.3438,
             "feedPosition": 0.3333,
             "novelty": 0.5405
           },
@@ -8018,15 +8018,15 @@
             "1.0": {
               "formulaVersion": "1.0",
               "open": 22.57,
-              "high": 22.85,
+              "high": 22.82,
               "low": 22.57,
-              "close": 22.85,
-              "average": 22.74,
-              "scoreTotal": 68.22,
+              "close": 22.82,
+              "average": 22.73,
+              "scoreTotal": 68.19,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 22.85,
+              "peakSample": 22.82,
               "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "recognizable entities"
@@ -8035,7 +8035,7 @@
                 "coverage": 0,
                 "titleImpact": 0.071,
                 "sourceAuthority": 0.5,
-                "freshness": 0.3459,
+                "freshness": 0.3438,
                 "feedPosition": 0.3333,
                 "novelty": 0.5405
               }
@@ -8043,7 +8043,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 68.22
+          "scoreTotal": 68.19
         }
       }
     },
@@ -8133,7 +8133,7 @@
             "2026-08-05T18Z": 22.41,
             "2026-08-05T19Z": 21.98,
             "2026-08-05T21Z|1.0": {
-              "value": 21.74,
+              "value": 21.73,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -8141,8 +8141,8 @@
           },
           "open": 22.41,
           "high": 22.41,
-          "low": 21.74,
-          "close": 21.74,
+          "low": 21.73,
+          "close": 21.73,
           "average": 22.04,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
@@ -8166,10 +8166,10 @@
               "formulaVersion": "1.0",
               "open": 22.41,
               "high": 22.41,
-              "low": 21.74,
-              "close": 21.74,
+              "low": 21.73,
+              "close": 21.73,
               "average": 22.04,
-              "scoreTotal": 66.13,
+              "scoreTotal": 66.12,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -8191,7 +8191,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 66.13
+          "scoreTotal": 66.12
         }
       }
     },
@@ -8445,22 +8445,22 @@
             "2026-08-05T18Z": 22.03,
             "2026-08-05T19Z": 22.03,
             "2026-08-05T21Z|1.0": {
-              "value": 22.03,
+              "value": 22.25,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
             }
           },
           "open": 22.03,
-          "high": 22.03,
+          "high": 22.25,
           "low": 22.03,
-          "close": 22.03,
-          "average": 22.03,
+          "close": 22.25,
+          "average": 22.1,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 22.03,
-          "peakSampleHour": "2026-08-05T18Z",
+          "peakSample": 22.25,
+          "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "specific details",
             "recognizable entities",
@@ -8472,22 +8472,22 @@
             "sourceAuthority": 0.5,
             "freshness": 0,
             "feedPosition": 0.2857,
-            "novelty": 0.7872
+            "novelty": 0.8095
           },
           "formulaSummaries": {
             "1.0": {
               "formulaVersion": "1.0",
               "open": 22.03,
-              "high": 22.03,
+              "high": 22.25,
               "low": 22.03,
-              "close": 22.03,
-              "average": 22.03,
-              "scoreTotal": 66.09,
+              "close": 22.25,
+              "average": 22.1,
+              "scoreTotal": 66.31,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 22.03,
-              "peakSampleHour": "2026-08-05T18Z",
+              "peakSample": 22.25,
+              "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "specific details",
                 "recognizable entities",
@@ -8499,13 +8499,13 @@
                 "sourceAuthority": 0.5,
                 "freshness": 0,
                 "feedPosition": 0.2857,
-                "novelty": 0.7872
+                "novelty": 0.8095
               }
             }
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 66.09
+          "scoreTotal": 66.31
         }
       }
     },
@@ -8682,7 +8682,7 @@
             "2026-08-05T18Z": 21.45,
             "2026-08-05T19Z": 21.39,
             "2026-08-05T21Z|1.0": {
-              "value": 21.13,
+              "value": 20.93,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -8690,9 +8690,9 @@
           },
           "open": 21.45,
           "high": 21.45,
-          "low": 21.13,
-          "close": 21.13,
-          "average": 21.32,
+          "low": 20.93,
+          "close": 20.93,
+          "average": 21.26,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -8716,10 +8716,10 @@
               "formulaVersion": "1.0",
               "open": 21.45,
               "high": 21.45,
-              "low": 21.13,
-              "close": 21.13,
-              "average": 21.32,
-              "scoreTotal": 63.97,
+              "low": 20.93,
+              "close": 20.93,
+              "average": 21.26,
+              "scoreTotal": 63.77,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -8742,7 +8742,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 63.97
+          "scoreTotal": 63.77
         }
       }
     },
@@ -9237,7 +9237,7 @@
             "2026-08-05T18Z": 20.83,
             "2026-08-05T19Z": 20.75,
             "2026-08-05T21Z|1.0": {
-              "value": 20.36,
+              "value": 20.35,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -9245,9 +9245,9 @@
           },
           "open": 20.83,
           "high": 20.83,
-          "low": 20.36,
-          "close": 20.36,
-          "average": 20.65,
+          "low": 20.35,
+          "close": 20.35,
+          "average": 20.64,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -9271,10 +9271,10 @@
               "formulaVersion": "1.0",
               "open": 20.83,
               "high": 20.83,
-              "low": 20.36,
-              "close": 20.36,
-              "average": 20.65,
-              "scoreTotal": 61.94,
+              "low": 20.35,
+              "close": 20.35,
+              "average": 20.64,
+              "scoreTotal": 61.93,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -9297,7 +9297,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 61.94
+          "scoreTotal": 61.93
         }
       }
     },
@@ -9543,7 +9543,7 @@
             "2026-08-05T18Z": 20.19,
             "2026-08-05T19Z": 20.36,
             "2026-08-05T21Z|1.0": {
-              "value": 20.34,
+              "value": 20.33,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -9552,8 +9552,8 @@
           "open": 20.19,
           "high": 20.36,
           "low": 20.19,
-          "close": 20.34,
-          "average": 20.3,
+          "close": 20.33,
+          "average": 20.29,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -9577,9 +9577,9 @@
               "open": 20.19,
               "high": 20.36,
               "low": 20.19,
-              "close": 20.34,
-              "average": 20.3,
-              "scoreTotal": 60.89,
+              "close": 20.33,
+              "average": 20.29,
+              "scoreTotal": 60.88,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -9601,7 +9601,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 60.89
+          "scoreTotal": 60.88
         }
       }
     },
@@ -9778,7 +9778,7 @@
             "2026-08-05T18Z": 19.65,
             "2026-08-05T19Z": 19.59,
             "2026-08-05T21Z|1.0": {
-              "value": 19.53,
+              "value": 19.52,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -9786,8 +9786,8 @@
           },
           "open": 19.65,
           "high": 19.65,
-          "low": 19.53,
-          "close": 19.53,
+          "low": 19.52,
+          "close": 19.52,
           "average": 19.59,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
@@ -9811,10 +9811,10 @@
               "formulaVersion": "1.0",
               "open": 19.65,
               "high": 19.65,
-              "low": 19.53,
-              "close": 19.53,
+              "low": 19.52,
+              "close": 19.52,
               "average": 19.59,
-              "scoreTotal": 58.77,
+              "scoreTotal": 58.76,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -9836,7 +9836,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 58.77
+          "scoreTotal": 58.76
         }
       }
     },
@@ -9930,7 +9930,7 @@
             "2026-08-05T18Z": 19.57,
             "2026-08-05T19Z": 19.48,
             "2026-08-05T21Z|1.0": {
-              "value": 19.38,
+              "value": 19.36,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -9938,9 +9938,9 @@
           },
           "open": 19.57,
           "high": 19.57,
-          "low": 19.38,
-          "close": 19.38,
-          "average": 19.48,
+          "low": 19.36,
+          "close": 19.36,
+          "average": 19.47,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -9962,10 +9962,10 @@
               "formulaVersion": "1.0",
               "open": 19.57,
               "high": 19.57,
-              "low": 19.38,
-              "close": 19.38,
-              "average": 19.48,
-              "scoreTotal": 58.43,
+              "low": 19.36,
+              "close": 19.36,
+              "average": 19.47,
+              "scoreTotal": 58.41,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -9986,7 +9986,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 58.43
+          "scoreTotal": 58.41
         }
       }
     },
@@ -10159,7 +10159,7 @@
             "2026-08-05T18Z": 18.8,
             "2026-08-05T19Z": 18.71,
             "2026-08-05T21Z|1.0": {
-              "value": 18.62,
+              "value": 18.6,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -10167,9 +10167,9 @@
           },
           "open": 18.8,
           "high": 18.8,
-          "low": 18.62,
-          "close": 18.62,
-          "average": 18.71,
+          "low": 18.6,
+          "close": 18.6,
+          "average": 18.7,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -10191,10 +10191,10 @@
               "formulaVersion": "1.0",
               "open": 18.8,
               "high": 18.8,
-              "low": 18.62,
-              "close": 18.62,
-              "average": 18.71,
-              "scoreTotal": 56.13,
+              "low": 18.6,
+              "close": 18.6,
+              "average": 18.7,
+              "scoreTotal": 56.11,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -10215,7 +10215,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 56.13
+          "scoreTotal": 56.11
         }
       }
     },
@@ -10313,67 +10313,45 @@
             "2026-08-05T18Z": 18.61,
             "2026-08-05T19Z": 18.61,
             "2026-08-05T21Z|1.0": {
-              "value": 18.64,
+              "value": 18.19,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
             }
           },
           "open": 18.61,
-          "high": 18.64,
-          "low": 18.61,
-          "close": 18.64,
-          "average": 18.62,
+          "high": 18.61,
+          "low": 18.19,
+          "close": 18.19,
+          "average": 18.47,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 18.64,
-          "peakSampleHour": "2026-08-05T21Z|1.0",
-          "peakReasons": [
-            "specific details",
-            "recognizable entities",
-            "unusual language in the current story batch"
-          ],
-          "peakRanking": {
-            "coverage": 0,
-            "titleImpact": 0.1185,
-            "sourceAuthority": 0.5,
-            "freshness": 0,
-            "feedPosition": 0.1667,
-            "novelty": 0.7105
-          },
+          "peakSample": 18.61,
+          "peakSampleHour": "2026-08-05T18Z",
+          "peakReasons": [],
+          "peakRanking": {},
           "formulaSummaries": {
             "1.0": {
               "formulaVersion": "1.0",
               "open": 18.61,
-              "high": 18.64,
-              "low": 18.61,
-              "close": 18.64,
-              "average": 18.62,
-              "scoreTotal": 55.86,
+              "high": 18.61,
+              "low": 18.19,
+              "close": 18.19,
+              "average": 18.47,
+              "scoreTotal": 55.41,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 18.64,
-              "peakSampleHour": "2026-08-05T21Z|1.0",
-              "peakReasons": [
-                "specific details",
-                "recognizable entities",
-                "unusual language in the current story batch"
-              ],
-              "peakRanking": {
-                "coverage": 0,
-                "titleImpact": 0.1185,
-                "sourceAuthority": 0.5,
-                "freshness": 0,
-                "feedPosition": 0.1667,
-                "novelty": 0.7105
-              }
+              "peakSample": 18.61,
+              "peakSampleHour": "2026-08-05T18Z",
+              "peakReasons": [],
+              "peakRanking": {}
             }
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 55.86
+          "scoreTotal": 55.41
         }
       }
     },
@@ -10700,21 +10678,21 @@
             "2026-08-05T18Z": 17.48,
             "2026-08-05T19Z": 17.48,
             "2026-08-05T21Z|1.0": {
-              "value": 17.79,
+              "value": 17.75,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
             }
           },
           "open": 17.48,
-          "high": 17.79,
+          "high": 17.75,
           "low": 17.48,
-          "close": 17.79,
-          "average": 17.58,
+          "close": 17.75,
+          "average": 17.57,
           "observations": 3,
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 17.79,
+          "peakSample": 17.75,
           "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "specific details",
@@ -10727,21 +10705,21 @@
             "sourceAuthority": 0.5,
             "freshness": 0,
             "feedPosition": 0,
-            "novelty": 0.7453
+            "novelty": 0.7414
           },
           "formulaSummaries": {
             "1.0": {
               "formulaVersion": "1.0",
               "open": 17.48,
-              "high": 17.79,
+              "high": 17.75,
               "low": 17.48,
-              "close": 17.79,
-              "average": 17.58,
-              "scoreTotal": 52.75,
+              "close": 17.75,
+              "average": 17.57,
+              "scoreTotal": 52.71,
               "observations": 3,
               "firstObservedAt": "2026-08-05T18:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 17.79,
+              "peakSample": 17.75,
               "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "specific details",
@@ -10754,13 +10732,13 @@
                 "sourceAuthority": 0.5,
                 "freshness": 0,
                 "feedPosition": 0,
-                "novelty": 0.7453
+                "novelty": 0.7414
               }
             }
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 52.75
+          "scoreTotal": 52.71
         }
       }
     },
@@ -11304,7 +11282,7 @@
           "samples": {
             "2026-08-05T19Z": 49.73,
             "2026-08-05T21Z|1.0": {
-              "value": 47.82,
+              "value": 46.62,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -11312,9 +11290,9 @@
           },
           "open": 49.73,
           "high": 49.73,
-          "low": 47.82,
-          "close": 47.82,
-          "average": 48.77,
+          "low": 46.62,
+          "close": 46.62,
+          "average": 48.17,
           "observations": 2,
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -11337,10 +11315,10 @@
               "formulaVersion": "1.0",
               "open": 49.73,
               "high": 49.73,
-              "low": 47.82,
-              "close": 47.82,
-              "average": 48.77,
-              "scoreTotal": 97.55,
+              "low": 46.62,
+              "close": 46.62,
+              "average": 48.17,
+              "scoreTotal": 96.35,
               "observations": 2,
               "firstObservedAt": "2026-08-05T19:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -11362,7 +11340,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 97.55
+          "scoreTotal": 96.35
         }
       }
     },
@@ -11380,7 +11358,7 @@
           "samples": {
             "2026-08-05T19Z": 48.8,
             "2026-08-05T21Z|1.0": {
-              "value": 48.23,
+              "value": 48.14,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -11388,9 +11366,9 @@
           },
           "open": 48.8,
           "high": 48.8,
-          "low": 48.23,
-          "close": 48.23,
-          "average": 48.52,
+          "low": 48.14,
+          "close": 48.14,
+          "average": 48.47,
           "observations": 2,
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -11416,10 +11394,10 @@
               "formulaVersion": "1.0",
               "open": 48.8,
               "high": 48.8,
-              "low": 48.23,
-              "close": 48.23,
-              "average": 48.52,
-              "scoreTotal": 97.03,
+              "low": 48.14,
+              "close": 48.14,
+              "average": 48.47,
+              "scoreTotal": 96.94,
               "observations": 2,
               "firstObservedAt": "2026-08-05T19:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -11444,7 +11422,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 97.03
+          "scoreTotal": 96.94
         }
       }
     },
@@ -11462,7 +11440,7 @@
           "samples": {
             "2026-08-05T19Z": 41.47,
             "2026-08-05T21Z|1.0": {
-              "value": 38.52,
+              "value": 38.43,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -11470,9 +11448,9 @@
           },
           "open": 41.47,
           "high": 41.47,
-          "low": 38.52,
-          "close": 38.52,
-          "average": 40,
+          "low": 38.43,
+          "close": 38.43,
+          "average": 39.95,
           "observations": 2,
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -11495,10 +11473,10 @@
               "formulaVersion": "1.0",
               "open": 41.47,
               "high": 41.47,
-              "low": 38.52,
-              "close": 38.52,
-              "average": 40,
-              "scoreTotal": 79.99,
+              "low": 38.43,
+              "close": 38.43,
+              "average": 39.95,
+              "scoreTotal": 79.9,
               "observations": 2,
               "firstObservedAt": "2026-08-05T19:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
@@ -11520,7 +11498,7 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "scoreTotal": 79.99
+          "scoreTotal": 79.9
         }
       }
     },
@@ -11537,7 +11515,7 @@
         "2026-08-05": {
           "samples": {
             "2026-08-05T21Z|1.0": {
-              "value": 45.95,
+              "value": 44.75,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -11546,16 +11524,16 @@
           "formulaSummaries": {
             "1.0": {
               "formulaVersion": "1.0",
-              "open": 45.95,
-              "high": 45.95,
-              "low": 45.95,
-              "close": 45.95,
-              "average": 45.95,
-              "scoreTotal": 45.95,
+              "open": 44.75,
+              "high": 44.75,
+              "low": 44.75,
+              "close": 44.75,
+              "average": 44.75,
+              "scoreTotal": 44.75,
               "observations": 1,
               "firstObservedAt": "2026-08-05T21:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 45.95,
+              "peakSample": 44.75,
               "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "real-world consequences",
@@ -11566,24 +11544,24 @@
                 "coverage": 0,
                 "titleImpact": 0.2165,
                 "sourceAuthority": 0.5,
-                "freshness": 0.9653,
-                "feedPosition": 1,
+                "freshness": 0.9593,
+                "feedPosition": 0.8889,
                 "novelty": 0.964
               }
             }
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "open": 45.95,
-          "high": 45.95,
-          "low": 45.95,
-          "close": 45.95,
-          "average": 45.95,
-          "scoreTotal": 45.95,
+          "open": 44.75,
+          "high": 44.75,
+          "low": 44.75,
+          "close": 44.75,
+          "average": 44.75,
+          "scoreTotal": 44.75,
           "observations": 1,
           "firstObservedAt": "2026-08-05T21:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 45.95,
+          "peakSample": 44.75,
           "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "real-world consequences",
@@ -11594,8 +11572,8 @@
             "coverage": 0,
             "titleImpact": 0.2165,
             "sourceAuthority": 0.5,
-            "freshness": 0.9653,
-            "feedPosition": 1,
+            "freshness": 0.9593,
+            "feedPosition": 0.8889,
             "novelty": 0.964
           }
         }
@@ -11614,7 +11592,7 @@
         "2026-08-05": {
           "samples": {
             "2026-08-05T21Z|1.0": {
-              "value": 43.18,
+              "value": 43.09,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -11623,16 +11601,16 @@
           "formulaSummaries": {
             "1.0": {
               "formulaVersion": "1.0",
-              "open": 43.18,
-              "high": 43.18,
-              "low": 43.18,
-              "close": 43.18,
-              "average": 43.18,
-              "scoreTotal": 43.18,
+              "open": 43.09,
+              "high": 43.09,
+              "low": 43.09,
+              "close": 43.09,
+              "average": 43.09,
+              "scoreTotal": 43.09,
               "observations": 1,
               "firstObservedAt": "2026-08-05T21:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 43.18,
+              "peakSample": 43.09,
               "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "urgency or risk",
@@ -11642,7 +11620,7 @@
                 "coverage": 0,
                 "titleImpact": 0.2455,
                 "sourceAuthority": 0.5,
-                "freshness": 0.9843,
+                "freshness": 0.9783,
                 "feedPosition": 1,
                 "novelty": 0.6009
               }
@@ -11650,16 +11628,16 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "open": 43.18,
-          "high": 43.18,
-          "low": 43.18,
-          "close": 43.18,
-          "average": 43.18,
-          "scoreTotal": 43.18,
+          "open": 43.09,
+          "high": 43.09,
+          "low": 43.09,
+          "close": 43.09,
+          "average": 43.09,
+          "scoreTotal": 43.09,
           "observations": 1,
           "firstObservedAt": "2026-08-05T21:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 43.18,
+          "peakSample": 43.09,
           "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "urgency or risk",
@@ -11669,7 +11647,7 @@
             "coverage": 0,
             "titleImpact": 0.2455,
             "sourceAuthority": 0.5,
-            "freshness": 0.9843,
+            "freshness": 0.9783,
             "feedPosition": 1,
             "novelty": 0.6009
           }
@@ -11689,7 +11667,7 @@
         "2026-08-05": {
           "samples": {
             "2026-08-05T21Z|1.0": {
-              "value": 39.94,
+              "value": 39.85,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -11698,16 +11676,16 @@
           "formulaSummaries": {
             "1.0": {
               "formulaVersion": "1.0",
-              "open": 39.94,
-              "high": 39.94,
-              "low": 39.94,
-              "close": 39.94,
-              "average": 39.94,
-              "scoreTotal": 39.94,
+              "open": 39.85,
+              "high": 39.85,
+              "low": 39.85,
+              "close": 39.85,
+              "average": 39.85,
+              "scoreTotal": 39.85,
               "observations": 1,
               "firstObservedAt": "2026-08-05T21:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 39.94,
+              "peakSample": 39.85,
               "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "unusual language in the current story batch"
@@ -11716,7 +11694,7 @@
                 "coverage": 0,
                 "titleImpact": 0.03,
                 "sourceAuthority": 0.5,
-                "freshness": 0.9637,
+                "freshness": 0.9578,
                 "feedPosition": 0.8889,
                 "novelty": 0.8493
               }
@@ -11724,16 +11702,16 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "open": 39.94,
-          "high": 39.94,
-          "low": 39.94,
-          "close": 39.94,
-          "average": 39.94,
-          "scoreTotal": 39.94,
+          "open": 39.85,
+          "high": 39.85,
+          "low": 39.85,
+          "close": 39.85,
+          "average": 39.85,
+          "scoreTotal": 39.85,
           "observations": 1,
           "firstObservedAt": "2026-08-05T21:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 39.94,
+          "peakSample": 39.85,
           "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "unusual language in the current story batch"
@@ -11742,7 +11720,7 @@
             "coverage": 0,
             "titleImpact": 0.03,
             "sourceAuthority": 0.5,
-            "freshness": 0.9637,
+            "freshness": 0.9578,
             "feedPosition": 0.8889,
             "novelty": 0.8493
           }
@@ -11762,7 +11740,7 @@
         "2026-08-05": {
           "samples": {
             "2026-08-05T21Z|1.0": {
-              "value": 34.7,
+              "value": 34.65,
               "observedAt": "2026-08-05T21:00:00.000Z",
               "formulaVersion": "1.0",
               "formulaFingerprint": "d31f077f561d92ba2a05"
@@ -11771,16 +11749,16 @@
           "formulaSummaries": {
             "1.0": {
               "formulaVersion": "1.0",
-              "open": 34.7,
-              "high": 34.7,
-              "low": 34.7,
-              "close": 34.7,
-              "average": 34.7,
-              "scoreTotal": 34.7,
+              "open": 34.65,
+              "high": 34.65,
+              "low": 34.65,
+              "close": 34.65,
+              "average": 34.65,
+              "scoreTotal": 34.65,
               "observations": 1,
               "firstObservedAt": "2026-08-05T21:00:00.000Z",
               "lastObservedAt": "2026-08-05T21:00:00.000Z",
-              "peakSample": 34.7,
+              "peakSample": 34.65,
               "peakSampleHour": "2026-08-05T21Z|1.0",
               "peakReasons": [
                 "unusual language in the current story batch"
@@ -11789,7 +11767,7 @@
                 "coverage": 0,
                 "titleImpact": 0,
                 "sourceAuthority": 0.5,
-                "freshness": 0.5972,
+                "freshness": 0.5936,
                 "feedPosition": 1,
                 "novelty": 0.8242
               }
@@ -11797,16 +11775,16 @@
           },
           "activeFormulaVersion": "1.0",
           "formulaVersion": "1.0",
-          "open": 34.7,
-          "high": 34.7,
-          "low": 34.7,
-          "close": 34.7,
-          "average": 34.7,
-          "scoreTotal": 34.7,
+          "open": 34.65,
+          "high": 34.65,
+          "low": 34.65,
+          "close": 34.65,
+          "average": 34.65,
+          "scoreTotal": 34.65,
           "observations": 1,
           "firstObservedAt": "2026-08-05T21:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "peakSample": 34.7,
+          "peakSample": 34.65,
           "peakSampleHour": "2026-08-05T21Z|1.0",
           "peakReasons": [
             "unusual language in the current story batch"
@@ -11815,7 +11793,7 @@
             "coverage": 0,
             "titleImpact": 0,
             "sourceAuthority": 0.5,
-            "freshness": 0.5972,
+            "freshness": 0.5936,
             "feedPosition": 1,
             "novelty": 0.8242
           }
@@ -12499,6 +12477,81 @@
             "freshness": 0,
             "feedPosition": 0.25,
             "novelty": 0.5178
+          }
+        }
+      }
+    },
+    "7292944e61ba5b05b253": {
+      "storyId": "7292944e61ba5b05b253",
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "source": "TechCrunch AI",
+      "image": "",
+      "published": "2026-08-05T21:21:28.000Z",
+      "firstSeen": "2026-08-05T21:00:00.000Z",
+      "lastSeen": "2026-08-05T21:00:00.000Z",
+      "days": {
+        "2026-08-05": {
+          "samples": {
+            "2026-08-05T21Z|1.0": {
+              "value": 40.74,
+              "observedAt": "2026-08-05T21:00:00.000Z",
+              "formulaVersion": "1.0",
+              "formulaFingerprint": "d31f077f561d92ba2a05"
+            }
+          },
+          "formulaSummaries": {
+            "1.0": {
+              "formulaVersion": "1.0",
+              "open": 40.74,
+              "high": 40.74,
+              "low": 40.74,
+              "close": 40.74,
+              "average": 40.74,
+              "scoreTotal": 40.74,
+              "observations": 1,
+              "firstObservedAt": "2026-08-05T21:00:00.000Z",
+              "lastObservedAt": "2026-08-05T21:00:00.000Z",
+              "peakSample": 40.74,
+              "peakSampleHour": "2026-08-05T21Z|1.0",
+              "peakReasons": [
+                "recognizable entities",
+                "unusual language in the current story batch"
+              ],
+              "peakRanking": {
+                "coverage": 0,
+                "titleImpact": 0.071,
+                "sourceAuthority": 0.5,
+                "freshness": 0.9939,
+                "feedPosition": 1,
+                "novelty": 0.6912
+              }
+            }
+          },
+          "activeFormulaVersion": "1.0",
+          "formulaVersion": "1.0",
+          "open": 40.74,
+          "high": 40.74,
+          "low": 40.74,
+          "close": 40.74,
+          "average": 40.74,
+          "scoreTotal": 40.74,
+          "observations": 1,
+          "firstObservedAt": "2026-08-05T21:00:00.000Z",
+          "lastObservedAt": "2026-08-05T21:00:00.000Z",
+          "peakSample": 40.74,
+          "peakSampleHour": "2026-08-05T21Z|1.0",
+          "peakReasons": [
+            "recognizable entities",
+            "unusual language in the current story batch"
+          ],
+          "peakRanking": {
+            "coverage": 0,
+            "titleImpact": 0.071,
+            "sourceAuthority": 0.5,
+            "freshness": 0.9939,
+            "feedPosition": 1,
+            "novelty": 0.6912
           }
         }
       }

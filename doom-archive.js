@@ -22,7 +22,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 50.22
+          "average": 50.19
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -36,7 +36,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 48.37
+          "average": 48.34
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -50,7 +50,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 48.77
+          "average": 48.17
         },
         {
           "storyId": "4358b8a7d456f552cec1",
@@ -64,7 +64,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 48.52
+          "average": 48.47
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -78,7 +78,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 45.06
+          "average": 45.04
         },
         {
           "storyId": "4f47d4d73942c27efbc9",
@@ -92,7 +92,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 45.34
+          "average": 45.31
         },
         {
           "storyId": "0b4e9b5e36534bbf75f7",
@@ -106,21 +106,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 43.33
-        },
-        {
-          "storyId": "a263efd65da673efce7f",
-          "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
-          "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 45.95,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T21:00:00.000Z",
-          "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 45.95
+          "average": 43.3
         },
         {
           "storyId": "9b1d81026bfef8372016",
@@ -128,13 +114,27 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
-          "peak": 45.59,
+          "peak": 45.5,
           "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 44.35
+          "average": 44.32
+        },
+        {
+          "storyId": "a263efd65da673efce7f",
+          "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+          "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 44.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T21:00:00.000Z",
+          "lastObservedAt": "2026-08-05T21:00:00.000Z",
+          "average": 44.75
         },
         {
           "storyId": "a275b40dfcb02fa3fb79",
@@ -148,7 +148,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 43.92
+          "average": 43.9
         }
       ]
     }
@@ -169,7 +169,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 50.22
+          "average": 50.19
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -183,7 +183,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 48.37
+          "average": 48.34
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -197,7 +197,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 48.77
+          "average": 48.17
         },
         {
           "storyId": "4358b8a7d456f552cec1",
@@ -211,7 +211,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 48.52
+          "average": 48.47
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -225,7 +225,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 45.06
+          "average": 45.04
         },
         {
           "storyId": "4f47d4d73942c27efbc9",
@@ -239,7 +239,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 45.34
+          "average": 45.31
         },
         {
           "storyId": "0b4e9b5e36534bbf75f7",
@@ -253,21 +253,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 43.33
-        },
-        {
-          "storyId": "a263efd65da673efce7f",
-          "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
-          "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 45.95,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T21:00:00.000Z",
-          "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 45.95
+          "average": 43.3
         },
         {
           "storyId": "9b1d81026bfef8372016",
@@ -275,13 +261,27 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
-          "peak": 45.59,
+          "peak": 45.5,
           "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 44.35
+          "average": 44.32
+        },
+        {
+          "storyId": "a263efd65da673efce7f",
+          "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+          "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 44.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T21:00:00.000Z",
+          "lastObservedAt": "2026-08-05T21:00:00.000Z",
+          "average": 44.75
         },
         {
           "storyId": "a275b40dfcb02fa3fb79",
@@ -295,7 +295,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 43.92
+          "average": 43.9
         }
       ]
     }
@@ -316,7 +316,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 50.22
+          "average": 50.19
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -330,7 +330,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 48.37
+          "average": 48.34
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -344,7 +344,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 48.77
+          "average": 48.17
         },
         {
           "storyId": "4358b8a7d456f552cec1",
@@ -358,7 +358,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 48.52
+          "average": 48.47
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -372,7 +372,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 45.06
+          "average": 45.04
         },
         {
           "storyId": "4f47d4d73942c27efbc9",
@@ -386,7 +386,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 45.34
+          "average": 45.31
         },
         {
           "storyId": "0b4e9b5e36534bbf75f7",
@@ -400,21 +400,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 43.33
-        },
-        {
-          "storyId": "a263efd65da673efce7f",
-          "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
-          "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 45.95,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T21:00:00.000Z",
-          "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 45.95
+          "average": 43.3
         },
         {
           "storyId": "9b1d81026bfef8372016",
@@ -422,13 +408,27 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
-          "peak": 45.59,
+          "peak": 45.5,
           "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 44.35
+          "average": 44.32
+        },
+        {
+          "storyId": "a263efd65da673efce7f",
+          "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+          "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 44.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-05",
+          "firstObservedAt": "2026-08-05T21:00:00.000Z",
+          "lastObservedAt": "2026-08-05T21:00:00.000Z",
+          "average": 44.75
         },
         {
           "storyId": "a275b40dfcb02fa3fb79",
@@ -442,7 +442,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
           "lastObservedAt": "2026-08-05T21:00:00.000Z",
-          "average": 43.92
+          "average": 43.9
         }
       ]
     }
