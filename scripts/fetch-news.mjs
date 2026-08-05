@@ -530,7 +530,7 @@ function cleanImageUrl(value, baseUrl) {
   }
 }
 
-function highResolutionHeadlineImage(value) {
+function guardianImageAtWidth(value, width) {
   const imageUrl = cleanImageUrl(value);
 
   if (!imageUrl) {
@@ -541,7 +541,8 @@ function highResolutionHeadlineImage(value) {
     const url = new URL(imageUrl);
 
     if (url.hostname === "i.guim.co.uk") {
-      url.searchParams.set("width", "1300");
+      url.search = "";
+      url.searchParams.set("width", String(width));
       url.searchParams.set("dpr", "2");
       url.searchParams.set("s", "none");
       url.searchParams.set("crop", "none");
@@ -551,6 +552,14 @@ function highResolutionHeadlineImage(value) {
   } catch {
     return imageUrl;
   }
+}
+
+function highResolutionStoryImage(value) {
+  return guardianImageAtWidth(value, 800);
+}
+
+function highResolutionHeadlineImage(value) {
+  return guardianImageAtWidth(value, 1900);
 }
 
 function tagAttribute(tag, attributeName) {
@@ -608,14 +617,16 @@ function extractImage(item) {
       ? item.enclosure.url
       : "";
 
-  return cleanImageUrl(
-    enclosureImage ||
-      mediaUrl(item.mediaContent) ||
-      mediaUrl(item.mediaThumbnail) ||
-      imageFromHtml(item.contentEncoded) ||
-      imageFromHtml(item.content) ||
-      imageFromHtml(item.description) ||
-      "",
+  return highResolutionStoryImage(
+    cleanImageUrl(
+      enclosureImage ||
+        mediaUrl(item.mediaContent) ||
+        mediaUrl(item.mediaThumbnail) ||
+        imageFromHtml(item.contentEncoded) ||
+        imageFromHtml(item.content) ||
+        imageFromHtml(item.description) ||
+        "",
+    ),
   );
 }
 
