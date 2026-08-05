@@ -7,6 +7,13 @@
     "feedPosition": 0.1,
     "novelty": 0.1
   },
+  "doomIndex": {
+    "version": "1.1",
+    "formulaVersion": "1.0",
+    "timeZone": "America/Chicago",
+    "weekStartsOn": "Monday",
+    "archiveLimit": 10
+  },
   "sources": [
     {
       "group": "ai",
