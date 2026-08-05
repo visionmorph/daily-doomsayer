@@ -8,7 +8,7 @@
     "novelty": 0.1
   },
   "doomIndex": {
-    "version": "1.1",
+    "version": "1.1.1",
     "formulaVersion": "1.0",
     "timeZone": "America/Chicago",
     "weekStartsOn": "Monday",
@@ -39,6 +39,11 @@
       "group": "ai",
       "name": "AI News",
       "feed": "https://www.artificialintelligence-news.com/feed/"
+    },
+    {
+      "group": "ai",
+      "name": "AI Scoop",
+      "feed": "https://aiscoop.com/feed/"
     },
     {
       "group": "ai",
@@ -143,6 +148,44 @@
         "Gemini",
         "Claude",
         "xAI"
+      ]
+    },
+    {
+      "group": "ai",
+      "name": "Sky News AI",
+      "feeds": [
+        "https://feeds.skynews.com/feeds/rss/technology.xml",
+        "https://feeds.skynews.com/feeds/rss/business.xml",
+        "https://feeds.skynews.com/feeds/rss/politics.xml",
+        "https://feeds.skynews.com/feeds/rss/uk.xml",
+        "https://feeds.skynews.com/feeds/rss/world.xml",
+        "https://feeds.skynews.com/feeds/rss/us.xml",
+        "https://feeds.skynews.com/feeds/rss/entertainment.xml"
+      ],
+      "includeKeywords": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "AI-generated",
+        "AI model",
+        "AI models",
+        "AI agent",
+        "AI agents",
+        "large language model",
+        "LLM",
+        "chatbot",
+        "machine learning",
+        "algorithmic",
+        "deepfake",
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "xAI",
+        "Grok",
+        "Copilot"
       ]
     },
     {
