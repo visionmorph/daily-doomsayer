@@ -25,7 +25,7 @@ const parser = new Parser({
 const config = JSON.parse(await readFile("news-sources.json", "utf8"));
 const articles = [];
 const doomIndexConfig = {
-  version: String(config.doomIndex?.version || "1.1"),
+  version: String(config.doomIndex?.version || "1.1.1"),
   formulaVersion: String(config.doomIndex?.formulaVersion || "1.0"),
   timeZone: String(config.doomIndex?.timeZone || "America/Chicago"),
   weekStartsOn: "Monday",
@@ -314,6 +314,104 @@ function roundedDoomIndex(score) {
   return Number((Math.max(0, Math.min(Number(score) || 0, 1)) * 100).toFixed(2));
 }
 
+const RELATED_STORY_SIMILARITY_THRESHOLD = 0.5;
+
+function coverageScoreForSources(sourceCount) {
+  return Math.min((sourceCount - 1) / 3, 1);
+}
+
+function sourceAuthorityScore(sourceWeight) {
+  return Math.min(sourceWeight / 2, 1);
+}
+
+function freshnessScoreForAge(ageHours) {
+  return Number.isFinite(ageHours) ? Math.exp(-ageHours / 36) : 0;
+}
+
+function feedPositionScore(feedPosition, candidateCount) {
+  return candidateCount > 1
+    ? 1 - feedPosition / (candidateCount - 1)
+    : 1;
+}
+
+function articleAgeHours(published, currentTime) {
+  const publishedTime = Date.parse(published);
+
+  return Number.isFinite(publishedTime)
+    ? Math.max(0, (currentTime - publishedTime) / 3_600_000)
+    : Number.POSITIVE_INFINITY;
+}
+
+function relatedSourceNames(article, articleList) {
+  const relatedSources = new Set([article.source]);
+
+  for (const candidate of articleList) {
+    if (
+      candidate.group === article.group &&
+      candidate.source !== article.source &&
+      titleSimilarity(article.title, candidate.title) >=
+        RELATED_STORY_SIMILARITY_THRESHOLD
+    ) {
+      relatedSources.add(candidate.source);
+    }
+  }
+
+  return relatedSources;
+}
+
+function weightedArticleScore(factors) {
+  return (
+    factors.coverage * rankingWeights.coverage +
+    factors.titleImpact * rankingWeights.titleImpact +
+    factors.sourceAuthority * rankingWeights.sourceAuthority +
+    factors.freshness * rankingWeights.freshness +
+    factors.feedPosition * rankingWeights.feedPosition +
+    factors.novelty * rankingWeights.novelty
+  );
+}
+
+function calculateFormulaFingerprint() {
+  const definition = {
+    formulaVersion: doomIndexConfig.formulaVersion,
+    rankingWeights,
+    relatedStorySimilarityThreshold: RELATED_STORY_SIMILARITY_THRESHOLD,
+    stopWords: [...STOP_WORDS].sort(),
+    titleSignalPatterns: Object.fromEntries(
+      Object.entries(TITLE_SIGNAL_PATTERNS).map(([name, patterns]) => [
+        name,
+        patterns.map((pattern) => pattern.toString()),
+      ]),
+    ),
+    implementations: [
+      normalizedTitleWords,
+      titleTokens,
+      titleSimilarity,
+      patternScore,
+      namedEntityScore,
+      specificityScore,
+      clickbaitPenalty,
+      calculateTitleImpact,
+      calculateNoveltyScores,
+      roundedScore,
+      roundedDoomIndex,
+      coverageScoreForSources,
+      sourceAuthorityScore,
+      freshnessScoreForAge,
+      feedPositionScore,
+      articleAgeHours,
+      relatedSourceNames,
+      weightedArticleScore,
+    ].map((implementation) => implementation.toString()),
+  };
+
+  return createHash("sha256")
+    .update(JSON.stringify(definition))
+    .digest("hex")
+    .slice(0, 20);
+}
+
+const formulaFingerprint = calculateFormulaFingerprint();
+
 function canonicalStoryUrl(value) {
   try {
     const url = new URL(value);
@@ -414,6 +512,12 @@ function doomSampleValue(sample) {
   );
 }
 
+function doomSampleFormulaVersion(sample, legacyFormulaVersion) {
+  return sample && typeof sample === "object" && sample.formulaVersion
+    ? String(sample.formulaVersion)
+    : String(legacyFormulaVersion || "1.0");
+}
+
 function observedAtForSample(sampleKey, sample) {
   if (sample && typeof sample === "object" && sample.observedAt) {
     return sample.observedAt;
@@ -422,38 +526,67 @@ function observedAtForSample(sampleKey, sample) {
   return `${sampleKey.slice(0, 13)}:00:00.000Z`;
 }
 
-function recalculateDay(day) {
+function calculateDaySummary(day, formulaVersion, legacyFormulaVersion) {
   const samples = Object.entries(day.samples || {}).sort(([first], [second]) =>
     first.localeCompare(second),
+  ).filter(([, sample]) =>
+    doomSampleFormulaVersion(sample, legacyFormulaVersion) === formulaVersion,
   );
   const values = samples.map(([, sample]) => doomSampleValue(sample));
 
   if (values.length === 0) {
-    return;
+    return null;
   }
 
   const peakEntry = samples.reduce((peak, entry) =>
     doomSampleValue(entry[1]) > doomSampleValue(peak[1]) ? entry : peak,
   );
 
-  day.open = values[0];
-  day.high = Math.max(...values);
-  day.low = Math.min(...values);
-  day.close = values.at(-1);
-  day.average = Number(
-    (values.reduce((sum, value) => sum + value, 0) / values.length).toFixed(2),
-  );
-  day.observations = values.length;
-  day.firstObservedAt = observedAtForSample(samples[0][0], samples[0][1]);
-  day.lastObservedAt = observedAtForSample(
-    samples.at(-1)[0],
-    samples.at(-1)[1],
-  );
-  day.peakSample = doomSampleValue(peakEntry[1]);
-  day.peakSampleHour = peakEntry[0];
+  const scoreTotal = values.reduce((sum, value) => sum + value, 0);
+
+  return {
+    formulaVersion,
+    open: values[0],
+    high: Math.max(...values),
+    low: Math.min(...values),
+    close: values.at(-1),
+    average: Number((scoreTotal / values.length).toFixed(2)),
+    scoreTotal: Number(scoreTotal.toFixed(2)),
+    observations: values.length,
+    firstObservedAt: observedAtForSample(samples[0][0], samples[0][1]),
+    lastObservedAt: observedAtForSample(
+      samples.at(-1)[0],
+      samples.at(-1)[1],
+    ),
+    peakSample: doomSampleValue(peakEntry[1]),
+    peakSampleHour: peakEntry[0],
+  };
 }
 
-function archiveStory(article, day, dateKey) {
+function copyFormulaSummaryToDay(day, summary) {
+  const summaryFields = [
+    "formulaVersion",
+    "open",
+    "high",
+    "low",
+    "close",
+    "average",
+    "scoreTotal",
+    "observations",
+    "firstObservedAt",
+    "lastObservedAt",
+    "peakSample",
+    "peakSampleHour",
+    "peakReasons",
+    "peakRanking",
+  ];
+
+  for (const field of summaryFields) {
+    day[field] = summary[field];
+  }
+}
+
+function archiveStory(article, summary, dateKey) {
   return {
     storyId: article.storyId,
     title: article.title,
@@ -461,16 +594,14 @@ function archiveStory(article, day, dateKey) {
     source: article.source,
     image: article.image || "",
     date: dateKey,
-    peak: day.high,
-    scoreTotal: Object.values(day.samples || {}).reduce(
-      (sum, sample) => sum + doomSampleValue(sample),
-      0,
-    ),
-    observations: day.observations,
+    peak: summary.high,
+    scoreTotal:
+      summary.scoreTotal ?? summary.average * summary.observations,
+    observations: summary.observations,
     daysTracked: 1,
     peakDate: dateKey,
-    firstObservedAt: day.firstObservedAt,
-    lastObservedAt: day.lastObservedAt,
+    firstObservedAt: summary.firstObservedAt,
+    lastObservedAt: summary.lastObservedAt,
   };
 }
 
@@ -552,11 +683,20 @@ async function buildDoomArchive(generatedAt) {
 
     for (const story of Object.values(history.stories)) {
       for (const [dateKey, day] of Object.entries(story.days || {})) {
-        if (!day.observations) {
+        const summary =
+          day.formulaSummaries?.[doomIndexConfig.formulaVersion] ||
+          (String(
+            history.legacyFormulaVersion || history.formulaVersion || "1.0",
+          ) ===
+          doomIndexConfig.formulaVersion
+            ? day
+            : null);
+
+        if (!summary?.observations) {
           continue;
         }
 
-        const candidate = archiveStory(story, day, dateKey);
+        const candidate = archiveStory(story, summary, dateKey);
         addArchiveCandidate(dailyPeriods, dateKey, candidate);
         addArchiveCandidate(weeklyPeriods, isoWeekKey(dateKey), candidate);
         addArchiveCandidate(monthlyPeriods, dateKey.slice(0, 7), candidate);
@@ -567,6 +707,7 @@ async function buildDoomArchive(generatedAt) {
   const archive = {
     version: doomIndexConfig.version,
     formulaVersion: doomIndexConfig.formulaVersion,
+    formulaFingerprint,
     timeZone: doomIndexConfig.timeZone,
     weekStartsOn: doomIndexConfig.weekStartsOn,
     generatedAt,
@@ -583,13 +724,36 @@ async function buildDoomArchive(generatedAt) {
   await writeTextFile(DOOM_ARCHIVE_FILE, output);
 }
 
+function registerFormula(container, observedAt, label) {
+  container.formulas ||= {};
+
+  const existingFormula = container.formulas[doomIndexConfig.formulaVersion];
+
+  if (
+    existingFormula?.fingerprint &&
+    existingFormula.fingerprint !== formulaFingerprint
+  ) {
+    throw new Error(
+      `[doom-index] ${label} already associates formula version ${doomIndexConfig.formulaVersion} with fingerprint ${existingFormula.fingerprint}. Increment doomIndex.formulaVersion before changing the scoring formula.`,
+    );
+  }
+
+  container.formulas[doomIndexConfig.formulaVersion] = {
+    fingerprint: formulaFingerprint,
+    rankingWeights,
+    firstObservedAt: existingFormula?.firstObservedAt || observedAt,
+    lastObservedAt: observedAt,
+  };
+}
+
 async function updateDoomIndexHistory(articleList, observedAt) {
   await mkdir(DOOM_HISTORY_DIRECTORY, { recursive: true });
 
   const zoned = zonedDateParts(new Date(observedAt));
   const monthKey = zoned.date.slice(0, 7);
   const localHourKey = `${zoned.date}T${zoned.hour}`;
-  const sampleKey = `${observedAt.slice(0, 13)}Z`;
+  const legacySampleKey = `${observedAt.slice(0, 13)}Z`;
+  const sampleKey = `${legacySampleKey}|${doomIndexConfig.formulaVersion}`;
   const historyFile = join(DOOM_HISTORY_DIRECTORY, `${monthKey}.json`);
   const catalog = await readJsonFile(DOOM_STORIES_FILE, {
     version: doomIndexConfig.version,
@@ -604,16 +768,23 @@ async function updateDoomIndexHistory(articleList, observedAt) {
     updatedAt: observedAt,
     stories: {},
   });
+  const legacyHistoryFormulaVersion = String(
+    history.formulaVersion || doomIndexConfig.formulaVersion,
+  );
 
   catalog.version = doomIndexConfig.version;
   catalog.updatedAt = observedAt;
   catalog.stories ||= {};
+  registerFormula(catalog, observedAt, DOOM_STORIES_FILE);
   history.version = doomIndexConfig.version;
+  history.legacyFormulaVersion ||= legacyHistoryFormulaVersion;
   history.formulaVersion = doomIndexConfig.formulaVersion;
+  history.formulaFingerprint = formulaFingerprint;
   history.month = monthKey;
   history.timeZone = doomIndexConfig.timeZone;
   history.updatedAt = observedAt;
   history.stories ||= {};
+  registerFormula(history, observedAt, historyFile);
 
   for (const article of articleList) {
     const canonicalUrl = canonicalStoryUrl(article.url);
@@ -626,6 +797,7 @@ async function updateDoomIndexHistory(articleList, observedAt) {
     article.doomIndex = doomIndex;
     article.doomIndexVersion = doomIndexConfig.version;
     article.doomIndexFormulaVersion = doomIndexConfig.formulaVersion;
+    article.doomIndexFormulaFingerprint = formulaFingerprint;
     article.firstSeen = firstSeen;
     article.lastSeen = observedAt;
 
@@ -665,17 +837,52 @@ async function updateDoomIndexHistory(articleList, observedAt) {
 
     const day = historyStory.days[zoned.date] || { samples: {} };
     day.samples ||= {};
-    const previousPeakSampleHour = day.peakSampleHour;
-    day.samples[sampleKey] = doomIndex;
-    recalculateDay(day);
+    day.formulaSummaries ||= {};
 
-    if (day.peakSampleHour === sampleKey) {
-      day.peakReasons = article.rankingReasons || [];
-      day.peakRanking = article.ranking || {};
-    } else if (day.peakSampleHour !== previousPeakSampleHour) {
-      day.peakReasons = [];
-      day.peakRanking = {};
+    const previousSummary =
+      day.formulaSummaries[doomIndexConfig.formulaVersion] ||
+      (legacyHistoryFormulaVersion === doomIndexConfig.formulaVersion
+        ? day
+        : undefined);
+
+    if (
+      Object.hasOwn(day.samples, legacySampleKey) &&
+      doomSampleFormulaVersion(
+        day.samples[legacySampleKey],
+        legacyHistoryFormulaVersion,
+      ) === doomIndexConfig.formulaVersion
+    ) {
+      delete day.samples[legacySampleKey];
     }
+
+    day.samples[sampleKey] = {
+      value: doomIndex,
+      observedAt,
+      formulaVersion: doomIndexConfig.formulaVersion,
+      formulaFingerprint,
+    };
+
+    const summary = calculateDaySummary(
+      day,
+      doomIndexConfig.formulaVersion,
+      legacyHistoryFormulaVersion,
+    );
+    const previousPeakSampleHour = previousSummary?.peakSampleHour;
+
+    if (summary.peakSampleHour === sampleKey) {
+      summary.peakReasons = article.rankingReasons || [];
+      summary.peakRanking = article.ranking || {};
+    } else if (summary.peakSampleHour === previousPeakSampleHour) {
+      summary.peakReasons = previousSummary?.peakReasons || [];
+      summary.peakRanking = previousSummary?.peakRanking || {};
+    } else {
+      summary.peakReasons = [];
+      summary.peakRanking = {};
+    }
+
+    day.formulaSummaries[doomIndexConfig.formulaVersion] = summary;
+    day.activeFormulaVersion = doomIndexConfig.formulaVersion;
+    copyFormulaSummaryToDay(day, summary);
 
     historyStory.days[zoned.date] = day;
     history.stories[storyId] = historyStory;
@@ -1103,29 +1310,15 @@ const now = Date.now();
 const noveltyScores = calculateNoveltyScores(uniqueArticles);
 
 for (const [articleIndex, article] of uniqueArticles.entries()) {
-  const relatedSources = new Set([article.source]);
-
-  for (const candidate of uniqueArticles) {
-    if (
-      candidate.group === article.group &&
-      candidate.source !== article.source &&
-      titleSimilarity(article.title, candidate.title) >= 0.5
-    ) {
-      relatedSources.add(candidate.source);
-    }
-  }
-
-  const publishedTime = Date.parse(article.published);
-  const ageHours = Number.isFinite(publishedTime)
-    ? Math.max(0, (now - publishedTime) / 3_600_000)
-    : Number.POSITIVE_INFINITY;
-  const coverageScore = Math.min((relatedSources.size - 1) / 3, 1);
-  const sourceScore = Math.min(article.sourceWeight / 2, 1);
-  const freshnessScore = Number.isFinite(ageHours) ? Math.exp(-ageHours / 36) : 0;
-  const positionScore =
-    article.candidateCount > 1
-      ? 1 - article.feedPosition / (article.candidateCount - 1)
-      : 1;
+  const relatedSources = relatedSourceNames(article, uniqueArticles);
+  const ageHours = articleAgeHours(article.published, now);
+  const coverageScore = coverageScoreForSources(relatedSources.size);
+  const sourceScore = sourceAuthorityScore(article.sourceWeight);
+  const freshnessScore = freshnessScoreForAge(ageHours);
+  const positionScore = feedPositionScore(
+    article.feedPosition,
+    article.candidateCount,
+  );
   const titleImpact = calculateTitleImpact(article.title);
   const noveltyScore = noveltyScores[articleIndex];
 
@@ -1144,12 +1337,14 @@ for (const [articleIndex, article] of uniqueArticles.entries()) {
     ...(relatedSources.size > 1 ? ["covered by multiple sources"] : []),
   ];
   article.score = roundedScore(
-    coverageScore * rankingWeights.coverage +
-      titleImpact.score * rankingWeights.titleImpact +
-      sourceScore * rankingWeights.sourceAuthority +
-      freshnessScore * rankingWeights.freshness +
-      positionScore * rankingWeights.feedPosition +
-      noveltyScore * rankingWeights.novelty,
+    weightedArticleScore({
+      coverage: coverageScore,
+      titleImpact: titleImpact.score,
+      sourceAuthority: sourceScore,
+      freshness: freshnessScore,
+      feedPosition: positionScore,
+      novelty: noveltyScore,
+    }),
   );
 }
 
