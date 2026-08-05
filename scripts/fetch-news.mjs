@@ -2,11 +2,17 @@ import { readFile, writeFile } from "node:fs/promises";
 import Parser from "rss-parser";
 
 const parser = new Parser({
+  headers: {
+    "User-Agent": "Daily Doomsayer RSS aggregator/1.0",
+    Accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+  },
   customFields: {
     item: [
       ["media:content", "mediaContent", { keepArray: true }],
       ["media:thumbnail", "mediaThumbnail", { keepArray: true }],
       ["content:encoded", "contentEncoded"],
+      ["dc:type", "dcType", { keepArray: true }],
+      ["prism:section", "prismSection", { keepArray: true }],
     ],
   },
 });
@@ -278,6 +284,130 @@ function roundedScore(score) {
   return Number(score.toFixed(4));
 }
 
+function textValues(value) {
+  if (Array.isArray(value)) {
+    return value.flatMap(textValues);
+  }
+
+  if (typeof value === "string") {
+    return [value];
+  }
+
+  if (value && typeof value === "object") {
+    return textValues(value._ || value["#text"] || value.value || "");
+  }
+
+  return [];
+}
+
+function normalizedFilterText(value) {
+  return String(value || "")
+    .normalize("NFKD")
+    .toLowerCase()
+    .replace(/<[^>]*>/g, " ")
+    .replace(/[^\p{L}\p{N}\s]/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function exactValueMatch(values, configuredTerms) {
+  if (!Array.isArray(configuredTerms) || configuredTerms.length === 0) {
+    return false;
+  }
+
+  const normalizedValues = new Set(
+    values.map(normalizedFilterText).filter(Boolean),
+  );
+
+  return configuredTerms.some((term) =>
+    normalizedValues.has(normalizedFilterText(term)),
+  );
+}
+
+function containsConfiguredTerm(value, configuredTerms) {
+  if (!Array.isArray(configuredTerms) || configuredTerms.length === 0) {
+    return false;
+  }
+
+  const normalizedValue = ` ${normalizedFilterText(value)} `;
+
+  return configuredTerms.some((term) => {
+    const normalizedTerm = normalizedFilterText(term);
+    return normalizedTerm && normalizedValue.includes(` ${normalizedTerm} `);
+  });
+}
+
+function itemCategories(item) {
+  return [
+    ...textValues(item.categories),
+    ...textValues(item.category),
+  ];
+}
+
+function itemArticleTypes(item) {
+  return [
+    ...textValues(item.dcType),
+    ...textValues(item.prismSection),
+    ...itemCategories(item),
+  ];
+}
+
+function sourceAcceptsItem(source, item) {
+  const categories = itemCategories(item);
+  const articleTypes = itemArticleTypes(item);
+  const title = item.title || "";
+  const searchableText = [
+    title,
+    item.contentSnippet,
+    item.description,
+    item.summary,
+  ]
+    .filter(Boolean)
+    .join(" ");
+  const link = String(item.link || "").toLowerCase();
+
+  if (
+    exactValueMatch(categories, source.excludeCategories) ||
+    containsConfiguredTerm(title, source.excludeTitleTerms)
+  ) {
+    return false;
+  }
+
+  const inclusionRules = [];
+
+  if (Array.isArray(source.includeCategories) && source.includeCategories.length) {
+    inclusionRules.push(exactValueMatch(categories, source.includeCategories));
+  }
+
+  if (Array.isArray(source.includeKeywords) && source.includeKeywords.length) {
+    inclusionRules.push(
+      containsConfiguredTerm(searchableText, source.includeKeywords),
+    );
+  }
+
+  if (
+    Array.isArray(source.includeArticleTypes) &&
+    source.includeArticleTypes.length
+  ) {
+    inclusionRules.push(
+      exactValueMatch(articleTypes, source.includeArticleTypes),
+    );
+  }
+
+  if (
+    Array.isArray(source.includeUrlPatterns) &&
+    source.includeUrlPatterns.length
+  ) {
+    inclusionRules.push(
+      source.includeUrlPatterns.some((pattern) =>
+        link.includes(String(pattern).toLowerCase()),
+      ),
+    );
+  }
+
+  return inclusionRules.length === 0 || inclusionRules.some(Boolean);
+}
+
 function mediaUrl(value) {
   const entries = Array.isArray(value) ? value : [value];
 
@@ -408,8 +538,11 @@ for (const source of config.sources) {
     const feed = await parser.parseURL(source.feed);
     const limit = Math.max(1, Math.min(Number(source.limit) || 10, 10));
     const sourceWeight = Math.max(0.1, Math.min(Number(source.weight) || 1, 2));
+    const acceptedItems = feed.items
+      .filter((item) => sourceAcceptsItem(source, item))
+      .slice(0, limit);
 
-    for (const [feedPosition, item] of feed.items.slice(0, limit).entries()) {
+    for (const [feedPosition, item] of acceptedItems.entries()) {
       if (!item.title || !item.link) {
         continue;
       }
@@ -423,7 +556,7 @@ for (const source of config.sources) {
         image: extractImage(item),
         feedPosition,
         sourceWeight,
-        candidateCount: limit,
+        candidateCount: acceptedItems.length,
       });
     }
   } catch (error) {
