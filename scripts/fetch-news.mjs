@@ -1,4 +1,6 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { mkdir, readFile, readdir, rename, writeFile } from "node:fs/promises";
+import { join } from "node:path";
 import Parser from "rss-parser";
 
 const FEED_TIMEOUT_MS = 20_000;
@@ -22,6 +24,26 @@ const parser = new Parser({
 });
 const config = JSON.parse(await readFile("news-sources.json", "utf8"));
 const articles = [];
+const doomIndexConfig = {
+  version: String(config.doomIndex?.version || "1.1"),
+  formulaVersion: String(config.doomIndex?.formulaVersion || "1.0"),
+  timeZone: String(config.doomIndex?.timeZone || "America/Chicago"),
+  weekStartsOn: "Monday",
+  archiveLimit: Math.max(
+    1,
+    Math.min(Number(config.doomIndex?.archiveLimit) || 10, 100),
+  ),
+};
+const DOOM_DATA_DIRECTORY = "data";
+const DOOM_HISTORY_DIRECTORY = join(DOOM_DATA_DIRECTORY, "doom-history");
+const DOOM_STORIES_FILE = join(DOOM_DATA_DIRECTORY, "doom-stories.json");
+const DOOM_ARCHIVE_FILE = "doom-archive.js";
+const TRACKING_PARAMETERS = new Set([
+  "fbclid",
+  "gclid",
+  "mc_cid",
+  "mc_eid",
+]);
 
 const STOP_WORDS = new Set([
   "a",
@@ -286,6 +308,386 @@ function calculateNoveltyScores(articleList) {
 
 function roundedScore(score) {
   return Number(score.toFixed(4));
+}
+
+function roundedDoomIndex(score) {
+  return Number((Math.max(0, Math.min(Number(score) || 0, 1)) * 100).toFixed(2));
+}
+
+function canonicalStoryUrl(value) {
+  try {
+    const url = new URL(value);
+
+    url.hash = "";
+    url.hostname = url.hostname.toLowerCase();
+
+    for (const parameter of [...url.searchParams.keys()]) {
+      if (
+        parameter.toLowerCase().startsWith("utm_") ||
+        TRACKING_PARAMETERS.has(parameter.toLowerCase())
+      ) {
+        url.searchParams.delete(parameter);
+      }
+    }
+
+    url.searchParams.sort();
+
+    if (url.pathname.length > 1) {
+      url.pathname = url.pathname.replace(/\/+$/, "");
+    }
+
+    return url.href;
+  } catch {
+    return String(value || "").trim();
+  }
+}
+
+function storyIdForUrl(value) {
+  return createHash("sha256")
+    .update(canonicalStoryUrl(value))
+    .digest("hex")
+    .slice(0, 20);
+}
+
+function zonedDateParts(value = new Date()) {
+  const formatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: doomIndexConfig.timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    hourCycle: "h23",
+  });
+  const parts = Object.fromEntries(
+    formatter
+      .formatToParts(value)
+      .filter((part) => part.type !== "literal")
+      .map((part) => [part.type, part.value]),
+  );
+
+  return {
+    date: `${parts.year}-${parts.month}-${parts.day}`,
+    hour: parts.hour,
+  };
+}
+
+function isoWeekKey(dateKey) {
+  const [year, month, day] = dateKey.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day));
+  const weekday = date.getUTCDay() || 7;
+
+  date.setUTCDate(date.getUTCDate() + 4 - weekday);
+
+  const weekYear = date.getUTCFullYear();
+  const yearStart = new Date(Date.UTC(weekYear, 0, 1));
+  const week = Math.ceil(((date - yearStart) / 86_400_000 + 1) / 7);
+
+  return `${weekYear}-W${String(week).padStart(2, "0")}`;
+}
+
+async function readJsonFile(filePath, fallback) {
+  try {
+    return JSON.parse(await readFile(filePath, "utf8"));
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return fallback;
+    }
+
+    throw error;
+  }
+}
+
+async function writeTextFile(filePath, value) {
+  const temporaryPath = `${filePath}.${process.pid}.tmp`;
+
+  await writeFile(temporaryPath, value, "utf8");
+  await rename(temporaryPath, filePath);
+}
+
+async function writeJsonFile(filePath, value) {
+  await writeTextFile(filePath, `${JSON.stringify(value, null, 2)}\n`);
+}
+
+function doomSampleValue(sample) {
+  return Number(
+    sample && typeof sample === "object" ? sample.value : sample,
+  );
+}
+
+function observedAtForSample(sampleKey, sample) {
+  if (sample && typeof sample === "object" && sample.observedAt) {
+    return sample.observedAt;
+  }
+
+  return `${sampleKey.slice(0, 13)}:00:00.000Z`;
+}
+
+function recalculateDay(day) {
+  const samples = Object.entries(day.samples || {}).sort(([first], [second]) =>
+    first.localeCompare(second),
+  );
+  const values = samples.map(([, sample]) => doomSampleValue(sample));
+
+  if (values.length === 0) {
+    return;
+  }
+
+  const peakEntry = samples.reduce((peak, entry) =>
+    doomSampleValue(entry[1]) > doomSampleValue(peak[1]) ? entry : peak,
+  );
+
+  day.open = values[0];
+  day.high = Math.max(...values);
+  day.low = Math.min(...values);
+  day.close = values.at(-1);
+  day.average = Number(
+    (values.reduce((sum, value) => sum + value, 0) / values.length).toFixed(2),
+  );
+  day.observations = values.length;
+  day.firstObservedAt = observedAtForSample(samples[0][0], samples[0][1]);
+  day.lastObservedAt = observedAtForSample(
+    samples.at(-1)[0],
+    samples.at(-1)[1],
+  );
+  day.peakSample = doomSampleValue(peakEntry[1]);
+  day.peakSampleHour = peakEntry[0];
+}
+
+function archiveStory(article, day, dateKey) {
+  return {
+    storyId: article.storyId,
+    title: article.title,
+    url: article.url,
+    source: article.source,
+    image: article.image || "",
+    date: dateKey,
+    peak: day.high,
+    scoreTotal: Object.values(day.samples || {}).reduce(
+      (sum, sample) => sum + doomSampleValue(sample),
+      0,
+    ),
+    observations: day.observations,
+    daysTracked: 1,
+    peakDate: dateKey,
+    firstObservedAt: day.firstObservedAt,
+    lastObservedAt: day.lastObservedAt,
+  };
+}
+
+function mergeArchiveStory(existing, incoming) {
+  if (!existing) {
+    return { ...incoming };
+  }
+
+  const incomingHasHigherPeak = incoming.peak > existing.peak;
+
+  return {
+    ...existing,
+    title: incoming.title,
+    url: incoming.url,
+    source: incoming.source,
+    image: incoming.image || existing.image,
+    peak: Math.max(existing.peak, incoming.peak),
+    peakDate: incomingHasHigherPeak ? incoming.peakDate : existing.peakDate,
+    scoreTotal: existing.scoreTotal + incoming.scoreTotal,
+    observations: existing.observations + incoming.observations,
+    daysTracked: existing.daysTracked + incoming.daysTracked,
+    firstObservedAt:
+      existing.firstObservedAt < incoming.firstObservedAt
+        ? existing.firstObservedAt
+        : incoming.firstObservedAt,
+    lastObservedAt:
+      existing.lastObservedAt > incoming.lastObservedAt
+        ? existing.lastObservedAt
+        : incoming.lastObservedAt,
+  };
+}
+
+function addArchiveCandidate(periods, periodKey, candidate) {
+  if (!periods.has(periodKey)) {
+    periods.set(periodKey, new Map());
+  }
+
+  const stories = periods.get(periodKey);
+  stories.set(
+    candidate.storyId,
+    mergeArchiveStory(stories.get(candidate.storyId), candidate),
+  );
+}
+
+function rankedArchivePeriods(periods) {
+  return [...periods.entries()]
+    .sort(([first], [second]) => second.localeCompare(first))
+    .map(([period, stories]) => ({
+      period,
+      stories: [...stories.values()]
+        .map(({ scoreTotal, date, ...story }) => ({
+          ...story,
+          average: Number((scoreTotal / story.observations).toFixed(2)),
+        }))
+        .sort(
+          (first, second) =>
+            second.peak - first.peak ||
+            second.average - first.average ||
+            second.observations - first.observations,
+        )
+        .slice(0, doomIndexConfig.archiveLimit),
+    }));
+}
+
+async function buildDoomArchive(generatedAt) {
+  const dailyPeriods = new Map();
+  const weeklyPeriods = new Map();
+  const monthlyPeriods = new Map();
+  const historyFiles = (await readdir(DOOM_HISTORY_DIRECTORY))
+    .filter((fileName) => /^\d{4}-\d{2}\.json$/.test(fileName))
+    .sort();
+
+  for (const fileName of historyFiles) {
+    const history = await readJsonFile(join(DOOM_HISTORY_DIRECTORY, fileName), null);
+
+    if (!history?.stories) {
+      continue;
+    }
+
+    for (const story of Object.values(history.stories)) {
+      for (const [dateKey, day] of Object.entries(story.days || {})) {
+        if (!day.observations) {
+          continue;
+        }
+
+        const candidate = archiveStory(story, day, dateKey);
+        addArchiveCandidate(dailyPeriods, dateKey, candidate);
+        addArchiveCandidate(weeklyPeriods, isoWeekKey(dateKey), candidate);
+        addArchiveCandidate(monthlyPeriods, dateKey.slice(0, 7), candidate);
+      }
+    }
+  }
+
+  const archive = {
+    version: doomIndexConfig.version,
+    formulaVersion: doomIndexConfig.formulaVersion,
+    timeZone: doomIndexConfig.timeZone,
+    weekStartsOn: doomIndexConfig.weekStartsOn,
+    generatedAt,
+    daily: rankedArchivePeriods(dailyPeriods),
+    weekly: rankedArchivePeriods(weeklyPeriods),
+    monthly: rankedArchivePeriods(monthlyPeriods),
+  };
+  const output = [
+    "// Generated by scripts/fetch-news.mjs. Do not edit by hand.",
+    `window.DAILY_DOOMSAYER_ARCHIVE = ${JSON.stringify(archive, null, 2)};`,
+    "",
+  ].join("\n");
+
+  await writeTextFile(DOOM_ARCHIVE_FILE, output);
+}
+
+async function updateDoomIndexHistory(articleList, observedAt) {
+  await mkdir(DOOM_HISTORY_DIRECTORY, { recursive: true });
+
+  const zoned = zonedDateParts(new Date(observedAt));
+  const monthKey = zoned.date.slice(0, 7);
+  const localHourKey = `${zoned.date}T${zoned.hour}`;
+  const sampleKey = `${observedAt.slice(0, 13)}Z`;
+  const historyFile = join(DOOM_HISTORY_DIRECTORY, `${monthKey}.json`);
+  const catalog = await readJsonFile(DOOM_STORIES_FILE, {
+    version: doomIndexConfig.version,
+    updatedAt: observedAt,
+    stories: {},
+  });
+  const history = await readJsonFile(historyFile, {
+    version: doomIndexConfig.version,
+    formulaVersion: doomIndexConfig.formulaVersion,
+    month: monthKey,
+    timeZone: doomIndexConfig.timeZone,
+    updatedAt: observedAt,
+    stories: {},
+  });
+
+  catalog.version = doomIndexConfig.version;
+  catalog.updatedAt = observedAt;
+  catalog.stories ||= {};
+  history.version = doomIndexConfig.version;
+  history.formulaVersion = doomIndexConfig.formulaVersion;
+  history.month = monthKey;
+  history.timeZone = doomIndexConfig.timeZone;
+  history.updatedAt = observedAt;
+  history.stories ||= {};
+
+  for (const article of articleList) {
+    const canonicalUrl = canonicalStoryUrl(article.url);
+    const storyId = storyIdForUrl(article.url);
+    const previousCatalogEntry = catalog.stories[storyId];
+    const firstSeen = previousCatalogEntry?.firstSeen || observedAt;
+    const doomIndex = roundedDoomIndex(article.score);
+
+    article.storyId = storyId;
+    article.doomIndex = doomIndex;
+    article.doomIndexVersion = doomIndexConfig.version;
+    article.doomIndexFormulaVersion = doomIndexConfig.formulaVersion;
+    article.firstSeen = firstSeen;
+    article.lastSeen = observedAt;
+
+    catalog.stories[storyId] = {
+      storyId,
+      currentTitle: article.title,
+      originalTitle: previousCatalogEntry?.originalTitle || article.title,
+      url: article.url,
+      canonicalUrl,
+      source: article.source,
+      image: article.image || previousCatalogEntry?.image || "",
+      published: article.published,
+      firstSeen,
+      lastSeen: observedAt,
+    };
+
+    const historyStory = history.stories[storyId] || {
+      storyId,
+      title: article.title,
+      url: article.url,
+      source: article.source,
+      image: article.image || "",
+      published: article.published,
+      firstSeen,
+      lastSeen: observedAt,
+      days: {},
+    };
+
+    historyStory.title = article.title;
+    historyStory.url = article.url;
+    historyStory.source = article.source;
+    historyStory.image = article.image || historyStory.image;
+    historyStory.published = article.published;
+    historyStory.firstSeen = historyStory.firstSeen || firstSeen;
+    historyStory.lastSeen = observedAt;
+    historyStory.days ||= {};
+
+    const day = historyStory.days[zoned.date] || { samples: {} };
+    day.samples ||= {};
+    const previousPeakSampleHour = day.peakSampleHour;
+    day.samples[sampleKey] = doomIndex;
+    recalculateDay(day);
+
+    if (day.peakSampleHour === sampleKey) {
+      day.peakReasons = article.rankingReasons || [];
+      day.peakRanking = article.ranking || {};
+    } else if (day.peakSampleHour !== previousPeakSampleHour) {
+      day.peakReasons = [];
+      day.peakRanking = {};
+    }
+
+    historyStory.days[zoned.date] = day;
+    history.stories[storyId] = historyStory;
+  }
+
+  await writeJsonFile(DOOM_STORIES_FILE, catalog);
+  await writeJsonFile(historyFile, history);
+  await buildDoomArchive(observedAt);
+
+  console.log(
+    `[doom-index] Recorded ${articleList.length} stories for ${localHourKey} (${doomIndexConfig.timeZone})`,
+  );
 }
 
 async function requestText(url, { headers, timeoutMs }) {
@@ -692,7 +1094,9 @@ const sourceBatches = await mapWithConcurrency(
 articles.push(...sourceBatches.flat());
 
 const uniqueArticles = Array.from(
-  new Map(articles.map((article) => [article.url, article])).values(),
+  new Map(
+    articles.map((article) => [canonicalStoryUrl(article.url), article]),
+  ).values(),
 );
 
 const now = Date.now();
@@ -775,6 +1179,10 @@ if (featuredArticle) {
   }
 }
 
+const observationTime = new Date();
+observationTime.setUTCMinutes(0, 0, 0);
+await updateDoomIndexHistory(uniqueArticles, observationTime.toISOString());
+
 const publishedArticles = uniqueArticles.map(
   ({ candidateCount, feedPosition, sourceWeight, ...article }) => article,
 );
@@ -785,7 +1193,7 @@ const output = [
   "",
 ].join("\n");
 
-await writeFile("articles.js", output, "utf8");
+await writeTextFile("articles.js", output);
 await new Promise((resolve) =>
   process.stdout.write(
     `Wrote ${publishedArticles.length} ranked articles from ${config.sources.length} configured sources.\n`,
