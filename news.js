@@ -9,6 +9,12 @@
   });
 
   function doomIndexValue(article) {
+    const recordedDoomIndex = Number(article?.doomIndex);
+
+    if (Number.isFinite(recordedDoomIndex)) {
+      return Math.max(0, Math.min(recordedDoomIndex, 100));
+    }
+
     const score = Number(article?.score);
 
     if (!Number.isFinite(score)) {
