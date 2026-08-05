@@ -457,6 +457,29 @@ function cleanImageUrl(value, baseUrl) {
   }
 }
 
+function highResolutionHeadlineImage(value) {
+  const imageUrl = cleanImageUrl(value);
+
+  if (!imageUrl) {
+    return "";
+  }
+
+  try {
+    const url = new URL(imageUrl);
+
+    if (url.hostname === "i.guim.co.uk") {
+      url.searchParams.set("width", "1300");
+      url.searchParams.set("dpr", "2");
+      url.searchParams.set("s", "none");
+      url.searchParams.set("crop", "none");
+    }
+
+    return url.href;
+  } catch {
+    return imageUrl;
+  }
+}
+
 function tagAttribute(tag, attributeName) {
   const pattern = new RegExp(
     `${attributeName}\\s*=\\s*(["'])(.*?)\\1`,
@@ -635,14 +658,16 @@ const featuredArticle = uniqueArticles.find((article) => article.group === "ai")
 if (featuredArticle) {
   featuredArticle.featured = true;
 
-  if (!featuredArticle.image) {
-    try {
-      featuredArticle.image = await fetchArticleImage(featuredArticle.url);
-    } catch (error) {
-      console.error(
-        `Could not find a headline image for ${featuredArticle.url}: ${error.message}`,
-      );
-    }
+  try {
+    const articlePageImage = await fetchArticleImage(featuredArticle.url);
+    featuredArticle.image = highResolutionHeadlineImage(
+      articlePageImage || featuredArticle.image,
+    );
+  } catch (error) {
+    featuredArticle.image = highResolutionHeadlineImage(featuredArticle.image);
+    console.error(
+      `Could not inspect the headline page for ${featuredArticle.url}: ${error.message}`,
+    );
   }
 }
 
