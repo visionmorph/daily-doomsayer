@@ -11,8 +11,41 @@
     "version": "1.1.1",
     "formulaVersion": "1.0",
     "timeZone": "America/Chicago",
+    "trackingStartedOn": "2026-08-05",
     "weekStartsOn": "Monday",
     "archiveLimit": 10,
+    "severityScale": [
+      {
+        "minimum": 0,
+        "maximum": 19.99,
+        "label": "UNEASY",
+        "description": "Limited or routine concern."
+      },
+      {
+        "minimum": 20,
+        "maximum": 39.99,
+        "label": "OMINOUS",
+        "description": "Credible concern with restrained consequences."
+      },
+      {
+        "minimum": 40,
+        "maximum": 59.99,
+        "label": "ALARMING",
+        "description": "Material harm, disruption, or escalating risk."
+      },
+      {
+        "minimum": 60,
+        "maximum": 79.99,
+        "label": "DIRE",
+        "description": "Serious realized or imminent consequences."
+      },
+      {
+        "minimum": 80,
+        "maximum": 100,
+        "label": "CATASTROPHIC",
+        "description": "Exceptional, widespread, or potentially irreversible consequences."
+      }
+    ],
     "previousShadow": {
       "enabled": true,
       "version": "1.2.0",
@@ -48,51 +81,71 @@
     {
       "group": "ai",
       "name": "TechCrunch AI",
+      "displayName": "TechCrunch",
+      "indexUrl": "https://techcrunch.com/category/artificial-intelligence/",
       "feed": "https://techcrunch.com/category/artificial-intelligence/feed/"
     },
     {
       "group": "ai",
       "name": "MIT News AI",
+      "displayName": "MIT News",
+      "indexUrl": "https://news.mit.edu/topic/artificial-intelligence2",
       "feed": "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml"
     },
     {
       "group": "ai",
       "name": "WIRED AI",
+      "displayName": "WIRED",
+      "indexUrl": "https://www.wired.com/tag/artificial-intelligence/",
       "feed": "https://www.wired.com/feed/tag/ai/latest/rss"
     },
     {
       "group": "ai",
       "name": "The Verge AI",
+      "displayName": "The Verge",
+      "indexUrl": "https://www.theverge.com/ai-artificial-intelligence",
       "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
     },
     {
       "group": "ai",
       "name": "AI News",
+      "displayName": "AI News",
+      "indexUrl": "https://www.artificialintelligence-news.com/",
       "feed": "https://www.artificialintelligence-news.com/feed/"
     },
     {
       "group": "ai",
       "name": "AI Scoop",
+      "displayName": "AIScoop",
+      "indexUrl": "https://aiscoop.com/",
       "feed": "https://aiscoop.com/feed/"
     },
     {
       "group": "ai",
       "name": "VentureBeat AI",
+      "displayName": "VentureBeat",
+      "indexUrl": "https://venturebeat.com/category/ai/",
       "feed": "https://venturebeat.com/category/ai/feed/"
     },
     {
       "group": "ai",
       "name": "ScienceDaily Technology",
+      "displayName": "ScienceDaily",
+      "indexUrl": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "feed": "https://www.sciencedaily.com/rss/top/technology.xml"
     },
     {
       "group": "ai",
       "name": "404 Media AI",
+      "displayName": "404 Media",
+      "indexUrl": "https://www.404media.co/tag/ai/",
       "feed": "https://www.404media.co/tag/ai/rss/"
     },
     {
       "group": "ai",
       "name": "Rest of World AI",
+      "displayName": "Rest of World",
+      "indexUrl": "https://restofworld.org/series/the-rise-of-ai/",
       "feed": "https://restofworld.org/feed/latest/",
       "includeCategories": [
         "Artificial intelligence"
@@ -118,11 +171,15 @@
     {
       "group": "ai",
       "name": "Ars Technica AI",
+      "displayName": "Ars Technica",
+      "indexUrl": "https://arstechnica.com/ai/",
       "feed": "https://arstechnica.com/ai/feed/"
     },
     {
       "group": "ai",
       "name": "Nature AI News & Comment",
+      "displayName": "Nature",
+      "indexUrl": "https://www.nature.com/subjects/machine-learning",
       "feed": "https://www.nature.com/subjects/machine-learning.rss",
       "includeArticleTypes": [
         "News",
@@ -138,6 +195,8 @@
     {
       "group": "ai",
       "name": "NASA AI",
+      "displayName": "NASA",
+      "indexUrl": "https://science.nasa.gov/category/organizations/ocio/dt/ai/",
       "feed": "https://science.nasa.gov/category/organizations/ocio/dt/ai/feed/",
       "excludeCategories": [
         "Podcast",
@@ -156,6 +215,8 @@
     {
       "group": "ai",
       "name": "BBC News AI",
+      "displayName": "BBC News",
+      "indexUrl": "https://www.bbc.com/news/topics/ce1qrvleleqt",
       "feed": "https://feeds.bbci.co.uk/news/technology/rss.xml",
       "includeKeywords": [
         "AI",
@@ -183,6 +244,8 @@
     {
       "group": "ai",
       "name": "Sky News AI",
+      "displayName": "Sky News",
+      "indexUrl": "https://news.sky.com/topic/artificial-intelligence-7032/1",
       "feeds": [
         "https://feeds.skynews.com/feeds/rss/technology.xml",
         "https://feeds.skynews.com/feeds/rss/business.xml",
@@ -221,11 +284,15 @@
     {
       "group": "ai",
       "name": "The Guardian AI",
+      "displayName": "The Guardian",
+      "indexUrl": "https://www.theguardian.com/technology/artificialintelligenceai",
       "feed": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
     },
     {
       "group": "ai",
       "name": "The Markup AI",
+      "displayName": "The Markup",
+      "indexUrl": "https://themarkup.org/series/artificial-intelligence",
       "feed": "https://themarkup.org/feeds/rss.xml",
       "includeKeywords": [
         "AI",
@@ -254,6 +321,8 @@
     {
       "group": "ai",
       "name": "Tech Policy Press AI",
+      "displayName": "Tech Policy Press",
+      "indexUrl": "https://www.techpolicy.press/topic/artificial-intelligence/",
       "feed": "https://www.techpolicy.press/rss/feed.xml",
       "includeCategories": [
         "AI"
@@ -284,6 +353,8 @@
     {
       "group": "ai",
       "name": "Lawfare AI",
+      "displayName": "Lawfare",
+      "indexUrl": "https://www.lawfaremedia.org/topics/artificial-intelligence",
       "feed": "https://www.lawfaremedia.org/feeds/cybersecurity-tech",
       "includeKeywords": [
         "AI",
@@ -311,6 +382,8 @@
     {
       "group": "ai",
       "name": "EFF AI",
+      "displayName": "EFF",
+      "indexUrl": "https://www.eff.org/issues/ai",
       "feed": "https://www.eff.org/rss/updates.xml",
       "includeCategories": [
         "Artificial Intelligence"
