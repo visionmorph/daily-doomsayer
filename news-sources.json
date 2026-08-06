@@ -202,7 +202,17 @@
       "name": "BBC News AI",
       "displayName": "BBC News",
       "indexUrl": "https://www.bbc.com/news/topics/ce1qrvleleqt",
-      "feed": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "feeds": [
+        "https://feeds.bbci.co.uk/news/rss.xml",
+        "https://feeds.bbci.co.uk/news/technology/rss.xml",
+        "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+        "https://feeds.bbci.co.uk/news/health/rss.xml",
+        "https://feeds.bbci.co.uk/news/business/rss.xml",
+        "https://feeds.bbci.co.uk/news/politics/rss.xml",
+        "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "https://feeds.bbci.co.uk/news/education/rss.xml",
+        "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"
+      ],
       "includeKeywords": [
         "AI",
         "artificial intelligence",
