@@ -14,6 +14,12 @@ import {
   createDoomIndexV121Fingerprint,
   normalizedDoomIndexV121Weights,
 } from "./doom-index-v1.2.1.mjs";
+import {
+  buildSourceDirectory,
+  calculateIntradayDoom,
+  normalizeArticleText,
+  normalizedSeverityScale,
+} from "./site-data.mjs";
 
 const HISTORY_DIRECTORY = join("data", "doom-history");
 const REQUIRED_RANKING_COMPONENTS = [
@@ -49,9 +55,45 @@ async function readWindowAssignment(filePath, globalName) {
     throw new Error(`${filePath} does not define window.${globalName}`);
   }
 
-  return JSON.parse(
-    text.slice(start + prefix.length).replace(/;\s*$/, ""),
-  );
+  const jsonStart = start + prefix.length;
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+  let began = false;
+
+  for (let index = jsonStart; index < text.length; index += 1) {
+    const character = text[index];
+
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+      } else if (character === "\\") {
+        escaped = true;
+      } else if (character === '"') {
+        inString = false;
+      }
+
+      continue;
+    }
+
+    if (character === '"') {
+      inString = true;
+      continue;
+    }
+
+    if (character === "{" || character === "[") {
+      depth += 1;
+      began = true;
+    } else if (character === "}" || character === "]") {
+      depth -= 1;
+
+      if (began && depth === 0) {
+        return JSON.parse(text.slice(jsonStart, index + 1));
+      }
+    }
+  }
+
+  throw new Error(`${filePath} contains an incomplete window.${globalName} assignment`);
 }
 
 function canonicalStoryUrl(value) {
@@ -343,6 +385,10 @@ const articles = await readWindowAssignment(
   "articles.js",
   "DAILY_DOOMSAYER_ARTICLES",
 );
+const site = await readWindowAssignment(
+  "articles.js",
+  "DAILY_DOOMSAYER_SITE",
+);
 const archive = await readWindowAssignment(
   "doom-archive.js",
   "DAILY_DOOMSAYER_ARCHIVE",
@@ -350,6 +396,10 @@ const archive = await readWindowAssignment(
 const catalog = await readJson(join("data", "doom-stories.json"));
 const formulaVersion = String(config.doomIndex?.formulaVersion || "1.0");
 const schemaVersion = String(config.doomIndex?.version || "1.1.1");
+const expectedSeverityScale = normalizedSeverityScale(
+  config.doomIndex?.severityScale,
+);
+const expectedSourceDirectory = buildSourceDirectory(config.sources);
 const previousShadowEnabled =
   config.doomIndex?.previousShadow?.enabled !== false;
 const previousShadowVersion = String(
@@ -389,6 +439,26 @@ const registeredPreviousShadowFormula =
   catalog.formulas?.[previousShadowFormulaVersion];
 const registeredShadowFormula = catalog.formulas?.[shadowFormulaVersion];
 
+if (
+  site.chronicle?.trackingStartedOn !== config.doomIndex?.trackingStartedOn ||
+  site.chronicle?.timeZone !== config.doomIndex?.timeZone
+) {
+  reportError("Generated Chronicle configuration does not match news-sources.json");
+}
+
+if (
+  site.doomIndex?.version !== schemaVersion ||
+  site.doomIndex?.formulaVersion !== formulaVersion ||
+  JSON.stringify(site.doomIndex?.severityScale) !==
+    JSON.stringify(expectedSeverityScale)
+) {
+  reportError("Generated Doom Index legend configuration is out of date");
+}
+
+if (JSON.stringify(site.sources) !== JSON.stringify(expectedSourceDirectory)) {
+  reportError("Generated source directory is not canonical and alphabetical");
+}
+
 if (!registeredFormula?.fingerprint) {
   reportError("The story catalog has no registered formula fingerprint", {
     formulaVersion,
@@ -423,6 +493,10 @@ const seenStoryIds = new Set();
 
 for (const article of articles) {
   const context = { storyId: article.storyId, title: article.title };
+
+  if (normalizeArticleText(article.title) !== article.title) {
+    reportError("Story title contains undecoded or unnormalized text", context);
+  }
 
   if (seenStoryIds.has(article.storyId)) {
     reportError("Duplicate story ID", context);
@@ -639,11 +713,13 @@ const monthlyPeriods = new Map();
 const historyFiles = (await readdir(HISTORY_DIRECTORY))
   .filter((fileName) => /^\d{4}-\d{2}\.json$/.test(fileName))
   .sort();
+const historiesByMonth = new Map();
 let observationCount = 0;
 let storyDayCount = 0;
 
 for (const fileName of historyFiles) {
   const history = await readJson(join(HISTORY_DIRECTORY, fileName));
+  historiesByMonth.set(fileName.slice(0, 7), history);
   const legacyFormulaVersion = String(
     history.legacyFormulaVersion || history.formulaVersion || "1.0",
   );
@@ -796,6 +872,35 @@ for (const fileName of historyFiles) {
       addArchiveCandidate(weeklyPeriods, isoWeekKey(dateKey), candidate);
       addArchiveCandidate(monthlyPeriods, dateKey.slice(0, 7), candidate);
     }
+  }
+}
+
+const intradayDate = String(site.intradayDoom?.date || "");
+const intradayHistory = historiesByMonth.get(intradayDate.slice(0, 7));
+
+if (!intradayHistory) {
+  reportError("Generated intraday Doom data has no corresponding history file", {
+    date: intradayDate,
+  });
+} else {
+  const expectedIntradayDoom = calculateIntradayDoom(intradayHistory, {
+    date: intradayDate,
+    formulaVersion,
+    legacyFormulaVersion: String(
+      intradayHistory.legacyFormulaVersion ||
+        intradayHistory.formulaVersion ||
+        "1.0",
+    ),
+  });
+  const actualComparable = { ...site.intradayDoom };
+
+  delete actualComparable.definition;
+
+  if (JSON.stringify(actualComparable) !== JSON.stringify(expectedIntradayDoom)) {
+    reportError("Generated intraday Doom values do not match hourly history", {
+      actual: actualComparable,
+      expected: expectedIntradayDoom,
+    });
   }
 }
 
