@@ -66,10 +66,16 @@ main > .category-row {
 }
 
 .ticker-window {
-  width: 150px;
+  width: 250px;
   height: 24px;
+  flex: 0 0 250px;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.chronicle-number {
+  display: inline-block;
+  min-width: 4ch;
 }
 
 .ticker-track {
@@ -291,6 +297,32 @@ main > .category-row {
 .featured-link {
   font-size: 32px;
   line-height: 40px;
+}
+
+.source-directory-title {
+  margin: 0;
+}
+
+.doom-index-legend summary {
+  cursor: pointer;
+}
+
+.doom-index-legend-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.doom-index-legend-band,
+.doom-index-legend-note {
+  margin: 0;
+  color: var(--text-primary);
+  font-family: "Funnel Display", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
 }
 
 @media (prefers-reduced-motion: reduce) {
