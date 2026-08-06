@@ -12,7 +12,22 @@
     "formulaVersion": "1.0",
     "timeZone": "America/Chicago",
     "weekStartsOn": "Monday",
-    "archiveLimit": 10
+    "archiveLimit": 10,
+    "shadow": {
+      "enabled": true,
+      "version": "1.2.0",
+      "formulaVersion": "1.2-shadow.1",
+      "weights": {
+        "realizedHarm": 0.22,
+        "scale": 0.14,
+        "vulnerability": 0.1,
+        "lossOfControl": 0.16,
+        "irreversibility": 0.11,
+        "immediacy": 0.07,
+        "systemicReach": 0.08,
+        "credibleThreat": 0.12
+      }
+    }
   },
   "sources": [
     {
