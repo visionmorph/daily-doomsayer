@@ -1,5 +1,7 @@
 (function loadNewsArticles() {
   const articles = window.DAILY_DOOMSAYER_ARTICLES;
+  const site = window.DAILY_DOOMSAYER_SITE || {};
+  const severityScale = site.doomIndex?.severityScale || [];
   let glitchImageIndex = 0;
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
@@ -7,6 +9,216 @@
     link.target = "_blank";
     link.rel = "noopener noreferrer";
   });
+
+  function dateKeyInTimeZone(date, timeZone) {
+    const parts = Object.fromEntries(
+      new Intl.DateTimeFormat("en-US", {
+        timeZone,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+      })
+        .formatToParts(date)
+        .filter((part) => part.type !== "literal")
+        .map((part) => [part.type, part.value]),
+    );
+
+    return `${parts.year}-${parts.month}-${parts.day}`;
+  }
+
+  function dateKeyAsUtcMilliseconds(dateKey) {
+    const [year, month, day] = dateKey.split("-").map(Number);
+    return Date.UTC(year, month - 1, day);
+  }
+
+  function romanNumeral(value) {
+    if (!Number.isInteger(value) || value < 1 || value > 3999) {
+      return String(value);
+    }
+
+    const numerals = [
+      [1000, "M"],
+      [900, "CM"],
+      [500, "D"],
+      [400, "CD"],
+      [100, "C"],
+      [90, "XC"],
+      [50, "L"],
+      [40, "XL"],
+      [10, "X"],
+      [9, "IX"],
+      [5, "V"],
+      [4, "IV"],
+      [1, "I"],
+    ];
+    let remainder = value;
+    let result = "";
+
+    for (const [amount, numeral] of numerals) {
+      while (remainder >= amount) {
+        result += numeral;
+        remainder -= amount;
+      }
+    }
+
+    return result;
+  }
+
+  function updateChronicleNumber() {
+    const numberElement = document.querySelector("#chronicle-number");
+    const trackingStartedOn = site.chronicle?.trackingStartedOn;
+    const timeZone = site.chronicle?.timeZone || "America/Chicago";
+
+    if (!numberElement || !/^\d{4}-\d{2}-\d{2}$/.test(trackingStartedOn || "")) {
+      return;
+    }
+
+    const today = dateKeyInTimeZone(new Date(), timeZone);
+    const elapsedDays = Math.floor(
+      (dateKeyAsUtcMilliseconds(today) -
+        dateKeyAsUtcMilliseconds(trackingStartedOn)) /
+        86_400_000,
+    );
+    const edition = Math.max(1, elapsedDays + 1);
+    const roman = romanNumeral(edition);
+    const numerical = String(edition);
+
+    numberElement.dataset.roman = roman;
+    numberElement.dataset.numerical = numerical;
+    numberElement.textContent =
+      numberElement.matches(":hover") || document.activeElement === numberElement
+        ? numerical
+        : roman;
+    numberElement.setAttribute("aria-label", numerical);
+    numberElement.title = numerical;
+  }
+
+  function initializeChronicle() {
+    const numberElement = document.querySelector("#chronicle-number");
+
+    if (!numberElement) {
+      return;
+    }
+
+    const showNumerical = () => {
+      numberElement.textContent = numberElement.dataset.numerical || "1";
+    };
+    const showRoman = () => {
+      numberElement.textContent = numberElement.dataset.roman || "I";
+    };
+
+    updateChronicleNumber();
+    numberElement.addEventListener("mouseenter", showNumerical);
+    numberElement.addEventListener("mouseleave", showRoman);
+    numberElement.addEventListener("focus", showNumerical);
+    numberElement.addEventListener("blur", showRoman);
+    window.setInterval(updateChronicleNumber, 60_000);
+  }
+
+  function formattedMetric(value) {
+    const number = Number(value);
+    return Number.isFinite(number) ? number.toFixed(2) : "—";
+  }
+
+  function formattedChange(value) {
+    const number = Number(value);
+
+    if (!Number.isFinite(number)) {
+      return "—";
+    }
+
+    if (number > 0) {
+      return `▲${number.toFixed(2)}`;
+    }
+
+    if (number < 0) {
+      return `▼${Math.abs(number).toFixed(2)}`;
+    }
+
+    return "0.00";
+  }
+
+  function initializeMarketTape() {
+    const tickerTrack = document.querySelector("#ticker-track");
+    const intraday = site.intradayDoom || {};
+
+    if (!tickerTrack || tickerTrack.children.length < 2) {
+      return;
+    }
+
+    const tickers = [
+      `[DOOM NOW ${formattedMetric(intraday.current)}]`,
+      `[LAST HOUR ${formattedChange(intraday.lastHourChange)}]`,
+      `[OPEN ${formattedMetric(intraday.open)}]`,
+      `[DAY CHANGE ${formattedChange(intraday.dayChange)}]`,
+      `[PEAK DOOM ${formattedMetric(intraday.peak)}]`,
+    ];
+    let tickerIndex = 0;
+
+    tickerTrack.children[0].textContent = tickers[0];
+    tickerTrack.children[1].textContent = tickers[1];
+
+    window.setInterval(() => {
+      tickerTrack.classList.add("ticker-track--moving");
+
+      window.setTimeout(() => {
+        tickerIndex = (tickerIndex + 1) % tickers.length;
+        const nextIndex = (tickerIndex + 1) % tickers.length;
+        tickerTrack.classList.remove("ticker-track--moving");
+        tickerTrack.children[0].textContent = tickers[tickerIndex];
+        tickerTrack.children[1].textContent = tickers[nextIndex];
+      }, 600);
+    }, 4000);
+  }
+
+  function renderDoomIndexLegend() {
+    const versionElement = document.querySelector("#doom-index-legend-version");
+    const scaleElement = document.querySelector("#doom-index-legend-scale");
+
+    if (versionElement) {
+      versionElement.textContent = `Doom Index ${site.doomIndex?.version || ""}`.trim();
+    }
+
+    if (!scaleElement || severityScale.length === 0) {
+      return;
+    }
+
+    scaleElement.replaceChildren();
+
+    for (const band of severityScale) {
+      const item = document.createElement("div");
+      item.className = "doom-index-legend-band";
+      item.textContent = `${Number(band.minimum).toFixed(2)}–${Number(
+        band.maximum,
+      ).toFixed(2)} ${band.label}: ${band.description}`;
+      scaleElement.append(item);
+    }
+  }
+
+  function renderSourceDirectory() {
+    const directoryElement = document.querySelector("#source-directory");
+
+    if (!directoryElement || !Array.isArray(site.sources)) {
+      return;
+    }
+
+    directoryElement.replaceChildren();
+
+    for (const source of site.sources) {
+      const link = document.createElement("a");
+      link.className = "news-link";
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = source.name;
+      directoryElement.append(link);
+    }
+  }
+
+  initializeChronicle();
+  initializeMarketTape();
+  renderDoomIndexLegend();
+  renderSourceDirectory();
 
   function doomIndexValue(article) {
     const recordedDoomIndex = Number(article?.doomIndex);
@@ -25,11 +237,11 @@
   }
 
   function doomClassification(value) {
-    if (value < 20) return "UNEASY";
-    if (value < 40) return "OMINOUS";
-    if (value < 60) return "ALARMING";
-    if (value < 80) return "DIRE";
-    return "CATASTROPHIC";
+    return (
+      severityScale.find(
+        (band) => value >= Number(band.minimum) && value <= Number(band.maximum),
+      )?.label || "UNCLASSIFIED"
+    );
   }
 
   function compactDoomIndex(article) {
