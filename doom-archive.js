@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "d31f077f561d92ba2a05",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-06T20:00:00.000Z",
+  "generatedAt": "2026-08-06T21:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-06",
@@ -17,12 +17,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
           "peak": 53,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 46.27
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 46.7
+        },
+        {
+          "storyId": "d9b788ef8f14ee57b58f",
+          "title": "Safety fears as scientists make first viruses designed by AI",
+          "url": "https://www.theguardian.com/science/2026/aug/06/safety-fears-as-scientists-make-first-viruses-designed-by-ai",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/c91be6cb6b52fd5a680eca5ee6fb30ab1009b679/218_0_3333_2667/master/3333.jpg?width=1900&dpr=2&s=none&crop=none",
+          "peak": 48.51,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T20:00:00.000Z",
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 44.17
         },
         {
           "storyId": "f1d122158348f57788be",
@@ -31,12 +45,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
           "peak": 47.52,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T10:00:00.000Z",
-          "lastObservedAt": "2026-08-06T15:00:00.000Z",
-          "average": 45.74
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 44.81
+        },
+        {
+          "storyId": "ee19be2cef2d8ae6fe5c",
+          "title": "ChatGPT brings unlimited text chats to free users",
+          "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 47.24,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T20:00:00.000Z",
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 43.61
         },
         {
           "storyId": "5b8bd87aa273fc1e010a",
@@ -45,12 +73,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/softbank-ohio-data-center.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.25,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-06T15:00:00.000Z",
-          "average": 46.25
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 43.59
         },
         {
           "storyId": "ff8ba60af3e634676f78",
@@ -59,12 +87,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 45.93,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 44.16
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 43.5
+        },
+        {
+          "storyId": "3931c096a4982ffee4f9",
+          "title": "Artificial Intelligence used to design brand new viruses",
+          "url": "https://www.bbc.co.uk/news/articles/c5y3j3ngevmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e150/live/81e84950-91b8-11f1-bab9-173de0e7d358.jpg",
+          "peak": 45.69,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T21:00:00.000Z",
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 45.69
         },
         {
           "storyId": "42a90289b786a844c82a",
@@ -73,82 +115,40 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 45.22,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 44.2
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 43.76
+        },
+        {
+          "storyId": "b04f9642d438e86d7621",
+          "title": "OpenAI is giving ChatGPT free users unlimited text chats",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 44.59,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T21:00:00.000Z",
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 44.59
         },
         {
           "storyId": "ba7facbc01c5e85f5688",
           "title": "ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows",
           "url": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/",
           "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a73adcb4d38623d11dd77c4/191:100/w_1280,c_limit/Uncanny-Valley-ICE-DNA-Politics.jpg",
+          "image": "https://media.wired.com/photos/6a73adcb4d38623d11dd77c4/master/pass/Uncanny-Valley-ICE-DNA-Politics.jpg",
           "peak": 44.32,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 44.32
-        },
-        {
-          "storyId": "68da802e26076410b691",
-          "title": "A star’s violent death exposed a hidden supermassive black hole",
-          "url": "https://www.sciencedaily.com/releases/2026/08/260805082457.htm",
-          "source": "ScienceDaily Technology",
-          "image": "",
-          "peak": 44.32,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-08-06",
-          "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 43.39
-        },
-        {
-          "storyId": "f404780aaf783ec9f0fd",
-          "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
-          "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 43.89,
-          "observations": 7,
-          "daysTracked": 1,
-          "peakDate": "2026-08-06",
-          "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T15:00:00.000Z",
-          "average": 41.67
-        },
-        {
-          "storyId": "4358b8a7d456f552cec1",
-          "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
-          "url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
-          "peak": 43.42,
-          "observations": 8,
-          "daysTracked": 1,
-          "peakDate": "2026-08-06",
-          "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 41.53
-        },
-        {
-          "storyId": "801f4068e962b9981c3d",
-          "title": "Amid legal battles, Suno says it will start watermarking songs",
-          "url": "https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 43.4,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-08-06",
-          "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 40.63
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 44.3
         }
       ]
     },
@@ -309,12 +309,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
           "peak": 53,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 46.27
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 46.7
         },
         {
           "storyId": "ff8ba60af3e634676f78",
@@ -323,12 +323,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 46.07
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 45.55
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -337,12 +337,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 42.42
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 41.25
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -365,12 +365,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
           "peak": 48.8,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 43.45
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 42.95
+        },
+        {
+          "storyId": "d9b788ef8f14ee57b58f",
+          "title": "Safety fears as scientists make first viruses designed by AI",
+          "url": "https://www.theguardian.com/science/2026/aug/06/safety-fears-as-scientists-make-first-viruses-designed-by-ai",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/c91be6cb6b52fd5a680eca5ee6fb30ab1009b679/218_0_3333_2667/master/3333.jpg?width=1900&dpr=2&s=none&crop=none",
+          "peak": 48.51,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T20:00:00.000Z",
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 44.17
         },
         {
           "storyId": "f1d122158348f57788be",
@@ -379,12 +393,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
           "peak": 47.52,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T10:00:00.000Z",
-          "lastObservedAt": "2026-08-06T15:00:00.000Z",
-          "average": 45.74
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 44.81
+        },
+        {
+          "storyId": "ee19be2cef2d8ae6fe5c",
+          "title": "ChatGPT brings unlimited text chats to free users",
+          "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 47.24,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T20:00:00.000Z",
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 43.61
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -393,12 +421,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 40.34
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 39.76
         },
         {
           "storyId": "5b8bd87aa273fc1e010a",
@@ -407,40 +435,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/softbank-ohio-data-center.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.25,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-06T15:00:00.000Z",
-          "average": 46.25
-        },
-        {
-          "storyId": "4f47d4d73942c27efbc9",
-          "title": "Rogue AI agents created fake online identities in another hacking attempt",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 46.12,
-          "observations": 13,
-          "daysTracked": 2,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 39.93
-        },
-        {
-          "storyId": "0b4e9b5e36534bbf75f7",
-          "title": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop",
-          "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/master/pass/Discovery%20Loop%20-%20Founders%202.jpg",
-          "peak": 45.97,
-          "observations": 14,
-          "daysTracked": 2,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 39.33
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 43.59
         }
       ]
     }
@@ -456,12 +456,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
           "peak": 53,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 46.27
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 46.7
         },
         {
           "storyId": "ff8ba60af3e634676f78",
@@ -470,12 +470,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 46.07
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 45.55
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -484,12 +484,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 42.42
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 41.25
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -512,12 +512,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
           "peak": 48.8,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 43.45
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 42.95
+        },
+        {
+          "storyId": "d9b788ef8f14ee57b58f",
+          "title": "Safety fears as scientists make first viruses designed by AI",
+          "url": "https://www.theguardian.com/science/2026/aug/06/safety-fears-as-scientists-make-first-viruses-designed-by-ai",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/c91be6cb6b52fd5a680eca5ee6fb30ab1009b679/218_0_3333_2667/master/3333.jpg?width=1900&dpr=2&s=none&crop=none",
+          "peak": 48.51,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T20:00:00.000Z",
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 44.17
         },
         {
           "storyId": "f1d122158348f57788be",
@@ -526,12 +540,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
           "peak": 47.52,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T10:00:00.000Z",
-          "lastObservedAt": "2026-08-06T15:00:00.000Z",
-          "average": 45.74
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 44.81
+        },
+        {
+          "storyId": "ee19be2cef2d8ae6fe5c",
+          "title": "ChatGPT brings unlimited text chats to free users",
+          "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 47.24,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T20:00:00.000Z",
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 43.61
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -540,12 +568,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 40.34
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 39.76
         },
         {
           "storyId": "5b8bd87aa273fc1e010a",
@@ -554,40 +582,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/softbank-ohio-data-center.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.25,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-06T15:00:00.000Z",
-          "average": 46.25
-        },
-        {
-          "storyId": "4f47d4d73942c27efbc9",
-          "title": "Rogue AI agents created fake online identities in another hacking attempt",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 46.12,
-          "observations": 13,
-          "daysTracked": 2,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 39.93
-        },
-        {
-          "storyId": "0b4e9b5e36534bbf75f7",
-          "title": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop",
-          "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/master/pass/Discovery%20Loop%20-%20Founders%202.jpg",
-          "peak": 45.97,
-          "observations": 14,
-          "daysTracked": 2,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 39.33
+          "lastObservedAt": "2026-08-06T21:00:00.000Z",
+          "average": 43.59
         }
       ]
     }
