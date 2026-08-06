@@ -12,6 +12,12 @@ import {
   createDoomIndexV121Fingerprint,
   normalizedDoomIndexV121Weights,
 } from "./doom-index-v1.2.1.mjs";
+import {
+  buildSourceDirectory,
+  calculateIntradayDoom,
+  normalizeArticleText,
+  normalizedSeverityScale,
+} from "./site-data.mjs";
 
 const FEED_TIMEOUT_MS = 20_000;
 const ARTICLE_TIMEOUT_MS = 15_000;
@@ -38,12 +44,19 @@ const doomIndexConfig = {
   version: String(config.doomIndex?.version || "1.1.1"),
   formulaVersion: String(config.doomIndex?.formulaVersion || "1.0"),
   timeZone: String(config.doomIndex?.timeZone || "America/Chicago"),
+  trackingStartedOn: String(config.doomIndex?.trackingStartedOn || ""),
+  severityScale: normalizedSeverityScale(config.doomIndex?.severityScale),
   weekStartsOn: "Monday",
   archiveLimit: Math.max(
     1,
     Math.min(Number(config.doomIndex?.archiveLimit) || 10, 100),
   ),
 };
+const sourceDirectory = buildSourceDirectory(config.sources);
+
+if (!/^\d{4}-\d{2}-\d{2}$/.test(doomIndexConfig.trackingStartedOn)) {
+  throw new Error("doomIndex.trackingStartedOn must use YYYY-MM-DD format");
+}
 const doomIndexV12Config = {
   enabled: config.doomIndex?.previousShadow?.enabled !== false,
   version: String(config.doomIndex?.previousShadow?.version || "1.2.0"),
@@ -641,7 +654,7 @@ function copyFormulaSummaryToDay(day, summary) {
 function archiveStory(article, summary, dateKey) {
   return {
     storyId: article.storyId,
-    title: article.title,
+    title: normalizeArticleText(article.title),
     url: article.url,
     source: article.source,
     image: article.image || "",
@@ -830,6 +843,13 @@ async function updateDoomIndexHistory(articleList, observedAt) {
   catalog.version = doomIndexConfig.version;
   catalog.updatedAt = observedAt;
   catalog.stories ||= {};
+
+  for (const story of Object.values(catalog.stories)) {
+    story.currentTitle = normalizeArticleText(story.currentTitle);
+    story.originalTitle = normalizeArticleText(
+      story.originalTitle || story.currentTitle,
+    );
+  }
   const publicFormula = {
     formulaVersion: doomIndexConfig.formulaVersion,
     fingerprint: formulaFingerprint,
@@ -872,6 +892,10 @@ async function updateDoomIndexHistory(articleList, observedAt) {
   history.timeZone = doomIndexConfig.timeZone;
   history.updatedAt = observedAt;
   history.stories ||= {};
+
+  for (const story of Object.values(history.stories)) {
+    story.title = normalizeArticleText(story.title);
+  }
   registerFormula(history, observedAt, historyFile, publicFormula);
   if (doomIndexV121Config.enabled) {
     registerFormula(history, observedAt, historyFile, shadowFormula);
@@ -895,7 +919,9 @@ async function updateDoomIndexHistory(articleList, observedAt) {
     catalog.stories[storyId] = {
       storyId,
       currentTitle: article.title,
-      originalTitle: previousCatalogEntry?.originalTitle || article.title,
+      originalTitle: normalizeArticleText(
+        previousCatalogEntry?.originalTitle || article.title,
+      ),
       url: article.url,
       canonicalUrl,
       source: article.source,
@@ -1023,9 +1049,17 @@ async function updateDoomIndexHistory(articleList, observedAt) {
   await writeJsonFile(historyFile, history);
   await buildDoomArchive(observedAt);
 
+  const intradayDoom = calculateIntradayDoom(history, {
+    date: zoned.date,
+    formulaVersion: doomIndexConfig.formulaVersion,
+    legacyFormulaVersion: legacyHistoryFormulaVersion,
+  });
+
   console.log(
     `[doom-index] Recorded ${articleList.length} stories for ${localHourKey} (${doomIndexConfig.timeZone})`,
   );
+
+  return intradayDoom;
 }
 
 async function requestText(url, { headers, timeoutMs }) {
@@ -1114,7 +1148,7 @@ function textValues(value) {
 }
 
 function normalizedFilterText(value) {
-  return String(value || "")
+  return normalizeArticleText(value)
     .normalize("NFKD")
     .toLowerCase()
     .replace(/<[^>]*>/g, " ")
@@ -1166,7 +1200,7 @@ function itemArticleTypes(item) {
 }
 
 function itemAnalysisText(item) {
-  return [
+  return normalizeArticleText([
     ...textValues(item.contentSnippet),
     ...textValues(item.summary),
     ...textValues(item.description),
@@ -1174,13 +1208,13 @@ function itemAnalysisText(item) {
   ]
     .filter(Boolean)
     .join(" ")
-    .slice(0, 4_000);
+    .slice(0, 4_000));
 }
 
 function sourceAcceptsItem(source, item) {
   const categories = itemCategories(item);
   const articleTypes = itemArticleTypes(item);
-  const title = item.title || "";
+  const title = normalizeArticleText(item.title);
   const searchableText = [
     title,
     item.contentSnippet,
@@ -1413,9 +1447,9 @@ async function fetchSourceArticles(source) {
 
       sourceArticles.push({
         group,
-        title: item.title.trim(),
+        title: normalizeArticleText(item.title),
         url: item.link,
-        source: source.name || feed.title || "",
+        source: normalizeArticleText(source.name || feed.title || ""),
         published: item.isoDate || item.pubDate || "",
         image: extractImage(item),
         analysisText: itemAnalysisText(item),
@@ -1566,7 +1600,10 @@ if (featuredArticle) {
 
 const observationTime = new Date();
 observationTime.setUTCMinutes(0, 0, 0);
-await updateDoomIndexHistory(uniqueArticles, observationTime.toISOString());
+const intradayDoom = await updateDoomIndexHistory(
+  uniqueArticles,
+  observationTime.toISOString(),
+);
 
 const publishedArticles = uniqueArticles.map(
   ({ analysisText, candidateCount, feedPosition, sourceWeight, ...article }) =>
@@ -1575,6 +1612,26 @@ const publishedArticles = uniqueArticles.map(
 
 const output = [
   "// Generated by scripts/fetch-news.mjs. Do not edit by hand.",
+  `window.DAILY_DOOMSAYER_SITE = ${JSON.stringify(
+    {
+      chronicle: {
+        trackingStartedOn: doomIndexConfig.trackingStartedOn,
+        timeZone: doomIndexConfig.timeZone,
+      },
+      doomIndex: {
+        version: doomIndexConfig.version,
+        formulaVersion: doomIndexConfig.formulaVersion,
+        severityScale: doomIndexConfig.severityScale,
+      },
+      intradayDoom: {
+        ...intradayDoom,
+        definition: "Highest public Doom Index story observed during each hourly update.",
+      },
+      sources: sourceDirectory,
+    },
+    null,
+    2,
+  )};`,
   `window.DAILY_DOOMSAYER_ARTICLES = ${JSON.stringify(publishedArticles, null, 2)};`,
   "",
 ].join("\n");
