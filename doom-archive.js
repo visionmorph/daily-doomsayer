@@ -5,8 +5,153 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "d31f077f561d92ba2a05",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-06T03:00:00.000Z",
+  "generatedAt": "2026-08-06T05:00:00.000Z",
   "daily": [
+    {
+      "period": "2026-08-06",
+      "stories": [
+        {
+          "storyId": "ff8ba60af3e634676f78",
+          "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
+          "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
+          "peak": 45.93,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T05:00:00.000Z",
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 45.93
+        },
+        {
+          "storyId": "f404780aaf783ec9f0fd",
+          "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+          "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 43.89,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T05:00:00.000Z",
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 43.89
+        },
+        {
+          "storyId": "4358b8a7d456f552cec1",
+          "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
+          "url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
+          "peak": 43.42,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T05:00:00.000Z",
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 43.42
+        },
+        {
+          "storyId": "bc5ed6484b462efb110d",
+          "title": "Google plans to kill Assistant on your phone on September 4",
+          "url": "https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
+          "peak": 42.92,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T05:00:00.000Z",
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 42.92
+        },
+        {
+          "storyId": "dd083223721c924d9f7a",
+          "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK171_VRG_Illo_15_Normand_ElonMusk_15.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 42.91,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T05:00:00.000Z",
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 42.91
+        },
+        {
+          "storyId": "a263efd65da673efce7f",
+          "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+          "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 42.01,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T05:00:00.000Z",
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 42.01
+        },
+        {
+          "storyId": "a6e24e30f70f5c3360cb",
+          "title": "OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
+          "url": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a73a2815ac7830744b43e7a/master/pass/080526-openai-agent-hacking.jpg",
+          "peak": 41.73,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T05:00:00.000Z",
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 41.73
+        },
+        {
+          "storyId": "3842ca84472144ca5e2d",
+          "title": "AI or real? BBC analyses viral China disaster videos",
+          "url": "https://www.bbc.co.uk/news/videos/ckg9d2egn11o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1a6/live/e4442b50-908c-11f1-b2ab-0dd01740f9f6.jpg",
+          "peak": 40.97,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T05:00:00.000Z",
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 40.97
+        },
+        {
+          "storyId": "a275b40dfcb02fa3fb79",
+          "title": "Will AI Sycophancy Contaminate Law Enforcement?",
+          "url": "https://techpolicy.press/will-ai-sycophancy-contaminate-law-enforcement",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 40.7,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T05:00:00.000Z",
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 40.7
+        },
+        {
+          "storyId": "9b1d81026bfef8372016",
+          "title": "AI Hacks Are Bad. AI Worms and Viruses Will Be Worse",
+          "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
+          "peak": 40.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T05:00:00.000Z",
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 40.66
+        }
+      ]
+    },
     {
       "period": "2026-08-05",
       "stories": [
@@ -164,12 +309,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 48.62
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 48.24
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -178,12 +323,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 46.25
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 45.77
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -192,12 +337,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.73,
-          "observations": 5,
-          "daysTracked": 1,
+          "observations": 6,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 46.39
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 45.97
         },
         {
           "storyId": "4358b8a7d456f552cec1",
@@ -206,12 +351,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
           "peak": 48.8,
-          "observations": 5,
-          "daysTracked": 1,
+          "observations": 6,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 46.54
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 46.02
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -220,12 +365,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 43.26
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 42.84
         },
         {
           "storyId": "4f47d4d73942c27efbc9",
@@ -234,12 +379,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.12,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 43.56
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 43.02
         },
         {
           "storyId": "0b4e9b5e36534bbf75f7",
@@ -248,12 +393,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/master/pass/Discovery%20Loop%20-%20Founders%202.jpg",
           "peak": 45.97,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 42.55
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 42.17
         },
         {
           "storyId": "9b1d81026bfef8372016",
@@ -262,12 +407,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
           "peak": 45.5,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 43.5
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 43.09
         },
         {
           "storyId": "a263efd65da673efce7f",
@@ -276,12 +421,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 44.75,
-          "observations": 4,
-          "daysTracked": 1,
+          "observations": 5,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T21:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 43.69
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 43.36
         },
         {
           "storyId": "dd083223721c924d9f7a",
@@ -290,12 +435,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK171_VRG_Illo_15_Normand_ElonMusk_15.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 44.53,
-          "observations": 2,
-          "daysTracked": 1,
+          "observations": 3,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-06T00:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 44
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 43.64
         }
       ]
     }
@@ -311,12 +456,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 48.62
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 48.24
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -325,12 +470,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 46.25
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 45.77
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -339,12 +484,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.73,
-          "observations": 5,
-          "daysTracked": 1,
+          "observations": 6,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 46.39
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 45.97
         },
         {
           "storyId": "4358b8a7d456f552cec1",
@@ -353,12 +498,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
           "peak": 48.8,
-          "observations": 5,
-          "daysTracked": 1,
+          "observations": 6,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 46.54
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 46.02
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -367,12 +512,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 43.26
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 42.84
         },
         {
           "storyId": "4f47d4d73942c27efbc9",
@@ -381,12 +526,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.12,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 43.56
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 43.02
         },
         {
           "storyId": "0b4e9b5e36534bbf75f7",
@@ -395,12 +540,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/master/pass/Discovery%20Loop%20-%20Founders%202.jpg",
           "peak": 45.97,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 42.55
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 42.17
         },
         {
           "storyId": "9b1d81026bfef8372016",
@@ -409,12 +554,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
           "peak": 45.5,
-          "observations": 6,
-          "daysTracked": 1,
+          "observations": 7,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 43.5
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 43.09
         },
         {
           "storyId": "a263efd65da673efce7f",
@@ -423,12 +568,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 44.75,
-          "observations": 4,
-          "daysTracked": 1,
+          "observations": 5,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T21:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 43.69
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 43.36
         },
         {
           "storyId": "dd083223721c924d9f7a",
@@ -437,12 +582,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK171_VRG_Illo_15_Normand_ElonMusk_15.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 44.53,
-          "observations": 2,
-          "daysTracked": 1,
+          "observations": 3,
+          "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-06T00:00:00.000Z",
-          "lastObservedAt": "2026-08-06T03:00:00.000Z",
-          "average": 44
+          "lastObservedAt": "2026-08-06T05:00:00.000Z",
+          "average": 43.64
         }
       ]
     }
