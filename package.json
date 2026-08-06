@@ -4,9 +4,10 @@
   "type": "module",
   "scripts": {
     "update-news": "node scripts/fetch-news.mjs",
-    "verify-news": "node --test tests/doom-index-v1.2.test.mjs tests/doom-index-v1.2.1.test.mjs && node scripts/verify-doom-index.mjs"
+    "verify-news": "node --test tests/doom-index-v1.2.test.mjs tests/doom-index-v1.2.1.test.mjs tests/site-data.test.mjs && node scripts/verify-doom-index.mjs"
   },
   "dependencies": {
+    "entities": "^2.2.0",
     "rss-parser": "^3.13.0"
   }
 }
