@@ -1,6 +1,12 @@
 import { createHash } from "node:crypto";
 import { readFile, readdir } from "node:fs/promises";
 import { join } from "node:path";
+import {
+  DOOM_INDEX_V12_FACTOR_NAMES,
+  calculateDoomIndexV12FromFactors,
+  createDoomIndexV12Fingerprint,
+  normalizedDoomIndexV12Weights,
+} from "./doom-index-v1.2.mjs";
 
 const HISTORY_DIRECTORY = join("data", "doom-history");
 const REQUIRED_RANKING_COMPONENTS = [
@@ -337,12 +343,27 @@ const archive = await readWindowAssignment(
 const catalog = await readJson(join("data", "doom-stories.json"));
 const formulaVersion = String(config.doomIndex?.formulaVersion || "1.0");
 const schemaVersion = String(config.doomIndex?.version || "1.1.1");
+const shadowEnabled = config.doomIndex?.shadow?.enabled !== false;
+const shadowVersion = String(
+  config.doomIndex?.shadow?.version || "1.2.0",
+);
+const shadowFormulaVersion = String(
+  config.doomIndex?.shadow?.formulaVersion || "1.2-shadow.1",
+);
+const shadowWeights = normalizedDoomIndexV12Weights(
+  config.doomIndex?.shadow?.weights,
+);
+const expectedShadowFingerprint = createDoomIndexV12Fingerprint({
+  formulaVersion: shadowFormulaVersion,
+  weights: shadowWeights,
+});
 const archiveLimit = Math.max(
   1,
   Math.min(Number(config.doomIndex?.archiveLimit) || 10, 100),
 );
 const weights = normalizedWeights(config.ranking);
 const registeredFormula = catalog.formulas?.[formulaVersion];
+const registeredShadowFormula = catalog.formulas?.[shadowFormulaVersion];
 
 if (!registeredFormula?.fingerprint) {
   reportError("The story catalog has no registered formula fingerprint", {
@@ -351,6 +372,17 @@ if (!registeredFormula?.fingerprint) {
 }
 
 const formulaFingerprint = registeredFormula?.fingerprint;
+
+if (
+  shadowEnabled &&
+  registeredShadowFormula?.fingerprint !== expectedShadowFingerprint
+) {
+  reportError("The story catalog has no valid 1.2 shadow fingerprint", {
+    formulaVersion: shadowFormulaVersion,
+    actual: registeredShadowFormula?.fingerprint,
+    expected: expectedShadowFingerprint,
+  });
+}
 const seenStoryIds = new Set();
 
 for (const article of articles) {
@@ -392,6 +424,53 @@ for (const article of articles) {
       actual: article.doomIndex,
       expected: expectedDoomIndex,
     });
+  }
+
+  if (shadowEnabled) {
+    if (article.doomIndexV12ShadowVersion !== shadowVersion) {
+      reportError("Story uses the wrong 1.2 shadow version", context);
+    }
+
+    if (
+      article.doomIndexV12ShadowFormulaVersion !== shadowFormulaVersion ||
+      article.doomIndexV12ShadowFormulaFingerprint !==
+        expectedShadowFingerprint
+    ) {
+      reportError("Story uses an unregistered 1.2 shadow formula", context);
+    }
+
+    for (const factor of [
+      ...DOOM_INDEX_V12_FACTOR_NAMES,
+      "evidence",
+      "routinePenalty",
+    ]) {
+      const value = Number(article.doomIndexV12Factors?.[factor]);
+
+      if (!Number.isFinite(value) || value < 0 || value > 1) {
+        reportError("1.2 shadow factor is outside 0-1", {
+          ...context,
+          factor,
+          value: article.doomIndexV12Factors?.[factor],
+        });
+      }
+    }
+
+    const reconstructedShadow = calculateDoomIndexV12FromFactors(
+      article.doomIndexV12Factors || {},
+      shadowWeights,
+    );
+
+    if (article.doomIndexV12Shadow !== reconstructedShadow.value) {
+      reportError("Stored 1.2 shadow value does not match its factors", {
+        ...context,
+        actual: article.doomIndexV12Shadow,
+        expected: reconstructedShadow.value,
+      });
+    }
+
+    if (!Array.isArray(article.doomIndexV12Reasons)) {
+      reportError("Story is missing its 1.2 shadow reasons", context);
+    }
   }
 
   let reconstructedScore = 0;
@@ -512,6 +591,10 @@ for (const fileName of historyFiles) {
               ? sample.formulaFingerprint
               : undefined,
           observedAt: observedAtForSample(sampleKey, sample),
+          factors:
+            sample && typeof sample === "object" ? sample.factors : undefined,
+          reasons:
+            sample && typeof sample === "object" ? sample.reasons : undefined,
           isLegacy: !sample || typeof sample !== "object",
         }),
       );
@@ -537,6 +620,31 @@ for (const fileName of historyFiles) {
             dateKey,
             sampleKey: entry.key,
           });
+        }
+
+        if (entry.formulaVersion === shadowFormulaVersion) {
+          const reconstructedShadow = calculateDoomIndexV12FromFactors(
+            entry.factors || {},
+            shadowWeights,
+          );
+
+          if (entry.value !== reconstructedShadow.value) {
+            reportError("History 1.2 shadow sample does not match its factors", {
+              storyId: story.storyId,
+              dateKey,
+              sampleKey: entry.key,
+              actual: entry.value,
+              expected: reconstructedShadow.value,
+            });
+          }
+
+          if (!Array.isArray(entry.reasons)) {
+            reportError("History 1.2 shadow sample is missing reasons", {
+              storyId: story.storyId,
+              dateKey,
+              sampleKey: entry.key,
+            });
+          }
         }
       }
 
@@ -623,6 +731,37 @@ if (errors.length > 0) {
   }
 
   process.exit(1);
+}
+
+if (shadowEnabled && articles.length > 0) {
+  const comparisons = articles
+    .map((article) => ({
+      title: article.title,
+      publicValue: article.doomIndex,
+      shadowValue: article.doomIndexV12Shadow,
+      difference: Number(
+        (article.doomIndexV12Shadow - article.doomIndex).toFixed(2),
+      ),
+    }))
+    .sort((first, second) => second.difference - first.difference);
+  const publicMean =
+    comparisons.reduce((sum, item) => sum + item.publicValue, 0) /
+    comparisons.length;
+  const shadowMean =
+    comparisons.reduce((sum, item) => sum + item.shadowValue, 0) /
+    comparisons.length;
+  const largestIncrease = comparisons[0];
+  const largestDecrease = comparisons.at(-1);
+
+  console.log(
+    `[doom-index] 1.2 shadow: mean ${shadowMean.toFixed(2)} versus public ${publicMean.toFixed(2)} (${(shadowMean - publicMean).toFixed(2)}); range ${Math.min(...comparisons.map((item) => item.shadowValue)).toFixed(2)}-${Math.max(...comparisons.map((item) => item.shadowValue)).toFixed(2)}.`,
+  );
+  console.log(
+    `[doom-index] Largest shadow increase: ${largestIncrease.difference >= 0 ? "+" : ""}${largestIncrease.difference.toFixed(2)} — ${largestIncrease.title}`,
+  );
+  console.log(
+    `[doom-index] Largest shadow decrease: ${largestDecrease.difference >= 0 ? "+" : ""}${largestDecrease.difference.toFixed(2)} — ${largestDecrease.title}`,
+  );
 }
 
 console.log(
