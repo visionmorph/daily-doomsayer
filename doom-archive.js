@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "d31f077f561d92ba2a05",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-06T08:00:00.000Z",
+  "generatedAt": "2026-08-06T10:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-06",
@@ -15,14 +15,28 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
           "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 45.93,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 44.84
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 44.83
+        },
+        {
+          "storyId": "f1d122158348f57788be",
+          "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
+          "url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758%2C21.869598945592%2C95.251249694824%2C74.804666989327&w=1200",
+          "peak": 45.31,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T10:00:00.000Z",
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 45.31
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -31,12 +45,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 43.89,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 43.32
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 43.14
         },
         {
           "storyId": "4358b8a7d456f552cec1",
@@ -45,12 +59,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
           "peak": 43.42,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 42.84
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 42.67
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -59,12 +73,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 42.92,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 42.57
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 42.38
         },
         {
           "storyId": "dd083223721c924d9f7a",
@@ -73,12 +87,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK171_VRG_Illo_15_Normand_ElonMusk_15.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 42.91,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 41.72
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 40.97
         },
         {
           "storyId": "a263efd65da673efce7f",
@@ -87,12 +101,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 42.01,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 41.43
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 41.26
         },
         {
           "storyId": "a6e24e30f70f5c3360cb",
@@ -101,12 +115,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a73a2815ac7830744b43e7a/master/pass/080526-openai-agent-hacking.jpg",
           "peak": 41.73,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 41.08
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 40.85
         },
         {
           "storyId": "3842ca84472144ca5e2d",
@@ -115,12 +129,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1a6/live/e4442b50-908c-11f1-b2ab-0dd01740f9f6.jpg",
           "peak": 40.97,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 38.37
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 38.58
         },
         {
           "storyId": "a275b40dfcb02fa3fb79",
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 40.7,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 40.19
-        },
-        {
-          "storyId": "9b1d81026bfef8372016",
-          "title": "AI Hacks Are Bad. AI Worms and Viruses Will Be Worse",
-          "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
-          "peak": 40.66,
-          "observations": 4,
-          "daysTracked": 1,
-          "peakDate": "2026-08-06",
-          "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 40.1
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 40.04
         }
       ]
     },
@@ -160,7 +160,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
           "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
           "observations": 6,
           "daysTracked": 1,
@@ -307,14 +307,14 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
           "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 47.11
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 46.9
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -323,12 +323,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 44.78
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 44.49
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -337,12 +337,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.73,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 45.02
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 44.77
         },
         {
           "storyId": "4358b8a7d456f552cec1",
@@ -351,12 +351,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
           "peak": 48.8,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 44.89
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 44.6
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -365,12 +365,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 41.9
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 41.67
         },
         {
           "storyId": "4f47d4d73942c27efbc9",
@@ -379,12 +379,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.12,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 41.85
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 41.45
         },
         {
           "storyId": "0b4e9b5e36534bbf75f7",
@@ -393,12 +393,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/master/pass/Discovery%20Loop%20-%20Founders%202.jpg",
           "peak": 45.97,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 41.27
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 41.02
         },
         {
           "storyId": "9b1d81026bfef8372016",
@@ -407,12 +407,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
           "peak": 45.5,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 42.14
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 41.88
+        },
+        {
+          "storyId": "f1d122158348f57788be",
+          "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
+          "url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758%2C21.869598945592%2C95.251249694824%2C74.804666989327&w=1200",
+          "peak": 45.31,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T10:00:00.000Z",
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 45.31
         },
         {
           "storyId": "a263efd65da673efce7f",
@@ -421,26 +435,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 44.75,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T21:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 42.56
-        },
-        {
-          "storyId": "dd083223721c924d9f7a",
-          "title": "Elon Musk’s attempt at an AI Wikipedia hasn’t been updated in months",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK171_VRG_Illo_15_Normand_ElonMusk_15.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 44.53,
-          "observations": 6,
-          "daysTracked": 2,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-06T00:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 42.48
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 42.34
         }
       ]
     }
@@ -454,14 +454,14 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
           "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 47.11
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 46.9
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -470,12 +470,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 44.78
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 44.49
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -484,12 +484,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.73,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 45.02
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 44.77
         },
         {
           "storyId": "4358b8a7d456f552cec1",
@@ -498,12 +498,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
           "peak": 48.8,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 44.89
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 44.6
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -512,12 +512,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 41.9
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 41.67
         },
         {
           "storyId": "4f47d4d73942c27efbc9",
@@ -526,12 +526,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.12,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 41.85
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 41.45
         },
         {
           "storyId": "0b4e9b5e36534bbf75f7",
@@ -540,12 +540,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a731599a89f1c896d22f70e/master/pass/Discovery%20Loop%20-%20Founders%202.jpg",
           "peak": 45.97,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 41.27
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 41.02
         },
         {
           "storyId": "9b1d81026bfef8372016",
@@ -554,12 +554,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a72158094df13865615789b/master/pass/AI-Lab-How-Future-AI-Agents-Might-Actually-Escape-Our-Control-Business.jpg",
           "peak": 45.5,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 42.14
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 41.88
+        },
+        {
+          "storyId": "f1d122158348f57788be",
+          "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
+          "url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758%2C21.869598945592%2C95.251249694824%2C74.804666989327&w=1200",
+          "peak": 45.31,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-06",
+          "firstObservedAt": "2026-08-06T10:00:00.000Z",
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 45.31
         },
         {
           "storyId": "a263efd65da673efce7f",
@@ -568,26 +582,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 44.75,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T21:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 42.56
-        },
-        {
-          "storyId": "dd083223721c924d9f7a",
-          "title": "Elon Musk’s attempt at an AI Wikipedia hasn’t been updated in months",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK171_VRG_Illo_15_Normand_ElonMusk_15.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 44.53,
-          "observations": 6,
-          "daysTracked": 2,
-          "peakDate": "2026-08-05",
-          "firstObservedAt": "2026-08-06T00:00:00.000Z",
-          "lastObservedAt": "2026-08-06T08:00:00.000Z",
-          "average": 42.48
+          "lastObservedAt": "2026-08-06T10:00:00.000Z",
+          "average": 42.34
         }
       ]
     }
