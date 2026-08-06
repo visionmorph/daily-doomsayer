@@ -29,11 +29,14 @@
           </div>
         </header>
 
-        <section class="banner-frame flex w-full flex-col" aria-label="Edition details">
+        <section class="banner-frame flex w-full flex-col" aria-label="Chronicle details">
           <div class="banner-divider banner-divider--heavy" aria-hidden="true"></div>
           <div class="banner-divider banner-divider--light" aria-hidden="true"></div>
           <div class="banner flex items-center justify-between gap-4">
-            <div class="banner-primary whitespace-nowrap">Volume xxiv</div>
+            <div class="banner-primary whitespace-nowrap">
+              Chronicle
+              <span id="chronicle-number" class="chronicle-number" tabindex="0">I</span>
+            </div>
             <div class="banner-secondary text-center">
               There is no truth or beauty,<br />
               there is only the bottom line
@@ -47,8 +50,8 @@
             </div>
             <div class="ticker-window" aria-live="polite">
               <div id="ticker-track" class="ticker-track">
-                <span>[Aapl ▲1.2%]</span>
-                <span>[Nvda ▲3.1%]</span>
+                <span>[Doom now —]</span>
+                <span>[Last hour —]</span>
               </div>
             </div>
           </div>
@@ -262,20 +265,35 @@
           </section>
         </div>
       </div>
+
+      <section class="news-category doom-index-legend-section">
+        <details class="doom-index-legend">
+          <summary class="news-link">Doom index legend</summary>
+          <div class="doom-index-legend-content">
+            <div id="doom-index-legend-version" class="news-link"></div>
+            <div id="doom-index-legend-scale" class="flex flex-col gap-4"></div>
+            <p class="doom-index-legend-note">
+              The Doom Index is an editorial signal of prominence and apparent
+              impact. It is not a probability, factual-confidence rating, or
+              prediction.
+            </p>
+          </div>
+        </details>
+        <div class="h-px w-full bg-black" aria-hidden="true"></div>
+      </section>
+
+      <section class="news-category source-directory-section" aria-labelledby="source-directory-title">
+        <h2 id="source-directory-title" class="source-directory-title news-link">
+          Sources
+        </h2>
+        <div id="source-directory" class="flex flex-col gap-4"></div>
+        <div class="h-px w-full bg-black" aria-hidden="true"></div>
+      </section>
     </main>
 
     <script src="./articles.js"></script>
     <script src="./news.js"></script>
     <script>
-      const tickers = [
-        "[Aapl ▲1.2%]",
-        "[Nvda ▲3.1%]",
-        "[Tsla ▼0.8%]",
-        "[Spy ▲0.4%]",
-      ];
-      const tickerTrack = document.querySelector("#ticker-track");
-      let tickerIndex = 0;
-
       function updateEditionDate() {
         const editionDate = document.querySelector("#edition-date");
         const now = new Date();
@@ -295,18 +313,6 @@
 
       updateEditionDate();
       window.setInterval(updateEditionDate, 60000);
-
-      window.setInterval(() => {
-        tickerTrack.classList.add("ticker-track--moving");
-
-        window.setTimeout(() => {
-          tickerIndex = (tickerIndex + 1) % tickers.length;
-          const nextIndex = (tickerIndex + 1) % tickers.length;
-          tickerTrack.classList.remove("ticker-track--moving");
-          tickerTrack.children[0].textContent = tickers[tickerIndex];
-          tickerTrack.children[1].textContent = tickers[nextIndex];
-        }, 600);
-      }, 4000);
     </script>
   </body>
 </html>
