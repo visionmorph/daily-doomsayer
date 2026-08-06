@@ -7,6 +7,13 @@ import {
   createDoomIndexV12Fingerprint,
   normalizedDoomIndexV12Weights,
 } from "./doom-index-v1.2.mjs";
+import {
+  DOOM_INDEX_V121_AUXILIARY_FACTOR_NAMES,
+  DOOM_INDEX_V121_FACTOR_NAMES,
+  calculateDoomIndexV121FromFactors,
+  createDoomIndexV121Fingerprint,
+  normalizedDoomIndexV121Weights,
+} from "./doom-index-v1.2.1.mjs";
 
 const HISTORY_DIRECTORY = join("data", "doom-history");
 const REQUIRED_RANKING_COMPONENTS = [
@@ -343,17 +350,32 @@ const archive = await readWindowAssignment(
 const catalog = await readJson(join("data", "doom-stories.json"));
 const formulaVersion = String(config.doomIndex?.formulaVersion || "1.0");
 const schemaVersion = String(config.doomIndex?.version || "1.1.1");
+const previousShadowEnabled =
+  config.doomIndex?.previousShadow?.enabled !== false;
+const previousShadowVersion = String(
+  config.doomIndex?.previousShadow?.version || "1.2.0",
+);
+const previousShadowFormulaVersion = String(
+  config.doomIndex?.previousShadow?.formulaVersion || "1.2-shadow.1",
+);
+const previousShadowWeights = normalizedDoomIndexV12Weights(
+  config.doomIndex?.previousShadow?.weights,
+);
+const expectedPreviousShadowFingerprint = createDoomIndexV12Fingerprint({
+  formulaVersion: previousShadowFormulaVersion,
+  weights: previousShadowWeights,
+});
 const shadowEnabled = config.doomIndex?.shadow?.enabled !== false;
 const shadowVersion = String(
-  config.doomIndex?.shadow?.version || "1.2.0",
+  config.doomIndex?.shadow?.version || "1.2.1",
 );
 const shadowFormulaVersion = String(
-  config.doomIndex?.shadow?.formulaVersion || "1.2-shadow.1",
+  config.doomIndex?.shadow?.formulaVersion || "1.2.1-shadow.3",
 );
-const shadowWeights = normalizedDoomIndexV12Weights(
+const shadowWeights = normalizedDoomIndexV121Weights(
   config.doomIndex?.shadow?.weights,
 );
-const expectedShadowFingerprint = createDoomIndexV12Fingerprint({
+const expectedShadowFingerprint = createDoomIndexV121Fingerprint({
   formulaVersion: shadowFormulaVersion,
   weights: shadowWeights,
 });
@@ -363,6 +385,8 @@ const archiveLimit = Math.max(
 );
 const weights = normalizedWeights(config.ranking);
 const registeredFormula = catalog.formulas?.[formulaVersion];
+const registeredPreviousShadowFormula =
+  catalog.formulas?.[previousShadowFormulaVersion];
 const registeredShadowFormula = catalog.formulas?.[shadowFormulaVersion];
 
 if (!registeredFormula?.fingerprint) {
@@ -374,10 +398,22 @@ if (!registeredFormula?.fingerprint) {
 const formulaFingerprint = registeredFormula?.fingerprint;
 
 if (
+  previousShadowEnabled &&
+  registeredPreviousShadowFormula?.fingerprint !==
+    expectedPreviousShadowFingerprint
+) {
+  reportError("The story catalog has no valid frozen 1.2 fingerprint", {
+    formulaVersion: previousShadowFormulaVersion,
+    actual: registeredPreviousShadowFormula?.fingerprint,
+    expected: expectedPreviousShadowFingerprint,
+  });
+}
+
+if (
   shadowEnabled &&
   registeredShadowFormula?.fingerprint !== expectedShadowFingerprint
 ) {
-  reportError("The story catalog has no valid 1.2 shadow fingerprint", {
+  reportError("The story catalog has no valid 1.2.1 shadow fingerprint", {
     formulaVersion: shadowFormulaVersion,
     actual: registeredShadowFormula?.fingerprint,
     expected: expectedShadowFingerprint,
@@ -426,15 +462,16 @@ for (const article of articles) {
     });
   }
 
-  if (shadowEnabled) {
-    if (article.doomIndexV12ShadowVersion !== shadowVersion) {
+  if (previousShadowEnabled) {
+    if (article.doomIndexV12ShadowVersion !== previousShadowVersion) {
       reportError("Story uses the wrong 1.2 shadow version", context);
     }
 
     if (
-      article.doomIndexV12ShadowFormulaVersion !== shadowFormulaVersion ||
+      article.doomIndexV12ShadowFormulaVersion !==
+        previousShadowFormulaVersion ||
       article.doomIndexV12ShadowFormulaFingerprint !==
-        expectedShadowFingerprint
+        expectedPreviousShadowFingerprint
     ) {
       reportError("Story uses an unregistered 1.2 shadow formula", context);
     }
@@ -457,7 +494,7 @@ for (const article of articles) {
 
     const reconstructedShadow = calculateDoomIndexV12FromFactors(
       article.doomIndexV12Factors || {},
-      shadowWeights,
+      previousShadowWeights,
     );
 
     if (article.doomIndexV12Shadow !== reconstructedShadow.value) {
@@ -470,6 +507,56 @@ for (const article of articles) {
 
     if (!Array.isArray(article.doomIndexV12Reasons)) {
       reportError("Story is missing its 1.2 shadow reasons", context);
+    }
+  }
+
+  if (shadowEnabled) {
+    if (article.doomIndexV121ShadowVersion !== shadowVersion) {
+      reportError("Story uses the wrong 1.2.1 shadow version", context);
+    }
+
+    if (
+      article.doomIndexV121ShadowFormulaVersion !== shadowFormulaVersion ||
+      article.doomIndexV121ShadowFormulaFingerprint !==
+        expectedShadowFingerprint
+    ) {
+      reportError("Story uses an unregistered 1.2.1 shadow formula", context);
+    }
+
+    for (const factor of [
+      ...DOOM_INDEX_V121_FACTOR_NAMES,
+      ...DOOM_INDEX_V121_AUXILIARY_FACTOR_NAMES,
+    ]) {
+      const value = Number(article.doomIndexV121Factors?.[factor]);
+
+      if (!Number.isFinite(value) || value < 0 || value > 1) {
+        reportError("1.2.1 shadow factor is outside 0-1", {
+          ...context,
+          factor,
+          value: article.doomIndexV121Factors?.[factor],
+        });
+      }
+    }
+
+    const reconstructedShadow = calculateDoomIndexV121FromFactors(
+      article.doomIndexV121Factors || {},
+      shadowWeights,
+    );
+
+    if (article.doomIndexV121Shadow !== reconstructedShadow.value) {
+      reportError("Stored 1.2.1 shadow value does not match its factors", {
+        ...context,
+        actual: article.doomIndexV121Shadow,
+        expected: reconstructedShadow.value,
+      });
+    }
+
+    if (
+      !Array.isArray(article.doomIndexV121Reasons) ||
+      typeof article.doomIndexV121Actuality !== "string" ||
+      typeof article.doomIndexV121Polarity !== "string"
+    ) {
+      reportError("Story is missing 1.2.1 explanatory metadata", context);
     }
   }
 
@@ -595,6 +682,10 @@ for (const fileName of historyFiles) {
             sample && typeof sample === "object" ? sample.factors : undefined,
           reasons:
             sample && typeof sample === "object" ? sample.reasons : undefined,
+          actuality:
+            sample && typeof sample === "object" ? sample.actuality : undefined,
+          polarity:
+            sample && typeof sample === "object" ? sample.polarity : undefined,
           isLegacy: !sample || typeof sample !== "object",
         }),
       );
@@ -623,13 +714,13 @@ for (const fileName of historyFiles) {
         }
 
         if (entry.formulaVersion === shadowFormulaVersion) {
-          const reconstructedShadow = calculateDoomIndexV12FromFactors(
+          const reconstructedShadow = calculateDoomIndexV121FromFactors(
             entry.factors || {},
             shadowWeights,
           );
 
           if (entry.value !== reconstructedShadow.value) {
-            reportError("History 1.2 shadow sample does not match its factors", {
+            reportError("History 1.2.1 shadow sample does not match its factors", {
               storyId: story.storyId,
               dateKey,
               sampleKey: entry.key,
@@ -638,8 +729,12 @@ for (const fileName of historyFiles) {
             });
           }
 
-          if (!Array.isArray(entry.reasons)) {
-            reportError("History 1.2 shadow sample is missing reasons", {
+          if (
+            !Array.isArray(entry.reasons) ||
+            typeof entry.actuality !== "string" ||
+            typeof entry.polarity !== "string"
+          ) {
+            reportError("History 1.2.1 sample lacks explanatory metadata", {
               storyId: story.storyId,
               dateKey,
               sampleKey: entry.key,
@@ -734,33 +829,49 @@ if (errors.length > 0) {
 }
 
 if (shadowEnabled && articles.length > 0) {
+  const mean = (values) =>
+    values.reduce((sum, value) => sum + value, 0) / values.length;
   const comparisons = articles
     .map((article) => ({
       title: article.title,
+      source: article.source,
       publicValue: article.doomIndex,
-      shadowValue: article.doomIndexV12Shadow,
+      previousShadowValue: article.doomIndexV12Shadow,
+      shadowValue: article.doomIndexV121Shadow,
       difference: Number(
-        (article.doomIndexV12Shadow - article.doomIndex).toFixed(2),
+        (article.doomIndexV121Shadow - article.doomIndexV12Shadow).toFixed(2),
       ),
     }))
     .sort((first, second) => second.difference - first.difference);
-  const publicMean =
-    comparisons.reduce((sum, item) => sum + item.publicValue, 0) /
-    comparisons.length;
-  const shadowMean =
-    comparisons.reduce((sum, item) => sum + item.shadowValue, 0) /
-    comparisons.length;
+  const publicMean = mean(comparisons.map((item) => item.publicValue));
+  const previousShadowMean = mean(
+    comparisons.map((item) => item.previousShadowValue),
+  );
+  const shadowMean = mean(comparisons.map((item) => item.shadowValue));
   const largestIncrease = comparisons[0];
   const largestDecrease = comparisons.at(-1);
+  const floorCount = comparisons.filter(
+    (item) => item.shadowValue === 5,
+  ).length;
+  const topTwentySources = [...comparisons]
+    .sort((first, second) => second.shadowValue - first.shadowValue)
+    .slice(0, 20)
+    .reduce((counts, item) => {
+      counts[item.source] = (counts[item.source] || 0) + 1;
+      return counts;
+    }, {});
+  const [mostCommonTopSource, mostCommonTopSourceCount] = Object.entries(
+    topTwentySources,
+  ).sort((first, second) => second[1] - first[1])[0];
 
   console.log(
-    `[doom-index] 1.2 shadow: mean ${shadowMean.toFixed(2)} versus public ${publicMean.toFixed(2)} (${(shadowMean - publicMean).toFixed(2)}); range ${Math.min(...comparisons.map((item) => item.shadowValue)).toFixed(2)}-${Math.max(...comparisons.map((item) => item.shadowValue)).toFixed(2)}.`,
+    `[doom-index] Means: public ${publicMean.toFixed(2)}, 1.2 frozen ${previousShadowMean.toFixed(2)}, 1.2.1 shadow ${shadowMean.toFixed(2)}; 1.2.1 range ${Math.min(...comparisons.map((item) => item.shadowValue)).toFixed(2)}-${Math.max(...comparisons.map((item) => item.shadowValue)).toFixed(2)}.`,
   );
   console.log(
-    `[doom-index] Largest shadow increase: ${largestIncrease.difference >= 0 ? "+" : ""}${largestIncrease.difference.toFixed(2)} — ${largestIncrease.title}`,
+    `[doom-index] 1.2.1 exact-floor stories: ${floorCount}/${comparisons.length}; largest increase from 1.2: ${largestIncrease.difference >= 0 ? "+" : ""}${largestIncrease.difference.toFixed(2)} - ${largestIncrease.title}`,
   );
   console.log(
-    `[doom-index] Largest shadow decrease: ${largestDecrease.difference >= 0 ? "+" : ""}${largestDecrease.difference.toFixed(2)} — ${largestDecrease.title}`,
+    `[doom-index] Largest decrease from 1.2: ${largestDecrease.difference >= 0 ? "+" : ""}${largestDecrease.difference.toFixed(2)} - ${largestDecrease.title}; most common 1.2.1 top-20 source: ${mostCommonTopSource} (${mostCommonTopSourceCount}).`,
   );
 }
 
