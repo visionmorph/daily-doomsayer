@@ -13,7 +13,7 @@
     "timeZone": "America/Chicago",
     "weekStartsOn": "Monday",
     "archiveLimit": 10,
-    "shadow": {
+    "previousShadow": {
       "enabled": true,
       "version": "1.2.0",
       "formulaVersion": "1.2-shadow.1",
@@ -26,6 +26,21 @@
         "immediacy": 0.07,
         "systemicReach": 0.08,
         "credibleThreat": 0.12
+      }
+    },
+    "shadow": {
+      "enabled": true,
+      "version": "1.2.1",
+      "formulaVersion": "1.2.1-shadow.3",
+      "weights": {
+        "realizedHarm": 0.23,
+        "scale": 0.13,
+        "vulnerability": 0.1,
+        "lossOfControl": 0.17,
+        "irreversibility": 0.1,
+        "immediacy": 0.06,
+        "systemicReach": 0.08,
+        "credibleThreat": 0.13
       }
     }
   },
