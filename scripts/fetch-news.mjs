@@ -2,6 +2,11 @@ import { createHash } from "node:crypto";
 import { mkdir, readFile, readdir, rename, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import Parser from "rss-parser";
+import {
+  calculateDoomIndexV12,
+  createDoomIndexV12Fingerprint,
+  normalizedDoomIndexV12Weights,
+} from "./doom-index-v1.2.mjs";
 
 const FEED_TIMEOUT_MS = 20_000;
 const ARTICLE_TIMEOUT_MS = 15_000;
@@ -34,6 +39,25 @@ const doomIndexConfig = {
     Math.min(Number(config.doomIndex?.archiveLimit) || 10, 100),
   ),
 };
+const doomIndexV12Config = {
+  enabled: config.doomIndex?.shadow?.enabled !== false,
+  version: String(config.doomIndex?.shadow?.version || "1.2.0"),
+  formulaVersion: String(
+    config.doomIndex?.shadow?.formulaVersion || "1.2-shadow.1",
+  ),
+  weights: normalizedDoomIndexV12Weights(
+    config.doomIndex?.shadow?.weights,
+  ),
+};
+
+if (
+  doomIndexV12Config.enabled &&
+  doomIndexV12Config.formulaVersion === doomIndexConfig.formulaVersion
+) {
+  throw new Error(
+    "doomIndex.shadow.formulaVersion must differ from the public formulaVersion",
+  );
+}
 const DOOM_DATA_DIRECTORY = "data";
 const DOOM_HISTORY_DIRECTORY = join(DOOM_DATA_DIRECTORY, "doom-history");
 const DOOM_STORIES_FILE = join(DOOM_DATA_DIRECTORY, "doom-stories.json");
@@ -411,6 +435,10 @@ function calculateFormulaFingerprint() {
 }
 
 const formulaFingerprint = calculateFormulaFingerprint();
+const doomIndexV12Fingerprint = createDoomIndexV12Fingerprint({
+  formulaVersion: doomIndexV12Config.formulaVersion,
+  weights: doomIndexV12Config.weights,
+});
 
 function canonicalStoryUrl(value) {
   try {
@@ -579,6 +607,7 @@ function copyFormulaSummaryToDay(day, summary) {
     "peakSampleHour",
     "peakReasons",
     "peakRanking",
+    "peakFactors",
   ];
 
   for (const field of summaryFields) {
@@ -724,23 +753,25 @@ async function buildDoomArchive(generatedAt) {
   await writeTextFile(DOOM_ARCHIVE_FILE, output);
 }
 
-function registerFormula(container, observedAt, label) {
+function registerFormula(container, observedAt, label, formula) {
   container.formulas ||= {};
 
-  const existingFormula = container.formulas[doomIndexConfig.formulaVersion];
+  const existingFormula = container.formulas[formula.formulaVersion];
 
   if (
     existingFormula?.fingerprint &&
-    existingFormula.fingerprint !== formulaFingerprint
+    existingFormula.fingerprint !== formula.fingerprint
   ) {
     throw new Error(
-      `[doom-index] ${label} already associates formula version ${doomIndexConfig.formulaVersion} with fingerprint ${existingFormula.fingerprint}. Increment doomIndex.formulaVersion before changing the scoring formula.`,
+      `[doom-index] ${label} already associates formula version ${formula.formulaVersion} with fingerprint ${existingFormula.fingerprint}. Increment the formula version before changing its scoring rules.`,
     );
   }
 
-  container.formulas[doomIndexConfig.formulaVersion] = {
-    fingerprint: formulaFingerprint,
-    rankingWeights,
+  container.formulas[formula.formulaVersion] = {
+    fingerprint: formula.fingerprint,
+    kind: formula.kind,
+    status: formula.status,
+    weights: formula.weights,
     firstObservedAt: existingFormula?.firstObservedAt || observedAt,
     lastObservedAt: observedAt,
   };
@@ -754,6 +785,7 @@ async function updateDoomIndexHistory(articleList, observedAt) {
   const localHourKey = `${zoned.date}T${zoned.hour}`;
   const legacySampleKey = `${observedAt.slice(0, 13)}Z`;
   const sampleKey = `${legacySampleKey}|${doomIndexConfig.formulaVersion}`;
+  const shadowSampleKey = `${legacySampleKey}|${doomIndexV12Config.formulaVersion}`;
   const historyFile = join(DOOM_HISTORY_DIRECTORY, `${monthKey}.json`);
   const catalog = await readJsonFile(DOOM_STORIES_FILE, {
     version: doomIndexConfig.version,
@@ -775,7 +807,25 @@ async function updateDoomIndexHistory(articleList, observedAt) {
   catalog.version = doomIndexConfig.version;
   catalog.updatedAt = observedAt;
   catalog.stories ||= {};
-  registerFormula(catalog, observedAt, DOOM_STORIES_FILE);
+  const publicFormula = {
+    formulaVersion: doomIndexConfig.formulaVersion,
+    fingerprint: formulaFingerprint,
+    kind: "editorial-ranking-derived",
+    status: "public",
+    weights: rankingWeights,
+  };
+  const shadowFormula = {
+    formulaVersion: doomIndexV12Config.formulaVersion,
+    fingerprint: doomIndexV12Fingerprint,
+    kind: "consequence-severity",
+    status: "shadow",
+    weights: doomIndexV12Config.weights,
+  };
+
+  registerFormula(catalog, observedAt, DOOM_STORIES_FILE, publicFormula);
+  if (doomIndexV12Config.enabled) {
+    registerFormula(catalog, observedAt, DOOM_STORIES_FILE, shadowFormula);
+  }
   history.version = doomIndexConfig.version;
   history.legacyFormulaVersion ||= legacyHistoryFormulaVersion;
   history.formulaVersion = doomIndexConfig.formulaVersion;
@@ -784,7 +834,10 @@ async function updateDoomIndexHistory(articleList, observedAt) {
   history.timeZone = doomIndexConfig.timeZone;
   history.updatedAt = observedAt;
   history.stories ||= {};
-  registerFormula(history, observedAt, historyFile);
+  registerFormula(history, observedAt, historyFile, publicFormula);
+  if (doomIndexV12Config.enabled) {
+    registerFormula(history, observedAt, historyFile, shadowFormula);
+  }
 
   for (const article of articleList) {
     const canonicalUrl = canonicalStoryUrl(article.url);
@@ -883,6 +936,44 @@ async function updateDoomIndexHistory(articleList, observedAt) {
     day.formulaSummaries[doomIndexConfig.formulaVersion] = summary;
     day.activeFormulaVersion = doomIndexConfig.formulaVersion;
     copyFormulaSummaryToDay(day, summary);
+
+    if (doomIndexV12Config.enabled) {
+      const previousShadowSummary =
+        day.formulaSummaries[doomIndexV12Config.formulaVersion];
+
+      day.samples[shadowSampleKey] = {
+        value: article.doomIndexV12Shadow,
+        observedAt,
+        formulaVersion: doomIndexV12Config.formulaVersion,
+        formulaFingerprint: doomIndexV12Fingerprint,
+        factors: article.doomIndexV12Factors || {},
+        reasons: article.doomIndexV12Reasons || [],
+      };
+
+      const shadowSummary = calculateDaySummary(
+        day,
+        doomIndexV12Config.formulaVersion,
+        legacyHistoryFormulaVersion,
+      );
+      const previousShadowPeakSampleHour =
+        previousShadowSummary?.peakSampleHour;
+
+      if (shadowSummary.peakSampleHour === shadowSampleKey) {
+        shadowSummary.peakReasons = article.doomIndexV12Reasons || [];
+        shadowSummary.peakFactors = article.doomIndexV12Factors || {};
+      } else if (
+        shadowSummary.peakSampleHour === previousShadowPeakSampleHour
+      ) {
+        shadowSummary.peakReasons = previousShadowSummary?.peakReasons || [];
+        shadowSummary.peakFactors = previousShadowSummary?.peakFactors || {};
+      } else {
+        shadowSummary.peakReasons = [];
+        shadowSummary.peakFactors = {};
+      }
+
+      day.formulaSummaries[doomIndexV12Config.formulaVersion] = shadowSummary;
+      day.shadowFormulaVersion = doomIndexV12Config.formulaVersion;
+    }
 
     historyStory.days[zoned.date] = day;
     history.stories[storyId] = historyStory;
@@ -1032,6 +1123,18 @@ function itemArticleTypes(item) {
     ...textValues(item.prismSection),
     ...itemCategories(item),
   ];
+}
+
+function itemAnalysisText(item) {
+  return [
+    ...textValues(item.contentSnippet),
+    ...textValues(item.summary),
+    ...textValues(item.description),
+    ...itemCategories(item),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .slice(0, 4_000);
 }
 
 function sourceAcceptsItem(source, item) {
@@ -1275,6 +1378,7 @@ async function fetchSourceArticles(source) {
         source: source.name || feed.title || "",
         published: item.isoDate || item.pubDate || "",
         image: extractImage(item),
+        analysisText: itemAnalysisText(item),
         feedPosition,
         sourceWeight,
         candidateCount: acceptedItems.length,
@@ -1354,6 +1458,24 @@ for (const [articleIndex, article] of uniqueArticles.entries()) {
       novelty: noveltyScore,
     }),
   );
+
+  if (doomIndexV12Config.enabled) {
+    const shadow = calculateDoomIndexV12({
+      title: article.title,
+      summary: article.analysisText,
+      coverageSources: relatedSources.size,
+      weights: doomIndexV12Config.weights,
+    });
+
+    article.doomIndexV12Shadow = shadow.value;
+    article.doomIndexV12ShadowVersion = doomIndexV12Config.version;
+    article.doomIndexV12ShadowFormulaVersion =
+      doomIndexV12Config.formulaVersion;
+    article.doomIndexV12ShadowFormulaFingerprint =
+      doomIndexV12Fingerprint;
+    article.doomIndexV12Factors = shadow.factors;
+    article.doomIndexV12Reasons = shadow.reasons;
+  }
 }
 
 uniqueArticles.sort((first, second) => {
@@ -1387,7 +1509,8 @@ observationTime.setUTCMinutes(0, 0, 0);
 await updateDoomIndexHistory(uniqueArticles, observationTime.toISOString());
 
 const publishedArticles = uniqueArticles.map(
-  ({ candidateCount, feedPosition, sourceWeight, ...article }) => article,
+  ({ analysisText, candidateCount, feedPosition, sourceWeight, ...article }) =>
+    article,
 );
 
 const output = [
