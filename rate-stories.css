@@ -70,16 +70,6 @@
   text-align: right;
 }
 
-.calibration-rule {
-  width: 100%;
-  height: 1px;
-  background: #000000;
-}
-
-.calibration-rule--heavy {
-  height: 2px;
-}
-
 .calibration-toolbar {
   min-height: 40px;
   padding: 8px 0;
@@ -136,18 +126,18 @@
 
 .calibration-story-title {
   max-width: 1200px;
-  margin: 16px auto;
+  margin: 16px 0;
   font-size: clamp(48px, 7vw, 96px);
   line-height: 1;
   letter-spacing: 0.03em;
-  text-align: center;
+  text-align: left;
 }
 
 .calibration-story-summary,
 .calibration-stage-heading p,
 .calibration-empty p {
-  max-width: 960px;
-  margin: 16px auto 0;
+  max-width: 1200px;
+  margin: 16px 0 0;
   font-family: "Funnel Display", sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -176,11 +166,16 @@
   line-height: 24px;
 }
 
+.calibration-feed-heading {
+  font-size: 20px !important;
+  line-height: 24px !important;
+}
+
 .calibration-form {
   display: flex;
   margin-top: 24px;
   flex-direction: column;
-  gap: 24px;
+  gap: 32px;
 }
 
 .calibration-form--article {
@@ -196,11 +191,14 @@
   padding: 0;
   border: 0;
   flex-direction: column;
-  gap: 8px;
+  gap: 0;
+}
+
+.calibration-field legend {
+  padding-inline: 0;
 }
 
 .calibration-field textarea {
-  width: 100%;
   min-height: 112px;
   resize: vertical;
   border: 1px solid #000000;
@@ -220,16 +218,43 @@
 }
 
 .calibration-slider {
-  width: 100%;
+  width: auto;
   height: 32px;
+  flex: 1 1 auto;
   margin: 0;
   accent-color: #000000;
   cursor: pointer;
 }
 
+.calibration-slider::-webkit-slider-runnable-track {
+  height: 2px;
+  background: #000000;
+}
+
+.calibration-slider::-moz-range-track {
+  height: 2px;
+  background: #000000;
+}
+
 .calibration-slider-bounds {
-  font-size: 12px;
-  line-height: 16px;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.calibration-rating-heading {
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0;
+}
+
+.calibration-rating-heading output {
+  font-size: 48px;
+  line-height: 60px;
+  text-align: left;
 }
 
 .calibration-validation {
