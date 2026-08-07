@@ -33,16 +33,40 @@ test("source directory is deduplicated and alphabetized without leading The", ()
 
 test("severity scale must be contiguous and cover the complete index", () => {
   const scale = normalizedSeverityScale([
-    { minimum: 0, maximum: 49.99, label: "LOW", description: "Lower concern." },
-    { minimum: 50, maximum: 100, label: "HIGH", description: "Higher concern." },
+    {
+      minimum: 0,
+      maximum: 49.99,
+      label: "LOW",
+      description: "Lower concern.",
+      qualification: "Qualifies with limited evidence of harm.",
+    },
+    {
+      minimum: 50,
+      maximum: 100,
+      label: "HIGH",
+      description: "Higher concern.",
+      qualification: "Qualifies with substantial evidence of harm.",
+    },
   ]);
 
   assert.equal(scale[0].label, "LOW");
   assert.throws(
     () =>
       normalizedSeverityScale([
-        { minimum: 0, maximum: 40, label: "LOW", description: "Lower concern." },
-        { minimum: 50, maximum: 100, label: "HIGH", description: "Higher concern." },
+        {
+          minimum: 0,
+          maximum: 40,
+          label: "LOW",
+          description: "Lower concern.",
+          qualification: "Qualifies with limited evidence of harm.",
+        },
+        {
+          minimum: 50,
+          maximum: 100,
+          label: "HIGH",
+          description: "Higher concern.",
+          qualification: "Qualifies with substantial evidence of harm.",
+        },
       ]),
     /gap or overlap/,
   );
