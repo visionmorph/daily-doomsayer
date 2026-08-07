@@ -16,7 +16,6 @@
 
 .calibration-header,
 .calibration-toolbar,
-.calibration-eyebrow,
 .calibration-field-heading,
 .calibration-slider-bounds,
 .calibration-reader-fallback,
@@ -49,7 +48,6 @@
 .calibration-header-copy,
 .calibration-toolbar,
 .calibration-action,
-.calibration-eyebrow,
 .calibration-stage-heading > div,
 .calibration-field label,
 .calibration-field legend,
@@ -317,14 +315,20 @@
   line-height: 40px;
 }
 
-.calibration-rubric summary {
-  cursor: pointer;
+.calibration-rubric-title {
+  margin: 0;
+  font-family: "Cossette Titre", serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0;
+  text-transform: uppercase;
 }
 
 .calibration-scale {
   display: grid;
   margin-top: 16px;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 1px;
   border: 1px solid #000000;
   background: #000000;
@@ -348,6 +352,16 @@
   line-height: 20px;
   letter-spacing: -0.04em;
   text-transform: none;
+}
+
+.calibration-scale-item .calibration-scale-qualification-label {
+  margin-top: 16px;
+  font-family: "Cossette Titre", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .calibration-dialog {
