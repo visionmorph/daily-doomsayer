@@ -1,0 +1,408 @@
+.calibration-body {
+  min-width: 320px;
+  margin: 0;
+  color: var(--text-primary);
+  background: #ff0000;
+}
+
+.calibration-main {
+  display: flex;
+  width: min(100% - 32px, 1600px);
+  margin: 0 auto;
+  padding: 16px 0 48px;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.calibration-header,
+.calibration-toolbar,
+.calibration-eyebrow,
+.calibration-field-heading,
+.calibration-slider-bounds,
+.calibration-reader-fallback,
+.calibration-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.calibration-logo {
+  color: var(--text-primary);
+  font-family: "Rubik Broken Fax", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.calibration-logo:hover,
+.calibration-logo:focus-visible,
+.calibration-action:hover,
+.calibration-action:focus-visible,
+.calibration-radio:hover,
+.calibration-radio:focus-within {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.calibration-header-copy,
+.calibration-toolbar,
+.calibration-action,
+.calibration-eyebrow,
+.calibration-stage-heading > div,
+.calibration-field label,
+.calibration-field legend,
+.calibration-field output,
+.calibration-slider-bounds,
+.calibration-status,
+.calibration-note,
+.calibration-reader-fallback,
+.calibration-rubric,
+.calibration-comparison {
+  font-family: "Cossette Titre", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.calibration-header-copy {
+  text-align: right;
+}
+
+.calibration-rule {
+  width: 100%;
+  height: 1px;
+  background: #000000;
+}
+
+.calibration-rule--heavy {
+  height: 2px;
+}
+
+.calibration-toolbar {
+  min-height: 40px;
+  padding: 8px 0;
+}
+
+.calibration-status {
+  margin: 0;
+}
+
+.calibration-action {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+}
+
+.calibration-action--primary {
+  border: 1px solid #000000;
+  padding: 12px 16px;
+}
+
+.calibration-action:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+  text-decoration: none;
+}
+
+.calibration-workspace {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.calibration-story-context,
+.calibration-stage,
+.calibration-result,
+.calibration-rubric,
+.calibration-empty {
+  border-bottom: 1px solid #000000;
+  padding: 16px 0;
+}
+
+.calibration-story-title,
+.calibration-stage-heading h2,
+.calibration-empty h1 {
+  margin: 0;
+  color: var(--text-primary);
+  font-family: "Cossette Titre", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.calibration-story-title {
+  max-width: 1200px;
+  margin: 16px auto;
+  font-size: clamp(48px, 7vw, 96px);
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.calibration-story-summary,
+.calibration-stage-heading p,
+.calibration-empty p {
+  max-width: 960px;
+  margin: 16px auto 0;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+}
+
+.calibration-note {
+  max-width: 960px;
+  margin: 12px auto 0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.calibration-stage-heading h2,
+.calibration-empty h1 {
+  margin-top: 4px;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0;
+}
+
+.calibration-stage-heading p {
+  margin: 4px 0 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.calibration-form {
+  display: flex;
+  margin-top: 24px;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.calibration-form--article {
+  margin-top: 0;
+  padding: 24px;
+  background: #ff0000;
+}
+
+.calibration-field {
+  display: flex;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.calibration-field textarea {
+  width: 100%;
+  min-height: 112px;
+  resize: vertical;
+  border: 1px solid #000000;
+  border-radius: 0;
+  padding: 12px;
+  color: var(--text-primary);
+  background: #ff0000;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+}
+
+.calibration-field textarea::placeholder {
+  color: rgb(0 0 0 / 65%);
+}
+
+.calibration-slider {
+  width: 100%;
+  height: 32px;
+  margin: 0;
+  accent-color: #000000;
+  cursor: pointer;
+}
+
+.calibration-slider-bounds {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.calibration-validation {
+  margin: 0;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.calibration-confidence {
+  align-items: flex-start;
+}
+
+.calibration-radio {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.calibration-radio input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.calibration-radio-marker {
+  color: #ff0000;
+}
+
+.calibration-radio:has(input:checked) .calibration-radio-marker,
+.calibration-radio.is-selected .calibration-radio-marker {
+  color: var(--text-primary);
+}
+
+.calibration-reader {
+  margin-top: 24px;
+  border: 1px solid #000000;
+  background: #ffffff;
+}
+
+.calibration-reader iframe {
+  display: block;
+  width: 100%;
+  height: min(70vh, 900px);
+  min-height: 520px;
+  border: 0;
+  background: #ffffff;
+}
+
+.calibration-reader-fallback {
+  padding: 12px;
+  color: #000000;
+  background: #ff0000;
+}
+
+.calibration-result {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.calibration-comparison {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid #000000;
+  background: #000000;
+}
+
+.calibration-comparison-item {
+  min-height: 96px;
+  padding: 16px;
+  background: #ff0000;
+}
+
+.calibration-comparison-value {
+  display: block;
+  margin-top: 4px;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.calibration-rubric summary {
+  cursor: pointer;
+}
+
+.calibration-scale {
+  display: grid;
+  margin-top: 16px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid #000000;
+  background: #000000;
+}
+
+.calibration-scale-item {
+  padding: 12px;
+  background: #ff0000;
+}
+
+.calibration-scale-item strong,
+.calibration-scale-item span {
+  display: block;
+}
+
+.calibration-scale-item span {
+  margin-top: 8px;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  text-transform: none;
+}
+
+.calibration-dialog {
+  width: min(100% - 32px, 720px);
+  max-height: calc(100vh - 32px);
+  overflow: auto;
+  border: 1px solid #000000;
+  border-radius: 0;
+  padding: 24px;
+  color: #000000;
+  background: #ff0000;
+}
+
+.calibration-dialog::backdrop {
+  background: rgb(0 0 0 / 66%);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 720px) {
+  .calibration-header,
+  .calibration-toolbar,
+  .calibration-reader-fallback,
+  .calibration-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .calibration-header-copy {
+    text-align: left;
+  }
+
+  .calibration-logo {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .calibration-story-title {
+    font-size: 48px;
+  }
+
+  .calibration-stage-heading h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .calibration-comparison,
+  .calibration-scale {
+    grid-template-columns: 1fr;
+  }
+
+  .calibration-reader iframe {
+    height: 65vh;
+    min-height: 420px;
+  }
+}
