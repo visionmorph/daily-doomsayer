@@ -87,6 +87,12 @@ main > .category-row {
   color: var(--text-primary);
 }
 
+.model-option:hover,
+.model-option:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 .model-option:focus-visible {
   outline: 1px solid var(--text-primary);
   outline-offset: 2px;
