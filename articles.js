@@ -168,7 +168,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.4034,
+      "freshness": 0.4031,
       "feedPosition": 0.5556,
       "novelty": 0.6398
     },
@@ -177,7 +177,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3075,
+    "score": 0.3074,
     "doomIndex": 47.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -255,7 +255,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.4172,
+      "freshness": 0.4169,
       "feedPosition": 0.4444,
       "novelty": 0.4834
     },
@@ -264,7 +264,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.3764,
+    "score": 0.3763,
     "doomIndex": 44.75,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -343,7 +343,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.472,
+      "freshness": 0.4716,
       "feedPosition": 0.75,
       "novelty": 0.5862
     },
@@ -352,7 +352,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.4254,
+    "score": 0.4253,
     "doomIndex": 44.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -429,7 +429,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2223,
+      "freshness": 0.2221,
       "feedPosition": 1,
       "novelty": 0.8538
     },
@@ -515,7 +515,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2455,
       "sourceAuthority": 0.5,
-      "freshness": 0.3664,
+      "freshness": 0.3661,
       "feedPosition": 0.4444,
       "novelty": 0.6879
     },
@@ -524,7 +524,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "unusual language in the current story batch"
     ],
-    "score": 0.2923,
+    "score": 0.2922,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -601,7 +601,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.2671,
+      "freshness": 0.2669,
       "feedPosition": 0.4,
       "novelty": 0.6638
     },
@@ -686,7 +686,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3248,
+      "freshness": 0.3245,
       "feedPosition": 0.1111,
       "novelty": 0.8051
     },
@@ -860,7 +860,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0976,
+      "freshness": 0.0975,
       "feedPosition": 0.4444,
       "novelty": 0.6788
     },
@@ -870,7 +870,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2524,
+    "score": 0.2523,
     "doomIndex": 23.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -949,7 +949,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.2155,
       "sourceAuthority": 0.5,
-      "freshness": 0.6107,
+      "freshness": 0.6101,
       "feedPosition": 0.5556,
       "novelty": 0.6415
     },
@@ -958,7 +958,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "covered by multiple sources"
     ],
-    "score": 0.4294,
+    "score": 0.4293,
     "doomIndex": 21.92,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1032,7 +1032,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.2255,
       "sourceAuthority": 0.5,
-      "freshness": 0.5224,
+      "freshness": 0.5219,
       "feedPosition": 0.2222,
       "novelty": 0.6898
     },
@@ -1042,7 +1042,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.3897,
+    "score": 0.3896,
     "doomIndex": 21.92,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1125,7 +1125,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2462,
+    "score": 0.2461,
     "doomIndex": 21.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1204,14 +1204,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.122,
       "sourceAuthority": 0.5,
-      "freshness": 0.5911,
+      "freshness": 0.5905,
       "feedPosition": 0.5556,
       "novelty": 0.5349
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2971,
+    "score": 0.297,
     "doomIndex": 19.87,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1284,7 +1284,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.462,
       "sourceAuthority": 0.5,
-      "freshness": 0.105,
+      "freshness": 0.1049,
       "feedPosition": 0.7778,
       "novelty": 0.5998
     },
@@ -1473,7 +1473,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.452,
       "sourceAuthority": 0.5,
-      "freshness": 0.3556,
+      "freshness": 0.3552,
       "feedPosition": 0.3333,
       "novelty": 0.7822
     },
@@ -1484,7 +1484,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3303,
+    "score": 0.3302,
     "doomIndex": 18.09,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1561,7 +1561,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.082,
       "sourceAuthority": 0.5,
-      "freshness": 0.3366,
+      "freshness": 0.3363,
       "feedPosition": 0.2222,
       "novelty": 0.6242
     },
@@ -2061,7 +2061,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.8529,
+      "freshness": 0.8522,
       "feedPosition": 0.8889,
       "novelty": 0.7319
     },
@@ -2069,7 +2069,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.387,
+    "score": 0.3869,
     "doomIndex": 16.51,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2227,14 +2227,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.2715,
+      "freshness": 0.2713,
       "feedPosition": 1,
       "novelty": 0.7234
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2905,
+    "score": 0.2904,
     "doomIndex": 16.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2307,7 +2307,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.3142,
+      "freshness": 0.3139,
       "feedPosition": 0.1111,
       "novelty": 0.7077
     },
@@ -2390,7 +2390,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.239,
       "sourceAuthority": 0.5,
-      "freshness": 0.3164,
+      "freshness": 0.3161,
       "feedPosition": 0.1111,
       "novelty": 0.4989
     },
@@ -2399,7 +2399,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2313,
+    "score": 0.2312,
     "doomIndex": 15.2,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2472,7 +2472,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.1037,
+      "freshness": 0.1036,
       "feedPosition": 0.2,
       "novelty": 0.6783
     },
@@ -2553,7 +2553,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.1975,
+      "freshness": 0.1974,
       "feedPosition": 0.8889,
       "novelty": 0.8621
     },
@@ -2644,7 +2644,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.34,
       "sourceAuthority": 0.5,
-      "freshness": 0.1056,
+      "freshness": 0.1055,
       "feedPosition": 0.8571,
       "novelty": 0.6242
     },
@@ -3069,7 +3069,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0798,
+      "freshness": 0.0797,
       "feedPosition": 0.3333,
       "novelty": 0.6489
     },
@@ -3825,7 +3825,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.154,
       "sourceAuthority": 0.5,
-      "freshness": 0.2071,
+      "freshness": 0.207,
       "feedPosition": 1,
       "novelty": 0.817
     },
@@ -3834,7 +3834,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3186,
+    "score": 0.3185,
     "doomIndex": 12.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3997,7 +3997,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8086,
+      "freshness": 0.8079,
       "feedPosition": 1,
       "novelty": 0.5057
     },
@@ -4005,7 +4005,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3753,
+    "score": 0.3752,
     "doomIndex": 12.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4078,7 +4078,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1765,
       "sourceAuthority": 0.5,
-      "freshness": 0.0716,
+      "freshness": 0.0715,
       "feedPosition": 0.7143,
       "novelty": 0.5905
     },
@@ -4239,7 +4239,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.232,
       "sourceAuthority": 0.5,
-      "freshness": 0.1007,
+      "freshness": 0.1006,
       "feedPosition": 0.5556,
       "novelty": 0.8277
     },
@@ -4327,14 +4327,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.704,
+      "freshness": 0.7034,
       "feedPosition": 1,
       "novelty": 0.7234
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.36,
+    "score": 0.3599,
     "doomIndex": 12.46,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4492,12 +4492,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2715,
+      "freshness": 0.2713,
       "feedPosition": 0,
       "novelty": 0.6483
     },
     "rankingReasons": [],
-    "score": 0.1806,
+    "score": 0.1805,
     "doomIndex": 11.93,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4662,7 +4662,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.28,
       "sourceAuthority": 0.5,
-      "freshness": 0.1039,
+      "freshness": 0.1038,
       "feedPosition": 0.6667,
       "novelty": 0.8377
     },
@@ -4752,7 +4752,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2765,
       "sourceAuthority": 0.5,
-      "freshness": 0.3054,
+      "freshness": 0.3051,
       "feedPosition": 0,
       "novelty": 0.6912
     },
@@ -4923,7 +4923,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.2975,
+      "freshness": 0.2973,
       "feedPosition": 0.5556,
       "novelty": 0.769
     },
@@ -4933,7 +4933,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3025,
+    "score": 0.3024,
     "doomIndex": 11.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5011,12 +5011,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6543,
+      "freshness": 0.6538,
       "feedPosition": 0.8889,
       "novelty": 0.6155
     },
     "rankingReasons": [],
-    "score": 0.3236,
+    "score": 0.3235,
     "doomIndex": 11.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5089,14 +5089,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5587,
+      "freshness": 0.5582,
       "feedPosition": 0.5556,
       "novelty": 0.7692
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2913,
+    "score": 0.2912,
     "doomIndex": 10.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5176,7 +5176,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6382,
+      "freshness": 0.6377,
       "feedPosition": 0.6667,
       "novelty": 0.7521
     },
@@ -5184,7 +5184,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3268,
+    "score": 0.3267,
     "doomIndex": 10.76,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5259,7 +5259,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.4053,
+      "freshness": 0.405,
       "feedPosition": 0.1111,
       "novelty": 0.8499
     },
@@ -5267,7 +5267,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2461,
+    "score": 0.246,
     "doomIndex": 10.68,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5342,7 +5342,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.6889,
+      "freshness": 0.6883,
       "feedPosition": 0.7778,
       "novelty": 0.8588
     },
@@ -5352,7 +5352,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3944,
+    "score": 0.3943,
     "doomIndex": 10.66,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5427,7 +5427,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.1683,
+      "freshness": 0.1681,
       "feedPosition": 0.4444,
       "novelty": 0.602
     },
@@ -5511,7 +5511,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.312,
       "sourceAuthority": 0.5,
-      "freshness": 0.5749,
+      "freshness": 0.5744,
       "feedPosition": 0.2222,
       "novelty": 0.6045
     },
@@ -5520,7 +5520,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3063,
+    "score": 0.3062,
     "doomIndex": 10.21,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5591,7 +5591,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.339,
       "sourceAuthority": 0.5,
-      "freshness": 0.5993,
+      "freshness": 0.5988,
       "feedPosition": 0.6667,
       "novelty": 0.7655
     },
@@ -5601,7 +5601,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3759,
+    "score": 0.3758,
     "doomIndex": 10.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5679,7 +5679,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3951,
+      "freshness": 0.3948,
       "feedPosition": 0.4444,
       "novelty": 0.5902
     },
@@ -5758,7 +5758,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.3294,
+      "freshness": 0.3291,
       "feedPosition": 0,
       "novelty": 0.7077
     },
@@ -5766,7 +5766,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2165,
+    "score": 0.2164,
     "doomIndex": 9.58,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5923,7 +5923,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1394,
+      "freshness": 0.1393,
       "feedPosition": 0.8571,
       "novelty": 0.9461
     },
@@ -6178,14 +6178,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5599,
+      "freshness": 0.5594,
       "feedPosition": 0.7778,
       "novelty": 0.7941
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3162,
+    "score": 0.3161,
     "doomIndex": 8.62,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6756,7 +6756,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.6834,
+      "freshness": 0.6828,
       "feedPosition": 1,
       "novelty": 0.8246
     },
@@ -6765,7 +6765,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3884,
+    "score": 0.3883,
     "doomIndex": 8.23,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7089,7 +7089,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.324,
       "sourceAuthority": 0.5,
-      "freshness": 0.0875,
+      "freshness": 0.0874,
       "feedPosition": 0.7778,
       "novelty": 0.8828
     },
@@ -7172,14 +7172,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1517,
+      "freshness": 0.1516,
       "feedPosition": 0.4444,
       "novelty": 0.7647
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2187,
+    "score": 0.2186,
     "doomIndex": 7.75,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7254,7 +7254,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1288,
+      "freshness": 0.1287,
       "feedPosition": 0,
       "novelty": 0.5811
     },
@@ -7336,7 +7336,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.5852,
+      "freshness": 0.5847,
       "feedPosition": 1,
       "novelty": 0.6912
     },
@@ -7347,7 +7347,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3963,
+    "score": 0.3962,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7422,7 +7422,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.3168,
+      "freshness": 0.3165,
       "feedPosition": 0.6667,
       "novelty": 0.668
     },
@@ -7432,7 +7432,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3064,
+    "score": 0.3063,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7592,7 +7592,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1575,
       "sourceAuthority": 0.5,
-      "freshness": 0.1955,
+      "freshness": 0.1953,
       "feedPosition": 0.25,
       "novelty": 0.7585
     },
@@ -7600,7 +7600,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2367,
+    "score": 0.2366,
     "doomIndex": 7.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7760,7 +7760,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.6969,
+      "freshness": 0.6963,
       "feedPosition": 0.8889,
       "novelty": 0.3474
     },
@@ -7769,7 +7769,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3456,
+    "score": 0.3455,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7842,7 +7842,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0941,
+      "freshness": 0.094,
       "feedPosition": 0.7778,
       "novelty": 0.6983
     },
@@ -7927,7 +7927,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1782,
+      "freshness": 0.178,
       "feedPosition": 1,
       "novelty": 0.8156
     },
@@ -8010,7 +8010,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.582,
+      "freshness": 0.5815,
       "feedPosition": 0.4444,
       "novelty": 0.5998
     },
@@ -8345,14 +8345,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6528,
+      "freshness": 0.6523,
       "feedPosition": 0.8889,
       "novelty": 0.6315
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.425,
+    "score": 0.4249,
     "doomIndex": 7.22,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8423,14 +8423,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.6424,
+      "freshness": 0.6419,
       "feedPosition": 0.7778,
       "novelty": 0.5275
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.409,
+    "score": 0.4089,
     "doomIndex": 7.22,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8585,7 +8585,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8721,
+      "freshness": 0.8713,
       "feedPosition": 1,
       "novelty": 0.8166
     },
@@ -8594,7 +8594,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4159,
+    "score": 0.4158,
     "doomIndex": 6.68,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8667,7 +8667,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.5591,
+      "freshness": 0.5586,
       "feedPosition": 0,
       "novelty": 0.6242
     },
@@ -8675,7 +8675,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "specific details"
     ],
-    "score": 0.26,
+    "score": 0.2599,
     "doomIndex": 6.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8838,7 +8838,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.18,
       "sourceAuthority": 0.5,
-      "freshness": 0.6605,
+      "freshness": 0.66,
       "feedPosition": 0.7778,
       "novelty": 0.4942
     },
@@ -8847,7 +8847,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "covered by multiple sources"
     ],
-    "score": 0.4373,
+    "score": 0.4372,
     "doomIndex": 6.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9009,7 +9009,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0068,
+      "freshness": 0.0067,
       "feedPosition": 0.6667,
       "novelty": 0.9595
     },
@@ -9098,7 +9098,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.3832,
+      "freshness": 0.3828,
       "feedPosition": 0.3333,
       "novelty": 0.6972
     },
@@ -9181,14 +9181,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6611,
+      "freshness": 0.6605,
       "feedPosition": 1,
       "novelty": 0.4596
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4201,
+    "score": 0.42,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9259,14 +9259,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6807,
+      "freshness": 0.6801,
       "feedPosition": 0.7778,
       "novelty": 0.4936
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4042,
+    "score": 0.4041,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9337,7 +9337,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.229,
       "sourceAuthority": 0.5,
-      "freshness": 0.7533,
+      "freshness": 0.7526,
       "feedPosition": 1,
       "novelty": 0.6358
     },
@@ -9346,7 +9346,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3974,
+    "score": 0.3973,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9417,7 +9417,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.5634,
+      "freshness": 0.5629,
       "feedPosition": 1,
       "novelty": 0.9308
     },
@@ -9426,7 +9426,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3906,
+    "score": 0.3905,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9497,7 +9497,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3035,
       "sourceAuthority": 0.5,
-      "freshness": 0.6426,
+      "freshness": 0.642,
       "feedPosition": 0.7778,
       "novelty": 0.7298
     },
@@ -9583,7 +9583,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.141,
       "sourceAuthority": 0.5,
-      "freshness": 0.7165,
+      "freshness": 0.7159,
       "feedPosition": 1,
       "novelty": 0.6934
     },
@@ -9592,7 +9592,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.38,
+    "score": 0.3799,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9663,7 +9663,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.3041,
+      "freshness": 0.3039,
       "feedPosition": 0.6,
       "novelty": 0.6722
     },
@@ -9743,7 +9743,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.5649,
+      "freshness": 0.5644,
       "feedPosition": 0.7778,
       "novelty": 0.9353
     },
@@ -9826,7 +9826,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.5758,
+      "freshness": 0.5753,
       "feedPosition": 0.8889,
       "novelty": 0.789
     },
@@ -9836,7 +9836,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3716,
+    "score": 0.3715,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9909,7 +9909,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.331,
       "sourceAuthority": 0.5,
-      "freshness": 0.6247,
+      "freshness": 0.6242,
       "feedPosition": 1,
       "novelty": 0.32
     },
@@ -9918,7 +9918,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.3669,
+    "score": 0.3668,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9991,7 +9991,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.6315,
+      "freshness": 0.631,
       "feedPosition": 0.6667,
       "novelty": 0.7654
     },
@@ -10073,7 +10073,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6228,
+      "freshness": 0.6223,
       "feedPosition": 0.6667,
       "novelty": 0.9026
     },
@@ -10154,7 +10154,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2355,
       "sourceAuthority": 0.5,
-      "freshness": 0.5834,
+      "freshness": 0.5829,
       "feedPosition": 0.4444,
       "novelty": 0.7521
     },
@@ -10163,7 +10163,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "unusual language in the current story batch"
     ],
-    "score": 0.3293,
+    "score": 0.3292,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10236,7 +10236,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.191,
       "sourceAuthority": 0.5,
-      "freshness": 0.3791,
+      "freshness": 0.3787,
       "feedPosition": 0.8,
       "novelty": 0.7822
     },
@@ -10245,7 +10245,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3283,
+    "score": 0.3282,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10318,7 +10318,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.5749,
+      "freshness": 0.5744,
       "feedPosition": 0.3333,
       "novelty": 0.9191
     },
@@ -10327,7 +10327,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3252,
+    "score": 0.3251,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10404,14 +10404,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.4006,
+      "freshness": 0.4003,
       "feedPosition": 1,
       "novelty": 0.8617
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3237,
+    "score": 0.3236,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10484,7 +10484,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.6995,
+      "freshness": 0.6989,
       "feedPosition": 0.8889,
       "novelty": 0.3824
     },
@@ -10562,7 +10562,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.083,
       "sourceAuthority": 0.5,
-      "freshness": 0.5246,
+      "freshness": 0.5241,
       "feedPosition": 0.5,
       "novelty": 0.9075
     },
@@ -10643,7 +10643,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0835,
       "sourceAuthority": 0.5,
-      "freshness": 0.4241,
+      "freshness": 0.4237,
       "feedPosition": 0.6667,
       "novelty": 0.857
     },
@@ -10651,7 +10651,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3077,
+    "score": 0.3076,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10722,14 +10722,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6293,
+      "freshness": 0.6288,
       "feedPosition": 0.6667,
       "novelty": 0.6816
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3042,
+    "score": 0.3041,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10802,7 +10802,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.3034,
+      "freshness": 0.3031,
       "feedPosition": 0,
       "novelty": 0.7999
     },
@@ -10881,7 +10881,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.166,
+      "freshness": 0.1659,
       "feedPosition": 0.8889,
       "novelty": 0.7702
     },
@@ -10963,7 +10963,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.2665,
+      "freshness": 0.2663,
       "feedPosition": 0.8889,
       "novelty": 0.8747
     },
@@ -11041,7 +11041,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.1356,
+      "freshness": 0.1355,
       "feedPosition": 0.8889,
       "novelty": 0.8747
     },
@@ -11126,7 +11126,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.544,
+      "freshness": 0.5435,
       "feedPosition": 0.5556,
       "novelty": 0.7999
     },
@@ -11208,14 +11208,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.5749,
+      "freshness": 0.5744,
       "feedPosition": 0.3333,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2916,
+    "score": 0.2915,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11288,7 +11288,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.382,
       "sourceAuthority": 0.5,
-      "freshness": 0.3439,
+      "freshness": 0.3436,
       "feedPosition": 0.2222,
       "novelty": 0.5318
     },
@@ -11297,7 +11297,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2784,
+    "score": 0.2783,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11370,7 +11370,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.2313,
+      "freshness": 0.2311,
       "feedPosition": 0.5556,
       "novelty": 0.9595
     },
@@ -11533,14 +11533,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.5669,
+      "freshness": 0.5664,
       "feedPosition": 0.1111,
       "novelty": 0.8246
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2607,
+    "score": 0.2606,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11613,7 +11613,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.3587,
+      "freshness": 0.3584,
       "feedPosition": 0.3333,
       "novelty": 0.8747
     },
@@ -11773,7 +11773,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.3571,
+      "freshness": 0.3568,
       "feedPosition": 0.2222,
       "novelty": 0.7654
     },
@@ -12018,7 +12018,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0772,
+      "freshness": 0.0771,
       "feedPosition": 0.2222,
       "novelty": 0.799
     },
@@ -12263,7 +12263,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3208,
+      "freshness": 0.3205,
       "feedPosition": 0,
       "novelty": 0.6242
     },
@@ -12504,7 +12504,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.1464,
+      "freshness": 0.1462,
       "feedPosition": 0.3333,
       "novelty": 0.7494
     },
@@ -12828,7 +12828,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.0768,
+      "freshness": 0.0767,
       "feedPosition": 0.1111,
       "novelty": 0.6998
     },
@@ -13232,7 +13232,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.0419,
+      "freshness": 0.0418,
       "feedPosition": 0.1111,
       "novelty": 0.5979
     },
