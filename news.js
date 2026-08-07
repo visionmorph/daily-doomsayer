@@ -4,6 +4,37 @@
   const severityScale = site.doomIndex?.severityScale || [];
   let glitchImageIndex = 0;
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const modelName = String(site.doomIndex?.modelName || "DREAD").toUpperCase();
+  const modelStorageKey = "daily-doomsayer-doom-model";
+  const modelDefinitions = {
+    public: {
+      version: String(site.doomIndex?.version || "1.2.2"),
+      status: "PUBLIC",
+      valueField: "doomIndex",
+    },
+    experimental: {
+      version: String(site.doomIndex?.shadow?.version || "1.2.3"),
+      status: "EXPERIMENTAL",
+      valueField: "doomIndexV123Shadow",
+    },
+  };
+  const experimentalAvailable =
+    Array.isArray(articles) &&
+    articles.some((article) =>
+      Number.isFinite(Number(article?.doomIndexV123Shadow)),
+    );
+  let activeModel = "public";
+
+  try {
+    if (
+      window.localStorage.getItem(modelStorageKey) === "experimental" &&
+      experimentalAvailable
+    ) {
+      activeModel = "experimental";
+    }
+  } catch {
+    activeModel = "public";
+  }
 
   document.querySelectorAll("a.news-link").forEach((link) => {
     link.target = "_blank";
@@ -176,7 +207,9 @@
     const scaleElement = document.querySelector("#doom-index-legend-scale");
 
     if (versionElement) {
-      versionElement.textContent = `Doom Index ${site.doomIndex?.version || ""}`.trim();
+      const definition = modelDefinitions[activeModel];
+      versionElement.textContent =
+        `${modelName} ${definition.version} [${definition.status}]`.trim();
     }
 
     if (!scaleElement || severityScale.length === 0) {
@@ -215,12 +248,14 @@
     }
   }
 
-  initializeChronicle();
-  initializeMarketTape();
-  renderDoomIndexLegend();
-  renderSourceDirectory();
+  function doomIndexValue(article, model = activeModel) {
+    const definition = modelDefinitions[model] || modelDefinitions.public;
+    const selectedDoomIndex = Number(article?.[definition.valueField]);
 
-  function doomIndexValue(article) {
+    if (Number.isFinite(selectedDoomIndex)) {
+      return Math.max(0, Math.min(selectedDoomIndex, 100));
+    }
+
     const recordedDoomIndex = Number(article?.doomIndex);
 
     if (Number.isFinite(recordedDoomIndex)) {
@@ -358,13 +393,51 @@
     });
   }
 
-  if (!Array.isArray(articles) || articles.length === 0) {
-    return;
+  function updateGlitchImage(container, image, article) {
+    if (!container || !image) {
+      return;
+    }
+
+    image.src = article.image;
+    image.alt = article.title;
+    image.hidden = false;
+    container.classList.add("has-story-image");
+
+    const layers = container.querySelectorAll(".glitch-image-layer");
+
+    if (layers.length === 0) {
+      addGlitchLayers(container, image);
+    } else {
+      layers.forEach((layer) => {
+        layer.src = article.image;
+      });
+    }
   }
 
-  const featuredArticle = articles.find((article) => article.featured);
+  function clearGlitchImage(container, image) {
+    if (!container || !image) {
+      return;
+    }
 
-  if (featuredArticle) {
+    image.hidden = true;
+    image.removeAttribute("src");
+    image.alt = "";
+    container.classList.remove("has-story-image");
+    container.querySelectorAll(".glitch-image-layer").forEach((layer) => {
+      layer.remove();
+    });
+  }
+
+  function compareArticles(first, second) {
+    return (
+      (doomIndexValue(second) ?? -1) - (doomIndexValue(first) ?? -1) ||
+      (Number(second.score) || 0) - (Number(first.score) || 0) ||
+      (Date.parse(second.published) || 0) -
+        (Date.parse(first.published) || 0)
+    );
+  }
+
+  function renderHeadline(featuredArticle) {
     const headlineLink = document.querySelector("#headline-link");
     const headlineTitle = document.querySelector("#headline-title");
     const headlineDoomIndex = document.querySelector("#headline-doom-index");
@@ -373,6 +446,10 @@
     const headlineImagePlaceholder = document.querySelector(
       "#headline-image-placeholder",
     );
+
+    if (!featuredArticle) {
+      return;
+    }
 
     if (headlineLink && headlineTitle) {
       headlineLink.href = featuredArticle.url;
@@ -388,80 +465,173 @@
     }
 
     if (featuredArticle.image && headlineImage) {
-      headlineImage.src = featuredArticle.image;
-      headlineImage.alt = featuredArticle.title;
-      headlineImage.hidden = false;
-      headlineImageLink?.classList.add("has-story-image");
-      addGlitchLayers(headlineImageLink, headlineImage);
+      updateGlitchImage(headlineImageLink, headlineImage, featuredArticle);
 
       if (headlineImagePlaceholder) {
         headlineImagePlaceholder.hidden = true;
       }
+    } else {
+      clearGlitchImage(headlineImageLink, headlineImage);
+
+      if (headlineImagePlaceholder) {
+        headlineImagePlaceholder.hidden = false;
+      }
     }
   }
 
-  const articlesByGroup = new Map();
-
-  for (const article of articles) {
-    if (article.featured) {
-      continue;
-    }
-
-    if (!articlesByGroup.has(article.group)) {
-      articlesByGroup.set(article.group, []);
-    }
-
-    articlesByGroup.get(article.group).push(article);
+  function categoryCoverLink(groupElement) {
+    return [...groupElement.parentElement.children].find((element) =>
+      element.classList.contains("news-category-cover-link"),
+    );
   }
 
-  const groupCursors = new Map();
+  function renderCategoryCover(groupElement, article) {
+    let coverLink = categoryCoverLink(groupElement);
 
-  document.querySelectorAll("[data-news-group]").forEach((groupElement) => {
-    const group = groupElement.dataset.newsGroup;
-    const groupArticles = articlesByGroup.get(group) || [];
-    const links = groupElement.querySelectorAll("a.news-link");
-    const startIndex = groupCursors.get(group) || 0;
-    const coverArticle = groupArticles[startIndex];
+    if (!article?.image) {
+      coverLink?.remove();
+      return;
+    }
 
-    if (
-      coverArticle?.image &&
-      !groupElement.parentElement.querySelector(".news-category-cover-link")
-    ) {
-      const coverLink = document.createElement("a");
-      const coverImage = document.createElement("img");
+    let coverImage;
+
+    if (!coverLink) {
+      coverLink = document.createElement("a");
+      coverImage = document.createElement("img");
 
       coverLink.className =
         "news-category-cover-link story-image-link has-story-image";
-      coverLink.href = coverArticle.url;
       coverLink.target = "_blank";
       coverLink.rel = "noopener noreferrer";
-
       coverImage.className = "news-category-cover";
-      coverImage.src = coverArticle.image;
-      coverImage.alt = coverArticle.title;
       coverImage.loading = "lazy";
-
       coverLink.append(coverImage);
-      addGlitchLayers(coverLink, coverImage);
       groupElement.parentElement.insertBefore(coverLink, groupElement);
+    } else {
+      coverImage = coverLink.querySelector(".story-image-base");
     }
 
-    links.forEach((link, linkIndex) => {
-      const article = groupArticles[startIndex + linkIndex];
+    coverLink.href = article.url;
+    updateGlitchImage(coverLink, coverImage, article);
+  }
 
-      if (!article) {
-        return;
+  function renderNewsCategories(orderedArticles, featuredArticle) {
+    const articlesByGroup = new Map();
+
+    for (const article of orderedArticles) {
+      if (article === featuredArticle) {
+        continue;
       }
 
-      const doomIndex = compactDoomIndex(article);
-      link.textContent = doomIndex
-        ? `${article.title} ${doomIndex}`
-        : article.title;
-      link.href = article.url;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
+      if (!articlesByGroup.has(article.group)) {
+        articlesByGroup.set(article.group, []);
+      }
+
+      articlesByGroup.get(article.group).push(article);
+    }
+
+    const groupCursors = new Map();
+
+    document.querySelectorAll("[data-news-group]").forEach((groupElement) => {
+      const group = groupElement.dataset.newsGroup;
+      const groupArticles = articlesByGroup.get(group) || [];
+      const links = groupElement.querySelectorAll("a.news-link");
+      const startIndex = groupCursors.get(group) || 0;
+      const coverArticle = groupArticles[startIndex];
+
+      renderCategoryCover(groupElement, coverArticle);
+
+      links.forEach((link, linkIndex) => {
+        const article = groupArticles[startIndex + linkIndex];
+
+        if (!article) {
+          link.hidden = true;
+          return;
+        }
+
+        const doomIndex = compactDoomIndex(article);
+        link.hidden = false;
+        link.textContent = doomIndex
+          ? `${article.title} ${doomIndex}`
+          : article.title;
+        link.href = article.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+      });
+
+      groupCursors.set(group, startIndex + links.length);
+    });
+  }
+
+  function renderModelView() {
+    if (!Array.isArray(articles) || articles.length === 0) {
+      return;
+    }
+
+    const orderedArticles = [...articles].sort(compareArticles);
+    const featuredArticle = orderedArticles.find(
+      (article) => article.group === "ai",
+    );
+
+    renderHeadline(featuredArticle);
+    renderNewsCategories(orderedArticles, featuredArticle);
+    renderDoomIndexLegend();
+  }
+
+  function updateModelSwitcher() {
+    document.querySelectorAll("[data-doom-model]").forEach((button) => {
+      const model = button.dataset.doomModel;
+      const definition = modelDefinitions[model];
+      const selected = model === activeModel;
+      const unavailable = model === "experimental" && !experimentalAvailable;
+
+      button.classList.toggle("is-selected", selected);
+      button.setAttribute("aria-checked", String(selected));
+      button.setAttribute(
+        "aria-label",
+        `${modelName} ${definition.version} ${definition.status}`,
+      );
+      button.disabled = unavailable;
+      button.querySelector("[data-model-name]").textContent = modelName;
+      button.querySelector("[data-model-version]").textContent =
+        definition.version;
+    });
+  }
+
+  function selectModel(model) {
+    if (
+      !modelDefinitions[model] ||
+      (model === "experimental" && !experimentalAvailable) ||
+      model === activeModel
+    ) {
+      return;
+    }
+
+    activeModel = model;
+
+    try {
+      window.localStorage.setItem(modelStorageKey, activeModel);
+    } catch {
+      // The model still switches when browser storage is unavailable.
+    }
+
+    updateModelSwitcher();
+    renderModelView();
+  }
+
+  function initializeModelSwitcher() {
+    document.querySelectorAll("[data-doom-model]").forEach((button) => {
+      button.addEventListener("click", () => {
+        selectModel(button.dataset.doomModel);
+      });
     });
 
-    groupCursors.set(group, startIndex + links.length);
-  });
+    updateModelSwitcher();
+  }
+
+  initializeChronicle();
+  initializeMarketTape();
+  renderSourceDirectory();
+  initializeModelSwitcher();
+  renderModelView();
 })();
