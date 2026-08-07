@@ -109,6 +109,7 @@
 
 .calibration-workspace {
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 16px;
 }
@@ -152,8 +153,7 @@
 }
 
 .calibration-story-title {
-  max-width: 1200px;
-  margin: 16px 0;
+  margin: 0;
   font-size: clamp(48px, 7vw, 96px);
   line-height: 1;
   letter-spacing: 0.03em;
@@ -164,12 +164,19 @@
 .calibration-stage-heading p,
 .calibration-empty p {
   max-width: 1200px;
-  margin: 16px 0 0;
   font-family: "Funnel Display", sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
   letter-spacing: -0.04em;
+}
+
+.calibration-story-summary {
+  margin: 0;
+}
+
+.calibration-empty p {
+  margin: 16px 0 0;
 }
 
 .calibration-note {
@@ -424,7 +431,16 @@
   margin-block: 0;
 }
 
-.calibration-scale-item > span,
+.calibration-scale-item > span {
+  margin-block: 0;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  text-transform: none;
+}
+
 .calibration-scale-qualification {
   margin-block: 0;
   font-family: "Funnel Display", sans-serif;
