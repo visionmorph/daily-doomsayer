@@ -276,8 +276,9 @@
     elements.summary.textContent = feedSummary;
     elements.summary.hidden = !feedSummary;
     elements.summaryNote.textContent = feedSummary
-      ? "Rate this stage from the title and supplied feed summary only."
+      ? ""
       : "No feed summary was supplied for this story. Rate this stage from the title only, or skip it.";
+    elements.summaryNote.hidden = Boolean(feedSummary);
 
     elements.frame.src = article.url;
     elements.frame.title = `Article: ${article.title}`;
