@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "d31f077f561d92ba2a05",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-07T00:00:00.000Z",
+  "generatedAt": "2026-08-07T03:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-06",
@@ -17,12 +17,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
           "peak": 53,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 46.38
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 46
         },
         {
           "storyId": "d9b788ef8f14ee57b58f",
@@ -31,12 +31,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/c91be6cb6b52fd5a680eca5ee6fb30ab1009b679/218_0_3333_2667/master/3333.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 48.51,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 45.29
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 45.31
         },
         {
           "storyId": "f1d122158348f57788be",
@@ -45,12 +45,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
           "peak": 47.52,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T10:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 44.06
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 43.43
         },
         {
           "storyId": "ee19be2cef2d8ae6fe5c",
@@ -59,12 +59,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 47.24,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 44.12
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 44.13
         },
         {
           "storyId": "5b8bd87aa273fc1e010a",
@@ -73,12 +73,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/softbank-ohio-data-center.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.25,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 42.4
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 41.58
         },
         {
           "storyId": "ff8ba60af3e634676f78",
@@ -87,12 +87,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 45.93,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T05:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 42.93
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 42.52
         },
         {
           "storyId": "3931c096a4982ffee4f9",
@@ -101,12 +101,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e150/live/81e84950-91b8-11f1-bab9-173de0e7d358.jpg",
           "peak": 45.69,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T21:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 45.2
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 44.69
         },
         {
           "storyId": "42a90289b786a844c82a",
@@ -115,12 +115,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 45.22,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 43.32
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 42.88
         },
         {
           "storyId": "b04f9642d438e86d7621",
@@ -129,12 +129,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 44.59,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T21:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 44.05
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 43.54
         },
         {
           "storyId": "ba7facbc01c5e85f5688",
@@ -143,12 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a73adcb4d38623d11dd77c4/master/pass/Uncanny-Valley-ICE-DNA-Politics.jpg",
           "peak": 44.32,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 43.95
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 43.26
         }
       ]
     },
@@ -309,12 +309,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
           "peak": 53,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 46.38
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 46
         },
         {
           "storyId": "ff8ba60af3e634676f78",
@@ -323,12 +323,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 45.07
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 44.67
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -337,12 +337,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 40.2
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 39.24
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -365,12 +365,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
           "peak": 48.8,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 42.48
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 41.95
         },
         {
           "storyId": "d9b788ef8f14ee57b58f",
@@ -379,12 +379,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/c91be6cb6b52fd5a680eca5ee6fb30ab1009b679/218_0_3333_2667/master/3333.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 48.51,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 45.29
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 45.31
         },
         {
           "storyId": "f1d122158348f57788be",
@@ -393,12 +393,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
           "peak": 47.52,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T10:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 44.06
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 43.43
         },
         {
           "storyId": "ee19be2cef2d8ae6fe5c",
@@ -407,12 +407,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 47.24,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 44.12
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 44.13
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -421,12 +421,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 39.23
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 38.74
         },
         {
           "storyId": "5b8bd87aa273fc1e010a",
@@ -435,12 +435,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/softbank-ohio-data-center.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.25,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 42.4
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 41.58
         }
       ]
     }
@@ -456,12 +456,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
           "peak": 53,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 46.38
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 46
         },
         {
           "storyId": "ff8ba60af3e634676f78",
@@ -470,12 +470,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg",
           "peak": 50.68,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 45.07
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 44.67
         },
         {
           "storyId": "bc5ed6484b462efb110d",
@@ -484,12 +484,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
           "peak": 50.56,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 40.2
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 39.24
         },
         {
           "storyId": "f404780aaf783ec9f0fd",
@@ -512,12 +512,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7210e3bbedba30ca118c54/master/pass/RoboHack.gif",
           "peak": 48.8,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T19:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 42.48
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 41.95
         },
         {
           "storyId": "d9b788ef8f14ee57b58f",
@@ -526,12 +526,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/c91be6cb6b52fd5a680eca5ee6fb30ab1009b679/218_0_3333_2667/master/3333.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 48.51,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 45.29
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 45.31
         },
         {
           "storyId": "f1d122158348f57788be",
@@ -540,12 +540,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
           "peak": 47.52,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T10:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 44.06
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 43.43
         },
         {
           "storyId": "ee19be2cef2d8ae6fe5c",
@@ -554,12 +554,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 47.24,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 44.12
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 44.13
         },
         {
           "storyId": "ff5a4080dd1ccac6de94",
@@ -568,12 +568,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg",
           "peak": 47,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 2,
           "peakDate": "2026-08-05",
           "firstObservedAt": "2026-08-05T18:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 39.23
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 38.74
         },
         {
           "storyId": "5b8bd87aa273fc1e010a",
@@ -582,12 +582,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/softbank-ohio-data-center.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 46.25,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T15:00:00.000Z",
-          "lastObservedAt": "2026-08-07T00:00:00.000Z",
-          "average": 42.4
+          "lastObservedAt": "2026-08-07T03:00:00.000Z",
+          "average": 41.58
         }
       ]
     }
