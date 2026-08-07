@@ -30,31 +30,36 @@
         "minimum": 0,
         "maximum": 19.99,
         "label": "UNEASY",
-        "description": "Limited or routine concern."
+        "description": "Limited or routine concern.",
+        "qualification": "Qualifies when reported consequences are minimal, routine, beneficial or protective, or too weakly supported to establish material harm."
       },
       {
         "minimum": 20,
         "maximum": 39.99,
         "label": "OMINOUS",
-        "description": "Credible concern with restrained consequences."
+        "description": "Credible concern with restrained consequences.",
+        "qualification": "Qualifies when credible concern or limited harm exists, but its scale, immediacy, persistence, or supporting evidence remains constrained."
       },
       {
         "minimum": 40,
         "maximum": 59.99,
         "label": "ALARMING",
-        "description": "Material harm, disruption, or escalating risk."
+        "description": "Material harm, disruption, or escalating risk.",
+        "qualification": "Qualifies when credible reporting establishes meaningful harm, disruption, or escalation without the compound high-severity conditions required for Dire."
       },
       {
         "minimum": 60,
         "maximum": 79.99,
         "label": "DIRE",
-        "description": "Serious realized or imminent consequences."
+        "description": "Serious realized or imminent consequences.",
+        "qualification": "Qualifies when serious harm is confirmed or imminent and combines strong evidence with broad or systemic reach, vulnerable populations, loss of control, or lasting consequences."
       },
       {
         "minimum": 80,
         "maximum": 100,
         "label": "CATASTROPHIC",
-        "description": "Exceptional, widespread, or potentially irreversible consequences."
+        "description": "Exceptional, widespread, or potentially irreversible consequences.",
+        "qualification": "Qualifies only when exceptional confirmed harm is widespread or global and combines multiple extreme conditions such as mass impact, irreversibility, systemic failure, uncontrollable escalation, or existential consequences."
       }
     ],
     "shadow": {
