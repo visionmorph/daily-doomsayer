@@ -50498,18 +50498,18 @@
               "inputFingerprint": "d588a4e716c72f913eff"
             },
             "2026-08-07T21Z|1.2.2-shadow.1": {
-              "value": 8.91,
+              "value": 5,
               "observedAt": "2026-08-07T21:00:00.000Z",
               "formulaVersion": "1.2.2-shadow.1",
               "formulaFingerprint": "038227c518a0cea1b62b",
-              "inputFingerprint": "e66a680e1e6501e2704a"
+              "inputFingerprint": "fd772f55556a096f342e"
             },
             "2026-08-07T21Z|1.2.3-shadow.1": {
-              "value": 9.05,
+              "value": 5,
               "observedAt": "2026-08-07T21:00:00.000Z",
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
-              "inputFingerprint": "ea0b442007d4206479f9"
+              "inputFingerprint": "d588a4e716c72f913eff"
             }
           },
           "formulaSummaries": {
@@ -50545,9 +50545,9 @@
               "open": 5,
               "high": 8.91,
               "low": 5,
-              "close": 8.91,
-              "average": 6.8,
-              "scoreTotal": 88.46,
+              "close": 5,
+              "average": 6.5,
+              "scoreTotal": 84.55,
               "observations": 13,
               "firstObservedAt": "2026-08-07T05:00:00.000Z",
               "lastObservedAt": "2026-08-07T21:00:00.000Z",
@@ -50579,9 +50579,9 @@
               "open": 5,
               "high": 9.05,
               "low": 5,
-              "close": 9.05,
-              "average": 7.21,
-              "scoreTotal": 79.3,
+              "close": 5,
+              "average": 6.84,
+              "scoreTotal": 75.25,
               "observations": 11,
               "firstObservedAt": "2026-08-07T08:00:00.000Z",
               "lastObservedAt": "2026-08-07T21:00:00.000Z",
@@ -50616,9 +50616,9 @@
           "open": 5,
           "high": 8.91,
           "low": 5,
-          "close": 8.91,
-          "average": 6.8,
-          "scoreTotal": 88.46,
+          "close": 5,
+          "average": 6.5,
+          "scoreTotal": 84.55,
           "observations": 13,
           "firstObservedAt": "2026-08-07T05:00:00.000Z",
           "lastObservedAt": "2026-08-07T21:00:00.000Z",
@@ -159535,14 +159535,14 @@
               "observedAt": "2026-08-07T21:00:00.000Z",
               "formulaVersion": "1.2.2-shadow.1",
               "formulaFingerprint": "038227c518a0cea1b62b",
-              "inputFingerprint": "b419823a131e1ba57c63"
+              "inputFingerprint": "27ff260d63254bd59179"
             },
             "2026-08-07T21Z|1.2.3-shadow.1": {
               "value": 14.84,
               "observedAt": "2026-08-07T21:00:00.000Z",
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
-              "inputFingerprint": "7b876ccf54745466af56"
+              "inputFingerprint": "929ca8b50401c5b3280c"
             }
           },
           "formulaSummaries": {
@@ -159708,6 +159708,34 @@
             ],
             "actuality": "neutral",
             "polarity": "neutral"
+          },
+          "27ff260d63254bd59179": {
+            "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+            "summary": "New Mexico court orders Meta to pay additional $567M in child safety case. Meta's total fine has racked up to $942 million in this case. AI child safety Meta",
+            "summaryFingerprint": "0a047b1a96d08b57ebf0",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.425,
+              "vulnerability": 1,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.5,
+              "credibleThreat": 0,
+              "evidence": 0.5,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "vulnerable people affected",
+              "systemic or institutional reach",
+              "neutral event status"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
           }
         },
         "1.2.3-shadow.1": {
@@ -159743,6 +159771,34 @@
             "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
             "summary": "New Mexico court orders Meta to pay additional $567M in child safety case. Meta's total fine has raked up to $942 million in this case. AI Meta child safety",
             "summaryFingerprint": "d9a3a32f498e44ea3f62",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.425,
+              "vulnerability": 1,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.5,
+              "credibleThreat": 0,
+              "evidence": 0.5,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "vulnerable people affected",
+              "systemic or institutional reach",
+              "neutral event status"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          },
+          "929ca8b50401c5b3280c": {
+            "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+            "summary": "New Mexico court orders Meta to pay additional $567M in child safety case. Meta's total fine has racked up to $942 million in this case. AI child safety Meta",
+            "summaryFingerprint": "0a047b1a96d08b57ebf0",
             "coverageSources": 1,
             "factors": {
               "realizedHarm": 0,
@@ -166419,14 +166475,14 @@
               "observedAt": "2026-08-07T21:00:00.000Z",
               "formulaVersion": "1.2.2-shadow.1",
               "formulaFingerprint": "038227c518a0cea1b62b",
-              "inputFingerprint": "dc581eb5df3d63f11618"
+              "inputFingerprint": "dc5eb55b24a3b150d3fc"
             },
             "2026-08-07T21Z|1.2.3-shadow.1": {
               "value": 5,
               "observedAt": "2026-08-07T21:00:00.000Z",
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
-              "inputFingerprint": "f9ef5cc13638da129ca3"
+              "inputFingerprint": "900adede0a91e5d7aaf2"
             }
           },
           "formulaSummaries": {
@@ -166564,6 +166620,34 @@
             ],
             "actuality": "neutral",
             "polarity": "neutral"
+          },
+          "dc5eb55b24a3b150d3fc": {
+            "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+            "summary": "Cloudflare launches Kitesurf, a browser built for AI agents. Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently. AI Apps AI agents cloudflare",
+            "summaryFingerprint": "e8fdaee115abdc6b1e70",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0.5,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "neutral event status",
+              "speculative or weakly evidenced",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
           }
         },
         "1.2.3-shadow.1": {
@@ -166571,6 +166655,34 @@
             "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
             "summary": "Cloudflare launches Kitesurf, a browser built for AI agents. Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently. AI Apps AI agents cloudflare",
             "summaryFingerprint": "c89c4ee575249ee6a827",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0.5,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "neutral event status",
+              "speculative or weakly evidenced",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          },
+          "900adede0a91e5d7aaf2": {
+            "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+            "summary": "Cloudflare launches Kitesurf, a browser built for AI agents. Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently. AI Apps AI agents cloudflare",
+            "summaryFingerprint": "e8fdaee115abdc6b1e70",
             "coverageSources": 1,
             "factors": {
               "realizedHarm": 0,
@@ -167639,6 +167751,207 @@
             "reasons": [
               "neutral event status",
               "speculative or weakly evidenced"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          }
+        }
+      }
+    },
+    "fcf0473d04deab1a28a0": {
+      "storyId": "fcf0473d04deab1a28a0",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "source": "TechCrunch AI",
+      "image": "",
+      "published": "2026-08-07T21:30:11.000Z",
+      "firstSeen": "2026-08-07T21:00:00.000Z",
+      "lastSeen": "2026-08-07T21:00:00.000Z",
+      "days": {
+        "2026-08-07": {
+          "samples": {
+            "2026-08-07T21Z|1.2.2-shadow.1": {
+              "value": 8.44,
+              "observedAt": "2026-08-07T21:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "2984fac26ae9398a2bf6"
+            },
+            "2026-08-07T21Z|1.2.3-shadow.1": {
+              "value": 8.44,
+              "observedAt": "2026-08-07T21:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "a1971dc54633de014433"
+            }
+          },
+          "formulaSummaries": {
+            "1.2.2-shadow.1": {
+              "formulaVersion": "1.2.2-shadow.1",
+              "open": 8.44,
+              "high": 8.44,
+              "low": 8.44,
+              "close": 8.44,
+              "average": 8.44,
+              "scoreTotal": 8.44,
+              "observations": 1,
+              "firstObservedAt": "2026-08-07T21:00:00.000Z",
+              "lastObservedAt": "2026-08-07T21:00:00.000Z",
+              "peakSample": 8.44,
+              "peakSampleHour": "2026-08-07T21Z|1.2.2-shadow.1",
+              "peakReasons": [
+                "large affected population or reach",
+                "neutral event status",
+                "speculative or weakly evidenced",
+                "routine or promotional adjustment"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0.5,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0.425,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.3,
+                "actuality": 0.25,
+                "protectiveContext": 0,
+                "routinePenalty": 0.425,
+                "contextualConcern": 0
+              }
+            },
+            "1.2.3-shadow.1": {
+              "formulaVersion": "1.2.3-shadow.1",
+              "open": 8.44,
+              "high": 8.44,
+              "low": 8.44,
+              "close": 8.44,
+              "average": 8.44,
+              "scoreTotal": 8.44,
+              "observations": 1,
+              "firstObservedAt": "2026-08-07T21:00:00.000Z",
+              "lastObservedAt": "2026-08-07T21:00:00.000Z",
+              "peakSample": 8.44,
+              "peakSampleHour": "2026-08-07T21Z|1.2.3-shadow.1",
+              "peakReasons": [
+                "large affected population or reach",
+                "neutral event status",
+                "speculative or weakly evidenced",
+                "routine or promotional adjustment"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0.5,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0.425,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.3,
+                "actuality": 0.25,
+                "protectiveContext": 0,
+                "routinePenalty": 0.425,
+                "contextualConcern": 0
+              }
+            }
+          },
+          "activeFormulaVersion": "1.2.2-shadow.1",
+          "formulaVersion": "1.2.2-shadow.1",
+          "open": 8.44,
+          "high": 8.44,
+          "low": 8.44,
+          "close": 8.44,
+          "average": 8.44,
+          "scoreTotal": 8.44,
+          "observations": 1,
+          "firstObservedAt": "2026-08-07T21:00:00.000Z",
+          "lastObservedAt": "2026-08-07T21:00:00.000Z",
+          "peakSample": 8.44,
+          "peakSampleHour": "2026-08-07T21Z|1.2.2-shadow.1",
+          "peakReasons": [
+            "large affected population or reach",
+            "neutral event status",
+            "speculative or weakly evidenced",
+            "routine or promotional adjustment"
+          ],
+          "peakFactors": {
+            "realizedHarm": 0,
+            "scale": 0.5,
+            "vulnerability": 0,
+            "lossOfControl": 0,
+            "irreversibility": 0,
+            "immediacy": 0.425,
+            "systemicReach": 0,
+            "credibleThreat": 0,
+            "evidence": 0.3,
+            "actuality": 0.25,
+            "protectiveContext": 0,
+            "routinePenalty": 0.425,
+            "contextualConcern": 0
+          },
+          "shadowFormulaVersion": "1.2.3-shadow.1"
+        }
+      },
+      "shadowInputs": {
+        "1.2.2-shadow.1": {
+          "2984fac26ae9398a2bf6": {
+            "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+            "summary": "After Rippling blew millions on AI in months, it built an employee ROI tool. After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending. AI Enterprise Rippling",
+            "summaryFingerprint": "2fae2412ce748cef4b85",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.5,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0.425,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0.425,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "large affected population or reach",
+              "neutral event status",
+              "speculative or weakly evidenced",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.3-shadow.1": {
+          "a1971dc54633de014433": {
+            "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+            "summary": "After Rippling blew millions on AI in months, it built an employee ROI tool. After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending. AI Enterprise Rippling",
+            "summaryFingerprint": "2fae2412ce748cef4b85",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.5,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0.425,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0.425,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "large affected population or reach",
+              "neutral event status",
+              "speculative or weakly evidenced",
+              "routine or promotional adjustment"
             ],
             "actuality": "neutral",
             "polarity": "neutral"
