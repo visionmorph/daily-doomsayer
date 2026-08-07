@@ -141877,6 +141877,192 @@
           }
         }
       }
+    },
+    "711efe9ee3585ed47f86": {
+      "storyId": "711efe9ee3585ed47f86",
+      "title": "The key to colonizing Mars may be hidden inside asteroids",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260805082504.htm",
+      "source": "ScienceDaily Technology",
+      "image": "",
+      "published": "2026-08-07T05:29:22.000Z",
+      "firstSeen": "2026-08-07T10:00:00.000Z",
+      "lastSeen": "2026-08-07T10:00:00.000Z",
+      "days": {
+        "2026-08-07": {
+          "samples": {
+            "2026-08-07T10Z|1.2.2-shadow.1": {
+              "value": 5,
+              "observedAt": "2026-08-07T10:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "19f951742d7728f4142f"
+            },
+            "2026-08-07T10Z|1.2.3-shadow.1": {
+              "value": 5,
+              "observedAt": "2026-08-07T10:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "2668fe3959232c9552f9"
+            }
+          },
+          "formulaSummaries": {
+            "1.2.2-shadow.1": {
+              "formulaVersion": "1.2.2-shadow.1",
+              "open": 5,
+              "high": 5,
+              "low": 5,
+              "close": 5,
+              "average": 5,
+              "scoreTotal": 5,
+              "observations": 1,
+              "firstObservedAt": "2026-08-07T10:00:00.000Z",
+              "lastObservedAt": "2026-08-07T10:00:00.000Z",
+              "peakSample": 5,
+              "peakSampleHour": "2026-08-07T10Z|1.2.2-shadow.1",
+              "peakReasons": [
+                "proposed event status"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.3337,
+                "actuality": 0.35,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0
+              }
+            },
+            "1.2.3-shadow.1": {
+              "formulaVersion": "1.2.3-shadow.1",
+              "open": 5,
+              "high": 5,
+              "low": 5,
+              "close": 5,
+              "average": 5,
+              "scoreTotal": 5,
+              "observations": 1,
+              "firstObservedAt": "2026-08-07T10:00:00.000Z",
+              "lastObservedAt": "2026-08-07T10:00:00.000Z",
+              "peakSample": 5,
+              "peakSampleHour": "2026-08-07T10Z|1.2.3-shadow.1",
+              "peakReasons": [
+                "proposed event status"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.3337,
+                "actuality": 0.35,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0
+              }
+            }
+          },
+          "activeFormulaVersion": "1.2.2-shadow.1",
+          "formulaVersion": "1.2.2-shadow.1",
+          "open": 5,
+          "high": 5,
+          "low": 5,
+          "close": 5,
+          "average": 5,
+          "scoreTotal": 5,
+          "observations": 1,
+          "firstObservedAt": "2026-08-07T10:00:00.000Z",
+          "lastObservedAt": "2026-08-07T10:00:00.000Z",
+          "peakSample": 5,
+          "peakSampleHour": "2026-08-07T10Z|1.2.2-shadow.1",
+          "peakReasons": [
+            "proposed event status"
+          ],
+          "peakFactors": {
+            "realizedHarm": 0,
+            "scale": 0,
+            "vulnerability": 0,
+            "lossOfControl": 0,
+            "irreversibility": 0,
+            "immediacy": 0,
+            "systemicReach": 0,
+            "credibleThreat": 0,
+            "evidence": 0.3337,
+            "actuality": 0.35,
+            "protectiveContext": 0,
+            "routinePenalty": 0,
+            "contextualConcern": 0
+          },
+          "shadowFormulaVersion": "1.2.3-shadow.1"
+        }
+      },
+      "shadowInputs": {
+        "1.2.2-shadow.1": {
+          "19f951742d7728f4142f": {
+            "title": "The key to colonizing Mars may be hidden inside asteroids",
+            "summary": "The key to colonizing Mars may be hidden inside asteroids. Metal-rich asteroids could one day become hardware stores for Mars, supplying the materials needed to build and repair a growing colony. A new analysis shows that carefully selected asteroids may be reachable with current spacecraft technology. Some could even provide the ingredients for making rocket fuel in space, dramatically reducing the burden of hauling supplies from Earth.",
+            "summaryFingerprint": "f6a1359da8a21971bb20",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3337,
+              "actuality": 0.35,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "proposed event status"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.3-shadow.1": {
+          "2668fe3959232c9552f9": {
+            "title": "The key to colonizing Mars may be hidden inside asteroids",
+            "summary": "The key to colonizing Mars may be hidden inside asteroids. Metal-rich asteroids could one day become hardware stores for Mars, supplying the materials needed to build and repair a growing colony. A new analysis shows that carefully selected asteroids may be reachable with current spacecraft technology. Some could even provide the ingredients for making rocket fuel in space, dramatically reducing the burden of hauling supplies from Earth.",
+            "summaryFingerprint": "f6a1359da8a21971bb20",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3337,
+              "actuality": 0.35,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "proposed event status"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
+          }
+        }
+      }
     }
   },
   "legacyFormulaVersion": "1.0",

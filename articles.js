@@ -13,31 +13,36 @@ window.DAILY_DOOMSAYER_SITE = {
         "minimum": 0,
         "maximum": 19.99,
         "label": "UNEASY",
-        "description": "Limited or routine concern."
+        "description": "Limited or routine concern.",
+        "qualification": "Qualifies when reported consequences are minimal, routine, beneficial or protective, or too weakly supported to establish material harm."
       },
       {
         "minimum": 20,
         "maximum": 39.99,
         "label": "OMINOUS",
-        "description": "Credible concern with restrained consequences."
+        "description": "Credible concern with restrained consequences.",
+        "qualification": "Qualifies when credible concern or limited harm exists, but its scale, immediacy, persistence, or supporting evidence remains constrained."
       },
       {
         "minimum": 40,
         "maximum": 59.99,
         "label": "ALARMING",
-        "description": "Material harm, disruption, or escalating risk."
+        "description": "Material harm, disruption, or escalating risk.",
+        "qualification": "Qualifies when credible reporting establishes meaningful harm, disruption, or escalation without the compound high-severity conditions required for Dire."
       },
       {
         "minimum": 60,
         "maximum": 79.99,
         "label": "DIRE",
-        "description": "Serious realized or imminent consequences."
+        "description": "Serious realized or imminent consequences.",
+        "qualification": "Qualifies when serious harm is confirmed or imminent and combines strong evidence with broad or systemic reach, vulnerable populations, loss of control, or lasting consequences."
       },
       {
         "minimum": 80,
         "maximum": 100,
         "label": "CATASTROPHIC",
-        "description": "Exceptional, widespread, or potentially irreversible consequences."
+        "description": "Exceptional, widespread, or potentially irreversible consequences.",
+        "qualification": "Qualifies only when exceptional confirmed harm is widespread or global and combines multiple extreme conditions such as mass impact, irreversibility, systemic failure, uncontrollable escalation, or existential consequences."
       }
     ],
     "shadow": {
@@ -168,7 +173,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.3888,
+      "freshness": 0.3836,
       "feedPosition": 0.4444,
       "novelty": 0.6544
     },
@@ -178,7 +183,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2956,
+    "score": 0.2948,
     "doomIndex": 47.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -257,7 +262,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.4021,
+      "freshness": 0.3967,
       "feedPosition": 0.2222,
       "novelty": 0.5016
     },
@@ -266,7 +271,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.3537,
+    "score": 0.3529,
     "doomIndex": 44.75,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -346,7 +351,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.4549,
+      "freshness": 0.4488,
       "feedPosition": 0.75,
       "novelty": 0.6043
     },
@@ -355,7 +360,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.4247,
+    "score": 0.4237,
     "doomIndex": 44.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -433,14 +438,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2143,
+      "freshness": 0.2114,
       "feedPosition": 1,
       "novelty": 0.8538
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2925,
+    "score": 0.2921,
     "doomIndex": 43.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -520,7 +525,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2455,
       "sourceAuthority": 0.5,
-      "freshness": 0.3532,
+      "freshness": 0.3484,
       "feedPosition": 0.4444,
       "novelty": 0.7494
     },
@@ -529,7 +534,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "unusual language in the current story batch"
     ],
-    "score": 0.2965,
+    "score": 0.2957,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -607,7 +612,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.2574,
+      "freshness": 0.254,
       "feedPosition": 0.4,
       "novelty": 0.6867
     },
@@ -615,7 +620,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "unusual language in the current story batch"
     ],
-    "score": 0.2463,
+    "score": 0.2458,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -693,7 +698,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.313,
+      "freshness": 0.3088,
       "feedPosition": 0,
       "novelty": 0.8213
     },
@@ -702,7 +707,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2325,
+    "score": 0.2318,
     "doomIndex": 39.32,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -782,16 +787,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0055,
+      "freshness": 0.0054,
       "feedPosition": 0.4444,
-      "novelty": 0.9187
+      "novelty": 0.8828
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2405,
+    "score": 0.2369,
     "doomIndex": 29.27,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -869,7 +874,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.094,
+      "freshness": 0.0928,
       "feedPosition": 0.4444,
       "novelty": 0.6788
     },
@@ -879,7 +884,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2518,
+    "score": 0.2516,
     "doomIndex": 23.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -959,7 +964,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.2155,
       "sourceAuthority": 0.5,
-      "freshness": 0.5886,
+      "freshness": 0.5807,
       "feedPosition": 0.5556,
       "novelty": 0.6415
     },
@@ -968,7 +973,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "covered by multiple sources"
     ],
-    "score": 0.4261,
+    "score": 0.4249,
     "doomIndex": 21.92,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1043,7 +1048,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.2255,
       "sourceAuthority": 0.5,
-      "freshness": 0.5035,
+      "freshness": 0.4967,
       "feedPosition": 0.2222,
       "novelty": 0.6898
     },
@@ -1053,7 +1058,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.3868,
+    "score": 0.3858,
     "doomIndex": 21.92,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1128,16 +1133,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.011,
+      "freshness": 0.0109,
       "feedPosition": 0.6667,
-      "novelty": 0.7487
+      "novelty": 0.7742
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2466,
+    "score": 0.2491,
     "doomIndex": 21.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1217,14 +1222,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.122,
       "sourceAuthority": 0.5,
-      "freshness": 0.5697,
+      "freshness": 0.562,
       "feedPosition": 0.5556,
-      "novelty": 0.5349
+      "novelty": 0.5525
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2939,
+    "score": 0.2945,
     "doomIndex": 19.87,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1298,7 +1303,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.462,
       "sourceAuthority": 0.5,
-      "freshness": 0.1012,
+      "freshness": 0.0998,
       "feedPosition": 0.7778,
       "novelty": 0.5998
     },
@@ -1309,7 +1314,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3203,
+    "score": 0.3201,
     "doomIndex": 19.04,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1489,7 +1494,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.452,
       "sourceAuthority": 0.5,
-      "freshness": 0.3427,
+      "freshness": 0.3381,
       "feedPosition": 0.2222,
       "novelty": 0.8285
     },
@@ -1500,7 +1505,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3219,
+    "score": 0.3212,
     "doomIndex": 18.09,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1578,14 +1583,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.082,
       "sourceAuthority": 0.5,
-      "freshness": 0.3244,
+      "freshness": 0.3201,
       "feedPosition": 0,
       "novelty": 0.645
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2046,
+    "score": 0.2039,
     "doomIndex": 17.58,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2084,7 +2089,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.8221,
+      "freshness": 0.811,
       "feedPosition": 0.6667,
       "novelty": 0.7319
     },
@@ -2092,7 +2097,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3602,
+    "score": 0.3585,
     "doomIndex": 16.51,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2252,14 +2257,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.2617,
+      "freshness": 0.2582,
       "feedPosition": 1,
       "novelty": 0.7234
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.289,
+    "score": 0.2885,
     "doomIndex": 16.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2333,7 +2338,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.239,
       "sourceAuthority": 0.5,
-      "freshness": 0.3049,
+      "freshness": 0.3008,
       "feedPosition": 0.1111,
       "novelty": 0.4878
     },
@@ -2342,7 +2347,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2284,
+    "score": 0.2278,
     "doomIndex": 15.2,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2416,7 +2421,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.1,
+      "freshness": 0.0986,
       "feedPosition": 0.2,
       "novelty": 0.6951
     },
@@ -2424,7 +2429,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.203,
+    "score": 0.2028,
     "doomIndex": 15.2,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2498,7 +2503,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.1904,
+      "freshness": 0.1878,
       "feedPosition": 0.8889,
       "novelty": 0.8621
     },
@@ -2508,7 +2513,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3291,
+    "score": 0.3287,
     "doomIndex": 15.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2590,7 +2595,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.34,
       "sourceAuthority": 0.5,
-      "freshness": 0.1018,
+      "freshness": 0.1004,
       "feedPosition": 0.8571,
       "novelty": 0.6242
     },
@@ -2598,7 +2603,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "real-world consequences"
     ],
-    "score": 0.3064,
+    "score": 0.3062,
     "doomIndex": 15.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3020,7 +3025,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0769,
+      "freshness": 0.0758,
       "feedPosition": 0.3333,
       "novelty": 0.6546
     },
@@ -3029,7 +3034,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2137,
+    "score": 0.2136,
     "doomIndex": 14.44,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3189,7 +3194,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0028,
+      "freshness": 0.0027,
       "feedPosition": 0.2222,
       "novelty": 0.7853
     },
@@ -3359,7 +3364,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0025,
+      "freshness": 0.0024,
       "feedPosition": 0.2857,
       "novelty": 0.9191
     },
@@ -3786,16 +3791,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.154,
       "sourceAuthority": 0.5,
-      "freshness": 0.1996,
+      "freshness": 0.197,
       "feedPosition": 1,
-      "novelty": 0.817
+      "novelty": 0.8306
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3174,
+    "score": 0.3184,
     "doomIndex": 12.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3960,15 +3965,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.7794,
+      "freshness": 0.7688,
       "feedPosition": 0.8889,
-      "novelty": 0.5239
+      "novelty": 0.5393
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3616,
+    "score": 0.3615,
     "doomIndex": 12.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4042,7 +4047,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1765,
       "sourceAuthority": 0.5,
-      "freshness": 0.069,
+      "freshness": 0.0681,
       "feedPosition": 0.7143,
       "novelty": 0.616
     },
@@ -4050,7 +4055,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.2537,
+    "score": 0.2535,
     "doomIndex": 12.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4205,7 +4210,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.232,
       "sourceAuthority": 0.5,
-      "freshness": 0.0971,
+      "freshness": 0.0958,
       "feedPosition": 0.5556,
       "novelty": 0.8277
     },
@@ -4215,7 +4220,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2743,
+    "score": 0.2741,
     "doomIndex": 12.49,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4294,14 +4299,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.6785,
+      "freshness": 0.6694,
       "feedPosition": 1,
       "novelty": 0.7234
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3562,
+    "score": 0.3548,
     "doomIndex": 12.46,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4461,12 +4466,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2617,
+      "freshness": 0.2581,
       "feedPosition": 0,
       "novelty": 0.6483
     },
     "rankingReasons": [],
-    "score": 0.1791,
+    "score": 0.1786,
     "doomIndex": 11.93,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4540,15 +4545,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.012,
+      "freshness": 0.0119,
       "feedPosition": 0.3333,
-      "novelty": 0.5421
+      "novelty": 0.5575
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1927,
+    "score": 0.1943,
     "doomIndex": 11.92,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4633,7 +4638,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.28,
       "sourceAuthority": 0.5,
-      "freshness": 0.1002,
+      "freshness": 0.0988,
       "feedPosition": 0.6667,
       "novelty": 0.8377
     },
@@ -4643,7 +4648,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2965,
+    "score": 0.2963,
     "doomIndex": 11.67,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4726,13 +4731,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.5235
+      "novelty": 0.5388
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details"
     ],
-    "score": 0.2744,
+    "score": 0.276,
     "doomIndex": 11.56,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4811,7 +4816,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.2868,
+      "freshness": 0.2829,
       "feedPosition": 0.5556,
       "novelty": 0.7403
     },
@@ -4821,7 +4826,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.298,
+    "score": 0.2974,
     "doomIndex": 11.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4900,12 +4905,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6307,
+      "freshness": 0.6222,
       "feedPosition": 0.8889,
       "novelty": 0.6155
     },
     "rankingReasons": [],
-    "score": 0.32,
+    "score": 0.3188,
     "doomIndex": 11.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4979,14 +4984,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5385,
+      "freshness": 0.5312,
       "feedPosition": 0.3333,
       "novelty": 0.7692
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.266,
+    "score": 0.2649,
     "doomIndex": 10.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5067,7 +5072,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6151,
+      "freshness": 0.6068,
       "feedPosition": 0.4444,
       "novelty": 0.7521
     },
@@ -5075,7 +5080,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3011,
+    "score": 0.2999,
     "doomIndex": 10.76,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5151,7 +5156,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.3907,
+      "freshness": 0.3854,
       "feedPosition": 0.1111,
       "novelty": 0.8499
     },
@@ -5159,7 +5164,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2439,
+    "score": 0.2431,
     "doomIndex": 10.68,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5235,7 +5240,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.6639,
+      "freshness": 0.655,
       "feedPosition": 0.6667,
       "novelty": 0.8588
     },
@@ -5245,7 +5250,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3795,
+    "score": 0.3782,
     "doomIndex": 10.66,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5321,7 +5326,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.1622,
+      "freshness": 0.16,
       "feedPosition": 0.4444,
       "novelty": 0.602
     },
@@ -5330,7 +5335,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2544,
+    "score": 0.254,
     "doomIndex": 10.27,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5406,7 +5411,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.312,
       "sourceAuthority": 0.5,
-      "freshness": 0.5541,
+      "freshness": 0.5466,
       "feedPosition": 0.2222,
       "novelty": 0.6091
     },
@@ -5415,7 +5420,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3036,
+    "score": 0.3025,
     "doomIndex": 10.21,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5487,7 +5492,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.339,
       "sourceAuthority": 0.5,
-      "freshness": 0.5776,
+      "freshness": 0.5699,
       "feedPosition": 0.6667,
       "novelty": 0.7361
     },
@@ -5497,7 +5502,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3697,
+    "score": 0.3686,
     "doomIndex": 10.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5576,15 +5581,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.9929,
+      "freshness": 0.9795,
       "feedPosition": 1,
-      "novelty": 0.5483
+      "novelty": 0.5811
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.4072,
+    "score": 0.4084,
     "doomIndex": 10.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5658,7 +5663,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3808,
+      "freshness": 0.3757,
       "feedPosition": 0.3333,
       "novelty": 0.5748
     },
@@ -5666,7 +5671,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2513,
+    "score": 0.2506,
     "doomIndex": 9.87,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5738,7 +5743,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.3175,
+      "freshness": 0.3132,
       "feedPosition": 0,
       "novelty": 0.7077
     },
@@ -5746,7 +5751,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2147,
+    "score": 0.2141,
     "doomIndex": 9.58,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5820,7 +5825,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.18,
       "sourceAuthority": 0.5,
-      "freshness": 0.001,
+      "freshness": 0.0009,
       "feedPosition": 0,
       "novelty": 0.7045
     },
@@ -5905,14 +5910,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1344,
+      "freshness": 0.1326,
       "feedPosition": 0.8571,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2755,
+    "score": 0.2752,
     "doomIndex": 8.86,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6075,7 +6080,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3255,
       "sourceAuthority": 0.5,
-      "freshness": 0.0028,
+      "freshness": 0.0027,
       "feedPosition": 0.4444,
       "novelty": 0.5638
     },
@@ -6163,14 +6168,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5397,
-      "feedPosition": 0.7778,
+      "freshness": 0.5324,
+      "feedPosition": 0.6667,
       "novelty": 0.7941
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3131,
+    "score": 0.3009,
     "doomIndex": 8.62,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6244,7 +6249,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.0101,
+      "freshness": 0.01,
       "feedPosition": 0.5714,
       "novelty": 0.6332
     },
@@ -6325,7 +6330,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0064,
+      "freshness": 0.0063,
       "feedPosition": 0.5556,
       "novelty": 0.8705
     },
@@ -6748,7 +6753,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.6587,
+      "freshness": 0.6498,
       "feedPosition": 1,
       "novelty": 0.8246
     },
@@ -6757,7 +6762,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3847,
+    "score": 0.3833,
     "doomIndex": 8.23,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7085,7 +7090,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.324,
       "sourceAuthority": 0.5,
-      "freshness": 0.0843,
+      "freshness": 0.0832,
       "feedPosition": 0.7778,
       "novelty": 0.8828
     },
@@ -7095,7 +7100,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3185,
+    "score": 0.3183,
     "doomIndex": 7.8,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7169,14 +7174,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1462,
-      "feedPosition": 0.4444,
+      "freshness": 0.1442,
+      "feedPosition": 0.3333,
       "novelty": 0.7647
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2178,
+    "score": 0.2064,
     "doomIndex": 7.75,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7242,89 +7247,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Scientists just 3D printed one of the hardest metals on Earth",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260801094053.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T07:08:28.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.071,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1241,
-      "feedPosition": 0,
-      "novelty": 0.5483
-    },
-    "rankingReasons": [
-      "recognizable entities"
-    ],
-    "score": 0.1627,
-    "doomIndex": 7.75,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "positive",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.2,
-      "protectiveContext": 0.425,
-      "routinePenalty": 0.425,
-      "contextualConcern": 0.425
-    },
-    "doomIndexReasons": [
-      "positive event status",
-      "speculative or weakly evidenced",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "8999ccf04c773d5d9b0c",
-    "doomIndexInputFingerprint": "342118019e054f3ccb24",
-    "doomIndexV123Shadow": 7.75,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "positive",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.2,
-      "protectiveContext": 0.425,
-      "routinePenalty": 0.425,
-      "contextualConcern": 0.425
-    },
-    "doomIndexV123Reasons": [
-      "positive event status",
-      "speculative or weakly evidenced",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "8999ccf04c773d5d9b0c",
-    "doomIndexV123InputFingerprint": "ca3bc0f3e4bd9265fcf6",
-    "storyId": "a6111a49c49141876249",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T10:00:00.000Z",
-    "feedSummary": "A new 3D printing technique can produce exceptionally hard tungsten carbide cobalt while using less of its expensive raw materials. By softening rather than fully melting the material, researchers created defect-free samples with industrial-grade hardness and opened the door to more efficient manufacturing."
-  },
-  {
-    "group": "ai",
     "title": "Why Merger Law Misses Frontier AI's Ownership Structure",
     "url": "https://techpolicy.press/why-merger-law-misses-frontier-ais-ownership-structure",
     "source": "Tech Policy Press AI",
@@ -7335,7 +7257,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.5641,
+      "freshness": 0.5565,
       "feedPosition": 1,
       "novelty": 0.7032
     },
@@ -7346,7 +7268,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3943,
+    "score": 0.3932,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7422,7 +7344,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.3053,
+      "freshness": 0.3012,
       "feedPosition": 0.6667,
       "novelty": 0.668
     },
@@ -7432,7 +7354,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3047,
+    "score": 0.304,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7594,7 +7516,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1575,
       "sourceAuthority": 0.5,
-      "freshness": 0.1884,
+      "freshness": 0.1859,
       "feedPosition": 0.25,
       "novelty": 0.7585
     },
@@ -7602,7 +7524,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2356,
+    "score": 0.2352,
     "doomIndex": 7.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7764,7 +7686,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.6717,
+      "freshness": 0.6626,
       "feedPosition": 0.7778,
       "novelty": 0.3857
     },
@@ -7773,7 +7695,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3345,
+    "score": 0.3331,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7847,7 +7769,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0907,
+      "freshness": 0.0894,
       "feedPosition": 0.7778,
       "novelty": 0.6983
     },
@@ -7857,7 +7779,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2866,
+    "score": 0.2864,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7933,7 +7855,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1717,
+      "freshness": 0.1694,
       "feedPosition": 1,
       "novelty": 0.8156
     },
@@ -7941,7 +7863,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.2823,
+    "score": 0.282,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8017,12 +7939,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.561,
+      "freshness": 0.5534,
       "feedPosition": 0.4444,
       "novelty": 0.6074
     },
     "rankingReasons": [],
-    "score": 0.2714,
+    "score": 0.2703,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8356,14 +8278,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6292,
+      "freshness": 0.6207,
       "feedPosition": 0.8889,
       "novelty": 0.6315
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4214,
+    "score": 0.4202,
     "doomIndex": 7.22,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8435,14 +8357,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.6192,
+      "freshness": 0.6108,
       "feedPosition": 0.7778,
       "novelty": 0.5275
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4055,
+    "score": 0.4043,
     "doomIndex": 7.22,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8599,7 +8521,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.113,
       "sourceAuthority": 0.5,
-      "freshness": 0.993,
+      "freshness": 0.9796,
       "feedPosition": 0.8889,
       "novelty": 0.964
     },
@@ -8608,7 +8530,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4318,
+    "score": 0.4298,
     "doomIndex": 6.68,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8682,16 +8604,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8405,
+      "freshness": 0.8292,
       "feedPosition": 1,
-      "novelty": 0.8166
+      "novelty": 0.8269
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4111,
+    "score": 0.4105,
     "doomIndex": 6.68,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8765,16 +8687,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.9709,
+      "freshness": 0.9578,
       "feedPosition": 0.7778,
-      "novelty": 0.9191
+      "novelty": 0.8786
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.429,
+    "score": 0.423,
     "doomIndex": 6.58,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8852,7 +8774,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.5389,
+      "freshness": 0.5316,
       "feedPosition": 0,
       "novelty": 0.6242
     },
@@ -8860,7 +8782,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "specific details"
     ],
-    "score": 0.257,
+    "score": 0.2559,
     "doomIndex": 6.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9025,16 +8947,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.18,
       "sourceAuthority": 0.5,
-      "freshness": 0.6366,
+      "freshness": 0.6281,
       "feedPosition": 0.5556,
-      "novelty": 0.4942
+      "novelty": 0.5197
     },
     "rankingReasons": [
       "real-world consequences",
       "surprise or reversal",
       "covered by multiple sources"
     ],
-    "score": 0.4115,
+    "score": 0.4127,
     "doomIndex": 6.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9198,7 +9120,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0065,
+      "freshness": 0.0064,
       "feedPosition": 0.6667,
       "novelty": 0.9595
     },
@@ -9288,7 +9210,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.3693,
+      "freshness": 0.3643,
       "feedPosition": 0.1111,
       "novelty": 0.7023
     },
@@ -9296,7 +9218,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2259,
+    "score": 0.2252,
     "doomIndex": 5.99,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9372,14 +9294,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6372,
+      "freshness": 0.6286,
       "feedPosition": 1,
       "novelty": 0.4596
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4165,
+    "score": 0.4152,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9441,6 +9363,86 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "The key to colonizing Mars may be hidden inside asteroids",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260805082504.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-07T05:29:22.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1055,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8642,
+      "feedPosition": 1,
+      "novelty": 0.803
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.406,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "proposed",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3337,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "proposed event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "f6a1359da8a21971bb20",
+    "doomIndexInputFingerprint": "19f951742d7728f4142f",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "proposed",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3337,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "proposed event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "f6a1359da8a21971bb20",
+    "doomIndexV123InputFingerprint": "2668fe3959232c9552f9",
+    "storyId": "711efe9ee3585ed47f86",
+    "firstSeen": "2026-08-07T10:00:00.000Z",
+    "lastSeen": "2026-08-07T10:00:00.000Z",
+    "feedSummary": "Metal-rich asteroids could one day become hardware stores for Mars, supplying the materials needed to build and repair a growing colony. A new analysis shows that carefully selected asteroids may be reachable with current spacecraft technology. Some could even provide the ingredients for making rocket fuel in space, dramatically reducing the burden of hauling supplies from Earth."
+  },
+  {
+    "group": "ai",
     "title": "Large genome models used to design new viruses",
     "url": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
     "source": "Ars Technica AI",
@@ -9451,14 +9453,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6561,
+      "freshness": 0.6472,
       "feedPosition": 0.7778,
       "novelty": 0.5178
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.403,
+    "score": 0.4016,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9530,7 +9532,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.229,
       "sourceAuthority": 0.5,
-      "freshness": 0.726,
+      "freshness": 0.7163,
       "feedPosition": 1,
       "novelty": 0.6358
     },
@@ -9539,7 +9541,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3933,
+    "score": 0.3918,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9601,87 +9603,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "A star’s violent death exposed a hidden supermassive black hole",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260805082457.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-06T12:16:32.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.19,
-      "sourceAuthority": 0.5,
-      "freshness": 0.543,
-      "feedPosition": 1,
-      "novelty": 0.9308
-    },
-    "rankingReasons": [
-      "urgency or risk",
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3875,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.5637,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "7a49925777f8ca4fffef",
-    "doomIndexInputFingerprint": "135f1dabfa7a5c9812e7",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.5637,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "7a49925777f8ca4fffef",
-    "doomIndexV123InputFingerprint": "128e4b3e3c01d87e48bf",
-    "storyId": "68da802e26076410b691",
-    "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T10:00:00.000Z",
-    "feedSummary": "A supermassive black hole has been found lurking about 30,000 light-years from the center of its galaxy—the first dormant black hole detected so far from a galactic core. It revealed itself only after shredding a passing star and producing a brief, brilliant flare. Astronomers think it may be the remnant of a devoured galaxy or a black hole flung outward during a chaotic cosmic encounter."
-  },
-  {
-    "group": "ai",
     "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
     "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
     "source": "TechCrunch AI",
@@ -9692,7 +9613,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3035,
       "sourceAuthority": 0.5,
-      "freshness": 0.6194,
+      "freshness": 0.611,
       "feedPosition": 0.7778,
       "novelty": 0.7298
     },
@@ -9701,7 +9622,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3794,
+    "score": 0.3781,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9779,7 +9700,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.141,
       "sourceAuthority": 0.5,
-      "freshness": 0.6906,
+      "freshness": 0.6812,
       "feedPosition": 1,
       "novelty": 0.6934
     },
@@ -9788,7 +9709,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3761,
+    "score": 0.3747,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9860,7 +9781,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.2931,
+      "freshness": 0.2892,
       "feedPosition": 0.6,
       "novelty": 0.6722
     },
@@ -9869,7 +9790,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.3742,
+    "score": 0.3736,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9931,6 +9852,87 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "A star’s violent death exposed a hidden supermassive black hole",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260805082457.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-06T12:16:32.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.19,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5357,
+      "feedPosition": 0.8889,
+      "novelty": 0.9086
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3731,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5637,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "7a49925777f8ca4fffef",
+    "doomIndexInputFingerprint": "135f1dabfa7a5c9812e7",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5637,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "7a49925777f8ca4fffef",
+    "doomIndexV123InputFingerprint": "128e4b3e3c01d87e48bf",
+    "storyId": "68da802e26076410b691",
+    "firstSeen": "2026-08-06T15:00:00.000Z",
+    "lastSeen": "2026-08-07T10:00:00.000Z",
+    "feedSummary": "A supermassive black hole has been found lurking about 30,000 light-years from the center of its galaxy—the first dormant black hole detected so far from a galactic core. It revealed itself only after shredding a passing star and producing a brief, brilliant flare. Astronomers think it may be the remnant of a devoured galaxy or a black hole flung outward during a chaotic cosmic encounter."
+  },
+  {
+    "group": "ai",
     "title": "How AI Hype Helps Render Women Invisible",
     "url": "https://techpolicy.press/how-ai-hype-helps-render-women-invisible",
     "source": "Tech Policy Press AI",
@@ -9941,7 +9943,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.5444,
+      "freshness": 0.5371,
       "feedPosition": 0.7778,
       "novelty": 0.9353
     },
@@ -9951,7 +9953,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3704,
+    "score": 0.3693,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10025,7 +10027,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.555,
+      "freshness": 0.5475,
       "feedPosition": 0.8889,
       "novelty": 0.789
     },
@@ -10035,7 +10037,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3684,
+    "score": 0.3673,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10109,7 +10111,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.331,
       "sourceAuthority": 0.5,
-      "freshness": 0.6021,
+      "freshness": 0.594,
       "feedPosition": 1,
       "novelty": 0.3487
     },
@@ -10118,7 +10120,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.3664,
+    "score": 0.3652,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10192,7 +10194,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6003,
+      "freshness": 0.5922,
       "feedPosition": 0.6667,
       "novelty": 0.9026
     },
@@ -10200,7 +10202,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3362,
+    "score": 0.335,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10274,7 +10276,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.6087,
+      "freshness": 0.6005,
       "feedPosition": 0.5556,
       "novelty": 0.7654
     },
@@ -10283,7 +10285,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3268,
+    "score": 0.3256,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10357,7 +10359,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2355,
       "sourceAuthority": 0.5,
-      "freshness": 0.5623,
+      "freshness": 0.5547,
       "feedPosition": 0.4444,
       "novelty": 0.7521
     },
@@ -10366,7 +10368,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "unusual language in the current story batch"
     ],
-    "score": 0.3261,
+    "score": 0.325,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10440,7 +10442,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.5541,
+      "freshness": 0.5466,
       "feedPosition": 0.3333,
       "novelty": 0.9191
     },
@@ -10449,7 +10451,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3221,
+    "score": 0.3209,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10527,7 +10529,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.191,
       "sourceAuthority": 0.5,
-      "freshness": 0.3654,
+      "freshness": 0.3604,
       "feedPosition": 0.8,
       "novelty": 0.736
     },
@@ -10536,7 +10538,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3216,
+    "score": 0.3209,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10610,14 +10612,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.3861,
+      "freshness": 0.3809,
       "feedPosition": 1,
       "novelty": 0.8617
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3215,
+    "score": 0.3207,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10691,12 +10693,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.6742,
+      "freshness": 0.6651,
       "feedPosition": 0.8889,
       "novelty": 0.3824
     },
     "rankingReasons": [],
-    "score": 0.3104,
+    "score": 0.309,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10770,7 +10772,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.083,
       "sourceAuthority": 0.5,
-      "freshness": 0.5056,
+      "freshness": 0.4988,
       "feedPosition": 0.5,
       "novelty": 0.9075
     },
@@ -10778,7 +10780,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3082,
+    "score": 0.3072,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10842,86 +10844,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260804034634.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-06T02:02:49.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0835,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4087,
-      "feedPosition": 0.6667,
-      "novelty": 0.857
-    },
-    "rankingReasons": [
-      "specific details",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3054,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "d53e28ed0e1578051d6f",
-    "doomIndexInputFingerprint": "1deb16c1f8a2686328ad",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "d53e28ed0e1578051d6f",
-    "doomIndexV123InputFingerprint": "abd43bec4dbb07cddd45",
-    "storyId": "8d70837b7ae0eee896d5",
-    "firstSeen": "2026-08-06T03:00:00.000Z",
-    "lastSeen": "2026-08-07T10:00:00.000Z",
-    "feedSummary": "A mathematician working at Anthropic says he used the AI model Claude Fable 5 to uncover a remarkably simple counterexample to the Jacobian conjecture, a famous problem that has resisted mathematicians for more than a century. The result shows that the conjecture is false in three dimensions and above, although the original two-dimensional version remains unsolved."
-  },
-  {
-    "group": "ai",
     "title": "Cloudflare open-sources vibe-coding platform for people who aren't coders",
     "url": "https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/",
     "source": "Ars Technica AI",
@@ -10932,14 +10854,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6066,
+      "freshness": 0.5984,
       "feedPosition": 0.6667,
       "novelty": 0.6816
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3008,
+    "score": 0.2996,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11013,7 +10935,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.16,
+      "freshness": 0.1579,
       "feedPosition": 0.8889,
       "novelty": 0.7702
     },
@@ -11022,7 +10944,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2993,
+    "score": 0.299,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11096,7 +11018,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2924,
+      "freshness": 0.2884,
       "feedPosition": 0,
       "novelty": 0.7999
     },
@@ -11104,7 +11026,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.2988,
+    "score": 0.2983,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11166,24 +11088,25 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "A colossal magma system has been hiding beneath Tuscany",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260804034645.htm",
+    "title": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260804034634.htm",
     "source": "ScienceDaily Technology",
-    "published": "2026-08-05T09:19:43.000Z",
+    "published": "2026-08-06T02:02:49.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.0355,
+      "titleImpact": 0.0835,
       "sourceAuthority": 0.5,
-      "freshness": 0.2569,
-      "feedPosition": 0.8889,
-      "novelty": 0.8747
+      "freshness": 0.4032,
+      "feedPosition": 0.5556,
+      "novelty": 0.857
     },
     "rankingReasons": [
+      "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.297,
+    "score": 0.2934,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11199,7 +11122,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.415,
+      "evidence": 0.4487,
       "actuality": 0.25,
       "protectiveContext": 0,
       "routinePenalty": 0,
@@ -11209,8 +11132,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "neutral event status"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "0ff486cfde0279ff9188",
-    "doomIndexInputFingerprint": "2c7341a7552f5e2cf96f",
+    "doomIndexSummaryFingerprint": "d53e28ed0e1578051d6f",
+    "doomIndexInputFingerprint": "1deb16c1f8a2686328ad",
     "doomIndexV123Shadow": 5,
     "doomIndexV123ShadowVersion": "1.2.3",
     "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
@@ -11226,7 +11149,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.415,
+      "evidence": 0.4487,
       "actuality": 0.25,
       "protectiveContext": 0,
       "routinePenalty": 0,
@@ -11236,12 +11159,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "neutral event status"
     ],
     "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "0ff486cfde0279ff9188",
-    "doomIndexV123InputFingerprint": "cb0e960eea87ca6d4797",
-    "storyId": "fd76dc5c8e6b768dc037",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "doomIndexV123SummaryFingerprint": "d53e28ed0e1578051d6f",
+    "doomIndexV123InputFingerprint": "abd43bec4dbb07cddd45",
+    "storyId": "8d70837b7ae0eee896d5",
+    "firstSeen": "2026-08-06T03:00:00.000Z",
     "lastSeen": "2026-08-07T10:00:00.000Z",
-    "feedSummary": "A massive magma reservoir has been detected deep beneath Tuscany, despite showing no obvious signs at the surface. Scientists mapped the roughly 6,000-cubic-kilometer body using natural ground vibrations recorded by dozens of seismic sensors. It poses no immediate danger, but the discovery reveals how enormous volcanic systems can remain hidden and could transform the search for geothermal energy and critical minerals."
+    "feedSummary": "A mathematician working at Anthropic says he used the AI model Claude Fable 5 to uncover a remarkably simple counterexample to the Jacobian conjecture, a famous problem that has resisted mathematicians for more than a century. The result shows that the conjecture is false in three dimensions and above, although the original two-dimensional version remains unsolved."
   },
   {
     "group": "ai",
@@ -11255,7 +11178,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.1307,
+      "freshness": 0.1289,
       "feedPosition": 0.8889,
       "novelty": 0.8747
     },
@@ -11263,7 +11186,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.293,
+    "score": 0.2927,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11341,14 +11264,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5243,
+      "freshness": 0.5172,
       "feedPosition": 0.5556,
       "novelty": 0.7999
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2892,
+    "score": 0.2881,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11424,14 +11347,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.5541,
+      "freshness": 0.5466,
       "feedPosition": 0.3333,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2884,
+    "score": 0.2873,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11495,6 +11418,85 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "A colossal magma system has been hiding beneath Tuscany",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260804034645.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-05T09:19:43.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2534,
+      "feedPosition": 0.7778,
+      "novelty": 0.8747
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2854,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.415,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "0ff486cfde0279ff9188",
+    "doomIndexInputFingerprint": "2c7341a7552f5e2cf96f",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.415,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "0ff486cfde0279ff9188",
+    "doomIndexV123InputFingerprint": "cb0e960eea87ca6d4797",
+    "storyId": "fd76dc5c8e6b768dc037",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-07T10:00:00.000Z",
+    "feedSummary": "A massive magma reservoir has been detected deep beneath Tuscany, despite showing no obvious signs at the surface. Scientists mapped the roughly 6,000-cubic-kilometer body using natural ground vibrations recorded by dozens of seismic sensors. It poses no immediate danger, but the discovery reveals how enormous volcanic systems can remain hidden and could transform the search for geothermal energy and critical minerals."
+  },
+  {
+    "group": "ai",
     "title": "Company Offering Printed Books to Train AI Stops After 404 Media Coverage",
     "url": "https://www.404media.co/ai-company-training-scanning-books-database-isbndb/",
     "source": "404 Media AI",
@@ -11505,9 +11507,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3,
       "sourceAuthority": 0.5,
-      "freshness": 0.0105,
+      "freshness": 0.0103,
       "feedPosition": 0.5556,
-      "novelty": 0.7494
+      "novelty": 0.7853
     },
     "rankingReasons": [
       "real-world consequences",
@@ -11515,7 +11517,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2671,
+    "score": 0.2706,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11589,7 +11591,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.382,
       "sourceAuthority": 0.5,
-      "freshness": 0.3314,
+      "freshness": 0.327,
       "feedPosition": 0.1111,
       "novelty": 0.5318
     },
@@ -11598,7 +11600,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2654,
+    "score": 0.2647,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11662,87 +11664,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "A solar eclipse and the Perseid meteor shower arrive on the same day",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260804034628.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-05T04:13:47.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.223,
-      "feedPosition": 0.5556,
-      "novelty": 0.9191
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.263,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.215,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "f63a38b220d7966bec8d",
-    "doomIndexInputFingerprint": "11d7b75fc6091326b9ed",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "proposed",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.215,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "f63a38b220d7966bec8d",
-    "doomIndexV123InputFingerprint": "065388df5aee33d25f4d",
-    "storyId": "a2fd9d7d72cfe5b5b305",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T10:00:00.000Z",
-    "feedSummary": "August brings four major celestial events, including a solar eclipse and the peak of the Perseid meteor shower. Dark New Moon skies could make the Perseids especially impressive, while Venus will blaze in the west after sunset. A deep partial lunar eclipse closes the month, darkening most of the Moon."
-  },
-  {
-    "group": "ai",
     "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
     "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
     "source": "TechCrunch AI",
@@ -11753,14 +11674,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.5464,
+      "freshness": 0.5391,
       "feedPosition": 0.1111,
       "novelty": 0.8292
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2581,
+    "score": 0.257,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11915,14 +11836,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.3458,
+      "freshness": 0.3411,
       "feedPosition": 0.3333,
       "novelty": 0.8747
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2537,
+    "score": 0.253,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11986,6 +11907,87 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "A solar eclipse and the Perseid meteor shower arrive on the same day",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260804034628.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-05T04:13:47.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.22,
+      "feedPosition": 0.4444,
+      "novelty": 0.9191
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2514,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "proposed",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.215,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "f63a38b220d7966bec8d",
+    "doomIndexInputFingerprint": "11d7b75fc6091326b9ed",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "proposed",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.215,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "f63a38b220d7966bec8d",
+    "doomIndexV123InputFingerprint": "065388df5aee33d25f4d",
+    "storyId": "a2fd9d7d72cfe5b5b305",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-07T10:00:00.000Z",
+    "feedSummary": "August brings four major celestial events, including a solar eclipse and the peak of the Perseid meteor shower. Dark New Moon skies could make the Perseids especially impressive, while Venus will blaze in the west after sunset. A deep partial lunar eclipse closes the month, darkening most of the Moon."
+  },
+  {
+    "group": "ai",
     "title": "Hank Green found the AI problem that YouTube labels can’t catch",
     "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
     "source": "Ars Technica AI",
@@ -11996,7 +11998,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.3442,
+      "freshness": 0.3396,
       "feedPosition": 0.2222,
       "novelty": 0.7654
     },
@@ -12004,7 +12006,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2396,
+    "score": 0.2389,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12076,12 +12078,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0523,
+      "freshness": 0.0516,
       "feedPosition": 0.7143,
       "novelty": 0.6489
     },
     "rankingReasons": [],
-    "score": 0.2263,
+    "score": 0.2261,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12244,7 +12246,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0744,
+      "freshness": 0.0734,
       "feedPosition": 0.2222,
       "novelty": 0.799
     },
@@ -12253,7 +12255,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2167,
+    "score": 0.2165,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12317,89 +12319,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
-    "url": "https://restofworld.org/2026/china-moonshot-kimi-k3-free-sovereign-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "source": "Rest of World AI",
-    "published": "2026-07-30T10:00:00.000Z",
-    "image": "https://restofworld.org/wp-content/uploads/2026/07/RoW_Illustration-KimiK3-2-768x432.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0048,
-      "feedPosition": 0.4286,
-      "novelty": 0.6778
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2148,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "fdc3e521462224299ab3",
-    "doomIndexInputFingerprint": "d869040cc3c087756a22",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "fdc3e521462224299ab3",
-    "doomIndexV123InputFingerprint": "4a45e2c1a562c94f3164",
-    "storyId": "1936fae63e0ee701fda2",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T10:00:00.000Z",
-    "feedSummary": "Governments can now deploy top-tier AI locally, bypassing costly U.S. cloud rentals."
-  },
-  {
-    "group": "ai",
     "title": "Scientists using LLMs will ‘do more, less well’, modelling study predicts",
     "url": "https://www.nature.com/articles/d41586-026-02397-5",
     "source": "Nature AI News & Comment",
@@ -12410,14 +12329,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0655,
       "sourceAuthority": 0.5,
-      "freshness": 0.0071,
+      "freshness": 0.007,
       "feedPosition": 0.5714,
-      "novelty": 0.6699
+      "novelty": 0.6877
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2133,
+    "score": 0.2151,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12481,6 +12400,89 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
+    "url": "https://restofworld.org/2026/china-moonshot-kimi-k3-free-sovereign-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World AI",
+    "published": "2026-07-30T10:00:00.000Z",
+    "image": "https://restofworld.org/wp-content/uploads/2026/07/RoW_Illustration-KimiK3-2-768x432.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0047,
+      "feedPosition": 0.4286,
+      "novelty": 0.6778
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2147,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "fdc3e521462224299ab3",
+    "doomIndexInputFingerprint": "d869040cc3c087756a22",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "fdc3e521462224299ab3",
+    "doomIndexV123InputFingerprint": "4a45e2c1a562c94f3164",
+    "storyId": "1936fae63e0ee701fda2",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-07T10:00:00.000Z",
+    "feedSummary": "Governments can now deploy top-tier AI locally, bypassing costly U.S. cloud rentals."
+  },
+  {
+    "group": "ai",
     "title": "This AI Raygun can shrink and supersize proteins — opening the door to easy editing",
     "url": "https://www.nature.com/articles/d41586-026-02335-5",
     "source": "Nature AI News & Comment",
@@ -12491,7 +12493,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0475,
       "sourceAuthority": 0.5,
-      "freshness": 0.0019,
+      "freshness": 0.0018,
       "feedPosition": 0.4286,
       "novelty": 0.8529
     },
@@ -12559,167 +12561,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "firstSeen": "2026-08-05T18:00:00.000Z",
     "lastSeen": "2026-08-07T10:00:00.000Z",
     "feedSummary": ""
-  },
-  {
-    "group": "ai",
-    "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260802223422.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-03T11:58:59.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.14,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0729,
-      "feedPosition": 0.2222,
-      "novelty": 0.7585
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.212,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.215,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "ee83729026ba38c7c367",
-    "doomIndexInputFingerprint": "1d56e65692104f5b96db",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.215,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "ee83729026ba38c7c367",
-    "doomIndexV123InputFingerprint": "1075fafd69198c965c96",
-    "storyId": "ee09554dd596a6467291",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T10:00:00.000Z",
-    "feedSummary": "When atomic nuclei smash together at nearly the speed of light, they create the hottest fluid in the universe, but scientists may have overlooked one of its most important forces. New simulations reveal that extreme acceleration builds up along the edges of quark-gluon plasma, helping drive its explosive expansion. This acceleration may do far more than move the fluid, potentially changing its temperature-like behavior, influencing particle spins, and even reshaping how matter transitions between fundamental states."
-  },
-  {
-    "group": "ai",
-    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-04T11:44:58.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.03,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1411,
-      "feedPosition": 0.3333,
-      "novelty": 0.7494
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2104,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.5012,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "cadbdce31fe217cf90ee",
-    "doomIndexInputFingerprint": "57a2b9313ae0c934f33f",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.5012,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "cadbdce31fe217cf90ee",
-    "doomIndexV123InputFingerprint": "e5ff0bd84bcdaa45d6f2",
-    "storyId": "27d0fa2d620c8fe63fb4",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T10:00:00.000Z",
-    "feedSummary": "Photons traveling through a cloud of atoms can emerge so early that they appear to have spent a negative amount of time inside. Researchers tested whether this was merely a misleading feature of the light pulse by making extremely weak measurements of the atoms. Surprisingly, the atoms confirmed the same negative dwell time. The finding does not break standard physics, but it reveals that one of quantum mechanics’ strangest effects is physically measurable."
   },
   {
     "group": "ai",
@@ -12818,7 +12659,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.001,
+      "freshness": 0.0009,
       "feedPosition": 0.2857,
       "novelty": 1
     },
@@ -12972,30 +12813,30 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Moonquakes could reveal hidden water beneath the lunar surface",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260802223420.htm",
+    "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260802223422.htm",
     "source": "ScienceDaily Technology",
-    "published": "2026-08-03T12:32:07.000Z",
+    "published": "2026-08-03T11:58:59.000Z",
     "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.074,
+      "freshness": 0.0719,
       "feedPosition": 0.1111,
-      "novelty": 0.6998
+      "novelty": 0.7585
     },
     "rankingReasons": [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.1952,
+    "score": 0.2007,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
     "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
+    "doomIndexActuality": "neutral",
     "doomIndexPolarity": "neutral",
     "doomIndexFactors": {
       "realizedHarm": 0,
@@ -13006,24 +12847,24 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.185,
-      "actuality": 0.35,
+      "evidence": 0.215,
+      "actuality": 0.25,
       "protectiveContext": 0,
       "routinePenalty": 0,
       "contextualConcern": 0
     },
     "doomIndexReasons": [
-      "proposed event status",
+      "neutral event status",
       "speculative or weakly evidenced"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "15ea1008d3abc53bb973",
-    "doomIndexInputFingerprint": "2767d99484e72171f010",
+    "doomIndexSummaryFingerprint": "ee83729026ba38c7c367",
+    "doomIndexInputFingerprint": "1d56e65692104f5b96db",
     "doomIndexV123Shadow": 5,
     "doomIndexV123ShadowVersion": "1.2.3",
     "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
     "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "proposed",
+    "doomIndexV123Actuality": "neutral",
     "doomIndexV123Polarity": "neutral",
     "doomIndexV123Factors": {
       "realizedHarm": 0,
@@ -13034,23 +12875,102 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.185,
-      "actuality": 0.35,
+      "evidence": 0.215,
+      "actuality": 0.25,
       "protectiveContext": 0,
       "routinePenalty": 0,
       "contextualConcern": 0
     },
     "doomIndexV123Reasons": [
-      "proposed event status",
+      "neutral event status",
       "speculative or weakly evidenced"
     ],
     "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "15ea1008d3abc53bb973",
-    "doomIndexV123InputFingerprint": "86edd9862598607821eb",
-    "storyId": "f77f6388e84028731abf",
+    "doomIndexV123SummaryFingerprint": "ee83729026ba38c7c367",
+    "doomIndexV123InputFingerprint": "1075fafd69198c965c96",
+    "storyId": "ee09554dd596a6467291",
     "firstSeen": "2026-08-05T18:00:00.000Z",
     "lastSeen": "2026-08-07T10:00:00.000Z",
-    "feedSummary": "Hidden moon ice may reveal itself through the way it bends and reflects vibrations from moonquakes. The technique could help astronauts locate vital water supplies and uncover clues about the origins of Earth’s oceans."
+    "feedSummary": "When atomic nuclei smash together at nearly the speed of light, they create the hottest fluid in the universe, but scientists may have overlooked one of its most important forces. New simulations reveal that extreme acceleration builds up along the edges of quark-gluon plasma, helping drive its explosive expansion. This acceleration may do far more than move the fluid, potentially changing its temperature-like behavior, influencing particle spins, and even reshaping how matter transitions between fundamental states."
+  },
+  {
+    "group": "ai",
+    "title": "Strange quantum experiment shows “negative time” is more than an illusion",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-04T11:44:58.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.03,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1392,
+      "feedPosition": 0.2222,
+      "novelty": 0.7494
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.199,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5012,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "cadbdce31fe217cf90ee",
+    "doomIndexInputFingerprint": "57a2b9313ae0c934f33f",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5012,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "cadbdce31fe217cf90ee",
+    "doomIndexV123InputFingerprint": "e5ff0bd84bcdaa45d6f2",
+    "storyId": "27d0fa2d620c8fe63fb4",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-07T10:00:00.000Z",
+    "feedSummary": "Photons traveling through a cloud of atoms can emerge so early that they appear to have spent a negative amount of time inside. Researchers tested whether this was merely a misleading feature of the light pulse by making extremely weak measurements of the atoms. Surprisingly, the atoms confirmed the same negative dwell time. The finding does not break standard physics, but it reveals that one of quantum mechanics’ strangest effects is physically measurable."
   },
   {
     "group": "ai",
@@ -13216,6 +13136,88 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Moonquakes could reveal hidden water beneath the lunar surface",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260802223420.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-03T12:32:07.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.14,
+      "sourceAuthority": 0.5,
+      "freshness": 0.073,
+      "feedPosition": 0,
+      "novelty": 0.6776
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1817,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "proposed",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.185,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "15ea1008d3abc53bb973",
+    "doomIndexInputFingerprint": "2767d99484e72171f010",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "proposed",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.185,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "15ea1008d3abc53bb973",
+    "doomIndexV123InputFingerprint": "86edd9862598607821eb",
+    "storyId": "f77f6388e84028731abf",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-07T10:00:00.000Z",
+    "feedSummary": "Hidden moon ice may reveal itself through the way it bends and reflects vibrations from moonquakes. The technique could help astronauts locate vital water supplies and uncover clues about the origins of Earth’s oceans."
+  },
+  {
+    "group": "ai",
     "title": "Google Earth AI Fiasco Underscores Why Tech Firms Must Listen to Outside Experts",
     "url": "https://techpolicy.press/google-earth-ai-fiasco-underscores-why-tech-firms-must-listen-to-outside-experts",
     "source": "Tech Policy Press AI",
@@ -13226,16 +13228,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.0128,
+      "freshness": 0.0126,
       "feedPosition": 0,
-      "novelty": 0.5661
+      "novelty": 0.5891
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1759,
+    "score": 0.1782,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13309,7 +13311,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0017,
+      "freshness": 0.0016,
       "feedPosition": 0,
       "novelty": 1
     },
@@ -13317,7 +13319,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.1753,
+    "score": 0.1752,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13391,7 +13393,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.001,
+      "freshness": 0.0009,
       "feedPosition": 0.1429,
       "novelty": 0.8156
     },
@@ -13472,14 +13474,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.0404,
+      "freshness": 0.0398,
       "feedPosition": 0.1111,
       "novelty": 0.5979
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.1733,
+    "score": 0.1732,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
