@@ -16,8 +16,6 @@
     progress: document.querySelector("#calibration-progress"),
     status: document.querySelector("#calibration-status"),
     exportButton: document.querySelector("#export-ratings"),
-    source: document.querySelector("#story-source"),
-    date: document.querySelector("#story-date"),
     title: document.querySelector("#story-title"),
     summary: document.querySelector("#story-summary"),
     summaryNote: document.querySelector("#summary-note"),
@@ -134,7 +132,17 @@
     return numeric === null ? "Unavailable" : numeric.toFixed(2);
   }
 
-  function signedDifference(left, right) {
+  function humanScore(value) {
+    const numeric = score(value);
+    return numeric === null ? null : Math.round(numeric);
+  }
+
+  function humanScoreText(value) {
+    const numeric = humanScore(value);
+    return numeric === null ? "Unavailable" : String(numeric);
+  }
+
+  function signedDifference(left, right, precision = 2) {
     const leftScore = score(left);
     const rightScore = score(right);
 
@@ -143,29 +151,15 @@
     }
 
     const difference = leftScore - rightScore;
-    return `${difference >= 0 ? "+" : ""}${difference.toFixed(2)}`;
-  }
-
-  function formattedDate(value) {
-    const date = new Date(value);
-
-    if (Number.isNaN(date.getTime())) {
-      return "Date unavailable";
-    }
-
-    return new Intl.DateTimeFormat(undefined, {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    }).format(date);
+    return `${difference >= 0 ? "+" : ""}${difference.toFixed(precision)}`;
   }
 
   function setSlider(slider, output, value, interacted = false) {
-    const normalized = score(value) ?? 0;
-    slider.value = normalized.toFixed(2);
+    const normalized = humanScore(value) ?? 0;
+    slider.value = String(normalized);
     slider.dataset.interacted = String(interacted);
-    output.value = normalized.toFixed(2);
-    output.textContent = normalized.toFixed(2);
+    output.value = String(normalized);
+    output.textContent = String(normalized);
   }
 
   function resetForm(form) {
@@ -249,6 +243,16 @@
       description.textContent = band.description || "";
 
       item.append(heading, description);
+
+      if (band.qualification) {
+        const qualificationLabel = document.createElement("span");
+        qualificationLabel.className = "calibration-scale-qualification-label";
+        qualificationLabel.textContent = "Qualifies when";
+
+        const qualification = document.createElement("span");
+        qualification.textContent = band.qualification;
+        item.append(qualificationLabel, qualification);
+      }
       elements.scale.append(item);
     }
   }
@@ -266,9 +270,6 @@
 
     elements.emptyState.hidden = true;
     elements.workspace.hidden = false;
-    elements.source.textContent = article.source || "Source unavailable";
-    elements.date.textContent = formattedDate(article.published);
-    elements.date.dateTime = article.published || "";
     elements.title.textContent = article.title;
 
     const feedSummary = String(article.feedSummary || article.summary || "").trim();
@@ -276,7 +277,7 @@
     elements.summary.hidden = !feedSummary;
     elements.summaryNote.textContent = feedSummary
       ? "Rate this stage from the title and supplied feed summary only."
-      : "No feed summary was supplied for this story. Rate this stage from the title only, or mark it cannot be assessed.";
+      : "No feed summary was supplied for this story. Rate this stage from the title only, or skip it.";
 
     elements.frame.src = article.url;
     elements.frame.title = `Article: ${article.title}`;
@@ -299,7 +300,7 @@
     } else {
       elements.feedStage.hidden = false;
       elements.articleStage.hidden = true;
-      elements.status.textContent = "Model scores are hidden. Complete the feed-based judgment first.";
+      elements.status.textContent = "";
     }
 
     updateProgress();
@@ -352,8 +353,8 @@
     const shadowDefinition = record.models.shadow;
 
     elements.comparison.append(
-      comparisonItem("Human / feed", scoreText(record.feedRating.score)),
-      comparisonItem("Human / article", scoreText(record.articleRating.score)),
+      comparisonItem("Human / feed", humanScoreText(record.feedRating.score)),
+      comparisonItem("Human / article", humanScoreText(record.articleRating.score)),
       comparisonItem(
         `${publicDefinition.name} ${publicDefinition.version} / ${publicDefinition.role}`,
         scoreText(publicDefinition.score),
@@ -364,7 +365,7 @@
       ),
       comparisonItem(
         "Article context adjustment",
-        signedDifference(record.articleRating.score, record.feedRating.score),
+        signedDifference(record.articleRating.score, record.feedRating.score, 0),
       ),
       comparisonItem(
         "Experimental error after reading",
@@ -417,7 +418,7 @@
         summaryAvailable: Boolean(article.feedSummary || article.summary),
       },
       feedRating: {
-        score: score(elements.feedSlider.value),
+        score: humanScore(elements.feedSlider.value),
         confidence: Number(selectedValue(elements.feedForm, "feed-confidence")),
         reasoning: elements.feedForm.elements.reasoning.value.trim(),
         ratedAt: now,
@@ -447,16 +448,15 @@
 
     record.status = "rated";
     record.articleRating = {
-      score: score(elements.articleSlider.value),
+      score: humanScore(elements.articleSlider.value),
       confidence: Number(
         selectedValue(elements.articleForm, "article-confidence"),
       ),
       reasoning: elements.articleForm.elements.reasoning.value.trim(),
       ratedAt: now,
     };
-    record.contextAdjustment = Number(
-      (record.articleRating.score - record.feedRating.score).toFixed(2),
-    );
+    record.contextAdjustment =
+      record.articleRating.score - record.feedRating.score;
     record.completedAt = now;
     record.updatedAt = now;
 
@@ -551,8 +551,8 @@
       ? elements.feedOutput
       : elements.articleOutput;
     slider.dataset.interacted = "true";
-    output.value = Number(slider.value).toFixed(2);
-    output.textContent = Number(slider.value).toFixed(2);
+    output.value = String(Math.round(Number(slider.value)));
+    output.textContent = String(Math.round(Number(slider.value)));
 
     if (slider === elements.feedSlider) {
       elements.feedValidation.hidden = true;
