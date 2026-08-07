@@ -59,6 +59,39 @@
           <div class="banner-divider banner-divider--heavy" aria-hidden="true"></div>
         </section>
 
+        <section
+          id="model-switcher"
+          class="model-switcher"
+          role="radiogroup"
+          aria-label="Doom Index model"
+        >
+          <div>Model</div>
+          <button
+            class="model-option is-selected"
+            type="button"
+            role="radio"
+            aria-checked="true"
+            data-doom-model="public"
+          >
+            [<span class="model-option-marker" aria-hidden="true">X</span>]
+            <span data-model-name>Dread</span>
+            <span data-model-version>1.2.2</span>
+            [Public]
+          </button>
+          <button
+            class="model-option"
+            type="button"
+            role="radio"
+            aria-checked="false"
+            data-doom-model="experimental"
+          >
+            [<span class="model-option-marker" aria-hidden="true">X</span>]
+            <span data-model-name>Dread</span>
+            <span data-model-version>1.2.3</span>
+            [Experimental]
+          </button>
+        </section>
+
         <section class="flex flex-col gap-1">
           <img
             src="./images/floral-divider-1.png"
@@ -273,19 +306,16 @@
             <div id="doom-index-legend-version" class="news-link"></div>
             <div id="doom-index-legend-scale" class="flex flex-col gap-4"></div>
             <p class="doom-index-legend-note">
-              The Doom Index is an editorial signal of prominence and apparent
-              impact. It is not a probability, factual-confidence rating, or
-              prediction.
+              The Doom Index estimates apparent consequence severity from
+              reporting language, event status, and corroboration. It is not a
+              probability, factual-confidence rating, or prediction.
             </p>
           </div>
         </details>
         <div class="h-px w-full bg-black" aria-hidden="true"></div>
       </section>
 
-      <section class="news-category source-directory-section" aria-labelledby="source-directory-title">
-        <h2 id="source-directory-title" class="source-directory-title news-link">
-          Sources
-        </h2>
+      <section class="news-category source-directory-section" aria-label="Sources">
         <div id="source-directory" class="flex flex-col gap-4"></div>
         <div class="h-px w-full bg-black" aria-hidden="true"></div>
       </section>
