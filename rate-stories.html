@@ -20,14 +20,11 @@
         </div>
       </header>
 
-      <section class="calibration-toolbar" aria-label="Calibration controls">
-        <p id="calibration-status" class="calibration-status" aria-live="polite">
-          Loading stories.
-        </p>
-        <button id="export-ratings" class="calibration-action" type="button" disabled>
-          [Export ratings]
-        </button>
-      </section>
+      <p
+        id="calibration-status"
+        class="calibration-status calibration-status--visually-hidden"
+        aria-live="polite"
+      >Loading stories.</p>
 
       <section id="empty-state" class="calibration-empty" hidden>
         <h1>No stories are available</h1>
@@ -71,6 +68,10 @@
               </p>
             </div>
 
+            <section class="calibration-rubric" aria-label="Doom Index severity scale">
+              <div id="calibration-scale" class="calibration-scale"></div>
+            </section>
+
             <fieldset class="calibration-field calibration-confidence">
               <legend>Confidence</legend>
               <label class="calibration-radio">
@@ -102,11 +103,14 @@
             </div>
 
             <div class="calibration-actions">
-              <button class="calibration-action" type="submit">
-                [Lock feed rating and read article]
+              <button id="export-ratings" class="calibration-action" type="button" disabled>
+                [Export ratings]
               </button>
               <button class="calibration-action" type="button" data-skip-story>
                 [Skip]
+              </button>
+              <button class="calibration-action" type="submit">
+                [Confirm rating and read article]
               </button>
             </div>
           </form>
@@ -215,12 +219,6 @@
           </button>
         </section>
 
-        <section class="calibration-rubric" aria-labelledby="calibration-scale-title">
-          <h2 id="calibration-scale-title" class="calibration-rubric-title">
-            Doom Index severity scale
-          </h2>
-          <div id="calibration-scale" class="calibration-scale"></div>
-        </section>
       </section>
     </main>
 
