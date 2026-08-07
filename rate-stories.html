@@ -16,7 +16,6 @@
       <header class="calibration-header">
         <a class="calibration-logo" href="./index.html">Daily Doomsayer</a>
         <div class="calibration-header-copy">
-          <div>Human calibration</div>
           <div id="calibration-progress">Story 0 of 0</div>
         </div>
       </header>
@@ -40,11 +39,6 @@
 
       <section id="calibration-workspace" class="calibration-workspace" hidden>
         <section class="calibration-story-context" aria-labelledby="story-title">
-          <div class="calibration-eyebrow">
-            <span id="story-source">Source</span>
-            <span aria-hidden="true">/</span>
-            <time id="story-date">Date unavailable</time>
-          </div>
           <h1 id="story-title" class="calibration-story-title">Story title</h1>
           <p id="story-summary" class="calibration-story-summary"></p>
           <p id="summary-note" class="calibration-note"></p>
@@ -52,19 +46,14 @@
 
         <section id="feed-rating-stage" class="calibration-stage">
           <div class="calibration-stage-heading">
-            <div>Stage one</div>
             <h2>Rate the feed evidence</h2>
-            <p>
-              Judge only the title and feed summary. The DREAD scores are hidden until
-              both judgments are complete.
-            </p>
           </div>
 
           <form id="feed-rating-form" class="calibration-form">
             <div class="calibration-field">
               <div class="calibration-field-heading">
                 <label for="feed-rating">Human Doom Index rating</label>
-                <output id="feed-rating-output" for="feed-rating">0.00</output>
+                <output id="feed-rating-output" for="feed-rating">0</output>
               </div>
               <input
                 id="feed-rating"
@@ -73,7 +62,7 @@
                 type="range"
                 min="0"
                 max="100"
-                step="0.01"
+                step="1"
                 value="0"
               />
               <div class="calibration-slider-bounds" aria-hidden="true">
@@ -120,7 +109,7 @@
                 [Lock feed rating and read article]
               </button>
               <button class="calibration-action" type="button" data-skip-story>
-                [Cannot assess]
+                [Skip]
               </button>
             </div>
           </form>
@@ -159,7 +148,7 @@
             <div class="calibration-field">
               <div class="calibration-field-heading">
                 <label for="article-rating">Article-informed Doom Index rating</label>
-                <output id="article-rating-output" for="article-rating">0.00</output>
+                <output id="article-rating-output" for="article-rating">0</output>
               </div>
               <input
                 id="article-rating"
@@ -168,7 +157,7 @@
                 type="range"
                 min="0"
                 max="100"
-                step="0.01"
+                step="1"
                 value="0"
               />
               <div class="calibration-slider-bounds" aria-hidden="true">
@@ -212,7 +201,7 @@
                 [Save final rating]
               </button>
               <button class="calibration-action" type="button" data-skip-story>
-                [Cannot assess]
+                [Skip]
               </button>
             </div>
           </form>
@@ -229,18 +218,20 @@
           </button>
         </section>
 
-        <details class="calibration-rubric">
-          <summary>Doom Index severity scale</summary>
+        <section class="calibration-rubric" aria-labelledby="calibration-scale-title">
+          <h2 id="calibration-scale-title" class="calibration-rubric-title">
+            Doom Index severity scale
+          </h2>
           <div id="calibration-scale" class="calibration-scale"></div>
-        </details>
+        </section>
       </section>
     </main>
 
     <dialog id="skip-dialog" class="calibration-dialog">
       <form id="skip-form" method="dialog" class="calibration-form">
         <div class="calibration-stage-heading">
-          <div>Cannot assess</div>
-          <h2>Why should this story be skipped?</h2>
+          <div>Skip</div>
+          <h2>Why are you skipping this story?</h2>
         </div>
         <fieldset class="calibration-field calibration-confidence">
           <legend>Reason</legend>
