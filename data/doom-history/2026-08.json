@@ -144303,6 +144303,202 @@
           }
         }
       }
+    },
+    "a73be5838e2da249566f": {
+      "storyId": "a73be5838e2da249566f",
+      "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+      "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+      "source": "TechCrunch AI",
+      "image": "",
+      "published": "2026-08-07T11:40:37.000Z",
+      "firstSeen": "2026-08-07T11:00:00.000Z",
+      "lastSeen": "2026-08-07T11:00:00.000Z",
+      "days": {
+        "2026-08-07": {
+          "samples": {
+            "2026-08-07T11Z|1.2.2-shadow.1": {
+              "value": 14.84,
+              "observedAt": "2026-08-07T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "80f66159e0ccdb8d2338"
+            },
+            "2026-08-07T11Z|1.2.3-shadow.1": {
+              "value": 14.84,
+              "observedAt": "2026-08-07T11:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "3af9d1a54d0377ac8430"
+            }
+          },
+          "formulaSummaries": {
+            "1.2.2-shadow.1": {
+              "formulaVersion": "1.2.2-shadow.1",
+              "open": 14.84,
+              "high": 14.84,
+              "low": 14.84,
+              "close": 14.84,
+              "average": 14.84,
+              "scoreTotal": 14.84,
+              "observations": 1,
+              "firstObservedAt": "2026-08-07T11:00:00.000Z",
+              "lastObservedAt": "2026-08-07T11:00:00.000Z",
+              "peakSample": 14.84,
+              "peakSampleHour": "2026-08-07T11Z|1.2.2-shadow.1",
+              "peakReasons": [
+                "vulnerable people affected",
+                "systemic or institutional reach",
+                "neutral event status"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0.425,
+                "vulnerability": 1,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0.5,
+                "credibleThreat": 0,
+                "evidence": 0.5,
+                "actuality": 0.25,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0
+              }
+            },
+            "1.2.3-shadow.1": {
+              "formulaVersion": "1.2.3-shadow.1",
+              "open": 14.84,
+              "high": 14.84,
+              "low": 14.84,
+              "close": 14.84,
+              "average": 14.84,
+              "scoreTotal": 14.84,
+              "observations": 1,
+              "firstObservedAt": "2026-08-07T11:00:00.000Z",
+              "lastObservedAt": "2026-08-07T11:00:00.000Z",
+              "peakSample": 14.84,
+              "peakSampleHour": "2026-08-07T11Z|1.2.3-shadow.1",
+              "peakReasons": [
+                "vulnerable people affected",
+                "systemic or institutional reach",
+                "neutral event status"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0.425,
+                "vulnerability": 1,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0.5,
+                "credibleThreat": 0,
+                "evidence": 0.5,
+                "actuality": 0.25,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0
+              }
+            }
+          },
+          "activeFormulaVersion": "1.2.2-shadow.1",
+          "formulaVersion": "1.2.2-shadow.1",
+          "open": 14.84,
+          "high": 14.84,
+          "low": 14.84,
+          "close": 14.84,
+          "average": 14.84,
+          "scoreTotal": 14.84,
+          "observations": 1,
+          "firstObservedAt": "2026-08-07T11:00:00.000Z",
+          "lastObservedAt": "2026-08-07T11:00:00.000Z",
+          "peakSample": 14.84,
+          "peakSampleHour": "2026-08-07T11Z|1.2.2-shadow.1",
+          "peakReasons": [
+            "vulnerable people affected",
+            "systemic or institutional reach",
+            "neutral event status"
+          ],
+          "peakFactors": {
+            "realizedHarm": 0,
+            "scale": 0.425,
+            "vulnerability": 1,
+            "lossOfControl": 0,
+            "irreversibility": 0,
+            "immediacy": 0,
+            "systemicReach": 0.5,
+            "credibleThreat": 0,
+            "evidence": 0.5,
+            "actuality": 0.25,
+            "protectiveContext": 0,
+            "routinePenalty": 0,
+            "contextualConcern": 0
+          },
+          "shadowFormulaVersion": "1.2.3-shadow.1"
+        }
+      },
+      "shadowInputs": {
+        "1.2.2-shadow.1": {
+          "80f66159e0ccdb8d2338": {
+            "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+            "summary": "New Mexico court orders Meta to pay additional $567M in child safety case. Meta's total fine has raked up to $942 million in this case AI child safety Meta",
+            "summaryFingerprint": "8dc2b1ab761cd59d2b0d",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.425,
+              "vulnerability": 1,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.5,
+              "credibleThreat": 0,
+              "evidence": 0.5,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "vulnerable people affected",
+              "systemic or institutional reach",
+              "neutral event status"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.3-shadow.1": {
+          "3af9d1a54d0377ac8430": {
+            "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+            "summary": "New Mexico court orders Meta to pay additional $567M in child safety case. Meta's total fine has raked up to $942 million in this case AI child safety Meta",
+            "summaryFingerprint": "8dc2b1ab761cd59d2b0d",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.425,
+              "vulnerability": 1,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.5,
+              "credibleThreat": 0,
+              "evidence": 0.5,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "vulnerable people affected",
+              "systemic or institutional reach",
+              "neutral event status"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          }
+        }
+      }
     }
   },
   "legacyFormulaVersion": "1.0",
