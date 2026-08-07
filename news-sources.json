@@ -8,12 +8,23 @@
     "novelty": 0.1
   },
   "doomIndex": {
-    "version": "1.1.1",
-    "formulaVersion": "1.0",
+    "modelName": "DREAD",
+    "version": "1.2.2",
+    "formulaVersion": "1.2.2-shadow.1",
     "timeZone": "America/Chicago",
     "trackingStartedOn": "2026-08-05",
     "weekStartsOn": "Monday",
     "archiveLimit": 10,
+    "weights": {
+      "realizedHarm": 0.23,
+      "scale": 0.13,
+      "vulnerability": 0.1,
+      "lossOfControl": 0.17,
+      "irreversibility": 0.1,
+      "immediacy": 0.06,
+      "systemicReach": 0.08,
+      "credibleThreat": 0.13
+    },
     "severityScale": [
       {
         "minimum": 0,
@@ -48,18 +59,8 @@
     ],
     "shadow": {
       "enabled": true,
-      "version": "1.2.2",
-      "formulaVersion": "1.2.2-shadow.1",
-      "weights": {
-        "realizedHarm": 0.23,
-        "scale": 0.13,
-        "vulnerability": 0.1,
-        "lossOfControl": 0.17,
-        "irreversibility": 0.1,
-        "immediacy": 0.06,
-        "systemicReach": 0.08,
-        "credibleThreat": 0.13
-      }
+      "version": "1.2.3",
+      "formulaVersion": "1.2.3-shadow.1"
     }
   },
   "sources": [
