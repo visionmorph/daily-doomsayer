@@ -20,9 +20,6 @@
         </div>
       </header>
 
-      <div class="calibration-rule calibration-rule--heavy" aria-hidden="true"></div>
-      <div class="calibration-rule" aria-hidden="true"></div>
-
       <section class="calibration-toolbar" aria-label="Calibration controls">
         <p id="calibration-status" class="calibration-status" aria-live="polite">
           Loading stories.
@@ -46,27 +43,27 @@
 
         <section id="feed-rating-stage" class="calibration-stage">
           <div class="calibration-stage-heading">
-            <h2>Rate the feed evidence</h2>
+            <h2 class="calibration-feed-heading">Rate the feed evidence</h2>
           </div>
 
           <form id="feed-rating-form" class="calibration-form">
             <div class="calibration-field">
-              <div class="calibration-field-heading">
+              <div class="calibration-field-heading calibration-rating-heading">
                 <label for="feed-rating">Human Doom Index rating</label>
                 <output id="feed-rating-output" for="feed-rating">0</output>
               </div>
-              <input
-                id="feed-rating"
-                class="calibration-slider"
-                name="rating"
-                type="range"
-                min="0"
-                max="100"
-                step="1"
-                value="0"
-              />
-              <div class="calibration-slider-bounds" aria-hidden="true">
+              <div class="calibration-slider-bounds">
                 <span>0</span>
+                <input
+                  id="feed-rating"
+                  class="calibration-slider"
+                  name="rating"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="1"
+                  value="0"
+                />
                 <span>100</span>
               </div>
               <p class="calibration-validation" data-validation-for="feed-rating" hidden>
@@ -79,17 +76,17 @@
               <label class="calibration-radio">
                 <input type="radio" name="feed-confidence" value="1" required />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                Low
+                Low (evidence is limited or ambiguous)
               </label>
               <label class="calibration-radio">
                 <input type="radio" name="feed-confidence" value="2" />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                Medium
+                Medium (some meaningful uncertainty)
               </label>
               <label class="calibration-radio">
                 <input type="radio" name="feed-confidence" value="3" />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                High
+                High (evidence is clear and unlikely to change)
               </label>
             </fieldset>
 
@@ -105,7 +102,7 @@
             </div>
 
             <div class="calibration-actions">
-              <button class="calibration-action calibration-action--primary" type="submit">
+              <button class="calibration-action" type="submit">
                 [Lock feed rating and read article]
               </button>
               <button class="calibration-action" type="button" data-skip-story>
@@ -150,18 +147,18 @@
                 <label for="article-rating">Article-informed Doom Index rating</label>
                 <output id="article-rating-output" for="article-rating">0</output>
               </div>
-              <input
-                id="article-rating"
-                class="calibration-slider"
-                name="rating"
-                type="range"
-                min="0"
-                max="100"
-                step="1"
-                value="0"
-              />
-              <div class="calibration-slider-bounds" aria-hidden="true">
+              <div class="calibration-slider-bounds">
                 <span>0</span>
+                <input
+                  id="article-rating"
+                  class="calibration-slider"
+                  name="rating"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="1"
+                  value="0"
+                />
                 <span>100</span>
               </div>
             </div>
@@ -171,17 +168,17 @@
               <label class="calibration-radio">
                 <input type="radio" name="article-confidence" value="1" required />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                Low
+                Low (evidence is limited or ambiguous)
               </label>
               <label class="calibration-radio">
                 <input type="radio" name="article-confidence" value="2" />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                Medium
+                Medium (some meaningful uncertainty)
               </label>
               <label class="calibration-radio">
                 <input type="radio" name="article-confidence" value="3" />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                High
+                High (evidence is clear and unlikely to change)
               </label>
             </fieldset>
 
