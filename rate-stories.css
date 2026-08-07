@@ -435,15 +435,6 @@
   text-transform: none;
 }
 
-.calibration-scale-item .calibration-scale-qualification-label {
-  font-family: "Cossette Titre", serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .calibration-dialog {
   width: min(100% - 32px, 720px);
   max-height: calc(100vh - 32px);
