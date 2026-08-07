@@ -10,6 +10,14 @@ import {
   normalizedDoomIndexV122Weights,
 } from "./doom-index-v1.2.2.mjs";
 import {
+  DOOM_INDEX_V123_AUXILIARY_FACTOR_NAMES,
+  DOOM_INDEX_V123_FACTOR_NAMES,
+  calculateDoomIndexV123FromFactors,
+  createDoomIndexV123Fingerprint,
+  createDoomIndexV123InputFingerprint,
+  normalizedDoomIndexV123Weights,
+} from "./doom-index-v1.2.3.mjs";
+import {
   buildSourceDirectory,
   calculateIntradayDoom,
   normalizeArticleText,
@@ -389,23 +397,32 @@ const archive = await readWindowAssignment(
   "DAILY_DOOMSAYER_ARCHIVE",
 );
 const catalog = await readJson(join("data", "doom-stories.json"));
-const formulaVersion = String(config.doomIndex?.formulaVersion || "1.0");
-const schemaVersion = String(config.doomIndex?.version || "1.1.1");
+const formulaVersion = String(
+  config.doomIndex?.formulaVersion || "1.2.2-shadow.1",
+);
+const schemaVersion = String(config.doomIndex?.version || "1.2.2");
 const expectedSeverityScale = normalizedSeverityScale(
   config.doomIndex?.severityScale,
 );
 const expectedSourceDirectory = buildSourceDirectory(config.sources);
 const shadowEnabled = config.doomIndex?.shadow?.enabled !== false;
 const shadowVersion = String(
-  config.doomIndex?.shadow?.version || "1.2.2",
+  config.doomIndex?.shadow?.version || "1.2.3",
 );
 const shadowFormulaVersion = String(
-  config.doomIndex?.shadow?.formulaVersion || "1.2.2-shadow.1",
+  config.doomIndex?.shadow?.formulaVersion || "1.2.3-shadow.1",
 );
-const shadowWeights = normalizedDoomIndexV122Weights(
-  config.doomIndex?.shadow?.weights,
+const publicWeights = normalizedDoomIndexV122Weights(
+  config.doomIndex?.weights,
 );
-const expectedShadowFingerprint = createDoomIndexV122Fingerprint({
+const shadowWeights = normalizedDoomIndexV123Weights(
+  config.doomIndex?.shadow?.weights || config.doomIndex?.weights,
+);
+const expectedFormulaFingerprint = createDoomIndexV122Fingerprint({
+  formulaVersion,
+  weights: publicWeights,
+});
+const expectedShadowFingerprint = createDoomIndexV123Fingerprint({
   formulaVersion: shadowFormulaVersion,
   weights: shadowWeights,
 });
@@ -425,8 +442,11 @@ if (
 }
 
 if (
+  site.doomIndex?.modelName !== String(config.doomIndex?.modelName || "DREAD") ||
   site.doomIndex?.version !== schemaVersion ||
   site.doomIndex?.formulaVersion !== formulaVersion ||
+  site.doomIndex?.shadow?.version !== shadowVersion ||
+  site.doomIndex?.shadow?.formulaVersion !== shadowFormulaVersion ||
   JSON.stringify(site.doomIndex?.severityScale) !==
     JSON.stringify(expectedSeverityScale)
 ) {
@@ -437,19 +457,21 @@ if (JSON.stringify(site.sources) !== JSON.stringify(expectedSourceDirectory)) {
   reportError("Generated source directory is not canonical and alphabetical");
 }
 
-if (!registeredFormula?.fingerprint) {
-  reportError("The story catalog has no registered formula fingerprint", {
+if (registeredFormula?.fingerprint !== expectedFormulaFingerprint) {
+  reportError("The story catalog has no valid public 1.2.2 fingerprint", {
     formulaVersion,
+    actual: registeredFormula?.fingerprint,
+    expected: expectedFormulaFingerprint,
   });
 }
 
-const formulaFingerprint = registeredFormula?.fingerprint;
+const formulaFingerprint = expectedFormulaFingerprint;
 
 if (
   shadowEnabled &&
   registeredShadowFormula?.fingerprint !== expectedShadowFingerprint
 ) {
-  reportError("The story catalog has no valid 1.2.2 shadow fingerprint", {
+  reportError("The story catalog has no valid 1.2.3 shadow fingerprint", {
     formulaVersion: shadowFormulaVersion,
     actual: registeredShadowFormula?.fingerprint,
     expected: expectedShadowFingerprint,
@@ -490,66 +512,91 @@ for (const article of articles) {
     reportError("Story uses an unregistered formula fingerprint", context);
   }
 
-  const expectedDoomIndex = Number(
-    (Math.max(0, Math.min(Number(article.score) || 0, 1)) * 100).toFixed(2),
+  for (const factor of [
+    ...DOOM_INDEX_V122_FACTOR_NAMES,
+    ...DOOM_INDEX_V122_AUXILIARY_FACTOR_NAMES,
+  ]) {
+    const value = Number(article.doomIndexFactors?.[factor]);
+
+    if (!Number.isFinite(value) || value < 0 || value > 1) {
+      reportError("Public 1.2.2 factor is outside 0-1", {
+        ...context,
+        factor,
+        value: article.doomIndexFactors?.[factor],
+      });
+    }
+  }
+
+  const reconstructedPublic = calculateDoomIndexV122FromFactors(
+    article.doomIndexFactors || {},
+    publicWeights,
   );
 
-  if (article.doomIndex !== expectedDoomIndex) {
-    reportError("Doom Index does not match score × 100", {
+  if (article.doomIndex !== reconstructedPublic.value) {
+    reportError("Stored public 1.2.2 value does not match its factors", {
       ...context,
       actual: article.doomIndex,
-      expected: expectedDoomIndex,
+      expected: reconstructedPublic.value,
     });
   }
 
+  if (
+    !Array.isArray(article.doomIndexReasons) ||
+    typeof article.doomIndexActuality !== "string" ||
+    typeof article.doomIndexPolarity !== "string" ||
+    typeof article.doomIndexInputFingerprint !== "string"
+  ) {
+    reportError("Story is missing public 1.2.2 explanatory metadata", context);
+  }
+
   if (shadowEnabled) {
-    if (article.doomIndexV122ShadowVersion !== shadowVersion) {
-      reportError("Story uses the wrong 1.2.2 shadow version", context);
+    if (article.doomIndexV123ShadowVersion !== shadowVersion) {
+      reportError("Story uses the wrong 1.2.3 shadow version", context);
     }
 
     if (
-      article.doomIndexV122ShadowFormulaVersion !== shadowFormulaVersion ||
-      article.doomIndexV122ShadowFormulaFingerprint !==
+      article.doomIndexV123ShadowFormulaVersion !== shadowFormulaVersion ||
+      article.doomIndexV123ShadowFormulaFingerprint !==
         expectedShadowFingerprint
     ) {
-      reportError("Story uses an unregistered 1.2.2 shadow formula", context);
+      reportError("Story uses an unregistered 1.2.3 shadow formula", context);
     }
 
     for (const factor of [
-      ...DOOM_INDEX_V122_FACTOR_NAMES,
-      ...DOOM_INDEX_V122_AUXILIARY_FACTOR_NAMES,
+      ...DOOM_INDEX_V123_FACTOR_NAMES,
+      ...DOOM_INDEX_V123_AUXILIARY_FACTOR_NAMES,
     ]) {
-      const value = Number(article.doomIndexV122Factors?.[factor]);
+      const value = Number(article.doomIndexV123Factors?.[factor]);
 
       if (!Number.isFinite(value) || value < 0 || value > 1) {
-        reportError("1.2.2 shadow factor is outside 0-1", {
+        reportError("1.2.3 shadow factor is outside 0-1", {
           ...context,
           factor,
-          value: article.doomIndexV122Factors?.[factor],
+          value: article.doomIndexV123Factors?.[factor],
         });
       }
     }
 
-    const reconstructedShadow = calculateDoomIndexV122FromFactors(
-      article.doomIndexV122Factors || {},
+    const reconstructedShadow = calculateDoomIndexV123FromFactors(
+      article.doomIndexV123Factors || {},
       shadowWeights,
     );
 
-    if (article.doomIndexV122Shadow !== reconstructedShadow.value) {
-      reportError("Stored 1.2.2 shadow value does not match its factors", {
+    if (article.doomIndexV123Shadow !== reconstructedShadow.value) {
+      reportError("Stored 1.2.3 shadow value does not match its factors", {
         ...context,
-        actual: article.doomIndexV122Shadow,
+        actual: article.doomIndexV123Shadow,
         expected: reconstructedShadow.value,
       });
     }
 
     if (
-      !Array.isArray(article.doomIndexV122Reasons) ||
-      typeof article.doomIndexV122Actuality !== "string" ||
-      typeof article.doomIndexV122Polarity !== "string" ||
-      typeof article.doomIndexV122InputFingerprint !== "string"
+      !Array.isArray(article.doomIndexV123Reasons) ||
+      typeof article.doomIndexV123Actuality !== "string" ||
+      typeof article.doomIndexV123Polarity !== "string" ||
+      typeof article.doomIndexV123InputFingerprint !== "string"
     ) {
-      reportError("Story is missing 1.2.2 explanatory metadata", context);
+      reportError("Story is missing 1.2.3 explanatory metadata", context);
     }
   }
 
@@ -581,6 +628,7 @@ for (const article of articles) {
 
 const expectedArticleOrder = [...articles].sort(
   (first, second) =>
+    second.doomIndex - first.doomIndex ||
     second.score - first.score ||
     (Date.parse(second.published) || 0) -
       (Date.parse(first.published) || 0),
@@ -588,7 +636,7 @@ const expectedArticleOrder = [...articles].sort(
 
 for (const [index, article] of articles.entries()) {
   if (article.storyId !== expectedArticleOrder[index]?.storyId) {
-    reportError("Articles are not sorted by score", {
+    reportError("Articles are not sorted by public Doom Index", {
       position: index + 1,
       actual: article.title,
       expected: expectedArticleOrder[index]?.title,
@@ -603,7 +651,7 @@ const highestAiArticle = expectedArticleOrder.find(
 );
 
 if (featuredArticle?.storyId !== highestAiArticle?.storyId) {
-  reportError("Featured story is not the highest-scoring AI story", {
+  reportError("Featured story is not the highest-Doom AI story", {
     actual: featuredArticle?.title,
     expected: highestAiArticle?.title,
   });
@@ -729,19 +777,29 @@ for (const fileName of historyFiles) {
           });
         }
 
-        if (entry.formulaVersion === shadowFormulaVersion) {
-          const reconstructedShadow = calculateDoomIndexV122FromFactors(
-            entry.factors || {},
-            shadowWeights,
-          );
+        if (
+          entry.formulaVersion === formulaVersion ||
+          entry.formulaVersion === shadowFormulaVersion
+        ) {
+          const isShadow = entry.formulaVersion === shadowFormulaVersion;
+          const versionLabel = isShadow ? "1.2.3 shadow" : "public 1.2.2";
+          const reconstructed = isShadow
+            ? calculateDoomIndexV123FromFactors(
+                entry.factors || {},
+                shadowWeights,
+              )
+            : calculateDoomIndexV122FromFactors(
+                entry.factors || {},
+                publicWeights,
+              );
 
-          if (entry.value !== reconstructedShadow.value) {
-            reportError("History 1.2.2 shadow sample does not match its factors", {
+          if (entry.value !== reconstructed.value) {
+            reportError(`History ${versionLabel} sample does not match its factors`, {
               storyId: story.storyId,
               dateKey,
               sampleKey: entry.key,
               actual: entry.value,
-              expected: reconstructedShadow.value,
+              expected: reconstructed.value,
             });
           }
 
@@ -750,7 +808,7 @@ for (const fileName of historyFiles) {
             typeof entry.actuality !== "string" ||
             typeof entry.polarity !== "string"
           ) {
-            reportError("History 1.2.2 sample lacks explanatory metadata", {
+            reportError(`History ${versionLabel} sample lacks explanatory metadata`, {
               storyId: story.storyId,
               dateKey,
               sampleKey: entry.key,
@@ -758,22 +816,28 @@ for (const fileName of historyFiles) {
           }
 
           if (!entry.input) {
-            reportError("History 1.2.2 sample lacks its compact input record", {
+            reportError(`History ${versionLabel} sample lacks its compact input record`, {
               storyId: story.storyId,
               dateKey,
               sampleKey: entry.key,
             });
           } else {
-            const expectedInputFingerprint =
-              createDoomIndexV122InputFingerprint({
-                title: entry.input.title,
-                summary: entry.input.summary,
-                coverageSources: entry.input.coverageSources,
-                formulaVersion: entry.formulaVersion,
-              });
+            const expectedInputFingerprint = isShadow
+              ? createDoomIndexV123InputFingerprint({
+                  title: entry.input.title,
+                  summary: entry.input.summary,
+                  coverageSources: entry.input.coverageSources,
+                  formulaVersion: entry.formulaVersion,
+                })
+              : createDoomIndexV122InputFingerprint({
+                  title: entry.input.title,
+                  summary: entry.input.summary,
+                  coverageSources: entry.input.coverageSources,
+                  formulaVersion: entry.formulaVersion,
+                });
 
             if (entry.inputFingerprint !== expectedInputFingerprint) {
-              reportError("History 1.2.2 input fingerprint is invalid", {
+              reportError(`History ${versionLabel} input fingerprint is invalid`, {
                 storyId: story.storyId,
                 dateKey,
                 sampleKey: entry.key,
@@ -788,7 +852,7 @@ for (const fileName of historyFiles) {
             if (
               entry.input.summaryFingerprint !== expectedSummaryFingerprint
             ) {
-              reportError("History 1.2.2 summary fingerprint is invalid", {
+              reportError(`History ${versionLabel} summary fingerprint is invalid`, {
                 storyId: story.storyId,
                 dateKey,
                 sampleKey: entry.key,
@@ -920,9 +984,9 @@ if (shadowEnabled && articles.length > 0) {
       title: article.title,
       source: article.source,
       publicValue: article.doomIndex,
-      shadowValue: article.doomIndexV122Shadow,
+      shadowValue: article.doomIndexV123Shadow,
       difference: Number(
-        (article.doomIndexV122Shadow - article.doomIndex).toFixed(2),
+        (article.doomIndexV123Shadow - article.doomIndex).toFixed(2),
       ),
     }))
     .sort((first, second) => second.difference - first.difference);
@@ -945,13 +1009,13 @@ if (shadowEnabled && articles.length > 0) {
   ).sort((first, second) => second[1] - first[1])[0];
 
   console.log(
-    `[doom-index] Means: public ${publicMean.toFixed(2)}, 1.2.2 shadow ${shadowMean.toFixed(2)}; 1.2.2 range ${Math.min(...comparisons.map((item) => item.shadowValue)).toFixed(2)}-${Math.max(...comparisons.map((item) => item.shadowValue)).toFixed(2)}.`,
+    `[doom-index] Means: public 1.2.2 ${publicMean.toFixed(2)}, 1.2.3 shadow ${shadowMean.toFixed(2)}; 1.2.3 range ${Math.min(...comparisons.map((item) => item.shadowValue)).toFixed(2)}-${Math.max(...comparisons.map((item) => item.shadowValue)).toFixed(2)}.`,
   );
   console.log(
-    `[doom-index] 1.2.2 exact-floor stories: ${floorCount}/${comparisons.length}; largest difference above production: ${largestIncrease.difference >= 0 ? "+" : ""}${largestIncrease.difference.toFixed(2)} - ${largestIncrease.title}`,
+    `[doom-index] 1.2.3 exact-floor stories: ${floorCount}/${comparisons.length}; largest difference above production: ${largestIncrease.difference >= 0 ? "+" : ""}${largestIncrease.difference.toFixed(2)} - ${largestIncrease.title}`,
   );
   console.log(
-    `[doom-index] Largest difference below production: ${largestDecrease.difference >= 0 ? "+" : ""}${largestDecrease.difference.toFixed(2)} - ${largestDecrease.title}; most common 1.2.2 top-20 source: ${mostCommonTopSource} (${mostCommonTopSourceCount}).`,
+    `[doom-index] Largest difference below production: ${largestDecrease.difference >= 0 ? "+" : ""}${largestDecrease.difference.toFixed(2)} - ${largestDecrease.title}; most common 1.2.3 top-20 source: ${mostCommonTopSource} (${mostCommonTopSourceCount}).`,
   );
 }
 
