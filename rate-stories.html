@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DREAD HUMAN CALIBRATION</title>
+    <meta
+      name="description"
+      content="A private human calibration workspace for the Daily Doomsayer DREAD models."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./rate-stories.css" />
+  </head>
+  <body class="calibration-body">
+    <main class="calibration-main">
+      <header class="calibration-header">
+        <a class="calibration-logo" href="./index.html">Daily Doomsayer</a>
+        <div class="calibration-header-copy">
+          <div>Human calibration</div>
+          <div id="calibration-progress">Story 0 of 0</div>
+        </div>
+      </header>
+
+      <div class="calibration-rule calibration-rule--heavy" aria-hidden="true"></div>
+      <div class="calibration-rule" aria-hidden="true"></div>
+
+      <section class="calibration-toolbar" aria-label="Calibration controls">
+        <p id="calibration-status" class="calibration-status" aria-live="polite">
+          Loading stories.
+        </p>
+        <button id="export-ratings" class="calibration-action" type="button" disabled>
+          [Export ratings]
+        </button>
+      </section>
+
+      <section id="empty-state" class="calibration-empty" hidden>
+        <h1>No stories are available</h1>
+        <p>Run the news update so that articles.js contains stories to calibrate.</p>
+      </section>
+
+      <section id="calibration-workspace" class="calibration-workspace" hidden>
+        <section class="calibration-story-context" aria-labelledby="story-title">
+          <div class="calibration-eyebrow">
+            <span id="story-source">Source</span>
+            <span aria-hidden="true">/</span>
+            <time id="story-date">Date unavailable</time>
+          </div>
+          <h1 id="story-title" class="calibration-story-title">Story title</h1>
+          <p id="story-summary" class="calibration-story-summary"></p>
+          <p id="summary-note" class="calibration-note"></p>
+        </section>
+
+        <section id="feed-rating-stage" class="calibration-stage">
+          <div class="calibration-stage-heading">
+            <div>Stage one</div>
+            <h2>Rate the feed evidence</h2>
+            <p>
+              Judge only the title and feed summary. The DREAD scores are hidden until
+              both judgments are complete.
+            </p>
+          </div>
+
+          <form id="feed-rating-form" class="calibration-form">
+            <div class="calibration-field">
+              <div class="calibration-field-heading">
+                <label for="feed-rating">Human Doom Index rating</label>
+                <output id="feed-rating-output" for="feed-rating">0.00</output>
+              </div>
+              <input
+                id="feed-rating"
+                class="calibration-slider"
+                name="rating"
+                type="range"
+                min="0"
+                max="100"
+                step="0.01"
+                value="0"
+              />
+              <div class="calibration-slider-bounds" aria-hidden="true">
+                <span>0</span>
+                <span>100</span>
+              </div>
+              <p class="calibration-validation" data-validation-for="feed-rating" hidden>
+                Move or otherwise interact with the slider before continuing.
+              </p>
+            </div>
+
+            <fieldset class="calibration-field calibration-confidence">
+              <legend>Confidence</legend>
+              <label class="calibration-radio">
+                <input type="radio" name="feed-confidence" value="1" required />
+                [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                Low
+              </label>
+              <label class="calibration-radio">
+                <input type="radio" name="feed-confidence" value="2" />
+                [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                Medium
+              </label>
+              <label class="calibration-radio">
+                <input type="radio" name="feed-confidence" value="3" />
+                [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                High
+              </label>
+            </fieldset>
+
+            <div class="calibration-field">
+              <label for="feed-reasoning">Brief reasoning</label>
+              <textarea
+                id="feed-reasoning"
+                name="reasoning"
+                rows="4"
+                required
+                placeholder="What apparent harm, scope, immediacy, or uncertainty shaped this rating?"
+              ></textarea>
+            </div>
+
+            <div class="calibration-actions">
+              <button class="calibration-action calibration-action--primary" type="submit">
+                [Lock feed rating and read article]
+              </button>
+              <button class="calibration-action" type="button" data-skip-story>
+                [Cannot assess]
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <section id="article-rating-stage" class="calibration-stage" hidden>
+          <div class="calibration-stage-heading">
+            <div>Stage two</div>
+            <h2>Read, then confirm or revise</h2>
+            <p>
+              Use the article to determine whether missing context changes your original
+              judgment.
+            </p>
+          </div>
+
+          <div class="calibration-reader">
+            <iframe
+              id="story-frame"
+              title="Current story"
+              loading="eager"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="calibration-reader-fallback">
+              <span>Some publishers prevent embedded reading.</span>
+              <a
+                id="open-story"
+                class="calibration-action"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >[Open article in a new window]</a>
+            </div>
+          </div>
+
+          <form id="article-rating-form" class="calibration-form calibration-form--article">
+            <div class="calibration-field">
+              <div class="calibration-field-heading">
+                <label for="article-rating">Article-informed Doom Index rating</label>
+                <output id="article-rating-output" for="article-rating">0.00</output>
+              </div>
+              <input
+                id="article-rating"
+                class="calibration-slider"
+                name="rating"
+                type="range"
+                min="0"
+                max="100"
+                step="0.01"
+                value="0"
+              />
+              <div class="calibration-slider-bounds" aria-hidden="true">
+                <span>0</span>
+                <span>100</span>
+              </div>
+            </div>
+
+            <fieldset class="calibration-field calibration-confidence">
+              <legend>Confidence after reading</legend>
+              <label class="calibration-radio">
+                <input type="radio" name="article-confidence" value="1" required />
+                [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                Low
+              </label>
+              <label class="calibration-radio">
+                <input type="radio" name="article-confidence" value="2" />
+                [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                Medium
+              </label>
+              <label class="calibration-radio">
+                <input type="radio" name="article-confidence" value="3" />
+                [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                High
+              </label>
+            </fieldset>
+
+            <div class="calibration-field">
+              <label for="article-reasoning">Brief reasoning after reading</label>
+              <textarea
+                id="article-reasoning"
+                name="reasoning"
+                rows="4"
+                required
+                placeholder="What did the full article confirm, add, or contradict?"
+              ></textarea>
+            </div>
+
+            <div class="calibration-actions">
+              <button class="calibration-action calibration-action--primary" type="submit">
+                [Save final rating]
+              </button>
+              <button class="calibration-action" type="button" data-skip-story>
+                [Cannot assess]
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <section id="rating-result" class="calibration-result" hidden aria-live="polite">
+          <div class="calibration-stage-heading">
+            <div>Recorded</div>
+            <h2>Rating comparison</h2>
+          </div>
+          <div id="rating-comparison" class="calibration-comparison"></div>
+          <button id="next-story" class="calibration-action calibration-action--primary" type="button">
+            [Next story]
+          </button>
+        </section>
+
+        <details class="calibration-rubric">
+          <summary>Doom Index severity scale</summary>
+          <div id="calibration-scale" class="calibration-scale"></div>
+        </details>
+      </section>
+    </main>
+
+    <dialog id="skip-dialog" class="calibration-dialog">
+      <form id="skip-form" method="dialog" class="calibration-form">
+        <div class="calibration-stage-heading">
+          <div>Cannot assess</div>
+          <h2>Why should this story be skipped?</h2>
+        </div>
+        <fieldset class="calibration-field calibration-confidence">
+          <legend>Reason</legend>
+          <label class="calibration-radio">
+            <input type="radio" name="skip-reason" value="paywall" required />
+            [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+            Paywall
+          </label>
+          <label class="calibration-radio">
+            <input type="radio" name="skip-reason" value="blocked-embed" />
+            [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+            Article blocked or unavailable
+          </label>
+          <label class="calibration-radio">
+            <input type="radio" name="skip-reason" value="insufficient-information" />
+            [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+            Insufficient information
+          </label>
+          <label class="calibration-radio">
+            <input type="radio" name="skip-reason" value="not-relevant" />
+            [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+            Story is not relevant
+          </label>
+          <label class="calibration-radio">
+            <input type="radio" name="skip-reason" value="other" />
+            [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+            Other
+          </label>
+        </fieldset>
+        <div class="calibration-field">
+          <label for="skip-details">Optional details</label>
+          <textarea id="skip-details" name="skip-details" rows="3"></textarea>
+        </div>
+        <div class="calibration-actions">
+          <button class="calibration-action calibration-action--primary" value="confirm" type="submit">
+            [Skip story]
+          </button>
+          <button id="cancel-skip" class="calibration-action" value="cancel" type="button">
+            [Cancel]
+          </button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="./articles.js"></script>
+    <script src="./rate-stories.js"></script>
+  </body>
+</html>
