@@ -237,7 +237,7 @@
       item.className = "calibration-scale-item";
 
       const heading = document.createElement("strong");
-      heading.textContent = `${Number(band.minimum).toFixed(0)}–${Number(band.maximum).toFixed(2)} ${band.label}`;
+      heading.textContent = `${band.label} ${Number(band.minimum).toFixed(0)}–${Number(band.maximum).toFixed(2)}`;
 
       const description = document.createElement("span");
       description.textContent = band.description || "";
@@ -245,13 +245,18 @@
       item.append(heading, description);
 
       if (band.qualification) {
-        const qualificationLabel = document.createElement("span");
-        qualificationLabel.className = "calibration-scale-qualification-label";
-        qualificationLabel.textContent = "Qualifies when";
+        const qualification = document.createElement("p");
+        qualification.className = "calibration-scale-qualification";
 
-        const qualification = document.createElement("span");
-        qualification.textContent = band.qualification;
-        item.append(qualificationLabel, qualification);
+        const qualificationLabel = document.createElement("strong");
+        qualificationLabel.className = "calibration-scale-qualification-label";
+        qualificationLabel.textContent = "Qualifies when ";
+
+        qualification.append(
+          qualificationLabel,
+          document.createTextNode(band.qualification),
+        );
+        item.append(qualification);
       }
       elements.scale.append(item);
     }
