@@ -124,6 +124,8 @@
 
 .calibration-rubric {
   border-bottom: 0;
+  margin-block: 0;
+  padding-block: 0;
 }
 
 #feed-rating-stage,
@@ -201,6 +203,11 @@
   margin-top: 24px;
   flex-direction: column;
   gap: 32px;
+}
+
+#feed-rating-form {
+  margin-top: 16px;
+  gap: 16px;
 }
 
 .calibration-form--article {
@@ -394,7 +401,8 @@
 
 .calibration-scale {
   display: grid;
-  margin-top: 16px;
+  margin-block: 0;
+  padding-block: 0;
   grid-template-columns: 1fr;
   gap: 1px;
   border: 1px solid #000000;
@@ -402,17 +410,23 @@
 }
 
 .calibration-scale-item {
-  padding: 12px;
+  display: flex;
+  margin-block: 0;
+  padding: 16px;
+  flex-direction: column;
+  gap: 8px;
   background: #ff0000;
 }
 
-.calibration-scale-item strong,
-.calibration-scale-item span {
+.calibration-scale-item > strong,
+.calibration-scale-item > span {
   display: block;
+  margin-block: 0;
 }
 
-.calibration-scale-item span {
-  margin-top: 8px;
+.calibration-scale-item > span,
+.calibration-scale-qualification {
+  margin-block: 0;
   font-family: "Funnel Display", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -422,7 +436,6 @@
 }
 
 .calibration-scale-item .calibration-scale-qualification-label {
-  margin-top: 16px;
   font-family: "Cossette Titre", serif;
   font-size: 16px;
   font-weight: 700;
