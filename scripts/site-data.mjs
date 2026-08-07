@@ -66,6 +66,7 @@ export function normalizedSeverityScale(configuredScale) {
     maximum: roundedHundredth(band.maximum),
     label: String(band.label || "").trim().toUpperCase(),
     description: normalizeArticleText(band.description),
+    qualification: normalizeArticleText(band.qualification),
   }));
 
   if (scale[0].minimum !== 0 || scale.at(-1).maximum !== 100) {
@@ -82,7 +83,8 @@ export function normalizedSeverityScale(configuredScale) {
       band.maximum > 100 ||
       band.minimum > band.maximum ||
       !band.label ||
-      !band.description
+      !band.description ||
+      !band.qualification
     ) {
       throw new Error(`Invalid Doom Index severity band at position ${index + 1}`);
     }
