@@ -48,7 +48,7 @@ window.DAILY_DOOMSAYER_SITE = {
   "intradayDoom": {
     "date": "2026-08-07",
     "formulaVersion": "1.2.2-shadow.1",
-    "observedAt": "2026-08-07T08:00:00.000Z",
+    "observedAt": "2026-08-07T09:00:00.000Z",
     "current": 47.55,
     "currentStory": {
       "storyId": "a6e24e30f70f5c3360cb",
@@ -69,7 +69,7 @@ window.DAILY_DOOMSAYER_SITE = {
       "title": "OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
       "url": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/"
     },
-    "observations": 3,
+    "observations": 4,
     "definition": "Highest public Doom Index story observed during each hourly update."
   },
   "sources": [
@@ -168,7 +168,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.4031,
+      "freshness": 0.3996,
       "feedPosition": 0.5556,
       "novelty": 0.6398
     },
@@ -177,7 +177,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3074,
+    "score": 0.3069,
     "doomIndex": 47.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -241,7 +241,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "featured": true,
     "storyId": "a6e24e30f70f5c3360cb",
     "firstSeen": "2026-08-06T00:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -255,16 +255,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.4169,
-      "feedPosition": 0.4444,
-      "novelty": 0.4834
+      "freshness": 0.4132,
+      "feedPosition": 0.3333,
+      "novelty": 0.5016
     },
     "rankingReasons": [
       "urgency or risk",
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.3763,
+    "score": 0.3665,
     "doomIndex": 44.75,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -329,7 +329,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "59769b8e19c3a097c029",
     "storyId": "52f9653af8f6dc10913c",
     "firstSeen": "2026-08-06T03:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -343,16 +343,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.4716,
+      "freshness": 0.4674,
       "feedPosition": 0.75,
-      "novelty": 0.5862
+      "novelty": 0.6043
     },
     "rankingReasons": [
       "urgency or risk",
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.4253,
+    "score": 0.4266,
     "doomIndex": 44.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -415,7 +415,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5ab140a8be30dc240025",
     "storyId": "c356b86ed58428c25100",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -429,14 +429,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2221,
+      "freshness": 0.2202,
       "feedPosition": 1,
       "novelty": 0.8538
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2937,
+    "score": 0.2934,
     "doomIndex": 43.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -501,7 +501,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9b7bfe99f6b0f110d3a7",
     "storyId": "8c87b9bfdab1e6f99859",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -515,7 +515,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2455,
       "sourceAuthority": 0.5,
-      "freshness": 0.3661,
+      "freshness": 0.3629,
       "feedPosition": 0.4444,
       "novelty": 0.6879
     },
@@ -524,7 +524,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "unusual language in the current story batch"
     ],
-    "score": 0.2922,
+    "score": 0.2918,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -587,7 +587,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "394fe837dcb0ddf2b08b",
     "storyId": "36afd164b5931dcbff9b",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -601,7 +601,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.2669,
+      "freshness": 0.2645,
       "feedPosition": 0.4,
       "novelty": 0.6638
     },
@@ -609,7 +609,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "unusual language in the current story batch"
     ],
-    "score": 0.2454,
+    "score": 0.2451,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -672,7 +672,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a4b194b84deb1385c846",
     "storyId": "0a3c0d9f2ec55a3e2d14",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -686,16 +686,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3245,
+      "freshness": 0.3217,
       "feedPosition": 0.1111,
-      "novelty": 0.8051
+      "novelty": 0.8213
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2437,
+    "score": 0.2449,
     "doomIndex": 39.32,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -760,7 +760,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "6dff8b00501864412a9a",
     "storyId": "b323c71ed3d014cc4423",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -774,7 +774,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0057,
+      "freshness": 0.0056,
       "feedPosition": 0.4444,
       "novelty": 0.9187
     },
@@ -846,7 +846,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4f4680fe536639e244ea",
     "storyId": "32c5457cb1c56b255a8f",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -860,7 +860,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0975,
+      "freshness": 0.0966,
       "feedPosition": 0.4444,
       "novelty": 0.6788
     },
@@ -870,7 +870,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2523,
+    "score": 0.2522,
     "doomIndex": 23.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -935,7 +935,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f1bcde7ec813a3d87792",
     "storyId": "b3989dcfb48ba9b056fe",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -949,7 +949,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.2155,
       "sourceAuthority": 0.5,
-      "freshness": 0.6101,
+      "freshness": 0.6048,
       "feedPosition": 0.5556,
       "novelty": 0.6415
     },
@@ -958,7 +958,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "covered by multiple sources"
     ],
-    "score": 0.4293,
+    "score": 0.4285,
     "doomIndex": 21.92,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1018,7 +1018,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5590ebad69cb1eef6487",
     "storyId": "a27c4314010d951783e3",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1032,7 +1032,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.2255,
       "sourceAuthority": 0.5,
-      "freshness": 0.5219,
+      "freshness": 0.5174,
       "feedPosition": 0.2222,
       "novelty": 0.6898
     },
@@ -1042,7 +1042,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.3896,
+    "score": 0.3889,
     "doomIndex": 21.92,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1102,7 +1102,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2885f27c80309a680f92",
     "storyId": "f1d122158348f57788be",
     "firstSeen": "2026-08-06T10:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1116,7 +1116,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0115,
+      "freshness": 0.0114,
       "feedPosition": 0.6667,
       "novelty": 0.7436
     },
@@ -1190,7 +1190,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "b706bd85dd47912b2df3",
     "storyId": "f333764b4be201d3f9ff",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1204,14 +1204,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.122,
       "sourceAuthority": 0.5,
-      "freshness": 0.5905,
+      "freshness": 0.5854,
       "feedPosition": 0.5556,
       "novelty": 0.5349
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.297,
+    "score": 0.2963,
     "doomIndex": 19.87,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1270,7 +1270,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "16d04f8337746abb4e0d",
     "storyId": "55c67cc1e7917eafa9b6",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1284,7 +1284,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.462,
       "sourceAuthority": 0.5,
-      "freshness": 0.1049,
+      "freshness": 0.104,
       "feedPosition": 0.7778,
       "novelty": 0.5998
     },
@@ -1295,7 +1295,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3209,
+    "score": 0.3208,
     "doomIndex": 19.04,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1369,7 +1369,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7d14d29111b672dbdf58",
     "storyId": "23a292887ca5e4c75326",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1459,7 +1459,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1132436cae50bc404730",
     "storyId": "15370392c6eefb0825a2",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1473,7 +1473,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.452,
       "sourceAuthority": 0.5,
-      "freshness": 0.3552,
+      "freshness": 0.3521,
       "feedPosition": 0.3333,
       "novelty": 0.7822
     },
@@ -1484,7 +1484,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3302,
+    "score": 0.3298,
     "doomIndex": 18.09,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1547,7 +1547,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "198690abb40bede8ede3",
     "storyId": "4358b8a7d456f552cec1",
     "firstSeen": "2026-08-05T19:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1561,14 +1561,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.082,
       "sourceAuthority": 0.5,
-      "freshness": 0.3363,
-      "feedPosition": 0.2222,
+      "freshness": 0.3334,
+      "feedPosition": 0.1111,
       "novelty": 0.6242
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2265,
+    "score": 0.2149,
     "doomIndex": 17.58,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1627,7 +1627,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4337b00203f3cbef53da",
     "storyId": "0c82f5269084b14b1a04",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1712,7 +1712,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "fd6b2724752d78bb53fc",
     "storyId": "0d32aa6b6a8fd310bb9e",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1793,7 +1793,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5fe45277542233f20517",
     "storyId": "17c11ad9e85102512f94",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1878,7 +1878,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e40df07baf6c3b508f4c",
     "storyId": "99a74fa8e5c3257d2eab",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -1894,13 +1894,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0001,
       "feedPosition": 0,
-      "novelty": 0.7859
+      "novelty": 0.7999
     },
     "rankingReasons": [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.1676,
+    "score": 0.169,
     "doomIndex": 16.65,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1961,7 +1961,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "6698ec102de19cd8aad0",
     "storyId": "f58077692cdefc51b5a1",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2047,7 +2047,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e45e1564a36a45ae883f",
     "storyId": "766dff2299466e2fb336",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2061,15 +2061,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.8522,
-      "feedPosition": 0.8889,
+      "freshness": 0.8447,
+      "feedPosition": 0.7778,
       "novelty": 0.7319
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3869,
+    "score": 0.3747,
     "doomIndex": 16.51,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2131,7 +2131,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5614b3972b48a1dde3e4",
     "storyId": "057c2a753ff6703a722a",
     "firstSeen": "2026-08-07T03:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2213,7 +2213,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f1ae405f5b1b494c4f17",
     "storyId": "3bf44cdfb8f59b7f06d5",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2227,14 +2227,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.2713,
+      "freshness": 0.2689,
       "feedPosition": 1,
       "novelty": 0.7234
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2904,
+    "score": 0.2901,
     "doomIndex": 16.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2293,7 +2293,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a77b640990b77781632e",
     "storyId": "495dc4e7c8c440d3ed6a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2307,15 +2307,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.3139,
-      "feedPosition": 0.1111,
+      "freshness": 0.3112,
+      "feedPosition": 0,
       "novelty": 0.7077
     },
     "rankingReasons": [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2251,
+    "score": 0.2135,
     "doomIndex": 15.4,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2376,7 +2376,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "41f064fc9c72916ec0dc",
     "storyId": "f3f8b23cc4909870bfe3",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2390,7 +2390,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.239,
       "sourceAuthority": 0.5,
-      "freshness": 0.3161,
+      "freshness": 0.3133,
       "feedPosition": 0.1111,
       "novelty": 0.4989
     },
@@ -2399,7 +2399,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2312,
+    "score": 0.2308,
     "doomIndex": 15.2,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2458,7 +2458,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "90143b095e28ba107b10",
     "storyId": "bc5ed6484b462efb110d",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2472,15 +2472,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.1036,
+      "freshness": 0.1027,
       "feedPosition": 0.2,
-      "novelty": 0.6783
+      "novelty": 0.6951
     },
     "rankingReasons": [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2019,
+    "score": 0.2034,
     "doomIndex": 15.2,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2539,7 +2539,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ca1901a5a0610bb58ce5",
     "storyId": "4909137d46e5e3801e51",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2553,7 +2553,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.1974,
+      "freshness": 0.1956,
       "feedPosition": 0.8889,
       "novelty": 0.8621
     },
@@ -2563,7 +2563,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3301,
+    "score": 0.3298,
     "doomIndex": 15.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2630,7 +2630,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1fa4527ff3d9d92a5dea",
     "storyId": "26d70e0b85e61748941b",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2644,7 +2644,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.34,
       "sourceAuthority": 0.5,
-      "freshness": 0.1055,
+      "freshness": 0.1046,
       "feedPosition": 0.8571,
       "novelty": 0.6242
     },
@@ -2652,7 +2652,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "real-world consequences"
     ],
-    "score": 0.307,
+    "score": 0.3068,
     "doomIndex": 15.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2713,7 +2713,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "81e2e090b66929083f53",
     "storyId": "1b31b1a391a00190d985",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2797,7 +2797,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5170859809095c336ecd",
     "storyId": "712e645398d8b6885215",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2880,7 +2880,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "22aa6f3af0f4b9501069",
     "storyId": "0fc9bb38e317e75e21b4",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -2970,7 +2970,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "216e9328e383226ab099",
     "storyId": "5681d3da89440d64476a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3055,7 +3055,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "872cd6740f31d0379f09",
     "storyId": "7f9102717fb19b933dc9",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3069,7 +3069,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0797,
+      "freshness": 0.079,
       "feedPosition": 0.3333,
       "novelty": 0.6489
     },
@@ -3077,7 +3077,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2136,
+    "score": 0.2135,
     "doomIndex": 14.44,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3138,7 +3138,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "794d780a371b3ea8d547",
     "storyId": "5123d402833e11dbd813",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3221,7 +3221,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c80a17887e052c861b61",
     "storyId": "09969b184f2a4a22f6d5",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3235,7 +3235,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0029,
+      "freshness": 0.0028,
       "feedPosition": 0.2222,
       "novelty": 0.7853
     },
@@ -3306,7 +3306,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "cfa4d58ab5b79ae2b6c9",
     "storyId": "41b6a472adb77d1e7102",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3389,7 +3389,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3c401988f07641d24eab",
     "storyId": "1d65b95a04eb4a55b5d0",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3403,7 +3403,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0026,
+      "freshness": 0.0025,
       "feedPosition": 0.2857,
       "novelty": 0.9191
     },
@@ -3473,7 +3473,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4db9f6dd20b7a24e3f0d",
     "storyId": "fce1f380b2662fa6000e",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3557,7 +3557,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1d65c6daf6a9340cbacc",
     "storyId": "ea62191d3bde9ca864cf",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3641,7 +3641,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1d65c6daf6a9340cbacc",
     "storyId": "fcc742f29296a52fb633",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3727,7 +3727,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "8050e0134d0090a339ac",
     "storyId": "1e23abb8e9f6cdd9c0f3",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3811,7 +3811,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1e98dd5b12c885086be3",
     "storyId": "9c3315d30ba6385c87f1",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3825,7 +3825,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.154,
       "sourceAuthority": 0.5,
-      "freshness": 0.207,
+      "freshness": 0.2052,
       "feedPosition": 1,
       "novelty": 0.817
     },
@@ -3834,7 +3834,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3185,
+    "score": 0.3183,
     "doomIndex": 12.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3899,7 +3899,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3032f55d8915158f8bb2",
     "storyId": "71867721c7a5e5470c1a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3983,7 +3983,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1f8d4b56c8ffafd5bb57",
     "storyId": "7d654a6a350dea176891",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -3997,7 +3997,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8079,
+      "freshness": 0.8009,
       "feedPosition": 1,
       "novelty": 0.5057
     },
@@ -4005,7 +4005,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3752,
+    "score": 0.3741,
     "doomIndex": 12.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4064,7 +4064,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "d4c98379c7f16152dcfc",
     "storyId": "007b5a9b0a9886a09e43",
     "firstSeen": "2026-08-07T03:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -4078,15 +4078,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1765,
       "sourceAuthority": 0.5,
-      "freshness": 0.0715,
+      "freshness": 0.0709,
       "feedPosition": 0.7143,
-      "novelty": 0.5905
+      "novelty": 0.5998
     },
     "rankingReasons": [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.2515,
+    "score": 0.2523,
     "doomIndex": 12.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4145,7 +4145,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "6c39b8a2f4e2ef1bfbd7",
     "storyId": "0d82654a28c9a1ecc602",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -4225,7 +4225,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a10970337607ea89f842",
     "storyId": "d883508cdb128b7d0065",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -4239,7 +4239,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.232,
       "sourceAuthority": 0.5,
-      "freshness": 0.1006,
+      "freshness": 0.0998,
       "feedPosition": 0.5556,
       "novelty": 0.8277
     },
@@ -4249,7 +4249,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2748,
+    "score": 0.2747,
     "doomIndex": 12.49,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4313,7 +4313,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "143f2e03cdcba52bcaf7",
     "storyId": "94524e2b04357887d983",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -4327,14 +4327,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.7034,
+      "freshness": 0.6972,
       "feedPosition": 1,
       "novelty": 0.7234
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3599,
+    "score": 0.359,
     "doomIndex": 12.46,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4393,7 +4393,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "eef4d08a0b17f86dbeeb",
     "storyId": "4a95cbac932101e1df42",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -4478,7 +4478,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1244164855d680242393",
     "storyId": "8d854d272b9231e39003",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -4492,12 +4492,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2713,
+      "freshness": 0.2689,
       "feedPosition": 0,
       "novelty": 0.6483
     },
     "rankingReasons": [],
-    "score": 0.1805,
+    "score": 0.1802,
     "doomIndex": 11.93,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4556,7 +4556,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "760e12c4dd98d1a5c30b",
     "storyId": "a690ea26eb77cbf979fb",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -4570,7 +4570,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0125,
+      "freshness": 0.0124,
       "feedPosition": 0.3333,
       "novelty": 0.5643
     },
@@ -4648,7 +4648,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "86960611e13b786bd956",
     "storyId": "8783dace857ffb140a77",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -4662,7 +4662,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.28,
       "sourceAuthority": 0.5,
-      "freshness": 0.1038,
+      "freshness": 0.1029,
       "feedPosition": 0.6667,
       "novelty": 0.8377
     },
@@ -4672,7 +4672,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.297,
+    "score": 0.2969,
     "doomIndex": 11.67,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4738,92 +4738,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3927e94d089d9cd7dbb4",
     "storyId": "273c2bbfd8ff72015bed",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion",
-    "url": "https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video",
-    "source": "The Guardian AI",
-    "published": "2026-08-05T14:13:33.000Z",
-    "image": "https://i.guim.co.uk/img/media/0e34c6a5b50569fc6c0b4d17f918a2050a5be0ff/0_237_1080_864/master/1080.jpg?width=800&dpr=2&s=none&crop=none",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2765,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3051,
-      "feedPosition": 0,
-      "novelty": 0.6912
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2452,
-    "doomIndex": 11.6,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "adverse",
-    "doomIndexFactors": {
-      "realizedHarm": 0.35,
-      "scale": 0.425,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0.35,
-      "systemicReach": 0,
-      "credibleThreat": 0.85,
-      "evidence": 0.47,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0.925,
-      "contextualConcern": 0.425
-    },
-    "doomIndexReasons": [
-      "credible threat or safety risk",
-      "proposed event status",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "5a3612cac9f7b277cae3",
-    "doomIndexInputFingerprint": "8ef6357b14de8023f3e8",
-    "doomIndexV123Shadow": 11.6,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "proposed",
-    "doomIndexV123Polarity": "adverse",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0.35,
-      "scale": 0.425,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0.35,
-      "systemicReach": 0,
-      "credibleThreat": 0.85,
-      "evidence": 0.47,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0.925,
-      "contextualConcern": 0.425
-    },
-    "doomIndexV123Reasons": [
-      "credible threat or safety risk",
-      "proposed event status",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "5a3612cac9f7b277cae3",
-    "doomIndexV123InputFingerprint": "3b90b0d97d31c910a4b7",
-    "storyId": "c94a5a6943bc407802b9",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -4839,13 +4754,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.5301
+      "novelty": 0.5357
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details"
     ],
-    "score": 0.2751,
+    "score": 0.2757,
     "doomIndex": 11.56,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4909,7 +4824,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "de23cd24edda0319f6ab",
     "storyId": "4b0b581f96fdff4b22f4",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -4923,7 +4838,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.2973,
+      "freshness": 0.2947,
       "feedPosition": 0.5556,
       "novelty": 0.769
     },
@@ -4933,7 +4848,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3024,
+    "score": 0.3021,
     "doomIndex": 11.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4997,7 +4912,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9a8283f867340ab13f9b",
     "storyId": "eae713dadde24d8f6b53",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5011,12 +4926,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6538,
+      "freshness": 0.6481,
       "feedPosition": 0.8889,
       "novelty": 0.6155
     },
     "rankingReasons": [],
-    "score": 0.3235,
+    "score": 0.3226,
     "doomIndex": 11.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5075,7 +4990,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9c995c891ed25458f4e1",
     "storyId": "7da0f23dc1240b215395",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5089,14 +5004,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5582,
-      "feedPosition": 0.5556,
+      "freshness": 0.5533,
+      "feedPosition": 0.4444,
       "novelty": 0.7692
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2912,
+    "score": 0.2794,
     "doomIndex": 10.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5162,7 +5077,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c8d00a671b31dbdd8871",
     "storyId": "74ee761c3d523ece0a19",
     "firstSeen": "2026-08-06T12:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5176,15 +5091,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6377,
-      "feedPosition": 0.6667,
+      "freshness": 0.6321,
+      "feedPosition": 0.5556,
       "novelty": 0.7521
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3267,
+    "score": 0.3148,
     "doomIndex": 10.76,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5245,7 +5160,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "8ce119c58e3b6002df69",
     "storyId": "8615f6d78bb472b41bdb",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5259,7 +5174,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.405,
+      "freshness": 0.4014,
       "feedPosition": 0.1111,
       "novelty": 0.8499
     },
@@ -5267,7 +5182,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.246,
+    "score": 0.2455,
     "doomIndex": 10.68,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5328,7 +5243,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "379c9905f0a0a41a1a6d",
     "storyId": "dd083223721c924d9f7a",
     "firstSeen": "2026-08-06T00:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5342,7 +5257,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.6883,
+      "freshness": 0.6823,
       "feedPosition": 0.7778,
       "novelty": 0.8588
     },
@@ -5352,7 +5267,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3943,
+    "score": 0.3934,
     "doomIndex": 10.66,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5413,7 +5328,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5829b99f2492389cf819",
     "storyId": "ba7facbc01c5e85f5688",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5427,7 +5342,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.1681,
+      "freshness": 0.1667,
       "feedPosition": 0.4444,
       "novelty": 0.602
     },
@@ -5436,7 +5351,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2553,
+    "score": 0.255,
     "doomIndex": 10.27,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5497,7 +5412,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "8e704e08ecc0da798165",
     "storyId": "94c55c97da6568a59279",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5511,7 +5426,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.312,
       "sourceAuthority": 0.5,
-      "freshness": 0.5744,
+      "freshness": 0.5694,
       "feedPosition": 0.2222,
       "novelty": 0.6045
     },
@@ -5520,7 +5435,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3062,
+    "score": 0.3055,
     "doomIndex": 10.21,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5577,7 +5492,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7d693ff372e24f2ed135",
     "storyId": "1302ea6921d694747658",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5591,9 +5506,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.339,
       "sourceAuthority": 0.5,
-      "freshness": 0.5988,
+      "freshness": 0.5936,
       "feedPosition": 0.6667,
-      "novelty": 0.7655
+      "novelty": 0.7361
     },
     "rankingReasons": [
       "real-world consequences",
@@ -5601,7 +5516,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3758,
+    "score": 0.3721,
     "doomIndex": 10.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5665,7 +5580,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5e8fd007833bdd6ddc9d",
     "storyId": "5b8bd87aa273fc1e010a",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5679,7 +5594,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3948,
+      "freshness": 0.3913,
       "feedPosition": 0.4444,
       "novelty": 0.5902
     },
@@ -5687,7 +5602,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2661,
+    "score": 0.2656,
     "doomIndex": 9.87,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5744,7 +5659,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2d6fdf1230b6dd59bcc7",
     "storyId": "1216eb720f345ed97614",
     "firstSeen": "2026-08-06T00:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5758,7 +5673,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.3291,
+      "freshness": 0.3263,
       "feedPosition": 0,
       "novelty": 0.7077
     },
@@ -5766,7 +5681,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2164,
+    "score": 0.216,
     "doomIndex": 9.58,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5825,7 +5740,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a77ecbaf0179b051fc87",
     "storyId": "6831149afa29e593e2c4",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5909,7 +5824,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "225307285d21def3107a",
     "storyId": "127979f909ba59e63fdb",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -5923,14 +5838,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1393,
+      "freshness": 0.1381,
       "feedPosition": 0.8571,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2762,
+    "score": 0.276,
     "doomIndex": 8.86,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5991,7 +5906,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "bbe8947d0b0be33e6132",
     "storyId": "afa784f78ef3eabdb09a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6077,7 +5992,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3a9ba44f855beea2f646",
     "storyId": "3fc6c636cb8684f162eb",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6091,7 +6006,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3255,
       "sourceAuthority": 0.5,
-      "freshness": 0.0029,
+      "freshness": 0.0028,
       "feedPosition": 0.4444,
       "novelty": 0.5638
     },
@@ -6164,7 +6079,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "50ec65036fecba6e29c4",
     "storyId": "1fb8820b9fa3c356e0d7",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6178,14 +6093,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5594,
+      "freshness": 0.5545,
       "feedPosition": 0.7778,
       "novelty": 0.7941
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3161,
+    "score": 0.3154,
     "doomIndex": 8.62,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6244,7 +6159,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "08aca56d3baa3778563a",
     "storyId": "b18986ed2db1ffc8e157",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6258,7 +6173,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.0105,
+      "freshness": 0.0104,
       "feedPosition": 0.5714,
       "novelty": 0.6332
     },
@@ -6324,7 +6239,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "b4c6ba935e4f82587f89",
     "storyId": "fc8e77ca21900429a094",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6338,7 +6253,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0067,
+      "freshness": 0.0066,
       "feedPosition": 0.5556,
       "novelty": 0.8705
     },
@@ -6412,7 +6327,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ac6b4c31bd948979f9e3",
     "storyId": "4e8eac0776c8f1fc0d85",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6494,7 +6409,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9ae4c097a0006eaf04ac",
     "storyId": "1500b640e341198241a7",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6576,7 +6491,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "52b5983817afce3e4b6a",
     "storyId": "fe052daa70a8c4c9c72b",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6660,7 +6575,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "6e5240e9552abc750fd9",
     "storyId": "b0b5578e288324b193d8",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6742,7 +6657,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e62e9e06bb5687ec20d1",
     "storyId": "247e2498ee7270305a2f",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6756,7 +6671,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.6828,
+      "freshness": 0.6769,
       "feedPosition": 1,
       "novelty": 0.8246
     },
@@ -6765,7 +6680,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3883,
+    "score": 0.3874,
     "doomIndex": 8.23,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6826,7 +6741,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c3b361fd76f45c99af32",
     "storyId": "baa22222cfa8569405ec",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6910,7 +6825,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "28f134b9edc60b51b553",
     "storyId": "046d59ef7b0e4c8db6e1",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -6993,7 +6908,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ad1fc01b3a68f6e08e93",
     "storyId": "d650f74f8d7cf3f8ab44",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7075,7 +6990,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "b4737359e5ef746bcb75",
     "storyId": "157324a9612f0389d5d2",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7089,7 +7004,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.324,
       "sourceAuthority": 0.5,
-      "freshness": 0.0874,
+      "freshness": 0.0866,
       "feedPosition": 0.7778,
       "novelty": 0.8828
     },
@@ -7099,7 +7014,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.319,
+    "score": 0.3189,
     "doomIndex": 7.8,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7158,7 +7073,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5e7670f34b8e21fef5d9",
     "storyId": "551181c299c73018408d",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7172,14 +7087,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1516,
+      "freshness": 0.1503,
       "feedPosition": 0.4444,
       "novelty": 0.7647
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2186,
+    "score": 0.2184,
     "doomIndex": 7.75,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7240,7 +7155,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2d018e1cea9dc03ab506",
     "storyId": "a5f876f26f93554c254e",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7254,14 +7169,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1287,
+      "freshness": 0.1275,
       "feedPosition": 0,
       "novelty": 0.5811
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.1666,
+    "score": 0.1664,
     "doomIndex": 7.75,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7322,7 +7237,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ca3bc0f3e4bd9265fcf6",
     "storyId": "a6111a49c49141876249",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7336,9 +7251,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.5847,
+      "freshness": 0.5796,
       "feedPosition": 1,
-      "novelty": 0.6912
+      "novelty": 0.7032
     },
     "rankingReasons": [
       "real-world consequences",
@@ -7347,7 +7262,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3962,
+    "score": 0.3967,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7408,7 +7323,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ae493c254964b436fbfe",
     "storyId": "42a90289b786a844c82a",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7422,7 +7337,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.3165,
+      "freshness": 0.3137,
       "feedPosition": 0.6667,
       "novelty": 0.668
     },
@@ -7432,7 +7347,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3063,
+    "score": 0.3059,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7494,7 +7409,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c5f16d82b3e0d20f7d66",
     "storyId": "a275b40dfcb02fa3fb79",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7578,7 +7493,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7d6035a70b9719a47287",
     "storyId": "00a633f8dc1c717f5b03",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7592,7 +7507,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1575,
       "sourceAuthority": 0.5,
-      "freshness": 0.1953,
+      "freshness": 0.1936,
       "feedPosition": 0.25,
       "novelty": 0.7585
     },
@@ -7600,7 +7515,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2366,
+    "score": 0.2364,
     "doomIndex": 7.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7659,7 +7574,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "0082ace7c3f42b1ade65",
     "storyId": "09a4a775f909d6528ee7",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7746,7 +7661,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "311d4bc3d578d322ea4d",
     "storyId": "2f6e8f891c0a8aeb6b5f",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7760,16 +7675,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.6963,
+      "freshness": 0.6902,
       "feedPosition": 0.8889,
-      "novelty": 0.3474
+      "novelty": 0.3614
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3455,
+    "score": 0.346,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7828,7 +7743,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "58b6d314b3cbac2e473a",
     "storyId": "ddf288a88355763dfdf4",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7842,7 +7757,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.094,
+      "freshness": 0.0932,
       "feedPosition": 0.7778,
       "novelty": 0.6983
     },
@@ -7852,7 +7767,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2871,
+    "score": 0.287,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7913,7 +7828,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "12a99eef686a438c49fb",
     "storyId": "8d2b1b80f2b60b18a662",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -7927,7 +7842,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.178,
+      "freshness": 0.1765,
       "feedPosition": 1,
       "novelty": 0.8156
     },
@@ -7935,7 +7850,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.2833,
+    "score": 0.283,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7996,7 +7911,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "dc192c62b6d1747d6cb2",
     "storyId": "985f27455e446170b0bc",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8010,12 +7925,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.5815,
+      "freshness": 0.5764,
       "feedPosition": 0.4444,
       "novelty": 0.5998
     },
     "rankingReasons": [],
-    "score": 0.2738,
+    "score": 0.273,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8074,7 +7989,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ceb939c9127c757b5313",
     "storyId": "915e2923aa6c3e1d6d08",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8157,7 +8072,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "cde7625abf4fe831f4de",
     "storyId": "e503e27fdc0e7a42664c",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8242,7 +8157,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9edaba5e1d5acac8ffea",
     "storyId": "58c38a52cc6bef6bd1a2",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8331,7 +8246,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "20420847840dea4a8cae",
     "storyId": "324e4b056d3ee60087bf",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8345,14 +8260,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6523,
+      "freshness": 0.6466,
       "feedPosition": 0.8889,
       "novelty": 0.6315
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4249,
+    "score": 0.424,
     "doomIndex": 7.22,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8409,7 +8324,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "322b28849ca0d6a0c56e",
     "storyId": "ee19be2cef2d8ae6fe5c",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8423,14 +8338,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.6419,
+      "freshness": 0.6363,
       "feedPosition": 0.7778,
       "novelty": 0.5275
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4089,
+    "score": 0.4081,
     "doomIndex": 7.22,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8487,7 +8402,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a915ffcd5fcfddced47c",
     "storyId": "b04f9642d438e86d7621",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8571,7 +8486,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e61f8f1fb2778f192c75",
     "storyId": "173747b77dc753028f50",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8585,7 +8500,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8713,
+      "freshness": 0.8637,
       "feedPosition": 1,
       "novelty": 0.8166
     },
@@ -8594,7 +8509,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4158,
+    "score": 0.4146,
     "doomIndex": 6.68,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8653,7 +8568,93 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "903ae45b412c778b059f",
     "storyId": "fa0a6b55b3d0610c2620",
     "firstSeen": "2026-08-07T05:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Trump orders new 15% tariff on key material for solar panels and microchips",
+    "url": "https://www.theguardian.com/us-news/2026/aug/07/trump-orders-tariff-solar-panels-microchips-manufacturing-ingredient",
+    "source": "The Guardian AI",
+    "published": "2026-08-07T09:11:36.000Z",
+    "image": "https://i.guim.co.uk/img/media/908237f4505e2ae1348ac9098ae93c4bd57241a4/427_0_4268_3414/master/4268.jpg?width=800&dpr=2&s=none&crop=none",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1935,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9977,
+      "feedPosition": 0.8889,
+      "novelty": 0.9191
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4442,
+    "doomIndex": 6.58,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "positive",
+    "doomIndexPolarity": "protective-or-positive",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0.425,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0.425,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.2,
+      "protectiveContext": 0.85,
+      "routinePenalty": 0.425,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "92321f760a68914f6dcd",
+    "doomIndexInputFingerprint": "3b73706341bafe8e5872",
+    "doomIndexV123Shadow": 6.58,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "positive",
+    "doomIndexV123Polarity": "protective-or-positive",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0.425,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0.425,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.2,
+      "protectiveContext": 0.85,
+      "routinePenalty": 0.425,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "92321f760a68914f6dcd",
+    "doomIndexV123InputFingerprint": "15d83267a27ece50248f",
+    "storyId": "af8a2686f201214a6a78",
+    "firstSeen": "2026-08-07T09:00:00.000Z",
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8667,7 +8668,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.5586,
+      "freshness": 0.5538,
       "feedPosition": 0,
       "novelty": 0.6242
     },
@@ -8675,7 +8676,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "specific details"
     ],
-    "score": 0.2599,
+    "score": 0.2592,
     "doomIndex": 6.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8736,7 +8737,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "dd73e017abe535d90605",
     "storyId": "65466476b02403efc84d",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8824,7 +8825,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2ee0a4e0d20b474bd7f1",
     "storyId": "7a03ba7576453bc07020",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8838,8 +8839,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.18,
       "sourceAuthority": 0.5,
-      "freshness": 0.66,
-      "feedPosition": 0.7778,
+      "freshness": 0.6542,
+      "feedPosition": 0.6667,
       "novelty": 0.4942
     },
     "rankingReasons": [
@@ -8847,7 +8848,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "covered by multiple sources"
     ],
-    "score": 0.4372,
+    "score": 0.4252,
     "doomIndex": 6.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8910,7 +8911,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "da94b4e908548db26fb5",
     "storyId": "d9b788ef8f14ee57b58f",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -8995,7 +8996,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e7668c98b9ba33450061",
     "storyId": "cb129c5812ea468ed6e4",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9084,7 +9085,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ae6b2a2ba7a81b81ab78",
     "storyId": "3fb8ff13848b4b5ae7f9",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9098,15 +9099,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.3828,
-      "feedPosition": 0.3333,
+      "freshness": 0.3795,
+      "feedPosition": 0.2222,
       "novelty": 0.6972
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2497,
+    "score": 0.2381,
     "doomIndex": 5.99,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9167,7 +9168,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "d079486d816b401841c5",
     "storyId": "15f5e0a7f752dd4fab31",
     "firstSeen": "2026-08-05T23:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9181,14 +9182,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6605,
+      "freshness": 0.6548,
       "feedPosition": 1,
       "novelty": 0.4596
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.42,
+    "score": 0.4192,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9245,7 +9246,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "0c8e3e2947d2f2e95bad",
     "storyId": "3931c096a4982ffee4f9",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9259,14 +9260,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6801,
+      "freshness": 0.6742,
       "feedPosition": 0.7778,
       "novelty": 0.4936
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4041,
+    "score": 0.4033,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9323,7 +9324,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1e6667f01c1851ee1357",
     "storyId": "d7d1dd2e31dbdf6ddf3e",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9337,7 +9338,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.229,
       "sourceAuthority": 0.5,
-      "freshness": 0.7526,
+      "freshness": 0.7461,
       "feedPosition": 1,
       "novelty": 0.6358
     },
@@ -9346,7 +9347,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3973,
+    "score": 0.3963,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9403,7 +9404,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a31a3b131f7fc455bd54",
     "storyId": "5bb1d2f28822b6fc1593",
     "firstSeen": "2026-08-07T00:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9417,7 +9418,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.5629,
+      "freshness": 0.558,
       "feedPosition": 1,
       "novelty": 0.9308
     },
@@ -9426,7 +9427,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3905,
+    "score": 0.3898,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9483,7 +9484,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "128e4b3e3c01d87e48bf",
     "storyId": "68da802e26076410b691",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9497,7 +9498,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3035,
       "sourceAuthority": 0.5,
-      "freshness": 0.642,
+      "freshness": 0.6365,
       "feedPosition": 0.7778,
       "novelty": 0.7298
     },
@@ -9506,7 +9507,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3828,
+    "score": 0.3819,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9569,7 +9570,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a80597bf3e1b5a23ea24",
     "storyId": "29dadb15030915c71d1a",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9583,7 +9584,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.141,
       "sourceAuthority": 0.5,
-      "freshness": 0.7159,
+      "freshness": 0.7096,
       "feedPosition": 1,
       "novelty": 0.6934
     },
@@ -9592,7 +9593,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3799,
+    "score": 0.379,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9649,7 +9650,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "d23a3f7e3bd95068b123",
     "storyId": "20f43dae1ff7c87af0c1",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9663,7 +9664,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.3039,
+      "freshness": 0.3012,
       "feedPosition": 0.6,
       "novelty": 0.6722
     },
@@ -9672,7 +9673,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.3758,
+    "score": 0.3754,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9729,7 +9730,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1f1d30e3873c6127bafc",
     "storyId": "ff8ba60af3e634676f78",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9743,7 +9744,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.5644,
+      "freshness": 0.5594,
       "feedPosition": 0.7778,
       "novelty": 0.9353
     },
@@ -9753,7 +9754,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3734,
+    "score": 0.3726,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9812,7 +9813,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3e4cb9a999d8a1b49629",
     "storyId": "922cb213c9441482c90e",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9826,7 +9827,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.5753,
+      "freshness": 0.5703,
       "feedPosition": 0.8889,
       "novelty": 0.789
     },
@@ -9836,7 +9837,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3715,
+    "score": 0.3707,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9895,7 +9896,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a8f9a71c5c951c7b1090",
     "storyId": "9cccb750601714629b7a",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9909,16 +9910,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.331,
       "sourceAuthority": 0.5,
-      "freshness": 0.6242,
+      "freshness": 0.6187,
       "feedPosition": 1,
-      "novelty": 0.32
+      "novelty": 0.3487
     },
     "rankingReasons": [
       "urgency or risk",
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.3668,
+    "score": 0.3689,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9977,7 +9978,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "b33bb8ecd57bb1b39134",
     "storyId": "a22968655b75de5dd86e",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -9991,7 +9992,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.631,
+      "freshness": 0.6255,
       "feedPosition": 0.6667,
       "novelty": 0.7654
     },
@@ -10000,7 +10001,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3413,
+    "score": 0.3404,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10059,7 +10060,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ca8573f20b9c7ceb8181",
     "storyId": "afe05d08201afedb2e41",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10073,7 +10074,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6223,
+      "freshness": 0.6169,
       "feedPosition": 0.6667,
       "novelty": 0.9026
     },
@@ -10081,7 +10082,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3395,
+    "score": 0.3387,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10140,7 +10141,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "92cbf73ae18391f1a7c2",
     "storyId": "18b6108d4ac6f277aaff",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10154,7 +10155,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2355,
       "sourceAuthority": 0.5,
-      "freshness": 0.5829,
+      "freshness": 0.5778,
       "feedPosition": 0.4444,
       "novelty": 0.7521
     },
@@ -10163,7 +10164,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "unusual language in the current story batch"
     ],
-    "score": 0.3292,
+    "score": 0.3284,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10222,7 +10223,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "85ebbc5f48a6191c15cc",
     "storyId": "801f4068e962b9981c3d",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10236,7 +10237,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.191,
       "sourceAuthority": 0.5,
-      "freshness": 0.3787,
+      "freshness": 0.3754,
       "feedPosition": 0.8,
       "novelty": 0.7822
     },
@@ -10245,7 +10246,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3282,
+    "score": 0.3277,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10304,7 +10305,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2a2f95005917de118495",
     "storyId": "3842ca84472144ca5e2d",
     "firstSeen": "2026-08-05T23:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10318,7 +10319,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.5744,
+      "freshness": 0.5694,
       "feedPosition": 0.3333,
       "novelty": 0.9191
     },
@@ -10327,7 +10328,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3251,
+    "score": 0.3243,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10390,7 +10391,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "522f81ae3fd1b500ef13",
     "storyId": "c57de31bef57c7b55010",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10404,14 +10405,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.4003,
+      "freshness": 0.3968,
       "feedPosition": 1,
       "novelty": 0.8617
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3236,
+    "score": 0.3231,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10470,7 +10471,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e3fc02dcb4e372fac027",
     "storyId": "67fff5c8e0af06100f90",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10484,12 +10485,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.6989,
+      "freshness": 0.6928,
       "feedPosition": 0.8889,
       "novelty": 0.3824
     },
     "rankingReasons": [],
-    "score": 0.3141,
+    "score": 0.3131,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10548,7 +10549,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3324dfaed01a079044df",
     "storyId": "1e6dab028310471c79ee",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10562,7 +10563,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.083,
       "sourceAuthority": 0.5,
-      "freshness": 0.5241,
+      "freshness": 0.5196,
       "feedPosition": 0.5,
       "novelty": 0.9075
     },
@@ -10570,7 +10571,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.311,
+    "score": 0.3103,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10629,7 +10630,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "973c111b6c91ee1828d3",
     "storyId": "192792341181ebfc8fd9",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10643,7 +10644,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0835,
       "sourceAuthority": 0.5,
-      "freshness": 0.4237,
+      "freshness": 0.42,
       "feedPosition": 0.6667,
       "novelty": 0.857
     },
@@ -10651,7 +10652,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3076,
+    "score": 0.3071,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10708,7 +10709,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "abd43bec4dbb07cddd45",
     "storyId": "8d70837b7ae0eee896d5",
     "firstSeen": "2026-08-06T03:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10722,14 +10723,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6288,
+      "freshness": 0.6233,
       "feedPosition": 0.6667,
       "novelty": 0.6816
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3041,
+    "score": 0.3033,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10788,7 +10789,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4f1a779da587670d3ce2",
     "storyId": "705ca8186e48cf2d55a9",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10802,7 +10803,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.3031,
+      "freshness": 0.3005,
       "feedPosition": 0,
       "novelty": 0.7999
     },
@@ -10810,7 +10811,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.3005,
+    "score": 0.3001,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10867,7 +10868,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7b5db5e08513f8b27139",
     "storyId": "ff5a4080dd1ccac6de94",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10881,7 +10882,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.1659,
+      "freshness": 0.1644,
       "feedPosition": 0.8889,
       "novelty": 0.7702
     },
@@ -10890,7 +10891,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3002,
+    "score": 0.3,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10949,7 +10950,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7aecdce7fac7927448b7",
     "storyId": "ca57c385d714512d1dab",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -10963,14 +10964,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.2663,
+      "freshness": 0.264,
       "feedPosition": 0.8889,
       "novelty": 0.8747
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2984,
+    "score": 0.2981,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11027,7 +11028,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "cb0e960eea87ca6d4797",
     "storyId": "fd76dc5c8e6b768dc037",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -11041,7 +11042,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.1355,
+      "freshness": 0.1343,
       "feedPosition": 0.8889,
       "novelty": 0.8747
     },
@@ -11049,7 +11050,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2937,
+    "score": 0.2935,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11112,7 +11113,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "415fd3f9535d29f71764",
     "storyId": "5926ba0167f609874f5a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -11126,14 +11127,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5435,
+      "freshness": 0.5388,
       "feedPosition": 0.5556,
       "novelty": 0.7999
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2921,
+    "score": 0.2914,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11194,7 +11195,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e0134764ebf2daec45ef",
     "storyId": "539e3bde6897284041d3",
     "firstSeen": "2026-08-06T12:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -11208,14 +11209,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.5744,
+      "freshness": 0.5694,
       "feedPosition": 0.3333,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2915,
+    "score": 0.2907,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11274,7 +11275,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "72a5ae3658fa471ec769",
     "storyId": "466f6050e71c9bd7bc4e",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -11288,7 +11289,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.382,
       "sourceAuthority": 0.5,
-      "freshness": 0.3436,
+      "freshness": 0.3406,
       "feedPosition": 0.2222,
       "novelty": 0.5318
     },
@@ -11297,7 +11298,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2783,
+    "score": 0.2779,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11356,87 +11357,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c5471f7dbdc253e600c1",
     "storyId": "9b1d81026bfef8372016",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "A solar eclipse and the Perseid meteor shower arrive on the same day",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260804034628.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-05T04:13:47.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2311,
-      "feedPosition": 0.5556,
-      "novelty": 0.9595
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2683,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.215,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "f63a38b220d7966bec8d",
-    "doomIndexInputFingerprint": "11d7b75fc6091326b9ed",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "proposed",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.215,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "f63a38b220d7966bec8d",
-    "doomIndexV123InputFingerprint": "065388df5aee33d25f4d",
-    "storyId": "a2fd9d7d72cfe5b5b305",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -11450,7 +11371,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3,
       "sourceAuthority": 0.5,
-      "freshness": 0.0108,
+      "freshness": 0.0107,
       "feedPosition": 0.5556,
       "novelty": 0.7494
     },
@@ -11519,7 +11440,87 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "d9967973199be6a47a67",
     "storyId": "e731c4148f4c1ea12d8d",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "A solar eclipse and the Perseid meteor shower arrive on the same day",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260804034628.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-05T04:13:47.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2291,
+      "feedPosition": 0.5556,
+      "novelty": 0.9191
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2639,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "proposed",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.215,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "f63a38b220d7966bec8d",
+    "doomIndexInputFingerprint": "11d7b75fc6091326b9ed",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "proposed",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.215,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "f63a38b220d7966bec8d",
+    "doomIndexV123InputFingerprint": "065388df5aee33d25f4d",
+    "storyId": "a2fd9d7d72cfe5b5b305",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -11533,14 +11534,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.5664,
+      "freshness": 0.5615,
       "feedPosition": 0.1111,
       "novelty": 0.8246
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2606,
+    "score": 0.2599,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11599,7 +11600,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7d7f74a2a07f41053826",
     "storyId": "d8dcc0c82dc7c54808a5",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -11613,14 +11614,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.3584,
+      "freshness": 0.3553,
       "feedPosition": 0.3333,
       "novelty": 0.8747
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2556,
+    "score": 0.2551,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11679,7 +11680,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ed7c3101346c25c032eb",
     "storyId": "72911541e6097c740088",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -11759,7 +11760,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c604ac5218cf67935fb8",
     "storyId": "8b09e4a66a820156339a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -11773,7 +11774,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.3568,
+      "freshness": 0.3537,
       "feedPosition": 0.2222,
       "novelty": 0.7654
     },
@@ -11781,7 +11782,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2415,
+    "score": 0.241,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11838,7 +11839,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "42d6d41bce6665fc350c",
     "storyId": "d73b633f50b6854818dc",
     "firstSeen": "2026-08-05T19:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -11852,7 +11853,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0542,
+      "freshness": 0.0537,
       "feedPosition": 0.7143,
       "novelty": 0.6489
     },
@@ -11918,7 +11919,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9ff61b3a97e44dec6e9f",
     "storyId": "310ca79bd482dfe75ce8",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12004,7 +12005,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2269bc8bd8186bacf2fc",
     "storyId": "b4e9a7fe682def4d8954",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12018,7 +12019,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0771,
+      "freshness": 0.0764,
       "feedPosition": 0.2222,
       "novelty": 0.799
     },
@@ -12027,7 +12028,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2171,
+    "score": 0.217,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12086,7 +12087,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "d588a4e716c72f913eff",
     "storyId": "71963bd8f11efab80630",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12100,7 +12101,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.0756,
+      "freshness": 0.0749,
       "feedPosition": 0.2222,
       "novelty": 0.799
     },
@@ -12108,7 +12109,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2165,
+    "score": 0.2164,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12167,7 +12168,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1075fafd69198c965c96",
     "storyId": "ee09554dd596a6467291",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12181,7 +12182,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.005,
+      "freshness": 0.0049,
       "feedPosition": 0.4286,
       "novelty": 0.6778
     },
@@ -12249,7 +12250,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4a45e2c1a562c94f3164",
     "storyId": "1936fae63e0ee701fda2",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12263,7 +12264,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3205,
+      "freshness": 0.3177,
       "feedPosition": 0,
       "novelty": 0.6242
     },
@@ -12271,7 +12272,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2139,
+    "score": 0.2135,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12330,7 +12331,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "167fdfaf5cd9f7643111",
     "storyId": "0b4e9b5e36534bbf75f7",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12410,7 +12411,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "953cc8429dac845fe5b6",
     "storyId": "b79e8da0c674b20adb01",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12490,7 +12491,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a4dd795f84b0c01a31ca",
     "storyId": "bf275038f37976184c7b",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12504,14 +12505,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.1462,
+      "freshness": 0.145,
       "feedPosition": 0.3333,
       "novelty": 0.7494
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2112,
+    "score": 0.211,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12568,7 +12569,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e5ff0bd84bcdaa45d6f2",
     "storyId": "27d0fa2d620c8fe63fb4",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12652,7 +12653,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f577ba125be5bb8a5556",
     "storyId": "1718c1d1a33f3d42236b",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12732,7 +12733,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "0b426941066cd73690a4",
     "storyId": "dc0091f399a2a24ab9f6",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12755,7 +12756,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2032,
+    "score": 0.2031,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12814,7 +12815,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "b9badb551b63ee29b1ad",
     "storyId": "1b4e1ddc375f4ec096b5",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12828,7 +12829,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.0767,
+      "freshness": 0.0761,
       "feedPosition": 0.1111,
       "novelty": 0.6998
     },
@@ -12836,7 +12837,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.1956,
+    "score": 0.1955,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12895,7 +12896,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "86edd9862598607821eb",
     "storyId": "f77f6388e84028731abf",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -12976,7 +12977,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "300d8e8f3557e035cd05",
     "storyId": "25036ce3895275f73b5e",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -13055,7 +13056,89 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f562e6c3f031250351c2",
     "storyId": "0482c45879f45e66064e",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
+  },
+  {
+    "group": "ai",
+    "title": "Google Earth AI Fiasco Underscores Why Tech Firms Must Listen to Outside Experts",
+    "url": "https://techpolicy.press/google-earth-ai-fiasco-underscores-why-tech-firms-must-listen-to-outside-experts",
+    "source": "Tech Policy Press AI",
+    "published": "2026-07-31T21:20:27.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.212,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0131,
+      "feedPosition": 0,
+      "novelty": 0.5615
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.1755,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "df832c29918ac356028f",
+    "doomIndexInputFingerprint": "4e385cf1b6b2d903f956",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "df832c29918ac356028f",
+    "doomIndexV123InputFingerprint": "5784f6aee1e7c8371451",
+    "storyId": "b50e01688f45426a5b3a",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -13136,89 +13219,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "28a84cb8187cb58c551d",
     "storyId": "4f26b3a2208c3c96ca8d",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
-  },
-  {
-    "group": "ai",
-    "title": "Google Earth AI Fiasco Underscores Why Tech Firms Must Listen to Outside Experts",
-    "url": "https://techpolicy.press/google-earth-ai-fiasco-underscores-why-tech-firms-must-listen-to-outside-experts",
-    "source": "Tech Policy Press AI",
-    "published": "2026-07-31T21:20:27.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.212,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0133,
-      "feedPosition": 0,
-      "novelty": 0.5531
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.1747,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "df832c29918ac356028f",
-    "doomIndexInputFingerprint": "4e385cf1b6b2d903f956",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "df832c29918ac356028f",
-    "doomIndexV123InputFingerprint": "5784f6aee1e7c8371451",
-    "storyId": "b50e01688f45426a5b3a",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -13232,14 +13233,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.0418,
+      "freshness": 0.0415,
       "feedPosition": 0.1111,
       "novelty": 0.5979
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.1735,
+    "score": 0.1734,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13298,7 +13299,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2b718a769729315887c1",
     "storyId": "ac687ef7f82db32ea218",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -13378,7 +13379,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "d80548864be39c48d7f5",
     "storyId": "abf151e413627df9aa5d",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -13459,7 +13460,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "697594fada75a15dec44",
     "storyId": "37270bac651bec59185b",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   },
   {
     "group": "ai",
@@ -13537,6 +13538,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c6ead62abbf86ff17403",
     "storyId": "52f59c7b600969b2d780",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-07T08:00:00.000Z"
+    "lastSeen": "2026-08-07T09:00:00.000Z"
   }
 ];
