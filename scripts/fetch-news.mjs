@@ -1680,7 +1680,10 @@ const publishedArticles = uniqueArticles.map(
     doomIndexInputSummary,
     doomIndexV123InputSummary,
     ...article
-  }) => article,
+  }) => ({
+    ...article,
+    feedSummary: normalizeArticleText(analysisText),
+  }),
 );
 
 const output = [
