@@ -47,13 +47,49 @@ main > .category-row {
 }
 
 .banner-primary,
-.ticker-window {
+.ticker-window,
+.model-switcher {
   color: var(--text-primary);
   font-family: "Cossette Titre", serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.08em;
+}
+
+.model-switcher {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  text-transform: uppercase;
+}
+
+.model-option {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: left;
+  text-transform: inherit;
+  cursor: pointer;
+}
+
+.model-option-marker {
+  color: #ff0000;
+}
+
+.model-option.is-selected .model-option-marker {
+  color: var(--text-primary);
+}
+
+.model-option:focus-visible {
+  outline: 1px solid var(--text-primary);
+  outline-offset: 2px;
 }
 
 .banner-secondary {
@@ -297,10 +333,6 @@ main > .category-row {
 .featured-link {
   font-size: 32px;
   line-height: 40px;
-}
-
-.source-directory-title {
-  margin: 0;
 }
 
 .doom-index-legend summary {
