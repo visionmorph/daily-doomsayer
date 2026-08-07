@@ -247,15 +247,7 @@
       if (band.qualification) {
         const qualification = document.createElement("p");
         qualification.className = "calibration-scale-qualification";
-
-        const qualificationLabel = document.createElement("strong");
-        qualificationLabel.className = "calibration-scale-qualification-label";
-        qualificationLabel.textContent = "Qualifies when ";
-
-        qualification.append(
-          qualificationLabel,
-          document.createTextNode(band.qualification),
-        );
+        qualification.textContent = band.qualification;
         item.append(qualification);
       }
       elements.scale.append(item);
