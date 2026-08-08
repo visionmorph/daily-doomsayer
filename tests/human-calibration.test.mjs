@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { analyzeCalibrationBenchmark } from "../scripts/analyze-human-calibration.mjs";
 import { buildCalibrationBenchmark } from "../scripts/build-calibration-benchmark.mjs";
+import { evaluateDreadCandidate } from "../scripts/evaluate-dread-candidate.mjs";
 
 const severityScale = [
   { minimum: 0, maximum: 19.99, label: "UNEASY" },
@@ -84,6 +85,33 @@ test("benchmark removes overlapping snapshots and exact-title duplicates", () =>
   assert.equal(benchmark.records[0].articleRating.score, 24);
 });
 
+test("benchmark prefers exact scoring inputs when snapshot timestamps tie", () => {
+  const original = record({
+    storyId: "one",
+    title: "One",
+    updatedAt: "2026-08-08T00:00:00.000Z",
+    human: 20,
+    publicScore: 10,
+    shadowScore: 12,
+  });
+  const enriched = {
+    ...original,
+    scoringInput: {
+      title: "One",
+      summary: "Exact clustered production summary",
+      coverageSources: 2,
+      provenance: "production",
+    },
+  };
+  const benchmark = buildCalibrationBenchmark([
+    calibrationExport("2026-08-08T01:00:00.000Z", [original]),
+    calibrationExport("2026-08-08T02:00:00.000Z", [enriched]),
+  ]);
+
+  assert.equal(benchmark.records[0].scoringInput.provenance, "production");
+  assert.equal(benchmark.records[0].scoringInput.coverageSources, 2);
+});
+
 test("analyzer reports public and shadow agreement separately", () => {
   const benchmark = {
     benchmarkVersion: "calibration-benchmark.v1",
@@ -117,4 +145,53 @@ test("analyzer reports public and shadow agreement separately", () => {
   assert.equal(analysis.metrics.shadowArticle.meanAbsoluteError, 5);
   assert.equal(analysis.modelComparison.identical, 0);
   assert.equal(analysis.modelComparison.shadowHigher, 2);
+});
+
+test("candidate harness evaluates promotion gates without changing stored models", async () => {
+  const first = record({
+    storyId: "routine",
+    title: "Routine",
+    updatedAt: "2026-08-08T00:00:00.000Z",
+    human: 10,
+    publicScore: 20,
+    shadowScore: 25,
+  });
+  const second = record({
+    storyId: "severe",
+    title: "Severe",
+    updatedAt: "2026-08-08T00:00:00.000Z",
+    human: 70,
+    publicScore: 30,
+    shadowScore: 35,
+  });
+  first.benchmarkId = "routine";
+  second.benchmarkId = "severe";
+  first.scoringInput = {
+    title: "Routine",
+    summary: "Routine story",
+    coverageSources: 1,
+  };
+  second.scoringInput = {
+    title: "Severe",
+    summary: "Severe story",
+    coverageSources: 1,
+  };
+  const benchmark = {
+    benchmarkVersion: "calibration-benchmark.v1",
+    asOf: "2026-08-08T00:00:00.000Z",
+    severityScale,
+    records: [first, second],
+  };
+
+  const evaluation = await evaluateDreadCandidate(
+    benchmark,
+    ({ title }) => (title === "Severe" ? 70 : 10),
+    { candidateVersion: "1.2.4" },
+  );
+
+  assert.equal(evaluation.passed, true);
+  assert.equal(evaluation.metrics.candidate.article.meanAbsoluteError, 0);
+  assert.equal(evaluation.risk.candidate.severeUnderCalls, 0);
+  assert.equal(evaluation.inputAudit.exactProductionInputs, 2);
+  assert.equal(first.models.public.score, 20);
 });
