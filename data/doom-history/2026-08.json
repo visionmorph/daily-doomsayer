@@ -58280,18 +58280,18 @@
               "inputFingerprint": "ea0b442007d4206479f9"
             },
             "2026-08-08T13Z|1.2.2-shadow.1": {
-              "value": 8.91,
+              "value": 5,
               "observedAt": "2026-08-08T13:00:00.000Z",
               "formulaVersion": "1.2.2-shadow.1",
               "formulaFingerprint": "038227c518a0cea1b62b",
-              "inputFingerprint": "e66a680e1e6501e2704a"
+              "inputFingerprint": "fd772f55556a096f342e"
             },
             "2026-08-08T13Z|1.2.3-shadow.1": {
-              "value": 9.05,
+              "value": 5,
               "observedAt": "2026-08-08T13:00:00.000Z",
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
-              "inputFingerprint": "ea0b442007d4206479f9"
+              "inputFingerprint": "d588a4e716c72f913eff"
             }
           },
           "formulaSummaries": {
@@ -58300,9 +58300,9 @@
               "open": 5,
               "high": 8.91,
               "low": 5,
-              "close": 8.91,
-              "average": 7.23,
-              "scoreTotal": 50.64,
+              "close": 5,
+              "average": 6.68,
+              "scoreTotal": 46.73,
               "observations": 7,
               "firstObservedAt": "2026-08-08T05:00:00.000Z",
               "lastObservedAt": "2026-08-08T13:00:00.000Z",
@@ -58334,9 +58334,9 @@
               "open": 5,
               "high": 9.05,
               "low": 5,
-              "close": 9.05,
-              "average": 7.31,
-              "scoreTotal": 51.2,
+              "close": 5,
+              "average": 6.74,
+              "scoreTotal": 47.15,
               "observations": 7,
               "firstObservedAt": "2026-08-08T05:00:00.000Z",
               "lastObservedAt": "2026-08-08T13:00:00.000Z",
@@ -58371,9 +58371,9 @@
           "open": 5,
           "high": 8.91,
           "low": 5,
-          "close": 8.91,
-          "average": 7.23,
-          "scoreTotal": 50.64,
+          "close": 5,
+          "average": 6.68,
+          "scoreTotal": 46.73,
           "observations": 7,
           "firstObservedAt": "2026-08-08T05:00:00.000Z",
           "lastObservedAt": "2026-08-08T13:00:00.000Z",
@@ -183243,14 +183243,14 @@
               "observedAt": "2026-08-08T13:00:00.000Z",
               "formulaVersion": "1.2.2-shadow.1",
               "formulaFingerprint": "038227c518a0cea1b62b",
-              "inputFingerprint": "fc050b3e3b94bbbc2322"
+              "inputFingerprint": "80af0168ef65d766d74c"
             },
             "2026-08-08T13Z|1.2.3-shadow.1": {
               "value": 5,
               "observedAt": "2026-08-08T13:00:00.000Z",
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
-              "inputFingerprint": "3c5951dff5d6ab49994c"
+              "inputFingerprint": "82002575db083ef922f8"
             }
           },
           "formulaSummaries": {
@@ -183445,6 +183445,34 @@
             ],
             "actuality": "positive",
             "polarity": "neutral"
+          },
+          "80af0168ef65d766d74c": {
+            "title": "Artificial Intelligence used to design brand new viruses",
+            "summary": "Scientists Used AI to Create 16 New Viruses. The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation. Science Science / Biotech Artificial Intelligence used to design brand new viruses. Scientists made 16 successful viruses that had their genetic code designed by artificial intelligence.",
+            "summaryFingerprint": "b0bac358af60c1e1b29e",
+            "coverageSources": 2,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.265,
+              "actuality": 0.2,
+              "protectiveContext": 0.425,
+              "routinePenalty": 0.425,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "positive event status",
+              "speculative or weakly evidenced",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "positive",
+            "polarity": "neutral"
           }
         },
         "1.2.3-shadow.1": {
@@ -183525,6 +183553,34 @@
             },
             "reasons": [
               "positive event status",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "positive",
+            "polarity": "neutral"
+          },
+          "82002575db083ef922f8": {
+            "title": "Artificial Intelligence used to design brand new viruses",
+            "summary": "Scientists Used AI to Create 16 New Viruses. The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation. Science Science / Biotech Artificial Intelligence used to design brand new viruses. Scientists made 16 successful viruses that had their genetic code designed by artificial intelligence.",
+            "summaryFingerprint": "b0bac358af60c1e1b29e",
+            "coverageSources": 2,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.265,
+              "actuality": 0.2,
+              "protectiveContext": 0.425,
+              "routinePenalty": 0.425,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "positive event status",
+              "speculative or weakly evidenced",
               "routine or promotional adjustment"
             ],
             "actuality": "positive",
@@ -205686,14 +205742,14 @@
               "observedAt": "2026-08-08T13:00:00.000Z",
               "formulaVersion": "1.2.2-shadow.1",
               "formulaFingerprint": "038227c518a0cea1b62b",
-              "inputFingerprint": "d9738b8b91a3cfc3d9b1"
+              "inputFingerprint": "35890ab75363d4d17613"
             },
             "2026-08-08T13Z|1.2.3-shadow.1": {
               "value": 5,
               "observedAt": "2026-08-08T13:00:00.000Z",
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
-              "inputFingerprint": "379e5d897d0ab8203a36"
+              "inputFingerprint": "c9cfc469c1fbd167fdbf"
             }
           },
           "formulaSummaries": {
@@ -205862,6 +205918,34 @@
             ],
             "actuality": "positive",
             "polarity": "neutral"
+          },
+          "35890ab75363d4d17613": {
+            "title": "Scientists Used AI to Create 16 New Viruses",
+            "summary": "Scientists Used AI to Create 16 New Viruses. The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation. Science Science / Biotech Artificial Intelligence used to design brand new viruses. Scientists made 16 successful viruses that had their genetic code designed by artificial intelligence.",
+            "summaryFingerprint": "b0bac358af60c1e1b29e",
+            "coverageSources": 2,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.265,
+              "actuality": 0.2,
+              "protectiveContext": 0.425,
+              "routinePenalty": 0.425,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "positive event status",
+              "speculative or weakly evidenced",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "positive",
+            "polarity": "neutral"
           }
         },
         "1.2.3-shadow.1": {
@@ -205916,6 +206000,34 @@
             },
             "reasons": [
               "positive event status",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "positive",
+            "polarity": "neutral"
+          },
+          "c9cfc469c1fbd167fdbf": {
+            "title": "Scientists Used AI to Create 16 New Viruses",
+            "summary": "Scientists Used AI to Create 16 New Viruses. The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation. Science Science / Biotech Artificial Intelligence used to design brand new viruses. Scientists made 16 successful viruses that had their genetic code designed by artificial intelligence.",
+            "summaryFingerprint": "b0bac358af60c1e1b29e",
+            "coverageSources": 2,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.265,
+              "actuality": 0.2,
+              "protectiveContext": 0.425,
+              "routinePenalty": 0.425,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "positive event status",
+              "speculative or weakly evidenced",
               "routine or promotional adjustment"
             ],
             "actuality": "positive",
@@ -214210,7 +214322,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News AI",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2700/live/b51ae4b0-91b6-11f1-bab9-173de0e7d358.jpg",
-      "published": "2026-08-08T12:36:29.000Z",
+      "published": "2026-08-08T13:41:32.000Z",
       "firstSeen": "2026-08-08T13:00:00.000Z",
       "lastSeen": "2026-08-08T13:00:00.000Z",
       "days": {
