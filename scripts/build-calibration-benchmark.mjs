@@ -41,6 +41,12 @@ function recordTimestamp(record) {
   return Number.isFinite(parsed) ? parsed : 0;
 }
 
+function scoringInputQuality(record) {
+  if (record.scoringInput?.provenance === "production") return 2;
+  if (String(record.scoringInput?.summary || "").trim()) return 1;
+  return 0;
+}
+
 function storyIdentity(record) {
   return String(
     record.article?.storyId ||
@@ -77,6 +83,9 @@ function newestRecord(records) {
   return [...records].sort((left, right) => {
     const timestampDifference = recordTimestamp(right) - recordTimestamp(left);
     if (timestampDifference) return timestampDifference;
+    const inputQualityDifference =
+      scoringInputQuality(right) - scoringInputQuality(left);
+    if (inputQualityDifference) return inputQualityDifference;
     return storyIdentity(left).localeCompare(storyIdentity(right));
   })[0];
 }
