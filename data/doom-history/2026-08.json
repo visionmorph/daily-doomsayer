@@ -229905,6 +229905,207 @@
           }
         }
       }
+    },
+    "39b28d95fcbaaeae7e25": {
+      "storyId": "39b28d95fcbaaeae7e25",
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "source": "TechCrunch AI",
+      "image": "",
+      "published": "2026-08-08T19:41:13.000Z",
+      "firstSeen": "2026-08-08T19:00:00.000Z",
+      "lastSeen": "2026-08-08T19:00:00.000Z",
+      "days": {
+        "2026-08-08": {
+          "samples": {
+            "2026-08-08T19Z|1.2.2-shadow.1": {
+              "value": 5,
+              "observedAt": "2026-08-08T19:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "c964e2b86dcca1b2407f"
+            },
+            "2026-08-08T19Z|1.2.3-shadow.1": {
+              "value": 5,
+              "observedAt": "2026-08-08T19:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "f84d1f4505a7f2d84751"
+            }
+          },
+          "formulaSummaries": {
+            "1.2.2-shadow.1": {
+              "formulaVersion": "1.2.2-shadow.1",
+              "open": 5,
+              "high": 5,
+              "low": 5,
+              "close": 5,
+              "average": 5,
+              "scoreTotal": 5,
+              "observations": 1,
+              "firstObservedAt": "2026-08-08T19:00:00.000Z",
+              "lastObservedAt": "2026-08-08T19:00:00.000Z",
+              "peakSample": 5,
+              "peakSampleHour": "2026-08-08T19Z|1.2.2-shadow.1",
+              "peakReasons": [
+                "positive event status",
+                "speculative or weakly evidenced",
+                "protective or positive context adjustment",
+                "routine or promotional adjustment"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.3,
+                "actuality": 0.2,
+                "protectiveContext": 0.5,
+                "routinePenalty": 0.5,
+                "contextualConcern": 0
+              }
+            },
+            "1.2.3-shadow.1": {
+              "formulaVersion": "1.2.3-shadow.1",
+              "open": 5,
+              "high": 5,
+              "low": 5,
+              "close": 5,
+              "average": 5,
+              "scoreTotal": 5,
+              "observations": 1,
+              "firstObservedAt": "2026-08-08T19:00:00.000Z",
+              "lastObservedAt": "2026-08-08T19:00:00.000Z",
+              "peakSample": 5,
+              "peakSampleHour": "2026-08-08T19Z|1.2.3-shadow.1",
+              "peakReasons": [
+                "positive event status",
+                "speculative or weakly evidenced",
+                "protective or positive context adjustment",
+                "routine or promotional adjustment"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.3,
+                "actuality": 0.2,
+                "protectiveContext": 0.5,
+                "routinePenalty": 0.5,
+                "contextualConcern": 0
+              }
+            }
+          },
+          "activeFormulaVersion": "1.2.2-shadow.1",
+          "formulaVersion": "1.2.2-shadow.1",
+          "open": 5,
+          "high": 5,
+          "low": 5,
+          "close": 5,
+          "average": 5,
+          "scoreTotal": 5,
+          "observations": 1,
+          "firstObservedAt": "2026-08-08T19:00:00.000Z",
+          "lastObservedAt": "2026-08-08T19:00:00.000Z",
+          "peakSample": 5,
+          "peakSampleHour": "2026-08-08T19Z|1.2.2-shadow.1",
+          "peakReasons": [
+            "positive event status",
+            "speculative or weakly evidenced",
+            "protective or positive context adjustment",
+            "routine or promotional adjustment"
+          ],
+          "peakFactors": {
+            "realizedHarm": 0,
+            "scale": 0,
+            "vulnerability": 0,
+            "lossOfControl": 0,
+            "irreversibility": 0,
+            "immediacy": 0,
+            "systemicReach": 0,
+            "credibleThreat": 0,
+            "evidence": 0.3,
+            "actuality": 0.2,
+            "protectiveContext": 0.5,
+            "routinePenalty": 0.5,
+            "contextualConcern": 0
+          },
+          "shadowFormulaVersion": "1.2.3-shadow.1"
+        }
+      },
+      "shadowInputs": {
+        "1.2.2-shadow.1": {
+          "c964e2b86dcca1b2407f": {
+            "title": "OpenAI acquires presentation startup NextSlide",
+            "summary": "OpenAI acquires presentation startup NextSlide. NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI",
+            "summaryFingerprint": "0f1e30007a0ac6d84c51",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3,
+              "actuality": 0.2,
+              "protectiveContext": 0.5,
+              "routinePenalty": 0.5,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "positive event status",
+              "speculative or weakly evidenced",
+              "protective or positive context adjustment",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "positive",
+            "polarity": "protective-or-positive"
+          }
+        },
+        "1.2.3-shadow.1": {
+          "f84d1f4505a7f2d84751": {
+            "title": "OpenAI acquires presentation startup NextSlide",
+            "summary": "OpenAI acquires presentation startup NextSlide. NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI",
+            "summaryFingerprint": "0f1e30007a0ac6d84c51",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3,
+              "actuality": 0.2,
+              "protectiveContext": 0.5,
+              "routinePenalty": 0.5,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "positive event status",
+              "speculative or weakly evidenced",
+              "protective or positive context adjustment",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "positive",
+            "polarity": "protective-or-positive"
+          }
+        }
+      }
     }
   },
   "legacyFormulaVersion": "1.0",

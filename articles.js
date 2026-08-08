@@ -173,16 +173,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.1566,
+      "freshness": 0.1533,
       "feedPosition": 0.2222,
-      "novelty": 0.5437
+      "novelty": 0.5373
     },
     "rankingReasons": [
       "urgency or risk",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2275,
+    "score": 0.2264,
     "doomIndex": 47.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -262,14 +262,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0863,
+      "freshness": 0.0845,
       "feedPosition": 1,
       "novelty": 0.9078
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2787,
+    "score": 0.2785,
     "doomIndex": 43.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -350,7 +350,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2455,
       "sourceAuthority": 0.5,
-      "freshness": 0.1422,
+      "freshness": 0.1393,
       "feedPosition": 0,
       "novelty": 0.7332
     },
@@ -359,7 +359,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "unusual language in the current story batch"
     ],
-    "score": 0.2188,
+    "score": 0.2183,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -438,14 +438,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.1037,
+      "freshness": 0.1015,
       "feedPosition": 0.3333,
       "novelty": 0.6492
     },
     "rankingReasons": [
       "urgency or risk"
     ],
-    "score": 0.2128,
+    "score": 0.2125,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -524,12 +524,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5088,
+      "freshness": 0.4982,
       "feedPosition": 0.6667,
-      "novelty": 0.5248
+      "novelty": 0.5168
     },
     "rankingReasons": [],
-    "score": 0.2705,
+    "score": 0.2681,
     "doomIndex": 30.4,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -617,7 +617,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2365,
+    "score": 0.2364,
     "doomIndex": 29.27,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -696,14 +696,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.7167,
+      "freshness": 0.7018,
       "feedPosition": 0.4444,
       "novelty": 0.9595
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.33,
+    "score": 0.3278,
     "doomIndex": 29.23,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -782,7 +782,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0379,
+      "freshness": 0.0371,
       "feedPosition": 0.4444,
       "novelty": 0.6117
     },
@@ -791,7 +791,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2367,
+    "score": 0.2366,
     "doomIndex": 23.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -872,7 +872,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.031,
+      "freshness": 0.0303,
       "feedPosition": 0.2222,
       "novelty": 0.5984
     },
@@ -881,7 +881,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.2901,
+    "score": 0.29,
     "doomIndex": 22.05,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1046,14 +1046,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.4823,
+      "freshness": 0.4723,
       "feedPosition": 0.5556,
       "novelty": 0.335
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.3435,
+    "score": 0.342,
     "doomIndex": 20.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1128,14 +1128,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.122,
       "sourceAuthority": 0.5,
-      "freshness": 0.2294,
+      "freshness": 0.2246,
       "feedPosition": 0,
       "novelty": 0.5105
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.1849,
+    "score": 0.1841,
     "doomIndex": 19.87,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1210,7 +1210,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.462,
       "sourceAuthority": 0.5,
-      "freshness": 0.0408,
+      "freshness": 0.0399,
       "feedPosition": 0.7778,
       "novelty": 0.6241
     },
@@ -1221,7 +1221,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3137,
+    "score": 0.3136,
     "doomIndex": 19.04,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1403,7 +1403,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.452,
       "sourceAuthority": 0.5,
-      "freshness": 0.138,
+      "freshness": 0.1351,
       "feedPosition": 0,
       "novelty": 0.8285
     },
@@ -1414,7 +1414,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2689,
+    "score": 0.2685,
     "doomIndex": 18.09,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1581,7 +1581,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.18,
       "sourceAuthority": 0.5,
-      "freshness": 0.0278,
+      "freshness": 0.0272,
       "feedPosition": 0.1111,
       "novelty": 0.4107
     },
@@ -2011,7 +2011,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.113,
       "sourceAuthority": 0.5,
-      "freshness": 0.7369,
+      "freshness": 0.7216,
       "feedPosition": 0.5556,
       "novelty": 0.8893
     },
@@ -2020,7 +2020,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3526,
+    "score": 0.3503,
     "doomIndex": 16.58,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2187,14 +2187,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.1054,
+      "freshness": 0.1032,
       "feedPosition": 1,
       "novelty": 0.7077
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.264,
+    "score": 0.2636,
     "doomIndex": 16.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2269,14 +2269,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.0403,
+      "freshness": 0.0394,
       "feedPosition": 0.1667,
       "novelty": 0.5845
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.1797,
+    "score": 0.1795,
     "doomIndex": 15.2,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2351,7 +2351,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0767,
+      "freshness": 0.0751,
       "feedPosition": 0.8889,
       "novelty": 0.8162
     },
@@ -2361,7 +2361,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3074,
+    "score": 0.3072,
     "doomIndex": 15.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2444,7 +2444,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.34,
       "sourceAuthority": 0.5,
-      "freshness": 0.041,
+      "freshness": 0.0401,
       "feedPosition": 0.8,
       "novelty": 0.6195
     },
@@ -2452,7 +2452,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "real-world consequences"
     ],
-    "score": 0.2911,
+    "score": 0.291,
     "doomIndex": 15.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2700,8 +2700,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3745,
       "sourceAuthority": 0.5,
-      "freshness": 0.4189,
-      "feedPosition": 0.4444,
+      "freshness": 0.4102,
+      "feedPosition": 0.3333,
       "novelty": 0.7515
     },
     "rankingReasons": [
@@ -2710,7 +2710,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3323,
+    "score": 0.3199,
     "doomIndex": 14.84,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3223,7 +3223,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.1832,
+      "freshness": 0.1794,
       "feedPosition": 0.6,
       "novelty": 0.7298
     },
@@ -3232,7 +3232,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2815,
+    "score": 0.2809,
     "doomIndex": 13.41,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3741,15 +3741,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.9462,
+      "freshness": 0.9265,
       "feedPosition": 1,
-      "novelty": 0.4802
+      "novelty": 0.4731
     },
     "rankingReasons": [
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.494,
+    "score": 0.4904,
     "doomIndex": 12.98,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3822,15 +3822,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.5706,
-      "feedPosition": 1,
-      "novelty": 0.4152
+      "freshness": 0.5588,
+      "feedPosition": 0.8889,
+      "novelty": 0.4072
     },
     "rankingReasons": [
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.4312,
+    "score": 0.4175,
     "doomIndex": 12.98,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3903,7 +3903,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.154,
       "sourceAuthority": 0.5,
-      "freshness": 0.0804,
+      "freshness": 0.0787,
       "feedPosition": 1,
       "novelty": 0.8468
     },
@@ -3912,7 +3912,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3025,
+    "score": 0.3023,
     "doomIndex": 12.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3993,16 +3993,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0043,
+      "freshness": 0.0042,
       "feedPosition": 0,
-      "novelty": 0.4438
+      "novelty": 0.4347
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1704,
+    "score": 0.1695,
     "doomIndex": 12.87,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4165,7 +4165,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3138,
+      "freshness": 0.3073,
       "feedPosition": 0.6667,
       "novelty": 0.5628
     },
@@ -4173,7 +4173,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2734,
+    "score": 0.2724,
     "doomIndex": 12.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4248,7 +4248,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1765,
       "sourceAuthority": 0.5,
-      "freshness": 0.0278,
+      "freshness": 0.0272,
       "feedPosition": 0.7143,
       "novelty": 0.4618
     },
@@ -4256,7 +4256,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.2321,
+    "score": 0.232,
     "doomIndex": 12.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4413,7 +4413,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.232,
       "sourceAuthority": 0.5,
-      "freshness": 0.0391,
+      "freshness": 0.0383,
       "feedPosition": 0.5556,
       "novelty": 0.799
     },
@@ -4423,7 +4423,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2627,
+    "score": 0.2626,
     "doomIndex": 12.49,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4503,14 +4503,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.2732,
+      "freshness": 0.2675,
       "feedPosition": 0.5556,
       "novelty": 0.8382
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2625,
+    "score": 0.2616,
     "doomIndex": 12.46,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4672,7 +4672,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.801,
+      "freshness": 0.7843,
       "feedPosition": 0.7778,
       "novelty": 0.8242
     },
@@ -4680,7 +4680,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3766,
+    "score": 0.3741,
     "doomIndex": 12.16,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4760,14 +4760,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1226,
+      "freshness": 0.12,
       "feedPosition": 0.5556,
       "novelty": 0.8132
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2303,
+    "score": 0.2299,
     "doomIndex": 11.94,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4844,7 +4844,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0048,
+      "freshness": 0.0047,
       "feedPosition": 0.3333,
       "novelty": 0.4245
     },
@@ -4938,7 +4938,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.28,
       "sourceAuthority": 0.5,
-      "freshness": 0.0403,
+      "freshness": 0.0395,
       "feedPosition": 0.6667,
       "novelty": 0.817
     },
@@ -4948,7 +4948,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2854,
+    "score": 0.2853,
     "doomIndex": 11.67,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5030,14 +5030,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1054,
+      "freshness": 0.1032,
       "feedPosition": 0,
       "novelty": 0.4154
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.2323,
+    "score": 0.232,
     "doomIndex": 11.61,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5198,7 +5198,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.202,
       "sourceAuthority": 0.5,
-      "freshness": 0.4145,
+      "freshness": 0.4059,
       "feedPosition": 0.5556,
       "novelty": 0.5424
     },
@@ -5207,7 +5207,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.3874,
+    "score": 0.3861,
     "doomIndex": 11.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5280,7 +5280,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.191,
       "sourceAuthority": 0.5,
-      "freshness": 0.4346,
+      "freshness": 0.4256,
       "feedPosition": 0.1111,
       "novelty": 0.8904
     },
@@ -5289,7 +5289,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2785,
+    "score": 0.2772,
     "doomIndex": 11.47,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5370,7 +5370,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.1155,
+      "freshness": 0.1131,
       "feedPosition": 0.4444,
       "novelty": 0.799
     },
@@ -5380,7 +5380,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2671,
+    "score": 0.2667,
     "doomIndex": 11.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5460,14 +5460,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.254,
+      "freshness": 0.2487,
       "feedPosition": 0.3333,
       "novelty": 0.7842
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2249,
+    "score": 0.2241,
     "doomIndex": 11.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5542,12 +5542,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.4939,
+      "freshness": 0.4836,
       "feedPosition": 0.8889,
-      "novelty": 0.5511
+      "novelty": 0.5453
     },
     "rankingReasons": [],
-    "score": 0.2991,
+    "score": 0.297,
     "doomIndex": 11,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5620,7 +5620,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.2674,
+      "freshness": 0.2618,
       "feedPosition": 0.4444,
       "novelty": 0.9041
     },
@@ -5630,7 +5630,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3024,
+    "score": 0.3015,
     "doomIndex": 10.66,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5707,7 +5707,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0653,
+      "freshness": 0.064,
       "feedPosition": 0.3333,
       "novelty": 0.5756
     },
@@ -5716,7 +5716,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2261,
+    "score": 0.2259,
     "doomIndex": 10.27,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5793,7 +5793,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.339,
       "sourceAuthority": 0.5,
-      "freshness": 0.2326,
+      "freshness": 0.2278,
       "feedPosition": 0.1111,
       "novelty": 0.7047
     },
@@ -5803,7 +5803,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2593,
+    "score": 0.2585,
     "doomIndex": 10.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5883,7 +5883,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.3998,
+      "freshness": 0.3915,
       "feedPosition": 0.7778,
       "novelty": 0.6121
     },
@@ -5891,7 +5891,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3024,
+    "score": 0.3011,
     "doomIndex": 10.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5966,7 +5966,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.18,
       "sourceAuthority": 0.5,
-      "freshness": 0.242,
+      "freshness": 0.237,
       "feedPosition": 0.6667,
       "novelty": 0.657
     },
@@ -5975,7 +5975,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2797,
+    "score": 0.2789,
     "doomIndex": 10.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6050,7 +6050,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.119,
       "sourceAuthority": 0.5,
-      "freshness": 0.4605,
+      "freshness": 0.4509,
       "feedPosition": 1,
       "novelty": 0.7866
     },
@@ -6059,7 +6059,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3465,
+    "score": 0.3451,
     "doomIndex": 10.04,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6134,14 +6134,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.4405,
+      "freshness": 0.4314,
       "feedPosition": 0.6667,
       "novelty": 0.6613
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.281,
+    "score": 0.2796,
     "doomIndex": 9.93,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6216,15 +6216,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.1533,
+      "freshness": 0.1502,
       "feedPosition": 0.1111,
-      "novelty": 0.4924
+      "novelty": 0.4844
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1867,
+    "score": 0.1855,
     "doomIndex": 9.87,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6297,14 +6297,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1054,
+      "freshness": 0.1032,
       "feedPosition": 0.4444,
       "novelty": 0.6391
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.2134,
+    "score": 0.213,
     "doomIndex": 9.4,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6379,7 +6379,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.442,
       "sourceAuthority": 0.5,
-      "freshness": 0.801,
+      "freshness": 0.7843,
       "feedPosition": 0.6667,
       "novelty": 0.8984
     },
@@ -6391,7 +6391,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.44,
+    "score": 0.4376,
     "doomIndex": 9.16,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6470,7 +6470,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.4343,
+      "freshness": 0.4253,
       "feedPosition": 1,
       "novelty": 0.7403
     },
@@ -6479,7 +6479,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3426,
+    "score": 0.3412,
     "doomIndex": 9.08,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6559,7 +6559,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1545,
       "sourceAuthority": 0.5,
-      "freshness": 0.033,
+      "freshness": 0.0323,
       "feedPosition": 0.2222,
       "novelty": 0.7254
     },
@@ -6569,7 +6569,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.3056,
+    "score": 0.3055,
     "doomIndex": 8.91,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6648,7 +6648,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.03,
+      "freshness": 0.0293,
       "feedPosition": 0.1111,
       "novelty": 0.6845
     },
@@ -6658,7 +6658,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.2875,
+    "score": 0.2874,
     "doomIndex": 8.91,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6737,14 +6737,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0541,
+      "freshness": 0.053,
       "feedPosition": 0.8571,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2634,
+    "score": 0.2633,
     "doomIndex": 8.86,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6998,7 +6998,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.0041,
+      "freshness": 0.004,
       "feedPosition": 0.5714,
       "novelty": 0.5858
     },
@@ -7080,7 +7080,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0026,
+      "freshness": 0.0025,
       "feedPosition": 0.5556,
       "novelty": 0.8246
     },
@@ -7170,7 +7170,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.0641,
+      "freshness": 0.0628,
       "feedPosition": 0.3333,
       "novelty": 0.766
     },
@@ -7178,7 +7178,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2159,
+    "score": 0.2157,
     "doomIndex": 8.58,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7339,14 +7339,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.8533,
+      "freshness": 0.8356,
       "feedPosition": 0.4444,
       "novelty": 0.7275
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3202,
+    "score": 0.3175,
     "doomIndex": 8.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7504,7 +7504,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.4539,
+      "freshness": 0.4445,
       "feedPosition": 0.8889,
       "novelty": 0.8747
     },
@@ -7512,7 +7512,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3405,
+    "score": 0.3391,
     "doomIndex": 8.44,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7587,15 +7587,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.5503,
-      "feedPosition": 0.8889,
+      "freshness": 0.5389,
+      "feedPosition": 0.7778,
       "novelty": 0.7808
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3387,
+    "score": 0.3259,
     "doomIndex": 8.44,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7844,7 +7844,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.2652,
+      "freshness": 0.2597,
       "feedPosition": 1,
       "novelty": 0.8152
     },
@@ -7853,7 +7853,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3247,
+    "score": 0.3239,
     "doomIndex": 8.23,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7930,12 +7930,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.3998,
+      "freshness": 0.3915,
       "feedPosition": 0.7778,
       "novelty": 0.5226
     },
     "rankingReasons": [],
-    "score": 0.2721,
+    "score": 0.2709,
     "doomIndex": 7.96,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8265,7 +8265,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.324,
       "sourceAuthority": 0.5,
-      "freshness": 0.034,
+      "freshness": 0.0332,
       "feedPosition": 0.7778,
       "novelty": 0.9026
     },
@@ -8275,7 +8275,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3129,
+    "score": 0.3128,
     "doomIndex": 7.8,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8350,7 +8350,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.2271,
+      "freshness": 0.2224,
       "feedPosition": 0.8889,
       "novelty": 0.6704
     },
@@ -8361,7 +8361,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3294,
+    "score": 0.3287,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8438,7 +8438,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.1229,
+      "freshness": 0.1204,
       "feedPosition": 0.5556,
       "novelty": 0.714
     },
@@ -8448,7 +8448,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2708,
+    "score": 0.2704,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8612,15 +8612,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1575,
       "sourceAuthority": 0.5,
-      "freshness": 0.0759,
+      "freshness": 0.0743,
       "feedPosition": 0.2,
-      "novelty": 0.7654
+      "novelty": 0.7808
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2144,
+    "score": 0.2157,
     "doomIndex": 7.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8784,8 +8784,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.242,
       "sourceAuthority": 0.5,
-      "freshness": 0.4468,
-      "feedPosition": 0.5556,
+      "freshness": 0.4375,
+      "feedPosition": 0.4444,
       "novelty": 0.6951
     },
     "rankingReasons": [
@@ -8794,7 +8794,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3155,
+    "score": 0.303,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8871,7 +8871,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0365,
+      "freshness": 0.0357,
       "feedPosition": 0.7778,
       "novelty": 0.6751
     },
@@ -8881,7 +8881,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2762,
+    "score": 0.276,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8958,7 +8958,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0692,
+      "freshness": 0.0677,
       "feedPosition": 1,
       "novelty": 0.8156
     },
@@ -8966,7 +8966,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.2669,
+    "score": 0.2667,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9043,7 +9043,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.2705,
+      "freshness": 0.2648,
       "feedPosition": 0.5556,
       "novelty": 0.2552
     },
@@ -9052,7 +9052,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.239,
+    "score": 0.2382,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9390,14 +9390,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.9696,
+      "freshness": 0.9495,
       "feedPosition": 1,
       "novelty": 0.4604
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.3956,
+    "score": 0.3926,
     "doomIndex": 7.33,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9464,86 +9464,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "ChatGPT brings unlimited text chats to free users",
-    "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-06T17:34:42.000Z",
-    "image": "",
-    "coverageSources": 2,
-    "ranking": {
-      "coverage": 0.3333,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2534,
-      "feedPosition": 0.2222,
-      "novelty": 0.6315
-    },
-    "rankingReasons": [
-      "covered by multiple sources"
-    ],
-    "score": 0.2984,
-    "doomIndex": 7.22,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0.35,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4987,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "proposed event status"
-    ],
-    "doomIndexCoverageSources": 2,
-    "doomIndexSummaryFingerprint": "08382ca2eda14db2c659",
-    "doomIndexInputFingerprint": "b3003a0f567b8d1935d2",
-    "doomIndexV123Shadow": 7.22,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "proposed",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0.35,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4987,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "proposed event status"
-    ],
-    "doomIndexV123CoverageSources": 2,
-    "doomIndexV123SummaryFingerprint": "08382ca2eda14db2c659",
-    "doomIndexV123InputFingerprint": "322b28849ca0d6a0c56e",
-    "storyId": "ee19be2cef2d8ae6fe5c",
-    "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-08T19:00:00.000Z",
-    "feedSummary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries. AI Apps ChatGPT OpenAI",
-    "doomIndexInputSummary": "ChatGPT brings unlimited text chats to free users. OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries. AI Apps ChatGPT OpenAI OpenAI is giving ChatGPT free users unlimited text chats. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but those limits, just for text, will be going away soon. Messages that include things like file uploads and images will continue to have limits. Next week, OpenAI is also adding a \"Think\" button for free and Go users that they can use to \"access higher reasoning for harder questions.\" This week, for those users, the company is additionally upgrading ChatGPT's def … Read the full story at The Verge. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]"
-  },
-  {
-    "group": "ai",
     "title": "OpenAI is giving ChatGPT free users unlimited text chats",
     "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
     "source": "The Verge AI",
@@ -9554,14 +9474,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.2493,
+      "freshness": 0.2442,
       "feedPosition": 0.2222,
-      "novelty": 0.4988
+      "novelty": 0.4908
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.2916,
+    "score": 0.29,
     "doomIndex": 7.22,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9624,6 +9544,86 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "ChatGPT brings unlimited text chats to free users",
+    "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-06T17:34:42.000Z",
+    "image": "",
+    "coverageSources": 2,
+    "ranking": {
+      "coverage": 0.3333,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2481,
+      "feedPosition": 0.1111,
+      "novelty": 0.6315
+    },
+    "rankingReasons": [
+      "covered by multiple sources"
+    ],
+    "score": 0.2865,
+    "doomIndex": 7.22,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "proposed",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0.35,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.4987,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "proposed event status"
+    ],
+    "doomIndexCoverageSources": 2,
+    "doomIndexSummaryFingerprint": "08382ca2eda14db2c659",
+    "doomIndexInputFingerprint": "b3003a0f567b8d1935d2",
+    "doomIndexV123Shadow": 7.22,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "proposed",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0.35,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.4987,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "proposed event status"
+    ],
+    "doomIndexV123CoverageSources": 2,
+    "doomIndexV123SummaryFingerprint": "08382ca2eda14db2c659",
+    "doomIndexV123InputFingerprint": "322b28849ca0d6a0c56e",
+    "storyId": "ee19be2cef2d8ae6fe5c",
+    "firstSeen": "2026-08-06T20:00:00.000Z",
+    "lastSeen": "2026-08-08T19:00:00.000Z",
+    "feedSummary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries. AI Apps ChatGPT OpenAI",
+    "doomIndexInputSummary": "ChatGPT brings unlimited text chats to free users. OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries. AI Apps ChatGPT OpenAI OpenAI is giving ChatGPT free users unlimited text chats. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but those limits, just for text, will be going away soon. Messages that include things like file uploads and images will continue to have limits. Next week, OpenAI is also adding a \"Think\" button for free and Go users that they can use to \"access higher reasoning for harder questions.\" This week, for those users, the company is additionally upgrading ChatGPT's def … Read the full story at The Verge. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]"
+  },
+  {
+    "group": "ai",
     "title": "Watching Roku’s AI channel is like eating from a trough",
     "url": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
     "source": "The Verge AI",
@@ -9634,14 +9634,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.5133,
+      "freshness": 0.5027,
       "feedPosition": 0.7778,
-      "novelty": 0.7794
+      "novelty": 0.7999
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3148,
+    "score": 0.3153,
     "doomIndex": 6.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9716,7 +9716,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.4595,
+      "freshness": 0.4499,
       "feedPosition": 0.2222,
       "novelty": 0.9353
     },
@@ -9724,7 +9724,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2739,
+    "score": 0.2724,
     "doomIndex": 6.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9886,7 +9886,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.113,
       "sourceAuthority": 0.5,
-      "freshness": 0.3999,
+      "freshness": 0.3916,
       "feedPosition": 0,
       "novelty": 0.964
     },
@@ -9895,7 +9895,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.254,
+    "score": 0.2527,
     "doomIndex": 6.68,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10151,14 +10151,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.8739,
+      "freshness": 0.8557,
       "feedPosition": 0.7778,
       "novelty": 0.482
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.3541,
+    "score": 0.3513,
     "doomIndex": 6.05,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10239,7 +10239,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.8235,
+      "freshness": 0.8064,
       "feedPosition": 0.8889,
       "novelty": 0.7659
     },
@@ -10247,7 +10247,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3853,
+    "score": 0.3827,
     "doomIndex": 5.81,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10324,9 +10324,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.4271,
+      "freshness": 0.4183,
       "feedPosition": 0.3333,
-      "novelty": 0.7195
+      "novelty": 0.7332
     },
     "rankingReasons": [
       "surprise or reversal",
@@ -10407,7 +10407,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.4849,
+      "freshness": 0.4748,
       "feedPosition": 0.3333,
       "novelty": 0.6732
     },
@@ -10415,7 +10415,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2626,
+    "score": 0.2611,
     "doomIndex": 5.43,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10492,7 +10492,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.8943,
+      "freshness": 0.8757,
       "feedPosition": 1,
       "novelty": 0.9281
     },
@@ -10501,7 +10501,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.5231,
+    "score": 0.5203,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10576,7 +10576,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.4497,
+      "freshness": 0.4404,
       "feedPosition": 0.8889,
       "novelty": 0.3423
     },
@@ -10585,7 +10585,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.5036,
+    "score": 0.5022,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10660,14 +10660,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2566,
+      "freshness": 0.2512,
       "feedPosition": 1,
       "novelty": 0.5041
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4639,
+    "score": 0.4631,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10742,7 +10742,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.8629,
+      "freshness": 0.8449,
       "feedPosition": 1,
       "novelty": 0.7521
     },
@@ -10752,7 +10752,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.422,
+    "score": 0.4193,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10827,14 +10827,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2642,
+      "freshness": 0.2587,
       "feedPosition": 0.3333,
       "novelty": 0.5772
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4057,
+    "score": 0.4049,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10899,6 +10899,92 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "OpenAI acquires presentation startup NextSlide",
+    "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-08T19:41:13.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.998,
+      "feedPosition": 1,
+      "novelty": 0.7012
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4019,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "positive",
+    "doomIndexPolarity": "protective-or-positive",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.2,
+      "protectiveContext": 0.5,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "0f1e30007a0ac6d84c51",
+    "doomIndexInputFingerprint": "c964e2b86dcca1b2407f",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "positive",
+    "doomIndexV123Polarity": "protective-or-positive",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.2,
+      "protectiveContext": 0.5,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "0f1e30007a0ac6d84c51",
+    "doomIndexV123InputFingerprint": "f84d1f4505a7f2d84751",
+    "storyId": "39b28d95fcbaaeae7e25",
+    "firstSeen": "2026-08-08T19:00:00.000Z",
+    "lastSeen": "2026-08-08T19:00:00.000Z",
+    "feedSummary": "NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI",
+    "doomIndexInputSummary": "OpenAI acquires presentation startup NextSlide. NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI"
+  },
+  {
+    "group": "ai",
     "title": "How to Disable Gemini in Gmail and Google Docs",
     "url": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
     "source": "WIRED AI",
@@ -10909,7 +10995,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.7787,
+      "freshness": 0.7626,
       "feedPosition": 1,
       "novelty": 0.6893
     },
@@ -10919,7 +11005,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4031,
+    "score": 0.4007,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10996,7 +11082,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.8479,
+      "freshness": 0.8303,
       "feedPosition": 0.8889,
       "novelty": 0.8613
     },
@@ -11004,7 +11090,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3912,
+    "score": 0.3886,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11081,7 +11167,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.8028,
+      "freshness": 0.7862,
       "feedPosition": 1,
       "novelty": 0.7077
     },
@@ -11089,7 +11175,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3802,
+    "score": 0.3777,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11168,7 +11254,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.101,
       "sourceAuthority": 0.5,
-      "freshness": 0.5283,
+      "freshness": 0.5173,
       "feedPosition": 0.8889,
       "novelty": 0.8666
     },
@@ -11177,7 +11263,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.35,
+    "score": 0.3483,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11252,14 +11338,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2755,
       "sourceAuthority": 0.5,
-      "freshness": 0.4447,
+      "freshness": 0.4354,
       "feedPosition": 0.7778,
       "novelty": 0.6155
     },
     "rankingReasons": [
       "urgency or risk"
     ],
-    "score": 0.3361,
+    "score": 0.3347,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11332,14 +11418,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.656,
+      "freshness": 0.6423,
       "feedPosition": 0.6667,
       "novelty": 0.9595
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.336,
+    "score": 0.334,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11414,7 +11500,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.2192,
+      "freshness": 0.2147,
       "feedPosition": 0.6667,
       "novelty": 0.8705
     },
@@ -11424,7 +11510,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.304,
+    "score": 0.3033,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11499,7 +11585,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.2235,
+      "freshness": 0.2188,
       "feedPosition": 0.7778,
       "novelty": 0.714
     },
@@ -11509,7 +11595,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3001,
+    "score": 0.2994,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11574,88 +11660,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
-    "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-07T14:22:49.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4516,
-      "feedPosition": 0.6667,
-      "novelty": 0.8904
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2984,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "97d59edab3dad3eb3347",
-    "doomIndexInputFingerprint": "f5414d0147b9adf7c3c7",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "97d59edab3dad3eb3347",
-    "doomIndexV123InputFingerprint": "260152d243cf0eaece15",
-    "storyId": "96afb1a603823adfbac5",
-    "firstSeen": "2026-08-07T15:00:00.000Z",
-    "lastSeen": "2026-08-08T19:00:00.000Z",
-    "feedSummary": "Airbnb will debut a new AI-powered search experience with a toggle. AI Airbnb brian chesky ai coding",
-    "doomIndexInputSummary": "Airbnb says AI is helping it ship features faster as it tests a new search function. Airbnb will debut a new AI-powered search experience with a toggle. AI Airbnb brian chesky ai coding"
-  },
-  {
-    "group": "ai",
     "title": "First OpenAI, now Meta - why do AI hacks keep happening?",
     "url": "https://www.bbc.co.uk/news/articles/cp30989ee1wo?at_medium=RSS&at_campaign=rss",
     "source": "BBC News AI",
@@ -11666,16 +11670,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.331,
       "sourceAuthority": 0.5,
-      "freshness": 0.2425,
+      "freshness": 0.2374,
       "feedPosition": 0.8,
-      "novelty": 0.3658
+      "novelty": 0.3578
     },
     "rankingReasons": [
       "urgency or risk",
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.2941,
+    "score": 0.2926,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11740,6 +11744,170 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "AI agents are checking the scientific literature — and spotting decades-old errors",
+    "url": "https://www.nature.com/articles/d41586-026-02235-8",
+    "source": "Nature AI News & Comment",
+    "published": "2026-08-06T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.012,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1523,
+      "feedPosition": 1,
+      "novelty": 0.9086
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2911,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "d5aba49d3cf06246a000",
+    "doomIndexInputFingerprint": "ec11687bbcaf8711b216",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "d5aba49d3cf06246a000",
+    "doomIndexV123InputFingerprint": "e3fc02dcb4e372fac027",
+    "storyId": "67fff5c8e0af06100f90",
+    "firstSeen": "2026-08-06T15:00:00.000Z",
+    "lastSeen": "2026-08-08T19:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "AI agents are checking the scientific literature — and spotting decades-old errors."
+  },
+  {
+    "group": "ai",
+    "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+    "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-07T14:22:49.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4422,
+      "feedPosition": 0.5556,
+      "novelty": 0.8904
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2859,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "97d59edab3dad3eb3347",
+    "doomIndexInputFingerprint": "f5414d0147b9adf7c3c7",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "97d59edab3dad3eb3347",
+    "doomIndexV123InputFingerprint": "260152d243cf0eaece15",
+    "storyId": "96afb1a603823adfbac5",
+    "firstSeen": "2026-08-07T15:00:00.000Z",
+    "lastSeen": "2026-08-08T19:00:00.000Z",
+    "feedSummary": "Airbnb will debut a new AI-powered search experience with a toggle. AI Airbnb brian chesky ai coding",
+    "doomIndexInputSummary": "Airbnb says AI is helping it ship features faster as it tests a new search function. Airbnb will debut a new AI-powered search experience with a toggle. AI Airbnb brian chesky ai coding"
+  },
+  {
+    "group": "ai",
     "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
     "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
     "source": "TechCrunch AI",
@@ -11750,12 +11918,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.4759,
-      "feedPosition": 0.7778,
+      "freshness": 0.466,
+      "feedPosition": 0.6667,
       "novelty": 0.6241
     },
     "rankingReasons": [],
-    "score": 0.2937,
+    "score": 0.2811,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11822,88 +11990,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "AI agents are checking the scientific literature — and spotting decades-old errors",
-    "url": "https://www.nature.com/articles/d41586-026-02235-8",
-    "source": "Nature AI News & Comment",
-    "published": "2026-08-06T00:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.012,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1555,
-      "feedPosition": 1,
-      "novelty": 0.9086
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2916,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "d5aba49d3cf06246a000",
-    "doomIndexInputFingerprint": "ec11687bbcaf8711b216",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "d5aba49d3cf06246a000",
-    "doomIndexV123InputFingerprint": "e3fc02dcb4e372fac027",
-    "storyId": "67fff5c8e0af06100f90",
-    "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-08T19:00:00.000Z",
-    "feedSummary": "",
-    "doomIndexInputSummary": "AI agents are checking the scientific literature — and spotting decades-old errors."
-  },
-  {
-    "group": "ai",
     "title": "Microsoft Tells Engineers ‘Tokenmaxxing Is Not What We Are Optimizing For’",
     "url": "https://www.404media.co/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for/",
     "source": "404 Media AI",
@@ -11914,7 +12000,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.0644,
+      "freshness": 0.0631,
       "feedPosition": 0.8889,
       "novelty": 0.6912
     },
@@ -11923,7 +12009,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2771,
+    "score": 0.2769,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11998,7 +12084,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.0526,
+      "freshness": 0.0515,
       "feedPosition": 0.8889,
       "novelty": 0.803
     },
@@ -12006,7 +12092,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2741,
+    "score": 0.2739,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12085,7 +12171,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.191,
       "sourceAuthority": 0.5,
-      "freshness": 0.1471,
+      "freshness": 0.1441,
       "feedPosition": 0.6667,
       "novelty": 0.7032
     },
@@ -12094,7 +12180,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2723,
+    "score": 0.2718,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12169,7 +12255,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3,
       "sourceAuthority": 0.5,
-      "freshness": 0.0042,
+      "freshness": 0.0041,
       "feedPosition": 0.5556,
       "novelty": 0.8051
     },
@@ -12244,94 +12330,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
-    "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-06T17:00:37.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.3035,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2494,
-      "feedPosition": 0.1111,
-      "novelty": 0.7808
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2623,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "positive",
-    "doomIndexPolarity": "protective-or-positive",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.2,
-      "protectiveContext": 0.5,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "positive event status",
-      "speculative or weakly evidenced",
-      "protective or positive context adjustment",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "1e1edaffde46937406bf",
-    "doomIndexInputFingerprint": "a2a45c412523ebbd59fd",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "positive",
-    "doomIndexV123Polarity": "protective-or-positive",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.2,
-      "protectiveContext": 0.5,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "positive event status",
-      "speculative or weakly evidenced",
-      "protective or positive context adjustment",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "1e1edaffde46937406bf",
-    "doomIndexV123InputFingerprint": "a80597bf3e1b5a23ea24",
-    "storyId": "29dadb15030915c71d1a",
-    "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-08T19:00:00.000Z",
-    "feedSummary": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business. AI Fundraising Startups AI agents AI infranstructure",
-    "doomIndexInputSummary": "Naïve raises $28.5M to automate the grunt work of setting up and running a company. Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business. AI Fundraising Startups AI agents AI infranstructure"
-  },
-  {
-    "group": "ai",
     "title": "The key to colonizing Mars may be hidden inside asteroids",
     "url": "https://www.sciencedaily.com/releases/2026/08/260805082504.htm",
     "source": "ScienceDaily Technology",
@@ -12342,7 +12340,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.3527,
+      "freshness": 0.3454,
       "feedPosition": 0.2222,
       "novelty": 0.8613
     },
@@ -12350,7 +12348,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2574,
+    "score": 0.2563,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12410,88 +12408,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "lastSeen": "2026-08-08T19:00:00.000Z",
     "feedSummary": "Metal-rich asteroids could one day become hardware stores for Mars, supplying the materials needed to build and repair a growing colony. A new analysis shows that carefully selected asteroids may be reachable with current spacecraft technology. Some could even provide the ingredients for making rocket fuel in space, dramatically reducing the burden of hauling supplies from Earth.",
     "doomIndexInputSummary": "The key to colonizing Mars may be hidden inside asteroids. Metal-rich asteroids could one day become hardware stores for Mars, supplying the materials needed to build and repair a growing colony. A new analysis shows that carefully selected asteroids may be reachable with current spacecraft technology. Some could even provide the ingredients for making rocket fuel in space, dramatically reducing the burden of hauling supplies from Earth."
-  },
-  {
-    "group": "ai",
-    "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
-    "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-06T22:43:53.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.229,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2924,
-      "feedPosition": 0.3333,
-      "novelty": 0.5847
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.2565,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "9c33957c2912cec1af44",
-    "doomIndexInputFingerprint": "12d0a5ab610d7347242f",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "9c33957c2912cec1af44",
-    "doomIndexV123InputFingerprint": "a31a3b131f7fc455bd54",
-    "storyId": "5bb1d2f28822b6fc1593",
-    "firstSeen": "2026-08-07T00:00:00.000Z",
-    "lastSeen": "2026-08-08T19:00:00.000Z",
-    "feedSummary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker. AI Gadgets Hardware ChatGPT In Brief jony ive OpenAI",
-    "doomIndexInputSummary": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400. Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker. AI Gadgets Hardware ChatGPT In Brief jony ive OpenAI"
   },
   {
     "group": "ai",
@@ -12577,169 +12493,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
-    "source": "The Verge AI",
-    "published": "2026-08-06T20:55:39.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24958946/1421761326.jpg?quality=90&strip=all&crop=21.6,18.717179294824,78.4,81.282820705176",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.141,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2781,
-      "feedPosition": 0.4444,
-      "novelty": 0.6394
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "recognizable entities"
-    ],
-    "score": 0.2533,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.5487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "7fd8bd129a03f0e6dfe4",
-    "doomIndexInputFingerprint": "e0f2c97b0d6daf2c88f4",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.5487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "7fd8bd129a03f0e6dfe4",
-    "doomIndexV123InputFingerprint": "d23a3f7e3bd95068b123",
-    "storyId": "20f43dae1ff7c87af0c1",
-    "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-08T19:00:00.000Z",
-    "feedSummary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]",
-    "doomIndexInputSummary": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]"
-  },
-  {
-    "group": "ai",
-    "title": "A star’s violent death exposed a hidden supermassive black hole",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260805082457.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-06T12:16:32.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.19,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2187,
-      "feedPosition": 0.1111,
-      "novelty": 0.9595
-    },
-    "rankingReasons": [
-      "urgency or risk",
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2529,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.5637,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "7a49925777f8ca4fffef",
-    "doomIndexInputFingerprint": "135f1dabfa7a5c9812e7",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.5637,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "7a49925777f8ca4fffef",
-    "doomIndexV123InputFingerprint": "128e4b3e3c01d87e48bf",
-    "storyId": "68da802e26076410b691",
-    "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-08T19:00:00.000Z",
-    "feedSummary": "A supermassive black hole has been found lurking about 30,000 light-years from the center of its galaxy—the first dormant black hole detected so far from a galactic core. It revealed itself only after shredding a passing star and producing a brief, brilliant flare. Astronomers think it may be the remnant of a devoured galaxy or a black hole flung outward during a chaotic cosmic encounter.",
-    "doomIndexInputSummary": "A star’s violent death exposed a hidden supermassive black hole. A supermassive black hole has been found lurking about 30,000 light-years from the center of its galaxy—the first dormant black hole detected so far from a galactic core. It revealed itself only after shredding a passing star and producing a brief, brilliant flare. Astronomers think it may be the remnant of a devoured galaxy or a black hole flung outward during a chaotic cosmic encounter."
-  },
-  {
-    "group": "ai",
     "title": "'I've had to Botox my CV': Are AI recruitment tools affecting women's careers?",
     "url": "https://www.bbc.co.uk/news/articles/cyvl8y141e4o?at_medium=RSS&at_campaign=rss",
     "source": "BBC News AI",
@@ -12750,7 +12503,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.083,
       "sourceAuthority": 0.5,
-      "freshness": 0.2036,
+      "freshness": 0.1994,
       "feedPosition": 0.4,
       "novelty": 0.9075
     },
@@ -12758,7 +12511,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2529,
+    "score": 0.2523,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12823,6 +12576,169 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "A star’s violent death exposed a hidden supermassive black hole",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260805082457.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-06T12:16:32.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.19,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2141,
+      "feedPosition": 0.1111,
+      "novelty": 0.9595
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2522,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5637,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "7a49925777f8ca4fffef",
+    "doomIndexInputFingerprint": "135f1dabfa7a5c9812e7",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5637,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "7a49925777f8ca4fffef",
+    "doomIndexV123InputFingerprint": "128e4b3e3c01d87e48bf",
+    "storyId": "68da802e26076410b691",
+    "firstSeen": "2026-08-06T15:00:00.000Z",
+    "lastSeen": "2026-08-08T19:00:00.000Z",
+    "feedSummary": "A supermassive black hole has been found lurking about 30,000 light-years from the center of its galaxy—the first dormant black hole detected so far from a galactic core. It revealed itself only after shredding a passing star and producing a brief, brilliant flare. Astronomers think it may be the remnant of a devoured galaxy or a black hole flung outward during a chaotic cosmic encounter.",
+    "doomIndexInputSummary": "A star’s violent death exposed a hidden supermassive black hole. A supermassive black hole has been found lurking about 30,000 light-years from the center of its galaxy—the first dormant black hole detected so far from a galactic core. It revealed itself only after shredding a passing star and producing a brief, brilliant flare. Astronomers think it may be the remnant of a devoured galaxy or a black hole flung outward during a chaotic cosmic encounter."
+  },
+  {
+    "group": "ai",
+    "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+    "source": "The Verge AI",
+    "published": "2026-08-06T20:55:39.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24958946/1421761326.jpg?quality=90&strip=all&crop=21.6,18.717179294824,78.4,81.282820705176",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.141,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2723,
+      "feedPosition": 0.4444,
+      "novelty": 0.6335
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "recognizable entities"
+    ],
+    "score": 0.2518,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5487,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "7fd8bd129a03f0e6dfe4",
+    "doomIndexInputFingerprint": "e0f2c97b0d6daf2c88f4",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5487,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "7fd8bd129a03f0e6dfe4",
+    "doomIndexV123InputFingerprint": "d23a3f7e3bd95068b123",
+    "storyId": "20f43dae1ff7c87af0c1",
+    "firstSeen": "2026-08-06T21:00:00.000Z",
+    "lastSeen": "2026-08-08T19:00:00.000Z",
+    "feedSummary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]",
+    "doomIndexInputSummary": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]"
+  },
+  {
+    "group": "ai",
     "title": "DeepMind Says Its AI Can Predict Hurricanes Earlier Than Everyone Else",
     "url": "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/",
     "source": "WIRED AI",
@@ -12833,7 +12749,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.2451,
+      "freshness": 0.24,
       "feedPosition": 0.3333,
       "novelty": 0.7808
     },
@@ -12842,7 +12758,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2516,
+    "score": 0.2508,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12907,6 +12823,176 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
+    "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-06T17:00:37.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.3035,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2442,
+      "feedPosition": 0,
+      "novelty": 0.7808
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2504,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "positive",
+    "doomIndexPolarity": "protective-or-positive",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.2,
+      "protectiveContext": 0.5,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "1e1edaffde46937406bf",
+    "doomIndexInputFingerprint": "a2a45c412523ebbd59fd",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "positive",
+    "doomIndexV123Polarity": "protective-or-positive",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.2,
+      "protectiveContext": 0.5,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "1e1edaffde46937406bf",
+    "doomIndexV123InputFingerprint": "a80597bf3e1b5a23ea24",
+    "storyId": "29dadb15030915c71d1a",
+    "firstSeen": "2026-08-06T20:00:00.000Z",
+    "lastSeen": "2026-08-08T19:00:00.000Z",
+    "feedSummary": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business. AI Fundraising Startups AI agents AI infranstructure",
+    "doomIndexInputSummary": "Naïve raises $28.5M to automate the grunt work of setting up and running a company. Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business. AI Fundraising Startups AI agents AI infranstructure"
+  },
+  {
+    "group": "ai",
+    "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+    "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-06T22:43:53.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.229,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2863,
+      "feedPosition": 0.2222,
+      "novelty": 0.5776
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.2437,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.4,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "9c33957c2912cec1af44",
+    "doomIndexInputFingerprint": "12d0a5ab610d7347242f",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.4,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "9c33957c2912cec1af44",
+    "doomIndexV123InputFingerprint": "a31a3b131f7fc455bd54",
+    "storyId": "5bb1d2f28822b6fc1593",
+    "firstSeen": "2026-08-07T00:00:00.000Z",
+    "lastSeen": "2026-08-08T19:00:00.000Z",
+    "feedSummary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker. AI Gadgets Hardware ChatGPT In Brief jony ive OpenAI",
+    "doomIndexInputSummary": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400. Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker. AI Gadgets Hardware ChatGPT In Brief jony ive OpenAI"
+  },
+  {
+    "group": "ai",
     "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
     "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
     "source": "BBC News AI",
@@ -12917,7 +13003,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.118,
+      "freshness": 0.1156,
       "feedPosition": 0.5,
       "novelty": 0.7275
     },
@@ -12925,7 +13011,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2435,
+    "score": 0.2431,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13246,89 +13332,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
-    "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-06T15:53:03.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.071,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2417,
-      "feedPosition": 0,
-      "novelty": 0.8889
-    },
-    "rankingReasons": [
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2143,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "2c7382c4705f3d9fba3d",
-    "doomIndexInputFingerprint": "42f1c37fa55ec13b8c36",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "2c7382c4705f3d9fba3d",
-    "doomIndexV123InputFingerprint": "92cbf73ae18391f1a7c2",
-    "storyId": "18b6108d4ac6f277aaff",
-    "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-08T19:00:00.000Z",
-    "feedSummary": "This generation of twentysomethings is so disillusioned with swipe-based dating apps that they'll try literally anything else — even an AI matchmaker. AI Apps Social dating apps ditto",
-    "doomIndexInputSummary": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking. This generation of twentysomethings is so disillusioned with swipe-based dating apps that they'll try literally anything else — even an AI matchmaker. AI Apps Social dating apps ditto"
-  },
-  {
-    "group": "ai",
     "title": "Want to get more from AI? Treat every prompt like an experiment",
     "url": "https://www.nature.com/articles/d41586-026-02083-6",
     "source": "Nature AI News & Comment",
@@ -13339,14 +13342,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.021,
+      "freshness": 0.0206,
       "feedPosition": 0.6,
-      "novelty": 0.6845
+      "novelty": 0.6998
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2137,
+    "score": 0.2152,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13423,16 +13426,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0022,
+      "freshness": 0.0021,
       "feedPosition": 0.3333,
-      "novelty": 0.7114
+      "novelty": 0.7319
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2082,
+    "score": 0.2102,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13509,12 +13512,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.2715,
+      "freshness": 0.2658,
       "feedPosition": 0.4444,
       "novelty": 0.3824
     },
     "rankingReasons": [],
-    "score": 0.2055,
+    "score": 0.2047,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13673,12 +13676,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2443,
+      "freshness": 0.2392,
       "feedPosition": 0.2222,
       "novelty": 0.6492
     },
     "rankingReasons": [],
-    "score": 0.1988,
+    "score": 0.198,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13753,14 +13756,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1034,
+      "freshness": 0.1013,
       "feedPosition": 0,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1976,
+    "score": 0.1973,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13994,14 +13997,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2111,
+      "freshness": 0.2067,
       "feedPosition": 0.1111,
       "novelty": 0.746
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1924,
+    "score": 0.1917,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -14078,7 +14081,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0475,
       "sourceAuthority": 0.5,
-      "freshness": 0.0008,
+      "freshness": 0.0007,
       "feedPosition": 0.2,
       "novelty": 0.8666
     },
@@ -14325,7 +14328,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.0163,
+      "freshness": 0.0159,
       "feedPosition": 0,
       "novelty": 0.6788
     },
