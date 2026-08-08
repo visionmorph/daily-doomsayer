@@ -6,6 +6,7 @@
     "update-news": "node scripts/fetch-news.mjs",
     "build-calibration-benchmark": "node scripts/build-calibration-benchmark.mjs",
     "analyze-calibration": "node scripts/analyze-human-calibration.mjs",
+    "evaluate-candidate": "node scripts/evaluate-dread-candidate.mjs",
     "verify-news": "node --test tests/doom-index-v1.2.test.mjs tests/doom-index-v1.2.1.test.mjs tests/doom-index-v1.2.2.test.mjs tests/doom-index-v1.2.3.test.mjs tests/human-calibration.test.mjs tests/site-data.test.mjs && node scripts/verify-doom-index.mjs"
   },
   "dependencies": {
