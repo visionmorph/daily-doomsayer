@@ -1,0 +1,53 @@
+name: Update calibration benchmark
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/human-calibration/raw/**/*.json"
+
+concurrency:
+  group: update-calibration-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  update-calibration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          package-manager-cache: false
+
+      - name: Verify the calibration tools
+        run: node --test tests/human-calibration.test.mjs
+
+      - name: Rebuild the calibration benchmark
+        run: npm run build-calibration-benchmark
+
+      - name: Analyze DREAD model agreement
+        run: |
+          npm run --silent analyze-calibration | tee calibration-report.md
+          cat calibration-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Save the updated benchmark
+        run: |
+          git add data/human-calibration/calibration-benchmark.v1.json
+          if git diff --cached --quiet; then
+            echo "No calibration benchmark changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update DREAD calibration benchmark"
+          git push
