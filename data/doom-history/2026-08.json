@@ -57104,18 +57104,18 @@
               "inputFingerprint": "ea0b442007d4206479f9"
             },
             "2026-08-08T09Z|1.2.2-shadow.1": {
-              "value": 5,
+              "value": 8.91,
               "observedAt": "2026-08-08T09:00:00.000Z",
               "formulaVersion": "1.2.2-shadow.1",
               "formulaFingerprint": "038227c518a0cea1b62b",
-              "inputFingerprint": "fd772f55556a096f342e"
+              "inputFingerprint": "e66a680e1e6501e2704a"
             },
             "2026-08-08T09Z|1.2.3-shadow.1": {
-              "value": 5,
+              "value": 9.05,
               "observedAt": "2026-08-08T09:00:00.000Z",
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
-              "inputFingerprint": "d588a4e716c72f913eff"
+              "inputFingerprint": "ea0b442007d4206479f9"
             }
           },
           "formulaSummaries": {
@@ -57124,9 +57124,9 @@
               "open": 5,
               "high": 8.91,
               "low": 5,
-              "close": 5,
-              "average": 5.98,
-              "scoreTotal": 23.91,
+              "close": 8.91,
+              "average": 6.96,
+              "scoreTotal": 27.82,
               "observations": 4,
               "firstObservedAt": "2026-08-08T05:00:00.000Z",
               "lastObservedAt": "2026-08-08T09:00:00.000Z",
@@ -57158,9 +57158,9 @@
               "open": 5,
               "high": 9.05,
               "low": 5,
-              "close": 5,
-              "average": 6.01,
-              "scoreTotal": 24.05,
+              "close": 9.05,
+              "average": 7.03,
+              "scoreTotal": 28.1,
               "observations": 4,
               "firstObservedAt": "2026-08-08T05:00:00.000Z",
               "lastObservedAt": "2026-08-08T09:00:00.000Z",
@@ -57195,9 +57195,9 @@
           "open": 5,
           "high": 8.91,
           "low": 5,
-          "close": 5,
-          "average": 5.98,
-          "scoreTotal": 23.91,
+          "close": 8.91,
+          "average": 6.96,
+          "scoreTotal": 27.82,
           "observations": 4,
           "firstObservedAt": "2026-08-08T05:00:00.000Z",
           "lastObservedAt": "2026-08-08T09:00:00.000Z",
@@ -190702,7 +190702,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/06/image.png",
       "published": "2026-08-03T10:00:00.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-08T08:00:00.000Z",
+      "lastSeen": "2026-08-08T09:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -190941,6 +190941,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "6d315e118c507defdb44"
+            },
+            "2026-08-08T09Z|1.2.2-shadow.1": {
+              "value": 17.48,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "867ba9e7dff8fc5909cf"
+            },
+            "2026-08-08T09Z|1.2.3-shadow.1": {
+              "value": 22.97,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "6d315e118c507defdb44"
             }
           },
           "formulaSummaries": {
@@ -190951,10 +190965,10 @@
               "low": 17.48,
               "close": 17.48,
               "average": 17.48,
-              "scoreTotal": 17.48,
-              "observations": 1,
+              "scoreTotal": 34.96,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 17.48,
               "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -190985,10 +190999,10 @@
               "low": 22.97,
               "close": 22.97,
               "average": 22.97,
-              "scoreTotal": 22.97,
-              "observations": 1,
+              "scoreTotal": 45.94,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 22.97,
               "peakSampleHour": "2026-08-08T08Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -191022,10 +191036,10 @@
           "low": 17.48,
           "close": 17.48,
           "average": 17.48,
-          "scoreTotal": 17.48,
-          "observations": 1,
+          "scoreTotal": 34.96,
+          "observations": 2,
           "firstObservedAt": "2026-08-08T08:00:00.000Z",
-          "lastObservedAt": "2026-08-08T08:00:00.000Z",
+          "lastObservedAt": "2026-08-08T09:00:00.000Z",
           "peakSample": 17.48,
           "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -191124,7 +191138,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-07-31T15:04:25.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-08T08:00:00.000Z",
+      "lastSeen": "2026-08-08T09:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -191360,6 +191374,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "ded18c05dbaa8b2471cb"
+            },
+            "2026-08-08T09Z|1.2.2-shadow.1": {
+              "value": 12.87,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "99143e618e9e1cdb8869"
+            },
+            "2026-08-08T09Z|1.2.3-shadow.1": {
+              "value": 13.21,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "ded18c05dbaa8b2471cb"
             }
           },
           "formulaSummaries": {
@@ -191370,10 +191398,10 @@
               "low": 12.87,
               "close": 12.87,
               "average": 12.87,
-              "scoreTotal": 12.87,
-              "observations": 1,
+              "scoreTotal": 25.74,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 12.87,
               "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -191403,10 +191431,10 @@
               "low": 13.21,
               "close": 13.21,
               "average": 13.21,
-              "scoreTotal": 13.21,
-              "observations": 1,
+              "scoreTotal": 26.42,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 13.21,
               "peakSampleHour": "2026-08-08T08Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -191439,10 +191467,10 @@
           "low": 12.87,
           "close": 12.87,
           "average": 12.87,
-          "scoreTotal": 12.87,
-          "observations": 1,
+          "scoreTotal": 25.74,
+          "observations": 2,
           "firstObservedAt": "2026-08-08T08:00:00.000Z",
-          "lastObservedAt": "2026-08-08T08:00:00.000Z",
+          "lastObservedAt": "2026-08-08T09:00:00.000Z",
           "peakSample": 12.87,
           "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -191538,7 +191566,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-08-05T15:26:20.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-08T08:00:00.000Z",
+      "lastSeen": "2026-08-08T09:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -191774,6 +191802,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "a9f457e6d85a50f4e350"
+            },
+            "2026-08-08T09Z|1.2.2-shadow.1": {
+              "value": 11.94,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "3fc0a0b51aed7bcb79b0"
+            },
+            "2026-08-08T09Z|1.2.3-shadow.1": {
+              "value": 17.27,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "a9f457e6d85a50f4e350"
             }
           },
           "formulaSummaries": {
@@ -191784,10 +191826,10 @@
               "low": 11.94,
               "close": 11.94,
               "average": 11.94,
-              "scoreTotal": 11.94,
-              "observations": 1,
+              "scoreTotal": 23.88,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 11.94,
               "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -191817,10 +191859,10 @@
               "low": 17.27,
               "close": 17.27,
               "average": 17.27,
-              "scoreTotal": 17.27,
-              "observations": 1,
+              "scoreTotal": 34.54,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 17.27,
               "peakSampleHour": "2026-08-08T08Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -191853,10 +191895,10 @@
           "low": 11.94,
           "close": 11.94,
           "average": 11.94,
-          "scoreTotal": 11.94,
-          "observations": 1,
+          "scoreTotal": 23.88,
+          "observations": 2,
           "firstObservedAt": "2026-08-08T08:00:00.000Z",
-          "lastObservedAt": "2026-08-08T08:00:00.000Z",
+          "lastObservedAt": "2026-08-08T09:00:00.000Z",
           "peakSample": 11.94,
           "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -193153,7 +193195,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-08-06T15:55:37.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-08T08:00:00.000Z",
+      "lastSeen": "2026-08-08T09:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -193386,6 +193428,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "cb1ad6e24538832b6252"
+            },
+            "2026-08-08T09Z|1.2.2-shadow.1": {
+              "value": 10.1,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "ae4b7a09aa898559e32e"
+            },
+            "2026-08-08T09Z|1.2.3-shadow.1": {
+              "value": 13.14,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "cb1ad6e24538832b6252"
             }
           },
           "formulaSummaries": {
@@ -193396,10 +193452,10 @@
               "low": 10.1,
               "close": 10.1,
               "average": 10.1,
-              "scoreTotal": 10.1,
-              "observations": 1,
+              "scoreTotal": 20.2,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 10.1,
               "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -193428,10 +193484,10 @@
               "low": 13.14,
               "close": 13.14,
               "average": 13.14,
-              "scoreTotal": 13.14,
-              "observations": 1,
+              "scoreTotal": 26.28,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 13.14,
               "peakSampleHour": "2026-08-08T08Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -193463,10 +193519,10 @@
           "low": 10.1,
           "close": 10.1,
           "average": 10.1,
-          "scoreTotal": 10.1,
-          "observations": 1,
+          "scoreTotal": 20.2,
+          "observations": 2,
           "firstObservedAt": "2026-08-08T08:00:00.000Z",
-          "lastObservedAt": "2026-08-08T08:00:00.000Z",
+          "lastObservedAt": "2026-08-08T09:00:00.000Z",
           "peakSample": 10.1,
           "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -194105,7 +194161,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/06/image.png",
       "published": "2026-08-05T10:00:00.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-08T08:00:00.000Z",
+      "lastSeen": "2026-08-08T09:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -194339,6 +194395,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "666210d4998773aac49c"
+            },
+            "2026-08-08T09Z|1.2.2-shadow.1": {
+              "value": 9.4,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "c507270c9605775d868c"
+            },
+            "2026-08-08T09Z|1.2.3-shadow.1": {
+              "value": 9.4,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "666210d4998773aac49c"
             }
           },
           "formulaSummaries": {
@@ -194349,10 +194419,10 @@
               "low": 9.4,
               "close": 9.4,
               "average": 9.4,
-              "scoreTotal": 9.4,
-              "observations": 1,
+              "scoreTotal": 18.8,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 9.4,
               "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -194382,10 +194452,10 @@
               "low": 9.4,
               "close": 9.4,
               "average": 9.4,
-              "scoreTotal": 9.4,
-              "observations": 1,
+              "scoreTotal": 18.8,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 9.4,
               "peakSampleHour": "2026-08-08T08Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -194416,10 +194486,10 @@
           "low": 9.4,
           "close": 9.4,
           "average": 9.4,
-          "scoreTotal": 9.4,
-          "observations": 1,
+          "scoreTotal": 18.8,
+          "observations": 2,
           "firstObservedAt": "2026-08-08T08:00:00.000Z",
-          "lastObservedAt": "2026-08-08T08:00:00.000Z",
+          "lastObservedAt": "2026-08-08T09:00:00.000Z",
           "peakSample": 9.4,
           "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -195024,7 +195094,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-08-03T16:09:25.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-08T08:00:00.000Z",
+      "lastSeen": "2026-08-08T09:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -195263,6 +195333,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "2265ac4a7476d0df3223"
+            },
+            "2026-08-08T09Z|1.2.2-shadow.1": {
+              "value": 8.91,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "daa190a54252011abd60"
+            },
+            "2026-08-08T09Z|1.2.3-shadow.1": {
+              "value": 9.05,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "2265ac4a7476d0df3223"
             }
           },
           "formulaSummaries": {
@@ -195273,10 +195357,10 @@
               "low": 8.91,
               "close": 8.91,
               "average": 8.91,
-              "scoreTotal": 8.91,
-              "observations": 1,
+              "scoreTotal": 17.82,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 8.91,
               "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -195307,10 +195391,10 @@
               "low": 9.05,
               "close": 9.05,
               "average": 9.05,
-              "scoreTotal": 9.05,
-              "observations": 1,
+              "scoreTotal": 18.1,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 9.05,
               "peakSampleHour": "2026-08-08T08Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -195344,10 +195428,10 @@
           "low": 8.91,
           "close": 8.91,
           "average": 8.91,
-          "scoreTotal": 8.91,
-          "observations": 1,
+          "scoreTotal": 17.82,
+          "observations": 2,
           "firstObservedAt": "2026-08-08T08:00:00.000Z",
-          "lastObservedAt": "2026-08-08T08:00:00.000Z",
+          "lastObservedAt": "2026-08-08T09:00:00.000Z",
           "peakSample": 8.91,
           "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -195446,7 +195530,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-08-04T16:07:15.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-08T08:00:00.000Z",
+      "lastSeen": "2026-08-08T09:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -195683,6 +195767,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "a4aadd2e6b6b28caa555"
+            },
+            "2026-08-08T09Z|1.2.2-shadow.1": {
+              "value": 8.58,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "406476afc283a9b6fb30"
+            },
+            "2026-08-08T09Z|1.2.3-shadow.1": {
+              "value": 8.58,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "a4aadd2e6b6b28caa555"
             }
           },
           "formulaSummaries": {
@@ -195693,10 +195791,10 @@
               "low": 8.58,
               "close": 8.58,
               "average": 8.58,
-              "scoreTotal": 8.58,
-              "observations": 1,
+              "scoreTotal": 17.16,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 8.58,
               "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -195727,10 +195825,10 @@
               "low": 8.58,
               "close": 8.58,
               "average": 8.58,
-              "scoreTotal": 8.58,
-              "observations": 1,
+              "scoreTotal": 17.16,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 8.58,
               "peakSampleHour": "2026-08-08T08Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -195762,10 +195860,10 @@
           "low": 8.58,
           "close": 8.58,
           "average": 8.58,
-          "scoreTotal": 8.58,
-          "observations": 1,
+          "scoreTotal": 17.16,
+          "observations": 2,
           "firstObservedAt": "2026-08-08T08:00:00.000Z",
-          "lastObservedAt": "2026-08-08T08:00:00.000Z",
+          "lastObservedAt": "2026-08-08T09:00:00.000Z",
           "peakSample": 8.58,
           "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -195862,7 +195960,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/06/image.png",
       "published": "2026-08-07T10:00:00.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-08T08:00:00.000Z",
+      "lastSeen": "2026-08-08T09:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -196096,6 +196194,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "32eb9c60c6a6c97257a4"
+            },
+            "2026-08-08T09Z|1.2.2-shadow.1": {
+              "value": 7.96,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "10e074da23f84cfc6d5d"
+            },
+            "2026-08-08T09Z|1.2.3-shadow.1": {
+              "value": 7.96,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "32eb9c60c6a6c97257a4"
             }
           },
           "formulaSummaries": {
@@ -196106,10 +196218,10 @@
               "low": 7.96,
               "close": 7.96,
               "average": 7.96,
-              "scoreTotal": 7.96,
-              "observations": 1,
+              "scoreTotal": 15.92,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 7.96,
               "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -196139,10 +196251,10 @@
               "low": 7.96,
               "close": 7.96,
               "average": 7.96,
-              "scoreTotal": 7.96,
-              "observations": 1,
+              "scoreTotal": 15.92,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 7.96,
               "peakSampleHour": "2026-08-08T08Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -196173,10 +196285,10 @@
           "low": 7.96,
           "close": 7.96,
           "average": 7.96,
-          "scoreTotal": 7.96,
-          "observations": 1,
+          "scoreTotal": 15.92,
+          "observations": 2,
           "firstObservedAt": "2026-08-08T08:00:00.000Z",
-          "lastObservedAt": "2026-08-08T08:00:00.000Z",
+          "lastObservedAt": "2026-08-08T09:00:00.000Z",
           "peakSample": 7.96,
           "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -197574,7 +197686,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-08-07T15:05:03.000Z",
       "firstSeen": "2026-08-07T15:00:00.000Z",
-      "lastSeen": "2026-08-08T08:00:00.000Z",
+      "lastSeen": "2026-08-08T09:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -197793,6 +197905,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "7a0f0411ae88a1f21c14"
+            },
+            "2026-08-08T09Z|1.2.2-shadow.1": {
+              "value": 10.04,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "41d4bf613f4d40183418"
+            },
+            "2026-08-08T09Z|1.2.3-shadow.1": {
+              "value": 16.07,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "7a0f0411ae88a1f21c14"
             }
           },
           "formulaSummaries": {
@@ -197803,10 +197929,10 @@
               "low": 10.04,
               "close": 10.04,
               "average": 10.04,
-              "scoreTotal": 10.04,
-              "observations": 1,
+              "scoreTotal": 20.08,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 10.04,
               "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -197835,10 +197961,10 @@
               "low": 16.07,
               "close": 16.07,
               "average": 16.07,
-              "scoreTotal": 16.07,
-              "observations": 1,
+              "scoreTotal": 32.14,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 16.07,
               "peakSampleHour": "2026-08-08T08Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -197870,10 +197996,10 @@
           "low": 10.04,
           "close": 10.04,
           "average": 10.04,
-          "scoreTotal": 10.04,
-          "observations": 1,
+          "scoreTotal": 20.08,
+          "observations": 2,
           "firstObservedAt": "2026-08-08T08:00:00.000Z",
-          "lastObservedAt": "2026-08-08T08:00:00.000Z",
+          "lastObservedAt": "2026-08-08T09:00:00.000Z",
           "peakSample": 10.04,
           "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -197966,7 +198092,7 @@
       "image": "",
       "published": "2026-08-07T14:33:59.000Z",
       "firstSeen": "2026-08-07T15:00:00.000Z",
-      "lastSeen": "2026-08-08T08:00:00.000Z",
+      "lastSeen": "2026-08-08T09:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -198186,6 +198312,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "d3a01d7f830b350676af"
+            },
+            "2026-08-08T09Z|1.2.2-shadow.1": {
+              "value": 8.44,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "d8cdb087da295618a2a3"
+            },
+            "2026-08-08T09Z|1.2.3-shadow.1": {
+              "value": 8.44,
+              "observedAt": "2026-08-08T09:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "d3a01d7f830b350676af"
             }
           },
           "formulaSummaries": {
@@ -198196,10 +198336,10 @@
               "low": 8.44,
               "close": 8.44,
               "average": 8.44,
-              "scoreTotal": 8.44,
-              "observations": 1,
+              "scoreTotal": 16.88,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 8.44,
               "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -198229,10 +198369,10 @@
               "low": 8.44,
               "close": 8.44,
               "average": 8.44,
-              "scoreTotal": 8.44,
-              "observations": 1,
+              "scoreTotal": 16.88,
+              "observations": 2,
               "firstObservedAt": "2026-08-08T08:00:00.000Z",
-              "lastObservedAt": "2026-08-08T08:00:00.000Z",
+              "lastObservedAt": "2026-08-08T09:00:00.000Z",
               "peakSample": 8.44,
               "peakSampleHour": "2026-08-08T08Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -198263,10 +198403,10 @@
           "low": 8.44,
           "close": 8.44,
           "average": 8.44,
-          "scoreTotal": 8.44,
-          "observations": 1,
+          "scoreTotal": 16.88,
+          "observations": 2,
           "firstObservedAt": "2026-08-08T08:00:00.000Z",
-          "lastObservedAt": "2026-08-08T08:00:00.000Z",
+          "lastObservedAt": "2026-08-08T09:00:00.000Z",
           "peakSample": 8.44,
           "peakSampleHour": "2026-08-08T08Z|1.2.2-shadow.1",
           "peakReasons": [
