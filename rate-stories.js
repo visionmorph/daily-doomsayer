@@ -56,6 +56,24 @@
     };
   }
 
+  function modelScoringInput(article) {
+    const productionSummary = String(article.doomIndexInputSummary || "").trim();
+    const feedSummary = String(article.feedSummary || article.summary || "").trim();
+    const coverageSources = Number(
+      article.doomIndexCoverageSources || article.coverageSources || 1,
+    );
+
+    return {
+      title: article.title,
+      summary: productionSummary || feedSummary,
+      coverageSources:
+        Number.isFinite(coverageSources) && coverageSources > 0
+          ? coverageSources
+          : 1,
+      provenance: productionSummary ? "production" : "feed-fallback",
+    };
+  }
+
   function emptyState() {
     return {
       schemaVersion: "1.0",
@@ -415,6 +433,7 @@
         summary: String(article.feedSummary || article.summary || ""),
         summaryAvailable: Boolean(article.feedSummary || article.summary),
       },
+      scoringInput: modelScoringInput(article),
       feedRating: {
         score: humanScore(elements.feedSlider.value),
         confidence: Number(selectedValue(elements.feedForm, "feed-confidence")),
@@ -481,6 +500,7 @@
       ...existing,
       status: "skipped",
       article: articleIdentity(article),
+      scoringInput: existing?.scoringInput || modelScoringInput(article),
       skip: {
         reason: selectedValue(elements.skipForm, "skip-reason"),
         details: elements.skipForm.elements["skip-details"].value.trim(),
@@ -501,7 +521,19 @@
   }
 
   function exportRatings() {
-    const records = Object.values(state.ratings);
+    const currentArticles = new Map(
+      articles.map((article) => [storyKey(article), article]),
+    );
+    const records = Object.entries(state.ratings).map(([key, record]) => {
+      const article = currentArticles.get(key);
+      const capturedInput = article ? modelScoringInput(article) : null;
+      const existingInputIsExact =
+        record.scoringInput?.provenance === "production";
+
+      return capturedInput && !existingInputIsExact
+        ? { ...record, scoringInput: capturedInput }
+        : record;
+    });
     const payload = {
       schemaVersion: state.schemaVersion,
       exportedAt: new Date().toISOString(),
