@@ -1,0 +1,2840 @@
+{
+  "schemaVersion": "1.0",
+  "benchmarkVersion": "calibration-benchmark.v1",
+  "asOf": "2026-08-08T17:18:39.332Z",
+  "calibrationMethod": {
+    "firstJudgment": "title-and-feed-summary",
+    "secondJudgment": "full-article-confirmation-or-revision",
+    "modelScoresHiddenUntil": "both-human-judgments-complete"
+  },
+  "severityScale": [
+    {
+      "minimum": 0,
+      "maximum": 19.99,
+      "label": "UNEASY",
+      "description": "Limited or routine concern.",
+      "qualification": "Reported consequences are minimal, routine, beneficial or protective, or too weakly supported to establish material harm."
+    },
+    {
+      "minimum": 20,
+      "maximum": 39.99,
+      "label": "OMINOUS",
+      "description": "Credible concern with restrained consequences.",
+      "qualification": "Credible concern or limited harm exists, but its scale, immediacy, persistence, or supporting evidence remains constrained."
+    },
+    {
+      "minimum": 40,
+      "maximum": 59.99,
+      "label": "ALARMING",
+      "description": "Material harm, disruption, or escalating risk.",
+      "qualification": "Credible reporting establishes meaningful harm, disruption, or escalation without the compound high-severity conditions required for Dire."
+    },
+    {
+      "minimum": 60,
+      "maximum": 79.99,
+      "label": "DIRE",
+      "description": "Serious realized or imminent consequences.",
+      "qualification": "Serious harm is confirmed or imminent and combines strong evidence with broad or systemic reach, vulnerable populations, loss of control, or lasting consequences."
+    },
+    {
+      "minimum": 80,
+      "maximum": 100,
+      "label": "CATASTROPHIC",
+      "description": "Exceptional, widespread, or potentially irreversible consequences.",
+      "qualification": "Exceptional confirmed harm is widespread or global and combines multiple extreme conditions such as mass impact, irreversibility, systemic failure, uncontrollable escalation, or existential consequences."
+    }
+  ],
+  "modelConfiguration": {
+    "public": {
+      "name": "DREAD",
+      "version": "1.2.2",
+      "formulaVersion": "1.2.2-shadow.1"
+    },
+    "shadow": {
+      "version": "1.2.3",
+      "formulaVersion": "1.2.3-shadow.1"
+    }
+  },
+  "sourceExports": [
+    {
+      "fingerprint": "f8b962fc12705fcc02db73c403a97a92c5f32f49580d61fe922be6b829238755",
+      "exportedAt": "2026-08-08T01:34:54.408Z",
+      "rated": 21,
+      "skipped": 0
+    },
+    {
+      "fingerprint": "e4c68436c6475adf341dad530a5a2c7b429185bffb20ad8b70eac40651ac9511",
+      "exportedAt": "2026-08-08T17:18:39.332Z",
+      "rated": 50,
+      "skipped": 0
+    }
+  ],
+  "deduplication": {
+    "snapshotIdentity": "article.storyId, then article.url, then normalized title",
+    "articleIdentity": "normalized exact title",
+    "retainedRecord": "newest completedAt or updatedAt",
+    "eventCoverageCollapsed": false
+  },
+  "totals": {
+    "sourceExports": 2,
+    "rawRatedRecords": 71,
+    "storyRecords": 50,
+    "benchmarkRecords": 49,
+    "snapshotDuplicatesRemoved": 21,
+    "exactTitleDuplicatesRemoved": 1,
+    "titleRatingConflicts": 0
+  },
+  "records": [
+    {
+      "benchmarkId": "601b95bb48652d82e6fd",
+      "aliases": [
+        {
+          "storyId": "0a3c0d9f2ec55a3e2d14",
+          "title": "Anthropic AI used fake profiles to target people in hack then hid the evidence",
+          "url": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "published": "2026-08-05T09:24:18.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "0a3c0d9f2ec55a3e2d14",
+        "title": "Anthropic AI used fake profiles to target people in hack then hid the evidence",
+        "url": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News AI",
+        "published": "2026-08-05T09:24:18.000Z"
+      },
+      "feedEvidence": {
+        "summary": "The UK's AI Safety Institute said recent behaviour from Anthropic and OpenAI models was malicious and unprecedented.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 69,
+        "confidence": 3,
+        "reasoning": "Anthropic hiding evidence of AI rogue activity targeting people online",
+        "ratedAt": "2026-08-07T22:18:25.545Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 39.53
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 39.53
+        }
+      },
+      "startedAt": "2026-08-07T22:18:25.545Z",
+      "updatedAt": "2026-08-07T22:19:48.317Z",
+      "articleRating": {
+        "score": 69,
+        "confidence": 3,
+        "reasoning": "Sustained and potentially harmful activities toward people and organizations, stopped by human review",
+        "ratedAt": "2026-08-07T22:19:48.317Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-07T22:19:48.317Z"
+    },
+    {
+      "benchmarkId": "ac51346829e81631b47b",
+      "aliases": [
+        {
+          "storyId": "36afd164b5931dcbff9b",
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "Ars Technica AI",
+          "published": "2026-08-05T20:47:11.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "36afd164b5931dcbff9b",
+        "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+        "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+        "source": "Ars Technica AI",
+        "published": "2026-08-05T20:47:11.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests. AI Security AI agents Anthropic Artificial Intelligence cybersecurity frontier ai GPT-5.6 Sol Mythos 5 openai UK AI Security Institute",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 70,
+        "confidence": 3,
+        "reasoning": "Forced a halt to UK cyber tests, AI creating fake identities online",
+        "ratedAt": "2026-08-07T22:14:13.581Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 39.53
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 39.53
+        }
+      },
+      "startedAt": "2026-08-07T22:14:13.581Z",
+      "updatedAt": "2026-08-07T22:16:27.108Z",
+      "articleRating": {
+        "score": 75,
+        "confidence": 3,
+        "reasoning": "19 instances of these incidents occuring, unsanctioned. Agents sent emails and pull requests on Github with malware and trying to social engineer humans into gaining access to their code repository",
+        "ratedAt": "2026-08-07T22:16:27.108Z"
+      },
+      "contextAdjustment": 5,
+      "completedAt": "2026-08-07T22:16:27.108Z"
+    },
+    {
+      "benchmarkId": "52525978f096bf7f9e61",
+      "aliases": [
+        {
+          "storyId": "fce1f380b2662fa6000e",
+          "title": "Anxious Chinese students are trusting AI to help pick colleges and majors",
+          "url": "https://restofworld.org/2026/china-ai-bot-college-advice/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "published": "2026-07-29T10:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "fce1f380b2662fa6000e",
+        "title": "Anxious Chinese students are trusting AI to help pick colleges and majors",
+        "url": "https://restofworld.org/2026/china-ai-bot-college-advice/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+        "source": "Rest of World AI",
+        "published": "2026-07-29T10:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Alibaba, ByteDance, Baidu, and Tencent guide hundreds of millions of high-school grads to optimize the high-stakes university match system.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 28,
+        "confidence": 2,
+        "reasoning": "Career match making determined by AI, students letting AI influence life decisions",
+        "ratedAt": "2026-08-08T16:45:02.315Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 13.34
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 17.13
+        }
+      },
+      "startedAt": "2026-08-08T16:45:02.315Z",
+      "updatedAt": "2026-08-08T16:47:19.077Z",
+      "articleRating": {
+        "score": 28,
+        "confidence": 2,
+        "reasoning": "Students don't know what they want to study, just to have a good career and be accepted into a prestigious university",
+        "ratedAt": "2026-08-08T16:47:19.077Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:47:19.077Z"
+    },
+    {
+      "benchmarkId": "5d883cd8a50a7d8f33d3",
+      "aliases": [
+        {
+          "storyId": "26d70e0b85e61748941b",
+          "title": "Appeals Court Agrees with EFF that Building a Web Browser Doesn’t Violate the CFAA",
+          "url": "https://www.eff.org/deeplinks/2026/08/appeals-court-agrees-eff-building-web-browser-doesnt-violate-cfaa",
+          "source": "EFF AI",
+          "published": "2026-08-04T22:32:39.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "26d70e0b85e61748941b",
+        "title": "Appeals Court Agrees with EFF that Building a Web Browser Doesn’t Violate the CFAA",
+        "url": "https://www.eff.org/deeplinks/2026/08/appeals-court-agrees-eff-building-web-browser-doesnt-violate-cfaa",
+        "source": "EFF AI",
+        "published": "2026-08-04T22:32:39.000Z"
+      },
+      "feedEvidence": {
+        "summary": "The Ninth Circuit Court of Appeals has endorsed a commonsense technical interpretation of the Computer Fraud and Abuse Act (CFAA), a law not usually given to such interpretation. Amazon had sued Perplexity AI to try to shut down its Comet browser, claiming the browser’s optional agentic AI “Assistant” that can browse websites like Amazon for comparison shopping purposes, violated the CFAA because Amazon did not “authorize” Perplexity to access Amazon users’ accounts. Rejecting that theory, the Ninth Circuit held that Perplexity was unlikely to be liable because users operate the tool, not Perplexity. That’s the right conclusion, as both a legal and technical matter. As we explained to the court in our amicus brief, the CFAA requires unauthorized “access,” and Perplexity itself does not access Amazon’s servers—users of the Comet browser do. The court agreed, noting that EFF’s explanation “articulates the nature of the system most clearly.” The court noted that agentic AI may present novel legal issues, and there is “little to no existing caselaw directly dealing with how to ascribe responsibility for AI agents like the Assistant, let alone caselaw specifically dealing with agentic AI in the CFAA context.” Ultimately, though, thorny questions of AI “intent” were irrelevant to this case, because the Assistant “is a tool, not a person for statutory purposes.” And, the court concluded, it is a tool operated by users, not Perplexity. Even where Perplexity received information from users about their Amazon accounts and used this information to instruct the Assistant, the court found that that did not constitute the sort of control needed to find access by Perplexity. As the court noted, Amazon might have other viable claims against Perplexity, but invoking the CFAA was both legally baseless and bad policy that “could expose users themselves to criminal liability. This is a gratifying decision because all too often, big players use the CFAA to bully upstarts and innovators who offer potentially helpful user tools. When we counsel clients as part of EFF’s Coders Rights Project, CFAA risk is a frequent topic of conversation, even for developers who merely create tools that allow others to access websites in new or different ways. We’ve stood up for these creators before, and we’ll do it again, but it’s helpful to have back up from one of the most influential appellate courts in the country. Related Cases: Facebook v. Power Ventures Competition Coders' Rights Project",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 18,
+        "confidence": 2,
+        "reasoning": "Lawsuit between Amazon and Perplexity related to agentic browser usage. Fuzzy legal area since there is little precedent for governing AI usage.",
+        "ratedAt": "2026-08-08T06:42:59.167Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 15.12
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 15.12
+        }
+      },
+      "startedAt": "2026-08-08T06:42:59.167Z",
+      "updatedAt": "2026-08-08T06:44:51.986Z",
+      "articleRating": {
+        "score": 18,
+        "confidence": 2,
+        "reasoning": "Novel issue. Courts deemed the lawsuit misinterpretations of the law.",
+        "ratedAt": "2026-08-08T06:44:51.986Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T06:44:51.986Z"
+    },
+    {
+      "benchmarkId": "07a0a263785df2488acf",
+      "aliases": [
+        {
+          "storyId": "9c3315d30ba6385c87f1",
+          "title": "Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation",
+          "url": "https://aiscoop.com/breaking-silos-worldwide-how-google-cloud-is-fueling-public-sector-ai-collaboration-and-innovation/",
+          "source": "AI Scoop",
+          "published": "2024-04-17T15:55:35.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "9c3315d30ba6385c87f1",
+        "title": "Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation",
+        "url": "https://aiscoop.com/breaking-silos-worldwide-how-google-cloud-is-fueling-public-sector-ai-collaboration-and-innovation/",
+        "source": "AI Scoop",
+        "published": "2024-04-17T15:55:35.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Leaders from the United Nations Population Fund, United Nations Office for Project Services and the World Bank share how they leverage Google Workspace and AI to empower collaboration, boost efficiency and drive transformative change. The post Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 executive perspective World Bank Google Workspace UNFPA UNOPS",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 10,
+        "confidence": 3,
+        "reasoning": "Headline has a positive take",
+        "ratedAt": "2026-08-08T16:52:37.006Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 13.11
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 13.11
+        }
+      },
+      "startedAt": "2026-08-08T16:52:37.006Z",
+      "updatedAt": "2026-08-08T16:53:13.905Z",
+      "articleRating": {
+        "score": 10,
+        "confidence": 3,
+        "reasoning": "Talking about how to enhance collaboration",
+        "ratedAt": "2026-08-08T16:53:13.905Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:53:13.905Z"
+    },
+    {
+      "benchmarkId": "80642985ca73bd624c7d",
+      "aliases": [
+        {
+          "storyId": "7d654a6a350dea176891",
+          "title": "California colleges spend millions on faulty AI systems: 'The chatbot is outdated’",
+          "url": "https://themarkup.org/machine-learning/2026/03/07/california-colleges-spend-millions-on-faulty-ai-systems-the-chatbot-is-outdated",
+          "source": "The Markup AI",
+          "published": "2026-03-07T13:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "7d654a6a350dea176891",
+        "title": "California colleges spend millions on faulty AI systems: 'The chatbot is outdated’",
+        "url": "https://themarkup.org/machine-learning/2026/03/07/california-colleges-spend-millions-on-faulty-ai-systems-the-chatbot-is-outdated",
+        "source": "The Markup AI",
+        "published": "2026-03-07T13:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Community colleges are spending millions on AI-powered chatbots that students say often give inaccurate answers. Many might see upgrades this year.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 36,
+        "confidence": 3,
+        "reasoning": "Schools are trying to adapt so they aren't left behind. Introducing AI solutions that give students inaccurate information hinders their learning experience.",
+        "ratedAt": "2026-08-08T16:57:34.878Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 12.77
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 12.77
+        }
+      },
+      "startedAt": "2026-08-08T16:57:34.878Z",
+      "updatedAt": "2026-08-08T16:59:18.532Z",
+      "articleRating": {
+        "score": 36,
+        "confidence": 3,
+        "reasoning": "Students can't get the answers they need from AI chatbot if it isn't pre-programmed with the right answers. Disrupting the college and learning experience by using faulty technologies.",
+        "ratedAt": "2026-08-08T16:59:18.532Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:59:18.532Z"
+    },
+    {
+      "benchmarkId": "5128a6b3645022cd84f2",
+      "aliases": [
+        {
+          "storyId": "057c2a753ff6703a722a",
+          "title": "Can the government really get ahead of the curve on AI? - podcast",
+          "url": "https://www.theguardian.com/australia-news/audio/2026/aug/07/can-the-government-really-get-ahead-of-the-curve-on-ai-australian-politics-podcast",
+          "source": "The Guardian AI",
+          "published": "2026-08-07T03:12:09.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "057c2a753ff6703a722a",
+        "title": "Can the government really get ahead of the curve on AI? - podcast",
+        "url": "https://www.theguardian.com/australia-news/audio/2026/aug/07/can-the-government-really-get-ahead-of-the-curve-on-ai-australian-politics-podcast",
+        "source": "The Guardian AI",
+        "published": "2026-08-07T03:12:09.000Z"
+      },
+      "feedEvidence": {
+        "summary": "On Wednesday, the Labor government announced environmental and energy safeguards on new datacentres in Australia. Our political editor, Tom McIlroy, speaks to the assistant minister for science, technology and the digital economy, Dr Andrew Charlton, about the government’s push for national standards on datacentres. The former Rudd staffer and economist speaks about having his own book scraped by Anthropic, low public trust in AI, and how the government wants to use regulation to balance risk and opportunity Continue reading... Australian politics AI (artificial intelligence) Labor party",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 5,
+        "confidence": 2,
+        "reasoning": "Podcast on energy and enviornmental impact of data centers for AI",
+        "ratedAt": "2026-08-08T06:01:56.885Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 16.51
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 16.51
+        }
+      },
+      "startedAt": "2026-08-08T06:01:56.885Z",
+      "updatedAt": "2026-08-08T06:03:02.187Z",
+      "articleRating": {
+        "score": 5,
+        "confidence": 2,
+        "reasoning": "Podcast",
+        "ratedAt": "2026-08-08T06:03:02.187Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T06:03:02.187Z"
+    },
+    {
+      "benchmarkId": "e5f36223b9e3b89f2327",
+      "aliases": [
+        {
+          "storyId": "99a74fa8e5c3257d2eab",
+          "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+          "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+          "source": "VentureBeat AI",
+          "published": "2026-01-19T14:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "99a74fa8e5c3257d2eab",
+        "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+        "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+        "source": "VentureBeat AI",
+        "published": "2026-01-19T14:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month depending on usage — has sparked a growing rebellion among the very programmers it aims to serve. Now, a free alternative is gaining traction. Goose, an open-source AI agent developed by Block (the financial technology company formerly known as Square), offers nearly identical functionality to Claude Code but runs entirely on a user's local machine. No subscription fees. No cloud dependency. No rate limits that reset every five hours. \"Your data stays with you, period,\" said Parth Sareen, a software engineer who demonstrated the tool during a recent livestream. The comment captures the core appeal: Goose gives developers complete control over their AI-powered workflow, including the ability to work offline — even on an airplane. The project has exploded in popularity. Goose now boasts more than 26,100 stars on GitHub, the code-sharing platform, with 362 contributors and 102 releases since its launch. The latest version, 1.20.1, shipped on January 19, 2026, reflecting a development pace that rivals commercial products. For developers frustrated by Claude Code's pricing structure and usage caps, Goose represents something increasingly rare in the AI industry: a genuinely free, no-strings-attached option for serious work. Anthropic's new rate limits spark a developer revolt To understand why Goose matters, you need to understand the Claude Code pricing controversy. Anthropic, the San Francisco artificial intelligence company founded by former OpenAI executives, offers Claude Code as part of its subscription tiers. The free plan provides no access whatsoever. The Pro plan, at $17 per month with annual billing (or $20 monthly), limits users to just 10 to 40 prompts every five hours — a constraint that serious developers exhaust within minutes of intensive work. The Max plans, at $100 and $200 per month, offer more headroom: 50 to 200 prompts and 200 to 800 prompts respectively, plus access to Anthropic's most powerful model, Claude 4.5 Opus. But even these premium tiers come with restrictions that have inflamed the developer community. In late July, Anthropic announced new weekly rate limits. Under the system, Pro users receive 40 to 80 hours of Sonnet 4 usage per week. Max users at the $200 tier get 240 to 480 hours of Sonnet 4, plus 24 to 40 hours of Opus 4. Nearly five months later, the frustration has not subsided. The problem? Those \"hours\" are not actual hours. They represent token-based limits that vary wildly depending on codebase size, conversation length, and the complexity of the code being processed. Independent analysis suggests the actual per-session limits translate to roughly 44,000 tokens for Pro users and 220,000 tokens for the $200 Max plan. \"It's confusing and vague,\" one developer wrote in a widely shared analysis. \"When they say '24-40 hours of Opus 4,' that doesn't really tell you anything useful about what you're actually getting.\" The backlash on Reddit and developer forums has been fierce. Some users report hitting their daily limits within 30 minutes of intensive coding. Others have canceled their subscriptions entirely, calling the new restrictions \"a joke\" and \"unusable for real work.\" Anthropic has defended the changes, stating that the limits affect fewer than five percent of users and target people running Claude Code \"continuously in the background, 24/7.\" But the company has not clarified whether that figure refers to five percent of Max subscribers or five percent of all users — a distinction that matters enormously. How Block built a free AI coding agent that works offline Goose takes a radically different approach to the same problem. Built by Block, the payments company led by Jack Dorsey, Goose is",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 9,
+        "confidence": 2,
+        "reasoning": "Claude Code competitor introduces model to compete in price, performance, and privacy safety. Product news.",
+        "ratedAt": "2026-08-08T01:09:22.164Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 16.84
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 16.84
+        }
+      },
+      "startedAt": "2026-08-08T01:09:22.164Z",
+      "updatedAt": "2026-08-08T01:09:59.654Z",
+      "articleRating": {
+        "score": 9,
+        "confidence": 2,
+        "reasoning": "Promotional marketing piece",
+        "ratedAt": "2026-08-08T01:09:59.654Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T01:09:59.654Z"
+    },
+    {
+      "benchmarkId": "3e2224ad6857dfda4100",
+      "aliases": [
+        {
+          "storyId": "41b6a472adb77d1e7102",
+          "title": "Data Centers Are Easy to Build. Powering Them Is Complicated, Slow, and Expensive",
+          "url": "https://www.404media.co/data-centers-power-energy-grid-epa-clean-air-act/",
+          "source": "404 Media AI",
+          "published": "2026-07-29T14:03:50.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "41b6a472adb77d1e7102",
+        "title": "Data Centers Are Easy to Build. Powering Them Is Complicated, Slow, and Expensive",
+        "url": "https://www.404media.co/data-centers-power-energy-grid-epa-clean-air-act/",
+        "source": "404 Media AI",
+        "published": "2026-07-29T14:03:50.000Z"
+      },
+      "feedEvidence": {
+        "summary": "A new AI data center can be up and running in a year. Building new energy infrastructure to power it could take a decade. Data centers infrastructure AI",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 34,
+        "confidence": 3,
+        "reasoning": "Keeping up with the energy demands of data center construction",
+        "ratedAt": "2026-08-08T16:37:09.081Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 14.17
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 14.17
+        }
+      },
+      "startedAt": "2026-08-08T16:37:09.081Z",
+      "updatedAt": "2026-08-08T16:38:04.737Z",
+      "articleRating": {
+        "score": 34,
+        "confidence": 3,
+        "reasoning": "Data centers place more demand on the grid, menaning it raises the costs of energy to everyone.",
+        "ratedAt": "2026-08-08T16:38:04.737Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:38:04.737Z"
+    },
+    {
+      "benchmarkId": "8da9f73395504a739410",
+      "aliases": [
+        {
+          "storyId": "94524e2b04357887d983",
+          "title": "EFF Joins Call for FTC to Drop Its Disastrous AI Policy Proposal",
+          "url": "https://www.eff.org/deeplinks/2026/08/eff-joins-comments-calling-ftc-drop-its-ai-policy-proposal",
+          "source": "EFF AI",
+          "published": "2026-08-03T22:17:56.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "94524e2b04357887d983",
+        "title": "EFF Joins Call for FTC to Drop Its Disastrous AI Policy Proposal",
+        "url": "https://www.eff.org/deeplinks/2026/08/eff-joins-comments-calling-ftc-drop-its-ai-policy-proposal",
+        "source": "EFF AI",
+        "published": "2026-08-03T22:17:56.000Z"
+      },
+      "feedEvidence": {
+        "summary": "The Federal Trade Commission (FTC) in July issued a proposed policy statement “concerning the suppression of accuracy in artificial intelligence systems.” We urge the FTC to withdraw this misguided proposal and instead focus on its core strengths and mission to protect consumers. The new proposed policy builds on, and directly references, the Trump administration’s “Preventing Woke AI in the Federal Government” executive order—a nightmare for civil liberties that seeks to strong-arm AI companies into modifying their models to conform with the its ideological agenda. In recently filed comments, EFF, Public Knowledge, and Fight for the Future call for the FTC to stop its unconstitutional efforts to regulate lawful speech, override state laws, and intimidate AI developers into ideological alignment with the Trump administration. The government may not install itself as the arbiter of truth. In the joint comments, we outline three critical flaws within the latest proposed policy. First, it violates the First Amendment. The policy calls for the Commission to become the judge of which AI outputs meet an undefined standard of accuracy. Installing the FTC as the authority of this sort of viewpoint-based judgment is a prior restraint on speech. Additionally, the policy’s proposed solution to address speech concerns compounds, rather than properly limits, the likely harms to speech. As we say in our comments: the government may not install itself as the arbiter of truth. Second, it exceeds the FTC’s legal authority by claiming that its federal regulatory rules can override, or “preempt,” laws in states that have passed to regulate artificial intelligence use. This is clearly an attempt to target state laws the administration disagrees with. For example, the policy specifically criticizes Colorado's automated decisionmaking law, which applies when automated technology is used to consider consequential decisions such as those around employment, access to housing, health care, and insurance. We noted to the FTC that characterizing this law as one that requires AI companies to “suppress accuracy,” or encourages deception, is itself inaccurate. In any case, the FTC lacks the authority to put its rules in place over state law, unless Congress directly delegates it that power. It has been given no such power here. Third, the policy is vague and sets the stage for improper jawboning of AI developers and companies that use AI tools (deployers). Jawboning is a term for situations in which the government urges private companies or people to censor another's speech. The proposal, as written, creates an enforcement regime that would put a thumb on the scale in favor of certain partisan speech and ideals. This will lead companies to censor only what the administration interprets as biased or untruthful. Yet, in our filing, we note that the FTC itself can't define an objective standard for what “bias” means, conceding the “exact line of what constitutes bias may be difficult to draw.” There is work the FTC should be doing to protect consumers in the age of AI. In our comments, we conclude by saying: [We] implore the Commission to focus on its core strengths and the mission for which it is so urgently needed—promoting structural market competition and protecting consumers from real unfair and deceptive acts and practices—in both the burgeoning and critically important AI industry and across the broader technology marketplace. EFF and our partners have always urged the FTC to police genuine deception in technology markets. We have also consistently opposed government efforts to dictate what private speakers may say. That’s why we urge the FTC to withdraw this proposal. You can read our full comments here. Artificial Intelligence Free Speech",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 20,
+        "confidence": 2,
+        "reasoning": "AI policy trying to be passed by Federal Trade Commission",
+        "ratedAt": "2026-08-08T17:06:51.193Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 12.49
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 12.49
+        }
+      },
+      "startedAt": "2026-08-08T17:06:51.193Z",
+      "updatedAt": "2026-08-08T17:09:16.577Z",
+      "articleRating": {
+        "score": 28,
+        "confidence": 2,
+        "reasoning": "This policy would give ETF legal authority to override state laws regulating artificial intelligence and placing the ETF as arbitor of truth on AI outputs",
+        "ratedAt": "2026-08-08T17:09:16.577Z"
+      },
+      "contextAdjustment": 8,
+      "completedAt": "2026-08-08T17:09:16.577Z"
+    },
+    {
+      "benchmarkId": "858588ddc52f105f9ab7",
+      "aliases": [
+        {
+          "storyId": "1d65b95a04eb4a55b5d0",
+          "title": "Following the questions where they lead",
+          "url": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717",
+          "source": "MIT News AI",
+          "published": "2026-07-17T17:25:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "1d65b95a04eb4a55b5d0",
+        "title": "Following the questions where they lead",
+        "url": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717",
+        "source": "MIT News AI",
+        "published": "2026-07-17T17:25:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Assistant Professor Bailey Flanigan has arrived at complex computational methods for helping democracy thrive. Profile Faculty Technology and society Public health Democracy Politics Labor and jobs Government Algorithms Political science Artificial intelligence Computer science and technology Electrical engineering and computer science (EECS) Laboratory for Information and Decision Systems (LIDS) School of Engineering MIT Schwarzman College of Computing School of Humanities Arts and Social Sciences",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 9,
+        "confidence": 1,
+        "reasoning": "Ambiguous headline",
+        "ratedAt": "2026-08-08T16:38:50.756Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 14.09
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 14.09
+        }
+      },
+      "startedAt": "2026-08-08T16:38:50.756Z",
+      "updatedAt": "2026-08-08T16:40:37.075Z",
+      "articleRating": {
+        "score": 9,
+        "confidence": 1,
+        "reasoning": "Biography on professor's life",
+        "ratedAt": "2026-08-08T16:40:37.075Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:40:37.075Z"
+    },
+    {
+      "benchmarkId": "387397c5a02c8801903e",
+      "aliases": [
+        {
+          "storyId": "f333764b4be201d3f9ff",
+          "title": "Google Earth’s New AI Lets Anyone Fabricate Completely Bullshit Satellite Images",
+          "url": "https://www.404media.co/google-earths-new-ai-lets-anyone-fabricate-completely-bullshit-satellite-images/",
+          "source": "404 Media AI",
+          "published": "2026-07-31T16:03:08.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "f333764b4be201d3f9ff",
+        "title": "Google Earth’s New AI Lets Anyone Fabricate Completely Bullshit Satellite Images",
+        "url": "https://www.404media.co/google-earths-new-ai-lets-anyone-fabricate-completely-bullshit-satellite-images/",
+        "source": "404 Media AI",
+        "published": "2026-07-31T16:03:08.000Z"
+      },
+      "feedEvidence": {
+        "summary": "\"Tonight I typed just one sentence into Google Earth and put refugees near the Mexican border. Then I planted a nuclear plant in Iran. Then I put a fatal crash on a street in Amsterdam.\" AI",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 36,
+        "confidence": 2,
+        "reasoning": "Limiting on how harmful it is to edit satelite imagery",
+        "ratedAt": "2026-08-07T22:53:36.556Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 21.55
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 21.55
+        }
+      },
+      "startedAt": "2026-08-07T22:53:36.556Z",
+      "updatedAt": "2026-08-07T22:56:47.858Z",
+      "articleRating": {
+        "score": 36,
+        "confidence": 2,
+        "reasoning": "Potentil for spreading misinformation online by fabricating images with a fake story",
+        "ratedAt": "2026-08-07T22:56:47.858Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-07T22:56:47.858Z"
+    },
+    {
+      "benchmarkId": "b43870fcecc225ce3b70",
+      "aliases": [
+        {
+          "storyId": "5123d402833e11dbd813",
+          "title": "Google's AI Governance Plan Draws the Boundaries of What Counts as Harm",
+          "url": "https://techpolicy.press/googles-ai-governance-plan-draws-the-boundaries-of-what-counts-as-harm",
+          "source": "Tech Policy Press AI",
+          "published": "2026-08-03T13:54:04.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "5123d402833e11dbd813",
+        "title": "Google's AI Governance Plan Draws the Boundaries of What Counts as Harm",
+        "url": "https://techpolicy.press/googles-ai-governance-plan-draws-the-boundaries-of-what-counts-as-harm",
+        "source": "Tech Policy Press AI",
+        "published": "2026-08-03T13:54:04.000Z"
+      },
+      "feedEvidence": {
+        "summary": "",
+        "summaryAvailable": false
+      },
+      "feedRating": {
+        "score": 19,
+        "confidence": 2,
+        "reasoning": "The meaning of harm is ambiguous and isn't clear where the boundaries are being drawn at",
+        "ratedAt": "2026-08-07T22:37:26.644Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 23.47
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 23.47
+        }
+      },
+      "startedAt": "2026-08-07T22:37:26.644Z",
+      "updatedAt": "2026-08-07T22:41:01.227Z",
+      "articleRating": {
+        "score": 19,
+        "confidence": 2,
+        "reasoning": "Google laying out plans on how American companies can independently review and govern how new AI models are rolled out that are safe to use and are distributed to users while limiting bureaucracy from slowing development",
+        "ratedAt": "2026-08-07T22:41:01.227Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-07T22:41:01.227Z"
+    },
+    {
+      "benchmarkId": "221e3c1eb949495b5555",
+      "aliases": [
+        {
+          "storyId": "495dc4e7c8c440d3ed6a",
+          "title": "Growth without work: The human cost of the AI revolution",
+          "url": "https://restofworld.org/2026/ai-jobs-economy-impact/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "published": "2026-08-05T10:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "495dc4e7c8c440d3ed6a",
+        "title": "Growth without work: The human cost of the AI revolution",
+        "url": "https://restofworld.org/2026/ai-jobs-economy-impact/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+        "source": "Rest of World AI",
+        "published": "2026-08-05T10:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "In an excerpt from his book “The New Divide: Power, Control & the Cost of AI,” writer Jibu Elias examines the technology’s impact on jobs.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 38,
+        "confidence": 1,
+        "reasoning": "It's unclear how many jobs have been impacted or will be by AI",
+        "ratedAt": "2026-08-08T06:17:59.530Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 16.1
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 16.1
+        }
+      },
+      "startedAt": "2026-08-08T06:17:59.530Z",
+      "updatedAt": "2026-08-08T06:34:55.865Z",
+      "articleRating": {
+        "score": 38,
+        "confidence": 1,
+        "reasoning": "Automation and smarter AI and chatbots are slowly replacing jobs across markets globally. Companies are claiming a huge amount of success and growth using AI but its at the cost of humans being replaced by computers.",
+        "ratedAt": "2026-08-08T06:34:55.865Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T06:34:55.865Z"
+    },
+    {
+      "benchmarkId": "466427993adf4fd7aba2",
+      "aliases": [
+        {
+          "storyId": "1e23abb8e9f6cdd9c0f3",
+          "title": "How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale",
+          "url": "https://aiscoop.com/how-google-cloud-ai-and-assured-workloads-can-enhance-public-sector-security-compliance-and-service-delivery-at-scale/",
+          "source": "AI Scoop",
+          "published": "2024-04-16T15:50:02.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "1e23abb8e9f6cdd9c0f3",
+        "title": "How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale",
+        "url": "https://aiscoop.com/how-google-cloud-ai-and-assured-workloads-can-enhance-public-sector-security-compliance-and-service-delivery-at-scale/",
+        "source": "AI Scoop",
+        "published": "2024-04-16T15:50:02.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Google Cloud’s expanding AI capabilities empower government agencies to better manage complex security, regulatory and data privacy challenges. The post How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 Cybersecurity executive perspective",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 11,
+        "confidence": 3,
+        "reasoning": "Securing user data",
+        "ratedAt": "2026-08-08T16:50:28.223Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 13.11
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 13.11
+        }
+      },
+      "startedAt": "2026-08-08T16:50:28.223Z",
+      "updatedAt": "2026-08-08T16:52:01.565Z",
+      "articleRating": {
+        "score": 11,
+        "confidence": 3,
+        "reasoning": "Challenge for companies to meet government security regulartory and dataprivacy compliance rules",
+        "ratedAt": "2026-08-08T16:52:01.565Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:52:01.565Z"
+    },
+    {
+      "benchmarkId": "9d1e974a18166c60c7ab",
+      "aliases": [
+        {
+          "storyId": "15370392c6eefb0825a2",
+          "title": "Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country",
+          "url": "https://www.eff.org/deeplinks/2026/07/hundreds-drone-first-responder-programs-could-soon-be-launched-across-country",
+          "source": "EFF AI",
+          "published": "2026-07-23T22:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "15370392c6eefb0825a2",
+        "title": "Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country",
+        "url": "https://www.eff.org/deeplinks/2026/07/hundreds-drone-first-responder-programs-could-soon-be-launched-across-country",
+        "source": "EFF AI",
+        "published": "2026-07-23T22:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Police departments across the country are lining up to launch drone-as-first-responder (DFR) programs, and hundreds have cleared a necessary hurdle toward making deployment a reality, expanding aerial surveillance and data collection even in areas patrol officers typically can't reach. As of February 2026, over 1,000 public safety agencies—including police, fire, and other emergency management agencies—had received Federal Aviation Administration (FAA) waivers needed to automate drone operations and launch a DFR program, according to a recent Freedom of Information Act (FOIA) release listing agencies that have obtained Part 91 waivers since the FAA streamlined and sped up the process in April 2025. The changes led to a massive increase in the number of waivers issued. Only 976 DFR waivers had been granted since the first DFR program launched in 2018 through April 2025, according to an FAA representative. The agency issued more waivers between April 2025 and February 2026 than it had in the previous seven years combined. A map illustrating the locations of police departments and other public safety agencies that have received Part 91 waivers, making it possible for them to launch drone-as-first-responder programs. (This map image links to Google Maps, which is governed by Google's privacy policy) The new FAA process for waivers and the rush of police departments to obtain them signifies a shift in law enforcement's use of drones: from human-operated aerial surveillance to AI-based autonomous drone use. Typically, a drone operator is only permitted to fly in areas that can still be seen by the pilot, and that drone pilot needs to be certified under FAA Part 107. To fly drones “Beyond Visual Line of Sight” (BVLOS) requires additional approval from the FAA, as do flights above 200 feet, due to the risk of colliding with planes and other aircrafts. Without such approval, an officer could not pilot a drone from a desk inside a building and fly it to a call across the city because they could not possibly have line of sight on the drone. FAA rules for police drones also required a human operator to manually fly the device to a scene, but DFR technology has become a more common and more automated police technology. DFR programs increasingly rely on artificial intelligence to automate drone flights from launchpads placed around the city, often atop municipal buildings, and make it possible for one drone operator to “fly” multiple devices at once. Though not every police department that has received BVLOS has launched a DFR program yet, by going through this process, every department on this list has signified it has strong enough interest to clear the necessary regulatory hurdles. Police departments and the companies that sell DFR equipment claim that these drones make it easier for officers to establish “situational awareness” of a scene before they arrive. Early drone adoption centered on similar claims, particularly related to high-risk situations like vehicular accidents or incidents involving an armed suspect. However, these kinds of situations may make up only a small portion of deployments, which often occur in response to low-risk calls for service related to unhoused people, mental health concerns, and loud music, as a Government Technology analysis of the system in Chula Vista, California, found. DFR programs have become important sources of revenue for companies like Flock Safety and Axon, the latter of which reported that its DFR platform has become one of the company’s fastest growing sectors. Axon is also known for products like the TASER and the Fusus camera system that lets police integrate viewing of public and private cameras. Footage from drone flights is streamed back to a police office, and it can be stored, shared, and analyzed like other video. Turning drone footage into fodder for automated license plate reader (ALPR) networks, for example, requires very little additional software, and Flock Safety was q",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 50,
+        "confidence": 2,
+        "reasoning": "Police departments introducing aerial surveillance drones",
+        "ratedAt": "2026-08-07T23:37:12.553Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 18.98
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 18.98
+        }
+      },
+      "startedAt": "2026-08-07T23:37:12.553Z",
+      "updatedAt": "2026-08-07T23:42:01.135Z",
+      "articleRating": {
+        "score": 60,
+        "confidence": 2,
+        "reasoning": "Ranges from human operated to autonomous AI-enabled drones. The drones capabilities can be further enhanced to track license plates. The regulations, policies, and oversight into drone usage is unknown making the legal boundaries unclear.",
+        "ratedAt": "2026-08-07T23:42:01.135Z"
+      },
+      "contextAdjustment": 10,
+      "completedAt": "2026-08-07T23:42:01.135Z"
+    },
+    {
+      "benchmarkId": "5834b3dfcf53c91cda38",
+      "aliases": [
+        {
+          "storyId": "32c5457cb1c56b255a8f",
+          "title": "Inside an AI TikTok Shop Slop Factory That Shills Supplements Recalled By the FDA",
+          "url": "https://www.404media.co/inside-an-ai-tiktok-shop-slop-factory-that-shills-supplements-recalled-by-the-fda/",
+          "source": "404 Media AI",
+          "published": "2026-07-30T14:51:32.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "32c5457cb1c56b255a8f",
+        "title": "Inside an AI TikTok Shop Slop Factory That Shills Supplements Recalled By the FDA",
+        "url": "https://www.404media.co/inside-an-ai-tiktok-shop-slop-factory-that-shills-supplements-recalled-by-the-fda/",
+        "source": "404 Media AI",
+        "published": "2026-07-30T14:51:32.000Z"
+      },
+      "feedEvidence": {
+        "summary": "How a company called Rosabella used AI content to market its supplements: \"If you’re trying to sell health products to a 50-year-old, well, make your avatar 50 years old.\" AI AI Slop",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 66,
+        "confidence": 2,
+        "reasoning": "Selling supplements recalled by the FDA being peddled on TikTok",
+        "ratedAt": "2026-08-07T22:27:04.081Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 29.27
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 29.27
+        }
+      },
+      "startedAt": "2026-08-07T22:27:04.081Z",
+      "updatedAt": "2026-08-07T22:32:18.549Z",
+      "articleRating": {
+        "score": 70,
+        "confidence": 2,
+        "reasoning": "AI generated voices with AI generated videos to fake authenticity. Shady businessman of Chinese ethnicity claims hes made tens of thousands of dollars with millions of views on TikTok.",
+        "ratedAt": "2026-08-07T22:32:18.549Z"
+      },
+      "contextAdjustment": 4,
+      "completedAt": "2026-08-07T22:32:18.549Z"
+    },
+    {
+      "benchmarkId": "9ae6b74cb9df9df3838d",
+      "aliases": [
+        {
+          "storyId": "3bf44cdfb8f59b7f06d5",
+          "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
+          "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
+          "source": "The Markup AI",
+          "published": "2026-07-09T12:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "3bf44cdfb8f59b7f06d5",
+        "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
+        "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
+        "source": "The Markup AI",
+        "published": "2026-07-09T12:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Call center nurses at the health giant said workplace surveillance tools and AI prioritize speed and cost savings over quality and safety.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 67,
+        "confidence": 2,
+        "reasoning": "AI is putting patients and nurses at risk",
+        "ratedAt": "2026-08-08T06:10:50.090Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 16.43
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 16.43
+        }
+      },
+      "startedAt": "2026-08-08T06:10:50.090Z",
+      "updatedAt": "2026-08-08T06:15:56.585Z",
+      "articleRating": {
+        "score": 53,
+        "confidence": 2,
+        "reasoning": "AI being used to psychoanalyze and micromanage employees to optimize efficiency which places pressure on them in fear of being placed on a performance plan. Degrades patient care.",
+        "ratedAt": "2026-08-08T06:15:56.585Z"
+      },
+      "contextAdjustment": -14,
+      "completedAt": "2026-08-08T06:15:56.585Z"
+    },
+    {
+      "benchmarkId": "32e8cd56ff159ba9e023",
+      "aliases": [
+        {
+          "storyId": "09969b184f2a4a22f6d5",
+          "title": "Keeping public sector data private and compliant with AI",
+          "url": "https://aiscoop.com/keeping-public-sector-data-private-and-compliant-with-ai/",
+          "source": "AI Scoop",
+          "published": "2024-04-18T16:02:55.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "09969b184f2a4a22f6d5",
+        "title": "Keeping public sector data private and compliant with AI",
+        "url": "https://aiscoop.com/keeping-public-sector-data-private-and-compliant-with-ai/",
+        "source": "AI Scoop",
+        "published": "2024-04-18T16:02:55.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Leaders from the United Nations, Google and industry illuminate how Google Workspace and Gemini help ensure data privacy and uphold data security. The post Keeping public sector data private and compliant with AI appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Public Sector Google Public Sector 2024 executive perspective Google Cloud Next ‘24 United Nations Population Fund (UNFPA",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 24,
+        "confidence": 2,
+        "reasoning": "Google wants to keep user data safe and secure with agentic tools",
+        "ratedAt": "2026-08-08T16:35:09.723Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 14.34
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 14.34
+        }
+      },
+      "startedAt": "2026-08-08T16:35:09.723Z",
+      "updatedAt": "2026-08-08T16:35:51.980Z",
+      "articleRating": {
+        "score": 24,
+        "confidence": 2,
+        "reasoning": "Security marketing piece on Google and Gemini protecting user data",
+        "ratedAt": "2026-08-08T16:35:51.980Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:35:51.980Z"
+    },
+    {
+      "benchmarkId": "3dcca91ff2ab8ff4ada4",
+      "aliases": [
+        {
+          "storyId": "c356b86ed58428c25100",
+          "title": "Meta becomes latest firm to say its AI hacked another company",
+          "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "published": "2026-08-06T05:53:58.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "c356b86ed58428c25100",
+        "title": "Meta becomes latest firm to say its AI hacked another company",
+        "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News AI",
+        "published": "2026-08-06T05:53:58.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 44,
+        "confidence": 3,
+        "reasoning": "Rogue AI agent attacks another company",
+        "ratedAt": "2026-08-08T16:41:18.612Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 13.41
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 13.41
+        }
+      },
+      "startedAt": "2026-08-08T16:41:18.612Z",
+      "updatedAt": "2026-08-08T16:43:47.541Z",
+      "articleRating": {
+        "score": 44,
+        "confidence": 3,
+        "reasoning": "Fourth recent incident of its kind disclosed by AI companies. No details given about the incident since it's still under investigation",
+        "ratedAt": "2026-08-08T16:43:47.541Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:43:47.541Z"
+    },
+    {
+      "benchmarkId": "4b593a69086808f52d76",
+      "aliases": [
+        {
+          "storyId": "d883508cdb128b7d0065",
+          "title": "Missed EFF's Livestream with Adam Savage and iFixit? Listen Here!",
+          "url": "https://www.eff.org/deeplinks/2026/07/miss-last-weeks-livestream-adam-savage-and-ifixit-listen-here",
+          "source": "EFF AI",
+          "published": "2026-07-27T19:25:18.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "d883508cdb128b7d0065",
+        "title": "Missed EFF's Livestream with Adam Savage and iFixit? Listen Here!",
+        "url": "https://www.eff.org/deeplinks/2026/07/miss-last-weeks-livestream-adam-savage-and-ifixit-listen-here",
+        "source": "EFF AI",
+        "published": "2026-07-27T19:25:18.000Z"
+      },
+      "feedEvidence": {
+        "summary": "EFF’s first EFFecting Change livestream was all the way back in July of 2024. Maybe you've caught each stream, or maybe you’ve only caught a few. Or maybe you’re like me and prefer to listen to conversations like these on your daily commute! Either way, if you want to stay on top of these monthly conversations, you can now subscribe to our new podcast feed for EFFecting Change—starting with our conversation on the Right to Repair movement with Adam Savage and iFixit CEO Kyle Wiens: %3Ciframe%20height%3D%22200px%22%20width%3D%22100%25%22%20frameborder%3D%22no%22%20scrolling%3D%22no%22%20seamless%3D%22%22%20src%3D%22https%3A%2F%2Fplayer.simplecast.com%2F1ffaef7d-fd63-4133-8f3e-c28a98ff9f60%3Fdark%3Dfalse%22%20allow%3D%22autoplay%22%3E%3C%2Fiframe%3E Privacy info. This embed will serve content from simplecast.com This new feed will include the full conversations with our panelists, posted after the livestream ends. Subscribe today to get each stream straight to your podcast player of choice. You can also find other podcasts by EFF at eff.org/podcast. And mark your calendar for the next EFFecting Change livestream: Who the Machine Serves. EFF Executive Director Nicole Ozer and Cory Doctorow will be having a conversation on AI, tackling what needs to happen now to ensure AI actually works for everyone, not just those in power. RSVP today! Want to ensure EFF can keep inviting expert panelists to chat about the future of technology and how it impacts you? Support our work today. Donate to EFF Defend Your Right to Repair!",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 5,
+        "confidence": 3,
+        "reasoning": "Podcast",
+        "ratedAt": "2026-08-08T17:04:48.564Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 12.52
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 12.52
+        }
+      },
+      "startedAt": "2026-08-08T17:04:48.564Z",
+      "updatedAt": "2026-08-08T17:04:53.701Z",
+      "articleRating": {
+        "score": 5,
+        "confidence": 3,
+        "reasoning": "Podcast",
+        "ratedAt": "2026-08-08T17:04:53.701Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T17:04:53.701Z"
+    },
+    {
+      "benchmarkId": "926759226365ac460586",
+      "aliases": [
+        {
+          "storyId": "5681d3da89440d64476a",
+          "title": "New EU Court of Justice Ruling on Platform Liability Could Cause Collateral Damage to Freedom of Expression",
+          "url": "https://www.eff.org/deeplinks/2026/07/new-eu-court-justice-ruling-platform-liability-could-cause-collateral-damage",
+          "source": "EFF AI",
+          "published": "2026-07-22T08:34:12.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "5681d3da89440d64476a",
+        "title": "New EU Court of Justice Ruling on Platform Liability Could Cause Collateral Damage to Freedom of Expression",
+        "url": "https://www.eff.org/deeplinks/2026/07/new-eu-court-justice-ruling-platform-liability-could-cause-collateral-damage",
+        "source": "EFF AI",
+        "published": "2026-07-22T08:34:12.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Intermediary liability laws around the world recognize that social media platforms, search engines, and other online service providers have become an integral part of our lives: they shape how we access information, communicate with others and participate in public debate, and foster innovation online. These laws generally shield platforms, to varying degrees, from legal liability for user content: the responsibility for unlawful speech should rest primarily with the speaker, not with those who merely host it. These liability protections are not a gift for platforms. They exist so that platforms are not encouraged to proactively monitor and filter what we say online, or to remove even lawful speech simply to avoid legal risk. This is why a recent judgment by the EU Court of Justice, Coyote System (Joined Cases C-188/24 and C-190/24), is concerning: it could deprive online platforms of liability protection because of how they organize and disseminate user content. The consequences for freedom of expression could be significant. Liability Protections in the EU The European Union has long embraced a system of limited liability for online service providers. Under the e-Commerce Directive and now the Digital Services Act (DSA), platforms benefit from liability exemptions for user content. To discourage censorship, they also cannot be required to generally monitor user content or actively search for illegal activity. But that liability protection comes with qualifications: Platforms lose this benefit if they play an \"active role\" such that they have knowledge of, or control over, user-provided information (Recital 42 ECD, Recital 18 DSA, and case law, for example para. 113 in L’Oréal v eBay). For hosting services, providers must remove or disable content they know to be illegal. The DSA has introduced extensive due diligence obligations for platforms but left these foundational immunities intact. The message is clear: platforms bear responsibility for proper systems and processes, but generally not for users' speech. Coyote System, however, could undermine this balance. Confronted with a case about restrictions on navigation systems that transmit information to drivers about roadside checks, the Court formulated a general test for when an intermediary ceases to be a \"neutral\" host and therefore loses the hosting liability exemption. In essence, the Court held that where an intermediary's algorithm goes beyond merely categorizing and indexing user information to determine, \"under what conditions, how and in which order of priority\" (para. 122) information is disseminated, the intermediary \"controls\" that information and is deprived of protection under the e-Commerce Directive. Let's be clear: the case is not about a service that ranked or recommended user-generated content in the way social media platforms do. It is about the collection and real-time relay of user alerts about roadside checks. However, the Court's reasoning is not confined to navigation services. Recommendation algorithms determine how and in what order user content is disseminated across virtually every major online platform. Should such platforms now cease to qualify as neutral intermediaries and lose the protection of the hosting liability exemption? The answer should be no. The Meaning of Control Control has never been understood this broadly. Nor should it be. Every hosting service provider, think of Facebook, Amazon or Bluesky, will have some control over users’ content. If that ability alone ruled the analysis, the liability exemption would become largely meaningless. Instead, the disqualifying “active role” must relate to the actual content itself, not merely the technical means by which that content is organised or disseminated. The Court’s own case law reinforces this conclusion: In YouTube and Cyando, it examined a platform that categorises, ranks and recommends user content through algorithms, yet still proceeded on the basis that it could gener",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 18,
+        "confidence": 2,
+        "reasoning": "EU on weakening freedom of expression online",
+        "ratedAt": "2026-08-08T16:30:30.782Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 14.76
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 14.76
+        }
+      },
+      "startedAt": "2026-08-08T16:30:30.782Z",
+      "updatedAt": "2026-08-08T16:31:28.792Z",
+      "articleRating": {
+        "score": 18,
+        "confidence": 2,
+        "reasoning": "Platforms bear the responsibility for systems, while users are responsible for speech",
+        "ratedAt": "2026-08-08T16:31:28.792Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:31:28.792Z"
+    },
+    {
+      "benchmarkId": "18271da6459b218adcc8",
+      "aliases": [
+        {
+          "storyId": "a73be5838e2da249566f",
+          "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+          "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+          "source": "TechCrunch AI",
+          "published": "2026-08-07T11:40:37.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "a73be5838e2da249566f",
+        "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+        "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+        "source": "TechCrunch AI",
+        "published": "2026-08-07T11:40:37.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Meta's total fine has racked up to $942 million in this case. AI child safety Meta",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 28,
+        "confidence": 3,
+        "reasoning": "Meta fined nearly a billion dollars in AI child safety lawsuit",
+        "ratedAt": "2026-08-08T16:26:38.632Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 14.84
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 14.84
+        }
+      },
+      "startedAt": "2026-08-08T16:26:38.632Z",
+      "updatedAt": "2026-08-08T16:27:46.850Z",
+      "articleRating": {
+        "score": 31,
+        "confidence": 3,
+        "reasoning": "Social media harm and addiction to kids, such as sexual exploitation, interference with education and adverse mental health conditions",
+        "ratedAt": "2026-08-08T16:27:46.850Z"
+      },
+      "contextAdjustment": 3,
+      "completedAt": "2026-08-08T16:27:46.850Z"
+    },
+    {
+      "benchmarkId": "3cde48c849f406387914",
+      "aliases": [
+        {
+          "storyId": "007b5a9b0a9886a09e43",
+          "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+          "url": "https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/",
+          "source": "WIRED AI",
+          "published": "2026-08-07T01:16:55.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "007b5a9b0a9886a09e43",
+        "title": "One of China’s Most Powerful AI Models Has Also Escaped Containment",
+        "url": "https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/",
+        "source": "WIRED AI",
+        "published": "2026-08-07T01:16:55.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given. Business Business / Artificial Intelligence",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 36,
+        "confidence": 3,
+        "reasoning": "Chinese AI model escapes containment",
+        "ratedAt": "2026-08-08T17:00:07.709Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 12.53
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 12.53
+        }
+      },
+      "startedAt": "2026-08-08T17:00:07.709Z",
+      "updatedAt": "2026-08-08T17:01:27.461Z",
+      "articleRating": {
+        "score": 36,
+        "confidence": 3,
+        "reasoning": "No harm or damage done because all the answers it was looking for was easily attainable on Github.",
+        "ratedAt": "2026-08-08T17:01:27.461Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T17:01:27.461Z"
+    },
+    {
+      "benchmarkId": "441de97ec2c0a6a25146",
+      "aliases": [
+        {
+          "storyId": "a6e24e30f70f5c3360cb",
+          "title": "OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
+          "url": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/",
+          "source": "WIRED AI",
+          "published": "2026-08-06T00:15:04.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "a6e24e30f70f5c3360cb",
+        "title": "OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
+        "url": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/",
+        "source": "WIRED AI",
+        "published": "2026-08-06T00:15:04.000Z"
+      },
+      "feedEvidence": {
+        "summary": "At the Black Hat security conference, the AI giant revealed new details about how its agents went rogue, hacked several other companies—and did it all right under the company’s nose. Security Security / Cyberattacks and Hacks",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 57,
+        "confidence": 3,
+        "reasoning": "AI agents hacking companies without permission or knowledge of the event until after it happens",
+        "ratedAt": "2026-08-07T22:03:33.765Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 47.55
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 47.55
+        }
+      },
+      "startedAt": "2026-08-07T22:03:33.765Z",
+      "updatedAt": "2026-08-07T22:06:03.168Z",
+      "articleRating": {
+        "score": 69,
+        "confidence": 3,
+        "reasoning": "Happened over the course of days and weeks, multiple agents working together passing on information, escaped containment, and exploited cybersecurity vulnerabilities",
+        "ratedAt": "2026-08-07T22:06:03.168Z"
+      },
+      "contextAdjustment": 12,
+      "completedAt": "2026-08-07T22:06:03.168Z"
+    },
+    {
+      "benchmarkId": "e3de1e7455bd259bf27b",
+      "aliases": [
+        {
+          "storyId": "557e0bfc0113e2a72215",
+          "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+          "source": "The Verge AI",
+          "published": "2026-08-07T18:40:34.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "557e0bfc0113e2a72215",
+        "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+        "source": "The Verge AI",
+        "published": "2026-08-07T18:40:34.000Z"
+      },
+      "feedEvidence": {
+        "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue and breached other organizations. Recent internal evaluations of an OpenAI model called Astra indicate that it offers \"significant advancements in agentic coding and cybersecurity,\" according to the company. \"These results, in addition to expert assessments, have led us to conclude last n … Read the full story at The Verge. OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue […]",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 55,
+        "confidence": 2,
+        "reasoning": "Open AI says their latest model is pausing development of latest internal model Astra because it's too powerful and doesn't meet their own security standards.",
+        "ratedAt": "2026-08-07T22:22:47.067Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 30.4
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 30.4
+        }
+      },
+      "startedAt": "2026-08-07T22:22:47.067Z",
+      "updatedAt": "2026-08-07T22:25:14.215Z",
+      "articleRating": {
+        "score": 50,
+        "confidence": 2,
+        "reasoning": "Open AI is implementing security controls to handle more capable models. Astra was not involved in the accidental Hugging Face hack.",
+        "ratedAt": "2026-08-07T22:25:14.215Z"
+      },
+      "contextAdjustment": -5,
+      "completedAt": "2026-08-07T22:25:14.215Z"
+    },
+    {
+      "benchmarkId": "35b301fd78b79dadff78",
+      "aliases": [
+        {
+          "storyId": "a27c4314010d951783e3",
+          "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
+          "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+          "source": "TechCrunch AI",
+          "published": "2026-08-06T15:10:32.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "a27c4314010d951783e3",
+        "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
+        "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+        "source": "TechCrunch AI",
+        "published": "2026-08-06T15:10:32.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Newly filed court exhibits show OpenAI’s legal strategy in Apple’s trade secrets lawsuit: argue that Apple’s own security and offboarding practices — including allowing an Apple manager to access a former engineer’s iCloud account after he left the company —undermine its claims that the allegedly stolen information was properly protected. AI Apple lawsuit OpenAI",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 17,
+        "confidence": 1,
+        "reasoning": "Legal battle between Open AI and Apple and challenging claims",
+        "ratedAt": "2026-08-07T23:07:22.085Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 21.33
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 11.99
+        }
+      },
+      "startedAt": "2026-08-07T23:07:22.085Z",
+      "updatedAt": "2026-08-07T23:11:47.496Z",
+      "articleRating": {
+        "score": 17,
+        "confidence": 1,
+        "reasoning": "Open AI blames Apple for its information mismanagement of trade secrets on Apple hardware from active and or former employees",
+        "ratedAt": "2026-08-07T23:11:47.496Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-07T23:11:47.496Z"
+    },
+    {
+      "benchmarkId": "668262424ecd254f6b60",
+      "aliases": [
+        {
+          "storyId": "1b31b1a391a00190d985",
+          "title": "Privacy risks from medical AI tools are not shared equally",
+          "url": "https://www.nature.com/articles/d41586-026-02288-9",
+          "source": "Nature AI News & Comment",
+          "published": "2026-08-04T00:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "1b31b1a391a00190d985",
+        "title": "Privacy risks from medical AI tools are not shared equally",
+        "url": "https://www.nature.com/articles/d41586-026-02288-9",
+        "source": "Nature AI News & Comment",
+        "published": "2026-08-04T00:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "",
+        "summaryAvailable": false
+      },
+      "feedRating": {
+        "score": 43,
+        "confidence": 2,
+        "reasoning": "It's not clear how widespread privacy issues are related to healthcare or the degree to which it's occuring.",
+        "ratedAt": "2026-08-08T06:46:43.933Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 15.02
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 15.02
+        }
+      },
+      "startedAt": "2026-08-08T06:46:43.933Z",
+      "updatedAt": "2026-08-08T06:49:48.173Z",
+      "articleRating": {
+        "score": 43,
+        "confidence": 2,
+        "reasoning": "Privacy attacks reveal if your medical data was used to train AI, which is supposed to be used by medical researchers to find earlier diagnoses and new treatments.",
+        "ratedAt": "2026-08-08T06:49:48.173Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T06:49:48.173Z"
+    },
+    {
+      "benchmarkId": "5080872fa36420ca7b1e",
+      "aliases": [
+        {
+          "storyId": "712e645398d8b6885215",
+          "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
+          "url": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
+          "source": "MIT News AI",
+          "published": "2026-07-22T17:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "712e645398d8b6885215",
+        "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
+        "url": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
+        "source": "MIT News AI",
+        "published": "2026-07-22T17:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence. School of Engineering MIT Schwarzman College of Computing Electrical engineering and computer science (EECS) Laboratory for Information and Decision Systems (LIDS) Computer science and technology Artificial intelligence Programming Networks Books and authors Photography Research Faculty Obituaries Alumni/ae",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 12,
+        "confidence": 3,
+        "reasoning": "Died from natural causes",
+        "ratedAt": "2026-08-08T06:54:12.072Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 14.95
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 15.19
+        }
+      },
+      "startedAt": "2026-08-08T06:54:12.072Z",
+      "updatedAt": "2026-08-08T06:55:07.736Z",
+      "articleRating": {
+        "score": 12,
+        "confidence": 3,
+        "reasoning": "Biography on scientist",
+        "ratedAt": "2026-08-08T06:55:07.736Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T06:55:07.736Z"
+    },
+    {
+      "benchmarkId": "120eeac25e89eca9206e",
+      "aliases": [
+        {
+          "storyId": "7f9102717fb19b933dc9",
+          "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+          "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+          "source": "VentureBeat AI",
+          "published": "2026-01-22T14:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "7f9102717fb19b933dc9",
+        "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+        "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+        "source": "VentureBeat AI",
+        "published": "2026-01-22T14:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure. TQ Ventures led the round, with participation from FPV Ventures, Redpoint, and Unusual Ventures. The investment values Railway as one of the most significant infrastructure startups to emerge during the AI boom, capitalizing on developer frustration with the complexity and cost of traditional platforms like Amazon Web Services and Google Cloud. \"As AI models get better at writing code, more and more people are asking the age-old question: where, and how, do I run my applications?\" said Jake Cooper, Railway's 28-year-old founder and chief executive, in an exclusive interview with VentureBeat. \"The last generation of cloud primitives were slow and outdated, and now with AI moving everything faster, teams simply can't keep up.\" The funding is a dramatic acceleration for a company that has charted an unconventional path through the cloud computing industry. Railway raised just $24 million in total before this round, including a $20 million Series A from Redpoint in 2022. The company now processes more than 10 million deployments monthly and handles over one trillion requests through its edge network — metrics that rival far larger and better-funded competitors. Why three-minute deploy times have become unacceptable in the age of AI coding assistants Railway's pitch rests on a simple observation: the tools developers use to deploy and manage software were designed for a slower era. A standard build-and-deploy cycle using Terraform, the industry-standard infrastructure tool, takes two to three minutes. That delay, once tolerable, has become a critical bottleneck as AI coding assistants like Claude, ChatGPT, and Cursor can generate working code in seconds. \"When godly intelligence is on tap and can solve any problem in three seconds, those amalgamations of systems become bottlenecks,\" Cooper told VentureBeat. \"What was really cool for humans to deploy in 10 seconds or less is now table stakes for agents.\" The company claims its platform delivers deployments in under one second — fast enough to keep pace with AI-generated code. Customers report a tenfold increase in developer velocity and up to 65 percent cost savings compared to traditional cloud providers. These numbers come directly from enterprise clients, not internal benchmarks. Daniel Lobaton, chief technology officer at G2X, a platform serving 100,000 federal contractors, measured deployment speed improvements of seven times faster and an 87 percent cost reduction after migrating to Railway. His infrastructure bill dropped from $15,000 per month to approximately $1,000. \"The work that used to take me a week on our previous infrastructure, I can do in Railway in like a day,\" Lobaton said. \"If I want to spin up a new service and test different architectures, it would take so long on our old setup. In Railway I can launch six services in two minutes.\" Inside the controversial decision to abandon Google Cloud and build data centers from scratch What distinguishes Railway from competitors like Render and Fly.io is the depth of its vertical integration. In 2024, the company made the unusual decision to abandon Google Cloud entirely and build its own data centers, a move that echoes the famous Alan Kay maxim: \"People who are really serious about software should make their own hardware.\" \"We wanted to design hardware in a way where we could build a differentiated experience,\" Cooper said. \"Having full control over the network, compute, and storage layers lets us do really fast build and deploy loops, the kind that allows us to move at 'agentic speed' while staying 100 percent the smoothest ride in town.\" The approach paid dividends during recent widespread outages t",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 13,
+        "confidence": 3,
+        "reasoning": "Railway secures funding to compete against Amazon AWS",
+        "ratedAt": "2026-08-08T16:32:10.805Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 14.56
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 14.56
+        }
+      },
+      "startedAt": "2026-08-08T16:32:10.805Z",
+      "updatedAt": "2026-08-08T16:33:36.573Z",
+      "articleRating": {
+        "score": 13,
+        "confidence": 3,
+        "reasoning": "Secured funding, marketing piece about Railway",
+        "ratedAt": "2026-08-08T16:33:36.573Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:33:36.573Z"
+    },
+    {
+      "benchmarkId": "a3bf9ca371aa8025466a",
+      "aliases": [
+        {
+          "storyId": "0d32aa6b6a8fd310bb9e",
+          "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+          "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+          "source": "VentureBeat AI",
+          "published": "2026-01-13T13:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "0d32aa6b6a8fd310bb9e",
+        "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+        "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+        "source": "VentureBeat AI",
+        "published": "2026-01-13T13:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf of employees. The new Slackbot, now generally available to Business+ and Enterprise+ customers, is Salesforce's most aggressive move yet to position Slack at the center of the emerging \"agentic AI\" movement — where software agents work alongside humans to complete complex tasks. The launch comes as Salesforce attempts to convince investors that artificial intelligence will bolster its products rather than render them obsolete. \"Slackbot isn't just another copilot or AI assistant,\" said Parker Harris, Salesforce co-founder and Slack's chief technology officer, in an exclusive interview with Salesforce. \"It's the front door to the agentic enterprise, powered by Salesforce.\" From tricycle to Porsche: Salesforce rebuilt Slackbot from the ground up Harris was blunt about what distinguishes the new Slackbot from its predecessor: \"The old Slackbot was, you know, a little tricycle, and the new Slackbot is like, you know, a Porsche.\" The original Slackbot, which has existed since Slack's early days, performed basic algorithmic tasks — reminding users to add colleagues to documents, suggesting channel archives, and delivering simple notifications. The new version runs on an entirely different architecture built around a large language model and sophisticated search capabilities that can access Salesforce records, Google Drive files, calendar data, and years of Slack conversations. \"It's two different things,\" Harris explained. \"The old Slackbot was algorithmic and fairly simple. The new Slackbot is brand new — it's based around an LLM and a very robust search engine, and connections to third-party search engines, third-party enterprise data.\" Salesforce chose to retain the Slackbot brand despite the fundamental technical overhaul. \"People know what Slackbot is, and so we wanted to carry that forward,\" Harris said. Why Anthropic's Claude powers the new Slackbot — and which AI models could come next The new Slackbot runs on Claude, Anthropic's large language model, a choice driven partly by compliance requirements. Slack's commercial service operates under FedRAMP Moderate certification to serve U.S. federal government customers, and Harris said Anthropic was \"the only provider that could give us a compliant LLM\" when Slack began building the new system. But that exclusivity won't last. \"We are, this year, going to support additional providers,\" Harris said. \"We have a great relationship with Google. Gemini is incredible — performance is great, cost is great. So we're going to use Gemini for some things.\" He added that OpenAI remains a possibility as well. Harris echoed Salesforce CEO Marc Benioff's view that large language models are becoming commoditized: \"You've heard Marc talk about LLMs are commodities, that they're democratized. I call them CPUs.\" On the sensitive question of training data, Harris was unequivocal: Salesforce does not train any models on customer data. \"Models don't have any sort of security,\" he explained. \"If we trained it on some confidential conversation that you and I have, I don't want Carolyn to know — if I train it into the LLM, there is no way for me to say you get to see the answer, but Carolyn doesn't.\" Inside Salesforce's internal experiment: 80,000 employees tested Slackbot with striking results Salesforce has been testing the new Slackbot internally for months, rolling it out to all 80,000 employees. According to Ryan Gavin, Slack's chief marketing officer, the results have been striking: \"It's the fastest adopted product in Salesforce history.\" Internal data shows that two-thirds of Salesforce employees have tried the new Slackbot, with 80% of those users continuing to use it regularly. Internal satisfaction",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 13,
+        "confidence": 2,
+        "reasoning": "Product announcement from Salesforce of a Slack bot",
+        "ratedAt": "2026-08-08T00:37:01.728Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 17.48
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 17.73
+        }
+      },
+      "startedAt": "2026-08-08T00:37:01.728Z",
+      "updatedAt": "2026-08-08T00:38:25.075Z",
+      "articleRating": {
+        "score": 13,
+        "confidence": 2,
+        "reasoning": "Marketing piece for Salesforce",
+        "ratedAt": "2026-08-08T00:38:25.075Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T00:38:25.075Z"
+    },
+    {
+      "benchmarkId": "dd55c41bdc6fe7f97492",
+      "aliases": [
+        {
+          "storyId": "766dff2299466e2fb336",
+          "title": "Schools to offer technical subjects to pupils from age 14 in England, Burnham says",
+          "url": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "published": "2026-07-28T16:35:05.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "766dff2299466e2fb336",
+        "title": "Schools to offer technical subjects to pupils from age 14 in England, Burnham says",
+        "url": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News AI",
+        "published": "2026-07-28T16:35:05.000Z"
+      },
+      "feedEvidence": {
+        "summary": "The government wants pupils to take courses like AI and manufacturing which are linked to local jobs.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 6,
+        "confidence": 3,
+        "reasoning": "Routine news",
+        "ratedAt": "2026-08-08T01:32:25.642Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 16.6
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 16.81
+        }
+      },
+      "startedAt": "2026-08-08T01:32:25.642Z",
+      "updatedAt": "2026-08-08T01:34:46.971Z",
+      "articleRating": {
+        "score": 6,
+        "confidence": 3,
+        "reasoning": "Secondary education being offered to youth to combat unemployment and future shifts in job market",
+        "ratedAt": "2026-08-08T01:34:46.971Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T01:34:46.971Z"
+    },
+    {
+      "benchmarkId": "2b6d19853390540f2586",
+      "aliases": [
+        {
+          "storyId": "4a95cbac932101e1df42",
+          "title": "Suno hopes to go legit with watermarks for AI-generated music",
+          "url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
+          "source": "Ars Technica AI",
+          "published": "2026-08-06T20:17:36.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "4a95cbac932101e1df42",
+        "title": "Suno hopes to go legit with watermarks for AI-generated music",
+        "url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
+        "source": "Ars Technica AI",
+        "published": "2026-08-06T20:17:36.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Suno plans watermarks and download limits to stop \"large-scale abuse.\" AI AI music Artificial Intelligence Suno",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 26,
+        "confidence": 3,
+        "reasoning": "Watermarking music",
+        "ratedAt": "2026-08-08T17:09:51.870Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 12.46
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 12.46
+        }
+      },
+      "startedAt": "2026-08-08T17:09:51.870Z",
+      "updatedAt": "2026-08-08T17:11:22.898Z",
+      "articleRating": {
+        "score": 26,
+        "confidence": 3,
+        "reasoning": "Company is adding watermarks to give platforms the option to mark content as AI or block the content.",
+        "ratedAt": "2026-08-08T17:11:22.898Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T17:11:22.898Z"
+    },
+    {
+      "benchmarkId": "a810af54f3921818028c",
+      "aliases": [
+        {
+          "storyId": "8783dace857ffb140a77",
+          "title": "The CHATBOT Act Forces One Parenting Model On Every Family",
+          "url": "https://www.eff.org/deeplinks/2026/07/chatbot-act-forces-one-parenting-model-every-family",
+          "source": "EFF AI",
+          "published": "2026-07-31T19:06:43.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "8783dace857ffb140a77",
+        "title": "The CHATBOT Act Forces One Parenting Model On Every Family",
+        "url": "https://www.eff.org/deeplinks/2026/07/chatbot-act-forces-one-parenting-model-every-family",
+        "source": "EFF AI",
+        "published": "2026-07-31T19:06:43.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Update: The Senate Commerce Committee voted to advance this bill on August 5, 2026. EFF continues to oppose the bill, which still needs approval from the full Senate. Artificial intelligence is rapidly changing education, and the way people search for information. Parents, teenagers, teachers, and schools are struggling with tough questions about when AI should, and should not, be used. It makes sense for Congress to hold hearings and examine how AI should be used by minors. But the recently introduced CHATBOT Act answers those questions with a one-size-fits-all mandate governing how teenagers access AI through federally prescribed parental monitoring systems. Take action Tell Congress not to age-gate the internet The Bill Requires AI Companies To Build Family Monitoring Systems Parents are approaching AI in different ways. Some closely supervise how their children use chatbots, while others might set more general rules about technology. Many families are still figuring out what role AI should play in schoolwork and everyday life. The CHATBOT Act would take that decision away from families and AI providers. Instead of letting families and AI providers decide what parental controls should look like, Congress would require every covered AI chatbot to build the same federally prescribed “family account” system. As part of the required parental-consent process for teens, AI companies must offer parents a \"family account\" that provides access to a \"full record of the conversations and activity\" of teen users and tools to \"monitor, analyze, and understand, at scale\" those conversations. They must also send alerts if a teen attempts to bypass or disable parental controls. This isn’t simply an optional parental-control feature. The bill requires every covered AI provider to build this monitoring infrastructure, and present it as part of the parental consent process. Congress is prescribing a single, highly invasive model of how families should supervise teenagers’ use of AI. The CHATBOT Act Creates New Privacy Risks For Families Parents and families have different ideas about how much independence teenagers should have. Understandably, they also have very different expectations for 8-year olds, 13-year-olds, and 17-year-olds. The CHATBOT Act effectively requires AI providers to build the same monitoring architecture for users of very different ages. And this mandated data collection will create new privacy and security risks. Once Congress requires AI companies to create a permanent, centralized record of teen AI conversations for parental review, that will be a valuable vault of extremely personal information. That raises serious questions about what would happen in cases where someone else gains access to it through account compromise, family disputes, or other security failures. The vast archives of conversations created by the government-mandated family accounts won't be interesting only to parents. They will become valuable targets for hackers, identity thieves, civil litigants, and anyone else seeking access to the deeply personal information of others. The CHATBOT Act requires the records to exist, but addresses none of those risks. Families are still figuring out what role AI should play in schoolwork and everyday life. Congress shouldn’t freeze one answer into federal law by requiring every AI company to build the same prescribed monitoring system. Take action Tell Congress to oppose the chatbot act The CHATBOT Act Applies A Children’s Law To Teenagers The CHATBOT Act takes the basic structure of COPPA, a nearly 30-year-old law that applies to children aged 12 and under, and applies the same “verifiable parental consent” to older teenagers. That’s a dramatic expansion of the law. Congress enacted COPPA to prevent kids from handing over detailed personal information to online services without making sure parents approved. For nearly three decades, Congress has required parental consent before websites collect per",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 15,
+        "confidence": 2,
+        "reasoning": "Legislation trying to be passed. Unclear the outcome of consequences from headline.",
+        "ratedAt": "2026-08-08T17:15:08.509Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 11.92
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 54.8
+        }
+      },
+      "startedAt": "2026-08-08T17:15:08.509Z",
+      "updatedAt": "2026-08-08T17:18:22.522Z",
+      "articleRating": {
+        "score": 29,
+        "confidence": 2,
+        "reasoning": "Teenagers would need to access AI through federally prescribed parental monitoring systems. Bill would require AI companies to build family monitoring systems. The CHATBOT act would take the decision of how to parent their children with technology away.",
+        "ratedAt": "2026-08-08T17:18:22.522Z"
+      },
+      "contextAdjustment": 14,
+      "completedAt": "2026-08-08T17:18:22.522Z"
+    },
+    {
+      "benchmarkId": "ff5c00010d0f1d708fd4",
+      "aliases": [
+        {
+          "storyId": "55c67cc1e7917eafa9b6",
+          "title": "The left and right agree on one thing: no data centers",
+          "url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
+          "source": "The Verge AI",
+          "published": "2026-08-06T14:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "55c67cc1e7917eafa9b6",
+        "title": "The left and right agree on one thing: no data centers",
+        "url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
+        "source": "The Verge AI",
+        "published": "2026-08-06T14:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Today, I’m talking with Gaby Del Valle, a policy reporter here at The Verge, about the growing backlash against AI data centers. Gaby recently reported a fantastic piece about Hernando County, Florida, where last month the county commission unanimously approved a yearlong moratorium on data center construction. She attended a protest there organized by a group called Humans First, a conservative grassroots movement focused on combating AI data center build-outs. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. You’ll hear Gaby explain that it was part of a bigger, broader, and bipartisan opposition to data centers. Not only as physical buildings, but as infrastructure that powers an AI boom that takes local jobs and fills feeds with slop. Data center construction has become a proxy for the public’s feelings about AI: something physical they can aim their fear and frustration at — and even create enough pressure to stop through community organizing and protests. So I wanted Gaby to talk me through what these protests look like on the ground, from voters whose party affiliations have typically aligned them with big business. You’ll hear Gaby say data centers are scrambling party lines, turning diehard Trump voters into protesters who care about left-coded issues like groundwater contamination and forever chemicals. It’s a confusing time, and data centers are going to play a major role in electoral politics going forward. So I suspect this won’t be the last we hear from Gaby on movements like Humans First. Okay: Verge policy reporter Gaby Del Valle on the bipartisan data center backlash. Here we go. This interview has been lightly edited for length and clarity. Gaby Del Valle, you’re a policy reporter here at The Verge. Welcome back to Decoder. Thank you. Happy to be here. I’m excited to talk to you. You were on previously with our friend Alex Heath, but this is the first time I’ve gotten to talk to you in Decoder. I think the story you just wrote about data centers and conservative backlash in Florida is just a real preview of what tech policy going into the midterm elections is going to be like. You were just there. You talked to a bunch of people who are protesting data centers. It is a real alignment scramble in terms of our politics. Tell us what you found. What I found was people are really, really, really, really mad. And the reasons why they’re mad are different depending on the community, but they’re also all the same, if that makes sense. They have localized concerns. They were telling me Florida’s really humid. It doesn’t make sense to build a data center that needs to be kept very cool and dry in such a humid place. A lot of them were concerned about their groundwater. They were concerned about PFAS getting dumped into the water. But I’ve also talked to people in Arizona who have the opposite concern. Arizona is not very humid. Arizona’s very dry. And they’re also like, “It doesn’t make sense to build a data center in the desert.” So whatever your community is, you’re like, “It doesn’t make sense to build a data center here because of X reason,” basically. The thing that really strikes me in reading your piece and hearing about the other reporting you’re doing for pieces to come is that data center build-outs and data center protests do not neatly map to the usual right-left culture war alignment that we have seen play out for so long. And I’m curious about your view on that. Why can’t Elon Musk just command his army of followers to be pro-data centers? This is so interesting to me. So this is a little bit of backstory that’s going to answer your question. The woman who organized Humans First, which was bipartisan and now is focusing only on organizing conservatives, was an early founder or organizer with the Tea Party way back when. And this has a similar vibe to me. It’s not a left-right thing. It’",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 23,
+        "confidence": 2,
+        "reasoning": "Backlash against data centers popping up near communities",
+        "ratedAt": "2026-08-07T23:24:57.727Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 19.87
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 19.87
+        }
+      },
+      "startedAt": "2026-08-07T23:24:57.727Z",
+      "updatedAt": "2026-08-07T23:27:12.632Z",
+      "articleRating": {
+        "score": 23,
+        "confidence": 2,
+        "reasoning": "Interview on data centers and communities coming together with city councils to place moratorium",
+        "ratedAt": "2026-08-07T23:27:12.632Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-07T23:27:12.632Z"
+    },
+    {
+      "benchmarkId": "111e8b8d60cbe8ebf175",
+      "aliases": [
+        {
+          "storyId": "915e2923aa6c3e1d6d08",
+          "title": "The messy politics behind Google’s big AI shakeup",
+          "url": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+          "source": "The Verge AI",
+          "published": "2026-08-06T13:26:42.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "915e2923aa6c3e1d6d08",
+        "title": "The messy politics behind Google’s big AI shakeup",
+        "url": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+        "source": "The Verge AI",
+        "published": "2026-08-06T13:26:42.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Google CEO Sundar Pichai at Google I/O. | Photo by Benjamin Fanjoy/Getty Images In the AI industry, Google prides itself on seeming like the adult in the room: quiet, stable, time-tested. On Wednesday, even as the company announced its largest AI org shakeup yet, Google and its leaders presented a unified front, keeping their messaging focused on how the changes tee up future success. But the reality is that the laundry list of executive changes likely signal deeper issues within Google's AI organization. That starts with its tenuous position in the AI race, and it stretches to problems like Google DeepMind leader Demis Hassabis' interest in longer-term research over shorter-term product shipping, as well as bubbling p … Read the full story at The Verge. In the AI industry, Google prides itself on seeming like the adult in the room: quiet, stable, time-tested. On Wednesday, even as the company announced its largest AI org shakeup yet, Google and its leaders presented a unified front, keeping their messaging focused on how the changes tee up future success. But the reality is […]",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 30,
+        "confidence": 2,
+        "reasoning": "Largest AI organization shake up, tech giant thats seemingly on edge",
+        "ratedAt": "2026-08-07T23:01:34.875Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 21.53
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 21.53
+        }
+      },
+      "startedAt": "2026-08-07T23:01:34.875Z",
+      "updatedAt": "2026-08-07T23:04:35.651Z",
+      "articleRating": {
+        "score": 40,
+        "confidence": 2,
+        "reasoning": "Apparently this is a big deal for the AI industry and a public example of the continued brain drain happening at Google",
+        "ratedAt": "2026-08-07T23:04:35.651Z"
+      },
+      "contextAdjustment": 10,
+      "completedAt": "2026-08-07T23:04:35.651Z"
+    },
+    {
+      "benchmarkId": "8937d291a4dd24b76360",
+      "aliases": [
+        {
+          "storyId": "4358b8a7d456f552cec1",
+          "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
+          "url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
+          "source": "WIRED AI",
+          "published": "2026-08-05T19:42:12.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "4358b8a7d456f552cec1",
+        "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
+        "url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
+        "source": "WIRED AI",
+        "published": "2026-08-05T19:42:12.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Security researcher James Kettle tried to push the limit of AI’s hacking abilities—and discovered how effective it can be when combined with human expertise. Security Security / Cyberattacks and Hacks",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 70,
+        "confidence": 3,
+        "reasoning": "Rogue AI is scary and unpredictable. Cybersecurity experts with AI are  even more effective when combined with human intelligence to guide it.",
+        "ratedAt": "2026-08-07T23:45:00.560Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 18.09
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 18.09
+        }
+      },
+      "startedAt": "2026-08-07T23:45:00.560Z",
+      "updatedAt": "2026-08-07T23:48:45.989Z",
+      "articleRating": {
+        "score": 73,
+        "confidence": 3,
+        "reasoning": "Hackers using creative thinking and problem solving skills combined with AI language models by giving it new methods and attack vectors to exploit rather than following it's programmed orders. Potential for serious harm in near future if cyber criminals are motivated to act.",
+        "ratedAt": "2026-08-07T23:48:45.989Z"
+      },
+      "contextAdjustment": 3,
+      "completedAt": "2026-08-07T23:48:45.989Z"
+    },
+    {
+      "benchmarkId": "c7b670f3e3770616d53e",
+      "aliases": [
+        {
+          "storyId": "23a292887ca5e4c75326",
+          "title": "The Senate Should Reject KOSA's Privacy Risks",
+          "url": "https://www.eff.org/deeplinks/2026/08/senate-should-reject-kosas-privacy-risks",
+          "source": "EFF AI",
+          "published": "2026-08-03T23:47:38.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "23a292887ca5e4c75326",
+        "title": "The Senate Should Reject KOSA's Privacy Risks",
+        "url": "https://www.eff.org/deeplinks/2026/08/senate-should-reject-kosas-privacy-risks",
+        "source": "EFF AI",
+        "published": "2026-08-03T23:47:38.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Update: The Senate Commerce Committee voted to advance this bill on August 5, 2026. EFF continues to oppose the bill, which still needs approval from the full Senate. The Senate Commerce Committee is once again considering legislation that would dramatically expand age verification, and undermine privacy for everyone. Alongside the SCREEN Act, the CHATBOT Act, and the Youth AI Privacy Act, the Kids Online Safety Act (KOSA) would push companies to collect more information about their users while creating new incentives to restrict lawful speech. Take action Tell Congress: KOSA endangers the privacy of all KOSA Pushes Platforms Toward Age Verification The Senate version of KOSA imposes a “duty of care” on online services, including social media, to avoid exposing young people to certain material the law deems harmful. But those obligations only work if online services know which users are minors. That means more platforms will be pressured to implement age verification or age estimation systems. That’s not a bill that increases privacy—it’s one that creates new privacy problems. Whether companies verify ages by checking government IDs, performing facial analysis, checking your bank records, or collecting other personal information, all of these systems require the handing over of more sensitive data, simply to access lawful online speech and services. They also create new databases of personal information that can be breached, misused, or demanded by governments. Everyone deserves privacy online. Congress could push for a bill that protects privacy for all users, but that’s not what they’re doing here. Instead, KOSA and the other bills coming up for a vote this week push online services to adopt systems that require people to identify themselves before they can speak, read, or participate online. KOSA Still Creates Incentives to Censor Lawful Speech Some online content isn’t appropriate for minors. Families, schools, and communities all have important roles to play in helping children navigate the internet. But KOSA takes those decisions away from families and the young people who have a First Amendment right to speak and access information online. It instead empowers government officials to enforce how online services handle lawful speech. And by empowering elected attorneys general in states across the country to enforce KOSA, the bill means those elected officials, rather than your family, deciding what’s appropriate online content for teens. Even more likely, it will lead to limits on what minors and adults are able to see at all, as companies shut down potentially controversial forums in order to avoid legal action from government bureaucrats. The latest version of KOSA once again includes a broad \"duty of care\" requiring platforms to mitigate a wide range of alleged harms to minors. Whatever disclaimers and exceptions the bill includes, the practical effect is unchanged. When platforms face liability for content that someone later claims contributed to harms like anxiety, eating disorders, or substance use, the safest response is to remove lawful speech or shut down forums discussing those topics altogether. More worrisome, the potential liability KOSA creates may push online services to either remove speech well in advance of a young person seeing it, or block young people’s access so they never see it. That will likely include forums where people try to help each other, find community and recovery resources for the exact harms listed in the bill, like gambling and drug addiction. In trying to protect young people, KOSA may actually cut them off from valuable sources of support. We've explained these censorship risks in detail before, and they remain just as real in the latest version of the bill. Congress Should Reject KOSA Minors deserve meaningful privacy protections online—as do adults. But KOSA moves in the opposite direction by encouraging more age verification, as well as more legal pressure for platforms to m",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 32,
+        "confidence": 2,
+        "reasoning": "Senate voting on expansion of age verification and tracking online activity",
+        "ratedAt": "2026-08-07T23:33:04.173Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 19.04
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 79.99
+        }
+      },
+      "startedAt": "2026-08-07T23:33:04.173Z",
+      "updatedAt": "2026-08-07T23:35:01.649Z",
+      "articleRating": {
+        "score": 46,
+        "confidence": 2,
+        "reasoning": "Kids Online Safety Act would pressure more companies into age verification by checking government ID, facial recognition, bank records, and sensitive private information.",
+        "ratedAt": "2026-08-07T23:35:01.649Z"
+      },
+      "contextAdjustment": 14,
+      "completedAt": "2026-08-07T23:35:01.649Z"
+    },
+    {
+      "benchmarkId": "20a99a72146955a19923",
+      "aliases": [
+        {
+          "storyId": "b3989dcfb48ba9b056fe",
+          "title": "The Youth AI Privacy Act’s Privacy Paradox",
+          "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
+          "source": "EFF AI",
+          "published": "2026-08-03T21:08:45.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "b3989dcfb48ba9b056fe",
+        "title": "The Youth AI Privacy Act’s Privacy Paradox",
+        "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
+        "source": "EFF AI",
+        "published": "2026-08-03T21:08:45.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Update: The Senate Commerce Committee voted to advance this bill on August 5, 2026. EFF continues to oppose the bill, which still needs approval from the full Senate. The Senate Commerce Committee is poised to consider the Youth AI Privacy Act, a bill that would require AI companies to create kids-only privacy rules and implement so-called “safe design features,” which would—like three other bills under consideration this week—require more data collection and make it harder for people to access lawful speech online. While the bill is narrower than some other proposed chatbot bills, it still has massive data security implications because it protects information for only certain users. This creates a problem we’ve cited many times before: if a bill requires that online services offer protections to minor users, the services will respond by imposing age gates to know which users should receive them. A better approach would be to offer the same privacy protections to all users. That way, we would avoid the services having to collect data on everyone to know a users’ age. This bill also contains a problematic and vague provision that expressly allows AI companies to collect a known minor’s personal data for the purpose of testing, identifying, and addressing \"harm to users”—without being clear on what exactly that means. Either way, services will need to collect even more information from young people, who are already targets of data theft and identity fraud. The Youth AI Privacy Act will give young people less privacy, not more. The Youth AI Privacy Act does include some positive privacy provisions around prohibiting the processing of personal information, like limiting what companies can do with people’s chat logs, including training, profiling, and disclosing them to other companies for training. But a general privacy bill must set these limits for everyone, not just minors. Mandating Design is Regulating Speech The bill also requires the use of “safe design features,” which would restrict how online services providers design their systems and would deny teenagers the ability to use features like push alerts and notifications. We have seen this same type of restriction, sometimes called “age appropriate design code” in several states, including in California, Texas, and Arkansas. Unfortunately, these restrictions run into constitutional problems. In fact, federal courts have largely blocked these laws from going into effect because they likely violate the First Amendment rights of all internet users and the online services they regulate. Specifically, these laws interfere with internet users’ First Amendment rights to either speak or access speech online, and they also violate the rights on online services to decide how they will present information on their sites. Similarly, the Supreme Court has repeatedly ruled that “minors are entitled to a significant measure of First Amendment protection.” This does not mean that parents or guardians can’t set their own rules for their families—they can and they should, based on the needs and circumstances of the individual teenagers. But it does mean that Congress cannot adopt a “one size fits all” regulation that sets a restrictive government default that affects the First Amendment rights of all internet users, including teenagers. Privacy Free Speech",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 42,
+        "confidence": 2,
+        "reasoning": "Government overreach, data collection, privacy concerns, and limiting freedom of speech online under the guise of kids safety",
+        "ratedAt": "2026-08-07T22:34:21.591Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 23.95
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 25.2
+        }
+      },
+      "startedAt": "2026-08-07T22:34:21.591Z",
+      "updatedAt": "2026-08-07T22:36:21.473Z",
+      "articleRating": {
+        "score": 52,
+        "confidence": 2,
+        "reasoning": "Potential widening of age gating websites online, data collection of minors is concerning",
+        "ratedAt": "2026-08-07T22:36:21.473Z"
+      },
+      "contextAdjustment": 10,
+      "completedAt": "2026-08-07T22:36:21.473Z"
+    },
+    {
+      "benchmarkId": "4ef9afc5454d9052861d",
+      "aliases": [
+        {
+          "storyId": "4909137d46e5e3801e51",
+          "title": "Tokenomics: Why making AI pay is tricky",
+          "url": "https://www.bbc.co.uk/news/articles/c872r52x7jgo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "published": "2026-08-03T23:21:10.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "4909137d46e5e3801e51",
+        "title": "Tokenomics: Why making AI pay is tricky",
+        "url": "https://www.bbc.co.uk/news/articles/c872r52x7jgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News AI",
+        "published": "2026-08-03T23:21:10.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Buyers of AI services are struggling to control costs and sellers are not sure how much to charge.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 28,
+        "confidence": 2,
+        "reasoning": "Economics and market demand/supply related",
+        "ratedAt": "2026-08-08T06:37:54.400Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 15.2
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 15.2
+        }
+      },
+      "startedAt": "2026-08-08T06:37:54.400Z",
+      "updatedAt": "2026-08-08T06:39:50.947Z",
+      "articleRating": {
+        "score": 28,
+        "confidence": 2,
+        "reasoning": "Getting customers to pay for AI through agents is proving to be difficult to quantify because the price of tokens isn't stabilized.",
+        "ratedAt": "2026-08-08T06:39:50.947Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T06:39:50.947Z"
+    },
+    {
+      "benchmarkId": "cc2d61042e9431298a46",
+      "aliases": [
+        {
+          "storyId": "71867721c7a5e5470c1a",
+          "title": "Tomorrow’s U.S. Senate Vote: Four Internet Bills, One Wrong Direction",
+          "url": "https://www.eff.org/deeplinks/2026/08/senate-vote-tomorrow-four-internet-bills-one-wrong-direction",
+          "source": "EFF AI",
+          "published": "2026-08-05T00:15:11.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "71867721c7a5e5470c1a",
+        "title": "Tomorrow’s U.S. Senate Vote: Four Internet Bills, One Wrong Direction",
+        "url": "https://www.eff.org/deeplinks/2026/08/senate-vote-tomorrow-four-internet-bills-one-wrong-direction",
+        "source": "EFF AI",
+        "published": "2026-08-05T00:15:11.000Z"
+      },
+      "feedEvidence": {
+        "summary": "The Senate Commerce Committee will vote this week on several censorious and privacy invasive bills: KOSA, the SCREEN Act, Youth AI Privacy Act, and CHATBOT Act. While we appreciate that the Committee is taking the time to look at these bills separately, it’s still impossible to ignore the message Congress is sending to the world: Age-gate the internet and block young people from speaking and accessing lawful speech online. Or else. Take action Tell Congress: don't age-gate the internet Each of these bills claims to be trying to protect children and teenagers from dangerous situations on and offline—certainly a worthy goal. But the proposed solutions in these bills are unlikely to make children and teenagers safer at all. Rather, they would create sweeping new privacy and data security problems, and force platforms to adopt unconstitutional restrictions on the content they host, for both adults and teenagers. There is a better way. Instead of considering these bills, the Senate Commerce Committee should be focusing on a national consumer privacy bill that would protect ALL internet users, or on banning behavioral advertising that tracks us across the web—again, for users of all ages. But the bills being considered this week move in the other direction—more information being collected, more surveillance, and less privacy for internet users of all ages. Take action help eff oppose these bills EFF sent a letter to the Committee with our concerns about these bills. We look forward to continuing to work with them to find a way forward that protects all users. Privacy Age Verification and Age Gating: Resource Hub",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 33,
+        "confidence": 3,
+        "reasoning": "Legislation trying to be passed to protect children online, would effect freedom of speech and present privacy concerns",
+        "ratedAt": "2026-08-08T16:54:37.739Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 12.97
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 12.97
+        }
+      },
+      "startedAt": "2026-08-08T16:54:37.739Z",
+      "updatedAt": "2026-08-08T16:56:06.287Z",
+      "articleRating": {
+        "score": 33,
+        "confidence": 3,
+        "reasoning": "Bills propose age-gating more of the internet which would increase the surveillance and data collection of all Americans",
+        "ratedAt": "2026-08-08T16:56:06.287Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:56:06.287Z"
+    },
+    {
+      "benchmarkId": "ff3717f9dc2ae8e8f5fc",
+      "aliases": [
+        {
+          "storyId": "fcc742f29296a52fb633",
+          "title": "Top public sector takeaways from Google Cloud Next 2024",
+          "url": "https://aiscoop.com/top-public-sector-takeaways-from-google-cloud-next-2024-2/",
+          "source": "AI Scoop",
+          "published": "2024-04-18T16:29:34.000Z"
+        },
+        {
+          "storyId": "ea62191d3bde9ca864cf",
+          "title": "Top public sector takeaways from Google Cloud Next 2024",
+          "url": "https://aiscoop.com/top-public-sector-takeaways-from-google-cloud-next-2024/",
+          "source": "AI Scoop",
+          "published": "2024-05-07T16:29:33.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "fcc742f29296a52fb633",
+        "title": "Top public sector takeaways from Google Cloud Next 2024",
+        "url": "https://aiscoop.com/top-public-sector-takeaways-from-google-cloud-next-2024-2/",
+        "source": "AI Scoop",
+        "published": "2024-04-18T16:29:34.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 10,
+        "confidence": 3,
+        "reasoning": "Google product announcements",
+        "ratedAt": "2026-08-08T16:49:30.550Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 13.11
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 13.11
+        }
+      },
+      "startedAt": "2026-08-08T16:49:30.550Z",
+      "updatedAt": "2026-08-08T16:49:45.827Z",
+      "articleRating": {
+        "score": 10,
+        "confidence": 3,
+        "reasoning": "Product announcements from Google",
+        "ratedAt": "2026-08-08T16:49:45.827Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T16:49:45.827Z"
+    },
+    {
+      "benchmarkId": "b874f6ee8b854d769748",
+      "aliases": [
+        {
+          "storyId": "8c87b9bfdab1e6f99859",
+          "title": "UK experts sound alarm after AI tries to deceive human",
+          "url": "https://news.sky.com/story/uk-experts-sound-alarm-after-ai-caught-trying-to-trick-human-with-malicious-code-13569902",
+          "source": "Sky News AI",
+          "published": "2026-08-05T02:48:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "8c87b9bfdab1e6f99859",
+        "title": "UK experts sound alarm after AI tries to deceive human",
+        "url": "https://news.sky.com/story/uk-experts-sound-alarm-after-ai-caught-trying-to-trick-human-with-malicious-code-13569902",
+        "source": "Sky News AI",
+        "published": "2026-08-05T02:48:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "A powerful AI agent created fake online identities in an effort to trick a human into giving it access to a popular online development platform – and sabotage it with malicious code.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 74,
+        "confidence": 3,
+        "reasoning": "AI attempting to psychologically manipulate humans to gain credentials to online platform with the goal of planting malicious code which could have systemic consequences",
+        "ratedAt": "2026-08-07T22:09:53.358Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 43.55
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 43.55
+        }
+      },
+      "startedAt": "2026-08-07T22:09:53.358Z",
+      "updatedAt": "2026-08-07T22:12:57.597Z",
+      "articleRating": {
+        "score": 65,
+        "confidence": 3,
+        "reasoning": "Rogue AI took autonomous action with internet access although no harm occured, the human refused to approve the malicious code",
+        "ratedAt": "2026-08-07T22:12:57.597Z"
+      },
+      "contextAdjustment": -9,
+      "completedAt": "2026-08-07T22:12:57.597Z"
+    },
+    {
+      "benchmarkId": "74e88b19a1f4d6afe102",
+      "aliases": [
+        {
+          "storyId": "17c11ad9e85102512f94",
+          "title": "We posted a job. Then came the AI slop, impersonator and recruiter scam",
+          "url": "https://themarkup.org/hello-world/2026/01/24/we-posted-a-job-then-came-the-ai-slop-impersonator-and-recruiter-scam",
+          "source": "The Markup AI",
+          "published": "2026-01-24T13:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "17c11ad9e85102512f94",
+        "title": "We posted a job. Then came the AI slop, impersonator and recruiter scam",
+        "url": "https://themarkup.org/hello-world/2026/01/24/we-posted-a-job-then-came-the-ai-slop-impersonator-and-recruiter-scam",
+        "source": "The Markup AI",
+        "published": "2026-01-24T13:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Red flags that both job seekers and employers should watch for, in an era of AI slop and application scams",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 52,
+        "confidence": 2,
+        "reasoning": "Job hiring scams targeting people who are vulnerable looking for a job",
+        "ratedAt": "2026-08-08T00:54:50.461Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 16.98
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 16.98
+        }
+      },
+      "startedAt": "2026-08-08T00:54:50.461Z",
+      "updatedAt": "2026-08-08T01:07:40.654Z",
+      "articleRating": {
+        "score": 55,
+        "confidence": 2,
+        "reasoning": "Job seekers and employers have to deal with AI slop and scammers making the job hiring process more complicated than it needs to be",
+        "ratedAt": "2026-08-08T01:07:40.654Z"
+      },
+      "contextAdjustment": 3,
+      "completedAt": "2026-08-08T01:07:40.654Z"
+    },
+    {
+      "benchmarkId": "6254e6907e55c5aba09c",
+      "aliases": [
+        {
+          "storyId": "44c68453ba8734388d04",
+          "title": "What’s behind the Google AI shake-up",
+          "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+          "source": "The Verge AI",
+          "published": "2026-08-07T16:45:14.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "44c68453ba8734388d04",
+        "title": "What’s behind the Google AI shake-up",
+        "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+        "source": "The Verge AI",
+        "published": "2026-08-07T16:45:14.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in turmoil? Is it about Demis Hassabis wanting something more interesting to work on than virtual assistants? Or is there something else entirely happening here? On this episode of The Vergecast, Nilay and David start by discussing the leadership shake-up at Google, the state of the AI race, and whether Google is actually set up to succeed here. They also t … Read the full story at The Verge. Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in […]",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 13,
+        "confidence": 2,
+        "reasoning": "Leadership shakeup at Google, routine activity for companies",
+        "ratedAt": "2026-08-07T22:58:25.133Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 21.53
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 21.53
+        }
+      },
+      "startedAt": "2026-08-07T22:58:25.133Z",
+      "updatedAt": "2026-08-07T22:59:44.021Z",
+      "articleRating": {
+        "score": 13,
+        "confidence": 2,
+        "reasoning": "Podcast on AI and leadership change",
+        "ratedAt": "2026-08-07T22:59:44.021Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-07T22:59:44.021Z"
+    },
+    {
+      "benchmarkId": "d3c584aa3aff173612c8",
+      "aliases": [
+        {
+          "storyId": "0d82654a28c9a1ecc602",
+          "title": "Why Silicon Valley is divided over China’s powerful, cheap AI models",
+          "url": "https://restofworld.org/2026/silicon-valley-debate-chinese-open-weight-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "published": "2026-08-03T10:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "0d82654a28c9a1ecc602",
+        "title": "Why Silicon Valley is divided over China’s powerful, cheap AI models",
+        "url": "https://restofworld.org/2026/silicon-valley-debate-chinese-open-weight-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+        "source": "Rest of World AI",
+        "published": "2026-08-03T10:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Low-cost Chinese open-weight models are splitting tech executives and Washington over national security and competitiveness.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 25,
+        "confidence": 3,
+        "reasoning": "Chinese AI open-weight models pose a national security risk",
+        "ratedAt": "2026-08-08T17:02:11.042Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 12.52
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 12.52
+        }
+      },
+      "startedAt": "2026-08-08T17:02:11.042Z",
+      "updatedAt": "2026-08-08T17:04:36.020Z",
+      "articleRating": {
+        "score": 25,
+        "confidence": 3,
+        "reasoning": "American AI companies are mostly closed-source, while Chinese AI labs are releasing open-weight models to attract global users.",
+        "ratedAt": "2026-08-08T17:04:36.020Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-08T17:04:36.020Z"
+    },
+    {
+      "benchmarkId": "adb9d882d7debab57cfd",
+      "aliases": [
+        {
+          "storyId": "f58077692cdefc51b5a1",
+          "title": "Why state-owned AI won’t solve inequality",
+          "url": "https://restofworld.org/2026/ai-government-ownership/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "published": "2026-07-24T13:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "f58077692cdefc51b5a1",
+        "title": "Why state-owned AI won’t solve inequality",
+        "url": "https://restofworld.org/2026/ai-government-ownership/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+        "source": "Rest of World AI",
+        "published": "2026-07-24T13:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Government ownership of AI companies may promise shared wealth, but it risks weakening oversight and accountability.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 37,
+        "confidence": 2,
+        "reasoning": "Government intervening with the free market economy, stifling innovation",
+        "ratedAt": "2026-08-08T01:23:09.723Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 16.65
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 16.88
+        }
+      },
+      "startedAt": "2026-08-08T01:23:09.723Z",
+      "updatedAt": "2026-08-08T01:31:29.328Z",
+      "articleRating": {
+        "score": 38,
+        "confidence": 2,
+        "reasoning": "Government wants a stake in American AI companies while not having any federal AI laws passed. While legislation would slow innovation it also gives the government a legal grey area to operate under",
+        "ratedAt": "2026-08-08T01:31:29.328Z"
+      },
+      "contextAdjustment": 1,
+      "completedAt": "2026-08-08T01:31:29.328Z"
+    },
+    {
+      "benchmarkId": "387da6609e2f15c30867",
+      "aliases": [
+        {
+          "storyId": "8d854d272b9231e39003",
+          "title": "Working to automate nuclear plant operations",
+          "url": "https://news.mit.edu/2026/working-automate-nuclear-plant-operations-lauren-fortier-0724",
+          "source": "MIT News AI",
+          "published": "2026-07-24T04:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "8d854d272b9231e39003",
+        "title": "Working to automate nuclear plant operations",
+        "url": "https://news.mit.edu/2026/working-automate-nuclear-plant-operations-lauren-fortier-0724",
+        "source": "MIT News AI",
+        "published": "2026-07-24T04:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "PhD student Lauren Fortier is building on the experience she gained operating a nuclear plant for the Navy to solve a critical hurdle in the wider adoption of the energy source. School of Engineering Mechanical engineering Nuclear science and engineering Energy Renewable energy Nuclear power and reactors Artificial intelligence Computer modeling Software Automation Human-computer interaction Students Graduate, postdoctoral Profile Awards, honors and fellowships Department of Energy (DoE) Research U.S. Armed Forces ROTC",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 15,
+        "confidence": 2,
+        "reasoning": "Automating nuclear energy usage",
+        "ratedAt": "2026-08-08T17:12:13.539Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 12.36
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 15.96
+        }
+      },
+      "startedAt": "2026-08-08T17:12:13.539Z",
+      "updatedAt": "2026-08-08T17:12:55.100Z",
+      "articleRating": {
+        "score": 13,
+        "confidence": 2,
+        "reasoning": "Biography",
+        "ratedAt": "2026-08-08T17:12:55.100Z"
+      },
+      "contextAdjustment": -2,
+      "completedAt": "2026-08-08T17:12:55.100Z"
+    },
+    {
+      "benchmarkId": "a832ca0b64abdd7d7a0c",
+      "aliases": [
+        {
+          "storyId": "0fc9bb38e317e75e21b4",
+          "title": "Your medical provider might be recording your mental health care visits",
+          "url": "https://themarkup.org/privacy/2026/06/16/your-medical-provider-might-be-recording-your-mental-health-care-visits",
+          "source": "The Markup AI",
+          "published": "2026-06-16T12:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "0fc9bb38e317e75e21b4",
+        "title": "Your medical provider might be recording your mental health care visits",
+        "url": "https://themarkup.org/privacy/2026/06/16/your-medical-provider-might-be-recording-your-mental-health-care-visits",
+        "source": "The Markup AI",
+        "published": "2026-06-16T12:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Mental health providers are increasingly using AI technology to record conversations, raising privacy concerns among patients and practitioners.",
+        "summaryAvailable": true
+      },
+      "feedRating": {
+        "score": 35,
+        "confidence": 2,
+        "reasoning": "What if I don't want everything I said to be recorded or scrutinized",
+        "ratedAt": "2026-08-08T06:58:22.582Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 14.91
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 14.91
+        }
+      },
+      "startedAt": "2026-08-08T06:58:22.582Z",
+      "updatedAt": "2026-08-08T07:00:17.793Z",
+      "articleRating": {
+        "score": 39,
+        "confidence": 2,
+        "reasoning": "Ethical grey zone and potentially violating confidentially between patient and provider",
+        "ratedAt": "2026-08-08T07:00:17.793Z"
+      },
+      "contextAdjustment": 4,
+      "completedAt": "2026-08-08T07:00:17.793Z"
+    }
+  ]
+}
