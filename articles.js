@@ -173,7 +173,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.0922,
+      "freshness": 0.0901,
       "feedPosition": 0,
       "novelty": 0.606
     },
@@ -182,7 +182,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2018,
+    "score": 0.2015,
     "doomIndex": 47.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -262,14 +262,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0508,
+      "freshness": 0.0496,
       "feedPosition": 1,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2772,
+    "score": 0.2771,
     "doomIndex": 43.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -350,7 +350,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2455,
       "sourceAuthority": 0.5,
-      "freshness": 0.0838,
+      "freshness": 0.0818,
       "feedPosition": 0,
       "novelty": 0.7692
     },
@@ -359,7 +359,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "unusual language in the current story batch"
     ],
-    "score": 0.2136,
+    "score": 0.2133,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -438,14 +438,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.0611,
+      "freshness": 0.0596,
       "feedPosition": 0.3333,
       "novelty": 0.6492
     },
     "rankingReasons": [
       "urgency or risk"
     ],
-    "score": 0.2064,
+    "score": 0.2062,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -524,12 +524,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2998,
-      "feedPosition": 0.6667,
+      "freshness": 0.2927,
+      "feedPosition": 0.5556,
       "novelty": 0.5702
     },
     "rankingReasons": [],
-    "score": 0.2437,
+    "score": 0.2315,
     "doomIndex": 30.4,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -696,14 +696,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.4223,
+      "freshness": 0.4124,
       "feedPosition": 0.2222,
       "novelty": 0.9595
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2636,
+    "score": 0.2621,
     "doomIndex": 29.23,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -782,7 +782,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0223,
+      "freshness": 0.0218,
       "feedPosition": 0.4444,
       "novelty": 0.6788
     },
@@ -792,7 +792,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2411,
+    "score": 0.241,
     "doomIndex": 23.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -873,7 +873,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0182,
+      "freshness": 0.0178,
       "feedPosition": 0.2222,
       "novelty": 0.6271
     },
@@ -882,7 +882,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.2911,
+    "score": 0.291,
     "doomIndex": 22.05,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1047,14 +1047,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.2842,
-      "feedPosition": 0.5556,
+      "freshness": 0.2775,
+      "feedPosition": 0.4444,
       "novelty": 0.335
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.3138,
+    "score": 0.3017,
     "doomIndex": 20.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1119,88 +1119,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "The left and right agree on one thing: no data centers",
-    "url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
-    "source": "The Verge AI",
-    "published": "2026-08-06T14:00:00.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/VRG_DCD_0730.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.122,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1352,
-      "feedPosition": 0,
-      "novelty": 0.5105
-    },
-    "rankingReasons": [
-      "real-world consequences"
-    ],
-    "score": 0.1707,
-    "doomIndex": 19.87,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0.35,
-      "systemicReach": 0.575,
-      "credibleThreat": 0,
-      "evidence": 0.3637,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0.85
-    },
-    "doomIndexReasons": [
-      "systemic or institutional reach",
-      "proposed event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "de2a3d5e553f4defa2e9",
-    "doomIndexInputFingerprint": "ad5d921fee2d7ff1019c",
-    "doomIndexV123Shadow": 19.87,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "proposed",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0.35,
-      "systemicReach": 0.575,
-      "credibleThreat": 0,
-      "evidence": 0.3637,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0.85
-    },
-    "doomIndexV123Reasons": [
-      "systemic or institutional reach",
-      "proposed event status"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "de2a3d5e553f4defa2e9",
-    "doomIndexV123InputFingerprint": "16d04f8337746abb4e0d",
-    "storyId": "55c67cc1e7917eafa9b6",
-    "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "Today, I’m talking with Gaby Del Valle, a policy reporter here at The Verge, about the growing backlash against AI data centers. Gaby recently reported a fantastic piece about Hernando County, Florida, where last month the county commission unanimously approved a yearlong moratorium on data center construction. She attended a protest there organized by a group called Humans First, a conservative grassroots movement focused on combating AI data center build-outs. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. You’ll hear Gaby explain that it was part of a bigger, broader, and bipartisan opposition to data centers. Not only as physical buildings, but as infrastructure that powers an AI boom that takes local jobs and fills feeds with slop. Data center construction has become a proxy for the public’s feelings about AI: something physical they can aim their fear and frustration at — and even create enough pressure to stop through community organizing and protests. So I wanted Gaby to talk me through what these protests look like on the ground, from voters whose party affiliations have typically aligned them with big business. You’ll hear Gaby say data centers are scrambling party lines, turning diehard Trump voters into protesters who care about left-coded issues like groundwater contamination and forever chemicals. It’s a confusing time, and data centers are going to play a major role in electoral politics going forward. So I suspect this won’t be the last we hear from Gaby on movements like Humans First. Okay: Verge policy reporter Gaby Del Valle on the bipartisan data center backlash. Here we go. This interview has been lightly edited for length and clarity. Gaby Del Valle, you’re a policy reporter here at The Verge. Welcome back to Decoder. Thank you. Happy to be here. I’m excited to talk to you. You were on previously with our friend Alex Heath, but this is the first time I’ve gotten to talk to you in Decoder. I think the story you just wrote about data centers and conservative backlash in Florida is just a real preview of what tech policy going into the midterm elections is going to be like. You were just there. You talked to a bunch of people who are protesting data centers. It is a real alignment scramble in terms of our politics. Tell us what you found. What I found was people are really, really, really, really mad. And the reasons why they’re mad are different depending on the community, but they’re also all the same, if that makes sense. They have localized concerns. They were telling me Florida’s really humid. It doesn’t make sense to build a data center that needs to be kept very cool and dry in such a humid place. A lot of them were concerned about their groundwater. They were concerned about PFAS getting dumped into the water. But I’ve also talked to people in Arizona who have the opposite concern. Arizona is not very humid. Arizona’s very dry. And they’re also like, “It doesn’t make sense to build a data center in the desert.” So whatever your community is, you’re like, “It doesn’t make sense to build a data center here because of X reason,” basically. The thing that really strikes me in reading your piece and hearing about the other reporting you’re doing for pieces to come is that data center build-outs and data center protests do not neatly map to the usual right-left culture war alignment that we have seen play out for so long. And I’m curious about your view on that. Why can’t Elon Musk just command his army of followers to be pro-data centers? This is so interesting to me. So this is a little bit of backstory that’s going to answer your question. The woman who organized Humans First, which was bipartisan and now is focusing only on organizing conservatives, was an early founder or organizer with the Tea Party way back when. And this has a similar vibe to me. It’s not a left-right thing. It’",
-    "doomIndexInputSummary": "The left and right agree on one thing: no data centers. Today, I’m talking with Gaby Del Valle, a policy reporter here at The Verge, about the growing backlash against AI data centers. Gaby recently reported a fantastic piece about Hernando County, Florida, where last month the county commission unanimously approved a yearlong moratorium on data center construction. She attended a protest there organized by a group called Humans First, a conservative grassroots movement focused on combating AI data center build-outs. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. You’ll hear Gaby explain that it was part of a bigger, broader, and bipartisan opposition to data centers. Not only as physical buildings, but as infrastructure that powers an AI boom that takes local jobs and fills feeds with slop. Data center construction has become a proxy for the public’s feelings about AI: something physical they can aim their fear and frustration at — and even create enough pressure to stop through community organizing and protests. So I wanted Gaby to talk me through what these protests look like on the ground, from voters whose party affiliations have typically aligned them with big business. You’ll hear Gaby say data centers are scrambling party lines, turning diehard Trump voters into protesters who care about left-coded issues like groundwater contamination and forever chemicals. It’s a confusing time, and data centers are going to play a major role in electoral politics going forward. So I suspect this won’t be the last we hear from Gaby on movements like Humans First. Okay: Verge policy reporter Gaby Del Valle on the bipartisan data center backlash. Here we go. This interview has been lightly edited for length and clarity. Gaby Del Valle, you’re a policy reporter here at The Verge. Welcome back to Decoder. Thank you. Happy to be here. I’m excited to talk to you. You were on previously with our friend Alex Heath, but this is the first time I’ve gotten to talk to you in Decoder. I think the story you just wrote about data centers and conservative backlash in Florida is just a real preview of what tech policy going into the midterm elections is going to be like. You were just there. You talked to a bunch of people who are protesting data centers. It is a real alignment scramble in terms of our politics. Tell us what you found. What I found was people are really, really, really, really mad. And the reasons why they’re mad are different depending on the community, but they’re also all the same, if that makes sense. They have localized concerns. They were telling me Florida’s really humid. It doesn’t make sense to build a data center that needs to be kept very cool and dry in such a humid place. A lot of them were concerned about their groundwater. They were concerned about PFAS getting dumped into the water. But I’ve also talked to people in Arizona who have the opposite concern. Arizona is not very humid. Arizona’s very dry. And they’re also like, “It doesn’t make sense to build a data center in the desert.” So whatever your community is, you’re like, “It doesn’t make sense to build a data center here because of X reason,” basically. The thing that really strikes me in reading your piece and hearing about the other reporting you’re doing for pieces to come is that data center build-outs and data center protests do not neatly map to the usual right-left culture war alignment that we have seen play out for so long. And I’m curious about your view on that. Why can’t Elon Musk just command his army of followers to be pro-data centers? This is so interesting to me. So this is a little bit of backstory that’s going to answer your question. The woman who organized Humans First, which was bipartisan and now is focusing only on organizing conservatives, was an early founder or organizer with the Tea Party way back when. And this has a similar vibe to me. It’s not a left-right thing. It’"
-  },
-  {
-    "group": "ai",
     "title": "The Senate Should Reject KOSA's Privacy Risks",
     "url": "https://www.eff.org/deeplinks/2026/08/senate-should-reject-kosas-privacy-risks",
     "source": "EFF AI",
@@ -1211,7 +1129,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.462,
       "sourceAuthority": 0.5,
-      "freshness": 0.024,
+      "freshness": 0.0234,
       "feedPosition": 0.7778,
       "novelty": 0.6241
     },
@@ -1222,7 +1140,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3112,
+    "score": 0.3111,
     "doomIndex": 19.04,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1577,7 +1495,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.6667,
-      "novelty": 0.7744
+      "novelty": 0.8214
     },
     "rankingReasons": [
       "real-world consequences",
@@ -1585,7 +1503,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.272,
+    "score": 0.2767,
     "doomIndex": 16.84,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1835,7 +1753,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.113,
       "sourceAuthority": 0.5,
-      "freshness": 0.4342,
+      "freshness": 0.424,
       "feedPosition": 0.3333,
       "novelty": 0.8893
     },
@@ -1844,7 +1762,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.285,
+    "score": 0.2835,
     "doomIndex": 16.58,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2011,14 +1929,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.0621,
+      "freshness": 0.0606,
       "feedPosition": 1,
       "novelty": 0.7842
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2651,
+    "score": 0.2649,
     "doomIndex": 16.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2093,14 +2011,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.0237,
+      "freshness": 0.0232,
       "feedPosition": 0.1667,
       "novelty": 0.6136
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.1801,
+    "score": 0.18,
     "doomIndex": 15.2,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2175,7 +2093,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0452,
+      "freshness": 0.0441,
       "feedPosition": 0.8889,
       "novelty": 0.8392
     },
@@ -2185,7 +2103,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.305,
+    "score": 0.3048,
     "doomIndex": 15.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2268,7 +2186,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.34,
       "sourceAuthority": 0.5,
-      "freshness": 0.0241,
+      "freshness": 0.0236,
       "feedPosition": 0.75,
       "novelty": 0.6195
     },
@@ -2276,7 +2194,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "real-world consequences"
     ],
-    "score": 0.2836,
+    "score": 0.2835,
     "doomIndex": 15.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2524,9 +2442,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3745,
       "sourceAuthority": 0.5,
-      "freshness": 0.2468,
-      "feedPosition": 0.2222,
-      "novelty": 0.7693
+      "freshness": 0.241,
+      "feedPosition": 0.1111,
+      "novelty": 0.7515
     },
     "rankingReasons": [
       "real-world consequences",
@@ -2534,7 +2452,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2861,
+    "score": 0.2723,
     "doomIndex": 14.84,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2792,12 +2710,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.625,
-      "novelty": 0.4176
+      "novelty": 0.4283
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2013,
+    "score": 0.2023,
     "doomIndex": 14.34,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2875,9 +2793,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0007,
+      "freshness": 0.0006,
       "feedPosition": 0.2222,
-      "novelty": 0.7006
+      "novelty": 0.7332
     },
     "rankingReasons": [
       "real-world consequences",
@@ -2885,7 +2803,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2178,
+    "score": 0.221,
     "doomIndex": 14.17,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3047,7 +2965,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.1079,
+      "freshness": 0.1054,
       "feedPosition": 0.6,
       "novelty": 0.7585
     },
@@ -3056,7 +2974,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.273,
+    "score": 0.2727,
     "doomIndex": 13.41,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3565,7 +3483,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.5575,
+      "freshness": 0.5444,
       "feedPosition": 1,
       "novelty": 0.546
     },
@@ -3573,7 +3491,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.4423,
+    "score": 0.4404,
     "doomIndex": 12.98,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3646,15 +3564,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.3362,
-      "feedPosition": 0.7778,
+      "freshness": 0.3283,
+      "feedPosition": 0.6667,
       "novelty": 0.4606
     },
     "rankingReasons": [
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.3784,
+    "score": 0.3661,
     "doomIndex": 12.98,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3727,16 +3645,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.154,
       "sourceAuthority": 0.5,
-      "freshness": 0.0474,
+      "freshness": 0.0463,
       "feedPosition": 1,
-      "novelty": 0.8468
+      "novelty": 0.8666
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2976,
+    "score": 0.2994,
     "doomIndex": 12.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3817,7 +3735,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1555,
       "sourceAuthority": 0.5,
-      "freshness": 0.8692,
+      "freshness": 0.8489,
       "feedPosition": 0.7778,
       "novelty": 0.9538
     },
@@ -3825,7 +3743,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "unusual language in the current story batch"
     ],
-    "score": 0.4096,
+    "score": 0.4066,
     "doomIndex": 12.83,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3992,15 +3910,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.1849,
+      "freshness": 0.1806,
       "feedPosition": 0.4444,
-      "novelty": 0.6048
+      "novelty": 0.6271
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2361,
+    "score": 0.2376,
     "doomIndex": 12.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4075,7 +3993,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1765,
       "sourceAuthority": 0.5,
-      "freshness": 0.0164,
+      "freshness": 0.016,
       "feedPosition": 0.7143,
       "novelty": 0.4643
     },
@@ -4240,7 +4158,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.232,
       "sourceAuthority": 0.5,
-      "freshness": 0.023,
+      "freshness": 0.0225,
       "feedPosition": 0.5556,
       "novelty": 0.8277
     },
@@ -4250,7 +4168,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2632,
+    "score": 0.2631,
     "doomIndex": 12.49,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4330,14 +4248,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.161,
+      "freshness": 0.1572,
       "feedPosition": 0.5556,
       "novelty": 0.8382
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2456,
+    "score": 0.2451,
     "doomIndex": 12.46,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4499,7 +4417,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.4719,
+      "freshness": 0.4609,
       "feedPosition": 0.5556,
       "novelty": 0.8242
     },
@@ -4507,7 +4425,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3051,
+    "score": 0.3034,
     "doomIndex": 12.16,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4587,15 +4505,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0029,
+      "freshness": 0.0028,
       "feedPosition": 0.3333,
-      "novelty": 0.4947
+      "novelty": 0.517
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1866,
+    "score": 0.1889,
     "doomIndex": 11.92,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4681,7 +4599,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.28,
       "sourceAuthority": 0.5,
-      "freshness": 0.0238,
+      "freshness": 0.0232,
       "feedPosition": 0.6667,
       "novelty": 0.8377
     },
@@ -4691,7 +4609,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.285,
+    "score": 0.2849,
     "doomIndex": 11.67,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4773,14 +4691,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0621,
+      "freshness": 0.0606,
       "feedPosition": 0,
       "novelty": 0.4154
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.2258,
+    "score": 0.2256,
     "doomIndex": 11.61,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4941,7 +4859,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.202,
       "sourceAuthority": 0.5,
-      "freshness": 0.2442,
+      "freshness": 0.2385,
       "feedPosition": 0.3333,
       "novelty": 0.5354
     },
@@ -4950,7 +4868,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.3389,
+    "score": 0.338,
     "doomIndex": 11.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5023,7 +4941,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.068,
+      "freshness": 0.0664,
       "feedPosition": 0.4444,
       "novelty": 0.799
     },
@@ -5033,7 +4951,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2599,
+    "score": 0.2597,
     "doomIndex": 11.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5113,14 +5031,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1496,
-      "feedPosition": 0.3333,
+      "freshness": 0.1461,
+      "feedPosition": 0.2222,
       "novelty": 0.7842
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2092,
+    "score": 0.1976,
     "doomIndex": 11.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5185,6 +5103,92 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "The AI safety test is becoming a safety risk",
+    "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-09T14:30:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.23,
+      "sourceAuthority": 0.5,
+      "freshness": 0.989,
+      "feedPosition": 1,
+      "novelty": 0.8171
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "real-world consequences",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4511,
+    "doomIndex": 11.05,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "testing",
+    "doomIndexPolarity": "adverse",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0.425,
+      "credibleThreat": 0.5,
+      "evidence": 0.2,
+      "actuality": 0.45,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "credible threat or safety risk",
+      "testing event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "918bf64888e91f358dfd",
+    "doomIndexInputFingerprint": "967e373d3ab225389e65",
+    "doomIndexV123Shadow": 11.05,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "testing",
+    "doomIndexV123Polarity": "adverse",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0.425,
+      "credibleThreat": 0.5,
+      "evidence": 0.2,
+      "actuality": 0.45,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "credible threat or safety risk",
+      "testing event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "918bf64888e91f358dfd",
+    "doomIndexV123InputFingerprint": "ebb0505e1a397158122f",
+    "storyId": "c6578f3dce99176c7d0e",
+    "firstSeen": "2026-08-09T14:00:00.000Z",
+    "lastSeen": "2026-08-09T14:00:00.000Z",
+    "feedSummary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models. Security AI Meta cybersecurity moonshot OpenAI Hugging Face Anthropic",
+    "doomIndexInputSummary": "The AI safety test is becoming a safety risk. AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models. Security AI Meta cybersecurity moonshot OpenAI Hugging Face Anthropic"
+  },
+  {
+    "group": "ai",
     "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”",
     "url": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/",
     "source": "Ars Technica AI",
@@ -5195,12 +5199,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.291,
+      "freshness": 0.2842,
       "feedPosition": 0.8889,
       "novelty": 0.6001
     },
     "rankingReasons": [],
-    "score": 0.2735,
+    "score": 0.2725,
     "doomIndex": 11,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5273,7 +5277,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.153,
       "sourceAuthority": 0.5,
-      "freshness": 0.9202,
+      "freshness": 0.8987,
       "feedPosition": 0.8889,
       "novelty": 0.9123
     },
@@ -5282,7 +5286,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4238,
+    "score": 0.4205,
     "doomIndex": 10.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5359,7 +5363,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.1575,
+      "freshness": 0.1538,
       "feedPosition": 0.2222,
       "novelty": 0.9203
     },
@@ -5369,7 +5373,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2653,
+    "score": 0.2647,
     "doomIndex": 10.66,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5446,16 +5450,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0385,
+      "freshness": 0.0376,
       "feedPosition": 0.3333,
-      "novelty": 0.5979
+      "novelty": 0.5756
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2243,
+    "score": 0.2219,
     "doomIndex": 10.27,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5532,9 +5536,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.339,
       "sourceAuthority": 0.5,
-      "freshness": 0.137,
-      "feedPosition": 0.1111,
-      "novelty": 0.6885
+      "freshness": 0.1338,
+      "feedPosition": 0,
+      "novelty": 0.6943
     },
     "rankingReasons": [
       "real-world consequences",
@@ -5542,7 +5546,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2433,
+    "score": 0.2323,
     "doomIndex": 10.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5622,7 +5626,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.2356,
+      "freshness": 0.2301,
       "feedPosition": 0.5556,
       "novelty": 0.6329
     },
@@ -5630,7 +5634,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2576,
+    "score": 0.2568,
     "doomIndex": 10.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5705,14 +5709,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.2595,
+      "freshness": 0.2535,
       "feedPosition": 0.6667,
       "novelty": 0.7032
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.258,
+    "score": 0.2571,
     "doomIndex": 9.93,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5787,7 +5791,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.442,
       "sourceAuthority": 0.5,
-      "freshness": 0.4719,
+      "freshness": 0.4609,
       "feedPosition": 0.4444,
       "novelty": 0.8984
     },
@@ -5799,7 +5803,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3685,
+    "score": 0.3668,
     "doomIndex": 9.16,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5878,7 +5882,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.2559,
+      "freshness": 0.2499,
       "feedPosition": 1,
       "novelty": 0.7403
     },
@@ -5887,7 +5891,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3158,
+    "score": 0.3149,
     "doomIndex": 9.08,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5967,14 +5971,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0319,
+      "freshness": 0.0311,
       "feedPosition": 0.8571,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2601,
+    "score": 0.26,
     "doomIndex": 8.86,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6053,14 +6057,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.1429,
-      "novelty": 0.5012
+      "novelty": 0.514
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2118,
+    "score": 0.2131,
     "doomIndex": 8.68,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6139,15 +6143,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3255,
       "sourceAuthority": 0.5,
-      "freshness": 0.0007,
+      "freshness": 0.0006,
       "feedPosition": 0.4444,
-      "novelty": 0.6021
+      "novelty": 0.6084
     },
     "rankingReasons": [
       "real-world consequences",
       "surprise or reversal"
     ],
-    "score": 0.2448,
+    "score": 0.2455,
     "doomIndex": 8.67,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6228,14 +6232,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9197,
+      "freshness": 0.8982,
       "feedPosition": 0.8889,
-      "novelty": 0.7947
+      "novelty": 0.8108
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3813,
+    "score": 0.3797,
     "doomIndex": 8.62,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6312,12 +6316,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0024,
       "feedPosition": 0.5714,
-      "novelty": 0.6155
+      "novelty": 0.5858
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2161,
+    "score": 0.2131,
     "doomIndex": 8.62,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6484,14 +6488,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.4286,
-      "novelty": 0.5199
+      "novelty": 0.5263
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2298,
+    "score": 0.2305,
     "doomIndex": 8.57,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6566,14 +6570,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5027,
+      "freshness": 0.491,
       "feedPosition": 0.2222,
       "novelty": 0.7191
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2445,
+    "score": 0.2428,
     "doomIndex": 8.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6650,14 +6654,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0,
-      "novelty": 0.6779
+      "novelty": 0.7028
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1712,
+    "score": 0.1737,
     "doomIndex": 8.45,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6732,15 +6736,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.3242,
-      "feedPosition": 0.6667,
+      "freshness": 0.3167,
+      "feedPosition": 0.5556,
       "novelty": 0.7808
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2826,
+    "score": 0.2703,
     "doomIndex": 8.44,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6989,16 +6993,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.251,
       "sourceAuthority": 0.5,
-      "freshness": 0.6297,
-      "feedPosition": 1,
-      "novelty": 0.574
+      "freshness": 0.615,
+      "feedPosition": 0.8889,
+      "novelty": 0.5811
     },
     "rankingReasons": [
       "real-world consequences",
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.3771,
+    "score": 0.3645,
     "doomIndex": 8.32,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7075,7 +7079,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.1563,
+      "freshness": 0.1526,
       "feedPosition": 1,
       "novelty": 0.8382
     },
@@ -7084,7 +7088,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3107,
+    "score": 0.3101,
     "doomIndex": 8.23,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7163,14 +7167,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0,
-      "novelty": 0.5382
+      "novelty": 0.5461
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1792,
+    "score": 0.18,
     "doomIndex": 7.9,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7416,7 +7420,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.324,
       "sourceAuthority": 0.5,
-      "freshness": 0.02,
+      "freshness": 0.0195,
       "feedPosition": 0.7778,
       "novelty": 0.9026
     },
@@ -7501,7 +7505,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.1338,
+      "freshness": 0.1307,
       "feedPosition": 0.8889,
       "novelty": 0.6912
     },
@@ -7512,7 +7516,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3175,
+    "score": 0.317,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7589,7 +7593,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0724,
+      "freshness": 0.0707,
       "feedPosition": 0.5556,
       "novelty": 0.714
     },
@@ -7599,7 +7603,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2632,
+    "score": 0.263,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7763,7 +7767,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1575,
       "sourceAuthority": 0.5,
-      "freshness": 0.0447,
+      "freshness": 0.0437,
       "feedPosition": 0.2,
       "novelty": 0.7808
     },
@@ -7771,7 +7775,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2113,
+    "score": 0.2111,
     "doomIndex": 7.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7935,9 +7939,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0215,
+      "freshness": 0.021,
       "feedPosition": 0.7778,
-      "novelty": 0.6553
+      "novelty": 0.6624
     },
     "rankingReasons": [
       "real-world consequences",
@@ -7945,7 +7949,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2719,
+    "score": 0.2726,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8012,93 +8016,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
-    "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-07T14:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.242,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2632,
-      "feedPosition": 0.3333,
-      "novelty": 0.6867
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2649,
-    "doomIndex": 7.42,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0.425,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "c6b0dd20c1c52adf5d73",
-    "doomIndexInputFingerprint": "8c044cc854c4e27b8af8",
-    "doomIndexV123Shadow": 11.32,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0.5,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0.3
-    },
-    "doomIndexV123Reasons": [
-      "systemic or institutional reach",
-      "neutral event status",
-      "speculative or weakly evidenced",
-      "institutional consequence recognition"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "c6b0dd20c1c52adf5d73",
-    "doomIndexV123InputFingerprint": "d86ea057bd20bae2eb62",
-    "storyId": "96c8f17e21ba2d5ea121",
-    "firstSeen": "2026-08-07T18:00:00.000Z",
-    "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products — almost as if they’re forming a new government. And whether you’re thinking of Twitter’s old “town hall in your pocket” or Anthropic’s Claude constitution, it’s a theory that doesn’t paint Silicon Valley in a very flattering light. In Lepore’s upcoming book, The Rise and Fall of the Artificial State, the Pulitzer […] AI Government & Policy AI policy AI regulation Elon Musk Jill Lepore sam altman",
-    "doomIndexInputSummary": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers. Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products — almost as if they’re forming a new government. And whether you’re thinking of Twitter’s old “town hall in your pocket” or Anthropic’s Claude constitution, it’s a theory that doesn’t paint Silicon Valley in a very flattering light. In Lepore’s upcoming book, The Rise and Fall of the Artificial State, the Pulitzer […] AI Government & Policy AI policy AI regulation Elon Musk Jill Lepore sam altman"
-  },
-  {
-    "group": "ai",
     "title": "Solving the solvent problem",
     "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
     "source": "MIT News AI",
@@ -8109,7 +8026,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0407,
+      "freshness": 0.0398,
       "feedPosition": 1,
       "novelty": 0.8156
     },
@@ -8117,7 +8034,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.2627,
+    "score": 0.2625,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8181,6 +8098,93 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "lastSeen": "2026-08-09T14:00:00.000Z",
     "feedSummary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option. Research Batteries Energy storage Renewable energy Electric vehicles Transportation Lithium-ion Computer modeling Artificial intelligence Nuclear science and engineering Materials science and engineering DMSE School of Engineering MIT.nano National Science Foundation (NSF)",
     "doomIndexInputSummary": "Solving the solvent problem. By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option. Research Batteries Energy storage Renewable energy Electric vehicles Transportation Lithium-ion Computer modeling Artificial intelligence Nuclear science and engineering Materials science and engineering DMSE School of Engineering MIT.nano National Science Foundation (NSF)"
+  },
+  {
+    "group": "ai",
+    "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
+    "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-07T14:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.242,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2571,
+      "feedPosition": 0.2222,
+      "novelty": 0.6867
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2529,
+    "doomIndex": 7.42,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0.425,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "c6b0dd20c1c52adf5d73",
+    "doomIndexInputFingerprint": "8c044cc854c4e27b8af8",
+    "doomIndexV123Shadow": 11.32,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0.5,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0.3
+    },
+    "doomIndexV123Reasons": [
+      "systemic or institutional reach",
+      "neutral event status",
+      "speculative or weakly evidenced",
+      "institutional consequence recognition"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "c6b0dd20c1c52adf5d73",
+    "doomIndexV123InputFingerprint": "d86ea057bd20bae2eb62",
+    "storyId": "96c8f17e21ba2d5ea121",
+    "firstSeen": "2026-08-07T18:00:00.000Z",
+    "lastSeen": "2026-08-09T14:00:00.000Z",
+    "feedSummary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products — almost as if they’re forming a new government. And whether you’re thinking of Twitter’s old “town hall in your pocket” or Anthropic’s Claude constitution, it’s a theory that doesn’t paint Silicon Valley in a very flattering light. In Lepore’s upcoming book, The Rise and Fall of the Artificial State, the Pulitzer […] AI Government & Policy AI policy AI regulation Elon Musk Jill Lepore sam altman",
+    "doomIndexInputSummary": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers. Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products — almost as if they’re forming a new government. And whether you’re thinking of Twitter’s old “town hall in your pocket” or Anthropic’s Claude constitution, it’s a theory that doesn’t paint Silicon Valley in a very flattering light. In Lepore’s upcoming book, The Rise and Fall of the Artificial State, the Pulitzer […] AI Government & Policy AI policy AI regulation Elon Musk Jill Lepore sam altman"
   },
   {
     "group": "ai",
@@ -8279,7 +8283,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.1594,
+      "freshness": 0.1556,
       "feedPosition": 0.3333,
       "novelty": 0.2794
     },
@@ -8288,7 +8292,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2026,
+    "score": 0.202,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8541,14 +8545,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.5713,
-      "feedPosition": 1,
-      "novelty": 0.3953
+      "freshness": 0.5579,
+      "feedPosition": 0.8889,
+      "novelty": 0.4024
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.3293,
+    "score": 0.3169,
     "doomIndex": 7.33,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8620,20 +8624,20 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "source": "The Verge AI",
     "published": "2026-08-06T17:00:00.000Z",
     "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 2,
+    "coverageSources": 1,
     "ranking": {
-      "coverage": 0.3333,
+      "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1469,
-      "feedPosition": 0.2222,
-      "novelty": 0.4893
+      "freshness": 0.1435,
+      "feedPosition": 0.1111,
+      "novelty": 0.698
     },
     "rankingReasons": [
-      "covered by multiple sources"
+      "unusual language in the current story batch"
     ],
-    "score": 0.2753,
-    "doomIndex": 7.22,
+    "score": 0.1845,
+    "doomIndex": 7.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
     "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
@@ -8648,7 +8652,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0.35,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.4987,
+      "evidence": 0.4487,
       "actuality": 0.35,
       "protectiveContext": 0,
       "routinePenalty": 0,
@@ -8657,10 +8661,10 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexReasons": [
       "proposed event status"
     ],
-    "doomIndexCoverageSources": 2,
-    "doomIndexSummaryFingerprint": "08382ca2eda14db2c659",
-    "doomIndexInputFingerprint": "4b1cbda68e1bd6b91029",
-    "doomIndexV123Shadow": 7.22,
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "32e336b8f4aae2c62631",
+    "doomIndexInputFingerprint": "1c55a24895e2c7c7bd08",
+    "doomIndexV123Shadow": 7.15,
     "doomIndexV123ShadowVersion": "1.2.3",
     "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
     "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
@@ -8675,7 +8679,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0.35,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.4987,
+      "evidence": 0.4487,
       "actuality": 0.35,
       "protectiveContext": 0,
       "routinePenalty": 0,
@@ -8684,94 +8688,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123Reasons": [
       "proposed event status"
     ],
-    "doomIndexV123CoverageSources": 2,
-    "doomIndexV123SummaryFingerprint": "08382ca2eda14db2c659",
-    "doomIndexV123InputFingerprint": "a915ffcd5fcfddced47c",
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "32e336b8f4aae2c62631",
+    "doomIndexV123InputFingerprint": "f97b6f7a03c13edcd5f1",
     "storyId": "b04f9642d438e86d7621",
     "firstSeen": "2026-08-06T21:00:00.000Z",
     "lastSeen": "2026-08-09T14:00:00.000Z",
     "feedSummary": "OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but those limits, just for text, will be going away soon. Messages that include things like file uploads and images will continue to have limits. Next week, OpenAI is also adding a \"Think\" button for free and Go users that they can use to \"access higher reasoning for harder questions.\" This week, for those users, the company is additionally upgrading ChatGPT's def … Read the full story at The Verge. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]",
-    "doomIndexInputSummary": "ChatGPT brings unlimited text chats to free users. OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries. AI Apps ChatGPT OpenAI OpenAI is giving ChatGPT free users unlimited text chats. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but those limits, just for text, will be going away soon. Messages that include things like file uploads and images will continue to have limits. Next week, OpenAI is also adding a \"Think\" button for free and Go users that they can use to \"access higher reasoning for harder questions.\" This week, for those users, the company is additionally upgrading ChatGPT's def … Read the full story at The Verge. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]"
-  },
-  {
-    "group": "ai",
-    "title": "ChatGPT brings unlimited text chats to free users",
-    "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-06T17:34:42.000Z",
-    "image": "",
-    "coverageSources": 2,
-    "ranking": {
-      "coverage": 0.3333,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1493,
-      "feedPosition": 0,
-      "novelty": 0.6107
-    },
-    "rankingReasons": [
-      "covered by multiple sources"
-    ],
-    "score": 0.2585,
-    "doomIndex": 7.22,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0.35,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4987,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "proposed event status"
-    ],
-    "doomIndexCoverageSources": 2,
-    "doomIndexSummaryFingerprint": "08382ca2eda14db2c659",
-    "doomIndexInputFingerprint": "b3003a0f567b8d1935d2",
-    "doomIndexV123Shadow": 7.22,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "proposed",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0.35,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4987,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "proposed event status"
-    ],
-    "doomIndexV123CoverageSources": 2,
-    "doomIndexV123SummaryFingerprint": "08382ca2eda14db2c659",
-    "doomIndexV123InputFingerprint": "322b28849ca0d6a0c56e",
-    "storyId": "ee19be2cef2d8ae6fe5c",
-    "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries. AI Apps ChatGPT OpenAI",
-    "doomIndexInputSummary": "ChatGPT brings unlimited text chats to free users. OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries. AI Apps ChatGPT OpenAI OpenAI is giving ChatGPT free users unlimited text chats. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but those limits, just for text, will be going away soon. Messages that include things like file uploads and images will continue to have limits. Next week, OpenAI is also adding a \"Think\" button for free and Go users that they can use to \"access higher reasoning for harder questions.\" This week, for those users, the company is additionally upgrading ChatGPT's def … Read the full story at The Verge. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]"
+    "doomIndexInputSummary": "OpenAI is giving ChatGPT free users unlimited text chats. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but those limits, just for text, will be going away soon. Messages that include things like file uploads and images will continue to have limits. Next week, OpenAI is also adding a \"Think\" button for free and Go users that they can use to \"access higher reasoning for harder questions.\" This week, for those users, the company is additionally upgrading ChatGPT's def … Read the full story at The Verge. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]"
   },
   {
     "group": "ai",
@@ -8785,14 +8709,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.3024,
-      "feedPosition": 0.7778,
+      "freshness": 0.2954,
+      "feedPosition": 0.6667,
       "novelty": 0.7999
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2852,
+    "score": 0.2731,
     "doomIndex": 6.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8867,7 +8791,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.2707,
+      "freshness": 0.2644,
       "feedPosition": 0,
       "novelty": 0.9353
     },
@@ -8875,7 +8799,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2233,
+    "score": 0.2224,
     "doomIndex": 6.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9037,14 +8961,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.048,
       "sourceAuthority": 0.5,
-      "freshness": 0.8018,
+      "freshness": 0.783,
       "feedPosition": 1,
       "novelty": 0.6121
     },
     "rankingReasons": [
       "specific details"
     ],
-    "score": 0.3661,
+    "score": 0.3633,
     "doomIndex": 6.62,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9304,14 +9228,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.5149,
+      "freshness": 0.5028,
       "feedPosition": 0.5556,
-      "novelty": 0.4277
+      "novelty": 0.457
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2726,
+    "score": 0.2737,
     "doomIndex": 6.05,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9392,15 +9316,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.4852,
+      "freshness": 0.4738,
       "feedPosition": 0.6667,
-      "novelty": 0.7659
+      "novelty": 0.73
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3123,
+    "score": 0.307,
     "doomIndex": 5.81,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9477,7 +9401,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.2517,
+      "freshness": 0.2458,
       "feedPosition": 0.1111,
       "novelty": 0.7332
     },
@@ -9485,7 +9409,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2112,
+    "score": 0.2103,
     "doomIndex": 5.77,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9560,7 +9484,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.2857,
+      "freshness": 0.279,
       "feedPosition": 0.1111,
       "novelty": 0.6984
     },
@@ -9568,7 +9492,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.213,
+    "score": 0.212,
     "doomIndex": 5.43,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9645,7 +9569,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.2649,
+      "freshness": 0.2588,
       "feedPosition": 0.6667,
       "novelty": 0.3423
     },
@@ -9654,7 +9578,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.4536,
+    "score": 0.4527,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9729,14 +9653,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1512,
+      "freshness": 0.1476,
       "feedPosition": 1,
       "novelty": 0.5041
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4481,
+    "score": 0.4476,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9811,7 +9735,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.5269,
+      "freshness": 0.5146,
       "feedPosition": 0.7778,
       "novelty": 0.9281
     },
@@ -9820,7 +9744,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.4457,
+    "score": 0.4439,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9895,7 +9819,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.224,
       "sourceAuthority": 0.5,
-      "freshness": 0.9061,
+      "freshness": 0.885,
       "feedPosition": 1,
       "novelty": 0.8108
     },
@@ -9905,7 +9829,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4368,
+    "score": 0.4336,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9982,7 +9906,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8813,
+      "freshness": 0.8607,
       "feedPosition": 0.8889,
       "novelty": 1
     },
@@ -9991,7 +9915,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4245,
+    "score": 0.4214,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10056,6 +9980,88 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "AI detectors are creating a new era of distrust",
+    "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+    "source": "The Verge AI",
+    "published": "2026-08-09T12:00:00.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268680_AI_detection_CVirginia-.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9226,
+      "feedPosition": 1,
+      "novelty": 0.9191
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4053,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "62ce915b22c1be9a345b",
+    "doomIndexInputFingerprint": "0be6551c3c6bedb0b565",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "62ce915b22c1be9a345b",
+    "doomIndexV123InputFingerprint": "84152317811735ac174f",
+    "storyId": "5ddd2738c43172545bfa",
+    "firstSeen": "2026-08-09T13:00:00.000Z",
+    "lastSeen": "2026-08-09T14:00:00.000Z",
+    "feedSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, educators and editors frequently used anti-plagiarism tools to see if writers were being honest about their work. These tools work by comparing a written work against a database filled with content from across the web, scholarly articles, and more to check for matching sentences and phrases. Some, like Turnitin, offer a percentage th … Read the full story at The Verge. This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, […]",
+    "doomIndexInputSummary": "AI detectors are creating a new era of distrust. This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, educators and editors frequently used anti-plagiarism tools to see if writers were being honest about their work. These tools work by comparing a written work against a database filled with content from across the web, scholarly articles, and more to check for matching sentences and phrases. Some, like Turnitin, offer a percentage th … Read the full story at The Verge. This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, […]"
+  },
+  {
+    "group": "ai",
     "title": "Large genome models used to design new viruses",
     "url": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
     "source": "Ars Technica AI",
@@ -10066,14 +10072,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1556,
+      "freshness": 0.152,
       "feedPosition": 0.3333,
       "novelty": 0.5772
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.3894,
+    "score": 0.3889,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10148,7 +10154,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.5084,
+      "freshness": 0.4965,
       "feedPosition": 1,
       "novelty": 0.7702
     },
@@ -10158,7 +10164,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3707,
+    "score": 0.3689,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10223,92 +10229,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "OpenAI acquires presentation startup NextSlide",
-    "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-08T19:41:13.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.6005,
-      "feedPosition": 0.8889,
-      "novelty": 0.7278
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3338,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "positive",
-    "doomIndexPolarity": "protective-or-positive",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.2,
-      "protectiveContext": 0.5,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "positive event status",
-      "speculative or weakly evidenced",
-      "protective or positive context adjustment",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "0f1e30007a0ac6d84c51",
-    "doomIndexInputFingerprint": "c964e2b86dcca1b2407f",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "positive",
-    "doomIndexV123Polarity": "protective-or-positive",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.2,
-      "protectiveContext": 0.5,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "positive event status",
-      "speculative or weakly evidenced",
-      "protective or positive context adjustment",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "0f1e30007a0ac6d84c51",
-    "doomIndexV123InputFingerprint": "f84d1f4505a7f2d84751",
-    "storyId": "39b28d95fcbaaeae7e25",
-    "firstSeen": "2026-08-08T19:00:00.000Z",
-    "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI",
-    "doomIndexInputSummary": "OpenAI acquires presentation startup NextSlide. NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI"
-  },
-  {
-    "group": "ai",
     "title": "How to Disable Gemini in Gmail and Google Docs",
     "url": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
     "source": "WIRED AI",
@@ -10319,7 +10239,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.4588,
+      "freshness": 0.4481,
       "feedPosition": 0.7778,
       "novelty": 0.6893
     },
@@ -10329,7 +10249,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3329,
+    "score": 0.3313,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10406,7 +10326,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.473,
+      "freshness": 0.462,
       "feedPosition": 1,
       "novelty": 0.6694
     },
@@ -10414,7 +10334,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3269,
+    "score": 0.3252,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10483,32 +10403,30 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
-    "source": "The Verge AI",
-    "published": "2026-08-07T20:01:51.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "title": "OpenAI acquires presentation startup NextSlide",
+    "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-08T19:41:13.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.101,
+      "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.3113,
-      "feedPosition": 0.8889,
-      "novelty": 0.8666
+      "freshness": 0.5864,
+      "feedPosition": 0.7778,
+      "novelty": 0.7278
     },
     "rankingReasons": [
-      "specific details",
-      "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3174,
+    "score": 0.3206,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
     "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
+    "doomIndexActuality": "positive",
+    "doomIndexPolarity": "protective-or-positive",
     "doomIndexFactors": {
       "realizedHarm": 0,
       "scale": 0,
@@ -10519,24 +10437,26 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "systemicReach": 0,
       "credibleThreat": 0,
       "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
+      "actuality": 0.2,
+      "protectiveContext": 0.5,
+      "routinePenalty": 0.5,
       "contextualConcern": 0
     },
     "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "fe3a54146fb7a5c3c47a",
-    "doomIndexInputFingerprint": "8e3977f8f1079f6cf160",
+    "doomIndexSummaryFingerprint": "0f1e30007a0ac6d84c51",
+    "doomIndexInputFingerprint": "c964e2b86dcca1b2407f",
     "doomIndexV123Shadow": 5,
     "doomIndexV123ShadowVersion": "1.2.3",
     "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
     "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Actuality": "positive",
+    "doomIndexV123Polarity": "protective-or-positive",
     "doomIndexV123Factors": {
       "realizedHarm": 0,
       "scale": 0,
@@ -10547,23 +10467,25 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "systemicReach": 0,
       "credibleThreat": 0,
       "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
+      "actuality": 0.2,
+      "protectiveContext": 0.5,
+      "routinePenalty": 0.5,
       "contextualConcern": 0
     },
     "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
     ],
     "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "fe3a54146fb7a5c3c47a",
-    "doomIndexV123InputFingerprint": "7f94d0b6955b9c6429fa",
-    "storyId": "e7082108221b67be30da",
-    "firstSeen": "2026-08-07T21:00:00.000Z",
+    "doomIndexV123SummaryFingerprint": "0f1e30007a0ac6d84c51",
+    "doomIndexV123InputFingerprint": "f84d1f4505a7f2d84751",
+    "storyId": "39b28d95fcbaaeae7e25",
+    "firstSeen": "2026-08-08T19:00:00.000Z",
     "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "That cover art is almost certainly AI too. | Image: Fenix Flexin It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it as Treblo AI-created. In a reply to a comment pointing out that Tyga admitted to relying on AI for his own controversial '80s-influenced album $tarface, on one of his Instagram posts, Fenix said: never said I didn't use AI , i said it had nun to do w recording process . I didn't even know what da app was till we mixed … Read the full story at The Verge. It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]",
-    "doomIndexInputSummary": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore. That cover art is almost certainly AI too. | Image: Fenix Flexin It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it as Treblo AI-created. In a reply to a comment pointing out that Tyga admitted to relying on AI for his own controversial '80s-influenced album $tarface, on one of his Instagram posts, Fenix said: never said I didn't use AI , i said it had nun to do w recording process . I didn't even know what da app was till we mixed … Read the full story at The Verge. It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]"
+    "feedSummary": "NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI",
+    "doomIndexInputSummary": "OpenAI acquires presentation startup NextSlide. NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI"
   },
   {
     "group": "ai",
@@ -10577,7 +10499,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.4996,
+      "freshness": 0.4879,
       "feedPosition": 0.6667,
       "novelty": 0.8613
     },
@@ -10585,7 +10507,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3167,
+    "score": 0.315,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10662,14 +10584,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2755,
       "sourceAuthority": 0.5,
-      "freshness": 0.262,
+      "freshness": 0.2559,
       "feedPosition": 0.7778,
       "novelty": 0.6155
     },
     "rankingReasons": [
       "urgency or risk"
     ],
-    "score": 0.3087,
+    "score": 0.3078,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10732,6 +10654,90 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+    "source": "The Verge AI",
+    "published": "2026-08-07T20:01:51.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.101,
+      "sourceAuthority": 0.5,
+      "freshness": 0.304,
+      "feedPosition": 0.7778,
+      "novelty": 0.8666
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3052,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "fe3a54146fb7a5c3c47a",
+    "doomIndexInputFingerprint": "8e3977f8f1079f6cf160",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "fe3a54146fb7a5c3c47a",
+    "doomIndexV123InputFingerprint": "7f94d0b6955b9c6429fa",
+    "storyId": "e7082108221b67be30da",
+    "firstSeen": "2026-08-07T21:00:00.000Z",
+    "lastSeen": "2026-08-09T14:00:00.000Z",
+    "feedSummary": "That cover art is almost certainly AI too. | Image: Fenix Flexin It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it as Treblo AI-created. In a reply to a comment pointing out that Tyga admitted to relying on AI for his own controversial '80s-influenced album $tarface, on one of his Instagram posts, Fenix said: never said I didn't use AI , i said it had nun to do w recording process . I didn't even know what da app was till we mixed … Read the full story at The Verge. It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]",
+    "doomIndexInputSummary": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore. That cover art is almost certainly AI too. | Image: Fenix Flexin It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it as Treblo AI-created. In a reply to a comment pointing out that Tyga admitted to relying on AI for his own controversial '80s-influenced album $tarface, on one of his Instagram posts, Fenix said: never said I didn't use AI , i said it had nun to do w recording process . I didn't even know what da app was till we mixed … Read the full story at The Verge. It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]"
+  },
+  {
+    "group": "ai",
     "title": "How AI Hype Helps Render Women Invisible",
     "url": "https://techpolicy.press/how-ai-hype-helps-render-women-invisible",
     "source": "Tech Policy Press AI",
@@ -10742,7 +10748,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.1292,
+      "freshness": 0.1261,
       "feedPosition": 0.6667,
       "novelty": 0.8705
     },
@@ -10752,7 +10758,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2905,
+    "score": 0.29,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10827,7 +10833,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.1317,
+      "freshness": 0.1286,
       "feedPosition": 0.7778,
       "novelty": 0.714
     },
@@ -10837,7 +10843,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2863,
+    "score": 0.2859,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10912,7 +10918,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.331,
       "sourceAuthority": 0.5,
-      "freshness": 0.1428,
+      "freshness": 0.1395,
       "feedPosition": 0.8,
       "novelty": 0.3927
     },
@@ -10921,7 +10927,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.2819,
+    "score": 0.2814,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10996,7 +11002,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.031,
+      "freshness": 0.0303,
       "feedPosition": 0.8889,
       "novelty": 0.8955
     },
@@ -11004,7 +11010,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2801,
+    "score": 0.28,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11083,7 +11089,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3,
       "sourceAuthority": 0.5,
-      "freshness": 0.0025,
+      "freshness": 0.0024,
       "feedPosition": 0.5556,
       "novelty": 0.8306
     },
@@ -11168,14 +11174,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.0916,
+      "freshness": 0.0895,
       "feedPosition": 1,
       "novelty": 0.8277
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2739,
+    "score": 0.2736,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11240,88 +11246,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Sunlight creates quantum entanglement once thought to require lasers",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260807035133.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-08T03:49:26.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3865,
-      "feedPosition": 0.4444,
-      "novelty": 0.9595
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2734,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.215,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "1647501dc0c41af11ff6",
-    "doomIndexInputFingerprint": "a159b4e7bb1844509826",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "proposed",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.215,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "1647501dc0c41af11ff6",
-    "doomIndexV123InputFingerprint": "fedd659ddd680e4d040e",
-    "storyId": "96307e6f3cc77e84db49",
-    "firstSeen": "2026-08-08T07:00:00.000Z",
-    "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "Scientists have generated quantum entanglement directly from sunlight, potentially offering a lower-energy alternative to the lasers normally used in quantum technology. Their outdoor experiment produced entangled photons with about 94% similarity to an ideal state. The result could pave the way for simpler quantum satellites, secure communications, and more energy-efficient quantum computing.",
-    "doomIndexInputSummary": "Sunlight creates quantum entanglement once thought to require lasers. Scientists have generated quantum entanglement directly from sunlight, potentially offering a lower-energy alternative to the lasers normally used in quantum technology. Their outdoor experiment produced entangled photons with about 94% similarity to an ideal state. The result could pave the way for simpler quantum satellites, secure communications, and more energy-efficient quantum computing."
-  },
-  {
-    "group": "ai",
     "title": "Microsoft Tells Engineers ‘Tokenmaxxing Is Not What We Are Optimizing For’",
     "url": "https://www.404media.co/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for/",
     "source": "404 Media AI",
@@ -11332,7 +11256,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.038,
+      "freshness": 0.0371,
       "feedPosition": 0.8889,
       "novelty": 0.6912
     },
@@ -11341,7 +11265,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2731,
+    "score": 0.273,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11406,6 +11330,88 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Sunlight creates quantum entanglement once thought to require lasers",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260807035133.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-08T03:49:26.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3774,
+      "feedPosition": 0.4444,
+      "novelty": 0.9595
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.272,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "proposed",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.215,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "1647501dc0c41af11ff6",
+    "doomIndexInputFingerprint": "a159b4e7bb1844509826",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "proposed",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.215,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "1647501dc0c41af11ff6",
+    "doomIndexV123InputFingerprint": "fedd659ddd680e4d040e",
+    "storyId": "96307e6f3cc77e84db49",
+    "firstSeen": "2026-08-08T07:00:00.000Z",
+    "lastSeen": "2026-08-09T14:00:00.000Z",
+    "feedSummary": "Scientists have generated quantum entanglement directly from sunlight, potentially offering a lower-energy alternative to the lasers normally used in quantum technology. Their outdoor experiment produced entangled photons with about 94% similarity to an ideal state. The result could pave the way for simpler quantum satellites, secure communications, and more energy-efficient quantum computing.",
+    "doomIndexInputSummary": "Sunlight creates quantum entanglement once thought to require lasers. Scientists have generated quantum entanglement directly from sunlight, potentially offering a lower-energy alternative to the lasers normally used in quantum technology. Their outdoor experiment produced entangled photons with about 94% similarity to an ideal state. The result could pave the way for simpler quantum satellites, secure communications, and more energy-efficient quantum computing."
+  },
+  {
+    "group": "ai",
     "title": "AI or real? BBC analyses viral China disaster videos",
     "url": "https://www.bbc.co.uk/news/videos/ckg9d2egn11o?at_medium=RSS&at_campaign=rss",
     "source": "BBC News AI",
@@ -11416,7 +11422,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.191,
       "sourceAuthority": 0.5,
-      "freshness": 0.0867,
+      "freshness": 0.0847,
       "feedPosition": 0.6667,
       "novelty": 0.7647
     },
@@ -11425,7 +11431,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2693,
+    "score": 0.269,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11572,172 +11578,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
-    "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-07T14:22:49.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.266,
-      "feedPosition": 0.4444,
-      "novelty": 0.9308
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2524,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "97d59edab3dad3eb3347",
-    "doomIndexInputFingerprint": "f5414d0147b9adf7c3c7",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "97d59edab3dad3eb3347",
-    "doomIndexV123InputFingerprint": "260152d243cf0eaece15",
-    "storyId": "96afb1a603823adfbac5",
-    "firstSeen": "2026-08-07T15:00:00.000Z",
-    "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "Airbnb will debut a new AI-powered search experience with a toggle. AI Airbnb brian chesky ai coding",
-    "doomIndexInputSummary": "Airbnb says AI is helping it ship features faster as it tests a new search function. Airbnb will debut a new AI-powered search experience with a toggle. AI Airbnb brian chesky ai coding"
-  },
-  {
-    "group": "ai",
-    "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
-    "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-07T16:16:09.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2804,
-      "feedPosition": 0.5556,
-      "novelty": 0.6623
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2459,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "e8fdaee115abdc6b1e70",
-    "doomIndexInputFingerprint": "dc5eb55b24a3b150d3fc",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "e8fdaee115abdc6b1e70",
-    "doomIndexV123InputFingerprint": "900adede0a91e5d7aaf2",
-    "storyId": "780caa8efe66e203040e",
-    "firstSeen": "2026-08-07T17:00:00.000Z",
-    "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently. AI Apps AI agents cloudflare",
-    "doomIndexInputSummary": "Cloudflare launches Kitesurf, a browser built for AI agents. Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently. AI Apps AI agents cloudflare"
-  },
-  {
-    "group": "ai",
     "title": "Tech Life",
     "url": "https://www.bbc.co.uk/sounds/play/w3ct8jy6?at_medium=RSS&at_campaign=rss",
     "source": "BBC News AI",
@@ -11822,6 +11662,88 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+    "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-07T14:22:49.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2598,
+      "feedPosition": 0.3333,
+      "novelty": 0.9308
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2404,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "97d59edab3dad3eb3347",
+    "doomIndexInputFingerprint": "f5414d0147b9adf7c3c7",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "97d59edab3dad3eb3347",
+    "doomIndexV123InputFingerprint": "260152d243cf0eaece15",
+    "storyId": "96afb1a603823adfbac5",
+    "firstSeen": "2026-08-07T15:00:00.000Z",
+    "lastSeen": "2026-08-09T14:00:00.000Z",
+    "feedSummary": "Airbnb will debut a new AI-powered search experience with a toggle. AI Airbnb brian chesky ai coding",
+    "doomIndexInputSummary": "Airbnb says AI is helping it ship features faster as it tests a new search function. Airbnb will debut a new AI-powered search experience with a toggle. AI Airbnb brian chesky ai coding"
+  },
+  {
+    "group": "ai",
     "title": "'I've had to Botox my CV': Are AI recruitment tools affecting women's careers?",
     "url": "https://www.bbc.co.uk/news/articles/cyvl8y141e4o?at_medium=RSS&at_campaign=rss",
     "source": "BBC News AI",
@@ -11832,7 +11754,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.083,
       "sourceAuthority": 0.5,
-      "freshness": 0.12,
+      "freshness": 0.1171,
       "feedPosition": 0.4,
       "novelty": 0.9075
     },
@@ -11840,7 +11762,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2403,
+    "score": 0.2399,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11905,87 +11827,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
-    "source": "The Verge AI",
-    "published": "2026-08-06T20:55:39.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24958946/1421761326.jpg?quality=90&strip=all&crop=21.6,18.717179294824,78.4,81.282820705176",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.141,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1638,
-      "feedPosition": 0.4444,
-      "novelty": 0.6457
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "recognizable entities"
-    ],
-    "score": 0.2368,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.5487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "7fd8bd129a03f0e6dfe4",
-    "doomIndexInputFingerprint": "e0f2c97b0d6daf2c88f4",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.5487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "7fd8bd129a03f0e6dfe4",
-    "doomIndexV123InputFingerprint": "d23a3f7e3bd95068b123",
-    "storyId": "20f43dae1ff7c87af0c1",
-    "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]",
-    "doomIndexInputSummary": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]"
-  },
-  {
-    "group": "ai",
     "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
     "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
     "source": "BBC News AI",
@@ -11996,7 +11837,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.0695,
+      "freshness": 0.0679,
       "feedPosition": 0.5,
       "novelty": 0.7275
     },
@@ -12004,7 +11845,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2362,
+    "score": 0.2359,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12066,6 +11907,171 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "lastSeen": "2026-08-09T14:00:00.000Z",
     "feedSummary": "Elon Musk told investors that people were \"underestimating\" his company.",
     "doomIndexInputSummary": "SpaceX shares sink after first earnings report reveals huge AI spending plans. Elon Musk told investors that people were \"underestimating\" his company."
+  },
+  {
+    "group": "ai",
+    "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+    "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-07T16:16:09.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2738,
+      "feedPosition": 0.4444,
+      "novelty": 0.6623
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2338,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "e8fdaee115abdc6b1e70",
+    "doomIndexInputFingerprint": "dc5eb55b24a3b150d3fc",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "e8fdaee115abdc6b1e70",
+    "doomIndexV123InputFingerprint": "900adede0a91e5d7aaf2",
+    "storyId": "780caa8efe66e203040e",
+    "firstSeen": "2026-08-07T17:00:00.000Z",
+    "lastSeen": "2026-08-09T14:00:00.000Z",
+    "feedSummary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently. AI Apps AI agents cloudflare",
+    "doomIndexInputSummary": "Cloudflare launches Kitesurf, a browser built for AI agents. Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently. AI Apps AI agents cloudflare"
+  },
+  {
+    "group": "ai",
+    "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+    "source": "The Verge AI",
+    "published": "2026-08-06T20:55:39.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24958946/1421761326.jpg?quality=90&strip=all&crop=21.6,18.717179294824,78.4,81.282820705176",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.141,
+      "sourceAuthority": 0.5,
+      "freshness": 0.16,
+      "feedPosition": 0.3333,
+      "novelty": 0.6457
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "recognizable entities"
+    ],
+    "score": 0.2251,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5487,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "7fd8bd129a03f0e6dfe4",
+    "doomIndexInputFingerprint": "e0f2c97b0d6daf2c88f4",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5487,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "7fd8bd129a03f0e6dfe4",
+    "doomIndexV123InputFingerprint": "d23a3f7e3bd95068b123",
+    "storyId": "20f43dae1ff7c87af0c1",
+    "firstSeen": "2026-08-06T21:00:00.000Z",
+    "lastSeen": "2026-08-09T14:00:00.000Z",
+    "feedSummary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]",
+    "doomIndexInputSummary": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]"
   },
   {
     "group": "ai",
@@ -12167,7 +12173,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.2078,
+      "freshness": 0.203,
       "feedPosition": 0,
       "novelty": 0.9075
     },
@@ -12175,7 +12181,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.218,
+    "score": 0.2173,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12238,88 +12244,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
-    "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-06T22:43:53.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.229,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1723,
-      "feedPosition": 0.1111,
-      "novelty": 0.5924
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.217,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "9c33957c2912cec1af44",
-    "doomIndexInputFingerprint": "12d0a5ab610d7347242f",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "9c33957c2912cec1af44",
-    "doomIndexV123InputFingerprint": "a31a3b131f7fc455bd54",
-    "storyId": "5bb1d2f28822b6fc1593",
-    "firstSeen": "2026-08-07T00:00:00.000Z",
-    "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker. AI Gadgets Hardware ChatGPT In Brief jony ive OpenAI",
-    "doomIndexInputSummary": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400. Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker. AI Gadgets Hardware ChatGPT In Brief jony ive OpenAI"
-  },
-  {
-    "group": "ai",
     "title": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook",
     "url": "https://restofworld.org/2026/china-moonshot-kimi-k3-free-sovereign-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
     "source": "Rest of World AI",
@@ -12332,14 +12256,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0011,
       "feedPosition": 0.4286,
-      "novelty": 0.6856
+      "novelty": 0.7064
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.215,
+    "score": 0.2171,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12414,7 +12338,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.1444,
+      "freshness": 0.141,
       "feedPosition": 0.1111,
       "novelty": 0.7808
     },
@@ -12423,7 +12347,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2142,
+    "score": 0.2137,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12584,14 +12508,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0124,
+      "freshness": 0.0121,
       "feedPosition": 0.5,
       "novelty": 0.718
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2058,
+    "score": 0.2057,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12658,6 +12582,88 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+    "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-06T22:43:53.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.229,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1682,
+      "feedPosition": 0,
+      "novelty": 0.5924
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.2053,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.4,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "9c33957c2912cec1af44",
+    "doomIndexInputFingerprint": "12d0a5ab610d7347242f",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.4,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "9c33957c2912cec1af44",
+    "doomIndexV123InputFingerprint": "a31a3b131f7fc455bd54",
+    "storyId": "5bb1d2f28822b6fc1593",
+    "firstSeen": "2026-08-07T00:00:00.000Z",
+    "lastSeen": "2026-08-09T14:00:00.000Z",
+    "feedSummary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker. AI Gadgets Hardware ChatGPT In Brief jony ive OpenAI",
+    "doomIndexInputSummary": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400. Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker. AI Gadgets Hardware ChatGPT In Brief jony ive OpenAI"
+  },
+  {
+    "group": "ai",
     "title": "Substackers Say New AI Detection Tool Is a ‘Witch Hunt’",
     "url": "https://www.404media.co/substackers-say-new-ai-detection-tool-is-a-witch-hunt/",
     "source": "404 Media AI",
@@ -12677,7 +12683,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1992,
+    "score": 0.1991,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12752,7 +12758,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0176,
+      "freshness": 0.0172,
       "feedPosition": 0.1111,
       "novelty": 0.799
     },
@@ -12761,7 +12767,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1971,
+    "score": 0.197,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12917,12 +12923,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1599,
+      "freshness": 0.1562,
       "feedPosition": 0.4444,
       "novelty": 0.3824
     },
     "rankingReasons": [],
-    "score": 0.1888,
+    "score": 0.1882,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13080,14 +13086,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1439,
+      "freshness": 0.1405,
       "feedPosition": 0.2222,
       "novelty": 0.6638
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1852,
+    "score": 0.1847,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13162,7 +13168,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0655,
       "sourceAuthority": 0.5,
-      "freshness": 0.0017,
+      "freshness": 0.0016,
       "feedPosition": 0.25,
       "novelty": 0.6638
     },
@@ -13244,14 +13250,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1244,
+      "freshness": 0.1215,
       "feedPosition": 0.1111,
       "novelty": 0.746
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1794,
+    "score": 0.1789,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13315,6 +13321,89 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "lastSeen": "2026-08-09T14:00:00.000Z",
     "feedSummary": "Why humans need to moderate humans. AI Tech discord Facebook generative ai reddit social media",
     "doomIndexInputSummary": "AI isn’t enough to protect social media communities from AI. Why humans need to moderate humans. AI Tech discord Facebook generative ai reddit social media"
+  },
+  {
+    "group": "ai",
+    "title": "When Users Say 'Goodbye' to AI",
+    "url": "https://techpolicy.press/when-users-say-goodbye-to-ai",
+    "source": "Tech Policy Press AI",
+    "published": "2026-08-02T14:41:50.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1065,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0094,
+      "feedPosition": 0,
+      "novelty": 0.7362
+    },
+    "rankingReasons": [
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1713,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "be676de18e84fd3dbe35",
+    "doomIndexInputFingerprint": "a6b900baf6d0a371a4a8",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "be676de18e84fd3dbe35",
+    "doomIndexV123InputFingerprint": "2b718a769729315887c1",
+    "storyId": "ac687ef7f82db32ea218",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-09T14:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "When Users Say 'Goodbye' to AI."
   },
   {
     "group": "ai",
@@ -13397,89 +13486,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "lastSeen": "2026-08-09T14:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "This AI Raygun can shrink and supersize proteins — opening the door to easy editing."
-  },
-  {
-    "group": "ai",
-    "title": "When Users Say 'Goodbye' to AI",
-    "url": "https://techpolicy.press/when-users-say-goodbye-to-ai",
-    "source": "Tech Policy Press AI",
-    "published": "2026-08-02T14:41:50.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1065,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0096,
-      "feedPosition": 0,
-      "novelty": 0.6788
-    },
-    "rankingReasons": [
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1656,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "be676de18e84fd3dbe35",
-    "doomIndexInputFingerprint": "a6b900baf6d0a371a4a8",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "be676de18e84fd3dbe35",
-    "doomIndexV123InputFingerprint": "2b718a769729315887c1",
-    "storyId": "ac687ef7f82db32ea218",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-09T14:00:00.000Z",
-    "feedSummary": "",
-    "doomIndexInputSummary": "When Users Say 'Goodbye' to AI."
   },
   {
     "group": "ai",

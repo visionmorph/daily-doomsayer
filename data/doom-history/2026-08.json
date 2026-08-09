@@ -225085,18 +225085,18 @@
               "inputFingerprint": "a915ffcd5fcfddced47c"
             },
             "2026-08-09T14Z|1.2.2-shadow.1": {
-              "value": 7.22,
+              "value": 7.15,
               "observedAt": "2026-08-09T14:00:00.000Z",
               "formulaVersion": "1.2.2-shadow.1",
               "formulaFingerprint": "038227c518a0cea1b62b",
-              "inputFingerprint": "4b1cbda68e1bd6b91029"
+              "inputFingerprint": "1c55a24895e2c7c7bd08"
             },
             "2026-08-09T14Z|1.2.3-shadow.1": {
-              "value": 7.22,
+              "value": 7.15,
               "observedAt": "2026-08-09T14:00:00.000Z",
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
-              "inputFingerprint": "a915ffcd5fcfddced47c"
+              "inputFingerprint": "f97b6f7a03c13edcd5f1"
             }
           },
           "formulaSummaries": {
@@ -225104,10 +225104,10 @@
               "formulaVersion": "1.2.2-shadow.1",
               "open": 7.22,
               "high": 7.22,
-              "low": 7.22,
-              "close": 7.22,
-              "average": 7.22,
-              "scoreTotal": 50.54,
+              "low": 7.15,
+              "close": 7.15,
+              "average": 7.21,
+              "scoreTotal": 50.47,
               "observations": 7,
               "firstObservedAt": "2026-08-09T05:00:00.000Z",
               "lastObservedAt": "2026-08-09T14:00:00.000Z",
@@ -225136,10 +225136,10 @@
               "formulaVersion": "1.2.3-shadow.1",
               "open": 7.22,
               "high": 7.22,
-              "low": 7.22,
-              "close": 7.22,
-              "average": 7.22,
-              "scoreTotal": 50.54,
+              "low": 7.15,
+              "close": 7.15,
+              "average": 7.21,
+              "scoreTotal": 50.47,
               "observations": 7,
               "firstObservedAt": "2026-08-09T05:00:00.000Z",
               "lastObservedAt": "2026-08-09T14:00:00.000Z",
@@ -225169,10 +225169,10 @@
           "formulaVersion": "1.2.2-shadow.1",
           "open": 7.22,
           "high": 7.22,
-          "low": 7.22,
-          "close": 7.22,
-          "average": 7.22,
-          "scoreTotal": 50.54,
+          "low": 7.15,
+          "close": 7.15,
+          "average": 7.21,
+          "scoreTotal": 50.47,
           "observations": 7,
           "firstObservedAt": "2026-08-09T05:00:00.000Z",
           "lastObservedAt": "2026-08-09T14:00:00.000Z",
@@ -225226,6 +225226,32 @@
             ],
             "actuality": "proposed",
             "polarity": "neutral"
+          },
+          "1c55a24895e2c7c7bd08": {
+            "title": "OpenAI is giving ChatGPT free users unlimited text chats",
+            "summary": "OpenAI is giving ChatGPT free users unlimited text chats. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but those limits, just for text, will be going away soon. Messages that include things like file uploads and images will continue to have limits. Next week, OpenAI is also adding a \"Think\" button for free and Go users that they can use to \"access higher reasoning for harder questions.\" This week, for those users, the company is additionally upgrading ChatGPT's def … Read the full story at The Verge. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]",
+            "summaryFingerprint": "32e336b8f4aae2c62631",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0.35,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.4487,
+              "actuality": 0.35,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "proposed event status"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
           }
         },
         "1.2.3-shadow.1": {
@@ -225244,6 +225270,32 @@
               "systemicReach": 0,
               "credibleThreat": 0,
               "evidence": 0.4987,
+              "actuality": 0.35,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "proposed event status"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
+          },
+          "f97b6f7a03c13edcd5f1": {
+            "title": "OpenAI is giving ChatGPT free users unlimited text chats",
+            "summary": "OpenAI is giving ChatGPT free users unlimited text chats. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but those limits, just for text, will be going away soon. Messages that include things like file uploads and images will continue to have limits. Next week, OpenAI is also adding a \"Think\" button for free and Go users that they can use to \"access higher reasoning for harder questions.\" This week, for those users, the company is additionally upgrading ChatGPT's def … Read the full story at The Verge. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]",
+            "summaryFingerprint": "32e336b8f4aae2c62631",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0.35,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.4487,
               "actuality": 0.35,
               "protectiveContext": 0,
               "routinePenalty": 0,
@@ -279295,7 +279347,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268680_AI_detection_CVirginia-.jpg?quality=90&strip=all&crop=0,0,100,100",
       "published": "2026-08-09T12:00:00.000Z",
       "firstSeen": "2026-08-09T13:00:00.000Z",
-      "lastSeen": "2026-08-09T13:00:00.000Z",
+      "lastSeen": "2026-08-09T14:00:00.000Z",
       "days": {
         "2026-08-09": {
           "samples": {
@@ -279312,6 +279364,20 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "84152317811735ac174f"
+            },
+            "2026-08-09T14Z|1.2.2-shadow.1": {
+              "value": 5,
+              "observedAt": "2026-08-09T14:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "0be6551c3c6bedb0b565"
+            },
+            "2026-08-09T14Z|1.2.3-shadow.1": {
+              "value": 5,
+              "observedAt": "2026-08-09T14:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "84152317811735ac174f"
             }
           },
           "formulaSummaries": {
@@ -279322,10 +279388,10 @@
               "low": 5,
               "close": 5,
               "average": 5,
-              "scoreTotal": 5,
-              "observations": 1,
+              "scoreTotal": 10,
+              "observations": 2,
               "firstObservedAt": "2026-08-09T13:00:00.000Z",
-              "lastObservedAt": "2026-08-09T13:00:00.000Z",
+              "lastObservedAt": "2026-08-09T14:00:00.000Z",
               "peakSample": 5,
               "peakSampleHour": "2026-08-09T13Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -279355,10 +279421,10 @@
               "low": 5,
               "close": 5,
               "average": 5,
-              "scoreTotal": 5,
-              "observations": 1,
+              "scoreTotal": 10,
+              "observations": 2,
               "firstObservedAt": "2026-08-09T13:00:00.000Z",
-              "lastObservedAt": "2026-08-09T13:00:00.000Z",
+              "lastObservedAt": "2026-08-09T14:00:00.000Z",
               "peakSample": 5,
               "peakSampleHour": "2026-08-09T13Z|1.2.3-shadow.1",
               "peakReasons": [
@@ -279389,10 +279455,10 @@
           "low": 5,
           "close": 5,
           "average": 5,
-          "scoreTotal": 5,
-          "observations": 1,
+          "scoreTotal": 10,
+          "observations": 2,
           "firstObservedAt": "2026-08-09T13:00:00.000Z",
-          "lastObservedAt": "2026-08-09T13:00:00.000Z",
+          "lastObservedAt": "2026-08-09T14:00:00.000Z",
           "peakSample": 5,
           "peakSampleHour": "2026-08-09T13Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -279474,6 +279540,202 @@
             ],
             "actuality": "neutral",
             "polarity": "neutral"
+          }
+        }
+      }
+    },
+    "c6578f3dce99176c7d0e": {
+      "storyId": "c6578f3dce99176c7d0e",
+      "title": "The AI safety test is becoming a safety risk",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "source": "TechCrunch AI",
+      "image": "",
+      "published": "2026-08-09T14:30:00.000Z",
+      "firstSeen": "2026-08-09T14:00:00.000Z",
+      "lastSeen": "2026-08-09T14:00:00.000Z",
+      "days": {
+        "2026-08-09": {
+          "samples": {
+            "2026-08-09T14Z|1.2.2-shadow.1": {
+              "value": 11.05,
+              "observedAt": "2026-08-09T14:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "967e373d3ab225389e65"
+            },
+            "2026-08-09T14Z|1.2.3-shadow.1": {
+              "value": 11.05,
+              "observedAt": "2026-08-09T14:00:00.000Z",
+              "formulaVersion": "1.2.3-shadow.1",
+              "formulaFingerprint": "435e37adc7e94b900c42",
+              "inputFingerprint": "ebb0505e1a397158122f"
+            }
+          },
+          "formulaSummaries": {
+            "1.2.2-shadow.1": {
+              "formulaVersion": "1.2.2-shadow.1",
+              "open": 11.05,
+              "high": 11.05,
+              "low": 11.05,
+              "close": 11.05,
+              "average": 11.05,
+              "scoreTotal": 11.05,
+              "observations": 1,
+              "firstObservedAt": "2026-08-09T14:00:00.000Z",
+              "lastObservedAt": "2026-08-09T14:00:00.000Z",
+              "peakSample": 11.05,
+              "peakSampleHour": "2026-08-09T14Z|1.2.2-shadow.1",
+              "peakReasons": [
+                "credible threat or safety risk",
+                "testing event status",
+                "speculative or weakly evidenced"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0.425,
+                "credibleThreat": 0.5,
+                "evidence": 0.2,
+                "actuality": 0.45,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0
+              }
+            },
+            "1.2.3-shadow.1": {
+              "formulaVersion": "1.2.3-shadow.1",
+              "open": 11.05,
+              "high": 11.05,
+              "low": 11.05,
+              "close": 11.05,
+              "average": 11.05,
+              "scoreTotal": 11.05,
+              "observations": 1,
+              "firstObservedAt": "2026-08-09T14:00:00.000Z",
+              "lastObservedAt": "2026-08-09T14:00:00.000Z",
+              "peakSample": 11.05,
+              "peakSampleHour": "2026-08-09T14Z|1.2.3-shadow.1",
+              "peakReasons": [
+                "credible threat or safety risk",
+                "testing event status",
+                "speculative or weakly evidenced"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0.425,
+                "credibleThreat": 0.5,
+                "evidence": 0.2,
+                "actuality": 0.45,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0
+              }
+            }
+          },
+          "activeFormulaVersion": "1.2.2-shadow.1",
+          "formulaVersion": "1.2.2-shadow.1",
+          "open": 11.05,
+          "high": 11.05,
+          "low": 11.05,
+          "close": 11.05,
+          "average": 11.05,
+          "scoreTotal": 11.05,
+          "observations": 1,
+          "firstObservedAt": "2026-08-09T14:00:00.000Z",
+          "lastObservedAt": "2026-08-09T14:00:00.000Z",
+          "peakSample": 11.05,
+          "peakSampleHour": "2026-08-09T14Z|1.2.2-shadow.1",
+          "peakReasons": [
+            "credible threat or safety risk",
+            "testing event status",
+            "speculative or weakly evidenced"
+          ],
+          "peakFactors": {
+            "realizedHarm": 0,
+            "scale": 0,
+            "vulnerability": 0,
+            "lossOfControl": 0,
+            "irreversibility": 0,
+            "immediacy": 0,
+            "systemicReach": 0.425,
+            "credibleThreat": 0.5,
+            "evidence": 0.2,
+            "actuality": 0.45,
+            "protectiveContext": 0,
+            "routinePenalty": 0,
+            "contextualConcern": 0
+          },
+          "shadowFormulaVersion": "1.2.3-shadow.1"
+        }
+      },
+      "shadowInputs": {
+        "1.2.2-shadow.1": {
+          "967e373d3ab225389e65": {
+            "title": "The AI safety test is becoming a safety risk",
+            "summary": "The AI safety test is becoming a safety risk. AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models. Security AI Meta cybersecurity moonshot OpenAI Hugging Face Anthropic",
+            "summaryFingerprint": "918bf64888e91f358dfd",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.425,
+              "credibleThreat": 0.5,
+              "evidence": 0.2,
+              "actuality": 0.45,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "credible threat or safety risk",
+              "testing event status",
+              "speculative or weakly evidenced"
+            ],
+            "actuality": "testing",
+            "polarity": "adverse"
+          }
+        },
+        "1.2.3-shadow.1": {
+          "ebb0505e1a397158122f": {
+            "title": "The AI safety test is becoming a safety risk",
+            "summary": "The AI safety test is becoming a safety risk. AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models. Security AI Meta cybersecurity moonshot OpenAI Hugging Face Anthropic",
+            "summaryFingerprint": "918bf64888e91f358dfd",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.425,
+              "credibleThreat": 0.5,
+              "evidence": 0.2,
+              "actuality": 0.45,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "credible threat or safety risk",
+              "testing event status",
+              "speculative or weakly evidenced"
+            ],
+            "actuality": "testing",
+            "polarity": "adverse"
           }
         }
       }
