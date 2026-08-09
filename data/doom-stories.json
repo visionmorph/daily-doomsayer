@@ -3421,6 +3421,18 @@
       "published": "2026-08-09T15:00:00.000Z",
       "firstSeen": "2026-08-09T15:00:00.000Z",
       "lastSeen": "2026-08-09T19:00:00.000Z"
+    },
+    "b500779b9a8bb3551aed": {
+      "storyId": "b500779b9a8bb3551aed",
+      "currentTitle": "Anthropic is turning Claude Code’s auto mode on by default",
+      "originalTitle": "Anthropic is turning Claude Code’s auto mode on by default",
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default",
+      "source": "TechCrunch AI",
+      "image": "",
+      "published": "2026-08-09T19:20:32.000Z",
+      "firstSeen": "2026-08-09T19:00:00.000Z",
+      "lastSeen": "2026-08-09T19:00:00.000Z"
     }
   },
   "formulas": {
