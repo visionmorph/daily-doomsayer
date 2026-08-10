@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-10T02:00:00.000Z",
+  "generatedAt": "2026-08-10T04:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-09",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a73a2815ac7830744b43e7a/191:100/w_1280,c_limit/080526-openai-agent-hacking.jpg",
           "peak": 47.55,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 1,
           "peakDate": "2026-08-09",
           "firstObservedAt": "2026-08-09T05:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 47.55
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Sky News AI",
           "image": "https://e3.365dm.com/26/04/1920x1080/skynews-anthropic-cyber_7227180.jpg?20260422122322",
           "peak": 43.55,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 1,
           "peakDate": "2026-08-09",
           "firstObservedAt": "2026-08-09T05:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 43.55
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 1,
           "peakDate": "2026-08-09",
           "firstObservedAt": "2026-08-09T05:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 39.53
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285051730-1152x648.jpg",
           "peak": 39.53,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 1,
           "peakDate": "2026-08-09",
           "firstObservedAt": "2026-08-09T05:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 39.53
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK155_OPEN_AI_CVirginia_C.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 30.4,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 1,
           "peakDate": "2026-08-09",
           "firstObservedAt": "2026-08-09T05:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 30.4
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 1,
           "peakDate": "2026-08-09",
           "firstObservedAt": "2026-08-09T05:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 29.27
         },
         {
@@ -101,26 +101,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/518184ea461f32002734db1dfcd6d1e8d169a1a8/581_0_4448_3559/master/4448.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 29.23,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 1,
           "peakDate": "2026-08-09",
           "firstObservedAt": "2026-08-09T05:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 29.23
         },
         {
           "storyId": "1d069b1fc66d18a784ee",
-          "title": "Australia news live: Malcolm Turnbull says trusting Aukus is ‘stark staring bonkers’; Laneway festival to skip two cities next year",
+          "title": "Australia news live: Two workers were temporarily stood down over airport near-miss; Icac witness says his wife is having contractions",
           "url": "https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb",
           "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/c9694e61baccae3ecbf96c90922c72abf160b040/744_0_4240_3392/master/4240.jpg?width=800&dpr=2&s=none&crop=none",
+          "image": "https://i.guim.co.uk/img/media/8cada91fc66730d41f73d5404006b5d61ba2d2f3/13_0_1033_826/master/1033.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 27.82,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-09",
           "firstObservedAt": "2026-08-09T21:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
-          "average": 16.15
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
+          "average": 18.48
         },
         {
           "storyId": "b3989dcfb48ba9b056fe",
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 1,
           "peakDate": "2026-08-09",
           "firstObservedAt": "2026-08-09T05:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 23.95
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 22.05,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 1,
           "peakDate": "2026-08-09",
           "firstObservedAt": "2026-08-09T05:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 22.05
         }
       ]
@@ -599,11 +599,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a73a2815ac7830744b43e7a/191:100/w_1280,c_limit/080526-openai-agent-hacking.jpg",
           "peak": 47.55,
-          "observations": 56,
+          "observations": 57,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 47.55
         },
         {
@@ -641,12 +641,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f468/live/5910e320-9131-11f1-b387-374684edd409.jpg",
           "peak": 44.02,
-          "observations": 55,
+          "observations": 56,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T21:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
-          "average": 20.09
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
+          "average": 19.97
         },
         {
           "storyId": "8c87b9bfdab1e6f99859",
@@ -655,11 +655,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Sky News AI",
           "image": "https://e3.365dm.com/26/04/1920x1080/skynews-anthropic-cyber_7227180.jpg?20260422122322",
           "peak": 43.55,
-          "observations": 55,
+          "observations": 56,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 43.55
         },
         {
@@ -669,11 +669,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 56,
+          "observations": 57,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 39.53
         },
         {
@@ -683,11 +683,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285051730-1152x648.jpg",
           "peak": 39.53,
-          "observations": 55,
+          "observations": 56,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 39.53
         },
         {
@@ -711,11 +711,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK155_OPEN_AI_CVirginia_C.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 30.4,
-          "observations": 41,
+          "observations": 42,
           "daysTracked": 3,
           "peakDate": "2026-08-07",
           "firstObservedAt": "2026-08-07T19:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 30.4
         },
         {
@@ -725,11 +725,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 56,
+          "observations": 57,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 29.27
         }
       ]
@@ -746,11 +746,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a73a2815ac7830744b43e7a/191:100/w_1280,c_limit/080526-openai-agent-hacking.jpg",
           "peak": 47.55,
-          "observations": 56,
+          "observations": 57,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 47.55
         },
         {
@@ -788,12 +788,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f468/live/5910e320-9131-11f1-b387-374684edd409.jpg",
           "peak": 44.02,
-          "observations": 55,
+          "observations": 56,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T21:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
-          "average": 20.09
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
+          "average": 19.97
         },
         {
           "storyId": "8c87b9bfdab1e6f99859",
@@ -802,11 +802,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Sky News AI",
           "image": "https://e3.365dm.com/26/04/1920x1080/skynews-anthropic-cyber_7227180.jpg?20260422122322",
           "peak": 43.55,
-          "observations": 55,
+          "observations": 56,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 43.55
         },
         {
@@ -816,11 +816,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 56,
+          "observations": 57,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 39.53
         },
         {
@@ -830,11 +830,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285051730-1152x648.jpg",
           "peak": 39.53,
-          "observations": 55,
+          "observations": 56,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 39.53
         },
         {
@@ -858,11 +858,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK155_OPEN_AI_CVirginia_C.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 30.4,
-          "observations": 41,
+          "observations": 42,
           "daysTracked": 3,
           "peakDate": "2026-08-07",
           "firstObservedAt": "2026-08-07T19:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 30.4
         },
         {
@@ -872,11 +872,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 56,
+          "observations": 57,
           "daysTracked": 4,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T02:00:00.000Z",
+          "lastObservedAt": "2026-08-10T04:00:00.000Z",
           "average": 29.27
         }
       ]
