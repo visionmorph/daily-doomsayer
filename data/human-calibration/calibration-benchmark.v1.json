@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "benchmarkVersion": "calibration-benchmark.v1",
-  "asOf": "2026-08-10T07:12:28.437Z",
+  "asOf": "2026-08-10T20:09:57.751Z",
   "calibrationMethod": {
     "firstJudgment": "title-and-feed-summary",
     "secondJudgment": "full-article-confirmation-or-revision",
@@ -12,36 +12,36 @@
       "minimum": 0,
       "maximum": 19.99,
       "label": "UNEASY",
-      "description": "Limited or routine concern.",
-      "qualification": "Reported consequences are minimal, routine, beneficial or protective, or too weakly supported to establish material harm."
+      "description": "No material harm is established.",
+      "qualification": "Use when the story is routine, beneficial, protective, primarily commercial, or based on speculation without demonstrated consequences. Any disruption is negligible, ordinary, easily reversible, or too weakly supported to establish meaningful harm."
     },
     {
       "minimum": 20,
       "maximum": 39.99,
       "label": "OMINOUS",
-      "description": "Credible concern with restrained consequences.",
-      "qualification": "Credible concern or limited harm exists, but its scale, immediacy, persistence, or supporting evidence remains constrained."
+      "description": "A credible concern exists, but its consequences remain limited.",
+      "qualification": "Use when evidence supports a plausible threat, localized or reversible harm, a concerning trend, or a proposed action with credible downsides. The story lacks the demonstrated scale, immediacy, persistence, or material consequences required for Alarming."
     },
     {
       "minimum": 40,
       "maximum": 59.99,
       "label": "ALARMING",
-      "description": "Material harm, disruption, or escalating risk.",
-      "qualification": "Credible reporting establishes meaningful harm, disruption, or escalation without the compound high-severity conditions required for Dire."
+      "description": "Meaningful harm, disruption, or escalation is occurring or credibly imminent.",
+      "qualification": "Use when reporting establishes material consequences for people, institutions, safety, privacy, livelihoods, or essential services. The harm may be repeated or significant, but remains bounded, containable, reversible, or lacks the combination of severe conditions required for Dire."
     },
     {
       "minimum": 60,
       "maximum": 79.99,
       "label": "DIRE",
-      "description": "Serious realized or imminent consequences.",
-      "qualification": "Serious harm is confirmed or imminent and combines strong evidence with broad or systemic reach, vulnerable populations, loss of control, or lasting consequences."
+      "description": "Severe harm is confirmed or imminent and difficult to contain.",
+      "qualification": "Use only when strong evidence establishes serious consequences alongside multiple aggravating conditions: broad or systemic reach, vulnerable populations, autonomous or unauthorized behavior, major loss of control, rapid escalation, prolonged disruption, or lasting damage."
     },
     {
       "minimum": 80,
       "maximum": 100,
       "label": "CATASTROPHIC",
-      "description": "Exceptional, widespread, or potentially irreversible consequences.",
-      "qualification": "Exceptional confirmed harm is widespread or global and combines multiple extreme conditions such as mass impact, irreversibility, systemic failure, uncontrollable escalation, or existential consequences."
+      "description": "Exceptional mass harm or systemic failure is confirmed and potentially irreversible.",
+      "qualification": "Use only when strong evidence establishes widespread or global consequences combined with several extreme conditions, such as mass casualties or displacement, irreversible damage, failure of essential systems, uncontrollable escalation, or a credible existential threat. Frightening language, theoretical possibilities, or worst-case predictions alone never qualify."
     }
   ],
   "modelConfiguration": {
@@ -73,6 +73,12 @@
       "exportedAt": "2026-08-10T07:12:28.437Z",
       "rated": 82,
       "skipped": 5
+    },
+    {
+      "fingerprint": "ef12195367f2a9310f1a9518a552790015c33d3d4a9d9f329e94a401f7e7ec7a",
+      "exportedAt": "2026-08-10T20:09:57.751Z",
+      "rated": 105,
+      "skipped": 7
     }
   ],
   "deduplication": {
@@ -82,11 +88,11 @@
     "eventCoverageCollapsed": false
   },
   "totals": {
-    "sourceExports": 3,
-    "rawRatedRecords": 153,
-    "storyRecords": 82,
-    "benchmarkRecords": 81,
-    "snapshotDuplicatesRemoved": 71,
+    "sourceExports": 4,
+    "rawRatedRecords": 258,
+    "storyRecords": 105,
+    "benchmarkRecords": 104,
+    "snapshotDuplicatesRemoved": 153,
     "exactTitleDuplicatesRemoved": 1,
     "titleRatingConflicts": 0
   },
@@ -152,6 +158,68 @@
       },
       "contextAdjustment": 2,
       "completedAt": "2026-08-10T07:10:21.304Z"
+    },
+    {
+      "benchmarkId": "faef98335d0d9e2f3065",
+      "aliases": [
+        {
+          "storyId": "247e2498ee7270305a2f",
+          "title": "AI at NASA",
+          "url": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/ai-at-nasa/",
+          "source": "NASA AI",
+          "published": "2026-05-29T13:00:53.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "247e2498ee7270305a2f",
+        "title": "AI at NASA",
+        "url": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/ai-at-nasa/",
+        "source": "NASA AI",
+        "published": "2026-05-29T13:00:53.000Z"
+      },
+      "feedEvidence": {
+        "summary": "NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "AI at NASA",
+        "summary": "AI at NASA. NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts NASA-developed AI Could Help Track Harmful Algae. NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit. A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model aboard two in-orbit platforms. The post NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit appeared first on NASA Science. Science & Research Artificial Intelligence (AI) Open Science NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data. Trained on data from NASA's exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets. The post NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data appeared first on NASA Science. Open Science Ames Research Center Artificial Intelligence (AI) Exoplanets Kepler / K2 TESS (Transiting Exoplanet Survey Satellite) NASA, Industry Weave Data Fabric with Artificial Intelligence. Air taxis and drones navigate different flight zones with NASA-inspired system The post NASA, Industry Weave Data Fabric with Artificial Intelligence appeared first on NASA Science. Ames Research Center Artificial Intelligence (AI) Partner With Us Spinoffs Technology Transfer Technology Transfer & Spinoffs NASA Data Powers New Tool to Protect Water Supply After Fires. When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 8,
+        "confidence": 3,
+        "reasoning": "NASA using AI for science",
+        "ratedAt": "2026-08-10T08:09:36.921Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 8.43
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 8.43
+        }
+      },
+      "startedAt": "2026-08-10T08:09:36.921Z",
+      "updatedAt": "2026-08-10T08:10:36.345Z",
+      "articleRating": {
+        "score": 8,
+        "confidence": 3,
+        "reasoning": "NASA using AI for prototype and scientific advancement",
+        "ratedAt": "2026-08-10T08:10:36.345Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T08:10:36.345Z"
     },
     {
       "benchmarkId": "a4db53c600da06773bba",
@@ -340,6 +408,130 @@
       "completedAt": "2026-08-09T18:18:45.751Z"
     },
     {
+      "benchmarkId": "e00eef3cfa57ca96b1e7",
+      "aliases": [
+        {
+          "storyId": "498dd4dcf7baaf6b7970",
+          "title": "Alibaba, DeepSeek push China’s AI model race towards lower costs",
+          "url": "https://www.artificialintelligence-news.com/news/china-ai-model-race-alibaba-deepseek-costs/",
+          "source": "AI News",
+          "published": "2026-08-05T10:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "498dd4dcf7baaf6b7970",
+        "title": "Alibaba, DeepSeek push China’s AI model race towards lower costs",
+        "url": "https://www.artificialintelligence-news.com/news/china-ai-model-race-alibaba-deepseek-costs/",
+        "source": "AI News",
+        "published": "2026-08-05T10:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Alibaba has launched Qwen3.8-Max, its largest AI model to date, as DeepSeek’s latest V4-Flash model draws attention for inference pricing that is lower than several competing systems. Qwen3.8-Max has 2.4 trillion parameters and uses a mixture-of-experts architecture, which activates only part of the model for each request. Alibaba said around 95 billion parameters are active […] The post Alibaba, DeepSeek push China’s AI model race towards lower costs appeared first on AI News. AI Market Trends Artificial Intelligence Features Infrastructure & Hardware Open-Source & Democratised AI ai ai inference ai infrastructure ai model alibaba deepseek",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Alibaba, DeepSeek push China’s AI model race towards lower costs",
+        "summary": "Alibaba, DeepSeek push China’s AI model race towards lower costs. Alibaba has launched Qwen3.8-Max, its largest AI model to date, as DeepSeek’s latest V4-Flash model draws attention for inference pricing that is lower than several competing systems. Qwen3.8-Max has 2.4 trillion parameters and uses a mixture-of-experts architecture, which activates only part of the model for each request. Alibaba said around 95 billion parameters are active […] The post Alibaba, DeepSeek push China’s AI model race towards lower costs appeared first on AI News. AI Market Trends Artificial Intelligence Features Infrastructure & Hardware Open-Source & Democratised AI ai ai inference ai infrastructure ai model alibaba deepseek",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 16,
+        "confidence": 3,
+        "reasoning": "China is racing against US companies to improve open-weight AI models",
+        "ratedAt": "2026-08-10T08:51:14.279Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 9.4
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 9.4
+        }
+      },
+      "startedAt": "2026-08-10T08:51:14.279Z",
+      "updatedAt": "2026-08-10T08:51:38.793Z",
+      "articleRating": {
+        "score": 14,
+        "confidence": 3,
+        "reasoning": "Mostly product information",
+        "ratedAt": "2026-08-10T08:51:38.793Z"
+      },
+      "contextAdjustment": -2,
+      "completedAt": "2026-08-10T08:51:38.793Z"
+    },
+    {
+      "benchmarkId": "ec78328ac0ae8644c0af",
+      "aliases": [
+        {
+          "storyId": "998dc2dea918589a7c3c",
+          "title": "Alibaba tests new business model for Qwen open-source AI",
+          "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing/",
+          "source": "AI News",
+          "published": "2026-08-07T10:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "998dc2dea918589a7c3c",
+        "title": "Alibaba tests new business model for Qwen open-source AI",
+        "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing/",
+        "source": "AI News",
+        "published": "2026-08-07T10:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans. The arrangement would require larger companies that generate revenue from offering the model as a service to reach a commercial agreement with Alibaba. The exact revenue-sharing rate has […] The post Alibaba tests new business model for Qwen open-source AI appeared first on AI News. AI Business Strategy AI Market Trends Artificial Intelligence Featured News Features Open-Source & Democratised AI ai alibaba developers large language model open source AI",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Alibaba tests new business model for Qwen open-source AI",
+        "summary": "Alibaba tests new business model for Qwen open-source AI. Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans. The arrangement would require larger companies that generate revenue from offering the model as a service to reach a commercial agreement with Alibaba. The exact revenue-sharing rate has […] The post Alibaba tests new business model for Qwen open-source AI appeared first on AI News. AI Business Strategy AI Market Trends Artificial Intelligence Featured News Features Open-Source & Democratised AI ai alibaba developers large language model open source AI",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 8,
+        "confidence": 3,
+        "reasoning": "Alibaba testing revenue sharing plan with open-source AI models",
+        "ratedAt": "2026-08-10T09:08:25.680Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.96
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 7.96
+        }
+      },
+      "startedAt": "2026-08-10T09:08:25.680Z",
+      "updatedAt": "2026-08-10T09:11:01.236Z",
+      "articleRating": {
+        "score": 10,
+        "confidence": 3,
+        "reasoning": "Large companies generating revenue from offering the model as a service would need to reach a commercial agreement with Alibaba",
+        "ratedAt": "2026-08-10T09:11:01.236Z"
+      },
+      "contextAdjustment": 2,
+      "completedAt": "2026-08-10T09:11:01.236Z"
+    },
+    {
       "benchmarkId": "601b95bb48652d82e6fd",
       "aliases": [
         {
@@ -400,6 +592,68 @@
         "coverageSources": 1,
         "provenance": "production"
       }
+    },
+    {
+      "benchmarkId": "b2b28560527d5660b78e",
+      "aliases": [
+        {
+          "storyId": "157324a9612f0389d5d2",
+          "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+          "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+          "source": "VentureBeat AI",
+          "published": "2026-01-12T11:30:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "157324a9612f0389d5d2",
+        "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+        "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+        "source": "VentureBeat AI",
+        "published": "2026-01-12T11:30:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with Microsoft's Copilot in the burgeoning market for AI-powered productivity tools. \"Cowork lets you complete non-technical tasks much like how developers use Claude Code,\" the company announced via its official Claude account on X. The feature arrives as a research preview available exclusively to Claude Max subscribers — Anthropic's power-user tier priced between $100 and $200 per month — through the macOS desktop application. For the past year, the industry narrative has focused on large language models that can write poetry or debug code. With Cowork, Anthropic is betting that the real enterprise value lies in an AI that can open a folder, read a messy pile of receipts, and generate a structured expense report without human hand-holding. How developers using a coding tool for vacation research inspired Anthropic's latest product The genesis of Cowork lies in Anthropic's recent success with the developer community. In late 2024, the company released Claude Code, a terminal-based tool that allowed software engineers to automate rote programming tasks. The tool was a hit, but Anthropic noticed a peculiar trend: users were forcing the coding tool to perform non-coding labor. According to Boris Cherny, an engineer at Anthropic, the company observed users deploying the developer tool for an unexpectedly diverse array of tasks. \"Since we launched Claude Code, we saw people using it for all sorts of non-coding work: doing vacation research, building slide decks, cleaning up your email, cancelling subscriptions, recovering wedding photos from a hard drive, monitoring plant growth, controlling your oven,\" Cherny wrote on X. \"These use cases are diverse and surprising — the reason is that the underlying Claude Agent is the best agent, and Opus 4.5 is the best model.\" Recognizing this shadow usage, Anthropic effectively stripped the command-line complexity from their developer tool to create a consumer-friendly interface. In its blog post announcing the feature, Anthropic explained that developers \"quickly began using it for almost everything else,\" which \"prompted us to build Cowork: a simpler way for anyone — not just developers — to work with Claude in the very same way.\" Inside the folder-based architecture that lets Claude read, edit, and create files on your computer Unlike a standard chat interface where a user pastes text for analysis, Cowork requires a different level of trust and access. Users designate a specific folder on their local machine that Claude can access. Within that sandbox, the AI agent can read existing files, modify them, or create entirely new ones. Anthropic offers several illustrative examples: reorganizing a cluttered downloads folder by sorting and intelligently renaming each file, generating a spreadsheet of expenses from a collection of receipt screenshots, or drafting a report from scattered notes across multiple documents. \"In Cowork, you give Claude access to a folder on your computer. Claude can then read, edit, or create files in that folder,\" the company explained on X. \"Try it to create a spreadsheet from a pile of screenshots, or produce a first draft from scattered notes.\" The architecture relies on what is known as an \"agentic loop.\" When a user assigns a task, the AI does not merely generate a text response. Instead, it formulates a plan, executes steps in parallel, checks its own work, and asks for clarification if it hits a roadblock. Users can queue multiple tasks and let Claude process them simultaneousl",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+        "summary": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required. Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with Microsoft's Copilot in the burgeoning market for AI-powered productivity tools. \"Cowork lets you complete non-technical tasks much like how developers use Claude Code,\" the company announced via its official Claude account on X. The feature arrives as a research preview available exclusively to Claude Max subscribers — Anthropic's power-user tier priced between $100 and $200 per month — through the macOS desktop application. For the past year, the industry narrative has focused on large language models that can write poetry or debug code. With Cowork, Anthropic is betting that the real enterprise value lies in an AI that can open a folder, read a messy pile of receipts, and generate a structured expense report without human hand-holding. How developers using a coding tool for vacation research inspired Anthropic's latest product The genesis of Cowork lies in Anthropic's recent success with the developer community. In late 2024, the company released Claude Code, a terminal-based tool that allowed software engineers to automate rote programming tasks. The tool was a hit, but Anthropic noticed a peculiar trend: users were forcing the coding tool to perform non-coding labor. According to Boris Cherny, an engineer at Anthropic, the company observed users deploying the developer tool for an unexpectedly diverse array of tasks. \"Since we launched Claude Code, we saw people using it for all sorts of non-coding work: doing vacation research, building slide decks, cleaning up your email, cancelling subscriptions, recovering wedding photos from a hard drive, monitoring plant growth, controlling your oven,\" Cherny wrote on X. \"These use cases are diverse and surprising — the reason is that the underlying Claude Agent is the best agent, and Opus 4.5 is the best model.\" Recognizing this shadow usage, Anthropic effectively stripped the command-line complexity from their developer tool to create a consumer-friendly interface. In its blog post announcing the feature, Anthropic explained that developers \"quickly began using it for almost everything else,\" which \"prompted us to build Cowork: a simpler way for anyone — not just developers — to work with Claude in the very same way.\" Inside the folder-based architecture that lets Claude read, edit, and create files on your computer Unlike a standard chat interface where a user pastes text for analysis, Cowork requires a different level of trust and access. Users designate a specific folder on their local machine that Claude can access. Within that sandbox, the AI agent can read existing files, modify them, or create entirely new ones. Anthropic offers several illustrative examples: reorganizing a cluttered downloads folder by sorting and intelligently renaming each file, generating a spreadsheet of expenses from a collection of receipt screenshots, or drafting a report from scattered notes across multiple documents. \"In Cowork, you give Claude access to a folder on your computer. Claude can then read, edit, or create files in that folder,\" the company explained on X. \"Try it to create a spreadsheet from a pile of screenshots, or produce a first draft from scattered notes.\" The architecture relies on what is known as an \"agentic loop.\" When a user assigns a task, the AI does not merely generate a text response. Instead, it formulates a plan, executes steps in parallel, checks its own work, and asks for clarification if it hits a roadblock. Users can queue multiple tasks and let Claude process them simultaneousl",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 9,
+        "confidence": 3,
+        "reasoning": "AI product announcement",
+        "ratedAt": "2026-08-10T09:16:25.640Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.81
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 7.81
+        }
+      },
+      "startedAt": "2026-08-10T09:16:25.640Z",
+      "updatedAt": "2026-08-10T09:16:50.038Z",
+      "articleRating": {
+        "score": 9,
+        "confidence": 3,
+        "reasoning": "Product announcement",
+        "ratedAt": "2026-08-10T09:16:50.038Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T09:16:50.038Z"
     },
     {
       "benchmarkId": "ac51346829e81631b47b",
@@ -648,6 +902,192 @@
       },
       "contextAdjustment": 3,
       "completedAt": "2026-08-09T22:22:37.807Z"
+    },
+    {
+      "benchmarkId": "2a78b8a59c75ad509ce8",
+      "aliases": [
+        {
+          "storyId": "1d069b1fc66d18a784ee",
+          "title": "Australia news live: SA premier announces royal commission into AI and ‘how it will be deployed’; Albanese confirms Labor will amend gambling legislation",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb",
+          "source": "The Guardian AI",
+          "published": "2026-08-10T06:38:40.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "1d069b1fc66d18a784ee",
+        "title": "Australia news live: SA premier announces royal commission into AI and ‘how it will be deployed’; Albanese confirms Labor will amend gambling legislation",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb",
+        "source": "The Guardian AI",
+        "published": "2026-08-10T06:38:40.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Follow today’s news live Get our breaking news email, free app or daily news podcast Police say the remains found in a suitcase near Goulburn are not human. Supt Linda Bradbury with NSW police said: Some good news here that we don’t have a suspicious death of a human on our hands. … We are still undertaking more forensic work to identify what they are. But we can identify that they’re not human. But we’ve confirmed by other means that they are not. The undersupply of housing combined with population growth is expected to partially offset the impact of higher interest rates and recent federal government policy changes on the housing market. Continue reading... Australia news Transport Aukus Bob Carr Australian politics One Nation Australian education AI (artificial intelligence) Health",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Australia news live: SA premier announces royal commission into AI and ‘how it will be deployed’; Albanese confirms Labor will amend gambling legislation",
+        "summary": "Australia news live: SA premier announces royal commission into AI and ‘how it will be deployed’; Albanese confirms Labor will amend gambling legislation. Follow today’s news live Get our breaking news email, free app or daily news podcast Police say the remains found in a suitcase near Goulburn are not human. Supt Linda Bradbury with NSW police said: Some good news here that we don’t have a suspicious death of a human on our hands. … We are still undertaking more forensic work to identify what they are. But we can identify that they’re not human. But we’ve confirmed by other means that they are not. The undersupply of housing combined with population growth is expected to partially offset the impact of higher interest rates and recent federal government policy changes on the housing market. Continue reading... Australia news Transport Aukus Bob Carr Australian politics One Nation Australian education AI (artificial intelligence) Health",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 10,
+        "confidence": 3,
+        "reasoning": "Austrailian government announcing AI policies",
+        "ratedAt": "2026-08-10T08:28:07.435Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 33.82
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 44.81
+        }
+      },
+      "startedAt": "2026-08-10T08:28:07.435Z",
+      "updatedAt": "2026-08-10T08:30:19.997Z",
+      "articleRating": {
+        "score": 10,
+        "confidence": 3,
+        "reasoning": "Commission to start looking at the impacts, risks, and opportunities of AI across education, industry, public health, arts, and culture so that it's not unchecked",
+        "ratedAt": "2026-08-10T08:30:19.997Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T08:30:19.997Z"
+    },
+    {
+      "benchmarkId": "0510805791ff9eb116f9",
+      "aliases": [
+        {
+          "storyId": "b3fd27415954c52e9ceb",
+          "title": "Beijing is forcing a mass breakup with AI lovers",
+          "url": "https://restofworld.org/2026/china-ai-boyfriend-ban-bytedance-doubao/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "published": "2026-08-10T10:00:17.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "b3fd27415954c52e9ceb",
+        "title": "Beijing is forcing a mass breakup with AI lovers",
+        "url": "https://restofworld.org/2026/china-ai-boyfriend-ban-bytedance-doubao/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+        "source": "Rest of World AI",
+        "published": "2026-08-10T10:00:17.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Beijing is pioneering regulations that could shape how governments around the world govern emotionally intelligent chatbots.",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Beijing is forcing a mass breakup with AI lovers",
+        "summary": "Beijing is forcing a mass breakup with AI lovers. Beijing is pioneering regulations that could shape how governments around the world govern emotionally intelligent chatbots.",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 26,
+        "confidence": 2,
+        "reasoning": "China is placing regulations on AI models in hopes that other governments adopt their framework",
+        "ratedAt": "2026-08-10T20:01:51.032Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 9.07
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 9.07
+        }
+      },
+      "startedAt": "2026-08-10T20:01:51.032Z",
+      "updatedAt": "2026-08-10T20:03:47.327Z",
+      "articleRating": {
+        "score": 26,
+        "confidence": 3,
+        "reasoning": "China governing AI emotional interactions with users.",
+        "ratedAt": "2026-08-10T20:03:47.327Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T20:03:47.327Z"
+    },
+    {
+      "benchmarkId": "575b100b4e3c7394315a",
+      "aliases": [
+        {
+          "storyId": "7515561293ae7f10669d",
+          "title": "Bernie Sanders calls on Silicon Valley to ‘pause AI development’ in interest of humanity",
+          "url": "https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter",
+          "source": "The Guardian AI",
+          "published": "2026-08-10T17:44:21.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "7515561293ae7f10669d",
+        "title": "Bernie Sanders calls on Silicon Valley to ‘pause AI development’ in interest of humanity",
+        "url": "https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter",
+        "source": "The Guardian AI",
+        "published": "2026-08-10T17:44:21.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Progressive US senator urges Meta, OpenAI and Anthropic to ‘stop building machines that humans cannot control’ Senator Bernie Sanders has called on Meta, OpenAI and Anthropic executives to halt their development of artificial intelligence, warning that the US Senate will implement regulation if the companies continue deploying AI at their current pace. In a new letter addressed to the CEOs of three of the country’s leading AI companies, Sanders said the capabilities of these AI models have reached a critical risk threshold and that the companies are losing control over the technology. Continue reading... Technology Bernie Sanders AI (artificial intelligence) US news Datacenters – US Alexandria Ocasio-Cortez OpenAI Meta Anthropic",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Bernie Sanders calls on Silicon Valley to ‘pause AI development’ in interest of humanity",
+        "summary": "Bernie Sanders calls on Silicon Valley to ‘pause AI development’ in interest of humanity. Progressive US senator urges Meta, OpenAI and Anthropic to ‘stop building machines that humans cannot control’ Senator Bernie Sanders has called on Meta, OpenAI and Anthropic executives to halt their development of artificial intelligence, warning that the US Senate will implement regulation if the companies continue deploying AI at their current pace. In a new letter addressed to the CEOs of three of the country’s leading AI companies, Sanders said the capabilities of these AI models have reached a critical risk threshold and that the companies are losing control over the technology. Continue reading... Technology Bernie Sanders AI (artificial intelligence) US news Datacenters – US Alexandria Ocasio-Cortez OpenAI Meta Anthropic",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 24,
+        "confidence": 3,
+        "reasoning": "US Senator Bernie Sanders wants AI companies to stop building AI that human's cant control",
+        "ratedAt": "2026-08-10T19:40:08.988Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 14.66
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 14.66
+        }
+      },
+      "startedAt": "2026-08-10T19:40:08.988Z",
+      "updatedAt": "2026-08-10T19:42:41.085Z",
+      "articleRating": {
+        "score": 24,
+        "confidence": 3,
+        "reasoning": "AI models have reached critical risk threshold and companies are losing control over the technology",
+        "ratedAt": "2026-08-10T19:42:41.085Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T19:42:41.085Z"
     },
     {
       "benchmarkId": "07a0a263785df2488acf",
@@ -1264,6 +1704,130 @@
       }
     },
     {
+      "benchmarkId": "55c1e4c0c1e35528c47f",
+      "aliases": [
+        {
+          "storyId": "631003ad43b0a58d2a1a",
+          "title": "EU AI Act Article 50 transparency rules enter force",
+          "url": "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force/",
+          "source": "AI News",
+          "published": "2026-08-03T16:09:25.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "631003ad43b0a58d2a1a",
+        "title": "EU AI Act Article 50 transparency rules enter force",
+        "url": "https://www.artificialintelligence-news.com/news/eu-ai-act-article-50-transparency-rules-enter-force/",
+        "source": "AI News",
+        "published": "2026-08-03T16:09:25.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Article 50 of the EU AI Act has entered into force, setting transparency obligations for AI providers and deployers operating across the bloc. Enterprises running generative AI tools now have to comply with Article 50, which requires providers and deployers of certain AI systems to tell people when they’re interacting with a machine, and to […] The post EU AI Act Article 50 transparency rules enter force appeared first on AI News. AI and Us Governance, Regulation & Policy Government & Public Sector AI Inside AI Trust, Bias & Fairness ai act ai office Article 50 biometrics compliance deepfakes emotion recognition eu europe european commission generative ai governance policy politics regulation transparency",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "EU AI Act Article 50 transparency rules enter force",
+        "summary": "EU AI Act Article 50 transparency rules enter force. Article 50 of the EU AI Act has entered into force, setting transparency obligations for AI providers and deployers operating across the bloc. Enterprises running generative AI tools now have to comply with Article 50, which requires providers and deployers of certain AI systems to tell people when they’re interacting with a machine, and to […] The post EU AI Act Article 50 transparency rules enter force appeared first on AI News. AI and Us Governance, Regulation & Policy Government & Public Sector AI Inside AI Trust, Bias & Fairness ai act ai office Article 50 biometrics compliance deepfakes emotion recognition eu europe european commission generative ai governance policy politics regulation transparency EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?.",
+        "coverageSources": 2,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 12,
+        "confidence": 3,
+        "reasoning": "New legislation requires companies using generative AI tools to disclose to customers if they're interacting with a machine in EU AI Act",
+        "ratedAt": "2026-08-10T08:53:01.980Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 8.91
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 9.05
+        }
+      },
+      "startedAt": "2026-08-10T08:53:01.980Z",
+      "updatedAt": "2026-08-10T08:55:01.416Z",
+      "articleRating": {
+        "score": 12,
+        "confidence": 3,
+        "reasoning": "Pushing towards transparency and disclosure to companies across various media types on AI usage",
+        "ratedAt": "2026-08-10T08:55:01.416Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T08:55:01.416Z"
+    },
+    {
+      "benchmarkId": "b9d08c4845c4b4221d97",
+      "aliases": [
+        {
+          "storyId": "71963bd8f11efab80630",
+          "title": "EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?",
+          "url": "https://techpolicy.press/eu-ai-act-transparency-rules-are-now-in-effect-was-it-a-missed-opportunity",
+          "source": "Tech Policy Press AI",
+          "published": "2026-08-03T12:42:27.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "71963bd8f11efab80630",
+        "title": "EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?",
+        "url": "https://techpolicy.press/eu-ai-act-transparency-rules-are-now-in-effect-was-it-a-missed-opportunity",
+        "source": "Tech Policy Press AI",
+        "published": "2026-08-03T12:42:27.000Z"
+      },
+      "feedEvidence": {
+        "summary": "",
+        "summaryAvailable": false
+      },
+      "scoringInput": {
+        "title": "EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?",
+        "summary": "EU AI Act Article 50 transparency rules enter force. Article 50 of the EU AI Act has entered into force, setting transparency obligations for AI providers and deployers operating across the bloc. Enterprises running generative AI tools now have to comply with Article 50, which requires providers and deployers of certain AI systems to tell people when they’re interacting with a machine, and to […] The post EU AI Act Article 50 transparency rules enter force appeared first on AI News. AI and Us Governance, Regulation & Policy Government & Public Sector AI Inside AI Trust, Bias & Fairness ai act ai office Article 50 biometrics compliance deepfakes emotion recognition eu europe european commission generative ai governance policy politics regulation transparency EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?.",
+        "coverageSources": 2,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 16,
+        "confidence": 2,
+        "reasoning": "Negatively oriented headline that's unclear",
+        "ratedAt": "2026-08-10T08:55:28.105Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 8.91
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 9.05
+        }
+      },
+      "startedAt": "2026-08-10T08:55:28.105Z",
+      "updatedAt": "2026-08-10T08:56:20.008Z",
+      "articleRating": {
+        "score": 14,
+        "confidence": 2,
+        "reasoning": "Obligations on providers to label generative AI systems",
+        "ratedAt": "2026-08-10T08:56:20.008Z"
+      },
+      "contextAdjustment": -2,
+      "completedAt": "2026-08-10T08:56:20.008Z"
+    },
+    {
       "benchmarkId": "93bb9ea27e408650e2e8",
       "aliases": [
         {
@@ -1386,6 +1950,130 @@
         "coverageSources": 1,
         "provenance": "production"
       }
+    },
+    {
+      "benchmarkId": "787dcfd5ee7df81ef7d5",
+      "aliases": [
+        {
+          "storyId": "7bb0c3b80dd89d6bc602",
+          "title": "Ford’s new AI assistant can check your fuel levels and tire pressure",
+          "url": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
+          "source": "The Verge AI",
+          "published": "2026-08-10T11:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "7bb0c3b80dd89d6bc602",
+        "title": "Ford’s new AI assistant can check your fuel levels and tire pressure",
+        "url": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
+        "source": "The Verge AI",
+        "published": "2026-08-10T11:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you'll need for your next road trip or whether your truck can tow that new motor boat. The app is rolling out first to the Ford and Lincoln mobile apps, where it will work as a chatbot that can answer questions about the vehicle's capabilities or future service needs. Since the app is linked to the customer's vehicle, the assistant knows many of the details about the particular make and model, including fuel levels, cargo capacity, and towing capabilities. Ford plans on rolling out a voice-powered assistant that … Read the full story at The Verge. Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you'll need for your next road trip or whether your truck can tow that new motor boat. The app is rolling out first to the Ford and Lincoln mobile apps, where it […]",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Ford’s new AI assistant can check your fuel levels and tire pressure",
+        "summary": "Ford’s new AI assistant can check your fuel levels and tire pressure. Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you'll need for your next road trip or whether your truck can tow that new motor boat. The app is rolling out first to the Ford and Lincoln mobile apps, where it will work as a chatbot that can answer questions about the vehicle's capabilities or future service needs. Since the app is linked to the customer's vehicle, the assistant knows many of the details about the particular make and model, including fuel levels, cargo capacity, and towing capabilities. Ford plans on rolling out a voice-powered assistant that … Read the full story at The Verge. Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you'll need for your next road trip or whether your truck can tow that new motor boat. The app is rolling out first to the Ford and Lincoln mobile apps, where it […]",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 7,
+        "confidence": 3,
+        "reasoning": "Ford announcing chatbot assistant for your car",
+        "ratedAt": "2026-08-10T19:46:22.574Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 11
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 11
+        }
+      },
+      "startedAt": "2026-08-10T19:46:22.574Z",
+      "updatedAt": "2026-08-10T19:47:35.618Z",
+      "articleRating": {
+        "score": 6,
+        "confidence": 3,
+        "reasoning": "Chatbot will answer questions sabout the vehicle's capabilities",
+        "ratedAt": "2026-08-10T19:47:35.618Z"
+      },
+      "contextAdjustment": -1,
+      "completedAt": "2026-08-10T19:47:35.618Z"
+    },
+    {
+      "benchmarkId": "f3d8e739be8e734ac402",
+      "aliases": [
+        {
+          "storyId": "031f329eef992fe509a6",
+          "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
+          "url": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+          "source": "The Verge AI",
+          "published": "2026-08-10T15:19:05.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "031f329eef992fe509a6",
+        "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
+        "url": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+        "source": "The Verge AI",
+        "published": "2026-08-10T15:19:05.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positioning itself to enable those goals. Some points echo a similar (albeit, much shorter) public letter that Zuckerberg put out last year, heralding the importance of public access to superintelligent AI - a term for artificial general i … Read the full story at The Verge. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
+        "summary": "Four takeaways from Mark Zuckerberg’s massive AI manifesto. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positioning itself to enable those goals. Some points echo a similar (albeit, much shorter) public letter that Zuckerberg put out last year, heralding the importance of public access to superintelligent AI - a term for artificial general i … Read the full story at The Verge. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 9,
+        "confidence": 3,
+        "reasoning": "Mark Zuckerberg AI manifesto on his idealized future",
+        "ratedAt": "2026-08-10T19:54:07.787Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 9.93
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 9.93
+        }
+      },
+      "startedAt": "2026-08-10T19:54:07.787Z",
+      "updatedAt": "2026-08-10T19:57:19.598Z",
+      "articleRating": {
+        "score": 7,
+        "confidence": 3,
+        "reasoning": "Sustainable future plans for rolling out AI data centers and making superintelligence AI models accessible to the average person",
+        "ratedAt": "2026-08-10T19:57:19.598Z"
+      },
+      "contextAdjustment": -2,
+      "completedAt": "2026-08-10T19:57:19.598Z"
     },
     {
       "benchmarkId": "387397c5a02c8801903e",
@@ -1698,6 +2386,68 @@
       "completedAt": "2026-08-10T06:56:25.376Z"
     },
     {
+      "benchmarkId": "5895fbec549a6d99e7ba",
+      "aliases": [
+        {
+          "storyId": "bddef3728dafe68678a9",
+          "title": "How AI Is changing Instagram engagement without replacing the human touch",
+          "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch/",
+          "source": "AI News",
+          "published": "2026-08-07T14:33:59.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "bddef3728dafe68678a9",
+        "title": "How AI Is changing Instagram engagement without replacing the human touch",
+        "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch/",
+        "source": "AI News",
+        "published": "2026-08-07T14:33:59.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is now decided by its AI system. With over three billion people using it, that’s not a small detail; it’s the whole algorithm. But here’s the point: the more AI controls over how you see the content, the more it […] The post How AI Is changing Instagram engagement without replacing the human touch appeared first on AI News. Sponsored Content",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "How AI Is changing Instagram engagement without replacing the human touch",
+        "summary": "How AI Is changing Instagram engagement without replacing the human touch. Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is now decided by its AI system. With over three billion people using it, that’s not a small detail; it’s the whole algorithm. But here’s the point: the more AI controls over how you see the content, the more it […] The post How AI Is changing Instagram engagement without replacing the human touch appeared first on AI News. Sponsored Content",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 19,
+        "confidence": 3,
+        "reasoning": "Social media engagement driven by AI algorithm",
+        "ratedAt": "2026-08-10T08:58:32.408Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 8.44
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 8.44
+        }
+      },
+      "startedAt": "2026-08-10T08:58:32.408Z",
+      "updatedAt": "2026-08-10T09:00:05.488Z",
+      "articleRating": {
+        "score": 19,
+        "confidence": 3,
+        "reasoning": "AI automation of social media feeds instead of organic reach",
+        "ratedAt": "2026-08-10T09:00:05.488Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T09:00:05.488Z"
+    },
+    {
       "benchmarkId": "466427993adf4fd7aba2",
       "aliases": [
         {
@@ -1820,6 +2570,68 @@
         "coverageSources": 1,
         "provenance": "production"
       }
+    },
+    {
+      "benchmarkId": "c2307cb7ebf863c27581",
+      "aliases": [
+        {
+          "storyId": "f61ece82944d6b710d4e",
+          "title": "I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out",
+          "url": "https://www.nature.com/articles/d41586-026-02447-y",
+          "source": "Nature AI News & Comment",
+          "published": "2026-08-10T00:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "f61ece82944d6b710d4e",
+        "title": "I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out",
+        "url": "https://www.nature.com/articles/d41586-026-02447-y",
+        "source": "Nature AI News & Comment",
+        "published": "2026-08-10T00:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "",
+        "summaryAvailable": false
+      },
+      "scoringInput": {
+        "title": "I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out",
+        "summary": "I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out.",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 27,
+        "confidence": 3,
+        "reasoning": "Students cheating on university exam's by using AI chatbots",
+        "ratedAt": "2026-08-10T19:48:25.347Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 10.27
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 10.27
+        }
+      },
+      "startedAt": "2026-08-10T19:48:25.347Z",
+      "updatedAt": "2026-08-10T19:53:18.648Z",
+      "articleRating": {
+        "score": 25,
+        "confidence": 3,
+        "reasoning": "Teacher let students take midterm test at home and the average score was 96%. The final test was conducted in-person and the average score dropped to 48.6%.",
+        "ratedAt": "2026-08-10T19:53:18.648Z"
+      },
+      "contextAdjustment": -2,
+      "completedAt": "2026-08-10T19:53:18.648Z"
     },
     {
       "benchmarkId": "f8d338b89c555a71aac2",
@@ -2132,6 +2944,68 @@
       }
     },
     {
+      "benchmarkId": "3355049180e70439d0ac",
+      "aliases": [
+        {
+          "storyId": "c5557fe0aec2167b36bd",
+          "title": "Mark Zuckerberg Posts Deranged 6,500-Word Essay About Giving Everyone AI Superintelligence",
+          "url": "https://www.404media.co/mark-zuckerberg-posts-deranged-6-500-word-essay-about-giving-everyone-ai-superintelligence/",
+          "source": "404 Media AI",
+          "published": "2026-08-10T14:13:30.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "c5557fe0aec2167b36bd",
+        "title": "Mark Zuckerberg Posts Deranged 6,500-Word Essay About Giving Everyone AI Superintelligence",
+        "url": "https://www.404media.co/mark-zuckerberg-posts-deranged-6-500-word-essay-about-giving-everyone-ai-superintelligence/",
+        "source": "404 Media AI",
+        "published": "2026-08-10T14:13:30.000Z"
+      },
+      "feedEvidence": {
+        "summary": "\"The future is for everyone,\" Zuckerberg says, describing future that is primarily good for Meta. AI Lobbying AI Meta",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Mark Zuckerberg Posts Deranged 6,500-Word Essay About Giving Everyone AI Superintelligence",
+        "summary": "Mark Zuckerberg Posts Deranged 6,500-Word Essay About Giving Everyone AI Superintelligence. \"The future is for everyone,\" Zuckerberg says, describing future that is primarily good for Meta. AI Lobbying AI Meta",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 8,
+        "confidence": 3,
+        "reasoning": "Mark Zuckerberg manifesto on idealized future",
+        "ratedAt": "2026-08-10T19:57:44.010Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 9.46
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 9.46
+        }
+      },
+      "startedAt": "2026-08-10T19:57:44.010Z",
+      "updatedAt": "2026-08-10T20:00:11.441Z",
+      "articleRating": {
+        "score": 8,
+        "confidence": 3,
+        "reasoning": "Zuckerberg paints a idealistic future where AI benefits everyone",
+        "ratedAt": "2026-08-10T20:00:11.441Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T20:00:11.441Z"
+    },
+    {
       "benchmarkId": "3dcca91ff2ab8ff4ada4",
       "aliases": [
         {
@@ -2316,6 +3190,130 @@
       },
       "contextAdjustment": 0,
       "completedAt": "2026-08-10T07:04:05.693Z"
+    },
+    {
+      "benchmarkId": "79b6f73fa34613a0f302",
+      "aliases": [
+        {
+          "storyId": "046d59ef7b0e4c8db6e1",
+          "title": "NASA Data Powers New Tool to Protect Water Supply After Fires",
+          "url": "https://science.nasa.gov/earth/nasa-data-powers-new-tool-to-protect-water-supply-after-fires/",
+          "source": "NASA AI",
+          "published": "2025-09-24T17:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "046d59ef7b0e4c8db6e1",
+        "title": "NASA Data Powers New Tool to Protect Water Supply After Fires",
+        "url": "https://science.nasa.gov/earth/nasa-data-powers-new-tool-to-protect-water-supply-after-fires/",
+        "source": "NASA AI",
+        "published": "2025-09-24T17:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "NASA Data Powers New Tool to Protect Water Supply After Fires",
+        "summary": "AI at NASA. NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts NASA-developed AI Could Help Track Harmful Algae. NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit. A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model aboard two in-orbit platforms. The post NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit appeared first on NASA Science. Science & Research Artificial Intelligence (AI) Open Science NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data. Trained on data from NASA's exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets. The post NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data appeared first on NASA Science. Open Science Ames Research Center Artificial Intelligence (AI) Exoplanets Kepler / K2 TESS (Transiting Exoplanet Survey Satellite) NASA, Industry Weave Data Fabric with Artificial Intelligence. Air taxis and drones navigate different flight zones with NASA-inspired system The post NASA, Industry Weave Data Fabric with Artificial Intelligence appeared first on NASA Science. Ames Research Center Artificial Intelligence (AI) Partner With Us Spinoffs Technology Transfer Technology Transfer & Spinoffs NASA Data Powers New Tool to Protect Water Supply After Fires. When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 13,
+        "confidence": 3,
+        "reasoning": "NASA preparing for water and fire related weather events to protect communities",
+        "ratedAt": "2026-08-10T09:12:18.582Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.9
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 7.9
+        }
+      },
+      "startedAt": "2026-08-10T09:12:18.582Z",
+      "updatedAt": "2026-08-10T09:13:38.070Z",
+      "articleRating": {
+        "score": 13,
+        "confidence": 3,
+        "reasoning": "Using satellite data and AI to predict how wildfires could affect water resources",
+        "ratedAt": "2026-08-10T09:13:38.070Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T09:13:38.070Z"
+    },
+    {
+      "benchmarkId": "6cc806e2aa440b572dd6",
+      "aliases": [
+        {
+          "storyId": "d650f74f8d7cf3f8ab44",
+          "title": "NASA-developed AI Could Help Track Harmful Algae",
+          "url": "https://www.nasa.gov/science-research/earth-science/nasa-developed-ai-could-help-track-harmful-algae/",
+          "source": "NASA AI",
+          "published": "2026-05-20T17:39:10.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "d650f74f8d7cf3f8ab44",
+        "title": "NASA-developed AI Could Help Track Harmful Algae",
+        "url": "https://www.nasa.gov/science-research/earth-science/nasa-developed-ai-could-help-track-harmful-algae/",
+        "source": "NASA AI",
+        "published": "2026-05-20T17:39:10.000Z"
+      },
+      "feedEvidence": {
+        "summary": "NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "NASA-developed AI Could Help Track Harmful Algae",
+        "summary": "AI at NASA. NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts NASA-developed AI Could Help Track Harmful Algae. NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit. A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model aboard two in-orbit platforms. The post NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit appeared first on NASA Science. Science & Research Artificial Intelligence (AI) Open Science NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data. Trained on data from NASA's exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets. The post NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data appeared first on NASA Science. Open Science Ames Research Center Artificial Intelligence (AI) Exoplanets Kepler / K2 TESS (Transiting Exoplanet Survey Satellite) NASA, Industry Weave Data Fabric with Artificial Intelligence. Air taxis and drones navigate different flight zones with NASA-inspired system The post NASA, Industry Weave Data Fabric with Artificial Intelligence appeared first on NASA Science. Ames Research Center Artificial Intelligence (AI) Partner With Us Spinoffs Technology Transfer Technology Transfer & Spinoffs NASA Data Powers New Tool to Protect Water Supply After Fires. When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 10,
+        "confidence": 3,
+        "reasoning": "AI being used to track harmful algae in ocean waters",
+        "ratedAt": "2026-08-10T09:14:16.579Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.86
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 7.86
+        }
+      },
+      "startedAt": "2026-08-10T09:14:16.579Z",
+      "updatedAt": "2026-08-10T09:16:06.179Z",
+      "articleRating": {
+        "score": 10,
+        "confidence": 3,
+        "reasoning": "Toxins from algal blooms have poisoned hundreds of dolphins, sea lions, and other marine life in recent years. Toxins can even enter the air and cause respiratory illness in humans",
+        "ratedAt": "2026-08-10T09:16:06.179Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T09:16:06.179Z"
     },
     {
       "benchmarkId": "8bce933ce4d548e64e6c",
@@ -3118,6 +4116,68 @@
       "completedAt": "2026-08-09T08:10:55.200Z"
     },
     {
+      "benchmarkId": "3c7bed6288b42ce8d54c",
+      "aliases": [
+        {
+          "storyId": "551181c299c73018408d",
+          "title": "‘Own the Narrative’: Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech",
+          "url": "https://www.404media.co/own-the-narrative-leaked-flock-guide-shows-how-it-teaches-cops-to-promote-its-tech/",
+          "source": "404 Media AI",
+          "published": "2026-08-03T17:13:24.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "551181c299c73018408d",
+        "title": "‘Own the Narrative’: Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech",
+        "url": "https://www.404media.co/own-the-narrative-leaked-flock-guide-shows-how-it-teaches-cops-to-promote-its-tech/",
+        "source": "404 Media AI",
+        "published": "2026-08-03T17:13:24.000Z"
+      },
+      "feedEvidence": {
+        "summary": "\"This document shows a coordinated effort from Flock Safety to compel law enforcement agencies to convince our elected leaders to represent their interests as a company rather than the interests of concerned citizens.\" Flock AI",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "‘Own the Narrative’: Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech",
+        "summary": "‘Own the Narrative’: Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech. \"This document shows a coordinated effort from Flock Safety to compel law enforcement agencies to convince our elected leaders to represent their interests as a company rather than the interests of concerned citizens.\" Flock AI",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 34,
+        "confidence": 3,
+        "reasoning": "Flock AI being promoted by law enforcement to convince government officials of it's usage rather than the concerns that citizens have over it's technology",
+        "ratedAt": "2026-08-10T20:07:06.464Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.8
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 11.75
+        }
+      },
+      "startedAt": "2026-08-10T20:07:06.464Z",
+      "updatedAt": "2026-08-10T20:09:48.613Z",
+      "articleRating": {
+        "score": 43,
+        "confidence": 3,
+        "reasoning": "Flock surveillance coaches police on how to speak to city councils",
+        "ratedAt": "2026-08-10T20:09:48.613Z"
+      },
+      "contextAdjustment": 9,
+      "completedAt": "2026-08-10T20:09:48.613Z"
+    },
+    {
       "benchmarkId": "4ce6d91f1fd2107f31b7",
       "aliases": [
         {
@@ -3178,6 +4238,68 @@
       },
       "contextAdjustment": -7,
       "completedAt": "2026-08-09T08:23:24.349Z"
+    },
+    {
+      "benchmarkId": "fa360e03d85e5fa0ffe7",
+      "aliases": [
+        {
+          "storyId": "3fa81885b90271b8a4cd",
+          "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+          "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+          "source": "TechCrunch AI",
+          "published": "2026-08-08T21:24:02.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "3fa81885b90271b8a4cd",
+        "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+        "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+        "source": "TechCrunch AI",
+        "published": "2026-08-08T21:24:02.000Z"
+      },
+      "feedEvidence": {
+        "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States. AI Climate Amazon",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+        "summary": "Planned Amazon data center could become the biggest climate polluter in the U.S.. As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States. AI Climate Amazon",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 52,
+        "confidence": 3,
+        "reasoning": "A planned data center could become the largest pollution source in United States",
+        "ratedAt": "2026-08-10T09:03:21.558Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 8.32
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 8.32
+        }
+      },
+      "startedAt": "2026-08-10T09:03:21.558Z",
+      "updatedAt": "2026-08-10T09:04:52.485Z",
+      "articleRating": {
+        "score": 52,
+        "confidence": 3,
+        "reasoning": "The data center is permitted to release 33 million tons of carbon dioxide per year, more than any power plant in the United States",
+        "ratedAt": "2026-08-10T09:04:52.485Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T09:04:52.485Z"
     },
     {
       "benchmarkId": "d0a80c2e28c276e2d5a0",
@@ -3428,6 +4550,68 @@
       }
     },
     {
+      "benchmarkId": "712aa159e0aa5471ea0c",
+      "aliases": [
+        {
+          "storyId": "dedf4883efd44ceee788",
+          "title": "Red Hat, NVIDIA, IBM back project turning AI policy into code",
+          "url": "https://www.artificialintelligence-news.com/news/red-hat-nvidia-ibm-back-project-turning-ai-policy-into-code/",
+          "source": "AI News",
+          "published": "2026-08-04T16:07:15.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "dedf4883efd44ceee788",
+        "title": "Red Hat, NVIDIA, IBM back project turning AI policy into code",
+        "url": "https://www.artificialintelligence-news.com/news/red-hat-nvidia-ibm-back-project-turning-ai-policy-into-code/",
+        "source": "AI News",
+        "published": "2026-08-04T16:07:15.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Red Hat has launched asago, an open-source community project that aims to turn AI governance policy into production-ready deployment code. The project describes itself as an automated, auditable workflow that connects the “fragmented steps, tools, and requirements” of engineering and compliance teams. With regulation such as the EU AI Act now taking effect, Red Hat […] The post Red Hat, NVIDIA, IBM back project turning AI policy into code appeared first on AI News. Data Engineering & MLOps Featured News Governance, Regulation & Policy Inside AI Open-Source & Democratised AI Trust, Bias & Fairness ai act asago cloud computing compliance enterprise eu governance ibm kubernetes mlops nvidia open-source red hat regulation safety security",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Red Hat, NVIDIA, IBM back project turning AI policy into code",
+        "summary": "Red Hat, NVIDIA, IBM back project turning AI policy into code. Red Hat has launched asago, an open-source community project that aims to turn AI governance policy into production-ready deployment code. The project describes itself as an automated, auditable workflow that connects the “fragmented steps, tools, and requirements” of engineering and compliance teams. With regulation such as the EU AI Act now taking effect, Red Hat […] The post Red Hat, NVIDIA, IBM back project turning AI policy into code appeared first on AI News. Data Engineering & MLOps Featured News Governance, Regulation & Policy Inside AI Open-Source & Democratised AI Trust, Bias & Fairness ai act asago cloud computing compliance enterprise eu governance ibm kubernetes mlops nvidia open-source red hat regulation safety security",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 8,
+        "confidence": 3,
+        "reasoning": "Parternship between companies on AI cooperation",
+        "ratedAt": "2026-08-10T08:56:43.535Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 8.58
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 8.58
+        }
+      },
+      "startedAt": "2026-08-10T08:56:43.535Z",
+      "updatedAt": "2026-08-10T08:57:45.568Z",
+      "articleRating": {
+        "score": 8,
+        "confidence": 3,
+        "reasoning": "Creating policy compliance and frameworks for AI usage and transparency",
+        "ratedAt": "2026-08-10T08:57:45.568Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T08:57:45.568Z"
+    },
+    {
       "benchmarkId": "3ff378c4acadc283efc4",
       "aliases": [
         {
@@ -3674,6 +4858,130 @@
       },
       "contextAdjustment": 0,
       "completedAt": "2026-08-10T06:30:29.846Z"
+    },
+    {
+      "benchmarkId": "cc1357d5ba1d6a4e8671",
+      "aliases": [
+        {
+          "storyId": "baa22222cfa8569405ec",
+          "title": "Software Giant SAP Stops Most Travel and Hiring Because of AI’s Soaring Cost",
+          "url": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
+          "source": "404 Media AI",
+          "published": "2026-08-06T19:13:34.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "baa22222cfa8569405ec",
+        "title": "Software Giant SAP Stops Most Travel and Hiring Because of AI’s Soaring Cost",
+        "url": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
+        "source": "404 Media AI",
+        "published": "2026-08-06T19:13:34.000Z"
+      },
+      "feedEvidence": {
+        "summary": "SAP says it needs to “be disciplined in how we spend.” That includes still freezing hires and travel. Unless it's to do with AI, of course. Tokenmaxxing AI News",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Software Giant SAP Stops Most Travel and Hiring Because of AI’s Soaring Cost",
+        "summary": "Software Giant SAP Stops Most Travel and Hiring Because of AI’s Soaring Cost. SAP says it needs to “be disciplined in how we spend.” That includes still freezing hires and travel. Unless it's to do with AI, of course. Tokenmaxxing AI News",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 32,
+        "confidence": 3,
+        "reasoning": "Company is freezing hiring and travel because of AI's increasing costs and usage",
+        "ratedAt": "2026-08-10T09:06:23.313Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 8.23
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 8.23
+        }
+      },
+      "startedAt": "2026-08-10T09:06:23.313Z",
+      "updatedAt": "2026-08-10T09:07:40.169Z",
+      "articleRating": {
+        "score": 32,
+        "confidence": 3,
+        "reasoning": "SAP is one of the largest software companies in the world. Exceptions only being made for AI-related travel or hires.",
+        "ratedAt": "2026-08-10T09:07:40.169Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T09:07:40.169Z"
+    },
+    {
+      "benchmarkId": "ea3af7e9c9ee9d931a25",
+      "aliases": [
+        {
+          "storyId": "88ea63574b396fdef5b9",
+          "title": "Stanford Evo 2 AI model generates phages against E. coli",
+          "url": "https://www.artificialintelligence-news.com/news/stanford-evo-2-ai-model-generates-phages-against-e-coli/",
+          "source": "AI News",
+          "published": "2026-08-07T15:05:03.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "88ea63574b396fdef5b9",
+        "title": "Stanford Evo 2 AI model generates phages against E. coli",
+        "url": "https://www.artificialintelligence-news.com/news/stanford-evo-2-ai-model-generates-phages-against-e-coli/",
+        "source": "AI News",
+        "published": "2026-08-07T15:05:03.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model. Laboratory testing narrowed the group to 16 phages that showed particularly strong E. coli-killing activity. The work centres on bacteriophage ΦX174, pronounced “FYE-ex-1-7-4”. Brian Hie, an assistant professor of chemical engineering and Dieter Schwarz Foundation Stanford Data […] The post Stanford Evo 2 AI model generates phages against E. coli appeared first on AI News. AI and Us AI in Action Features Governance, Regulation & Policy Healthcare & Wellness AI How It Works Open-Source & Democratised AI bacteriophage biology biosecurity dna synthesis drug resistance evo 2 generative ai genome design healthcare mrsa open-source science stanford synthetic biology",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Stanford Evo 2 AI model generates phages against E. coli",
+        "summary": "Stanford Evo 2 AI model generates phages against E. coli. Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model. Laboratory testing narrowed the group to 16 phages that showed particularly strong E. coli-killing activity. The work centres on bacteriophage ΦX174, pronounced “FYE-ex-1-7-4”. Brian Hie, an assistant professor of chemical engineering and Dieter Schwarz Foundation Stanford Data […] The post Stanford Evo 2 AI model generates phages against E. coli appeared first on AI News. AI and Us AI in Action Features Governance, Regulation & Policy Healthcare & Wellness AI How It Works Open-Source & Democratised AI bacteriophage biology biosecurity dna synthesis drug resistance evo 2 generative ai genome design healthcare mrsa open-source science stanford synthetic biology",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 9,
+        "confidence": 3,
+        "reasoning": "AI model used for scientific understanding",
+        "ratedAt": "2026-08-10T08:49:25.884Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 10.04
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 16.07
+        }
+      },
+      "startedAt": "2026-08-10T08:49:25.884Z",
+      "updatedAt": "2026-08-10T08:49:57.695Z",
+      "articleRating": {
+        "score": 9,
+        "confidence": 3,
+        "reasoning": "Scientific article on research performed",
+        "ratedAt": "2026-08-10T08:49:57.695Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T08:49:57.695Z"
     },
     {
       "benchmarkId": "2b6d19853390540f2586",
@@ -4214,6 +5522,68 @@
       },
       "contextAdjustment": 3,
       "completedAt": "2026-08-07T23:48:45.989Z"
+    },
+    {
+      "benchmarkId": "492b7bb713a2e5230614",
+      "aliases": [
+        {
+          "storyId": "9d6686843e6ec946a701",
+          "title": "The Rise of the 1 am Job Interview",
+          "url": "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/",
+          "source": "WIRED AI",
+          "published": "2026-08-10T10:30:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "9d6686843e6ec946a701",
+        "title": "The Rise of the 1 am Job Interview",
+        "url": "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/",
+        "source": "WIRED AI",
+        "published": "2026-08-10T10:30:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "An AI interview is increasingly the first step of a hiring process. Since there’s no human on the other end, candidates are scheduling them whenever—even deep into the night. Business Business / Artificial Intelligence",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "The Rise of the 1 am Job Interview",
+        "summary": "The Rise of the 1 am Job Interview. An AI interview is increasingly the first step of a hiring process. Since there’s no human on the other end, candidates are scheduling them whenever—even deep into the night. Business Business / Artificial Intelligence",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 9,
+        "confidence": 3,
+        "reasoning": "AI job interviews can be scheduled at any time",
+        "ratedAt": "2026-08-10T19:43:13.461Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 11
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 11
+        }
+      },
+      "startedAt": "2026-08-10T19:43:13.461Z",
+      "updatedAt": "2026-08-10T19:45:39.631Z",
+      "articleRating": {
+        "score": 9,
+        "confidence": 3,
+        "reasoning": "Interview processing are removing the human from interviewing candidates",
+        "ratedAt": "2026-08-10T19:45:39.631Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T19:45:39.631Z"
     },
     {
       "benchmarkId": "c7b670f3e3770616d53e",
@@ -4841,6 +6211,68 @@
       },
       "contextAdjustment": 0,
       "completedAt": "2026-08-08T21:34:24.189Z"
+    },
+    {
+      "benchmarkId": "7e2da3f6ed6930640ce3",
+      "aliases": [
+        {
+          "storyId": "58cb94f12c3641ade16c",
+          "title": "Why health AI interfaces must adapt to user expertise",
+          "url": "https://www.artificialintelligence-news.com/news/why-health-ai-interfaces-must-adapt-to-user-expertise/",
+          "source": "AI News",
+          "published": "2026-08-06T15:55:37.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "58cb94f12c3641ade16c",
+        "title": "Why health AI interfaces must adapt to user expertise",
+        "url": "https://www.artificialintelligence-news.com/news/why-health-ai-interfaces-must-adapt-to-user-expertise/",
+        "source": "AI News",
+        "published": "2026-08-06T15:55:37.000Z"
+      },
+      "feedEvidence": {
+        "summary": "MIT researchers and collaborators found that AI explainability tools in the health sector can produce sharply different results depending on who uses them. When applied to skin disease diagnosis, non-experts improved their accuracy with AI assistance, although the improvement largely came from deferring to the model. Primary care providers showed a different pattern: they performed […] The post Why health AI interfaces must adapt to user expertise appeared first on AI News. AI in Action Computer Vision Features Healthcare & Wellness AI Human-AI Relationships Natural Language Processing (NLP) Trust, Bias & Fairness bias computer vision dermatology diagnostic tools explainability health healthcare interface medical mit natural language patient safety research study",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Why health AI interfaces must adapt to user expertise",
+        "summary": "Why health AI interfaces must adapt to user expertise. MIT researchers and collaborators found that AI explainability tools in the health sector can produce sharply different results depending on who uses them. When applied to skin disease diagnosis, non-experts improved their accuracy with AI assistance, although the improvement largely came from deferring to the model. Primary care providers showed a different pattern: they performed […] The post Why health AI interfaces must adapt to user expertise appeared first on AI News. AI in Action Computer Vision Features Healthcare & Wellness AI Human-AI Relationships Natural Language Processing (NLP) Trust, Bias & Fairness bias computer vision dermatology diagnostic tools explainability health healthcare interface medical mit natural language patient safety research study",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 12,
+        "confidence": 3,
+        "reasoning": "AI explainability is more helpful for non-experts who defer to AI models",
+        "ratedAt": "2026-08-10T08:46:05.357Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 10.1
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 13.14
+        }
+      },
+      "startedAt": "2026-08-10T08:46:05.357Z",
+      "updatedAt": "2026-08-10T08:48:23.891Z",
+      "articleRating": {
+        "score": 12,
+        "confidence": 3,
+        "reasoning": "Providers and non-experts use AI differently",
+        "ratedAt": "2026-08-10T08:48:23.891Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T08:48:23.891Z"
     },
     {
       "benchmarkId": "d3c584aa3aff173612c8",
