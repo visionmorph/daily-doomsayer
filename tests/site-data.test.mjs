@@ -1,11 +1,44 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import {
   buildSourceDirectory,
   calculateIntradayDoom,
   normalizeArticleText,
   normalizedSeverityScale,
 } from "../scripts/site-data.mjs";
+
+test("DREAD 1.2.4 is the configured experimental model throughout the site", async () => {
+  const [
+    configText,
+    indexHtml,
+    newsScript,
+    calibrationScript,
+    fetchScript,
+    verificationScript,
+  ] = await Promise.all([
+    readFile(new URL("../news-sources.json", import.meta.url), "utf8"),
+    readFile(new URL("../index.html", import.meta.url), "utf8"),
+    readFile(new URL("../news.js", import.meta.url), "utf8"),
+    readFile(new URL("../rate-stories.js", import.meta.url), "utf8"),
+    readFile(new URL("../scripts/fetch-news.mjs", import.meta.url), "utf8"),
+    readFile(new URL("../scripts/verify-doom-index.mjs", import.meta.url), "utf8"),
+  ]);
+  const config = JSON.parse(configText);
+
+  assert.equal(config.doomIndex.version, "1.2.2");
+  assert.equal(config.doomIndex.shadow.version, "1.2.4");
+  assert.equal(config.doomIndex.shadow.formulaVersion, "1.2.4-offline.1");
+  assert.match(indexHtml, /data-model-version>1\.2\.4</);
+  assert.match(newsScript, /doomIndexV124Shadow/);
+  assert.match(calibrationScript, /doomIndexV124Shadow/);
+  assert.match(fetchScript, /calculateDoomIndexV124/);
+  assert.match(verificationScript, /calculateDoomIndexV124FromFactors/);
+  assert.doesNotMatch(newsScript, /doomIndexV123Shadow/);
+  assert.doesNotMatch(calibrationScript, /doomIndexV123Shadow/);
+  assert.doesNotMatch(fetchScript, /doomIndexV123Shadow/);
+  assert.doesNotMatch(verificationScript, /doomIndexV123Shadow/);
+});
 
 test("article text decodes numeric, named, and double-encoded entities", () => {
   assert.equal(
