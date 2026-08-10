@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "benchmarkVersion": "calibration-benchmark.v1",
-  "asOf": "2026-08-10T20:09:57.751Z",
+  "asOf": "2026-08-10T21:11:56.689Z",
   "calibrationMethod": {
     "firstJudgment": "title-and-feed-summary",
     "secondJudgment": "full-article-confirmation-or-revision",
@@ -79,6 +79,12 @@
       "exportedAt": "2026-08-10T20:09:57.751Z",
       "rated": 105,
       "skipped": 7
+    },
+    {
+      "fingerprint": "68a06185a7ad5dbebacebcbe00732af34816b1c7951b25c9c6851805e1032976",
+      "exportedAt": "2026-08-10T21:11:56.689Z",
+      "rated": 113,
+      "skipped": 7
     }
   ],
   "deduplication": {
@@ -88,11 +94,11 @@
     "eventCoverageCollapsed": false
   },
   "totals": {
-    "sourceExports": 4,
-    "rawRatedRecords": 258,
-    "storyRecords": 105,
-    "benchmarkRecords": 104,
-    "snapshotDuplicatesRemoved": 153,
+    "sourceExports": 5,
+    "rawRatedRecords": 371,
+    "storyRecords": 113,
+    "benchmarkRecords": 112,
+    "snapshotDuplicatesRemoved": 258,
     "exactTitleDuplicatesRemoved": 1,
     "titleRatingConflicts": 0
   },
@@ -406,6 +412,68 @@
       },
       "contextAdjustment": 0,
       "completedAt": "2026-08-09T18:18:45.751Z"
+    },
+    {
+      "benchmarkId": "e68826c4130bbd9de177",
+      "aliases": [
+        {
+          "storyId": "8d2b1b80f2b60b18a662",
+          "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
+          "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+          "source": "MIT News AI",
+          "published": "2026-08-03T19:50:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "8d2b1b80f2b60b18a662",
+        "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
+        "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+        "source": "MIT News AI",
+        "published": "2026-08-03T19:50:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra. Leadership Faculty Alumni/ae Statistics Brain and cognitive sciences Machine learning Artificial intelligence Computer science and technology Electrical engineering and computer science (EECS) IDSS Laboratory for Information and Decision Systems (LIDS) School of Engineering School of Science MIT Schwarzman College of Computing",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
+        "summary": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center. An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra. Leadership Faculty Alumni/ae Statistics Brain and cognitive sciences Machine learning Artificial intelligence Computer science and technology Electrical engineering and computer science (EECS) IDSS Laboratory for Information and Decision Systems (LIDS) School of Engineering School of Science MIT Schwarzman College of Computing",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 4,
+        "confidence": 3,
+        "reasoning": "New faculty at MIT",
+        "ratedAt": "2026-08-10T21:08:24.466Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.42
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 11.32
+        }
+      },
+      "startedAt": "2026-08-10T21:08:24.466Z",
+      "updatedAt": "2026-08-10T21:09:19.513Z",
+      "articleRating": {
+        "score": 4,
+        "confidence": 3,
+        "reasoning": "Marketing piece on new director's academic accomplishments",
+        "ratedAt": "2026-08-10T21:09:19.513Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T21:09:19.513Z"
     },
     {
       "benchmarkId": "e00eef3cfa57ca96b1e7",
@@ -2324,6 +2392,68 @@
       }
     },
     {
+      "benchmarkId": "be37cfb35931a2305fea",
+      "aliases": [
+        {
+          "storyId": "3f98d7032462ba7b9cb7",
+          "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+          "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+          "source": "TechCrunch AI",
+          "published": "2026-08-09T15:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "3f98d7032462ba7b9cb7",
+        "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+        "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+        "source": "TechCrunch AI",
+        "published": "2026-08-09T15:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader. AI Government & Policy Media & Entertainment AI policy AI regulation Elon Musk Equity podcast Jill Lepore sam altman",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+        "summary": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy. On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader. AI Government & Policy Media & Entertainment AI policy AI regulation Elon Musk Equity podcast Jill Lepore sam altman",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 18,
+        "confidence": 3,
+        "reasoning": "Historian complains about tech industry",
+        "ratedAt": "2026-08-10T21:06:01.186Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.42
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 11.32
+        }
+      },
+      "startedAt": "2026-08-10T21:06:01.186Z",
+      "updatedAt": "2026-08-10T21:07:46.581Z",
+      "articleRating": {
+        "score": 18,
+        "confidence": 3,
+        "reasoning": "Corporations increasingly taking on functions of the state",
+        "ratedAt": "2026-08-10T21:07:46.581Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T21:07:46.581Z"
+    },
+    {
       "benchmarkId": "618fadc5327a9d5edd48",
       "aliases": [
         {
@@ -2634,6 +2764,68 @@
       "completedAt": "2026-08-10T19:53:18.648Z"
     },
     {
+      "benchmarkId": "17387219a403ff05b313",
+      "aliases": [
+        {
+          "storyId": "09a4a775f909d6528ee7",
+          "title": "'I feel like I dug my own grave': The workers caught in the AI transition",
+          "url": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "published": "2026-08-04T22:10:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "09a4a775f909d6528ee7",
+        "title": "'I feel like I dug my own grave': The workers caught in the AI transition",
+        "url": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News AI",
+        "published": "2026-08-04T22:10:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "AI is reshaping the Philippines' outsourcing industry, raising questions over the future of the industry.",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "'I feel like I dug my own grave': The workers caught in the AI transition",
+        "summary": "'I feel like I dug my own grave': The workers caught in the AI transition. AI is reshaping the Philippines' outsourcing industry, raising questions over the future of the industry.",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 30,
+        "confidence": 3,
+        "reasoning": "AI assistants and chatbots have had a negative impact on Philippine workers outsourced work from the US and Europe",
+        "ratedAt": "2026-08-10T20:59:26.399Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.55
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 7.55
+        }
+      },
+      "startedAt": "2026-08-10T20:59:26.399Z",
+      "updatedAt": "2026-08-10T21:03:00.376Z",
+      "articleRating": {
+        "score": 30,
+        "confidence": 3,
+        "reasoning": "Workers being tasked to train the AI to replace themselves at work. Outsourcing industry vulnerable to the impact of AI.",
+        "ratedAt": "2026-08-10T21:03:00.376Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T21:03:00.376Z"
+    },
+    {
       "benchmarkId": "f8d338b89c555a71aac2",
       "aliases": [
         {
@@ -2942,6 +3134,130 @@
         "coverageSources": 1,
         "provenance": "production"
       }
+    },
+    {
+      "benchmarkId": "7830079dc71fc9d9039e",
+      "aliases": [
+        {
+          "storyId": "2f6e8f891c0a8aeb6b5f",
+          "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+          "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+          "source": "VentureBeat AI",
+          "published": "2026-01-16T14:01:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "2f6e8f891c0a8aeb6b5f",
+        "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+        "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+        "source": "VentureBeat AI",
+        "published": "2026-01-16T14:01:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like gibberish: five strings of random numbers. The numbers were actually AI tokens. Decoded, they led to a coding challenge: build an algorithm to act as a digital bouncer at Berghain, the Berlin nightclub famous for rejecting nearly everyone at the door. Within days, thousands attempted the puzzle. 430 cracked it. Some got hired. The winner flew to Berlin, all expenses paid. That unconventional approach has now attracted $69 million in Series B funding, led by Ribbit Capital with participation from Evantic and existing investors Sequoia Capital, Conviction, and Pear VC. The round values Listen Labs at $500 million and brings its total capital to $100 million. In nine months since launch, the company has grown annualized revenue by 15x to eight figures and conducted over one million AI-powered interviews. \"When you obsess over customers, everything else follows,\" Wahlforss said in an interview with VentureBeat. \"Teams that use Listen bring the customer into every decision, from marketing to product, and when the customer is delighted, everyone is.\" Why traditional market research is broken, and what Listen Labs is building to fix it Listen's AI researcher finds participants, conducts in-depth interviews, and delivers actionable insights in hours, not weeks. The platform replaces the traditional choice between quantitative surveys — which provide statistical precision but miss nuance—and qualitative interviews, which deliver depth but cannot scale. Wahlforss explained the limitation of existing approaches: \"Essentially surveys give you false precision because people end up answering the same question... You can't get the outliers. People are actually not honest on surveys.\" The alternative, one-on-one human interviews, \"gives you a lot of depth. You can ask follow up questions. You can kind of double check if they actually know what they're talking about. And the problem is you can't scale that.\" The platform works in four steps: users create a study with AI assistance, Listen recruits participants from its global network of 30 million people, an AI moderator conducts in-depth interviews with follow-up questions, and results are packaged into executive-ready reports including key themes, highlight reels, and slide decks. What distinguishes Listen's approach is its use of open-ended video conversations rather than multiple-choice forms. \"In a survey, you can kind of guess what you should answer, and you have four options,\" Wahlforss said. \"Oh, they probably want me to buy high income. Let me click on that button versus an open ended response. It just generates much more honesty.\" The dirty secret of the $140 billion market research industry: rampant fraud Listen finds and qualifies the right participants in its global network of 30 million people. But building that panel required confronting what Wahlforss called \"one of the most shocking things that we've learned when we entered this industry\"—rampant fraud. \"Essentially, there's a financial transaction involved, which means there will be bad players,\" he explained. \"We actually had some of the largest companies, some of them have billions in revenue, send us people who claim to be kind of enterprise buyers to our platform and our system immediately detected, like, fraud, fraud, fraud, fraud, fraud.\" The company built what it calls a \"quality guard\" that cross-references LinkedIn profiles with video responses to verify identity, checks consistency across how participants answer questions, and flags suspicious patterns. The result, according to Wahlforss: \"People talk three times more. They're much more honest when they talk about sensitive topics like politics and mental health.\" Emerit",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+        "summary": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews. Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like gibberish: five strings of random numbers. The numbers were actually AI tokens. Decoded, they led to a coding challenge: build an algorithm to act as a digital bouncer at Berghain, the Berlin nightclub famous for rejecting nearly everyone at the door. Within days, thousands attempted the puzzle. 430 cracked it. Some got hired. The winner flew to Berlin, all expenses paid. That unconventional approach has now attracted $69 million in Series B funding, led by Ribbit Capital with participation from Evantic and existing investors Sequoia Capital, Conviction, and Pear VC. The round values Listen Labs at $500 million and brings its total capital to $100 million. In nine months since launch, the company has grown annualized revenue by 15x to eight figures and conducted over one million AI-powered interviews. \"When you obsess over customers, everything else follows,\" Wahlforss said in an interview with VentureBeat. \"Teams that use Listen bring the customer into every decision, from marketing to product, and when the customer is delighted, everyone is.\" Why traditional market research is broken, and what Listen Labs is building to fix it Listen's AI researcher finds participants, conducts in-depth interviews, and delivers actionable insights in hours, not weeks. The platform replaces the traditional choice between quantitative surveys — which provide statistical precision but miss nuance—and qualitative interviews, which deliver depth but cannot scale. Wahlforss explained the limitation of existing approaches: \"Essentially surveys give you false precision because people end up answering the same question... You can't get the outliers. People are actually not honest on surveys.\" The alternative, one-on-one human interviews, \"gives you a lot of depth. You can ask follow up questions. You can kind of double check if they actually know what they're talking about. And the problem is you can't scale that.\" The platform works in four steps: users create a study with AI assistance, Listen recruits participants from its global network of 30 million people, an AI moderator conducts in-depth interviews with follow-up questions, and results are packaged into executive-ready reports including key themes, highlight reels, and slide decks. What distinguishes Listen's approach is its use of open-ended video conversations rather than multiple-choice forms. \"In a survey, you can kind of guess what you should answer, and you have four options,\" Wahlforss said. \"Oh, they probably want me to buy high income. Let me click on that button versus an open ended response. It just generates much more honesty.\" The dirty secret of the $140 billion market research industry: rampant fraud Listen finds and qualifies the right participants in its global network of 30 million people. But building that panel required confronting what Wahlforss called \"one of the most shocking things that we've learned when we entered this industry\"—rampant fraud. \"Essentially, there's a financial transaction involved, which means there will be bad players,\" he explained. \"We actually had some of the largest companies, some of them have billions in revenue, send us people who claim to be kind of enterprise buyers to our platform and our system immediately detected, like, fraud, fraud, fraud, fraud, fraud.\" The company built what it calls a \"quality guard\" that cross-references LinkedIn profiles with video responses to verify identity, checks consistency across how participants answer questions, and flags suspicious patterns. The result, according to Wahlforss: \"People talk three times more. They're much more honest when they talk about sensitive topics like politics and mental health.\" Emerit",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 5,
+        "confidence": 3,
+        "reasoning": "AI company funding announcement",
+        "ratedAt": "2026-08-10T21:03:52.865Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.49
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 7.49
+        }
+      },
+      "startedAt": "2026-08-10T21:03:52.865Z",
+      "updatedAt": "2026-08-10T21:04:30.406Z",
+      "articleRating": {
+        "score": 5,
+        "confidence": 3,
+        "reasoning": "AI company billboard goes viral and raise funding from it",
+        "ratedAt": "2026-08-10T21:04:30.406Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T21:04:30.406Z"
+    },
+    {
+      "benchmarkId": "771a144d692c46203207",
+      "aliases": [
+        {
+          "storyId": "00a633f8dc1c717f5b03",
+          "title": "Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law",
+          "url": "https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law",
+          "source": "The Markup AI",
+          "published": "2026-01-30T17:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "00a633f8dc1c717f5b03",
+        "title": "Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law",
+        "url": "https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law",
+        "source": "The Markup AI",
+        "published": "2026-01-30T17:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "New York mayor says terminating the ‘unusable’ bot will help close a budget gap",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law",
+        "summary": "Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law. New York mayor says terminating the ‘unusable’ bot will help close a budget gap",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 34,
+        "confidence": 3,
+        "reasoning": "Chatbot tells businesses to break the law",
+        "ratedAt": "2026-08-10T20:46:11.479Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.72
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 7.72
+        }
+      },
+      "startedAt": "2026-08-10T20:46:11.479Z",
+      "updatedAt": "2026-08-10T20:50:04.075Z",
+      "articleRating": {
+        "score": 34,
+        "confidence": 3,
+        "reasoning": "Bot confidently provided inaccurate and potentially harmful information to visitors",
+        "ratedAt": "2026-08-10T20:50:04.075Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T20:50:04.075Z"
     },
     {
       "benchmarkId": "3355049180e70439d0ac",
@@ -4922,6 +5238,68 @@
       "completedAt": "2026-08-10T09:07:40.169Z"
     },
     {
+      "benchmarkId": "dfb5dbead41bbf948486",
+      "aliases": [
+        {
+          "storyId": "985f27455e446170b0bc",
+          "title": "Solving the solvent problem",
+          "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
+          "source": "MIT News AI",
+          "published": "2026-08-04T18:50:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "985f27455e446170b0bc",
+        "title": "Solving the solvent problem",
+        "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
+        "source": "MIT News AI",
+        "published": "2026-08-04T18:50:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option. Research Batteries Energy storage Renewable energy Electric vehicles Transportation Lithium-ion Computer modeling Artificial intelligence Nuclear science and engineering Materials science and engineering DMSE School of Engineering MIT.nano National Science Foundation (NSF)",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Solving the solvent problem",
+        "summary": "Solving the solvent problem. By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option. Research Batteries Energy storage Renewable energy Electric vehicles Transportation Lithium-ion Computer modeling Artificial intelligence Nuclear science and engineering Materials science and engineering DMSE School of Engineering MIT.nano National Science Foundation (NSF)",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 5,
+        "confidence": 3,
+        "reasoning": "Scientific research",
+        "ratedAt": "2026-08-10T21:10:05.924Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.42
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 11.32
+        }
+      },
+      "startedAt": "2026-08-10T21:10:05.924Z",
+      "updatedAt": "2026-08-10T21:11:42.240Z",
+      "articleRating": {
+        "score": 5,
+        "confidence": 3,
+        "reasoning": "Paper on material science research of battery",
+        "ratedAt": "2026-08-10T21:11:42.240Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T21:11:42.240Z"
+    },
+    {
       "benchmarkId": "ea3af7e9c9ee9d931a25",
       "aliases": [
         {
@@ -6275,6 +6653,68 @@
       "completedAt": "2026-08-10T08:48:23.891Z"
     },
     {
+      "benchmarkId": "125a80c80a07a87f2fdd",
+      "aliases": [
+        {
+          "storyId": "42a90289b786a844c82a",
+          "title": "Why Merger Law Misses Frontier AI's Ownership Structure",
+          "url": "https://techpolicy.press/why-merger-law-misses-frontier-ais-ownership-structure",
+          "source": "Tech Policy Press AI",
+          "published": "2026-08-06T13:38:40.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "42a90289b786a844c82a",
+        "title": "Why Merger Law Misses Frontier AI's Ownership Structure",
+        "url": "https://techpolicy.press/why-merger-law-misses-frontier-ais-ownership-structure",
+        "source": "Tech Policy Press AI",
+        "published": "2026-08-06T13:38:40.000Z"
+      },
+      "feedEvidence": {
+        "summary": "",
+        "summaryAvailable": false
+      },
+      "scoringInput": {
+        "title": "Why Merger Law Misses Frontier AI's Ownership Structure",
+        "summary": "Why Merger Law Misses Frontier AI's Ownership Structure.",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 14,
+        "confidence": 2,
+        "reasoning": "Negatively loaded headline, unclear as to what the problem is",
+        "ratedAt": "2026-08-10T20:36:43.711Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.72
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 7.72
+        }
+      },
+      "startedAt": "2026-08-10T20:36:43.711Z",
+      "updatedAt": "2026-08-10T20:40:50.739Z",
+      "articleRating": {
+        "score": 12,
+        "confidence": 2,
+        "reasoning": "Business jargan heavy article about competition between AI companies",
+        "ratedAt": "2026-08-10T20:40:50.739Z"
+      },
+      "contextAdjustment": -2,
+      "completedAt": "2026-08-10T20:40:50.739Z"
+    },
+    {
       "benchmarkId": "d3c584aa3aff173612c8",
       "aliases": [
         {
@@ -6397,6 +6837,68 @@
         "coverageSources": 1,
         "provenance": "production"
       }
+    },
+    {
+      "benchmarkId": "46d9d95fcf9d92552e9c",
+      "aliases": [
+        {
+          "storyId": "a275b40dfcb02fa3fb79",
+          "title": "Will AI Sycophancy Contaminate Law Enforcement?",
+          "url": "https://techpolicy.press/will-ai-sycophancy-contaminate-law-enforcement",
+          "source": "Tech Policy Press AI",
+          "published": "2026-08-05T15:32:45.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "a275b40dfcb02fa3fb79",
+        "title": "Will AI Sycophancy Contaminate Law Enforcement?",
+        "url": "https://techpolicy.press/will-ai-sycophancy-contaminate-law-enforcement",
+        "source": "Tech Policy Press AI",
+        "published": "2026-08-05T15:32:45.000Z"
+      },
+      "feedEvidence": {
+        "summary": "",
+        "summaryAvailable": false
+      },
+      "scoringInput": {
+        "title": "Will AI Sycophancy Contaminate Law Enforcement?",
+        "summary": "Will AI Sycophancy Contaminate Law Enforcement?.",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 25,
+        "confidence": 3,
+        "reasoning": "Negatively loaded headline. AI obsession taking over every industry",
+        "ratedAt": "2026-08-10T20:55:04.928Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.72
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.3",
+          "formulaVersion": "1.2.3-shadow.1",
+          "score": 11.32
+        }
+      },
+      "startedAt": "2026-08-10T20:55:04.928Z",
+      "updatedAt": "2026-08-10T20:57:45.364Z",
+      "articleRating": {
+        "score": 25,
+        "confidence": 3,
+        "reasoning": "AI being incorporated into a wide variety of law enforcement tasks. Making assumptions about how AI could automate police processes and skew how the juctice system works.",
+        "ratedAt": "2026-08-10T20:57:45.364Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-10T20:57:45.364Z"
     },
     {
       "benchmarkId": "387da6609e2f15c30867",
