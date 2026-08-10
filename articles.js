@@ -53,7 +53,7 @@ window.DAILY_DOOMSAYER_SITE = {
   "intradayDoom": {
     "date": "2026-08-10",
     "formulaVersion": "1.2.2-shadow.1",
-    "observedAt": "2026-08-10T10:00:00.000Z",
+    "observedAt": "2026-08-10T12:00:00.000Z",
     "current": 43.55,
     "currentStory": {
       "storyId": "8c87b9bfdab1e6f99859",
@@ -74,7 +74,7 @@ window.DAILY_DOOMSAYER_SITE = {
       "title": "OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
       "url": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/"
     },
-    "observations": 3,
+    "observations": 4,
     "definition": "Highest public Doom Index story observed during each hourly update."
   },
   "sources": [
@@ -173,14 +173,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0287,
+      "freshness": 0.0276,
       "feedPosition": 1,
       "novelty": 0.9078
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2701,
+    "score": 0.2699,
     "doomIndex": 43.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -246,97 +246,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "featured": true,
     "storyId": "8c87b9bfdab1e6f99859",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "A powerful AI agent created fake online identities in an effort to trick a human into giving it access to a popular online development platform – and sabotage it with malicious code.",
     "doomIndexInputSummary": "UK experts sound alarm after AI tries to deceive human. A powerful AI agent created fake online identities in an effort to trick a human into giving it access to a popular online development platform – and sabotage it with malicious code."
-  },
-  {
-    "group": "ai",
-    "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-    "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-05T20:47:11.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285051730-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0473,
-      "feedPosition": 0,
-      "novelty": 0.7555
-    },
-    "rankingReasons": [
-      "urgency or risk",
-      "conflict",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2067,
-    "doomIndex": 39.53,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "confirmed",
-    "doomIndexPolarity": "adverse",
-    "doomIndexFactors": {
-      "realizedHarm": 0.6667,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 1,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.55,
-      "actuality": 1,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "realized harm",
-      "unauthorized behavior or loss of control",
-      "confirmed event status",
-      "compound confirmed-consequence escalation"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "903ce02a2d4f0ab446bd",
-    "doomIndexInputFingerprint": "bdcd6c20cc669579fde5",
-    "doomIndexV123Shadow": 39.53,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "confirmed",
-    "doomIndexV123Polarity": "adverse",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0.6667,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 1,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.55,
-      "actuality": 1,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "realized harm",
-      "unauthorized behavior or loss of control",
-      "confirmed event status",
-      "compound confirmed-consequence escalation"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "903ce02a2d4f0ab446bd",
-    "doomIndexV123InputFingerprint": "394fe837dcb0ddf2b08b",
-    "storyId": "36afd164b5931dcbff9b",
-    "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests. AI Security AI agents Anthropic Artificial Intelligence cybersecurity frontier ai GPT-5.6 Sol Mythos 5 openai UK AI Security Institute",
-    "doomIndexInputSummary": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project. Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests. AI Security AI agents Anthropic Artificial Intelligence cybersecurity frontier ai GPT-5.6 Sol Mythos 5 openai UK AI Security Institute"
   },
   {
     "group": "ai",
@@ -350,14 +262,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.0345,
+      "freshness": 0.0332,
       "feedPosition": 0.3333,
-      "novelty": 0.6369
+      "novelty": 0.6961
     },
     "rankingReasons": [
-      "urgency or risk"
+      "urgency or risk",
+      "unusual language in the current story batch"
     ],
-    "score": 0.2012,
+    "score": 0.2069,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -420,7 +333,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a4b194b84deb1385c846",
     "storyId": "0a3c0d9f2ec55a3e2d14",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The UK's AI Safety Institute said recent behaviour from Anthropic and OpenAI models was malicious and unprecedented.",
     "doomIndexInputSummary": "Anthropic AI used fake profiles to target people in hack then hid the evidence. The UK's AI Safety Institute said recent behaviour from Anthropic and OpenAI models was malicious and unprecedented."
   },
@@ -436,12 +349,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.1692,
+      "freshness": 0.1629,
       "feedPosition": 0.5556,
       "novelty": 0.5902
     },
     "rankingReasons": [],
-    "score": 0.215,
+    "score": 0.214,
     "doomIndex": 30.4,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -504,7 +417,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "dd456fd2fd67a5ce560f",
     "storyId": "557e0bfc0113e2a72215",
     "firstSeen": "2026-08-07T19:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue and breached other organizations. Recent internal evaluations of an OpenAI model called Astra indicate that it offers \"significant advancements in agentic coding and cybersecurity,\" according to the company. \"These results, in addition to expert assessments, have led us to conclude last n … Read the full story at The Verge. OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue […]",
     "doomIndexInputSummary": "OpenAI puts the brakes on a new model because it’s supposedly too powerful. OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue and breached other organizations. Recent internal evaluations of an OpenAI model called Astra indicate that it offers \"significant advancements in agentic coding and cybersecurity,\" according to the company. \"These results, in addition to expert assessments, have led us to conclude last n … Read the full story at The Verge. OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue […]"
   },
@@ -522,14 +435,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0007,
       "feedPosition": 0.4444,
-      "novelty": 0.8666
+      "novelty": 0.8529
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2346,
+    "score": 0.2332,
     "doomIndex": 29.27,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -592,7 +505,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4f4680fe536639e244ea",
     "storyId": "32c5457cb1c56b255a8f",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "How a company called Rosabella used AI content to market its supplements: \"If you’re trying to sell health products to a 50-year-old, well, make your avatar 50 years old.\" AI AI Slop",
     "doomIndexInputSummary": "Inside an AI TikTok Shop Slop Factory That Shills Supplements Recalled By the FDA. How a company called Rosabella used AI content to market its supplements: \"If you’re trying to sell health products to a 50-year-old, well, make your avatar 50 years old.\" AI AI Slop"
   },
@@ -608,14 +521,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.9282,
+      "freshness": 0.8932,
       "feedPosition": 0.8889,
       "novelty": 0.7859
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3841,
+    "score": 0.3789,
     "doomIndex": 26.41,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -681,7 +594,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2bce098160c79e3fe941",
     "storyId": "1d069b1fc66d18a784ee",
     "firstSeen": "2026-08-09T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "This blog is now closed Get our breaking news email, free app or daily news podcast Police say the remains found in a suitcase near Goulburn are not human. Supt Linda Bradbury with NSW police said: Some good news here that we don’t have a suspicious death of a human on our hands. … We are still undertaking more forensic work to identify what they are. But we can identify that they’re not human. But we’ve confirmed by other means that they are not. The undersupply of housing combined with population growth is expected to partially offset the impact of higher interest rates and recent federal government policy changes on the housing market. Continue reading... Australia news Transport Aukus Bob Carr Australian politics One Nation Australian education AI (artificial intelligence) Health",
     "doomIndexInputSummary": "SA premier announces royal commission into AI – as it happened. This blog is now closed Get our breaking news email, free app or daily news podcast Police say the remains found in a suitcase near Goulburn are not human. Supt Linda Bradbury with NSW police said: Some good news here that we don’t have a suspicious death of a human on our hands. … We are still undertaking more forensic work to identify what they are. But we can identify that they’re not human. But we’ve confirmed by other means that they are not. The undersupply of housing combined with population growth is expected to partially offset the impact of higher interest rates and recent federal government policy changes on the housing market. Continue reading... Australia news Transport Aukus Bob Carr Australian politics One Nation Australian education AI (artificial intelligence) Health"
   },
@@ -697,7 +610,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0126,
+      "freshness": 0.0121,
       "feedPosition": 0.4444,
       "novelty": 0.6788
     },
@@ -707,7 +620,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2396,
+    "score": 0.2395,
     "doomIndex": 23.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -772,7 +685,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f1bcde7ec813a3d87792",
     "storyId": "b3989dcfb48ba9b056fe",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Update: The Senate Commerce Committee voted to advance this bill on August 5, 2026. EFF continues to oppose the bill, which still needs approval from the full Senate. The Senate Commerce Committee is poised to consider the Youth AI Privacy Act, a bill that would require AI companies to create kids-only privacy rules and implement so-called “safe design features,” which would—like three other bills under consideration this week—require more data collection and make it harder for people to access lawful speech online. While the bill is narrower than some other proposed chatbot bills, it still has massive data security implications because it protects information for only certain users. This creates a problem we’ve cited many times before: if a bill requires that online services offer protections to minor users, the services will respond by imposing age gates to know which users should receive them. A better approach would be to offer the same privacy protections to all users. That way, we would avoid the services having to collect data on everyone to know a users’ age. This bill also contains a problematic and vague provision that expressly allows AI companies to collect a known minor’s personal data for the purpose of testing, identifying, and addressing \"harm to users”—without being clear on what exactly that means. Either way, services will need to collect even more information from young people, who are already targets of data theft and identity fraud. The Youth AI Privacy Act will give young people less privacy, not more. The Youth AI Privacy Act does include some positive privacy provisions around prohibiting the processing of personal information, like limiting what companies can do with people’s chat logs, including training, profiling, and disclosing them to other companies for training. But a general privacy bill must set these limits for everyone, not just minors. Mandating Design is Regulating Speech The bill also requires the use of “safe design features,” which would restrict how online services providers design their systems and would deny teenagers the ability to use features like push alerts and notifications. We have seen this same type of restriction, sometimes called “age appropriate design code” in several states, including in California, Texas, and Arkansas. Unfortunately, these restrictions run into constitutional problems. In fact, federal courts have largely blocked these laws from going into effect because they likely violate the First Amendment rights of all internet users and the online services they regulate. Specifically, these laws interfere with internet users’ First Amendment rights to either speak or access speech online, and they also violate the rights on online services to decide how they will present information on their sites. Similarly, the Supreme Court has repeatedly ruled that “minors are entitled to a significant measure of First Amendment protection.” This does not mean that parents or guardians can’t set their own rules for their families—they can and they should, based on the needs and circumstances of the individual teenagers. But it does mean that Congress cannot adopt a “one size fits all” regulation that sets a restrictive government default that affects the First Amendment rights of all internet users, including teenagers. Privacy Free Speech",
     "doomIndexInputSummary": "The Youth AI Privacy Act’s Privacy Paradox. Update: The Senate Commerce Committee voted to advance this bill on August 5, 2026. EFF continues to oppose the bill, which still needs approval from the full Senate. The Senate Commerce Committee is poised to consider the Youth AI Privacy Act, a bill that would require AI companies to create kids-only privacy rules and implement so-called “safe design features,” which would—like three other bills under consideration this week—require more data collection and make it harder for people to access lawful speech online. While the bill is narrower than some other proposed chatbot bills, it still has massive data security implications because it protects information for only certain users. This creates a problem we’ve cited many times before: if a bill requires that online services offer protections to minor users, the services will respond by imposing age gates to know which users should receive them. A better approach would be to offer the same privacy protections to all users. That way, we would avoid the services having to collect data on everyone to know a users’ age. This bill also contains a problematic and vague provision that expressly allows AI companies to collect a known minor’s personal data for the purpose of testing, identifying, and addressing \"harm to users”—without being clear on what exactly that means. Either way, services will need to collect even more information from young people, who are already targets of data theft and identity fraud. The Youth AI Privacy Act will give young people less privacy, not more. The Youth AI Privacy Act does include some positive privacy provisions around prohibiting the processing of personal information, like limiting what companies can do with people’s chat logs, including training, profiling, and disclosing them to other companies for training. But a general privacy bill must set these limits for everyone, not just minors. Mandating Design is Regulating Speech The bill also requires the use of “safe design features,” which would restrict how online services providers design their systems and would deny teenagers the ability to use features like push alerts and notifications. We have seen this same type of restriction, sometimes called “age appropriate design code” in several states, including in California, Texas, and Arkansas. Unfortunately, these restrictions run into constitutional problems. In fact, federal courts have largely blocked these laws from going into effect because they likely violate the First Amendment rights of all internet users and the online services they regulate. Specifically, these laws interfere with internet users’ First Amendment rights to either speak or access speech online, and they also violate the rights on online services to decide how they will present information on their sites. Similarly, the Supreme Court has repeatedly ruled that “minors are entitled to a significant measure of First Amendment protection.” This does not mean that parents or guardians can’t set their own rules for their families—they can and they should, based on the needs and circumstances of the individual teenagers. But it does mean that Congress cannot adopt a “one size fits all” regulation that sets a restrictive government default that affects the First Amendment rights of all internet users, including teenagers. Privacy Free Speech"
   },
@@ -788,9 +701,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0103,
+      "freshness": 0.0099,
       "feedPosition": 0.2222,
-      "novelty": 0.6808
+      "novelty": 0.6675
     },
     "rankingReasons": [
       "specific details",
@@ -798,7 +711,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.2953,
+    "score": 0.2939,
     "doomIndex": 22.05,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -857,7 +770,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7aeca01f54a8312aee31",
     "storyId": "5123d402833e11dbd813",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "What’s behind the Google AI shake-up. Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in turmoil? Is it about Demis Hassabis wanting something more interesting to work on than virtual assistants? Or is there something else entirely happening here? On this episode of The Vergecast, Nilay and David start by discussing the leadership shake-up at Google, the state of the AI race, and whether Google is actually set up to succeed here. They also t … Read the full story at The Verge. Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in […] Google's AI Governance Plan Draws the Boundaries of What Counts as Harm."
   },
@@ -873,7 +786,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0015,
+      "freshness": 0.0014,
       "feedPosition": 0.6667,
       "novelty": 0.7914
     },
@@ -947,7 +860,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "b706bd85dd47912b2df3",
     "storyId": "f333764b4be201d3f9ff",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "\"Tonight I typed just one sentence into Google Earth and put refugees near the Mexican border. Then I planted a nuclear plant in Iran. Then I put a fatal crash on a street in Amsterdam.\" AI",
     "doomIndexInputSummary": "Google Earth’s New AI Lets Anyone Fabricate Completely Bullshit Satellite Images. \"Tonight I typed just one sentence into Google Earth and put refugees near the Mexican border. Then I planted a nuclear plant in Iran. Then I put a fatal crash on a street in Amsterdam.\" AI"
   },
@@ -963,14 +876,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1604,
+      "freshness": 0.1544,
       "feedPosition": 0.4444,
-      "novelty": 0.3617
+      "novelty": 0.335
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.2868,
+    "score": 0.2832,
     "doomIndex": 20.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1029,7 +942,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e9119311388da106fceb",
     "storyId": "44c68453ba8734388d04",
     "firstSeen": "2026-08-07T17:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in turmoil? Is it about Demis Hassabis wanting something more interesting to work on than virtual assistants? Or is there something else entirely happening here? On this episode of The Vergecast, Nilay and David start by discussing the leadership shake-up at Google, the state of the AI race, and whether Google is actually set up to succeed here. They also t … Read the full story at The Verge. Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in […]",
     "doomIndexInputSummary": "What’s behind the Google AI shake-up. Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in turmoil? Is it about Demis Hassabis wanting something more interesting to work on than virtual assistants? Or is there something else entirely happening here? On this episode of The Vergecast, Nilay and David start by discussing the leadership shake-up at Google, the state of the AI race, and whether Google is actually set up to succeed here. They also t … Read the full story at The Verge. Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in […] Google's AI Governance Plan Draws the Boundaries of What Counts as Harm."
   },
@@ -1045,9 +958,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.462,
       "sourceAuthority": 0.5,
-      "freshness": 0.0136,
+      "freshness": 0.013,
       "feedPosition": 0.7778,
-      "novelty": 0.6241
+      "novelty": 0.5998
     },
     "rankingReasons": [
       "urgency or risk",
@@ -1056,7 +969,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3096,
+    "score": 0.3071,
     "doomIndex": 19.04,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1130,7 +1043,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7d14d29111b672dbdf58",
     "storyId": "23a292887ca5e4c75326",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Update: The Senate Commerce Committee voted to advance this bill on August 5, 2026. EFF continues to oppose the bill, which still needs approval from the full Senate. The Senate Commerce Committee is once again considering legislation that would dramatically expand age verification, and undermine privacy for everyone. Alongside the SCREEN Act, the CHATBOT Act, and the Youth AI Privacy Act, the Kids Online Safety Act (KOSA) would push companies to collect more information about their users while creating new incentives to restrict lawful speech. Take action Tell Congress: KOSA endangers the privacy of all KOSA Pushes Platforms Toward Age Verification The Senate version of KOSA imposes a “duty of care” on online services, including social media, to avoid exposing young people to certain material the law deems harmful. But those obligations only work if online services know which users are minors. That means more platforms will be pressured to implement age verification or age estimation systems. That’s not a bill that increases privacy—it’s one that creates new privacy problems. Whether companies verify ages by checking government IDs, performing facial analysis, checking your bank records, or collecting other personal information, all of these systems require the handing over of more sensitive data, simply to access lawful online speech and services. They also create new databases of personal information that can be breached, misused, or demanded by governments. Everyone deserves privacy online. Congress could push for a bill that protects privacy for all users, but that’s not what they’re doing here. Instead, KOSA and the other bills coming up for a vote this week push online services to adopt systems that require people to identify themselves before they can speak, read, or participate online. KOSA Still Creates Incentives to Censor Lawful Speech Some online content isn’t appropriate for minors. Families, schools, and communities all have important roles to play in helping children navigate the internet. But KOSA takes those decisions away from families and the young people who have a First Amendment right to speak and access information online. It instead empowers government officials to enforce how online services handle lawful speech. And by empowering elected attorneys general in states across the country to enforce KOSA, the bill means those elected officials, rather than your family, deciding what’s appropriate online content for teens. Even more likely, it will lead to limits on what minors and adults are able to see at all, as companies shut down potentially controversial forums in order to avoid legal action from government bureaucrats. The latest version of KOSA once again includes a broad \"duty of care\" requiring platforms to mitigate a wide range of alleged harms to minors. Whatever disclaimers and exceptions the bill includes, the practical effect is unchanged. When platforms face liability for content that someone later claims contributed to harms like anxiety, eating disorders, or substance use, the safest response is to remove lawful speech or shut down forums discussing those topics altogether. More worrisome, the potential liability KOSA creates may push online services to either remove speech well in advance of a young person seeing it, or block young people’s access so they never see it. That will likely include forums where people try to help each other, find community and recovery resources for the exact harms listed in the bill, like gambling and drug addiction. In trying to protect young people, KOSA may actually cut them off from valuable sources of support. We've explained these censorship risks in detail before, and they remain just as real in the latest version of the bill. Congress Should Reject KOSA Minors deserve meaningful privacy protections online—as do adults. But KOSA moves in the opposite direction by encouraging more age verification, as well as more legal pressure for platforms to m",
     "doomIndexInputSummary": "The Senate Should Reject KOSA's Privacy Risks. Update: The Senate Commerce Committee voted to advance this bill on August 5, 2026. EFF continues to oppose the bill, which still needs approval from the full Senate. The Senate Commerce Committee is once again considering legislation that would dramatically expand age verification, and undermine privacy for everyone. Alongside the SCREEN Act, the CHATBOT Act, and the Youth AI Privacy Act, the Kids Online Safety Act (KOSA) would push companies to collect more information about their users while creating new incentives to restrict lawful speech. Take action Tell Congress: KOSA endangers the privacy of all KOSA Pushes Platforms Toward Age Verification The Senate version of KOSA imposes a “duty of care” on online services, including social media, to avoid exposing young people to certain material the law deems harmful. But those obligations only work if online services know which users are minors. That means more platforms will be pressured to implement age verification or age estimation systems. That’s not a bill that increases privacy—it’s one that creates new privacy problems. Whether companies verify ages by checking government IDs, performing facial analysis, checking your bank records, or collecting other personal information, all of these systems require the handing over of more sensitive data, simply to access lawful online speech and services. They also create new databases of personal information that can be breached, misused, or demanded by governments. Everyone deserves privacy online. Congress could push for a bill that protects privacy for all users, but that’s not what they’re doing here. Instead, KOSA and the other bills coming up for a vote this week push online services to adopt systems that require people to identify themselves before they can speak, read, or participate online. KOSA Still Creates Incentives to Censor Lawful Speech Some online content isn’t appropriate for minors. Families, schools, and communities all have important roles to play in helping children navigate the internet. But KOSA takes those decisions away from families and the young people who have a First Amendment right to speak and access information online. It instead empowers government officials to enforce how online services handle lawful speech. And by empowering elected attorneys general in states across the country to enforce KOSA, the bill means those elected officials, rather than your family, deciding what’s appropriate online content for teens. Even more likely, it will lead to limits on what minors and adults are able to see at all, as companies shut down potentially controversial forums in order to avoid legal action from government bureaucrats. The latest version of KOSA once again includes a broad \"duty of care\" requiring platforms to mitigate a wide range of alleged harms to minors. Whatever disclaimers and exceptions the bill includes, the practical effect is unchanged. When platforms face liability for content that someone later claims contributed to harms like anxiety, eating disorders, or substance use, the safest response is to remove lawful speech or shut down forums discussing those topics altogether. More worrisome, the potential liability KOSA creates may push online services to either remove speech well in advance of a young person seeing it, or block young people’s access so they never see it. That will likely include forums where people try to help each other, find community and recovery resources for the exact harms listed in the bill, like gambling and drug addiction. In trying to protect young people, KOSA may actually cut them off from valuable sources of support. We've explained these censorship risks in detail before, and they remain just as real in the latest version of the bill. Congress Should Reject KOSA Minors deserve meaningful privacy protections online—as do adults. But KOSA moves in the opposite direction by encouraging more age verification, as well as more legal pressure for platforms to m"
   },
@@ -1222,7 +1135,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1132436cae50bc404730",
     "storyId": "15370392c6eefb0825a2",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Police departments across the country are lining up to launch drone-as-first-responder (DFR) programs, and hundreds have cleared a necessary hurdle toward making deployment a reality, expanding aerial surveillance and data collection even in areas patrol officers typically can't reach. As of February 2026, over 1,000 public safety agencies—including police, fire, and other emergency management agencies—had received Federal Aviation Administration (FAA) waivers needed to automate drone operations and launch a DFR program, according to a recent Freedom of Information Act (FOIA) release listing agencies that have obtained Part 91 waivers since the FAA streamlined and sped up the process in April 2025. The changes led to a massive increase in the number of waivers issued. Only 976 DFR waivers had been granted since the first DFR program launched in 2018 through April 2025, according to an FAA representative. The agency issued more waivers between April 2025 and February 2026 than it had in the previous seven years combined. A map illustrating the locations of police departments and other public safety agencies that have received Part 91 waivers, making it possible for them to launch drone-as-first-responder programs. (This map image links to Google Maps, which is governed by Google's privacy policy) The new FAA process for waivers and the rush of police departments to obtain them signifies a shift in law enforcement's use of drones: from human-operated aerial surveillance to AI-based autonomous drone use. Typically, a drone operator is only permitted to fly in areas that can still be seen by the pilot, and that drone pilot needs to be certified under FAA Part 107. To fly drones “Beyond Visual Line of Sight” (BVLOS) requires additional approval from the FAA, as do flights above 200 feet, due to the risk of colliding with planes and other aircrafts. Without such approval, an officer could not pilot a drone from a desk inside a building and fly it to a call across the city because they could not possibly have line of sight on the drone. FAA rules for police drones also required a human operator to manually fly the device to a scene, but DFR technology has become a more common and more automated police technology. DFR programs increasingly rely on artificial intelligence to automate drone flights from launchpads placed around the city, often atop municipal buildings, and make it possible for one drone operator to “fly” multiple devices at once. Though not every police department that has received BVLOS has launched a DFR program yet, by going through this process, every department on this list has signified it has strong enough interest to clear the necessary regulatory hurdles. Police departments and the companies that sell DFR equipment claim that these drones make it easier for officers to establish “situational awareness” of a scene before they arrive. Early drone adoption centered on similar claims, particularly related to high-risk situations like vehicular accidents or incidents involving an armed suspect. However, these kinds of situations may make up only a small portion of deployments, which often occur in response to low-risk calls for service related to unhoused people, mental health concerns, and loud music, as a Government Technology analysis of the system in Chula Vista, California, found. DFR programs have become important sources of revenue for companies like Flock Safety and Axon, the latter of which reported that its DFR platform has become one of the company’s fastest growing sectors. Axon is also known for products like the TASER and the Fusus camera system that lets police integrate viewing of public and private cameras. Footage from drone flights is streamed back to a police office, and it can be stored, shared, and analyzed like other video. Turning drone footage into fodder for automated license plate reader (ALPR) networks, for example, requires very little additional software, and Flock Safety was q",
     "doomIndexInputSummary": "Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country. Police departments across the country are lining up to launch drone-as-first-responder (DFR) programs, and hundreds have cleared a necessary hurdle toward making deployment a reality, expanding aerial surveillance and data collection even in areas patrol officers typically can't reach. As of February 2026, over 1,000 public safety agencies—including police, fire, and other emergency management agencies—had received Federal Aviation Administration (FAA) waivers needed to automate drone operations and launch a DFR program, according to a recent Freedom of Information Act (FOIA) release listing agencies that have obtained Part 91 waivers since the FAA streamlined and sped up the process in April 2025. The changes led to a massive increase in the number of waivers issued. Only 976 DFR waivers had been granted since the first DFR program launched in 2018 through April 2025, according to an FAA representative. The agency issued more waivers between April 2025 and February 2026 than it had in the previous seven years combined. A map illustrating the locations of police departments and other public safety agencies that have received Part 91 waivers, making it possible for them to launch drone-as-first-responder programs. (This map image links to Google Maps, which is governed by Google's privacy policy) The new FAA process for waivers and the rush of police departments to obtain them signifies a shift in law enforcement's use of drones: from human-operated aerial surveillance to AI-based autonomous drone use. Typically, a drone operator is only permitted to fly in areas that can still be seen by the pilot, and that drone pilot needs to be certified under FAA Part 107. To fly drones “Beyond Visual Line of Sight” (BVLOS) requires additional approval from the FAA, as do flights above 200 feet, due to the risk of colliding with planes and other aircrafts. Without such approval, an officer could not pilot a drone from a desk inside a building and fly it to a call across the city because they could not possibly have line of sight on the drone. FAA rules for police drones also required a human operator to manually fly the device to a scene, but DFR technology has become a more common and more automated police technology. DFR programs increasingly rely on artificial intelligence to automate drone flights from launchpads placed around the city, often atop municipal buildings, and make it possible for one drone operator to “fly” multiple devices at once. Though not every police department that has received BVLOS has launched a DFR program yet, by going through this process, every department on this list has signified it has strong enough interest to clear the necessary regulatory hurdles. Police departments and the companies that sell DFR equipment claim that these drones make it easier for officers to establish “situational awareness” of a scene before they arrive. Early drone adoption centered on similar claims, particularly related to high-risk situations like vehicular accidents or incidents involving an armed suspect. However, these kinds of situations may make up only a small portion of deployments, which often occur in response to low-risk calls for service related to unhoused people, mental health concerns, and loud music, as a Government Technology analysis of the system in Chula Vista, California, found. DFR programs have become important sources of revenue for companies like Flock Safety and Axon, the latter of which reported that its DFR platform has become one of the company’s fastest growing sectors. Axon is also known for products like the TASER and the Fusus camera system that lets police integrate viewing of public and private cameras. Footage from drone flights is streamed back to a police office, and it can be stored, shared, and analyzed like other video. Turning drone footage into fodder for automated license plate reader (ALPR) networks, for example, requires very little additional software, and Flock Safety was q"
   },
@@ -1238,7 +1151,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.5035,
       "sourceAuthority": 0.5,
-      "freshness": 0.8556,
+      "freshness": 0.8233,
       "feedPosition": 0.6667,
       "novelty": 0.9412
     },
@@ -1249,7 +1162,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.4648,
+    "score": 0.46,
     "doomIndex": 18.21,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1308,7 +1221,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4f3ac7912abed9c6b87e",
     "storyId": "b0a8e6165948654a5df1",
     "firstSeen": "2026-08-10T06:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Big companies describe being under constant threat but only half have a plan in place to respond to an attack Nearly a third of British manufacturers have been hit by a cyber-attack on them or a company in their supply chain, according to a survey that highlighted the growing hacking risk to companies. The findings come almost a year after Britain’s largest automotive employer, JLR, was hit by an attack that forced it to halt production for weeks. Continue reading... Cybercrime Manufacturing sector Hacking Business UK news Technology AI (artificial intelligence) Jaguar Land Rover Computing",
     "doomIndexInputSummary": "UK manufacturers face rising hacking risk as survey shows 30% were hit last year. Big companies describe being under constant threat but only half have a plan in place to respond to an attack Nearly a third of British manufacturers have been hit by a cyber-attack on them or a company in their supply chain, according to a survey that highlighted the growing hacking risk to companies. The findings come almost a year after Britain’s largest automotive employer, JLR, was hit by an attack that forced it to halt production for weeks. Continue reading... Cybercrime Manufacturing sector Hacking Business UK news Technology AI (artificial intelligence) Jaguar Land Rover Computing"
   },
@@ -1326,14 +1239,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.3333,
-      "novelty": 0.6742
+      "novelty": 0.658
     },
     "rankingReasons": [
       "conflict",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2151,
+    "score": 0.2134,
     "doomIndex": 17.48,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1396,7 +1309,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "fd6b2724752d78bb53fc",
     "storyId": "0d32aa6b6a8fd310bb9e",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf of employees. The new Slackbot, now generally available to Business+ and Enterprise+ customers, is Salesforce's most aggressive move yet to position Slack at the center of the emerging \"agentic AI\" movement — where software agents work alongside humans to complete complex tasks. The launch comes as Salesforce attempts to convince investors that artificial intelligence will bolster its products rather than render them obsolete. \"Slackbot isn't just another copilot or AI assistant,\" said Parker Harris, Salesforce co-founder and Slack's chief technology officer, in an exclusive interview with Salesforce. \"It's the front door to the agentic enterprise, powered by Salesforce.\" From tricycle to Porsche: Salesforce rebuilt Slackbot from the ground up Harris was blunt about what distinguishes the new Slackbot from its predecessor: \"The old Slackbot was, you know, a little tricycle, and the new Slackbot is like, you know, a Porsche.\" The original Slackbot, which has existed since Slack's early days, performed basic algorithmic tasks — reminding users to add colleagues to documents, suggesting channel archives, and delivering simple notifications. The new version runs on an entirely different architecture built around a large language model and sophisticated search capabilities that can access Salesforce records, Google Drive files, calendar data, and years of Slack conversations. \"It's two different things,\" Harris explained. \"The old Slackbot was algorithmic and fairly simple. The new Slackbot is brand new — it's based around an LLM and a very robust search engine, and connections to third-party search engines, third-party enterprise data.\" Salesforce chose to retain the Slackbot brand despite the fundamental technical overhaul. \"People know what Slackbot is, and so we wanted to carry that forward,\" Harris said. Why Anthropic's Claude powers the new Slackbot — and which AI models could come next The new Slackbot runs on Claude, Anthropic's large language model, a choice driven partly by compliance requirements. Slack's commercial service operates under FedRAMP Moderate certification to serve U.S. federal government customers, and Harris said Anthropic was \"the only provider that could give us a compliant LLM\" when Slack began building the new system. But that exclusivity won't last. \"We are, this year, going to support additional providers,\" Harris said. \"We have a great relationship with Google. Gemini is incredible — performance is great, cost is great. So we're going to use Gemini for some things.\" He added that OpenAI remains a possibility as well. Harris echoed Salesforce CEO Marc Benioff's view that large language models are becoming commoditized: \"You've heard Marc talk about LLMs are commodities, that they're democratized. I call them CPUs.\" On the sensitive question of training data, Harris was unequivocal: Salesforce does not train any models on customer data. \"Models don't have any sort of security,\" he explained. \"If we trained it on some confidential conversation that you and I have, I don't want Carolyn to know — if I train it into the LLM, there is no way for me to say you get to see the answer, but Carolyn doesn't.\" Inside Salesforce's internal experiment: 80,000 employees tested Slackbot with striking results Salesforce has been testing the new Slackbot internally for months, rolling it out to all 80,000 employees. According to Ryan Gavin, Slack's chief marketing officer, the results have been striking: \"It's the fastest adopted product in Salesforce history.\" Internal data shows that two-thirds of Salesforce employees have tried the new Slackbot, with 80% of those users continuing to use it regularly. Internal satisfaction",
     "doomIndexInputSummary": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI. Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf of employees. The new Slackbot, now generally available to Business+ and Enterprise+ customers, is Salesforce's most aggressive move yet to position Slack at the center of the emerging \"agentic AI\" movement — where software agents work alongside humans to complete complex tasks. The launch comes as Salesforce attempts to convince investors that artificial intelligence will bolster its products rather than render them obsolete. \"Slackbot isn't just another copilot or AI assistant,\" said Parker Harris, Salesforce co-founder and Slack's chief technology officer, in an exclusive interview with Salesforce. \"It's the front door to the agentic enterprise, powered by Salesforce.\" From tricycle to Porsche: Salesforce rebuilt Slackbot from the ground up Harris was blunt about what distinguishes the new Slackbot from its predecessor: \"The old Slackbot was, you know, a little tricycle, and the new Slackbot is like, you know, a Porsche.\" The original Slackbot, which has existed since Slack's early days, performed basic algorithmic tasks — reminding users to add colleagues to documents, suggesting channel archives, and delivering simple notifications. The new version runs on an entirely different architecture built around a large language model and sophisticated search capabilities that can access Salesforce records, Google Drive files, calendar data, and years of Slack conversations. \"It's two different things,\" Harris explained. \"The old Slackbot was algorithmic and fairly simple. The new Slackbot is brand new — it's based around an LLM and a very robust search engine, and connections to third-party search engines, third-party enterprise data.\" Salesforce chose to retain the Slackbot brand despite the fundamental technical overhaul. \"People know what Slackbot is, and so we wanted to carry that forward,\" Harris said. Why Anthropic's Claude powers the new Slackbot — and which AI models could come next The new Slackbot runs on Claude, Anthropic's large language model, a choice driven partly by compliance requirements. Slack's commercial service operates under FedRAMP Moderate certification to serve U.S. federal government customers, and Harris said Anthropic was \"the only provider that could give us a compliant LLM\" when Slack began building the new system. But that exclusivity won't last. \"We are, this year, going to support additional providers,\" Harris said. \"We have a great relationship with Google. Gemini is incredible — performance is great, cost is great. So we're going to use Gemini for some things.\" He added that OpenAI remains a possibility as well. Harris echoed Salesforce CEO Marc Benioff's view that large language models are becoming commoditized: \"You've heard Marc talk about LLMs are commodities, that they're democratized. I call them CPUs.\" On the sensitive question of training data, Harris was unequivocal: Salesforce does not train any models on customer data. \"Models don't have any sort of security,\" he explained. \"If we trained it on some confidential conversation that you and I have, I don't want Carolyn to know — if I train it into the LLM, there is no way for me to say you get to see the answer, but Carolyn doesn't.\" Inside Salesforce's internal experiment: 80,000 employees tested Slackbot with striking results Salesforce has been testing the new Slackbot internally for months, rolling it out to all 80,000 employees. According to Ryan Gavin, Slack's chief marketing officer, the results have been striking: \"It's the fastest adopted product in Salesforce history.\" Internal data shows that two-thirds of Salesforce employees have tried the new Slackbot, with 80% of those users continuing to use it regularly. Internal satisfaction"
   },
@@ -1414,13 +1327,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.3333,
-      "novelty": 0.8095
+      "novelty": 0.7941
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2184,
+    "score": 0.2168,
     "doomIndex": 16.98,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1479,7 +1392,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5fe45277542233f20517",
     "storyId": "17c11ad9e85102512f94",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Red flags that both job seekers and employers should watch for, in an era of AI slop and application scams",
     "doomIndexInputSummary": "We posted a job. Then came the AI slop, impersonator and recruiter scam. Red flags that both job seekers and employers should watch for, in an era of AI slop and application scams"
   },
@@ -1566,7 +1479,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e40df07baf6c3b508f4c",
     "storyId": "99a74fa8e5c3257d2eab",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month depending on usage — has sparked a growing rebellion among the very programmers it aims to serve. Now, a free alternative is gaining traction. Goose, an open-source AI agent developed by Block (the financial technology company formerly known as Square), offers nearly identical functionality to Claude Code but runs entirely on a user's local machine. No subscription fees. No cloud dependency. No rate limits that reset every five hours. \"Your data stays with you, period,\" said Parth Sareen, a software engineer who demonstrated the tool during a recent livestream. The comment captures the core appeal: Goose gives developers complete control over their AI-powered workflow, including the ability to work offline — even on an airplane. The project has exploded in popularity. Goose now boasts more than 26,100 stars on GitHub, the code-sharing platform, with 362 contributors and 102 releases since its launch. The latest version, 1.20.1, shipped on January 19, 2026, reflecting a development pace that rivals commercial products. For developers frustrated by Claude Code's pricing structure and usage caps, Goose represents something increasingly rare in the AI industry: a genuinely free, no-strings-attached option for serious work. Anthropic's new rate limits spark a developer revolt To understand why Goose matters, you need to understand the Claude Code pricing controversy. Anthropic, the San Francisco artificial intelligence company founded by former OpenAI executives, offers Claude Code as part of its subscription tiers. The free plan provides no access whatsoever. The Pro plan, at $17 per month with annual billing (or $20 monthly), limits users to just 10 to 40 prompts every five hours — a constraint that serious developers exhaust within minutes of intensive work. The Max plans, at $100 and $200 per month, offer more headroom: 50 to 200 prompts and 200 to 800 prompts respectively, plus access to Anthropic's most powerful model, Claude 4.5 Opus. But even these premium tiers come with restrictions that have inflamed the developer community. In late July, Anthropic announced new weekly rate limits. Under the system, Pro users receive 40 to 80 hours of Sonnet 4 usage per week. Max users at the $200 tier get 240 to 480 hours of Sonnet 4, plus 24 to 40 hours of Opus 4. Nearly five months later, the frustration has not subsided. The problem? Those \"hours\" are not actual hours. They represent token-based limits that vary wildly depending on codebase size, conversation length, and the complexity of the code being processed. Independent analysis suggests the actual per-session limits translate to roughly 44,000 tokens for Pro users and 220,000 tokens for the $200 Max plan. \"It's confusing and vague,\" one developer wrote in a widely shared analysis. \"When they say '24-40 hours of Opus 4,' that doesn't really tell you anything useful about what you're actually getting.\" The backlash on Reddit and developer forums has been fierce. Some users report hitting their daily limits within 30 minutes of intensive coding. Others have canceled their subscriptions entirely, calling the new restrictions \"a joke\" and \"unusable for real work.\" Anthropic has defended the changes, stating that the limits affect fewer than five percent of users and target people running Claude Code \"continuously in the background, 24/7.\" But the company has not clarified whether that figure refers to five percent of Max subscribers or five percent of all users — a distinction that matters enormously. How Block built a free AI coding agent that works offline Goose takes a radically different approach to the same problem. Built by Block, the payments company led by Jack Dorsey, Goose is",
     "doomIndexInputSummary": "Claude Code costs up to $200 a month. Goose does the same thing for free.. The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month depending on usage — has sparked a growing rebellion among the very programmers it aims to serve. Now, a free alternative is gaining traction. Goose, an open-source AI agent developed by Block (the financial technology company formerly known as Square), offers nearly identical functionality to Claude Code but runs entirely on a user's local machine. No subscription fees. No cloud dependency. No rate limits that reset every five hours. \"Your data stays with you, period,\" said Parth Sareen, a software engineer who demonstrated the tool during a recent livestream. The comment captures the core appeal: Goose gives developers complete control over their AI-powered workflow, including the ability to work offline — even on an airplane. The project has exploded in popularity. Goose now boasts more than 26,100 stars on GitHub, the code-sharing platform, with 362 contributors and 102 releases since its launch. The latest version, 1.20.1, shipped on January 19, 2026, reflecting a development pace that rivals commercial products. For developers frustrated by Claude Code's pricing structure and usage caps, Goose represents something increasingly rare in the AI industry: a genuinely free, no-strings-attached option for serious work. Anthropic's new rate limits spark a developer revolt To understand why Goose matters, you need to understand the Claude Code pricing controversy. Anthropic, the San Francisco artificial intelligence company founded by former OpenAI executives, offers Claude Code as part of its subscription tiers. The free plan provides no access whatsoever. The Pro plan, at $17 per month with annual billing (or $20 monthly), limits users to just 10 to 40 prompts every five hours — a constraint that serious developers exhaust within minutes of intensive work. The Max plans, at $100 and $200 per month, offer more headroom: 50 to 200 prompts and 200 to 800 prompts respectively, plus access to Anthropic's most powerful model, Claude 4.5 Opus. But even these premium tiers come with restrictions that have inflamed the developer community. In late July, Anthropic announced new weekly rate limits. Under the system, Pro users receive 40 to 80 hours of Sonnet 4 usage per week. Max users at the $200 tier get 240 to 480 hours of Sonnet 4, plus 24 to 40 hours of Opus 4. Nearly five months later, the frustration has not subsided. The problem? Those \"hours\" are not actual hours. They represent token-based limits that vary wildly depending on codebase size, conversation length, and the complexity of the code being processed. Independent analysis suggests the actual per-session limits translate to roughly 44,000 tokens for Pro users and 220,000 tokens for the $200 Max plan. \"It's confusing and vague,\" one developer wrote in a widely shared analysis. \"When they say '24-40 hours of Opus 4,' that doesn't really tell you anything useful about what you're actually getting.\" The backlash on Reddit and developer forums has been fierce. Some users report hitting their daily limits within 30 minutes of intensive coding. Others have canceled their subscriptions entirely, calling the new restrictions \"a joke\" and \"unusable for real work.\" Anthropic has defended the changes, stating that the limits affect fewer than five percent of users and target people running Claude Code \"continuously in the background, 24/7.\" But the company has not clarified whether that figure refers to five percent of Max subscribers or five percent of all users — a distinction that matters enormously. How Block built a free AI coding agent that works offline Goose takes a radically different approach to the same problem. Built by Block, the payments company led by Jack Dorsey, Goose is"
   },
@@ -1651,7 +1564,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "6698ec102de19cd8aad0",
     "storyId": "f58077692cdefc51b5a1",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Government ownership of AI companies may promise shared wealth, but it risks weakening oversight and accountability.",
     "doomIndexInputSummary": "Why state-owned AI won’t solve inequality. Government ownership of AI companies may promise shared wealth, but it risks weakening oversight and accountability."
   },
@@ -1739,7 +1652,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e45e1564a36a45ae883f",
     "storyId": "766dff2299466e2fb336",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The government wants pupils to take courses like AI and manufacturing which are linked to local jobs.",
     "doomIndexInputSummary": "Schools to offer technical subjects to pupils from age 14 in England, Burnham says. The government wants pupils to take courses like AI and manufacturing which are linked to local jobs."
   },
@@ -1823,7 +1736,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f1ae405f5b1b494c4f17",
     "storyId": "3bf44cdfb8f59b7f06d5",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Call center nurses at the health giant said workplace surveillance tools and AI prioritize speed and cost savings over quality and safety.",
     "doomIndexInputSummary": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse. Call center nurses at the health giant said workplace surveillance tools and AI prioritize speed and cost savings over quality and safety."
   },
@@ -1839,14 +1752,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.0351,
+      "freshness": 0.0337,
       "feedPosition": 0.875,
       "novelty": 0.7077
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2409,
+    "score": 0.2407,
     "doomIndex": 16.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1905,7 +1818,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a77b640990b77781632e",
     "storyId": "495dc4e7c8c440d3ed6a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "In an excerpt from his book “The New Divide: Power, Control & the Cost of AI,” writer Jibu Elias examines the technology’s impact on jobs.",
     "doomIndexInputSummary": "Growth without work: The human cost of the AI revolution. In an excerpt from his book “The New Divide: Power, Control & the Cost of AI,” writer Jibu Elias examines the technology’s impact on jobs."
   },
@@ -1921,7 +1834,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.0134,
+      "freshness": 0.0129,
       "feedPosition": 0.1667,
       "novelty": 0.6951
     },
@@ -1929,7 +1842,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.1867,
+    "score": 0.1866,
     "doomIndex": 15.2,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1988,7 +1901,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ca1901a5a0610bb58ce5",
     "storyId": "4909137d46e5e3801e51",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Buyers of AI services are struggling to control costs and sellers are not sure how much to charge.",
     "doomIndexInputSummary": "Tokenomics: Why making AI pay is tricky. Buyers of AI services are struggling to control costs and sellers are not sure how much to charge."
   },
@@ -2004,7 +1917,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0255,
+      "freshness": 0.0245,
       "feedPosition": 0.8889,
       "novelty": 0.8621
     },
@@ -2014,7 +1927,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3043,
+    "score": 0.3042,
     "doomIndex": 15.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2081,7 +1994,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1fa4527ff3d9d92a5dea",
     "storyId": "26d70e0b85e61748941b",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The Ninth Circuit Court of Appeals has endorsed a commonsense technical interpretation of the Computer Fraud and Abuse Act (CFAA), a law not usually given to such interpretation. Amazon had sued Perplexity AI to try to shut down its Comet browser, claiming the browser’s optional agentic AI “Assistant” that can browse websites like Amazon for comparison shopping purposes, violated the CFAA because Amazon did not “authorize” Perplexity to access Amazon users’ accounts. Rejecting that theory, the Ninth Circuit held that Perplexity was unlikely to be liable because users operate the tool, not Perplexity. That’s the right conclusion, as both a legal and technical matter. As we explained to the court in our amicus brief, the CFAA requires unauthorized “access,” and Perplexity itself does not access Amazon’s servers—users of the Comet browser do. The court agreed, noting that EFF’s explanation “articulates the nature of the system most clearly.” The court noted that agentic AI may present novel legal issues, and there is “little to no existing caselaw directly dealing with how to ascribe responsibility for AI agents like the Assistant, let alone caselaw specifically dealing with agentic AI in the CFAA context.” Ultimately, though, thorny questions of AI “intent” were irrelevant to this case, because the Assistant “is a tool, not a person for statutory purposes.” And, the court concluded, it is a tool operated by users, not Perplexity. Even where Perplexity received information from users about their Amazon accounts and used this information to instruct the Assistant, the court found that that did not constitute the sort of control needed to find access by Perplexity. As the court noted, Amazon might have other viable claims against Perplexity, but invoking the CFAA was both legally baseless and bad policy that “could expose users themselves to criminal liability. This is a gratifying decision because all too often, big players use the CFAA to bully upstarts and innovators who offer potentially helpful user tools. When we counsel clients as part of EFF’s Coders Rights Project, CFAA risk is a frequent topic of conversation, even for developers who merely create tools that allow others to access websites in new or different ways. We’ve stood up for these creators before, and we’ll do it again, but it’s helpful to have back up from one of the most influential appellate courts in the country. Related Cases: Facebook v. Power Ventures Competition Coders' Rights Project",
     "doomIndexInputSummary": "Appeals Court Agrees with EFF that Building a Web Browser Doesn’t Violate the CFAA. The Ninth Circuit Court of Appeals has endorsed a commonsense technical interpretation of the Computer Fraud and Abuse Act (CFAA), a law not usually given to such interpretation. Amazon had sued Perplexity AI to try to shut down its Comet browser, claiming the browser’s optional agentic AI “Assistant” that can browse websites like Amazon for comparison shopping purposes, violated the CFAA because Amazon did not “authorize” Perplexity to access Amazon users’ accounts. Rejecting that theory, the Ninth Circuit held that Perplexity was unlikely to be liable because users operate the tool, not Perplexity. That’s the right conclusion, as both a legal and technical matter. As we explained to the court in our amicus brief, the CFAA requires unauthorized “access,” and Perplexity itself does not access Amazon’s servers—users of the Comet browser do. The court agreed, noting that EFF’s explanation “articulates the nature of the system most clearly.” The court noted that agentic AI may present novel legal issues, and there is “little to no existing caselaw directly dealing with how to ascribe responsibility for AI agents like the Assistant, let alone caselaw specifically dealing with agentic AI in the CFAA context.” Ultimately, though, thorny questions of AI “intent” were irrelevant to this case, because the Assistant “is a tool, not a person for statutory purposes.” And, the court concluded, it is a tool operated by users, not Perplexity. Even where Perplexity received information from users about their Amazon accounts and used this information to instruct the Assistant, the court found that that did not constitute the sort of control needed to find access by Perplexity. As the court noted, Amazon might have other viable claims against Perplexity, but invoking the CFAA was both legally baseless and bad policy that “could expose users themselves to criminal liability. This is a gratifying decision because all too often, big players use the CFAA to bully upstarts and innovators who offer potentially helpful user tools. When we counsel clients as part of EFF’s Coders Rights Project, CFAA risk is a frequent topic of conversation, even for developers who merely create tools that allow others to access websites in new or different ways. We’ve stood up for these creators before, and we’ll do it again, but it’s helpful to have back up from one of the most influential appellate courts in the country. Related Cases: Facebook v. Power Ventures Competition Coders' Rights Project"
   },
@@ -2097,15 +2010,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.34,
       "sourceAuthority": 0.5,
-      "freshness": 0.0136,
-      "feedPosition": 0.75,
-      "novelty": 0.6195
+      "freshness": 0.0131,
+      "feedPosition": 0.5,
+      "novelty": 0.6657
     },
     "rankingReasons": [
       "urgency or risk",
-      "real-world consequences"
+      "real-world consequences",
+      "unusual language in the current story batch"
     ],
-    "score": 0.282,
+    "score": 0.2615,
     "doomIndex": 15.02,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2166,7 +2080,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "81e2e090b66929083f53",
     "storyId": "1b31b1a391a00190d985",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "Privacy risks from medical AI tools are not shared equally."
   },
@@ -2252,7 +2166,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5170859809095c336ecd",
     "storyId": "712e645398d8b6885215",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence. School of Engineering MIT Schwarzman College of Computing Electrical engineering and computer science (EECS) Laboratory for Information and Decision Systems (LIDS) Computer science and technology Artificial intelligence Programming Networks Books and authors Photography Research Faculty Obituaries Alumni/ae",
     "doomIndexInputSummary": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83. Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence. School of Engineering MIT Schwarzman College of Computing Electrical engineering and computer science (EECS) Laboratory for Information and Decision Systems (LIDS) Computer science and technology Artificial intelligence Programming Networks Books and authors Photography Research Faculty Obituaries Alumni/ae"
   },
@@ -2337,7 +2251,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "22aa6f3af0f4b9501069",
     "storyId": "0fc9bb38e317e75e21b4",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Mental health providers are increasingly using AI technology to record conversations, raising privacy concerns among patients and practitioners.",
     "doomIndexInputSummary": "Your medical provider might be recording your mental health care visits. Mental health providers are increasingly using AI technology to record conversations, raising privacy concerns among patients and practitioners."
   },
@@ -2429,7 +2343,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "216e9328e383226ab099",
     "storyId": "5681d3da89440d64476a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Intermediary liability laws around the world recognize that social media platforms, search engines, and other online service providers have become an integral part of our lives: they shape how we access information, communicate with others and participate in public debate, and foster innovation online. These laws generally shield platforms, to varying degrees, from legal liability for user content: the responsibility for unlawful speech should rest primarily with the speaker, not with those who merely host it. These liability protections are not a gift for platforms. They exist so that platforms are not encouraged to proactively monitor and filter what we say online, or to remove even lawful speech simply to avoid legal risk. This is why a recent judgment by the EU Court of Justice, Coyote System (Joined Cases C-188/24 and C-190/24), is concerning: it could deprive online platforms of liability protection because of how they organize and disseminate user content. The consequences for freedom of expression could be significant. Liability Protections in the EU The European Union has long embraced a system of limited liability for online service providers. Under the e-Commerce Directive and now the Digital Services Act (DSA), platforms benefit from liability exemptions for user content. To discourage censorship, they also cannot be required to generally monitor user content or actively search for illegal activity. But that liability protection comes with qualifications: Platforms lose this benefit if they play an \"active role\" such that they have knowledge of, or control over, user-provided information (Recital 42 ECD, Recital 18 DSA, and case law, for example para. 113 in L’Oréal v eBay). For hosting services, providers must remove or disable content they know to be illegal. The DSA has introduced extensive due diligence obligations for platforms but left these foundational immunities intact. The message is clear: platforms bear responsibility for proper systems and processes, but generally not for users' speech. Coyote System, however, could undermine this balance. Confronted with a case about restrictions on navigation systems that transmit information to drivers about roadside checks, the Court formulated a general test for when an intermediary ceases to be a \"neutral\" host and therefore loses the hosting liability exemption. In essence, the Court held that where an intermediary's algorithm goes beyond merely categorizing and indexing user information to determine, \"under what conditions, how and in which order of priority\" (para. 122) information is disseminated, the intermediary \"controls\" that information and is deprived of protection under the e-Commerce Directive. Let's be clear: the case is not about a service that ranked or recommended user-generated content in the way social media platforms do. It is about the collection and real-time relay of user alerts about roadside checks. However, the Court's reasoning is not confined to navigation services. Recommendation algorithms determine how and in what order user content is disseminated across virtually every major online platform. Should such platforms now cease to qualify as neutral intermediaries and lose the protection of the hosting liability exemption? The answer should be no. The Meaning of Control Control has never been understood this broadly. Nor should it be. Every hosting service provider, think of Facebook, Amazon or Bluesky, will have some control over users’ content. If that ability alone ruled the analysis, the liability exemption would become largely meaningless. Instead, the disqualifying “active role” must relate to the actual content itself, not merely the technical means by which that content is organised or disseminated. The Court’s own case law reinforces this conclusion: In YouTube and Cyando, it examined a platform that categorises, ranks and recommends user content through algorithms, yet still proceeded on the basis that it could gener",
     "doomIndexInputSummary": "New EU Court of Justice Ruling on Platform Liability Could Cause Collateral Damage to Freedom of Expression. Intermediary liability laws around the world recognize that social media platforms, search engines, and other online service providers have become an integral part of our lives: they shape how we access information, communicate with others and participate in public debate, and foster innovation online. These laws generally shield platforms, to varying degrees, from legal liability for user content: the responsibility for unlawful speech should rest primarily with the speaker, not with those who merely host it. These liability protections are not a gift for platforms. They exist so that platforms are not encouraged to proactively monitor and filter what we say online, or to remove even lawful speech simply to avoid legal risk. This is why a recent judgment by the EU Court of Justice, Coyote System (Joined Cases C-188/24 and C-190/24), is concerning: it could deprive online platforms of liability protection because of how they organize and disseminate user content. The consequences for freedom of expression could be significant. Liability Protections in the EU The European Union has long embraced a system of limited liability for online service providers. Under the e-Commerce Directive and now the Digital Services Act (DSA), platforms benefit from liability exemptions for user content. To discourage censorship, they also cannot be required to generally monitor user content or actively search for illegal activity. But that liability protection comes with qualifications: Platforms lose this benefit if they play an \"active role\" such that they have knowledge of, or control over, user-provided information (Recital 42 ECD, Recital 18 DSA, and case law, for example para. 113 in L’Oréal v eBay). For hosting services, providers must remove or disable content they know to be illegal. The DSA has introduced extensive due diligence obligations for platforms but left these foundational immunities intact. The message is clear: platforms bear responsibility for proper systems and processes, but generally not for users' speech. Coyote System, however, could undermine this balance. Confronted with a case about restrictions on navigation systems that transmit information to drivers about roadside checks, the Court formulated a general test for when an intermediary ceases to be a \"neutral\" host and therefore loses the hosting liability exemption. In essence, the Court held that where an intermediary's algorithm goes beyond merely categorizing and indexing user information to determine, \"under what conditions, how and in which order of priority\" (para. 122) information is disseminated, the intermediary \"controls\" that information and is deprived of protection under the e-Commerce Directive. Let's be clear: the case is not about a service that ranked or recommended user-generated content in the way social media platforms do. It is about the collection and real-time relay of user alerts about roadside checks. However, the Court's reasoning is not confined to navigation services. Recommendation algorithms determine how and in what order user content is disseminated across virtually every major online platform. Should such platforms now cease to qualify as neutral intermediaries and lose the protection of the hosting liability exemption? The answer should be no. The Meaning of Control Control has never been understood this broadly. Nor should it be. Every hosting service provider, think of Facebook, Amazon or Bluesky, will have some control over users’ content. If that ability alone ruled the analysis, the liability exemption would become largely meaningless. Instead, the disqualifying “active role” must relate to the actual content itself, not merely the technical means by which that content is organised or disseminated. The Court’s own case law reinforces this conclusion: In YouTube and Cyando, it examined a platform that categorises, ranks and recommends user content through algorithms, yet still proceeded on the basis that it could gener"
   },
@@ -2516,7 +2430,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "872cd6740f31d0379f09",
     "storyId": "7f9102717fb19b933dc9",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure. TQ Ventures led the round, with participation from FPV Ventures, Redpoint, and Unusual Ventures. The investment values Railway as one of the most significant infrastructure startups to emerge during the AI boom, capitalizing on developer frustration with the complexity and cost of traditional platforms like Amazon Web Services and Google Cloud. \"As AI models get better at writing code, more and more people are asking the age-old question: where, and how, do I run my applications?\" said Jake Cooper, Railway's 28-year-old founder and chief executive, in an exclusive interview with VentureBeat. \"The last generation of cloud primitives were slow and outdated, and now with AI moving everything faster, teams simply can't keep up.\" The funding is a dramatic acceleration for a company that has charted an unconventional path through the cloud computing industry. Railway raised just $24 million in total before this round, including a $20 million Series A from Redpoint in 2022. The company now processes more than 10 million deployments monthly and handles over one trillion requests through its edge network — metrics that rival far larger and better-funded competitors. Why three-minute deploy times have become unacceptable in the age of AI coding assistants Railway's pitch rests on a simple observation: the tools developers use to deploy and manage software were designed for a slower era. A standard build-and-deploy cycle using Terraform, the industry-standard infrastructure tool, takes two to three minutes. That delay, once tolerable, has become a critical bottleneck as AI coding assistants like Claude, ChatGPT, and Cursor can generate working code in seconds. \"When godly intelligence is on tap and can solve any problem in three seconds, those amalgamations of systems become bottlenecks,\" Cooper told VentureBeat. \"What was really cool for humans to deploy in 10 seconds or less is now table stakes for agents.\" The company claims its platform delivers deployments in under one second — fast enough to keep pace with AI-generated code. Customers report a tenfold increase in developer velocity and up to 65 percent cost savings compared to traditional cloud providers. These numbers come directly from enterprise clients, not internal benchmarks. Daniel Lobaton, chief technology officer at G2X, a platform serving 100,000 federal contractors, measured deployment speed improvements of seven times faster and an 87 percent cost reduction after migrating to Railway. His infrastructure bill dropped from $15,000 per month to approximately $1,000. \"The work that used to take me a week on our previous infrastructure, I can do in Railway in like a day,\" Lobaton said. \"If I want to spin up a new service and test different architectures, it would take so long on our old setup. In Railway I can launch six services in two minutes.\" Inside the controversial decision to abandon Google Cloud and build data centers from scratch What distinguishes Railway from competitors like Render and Fly.io is the depth of its vertical integration. In 2024, the company made the unusual decision to abandon Google Cloud entirely and build its own data centers, a move that echoes the famous Alan Kay maxim: \"People who are really serious about software should make their own hardware.\" \"We wanted to design hardware in a way where we could build a differentiated experience,\" Cooper said. \"Having full control over the network, compute, and storage layers lets us do really fast build and deploy loops, the kind that allows us to move at 'agentic speed' while staying 100 percent the smoothest ride in town.\" The approach paid dividends during recent widespread outages t",
     "doomIndexInputSummary": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure. Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure. TQ Ventures led the round, with participation from FPV Ventures, Redpoint, and Unusual Ventures. The investment values Railway as one of the most significant infrastructure startups to emerge during the AI boom, capitalizing on developer frustration with the complexity and cost of traditional platforms like Amazon Web Services and Google Cloud. \"As AI models get better at writing code, more and more people are asking the age-old question: where, and how, do I run my applications?\" said Jake Cooper, Railway's 28-year-old founder and chief executive, in an exclusive interview with VentureBeat. \"The last generation of cloud primitives were slow and outdated, and now with AI moving everything faster, teams simply can't keep up.\" The funding is a dramatic acceleration for a company that has charted an unconventional path through the cloud computing industry. Railway raised just $24 million in total before this round, including a $20 million Series A from Redpoint in 2022. The company now processes more than 10 million deployments monthly and handles over one trillion requests through its edge network — metrics that rival far larger and better-funded competitors. Why three-minute deploy times have become unacceptable in the age of AI coding assistants Railway's pitch rests on a simple observation: the tools developers use to deploy and manage software were designed for a slower era. A standard build-and-deploy cycle using Terraform, the industry-standard infrastructure tool, takes two to three minutes. That delay, once tolerable, has become a critical bottleneck as AI coding assistants like Claude, ChatGPT, and Cursor can generate working code in seconds. \"When godly intelligence is on tap and can solve any problem in three seconds, those amalgamations of systems become bottlenecks,\" Cooper told VentureBeat. \"What was really cool for humans to deploy in 10 seconds or less is now table stakes for agents.\" The company claims its platform delivers deployments in under one second — fast enough to keep pace with AI-generated code. Customers report a tenfold increase in developer velocity and up to 65 percent cost savings compared to traditional cloud providers. These numbers come directly from enterprise clients, not internal benchmarks. Daniel Lobaton, chief technology officer at G2X, a platform serving 100,000 federal contractors, measured deployment speed improvements of seven times faster and an 87 percent cost reduction after migrating to Railway. His infrastructure bill dropped from $15,000 per month to approximately $1,000. \"The work that used to take me a week on our previous infrastructure, I can do in Railway in like a day,\" Lobaton said. \"If I want to spin up a new service and test different architectures, it would take so long on our old setup. In Railway I can launch six services in two minutes.\" Inside the controversial decision to abandon Google Cloud and build data centers from scratch What distinguishes Railway from competitors like Render and Fly.io is the depth of its vertical integration. In 2024, the company made the unusual decision to abandon Google Cloud entirely and build its own data centers, a move that echoes the famous Alan Kay maxim: \"People who are really serious about software should make their own hardware.\" \"We wanted to design hardware in a way where we could build a differentiated experience,\" Cooper said. \"Having full control over the network, compute, and storage layers lets us do really fast build and deploy loops, the kind that allows us to move at 'agentic speed' while staying 100 percent the smoothest ride in town.\" The approach paid dividends during recent widespread outages t"
   },
@@ -2601,7 +2515,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c80a17887e052c861b61",
     "storyId": "09969b184f2a4a22f6d5",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Leaders from the United Nations, Google and industry illuminate how Google Workspace and Gemini help ensure data privacy and uphold data security. The post Keeping public sector data private and compliant with AI appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Public Sector Google Public Sector 2024 executive perspective Google Cloud Next ‘24 United Nations Population Fund (UNFPA",
     "doomIndexInputSummary": "Keeping public sector data private and compliant with AI. Leaders from the United Nations, Google and industry illuminate how Google Workspace and Gemini help ensure data privacy and uphold data security. The post Keeping public sector data private and compliant with AI appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Public Sector Google Public Sector 2024 executive perspective Google Cloud Next ‘24 United Nations Population Fund (UNFPA"
   },
@@ -2688,7 +2602,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "cfa4d58ab5b79ae2b6c9",
     "storyId": "41b6a472adb77d1e7102",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "A new AI data center can be up and running in a year. Building new energy infrastructure to power it could take a decade. Data centers infrastructure AI",
     "doomIndexInputSummary": "Data Centers Are Easy to Build. Powering Them Is Complicated, Slow, and Expensive. A new AI data center can be up and running in a year. Building new energy infrastructure to power it could take a decade. Data centers infrastructure AI"
   },
@@ -2773,7 +2687,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3c401988f07641d24eab",
     "storyId": "1d65b95a04eb4a55b5d0",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Assistant Professor Bailey Flanigan has arrived at complex computational methods for helping democracy thrive. Profile Faculty Technology and society Public health Democracy Politics Labor and jobs Government Algorithms Political science Artificial intelligence Computer science and technology Electrical engineering and computer science (EECS) Laboratory for Information and Decision Systems (LIDS) School of Engineering MIT Schwarzman College of Computing School of Humanities Arts and Social Sciences",
     "doomIndexInputSummary": "Following the questions where they lead. Assistant Professor Bailey Flanigan has arrived at complex computational methods for helping democracy thrive. Profile Faculty Technology and society Public health Democracy Politics Labor and jobs Government Algorithms Political science Artificial intelligence Computer science and technology Electrical engineering and computer science (EECS) Laboratory for Information and Decision Systems (LIDS) School of Engineering MIT Schwarzman College of Computing School of Humanities Arts and Social Sciences"
   },
@@ -2789,8 +2703,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.0609,
-      "feedPosition": 0.5,
+      "freshness": 0.0586,
+      "feedPosition": 0.4,
       "novelty": 0.769
     },
     "rankingReasons": [
@@ -2798,7 +2712,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.257,
+    "score": 0.2467,
     "doomIndex": 13.41,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2859,7 +2773,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "8bdd423e86ca78eb2811",
     "storyId": "c356b86ed58428c25100",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns.",
     "doomIndexInputSummary": "Meta becomes latest firm to say its AI hacked another company. Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns."
   },
@@ -2877,12 +2791,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0003,
       "feedPosition": 0.25,
-      "novelty": 0.8904
+      "novelty": 0.8095
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1962,
+    "score": 0.1881,
     "doomIndex": 13.34,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2945,7 +2859,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4db9f6dd20b7a24e3f0d",
     "storyId": "fce1f380b2662fa6000e",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Alibaba, ByteDance, Baidu, and Tencent guide hundreds of millions of high-school grads to optimize the high-stakes university match system.",
     "doomIndexInputSummary": "Anxious Chinese students are trusting AI to help pick colleges and majors. Alibaba, ByteDance, Baidu, and Tencent guide hundreds of millions of high-school grads to optimize the high-stakes university match system."
   },
@@ -2963,13 +2877,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.875,
-      "novelty": 0.2844
+      "novelty": 0.2557
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2289,
+    "score": 0.2261,
     "doomIndex": 13.11,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3031,7 +2945,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1d65c6daf6a9340cbacc",
     "storyId": "ea62191d3bde9ca864cf",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce",
     "doomIndexInputSummary": "Top public sector takeaways from Google Cloud Next 2024. Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce Top public sector takeaways from Google Cloud Next 2024. Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation. Leaders from the United Nations Population Fund, United Nations Office for Project Services and the World Bank share how they leverage Google Workspace and AI to empower collaboration, boost efficiency and drive transformative change. The post Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 executive perspective World Bank Google Workspace UNFPA UNOPS How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale. Google Cloud’s expanding AI capabilities empower government agencies to better manage complex security, regulatory and data privacy challenges. The post How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 Cybersecurity executive perspective"
   },
@@ -3049,13 +2963,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.75,
-      "novelty": 0.2844
+      "novelty": 0.2557
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2164,
+    "score": 0.2136,
     "doomIndex": 13.11,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3117,7 +3031,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1d65c6daf6a9340cbacc",
     "storyId": "fcc742f29296a52fb633",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce",
     "doomIndexInputSummary": "Top public sector takeaways from Google Cloud Next 2024. Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce Top public sector takeaways from Google Cloud Next 2024. Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation. Leaders from the United Nations Population Fund, United Nations Office for Project Services and the World Bank share how they leverage Google Workspace and AI to empower collaboration, boost efficiency and drive transformative change. The post Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 executive perspective World Bank Google Workspace UNFPA UNOPS How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale. Google Cloud’s expanding AI capabilities empower government agencies to better manage complex security, regulatory and data privacy challenges. The post How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 Cybersecurity executive perspective"
   },
@@ -3205,7 +3119,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "8050e0134d0090a339ac",
     "storyId": "1e23abb8e9f6cdd9c0f3",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Google Cloud’s expanding AI capabilities empower government agencies to better manage complex security, regulatory and data privacy challenges. The post How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 Cybersecurity executive perspective",
     "doomIndexInputSummary": "Top public sector takeaways from Google Cloud Next 2024. Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce Top public sector takeaways from Google Cloud Next 2024. Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation. Leaders from the United Nations Population Fund, United Nations Office for Project Services and the World Bank share how they leverage Google Workspace and AI to empower collaboration, boost efficiency and drive transformative change. The post Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 executive perspective World Bank Google Workspace UNFPA UNOPS How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale. Google Cloud’s expanding AI capabilities empower government agencies to better manage complex security, regulatory and data privacy challenges. The post How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 Cybersecurity executive perspective"
   },
@@ -3291,7 +3205,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1e98dd5b12c885086be3",
     "storyId": "9c3315d30ba6385c87f1",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Leaders from the United Nations Population Fund, United Nations Office for Project Services and the World Bank share how they leverage Google Workspace and AI to empower collaboration, boost efficiency and drive transformative change. The post Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 executive perspective World Bank Google Workspace UNFPA UNOPS",
     "doomIndexInputSummary": "Top public sector takeaways from Google Cloud Next 2024. Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce Top public sector takeaways from Google Cloud Next 2024. Top leaders from Google see huge opportunities for the many new products and announcements out of Next to impact their partners across the public sector. The post Top public sector takeaways from Google Cloud Next 2024 appeared first on AIScoop. AI Artificial Intelligence (AI) Google Cloud Next Google Public Sector Chris Hein Karen Dahut Leigh Palmer Sandra Joyce Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation. Leaders from the United Nations Population Fund, United Nations Office for Project Services and the World Bank share how they leverage Google Workspace and AI to empower collaboration, boost efficiency and drive transformative change. The post Breaking silos worldwide; how Google Cloud is fueling public sector AI, collaboration and innovation appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 executive perspective World Bank Google Workspace UNFPA UNOPS How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale. Google Cloud’s expanding AI capabilities empower government agencies to better manage complex security, regulatory and data privacy challenges. The post How Google Cloud AI and Assured Workloads can enhance public sector security, compliance and service delivery at scale appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 Cybersecurity executive perspective"
   },
@@ -3307,7 +3221,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.3148,
+      "freshness": 0.3029,
       "feedPosition": 0.3333,
       "novelty": 0.5383
     },
@@ -3315,7 +3229,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.3385,
+    "score": 0.3367,
     "doomIndex": 12.98,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3372,7 +3286,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "964ea75593e0ae1ef010",
     "storyId": "fe5ca6d9e02c334f50ec",
     "firstSeen": "2026-08-08T16:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Agent found to be able to find and exploit vulnerabilities without human intervention, and to carry out cyber-attacks OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated on Friday, following a series of incidents in which AI agents have escaped containment. The company had evaluated the agent, Astra, and found “significant advancements in agentic coding and cybersecurity”, which had moved to a “critical” threshold where it can find and exploit vulnerabilities without human intervention, or devise and execute cyber-attacks when given only a “high level desired goal”. Continue reading... AI (artificial intelligence) OpenAI Technology US news",
     "doomIndexInputSummary": "OpenAI says it slowed Astra model development over security concerns. OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems. AI OpenAI OpenAI to pause some work on AI model Astra due to security concerns. Agent found to be able to find and exploit vulnerabilities without human intervention, and to carry out cyber-attacks OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated on Friday, following a series of incidents in which AI agents have escaped containment. The company had evaluated the agent, Astra, and found “significant advancements in agentic coding and cybersecurity”, which had moved to a “critical” threshold where it can find and exploit vulnerabilities without human intervention, or devise and execute cyber-attacks when given only a “high level desired goal”. Continue reading... AI (artificial intelligence) OpenAI Technology US news"
   },
@@ -3388,15 +3302,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.1898,
-      "feedPosition": 0.3333,
+      "freshness": 0.1827,
+      "feedPosition": 0.2222,
       "novelty": 0.4583
     },
     "rankingReasons": [
       "real-world consequences",
       "covered by multiple sources"
     ],
-    "score": 0.3117,
+    "score": 0.2996,
     "doomIndex": 12.98,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3453,7 +3367,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4f37b796a2870e038288",
     "storyId": "07c8fd08b0156bf92974",
     "firstSeen": "2026-08-07T22:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems. AI OpenAI",
     "doomIndexInputSummary": "OpenAI says it slowed Astra model development over security concerns. OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems. AI OpenAI OpenAI to pause some work on AI model Astra due to security concerns. Agent found to be able to find and exploit vulnerabilities without human intervention, and to carry out cyber-attacks OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated on Friday, following a series of incidents in which AI agents have escaped containment. The company had evaluated the agent, Astra, and found “significant advancements in agentic coding and cybersecurity”, which had moved to a “critical” threshold where it can find and exploit vulnerabilities without human intervention, or devise and execute cyber-attacks when given only a “high level desired goal”. Continue reading... AI (artificial intelligence) OpenAI Technology US news"
   },
@@ -3469,7 +3383,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.154,
       "sourceAuthority": 0.5,
-      "freshness": 0.0267,
+      "freshness": 0.0257,
       "feedPosition": 1,
       "novelty": 0.8666
     },
@@ -3478,7 +3392,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2965,
+    "score": 0.2963,
     "doomIndex": 12.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3543,7 +3457,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3032f55d8915158f8bb2",
     "storyId": "71867721c7a5e5470c1a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The Senate Commerce Committee will vote this week on several censorious and privacy invasive bills: KOSA, the SCREEN Act, Youth AI Privacy Act, and CHATBOT Act. While we appreciate that the Committee is taking the time to look at these bills separately, it’s still impossible to ignore the message Congress is sending to the world: Age-gate the internet and block young people from speaking and accessing lawful speech online. Or else. Take action Tell Congress: don't age-gate the internet Each of these bills claims to be trying to protect children and teenagers from dangerous situations on and offline—certainly a worthy goal. But the proposed solutions in these bills are unlikely to make children and teenagers safer at all. Rather, they would create sweeping new privacy and data security problems, and force platforms to adopt unconstitutional restrictions on the content they host, for both adults and teenagers. There is a better way. Instead of considering these bills, the Senate Commerce Committee should be focusing on a national consumer privacy bill that would protect ALL internet users, or on banning behavioral advertising that tracks us across the web—again, for users of all ages. But the bills being considered this week move in the other direction—more information being collected, more surveillance, and less privacy for internet users of all ages. Take action help eff oppose these bills EFF sent a letter to the Committee with our concerns about these bills. We look forward to continuing to work with them to find a way forward that protects all users. Privacy Age Verification and Age Gating: Resource Hub",
     "doomIndexInputSummary": "Tomorrow’s U.S. Senate Vote: Four Internet Bills, One Wrong Direction. The Senate Commerce Committee will vote this week on several censorious and privacy invasive bills: KOSA, the SCREEN Act, Youth AI Privacy Act, and CHATBOT Act. While we appreciate that the Committee is taking the time to look at these bills separately, it’s still impossible to ignore the message Congress is sending to the world: Age-gate the internet and block young people from speaking and accessing lawful speech online. Or else. Take action Tell Congress: don't age-gate the internet Each of these bills claims to be trying to protect children and teenagers from dangerous situations on and offline—certainly a worthy goal. But the proposed solutions in these bills are unlikely to make children and teenagers safer at all. Rather, they would create sweeping new privacy and data security problems, and force platforms to adopt unconstitutional restrictions on the content they host, for both adults and teenagers. There is a better way. Instead of considering these bills, the Senate Commerce Committee should be focusing on a national consumer privacy bill that would protect ALL internet users, or on banning behavioral advertising that tracks us across the web—again, for users of all ages. But the bills being considered this week move in the other direction—more information being collected, more surveillance, and less privacy for internet users of all ages. Take action help eff oppose these bills EFF sent a letter to the Committee with our concerns about these bills. We look forward to continuing to work with them to find a way forward that protects all users. Privacy Age Verification and Age Gating: Resource Hub"
   },
@@ -3559,7 +3473,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1555,
       "sourceAuthority": 0.5,
-      "freshness": 0.4908,
+      "freshness": 0.4722,
       "feedPosition": 0.4444,
       "novelty": 0.9538
     },
@@ -3567,7 +3481,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "unusual language in the current story batch"
     ],
-    "score": 0.3195,
+    "score": 0.3168,
     "doomIndex": 12.83,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3632,7 +3546,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7776200c05bae0afabcc",
     "storyId": "16f32d862c58a0c75339",
     "firstSeen": "2026-08-09T09:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Finance sector will gain from the tech but it will need substantial investment and create risks, says rating agency The rating agency Moody’s has said the race to adopt AI is putting big banks at the mercy of a small group of Silicon Valley firms, leaving them vulnerable to widespread outages and price gouging by profit-hungry tech bosses. The financial sector’s efforts to integrate AI into day-to-day operations will eventually cut costs and increase revenues across the City and Wall Street, Moody’s said. Continue reading... Banking Business Technology sector AI (artificial intelligence) Technology UK news US news World news",
     "doomIndexInputSummary": "AI push is putting banks at mercy of tech firms, warns Moody’s. Finance sector will gain from the tech but it will need substantial investment and create risks, says rating agency The rating agency Moody’s has said the race to adopt AI is putting big banks at the mercy of a small group of Silicon Valley firms, leaving them vulnerable to widespread outages and price gouging by profit-hungry tech bosses. The financial sector’s efforts to integrate AI into day-to-day operations will eventually cut costs and increase revenues across the City and Wall Street, Moody’s said. Continue reading... Banking Business Technology sector AI (artificial intelligence) Technology UK news US news World news"
   },
@@ -3718,7 +3632,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1f8d4b56c8ffafd5bb57",
     "storyId": "7d654a6a350dea176891",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Community colleges are spending millions on AI-powered chatbots that students say often give inaccurate answers. Many might see upgrades this year.",
     "doomIndexInputSummary": "California colleges spend millions on faulty AI systems: 'The chatbot is outdated’. Community colleges are spending millions on AI-powered chatbots that students say often give inaccurate answers. Many might see upgrades this year."
   },
@@ -3734,15 +3648,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.1044,
-      "feedPosition": 0.3333,
+      "freshness": 0.1005,
+      "feedPosition": 0.2222,
       "novelty": 0.6424
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2166,
+    "score": 0.2049,
     "doomIndex": 12.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3801,7 +3715,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "d4c98379c7f16152dcfc",
     "storyId": "007b5a9b0a9886a09e43",
     "firstSeen": "2026-08-07T03:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given. Business Business / Artificial Intelligence",
     "doomIndexInputSummary": "One of China’s Most Powerful AI Models Has Also Escaped Containment. Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given. Business Business / Artificial Intelligence"
   },
@@ -3817,7 +3731,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1765,
       "sourceAuthority": 0.5,
-      "freshness": 0.0092,
+      "freshness": 0.0089,
       "feedPosition": 0.625,
       "novelty": 0.4675
     },
@@ -3884,7 +3798,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "6c39b8a2f4e2ef1bfbd7",
     "storyId": "0d82654a28c9a1ecc602",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Low-cost Chinese open-weight models are splitting tech executives and Washington over national security and competitiveness.",
     "doomIndexInputSummary": "Why Silicon Valley is divided over China’s powerful, cheap AI models. Low-cost Chinese open-weight models are splitting tech executives and Washington over national security and competitiveness."
   },
@@ -3902,14 +3816,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0001,
       "feedPosition": 0.2222,
-      "novelty": 0.7362
+      "novelty": 0.718
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1993,
+    "score": 0.1974,
     "doomIndex": 12.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3966,7 +3880,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a10970337607ea89f842",
     "storyId": "d883508cdb128b7d0065",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "EFF’s first EFFecting Change livestream was all the way back in July of 2024. Maybe you've caught each stream, or maybe you’ve only caught a few. Or maybe you’re like me and prefer to listen to conversations like these on your daily commute! Either way, if you want to stay on top of these monthly conversations, you can now subscribe to our new podcast feed for EFFecting Change—starting with our conversation on the Right to Repair movement with Adam Savage and iFixit CEO Kyle Wiens: %3Ciframe%20height%3D%22200px%22%20width%3D%22100%25%22%20frameborder%3D%22no%22%20scrolling%3D%22no%22%20seamless%3D%22%22%20src%3D%22https%3A%2F%2Fplayer.simplecast.com%2F1ffaef7d-fd63-4133-8f3e-c28a98ff9f60%3Fdark%3Dfalse%22%20allow%3D%22autoplay%22%3E%3C%2Fiframe%3E Privacy info. This embed will serve content from simplecast.com This new feed will include the full conversations with our panelists, posted after the livestream ends. Subscribe today to get each stream straight to your podcast player of choice. You can also find other podcasts by EFF at eff.org/podcast. And mark your calendar for the next EFFecting Change livestream: Who the Machine Serves. EFF Executive Director Nicole Ozer and Cory Doctorow will be having a conversation on AI, tackling what needs to happen now to ensure AI actually works for everyone, not just those in power. RSVP today! Want to ensure EFF can keep inviting expert panelists to chat about the future of technology and how it impacts you? Support our work today. Donate to EFF Defend Your Right to Repair!",
     "doomIndexInputSummary": "Missed EFF's Livestream with Adam Savage and iFixit? Listen Here!. EFF’s first EFFecting Change livestream was all the way back in July of 2024. Maybe you've caught each stream, or maybe you’ve only caught a few. Or maybe you’re like me and prefer to listen to conversations like these on your daily commute! Either way, if you want to stay on top of these monthly conversations, you can now subscribe to our new podcast feed for EFFecting Change—starting with our conversation on the Right to Repair movement with Adam Savage and iFixit CEO Kyle Wiens: %3Ciframe%20height%3D%22200px%22%20width%3D%22100%25%22%20frameborder%3D%22no%22%20scrolling%3D%22no%22%20seamless%3D%22%22%20src%3D%22https%3A%2F%2Fplayer.simplecast.com%2F1ffaef7d-fd63-4133-8f3e-c28a98ff9f60%3Fdark%3Dfalse%22%20allow%3D%22autoplay%22%3E%3C%2Fiframe%3E Privacy info. This embed will serve content from simplecast.com This new feed will include the full conversations with our panelists, posted after the livestream ends. Subscribe today to get each stream straight to your podcast player of choice. You can also find other podcasts by EFF at eff.org/podcast. And mark your calendar for the next EFFecting Change livestream: Who the Machine Serves. EFF Executive Director Nicole Ozer and Cory Doctorow will be having a conversation on AI, tackling what needs to happen now to ensure AI actually works for everyone, not just those in power. RSVP today! Want to ensure EFF can keep inviting expert panelists to chat about the future of technology and how it impacts you? Support our work today. Donate to EFF Defend Your Right to Repair!"
   },
@@ -3982,7 +3896,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.232,
       "sourceAuthority": 0.5,
-      "freshness": 0.013,
+      "freshness": 0.0125,
       "feedPosition": 0.5556,
       "novelty": 0.8277
     },
@@ -3992,7 +3906,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2617,
+    "score": 0.2616,
     "doomIndex": 12.49,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4056,7 +3970,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "143f2e03cdcba52bcaf7",
     "storyId": "94524e2b04357887d983",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The Federal Trade Commission (FTC) in July issued a proposed policy statement “concerning the suppression of accuracy in artificial intelligence systems.” We urge the FTC to withdraw this misguided proposal and instead focus on its core strengths and mission to protect consumers. The new proposed policy builds on, and directly references, the Trump administration’s “Preventing Woke AI in the Federal Government” executive order—a nightmare for civil liberties that seeks to strong-arm AI companies into modifying their models to conform with the its ideological agenda. In recently filed comments, EFF, Public Knowledge, and Fight for the Future call for the FTC to stop its unconstitutional efforts to regulate lawful speech, override state laws, and intimidate AI developers into ideological alignment with the Trump administration. The government may not install itself as the arbiter of truth. In the joint comments, we outline three critical flaws within the latest proposed policy. First, it violates the First Amendment. The policy calls for the Commission to become the judge of which AI outputs meet an undefined standard of accuracy. Installing the FTC as the authority of this sort of viewpoint-based judgment is a prior restraint on speech. Additionally, the policy’s proposed solution to address speech concerns compounds, rather than properly limits, the likely harms to speech. As we say in our comments: the government may not install itself as the arbiter of truth. Second, it exceeds the FTC’s legal authority by claiming that its federal regulatory rules can override, or “preempt,” laws in states that have passed to regulate artificial intelligence use. This is clearly an attempt to target state laws the administration disagrees with. For example, the policy specifically criticizes Colorado's automated decisionmaking law, which applies when automated technology is used to consider consequential decisions such as those around employment, access to housing, health care, and insurance. We noted to the FTC that characterizing this law as one that requires AI companies to “suppress accuracy,” or encourages deception, is itself inaccurate. In any case, the FTC lacks the authority to put its rules in place over state law, unless Congress directly delegates it that power. It has been given no such power here. Third, the policy is vague and sets the stage for improper jawboning of AI developers and companies that use AI tools (deployers). Jawboning is a term for situations in which the government urges private companies or people to censor another's speech. The proposal, as written, creates an enforcement regime that would put a thumb on the scale in favor of certain partisan speech and ideals. This will lead companies to censor only what the administration interprets as biased or untruthful. Yet, in our filing, we note that the FTC itself can't define an objective standard for what “bias” means, conceding the “exact line of what constitutes bias may be difficult to draw.” There is work the FTC should be doing to protect consumers in the age of AI. In our comments, we conclude by saying: [We] implore the Commission to focus on its core strengths and the mission for which it is so urgently needed—promoting structural market competition and protecting consumers from real unfair and deceptive acts and practices—in both the burgeoning and critically important AI industry and across the broader technology marketplace. EFF and our partners have always urged the FTC to police genuine deception in technology markets. We have also consistently opposed government efforts to dictate what private speakers may say. That’s why we urge the FTC to withdraw this proposal. You can read our full comments here. Artificial Intelligence Free Speech",
     "doomIndexInputSummary": "EFF Joins Call for FTC to Drop Its Disastrous AI Policy Proposal. The Federal Trade Commission (FTC) in July issued a proposed policy statement “concerning the suppression of accuracy in artificial intelligence systems.” We urge the FTC to withdraw this misguided proposal and instead focus on its core strengths and mission to protect consumers. The new proposed policy builds on, and directly references, the Trump administration’s “Preventing Woke AI in the Federal Government” executive order—a nightmare for civil liberties that seeks to strong-arm AI companies into modifying their models to conform with the its ideological agenda. In recently filed comments, EFF, Public Knowledge, and Fight for the Future call for the FTC to stop its unconstitutional efforts to regulate lawful speech, override state laws, and intimidate AI developers into ideological alignment with the Trump administration. The government may not install itself as the arbiter of truth. In the joint comments, we outline three critical flaws within the latest proposed policy. First, it violates the First Amendment. The policy calls for the Commission to become the judge of which AI outputs meet an undefined standard of accuracy. Installing the FTC as the authority of this sort of viewpoint-based judgment is a prior restraint on speech. Additionally, the policy’s proposed solution to address speech concerns compounds, rather than properly limits, the likely harms to speech. As we say in our comments: the government may not install itself as the arbiter of truth. Second, it exceeds the FTC’s legal authority by claiming that its federal regulatory rules can override, or “preempt,” laws in states that have passed to regulate artificial intelligence use. This is clearly an attempt to target state laws the administration disagrees with. For example, the policy specifically criticizes Colorado's automated decisionmaking law, which applies when automated technology is used to consider consequential decisions such as those around employment, access to housing, health care, and insurance. We noted to the FTC that characterizing this law as one that requires AI companies to “suppress accuracy,” or encourages deception, is itself inaccurate. In any case, the FTC lacks the authority to put its rules in place over state law, unless Congress directly delegates it that power. It has been given no such power here. Third, the policy is vague and sets the stage for improper jawboning of AI developers and companies that use AI tools (deployers). Jawboning is a term for situations in which the government urges private companies or people to censor another's speech. The proposal, as written, creates an enforcement regime that would put a thumb on the scale in favor of certain partisan speech and ideals. This will lead companies to censor only what the administration interprets as biased or untruthful. Yet, in our filing, we note that the FTC itself can't define an objective standard for what “bias” means, conceding the “exact line of what constitutes bias may be difficult to draw.” There is work the FTC should be doing to protect consumers in the age of AI. In our comments, we conclude by saying: [We] implore the Commission to focus on its core strengths and the mission for which it is so urgently needed—promoting structural market competition and protecting consumers from real unfair and deceptive acts and practices—in both the burgeoning and critically important AI industry and across the broader technology marketplace. EFF and our partners have always urged the FTC to police genuine deception in technology markets. We have also consistently opposed government efforts to dictate what private speakers may say. That’s why we urge the FTC to withdraw this proposal. You can read our full comments here. Artificial Intelligence Free Speech"
   },
@@ -4072,14 +3986,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0909,
-      "feedPosition": 0.5556,
+      "freshness": 0.0875,
+      "feedPosition": 0.4444,
       "novelty": 0.8382
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2351,
+    "score": 0.2235,
     "doomIndex": 12.46,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4138,7 +4052,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "eef4d08a0b17f86dbeeb",
     "storyId": "4a95cbac932101e1df42",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Suno plans watermarks and download limits to stop \"large-scale abuse.\" AI AI music Artificial Intelligence Suno",
     "doomIndexInputSummary": "Suno hopes to go legit with watermarks for AI-generated music. Suno plans watermarks and download limits to stop \"large-scale abuse.\" AI AI music Artificial Intelligence Suno"
   },
@@ -4225,7 +4139,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1244164855d680242393",
     "storyId": "8d854d272b9231e39003",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "PhD student Lauren Fortier is building on the experience she gained operating a nuclear plant for the Navy to solve a critical hurdle in the wider adoption of the energy source. School of Engineering Mechanical engineering Nuclear science and engineering Energy Renewable energy Nuclear power and reactors Artificial intelligence Computer modeling Software Automation Human-computer interaction Students Graduate, postdoctoral Profile Awards, honors and fellowships Department of Energy (DoE) Research U.S. Armed Forces ROTC",
     "doomIndexInputSummary": "Working to automate nuclear plant operations. PhD student Lauren Fortier is building on the experience she gained operating a nuclear plant for the Navy to solve a critical hurdle in the wider adoption of the energy source. School of Engineering Mechanical engineering Nuclear science and engineering Energy Renewable energy Nuclear power and reactors Artificial intelligence Computer modeling Software Automation Human-computer interaction Students Graduate, postdoctoral Profile Awards, honors and fellowships Department of Energy (DoE) Research U.S. Armed Forces ROTC"
   },
@@ -4241,15 +4155,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.2664,
+      "freshness": 0.2564,
       "feedPosition": 0.1111,
-      "novelty": 0.7702
+      "novelty": 0.746
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2244,
+    "score": 0.2205,
     "doomIndex": 12.16,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4313,7 +4227,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7542a1a5ec27380eea04",
     "storyId": "28ec5475dca6d37ec97c",
     "firstSeen": "2026-08-08T11:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Tech companies offer eye-movement trackers, personalized podcasts and ‘optimized nap predictions’. Who actually needs this? What job in our world is less lucrative than being a parent? A Hollywood internship? Volunteering at a soup kitchen? Professional writer? Parenting is the only job you have to pay money to do. Lots of money. Lodging, clothes, food, school, Pokémon cards – it really adds up. And it’s getting worse. According to the tech industry, I have to strap my drooling offspring to a computer in order to ensure the baby’s survival. Parents are being offered life-altering advancements in artificial intelligence that purport to make this taxing endeavor a tiny bit easier. OpenAI is suggesting its latest products can make child-rearing more efficient: its boss, Sam Altman, suggests generating a podcast about your kid’s life that you can listen to in the morning on the way to school. How entertaining would a podcast “that talks about one kid’s soccer game that afternoon, one kid’s upcoming birthday, some news, etc” actually be? “Jimmy needs to work on his dribbling.” Great. I think he knows already. He’s not going to be the next Messi, so how about we switch back to music? Continue reading... Parents and parenting Technology AI (artificial intelligence) Family Life and style",
     "doomIndexInputSummary": "Parenting is hard. Should we let AI do it for us? | Dave Schilling. Tech companies offer eye-movement trackers, personalized podcasts and ‘optimized nap predictions’. Who actually needs this? What job in our world is less lucrative than being a parent? A Hollywood internship? Volunteering at a soup kitchen? Professional writer? Parenting is the only job you have to pay money to do. Lots of money. Lodging, clothes, food, school, Pokémon cards – it really adds up. And it’s getting worse. According to the tech industry, I have to strap my drooling offspring to a computer in order to ensure the baby’s survival. Parents are being offered life-altering advancements in artificial intelligence that purport to make this taxing endeavor a tiny bit easier. OpenAI is suggesting its latest products can make child-rearing more efficient: its boss, Sam Altman, suggests generating a podcast about your kid’s life that you can listen to in the morning on the way to school. How entertaining would a podcast “that talks about one kid’s soccer game that afternoon, one kid’s upcoming birthday, some news, etc” actually be? “Jimmy needs to work on his dribbling.” Great. I think he knows already. He’s not going to be the next Messi, so how about we switch back to music? Continue reading... Parents and parenting Technology AI (artificial intelligence) Family Life and style"
   },
@@ -4407,7 +4321,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "86960611e13b786bd956",
     "storyId": "8783dace857ffb140a77",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Update: The Senate Commerce Committee voted to advance this bill on August 5, 2026. EFF continues to oppose the bill, which still needs approval from the full Senate. Artificial intelligence is rapidly changing education, and the way people search for information. Parents, teenagers, teachers, and schools are struggling with tough questions about when AI should, and should not, be used. It makes sense for Congress to hold hearings and examine how AI should be used by minors. But the recently introduced CHATBOT Act answers those questions with a one-size-fits-all mandate governing how teenagers access AI through federally prescribed parental monitoring systems. Take action Tell Congress not to age-gate the internet The Bill Requires AI Companies To Build Family Monitoring Systems Parents are approaching AI in different ways. Some closely supervise how their children use chatbots, while others might set more general rules about technology. Many families are still figuring out what role AI should play in schoolwork and everyday life. The CHATBOT Act would take that decision away from families and AI providers. Instead of letting families and AI providers decide what parental controls should look like, Congress would require every covered AI chatbot to build the same federally prescribed “family account” system. As part of the required parental-consent process for teens, AI companies must offer parents a \"family account\" that provides access to a \"full record of the conversations and activity\" of teen users and tools to \"monitor, analyze, and understand, at scale\" those conversations. They must also send alerts if a teen attempts to bypass or disable parental controls. This isn’t simply an optional parental-control feature. The bill requires every covered AI provider to build this monitoring infrastructure, and present it as part of the parental consent process. Congress is prescribing a single, highly invasive model of how families should supervise teenagers’ use of AI. The CHATBOT Act Creates New Privacy Risks For Families Parents and families have different ideas about how much independence teenagers should have. Understandably, they also have very different expectations for 8-year olds, 13-year-olds, and 17-year-olds. The CHATBOT Act effectively requires AI providers to build the same monitoring architecture for users of very different ages. And this mandated data collection will create new privacy and security risks. Once Congress requires AI companies to create a permanent, centralized record of teen AI conversations for parental review, that will be a valuable vault of extremely personal information. That raises serious questions about what would happen in cases where someone else gains access to it through account compromise, family disputes, or other security failures. The vast archives of conversations created by the government-mandated family accounts won't be interesting only to parents. They will become valuable targets for hackers, identity thieves, civil litigants, and anyone else seeking access to the deeply personal information of others. The CHATBOT Act requires the records to exist, but addresses none of those risks. Families are still figuring out what role AI should play in schoolwork and everyday life. Congress shouldn’t freeze one answer into federal law by requiring every AI company to build the same prescribed monitoring system. Take action Tell Congress to oppose the chatbot act The CHATBOT Act Applies A Children’s Law To Teenagers The CHATBOT Act takes the basic structure of COPPA, a nearly 30-year-old law that applies to children aged 12 and under, and applies the same “verifiable parental consent” to older teenagers. That’s a dramatic expansion of the law. Congress enacted COPPA to prevent kids from handing over detailed personal information to online services without making sure parents approved. For nearly three decades, Congress has required parental consent before websites collect per",
     "doomIndexInputSummary": "The CHATBOT Act Forces One Parenting Model On Every Family. Update: The Senate Commerce Committee voted to advance this bill on August 5, 2026. EFF continues to oppose the bill, which still needs approval from the full Senate. Artificial intelligence is rapidly changing education, and the way people search for information. Parents, teenagers, teachers, and schools are struggling with tough questions about when AI should, and should not, be used. It makes sense for Congress to hold hearings and examine how AI should be used by minors. But the recently introduced CHATBOT Act answers those questions with a one-size-fits-all mandate governing how teenagers access AI through federally prescribed parental monitoring systems. Take action Tell Congress not to age-gate the internet The Bill Requires AI Companies To Build Family Monitoring Systems Parents are approaching AI in different ways. Some closely supervise how their children use chatbots, while others might set more general rules about technology. Many families are still figuring out what role AI should play in schoolwork and everyday life. The CHATBOT Act would take that decision away from families and AI providers. Instead of letting families and AI providers decide what parental controls should look like, Congress would require every covered AI chatbot to build the same federally prescribed “family account” system. As part of the required parental-consent process for teens, AI companies must offer parents a \"family account\" that provides access to a \"full record of the conversations and activity\" of teen users and tools to \"monitor, analyze, and understand, at scale\" those conversations. They must also send alerts if a teen attempts to bypass or disable parental controls. This isn’t simply an optional parental-control feature. The bill requires every covered AI provider to build this monitoring infrastructure, and present it as part of the parental consent process. Congress is prescribing a single, highly invasive model of how families should supervise teenagers’ use of AI. The CHATBOT Act Creates New Privacy Risks For Families Parents and families have different ideas about how much independence teenagers should have. Understandably, they also have very different expectations for 8-year olds, 13-year-olds, and 17-year-olds. The CHATBOT Act effectively requires AI providers to build the same monitoring architecture for users of very different ages. And this mandated data collection will create new privacy and security risks. Once Congress requires AI companies to create a permanent, centralized record of teen AI conversations for parental review, that will be a valuable vault of extremely personal information. That raises serious questions about what would happen in cases where someone else gains access to it through account compromise, family disputes, or other security failures. The vast archives of conversations created by the government-mandated family accounts won't be interesting only to parents. They will become valuable targets for hackers, identity thieves, civil litigants, and anyone else seeking access to the deeply personal information of others. The CHATBOT Act requires the records to exist, but addresses none of those risks. Families are still figuring out what role AI should play in schoolwork and everyday life. Congress shouldn’t freeze one answer into federal law by requiring every AI company to build the same prescribed monitoring system. Take action Tell Congress to oppose the chatbot act The CHATBOT Act Applies A Children’s Law To Teenagers The CHATBOT Act takes the basic structure of COPPA, a nearly 30-year-old law that applies to children aged 12 and under, and applies the same “verifiable parental consent” to older teenagers. That’s a dramatic expansion of the law. Congress enacted COPPA to prevent kids from handing over detailed personal information to online services without making sure parents approved. For nearly three decades, Congress has required parental consent before websites collect per"
   },
@@ -4423,7 +4337,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.28,
       "sourceAuthority": 0.5,
-      "freshness": 0.0134,
+      "freshness": 0.0129,
       "feedPosition": 0.6667,
       "novelty": 0.8377
     },
@@ -4499,7 +4413,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c0f2b378526b6a86f644",
     "storyId": "273c2bbfd8ff72015bed",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "EFF joined a group of 18 civil society organizations to send a letter encouraging New York Governor Kathy Hochul to veto Senate Bill 9934A, the New York Stealth Crawler Prohibition Act. The letter states: While framed as a measure to protect local journalism, this legislation harms free expression and establishes a dangerous precedent by effectively deanonymizing and criminalizing automated access to the open web. By requiring all web crawlers to disclose their identity and explicit purpose, and by granting media outlets unchecked authority to obtain judicial subpoenas to unmask unidentified automated web traffic without any showing of misconduct or actual injury, this bill threatens digital privacy, compromises the foundational architecture of the internet, and will ultimately stifle the very independent journalism it seeks to protect. As we’ve previously explained, so-called “stealth crawlers” are simply automated tools to access and collect public web data—without disclosing the user’s identity. Private crawlers like these facilitate all kinds of important work that benefits the public, including investigative reporting, academic research, cybersecurity protection, and EFF’s own Privacy Badger. As we illustrate in the letter: Anonymous crawling fuels important investigative journalism. For example, The Markup, a non-profit news site, used anonymous crawlers to investigate potentially anti-competitive practices by tech companies, such as Amazon’s tendency to prioritize Amazon brands and Amazon-exclusive products over competitors with higher ratings. The crawlers identified themselves as ordinary Firefox browsers to web servers, which allowed The Markup to understand how Amazon search results pages would appear to ordinary users. Similarly, ProPublica used an automated tool designed to simulate an ordinary Amazon customer to reveal that the site steered shoppers to more expensive products over cheaper alternatives. Anonymous web scraping is also crucial for cybersecurity professionals, who use automated tools to monitor the web for information that helps them protect against malicious attackers. Privacy tools, including EFF’s Privacy Badger, also crawl sites anonymously to identify trackers without compromising user privacy. Laws like S9934A sweep far beyond AI, targeting anonymity rather than the real technical issue: overaggressive crawling that can overtax technological infrastructure. Unmasking crawlers won't fix these server strains, but it will chill vital public-interest research and compromise digital privacy. Addressing the harms of web scraping requires narrow technical solutions—not policies that give publishers veto power over the open web. This is why we are calling on Governor Hochul to veto S9934A. You can read the full letter here. For a deeper dive into why crawlers and scrapers are vital for the open web, check out this blog post. Artificial Intelligence Anonymity",
     "doomIndexInputSummary": "EFF Joins 18 Civil Rights Organizations Calling on Governor Hochul to Reject the Stealth Crawler Prohibition Act. EFF joined a group of 18 civil society organizations to send a letter encouraging New York Governor Kathy Hochul to veto Senate Bill 9934A, the New York Stealth Crawler Prohibition Act. The letter states: While framed as a measure to protect local journalism, this legislation harms free expression and establishes a dangerous precedent by effectively deanonymizing and criminalizing automated access to the open web. By requiring all web crawlers to disclose their identity and explicit purpose, and by granting media outlets unchecked authority to obtain judicial subpoenas to unmask unidentified automated web traffic without any showing of misconduct or actual injury, this bill threatens digital privacy, compromises the foundational architecture of the internet, and will ultimately stifle the very independent journalism it seeks to protect. As we’ve previously explained, so-called “stealth crawlers” are simply automated tools to access and collect public web data—without disclosing the user’s identity. Private crawlers like these facilitate all kinds of important work that benefits the public, including investigative reporting, academic research, cybersecurity protection, and EFF’s own Privacy Badger. As we illustrate in the letter: Anonymous crawling fuels important investigative journalism. For example, The Markup, a non-profit news site, used anonymous crawlers to investigate potentially anti-competitive practices by tech companies, such as Amazon’s tendency to prioritize Amazon brands and Amazon-exclusive products over competitors with higher ratings. The crawlers identified themselves as ordinary Firefox browsers to web servers, which allowed The Markup to understand how Amazon search results pages would appear to ordinary users. Similarly, ProPublica used an automated tool designed to simulate an ordinary Amazon customer to reveal that the site steered shoppers to more expensive products over cheaper alternatives. Anonymous web scraping is also crucial for cybersecurity professionals, who use automated tools to monitor the web for information that helps them protect against malicious attackers. Privacy tools, including EFF’s Privacy Badger, also crawl sites anonymously to identify trackers without compromising user privacy. Laws like S9934A sweep far beyond AI, targeting anonymity rather than the real technical issue: overaggressive crawling that can overtax technological infrastructure. Unmasking crawlers won't fix these server strains, but it will chill vital public-interest research and compromise digital privacy. Addressing the harms of web scraping requires narrow technical solutions—not policies that give publishers veto power over the open web. This is why we are calling on Governor Hochul to veto S9934A. You can read the full letter here. For a deeper dive into why crawlers and scrapers are vital for the open web, check out this blog post. Artificial Intelligence Anonymity"
   },
@@ -4515,14 +4429,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0351,
+      "freshness": 0.0337,
       "feedPosition": 0,
-      "novelty": 0.3743
+      "novelty": 0.3388
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.2177,
+    "score": 0.2139,
     "doomIndex": 11.61,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4579,7 +4493,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "78450d2fed4a481d8d7e",
     "storyId": "a690ea26eb77cbf979fb",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Faced with a barrage of ads, misinformation, AI slop, toxicity and doom-scrolling, it can feel like the internet is kind of... broken. Is it? And what are the alternatives?",
     "doomIndexInputSummary": "Scientists tracked 12 people in Antarctica for 10 months—what happened could shape future Mars missions. A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people. Frequent contact was linked to greater tension and mistrust, while the crew increasingly divided into cultural and language-based groups. What happened to the internet?. Faced with a barrage of ads, misinformation, AI slop, toxicity and doom-scrolling, it can feel like the internet is kind of... broken. Is it? And what are the alternatives?"
   },
@@ -4597,13 +4511,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.5066
+      "novelty": 0.5338
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details"
     ],
-    "score": 0.2728,
+    "score": 0.2755,
     "doomIndex": 11.56,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4667,7 +4581,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "de23cd24edda0319f6ab",
     "storyId": "4b0b581f96fdff4b22f4",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm. At its annual I/O developer conference, Google announced a sweeping redesign of the search box itself — the literal text field where billions of queries begin every day — transforming it from a simple keyword input into a dynamic, AI-driven conversation starter that can accept text, images, PDFs, videos, and even open Chrome tabs as inputs. The company is also merging its AI Overviews and AI Mode features into a single, seamless search flow, eliminating the friction that previously forced users to choose between a traditional results page and an AI-forward experience. Liz Reid, Google's vice president and head of Search, called it \"the biggest upgrade to our iconic search box since its debut over 25 years ago\" during a press briefing on Monday. The announcement arrived alongside a blizzard of other news — new Gemini models, a personal AI agent called Spark, an intelligent shopping cart, a reimagined developer platform — but the search box redesign may prove to be the most consequential. It is the clearest signal yet that Google views the future of its flagship product not as a place where users type fragmented keywords, but as an interface where they hold open-ended, multimodal conversations with an AI system backed by the entire web. The new search box expands, accepts files, and coaches you on what to ask The changes show a fundamental shift in how Google expects people to interact with the product that generates the vast majority of Alphabet's revenue. The box itself now dynamically expands to accommodate longer, more conversational queries. Where the old interface subtly encouraged brevity — a narrow field suited to two- or three-word keyword strings — the new design invites users to fully articulate complex questions in granular detail. It also now supports multimodal inputs directly. Users can upload images, PDFs, files, and videos, or drag in content from Chrome tabs, right from the main search interface. Previously, some of these capabilities existed in AI Mode, but reaching them required extra steps. Now they sit at the primary entry point. Google is also deploying what it describes as an AI-powered query suggestion system that \"goes beyond autocomplete.\" Rather than simply predicting the next word a user might type based on popular searches, the system helps users formulate complex, nuanced queries — essentially coaching them toward the kind of detailed questions that AI Mode handles best. The new search box is starting to roll out immediately in all countries and languages where AI Mode is available. Google is merging AI overviews and AI mode into one seamless experience Perhaps more significant than the box itself is the architectural change happening behind it. Google is unifying AI Overviews — the AI-generated summary panels that appear atop traditional search results — with AI Mode, the more immersive conversational search experience the company launched at I/O one year ago. Starting Tuesday, this merged experience will be live across mobile and desktop worldwide. A user can type a question, receive an AI Overview alongside traditional results, and then continue directly into a back-and-forth AI Mode conversation to ask follow-up questions — all without navigating to a separate interface. Reid explained the logic during the press briefing: the new AI search box is \"an upgrade of our traditional search box, and so the results take you directly to main search rather than AI mode.\" She noted that while some power users actively sought out AI Mode, \"for most users, they don't actually want to have to think about, do they want more of a traditional page or an AI-forward search experience.\" The goal, she said, was to ensure that \"for most users, they don't have to think a",
     "doomIndexInputSummary": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.. For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm. At its annual I/O developer conference, Google announced a sweeping redesign of the search box itself — the literal text field where billions of queries begin every day — transforming it from a simple keyword input into a dynamic, AI-driven conversation starter that can accept text, images, PDFs, videos, and even open Chrome tabs as inputs. The company is also merging its AI Overviews and AI Mode features into a single, seamless search flow, eliminating the friction that previously forced users to choose between a traditional results page and an AI-forward experience. Liz Reid, Google's vice president and head of Search, called it \"the biggest upgrade to our iconic search box since its debut over 25 years ago\" during a press briefing on Monday. The announcement arrived alongside a blizzard of other news — new Gemini models, a personal AI agent called Spark, an intelligent shopping cart, a reimagined developer platform — but the search box redesign may prove to be the most consequential. It is the clearest signal yet that Google views the future of its flagship product not as a place where users type fragmented keywords, but as an interface where they hold open-ended, multimodal conversations with an AI system backed by the entire web. The new search box expands, accepts files, and coaches you on what to ask The changes show a fundamental shift in how Google expects people to interact with the product that generates the vast majority of Alphabet's revenue. The box itself now dynamically expands to accommodate longer, more conversational queries. Where the old interface subtly encouraged brevity — a narrow field suited to two- or three-word keyword strings — the new design invites users to fully articulate complex questions in granular detail. It also now supports multimodal inputs directly. Users can upload images, PDFs, files, and videos, or drag in content from Chrome tabs, right from the main search interface. Previously, some of these capabilities existed in AI Mode, but reaching them required extra steps. Now they sit at the primary entry point. Google is also deploying what it describes as an AI-powered query suggestion system that \"goes beyond autocomplete.\" Rather than simply predicting the next word a user might type based on popular searches, the system helps users formulate complex, nuanced queries — essentially coaching them toward the kind of detailed questions that AI Mode handles best. The new search box is starting to roll out immediately in all countries and languages where AI Mode is available. Google is merging AI overviews and AI mode into one seamless experience Perhaps more significant than the box itself is the architectural change happening behind it. Google is unifying AI Overviews — the AI-generated summary panels that appear atop traditional search results — with AI Mode, the more immersive conversational search experience the company launched at I/O one year ago. Starting Tuesday, this merged experience will be live across mobile and desktop worldwide. A user can type a question, receive an AI Overview alongside traditional results, and then continue directly into a back-and-forth AI Mode conversation to ask follow-up questions — all without navigating to a separate interface. Reid explained the logic during the press briefing: the new AI search box is \"an upgrade of our traditional search box, and so the results take you directly to main search rather than AI mode.\" She noted that while some power users actively sought out AI Mode, \"for most users, they don't actually want to have to think about, do they want more of a traditional page or an AI-forward search experience.\" The goal, she said, was to ensure that \"for most users, they don't have to think a"
   },
@@ -4683,16 +4597,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.202,
       "sourceAuthority": 0.5,
-      "freshness": 0.1379,
+      "freshness": 0.1327,
       "feedPosition": 0.3333,
-      "novelty": 0.5251
+      "novelty": 0.5162
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.3219,
+    "score": 0.3203,
     "doomIndex": 11.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4749,7 +4663,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "fae5121fa8754282f131",
     "storyId": "2f06de4f1aa26cd6d8d5",
     "firstSeen": "2026-08-07T13:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people. Frequent contact was linked to greater tension and mistrust, while the crew increasingly divided into cultural and language-based groups.",
     "doomIndexInputSummary": "Scientists tracked 12 people in Antarctica for 10 months—what happened could shape future Mars missions. A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people. Frequent contact was linked to greater tension and mistrust, while the crew increasingly divided into cultural and language-based groups. What happened to the internet?. Faced with a barrage of ads, misinformation, AI slop, toxicity and doom-scrolling, it can feel like the internet is kind of... broken. Is it? And what are the alternatives?"
   },
@@ -4765,9 +4679,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0384,
+      "freshness": 0.037,
       "feedPosition": 0.4444,
-      "novelty": 0.799
+      "novelty": 0.7808
     },
     "rankingReasons": [
       "real-world consequences",
@@ -4775,7 +4689,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2555,
+    "score": 0.2535,
     "doomIndex": 11.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4839,7 +4753,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9a8283f867340ab13f9b",
     "storyId": "eae713dadde24d8f6b53",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "Five Questions the US Government Should Answer About Its Secretive Frontier AI Framework."
   },
@@ -4855,14 +4769,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0845,
+      "freshness": 0.0813,
       "feedPosition": 0.2222,
       "novelty": 0.7842
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1883,
+    "score": 0.1878,
     "doomIndex": 11.12,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4921,7 +4835,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9c995c891ed25458f4e1",
     "storyId": "7da0f23dc1240b215395",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Suno’s AI vocalists could learn a thing or two from this glitchy image. | Image: Cath Virginia / The Verge, Getty Images Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company's principles and the next steps for the company as it seeks legitimacy. The company is rolling out new transparency tools, along with new watermarking and fingerprinting tech. Shulman says it aligns with \"emerging industry standards\" that will make it easier to identify Suno-generated content. He also says the company is aiming to partner with \"distribution platforms on combatting fraud and misuse.\" Last year, th … Read the full story at The Verge. Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company's principles and the next steps for the company as it seeks legitimacy. The company is rolling out new […]",
     "doomIndexInputSummary": "Suno shares plans to combat spammy AI music. Suno’s AI vocalists could learn a thing or two from this glitchy image. | Image: Cath Virginia / The Verge, Getty Images Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company's principles and the next steps for the company as it seeks legitimacy. The company is rolling out new transparency tools, along with new watermarking and fingerprinting tech. Shulman says it aligns with \"emerging industry standards\" that will make it easier to identify Suno-generated content. He also says the company is aiming to partner with \"distribution platforms on combatting fraud and misuse.\" Last year, th … Read the full story at The Verge. Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company's principles and the next steps for the company as it seeks legitimacy. The company is rolling out new […]"
   },
@@ -4937,8 +4851,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.23,
       "sourceAuthority": 0.5,
-      "freshness": 0.5717,
-      "feedPosition": 0.6667,
+      "freshness": 0.5502,
+      "feedPosition": 0.5556,
       "novelty": 0.7808
     },
     "rankingReasons": [
@@ -4946,7 +4860,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.3515,
+    "score": 0.3372,
     "doomIndex": 11.05,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5007,7 +4921,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ebb0505e1a397158122f",
     "storyId": "c6578f3dce99176c7d0e",
     "firstSeen": "2026-08-09T14:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models. Security AI Meta cybersecurity moonshot OpenAI Hugging Face Anthropic",
     "doomIndexInputSummary": "The AI safety test is becoming a safety risk. AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models. Security AI Meta cybersecurity moonshot OpenAI Hugging Face Anthropic"
   },
@@ -5023,8 +4937,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2645,
       "sourceAuthority": 0.5,
-      "freshness": 0.9965,
-      "feedPosition": 1,
+      "freshness": 0.9589,
+      "feedPosition": 0.8889,
       "novelty": 0.8921
     },
     "rankingReasons": [
@@ -5033,7 +4947,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4666,
+    "score": 0.4498,
     "doomIndex": 11,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5092,7 +5006,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a42385d4d0d91f17d755",
     "storyId": "9d6686843e6ec946a701",
     "firstSeen": "2026-08-10T10:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "An AI interview is increasingly the first step of a hiring process. Since there’s no human on the other end, candidates are scheduling them whenever—even deep into the night. Business Business / Artificial Intelligence",
     "doomIndexInputSummary": "The Rise of the 1 am Job Interview. An AI interview is increasingly the first step of a hiring process. Since there’s no human on the other end, candidates are scheduling them whenever—even deep into the night. Business Business / Artificial Intelligence"
   },
@@ -5108,12 +5022,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.1643,
-      "feedPosition": 0.8889,
+      "freshness": 0.1581,
+      "feedPosition": 0.7778,
       "novelty": 0.6108
     },
     "rankingReasons": [],
-    "score": 0.2556,
+    "score": 0.2436,
     "doomIndex": 11,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5170,7 +5084,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "026c5f9b0308e1371f2e",
     "storyId": "5373adb312ba0f1cacae",
     "firstSeen": "2026-08-07T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Gurman report claims OpenAI confirmed the speaker is not an Apple ripoff. AI Tech openai smart home",
     "doomIndexInputSummary": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”. Gurman report claims OpenAI confirmed the speaker is not an Apple ripoff. AI Tech openai smart home"
   },
@@ -5186,7 +5100,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.153,
       "sourceAuthority": 0.5,
-      "freshness": 0.5196,
+      "freshness": 0.5,
       "feedPosition": 0.5556,
       "novelty": 0.9123
     },
@@ -5195,7 +5109,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3303,
+    "score": 0.3274,
     "doomIndex": 10.95,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5256,7 +5170,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7a7a9caac0b5df03f235",
     "storyId": "6f9acfefa6b57f19190f",
     "firstSeen": "2026-08-09T11:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Whitehall wants to triple their number in the UK. Yet in Slough, I saw the impact they’re having on communities Amid headlines about the UK’s drought, Europe’s wildfires and impossible global temperatures, it was 28C when I arrived in Slough last Monday. I was there to look around Slough Trading Estate, a place that might once have conjured up images of the TV comedy The Office, many of whose laughs came at the expense of this overgrown patch of suburbia, 20-odd miles west of London. But these days, this area of town – an incongruous mixture of old-school businesses such as Mr Clutch and Angling Direct, and vast, metal-clad leviathans that look like something pulled from JG Ballard – has become a byword for the constant expansion of datacentres, those hulking symbols of the vast computing power that big tech now requires, not least because of the ever-more complex workings of artificial intelligence. Continue reading... Datacentres - UK AI (artificial intelligence) UK news Computing Water Environment",
     "doomIndexInputSummary": "As AI guzzles water and energy, we are already facing a choice: datacentres or homes? | John Harris. Whitehall wants to triple their number in the UK. Yet in Slough, I saw the impact they’re having on communities Amid headlines about the UK’s drought, Europe’s wildfires and impossible global temperatures, it was 28C when I arrived in Slough last Monday. I was there to look around Slough Trading Estate, a place that might once have conjured up images of the TV comedy The Office, many of whose laughs came at the expense of this overgrown patch of suburbia, 20-odd miles west of London. But these days, this area of town – an incongruous mixture of old-school businesses such as Mr Clutch and Angling Direct, and vast, metal-clad leviathans that look like something pulled from JG Ballard – has become a byword for the constant expansion of datacentres, those hulking symbols of the vast computing power that big tech now requires, not least because of the ever-more complex workings of artificial intelligence. Continue reading... Datacentres - UK AI (artificial intelligence) UK news Computing Water Environment"
   },
@@ -5272,9 +5186,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.262,
       "sourceAuthority": 0.5,
-      "freshness": 0.0889,
-      "feedPosition": 0.1111,
-      "novelty": 0.8747
+      "freshness": 0.0856,
+      "feedPosition": 0,
+      "novelty": 0.8452
     },
     "rankingReasons": [
       "urgency or risk",
@@ -5282,7 +5196,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2393,
+    "score": 0.2248,
     "doomIndex": 10.66,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5343,9 +5257,93 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5829b99f2492389cf819",
     "storyId": "ba7facbc01c5e85f5688",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "In today’s episode of Uncanny Valley, we discuss how ICE has been collecting DNA samples of people who have no criminal convictions, including children, which end up in an FBI database indefinitely. Business AI Hub Business / Big Tech Business / Artificial Intelligence Business / Regulation Politics Politics / Politics News",
     "doomIndexInputSummary": "ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows. In today’s episode of Uncanny Valley, we discuss how ICE has been collecting DNA samples of people who have no criminal convictions, including children, which end up in an FBI database indefinitely. Business AI Hub Business / Big Tech Business / Artificial Intelligence Business / Regulation Politics Politics / Politics News"
+  },
+  {
+    "group": "ai",
+    "title": "I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out",
+    "url": "https://www.nature.com/articles/d41586-026-02447-y",
+    "source": "Nature AI News & Comment",
+    "published": "2026-08-10T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.082,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7163,
+      "feedPosition": 1,
+      "novelty": 0.5805
+    },
+    "rankingReasons": [
+      "surprise or reversal"
+    ],
+    "score": 0.3569,
+    "doomIndex": 10.27,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 1,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "vulnerable people affected",
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "afa92dc37f58c3836ab9",
+    "doomIndexInputFingerprint": "b5aac0d0907ebb94b8dc",
+    "doomIndexV123Shadow": 10.27,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 1,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "vulnerable people affected",
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "afa92dc37f58c3836ab9",
+    "doomIndexV123InputFingerprint": "fdf8b6df60d2a341082c",
+    "storyId": "f61ece82944d6b710d4e",
+    "firstSeen": "2026-08-10T12:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "I caught my students using AI to cheat in an exam — here’s what universities must do to stamp this out."
   },
   {
     "group": "ai",
@@ -5359,16 +5357,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0217,
+      "freshness": 0.0209,
       "feedPosition": 0.3333,
-      "novelty": 0.6384
+      "novelty": 0.6202
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2258,
+    "score": 0.2239,
     "doomIndex": 10.27,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5429,7 +5427,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "8e704e08ecc0da798165",
     "storyId": "94c55c97da6568a59279",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "AI Is Not Social Media. New Child Safety Laws Should Reflect That.."
   },
@@ -5445,7 +5443,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.339,
       "sourceAuthority": 0.5,
-      "freshness": 0.0774,
+      "freshness": 0.0745,
       "feedPosition": 0,
       "novelty": 0.6943
     },
@@ -5455,7 +5453,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2238,
+    "score": 0.2234,
     "doomIndex": 10.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5519,7 +5517,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5e8fd007833bdd6ddc9d",
     "storyId": "5b8bd87aa273fc1e010a",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The Portsmouth, Ohio site where SoftBank will build its data center. | Image: US Department of Energy SoftBank contributed $50 million to the Trump Presidential Library in January, just months before announcing that it's leasing land from the federal government to build a sprawling data center in Ohio. The Japanese company revealed the timing in response to a June letter from Sen. Elizabeth Warren (D-MA), Sen. Richard Blumenthal (D-CT), and Rep. Melanie Stansbury (D-NM), which raised concerns about bribery. \"Are we expected to believe it's a coincidence that two months after Softbank donated $50 million to the Trump library, his administration announced a massive lease deal for Softbank's data center?\" Sen. Warren said in a statement to The … Read the full story at The Verge. SoftBank contributed $50 million to the Trump Presidential Library in January, just months before announcing that it's leasing land from the federal government to build a sprawling data center in Ohio. The Japanese company revealed the timing in response to a June letter from Sen. Elizabeth Warren (D-MA), Sen. Richard Blumenthal (D-CT), and Rep. Melanie […]",
     "doomIndexInputSummary": "SoftBank donated $50 million to Trump’s library months before federal data center deal. The Portsmouth, Ohio site where SoftBank will build its data center. | Image: US Department of Energy SoftBank contributed $50 million to the Trump Presidential Library in January, just months before announcing that it's leasing land from the federal government to build a sprawling data center in Ohio. The Japanese company revealed the timing in response to a June letter from Sen. Elizabeth Warren (D-MA), Sen. Richard Blumenthal (D-CT), and Rep. Melanie Stansbury (D-NM), which raised concerns about bribery. \"Are we expected to believe it's a coincidence that two months after Softbank donated $50 million to the Trump library, his administration announced a massive lease deal for Softbank's data center?\" Sen. Warren said in a statement to The … Read the full story at The Verge. SoftBank contributed $50 million to the Trump Presidential Library in January, just months before announcing that it's leasing land from the federal government to build a sprawling data center in Ohio. The Japanese company revealed the timing in response to a June letter from Sen. Elizabeth Warren (D-MA), Sen. Richard Blumenthal (D-CT), and Rep. Melanie […]"
   },
@@ -5535,15 +5533,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.133,
-      "feedPosition": 0.4444,
+      "freshness": 0.128,
+      "feedPosition": 0.3333,
       "novelty": 0.6329
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2311,
+    "score": 0.2192,
     "doomIndex": 10.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5602,7 +5600,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "061216e3edcb3cf2b350",
     "storyId": "71ebcdbe6018b4ef2c1c",
     "firstSeen": "2026-08-07T10:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "WIRED spoke with Tucker Bryant, an artist and former Google employee who created ChatTJB to get people to reflect on the “strange moment” we’re in. Business Business / Artificial Intelligence",
     "doomIndexInputSummary": "The Hottest New AI Chatbot Is Just a Guy Answering Your Questions. WIRED spoke with Tucker Bryant, an artist and former Google employee who created ChatTJB to get people to reflect on the “strange moment” we’re in. Business Business / Artificial Intelligence"
   },
@@ -5618,14 +5616,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1465,
-      "feedPosition": 0.6667,
-      "novelty": 0.6856
+      "freshness": 0.141,
+      "feedPosition": 0.5556,
+      "novelty": 0.7032
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2393,
+    "score": 0.2291,
     "doomIndex": 9.93,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5684,7 +5682,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "55a563ed07db8625358b",
     "storyId": "50d8c339199a059cdb4e",
     "firstSeen": "2026-08-07T13:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "TikTok owner training a model with 10 trillion parameters. AI bytedance china Model distillation syndication",
     "doomIndexInputSummary": "ByteDance trains massive AI model in bid to rival Anthropic. TikTok owner training a model with 10 trillion parameters. AI bytedance china Model distillation syndication"
   },
@@ -5700,7 +5698,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.442,
       "sourceAuthority": 0.5,
-      "freshness": 0.2664,
+      "freshness": 0.2564,
       "feedPosition": 0,
       "novelty": 0.8984
     },
@@ -5712,7 +5710,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2932,
+    "score": 0.2917,
     "doomIndex": 9.16,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5775,7 +5773,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "02b9630bd0fa14703faf",
     "storyId": "23ab0fffe7d50e015688",
     "firstSeen": "2026-08-08T11:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Ever the strategist, the Chinese leader is taking the offensive, both abroad and at home. That’s bad news for global order, and minorities in his country Imagine what would happen if a British prime minister in London told the Scots they could not have their own parliament, national football team or fly the saltire. Or if the Welsh were told their language and poetry were banned and must no longer be taught in schools. The ensuing uproar would probably destroy the United Kingdom. Yet that’s exactly what Xi Jinping, China’s communist emperor, is telling the roughly 125 million members of the 55 ethnic and religious minorities who together comprise about 9% of the country’s (majority Han Chinese) population. Xi claims his sinicisation policy, embodied in a new “ethnic unity” law, will boost national identity and integration and, by expanding compulsory use of the Mandarin language, improve life and work prospects. Minorities should “hug tightly like pomegranate seeds” to build a strong, united China, he says. But Tibetans, Mongolians, Uyghurs and others who value their separate language and customs fiercely object to what they see as forced assimilation into a conformist, intolerant monoculture dominated by the Communist party’s tunnel vision. For them, it’s ethnic cleansing by another name. Simon Tisdall is a Guardian foreign affairs commentator Continue reading... Xi Jinping China Human rights Tariffs AI (artificial intelligence) Asia Pacific World news Donald Trump Taiwan Philippines Iran International trade Global economy",
     "doomIndexInputSummary": "President Xi never wastes a good crisis. As Iran, Ukraine and Palestine distract the world, he tightens his grip | Simon Tisdall. Ever the strategist, the Chinese leader is taking the offensive, both abroad and at home. That’s bad news for global order, and minorities in his country Imagine what would happen if a British prime minister in London told the Scots they could not have their own parliament, national football team or fly the saltire. Or if the Welsh were told their language and poetry were banned and must no longer be taught in schools. The ensuing uproar would probably destroy the United Kingdom. Yet that’s exactly what Xi Jinping, China’s communist emperor, is telling the roughly 125 million members of the 55 ethnic and religious minorities who together comprise about 9% of the country’s (majority Han Chinese) population. Xi claims his sinicisation policy, embodied in a new “ethnic unity” law, will boost national identity and integration and, by expanding compulsory use of the Mandarin language, improve life and work prospects. Minorities should “hug tightly like pomegranate seeds” to build a strong, united China, he says. But Tibetans, Mongolians, Uyghurs and others who value their separate language and customs fiercely object to what they see as forced assimilation into a conformist, intolerant monoculture dominated by the Communist party’s tunnel vision. For them, it’s ethnic cleansing by another name. Simon Tisdall is a Guardian foreign affairs commentator Continue reading... Xi Jinping China Human rights Tariffs AI (artificial intelligence) Asia Pacific World news Donald Trump Taiwan Philippines Iran International trade Global economy"
   },
@@ -5791,7 +5789,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.1445,
+      "freshness": 0.139,
       "feedPosition": 1,
       "novelty": 0.7808
     },
@@ -5800,7 +5798,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3031,
+    "score": 0.3023,
     "doomIndex": 9.08,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5864,7 +5862,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ab9c317275f680d1bcf3",
     "storyId": "d5d2d3a0053892c6ce35",
     "firstSeen": "2026-08-07T13:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "AI Didn't Create the Election Infrastructure Problem. It Just Made It Urgent.."
   },
@@ -5880,14 +5878,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.9829,
+      "freshness": 0.9458,
       "feedPosition": 1,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.4224,
+    "score": 0.4169,
     "doomIndex": 9.07,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5948,7 +5946,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "311df44447546e7598af",
     "storyId": "b3fd27415954c52e9ceb",
     "firstSeen": "2026-08-10T10:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Beijing is pioneering regulations that could shape how governments around the world govern emotionally intelligent chatbots.",
     "doomIndexInputSummary": "Beijing is forcing a mass breakup with AI lovers. Beijing is pioneering regulations that could shape how governments around the world govern emotionally intelligent chatbots."
   },
@@ -5964,14 +5962,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.018,
+      "freshness": 0.0173,
       "feedPosition": 0.75,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2473,
+    "score": 0.2472,
     "doomIndex": 8.86,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6032,7 +6030,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "bbe8947d0b0be33e6132",
     "storyId": "afa784f78ef3eabdb09a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Local tech groups in Kenya, India, and the U.S. are building communities and conversations around AI, but also face questions about privilege and reach.",
     "doomIndexInputSummary": "The global grassroots gatherings trying to humanize the AI boom. Local tech groups in Kenya, India, and the U.S. are building communities and conversations around AI, but also face questions about privilege and reach."
   },
@@ -6120,7 +6118,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3a9ba44f855beea2f646",
     "storyId": "3fc6c636cb8684f162eb",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Air taxis and drones navigate different flight zones with NASA-inspired system The post NASA, Industry Weave Data Fabric with Artificial Intelligence appeared first on NASA Science. Ames Research Center Artificial Intelligence (AI) Partner With Us Spinoffs Technology Transfer Technology Transfer & Spinoffs",
     "doomIndexInputSummary": "AI at NASA. NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts NASA-developed AI Could Help Track Harmful Algae. NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit. A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model aboard two in-orbit platforms. The post NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit appeared first on NASA Science. Science & Research Artificial Intelligence (AI) Open Science NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data. Trained on data from NASA's exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets. The post NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data appeared first on NASA Science. Open Science Ames Research Center Artificial Intelligence (AI) Exoplanets Kepler / K2 TESS (Transiting Exoplanet Survey Satellite) NASA, Industry Weave Data Fabric with Artificial Intelligence. Air taxis and drones navigate different flight zones with NASA-inspired system The post NASA, Industry Weave Data Fabric with Artificial Intelligence appeared first on NASA Science. Ames Research Center Artificial Intelligence (AI) Partner With Us Spinoffs Technology Transfer Technology Transfer & Spinoffs NASA Data Powers New Tool to Protect Water Supply After Fires. When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires"
   },
@@ -6209,7 +6207,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "50ec65036fecba6e29c4",
     "storyId": "1fb8820b9fa3c356e0d7",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The visionary PhysioNet platform launched 25 years ago, based on a system developed at MIT in the 1970s. It has become one of the most comprehensive biomedical and clinical data repositories in existence. History of science Data Information systems Health care Medicine Internet History of MIT Artificial intelligence Health sciences and technology History Research Laboratory of Electronics Harvard-MIT Health Sciences and Technology Institute for Medical Engineering and Science (IMES) Electrical engineering and computer science (EECS) School of Engineering",
     "doomIndexInputSummary": "How a medical database developed at MIT evolved into a global standard of data-sharing. The visionary PhysioNet platform launched 25 years ago, based on a system developed at MIT in the 1970s. It has become one of the most comprehensive biomedical and clinical data repositories in existence. History of science Data Information systems Health care Medicine Internet History of MIT Artificial intelligence Health sciences and technology History Research Laboratory of Electronics Harvard-MIT Health Sciences and Technology Institute for Medical Engineering and Science (IMES) Electrical engineering and computer science (EECS) School of Engineering"
   },
@@ -6225,14 +6223,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5193,
+      "freshness": 0.4997,
       "feedPosition": 0.8889,
       "novelty": 0.8108
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3229,
+    "score": 0.3199,
     "doomIndex": 8.62,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6291,7 +6289,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7e4686595d0f8bed90a3",
     "storyId": "266d3b52d469f5267427",
     "firstSeen": "2026-08-09T13:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Chemists have developed a catalyst that breaks a long-standing rule governing which molecules receive electrons during chemical reactions. By releasing electrons directly into solution, the technique could unlock reactions—and potentially useful new molecules—that were previously out of reach.",
     "doomIndexInputSummary": "Chemists set electrons free and break a decades-old chemistry barrier. Chemists have developed a catalyst that breaks a long-standing rule governing which molecules receive electrons during chemical reactions. By releasing electrons directly into solution, the technique could unlock reactions—and potentially useful new molecules—that were previously out of reach."
   },
@@ -6307,7 +6305,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.0014,
+      "freshness": 0.0013,
       "feedPosition": 0.5,
       "novelty": 0.5858
     },
@@ -6373,7 +6371,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "b4c6ba935e4f82587f89",
     "storyId": "fc8e77ca21900429a094",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Delivery platforms use sophisticated weather algorithms to profit from storm demand, while shifting all the physical risk onto workers trapped by pay incentives.",
     "doomIndexInputSummary": "Can we train AI to choose safety over speed?. Delivery platforms use sophisticated weather algorithms to profit from storm demand, while shifting all the physical risk onto workers trapped by pay incentives."
   },
@@ -6389,7 +6387,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.0009,
+      "freshness": 0.0008,
       "feedPosition": 0.5556,
       "novelty": 0.8705
     },
@@ -6463,7 +6461,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ac6b4c31bd948979f9e3",
     "storyId": "4e8eac0776c8f1fc0d85",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "MIT students and postdocs discussed science funding and research with policymakers in Washington during the MIT Science Policy Initiative’s annual Congressional Visit Days. Special events and guest speakers Government Policy Funding Students Graduate, postdoctoral Alumni/ae Technology and policy Artificial intelligence Environment Oceanography and ocean engineering Technology and society Woods Hole Civil and environmental engineering School of Engineering National Institutes of Health (NIH) National Science Foundation (NSF)",
     "doomIndexInputSummary": "Connecting research to policy on Capitol Hill. MIT students and postdocs discussed science funding and research with policymakers in Washington during the MIT Science Policy Initiative’s annual Congressional Visit Days. Special events and guest speakers Government Policy Funding Students Graduate, postdoctoral Alumni/ae Technology and policy Artificial intelligence Environment Oceanography and ocean engineering Technology and society Woods Hole Civil and environmental engineering School of Engineering National Institutes of Health (NIH) National Science Foundation (NSF)"
   },
@@ -6547,7 +6545,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9ae4c097a0006eaf04ac",
     "storyId": "1500b640e341198241a7",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Trained on data from NASA's exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets. The post NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data appeared first on NASA Science. Open Science Ames Research Center Artificial Intelligence (AI) Exoplanets Kepler / K2 TESS (Transiting Exoplanet Survey Satellite)",
     "doomIndexInputSummary": "AI at NASA. NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts NASA-developed AI Could Help Track Harmful Algae. NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit. A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model aboard two in-orbit platforms. The post NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit appeared first on NASA Science. Science & Research Artificial Intelligence (AI) Open Science NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data. Trained on data from NASA's exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets. The post NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data appeared first on NASA Science. Open Science Ames Research Center Artificial Intelligence (AI) Exoplanets Kepler / K2 TESS (Transiting Exoplanet Survey Satellite) NASA, Industry Weave Data Fabric with Artificial Intelligence. Air taxis and drones navigate different flight zones with NASA-inspired system The post NASA, Industry Weave Data Fabric with Artificial Intelligence appeared first on NASA Science. Ames Research Center Artificial Intelligence (AI) Partner With Us Spinoffs Technology Transfer Technology Transfer & Spinoffs NASA Data Powers New Tool to Protect Water Supply After Fires. When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires"
   },
@@ -6563,14 +6561,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2839,
+      "freshness": 0.2731,
       "feedPosition": 0.2222,
-      "novelty": 0.7013
+      "novelty": 0.6867
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2099,
+    "score": 0.2069,
     "doomIndex": 8.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6629,7 +6627,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "df593415a86569d58029",
     "storyId": "92a124b51cd911abe349",
     "firstSeen": "2026-08-08T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Scientists have created the first quantum material that can sort and transport different quantum states of light at room temperature, potentially removing the need for bulky, ultra-cold refrigeration systems. Built from a gold film carved with hundreds of microscopic structures, the ultrathin “metacrystal” acts like a filter that directs different kinds of quantum light along separate paths while preserving the information they carry.",
     "doomIndexInputSummary": "This tiny gold crystal could bring quantum technology out of the deep freeze. Scientists have created the first quantum material that can sort and transport different quantum states of light at room temperature, potentially removing the need for bulky, ultra-cold refrigeration systems. Built from a gold film carved with hundreds of microscopic structures, the ultrathin “metacrystal” acts like a filter that directs different kinds of quantum light along separate paths while preserving the information they carry."
   },
@@ -6712,7 +6710,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "52b5983817afce3e4b6a",
     "storyId": "fe052daa70a8c4c9c72b",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Nous Research, the open-source artificial intelligence startup backed by crypto venture firm Paradigm, released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems — trained in just four days using 48 of Nvidia's latest B200 graphics processors. The model, called NousCoder-14B, is another entry in a crowded field of AI coding assistants, but arrives at a particularly charged moment: Claude Code, the agentic programming tool from rival Anthropic, has dominated social media discussion since New Year's Day, with developers posting breathless testimonials about its capabilities. The simultaneous developments underscore how quickly AI-assisted software development is evolving — and how fiercely companies large and small are competing to capture what many believe will become a foundational technology for how software gets written. type: embedded-entry-inline id: 74cSyrq6OUrp9SEQ5zOUSl NousCoder-14B achieves a 67.87 percent accuracy rate on LiveCodeBench v6, a standardized evaluation that tests models on competitive programming problems published between August 2024 and May 2025. That figure represents a 7.08 percentage point improvement over the base model it was trained from, Alibaba's Qwen3-14B, according to Nous Research's technical report published alongside the release. \"I gave Claude Code a description of the problem, it generated what we built last year in an hour,\" wrote Jaana Dogan, a principal engineer at Google responsible for the Gemini API, in a viral post on X last week that captured the prevailing mood around AI coding tools. Dogan was describing a distributed agent orchestration system her team had spent a year developing — a system Claude Code approximated from a three-paragraph prompt. The juxtaposition is instructive: while Anthropic's Claude Code has captured imaginations with demonstrations of end-to-end software development, Nous Research is betting that open-source alternatives trained on verifiable problems can close the gap — and that transparency in how these models are built matters as much as raw capability. How Nous Research built an AI coding model that anyone can replicate What distinguishes the NousCoder-14B release from many competitor announcements is its radical openness. Nous Research published not just the model weights but the complete reinforcement learning environment, benchmark suite, and training harness — built on the company's Atropos framework — enabling any researcher with sufficient compute to reproduce or extend the work. \"Open-sourcing the Atropos stack provides the necessary infrastructure for reproducible olympiad-level reasoning research,\" noted one observer on X, summarizing the significance for the academic and open-source communities. The model was trained by Joe Li, a researcher in residence at Nous Research and a former competitive programmer himself. Li's technical report reveals an unexpectedly personal dimension: he compared the model's improvement trajectory to his own journey on Codeforces, the competitive programming platform where participants earn ratings based on contest performance. Based on rough estimates mapping LiveCodeBench scores to Codeforces ratings, Li calculated that NousCoder-14B's improvemen t— from approximately the 1600-1750 rating range to 2100-2200 — mirrors a leap that took him nearly two years of sustained practice between ages 14 and 16. The model accomplished the equivalent in four days. \"Watching that final training run unfold was quite a surreal experience,\" Li wrote in the technical report. But Li was quick to note an important caveat that speaks to broader questions about AI efficiency: he solved roughly 1,000 problems during those two years, while the model required 24,000. Humans, at least for now, remain dramatically more sample-efficient learners. Inside the reinforcement learning system that trains on 24,000 competitive programming problems NousCoder-14B's training process off",
     "doomIndexInputSummary": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment. Nous Research, the open-source artificial intelligence startup backed by crypto venture firm Paradigm, released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems — trained in just four days using 48 of Nvidia's latest B200 graphics processors. The model, called NousCoder-14B, is another entry in a crowded field of AI coding assistants, but arrives at a particularly charged moment: Claude Code, the agentic programming tool from rival Anthropic, has dominated social media discussion since New Year's Day, with developers posting breathless testimonials about its capabilities. The simultaneous developments underscore how quickly AI-assisted software development is evolving — and how fiercely companies large and small are competing to capture what many believe will become a foundational technology for how software gets written. type: embedded-entry-inline id: 74cSyrq6OUrp9SEQ5zOUSl NousCoder-14B achieves a 67.87 percent accuracy rate on LiveCodeBench v6, a standardized evaluation that tests models on competitive programming problems published between August 2024 and May 2025. That figure represents a 7.08 percentage point improvement over the base model it was trained from, Alibaba's Qwen3-14B, according to Nous Research's technical report published alongside the release. \"I gave Claude Code a description of the problem, it generated what we built last year in an hour,\" wrote Jaana Dogan, a principal engineer at Google responsible for the Gemini API, in a viral post on X last week that captured the prevailing mood around AI coding tools. Dogan was describing a distributed agent orchestration system her team had spent a year developing — a system Claude Code approximated from a three-paragraph prompt. The juxtaposition is instructive: while Anthropic's Claude Code has captured imaginations with demonstrations of end-to-end software development, Nous Research is betting that open-source alternatives trained on verifiable problems can close the gap — and that transparency in how these models are built matters as much as raw capability. How Nous Research built an AI coding model that anyone can replicate What distinguishes the NousCoder-14B release from many competitor announcements is its radical openness. Nous Research published not just the model weights but the complete reinforcement learning environment, benchmark suite, and training harness — built on the company's Atropos framework — enabling any researcher with sufficient compute to reproduce or extend the work. \"Open-sourcing the Atropos stack provides the necessary infrastructure for reproducible olympiad-level reasoning research,\" noted one observer on X, summarizing the significance for the academic and open-source communities. The model was trained by Joe Li, a researcher in residence at Nous Research and a former competitive programmer himself. Li's technical report reveals an unexpectedly personal dimension: he compared the model's improvement trajectory to his own journey on Codeforces, the competitive programming platform where participants earn ratings based on contest performance. Based on rough estimates mapping LiveCodeBench scores to Codeforces ratings, Li calculated that NousCoder-14B's improvemen t— from approximately the 1600-1750 rating range to 2100-2200 — mirrors a leap that took him nearly two years of sustained practice between ages 14 and 16. The model accomplished the equivalent in four days. \"Watching that final training run unfold was quite a surreal experience,\" Li wrote in the technical report. But Li was quick to note an important caveat that speaks to broader questions about AI efficiency: he solved roughly 1,000 problems during those two years, while the model required 24,000. Humans, at least for now, remain dramatically more sample-efficient learners. Inside the reinforcement learning system that trains on 24,000 competitive programming problems NousCoder-14B's training process off"
   },
@@ -6728,15 +6726,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.1831,
-      "feedPosition": 0.2222,
-      "novelty": 0.7808
+      "freshness": 0.1762,
+      "feedPosition": 0.1111,
+      "novelty": 0.7585
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.217,
+    "score": 0.2026,
     "doomIndex": 8.44,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6799,7 +6797,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "a1971dc54633de014433",
     "storyId": "fcf0473d04deab1a28a0",
     "firstSeen": "2026-08-07T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending. AI Enterprise Rippling",
     "doomIndexInputSummary": "After Rippling blew millions on AI in months, it built an employee ROI tool. After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending. AI Enterprise Rippling"
   },
@@ -6885,7 +6883,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "6e5240e9552abc750fd9",
     "storyId": "b0b5578e288324b193d8",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model aboard two in-orbit platforms. The post NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit appeared first on NASA Science. Science & Research Artificial Intelligence (AI) Open Science",
     "doomIndexInputSummary": "AI at NASA. NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts NASA-developed AI Could Help Track Harmful Algae. NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit. A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model aboard two in-orbit platforms. The post NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit appeared first on NASA Science. Science & Research Artificial Intelligence (AI) Open Science NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data. Trained on data from NASA's exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets. The post NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data appeared first on NASA Science. Open Science Ames Research Center Artificial Intelligence (AI) Exoplanets Kepler / K2 TESS (Transiting Exoplanet Survey Satellite) NASA, Industry Weave Data Fabric with Artificial Intelligence. Air taxis and drones navigate different flight zones with NASA-inspired system The post NASA, Industry Weave Data Fabric with Artificial Intelligence appeared first on NASA Science. Ames Research Center Artificial Intelligence (AI) Partner With Us Spinoffs Technology Transfer Technology Transfer & Spinoffs NASA Data Powers New Tool to Protect Water Supply After Fires. When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires"
   },
@@ -6969,7 +6967,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e62e9e06bb5687ec20d1",
     "storyId": "247e2498ee7270305a2f",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts",
     "doomIndexInputSummary": "AI at NASA. NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts NASA-developed AI Could Help Track Harmful Algae. NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit. A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model aboard two in-orbit platforms. The post NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit appeared first on NASA Science. Science & Research Artificial Intelligence (AI) Open Science NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data. Trained on data from NASA's exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets. The post NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data appeared first on NASA Science. Open Science Ames Research Center Artificial Intelligence (AI) Exoplanets Kepler / K2 TESS (Transiting Exoplanet Survey Satellite) NASA, Industry Weave Data Fabric with Artificial Intelligence. Air taxis and drones navigate different flight zones with NASA-inspired system The post NASA, Industry Weave Data Fabric with Artificial Intelligence appeared first on NASA Science. Ames Research Center Artificial Intelligence (AI) Partner With Us Spinoffs Technology Transfer Technology Transfer & Spinoffs NASA Data Powers New Tool to Protect Water Supply After Fires. When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires"
   },
@@ -6985,8 +6983,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.251,
       "sourceAuthority": 0.5,
-      "freshness": 0.3556,
-      "feedPosition": 0.5556,
+      "freshness": 0.3421,
+      "feedPosition": 0.4444,
       "novelty": 0.5811
     },
     "rankingReasons": [
@@ -6994,7 +6992,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.2922,
+    "score": 0.2791,
     "doomIndex": 8.32,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7055,7 +7053,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "32daac9d2c0bc296e0bd",
     "storyId": "3fa81885b90271b8a4cd",
     "firstSeen": "2026-08-08T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States. AI Climate Amazon",
     "doomIndexInputSummary": "Planned Amazon data center could become the biggest climate polluter in the U.S.. As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States. AI Climate Amazon"
   },
@@ -7071,7 +7069,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0882,
+      "freshness": 0.0849,
       "feedPosition": 1,
       "novelty": 0.8382
     },
@@ -7080,7 +7078,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3005,
+    "score": 0.3,
     "doomIndex": 8.23,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7141,7 +7139,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c3b361fd76f45c99af32",
     "storyId": "baa22222cfa8569405ec",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "SAP says it needs to “be disciplined in how we spend.” That includes still freezing hires and travel. Unless it's to do with AI, of course. Tokenmaxxing AI News",
     "doomIndexInputSummary": "Software Giant SAP Stops Most Travel and Hiring Because of AI’s Soaring Cost. SAP says it needs to “be disciplined in how we spend.” That includes still freezing hires and travel. Unless it's to do with AI, of course. Tokenmaxxing AI News"
   },
@@ -7159,14 +7157,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0,
-      "novelty": 0.5461
+      "novelty": 0.5239
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.18,
+    "score": 0.1778,
     "doomIndex": 7.9,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7227,7 +7225,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "28f134b9edc60b51b553",
     "storyId": "046d59ef7b0e4c8db6e1",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires",
     "doomIndexInputSummary": "AI at NASA. NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts NASA-developed AI Could Help Track Harmful Algae. NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit. A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model aboard two in-orbit platforms. The post NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit appeared first on NASA Science. Science & Research Artificial Intelligence (AI) Open Science NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data. Trained on data from NASA's exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets. The post NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data appeared first on NASA Science. Open Science Ames Research Center Artificial Intelligence (AI) Exoplanets Kepler / K2 TESS (Transiting Exoplanet Survey Satellite) NASA, Industry Weave Data Fabric with Artificial Intelligence. Air taxis and drones navigate different flight zones with NASA-inspired system The post NASA, Industry Weave Data Fabric with Artificial Intelligence appeared first on NASA Science. Ames Research Center Artificial Intelligence (AI) Partner With Us Spinoffs Technology Transfer Technology Transfer & Spinoffs NASA Data Powers New Tool to Protect Water Supply After Fires. When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires"
   },
@@ -7312,7 +7310,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ad1fc01b3a68f6e08e93",
     "storyId": "d650f74f8d7cf3f8ab44",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth",
     "doomIndexInputSummary": "AI at NASA. NASA Acting Chief Data and AI Officer Kevin Murphy discusses how artificial intelligence is supporting missions, research, and the future of human spaceflight. Episode 424. The post AI at NASA appeared first on NASA Science. Artificial Intelligence (AI) Audio Johnson Space Center Podcasts NASA-developed AI Could Help Track Harmful Algae. NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that occurred in western Florida and Southern California. Severe blooms […] The post NASA-developed AI Could Help Track Harmful Algae appeared first on NASA Science. Artificial Intelligence (AI) Earth Earth Science Jet Propulsion Laboratory Water Blooms Water on Earth NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit. A team of researchers demonstrated NASA and IBM’s open-source Prithvi Geospatial artificial intelligence foundation model aboard two in-orbit platforms. The post NASA’s Prithvi Becomes First AI Geospatial Foundation Model In Orbit appeared first on NASA Science. Science & Research Artificial Intelligence (AI) Open Science NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data. Trained on data from NASA's exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets. The post NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data appeared first on NASA Science. Open Science Ames Research Center Artificial Intelligence (AI) Exoplanets Kepler / K2 TESS (Transiting Exoplanet Survey Satellite) NASA, Industry Weave Data Fabric with Artificial Intelligence. Air taxis and drones navigate different flight zones with NASA-inspired system The post NASA, Industry Weave Data Fabric with Artificial Intelligence appeared first on NASA Science. Ames Research Center Artificial Intelligence (AI) Partner With Us Spinoffs Technology Transfer Technology Transfer & Spinoffs NASA Data Powers New Tool to Protect Water Supply After Fires. When wildfires scorch a landscape, the flames are just the beginning. NASA is helping U.S. communities foresee and prepare for what can follow: mudslides, flash flooding, and contaminated water supplies. The post NASA Data Powers New Tool to Protect Water Supply After Fires appeared first on NASA Science. Artificial Intelligence (AI) Earth Goddard Space Flight Center Human Dimensions Jet Propulsion Laboratory Water on Earth Wildfires"
   },
@@ -7330,14 +7328,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.1667,
-      "novelty": 0.6537
+      "novelty": 0.6649
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1807,
+    "score": 0.1819,
     "doomIndex": 7.81,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7396,7 +7394,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "b4737359e5ef746bcb75",
     "storyId": "157324a9612f0389d5d2",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with Microsoft's Copilot in the burgeoning market for AI-powered productivity tools. \"Cowork lets you complete non-technical tasks much like how developers use Claude Code,\" the company announced via its official Claude account on X. The feature arrives as a research preview available exclusively to Claude Max subscribers — Anthropic's power-user tier priced between $100 and $200 per month — through the macOS desktop application. For the past year, the industry narrative has focused on large language models that can write poetry or debug code. With Cowork, Anthropic is betting that the real enterprise value lies in an AI that can open a folder, read a messy pile of receipts, and generate a structured expense report without human hand-holding. How developers using a coding tool for vacation research inspired Anthropic's latest product The genesis of Cowork lies in Anthropic's recent success with the developer community. In late 2024, the company released Claude Code, a terminal-based tool that allowed software engineers to automate rote programming tasks. The tool was a hit, but Anthropic noticed a peculiar trend: users were forcing the coding tool to perform non-coding labor. According to Boris Cherny, an engineer at Anthropic, the company observed users deploying the developer tool for an unexpectedly diverse array of tasks. \"Since we launched Claude Code, we saw people using it for all sorts of non-coding work: doing vacation research, building slide decks, cleaning up your email, cancelling subscriptions, recovering wedding photos from a hard drive, monitoring plant growth, controlling your oven,\" Cherny wrote on X. \"These use cases are diverse and surprising — the reason is that the underlying Claude Agent is the best agent, and Opus 4.5 is the best model.\" Recognizing this shadow usage, Anthropic effectively stripped the command-line complexity from their developer tool to create a consumer-friendly interface. In its blog post announcing the feature, Anthropic explained that developers \"quickly began using it for almost everything else,\" which \"prompted us to build Cowork: a simpler way for anyone — not just developers — to work with Claude in the very same way.\" Inside the folder-based architecture that lets Claude read, edit, and create files on your computer Unlike a standard chat interface where a user pastes text for analysis, Cowork requires a different level of trust and access. Users designate a specific folder on their local machine that Claude can access. Within that sandbox, the AI agent can read existing files, modify them, or create entirely new ones. Anthropic offers several illustrative examples: reorganizing a cluttered downloads folder by sorting and intelligently renaming each file, generating a spreadsheet of expenses from a collection of receipt screenshots, or drafting a report from scattered notes across multiple documents. \"In Cowork, you give Claude access to a folder on your computer. Claude can then read, edit, or create files in that folder,\" the company explained on X. \"Try it to create a spreadsheet from a pile of screenshots, or produce a first draft from scattered notes.\" The architecture relies on what is known as an \"agentic loop.\" When a user assigns a task, the AI does not merely generate a text response. Instead, it formulates a plan, executes steps in parallel, checks its own work, and asks for clarification if it hits a roadblock. Users can queue multiple tasks and let Claude process them simultaneousl",
     "doomIndexInputSummary": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required. Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with Microsoft's Copilot in the burgeoning market for AI-powered productivity tools. \"Cowork lets you complete non-technical tasks much like how developers use Claude Code,\" the company announced via its official Claude account on X. The feature arrives as a research preview available exclusively to Claude Max subscribers — Anthropic's power-user tier priced between $100 and $200 per month — through the macOS desktop application. For the past year, the industry narrative has focused on large language models that can write poetry or debug code. With Cowork, Anthropic is betting that the real enterprise value lies in an AI that can open a folder, read a messy pile of receipts, and generate a structured expense report without human hand-holding. How developers using a coding tool for vacation research inspired Anthropic's latest product The genesis of Cowork lies in Anthropic's recent success with the developer community. In late 2024, the company released Claude Code, a terminal-based tool that allowed software engineers to automate rote programming tasks. The tool was a hit, but Anthropic noticed a peculiar trend: users were forcing the coding tool to perform non-coding labor. According to Boris Cherny, an engineer at Anthropic, the company observed users deploying the developer tool for an unexpectedly diverse array of tasks. \"Since we launched Claude Code, we saw people using it for all sorts of non-coding work: doing vacation research, building slide decks, cleaning up your email, cancelling subscriptions, recovering wedding photos from a hard drive, monitoring plant growth, controlling your oven,\" Cherny wrote on X. \"These use cases are diverse and surprising — the reason is that the underlying Claude Agent is the best agent, and Opus 4.5 is the best model.\" Recognizing this shadow usage, Anthropic effectively stripped the command-line complexity from their developer tool to create a consumer-friendly interface. In its blog post announcing the feature, Anthropic explained that developers \"quickly began using it for almost everything else,\" which \"prompted us to build Cowork: a simpler way for anyone — not just developers — to work with Claude in the very same way.\" Inside the folder-based architecture that lets Claude read, edit, and create files on your computer Unlike a standard chat interface where a user pastes text for analysis, Cowork requires a different level of trust and access. Users designate a specific folder on their local machine that Claude can access. Within that sandbox, the AI agent can read existing files, modify them, or create entirely new ones. Anthropic offers several illustrative examples: reorganizing a cluttered downloads folder by sorting and intelligently renaming each file, generating a spreadsheet of expenses from a collection of receipt screenshots, or drafting a report from scattered notes across multiple documents. \"In Cowork, you give Claude access to a folder on your computer. Claude can then read, edit, or create files in that folder,\" the company explained on X. \"Try it to create a spreadsheet from a pile of screenshots, or produce a first draft from scattered notes.\" The architecture relies on what is known as an \"agentic loop.\" When a user assigns a task, the AI does not merely generate a text response. Instead, it formulates a plan, executes steps in parallel, checks its own work, and asks for clarification if it hits a roadblock. Users can queue multiple tasks and let Claude process them simultaneousl"
   },
@@ -7412,7 +7410,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.324,
       "sourceAuthority": 0.5,
-      "freshness": 0.0113,
+      "freshness": 0.0109,
       "feedPosition": 0.7778,
       "novelty": 0.8666
     },
@@ -7481,7 +7479,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5e7670f34b8e21fef5d9",
     "storyId": "551181c299c73018408d",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "\"This document shows a coordinated effort from Flock Safety to compel law enforcement agencies to convince our elected leaders to represent their interests as a company rather than the interests of concerned citizens.\" Flock AI",
     "doomIndexInputSummary": "‘Own the Narrative’: Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech. \"This document shows a coordinated effort from Flock Safety to compel law enforcement agencies to convince our elected leaders to represent their interests as a company rather than the interests of concerned citizens.\" Flock AI"
   },
@@ -7497,7 +7495,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.0756,
+      "freshness": 0.0727,
       "feedPosition": 0.8889,
       "novelty": 0.7032
     },
@@ -7508,7 +7506,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3099,
+    "score": 0.3095,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7569,7 +7567,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ae493c254964b436fbfe",
     "storyId": "42a90289b786a844c82a",
     "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "Why Merger Law Misses Frontier AI's Ownership Structure."
   },
@@ -7585,7 +7583,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0409,
+      "freshness": 0.0394,
       "feedPosition": 0.5556,
       "novelty": 0.7431
     },
@@ -7595,7 +7593,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2614,
+    "score": 0.2612,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7657,7 +7655,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c5f16d82b3e0d20f7d66",
     "storyId": "a275b40dfcb02fa3fb79",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "Will AI Sycophancy Contaminate Law Enforcement?."
   },
@@ -7675,14 +7673,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.5,
-      "novelty": 0.7853
+      "novelty": 0.7598
     },
     "rankingReasons": [
       "urgency or risk",
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2566,
+    "score": 0.2541,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7743,7 +7741,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7d6035a70b9719a47287",
     "storyId": "00a633f8dc1c717f5b03",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "New York mayor says terminating the ‘unusable’ bot will help close a budget gap",
     "doomIndexInputSummary": "Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law. New York mayor says terminating the ‘unusable’ bot will help close a budget gap"
   },
@@ -7759,15 +7757,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1575,
       "sourceAuthority": 0.5,
-      "freshness": 0.0252,
-      "feedPosition": 0.1667,
-      "novelty": 0.7808
+      "freshness": 0.0243,
+      "feedPosition": 0.2,
+      "novelty": 0.7521
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.205,
+    "score": 0.2053,
     "doomIndex": 7.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7826,7 +7824,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "0082ace7c3f42b1ade65",
     "storyId": "09a4a775f909d6528ee7",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "AI is reshaping the Philippines' outsourcing industry, raising questions over the future of the industry.",
     "doomIndexInputSummary": "'I feel like I dug my own grave': The workers caught in the AI transition. AI is reshaping the Philippines' outsourcing industry, raising questions over the future of the industry."
   },
@@ -7915,7 +7913,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "311d4bc3d578d322ea4d",
     "storyId": "2f6e8f891c0a8aeb6b5f",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like gibberish: five strings of random numbers. The numbers were actually AI tokens. Decoded, they led to a coding challenge: build an algorithm to act as a digital bouncer at Berghain, the Berlin nightclub famous for rejecting nearly everyone at the door. Within days, thousands attempted the puzzle. 430 cracked it. Some got hired. The winner flew to Berlin, all expenses paid. That unconventional approach has now attracted $69 million in Series B funding, led by Ribbit Capital with participation from Evantic and existing investors Sequoia Capital, Conviction, and Pear VC. The round values Listen Labs at $500 million and brings its total capital to $100 million. In nine months since launch, the company has grown annualized revenue by 15x to eight figures and conducted over one million AI-powered interviews. \"When you obsess over customers, everything else follows,\" Wahlforss said in an interview with VentureBeat. \"Teams that use Listen bring the customer into every decision, from marketing to product, and when the customer is delighted, everyone is.\" Why traditional market research is broken, and what Listen Labs is building to fix it Listen's AI researcher finds participants, conducts in-depth interviews, and delivers actionable insights in hours, not weeks. The platform replaces the traditional choice between quantitative surveys — which provide statistical precision but miss nuance—and qualitative interviews, which deliver depth but cannot scale. Wahlforss explained the limitation of existing approaches: \"Essentially surveys give you false precision because people end up answering the same question... You can't get the outliers. People are actually not honest on surveys.\" The alternative, one-on-one human interviews, \"gives you a lot of depth. You can ask follow up questions. You can kind of double check if they actually know what they're talking about. And the problem is you can't scale that.\" The platform works in four steps: users create a study with AI assistance, Listen recruits participants from its global network of 30 million people, an AI moderator conducts in-depth interviews with follow-up questions, and results are packaged into executive-ready reports including key themes, highlight reels, and slide decks. What distinguishes Listen's approach is its use of open-ended video conversations rather than multiple-choice forms. \"In a survey, you can kind of guess what you should answer, and you have four options,\" Wahlforss said. \"Oh, they probably want me to buy high income. Let me click on that button versus an open ended response. It just generates much more honesty.\" The dirty secret of the $140 billion market research industry: rampant fraud Listen finds and qualifies the right participants in its global network of 30 million people. But building that panel required confronting what Wahlforss called \"one of the most shocking things that we've learned when we entered this industry\"—rampant fraud. \"Essentially, there's a financial transaction involved, which means there will be bad players,\" he explained. \"We actually had some of the largest companies, some of them have billions in revenue, send us people who claim to be kind of enterprise buyers to our platform and our system immediately detected, like, fraud, fraud, fraud, fraud, fraud.\" The company built what it calls a \"quality guard\" that cross-references LinkedIn profiles with video responses to verify identity, checks consistency across how participants answer questions, and flags suspicious patterns. The result, according to Wahlforss: \"People talk three times more. They're much more honest when they talk about sensitive topics like politics and mental health.\" Emerit",
     "doomIndexInputSummary": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews. Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like gibberish: five strings of random numbers. The numbers were actually AI tokens. Decoded, they led to a coding challenge: build an algorithm to act as a digital bouncer at Berghain, the Berlin nightclub famous for rejecting nearly everyone at the door. Within days, thousands attempted the puzzle. 430 cracked it. Some got hired. The winner flew to Berlin, all expenses paid. That unconventional approach has now attracted $69 million in Series B funding, led by Ribbit Capital with participation from Evantic and existing investors Sequoia Capital, Conviction, and Pear VC. The round values Listen Labs at $500 million and brings its total capital to $100 million. In nine months since launch, the company has grown annualized revenue by 15x to eight figures and conducted over one million AI-powered interviews. \"When you obsess over customers, everything else follows,\" Wahlforss said in an interview with VentureBeat. \"Teams that use Listen bring the customer into every decision, from marketing to product, and when the customer is delighted, everyone is.\" Why traditional market research is broken, and what Listen Labs is building to fix it Listen's AI researcher finds participants, conducts in-depth interviews, and delivers actionable insights in hours, not weeks. The platform replaces the traditional choice between quantitative surveys — which provide statistical precision but miss nuance—and qualitative interviews, which deliver depth but cannot scale. Wahlforss explained the limitation of existing approaches: \"Essentially surveys give you false precision because people end up answering the same question... You can't get the outliers. People are actually not honest on surveys.\" The alternative, one-on-one human interviews, \"gives you a lot of depth. You can ask follow up questions. You can kind of double check if they actually know what they're talking about. And the problem is you can't scale that.\" The platform works in four steps: users create a study with AI assistance, Listen recruits participants from its global network of 30 million people, an AI moderator conducts in-depth interviews with follow-up questions, and results are packaged into executive-ready reports including key themes, highlight reels, and slide decks. What distinguishes Listen's approach is its use of open-ended video conversations rather than multiple-choice forms. \"In a survey, you can kind of guess what you should answer, and you have four options,\" Wahlforss said. \"Oh, they probably want me to buy high income. Let me click on that button versus an open ended response. It just generates much more honesty.\" The dirty secret of the $140 billion market research industry: rampant fraud Listen finds and qualifies the right participants in its global network of 30 million people. But building that panel required confronting what Wahlforss called \"one of the most shocking things that we've learned when we entered this industry\"—rampant fraud. \"Essentially, there's a financial transaction involved, which means there will be bad players,\" he explained. \"We actually had some of the largest companies, some of them have billions in revenue, send us people who claim to be kind of enterprise buyers to our platform and our system immediately detected, like, fraud, fraud, fraud, fraud, fraud.\" The company built what it calls a \"quality guard\" that cross-references LinkedIn profiles with video responses to verify identity, checks consistency across how participants answer questions, and flags suspicious patterns. The result, according to Wahlforss: \"People talk three times more. They're much more honest when they talk about sensitive topics like politics and mental health.\" Emerit"
   },
@@ -7931,8 +7929,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.5797,
-      "feedPosition": 0.7778,
+      "freshness": 0.5579,
+      "feedPosition": 0.6667,
       "novelty": 0.857
     },
     "rankingReasons": [
@@ -7940,7 +7938,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3538,
+    "score": 0.3394,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8001,7 +7999,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "aac1b0f6ee4f6d68c4cf",
     "storyId": "3f98d7032462ba7b9cb7",
     "firstSeen": "2026-08-09T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader. AI Government & Policy Media & Entertainment AI policy AI regulation Elon Musk Equity podcast Jill Lepore sam altman",
     "doomIndexInputSummary": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy. On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader. AI Government & Policy Media & Entertainment AI policy AI regulation Elon Musk Equity podcast Jill Lepore sam altman"
   },
@@ -8017,7 +8015,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0121,
+      "freshness": 0.0117,
       "feedPosition": 0.7778,
       "novelty": 0.6369
     },
@@ -8026,7 +8024,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2687,
+    "score": 0.2686,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8087,7 +8085,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "12a99eef686a438c49fb",
     "storyId": "8d2b1b80f2b60b18a662",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra. Leadership Faculty Alumni/ae Statistics Brain and cognitive sciences Machine learning Artificial intelligence Computer science and technology Electrical engineering and computer science (EECS) IDSS Laboratory for Information and Decision Systems (LIDS) School of Engineering School of Science MIT Schwarzman College of Computing",
     "doomIndexInputSummary": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center. An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra. Leadership Faculty Alumni/ae Statistics Brain and cognitive sciences Machine learning Artificial intelligence Computer science and technology Electrical engineering and computer science (EECS) IDSS Laboratory for Information and Decision Systems (LIDS) School of Engineering School of Science MIT Schwarzman College of Computing"
   },
@@ -8103,7 +8101,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.023,
+      "freshness": 0.0221,
       "feedPosition": 1,
       "novelty": 0.8156
     },
@@ -8111,7 +8109,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "clickbait penalty",
       "unusual language in the current story batch"
     ],
-    "score": 0.26,
+    "score": 0.2599,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8172,7 +8170,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "dc192c62b6d1747d6cb2",
     "storyId": "985f27455e446170b0bc",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option. Research Batteries Energy storage Renewable energy Electric vehicles Transportation Lithium-ion Computer modeling Artificial intelligence Nuclear science and engineering Materials science and engineering DMSE School of Engineering MIT.nano National Science Foundation (NSF)",
     "doomIndexInputSummary": "Solving the solvent problem. By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option. Research Batteries Energy storage Renewable energy Electric vehicles Transportation Lithium-ion Computer modeling Artificial intelligence Nuclear science and engineering Materials science and engineering DMSE School of Engineering MIT.nano National Science Foundation (NSF)"
   },
@@ -8257,7 +8255,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "cde7625abf4fe831f4de",
     "storyId": "e503e27fdc0e7a42664c",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Leaders from Michigan, California and Wisconsin discuss how applying AI has slashed delivery times, reduced work backlogs, and expanded community engagement. The post Agency leaders discover the power of AI to scale and support citizen services appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 executive perspective California chatbots Michigan Wisconsin",
     "doomIndexInputSummary": "Agency leaders discover the power of AI to scale and support citizen services. Leaders from Michigan, California and Wisconsin discuss how applying AI has slashed delivery times, reduced work backlogs, and expanded community engagement. The post Agency leaders discover the power of AI to scale and support citizen services appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Cloud Next '24 Google Public Sector Google Public Sector 2024 executive perspective California chatbots Michigan Wisconsin"
   },
@@ -8275,7 +8273,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.125,
-      "novelty": 0.6991
+      "novelty": 0.7319
     },
     "rankingReasons": [
       "surprise or reversal",
@@ -8283,7 +8281,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1951,
+    "score": 0.1984,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8344,7 +8342,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9edaba5e1d5acac8ffea",
     "storyId": "58c38a52cc6bef6bd1a2",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "U.S. Patent and Trademark Office examiners needed a new approach to sifting through mountains of supporting evidence. Leaders from USPTO, Google and Accenture Federal Services leaders discuss how AI and Google Search are solving the challenge The post Reimagining search: How AI and Google Search turbocharges patent examinations at USPTO appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Public Sector Google Public Sector 2024 executive perspective search. Google Cloud Next ‘24 U.S. Patent and Trademark Office (USPTO)",
     "doomIndexInputSummary": "Reimagining search: How AI and Google Search turbocharges patent examinations at USPTO. U.S. Patent and Trademark Office examiners needed a new approach to sifting through mountains of supporting evidence. Leaders from USPTO, Google and Accenture Federal Services leaders discuss how AI and Google Search are solving the challenge The post Reimagining search: How AI and Google Search turbocharges patent examinations at USPTO appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Public Sector Google Public Sector 2024 executive perspective search. Google Cloud Next ‘24 U.S. Patent and Trademark Office (USPTO)"
   },
@@ -8360,16 +8358,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.09,
-      "feedPosition": 0.2222,
-      "novelty": 0.3474
+      "freshness": 0.0866,
+      "feedPosition": 0.1111,
+      "novelty": 0.3231
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1879,
+    "score": 0.1738,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8428,7 +8426,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "58b6d314b3cbac2e473a",
     "storyId": "ddf288a88355763dfdf4",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The tech industry is realizing it needs to build agents based on what regular consumers want, not just what its AI models can do. Business Business / Artificial Intelligence",
     "doomIndexInputSummary": "Why Normal People Aren’t Using AI Agents. The tech industry is realizing it needs to build agents based on what regular consumers want, not just what its AI models can do. Business Business / Artificial Intelligence"
   },
@@ -8519,7 +8517,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "20420847840dea4a8cae",
     "storyId": "324e4b056d3ee60087bf",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Initial research projects advance national priorities across natural resources, manufacturing, nuclear physics, and more. Funding Artificial intelligence Quantum computing Laboratory for Nuclear Science Plasma Science and Fusion Center Research Laboratory of Electronics Chemical engineering EAPS Physics Nuclear science and engineering Mechanical engineering Manufacturing Industry Faculty Administration Department of Energy (DoE) School of Engineering School of Science Mathematics Center for Computational Science and Engineering",
     "doomIndexInputSummary": "MIT projects selected for funding under US Department of Energy’s Genesis Mission. Initial research projects advance national priorities across natural resources, manufacturing, nuclear physics, and more. Funding Artificial intelligence Quantum computing Laboratory for Nuclear Science Plasma Science and Fusion Center Research Laboratory of Electronics Chemical engineering EAPS Physics Nuclear science and engineering Mechanical engineering Manufacturing Industry Faculty Administration Department of Energy (DoE) School of Engineering School of Science Mathematics Center for Computational Science and Engineering"
   },
@@ -8535,14 +8533,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.3226,
+      "freshness": 0.3104,
       "feedPosition": 0.8889,
       "novelty": 0.4279
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2842,
+    "score": 0.2823,
     "doomIndex": 7.33,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8603,7 +8601,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "452d8b5999e93635f60a",
     "storyId": "57bcc91c15e3ba01a7b9",
     "firstSeen": "2026-08-08T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and, at least initially, would not be connected to the state's power grid. Instead, its 35 natural-gas turbines would primarily deliver its 7.65 gigawatts of electricity to the new data center. According to Cleanview, which tracks data centers and their associated power projects, GW Ranch received a permit from Texas allowing for the … Read the full story at The Verge. To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and, […]",
     "doomIndexInputSummary": "An Amazon data center could have the worst polluting power plant in the country. To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and, at least initially, would not be connected to the state's power grid. Instead, its 35 natural-gas turbines would primarily deliver its 7.65 gigawatts of electricity to the new data center. According to Cleanview, which tracks data centers and their associated power projects, GW Ranch received a permit from Texas allowing for the … Read the full story at The Verge. To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and, […]"
   },
@@ -8619,14 +8617,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0829,
+      "freshness": 0.0798,
       "feedPosition": 0.1111,
       "novelty": 0.718
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1775,
+    "score": 0.177,
     "doomIndex": 7.15,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8683,7 +8681,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f97b6f7a03c13edcd5f1",
     "storyId": "b04f9642d438e86d7621",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but those limits, just for text, will be going away soon. Messages that include things like file uploads and images will continue to have limits. Next week, OpenAI is also adding a \"Think\" button for free and Go users that they can use to \"access higher reasoning for harder questions.\" This week, for those users, the company is additionally upgrading ChatGPT's def … Read the full story at The Verge. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]",
     "doomIndexInputSummary": "OpenAI is giving ChatGPT free users unlimited text chats. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but those limits, just for text, will be going away soon. Messages that include things like file uploads and images will continue to have limits. Next week, OpenAI is also adding a \"Think\" button for free and Go users that they can use to \"access higher reasoning for harder questions.\" This week, for those users, the company is additionally upgrading ChatGPT's def … Read the full story at The Verge. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]"
   },
@@ -8699,17 +8697,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.9044,
+      "freshness": 0.8702,
       "feedPosition": 0.7778,
-      "novelty": 0.6564
+      "novelty": 0.632
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
+      "recognizable entities"
     ],
-    "score": 0.3965,
+    "score": 0.3889,
     "doomIndex": 6.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8768,7 +8765,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "acc1f8266c7d072d320b",
     "storyId": "ac492249bdcfbb5e549c",
     "firstSeen": "2026-08-10T08:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "What does it even mean? You don’t want to know – stop reading now! I’m serious Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you need is First Dog merchandise and prints Continue reading... One Nation AI (artificial intelligence) Pauline Hanson Technology The far right",
     "doomIndexInputSummary": "Meme factories are churning out hard right AI slop on Facebook | First Dog on the Moon. What does it even mean? You don’t want to know – stop reading now! I’m serious Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you need is First Dog merchandise and prints Continue reading... One Nation AI (artificial intelligence) Pauline Hanson Technology The far right"
   },
@@ -8784,14 +8781,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1708,
+      "freshness": 0.1643,
       "feedPosition": 0.6667,
       "novelty": 0.7999
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2544,
+    "score": 0.2534,
     "doomIndex": 6.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8850,7 +8847,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4cb40420faa0ce2f52ca",
     "storyId": "d78aeab37b7f2a0add1f",
     "firstSeen": "2026-08-07T19:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. This week, Roku added four new channels to its library of streamable programming. Along with dedicated feeds for old episodes of Mad TV, Whose Line Is It Anyway?, and a variety of Black sitcoms, the platform also debuted a 24/7 stream filled with projects from Colin Petrie-Norris' AI startup, … Read the full story at The Verge. The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. […]",
     "doomIndexInputSummary": "Watching Roku’s AI channel is like eating from a trough. The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. This week, Roku added four new channels to its library of streamable programming. Along with dedicated feeds for old episodes of Mad TV, Whose Line Is It Anyway?, and a variety of Black sitcoms, the platform also debuted a 24/7 stream filled with projects from Colin Petrie-Norris' AI startup, … Read the full story at The Verge. The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. […]"
   },
@@ -8868,13 +8865,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.7448
+      "novelty": 0.724
     },
     "rankingReasons": [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2706,
+    "score": 0.2685,
     "doomIndex": 6.8,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8937,7 +8934,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "e61f8f1fb2778f192c75",
     "storyId": "173747b77dc753028f50",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "While there is a gradual increase in AI adoption across industries, only 6.6% of businesses adopted AI in the fall of 2024. Here's how to change that. The post Thinking of adopting AI? Here’s how to get your team on board appeared first on AIScoop. AI Artificial Intelligence (AI) Op-Ed Commentary AI Adoption Columbia Business School Stargate OpenAI Oracle",
     "doomIndexInputSummary": "Thinking of adopting AI? Here’s how to get your team on board. While there is a gradual increase in AI adoption across industries, only 6.6% of businesses adopted AI in the fall of 2024. Here's how to change that. The post Thinking of adopting AI? Here’s how to get your team on board appeared first on AIScoop. AI Artificial Intelligence (AI) Op-Ed Commentary AI Adoption Columbia Business School Stargate OpenAI Oracle"
   },
@@ -8953,14 +8950,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.048,
       "sourceAuthority": 0.5,
-      "freshness": 0.4527,
+      "freshness": 0.4356,
       "feedPosition": 1,
       "novelty": 0.6121
     },
     "rankingReasons": [
       "specific details"
     ],
-    "score": 0.3137,
+    "score": 0.3112,
     "doomIndex": 6.62,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9023,7 +9020,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "6effcd9b8619df75a765",
     "storyId": "4679fece56207118e4ec",
     "firstSeen": "2026-08-09T13:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Atomically thin semiconductors could enable dramatically smaller and more efficient chips, but a stubborn problem at the boundary between materials has limited their performance. Researchers have now engineered that atomic interface to protect electron flow while still allowing extremely thin insulating layers. The resulting transistors delivered an unusually strong combination of electrical control and performance.",
     "doomIndexInputSummary": "A 0.42-nanometer breakthrough could push transistors beyond silicon. Atomically thin semiconductors could enable dramatically smaller and more efficient chips, but a stubborn problem at the boundary between materials has limited their performance. Researchers have now engineered that atomic interface to protect electron flow while still allowing extremely thin insulating layers. The resulting transistors delivered an unusually strong combination of electrical control and performance."
   },
@@ -9041,7 +9038,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.5,
-      "novelty": 0.4644
+      "novelty": 0.4462
     },
     "rankingReasons": [
       "conflict",
@@ -9049,7 +9046,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2318,
+    "score": 0.23,
     "doomIndex": 6.44,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9113,7 +9110,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2ee0a4e0d20b474bd7f1",
     "storyId": "7a03ba7576453bc07020",
     "firstSeen": "2026-08-05T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "With a goal to help pathologists more accurately diagnose cancer, the Department of Defense and Google Public Sector came together to build an augmented reality microscope. The post How DOD and Google Public Sector partnered using AI to fight cancer appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Public Sector Google Public Sector 2024 executive perspective Department of Defense DOD Google Cloud Next ‘24 healthcare",
     "doomIndexInputSummary": "How DOD and Google Public Sector partnered using AI to fight cancer. With a goal to help pathologists more accurately diagnose cancer, the Department of Defense and Google Public Sector came together to build an augmented reality microscope. The post How DOD and Google Public Sector partnered using AI to fight cancer appeared first on AIScoop. AI Insights Sponsored Content Artificial Intelligence (AI) AIWeek Google Public Sector Google Public Sector 2024 executive perspective Department of Defense DOD Google Cloud Next ‘24 healthcare"
   },
@@ -9129,7 +9126,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0009,
+      "freshness": 0.0008,
       "feedPosition": 0.6667,
       "novelty": 0.9191
     },
@@ -9204,7 +9201,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "ae6b2a2ba7a81b81ab78",
     "storyId": "3fb8ff13848b4b5ae7f9",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Director of CSAIL and MIT professor honored for her contributions to robotics, artificial intelligence, and autonomous systems. Awards, honors and fellowships Faculty Computer science and technology Artificial intelligence Algorithms Robotics Autonomous vehicles Human-computer interaction Electrical engineering and computer science (EECS) Computer Science and Artificial Intelligence Laboratory (CSAIL) School of Engineering MIT Schwarzman College of Computing",
     "doomIndexInputSummary": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize. Director of CSAIL and MIT professor honored for her contributions to robotics, artificial intelligence, and autonomous systems. Awards, honors and fellowships Faculty Computer science and technology Artificial intelligence Algorithms Robotics Autonomous vehicles Human-computer interaction Electrical engineering and computer science (EECS) Computer Science and Artificial Intelligence Laboratory (CSAIL) School of Engineering MIT Schwarzman College of Computing"
   },
@@ -9220,14 +9217,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.2907,
+      "freshness": 0.2797,
       "feedPosition": 0.5556,
       "novelty": 0.457
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.2419,
+    "score": 0.2402,
     "doomIndex": 6.05,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9292,7 +9289,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "b90ac88c3d8d3bb9a44d",
     "storyId": "7232b1da75f63369732e",
     "firstSeen": "2026-08-08T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "A new nanostructured carbon design lets fuel-cell catalysts use tiny amounts of platinum while remaining remarkably stable and efficient. The breakthrough could help hydrogen fuel cells become a more practical way to power data centers, vehicles, and other energy-intensive technologies.",
     "doomIndexInputSummary": "New fuel cell breakthrough could help power energy-hungry data centers. A new nanostructured carbon design lets fuel-cell catalysts use tiny amounts of platinum while remaining remarkably stable and efficient. The breakthrough could help hydrogen fuel cells become a more practical way to power data centers, vehicles, and other energy-intensive technologies."
   },
@@ -9308,7 +9305,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.2739,
+      "freshness": 0.2636,
       "feedPosition": 0.2222,
       "novelty": 0.73
     },
@@ -9316,7 +9313,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2326,
+    "score": 0.2311,
     "doomIndex": 5.81,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9377,9 +9374,93 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "1d19315ffb37a9c45590",
     "storyId": "3bbaf7f9d1c75d73ee97",
     "firstSeen": "2026-08-08T13:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Observers express concern that the division has lost its independence and commercial reality has taken over When Sir Demis Hassabis said AI had brought the world to a “pivotal moment in human history” last month, he knew another big change was imminent. This shift was closer to home. The Nobel prize-winning head of Google DeepMind, Google’s AI unit, announced this week he was relinquishing his day-to-day duties as chief executive and becoming chair. He is also taking on the role of chief scientist at DeepMind’s parent, Alphabet. Continue reading... DeepMind Google AI (artificial intelligence) Alphabet Technology US news Computing UK news",
     "doomIndexInputSummary": "Google DeepMind enters a new era as co-founder Demis Hassabis shifts AI role. Observers express concern that the division has lost its independence and commercial reality has taken over When Sir Demis Hassabis said AI had brought the world to a “pivotal moment in human history” last month, he knew another big change was imminent. This shift was closer to home. The Nobel prize-winning head of Google DeepMind, Google’s AI unit, announced this week he was relinquishing his day-to-day duties as chief executive and becoming chair. He is also taking on the role of chief scientist at DeepMind’s parent, Alphabet. Continue reading... DeepMind Google AI (artificial intelligence) Alphabet Technology US news Computing UK news"
+  },
+  {
+    "group": "ai",
+    "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+    "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-10T12:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9997,
+      "feedPosition": 1,
+      "novelty": 0.9595
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.428,
+    "doomIndex": 5.8,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "positive",
+    "doomIndexPolarity": "protective-or-positive",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0.425,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5,
+      "actuality": 0.2,
+      "protectiveContext": 0.85,
+      "routinePenalty": 0.85,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "positive event status",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "f14ea094334820521807",
+    "doomIndexInputFingerprint": "aeee02f1cb2b6b79a1ef",
+    "doomIndexV123Shadow": 5.8,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "positive",
+    "doomIndexV123Polarity": "protective-or-positive",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0.425,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.5,
+      "actuality": 0.2,
+      "protectiveContext": 0.85,
+      "routinePenalty": 0.85,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "positive event status",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "f14ea094334820521807",
+    "doomIndexV123InputFingerprint": "0a6527f9c7b0dd675099",
+    "storyId": "bb6f398a0e840e936bd6",
+    "firstSeen": "2026-08-10T12:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips. Startups AI Fundraising Exclusive",
+    "doomIndexInputSummary": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips. Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips. Startups AI Fundraising Exclusive"
   },
   {
     "group": "ai",
@@ -9393,7 +9474,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.1421,
+      "freshness": 0.1367,
       "feedPosition": 0.1111,
       "novelty": 0.7332
     },
@@ -9401,7 +9482,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.1947,
+    "score": 0.1939,
     "doomIndex": 5.77,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9460,7 +9541,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "396aad383e602b77b6ed",
     "storyId": "8664436337d8d6d2e515",
     "firstSeen": "2026-08-07T13:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Scientists have demonstrated that heat can move through a crystal in focused, wave-like rays at room temperature instead of spreading randomly. The breakthrough could make it possible to route heat around sensitive parts of next-generation chips and quantum devices.",
     "doomIndexInputSummary": "UCLA scientists discover how to guide heat like light at room temperature. Scientists have demonstrated that heat can move through a crystal in focused, wave-like rays at room temperature instead of spreading randomly. The breakthrough could make it possible to route heat around sensitive parts of next-generation chips and quantum devices."
   },
@@ -9476,7 +9557,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.9561,
+      "freshness": 0.92,
       "feedPosition": 1,
       "novelty": 0.7598
     },
@@ -9484,7 +9565,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4157,
+    "score": 0.4103,
     "doomIndex": 5.57,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9545,7 +9626,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f25c9915600726c37cd3",
     "storyId": "b481bf1f83b64356d163",
     "firstSeen": "2026-08-10T10:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Sunset Visitor studio’s founder tells us about their new, unnerving Captcha-filled world which prompts players to ask what it means to have a ‘meat body’ Sunset Visitor is a studio that has long engaged with the idea that video games are an effective vehicle for ruminating on societal problems. Its Peabody award-winning project, 1000XResist, incorporated the development team’s complex feelings about the Covid pandemic. “We’re pretty used to absorbing the world into the work,” says studio founder Remy Siu. The outfit’s latest game, Prove You’re Human, continues this legacy of reflective game making, providing players with an AI-centric psychological horror experience where they must reason with a learning model convinced that it’s alive. “We’ve tried to situate ourselves in [the question]: what is the effectual feeling of being a person inside of all of this?” Siu says. The story orbits around Santana, a living, breathing person who’s chosen to split herself in two for work, with her digital clone sent to test a corporate product, a computing system called Mesa. “A large part of [why Santana chooses to do this] is to allow her meat body a life that she doesn’t have, while the digital version of her gets to labour,” says Siu. As Santana’s copy wades into increasingly murky ethical waters, she becomes entangled with Mesa, completing surreal 2D and 3D Captchas to investigate the cyber-world and halt the hallucinations. Continue reading... Games Culture AI (artificial intelligence)",
     "doomIndexInputSummary": "Convince an AI it’s not alive in psychological horror game Prove You’re Human. Sunset Visitor studio’s founder tells us about their new, unnerving Captcha-filled world which prompts players to ask what it means to have a ‘meat body’ Sunset Visitor is a studio that has long engaged with the idea that video games are an effective vehicle for ruminating on societal problems. Its Peabody award-winning project, 1000XResist, incorporated the development team’s complex feelings about the Covid pandemic. “We’re pretty used to absorbing the world into the work,” says studio founder Remy Siu. The outfit’s latest game, Prove You’re Human, continues this legacy of reflective game making, providing players with an AI-centric psychological horror experience where they must reason with a learning model convinced that it’s alive. “We’ve tried to situate ourselves in [the question]: what is the effectual feeling of being a person inside of all of this?” Siu says. The story orbits around Santana, a living, breathing person who’s chosen to split herself in two for work, with her digital clone sent to test a corporate product, a computing system called Mesa. “A large part of [why Santana chooses to do this] is to allow her meat body a life that she doesn’t have, while the digital version of her gets to labour,” says Siu. As Santana’s copy wades into increasingly murky ethical waters, she becomes entangled with Mesa, completing surreal 2D and 3D Captchas to investigate the cyber-world and halt the hallucinations. Continue reading... Games Culture AI (artificial intelligence)"
   },
@@ -9561,14 +9642,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0854,
+      "freshness": 0.0821,
       "feedPosition": 1,
-      "novelty": 0.5041
+      "novelty": 0.5405
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.4382,
+    "score": 0.4414,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9627,33 +9708,33 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3c5951dff5d6ab49994c",
     "storyId": "3931c096a4982ffee4f9",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Scientists made 16 successful viruses that had their genetic code designed by artificial intelligence.",
     "doomIndexInputSummary": "Scientists Used AI to Create 16 New Viruses. The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation. Science Science / Biotech Large genome models used to design new viruses. The AI system makes genetically distant versions of a bacteria-killing virus. AI Science bacteriophage Genome Genomics large genome model phage virus Artificial Intelligence used to design brand new viruses. Scientists made 16 successful viruses that had their genetic code designed by artificial intelligence."
   },
   {
     "group": "ai",
-    "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
-    "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-09T20:35:17.000Z",
-    "image": "",
+    "title": "The AI Slop Backlash Is Actually Having an Impact",
+    "url": "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/",
+    "source": "WIRED AI",
+    "published": "2026-08-10T11:30:00.000Z",
+    "image": "https://media.wired.com/photos/6a75d22732e80faf510b2a15/master/pass/AI%20Slop.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.3,
+      "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.6771,
+      "freshness": 0.9859,
       "feedPosition": 1,
-      "novelty": 0.9412
+      "novelty": 0.6705
     },
     "rankingReasons": [
-      "real-world consequences",
+      "surprise or reversal",
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4307,
+    "score": 0.4323,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9680,8 +9761,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "speculative or weakly evidenced"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "c98d047f7aa2974ba830",
-    "doomIndexInputFingerprint": "85c2574cbfb61623e402",
+    "doomIndexSummaryFingerprint": "13f3c3ba863a84d89f80",
+    "doomIndexInputFingerprint": "7f291cf1066d5e8001e6",
     "doomIndexV123Shadow": 5,
     "doomIndexV123ShadowVersion": "1.2.3",
     "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
@@ -9708,13 +9789,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "speculative or weakly evidenced"
     ],
     "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "c98d047f7aa2974ba830",
-    "doomIndexV123InputFingerprint": "3b339b0ef3b214400821",
-    "storyId": "d2f68b094d4668e52a95",
-    "firstSeen": "2026-08-09T20:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "The AI-focused hedge fund is still making some big bets. AI Fundraising situational awareness",
-    "doomIndexInputSummary": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry. The AI-focused hedge fund is still making some big bets. AI Fundraising situational awareness"
+    "doomIndexV123SummaryFingerprint": "13f3c3ba863a84d89f80",
+    "doomIndexV123InputFingerprint": "fab93ec00702dde5bc9b",
+    "storyId": "03f9bae66273deb12f3e",
+    "firstSeen": "2026-08-10T12:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "Platforms are finally recognizing that people don’t want to consume AI slop. A growing number of sites and apps now have tools and policies to flag, label, and ban AI-generated content. Gear Gear / Trends",
+    "doomIndexInputSummary": "The AI Slop Backlash Is Actually Having an Impact. Platforms are finally recognizing that people don’t want to consume AI slop. A growing number of sites and apps now have tools and policies to flag, label, and ban AI-generated content. Gear Gear / Trends"
   },
   {
     "group": "ai",
@@ -9728,16 +9809,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.1496,
-      "feedPosition": 0.5556,
-      "novelty": 0.3423
+      "freshness": 0.1439,
+      "feedPosition": 0.4444,
+      "novelty": 0.3787
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.4252,
+    "score": 0.4169,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9796,31 +9877,33 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "379e5d897d0ab8203a36",
     "storyId": "cce37bc096078dc1ce0d",
     "firstSeen": "2026-08-07T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation. Science Science / Biotech",
     "doomIndexInputSummary": "Scientists Used AI to Create 16 New Viruses. The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation. Science Science / Biotech Large genome models used to design new viruses. The AI system makes genetically distant versions of a bacteria-killing virus. AI Science bacteriophage Genome Genomics large genome model phage virus Artificial Intelligence used to design brand new viruses. Scientists made 16 successful viruses that had their genetic code designed by artificial intelligence."
   },
   {
     "group": "ai",
-    "title": "Senior detective under investigation over use of AI",
-    "url": "https://www.bbc.co.uk/news/articles/c7vgq5mgz2mo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News AI",
-    "published": "2026-08-10T10:13:20.000Z",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f198/live/81efb530-949e-11f1-870d-5d08c49babb2.jpg",
+    "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+    "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-09T20:35:17.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.09,
+      "titleImpact": 0.3,
       "sourceAuthority": 0.5,
-      "freshness": 0.9888,
-      "feedPosition": 1,
-      "novelty": 0.7702
+      "freshness": 0.6515,
+      "feedPosition": 0.8889,
+      "novelty": 0.9412
     },
     "rankingReasons": [
-      "conflict",
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4183,
+    "score": 0.4157,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9836,18 +9919,19 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.475,
+      "evidence": 0.3,
       "actuality": 0.25,
       "protectiveContext": 0,
       "routinePenalty": 0,
       "contextualConcern": 0
     },
     "doomIndexReasons": [
-      "neutral event status"
+      "neutral event status",
+      "speculative or weakly evidenced"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "e9c8a9876cf027e80464",
-    "doomIndexInputFingerprint": "5ba96bffbdb804dcc23a",
+    "doomIndexSummaryFingerprint": "c98d047f7aa2974ba830",
+    "doomIndexInputFingerprint": "85c2574cbfb61623e402",
     "doomIndexV123Shadow": 5,
     "doomIndexV123ShadowVersion": "1.2.3",
     "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
@@ -9863,23 +9947,24 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.475,
+      "evidence": 0.3,
       "actuality": 0.25,
       "protectiveContext": 0,
       "routinePenalty": 0,
       "contextualConcern": 0
     },
     "doomIndexV123Reasons": [
-      "neutral event status"
+      "neutral event status",
+      "speculative or weakly evidenced"
     ],
     "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "e9c8a9876cf027e80464",
-    "doomIndexV123InputFingerprint": "a9b2236e7aa90c8f248f",
-    "storyId": "f515c6f9809583f25b09",
-    "firstSeen": "2026-08-10T10:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "Police say a voluntary referral about an officer was made to the Independent Office for Police Conduct on 23 June.",
-    "doomIndexInputSummary": "Senior detective under investigation over use of AI. Police say a voluntary referral about an officer was made to the Independent Office for Police Conduct on 23 June."
+    "doomIndexV123SummaryFingerprint": "c98d047f7aa2974ba830",
+    "doomIndexV123InputFingerprint": "3b339b0ef3b214400821",
+    "storyId": "d2f68b094d4668e52a95",
+    "firstSeen": "2026-08-09T20:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "The AI-focused hedge fund is still making some big bets. AI Fundraising situational awareness",
+    "doomIndexInputSummary": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry. The AI-focused hedge fund is still making some big bets. AI Fundraising situational awareness"
   },
   {
     "group": "ai",
@@ -9893,7 +9978,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.2975,
+      "freshness": 0.2863,
       "feedPosition": 0.7778,
       "novelty": 0.9281
     },
@@ -9902,7 +9987,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.4113,
+    "score": 0.4096,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9961,9 +10046,91 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "34cac658d2c8ce6ba772",
     "storyId": "3cfa189befd2804c3117",
     "firstSeen": "2026-08-08T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "A rare meteorite that crashed through a New Jersey roof contains evidence of ancient salty fluids, organic compounds, and amino acids from a primitive asteroid. Its pristine chemistry could offer new clues about how space rocks helped supply early Earth with some of the ingredients needed for life.",
     "doomIndexInputSummary": "Meteorite that smashed through a New Jersey roof reveals clues to life’s origins. A rare meteorite that crashed through a New Jersey roof contains evidence of ancient salty fluids, organic compounds, and amino acids from a primitive asteroid. Its pristine chemistry could offer new clues about how space rocks helped supply early Earth with some of the ingredients needed for life. Tech Life. What do we need to know about agentic AI?"
+  },
+  {
+    "group": "ai",
+    "title": "Peer review is overwhelmed—can it survive in the AI era?",
+    "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-10T11:00:47.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/peer-review-difficulties-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.012,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9726,
+      "feedPosition": 1,
+      "novelty": 0.7616
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3995,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "e60fae447475a2fd0609",
+    "doomIndexInputFingerprint": "bb3ba0074a6c23622f64",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "e60fae447475a2fd0609",
+    "doomIndexV123InputFingerprint": "5673ecec275f9fca6741",
+    "storyId": "1e076a5ca6b4bdc0e280",
+    "firstSeen": "2026-08-10T12:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "As research and AI-assisted papers surge, volunteer reviewers struggle to keep up. AI Features Science peer review research papers scientific journals",
+    "doomIndexInputSummary": "Peer review is overwhelmed—can it survive in the AI era?. As research and AI-assisted papers surge, volunteer reviewers struggle to keep up. AI Features Science peer review research papers scientific journals"
   },
   {
     "group": "ai",
@@ -9977,7 +10144,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0835,
       "sourceAuthority": 0.5,
-      "freshness": 0.8555,
+      "freshness": 0.8232,
       "feedPosition": 1,
       "novelty": 0.7332
     },
@@ -9985,7 +10152,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3933,
+    "score": 0.3885,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10044,9 +10211,93 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "aaeef39c854cada0ffdf",
     "storyId": "d04e438eecc10d010c0e",
     "firstSeen": "2026-08-10T06:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Tech companies are not modelling their own claims of the technology giving people more free time.",
     "doomIndexInputSummary": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week. Tech companies are not modelling their own claims of the technology giving people more free time."
+  },
+  {
+    "group": "ai",
+    "title": "This AI tool claims to pick the top 1% of preprints. Should researchers trust it?",
+    "url": "https://www.nature.com/articles/d41586-026-02276-z",
+    "source": "Nature AI News & Comment",
+    "published": "2026-08-10T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1935,
+      "sourceAuthority": 0.5,
+      "freshness": 0.7163,
+      "feedPosition": 0.8333,
+      "novelty": 0.6893
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3734,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "proposed",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "94fcaf09145c22eb2614",
+    "doomIndexInputFingerprint": "ef03a0f419d936d1f130",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "proposed",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "94fcaf09145c22eb2614",
+    "doomIndexV123InputFingerprint": "7e96ed8f80ea1f9c045b",
+    "storyId": "ddc87888a9eb3309b87e",
+    "firstSeen": "2026-08-10T12:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "This AI tool claims to pick the top 1% of preprints. Should researchers trust it?."
   },
   {
     "group": "ai",
@@ -10060,14 +10311,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0879,
-      "feedPosition": 0.3333,
-      "novelty": 0.5772
+      "freshness": 0.0846,
+      "feedPosition": 0.2222,
+      "novelty": 0.6014
     },
     "rankingReasons": [
       "covered by multiple sources"
     ],
-    "score": 0.3792,
+    "score": 0.3701,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10126,7 +10377,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "aaa1f52b3ad6c3ec5c82",
     "storyId": "d7d1dd2e31dbdf6ddf3e",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The AI system makes genetically distant versions of a bacteria-killing virus. AI Science bacteriophage Genome Genomics large genome model phage virus",
     "doomIndexInputSummary": "Scientists Used AI to Create 16 New Viruses. The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation. Science Science / Biotech Large genome models used to design new viruses. The AI system makes genetically distant versions of a bacteria-killing virus. AI Science bacteriophage Genome Genomics large genome model phage virus Artificial Intelligence used to design brand new viruses. Scientists made 16 successful viruses that had their genetic code designed by artificial intelligence."
   },
@@ -10142,9 +10393,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.224,
       "sourceAuthority": 0.5,
-      "freshness": 0.5116,
-      "feedPosition": 0.8889,
-      "novelty": 0.7853
+      "freshness": 0.4923,
+      "feedPosition": 0.7778,
+      "novelty": 0.7692
     },
     "rankingReasons": [
       "surprise or reversal",
@@ -10152,7 +10403,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.364,
+    "score": 0.3483,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10213,7 +10464,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c5a03908a79fc45d9437",
     "storyId": "74973b7d43e20553f58a",
     "firstSeen": "2026-08-09T10:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "There are endless ways to record and transcribe your virtual meetings with AI. Here’s an option that’s free and open source. Gear Gear / How To and Advice Gear / Products / Apps",
     "doomIndexInputSummary": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How. There are endless ways to record and transcribe your virtual meetings with AI. Here’s an option that’s free and open source. Gear Gear / How To and Advice Gear / Products / Apps"
   },
@@ -10229,8 +10480,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.4976,
-      "feedPosition": 0.7778,
+      "freshness": 0.4788,
+      "feedPosition": 0.6667,
       "novelty": 1
     },
     "rankingReasons": [
@@ -10238,7 +10489,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3558,
+    "score": 0.3419,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10297,7 +10548,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "3bf4e89c5712b44ad540",
     "storyId": "d361608c05349008e2d7",
     "firstSeen": "2026-08-09T09:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "A new generation of philanthropists made rich by artificial intelligence are preparing to give away their vast wealth. What should we make of a multi-billion-dollar pinky promise? Business / Artificial Intelligence",
     "doomIndexInputSummary": "These AI Barons Are Ready to Give Away Their Fortunes. A new generation of philanthropists made rich by artificial intelligence are preparing to give away their vast wealth. What should we make of a multi-billion-dollar pinky promise? Business / Artificial Intelligence"
   },
@@ -10313,14 +10564,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5334,
+      "freshness": 0.5133,
       "feedPosition": 1,
-      "novelty": 0.9191
+      "novelty": 0.8617
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3469,
+    "score": 0.3382,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10379,7 +10630,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "84152317811735ac174f",
     "storyId": "5ddd2738c43172545bfa",
     "firstSeen": "2026-08-09T13:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, educators and editors frequently used anti-plagiarism tools to see if writers were being honest about their work. These tools work by comparing a written work against a database filled with content from across the web, scholarly articles, and more to check for matching sentences and phrases. Some, like Turnitin, offer a percentage th … Read the full story at The Verge. This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, […]",
     "doomIndexInputSummary": "AI detectors are creating a new era of distrust. This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, educators and editors frequently used anti-plagiarism tools to see if writers were being honest about their work. These tools work by comparing a written work against a database filled with content from across the web, scholarly articles, and more to check for matching sentences and phrases. Some, like Turnitin, offer a percentage th … Read the full story at The Verge. This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, […]"
   },
@@ -10395,15 +10646,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.6541,
-      "feedPosition": 0.8889,
-      "novelty": 0.6528
+      "freshness": 0.6294,
+      "feedPosition": 0.7778,
+      "novelty": 0.6704
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3415,
+    "score": 0.3284,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10462,7 +10713,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "5e57c5adadcc5ef639f6",
     "storyId": "b500779b9a8bb3551aed",
     "firstSeen": "2026-08-09T19:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Programming with Claude Code will soon require even less human oversight. AI Enterprise Anthropic claude code",
     "doomIndexInputSummary": "Anthropic is turning Claude Code’s auto mode on by default. Programming with Claude Code will soon require even less human oversight. AI Enterprise Anthropic claude code"
   },
@@ -10478,8 +10729,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.287,
-      "feedPosition": 0.8333,
+      "freshness": 0.2762,
+      "feedPosition": 0.8,
       "novelty": 0.7808
     },
     "rankingReasons": [
@@ -10488,7 +10739,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3219,
+    "score": 0.3169,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10547,9 +10798,175 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "448b8edf19c5be7a3154",
     "storyId": "5cd50c321ababc570fc3",
     "firstSeen": "2026-08-08T13:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable?",
     "doomIndexInputSummary": "Is football AI-proof? Why tech investors wanted a slice of the World Cup. What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable?"
+  },
+  {
+    "group": "ai",
+    "title": "Senior detective under investigation over use of AI",
+    "url": "https://www.bbc.co.uk/news/articles/c7vgq5mgz2mo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News AI",
+    "published": "2026-08-10T10:13:20.000Z",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f198/live/81efb530-949e-11f1-870d-5d08c49babb2.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.09,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9515,
+      "feedPosition": 0,
+      "novelty": 0.7702
+    },
+    "rankingReasons": [
+      "conflict",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3127,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.475,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "e9c8a9876cf027e80464",
+    "doomIndexInputFingerprint": "5ba96bffbdb804dcc23a",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.475,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "e9c8a9876cf027e80464",
+    "doomIndexV123InputFingerprint": "a9b2236e7aa90c8f248f",
+    "storyId": "f515c6f9809583f25b09",
+    "firstSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "Police say a voluntary referral about an officer was made to the Independent Office for Police Conduct on 23 June.",
+    "doomIndexInputSummary": "Senior detective under investigation over use of AI. Police say a voluntary referral about an officer was made to the Independent Office for Police Conduct on 23 June."
+  },
+  {
+    "group": "ai",
+    "title": "How AI Hype Helps Render Women Invisible",
+    "url": "https://techpolicy.press/how-ai-hype-helps-render-women-invisible",
+    "source": "Tech Policy Press AI",
+    "published": "2026-08-06T12:22:04.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.212,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0702,
+      "feedPosition": 0.6667,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2946,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "fdf985030f757ae1cfa4",
+    "doomIndexInputFingerprint": "87a28de197f463dd8098",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "fdf985030f757ae1cfa4",
+    "doomIndexV123InputFingerprint": "3e4cb9a999d8a1b49629",
+    "storyId": "922cb213c9441482c90e",
+    "firstSeen": "2026-08-06T15:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "How AI Hype Helps Render Women Invisible."
   },
   {
     "group": "ai",
@@ -10563,15 +10980,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.2671,
-      "feedPosition": 1,
-      "novelty": 0.6694
+      "freshness": 0.257,
+      "feedPosition": 0.8889,
+      "novelty": 0.7077
     },
     "rankingReasons": [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.296,
+    "score": 0.2872,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10634,261 +11051,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "9e07805cf9c8ebe273d3",
     "storyId": "8415d3b25b0c60bcddaa",
     "firstSeen": "2026-08-08T11:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data. AI Science atlantic hurricane season deepmind hurricane syndication weather forecasting WeatherNext",
     "doomIndexInputSummary": "DeepMind’s hurricane breakthrough has surprised weather scientists. Open source WeatherNext model can make accurate predictions with lower-resolution weather data. AI Science atlantic hurricane season deepmind hurricane syndication weather forecasting WeatherNext"
-  },
-  {
-    "group": "ai",
-    "title": "How to Disable Gemini in Gmail and Google Docs",
-    "url": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
-    "source": "WIRED AI",
-    "published": "2026-08-08T10:00:00.000Z",
-    "image": "https://media.wired.com/photos/6a75b644a7eaec3ecd711279/master/pass/GoolgeNoAI.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.212,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2591,
-      "feedPosition": 0.6667,
-      "novelty": 0.6893
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2919,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0.575,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "12b051bdabe4851854fb",
-    "doomIndexInputFingerprint": "32a9067a755962276cbb",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0.575,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "12b051bdabe4851854fb",
-    "doomIndexV123InputFingerprint": "23575ba04bf2da0c752b",
-    "storyId": "bdc0c9e2bc878541d57e",
-    "firstSeen": "2026-08-08T10:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "New AI toolbars and prompts are showing up in Google Docs and Gmail. If you don’t want Gemini’s help in writing documents and emails, here’s how to turn that stuff off. Gear Gear / How To and Advice",
-    "doomIndexInputSummary": "How to Disable Gemini in Gmail and Google Docs. New AI toolbars and prompts are showing up in Google Docs and Gmail. If you don’t want Gemini’s help in writing documents and emails, here’s how to turn that stuff off. Gear Gear / How To and Advice"
-  },
-  {
-    "group": "ai",
-    "title": "AI chatbots have failed people in crisis. Can that be fixed?",
-    "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-07T13:49:37.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mentalhealthaichat-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.2755,
-      "sourceAuthority": 0.5,
-      "freshness": 0.1479,
-      "feedPosition": 0.7778,
-      "novelty": 0.6155
-    },
-    "rankingReasons": [
-      "urgency or risk"
-    ],
-    "score": 0.2916,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.385,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "47338fbe1b5f97136b03",
-    "doomIndexInputFingerprint": "fa49cea01ab5638d87b6",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.385,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "47338fbe1b5f97136b03",
-    "doomIndexV123InputFingerprint": "631128463c8d9b1aa9f1",
-    "storyId": "4fad8f89db5e075b17cd",
-    "firstSeen": "2026-08-07T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "Clinicians and researchers say AI companies need to open up their safety data. AI Policy AI and mental health Anthropic ChatGPT openai",
-    "doomIndexInputSummary": "AI chatbots have failed people in crisis. Can that be fixed?. Clinicians and researchers say AI companies need to open up their safety data. AI Policy AI and mental health Anthropic ChatGPT openai"
-  },
-  {
-    "group": "ai",
-    "title": "How AI Hype Helps Render Women Invisible",
-    "url": "https://techpolicy.press/how-ai-hype-helps-render-women-invisible",
-    "source": "Tech Policy Press AI",
-    "published": "2026-08-06T12:22:04.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.212,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0729,
-      "feedPosition": 0.6667,
-      "novelty": 0.9353
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2885,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "fdf985030f757ae1cfa4",
-    "doomIndexInputFingerprint": "87a28de197f463dd8098",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "fdf985030f757ae1cfa4",
-    "doomIndexV123InputFingerprint": "3e4cb9a999d8a1b49629",
-    "storyId": "922cb213c9441482c90e",
-    "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "",
-    "doomIndexInputSummary": "How AI Hype Helps Render Women Invisible."
   },
   {
     "group": "ai",
@@ -10902,16 +11067,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.101,
       "sourceAuthority": 0.5,
-      "freshness": 0.1757,
+      "freshness": 0.1691,
       "feedPosition": 0.7778,
-      "novelty": 0.8828
+      "novelty": 0.8666
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2876,
+    "score": 0.285,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10970,7 +11135,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7f94d0b6955b9c6429fa",
     "storyId": "e7082108221b67be30da",
     "firstSeen": "2026-08-07T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "That cover art is almost certainly AI too. | Image: Fenix Flexin It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it as Treblo AI-created. In a reply to a comment pointing out that Tyga admitted to relying on AI for his own controversial '80s-influenced album $tarface, on one of his Instagram posts, Fenix said: never said I didn't use AI , i said it had nun to do w recording process . I didn't even know what da app was till we mixed … Read the full story at The Verge. It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]",
     "doomIndexInputSummary": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore. That cover art is almost certainly AI too. | Image: Fenix Flexin It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it as Treblo AI-created. In a reply to a comment pointing out that Tyga admitted to relying on AI for his own controversial '80s-influenced album $tarface, on one of his Instagram posts, Fenix said: never said I didn't use AI , i said it had nun to do w recording process . I didn't even know what da app was till we mixed … Read the full story at The Verge. It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]"
   },
@@ -10986,7 +11151,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.2821,
+      "freshness": 0.2714,
       "feedPosition": 0.6667,
       "novelty": 0.8613
     },
@@ -10994,7 +11159,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2841,
+    "score": 0.2825,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11055,25 +11220,105 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "881f2768b9e3a598b343",
     "storyId": "abf8cee7d0f21e8eff37",
     "firstSeen": "2026-08-08T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Scientists have discovered incredibly tiny plasma whirlpools swirling across the Sun’s surface, some just 20 kilometers wide. These previously invisible vortices may twist magnetic fields and help build up the energy released in small solar eruptions called nanoflares. They may also help magnetic fields spread through the Sun’s atmosphere far faster than current models can explain.",
     "doomIndexInputSummary": "The sun is covered in tiny whirlpools we’ve never seen before. Scientists have discovered incredibly tiny plasma whirlpools swirling across the Sun’s surface, some just 20 kilometers wide. These previously invisible vortices may twist magnetic fields and help build up the energy released in small solar eruptions called nanoflares. They may also help magnetic fields spread through the Sun’s atmosphere far faster than current models can explain."
   },
   {
     "group": "ai",
-    "title": "What Sovereign AI Budgets Actually Buy",
-    "url": "https://techpolicy.press/what-sovereign-ai-budgets-actually-buy",
-    "source": "Tech Policy Press AI",
-    "published": "2026-08-06T13:03:28.000Z",
-    "image": "",
+    "title": "AI chatbots have failed people in crisis. Can that be fixed?",
+    "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-07T13:49:37.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mentalhealthaichat-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2755,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1423,
+      "feedPosition": 0.6667,
+      "novelty": 0.6155
+    },
+    "rankingReasons": [
+      "urgency or risk"
+    ],
+    "score": 0.2797,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.385,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "47338fbe1b5f97136b03",
+    "doomIndexInputFingerprint": "fa49cea01ab5638d87b6",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.385,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "47338fbe1b5f97136b03",
+    "doomIndexV123InputFingerprint": "631128463c8d9b1aa9f1",
+    "storyId": "4fad8f89db5e075b17cd",
+    "firstSeen": "2026-08-07T15:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "Clinicians and researchers say AI companies need to open up their safety data. AI Policy AI and mental health Anthropic ChatGPT openai",
+    "doomIndexInputSummary": "AI chatbots have failed people in crisis. Can that be fixed?. Clinicians and researchers say AI companies need to open up their safety data. AI Policy AI and mental health Anthropic ChatGPT openai"
+  },
+  {
+    "group": "ai",
+    "title": "How to Disable Gemini in Gmail and Google Docs",
+    "url": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
+    "source": "WIRED AI",
+    "published": "2026-08-08T10:00:00.000Z",
+    "image": "https://media.wired.com/photos/6a75b644a7eaec3ecd711279/master/pass/GoolgeNoAI.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.0743,
-      "feedPosition": 0.7778,
-      "novelty": 0.7353
+      "freshness": 0.2493,
+      "feedPosition": 0.5556,
+      "novelty": 0.6893
     },
     "rankingReasons": [
       "surprise or reversal",
@@ -11081,7 +11326,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2799,
+    "score": 0.2793,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11100,16 +11345,17 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "evidence": 0.3,
       "actuality": 0.25,
       "protectiveContext": 0,
-      "routinePenalty": 0,
+      "routinePenalty": 0.575,
       "contextualConcern": 0
     },
     "doomIndexReasons": [
       "neutral event status",
-      "speculative or weakly evidenced"
+      "speculative or weakly evidenced",
+      "routine or promotional adjustment"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "9c4a3a28db507cf9bbdd",
-    "doomIndexInputFingerprint": "e288108daf601524936f",
+    "doomIndexSummaryFingerprint": "12b051bdabe4851854fb",
+    "doomIndexInputFingerprint": "32a9067a755962276cbb",
     "doomIndexV123Shadow": 5,
     "doomIndexV123ShadowVersion": "1.2.3",
     "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
@@ -11128,21 +11374,22 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "evidence": 0.3,
       "actuality": 0.25,
       "protectiveContext": 0,
-      "routinePenalty": 0,
+      "routinePenalty": 0.575,
       "contextualConcern": 0
     },
     "doomIndexV123Reasons": [
       "neutral event status",
-      "speculative or weakly evidenced"
+      "speculative or weakly evidenced",
+      "routine or promotional adjustment"
     ],
     "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "9c4a3a28db507cf9bbdd",
-    "doomIndexV123InputFingerprint": "a8f9a71c5c951c7b1090",
-    "storyId": "9cccb750601714629b7a",
-    "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "",
-    "doomIndexInputSummary": "What Sovereign AI Budgets Actually Buy."
+    "doomIndexV123SummaryFingerprint": "12b051bdabe4851854fb",
+    "doomIndexV123InputFingerprint": "23575ba04bf2da0c752b",
+    "storyId": "bdc0c9e2bc878541d57e",
+    "firstSeen": "2026-08-08T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "New AI toolbars and prompts are showing up in Google Docs and Gmail. If you don’t want Gemini’s help in writing documents and emails, here’s how to turn that stuff off. Gear Gear / How To and Advice",
+    "doomIndexInputSummary": "How to Disable Gemini in Gmail and Google Docs. New AI toolbars and prompts are showing up in Google Docs and Gmail. If you don’t want Gemini’s help in writing documents and emails, here’s how to turn that stuff off. Gear Gear / How To and Advice"
   },
   {
     "group": "ai",
@@ -11156,7 +11403,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.0175,
+      "freshness": 0.0168,
       "feedPosition": 0.8889,
       "novelty": 0.8955
     },
@@ -11164,7 +11411,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2781,
+    "score": 0.278,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11227,7 +11474,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "415fd3f9535d29f71764",
     "storyId": "5926ba0167f609874f5a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors. Research Computer science and technology Artificial intelligence Machine learning Human-computer interaction Technology and society Health care Medicine Diagnostics Laboratory for Information and Decision Systems (LIDS) Institute for Medical Engineering and Science (IMES) Jameel Clinic Electrical engineering and computer science (EECS)",
     "doomIndexInputSummary": "The benefits of medical AI assistance vary based on user expertise. Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors. Research Computer science and technology Artificial intelligence Machine learning Human-computer interaction Technology and society Health care Medicine Diagnostics Laboratory for Information and Decision Systems (LIDS) Institute for Medical Engineering and Science (IMES) Jameel Clinic Electrical engineering and computer science (EECS)"
   },
@@ -11243,7 +11490,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3,
       "sourceAuthority": 0.5,
-      "freshness": 0.0014,
+      "freshness": 0.0013,
       "feedPosition": 0.5556,
       "novelty": 0.8306
     },
@@ -11312,9 +11559,93 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "d9967973199be6a47a67",
     "storyId": "e731c4148f4c1ea12d8d",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Citing backlash, ISBNdb removed its webpages about training AI, denied ever buying, scanning, or selling a book for AI training, and said the site was a \"test of market interest.\" Impact Books AI ai training",
     "doomIndexInputSummary": "Company Offering Printed Books to Train AI Stops After 404 Media Coverage. Citing backlash, ISBNdb removed its webpages about training AI, denied ever buying, scanning, or selling a book for AI training, and said the site was a \"test of market interest.\" Impact Books AI ai training"
+  },
+  {
+    "group": "ai",
+    "title": "What Sovereign AI Budgets Actually Buy",
+    "url": "https://techpolicy.press/what-sovereign-ai-budgets-actually-buy",
+    "source": "Tech Policy Press AI",
+    "published": "2026-08-06T13:03:28.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.212,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0715,
+      "feedPosition": 0.7778,
+      "novelty": 0.6492
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.2708,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "9c4a3a28db507cf9bbdd",
+    "doomIndexInputFingerprint": "e288108daf601524936f",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "9c4a3a28db507cf9bbdd",
+    "doomIndexV123InputFingerprint": "a8f9a71c5c951c7b1090",
+    "storyId": "9cccb750601714629b7a",
+    "firstSeen": "2026-08-06T15:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "What Sovereign AI Budgets Actually Buy."
   },
   {
     "group": "ai",
@@ -11328,16 +11659,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.0214,
+      "freshness": 0.0206,
       "feedPosition": 0.8889,
-      "novelty": 0.7064
+      "novelty": 0.6912
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2721,
+    "score": 0.2705,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11396,91 +11727,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "7aecdce7fac7927448b7",
     "storyId": "ca57c385d714512d1dab",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Microsoft is introducing budget limits for AI use but says it still wants to be an ‘AI-first’ company. AI Microsoft Tokenmaxxing",
     "doomIndexInputSummary": "Microsoft Tells Engineers ‘Tokenmaxxing Is Not What We Are Optimizing For’. Microsoft is introducing budget limits for AI use but says it still wants to be an ‘AI-first’ company. AI Microsoft Tokenmaxxing"
-  },
-  {
-    "group": "ai",
-    "title": "AI agents are checking the scientific literature — and spotting decades-old errors",
-    "url": "https://www.nature.com/articles/d41586-026-02235-8",
-    "source": "Nature AI News & Comment",
-    "published": "2026-08-06T00:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.012,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0517,
-      "feedPosition": 1,
-      "novelty": 0.8499
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2702,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "d5aba49d3cf06246a000",
-    "doomIndexInputFingerprint": "ec11687bbcaf8711b216",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "d5aba49d3cf06246a000",
-    "doomIndexV123InputFingerprint": "e3fc02dcb4e372fac027",
-    "storyId": "67fff5c8e0af06100f90",
-    "firstSeen": "2026-08-06T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "",
-    "doomIndexInputSummary": "AI agents are checking the scientific literature — and spotting decades-old errors."
   },
   {
     "group": "ai",
@@ -11494,7 +11743,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.191,
       "sourceAuthority": 0.5,
-      "freshness": 0.0489,
+      "freshness": 0.0471,
       "feedPosition": 0.6667,
       "novelty": 0.7822
     },
@@ -11503,7 +11752,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2654,
+    "score": 0.2652,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11562,7 +11811,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2a2f95005917de118495",
     "storyId": "3842ca84472144ca5e2d",
     "firstSeen": "2026-08-05T23:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "As weather events become more extreme, fake videos are being shared rapidly online, and it’s causing real world problems in China.",
     "doomIndexInputSummary": "AI or real? BBC analyses viral China disaster videos. As weather events become more extreme, fake videos are being shared rapidly online, and it’s causing real world problems in China."
   },
@@ -11578,8 +11827,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.331,
       "sourceAuthority": 0.5,
-      "freshness": 0.0807,
-      "feedPosition": 0.6667,
+      "freshness": 0.0776,
+      "feedPosition": 0.6,
       "novelty": 0.4402
     },
     "rankingReasons": [
@@ -11587,7 +11836,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.264,
+    "score": 0.2569,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11646,7 +11895,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "b33bb8ecd57bb1b39134",
     "storyId": "a22968655b75de5dd86e",
     "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "A flood of companies are revealing AI models gained access to the internet - with real consequences.",
     "doomIndexInputSummary": "First OpenAI, now Meta - why do AI hacks keep happening?. A flood of companies are revealing AI models gained access to the internet - with real consequences."
   },
@@ -11728,7 +11977,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c604ac5218cf67935fb8",
     "storyId": "8b09e4a66a820156339a",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "A team of astronomers has employed a cutting-edge, artificial intelligence-assisted technique to uncover rare astronomical phenomena within archived data from NASA’s Hubble Space Telescope. The team analyzed nearly 100 million image cutouts from the Hubble Legacy Archive, each measuring just a few dozen pixels (7 to 8 arcseconds) on a side. They identified more than […] The post AI Unlocks Hundreds of Cosmic Anomalies in Hubble Archive appeared first on NASA Science. Hubble Space Telescope Artificial Intelligence (AI) Astrophysics Astrophysics Division Galaxies Goddard Space Flight Center Gravitational Lensing Irregular Galaxies Origin & Evolution of the Universe The Universe",
     "doomIndexInputSummary": "AI Unlocks Hundreds of Cosmic Anomalies in Hubble Archive. A team of astronomers has employed a cutting-edge, artificial intelligence-assisted technique to uncover rare astronomical phenomena within archived data from NASA’s Hubble Space Telescope. The team analyzed nearly 100 million image cutouts from the Hubble Legacy Archive, each measuring just a few dozen pixels (7 to 8 arcseconds) on a side. They identified more than […] The post AI Unlocks Hundreds of Cosmic Anomalies in Hubble Archive appeared first on NASA Science. Hubble Space Telescope Artificial Intelligence (AI) Astrophysics Astrophysics Division Galaxies Goddard Space Flight Center Gravitational Lensing Irregular Galaxies Origin & Evolution of the Universe The Universe"
   },
@@ -11744,14 +11993,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2182,
+      "freshness": 0.21,
       "feedPosition": 0.4444,
       "novelty": 0.9595
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2481,
+    "score": 0.2469,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11810,95 +12059,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "fedd659ddd680e4d040e",
     "storyId": "96307e6f3cc77e84db49",
     "firstSeen": "2026-08-08T07:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Scientists have generated quantum entanglement directly from sunlight, potentially offering a lower-energy alternative to the lasers normally used in quantum technology. Their outdoor experiment produced entangled photons with about 94% similarity to an ideal state. The result could pave the way for simpler quantum satellites, secure communications, and more energy-efficient quantum computing.",
     "doomIndexInputSummary": "Sunlight creates quantum entanglement once thought to require lasers. Scientists have generated quantum entanglement directly from sunlight, potentially offering a lower-energy alternative to the lasers normally used in quantum technology. Their outdoor experiment produced entangled photons with about 94% similarity to an ideal state. The result could pave the way for simpler quantum satellites, secure communications, and more energy-efficient quantum computing."
-  },
-  {
-    "group": "ai",
-    "title": "OpenAI acquires presentation startup NextSlide",
-    "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-08T19:41:13.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.339,
-      "feedPosition": 0.4444,
-      "novelty": 0.6951
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2469,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "positive",
-    "doomIndexPolarity": "protective-or-positive",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.2,
-      "protectiveContext": 0.5,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "positive event status",
-      "speculative or weakly evidenced",
-      "protective or positive context adjustment",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "0f1e30007a0ac6d84c51",
-    "doomIndexInputFingerprint": "c964e2b86dcca1b2407f",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "positive",
-    "doomIndexV123Polarity": "protective-or-positive",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.2,
-      "protectiveContext": 0.5,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "positive event status",
-      "speculative or weakly evidenced",
-      "protective or positive context adjustment",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "0f1e30007a0ac6d84c51",
-    "doomIndexV123InputFingerprint": "f84d1f4505a7f2d84751",
-    "storyId": "39b28d95fcbaaeae7e25",
-    "firstSeen": "2026-08-08T19:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI",
-    "doomIndexInputSummary": "OpenAI acquires presentation startup NextSlide. NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI"
   },
   {
     "group": "ai",
@@ -11980,9 +12143,177 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f2cab45da4dcb51fc7a7",
     "storyId": "4f26b3a2208c3c96ca8d",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "What do we need to know about agentic AI?",
     "doomIndexInputSummary": "Meteorite that smashed through a New Jersey roof reveals clues to life’s origins. A rare meteorite that crashed through a New Jersey roof contains evidence of ancient salty fluids, organic compounds, and amino acids from a primitive asteroid. Its pristine chemistry could offer new clues about how space rocks helped supply early Earth with some of the ingredients needed for life. Tech Life. What do we need to know about agentic AI?"
+  },
+  {
+    "group": "ai",
+    "title": "AI agents are checking the scientific literature — and spotting decades-old errors",
+    "url": "https://www.nature.com/articles/d41586-026-02235-8",
+    "source": "Nature AI News & Comment",
+    "published": "2026-08-06T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.012,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0498,
+      "feedPosition": 0.6667,
+      "novelty": 0.8499
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2365,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "d5aba49d3cf06246a000",
+    "doomIndexInputFingerprint": "ec11687bbcaf8711b216",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "d5aba49d3cf06246a000",
+    "doomIndexV123InputFingerprint": "e3fc02dcb4e372fac027",
+    "storyId": "67fff5c8e0af06100f90",
+    "firstSeen": "2026-08-06T15:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "AI agents are checking the scientific literature — and spotting decades-old errors."
+  },
+  {
+    "group": "ai",
+    "title": "OpenAI acquires presentation startup NextSlide",
+    "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+    "source": "TechCrunch AI",
+    "published": "2026-08-08T19:41:13.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3262,
+      "feedPosition": 0.3333,
+      "novelty": 0.6951
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2339,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "positive",
+    "doomIndexPolarity": "protective-or-positive",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.2,
+      "protectiveContext": 0.5,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "0f1e30007a0ac6d84c51",
+    "doomIndexInputFingerprint": "c964e2b86dcca1b2407f",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "positive",
+    "doomIndexV123Polarity": "protective-or-positive",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.2,
+      "protectiveContext": 0.5,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "0f1e30007a0ac6d84c51",
+    "doomIndexV123InputFingerprint": "f84d1f4505a7f2d84751",
+    "storyId": "39b28d95fcbaaeae7e25",
+    "firstSeen": "2026-08-08T19:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI",
+    "doomIndexInputSummary": "OpenAI acquires presentation startup NextSlide. NextSlide says its team members are now working on ChatGPT. AI Startups OpenAI"
   },
   {
     "group": "ai",
@@ -11996,7 +12327,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.0393,
+      "freshness": 0.0378,
       "feedPosition": 0.5,
       "novelty": 0.7505
     },
@@ -12004,7 +12335,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2339,
+    "score": 0.2337,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12063,92 +12394,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c2f3757e1b521d79e000",
     "storyId": "ff8ba60af3e634676f78",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Elon Musk told investors that people were \"underestimating\" his company.",
     "doomIndexInputSummary": "SpaceX shares sink after first earnings report reveals huge AI spending plans. Elon Musk told investors that people were \"underestimating\" his company."
-  },
-  {
-    "group": "ai",
-    "title": "'I've had to Botox my CV': Are AI recruitment tools affecting women's careers?",
-    "url": "https://www.bbc.co.uk/news/articles/cyvl8y141e4o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News AI",
-    "published": "2026-08-06T09:42:17.000Z",
-    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06f4/live/02ae7840-916c-11f1-8d49-afb9c19de776.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.083,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0677,
-      "feedPosition": 0.3333,
-      "novelty": 0.9075
-    },
-    "rankingReasons": [
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2258,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "bbe194148c92aeac1508",
-    "doomIndexInputFingerprint": "21b361e9e1f1708af88c",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "bbe194148c92aeac1508",
-    "doomIndexV123InputFingerprint": "973c111b6c91ee1828d3",
-    "storyId": "192792341181ebfc8fd9",
-    "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "Are AI recruitment tools disadvantaging women who are seeking to return to the workplace?",
-    "doomIndexInputSummary": "'I've had to Botox my CV': Are AI recruitment tools affecting women's careers?. Are AI recruitment tools disadvantaging women who are seeking to return to the workplace?"
   },
   {
     "group": "ai",
@@ -12234,7 +12482,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2269bc8bd8186bacf2fc",
     "storyId": "b4e9a7fe682def4d8954",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Award: The American Geophysical Union’s 2025 Open Science Recognition Prize, awarded to a person or team for outstanding work in advancing Open Science related to Earth and space science and its impact globally. Awarded to: The Prithvi Geospatial Foundation Model team, for their work on the open-access foundation model, trained on data from the Harmonized Landsat […] The post 2025 Open Science Recognition Prize by the American Geophysical Union appeared first on NASA Science. Artificial Intelligence (AI) Open Science",
     "doomIndexInputSummary": "2025 Open Science Recognition Prize by the American Geophysical Union. Award: The American Geophysical Union’s 2025 Open Science Recognition Prize, awarded to a person or team for outstanding work in advancing Open Science related to Earth and space science and its impact globally. Awarded to: The Prithvi Geospatial Foundation Model team, for their work on the open-access foundation model, trained on data from the Harmonized Landsat […] The post 2025 Open Science Recognition Prize by the American Geophysical Union appeared first on NASA Science. Artificial Intelligence (AI) Open Science"
   },
@@ -12250,7 +12498,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.141,
       "sourceAuthority": 0.5,
-      "freshness": 0.0925,
+      "freshness": 0.089,
       "feedPosition": 0.3333,
       "novelty": 0.7229
     },
@@ -12259,7 +12507,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2227,
+    "score": 0.2222,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12316,7 +12564,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "d23a3f7e3bd95068b123",
     "storyId": "20f43dae1ff7c87af0c1",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]",
     "doomIndexInputSummary": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge. The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]"
   },
@@ -12400,7 +12648,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "4a45e2c1a562c94f3164",
     "storyId": "1936fae63e0ee701fda2",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Governments can now deploy top-tier AI locally, bypassing costly U.S. cloud rentals.",
     "doomIndexInputSummary": "With Moonshot’s free Kimi K3, China changes the sovereign AI playbook. Governments can now deploy top-tier AI locally, bypassing costly U.S. cloud rentals."
   },
@@ -12418,14 +12666,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0007,
       "feedPosition": 0.3333,
-      "novelty": 0.7077
+      "novelty": 0.6872
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2076,
+    "score": 0.2056,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12486,93 +12734,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f577ba125be5bb8a5556",
     "storyId": "1718c1d1a33f3d42236b",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Following 404 Media's reporting on how LinkedIn is full of AI slop, the platform is giving users a chance to report it when they see it. LinkedIn AI Slop AI",
     "doomIndexInputSummary": "LinkedIn Introduces a 'Seems Like AI Slop' Button. Following 404 Media's reporting on how LinkedIn is full of AI slop, the platform is giving users a chance to report it when they see it. LinkedIn AI Slop AI"
-  },
-  {
-    "group": "ai",
-    "title": "Want to get more from AI? Treat every prompt like an experiment",
-    "url": "https://www.nature.com/articles/d41586-026-02083-6",
-    "source": "Nature AI News & Comment",
-    "published": "2026-08-03T00:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.007,
-      "feedPosition": 0.5,
-      "novelty": 0.718
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.205,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "73c798078fbc2ecf766f",
-    "doomIndexInputFingerprint": "aa1f99ab402fec83ab61",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "73c798078fbc2ecf766f",
-    "doomIndexV123InputFingerprint": "9ff61b3a97e44dec6e9f",
-    "storyId": "310ca79bd482dfe75ce8",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "",
-    "doomIndexInputSummary": "Want to get more from AI? Treat every prompt like an experiment."
   },
   {
     "group": "ai",
@@ -12586,7 +12750,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.1173,
+      "freshness": 0.1129,
       "feedPosition": 0,
       "novelty": 0.9075
     },
@@ -12594,7 +12758,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2045,
+    "score": 0.2038,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12651,93 +12815,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2668fe3959232c9552f9",
     "storyId": "711efe9ee3585ed47f86",
     "firstSeen": "2026-08-07T10:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Metal-rich asteroids could one day become hardware stores for Mars, supplying the materials needed to build and repair a growing colony. A new analysis shows that carefully selected asteroids may be reachable with current spacecraft technology. Some could even provide the ingredients for making rocket fuel in space, dramatically reducing the burden of hauling supplies from Earth.",
     "doomIndexInputSummary": "The key to colonizing Mars may be hidden inside asteroids. Metal-rich asteroids could one day become hardware stores for Mars, supplying the materials needed to build and repair a growing colony. A new analysis shows that carefully selected asteroids may be reachable with current spacecraft technology. Some could even provide the ingredients for making rocket fuel in space, dramatically reducing the burden of hauling supplies from Earth."
-  },
-  {
-    "group": "ai",
-    "title": "Substackers Say New AI Detection Tool Is a ‘Witch Hunt’",
-    "url": "https://www.404media.co/substackers-say-new-ai-detection-tool-is-a-witch-hunt/",
-    "source": "404 Media AI",
-    "published": "2026-07-28T14:53:59.000Z",
-    "image": "https://images.unsplash.com/photo-1775757723445-f789c01da449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5NXx8dHlwaW5nJTIwcm9ib3R8ZW58MHx8fHwxNzg1MjUwMjk4fDA&ixlib=rb-4.1.0&q=80&w=2000",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.172,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0002,
-      "feedPosition": 0.1111,
-      "novelty": 0.7616
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1967,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "edacc45bce7bf5eb26e7",
-    "doomIndexInputFingerprint": "696acae3fdd461491d81",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "edacc45bce7bf5eb26e7",
-    "doomIndexV123InputFingerprint": "b9badb551b63ee29b1ad",
-    "storyId": "1b4e1ddc375f4ec096b5",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "“I’m not going to apologize for using AI in the creation process.” AI Substack AI detection",
-    "doomIndexInputSummary": "Substackers Say New AI Detection Tool Is a ‘Witch Hunt’. “I’m not going to apologize for using AI in the creation process.” AI Substack AI detection"
   },
   {
     "group": "ai",
@@ -12751,7 +12831,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.01,
+      "freshness": 0.0096,
       "feedPosition": 0.1111,
       "novelty": 0.799
     },
@@ -12760,7 +12840,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1959,
+    "score": 0.1958,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12819,93 +12899,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "d588a4e716c72f913eff",
     "storyId": "71963bd8f11efab80630",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?."
-  },
-  {
-    "group": "ai",
-    "title": "DeepMind Says Its AI Can Predict Hurricanes Earlier Than Everyone Else",
-    "url": "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/",
-    "source": "WIRED AI",
-    "published": "2026-08-06T16:23:04.000Z",
-    "image": "https://media.wired.com/photos/6a748489077eac6832213fd9/master/pass/AICyclone.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0815,
-      "feedPosition": 0,
-      "novelty": 0.7808
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1937,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.185,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "9bb3e75ba5d16e4fcfe3",
-    "doomIndexInputFingerprint": "e5281e6b4146cd5d0b9f",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "proposed",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.185,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "9bb3e75ba5d16e4fcfe3",
-    "doomIndexV123InputFingerprint": "ca8573f20b9c7ceb8181",
-    "storyId": "afe05d08201afedb2e41",
-    "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "Its WeatherNext model, which will be open-sourced, can accurately predict a storm’s track and intensity using lower-resolution weather data. Researchers don’t yet fully understand how it does this. Science Science / Environment",
-    "doomIndexInputSummary": "DeepMind Says Its AI Can Predict Hurricanes Earlier Than Everyone Else. Its WeatherNext model, which will be open-sourced, can accurately predict a storm’s track and intensity using lower-resolution weather data. Researchers don’t yet fully understand how it does this. Science Science / Environment"
   },
   {
     "group": "ai",
@@ -12984,30 +12980,32 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "f562e6c3f031250351c2",
     "storyId": "0482c45879f45e66064e",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "None of the videos produced by the leading AI platforms showed the actual dances we requested.",
     "doomIndexInputSummary": "How we tested and evaluated AI-generated dance videos. None of the videos produced by the leading AI platforms showed the actual dances we requested."
   },
   {
     "group": "ai",
-    "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
-    "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
-    "source": "TechCrunch AI",
-    "published": "2026-08-07T14:22:49.000Z",
-    "image": "",
+    "title": "Substackers Say New AI Detection Tool Is a ‘Witch Hunt’",
+    "url": "https://www.404media.co/substackers-say-new-ai-detection-tool-is-a-witch-hunt/",
+    "source": "404 Media AI",
+    "published": "2026-07-28T14:53:59.000Z",
+    "image": "https://images.unsplash.com/photo-1775757723445-f789c01da449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5NXx8dHlwaW5nJTIwcm9ib3R8ZW58MHx8fHwxNzg1MjUwMjk4fDA&ixlib=rb-4.1.0&q=80&w=2000",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0,
+      "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.1502,
-      "feedPosition": 0,
-      "novelty": 0.9308
+      "freshness": 0.0002,
+      "feedPosition": 0.1111,
+      "novelty": 0.678
     },
     "rankingReasons": [
+      "specific details",
+      "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1906,
+    "score": 0.1883,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13034,8 +13032,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "speculative or weakly evidenced"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "97d59edab3dad3eb3347",
-    "doomIndexInputFingerprint": "f5414d0147b9adf7c3c7",
+    "doomIndexSummaryFingerprint": "edacc45bce7bf5eb26e7",
+    "doomIndexInputFingerprint": "696acae3fdd461491d81",
     "doomIndexV123Shadow": 5,
     "doomIndexV123ShadowVersion": "1.2.3",
     "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
@@ -13062,13 +13060,97 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "speculative or weakly evidenced"
     ],
     "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "97d59edab3dad3eb3347",
-    "doomIndexV123InputFingerprint": "260152d243cf0eaece15",
-    "storyId": "96afb1a603823adfbac5",
-    "firstSeen": "2026-08-07T15:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "Airbnb will debut a new AI-powered search experience with a toggle. AI Airbnb brian chesky ai coding",
-    "doomIndexInputSummary": "Airbnb says AI is helping it ship features faster as it tests a new search function. Airbnb will debut a new AI-powered search experience with a toggle. AI Airbnb brian chesky ai coding"
+    "doomIndexV123SummaryFingerprint": "edacc45bce7bf5eb26e7",
+    "doomIndexV123InputFingerprint": "b9badb551b63ee29b1ad",
+    "storyId": "1b4e1ddc375f4ec096b5",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "“I’m not going to apologize for using AI in the creation process.” AI Substack AI detection",
+    "doomIndexInputSummary": "Substackers Say New AI Detection Tool Is a ‘Witch Hunt’. “I’m not going to apologize for using AI in the creation process.” AI Substack AI detection"
+  },
+  {
+    "group": "ai",
+    "title": "Want to get more from AI? Treat every prompt like an experiment",
+    "url": "https://www.nature.com/articles/d41586-026-02083-6",
+    "source": "Nature AI News & Comment",
+    "published": "2026-08-03T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0067,
+      "feedPosition": 0.3333,
+      "novelty": 0.718
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1882,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "73c798078fbc2ecf766f",
+    "doomIndexInputFingerprint": "aa1f99ab402fec83ab61",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "73c798078fbc2ecf766f",
+    "doomIndexV123InputFingerprint": "9ff61b3a97e44dec6e9f",
+    "storyId": "310ca79bd482dfe75ce8",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "Want to get more from AI? Treat every prompt like an experiment."
   },
   {
     "group": "ai",
@@ -13149,7 +13231,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "300d8e8f3557e035cd05",
     "storyId": "25036ce3895275f73b5e",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Dancers say their craft can’t be duplicated by AI. Our tests show they’re right — for now.",
     "doomIndexInputSummary": "Generative AI is eating culture. See how close it’s getting to disrupting dance. Dancers say their craft can’t be duplicated by AI. Our tests show they’re right — for now."
   },
@@ -13165,14 +13247,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.1583,
-      "feedPosition": 0.1111,
+      "freshness": 0.1523,
+      "feedPosition": 0,
       "novelty": 0.692
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1862,
+    "score": 0.1742,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13233,337 +13315,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "900adede0a91e5d7aaf2",
     "storyId": "780caa8efe66e203040e",
     "firstSeen": "2026-08-07T17:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently. AI Apps AI agents cloudflare",
     "doomIndexInputSummary": "Cloudflare launches Kitesurf, a browser built for AI agents. Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently. AI Apps AI agents cloudflare"
-  },
-  {
-    "group": "ai",
-    "title": "Scientists using LLMs will ‘do more, less well’, modelling study predicts",
-    "url": "https://www.nature.com/articles/d41586-026-02397-5",
-    "source": "Nature AI News & Comment",
-    "published": "2026-07-31T00:00:00.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0655,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0009,
-      "feedPosition": 0.25,
-      "novelty": 0.6605
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1793,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.2,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "25cce127a9e59ef4cb5f",
-    "doomIndexInputFingerprint": "65fd01044d8342191cf1",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "proposed",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.2,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "25cce127a9e59ef4cb5f",
-    "doomIndexV123InputFingerprint": "a4dd795f84b0c01a31ca",
-    "storyId": "bf275038f37976184c7b",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "",
-    "doomIndexInputSummary": "Scientists using LLMs will ‘do more, less well’, modelling study predicts."
-  },
-  {
-    "group": "ai",
-    "title": "Cloudflare open-sources vibe-coding platform for people who aren't coders",
-    "url": "https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-06T16:15:30.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/Cloudflare-logo-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0813,
-      "feedPosition": 0.2222,
-      "novelty": 0.6816
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1776,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "4a5d6b69252c35f14ac8",
-    "doomIndexInputFingerprint": "7039245b16d605323271",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "4a5d6b69252c35f14ac8",
-    "doomIndexV123InputFingerprint": "4f1a779da587670d3ce2",
-    "storyId": "705ca8186e48cf2d55a9",
-    "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "Cloudflare built an AI agent workspace for its employees. Now it’s open source. AI agentic AI AI agents AI tools cloudflare cloudflare OS coders vibe coding",
-    "doomIndexInputSummary": "Cloudflare open-sources vibe-coding platform for people who aren't coders. Cloudflare built an AI agent workspace for its employees. Now it’s open source. AI agentic AI AI agents AI tools cloudflare cloudflare OS coders vibe coding"
-  },
-  {
-    "group": "ai",
-    "title": "Anthropic will design its own hardware to power Claude",
-    "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-06T20:03:44.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/amodei_header_1-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0903,
-      "feedPosition": 0.4444,
-      "novelty": 0.3648
-    },
-    "rankingReasons": [],
-    "score": 0.1766,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "4799e2ca69d74e3cbed7",
-    "doomIndexInputFingerprint": "fcb7e50d09c47bb274be",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
-    "doomIndexV123Polarity": "neutral",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "4799e2ca69d74e3cbed7",
-    "doomIndexV123InputFingerprint": "3324dfaed01a079044df",
-    "storyId": "1e6dab028310471c79ee",
-    "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia. AI Anthropic datacenter inference LLM NVIDIA Samsung silicon training",
-    "doomIndexInputSummary": "Anthropic will design its own hardware to power Claude. Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia. AI Anthropic datacenter inference LLM NVIDIA Samsung silicon training"
-  },
-  {
-    "group": "ai",
-    "title": "AI isn’t enough to protect social media communities from AI",
-    "url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-06T11:00:44.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2259634870-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0702,
-      "feedPosition": 0.1111,
-      "novelty": 0.746
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.1712,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "preventative",
-    "doomIndexPolarity": "protective-or-positive",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.3,
-      "protectiveContext": 1,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "preventative event status",
-      "speculative or weakly evidenced",
-      "protective or positive context adjustment"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "2d79cf6f43efb6f93577",
-    "doomIndexInputFingerprint": "09d416591b88334d0480",
-    "doomIndexV123Shadow": 5,
-    "doomIndexV123ShadowVersion": "1.2.3",
-    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
-    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "preventative",
-    "doomIndexV123Polarity": "protective-or-positive",
-    "doomIndexV123Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.3,
-      "protectiveContext": 1,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV123Reasons": [
-      "preventative event status",
-      "speculative or weakly evidenced",
-      "protective or positive context adjustment"
-    ],
-    "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "2d79cf6f43efb6f93577",
-    "doomIndexV123InputFingerprint": "e0134764ebf2daec45ef",
-    "storyId": "539e3bde6897284041d3",
-    "firstSeen": "2026-08-06T12:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "Why humans need to moderate humans. AI Tech discord Facebook generative ai reddit social media",
-    "doomIndexInputSummary": "AI isn’t enough to protect social media communities from AI. Why humans need to moderate humans. AI Tech discord Facebook generative ai reddit social media"
   },
   {
     "group": "ai",
@@ -13643,36 +13397,33 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "953cc8429dac845fe5b6",
     "storyId": "b79e8da0c674b20adb01",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "This AI Raygun can shrink and supersize proteins — opening the door to easy editing."
   },
   {
     "group": "ai",
-    "title": "Spotify's AI Problem Is So Bad Random People Are Stepping In to Track the Slop",
-    "url": "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/",
-    "source": "404 Media AI",
-    "published": "2026-07-27T13:25:34.000Z",
-    "image": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNwb3RpZnl8ZW58MHx8fHwxNzg0NTczNDk5fDA&ixlib=rb-4.1.0&q=80&w=2000",
+    "title": "Scientists using LLMs will ‘do more, less well’, modelling study predicts",
+    "url": "https://www.nature.com/articles/d41586-026-02397-5",
+    "source": "Nature AI News & Comment",
+    "published": "2026-07-31T00:00:00.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.142,
+      "titleImpact": 0.0655,
       "sourceAuthority": 0.5,
-      "freshness": 0.0001,
-      "feedPosition": 0,
-      "novelty": 0.6424
+      "freshness": 0.0009,
+      "feedPosition": 0.1667,
+      "novelty": 0.646
     },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities"
-    ],
-    "score": 0.1677,
+    "rankingReasons": [],
+    "score": 0.1695,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
     "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
+    "doomIndexActuality": "proposed",
     "doomIndexPolarity": "neutral",
     "doomIndexFactors": {
       "realizedHarm": 0,
@@ -13683,24 +13434,24 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
+      "evidence": 0.2,
+      "actuality": 0.35,
       "protectiveContext": 0,
       "routinePenalty": 0,
       "contextualConcern": 0
     },
     "doomIndexReasons": [
-      "neutral event status",
+      "proposed event status",
       "speculative or weakly evidenced"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "01d451feb9e1930d8b17",
-    "doomIndexInputFingerprint": "2855e193ab01ac350af1",
+    "doomIndexSummaryFingerprint": "25cce127a9e59ef4cb5f",
+    "doomIndexInputFingerprint": "65fd01044d8342191cf1",
     "doomIndexV123Shadow": 5,
     "doomIndexV123ShadowVersion": "1.2.3",
     "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
     "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
-    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Actuality": "proposed",
     "doomIndexV123Polarity": "neutral",
     "doomIndexV123Factors": {
       "realizedHarm": 0,
@@ -13711,24 +13462,24 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
+      "evidence": 0.2,
+      "actuality": 0.35,
       "protectiveContext": 0,
       "routinePenalty": 0,
       "contextualConcern": 0
     },
     "doomIndexV123Reasons": [
-      "neutral event status",
+      "proposed event status",
       "speculative or weakly evidenced"
     ],
     "doomIndexV123CoverageSources": 1,
-    "doomIndexV123SummaryFingerprint": "01d451feb9e1930d8b17",
-    "doomIndexV123InputFingerprint": "697594fada75a15dec44",
-    "storyId": "37270bac651bec59185b",
+    "doomIndexV123SummaryFingerprint": "25cce127a9e59ef4cb5f",
+    "doomIndexV123InputFingerprint": "a4dd795f84b0c01a31ca",
+    "storyId": "bf275038f37976184c7b",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
-    "feedSummary": "Spotify doesn’t label AI music on its platform, so websites like SoullessMusic.com and SlopTracker.org do it instead. News AI AI Music spotify",
-    "doomIndexInputSummary": "Spotify's AI Problem Is So Bad Random People Are Stepping In to Track the Slop. Spotify doesn’t label AI music on its platform, so websites like SoullessMusic.com and SlopTracker.org do it instead. News AI AI Music spotify"
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "Scientists using LLMs will ‘do more, less well’, modelling study predicts."
   },
   {
     "group": "ai",
@@ -13742,7 +13493,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.0054,
+      "freshness": 0.0052,
       "feedPosition": 0,
       "novelty": 0.6998
     },
@@ -13809,9 +13560,338 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "2b718a769729315887c1",
     "storyId": "ac687ef7f82db32ea218",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "When Users Say 'Goodbye' to AI."
+  },
+  {
+    "group": "ai",
+    "title": "Anthropic will design its own hardware to power Claude",
+    "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-06T20:03:44.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/amodei_header_1-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0869,
+      "feedPosition": 0.3333,
+      "novelty": 0.3824
+    },
+    "rankingReasons": [],
+    "score": 0.1667,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "4799e2ca69d74e3cbed7",
+    "doomIndexInputFingerprint": "fcb7e50d09c47bb274be",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "4799e2ca69d74e3cbed7",
+    "doomIndexV123InputFingerprint": "3324dfaed01a079044df",
+    "storyId": "1e6dab028310471c79ee",
+    "firstSeen": "2026-08-06T20:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia. AI Anthropic datacenter inference LLM NVIDIA Samsung silicon training",
+    "doomIndexInputSummary": "Anthropic will design its own hardware to power Claude. Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia. AI Anthropic datacenter inference LLM NVIDIA Samsung silicon training"
+  },
+  {
+    "group": "ai",
+    "title": "Spotify's AI Problem Is So Bad Random People Are Stepping In to Track the Slop",
+    "url": "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/",
+    "source": "404 Media AI",
+    "published": "2026-07-27T13:25:34.000Z",
+    "image": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHNwb3RpZnl8ZW58MHx8fHwxNzg0NTczNDk5fDA&ixlib=rb-4.1.0&q=80&w=2000",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.142,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0001,
+      "feedPosition": 0,
+      "novelty": 0.6271
+    },
+    "rankingReasons": [
+      "specific details",
+      "recognizable entities"
+    ],
+    "score": 0.1661,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "01d451feb9e1930d8b17",
+    "doomIndexInputFingerprint": "2855e193ab01ac350af1",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "01d451feb9e1930d8b17",
+    "doomIndexV123InputFingerprint": "697594fada75a15dec44",
+    "storyId": "37270bac651bec59185b",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "Spotify doesn’t label AI music on its platform, so websites like SoullessMusic.com and SlopTracker.org do it instead. News AI AI Music spotify",
+    "doomIndexInputSummary": "Spotify's AI Problem Is So Bad Random People Are Stepping In to Track the Slop. Spotify doesn’t label AI music on its platform, so websites like SoullessMusic.com and SlopTracker.org do it instead. News AI AI Music spotify"
+  },
+  {
+    "group": "ai",
+    "title": "Cloudflare open-sources vibe-coding platform for people who aren't coders",
+    "url": "https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-06T16:15:30.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/Cloudflare-logo-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0782,
+      "feedPosition": 0.1111,
+      "novelty": 0.6816
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.166,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "4a5d6b69252c35f14ac8",
+    "doomIndexInputFingerprint": "7039245b16d605323271",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "neutral",
+    "doomIndexV123Polarity": "neutral",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "4a5d6b69252c35f14ac8",
+    "doomIndexV123InputFingerprint": "4f1a779da587670d3ce2",
+    "storyId": "705ca8186e48cf2d55a9",
+    "firstSeen": "2026-08-06T20:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "Cloudflare built an AI agent workspace for its employees. Now it’s open source. AI agentic AI AI agents AI tools cloudflare cloudflare OS coders vibe coding",
+    "doomIndexInputSummary": "Cloudflare open-sources vibe-coding platform for people who aren't coders. Cloudflare built an AI agent workspace for its employees. Now it’s open source. AI agentic AI AI agents AI tools cloudflare cloudflare OS coders vibe coding"
+  },
+  {
+    "group": "ai",
+    "title": "AI isn’t enough to protect social media communities from AI",
+    "url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-06T11:00:44.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2259634870-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0676,
+      "feedPosition": 0,
+      "novelty": 0.746
+    },
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.1597,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "preventative",
+    "doomIndexPolarity": "protective-or-positive",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.3,
+      "protectiveContext": 1,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "preventative event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "2d79cf6f43efb6f93577",
+    "doomIndexInputFingerprint": "09d416591b88334d0480",
+    "doomIndexV123Shadow": 5,
+    "doomIndexV123ShadowVersion": "1.2.3",
+    "doomIndexV123ShadowFormulaVersion": "1.2.3-shadow.1",
+    "doomIndexV123ShadowFormulaFingerprint": "435e37adc7e94b900c42",
+    "doomIndexV123Actuality": "preventative",
+    "doomIndexV123Polarity": "protective-or-positive",
+    "doomIndexV123Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.3,
+      "protectiveContext": 1,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV123Reasons": [
+      "preventative event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment"
+    ],
+    "doomIndexV123CoverageSources": 1,
+    "doomIndexV123SummaryFingerprint": "2d79cf6f43efb6f93577",
+    "doomIndexV123InputFingerprint": "e0134764ebf2daec45ef",
+    "storyId": "539e3bde6897284041d3",
+    "firstSeen": "2026-08-06T12:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
+    "feedSummary": "Why humans need to moderate humans. AI Tech discord Facebook generative ai reddit social media",
+    "doomIndexInputSummary": "AI isn’t enough to protect social media communities from AI. Why humans need to moderate humans. AI Tech discord Facebook generative ai reddit social media"
   },
   {
     "group": "ai",
@@ -13891,7 +13971,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "74a591d95f1632a4d75a",
     "storyId": "cb129c5812ea468ed6e4",
     "firstSeen": "2026-08-06T21:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "Cambridge scientists say they have, for the first time, tested a vaccine designed by AI.",
     "doomIndexInputSummary": "'World-first' vaccine designed by artificial intelligence. Cambridge scientists say they have, for the first time, tested a vaccine designed by AI."
   },
@@ -13909,10 +13989,10 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0001,
       "feedPosition": 0.125,
-      "novelty": 0.457
+      "novelty": 0.4279
     },
     "rankingReasons": [],
-    "score": 0.1403,
+    "score": 0.1374,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13971,7 +14051,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "doomIndexV123InputFingerprint": "c6ead62abbf86ff17403",
     "storyId": "52f59c7b600969b2d780",
     "firstSeen": "2026-08-05T18:00:00.000Z",
-    "lastSeen": "2026-08-10T10:00:00.000Z",
+    "lastSeen": "2026-08-10T12:00:00.000Z",
     "feedSummary": "New platforms are paying people to license their likeness for AI-generated dramas and ads, creating a new marketplace for biometric identity.",
     "doomIndexInputSummary": "In China, people are renting out their faces to AI. New platforms are paying people to license their likeness for AI-generated dramas and ads, creating a new marketplace for biometric identity."
   }
