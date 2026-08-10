@@ -295569,6 +295569,13 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "a9f457e6d85a50f4e350"
+            },
+            "2026-08-10T21Z|1.2.4-offline.1": {
+              "value": 17.27,
+              "observedAt": "2026-08-10T21:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "aec30cc16fb2c23d1ff7"
             }
           },
           "formulaSummaries": {
@@ -295639,6 +295646,40 @@
                 "routinePenalty": 0,
                 "contextualConcern": 0.3
               }
+            },
+            "1.2.4-offline.1": {
+              "formulaVersion": "1.2.4-offline.1",
+              "open": 17.27,
+              "high": 17.27,
+              "low": 17.27,
+              "close": 17.27,
+              "average": 17.27,
+              "scoreTotal": 17.27,
+              "observations": 1,
+              "firstObservedAt": "2026-08-10T21:00:00.000Z",
+              "lastObservedAt": "2026-08-10T21:00:00.000Z",
+              "peakSample": 17.27,
+              "peakSampleHour": "2026-08-10T21Z|1.2.4-offline.1",
+              "peakReasons": [
+                "large affected population or reach",
+                "systemic or institutional reach",
+                "proposed event status"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0.85,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0.5,
+                "credibleThreat": 0,
+                "evidence": 0.415,
+                "actuality": 0.35,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0.3
+              }
             }
           },
           "activeFormulaVersion": "1.2.2-shadow.1",
@@ -295673,7 +295714,7 @@
             "routinePenalty": 0,
             "contextualConcern": 0
           },
-          "shadowFormulaVersion": "1.2.3-shadow.1"
+          "shadowFormulaVersion": "1.2.4-offline.1"
         }
       },
       "shadowInputs": {
@@ -295732,6 +295773,36 @@
               "systemic or institutional reach",
               "proposed event status",
               "institutional consequence recognition"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.4-offline.1": {
+          "aec30cc16fb2c23d1ff7": {
+            "title": "PRISM2 model uses clinical dialogue to interpret pathology slides",
+            "summary": "PRISM2 model uses clinical dialogue to interpret pathology slides. Built by Paige and Microsoft, PRISM2 reads whole-slide images through a perceiver-based encoder trained jointly on tissue tiles and clinical dialogue drawn from pathology reports. The model aggregates thousands of tile embeddings per slide into one representation, then generates text that answers diagnostic questions rather than simply classifying pixels. Training data spans 2.3 million whole-slide […] The post PRISM2 model uses clinical dialogue to interpret pathology slides appeared first on AI News. AI in Action Data Engineering & MLOps Deep Dives Features Healthcare & Wellness AI How It Works Multimodal AI Natural Language Processing (NLP) biogpt biomarker prediction cancer detection gpt 4o healthcare linear probing medical medical imaging microsoft multimodal AI paige prism2 slide encoder virchow2",
+            "summaryFingerprint": "70cfa27df481fa974128",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.85,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.5,
+              "credibleThreat": 0,
+              "evidence": 0.415,
+              "actuality": 0.35,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0.3
+            },
+            "reasons": [
+              "large affected population or reach",
+              "systemic or institutional reach",
+              "proposed event status"
             ],
             "actuality": "proposed",
             "polarity": "neutral"
@@ -298743,6 +298814,13 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "cb1ad6e24538832b6252"
+            },
+            "2026-08-10T21Z|1.2.4-offline.1": {
+              "value": 13.14,
+              "observedAt": "2026-08-10T21:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "23f3ebd4246999de6f1c"
             }
           },
           "formulaSummaries": {
@@ -298811,6 +298889,39 @@
                 "routinePenalty": 0,
                 "contextualConcern": 0.425
               }
+            },
+            "1.2.4-offline.1": {
+              "formulaVersion": "1.2.4-offline.1",
+              "open": 13.14,
+              "high": 13.14,
+              "low": 13.14,
+              "close": 13.14,
+              "average": 13.14,
+              "scoreTotal": 13.14,
+              "observations": 1,
+              "firstObservedAt": "2026-08-10T21:00:00.000Z",
+              "lastObservedAt": "2026-08-10T21:00:00.000Z",
+              "peakSample": 13.14,
+              "peakSampleHour": "2026-08-10T21Z|1.2.4-offline.1",
+              "peakReasons": [
+                "systemic or institutional reach",
+                "neutral event status"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0.5,
+                "credibleThreat": 0,
+                "evidence": 0.4487,
+                "actuality": 0.25,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0.425
+              }
             }
           },
           "activeFormulaVersion": "1.2.2-shadow.1",
@@ -298844,7 +298955,7 @@
             "routinePenalty": 0,
             "contextualConcern": 0.425
           },
-          "shadowFormulaVersion": "1.2.3-shadow.1"
+          "shadowFormulaVersion": "1.2.4-offline.1"
         }
       },
       "shadowInputs": {
@@ -298901,6 +299012,35 @@
               "systemic or institutional reach",
               "neutral event status",
               "institutional consequence recognition"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.4-offline.1": {
+          "23f3ebd4246999de6f1c": {
+            "title": "Why health AI interfaces must adapt to user expertise",
+            "summary": "Why health AI interfaces must adapt to user expertise. MIT researchers and collaborators found that AI explainability tools in the health sector can produce sharply different results depending on who uses them. When applied to skin disease diagnosis, non-experts improved their accuracy with AI assistance, although the improvement largely came from deferring to the model. Primary care providers showed a different pattern: they performed […] The post Why health AI interfaces must adapt to user expertise appeared first on AI News. AI in Action Computer Vision Features Healthcare & Wellness AI Human-AI Relationships Natural Language Processing (NLP) Trust, Bias & Fairness bias computer vision dermatology diagnostic tools explainability health healthcare interface medical mit natural language patient safety research study",
+            "summaryFingerprint": "6d03aa1df6e543601f26",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.5,
+              "credibleThreat": 0,
+              "evidence": 0.4487,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0.425
+            },
+            "reasons": [
+              "systemic or institutional reach",
+              "neutral event status"
             ],
             "actuality": "neutral",
             "polarity": "neutral"
@@ -301011,6 +301151,13 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "666210d4998773aac49c"
+            },
+            "2026-08-10T21Z|1.2.4-offline.1": {
+              "value": 9.4,
+              "observedAt": "2026-08-10T21:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "67bfef008426d1f1d49e"
             }
           },
           "formulaSummaries": {
@@ -301079,6 +301226,39 @@
                 "routinePenalty": 0.85,
                 "contextualConcern": 0.575
               }
+            },
+            "1.2.4-offline.1": {
+              "formulaVersion": "1.2.4-offline.1",
+              "open": 9.4,
+              "high": 9.4,
+              "low": 9.4,
+              "close": 9.4,
+              "average": 9.4,
+              "scoreTotal": 9.4,
+              "observations": 1,
+              "firstObservedAt": "2026-08-10T21:00:00.000Z",
+              "lastObservedAt": "2026-08-10T21:00:00.000Z",
+              "peakSample": 9.4,
+              "peakSampleHour": "2026-08-10T21Z|1.2.4-offline.1",
+              "peakReasons": [
+                "neutral event status",
+                "routine or promotional adjustment"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0.425,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.5,
+                "actuality": 0.25,
+                "protectiveContext": 0,
+                "routinePenalty": 0.85,
+                "contextualConcern": 0.575
+              }
             }
           },
           "activeFormulaVersion": "1.2.2-shadow.1",
@@ -301113,7 +301293,7 @@
             "routinePenalty": 0.85,
             "contextualConcern": 0.575
           },
-          "shadowFormulaVersion": "1.2.3-shadow.1"
+          "shadowFormulaVersion": "1.2.4-offline.1"
         }
       },
       "shadowInputs": {
@@ -301148,6 +301328,35 @@
         },
         "1.2.3-shadow.1": {
           "666210d4998773aac49c": {
+            "title": "Alibaba, DeepSeek push China’s AI model race towards lower costs",
+            "summary": "Alibaba, DeepSeek push China’s AI model race towards lower costs. Alibaba has launched Qwen3.8-Max, its largest AI model to date, as DeepSeek’s latest V4-Flash model draws attention for inference pricing that is lower than several competing systems. Qwen3.8-Max has 2.4 trillion parameters and uses a mixture-of-experts architecture, which activates only part of the model for each request. Alibaba said around 95 billion parameters are active […] The post Alibaba, DeepSeek push China’s AI model race towards lower costs appeared first on AI News. AI Market Trends Artificial Intelligence Features Infrastructure & Hardware Open-Source & Democratised AI ai ai inference ai infrastructure ai model alibaba deepseek",
+            "summaryFingerprint": "25c011c9e3959394c0cf",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.425,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.5,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0.85,
+              "contextualConcern": 0.575
+            },
+            "reasons": [
+              "neutral event status",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.4-offline.1": {
+          "67bfef008426d1f1d49e": {
             "title": "Alibaba, DeepSeek push China’s AI model race towards lower costs",
             "summary": "Alibaba, DeepSeek push China’s AI model race towards lower costs. Alibaba has launched Qwen3.8-Max, its largest AI model to date, as DeepSeek’s latest V4-Flash model draws attention for inference pricing that is lower than several competing systems. Qwen3.8-Max has 2.4 trillion parameters and uses a mixture-of-experts architecture, which activates only part of the model for each request. Alibaba said around 95 billion parameters are active […] The post Alibaba, DeepSeek push China’s AI model race towards lower costs appeared first on AI News. AI Market Trends Artificial Intelligence Features Infrastructure & Hardware Open-Source & Democratised AI ai ai inference ai infrastructure ai model alibaba deepseek",
             "summaryFingerprint": "25c011c9e3959394c0cf",
@@ -303292,6 +303501,13 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "32eae6c656bdaa77b343"
+            },
+            "2026-08-10T21Z|1.2.4-offline.1": {
+              "value": 9,
+              "observedAt": "2026-08-10T21:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "7a3c9c0223dbcaba13bf"
             }
           },
           "formulaSummaries": {
@@ -303364,6 +303580,41 @@
                 "routinePenalty": 0.425,
                 "contextualConcern": 0.425
               }
+            },
+            "1.2.4-offline.1": {
+              "formulaVersion": "1.2.4-offline.1",
+              "open": 9,
+              "high": 9,
+              "low": 9,
+              "close": 9,
+              "average": 9,
+              "scoreTotal": 9,
+              "observations": 1,
+              "firstObservedAt": "2026-08-10T21:00:00.000Z",
+              "lastObservedAt": "2026-08-10T21:00:00.000Z",
+              "peakSample": 9,
+              "peakSampleHour": "2026-08-10T21Z|1.2.4-offline.1",
+              "peakReasons": [
+                "systemic or institutional reach",
+                "positive event status",
+                "speculative or weakly evidenced",
+                "routine or promotional adjustment"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0.5,
+                "credibleThreat": 0,
+                "evidence": 0.185,
+                "actuality": 0.2,
+                "protectiveContext": 0.425,
+                "routinePenalty": 0.425,
+                "contextualConcern": 0.425
+              }
             }
           },
           "activeFormulaVersion": "1.2.2-shadow.1",
@@ -303399,7 +303650,7 @@
             "routinePenalty": 0.425,
             "contextualConcern": 0.425
           },
-          "shadowFormulaVersion": "1.2.3-shadow.1"
+          "shadowFormulaVersion": "1.2.4-offline.1"
         }
       },
       "shadowInputs": {
@@ -303518,6 +303769,37 @@
               "speculative or weakly evidenced",
               "routine or promotional adjustment",
               "institutional consequence recognition"
+            ],
+            "actuality": "positive",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.4-offline.1": {
+          "7a3c9c0223dbcaba13bf": {
+            "title": "EU AI Act Article 50 transparency rules enter force",
+            "summary": "EU AI Act Article 50 transparency rules enter force. Article 50 of the EU AI Act has entered into force, setting transparency obligations for AI providers and deployers operating across the bloc. Enterprises running generative AI tools now have to comply with Article 50, which requires providers and deployers of certain AI systems to tell people when they’re interacting with a machine, and to […] The post EU AI Act Article 50 transparency rules enter force appeared first on AI News. AI and Us Governance, Regulation & Policy Government & Public Sector AI Inside AI Trust, Bias & Fairness ai act ai office Article 50 biometrics compliance deepfakes emotion recognition eu europe european commission generative ai governance policy politics regulation transparency",
+            "summaryFingerprint": "40691c8543d3a5a7e4b6",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.5,
+              "credibleThreat": 0,
+              "evidence": 0.185,
+              "actuality": 0.2,
+              "protectiveContext": 0.425,
+              "routinePenalty": 0.425,
+              "contextualConcern": 0.425
+            },
+            "reasons": [
+              "systemic or institutional reach",
+              "positive event status",
+              "speculative or weakly evidenced",
+              "routine or promotional adjustment"
             ],
             "actuality": "positive",
             "polarity": "neutral"
@@ -304238,6 +304520,13 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "a4aadd2e6b6b28caa555"
+            },
+            "2026-08-10T21Z|1.2.4-offline.1": {
+              "value": 8.58,
+              "observedAt": "2026-08-10T21:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "cb033740f28371500e7c"
             }
           },
           "formulaSummaries": {
@@ -304308,6 +304597,40 @@
                 "routinePenalty": 0.425,
                 "contextualConcern": 0.425
               }
+            },
+            "1.2.4-offline.1": {
+              "formulaVersion": "1.2.4-offline.1",
+              "open": 8.58,
+              "high": 8.58,
+              "low": 8.58,
+              "close": 8.58,
+              "average": 8.58,
+              "scoreTotal": 8.58,
+              "observations": 1,
+              "firstObservedAt": "2026-08-10T21:00:00.000Z",
+              "lastObservedAt": "2026-08-10T21:00:00.000Z",
+              "peakSample": 8.58,
+              "peakSampleHour": "2026-08-10T21Z|1.2.4-offline.1",
+              "peakReasons": [
+                "proposed event status",
+                "speculative or weakly evidenced",
+                "routine or promotional adjustment"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.215,
+                "actuality": 0.35,
+                "protectiveContext": 0,
+                "routinePenalty": 0.425,
+                "contextualConcern": 0.425
+              }
             }
           },
           "activeFormulaVersion": "1.2.2-shadow.1",
@@ -304343,7 +304666,7 @@
             "routinePenalty": 0.425,
             "contextualConcern": 0.425
           },
-          "shadowFormulaVersion": "1.2.3-shadow.1"
+          "shadowFormulaVersion": "1.2.4-offline.1"
         }
       },
       "shadowInputs": {
@@ -304379,6 +304702,36 @@
         },
         "1.2.3-shadow.1": {
           "a4aadd2e6b6b28caa555": {
+            "title": "Red Hat, NVIDIA, IBM back project turning AI policy into code",
+            "summary": "Red Hat, NVIDIA, IBM back project turning AI policy into code. Red Hat has launched asago, an open-source community project that aims to turn AI governance policy into production-ready deployment code. The project describes itself as an automated, auditable workflow that connects the “fragmented steps, tools, and requirements” of engineering and compliance teams. With regulation such as the EU AI Act now taking effect, Red Hat […] The post Red Hat, NVIDIA, IBM back project turning AI policy into code appeared first on AI News. Data Engineering & MLOps Featured News Governance, Regulation & Policy Inside AI Open-Source & Democratised AI Trust, Bias & Fairness ai act asago cloud computing compliance enterprise eu governance ibm kubernetes mlops nvidia open-source red hat regulation safety security",
+            "summaryFingerprint": "78ed9a7568a99715007e",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.215,
+              "actuality": 0.35,
+              "protectiveContext": 0,
+              "routinePenalty": 0.425,
+              "contextualConcern": 0.425
+            },
+            "reasons": [
+              "proposed event status",
+              "speculative or weakly evidenced",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.4-offline.1": {
+          "cb033740f28371500e7c": {
             "title": "Red Hat, NVIDIA, IBM back project turning AI policy into code",
             "summary": "Red Hat, NVIDIA, IBM back project turning AI policy into code. Red Hat has launched asago, an open-source community project that aims to turn AI governance policy into production-ready deployment code. The project describes itself as an automated, auditable workflow that connects the “fragmented steps, tools, and requirements” of engineering and compliance teams. With regulation such as the EU AI Act now taking effect, Red Hat […] The post Red Hat, NVIDIA, IBM back project turning AI policy into code appeared first on AI News. Data Engineering & MLOps Featured News Governance, Regulation & Policy Inside AI Open-Source & Democratised AI Trust, Bias & Fairness ai act asago cloud computing compliance enterprise eu governance ibm kubernetes mlops nvidia open-source red hat regulation safety security",
             "summaryFingerprint": "78ed9a7568a99715007e",
@@ -305113,6 +305466,13 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "32eb9c60c6a6c97257a4"
+            },
+            "2026-08-10T21Z|1.2.4-offline.1": {
+              "value": 14.56,
+              "observedAt": "2026-08-10T21:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "f1dbef52201966065565"
             }
           },
           "formulaSummaries": {
@@ -305181,6 +305541,41 @@
                 "routinePenalty": 0.425,
                 "contextualConcern": 0
               }
+            },
+            "1.2.4-offline.1": {
+              "formulaVersion": "1.2.4-offline.1",
+              "open": 14.56,
+              "high": 14.56,
+              "low": 14.56,
+              "close": 14.56,
+              "average": 14.56,
+              "scoreTotal": 14.56,
+              "observations": 1,
+              "firstObservedAt": "2026-08-10T21:00:00.000Z",
+              "lastObservedAt": "2026-08-10T21:00:00.000Z",
+              "peakSample": 14.56,
+              "peakSampleHour": "2026-08-10T21Z|1.2.4-offline.1",
+              "peakReasons": [
+                "systemic or institutional reach",
+                "proposed event status",
+                "routine or promotional adjustment",
+                "unrealized policy proposal constraint"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0.425,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0.5,
+                "credibleThreat": 0.45,
+                "evidence": 0.415,
+                "actuality": 0.35,
+                "protectiveContext": 0,
+                "routinePenalty": 0.425,
+                "contextualConcern": 0.4
+              }
             }
           },
           "activeFormulaVersion": "1.2.2-shadow.1",
@@ -305215,7 +305610,7 @@
             "routinePenalty": 0.425,
             "contextualConcern": 0
           },
-          "shadowFormulaVersion": "1.2.3-shadow.1"
+          "shadowFormulaVersion": "1.2.4-offline.1"
         }
       },
       "shadowInputs": {
@@ -305326,6 +305721,37 @@
             "reasons": [
               "proposed event status",
               "routine or promotional adjustment"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.4-offline.1": {
+          "f1dbef52201966065565": {
+            "title": "Alibaba tests new business model for Qwen open-source AI",
+            "summary": "Alibaba tests new business model for Qwen open-source AI. Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans. The arrangement would require larger companies that generate revenue from offering the model as a service to reach a commercial agreement with Alibaba. The exact revenue-sharing rate has […] The post Alibaba tests new business model for Qwen open-source AI appeared first on AI News. AI Business Strategy AI Market Trends Artificial Intelligence Featured News Features Open-Source & Democratised AI ai alibaba developers large language model open source AI",
+            "summaryFingerprint": "4054bfae13af621a79a1",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.425,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.5,
+              "credibleThreat": 0.45,
+              "evidence": 0.415,
+              "actuality": 0.35,
+              "protectiveContext": 0,
+              "routinePenalty": 0.425,
+              "contextualConcern": 0.4
+            },
+            "reasons": [
+              "systemic or institutional reach",
+              "proposed event status",
+              "routine or promotional adjustment",
+              "unrealized policy proposal constraint"
             ],
             "actuality": "proposed",
             "polarity": "neutral"
@@ -308012,6 +308438,13 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "7a0f0411ae88a1f21c14"
+            },
+            "2026-08-10T21Z|1.2.4-offline.1": {
+              "value": 16.07,
+              "observedAt": "2026-08-10T21:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "53509a093bf998babaaf"
             }
           },
           "formulaSummaries": {
@@ -308080,6 +308513,39 @@
                 "routinePenalty": 0,
                 "contextualConcern": 0.3
               }
+            },
+            "1.2.4-offline.1": {
+              "formulaVersion": "1.2.4-offline.1",
+              "open": 16.07,
+              "high": 16.07,
+              "low": 16.07,
+              "close": 16.07,
+              "average": 16.07,
+              "scoreTotal": 16.07,
+              "observations": 1,
+              "firstObservedAt": "2026-08-10T21:00:00.000Z",
+              "lastObservedAt": "2026-08-10T21:00:00.000Z",
+              "peakSample": 16.07,
+              "peakSampleHour": "2026-08-10T21Z|1.2.4-offline.1",
+              "peakReasons": [
+                "systemic or institutional reach",
+                "unclear event status"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0.5,
+                "credibleThreat": 0.425,
+                "evidence": 0.4487,
+                "actuality": 0.5,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0.3
+              }
             }
           },
           "activeFormulaVersion": "1.2.2-shadow.1",
@@ -308113,7 +308579,7 @@
             "routinePenalty": 0,
             "contextualConcern": 0
           },
-          "shadowFormulaVersion": "1.2.3-shadow.1"
+          "shadowFormulaVersion": "1.2.4-offline.1"
         }
       },
       "shadowInputs": {
@@ -308170,6 +308636,35 @@
               "systemic or institutional reach",
               "unclear event status",
               "institutional consequence recognition"
+            ],
+            "actuality": "unclear",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.4-offline.1": {
+          "53509a093bf998babaaf": {
+            "title": "Stanford Evo 2 AI model generates phages against E. coli",
+            "summary": "Stanford Evo 2 AI model generates phages against E. coli. Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model. Laboratory testing narrowed the group to 16 phages that showed particularly strong E. coli-killing activity. The work centres on bacteriophage ΦX174, pronounced “FYE-ex-1-7-4”. Brian Hie, an assistant professor of chemical engineering and Dieter Schwarz Foundation Stanford Data […] The post Stanford Evo 2 AI model generates phages against E. coli appeared first on AI News. AI and Us AI in Action Features Governance, Regulation & Policy Healthcare & Wellness AI How It Works Open-Source & Democratised AI bacteriophage biology biosecurity dna synthesis drug resistance evo 2 generative ai genome design healthcare mrsa open-source science stanford synthetic biology",
+            "summaryFingerprint": "a81b92f47cbbe430803a",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.5,
+              "credibleThreat": 0.425,
+              "evidence": 0.4487,
+              "actuality": 0.5,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0.3
+            },
+            "reasons": [
+              "systemic or institutional reach",
+              "unclear event status"
             ],
             "actuality": "unclear",
             "polarity": "neutral"
@@ -308867,6 +309362,13 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "d3a01d7f830b350676af"
+            },
+            "2026-08-10T21Z|1.2.4-offline.1": {
+              "value": 8.44,
+              "observedAt": "2026-08-10T21:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "4760258550f733965f4c"
             }
           },
           "formulaSummaries": {
@@ -308935,6 +309437,39 @@
                 "routinePenalty": 0,
                 "contextualConcern": 0
               }
+            },
+            "1.2.4-offline.1": {
+              "formulaVersion": "1.2.4-offline.1",
+              "open": 8.44,
+              "high": 8.44,
+              "low": 8.44,
+              "close": 8.44,
+              "average": 8.44,
+              "scoreTotal": 8.44,
+              "observations": 1,
+              "firstObservedAt": "2026-08-10T21:00:00.000Z",
+              "lastObservedAt": "2026-08-10T21:00:00.000Z",
+              "peakSample": 8.44,
+              "peakSampleHour": "2026-08-10T21Z|1.2.4-offline.1",
+              "peakReasons": [
+                "neutral event status",
+                "speculative or weakly evidenced"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0.425,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.3,
+                "actuality": 0.25,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0
+              }
             }
           },
           "activeFormulaVersion": "1.2.2-shadow.1",
@@ -308969,7 +309504,7 @@
             "routinePenalty": 0,
             "contextualConcern": 0
           },
-          "shadowFormulaVersion": "1.2.3-shadow.1"
+          "shadowFormulaVersion": "1.2.4-offline.1"
         }
       },
       "shadowInputs": {
@@ -309004,6 +309539,35 @@
         },
         "1.2.3-shadow.1": {
           "d3a01d7f830b350676af": {
+            "title": "How AI Is changing Instagram engagement without replacing the human touch",
+            "summary": "How AI Is changing Instagram engagement without replacing the human touch. Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is now decided by its AI system. With over three billion people using it, that’s not a small detail; it’s the whole algorithm. But here’s the point: the more AI controls over how you see the content, the more it […] The post How AI Is changing Instagram engagement without replacing the human touch appeared first on AI News. Sponsored Content",
+            "summaryFingerprint": "9d13d65651c0efec9bf9",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.425,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "neutral event status",
+              "speculative or weakly evidenced"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.4-offline.1": {
+          "4760258550f733965f4c": {
             "title": "How AI Is changing Instagram engagement without replacing the human touch",
             "summary": "How AI Is changing Instagram engagement without replacing the human touch. Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is now decided by its AI system. With over three billion people using it, that’s not a small detail; it’s the whole algorithm. But here’s the point: the more AI controls over how you see the content, the more it […] The post How AI Is changing Instagram engagement without replacing the human touch appeared first on AI News. Sponsored Content",
             "summaryFingerprint": "9d13d65651c0efec9bf9",
@@ -358495,6 +359059,13 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "03c1c8ab5935de760102"
+            },
+            "2026-08-10T21Z|1.2.4-offline.1": {
+              "value": 13.09,
+              "observedAt": "2026-08-10T21:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "d37e48e7d7270d3cb2f9"
             }
           },
           "formulaSummaries": {
@@ -358563,6 +359134,39 @@
                 "routinePenalty": 0,
                 "contextualConcern": 0
               }
+            },
+            "1.2.4-offline.1": {
+              "formulaVersion": "1.2.4-offline.1",
+              "open": 13.09,
+              "high": 13.09,
+              "low": 13.09,
+              "close": 13.09,
+              "average": 13.09,
+              "scoreTotal": 13.09,
+              "observations": 1,
+              "firstObservedAt": "2026-08-10T21:00:00.000Z",
+              "lastObservedAt": "2026-08-10T21:00:00.000Z",
+              "peakSample": 13.09,
+              "peakSampleHour": "2026-08-10T21Z|1.2.4-offline.1",
+              "peakReasons": [
+                "large affected population or reach",
+                "proposed event status"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0.85,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.6487,
+                "actuality": 0.35,
+                "protectiveContext": 0,
+                "routinePenalty": 0,
+                "contextualConcern": 0
+              }
             }
           },
           "activeFormulaVersion": "1.2.2-shadow.1",
@@ -358597,7 +359201,7 @@
             "routinePenalty": 0,
             "contextualConcern": 0
           },
-          "shadowFormulaVersion": "1.2.3-shadow.1"
+          "shadowFormulaVersion": "1.2.4-offline.1"
         }
       },
       "shadowInputs": {
@@ -358632,6 +359236,35 @@
         },
         "1.2.3-shadow.1": {
           "03c1c8ab5935de760102": {
+            "title": "The limits of physics AI: where Siemens says the human stays in charge",
+            "summary": "The limits of physics AI: where Siemens says the human stays in charge. Physics AI can now explore thousands of design variations in the time it would take a traditional simulation to chew through a handful of them. Precisely up to 1,000 times faster, according to Siemens. What it cannot do is sign off a safety-critical part. On that, the technology has a firm limit, and Sam Mahalingam, […] The post The limits of physics AI: where Siemens says the human stays in charge appeared first on AI News. Artificial Intelligence Infrastructure & Hardware Interviews AI surrogate models engineering simulation physics AI safety-critical AI Sam Mahalingam Siemens Siemens Digital Industries Software Simcenter PhysicsAI",
+            "summaryFingerprint": "f4948172edb3a4ddcf93",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.85,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.6487,
+              "actuality": 0.35,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "large affected population or reach",
+              "proposed event status"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.4-offline.1": {
+          "d37e48e7d7270d3cb2f9": {
             "title": "The limits of physics AI: where Siemens says the human stays in charge",
             "summary": "The limits of physics AI: where Siemens says the human stays in charge. Physics AI can now explore thousands of design variations in the time it would take a traditional simulation to chew through a handful of them. Precisely up to 1,000 times faster, according to Siemens. What it cannot do is sign off a safety-critical part. On that, the technology has a firm limit, and Sam Mahalingam, […] The post The limits of physics AI: where Siemens says the human stays in charge appeared first on AI News. Artificial Intelligence Infrastructure & Hardware Interviews AI surrogate models engineering simulation physics AI safety-critical AI Sam Mahalingam Siemens Siemens Digital Industries Software Simcenter PhysicsAI",
             "summaryFingerprint": "f4948172edb3a4ddcf93",
@@ -360100,6 +360733,13 @@
               "formulaVersion": "1.2.3-shadow.1",
               "formulaFingerprint": "435e37adc7e94b900c42",
               "inputFingerprint": "f7f5b3f62bcd2f248f28"
+            },
+            "2026-08-10T21Z|1.2.4-offline.1": {
+              "value": 5,
+              "observedAt": "2026-08-10T21:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "df6ad0ba8f920d6c73c8"
             }
           },
           "formulaSummaries": {
@@ -360170,6 +360810,40 @@
                 "routinePenalty": 0.425,
                 "contextualConcern": 0
               }
+            },
+            "1.2.4-offline.1": {
+              "formulaVersion": "1.2.4-offline.1",
+              "open": 5,
+              "high": 5,
+              "low": 5,
+              "close": 5,
+              "average": 5,
+              "scoreTotal": 5,
+              "observations": 1,
+              "firstObservedAt": "2026-08-10T21:00:00.000Z",
+              "lastObservedAt": "2026-08-10T21:00:00.000Z",
+              "peakSample": 5,
+              "peakSampleHour": "2026-08-10T21Z|1.2.4-offline.1",
+              "peakReasons": [
+                "neutral event status",
+                "speculative or weakly evidenced",
+                "routine or promotional adjustment"
+              ],
+              "peakFactors": {
+                "realizedHarm": 0,
+                "scale": 0,
+                "vulnerability": 0,
+                "lossOfControl": 0,
+                "irreversibility": 0,
+                "immediacy": 0,
+                "systemicReach": 0,
+                "credibleThreat": 0,
+                "evidence": 0.3,
+                "actuality": 0.25,
+                "protectiveContext": 0,
+                "routinePenalty": 0.425,
+                "contextualConcern": 0
+              }
             }
           },
           "activeFormulaVersion": "1.2.2-shadow.1",
@@ -360205,7 +360879,7 @@
             "routinePenalty": 0.425,
             "contextualConcern": 0
           },
-          "shadowFormulaVersion": "1.2.3-shadow.1"
+          "shadowFormulaVersion": "1.2.4-offline.1"
         }
       },
       "shadowInputs": {
@@ -360241,6 +360915,36 @@
         },
         "1.2.3-shadow.1": {
           "f7f5b3f62bcd2f248f28": {
+            "title": "Meta Muse Glimmer brings local AI agents to consumer GPUs",
+            "summary": "Meta Muse Glimmer brings local AI agents to consumer GPUs. Meta is releasing Muse Glimmer under an Apache 2.0 licence for local AI agents that can run on a consumer GPU. The company’s Superintelligence Labs has released the 30-billion-parameter model’s weights on Hugging Face. Meta says developers can use it for local coding, function calling, local agents, and LLM-as-a-judge evaluation. The release targets an operational […] The post Meta Muse Glimmer brings local AI agents to consumer GPUs appeared first on AI News. AI Business Strategy Featured News Infrastructure & Hardware Inside AI Multimodal AI Open-Source & Democratised AI agentic ai agents apache 2.0 benchmarks coding agents hardware hugging face llm local ai meta multimodal AI muse glimmer on-device ai open-source quantization",
+            "summaryFingerprint": "e32c0c495570b79a52f9",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0.425,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "neutral event status",
+              "speculative or weakly evidenced",
+              "routine or promotional adjustment"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          }
+        },
+        "1.2.4-offline.1": {
+          "df6ad0ba8f920d6c73c8": {
             "title": "Meta Muse Glimmer brings local AI agents to consumer GPUs",
             "summary": "Meta Muse Glimmer brings local AI agents to consumer GPUs. Meta is releasing Muse Glimmer under an Apache 2.0 licence for local AI agents that can run on a consumer GPU. The company’s Superintelligence Labs has released the 30-billion-parameter model’s weights on Hugging Face. Meta says developers can use it for local coding, function calling, local agents, and LLM-as-a-judge evaluation. The release targets an operational […] The post Meta Muse Glimmer brings local AI agents to consumer GPUs appeared first on AI News. AI Business Strategy Featured News Infrastructure & Hardware Inside AI Multimodal AI Open-Source & Democratised AI agentic ai agents apache 2.0 benchmarks coding agents hardware hugging face llm local ai meta multimodal AI muse glimmer on-device ai open-source quantization",
             "summaryFingerprint": "e32c0c495570b79a52f9",
@@ -361271,7 +361975,7 @@
               "observedAt": "2026-08-10T21:00:00.000Z",
               "formulaVersion": "1.2.2-shadow.1",
               "formulaFingerprint": "038227c518a0cea1b62b",
-              "inputFingerprint": "42cad56da3b3e7de83ef"
+              "inputFingerprint": "822bf4472fe3ce96c4ec"
             },
             "2026-08-10T21Z|1.2.3-shadow.1": {
               "value": 12.17,
@@ -361285,7 +361989,7 @@
               "observedAt": "2026-08-10T21:00:00.000Z",
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
-              "inputFingerprint": "03c88a3f9b6187e0ae60"
+              "inputFingerprint": "94156781b3c29dab776f"
             }
           },
           "formulaSummaries": {
@@ -361479,6 +362183,33 @@
             ],
             "actuality": "proposed",
             "polarity": "neutral"
+          },
+          "822bf4472fe3ce96c4ec": {
+            "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
+            "summary": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI. On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building. AI Mark Zuckerberg Four takeaways from Mark Zuckerberg’s massive AI manifesto. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positioning itself to enable those goals. Some points echo a similar (albeit, much shorter) public letter that Zuckerberg put out last year, heralding the importance of public access to superintelligent AI - a term for artificial general i … Read the full story at The Verge. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
+            "summaryFingerprint": "5346d1b02d0be552afe9",
+            "coverageSources": 2,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.925,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.55,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "large affected population or reach",
+              "proposed event status"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
           }
         },
         "1.2.3-shadow.1": {
@@ -361542,6 +362273,33 @@
             "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
             "summary": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI. On Monday, Mark Zuckerberg published a 6,500 word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building. AI Four takeaways from Mark Zuckerberg’s massive AI manifesto. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positioning itself to enable those goals. Some points echo a similar (albeit, much shorter) public letter that Zuckerberg put out last year, heralding the importance of public access to superintelligent AI - a term for artificial general i … Read the full story at The Verge. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
             "summaryFingerprint": "e4fbe207fdc27c52a4ea",
+            "coverageSources": 2,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.925,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.55,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "large affected population or reach",
+              "proposed event status"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
+          },
+          "94156781b3c29dab776f": {
+            "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
+            "summary": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI. On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building. AI Mark Zuckerberg Four takeaways from Mark Zuckerberg’s massive AI manifesto. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positioning itself to enable those goals. Some points echo a similar (albeit, much shorter) public letter that Zuckerberg put out last year, heralding the importance of public access to superintelligent AI - a term for artificial general i … Read the full story at The Verge. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
+            "summaryFingerprint": "5346d1b02d0be552afe9",
             "coverageSources": 2,
             "factors": {
               "realizedHarm": 0,
@@ -362727,7 +363485,7 @@
               "observedAt": "2026-08-10T21:00:00.000Z",
               "formulaVersion": "1.2.2-shadow.1",
               "formulaFingerprint": "038227c518a0cea1b62b",
-              "inputFingerprint": "a0f8d38e9c63ce5c0752"
+              "inputFingerprint": "9356fda2599fbe02a247"
             },
             "2026-08-10T21Z|1.2.3-shadow.1": {
               "value": 11.75,
@@ -362741,7 +363499,7 @@
               "observedAt": "2026-08-10T21:00:00.000Z",
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
-              "inputFingerprint": "c3362735c607d6b24d2b"
+              "inputFingerprint": "0ad98c7dddf2b32868a3"
             }
           },
           "formulaSummaries": {
@@ -362908,6 +363666,33 @@
             ],
             "actuality": "proposed",
             "polarity": "neutral"
+          },
+          "9356fda2599fbe02a247": {
+            "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+            "summary": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI. On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building. AI Mark Zuckerberg Four takeaways from Mark Zuckerberg’s massive AI manifesto. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positioning itself to enable those goals. Some points echo a similar (albeit, much shorter) public letter that Zuckerberg put out last year, heralding the importance of public access to superintelligent AI - a term for artificial general i … Read the full story at The Verge. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
+            "summaryFingerprint": "5346d1b02d0be552afe9",
+            "coverageSources": 2,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.85,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.55,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "large affected population or reach",
+              "proposed event status"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
           }
         },
         "1.2.3-shadow.1": {
@@ -362944,6 +363729,33 @@
             "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
             "summary": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI. On Monday, Mark Zuckerberg published a 6,500 word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building. AI Four takeaways from Mark Zuckerberg’s massive AI manifesto. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positioning itself to enable those goals. Some points echo a similar (albeit, much shorter) public letter that Zuckerberg put out last year, heralding the importance of public access to superintelligent AI - a term for artificial general i … Read the full story at The Verge. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
             "summaryFingerprint": "e4fbe207fdc27c52a4ea",
+            "coverageSources": 2,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0.85,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.55,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "large affected population or reach",
+              "proposed event status"
+            ],
+            "actuality": "proposed",
+            "polarity": "neutral"
+          },
+          "0ad98c7dddf2b32868a3": {
+            "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+            "summary": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI. On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building. AI Mark Zuckerberg Four takeaways from Mark Zuckerberg’s massive AI manifesto. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the technology should be developed, expanded, and regulated, and how Meta is positioning itself to enable those goals. Some points echo a similar (albeit, much shorter) public letter that Zuckerberg put out last year, heralding the importance of public access to superintelligent AI - a term for artificial general i … Read the full story at The Verge. Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
+            "summaryFingerprint": "5346d1b02d0be552afe9",
             "coverageSources": 2,
             "factors": {
               "realizedHarm": 0,
