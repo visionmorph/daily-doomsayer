@@ -30,36 +30,36 @@
         "minimum": 0,
         "maximum": 19.99,
         "label": "UNEASY",
-        "description": "Limited or routine concern.",
-        "qualification": "Reported consequences are minimal, routine, beneficial or protective, or too weakly supported to establish material harm."
+        "description": "No material harm is established.",
+        "qualification": "Use when the story is routine, beneficial, protective, primarily commercial, or based on speculation without demonstrated consequences. Any disruption is negligible, ordinary, easily reversible, or too weakly supported to establish meaningful harm."
       },
       {
         "minimum": 20,
         "maximum": 39.99,
         "label": "OMINOUS",
-        "description": "Credible concern with restrained consequences.",
-        "qualification": "Credible concern or limited harm exists, but its scale, immediacy, persistence, or supporting evidence remains constrained."
+        "description": "A credible concern exists, but its consequences remain limited.",
+        "qualification": "Use when evidence supports a plausible threat, localized or reversible harm, a concerning trend, or a proposed action with credible downsides. The story lacks the demonstrated scale, immediacy, persistence, or material consequences required for Alarming."
       },
       {
         "minimum": 40,
         "maximum": 59.99,
         "label": "ALARMING",
-        "description": "Material harm, disruption, or escalating risk.",
-        "qualification": "Credible reporting establishes meaningful harm, disruption, or escalation without the compound high-severity conditions required for Dire."
+        "description": "Meaningful harm, disruption, or escalation is occurring or credibly imminent.",
+        "qualification": "Use when reporting establishes material consequences for people, institutions, safety, privacy, livelihoods, or essential services. The harm may be repeated or significant, but remains bounded, containable, reversible, or lacks the combination of severe conditions required for Dire."
       },
       {
         "minimum": 60,
         "maximum": 79.99,
         "label": "DIRE",
-        "description": "Serious realized or imminent consequences.",
-        "qualification": "Serious harm is confirmed or imminent and combines strong evidence with broad or systemic reach, vulnerable populations, loss of control, or lasting consequences."
+        "description": "Severe harm is confirmed or imminent and difficult to contain.",
+        "qualification": "Use only when strong evidence establishes serious consequences alongside multiple aggravating conditions: broad or systemic reach, vulnerable populations, autonomous or unauthorized behavior, major loss of control, rapid escalation, prolonged disruption, or lasting damage."
       },
       {
         "minimum": 80,
         "maximum": 100,
         "label": "CATASTROPHIC",
-        "description": "Exceptional, widespread, or potentially irreversible consequences.",
-        "qualification": "Exceptional confirmed harm is widespread or global and combines multiple extreme conditions such as mass impact, irreversibility, systemic failure, uncontrollable escalation, or existential consequences."
+        "description": "Exceptional mass harm or systemic failure is confirmed and potentially irreversible.",
+        "qualification": "Use only when strong evidence establishes widespread or global consequences combined with several extreme conditions, such as mass casualties or displacement, irreversible damage, failure of essential systems, uncontrollable escalation, or a credible existential threat. Frightening language, theoretical possibilities, or worst-case predictions alone never qualify."
       }
     ],
     "shadow": {
