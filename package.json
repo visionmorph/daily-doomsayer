@@ -8,7 +8,8 @@
     "analyze-calibration": "node scripts/analyze-human-calibration.mjs",
     "evaluate-candidate": "node scripts/evaluate-dread-candidate.mjs",
     "evaluate-candidate:1.2.4": "node scripts/evaluate-dread-candidate.mjs --module scripts/doom-index-v1.2.4.mjs --function calculateDoomIndexV124 --version 1.2.4 --formula-version 1.2.4-offline.1 --cohort data/human-calibration/cohorts/dread-1.2.4-development.json --minimum-holdout 25 --minimum-high-confidence 10 --minimum-sources 5",
-    "verify-news": "node --test tests/doom-index-v1.2.test.mjs tests/doom-index-v1.2.1.test.mjs tests/doom-index-v1.2.2.test.mjs tests/doom-index-v1.2.3.test.mjs tests/doom-index-v1.2.4.test.mjs tests/human-calibration.test.mjs tests/site-data.test.mjs && node scripts/verify-doom-index.mjs"
+    "evaluate-experimental:1.2.4": "node scripts/evaluate-dread-experimental.mjs --baseline data/human-calibration/cohorts/dread-1.2.4-live-baseline.json --public-version 1.2.2 --public-formula-version 1.2.2-shadow.1 --experimental-version 1.2.4 --experimental-formula-version 1.2.4-offline.1 --minimum-live 50 --minimum-high-confidence 30 --minimum-sources 10 --bootstrap-samples 10000",
+    "verify-news": "node --test tests/doom-index-v1.2.test.mjs tests/doom-index-v1.2.1.test.mjs tests/doom-index-v1.2.2.test.mjs tests/doom-index-v1.2.3.test.mjs tests/doom-index-v1.2.4.test.mjs tests/human-calibration.test.mjs tests/live-experimental-evaluation.test.mjs tests/site-data.test.mjs && node scripts/verify-doom-index.mjs"
   },
   "dependencies": {
     "entities": "^2.2.0",
