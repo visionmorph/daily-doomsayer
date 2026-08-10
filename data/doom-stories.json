@@ -3937,7 +3937,7 @@
     "1.2.3-shadow.1": {
       "fingerprint": "435e37adc7e94b900c42",
       "kind": "contextual-consequence-severity-v1.2.3",
-      "status": "shadow",
+      "status": "retired-shadow",
       "weights": {
         "realizedHarm": 0.23,
         "scale": 0.13,
@@ -3949,6 +3949,23 @@
         "credibleThreat": 0.13
       },
       "firstObservedAt": "2026-08-07T08:00:00.000Z",
+      "lastObservedAt": "2026-08-10T21:00:00.000Z"
+    },
+    "1.2.4-offline.1": {
+      "fingerprint": "67098f3714bc528d2902",
+      "kind": "contextual-consequence-severity-v1.2.4",
+      "status": "shadow",
+      "weights": {
+        "realizedHarm": 0.23,
+        "scale": 0.13,
+        "vulnerability": 0.1,
+        "lossOfControl": 0.17,
+        "irreversibility": 0.1,
+        "immediacy": 0.06,
+        "systemicReach": 0.08,
+        "credibleThreat": 0.13
+      },
+      "firstObservedAt": "2026-08-10T21:00:00.000Z",
       "lastObservedAt": "2026-08-10T21:00:00.000Z"
     }
   }
