@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { analyzeCalibrationBenchmark } from "../scripts/analyze-human-calibration.mjs";
 import { buildCalibrationBenchmark } from "../scripts/build-calibration-benchmark.mjs";
@@ -11,6 +12,22 @@ const severityScale = [
   { minimum: 60, maximum: 79.99, label: "DIRE" },
   { minimum: 80, maximum: 100, label: "CATASTROPHIC" },
 ];
+
+test("DREAD 1.2.4 development cohort freezes 81 unique benchmark records", async () => {
+  const cohort = JSON.parse(
+    await readFile(
+      new URL(
+        "../data/human-calibration/cohorts/dread-1.2.4-development.json",
+        import.meta.url,
+      ),
+      "utf8",
+    ),
+  );
+
+  assert.equal(cohort.candidateVersion, "1.2.4");
+  assert.equal(cohort.benchmarkIds.length, 81);
+  assert.equal(new Set(cohort.benchmarkIds).size, 81);
+});
 
 function record({ storyId, title, updatedAt, human, publicScore, shadowScore }) {
   return {
@@ -186,12 +203,179 @@ test("candidate harness evaluates promotion gates without changing stored models
   const evaluation = await evaluateDreadCandidate(
     benchmark,
     ({ title }) => (title === "Severe" ? 70 : 10),
-    { candidateVersion: "1.2.4" },
+    {
+      candidateVersion: "1.2.4",
+      minimumHoldoutRecords: 2,
+      minimumHighConfidenceRecords: 1,
+      minimumHoldoutSources: 1,
+    },
   );
 
   assert.equal(evaluation.passed, true);
-  assert.equal(evaluation.metrics.candidate.article.meanAbsoluteError, 0);
-  assert.equal(evaluation.risk.candidate.severeUnderCalls, 0);
-  assert.equal(evaluation.inputAudit.exactProductionInputs, 2);
+  assert.equal(evaluation.status, "PASS");
+  assert.equal(evaluation.cohorts.development.records, 0);
+  assert.equal(evaluation.cohorts.holdout.records, 2);
+  assert.equal(
+    evaluation.cohorts.holdout.metrics.candidate.article.meanAbsoluteError,
+    0,
+  );
+  assert.equal(evaluation.cohorts.holdout.risk.candidate.severeUnderCalls, 0);
+  assert.equal(evaluation.cohorts.holdout.inputAudit.exactProductionInputs, 2);
   assert.equal(first.models.public.score, 20);
+});
+
+test("candidate harness separates frozen development records from future holdout records", async () => {
+  const development = record({
+    storyId: "development",
+    title: "Development",
+    updatedAt: "2026-08-08T00:00:00.000Z",
+    human: 30,
+    publicScore: 10,
+    shadowScore: 15,
+  });
+  const routine = record({
+    storyId: "holdout-routine",
+    title: "Holdout routine",
+    updatedAt: "2026-08-09T00:00:00.000Z",
+    human: 10,
+    publicScore: 20,
+    shadowScore: 25,
+  });
+  const concerning = record({
+    storyId: "holdout-concerning",
+    title: "Holdout concerning",
+    updatedAt: "2026-08-09T01:00:00.000Z",
+    human: 45,
+    publicScore: 15,
+    shadowScore: 20,
+  });
+  const dire = record({
+    storyId: "holdout-dire",
+    title: "Holdout dire",
+    updatedAt: "2026-08-09T02:00:00.000Z",
+    human: 70,
+    publicScore: 30,
+    shadowScore: 35,
+  });
+  for (const item of [development, routine, concerning, dire]) {
+    item.benchmarkId = item.article.storyId;
+    item.scoringInput = {
+      title: item.article.title,
+      summary: "Exact production input",
+      coverageSources: 1,
+      provenance: "production",
+    };
+  }
+  const benchmark = {
+    benchmarkVersion: "calibration-benchmark.v1",
+    asOf: "2026-08-09T03:00:00.000Z",
+    severityScale,
+    records: [development, routine, concerning, dire],
+  };
+  const scores = new Map([
+    ["Holdout routine", 10],
+    ["Holdout concerning", 45],
+    ["Holdout dire", 70],
+    ["Development", 30],
+  ]);
+
+  const evaluation = await evaluateDreadCandidate(
+    benchmark,
+    ({ title }) => scores.get(title),
+    {
+      developmentBenchmarkIds: ["development"],
+      minimumHoldoutRecords: 3,
+      minimumHighConfidenceRecords: 1,
+      minimumHoldoutSources: 1,
+    },
+  );
+
+  assert.equal(evaluation.cohorts.development.records, 1);
+  assert.equal(evaluation.cohorts.holdout.records, 3);
+  assert.equal(evaluation.cohorts.combined.records, 4);
+  assert.equal(evaluation.status, "PASS");
+  assert.equal(evaluation.promotionReady, true);
+  assert.equal(
+    evaluation.cohorts.holdout.metrics.candidate.article.meanAbsoluteError,
+    0,
+  );
+});
+
+test("candidate harness reports insufficient data before the holdout minimum", async () => {
+  const development = record({
+    storyId: "development",
+    title: "Development",
+    updatedAt: "2026-08-08T00:00:00.000Z",
+    human: 20,
+    publicScore: 10,
+    shadowScore: 12,
+  });
+  const holdout = record({
+    storyId: "holdout",
+    title: "Holdout",
+    updatedAt: "2026-08-09T00:00:00.000Z",
+    human: 20,
+    publicScore: 10,
+    shadowScore: 12,
+  });
+  development.benchmarkId = "development";
+  holdout.benchmarkId = "holdout";
+  const benchmark = {
+    benchmarkVersion: "calibration-benchmark.v1",
+    asOf: "2026-08-09T00:00:00.000Z",
+    severityScale,
+    records: [development, holdout],
+  };
+
+  const evaluation = await evaluateDreadCandidate(benchmark, () => 20, {
+    developmentBenchmarkIds: ["development"],
+    minimumHoldoutRecords: 2,
+    minimumHighConfidenceRecords: 1,
+    minimumHoldoutSources: 1,
+  });
+
+  assert.equal(evaluation.status, "INSUFFICIENT_DATA");
+  assert.equal(evaluation.promotionReady, false);
+  assert.equal(
+    evaluation.gates.find((gate) => gate.id === "minimum-holdout-records")
+      .status,
+    "fail",
+  );
+});
+
+test("candidate promotion must beat both public and experimental models", async () => {
+  const holdout = record({
+    storyId: "holdout",
+    title: "Holdout",
+    updatedAt: "2026-08-09T00:00:00.000Z",
+    human: 10,
+    publicScore: 20,
+    shadowScore: 10,
+  });
+  holdout.benchmarkId = "holdout";
+  holdout.scoringInput = {
+    title: "Holdout",
+    summary: "Exact production input",
+    coverageSources: 1,
+    provenance: "production",
+  };
+  const benchmark = {
+    benchmarkVersion: "calibration-benchmark.v1",
+    asOf: "2026-08-09T00:00:00.000Z",
+    severityScale,
+    records: [holdout],
+  };
+
+  const evaluation = await evaluateDreadCandidate(benchmark, () => 15, {
+    minimumHoldoutRecords: 1,
+    minimumHighConfidenceRecords: 1,
+    minimumHoldoutSources: 1,
+  });
+  const articleGate = evaluation.gates.find(
+    (gate) => gate.id === "article-mae",
+  );
+
+  assert.equal(articleGate.status, "fail");
+  assert.equal(evaluation.status, "FAIL");
+  assert.equal(evaluation.promotionReady, false);
 });
