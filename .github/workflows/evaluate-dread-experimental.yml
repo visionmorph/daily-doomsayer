@@ -1,0 +1,32 @@
+name: Evaluate live DREAD experiment
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evaluate-experimental:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          package-manager-cache: false
+
+      - name: Install the evaluator
+        run: npm install --no-audit --no-fund
+
+      - name: Verify the frozen baseline and live evaluator
+        run: node --test tests/live-experimental-evaluation.test.mjs
+
+      - name: Compare Public 1.2.2 with Experimental 1.2.4
+        run: |
+          npm run evaluate-experimental:1.2.4 -- --enforce | tee dread-1.2.4-live-evaluation.md
+          cat dread-1.2.4-live-evaluation.md >> "$GITHUB_STEP_SUMMARY"
