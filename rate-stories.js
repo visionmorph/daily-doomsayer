@@ -255,7 +255,7 @@
       item.className = "calibration-scale-item";
 
       const heading = document.createElement("strong");
-      heading.textContent = `${band.label} ${Number(band.minimum).toFixed(0)}–${Number(band.maximum).toFixed(2)}`;
+      heading.textContent = `${band.label} ${Math.floor(Number(band.minimum))}\u2013${Math.floor(Number(band.maximum))}`;
 
       const description = document.createElement("span");
       description.textContent = band.description || "";
