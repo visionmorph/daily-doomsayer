@@ -13,15 +13,15 @@
       valueField: "doomIndex",
     },
     experimental: {
-      version: String(site.doomIndex?.shadow?.version || "1.2.3"),
+      version: String(site.doomIndex?.shadow?.version || "1.2.4"),
       status: "EXPERIMENTAL",
-      valueField: "doomIndexV123Shadow",
+      valueField: "doomIndexV124Shadow",
     },
   };
   const experimentalAvailable =
     Array.isArray(articles) &&
     articles.some((article) =>
-      Number.isFinite(Number(article?.doomIndexV123Shadow)),
+      Number.isFinite(Number(article?.doomIndexV124Shadow)),
     );
   let activeModel = "public";
 
