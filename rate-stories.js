@@ -232,14 +232,14 @@
       name: String(doomIndex.modelName || "DREAD").toUpperCase(),
       role: "EXPERIMENTAL",
       version: String(
-        doomIndex.shadow?.version || article.doomIndexV123ShadowVersion || "1.2.3",
+        doomIndex.shadow?.version || article.doomIndexV124ShadowVersion || "1.2.4",
       ),
       formulaVersion: String(
         doomIndex.shadow?.formulaVersion ||
-          article.doomIndexV123ShadowFormulaVersion ||
+          article.doomIndexV124ShadowFormulaVersion ||
           "unknown",
       ),
-      score: score(article.doomIndexV123Shadow),
+      score: score(article.doomIndexV124Shadow),
     };
   }
 
