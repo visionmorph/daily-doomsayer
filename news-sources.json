@@ -64,8 +64,8 @@
     ],
     "shadow": {
       "enabled": true,
-      "version": "1.2.3",
-      "formulaVersion": "1.2.3-shadow.1"
+      "version": "1.2.4",
+      "formulaVersion": "1.2.4-offline.1"
     }
   },
   "sources": [
