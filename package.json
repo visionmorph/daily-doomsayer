@@ -7,7 +7,7 @@
     "build-calibration-benchmark": "node scripts/build-calibration-benchmark.mjs",
     "analyze-calibration": "node scripts/analyze-human-calibration.mjs",
     "evaluate-candidate": "node scripts/evaluate-dread-candidate.mjs",
-    "evaluate-candidate:1.2.4": "node scripts/evaluate-dread-candidate.mjs --module scripts/doom-index-v1.2.4.mjs --function calculateDoomIndexV124 --version 1.2.4 --formula-version 1.2.4-offline.1",
+    "evaluate-candidate:1.2.4": "node scripts/evaluate-dread-candidate.mjs --module scripts/doom-index-v1.2.4.mjs --function calculateDoomIndexV124 --version 1.2.4 --formula-version 1.2.4-offline.1 --cohort data/human-calibration/cohorts/dread-1.2.4-development.json --minimum-holdout 25 --minimum-high-confidence 10 --minimum-sources 5",
     "verify-news": "node --test tests/doom-index-v1.2.test.mjs tests/doom-index-v1.2.1.test.mjs tests/doom-index-v1.2.2.test.mjs tests/doom-index-v1.2.3.test.mjs tests/doom-index-v1.2.4.test.mjs tests/human-calibration.test.mjs tests/site-data.test.mjs && node scripts/verify-doom-index.mjs"
   },
   "dependencies": {
