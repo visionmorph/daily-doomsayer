@@ -40,6 +40,11 @@ jobs:
           npm run --silent analyze-calibration | tee calibration-report.md
           cat calibration-report.md >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Evaluate the live DREAD experiment
+        run: |
+          npm run --silent evaluate-experimental:1.2.4 | tee dread-1.2.4-live-evaluation.md
+          cat dread-1.2.4-live-evaluation.md >> "$GITHUB_STEP_SUMMARY"
+
       - name: Save the updated benchmark
         run: |
           git add data/human-calibration/calibration-benchmark.v1.json
