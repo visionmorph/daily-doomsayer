@@ -10,7 +10,17 @@ const DEFAULT_BENCHMARK_FILE = path.join(
   "human-calibration",
   "calibration-benchmark.v1.json",
 );
+const DEFAULT_COHORT_FILE = path.join(
+  PROJECT_DIRECTORY,
+  "data",
+  "human-calibration",
+  "cohorts",
+  "dread-1.2.4-development.json",
+);
 const DEFAULT_CONFIG_FILE = path.join(PROJECT_DIRECTORY, "news-sources.json");
+const DEFAULT_MINIMUM_HOLDOUT_RECORDS = 25;
+const DEFAULT_MINIMUM_HIGH_CONFIDENCE_RECORDS = 10;
+const DEFAULT_MINIMUM_HOLDOUT_SOURCES = 5;
 
 function mean(values) {
   return values.length
@@ -65,7 +75,9 @@ function numericScore(value) {
       ? value.value ?? value.score
       : value,
   );
-  return Number.isFinite(candidate) ? Math.max(0, Math.min(100, candidate)) : null;
+  return Number.isFinite(candidate)
+    ? Math.max(0, Math.min(100, candidate))
+    : null;
 }
 
 function storedScore(record, model) {
@@ -85,9 +97,7 @@ function scoringInput(record) {
     title: String(record.scoringInput?.title || record.article?.title || ""),
     summary: exactSummary || feedSummary,
     coverageSources:
-      Number.isFinite(exactCoverage) && exactCoverage > 0
-        ? exactCoverage
-        : 1,
+      Number.isFinite(exactCoverage) && exactCoverage > 0 ? exactCoverage : 1,
     provenance: exactSummary ? "production" : "feed-fallback",
   };
 }
@@ -155,28 +165,32 @@ function metrics(records, getModelScore, target, severityScale) {
 }
 
 function riskCounts(records, getModelScore) {
+  const scored = records
+    .map((record) => ({
+      human: humanScore(record, "articleRating"),
+      model: numericScore(getModelScore(record)),
+    }))
+    .filter(({ human, model }) => human !== null && model !== null);
+  const direEligible = scored.filter(({ human }) => human >= 60);
+  const extremeFalsePositiveEligible = scored.filter(({ human }) => human < 40);
+  const catastrophicFalsePositiveEligible = scored.filter(
+    ({ human }) => human < 80,
+  );
+
   return {
-    severeUnderCalls: records.filter(
-      (record) =>
-        humanScore(record, "articleRating") >= 60 &&
-        numericScore(getModelScore(record)) < 40,
+    eligibleRecords: scored.length,
+    direHumanRecords: direEligible.length,
+    belowAlarmingHumanRecords: extremeFalsePositiveEligible.length,
+    belowCatastrophicHumanRecords: catastrophicFalsePositiveEligible.length,
+    severeUnderCalls: direEligible.filter(({ model }) => model < 40).length,
+    extremeFalsePositives: extremeFalsePositiveEligible.filter(
+      ({ model }) => model >= 60,
     ).length,
-    extremeFalsePositives: records.filter(
-      (record) =>
-        humanScore(record, "articleRating") < 40 &&
-        numericScore(getModelScore(record)) >= 60,
+    catastrophicFalsePositives: catastrophicFalsePositiveEligible.filter(
+      ({ model }) => model >= 80,
     ).length,
-    catastrophicFalsePositives: records.filter(
-      (record) =>
-        humanScore(record, "articleRating") < 80 &&
-        numericScore(getModelScore(record)) >= 80,
-    ).length,
-    largeMisses: records.filter(
-      (record) =>
-        Math.abs(
-          numericScore(getModelScore(record)) -
-            humanScore(record, "articleRating"),
-        ) >= 30,
+    largeMisses: scored.filter(
+      ({ human, model }) => Math.abs(model - human) >= 30,
     ).length,
   };
 }
@@ -192,81 +206,6 @@ function distribution(records, getModelScore, severityScale) {
       ).length,
     ]),
   );
-}
-
-function makeGate(id, label, passed, candidate, baseline, direction) {
-  return { id, label, passed, candidate, baseline, direction };
-}
-
-function promotionGates({ baseline, candidate, baselineRisk, candidateRisk }) {
-  return [
-    makeGate(
-      "feed-mae",
-      "Candidate feed error is lower than public",
-      candidate.feed.meanAbsoluteError < baseline.feed.meanAbsoluteError,
-      candidate.feed.meanAbsoluteError,
-      baseline.feed.meanAbsoluteError,
-      "lower",
-    ),
-    makeGate(
-      "article-mae",
-      "Candidate article error is lower than public",
-      candidate.article.meanAbsoluteError < baseline.article.meanAbsoluteError,
-      candidate.article.meanAbsoluteError,
-      baseline.article.meanAbsoluteError,
-      "lower",
-    ),
-    makeGate(
-      "article-band-match",
-      "Candidate article band match is not lower than public",
-      candidate.article.severityBandMatchPercent >=
-        baseline.article.severityBandMatchPercent,
-      candidate.article.severityBandMatchPercent,
-      baseline.article.severityBandMatchPercent,
-      "higher",
-    ),
-    makeGate(
-      "high-confidence-mae",
-      "Candidate high-confidence error is not higher than public",
-      candidate.highConfidence.meanAbsoluteError <=
-        baseline.highConfidence.meanAbsoluteError,
-      candidate.highConfidence.meanAbsoluteError,
-      baseline.highConfidence.meanAbsoluteError,
-      "lower",
-    ),
-    makeGate(
-      "severe-undercalls",
-      "Candidate reduces severe under-calls",
-      candidateRisk.severeUnderCalls < baselineRisk.severeUnderCalls,
-      candidateRisk.severeUnderCalls,
-      baselineRisk.severeUnderCalls,
-      "lower",
-    ),
-    makeGate(
-      "extreme-false-positives",
-      "Candidate adds no extreme false positives",
-      candidateRisk.extremeFalsePositives <= baselineRisk.extremeFalsePositives,
-      candidateRisk.extremeFalsePositives,
-      baselineRisk.extremeFalsePositives,
-      "lower",
-    ),
-    makeGate(
-      "catastrophic-false-positives",
-      "Candidate produces no catastrophic false positives",
-      candidateRisk.catastrophicFalsePositives === 0,
-      candidateRisk.catastrophicFalsePositives,
-      0,
-      "lower",
-    ),
-    makeGate(
-      "large-misses",
-      "Candidate does not increase large misses",
-      candidateRisk.largeMisses <= baselineRisk.largeMisses,
-      candidateRisk.largeMisses,
-      baselineRisk.largeMisses,
-      "lower",
-    ),
-  ];
 }
 
 function largestCandidateMisses(records, candidateScores, severityScale, limit) {
@@ -285,48 +224,59 @@ function largestCandidateMisses(records, candidateScores, severityScale, limit) 
         candidateBand: severityBand(candidate, severityScale),
       };
     })
+    .filter(
+      ({ humanArticleScore, candidateScore }) =>
+        humanArticleScore !== null && candidateScore !== null,
+    )
     .sort((left, right) => Math.abs(right.error) - Math.abs(left.error))
     .slice(0, limit);
 }
 
-export async function evaluateDreadCandidate(
-  benchmark,
-  scoreCandidate,
+function inputAudit(records, provenanceById) {
+  const exactProductionInputs = records.filter(
+    (record) => provenanceById.get(record.benchmarkId) === "production",
+  ).length;
+  const feedFallbackInputs = records.length - exactProductionInputs;
+
+  return {
+    exactProductionInputs,
+    feedFallbackInputs,
+    exactProductionPercent: records.length
+      ? round((100 * exactProductionInputs) / records.length, 1)
+      : null,
+  };
+}
+
+function coverage(records, severityScale) {
+  const highConfidenceRecords = records.filter(
+    (record) => Number(record.articleRating?.confidence) === 3,
+  ).length;
+
+  return {
+    records: records.length,
+    highConfidenceRecords,
+    sources: new Set(records.map((record) => record.article?.source).filter(Boolean))
+      .size,
+    humanSeverity: distribution(
+      records,
+      (record) => humanScore(record, "articleRating"),
+      severityScale,
+    ),
+  };
+}
+
+function evaluateCohort(
+  records,
   {
-    candidateVersion = "candidate",
-    candidateFormulaVersion = null,
-    weights = {},
-    limit = 10,
-  } = {},
+    severityScale,
+    candidateScores,
+    provenanceById,
+    publicGetter,
+    shadowGetter,
+    candidateGetter,
+    limit,
+  },
 ) {
-  if (!Array.isArray(benchmark.records) || !Array.isArray(benchmark.severityScale)) {
-    throw new Error("The candidate benchmark is missing records or severityScale.");
-  }
-  if (typeof scoreCandidate !== "function") {
-    throw new Error("A candidate scoring function is required.");
-  }
-
-  const records = benchmark.records.filter((record) => record.status === "rated");
-  const severityScale = benchmark.severityScale;
-  const candidateScores = new Map();
-  const provenance = { production: 0, "feed-fallback": 0 };
-
-  for (const record of records) {
-    const input = scoringInput(record);
-    provenance[input.provenance] += 1;
-    const result = await scoreCandidate({ ...input, weights });
-    const score = numericScore(result);
-    if (score === null) {
-      throw new Error(
-        `Candidate returned an invalid score for: ${record.article?.title || record.benchmarkId}`,
-      );
-    }
-    candidateScores.set(record.benchmarkId, score);
-  }
-
-  const publicGetter = (record) => storedScore(record, "public");
-  const shadowGetter = (record) => storedScore(record, "shadow");
-  const candidateGetter = (record) => candidateScores.get(record.benchmarkId);
   const highConfidence = records.filter(
     (record) => Number(record.articleRating?.confidence) === 3,
   );
@@ -340,44 +290,20 @@ export async function evaluateDreadCandidate(
       severityScale,
     ),
   });
-  const publicMetrics = modelMetrics(publicGetter);
-  const shadowMetrics = modelMetrics(shadowGetter);
-  const candidateMetrics = modelMetrics(candidateGetter);
-  const publicRisk = riskCounts(records, publicGetter);
-  const shadowRisk = riskCounts(records, shadowGetter);
-  const candidateRisk = riskCounts(records, candidateGetter);
-  const gates = promotionGates({
-    baseline: publicMetrics,
-    candidate: candidateMetrics,
-    baselineRisk: publicRisk,
-    candidateRisk,
-  });
 
   return {
-    benchmarkVersion: benchmark.benchmarkVersion,
-    benchmarkAsOf: benchmark.asOf,
     records: records.length,
-    candidate: {
-      version: candidateVersion,
-      formulaVersion: candidateFormulaVersion,
-    },
-    inputAudit: {
-      exactProductionInputs: provenance.production,
-      feedFallbackInputs: provenance["feed-fallback"],
-      note:
-        provenance["feed-fallback"] > 0
-          ? "Fallback records use the title and feed summary because exact production scoring inputs were not captured in the original export."
-          : "Every candidate score used captured production scoring inputs.",
-    },
+    inputAudit: inputAudit(records, provenanceById),
+    coverage: coverage(records, severityScale),
     metrics: {
-      public: publicMetrics,
-      shadow: shadowMetrics,
-      candidate: candidateMetrics,
+      public: modelMetrics(publicGetter),
+      shadow: modelMetrics(shadowGetter),
+      candidate: modelMetrics(candidateGetter),
     },
     risk: {
-      public: publicRisk,
-      shadow: shadowRisk,
-      candidate: candidateRisk,
+      public: riskCounts(records, publicGetter),
+      shadow: riskCounts(records, shadowGetter),
+      candidate: riskCounts(records, candidateGetter),
     },
     distributions: {
       humanArticle: distribution(
@@ -389,8 +315,6 @@ export async function evaluateDreadCandidate(
       shadow: distribution(records, shadowGetter, severityScale),
       candidate: distribution(records, candidateGetter, severityScale),
     },
-    gates,
-    passed: gates.every((gate) => gate.passed),
     largestCandidateMisses: largestCandidateMisses(
       records,
       candidateScores,
@@ -400,61 +324,444 @@ export async function evaluateDreadCandidate(
   };
 }
 
+function makeGate(
+  id,
+  label,
+  status,
+  candidate,
+  publicBaseline,
+  shadowBaseline,
+  direction,
+) {
+  return {
+    id,
+    label,
+    status,
+    passed: status === "pass" ? true : status === "fail" ? false : null,
+    candidate,
+    publicBaseline,
+    shadowBaseline,
+    direction,
+  };
+}
+
+function comparisonStatus(candidate, publicBaseline, shadowBaseline, compare) {
+  if (
+    !Number.isFinite(candidate) ||
+    !Number.isFinite(publicBaseline) ||
+    !Number.isFinite(shadowBaseline)
+  ) {
+    return "not-enough-data";
+  }
+  return compare(candidate, publicBaseline, shadowBaseline) ? "pass" : "fail";
+}
+
+function promotionGates(holdout, minimumHoldoutRecords) {
+  const publicMetrics = holdout.metrics.public;
+  const shadowMetrics = holdout.metrics.shadow;
+  const candidateMetrics = holdout.metrics.candidate;
+  const publicRisk = holdout.risk.public;
+  const shadowRisk = holdout.risk.shadow;
+  const candidateRisk = holdout.risk.candidate;
+  const lowerThanBoth = (candidate, publicBaseline, shadowBaseline) =>
+    candidate < publicBaseline && candidate < shadowBaseline;
+  const noHigherThanBoth = (candidate, publicBaseline, shadowBaseline) =>
+    candidate <= publicBaseline && candidate <= shadowBaseline;
+  const noLowerThanBoth = (candidate, publicBaseline, shadowBaseline) =>
+    candidate >= publicBaseline && candidate >= shadowBaseline;
+
+  return [
+    makeGate(
+      "minimum-holdout-records",
+      `Holdout contains at least ${minimumHoldoutRecords} rated stories`,
+      holdout.records >= minimumHoldoutRecords ? "pass" : "fail",
+      holdout.records,
+      minimumHoldoutRecords,
+      minimumHoldoutRecords,
+      "higher",
+    ),
+    makeGate(
+      "feed-mae",
+      "Candidate feed error is lower than both deployed models",
+      comparisonStatus(
+        candidateMetrics.feed.meanAbsoluteError,
+        publicMetrics.feed.meanAbsoluteError,
+        shadowMetrics.feed.meanAbsoluteError,
+        lowerThanBoth,
+      ),
+      candidateMetrics.feed.meanAbsoluteError,
+      publicMetrics.feed.meanAbsoluteError,
+      shadowMetrics.feed.meanAbsoluteError,
+      "lower",
+    ),
+    makeGate(
+      "article-mae",
+      "Candidate article error is lower than both deployed models",
+      comparisonStatus(
+        candidateMetrics.article.meanAbsoluteError,
+        publicMetrics.article.meanAbsoluteError,
+        shadowMetrics.article.meanAbsoluteError,
+        lowerThanBoth,
+      ),
+      candidateMetrics.article.meanAbsoluteError,
+      publicMetrics.article.meanAbsoluteError,
+      shadowMetrics.article.meanAbsoluteError,
+      "lower",
+    ),
+    makeGate(
+      "article-band-match",
+      "Candidate article band match is not lower than either deployed model",
+      comparisonStatus(
+        candidateMetrics.article.severityBandMatchPercent,
+        publicMetrics.article.severityBandMatchPercent,
+        shadowMetrics.article.severityBandMatchPercent,
+        noLowerThanBoth,
+      ),
+      candidateMetrics.article.severityBandMatchPercent,
+      publicMetrics.article.severityBandMatchPercent,
+      shadowMetrics.article.severityBandMatchPercent,
+      "higher",
+    ),
+    makeGate(
+      "high-confidence-mae",
+      "Candidate high-confidence error is not higher than either deployed model",
+      comparisonStatus(
+        candidateMetrics.highConfidence.meanAbsoluteError,
+        publicMetrics.highConfidence.meanAbsoluteError,
+        shadowMetrics.highConfidence.meanAbsoluteError,
+        noHigherThanBoth,
+      ),
+      candidateMetrics.highConfidence.meanAbsoluteError,
+      publicMetrics.highConfidence.meanAbsoluteError,
+      shadowMetrics.highConfidence.meanAbsoluteError,
+      "lower",
+    ),
+    makeGate(
+      "severe-undercalls",
+      "Candidate does not increase severe under-calls",
+      candidateRisk.direHumanRecords === 0
+        ? "not-enough-data"
+        : noHigherThanBoth(
+              candidateRisk.severeUnderCalls,
+              publicRisk.severeUnderCalls,
+              shadowRisk.severeUnderCalls,
+            )
+          ? "pass"
+          : "fail",
+      candidateRisk.severeUnderCalls,
+      publicRisk.severeUnderCalls,
+      shadowRisk.severeUnderCalls,
+      "lower",
+    ),
+    makeGate(
+      "extreme-false-positives",
+      "Candidate adds no extreme false positives",
+      candidateRisk.belowAlarmingHumanRecords === 0
+        ? "not-enough-data"
+        : noHigherThanBoth(
+              candidateRisk.extremeFalsePositives,
+              publicRisk.extremeFalsePositives,
+              shadowRisk.extremeFalsePositives,
+            )
+          ? "pass"
+          : "fail",
+      candidateRisk.extremeFalsePositives,
+      publicRisk.extremeFalsePositives,
+      shadowRisk.extremeFalsePositives,
+      "lower",
+    ),
+    makeGate(
+      "catastrophic-false-positives",
+      "Candidate produces no catastrophic false positives",
+      candidateRisk.belowCatastrophicHumanRecords === 0
+        ? "not-enough-data"
+        : candidateRisk.catastrophicFalsePositives === 0
+          ? "pass"
+          : "fail",
+      candidateRisk.catastrophicFalsePositives,
+      publicRisk.catastrophicFalsePositives,
+      shadowRisk.catastrophicFalsePositives,
+      "lower",
+    ),
+    makeGate(
+      "large-misses",
+      "Candidate does not exceed either model's large misses",
+      comparisonStatus(
+        candidateRisk.largeMisses,
+        publicRisk.largeMisses,
+        shadowRisk.largeMisses,
+        noHigherThanBoth,
+      ),
+      candidateRisk.largeMisses,
+      publicRisk.largeMisses,
+      shadowRisk.largeMisses,
+      "lower",
+    ),
+  ];
+}
+
+function coverageWarnings(
+  holdout,
+  {
+    minimumHoldoutRecords,
+    minimumHighConfidenceRecords,
+    minimumHoldoutSources,
+  },
+) {
+  const warnings = [];
+  const humanSeverity = holdout.coverage.humanSeverity;
+
+  if (holdout.records < minimumHoldoutRecords) {
+    warnings.push(
+      `Holdout has ${holdout.records} of ${minimumHoldoutRecords} required stories.`,
+    );
+  }
+  if (holdout.coverage.highConfidenceRecords < minimumHighConfidenceRecords) {
+    warnings.push(
+      `Holdout has ${holdout.coverage.highConfidenceRecords} of ${minimumHighConfidenceRecords} recommended high-confidence ratings.`,
+    );
+  }
+  if (holdout.coverage.sources < minimumHoldoutSources) {
+    warnings.push(
+      `Holdout represents ${holdout.coverage.sources} of ${minimumHoldoutSources} recommended publishers.`,
+    );
+  }
+  if (holdout.inputAudit.feedFallbackInputs > 0) {
+    warnings.push(
+      `${holdout.inputAudit.feedFallbackInputs} holdout stories lack exact production scoring inputs.`,
+    );
+  }
+  if (!humanSeverity.DIRE) {
+    warnings.push("Holdout contains no human-rated Dire stories.");
+  }
+  if (!humanSeverity.CATASTROPHIC) {
+    warnings.push("Holdout contains no human-rated Catastrophic stories.");
+  }
+
+  return warnings;
+}
+
+export async function evaluateDreadCandidate(
+  benchmark,
+  scoreCandidate,
+  {
+    candidateVersion = "candidate",
+    candidateFormulaVersion = null,
+    weights = {},
+    limit = 10,
+    developmentBenchmarkIds = [],
+    cohortMetadata = null,
+    minimumHoldoutRecords = DEFAULT_MINIMUM_HOLDOUT_RECORDS,
+    minimumHighConfidenceRecords = DEFAULT_MINIMUM_HIGH_CONFIDENCE_RECORDS,
+    minimumHoldoutSources = DEFAULT_MINIMUM_HOLDOUT_SOURCES,
+  } = {},
+) {
+  if (!Array.isArray(benchmark.records) || !Array.isArray(benchmark.severityScale)) {
+    throw new Error("The candidate benchmark is missing records or severityScale.");
+  }
+  if (typeof scoreCandidate !== "function") {
+    throw new Error("A candidate scoring function is required.");
+  }
+
+  const records = benchmark.records.filter((record) => record.status === "rated");
+  const severityScale = benchmark.severityScale;
+  const developmentIds = new Set(developmentBenchmarkIds.map(String));
+  const developmentRecords = records.filter((record) =>
+    developmentIds.has(String(record.benchmarkId)),
+  );
+  const holdoutRecords = records.filter(
+    (record) => !developmentIds.has(String(record.benchmarkId)),
+  );
+  const currentIds = new Set(records.map((record) => String(record.benchmarkId)));
+  const missingDevelopmentIds = [...developmentIds].filter(
+    (benchmarkId) => !currentIds.has(benchmarkId),
+  );
+  const candidateScores = new Map();
+  const provenanceById = new Map();
+
+  for (const record of records) {
+    const input = scoringInput(record);
+    provenanceById.set(record.benchmarkId, input.provenance);
+    const result = await scoreCandidate({ ...input, weights });
+    const score = numericScore(result);
+    if (score === null) {
+      throw new Error(
+        `Candidate returned an invalid score for: ${record.article?.title || record.benchmarkId}`,
+      );
+    }
+    candidateScores.set(record.benchmarkId, score);
+  }
+
+  const publicGetter = (record) => storedScore(record, "public");
+  const shadowGetter = (record) => storedScore(record, "shadow");
+  const candidateGetter = (record) => candidateScores.get(record.benchmarkId);
+  const cohortContext = {
+    severityScale,
+    candidateScores,
+    provenanceById,
+    publicGetter,
+    shadowGetter,
+    candidateGetter,
+    limit,
+  };
+  const cohorts = {
+    development: evaluateCohort(developmentRecords, cohortContext),
+    holdout: evaluateCohort(holdoutRecords, cohortContext),
+    combined: evaluateCohort(records, cohortContext),
+  };
+  const gates = promotionGates(cohorts.holdout, minimumHoldoutRecords);
+  const warnings = coverageWarnings(cohorts.holdout, {
+    minimumHoldoutRecords,
+    minimumHighConfidenceRecords,
+    minimumHoldoutSources,
+  });
+  if (missingDevelopmentIds.length) {
+    warnings.push(
+      `${missingDevelopmentIds.length} frozen development IDs are absent from the current benchmark.`,
+    );
+  }
+  const minimumGate = gates.find(
+    (gate) => gate.id === "minimum-holdout-records",
+  );
+  const failedGates = gates.filter((gate) => gate.status === "fail");
+  const status =
+    minimumGate?.status !== "pass"
+      ? "INSUFFICIENT_DATA"
+      : failedGates.length
+        ? "FAIL"
+        : "PASS";
+
+  return {
+    benchmarkVersion: benchmark.benchmarkVersion,
+    benchmarkAsOf: benchmark.asOf,
+    candidate: {
+      version: candidateVersion,
+      formulaVersion: candidateFormulaVersion,
+    },
+    cohort: {
+      ...cohortMetadata,
+      frozenDevelopmentRecords: developmentIds.size,
+      matchedDevelopmentRecords: developmentRecords.length,
+      missingDevelopmentIds,
+      holdoutRule: "Any rated benchmark ID not present in the frozen development cohort",
+    },
+    thresholds: {
+      minimumHoldoutRecords,
+      minimumHighConfidenceRecords,
+      minimumHoldoutSources,
+    },
+    cohorts,
+    gates,
+    warnings,
+    status,
+    passed: status === "PASS",
+    promotionReady: status === "PASS",
+  };
+}
+
+function formatNumber(value, decimalPlaces = 2) {
+  return Number.isFinite(value) ? Number(value).toFixed(decimalPlaces) : "—";
+}
+
+function formatPercent(value) {
+  return Number.isFinite(value) ? `${Number(value).toFixed(1)}%` : "—";
+}
+
 function metricRow(label, metric) {
-  return `| ${label} | ${metric.meanAbsoluteError.toFixed(2)} | ${metric.bias.toFixed(2)} | ${metric.severityBandMatchPercent.toFixed(1)}% | ${metric.within20PointsPercent.toFixed(1)}% |`;
+  return `| ${label} | ${formatNumber(metric.meanAbsoluteError)} | ${formatNumber(metric.bias)} | ${formatPercent(metric.severityBandMatchPercent)} | ${formatPercent(metric.within20PointsPercent)} |`;
+}
+
+function appendMetricTable(lines, cohort, includeFeed = false) {
+  lines.push(
+    "| Model / target | Mean absolute error | Bias | Band match | Within 20 points |",
+    "|---|---:|---:|---:|---:|",
+  );
+  if (includeFeed) {
+    lines.push(
+      metricRow("Public / feed", cohort.metrics.public.feed),
+      metricRow("Experimental / feed", cohort.metrics.shadow.feed),
+      metricRow("Candidate / feed", cohort.metrics.candidate.feed),
+    );
+  }
+  lines.push(
+    metricRow("Public / article", cohort.metrics.public.article),
+    metricRow("Experimental / article", cohort.metrics.shadow.article),
+    metricRow("Candidate / article", cohort.metrics.candidate.article),
+    "",
+  );
 }
 
 function markdownReport(evaluation) {
+  const holdout = evaluation.cohorts.holdout;
   const lines = [
-    `# DREAD ${evaluation.candidate.version} candidate evaluation`,
+    `# DREAD ${evaluation.candidate.version} cohort-aware candidate evaluation`,
     "",
     `Benchmark: ${evaluation.benchmarkVersion}`,
-    `Records: ${evaluation.records}`,
-    `Result: ${evaluation.passed ? "PASS" : "FAIL"}`,
+    `Development records: ${evaluation.cohorts.development.records}`,
+    `Holdout records: ${holdout.records}`,
+    `Combined records: ${evaluation.cohorts.combined.records}`,
+    `Promotion result: ${evaluation.status}`,
     "",
-    "## Scoring inputs",
+    "Only holdout records determine promotion readiness. Development and combined results are diagnostic.",
     "",
-    `Exact production inputs: ${evaluation.inputAudit.exactProductionInputs}`,
-    `Feed-summary fallbacks: ${evaluation.inputAudit.feedFallbackInputs}`,
+    "## Holdout coverage",
     "",
-    evaluation.inputAudit.note,
+    `Exact production inputs: ${holdout.inputAudit.exactProductionInputs}/${holdout.records}`,
+    `High-confidence ratings: ${holdout.coverage.highConfidenceRecords}`,
+    `Publishers represented: ${holdout.coverage.sources}`,
+    `Human severity distribution: ${Object.entries(holdout.coverage.humanSeverity)
+      .map(([label, count]) => `${label} ${count}`)
+      .join(", ")}`,
     "",
-    "## Model agreement",
-    "",
-    "| Model / target | Mean absolute error | Bias | Band match | Within 20 points |",
-    "|---|---:|---:|---:|---:|",
-    metricRow("Public / feed", evaluation.metrics.public.feed),
-    metricRow("Shadow / feed", evaluation.metrics.shadow.feed),
-    metricRow("Candidate / feed", evaluation.metrics.candidate.feed),
-    metricRow("Public / article", evaluation.metrics.public.article),
-    metricRow("Shadow / article", evaluation.metrics.shadow.article),
-    metricRow("Candidate / article", evaluation.metrics.candidate.article),
-    "",
-    "## Promotion gates",
-    "",
-    "| Gate | Result | Candidate | Public baseline |",
-    "|---|---|---:|---:|",
   ];
 
-  for (const gate of evaluation.gates) {
-    lines.push(
-      `| ${gate.label} | ${gate.passed ? "PASS" : "FAIL"} | ${gate.candidate} | ${gate.baseline} |`,
-    );
+  if (evaluation.warnings.length) {
+    lines.push("### Coverage warnings", "");
+    for (const warning of evaluation.warnings) lines.push(`- ${warning}`);
+    lines.push("");
   }
 
+  lines.push("## Holdout model agreement", "");
+  appendMetricTable(lines, holdout, true);
   lines.push(
+    "## Holdout promotion gates",
     "",
-    "## Largest candidate misses",
-    "",
-    "| Story | Human | Candidate | Error | Human band | Candidate band |",
-    "|---|---:|---:|---:|---|---|",
+    "| Gate | Result | Candidate | Public 1.2.2 | Experimental 1.2.3 |",
+    "|---|---|---:|---:|---:|",
   );
 
-  for (const miss of evaluation.largestCandidateMisses) {
+  for (const gate of evaluation.gates) {
+    const result =
+      gate.status === "pass"
+        ? "PASS"
+        : gate.status === "fail"
+          ? "FAIL"
+          : "NOT ENOUGH DATA";
     lines.push(
-      `| ${miss.title.replaceAll("|", "\\|")} | ${miss.humanArticleScore.toFixed(2)} | ${miss.candidateScore.toFixed(2)} | ${miss.error.toFixed(2)} | ${miss.humanBand} | ${miss.candidateBand} |`,
+      `| ${gate.label} | ${result} | ${formatNumber(gate.candidate)} | ${formatNumber(gate.publicBaseline)} | ${formatNumber(gate.shadowBaseline)} |`,
     );
   }
+
+  lines.push("", "## Largest holdout candidate misses", "");
+  if (!holdout.largestCandidateMisses.length) {
+    lines.push("No holdout stories are available yet.", "");
+  } else {
+    lines.push(
+      "| Story | Human | Candidate | Error | Human band | Candidate band |",
+      "|---|---:|---:|---:|---|---|",
+    );
+    for (const miss of holdout.largestCandidateMisses) {
+      lines.push(
+        `| ${miss.title.replaceAll("|", "\\|")} | ${formatNumber(miss.humanArticleScore)} | ${formatNumber(miss.candidateScore)} | ${formatNumber(miss.error)} | ${miss.humanBand} | ${miss.candidateBand} |`,
+      );
+    }
+    lines.push("");
+  }
+
+  lines.push("## Development diagnostics", "");
+  appendMetricTable(lines, evaluation.cohorts.development);
+  lines.push("## Combined diagnostics", "");
+  appendMetricTable(lines, evaluation.cohorts.combined);
 
   return `${lines.join("\n")}\n`;
 }
@@ -462,6 +769,7 @@ function markdownReport(evaluation) {
 function parseArguments(argumentsList) {
   const options = {
     benchmark: DEFAULT_BENCHMARK_FILE,
+    cohort: DEFAULT_COHORT_FILE,
     config: DEFAULT_CONFIG_FILE,
     module: null,
     functionName: null,
@@ -470,6 +778,9 @@ function parseArguments(argumentsList) {
     json: false,
     enforce: false,
     limit: 10,
+    minimumHoldoutRecords: DEFAULT_MINIMUM_HOLDOUT_RECORDS,
+    minimumHighConfidenceRecords: DEFAULT_MINIMUM_HIGH_CONFIDENCE_RECORDS,
+    minimumHoldoutSources: DEFAULT_MINIMUM_HOLDOUT_SOURCES,
   };
 
   for (let index = 0; index < argumentsList.length; index += 1) {
@@ -478,6 +789,7 @@ function parseArguments(argumentsList) {
     if (argument === "--json") options.json = true;
     else if (argument === "--enforce") options.enforce = true;
     else if (argument === "--benchmark") options.benchmark = path.resolve(next);
+    else if (argument === "--cohort") options.cohort = path.resolve(next);
     else if (argument === "--config") options.config = path.resolve(next);
     else if (argument === "--module") options.module = path.resolve(next);
     else if (argument === "--function") options.functionName = next;
@@ -485,6 +797,21 @@ function parseArguments(argumentsList) {
     else if (argument === "--formula-version") options.formulaVersion = next;
     else if (argument === "--limit") {
       options.limit = Math.max(1, Number.parseInt(next, 10) || 10);
+    } else if (argument === "--minimum-holdout") {
+      options.minimumHoldoutRecords = Math.max(
+        1,
+        Number.parseInt(next, 10) || DEFAULT_MINIMUM_HOLDOUT_RECORDS,
+      );
+    } else if (argument === "--minimum-high-confidence") {
+      options.minimumHighConfidenceRecords = Math.max(
+        0,
+        Number.parseInt(next, 10) || 0,
+      );
+    } else if (argument === "--minimum-sources") {
+      options.minimumHoldoutSources = Math.max(
+        1,
+        Number.parseInt(next, 10) || DEFAULT_MINIMUM_HOLDOUT_SOURCES,
+      );
     } else {
       throw new Error(`Unknown argument: ${argument}`);
     }
@@ -523,6 +850,7 @@ function selectScoringFunction(candidateModule, requestedName) {
 async function main() {
   const options = parseArguments(process.argv.slice(2));
   const benchmark = JSON.parse(await readFile(options.benchmark, "utf8"));
+  const cohort = JSON.parse(await readFile(options.cohort, "utf8"));
   const config = JSON.parse(await readFile(options.config, "utf8"));
   const candidateModule = await import(pathToFileURL(options.module));
   const scorer = selectScoringFunction(candidateModule, options.functionName);
@@ -531,6 +859,17 @@ async function main() {
     candidateFormulaVersion: options.formulaVersion,
     weights: config.doomIndex?.weights || {},
     limit: options.limit,
+    developmentBenchmarkIds: cohort.benchmarkIds || [],
+    cohortMetadata: {
+      schemaVersion: cohort.schemaVersion || null,
+      candidateVersion: cohort.candidateVersion || null,
+      benchmarkVersion: cohort.benchmarkVersion || null,
+      frozenAt: cohort.frozenAt || null,
+      description: cohort.description || "",
+    },
+    minimumHoldoutRecords: options.minimumHoldoutRecords,
+    minimumHighConfidenceRecords: options.minimumHighConfidenceRecords,
+    minimumHoldoutSources: options.minimumHoldoutSources,
   });
 
   console.log(
@@ -538,10 +877,13 @@ async function main() {
       ? JSON.stringify({ ...evaluation, candidateExport: scorer.name }, null, 2)
       : markdownReport(evaluation),
   );
-  if (options.enforce && !evaluation.passed) process.exitCode = 1;
+  if (options.enforce && evaluation.status === "FAIL") process.exitCode = 1;
 }
 
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+if (
+  process.argv[1] &&
+  path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)
+) {
   main().catch((error) => {
     console.error(error.stack || error.message);
     process.exitCode = 1;
