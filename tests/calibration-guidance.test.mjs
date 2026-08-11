@@ -147,6 +147,14 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   assert.doesNotMatch(html, /id="calibration-scale"/);
   assert.match(html, /How likely is additional information to change this rating\?/);
   assert.ok(
+    html.indexOf('<form id="feed-rating-form"') <
+      html.indexOf('class="calibration-feed-heading"'),
+  );
+  assert.ok(
+    html.indexOf('class="calibration-feed-heading"') <
+      html.indexOf('id="feed-evidence-groups"'),
+  );
+  assert.ok(
     html.indexOf("calibration-guidance.js") < html.indexOf("rate-stories.js"),
   );
   assert.match(script, /assessment:/);
@@ -192,6 +200,17 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   assert.match(
     script,
     /stage\.recommendationReasoning\.textContent\s*=\s*severityBandForScore\(recommendation\.score\)\?\.description \|\| "";/s,
+  );
+  assert.match(
+    script,
+    /const NO_HARM_DEPENDENT_FACTORS = new Set\(\[[\s\S]*"reach"[\s\S]*"reversibility"[\s\S]*"containment"[\s\S]*"recurrence"[\s\S]*"vulnerability"/,
+  );
+  assert.match(script, /function applyNoHarmShortcut\(stage\)/);
+  assert.match(script, /fieldset\.dataset\.autoSelected = "true";[\s\S]*fieldset\.disabled = true;/);
+  assert.match(script, /if \(input\.name === `\$\{stage\.id\}-factor-harm`\)/);
+  assert.doesNotMatch(
+    script,
+    /NO_HARM_DEPENDENT_FACTORS = new Set\(\[[\s\S]*"certainty"/,
   );
   assert.doesNotMatch(
     script,
