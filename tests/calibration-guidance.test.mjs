@@ -142,6 +142,9 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   assert.match(html, /name="article-rating-choice" value="manual"/);
   assert.match(html, /id="feed-manual-rating"[^>]*hidden/);
   assert.match(html, /id="article-manual-rating"[^>]*hidden/);
+  assert.match(html, /id="feed-calibration-scale"[^>]*aria-live="polite"/s);
+  assert.match(html, /id="article-calibration-scale"[^>]*aria-live="polite"/s);
+  assert.doesNotMatch(html, /id="calibration-scale"/);
   assert.match(html, /How likely is additional information to change this rating\?/);
   assert.ok(
     html.indexOf("calibration-guidance.js") < html.indexOf("rate-stories.js"),
@@ -157,6 +160,20 @@ test("rate-stories page uses guided groups with a conditional manual override", 
     styles,
     /\.calibration-field \.calibration-radio:has\(input:checked\)[^}]*\{[^}]*font-weight: 700/s,
   );
+  assert.match(
+    styles,
+    /\.calibration-radio\s*\{[^}]*display: inline-block;[^}]*width: fit-content;[^}]*align-self: flex-start;/s,
+  );
+  assert.match(
+    styles,
+    /\.calibration-scale-item > span\s*\{[^}]*font-size: 20px;[^}]*font-weight: 700;[^}]*line-height: 24px;/s,
+  );
+  assert.match(
+    styles,
+    /\.calibration-scale-qualification\s*\{[^}]*font-size: 20px;[^}]*line-height: 24px;/s,
+  );
+  assert.match(script, /function severityBandForScore\(value\)/);
+  assert.match(script, /renderScaleItem\(stage\.scale, slider\.value\)/);
   assert.match(html, /Additional context \(optional\)/);
   assert.match(html, /Additional context after reading \(optional\)/);
 });
