@@ -140,6 +140,12 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   assert.match(html, /id="article-evidence-groups"/);
   assert.match(html, /name="feed-rating-choice" value="manual"/);
   assert.match(html, /name="article-rating-choice" value="manual"/);
+  assert.match(html, /Human-scored Doom Index rating/);
+  assert.match(html, /id="feed-rating-output"[^>]*>UNEASY 0<\/output>/);
+  assert.match(
+    html,
+    /class="calibration-recommendation-summary">[\s\S]*Suggested rating[\s\S]*id="feed-recommendation-output"/,
+  );
   assert.match(html, /id="feed-manual-rating"[^>]*hidden/);
   assert.match(html, /id="article-manual-rating"[^>]*hidden/);
   assert.match(html, /id="feed-calibration-scale"[^>]*aria-live="polite"/s);
@@ -176,6 +182,27 @@ test("rate-stories page uses guided groups with a conditional manual override", 
     styles,
     /\.calibration-scale-item > span\s*\{[^}]*font-size: 20px;[^}]*font-weight: 700;[^}]*line-height: 24px;/s,
   );
+  assert.match(
+    styles,
+    /\.calibration-recommendation-summary\s*\{[^}]*display: flex;[^}]*flex-direction: column;[^}]*gap: 0;/s,
+  );
+  assert.match(
+    styles,
+    /\.calibration-recommendation-reasoning\s*\{[^}]*font-size: 32px;[^}]*line-height: 40px;/s,
+  );
+  assert.match(
+    styles,
+    /\.calibration-evidence-factor:disabled \.calibration-radio\s*\{[^}]*color: rgb\(0 0 0 \/ 25%\);[^}]*cursor: not-allowed;/s,
+  );
+  assert.match(
+    styles,
+    /\.calibration-slider-bounds \+ \.calibration-rubric\s*\{[^}]*margin-top: 16px;/s,
+  );
+  assert.match(
+    styles,
+    /\.calibration-scale\s*\{[^}]*border: 2px solid #000000;/s,
+  );
+  assert.match(styles, /\.calibration-scale-item\s*\{[^}]*gap: 0;/s);
   assert.match(
     styles,
     /\.calibration-scale-qualification\s*\{[^}]*font-size: 20px;[^}]*line-height: 24px;/s,
@@ -221,6 +248,11 @@ test("rate-stories page uses guided groups with a conditional manual override", 
     /stage\.recommendationReasoning\.textContent = \[\s*recommendation\.reasoning/s,
   );
   assert.match(script, /function severityBandForScore\(value\)/);
+  assert.match(
+    script,
+    /function sliderOutputText\(slider, value\)[\s\S]*band\?\.label \|\| "UNCLASSIFIED"[\s\S]*\$\{normalized\}/,
+  );
+  assert.doesNotMatch(script, /const heading = document\.createElement\("strong"\)/);
   assert.match(script, /renderScaleItem\(stage\.scale, slider\.value\)/);
   assert.match(html, /Additional context \(optional\)/);
   assert.match(html, /Additional context after reading \(optional\)/);
