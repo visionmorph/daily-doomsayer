@@ -41,7 +41,8 @@
       '[data-validation-for="article-rating"]',
     ),
     nextButton: document.querySelector("#next-story"),
-    scale: document.querySelector("#calibration-scale"),
+    feedScale: document.querySelector("#feed-calibration-scale"),
+    articleScale: document.querySelector("#article-calibration-scale"),
     skipDialog: document.querySelector("#skip-dialog"),
     skipForm: document.querySelector("#skip-form"),
     cancelSkip: document.querySelector("#cancel-skip"),
@@ -60,6 +61,7 @@
       manualRating: document.querySelector("#feed-manual-rating"),
       slider: elements.feedSlider,
       output: elements.feedOutput,
+      scale: elements.feedScale,
       validation: elements.feedValidation,
       ratingChoiceName: "feed-rating-choice",
       confidenceName: "feed-confidence",
@@ -79,6 +81,7 @@
       manualRating: document.querySelector("#article-manual-rating"),
       slider: elements.articleSlider,
       output: elements.articleOutput,
+      scale: elements.articleScale,
       validation: elements.articleValidation,
       ratingChoiceName: "article-rating-choice",
       confidenceName: "article-confidence",
@@ -231,6 +234,10 @@
     slider.dataset.interacted = String(interacted);
     output.value = String(normalized);
     output.textContent = String(normalized);
+    renderScaleItem(
+      slider === elements.feedSlider ? elements.feedScale : elements.articleScale,
+      normalized,
+    );
   }
 
   function resetForm(form) {
@@ -516,33 +523,45 @@
     };
   }
 
-  function renderScale() {
+  function severityBandForScore(value) {
     const scale = Array.isArray(doomIndex.severityScale)
       ? doomIndex.severityScale
       : [];
+    const normalized = humanScore(value) ?? 0;
 
-    elements.scale.replaceChildren();
+    return (
+      scale.find(
+        (band) =>
+          normalized >= Number(band.minimum) &&
+          normalized <= Number(band.maximum),
+      ) || scale[0]
+    );
+  }
 
-    for (const band of scale) {
-      const item = document.createElement("div");
-      item.className = "calibration-scale-item";
+  function renderScaleItem(container, value) {
+    const band = severityBandForScore(value);
 
-      const heading = document.createElement("strong");
-      heading.textContent = `${band.label} ${Math.floor(Number(band.minimum))}\u2013${Math.floor(Number(band.maximum))}`;
+    container.replaceChildren();
+    if (!band) return;
 
-      const description = document.createElement("span");
-      description.textContent = band.description || "";
+    const item = document.createElement("div");
+    item.className = "calibration-scale-item";
 
-      item.append(heading, description);
+    const heading = document.createElement("strong");
+    heading.textContent = `${band.label} ${Math.floor(Number(band.minimum))}\u2013${Math.floor(Number(band.maximum))}`;
 
-      if (band.qualification) {
-        const qualification = document.createElement("p");
-        qualification.className = "calibration-scale-qualification";
-        qualification.textContent = band.qualification;
-        item.append(qualification);
-      }
-      elements.scale.append(item);
+    const description = document.createElement("span");
+    description.textContent = band.description || "";
+
+    item.append(heading, description);
+
+    if (band.qualification) {
+      const qualification = document.createElement("p");
+      qualification.className = "calibration-scale-qualification";
+      qualification.textContent = band.qualification;
+      item.append(qualification);
     }
+    container.append(item);
   }
 
   function renderStory() {
@@ -852,6 +871,7 @@
     slider.dataset.interacted = "true";
     stage.output.value = String(Math.round(Number(slider.value)));
     stage.output.textContent = String(Math.round(Number(slider.value)));
+    renderScaleItem(stage.scale, slider.value);
     stage.validation.hidden = true;
   }
 
@@ -895,6 +915,7 @@
 
   renderEvidenceGroups(stages.feed);
   renderEvidenceGroups(stages.article);
-  renderScale();
+  renderScaleItem(stages.feed.scale, stages.feed.slider.value);
+  renderScaleItem(stages.article.scale, stages.article.slider.value);
   renderStory();
 })();
