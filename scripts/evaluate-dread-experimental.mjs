@@ -23,6 +23,7 @@ const DEFAULT_OPTIONS = Object.freeze({
   publicFormulaVersion: "1.2.2-shadow.1",
   experimentalVersion: "1.2.4",
   experimentalFormulaVersion: "1.2.4-offline.1",
+  humanRubricVersion: "guided-human-rating-v1.1",
   minimumLiveRecords: 50,
   recommendedHighConfidenceRecords: 30,
   recommendedSources: 10,
@@ -448,12 +449,20 @@ export function evaluateDreadExperiment(
   );
   const excluded = {
     missingHumanArticleRating: 0,
+    humanRubricVersionMismatch: 0,
     publicVersionMismatch: 0,
     experimentalVersionMismatch: 0,
   };
   const eligibleRecords = liveRecords.filter((record) => {
     if (humanScore(record) === null) {
       excluded.missingHumanArticleRating += 1;
+      return false;
+    }
+    if (
+      String(record.articleRating?.assessment?.rubricVersion || "") !==
+      options.humanRubricVersion
+    ) {
+      excluded.humanRubricVersionMismatch += 1;
       return false;
     }
     if (
@@ -518,6 +527,7 @@ export function evaluateDreadExperiment(
         formulaVersion: options.experimentalFormulaVersion,
       },
     },
+    humanRubricVersion: options.humanRubricVersion,
     thresholds: {
       minimumLiveRecords: options.minimumLiveRecords,
       recommendedHighConfidenceRecords:
@@ -650,6 +660,7 @@ export function markdownLiveExperimentReport(evaluation) {
     `Matched baseline: ${evaluation.baseline.matchedRecords} stories`,
     `New live holdout: ${evaluation.coverage.liveRecords} stories`,
     `Eligible paired records: ${evaluation.coverage.eligibleRecords}`,
+    `Human questionnaire: ${evaluation.humanRubricVersion}`,
     `Promotion result: ${evaluation.status}`,
     "",
     "Only stories collected after the frozen baseline determine promotion readiness. Positive paired improvement means Experimental 1.2.4 is closer to the human rating.",
@@ -753,6 +764,7 @@ function parseArguments(argumentsList) {
       "--experimental-formula-version",
       ["experimentalFormulaVersion", String],
     ],
+    ["--human-rubric-version", ["humanRubricVersion", String]],
     ["--minimum-live", ["minimumLiveRecords", Number]],
     [
       "--minimum-high-confidence",
