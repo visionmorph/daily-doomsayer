@@ -315440,7 +315440,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-08-05T15:26:20.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-11T10:00:00.000Z",
+      "lastSeen": "2026-08-11T11:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -316332,6 +316332,20 @@
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
               "inputFingerprint": "aec30cc16fb2c23d1ff7"
+            },
+            "2026-08-11T11Z|1.2.2-shadow.1": {
+              "value": 11.94,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "3fc0a0b51aed7bcb79b0"
+            },
+            "2026-08-11T11Z|1.2.4-offline.1": {
+              "value": 17.27,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "aec30cc16fb2c23d1ff7"
             }
           },
           "formulaSummaries": {
@@ -316342,10 +316356,10 @@
               "low": 11.94,
               "close": 11.94,
               "average": 11.94,
-              "scoreTotal": 23.88,
-              "observations": 2,
+              "scoreTotal": 35.82,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 11.94,
               "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -316375,10 +316389,10 @@
               "low": 17.27,
               "close": 17.27,
               "average": 17.27,
-              "scoreTotal": 34.54,
-              "observations": 2,
+              "scoreTotal": 51.81,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 17.27,
               "peakSampleHour": "2026-08-11T07Z|1.2.4-offline.1",
               "peakReasons": [
@@ -316410,10 +316424,10 @@
           "low": 11.94,
           "close": 11.94,
           "average": 11.94,
-          "scoreTotal": 23.88,
-          "observations": 2,
+          "scoreTotal": 35.82,
+          "observations": 3,
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T10:00:00.000Z",
+          "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "peakSample": 11.94,
           "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -318842,7 +318856,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-08-06T15:55:37.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-11T10:00:00.000Z",
+      "lastSeen": "2026-08-11T11:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -319721,6 +319735,20 @@
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
               "inputFingerprint": "23f3ebd4246999de6f1c"
+            },
+            "2026-08-11T11Z|1.2.2-shadow.1": {
+              "value": 10.1,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "ae4b7a09aa898559e32e"
+            },
+            "2026-08-11T11Z|1.2.4-offline.1": {
+              "value": 13.14,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "23f3ebd4246999de6f1c"
             }
           },
           "formulaSummaries": {
@@ -319731,10 +319759,10 @@
               "low": 10.1,
               "close": 10.1,
               "average": 10.1,
-              "scoreTotal": 20.2,
-              "observations": 2,
+              "scoreTotal": 30.3,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 10.1,
               "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -319763,10 +319791,10 @@
               "low": 13.14,
               "close": 13.14,
               "average": 13.14,
-              "scoreTotal": 26.28,
-              "observations": 2,
+              "scoreTotal": 39.42,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 13.14,
               "peakSampleHour": "2026-08-11T07Z|1.2.4-offline.1",
               "peakReasons": [
@@ -319797,10 +319825,10 @@
           "low": 10.1,
           "close": 10.1,
           "average": 10.1,
-          "scoreTotal": 20.2,
-          "observations": 2,
+          "scoreTotal": 30.3,
+          "observations": 3,
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T10:00:00.000Z",
+          "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "peakSample": 10.1,
           "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -321538,7 +321566,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/06/image.png",
       "published": "2026-08-05T10:00:00.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-11T10:00:00.000Z",
+      "lastSeen": "2026-08-11T11:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -322421,6 +322449,20 @@
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
               "inputFingerprint": "67bfef008426d1f1d49e"
+            },
+            "2026-08-11T11Z|1.2.2-shadow.1": {
+              "value": 9.4,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "c507270c9605775d868c"
+            },
+            "2026-08-11T11Z|1.2.4-offline.1": {
+              "value": 9.4,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "67bfef008426d1f1d49e"
             }
           },
           "formulaSummaries": {
@@ -322431,10 +322473,10 @@
               "low": 9.4,
               "close": 9.4,
               "average": 9.4,
-              "scoreTotal": 18.8,
-              "observations": 2,
+              "scoreTotal": 28.2,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 9.4,
               "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -322464,10 +322506,10 @@
               "low": 9.4,
               "close": 9.4,
               "average": 9.4,
-              "scoreTotal": 18.8,
-              "observations": 2,
+              "scoreTotal": 28.2,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 9.4,
               "peakSampleHour": "2026-08-11T07Z|1.2.4-offline.1",
               "peakReasons": [
@@ -322498,10 +322540,10 @@
           "low": 9.4,
           "close": 9.4,
           "average": 9.4,
-          "scoreTotal": 18.8,
-          "observations": 2,
+          "scoreTotal": 28.2,
+          "observations": 3,
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T10:00:00.000Z",
+          "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "peakSample": 9.4,
           "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -326373,7 +326415,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/06/image.png",
       "published": "2026-08-07T10:00:00.000Z",
       "firstSeen": "2026-08-07T13:00:00.000Z",
-      "lastSeen": "2026-08-11T10:00:00.000Z",
+      "lastSeen": "2026-08-11T11:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -327258,6 +327300,20 @@
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
               "inputFingerprint": "f1dbef52201966065565"
+            },
+            "2026-08-11T11Z|1.2.2-shadow.1": {
+              "value": 7.96,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "10e074da23f84cfc6d5d"
+            },
+            "2026-08-11T11Z|1.2.4-offline.1": {
+              "value": 14.56,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "f1dbef52201966065565"
             }
           },
           "formulaSummaries": {
@@ -327268,10 +327324,10 @@
               "low": 7.96,
               "close": 7.96,
               "average": 7.96,
-              "scoreTotal": 15.92,
-              "observations": 2,
+              "scoreTotal": 23.88,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 7.96,
               "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -327301,10 +327357,10 @@
               "low": 14.56,
               "close": 14.56,
               "average": 14.56,
-              "scoreTotal": 29.12,
-              "observations": 2,
+              "scoreTotal": 43.68,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 14.56,
               "peakSampleHour": "2026-08-11T07Z|1.2.4-offline.1",
               "peakReasons": [
@@ -327337,10 +327393,10 @@
           "low": 7.96,
           "close": 7.96,
           "average": 7.96,
-          "scoreTotal": 15.92,
-          "observations": 2,
+          "scoreTotal": 23.88,
+          "observations": 3,
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T10:00:00.000Z",
+          "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "peakSample": 7.96,
           "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -329511,7 +329567,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-08-07T15:05:03.000Z",
       "firstSeen": "2026-08-07T15:00:00.000Z",
-      "lastSeen": "2026-08-11T10:00:00.000Z",
+      "lastSeen": "2026-08-11T11:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -330376,6 +330432,20 @@
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
               "inputFingerprint": "53509a093bf998babaaf"
+            },
+            "2026-08-11T11Z|1.2.2-shadow.1": {
+              "value": 10.04,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "41d4bf613f4d40183418"
+            },
+            "2026-08-11T11Z|1.2.4-offline.1": {
+              "value": 16.07,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "53509a093bf998babaaf"
             }
           },
           "formulaSummaries": {
@@ -330386,10 +330456,10 @@
               "low": 10.04,
               "close": 10.04,
               "average": 10.04,
-              "scoreTotal": 20.08,
-              "observations": 2,
+              "scoreTotal": 30.12,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 10.04,
               "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -330418,10 +330488,10 @@
               "low": 16.07,
               "close": 16.07,
               "average": 16.07,
-              "scoreTotal": 32.14,
-              "observations": 2,
+              "scoreTotal": 48.21,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 16.07,
               "peakSampleHour": "2026-08-11T07Z|1.2.4-offline.1",
               "peakReasons": [
@@ -330452,10 +330522,10 @@
           "low": 10.04,
           "close": 10.04,
           "average": 10.04,
-          "scoreTotal": 20.08,
-          "observations": 2,
+          "scoreTotal": 30.12,
+          "observations": 3,
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T10:00:00.000Z",
+          "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "peakSample": 10.04,
           "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -330577,7 +330647,7 @@
       "image": "",
       "published": "2026-08-07T14:33:59.000Z",
       "firstSeen": "2026-08-07T15:00:00.000Z",
-      "lastSeen": "2026-08-11T10:00:00.000Z",
+      "lastSeen": "2026-08-11T11:00:00.000Z",
       "days": {
         "2026-08-07": {
           "samples": {
@@ -331446,6 +331516,20 @@
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
               "inputFingerprint": "4760258550f733965f4c"
+            },
+            "2026-08-11T11Z|1.2.2-shadow.1": {
+              "value": 8.44,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "d8cdb087da295618a2a3"
+            },
+            "2026-08-11T11Z|1.2.4-offline.1": {
+              "value": 8.44,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "4760258550f733965f4c"
             }
           },
           "formulaSummaries": {
@@ -331456,10 +331540,10 @@
               "low": 8.44,
               "close": 8.44,
               "average": 8.44,
-              "scoreTotal": 16.88,
-              "observations": 2,
+              "scoreTotal": 25.32,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 8.44,
               "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -331489,10 +331573,10 @@
               "low": 8.44,
               "close": 8.44,
               "average": 8.44,
-              "scoreTotal": 16.88,
-              "observations": 2,
+              "scoreTotal": 25.32,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 8.44,
               "peakSampleHour": "2026-08-11T07Z|1.2.4-offline.1",
               "peakReasons": [
@@ -331523,10 +331607,10 @@
           "low": 8.44,
           "close": 8.44,
           "average": 8.44,
-          "scoreTotal": 16.88,
-          "observations": 2,
+          "scoreTotal": 25.32,
+          "observations": 3,
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T10:00:00.000Z",
+          "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "peakSample": 8.44,
           "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -390704,7 +390788,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-08-10T10:00:00.000Z",
       "firstSeen": "2026-08-10T15:00:00.000Z",
-      "lastSeen": "2026-08-11T10:00:00.000Z",
+      "lastSeen": "2026-08-11T11:00:00.000Z",
       "days": {
         "2026-08-10": {
           "samples": {
@@ -390922,6 +391006,20 @@
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
               "inputFingerprint": "d37e48e7d7270d3cb2f9"
+            },
+            "2026-08-11T11Z|1.2.2-shadow.1": {
+              "value": 13.09,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "0f8f1240584b3d56b233"
+            },
+            "2026-08-11T11Z|1.2.4-offline.1": {
+              "value": 13.09,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "d37e48e7d7270d3cb2f9"
             }
           },
           "formulaSummaries": {
@@ -390932,10 +391030,10 @@
               "low": 13.09,
               "close": 13.09,
               "average": 13.09,
-              "scoreTotal": 26.18,
-              "observations": 2,
+              "scoreTotal": 39.27,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 13.09,
               "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -390965,10 +391063,10 @@
               "low": 13.09,
               "close": 13.09,
               "average": 13.09,
-              "scoreTotal": 26.18,
-              "observations": 2,
+              "scoreTotal": 39.27,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 13.09,
               "peakSampleHour": "2026-08-11T07Z|1.2.4-offline.1",
               "peakReasons": [
@@ -390999,10 +391097,10 @@
           "low": 13.09,
           "close": 13.09,
           "average": 13.09,
-          "scoreTotal": 26.18,
-          "observations": 2,
+          "scoreTotal": 39.27,
+          "observations": 3,
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T10:00:00.000Z",
+          "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "peakSample": 13.09,
           "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -393400,7 +393498,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
       "published": "2026-08-10T11:02:38.000Z",
       "firstSeen": "2026-08-10T15:00:00.000Z",
-      "lastSeen": "2026-08-11T10:00:00.000Z",
+      "lastSeen": "2026-08-11T11:00:00.000Z",
       "days": {
         "2026-08-10": {
           "samples": {
@@ -393622,6 +393720,20 @@
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
               "inputFingerprint": "df6ad0ba8f920d6c73c8"
+            },
+            "2026-08-11T11Z|1.2.2-shadow.1": {
+              "value": 5,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "8118212e8d844447900b"
+            },
+            "2026-08-11T11Z|1.2.4-offline.1": {
+              "value": 5,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "df6ad0ba8f920d6c73c8"
             }
           },
           "formulaSummaries": {
@@ -393632,10 +393744,10 @@
               "low": 5,
               "close": 5,
               "average": 5,
-              "scoreTotal": 10,
-              "observations": 2,
+              "scoreTotal": 15,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 5,
               "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -393666,10 +393778,10 @@
               "low": 5,
               "close": 5,
               "average": 5,
-              "scoreTotal": 10,
-              "observations": 2,
+              "scoreTotal": 15,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 5,
               "peakSampleHour": "2026-08-11T07Z|1.2.4-offline.1",
               "peakReasons": [
@@ -393701,10 +393813,10 @@
           "low": 5,
           "close": 5,
           "average": 5,
-          "scoreTotal": 10,
-          "observations": 2,
+          "scoreTotal": 15,
+          "observations": 3,
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T10:00:00.000Z",
+          "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "peakSample": 5,
           "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -402086,7 +402198,7 @@
       "image": "",
       "published": "2026-08-11T07:05:55.000Z",
       "firstSeen": "2026-08-11T07:00:00.000Z",
-      "lastSeen": "2026-08-11T10:00:00.000Z",
+      "lastSeen": "2026-08-11T11:00:00.000Z",
       "days": {
         "2026-08-11": {
           "samples": {
@@ -402117,6 +402229,20 @@
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
               "inputFingerprint": "a1e79ca034a9c9ceb166"
+            },
+            "2026-08-11T11Z|1.2.2-shadow.1": {
+              "value": 14.6,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "a544b3658b587a638046"
+            },
+            "2026-08-11T11Z|1.2.4-offline.1": {
+              "value": 14.6,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "a1e79ca034a9c9ceb166"
             }
           },
           "formulaSummaries": {
@@ -402127,10 +402253,10 @@
               "low": 14.6,
               "close": 14.6,
               "average": 14.6,
-              "scoreTotal": 29.2,
-              "observations": 2,
+              "scoreTotal": 43.8,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 14.6,
               "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -402161,10 +402287,10 @@
               "low": 14.6,
               "close": 14.6,
               "average": 14.6,
-              "scoreTotal": 29.2,
-              "observations": 2,
+              "scoreTotal": 43.8,
+              "observations": 3,
               "firstObservedAt": "2026-08-11T07:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 14.6,
               "peakSampleHour": "2026-08-11T07Z|1.2.4-offline.1",
               "peakReasons": [
@@ -402196,10 +402322,10 @@
           "low": 14.6,
           "close": 14.6,
           "average": 14.6,
-          "scoreTotal": 29.2,
-          "observations": 2,
+          "scoreTotal": 43.8,
+          "observations": 3,
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T10:00:00.000Z",
+          "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "peakSample": 14.6,
           "peakSampleHour": "2026-08-11T07Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -403408,7 +403534,7 @@
       "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/06/image.png",
       "published": "2026-08-11T10:00:00.000Z",
       "firstSeen": "2026-08-11T10:00:00.000Z",
-      "lastSeen": "2026-08-11T10:00:00.000Z",
+      "lastSeen": "2026-08-11T11:00:00.000Z",
       "days": {
         "2026-08-11": {
           "samples": {
@@ -403425,6 +403551,20 @@
               "formulaVersion": "1.2.4-offline.1",
               "formulaFingerprint": "67098f3714bc528d2902",
               "inputFingerprint": "21c9c26c66a5e039cc0f"
+            },
+            "2026-08-11T11Z|1.2.2-shadow.1": {
+              "value": 5,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.2-shadow.1",
+              "formulaFingerprint": "038227c518a0cea1b62b",
+              "inputFingerprint": "98f54baaa504591dd3fa"
+            },
+            "2026-08-11T11Z|1.2.4-offline.1": {
+              "value": 11.32,
+              "observedAt": "2026-08-11T11:00:00.000Z",
+              "formulaVersion": "1.2.4-offline.1",
+              "formulaFingerprint": "67098f3714bc528d2902",
+              "inputFingerprint": "2657f03014ebc722c322"
             }
           },
           "formulaSummaries": {
@@ -403435,10 +403575,10 @@
               "low": 5,
               "close": 5,
               "average": 5,
-              "scoreTotal": 5,
-              "observations": 1,
+              "scoreTotal": 10,
+              "observations": 2,
               "firstObservedAt": "2026-08-11T10:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 5,
               "peakSampleHour": "2026-08-11T10Z|1.2.2-shadow.1",
               "peakReasons": [
@@ -403468,10 +403608,10 @@
               "low": 11.32,
               "close": 11.32,
               "average": 11.32,
-              "scoreTotal": 11.32,
-              "observations": 1,
+              "scoreTotal": 22.64,
+              "observations": 2,
               "firstObservedAt": "2026-08-11T10:00:00.000Z",
-              "lastObservedAt": "2026-08-11T10:00:00.000Z",
+              "lastObservedAt": "2026-08-11T11:00:00.000Z",
               "peakSample": 11.32,
               "peakSampleHour": "2026-08-11T10Z|1.2.4-offline.1",
               "peakReasons": [
@@ -403503,10 +403643,10 @@
           "low": 5,
           "close": 5,
           "average": 5,
-          "scoreTotal": 5,
-          "observations": 1,
+          "scoreTotal": 10,
+          "observations": 2,
           "firstObservedAt": "2026-08-11T10:00:00.000Z",
-          "lastObservedAt": "2026-08-11T10:00:00.000Z",
+          "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "peakSample": 5,
           "peakSampleHour": "2026-08-11T10Z|1.2.2-shadow.1",
           "peakReasons": [
@@ -403559,6 +403699,33 @@
             ],
             "actuality": "neutral",
             "polarity": "neutral"
+          },
+          "98f54baaa504591dd3fa": {
+            "title": "Novo Nordisk and AWS bring agentic AI into drug discovery",
+            "summary": "Novo Nordisk and AWS bring agentic AI into drug discovery. Novo Nordisk is expanding its use of AWS artificial intelligence tools across drug discovery, including AI agents for target identification, therapy design, and research workflows. Under the agreement announced recently, AWS will become Novo Nordisk’s preferred cloud provider and strategic AI partner. The companies have also created a co-innovation hub at Novo Nordisk’s existing London […] The post Novo Nordisk and AWS bring agentic AI into drug discovery appeared first on AI News. AI in Action Artificial Intelligence Featured News Features Healthcare & Wellness AI Human-AI Relationships World of Work agentic ai ai aws cloud infrastructure drug discovery healthcare ai",
+            "summaryFingerprint": "b99ae953cafebbb0d351",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0,
+              "credibleThreat": 0,
+              "evidence": 0.3,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0
+            },
+            "reasons": [
+              "neutral event status",
+              "speculative or weakly evidenced"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
           }
         },
         "1.2.4-offline.1": {
@@ -403566,6 +403733,34 @@
             "title": "Novo Nordisk and AWS bring agentic AI into drug discovery",
             "summary": "Novo Nordisk and AWS bring agentic AI into drug discovery. Novo Nordisk is expanding its use of AWS artificial intelligence tools across drug discovery, including AI agents for target identification, therapy design, and research workflows. Under the agreement announced recently, AWS will become Novo Nordisk’s preferred cloud provider and strategic AI partner. The companies have also created a co-innovation hub at Novo Nordisk’s existing London […] The post Novo Nordisk and AWS bring agentic AI into drug discovery appeared first on AI News. AI in Action Artificial Intelligence Features Healthcare & Wellness AI Human-AI Relationships World of Work agentic ai ai aws cloud infrastructure drug discovery healthcare ai",
             "summaryFingerprint": "732b9a13a8a5016f5c9b",
+            "coverageSources": 1,
+            "factors": {
+              "realizedHarm": 0,
+              "scale": 0,
+              "vulnerability": 0,
+              "lossOfControl": 0,
+              "irreversibility": 0,
+              "immediacy": 0,
+              "systemicReach": 0.5,
+              "credibleThreat": 0,
+              "evidence": 0.3,
+              "actuality": 0.25,
+              "protectiveContext": 0,
+              "routinePenalty": 0,
+              "contextualConcern": 0.3
+            },
+            "reasons": [
+              "systemic or institutional reach",
+              "neutral event status",
+              "speculative or weakly evidenced"
+            ],
+            "actuality": "neutral",
+            "polarity": "neutral"
+          },
+          "2657f03014ebc722c322": {
+            "title": "Novo Nordisk and AWS bring agentic AI into drug discovery",
+            "summary": "Novo Nordisk and AWS bring agentic AI into drug discovery. Novo Nordisk is expanding its use of AWS artificial intelligence tools across drug discovery, including AI agents for target identification, therapy design, and research workflows. Under the agreement announced recently, AWS will become Novo Nordisk’s preferred cloud provider and strategic AI partner. The companies have also created a co-innovation hub at Novo Nordisk’s existing London […] The post Novo Nordisk and AWS bring agentic AI into drug discovery appeared first on AI News. AI in Action Artificial Intelligence Featured News Features Healthcare & Wellness AI Human-AI Relationships World of Work agentic ai ai aws cloud infrastructure drug discovery healthcare ai",
+            "summaryFingerprint": "b99ae953cafebbb0d351",
             "coverageSources": 1,
             "factors": {
               "realizedHarm": 0,
