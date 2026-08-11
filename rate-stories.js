@@ -223,6 +223,17 @@
     return numeric === null ? "Unavailable" : String(numeric);
   }
 
+  function sliderOutputText(slider, value) {
+    const normalized = humanScore(value) ?? 0;
+
+    if (slider === elements.feedSlider) {
+      const band = severityBandForScore(normalized);
+      return `${band?.label || "UNCLASSIFIED"} ${normalized}`;
+    }
+
+    return String(normalized);
+  }
+
   function signedDifference(left, right, precision = 2) {
     const leftScore = score(left);
     const rightScore = score(right);
@@ -239,8 +250,8 @@
     const normalized = humanScore(value) ?? 0;
     slider.value = String(normalized);
     slider.dataset.interacted = String(interacted);
-    output.value = String(normalized);
-    output.textContent = String(normalized);
+    output.value = sliderOutputText(slider, normalized);
+    output.textContent = output.value;
     renderScaleItem(
       slider === elements.feedSlider ? elements.feedScale : elements.articleScale,
       normalized,
@@ -606,13 +617,10 @@
     const item = document.createElement("div");
     item.className = "calibration-scale-item";
 
-    const heading = document.createElement("strong");
-    heading.textContent = `${band.label} ${Math.floor(Number(band.minimum))}\u2013${Math.floor(Number(band.maximum))}`;
-
     const description = document.createElement("span");
     description.textContent = band.description || "";
 
-    item.append(heading, description);
+    item.append(description);
 
     if (band.qualification) {
       const qualification = document.createElement("p");
@@ -928,8 +936,8 @@
     const slider = event.currentTarget;
     const stage = slider === elements.feedSlider ? stages.feed : stages.article;
     slider.dataset.interacted = "true";
-    stage.output.value = String(Math.round(Number(slider.value)));
-    stage.output.textContent = String(Math.round(Number(slider.value)));
+    stage.output.value = sliderOutputText(slider, slider.value);
+    stage.output.textContent = stage.output.value;
     renderScaleItem(stage.scale, slider.value);
     stage.validation.hidden = true;
   }
