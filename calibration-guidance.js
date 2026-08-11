@@ -5,7 +5,7 @@
     {
       id: "harm",
       label: "What level of harm is established?",
-      weight: 0.28,
+      weight: 0,
       options: [
         "No material harm is established",
         "Credible concern or limited harm",
@@ -16,8 +16,8 @@
     },
     {
       id: "certainty",
-      label: "How certain is the event?",
-      weight: 0.16,
+      label: "How certain are the harmful consequences?",
+      weight: 0.2,
       options: [
         "Hypothetical, predicted, or speculative",
         "Proposed, alleged, or incompletely documented",
@@ -28,10 +28,10 @@
     },
     {
       id: "reach",
-      label: "How widely does it reach?",
-      weight: 0.15,
+      label: "How widely do the demonstrated harmful consequences reach?",
+      weight: 0.18,
       options: [
-        "No demonstrated victims",
+        "Not applicable — no demonstrated harmful consequences",
         "An individual or single organization",
         "Multiple people or organizations",
         "Regional, national, or systemic reach",
@@ -41,9 +41,9 @@
     {
       id: "reversibility",
       label: "Is the harm reversible?",
-      weight: 0.12,
+      weight: 0.15,
       options: [
-        "No meaningful harm occurred",
+        "Not applicable — no material harm is established",
         "Easily or quickly reversible",
         "Recoverable with substantial effort",
         "Long-lasting or only partially reversible",
@@ -52,11 +52,11 @@
     },
     {
       id: "containment",
-      label: "Is it contained?",
-      weight: 0.12,
+      label: "What is the current state of control?",
+      weight: 0.18,
       options: [
-        "Prevented or fully contained",
-        "Contained after limited consequences",
+        "Not applicable — no harmful incident or active threat is established",
+        "Prevented or fully contained after limited consequences",
         "Partially contained or still developing",
         "Actively escalating",
         "Control has been substantially or completely lost",
@@ -65,9 +65,9 @@
     {
       id: "recurrence",
       label: "Is this isolated or recurring?",
-      weight: 0.08,
+      weight: 0.12,
       options: [
-        "No demonstrated incident",
+        "Not applicable — no harmful incident is established",
         "A single isolated incident",
         "Multiple related incidents",
         "A repeated or ongoing pattern",
@@ -77,9 +77,9 @@
     {
       id: "vulnerability",
       label: "Are vulnerable people or essential systems affected?",
-      weight: 0.09,
+      weight: 0.17,
       options: [
-        "No",
+        "Not applicable — no demonstrated effect",
         "Possibly",
         "Yes, with limited consequences",
         "Yes, with serious consequences",
@@ -143,11 +143,12 @@
         selectedOption(factor, Number(levels[factor.id])),
       ]),
     );
-    const weightedLevel = factors.reduce(
-      (total, factor) => total + selected[factor.id].level * factor.weight,
+    const supportFactors = factors.filter((factor) => factor.id !== "harm");
+    const supportIntensity = supportFactors.reduce(
+      (total, factor) =>
+        total + (selected[factor.id].level / 4) * factor.weight,
       0,
     );
-    const rawScore = Math.round((weightedLevel / 4) * 100);
     const aggravatingFactors = [
       "reach",
       "reversibility",
@@ -162,37 +163,57 @@
     const catastrophicEligible =
       selected.harm.level === 4 &&
       selected.certainty.level === 4 &&
-      selected.reach.level === 4 &&
-      ["reversibility", "containment", "vulnerability"].filter(
+      selected.reach.level >= 3 &&
+      ["reversibility", "containment", "recurrence", "vulnerability"].filter(
         (id) => selected[id].level === 4,
       ).length >= 2;
-
-    let ceiling = 100;
+    const scale = normalizedScale(severityScale);
+    const requestedBandLevel = selected.harm.level;
+    let effectiveBandLevel = requestedBandLevel;
     const constraints = [];
-    if (selected.harm.level === 0) {
-      ceiling = 19;
-      constraints.push("No material harm was established.");
-    } else if (selected.harm.level === 1) {
-      ceiling = 39;
-      constraints.push("Established harm remains limited.");
-    } else if (selected.harm.level === 2) {
-      ceiling = 59;
-      constraints.push("Established harm does not meet the severe-harm gate.");
+    if (requestedBandLevel === 0) {
+      constraints.push(
+        "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band.",
+      );
     }
-    if (selected.certainty.level < 3 && ceiling > 59) {
-      ceiling = 59;
-      constraints.push("The event is not strongly confirmed.");
+    if (requestedBandLevel === 3 && !direEligible) {
+      effectiveBandLevel = 2;
+      constraints.push(
+        "The compound Dire gate requires strongly confirmed severe harm and at least two aggravating conditions.",
+      );
     }
-    if (!direEligible && ceiling > 59) {
-      ceiling = 59;
-      constraints.push("The compound Dire conditions are not established.");
-    }
-    if (!catastrophicEligible && ceiling > 79) {
-      ceiling = 79;
-      constraints.push("The compound Catastrophic conditions are not established.");
+    if (requestedBandLevel === 4 && !catastrophicEligible) {
+      effectiveBandLevel = direEligible ? 3 : 2;
+      constraints.push(
+        "The compound Catastrophic gate requires confirmed exceptional harm, widespread or systemic reach, and at least two extreme conditions.",
+      );
+      if (!direEligible) {
+        constraints.push(
+          "The compound Dire conditions are also not established.",
+        );
+      }
     }
 
-    const score = clamp(rawScore, 0, ceiling);
+    function scoreWithinBand(level) {
+      const band = scale[level] || scale[0];
+      const minimum = Math.ceil(Number(band.minimum));
+      const maximum = Math.floor(Number(band.maximum));
+      if (level === 0) {
+        return clamp(5 + Math.round(supportIntensity * 5), minimum, maximum);
+      }
+      const innerMinimum = Math.min(maximum, minimum + 4);
+      const innerMaximum = Math.max(innerMinimum, maximum - 4);
+      return clamp(
+        Math.round(
+          innerMinimum + supportIntensity * (innerMaximum - innerMinimum),
+        ),
+        minimum,
+        maximum,
+      );
+    }
+
+    const rawScore = scoreWithinBand(requestedBandLevel);
+    const score = scoreWithinBand(effectiveBandLevel);
     const band = bandFor(score, severityScale);
     const bandMinimum = Math.ceil(Number(band.minimum));
     const bandMaximum = Math.floor(Number(band.maximum));
@@ -210,10 +231,15 @@
     ].join(" ");
 
     return {
-      rubricVersion: "guided-human-rating-v1",
+      rubricVersion: "guided-human-rating-v1.1",
       rawScore,
       score,
       band: String(band.label || "UNCLASSIFIED"),
+      requestedBand: String(
+        (scale[requestedBandLevel] || scale[0]).label || "UNCLASSIFIED",
+      ),
+      effectiveBand: String(band.label || "UNCLASSIFIED"),
+      supportIntensity: Number(supportIntensity.toFixed(4)),
       range: { lower, middle, upper },
       direEligible,
       catastrophicEligible,
@@ -224,7 +250,7 @@
   }
 
   global.DAILY_DOOMSAYER_CALIBRATION_GUIDANCE = Object.freeze({
-    version: "guided-human-rating-v1",
+    version: "guided-human-rating-v1.1",
     factors,
     recommendation,
   });
