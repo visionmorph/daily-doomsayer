@@ -115,9 +115,13 @@ main > .category-row {
   white-space: nowrap;
 }
 
-.chronicle-number {
+.chronicle-control {
   display: inline-block;
-  min-width: 4ch;
+  width: max-content;
+}
+
+.chronicle-number {
+  display: inline;
 }
 
 .ticker-track {
