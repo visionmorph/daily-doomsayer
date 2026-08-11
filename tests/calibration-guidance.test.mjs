@@ -18,7 +18,7 @@ function levels(value) {
 }
 
 test("guided calibration defines seven complete evidence factors", () => {
-  assert.equal(guidance.version, "guided-human-rating-v1");
+  assert.equal(guidance.version, "guided-human-rating-v1.1");
   assert.equal(guidance.factors.length, 7);
   assert.equal(new Set(guidance.factors.map((factor) => factor.id)).size, 7);
   assert.ok(
@@ -38,9 +38,27 @@ test("no established harm remains Uneasy", () => {
   const result = guidance.recommendation(levels(0));
 
   assert.equal(result.band, "UNEASY");
-  assert.ok(result.score <= 19);
+  assert.ok(result.score <= 10);
   assert.equal(result.direEligible, false);
   assert.equal(result.catastrophicEligible, false);
+});
+
+test("confirmed publication and global attention cannot inflate a no-harm story", () => {
+  const result = guidance.recommendation({
+    harm: 0,
+    certainty: 3,
+    reach: 4,
+    reversibility: 0,
+    containment: 0,
+    recurrence: 0,
+    vulnerability: 0,
+  });
+
+  assert.equal(result.band, "UNEASY");
+  assert.ok(result.score <= 10);
+  assert.ok(result.range.upper <= 13);
+  assert.equal(result.requestedBand, "UNEASY");
+  assert.equal(result.effectiveBand, "UNEASY");
 });
 
 test("compound confirmed severe consequences can produce a Dire recommendation", () => {
@@ -73,6 +91,32 @@ test("Catastrophic requires compound confirmed extreme conditions", () => {
   assert.ok(extreme.score >= 80);
   assert.equal(speculative.catastrophicEligible, false);
   assert.ok(speculative.score <= 59);
+});
+
+test("failed high-severity gates fall back to a lower anchored band", () => {
+  const failedDire = guidance.recommendation({
+    harm: 3,
+    certainty: 2,
+    reach: 4,
+    reversibility: 2,
+    containment: 2,
+    recurrence: 2,
+    vulnerability: 2,
+  });
+  const failedCatastrophic = guidance.recommendation({
+    harm: 4,
+    certainty: 4,
+    reach: 4,
+    reversibility: 3,
+    containment: 3,
+    recurrence: 2,
+    vulnerability: 2,
+  });
+
+  assert.equal(failedDire.requestedBand, "DIRE");
+  assert.equal(failedDire.effectiveBand, "ALARMING");
+  assert.equal(failedCatastrophic.requestedBand, "CATASTROPHIC");
+  assert.equal(failedCatastrophic.effectiveBand, "DIRE");
 });
 
 test("incomplete evidence choices do not produce a suggested rating", () => {
