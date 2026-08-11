@@ -96,11 +96,16 @@
   }
 
   function updateChronicleNumber() {
+    const controlElement = document.querySelector("#chronicle-control");
     const numberElement = document.querySelector("#chronicle-number");
     const trackingStartedOn = site.chronicle?.trackingStartedOn;
     const timeZone = site.chronicle?.timeZone || "America/Chicago";
 
-    if (!numberElement || !/^\d{4}-\d{2}-\d{2}$/.test(trackingStartedOn || "")) {
+    if (
+      !controlElement ||
+      !numberElement ||
+      !/^\d{4}-\d{2}-\d{2}$/.test(trackingStartedOn || "")
+    ) {
       return;
     }
 
@@ -117,17 +122,17 @@
     numberElement.dataset.roman = roman;
     numberElement.dataset.numerical = numerical;
     numberElement.textContent =
-      numberElement.matches(":hover") || document.activeElement === numberElement
+      controlElement.matches(":hover") || document.activeElement === controlElement
         ? numerical
         : roman;
-    numberElement.setAttribute("aria-label", numerical);
-    numberElement.title = numerical;
+    controlElement.setAttribute("aria-label", `Chronicle ${numerical}`);
   }
 
   function initializeChronicle() {
+    const controlElement = document.querySelector("#chronicle-control");
     const numberElement = document.querySelector("#chronicle-number");
 
-    if (!numberElement) {
+    if (!controlElement || !numberElement) {
       return;
     }
 
@@ -139,10 +144,10 @@
     };
 
     updateChronicleNumber();
-    numberElement.addEventListener("mouseenter", showNumerical);
-    numberElement.addEventListener("mouseleave", showRoman);
-    numberElement.addEventListener("focus", showNumerical);
-    numberElement.addEventListener("blur", showRoman);
+    controlElement.addEventListener("mouseenter", showNumerical);
+    controlElement.addEventListener("mouseleave", showRoman);
+    controlElement.addEventListener("focus", showNumerical);
+    controlElement.addEventListener("blur", showRoman);
     window.setInterval(updateChronicleNumber, 60_000);
   }
 
