@@ -56,10 +56,12 @@
               aria-live="polite"
               hidden
             >
-              <div class="calibration-recommendation-heading">Suggested rating</div>
-              <output id="feed-recommendation-output" class="calibration-recommendation-value">
-                Complete the evidence questions
-              </output>
+              <div class="calibration-recommendation-summary">
+                <div class="calibration-recommendation-heading">Suggested rating</div>
+                <output id="feed-recommendation-output" class="calibration-recommendation-value">
+                  Complete the evidence questions
+                </output>
+              </div>
               <p id="feed-recommendation-reasoning" class="calibration-recommendation-reasoning"></p>
 
               <fieldset class="calibration-field calibration-rating-choice">
@@ -88,8 +90,8 @@
 
               <div id="feed-manual-rating" class="calibration-field" hidden>
                 <div class="calibration-field-heading calibration-rating-heading">
-                  <label for="feed-rating">Exact human Doom Index rating</label>
-                  <output id="feed-rating-output" for="feed-rating">0</output>
+                  <label for="feed-rating">Human-scored Doom Index rating</label>
+                  <output id="feed-rating-output" for="feed-rating">UNEASY 0</output>
                 </div>
                 <div class="calibration-slider-bounds">
                   <span>0</span>
