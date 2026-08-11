@@ -482,6 +482,15 @@
   color: rgb(0 0 0 / 25%);
 }
 
+.calibration-evidence-factor:disabled
+  .calibration-radio:has(input:checked)
+  .calibration-radio-marker,
+.calibration-evidence-factor:disabled
+  .calibration-radio.is-selected
+  .calibration-radio-marker {
+  color: rgb(0 0 0 / 25%);
+}
+
 .calibration-evidence-factor:disabled .calibration-radio:hover {
   text-decoration: none;
 }
