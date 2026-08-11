@@ -196,6 +196,10 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   );
   assert.match(
     styles,
+    /\.calibration-evidence-factor:disabled\s+\.calibration-radio:has\(input:checked\)\s+\.calibration-radio-marker,[^}]*color: rgb\(0 0 0 \/ 25%\);/s,
+  );
+  assert.match(
+    styles,
     /\.calibration-slider-bounds \+ \.calibration-rubric\s*\{[^}]*margin-top: 16px;/s,
   );
   assert.match(
