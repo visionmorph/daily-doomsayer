@@ -5,8 +5,153 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-11T04:00:00.000Z",
+  "generatedAt": "2026-08-11T07:00:00.000Z",
   "daily": [
+    {
+      "period": "2026-08-11",
+      "stories": [
+        {
+          "storyId": "8c87b9bfdab1e6f99859",
+          "title": "UK experts sound alarm after AI tries to deceive human",
+          "url": "https://news.sky.com/story/uk-experts-sound-alarm-after-ai-caught-trying-to-trick-human-with-malicious-code-13569902",
+          "source": "Sky News AI",
+          "image": "https://e3.365dm.com/26/04/1920x1080/skynews-anthropic-cyber_7227180.jpg?20260422122322",
+          "peak": 43.55,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-11",
+          "firstObservedAt": "2026-08-11T07:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 43.55
+        },
+        {
+          "storyId": "36a4c5df817189dc2f5a",
+          "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+          "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 43.33,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-11",
+          "firstObservedAt": "2026-08-11T07:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 43.33
+        },
+        {
+          "storyId": "0a3c0d9f2ec55a3e2d14",
+          "title": "Anthropic AI used fake profiles to target people in hack then hid the evidence",
+          "url": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
+          "peak": 39.53,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-11",
+          "firstObservedAt": "2026-08-11T07:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 39.53
+        },
+        {
+          "storyId": "557e0bfc0113e2a72215",
+          "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK155_OPEN_AI_CVirginia_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 30.4,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-11",
+          "firstObservedAt": "2026-08-11T07:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 30.4
+        },
+        {
+          "storyId": "32c5457cb1c56b255a8f",
+          "title": "Inside an AI TikTok Shop Slop Factory That Shills Supplements Recalled By the FDA",
+          "url": "https://www.404media.co/inside-an-ai-tiktok-shop-slop-factory-that-shills-supplements-recalled-by-the-fda/",
+          "source": "404 Media AI",
+          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
+          "peak": 29.27,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-11",
+          "firstObservedAt": "2026-08-11T07:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 29.27
+        },
+        {
+          "storyId": "1d069b1fc66d18a784ee",
+          "title": "SA premier announces royal commission into AI – as it happened",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/8cada91fc66730d41f73d5404006b5d61ba2d2f3/13_0_1033_826/master/1033.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 26.41,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-11",
+          "firstObservedAt": "2026-08-11T07:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 26.41
+        },
+        {
+          "storyId": "b3989dcfb48ba9b056fe",
+          "title": "The Youth AI Privacy Act’s Privacy Paradox",
+          "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
+          "peak": 23.95,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-11",
+          "firstObservedAt": "2026-08-11T07:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 23.95
+        },
+        {
+          "storyId": "f333764b4be201d3f9ff",
+          "title": "Google Earth’s New AI Lets Anyone Fabricate Completely Bullshit Satellite Images",
+          "url": "https://www.404media.co/google-earths-new-ai-lets-anyone-fabricate-completely-bullshit-satellite-images/",
+          "source": "404 Media AI",
+          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
+          "peak": 21.55,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-11",
+          "firstObservedAt": "2026-08-11T07:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 21.55
+        },
+        {
+          "storyId": "23a292887ca5e4c75326",
+          "title": "The Senate Should Reject KOSA's Privacy Risks",
+          "url": "https://www.eff.org/deeplinks/2026/08/senate-should-reject-kosas-privacy-risks",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/ageverificationbanner-3.png",
+          "peak": 19.04,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-11",
+          "firstObservedAt": "2026-08-11T07:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 19.04
+        },
+        {
+          "storyId": "15370392c6eefb0825a2",
+          "title": "Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country",
+          "url": "https://www.eff.org/deeplinks/2026/07/hundreds-drone-first-responder-programs-could-soon-be-launched-across-country",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/drone-police-by-shelby-criswell.png",
+          "peak": 18.98,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-11",
+          "firstObservedAt": "2026-08-11T07:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 18.98
+        }
+      ]
+    },
     {
       "period": "2026-08-10",
       "stories": [
@@ -758,11 +903,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Sky News AI",
           "image": "https://e3.365dm.com/26/04/1920x1080/skynews-anthropic-cyber_7227180.jpg?20260422122322",
           "peak": 43.55,
-          "observations": 14,
-          "daysTracked": 1,
+          "observations": 15,
+          "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
           "average": 43.55
         },
         {
@@ -772,11 +917,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 43.33,
-          "observations": 5,
-          "daysTracked": 1,
+          "observations": 6,
+          "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T21:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
           "average": 43.33
         },
         {
@@ -786,11 +931,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 14,
-          "daysTracked": 1,
+          "observations": 15,
+          "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
           "average": 39.53
         },
         {
@@ -814,12 +959,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/8cada91fc66730d41f73d5404006b5d61ba2d2f3/13_0_1033_826/master/1033.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 33.82,
-          "observations": 14,
-          "daysTracked": 1,
+          "observations": 15,
+          "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
-          "average": 26.94
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 26.9
         },
         {
           "storyId": "557e0bfc0113e2a72215",
@@ -828,11 +973,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK155_OPEN_AI_CVirginia_C.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 30.4,
-          "observations": 14,
-          "daysTracked": 1,
+          "observations": 15,
+          "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
           "average": 30.4
         },
         {
@@ -842,11 +987,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 14,
-          "daysTracked": 1,
+          "observations": 15,
+          "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
           "average": 29.27
         },
         {
@@ -870,11 +1015,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 14,
-          "daysTracked": 1,
+          "observations": 15,
+          "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
           "average": 23.95
         }
       ]
@@ -1092,11 +1237,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Sky News AI",
           "image": "https://e3.365dm.com/26/04/1920x1080/skynews-anthropic-cyber_7227180.jpg?20260422122322",
           "peak": 43.55,
-          "observations": 70,
-          "daysTracked": 5,
+          "observations": 71,
+          "daysTracked": 6,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
           "average": 43.55
         },
         {
@@ -1106,11 +1251,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 43.33,
-          "observations": 5,
-          "daysTracked": 1,
+          "observations": 6,
+          "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T21:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
           "average": 43.33
         },
         {
@@ -1120,11 +1265,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 71,
-          "daysTracked": 5,
+          "observations": 72,
+          "daysTracked": 6,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
           "average": 39.53
         },
         {
@@ -1162,12 +1307,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/8cada91fc66730d41f73d5404006b5d61ba2d2f3/13_0_1033_826/master/1033.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 33.82,
-          "observations": 19,
-          "daysTracked": 2,
+          "observations": 20,
+          "daysTracked": 3,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-09T21:00:00.000Z",
-          "lastObservedAt": "2026-08-11T04:00:00.000Z",
-          "average": 24.71
+          "lastObservedAt": "2026-08-11T07:00:00.000Z",
+          "average": 24.8
         }
       ]
     }
