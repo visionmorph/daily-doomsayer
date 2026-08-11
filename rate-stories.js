@@ -365,10 +365,8 @@
     stage.recommendationOutput.value = `${recommendation.band} ${recommendation.range.lower}–${recommendation.range.upper}`;
     stage.recommendationOutput.textContent =
       stage.recommendationOutput.value;
-    stage.recommendationReasoning.textContent = [
-      recommendation.reasoning,
-      ...recommendation.constraints,
-    ].join(" ");
+    stage.recommendationReasoning.textContent =
+      severityBandForScore(recommendation.score)?.description || "";
     stage.recommendation
       .querySelectorAll("[data-rating-value]")
       .forEach((element) => {
