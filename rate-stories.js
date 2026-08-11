@@ -10,6 +10,13 @@
   const site = window.DAILY_DOOMSAYER_SITE || {};
   const doomIndex = site.doomIndex || {};
   const guidance = window.DAILY_DOOMSAYER_CALIBRATION_GUIDANCE;
+  const NO_HARM_DEPENDENT_FACTORS = new Set([
+    "reach",
+    "reversibility",
+    "containment",
+    "recurrence",
+    "vulnerability",
+  ]);
 
   if (!guidance?.factors || typeof guidance.recommendation !== "function") {
     throw new Error("The human calibration guidance could not be loaded.");
@@ -245,6 +252,12 @@
     form.querySelectorAll(".calibration-radio").forEach((label) => {
       label.classList.remove("is-selected");
     });
+    form
+      .querySelectorAll(".calibration-evidence-factor[data-no-harm-dependent]")
+      .forEach((fieldset) => {
+        fieldset.disabled = false;
+        delete fieldset.dataset.autoSelected;
+      });
   }
 
   function selectedValue(form, name) {
@@ -301,6 +314,9 @@
       const fieldset = document.createElement("fieldset");
       fieldset.className = "calibration-field calibration-evidence-factor";
       fieldset.dataset.factorId = factor.id;
+      if (NO_HARM_DEPENDENT_FACTORS.has(factor.id)) {
+        fieldset.dataset.noHarmDependent = "true";
+      }
 
       const legend = document.createElement("legend");
       legend.textContent = factor.label;
@@ -318,6 +334,42 @@
       });
       stage.evidenceGroups.append(fieldset);
     }
+  }
+
+  function applyNoHarmShortcut(stage) {
+    const harmLevel = selectedValue(
+      stage.form,
+      `${stage.id}-factor-harm`,
+    );
+    const noMaterialHarm = harmLevel === "0";
+
+    stage.evidenceGroups
+      .querySelectorAll(".calibration-evidence-factor[data-no-harm-dependent]")
+      .forEach((fieldset) => {
+        const radios = [...fieldset.querySelectorAll('input[type="radio"]')];
+
+        if (noMaterialHarm) {
+          radios.forEach((radio) => {
+            radio.checked = radio.value === "0";
+            radio.closest(".calibration-radio")?.classList.toggle(
+              "is-selected",
+              radio.checked,
+            );
+          });
+          fieldset.dataset.autoSelected = "true";
+          fieldset.disabled = true;
+          return;
+        }
+
+        fieldset.disabled = false;
+        if (fieldset.dataset.autoSelected === "true") {
+          radios.forEach((radio) => {
+            radio.checked = false;
+            radio.closest(".calibration-radio")?.classList.remove("is-selected");
+          });
+          delete fieldset.dataset.autoSelected;
+        }
+      });
   }
 
   function selectedLevels(stage) {
@@ -463,6 +515,7 @@
           );
         }
       }
+      applyNoHarmShortcut(stage);
       updateRecommendation(stage);
       selectedRadio(
         stage.form,
@@ -877,6 +930,10 @@
     updateRadioStyle(event);
     const input = event.target.closest('input[type="radio"]');
     if (!input) return;
+
+    if (input.name === `${stage.id}-factor-harm`) {
+      applyNoHarmShortcut(stage);
+    }
 
     const choseManual =
       input.name === stage.ratingChoiceName &&
