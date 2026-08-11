@@ -33,6 +33,7 @@ function record({
   publicFormulaVersion = "1.2.2-shadow.1",
   experimentalVersion = "1.2.4",
   experimentalFormulaVersion = "1.2.4-offline.1",
+  humanRubricVersion = "guided-human-rating-v1.1",
 }) {
   return {
     benchmarkId: id,
@@ -42,8 +43,16 @@ function record({
       url: `https://example.com/${id}`,
       source,
     },
-    feedRating: { score: human, confidence },
-    articleRating: { score: human, confidence },
+    feedRating: {
+      score: human,
+      confidence,
+      assessment: { rubricVersion: humanRubricVersion },
+    },
+    articleRating: {
+      score: human,
+      confidence,
+      assessment: { rubricVersion: humanRubricVersion },
+    },
     models: {
       public: {
         version: publicVersion,
@@ -151,6 +160,27 @@ test("evaluator reports insufficient data before 50 new eligible ratings", () =>
   assert.equal(result.coverage.eligibleRecords, 49);
   assert.equal(result.status, "INSUFFICIENT_DATA");
   assert.equal(result.promotionReady, false);
+});
+
+test("evaluator excludes live ratings made with a superseded questionnaire", () => {
+  const result = evaluateDreadExperiment(
+    benchmark([
+      record({
+        id: "old-rubric",
+        human: 30,
+        publicScore: 40,
+        experimentalScore: 32,
+        humanRubricVersion: "guided-human-rating-v1",
+      }),
+    ]),
+    baseline(),
+    { ...evaluationOptions, minimumLiveRecords: 1 },
+  );
+
+  assert.equal(result.coverage.liveRecords, 1);
+  assert.equal(result.coverage.eligibleRecords, 0);
+  assert.equal(result.coverage.excluded.humanRubricVersionMismatch, 1);
+  assert.equal(result.status, "INSUFFICIENT_DATA");
 });
 
 test("evaluator passes a clearly better experimental model on 50 live pairs", () => {
@@ -276,6 +306,10 @@ test("package scripts and workflows expose the live evaluator", async () => {
   assert.match(
     packageJson.scripts["evaluate-experimental:1.2.4"],
     /dread-1\.2\.4-live-baseline\.json/,
+  );
+  assert.match(
+    packageJson.scripts["evaluate-experimental:1.2.4"],
+    /guided-human-rating-v1\.1/,
   );
   assert.match(manualWorkflow, /evaluate-experimental:1\.2\.4/);
   assert.match(manualWorkflow, /--enforce/);
