@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cossette+Texte:wght@400;700&display=swap");
+
 .calibration-body {
   min-width: 320px;
   margin: 0;
@@ -166,9 +168,9 @@
 .calibration-stage-heading p,
 .calibration-empty p {
   max-width: 1200px;
-  font-family: "Funnel Display", sans-serif;
+  font-family: "Cossette Texte", serif;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 32px;
   letter-spacing: -0.04em;
 }
@@ -216,7 +218,7 @@
 
 #feed-rating-form {
   margin-top: 16px;
-  gap: 16px;
+  gap: 24px;
 }
 
 .calibration-form--article {
@@ -256,9 +258,9 @@
 
 .calibration-recommendation-reasoning {
   margin: 0;
-  font-family: "Funnel Display", sans-serif;
+  font-family: "Cossette Texte", serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.04em;
 }
@@ -282,23 +284,35 @@
   padding-inline: 0;
 }
 
+.calibration-field legend,
+.calibration-field > label:not(.calibration-radio) {
+  font-family: "Cossette Texte", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
 .calibration-field textarea {
   min-height: 112px;
   resize: vertical;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   border-radius: 0;
   padding: 12px;
   color: var(--text-primary);
   background: #ff0000;
-  font-family: "Funnel Display", sans-serif;
+  font-family: "Cossette Texte", serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.04em;
 }
 
 .calibration-field textarea::placeholder {
   color: rgb(0 0 0 / 65%);
+  font-family: "Cossette Texte", serif;
+  font-weight: 400;
 }
 
 .calibration-slider {
@@ -370,9 +384,9 @@
 
 .calibration-validation {
   margin: 0;
-  font-family: "Funnel Display", sans-serif;
+  font-family: "Cossette Texte", serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 20px;
 }
 
@@ -384,6 +398,20 @@
   position: relative;
   display: block;
   cursor: pointer;
+}
+
+.calibration-field .calibration-radio {
+  font-family: "Cossette Texte", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.calibration-field .calibration-radio:has(input:checked),
+.calibration-field .calibration-radio.is-selected {
+  font-weight: 700;
 }
 
 .calibration-radio input {
@@ -478,9 +506,9 @@
 
 .calibration-scale-item > span {
   margin-block: 0;
-  font-family: "Funnel Display", sans-serif;
+  font-family: "Cossette Texte", serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.04em;
   text-transform: none;
@@ -488,9 +516,9 @@
 
 .calibration-scale-qualification {
   margin-block: 0;
-  font-family: "Funnel Display", sans-serif;
+  font-family: "Cossette Texte", serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 20px;
   letter-spacing: -0.04em;
   text-transform: none;
