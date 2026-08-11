@@ -8,6 +8,24 @@ import {
   normalizedSeverityScale,
 } from "../scripts/site-data.mjs";
 
+test("Chronicle interaction covers the rendered label without a tooltip", async () => {
+  const [indexHtml, styles, newsScript] = await Promise.all([
+    readFile(new URL("../index.html", import.meta.url), "utf8"),
+    readFile(new URL("../styles.css", import.meta.url), "utf8"),
+    readFile(new URL("../news.js", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(
+    indexHtml,
+    /id="chronicle-control"[^>]*tabindex="0"[^>]*>\s*Chronicle\s+<span id="chronicle-number"/,
+  );
+  assert.doesNotMatch(indexHtml, /id="chronicle-number"[^>]*tabindex=/);
+  assert.match(styles, /\.chronicle-control\s*{[^}]*display:\s*inline-block;[^}]*width:\s*max-content;/s);
+  assert.doesNotMatch(styles, /\.chronicle-number\s*{[^}]*min-width:/s);
+  assert.match(newsScript, /controlElement\.addEventListener\("mouseenter", showNumerical\)/);
+  assert.doesNotMatch(newsScript, /\.title\s*=\s*numerical/);
+});
+
 test("DREAD 1.2.4 is the configured experimental model throughout the site", async () => {
   const [
     configText,
