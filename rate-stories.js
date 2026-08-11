@@ -160,15 +160,21 @@
   function firstUnfinishedIndex() {
     const index = articles.findIndex((article) => {
       const record = state.ratings[storyKey(article)];
-      return !record || !["rated", "skipped"].includes(record.status);
+      return (
+        !record ||
+        !["rated", "skipped"].includes(record.status) ||
+        requiresGuidedRerating(record)
+      );
     });
 
     return index === -1 ? Math.max(articles.length - 1, 0) : index;
   }
 
   function completedCount() {
-    return Object.values(state.ratings).filter((record) =>
-      ["rated", "skipped"].includes(record.status),
+    return Object.values(state.ratings).filter(
+      (record) =>
+        ["rated", "skipped"].includes(record.status) &&
+        !requiresGuidedRerating(record),
     ).length;
   }
 
@@ -251,6 +257,14 @@
           radio.checked,
         );
       });
+  }
+
+  function requiresGuidedRerating(record) {
+    const versions = [
+      record?.feedRating?.assessment?.rubricVersion,
+      record?.articleRating?.assessment?.rubricVersion,
+    ].filter(Boolean);
+    return versions.some((version) => version !== guidance.version);
   }
 
   function radioLabel(name, value, text, required = false) {
@@ -344,7 +358,10 @@
     stage.recommendationOutput.value = `${recommendation.band} ${recommendation.range.lower}–${recommendation.range.upper}`;
     stage.recommendationOutput.textContent =
       stage.recommendationOutput.value;
-    stage.recommendationReasoning.textContent = recommendation.reasoning;
+    stage.recommendationReasoning.textContent = [
+      recommendation.reasoning,
+      ...recommendation.constraints,
+    ].join(" ");
     stage.recommendation
       .querySelectorAll("[data-rating-value]")
       .forEach((element) => {
@@ -368,9 +385,13 @@
 
   function generatedReasoning(recommendation, additionalContext) {
     const context = String(additionalContext || "").trim();
+    const structuredReasoning = [
+      recommendation.reasoning,
+      ...recommendation.constraints,
+    ].join(" ");
     return context
-      ? `${recommendation.reasoning} Additional context: ${context}`
-      : recommendation.reasoning;
+      ? `${structuredReasoning} Additional context: ${context}`
+      : structuredReasoning;
   }
 
   function stageRating(stage) {
@@ -406,6 +427,9 @@
           rawScore: recommendation.rawScore,
           score: recommendation.score,
           band: recommendation.band,
+          requestedBand: recommendation.requestedBand,
+          effectiveBand: recommendation.effectiveBand,
+          supportIntensity: recommendation.supportIntensity,
           range: recommendation.range,
           direEligible: recommendation.direEligible,
           catastrophicEligible: recommendation.catastrophicEligible,
@@ -420,7 +444,10 @@
   function hydrateStage(stage, rating) {
     const assessment = rating?.assessment;
 
-    if (assessment?.factors) {
+    if (
+      assessment?.rubricVersion === guidance.version &&
+      assessment?.factors
+    ) {
       for (const factor of guidance.factors) {
         const selected = assessment.factors[factor.id];
         if (selected && Number.isInteger(Number(selected.level))) {
@@ -558,16 +585,23 @@
     elements.result.hidden = true;
 
     const record = currentRecord();
+    const reratingRequired = requiresGuidedRerating(record);
 
-    if (record?.status === "in-progress" && record.feedRating) {
+    if (
+      record?.status === "in-progress" &&
+      record.feedRating &&
+      !reratingRequired
+    ) {
       showArticleStage(record);
       elements.status.textContent = "Feed rating saved locally. Complete the article-informed rating.";
-    } else if (record?.status === "rated") {
+    } else if (record?.status === "rated" && !reratingRequired) {
       showResult(record);
     } else {
       elements.feedStage.hidden = false;
       elements.articleStage.hidden = true;
-      elements.status.textContent = "";
+      elements.status.textContent = reratingRequired
+        ? "The guided questionnaire has changed. Complete this story again using version 1.1."
+        : "";
     }
 
     updateProgress();
@@ -638,7 +672,11 @@
       const candidateIndex = (startIndex + offset) % articles.length;
       const record = state.ratings[storyKey(articles[candidateIndex])];
 
-      if (!record || !["rated", "skipped"].includes(record.status)) {
+      if (
+        !record ||
+        !["rated", "skipped"].includes(record.status) ||
+        requiresGuidedRerating(record)
+      ) {
         currentIndex = candidateIndex;
         renderStory();
         return;
