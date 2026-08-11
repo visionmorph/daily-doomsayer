@@ -82,6 +82,17 @@
   text-align: right;
 }
 
+#calibration-progress,
+#feed-manual-rating .calibration-rating-heading label,
+.calibration-slider-bounds > span {
+  font-family: "Cossette Texte", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
 .calibration-status {
   margin: 0;
 }
