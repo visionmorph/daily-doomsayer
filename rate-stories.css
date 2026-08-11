@@ -462,6 +462,14 @@
   color: var(--text-primary);
 }
 
+.calibration-evidence-factor:disabled .calibration-radio {
+  cursor: default;
+}
+
+.calibration-evidence-factor:disabled .calibration-radio:hover {
+  text-decoration: none;
+}
+
 .calibration-reader {
   margin-top: 24px;
   border: 1px solid #000000;
