@@ -130,9 +130,10 @@ test("incomplete evidence choices do not produce a suggested rating", () => {
 });
 
 test("rate-stories page uses guided groups with a conditional manual override", async () => {
-  const [html, script] = await Promise.all([
+  const [html, script, styles] = await Promise.all([
     readFile(new URL("../rate-stories.html", import.meta.url), "utf8"),
     readFile(new URL("../rate-stories.js", import.meta.url), "utf8"),
+    readFile(new URL("../rate-stories.css", import.meta.url), "utf8"),
   ]);
 
   assert.match(html, /id="feed-evidence-groups"/);
@@ -147,4 +148,15 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   );
   assert.match(script, /assessment:/);
   assert.match(script, /structuredFactors:/);
+  assert.doesNotMatch(html, /Funnel Display/);
+  assert.doesNotMatch(styles, /Funnel Display/);
+  assert.match(styles, /font-family: "Cossette Texte"/);
+  assert.match(styles, /#feed-rating-form\s*\{[^}]*gap: 24px/s);
+  assert.match(styles, /\.calibration-field textarea\s*\{[^}]*border: 2px solid #000000/s);
+  assert.match(
+    styles,
+    /\.calibration-field \.calibration-radio:has\(input:checked\)[^}]*\{[^}]*font-weight: 700/s,
+  );
+  assert.match(html, /Additional context \(optional\)/);
+  assert.match(html, /Additional context after reading \(optional\)/);
 });
