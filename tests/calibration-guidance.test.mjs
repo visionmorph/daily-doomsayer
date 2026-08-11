@@ -172,6 +172,31 @@ test("rate-stories page uses guided groups with a conditional manual override", 
     styles,
     /\.calibration-scale-qualification\s*\{[^}]*font-size: 20px;[^}]*line-height: 24px;/s,
   );
+  assert.match(
+    styles,
+    /\.calibration-story-context\s*\{[^}]*display: flex;[^}]*flex-direction: column;[^}]*gap: 8px;/s,
+  );
+  assert.match(
+    styles,
+    /\.calibration-story-summary\s*\{[^}]*font-size: 32px;[^}]*line-height: 40px;/s,
+  );
+  assert.match(
+    styles,
+    /\.calibration-field:has\(> textarea\)\s*\{[^}]*gap: 8px;/s,
+  );
+  assert.match(styles, /\.calibration-actions\s*\{[^}]*gap: 16px;/s);
+  assert.match(
+    styles,
+    /\.calibration-radio:hover,[^}]*text-underline-offset: 0\.1em;/s,
+  );
+  assert.match(
+    script,
+    /stage\.recommendationReasoning\.textContent\s*=\s*severityBandForScore\(recommendation\.score\)\?\.description \|\| "";/s,
+  );
+  assert.doesNotMatch(
+    script,
+    /stage\.recommendationReasoning\.textContent = \[\s*recommendation\.reasoning/s,
+  );
   assert.match(script, /function severityBandForScore\(value\)/);
   assert.match(script, /renderScaleItem\(stage\.scale, slider\.value\)/);
   assert.match(html, /Additional context \(optional\)/);
