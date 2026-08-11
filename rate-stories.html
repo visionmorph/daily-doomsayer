@@ -44,61 +44,103 @@
           </div>
 
           <form id="feed-rating-form" class="calibration-form">
-            <div class="calibration-field">
-              <div class="calibration-field-heading calibration-rating-heading">
-                <label for="feed-rating">Human Doom Index rating</label>
-                <output id="feed-rating-output" for="feed-rating">0</output>
+            <div
+              id="feed-evidence-groups"
+              class="calibration-evidence-groups"
+              aria-label="Feed evidence assessment"
+            ></div>
+
+            <section
+              id="feed-recommendation"
+              class="calibration-recommendation"
+              aria-live="polite"
+              hidden
+            >
+              <div class="calibration-recommendation-heading">Suggested rating</div>
+              <output id="feed-recommendation-output" class="calibration-recommendation-value">
+                Complete the evidence questions
+              </output>
+              <p id="feed-recommendation-reasoning" class="calibration-recommendation-reasoning"></p>
+
+              <fieldset class="calibration-field calibration-rating-choice">
+                <legend>Choose the final human rating</legend>
+                <label class="calibration-radio">
+                  <input type="radio" name="feed-rating-choice" value="lower" required />
+                  [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                  Lower end [<span data-rating-value="lower">—</span>]
+                </label>
+                <label class="calibration-radio">
+                  <input type="radio" name="feed-rating-choice" value="middle" />
+                  [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                  Middle [<span data-rating-value="middle">—</span>]
+                </label>
+                <label class="calibration-radio">
+                  <input type="radio" name="feed-rating-choice" value="upper" />
+                  [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                  Upper end [<span data-rating-value="upper">—</span>]
+                </label>
+                <label class="calibration-radio">
+                  <input type="radio" name="feed-rating-choice" value="manual" />
+                  [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                  Choose an exact score
+                </label>
+              </fieldset>
+
+              <div id="feed-manual-rating" class="calibration-field" hidden>
+                <div class="calibration-field-heading calibration-rating-heading">
+                  <label for="feed-rating">Exact human Doom Index rating</label>
+                  <output id="feed-rating-output" for="feed-rating">0</output>
+                </div>
+                <div class="calibration-slider-bounds">
+                  <span>0</span>
+                  <input
+                    id="feed-rating"
+                    class="calibration-slider"
+                    name="rating"
+                    type="range"
+                    min="0"
+                    max="100"
+                    step="1"
+                    value="0"
+                  />
+                  <span>100</span>
+                </div>
+                <p class="calibration-validation" data-validation-for="feed-rating" hidden>
+                  Move or otherwise interact with the slider before continuing.
+                </p>
               </div>
-              <div class="calibration-slider-bounds">
-                <span>0</span>
-                <input
-                  id="feed-rating"
-                  class="calibration-slider"
-                  name="rating"
-                  type="range"
-                  min="0"
-                  max="100"
-                  step="1"
-                  value="0"
-                />
-                <span>100</span>
-              </div>
-              <p class="calibration-validation" data-validation-for="feed-rating" hidden>
-                Move or otherwise interact with the slider before continuing.
-              </p>
-            </div>
+            </section>
 
             <section class="calibration-rubric" aria-label="Doom Index severity scale">
               <div id="calibration-scale" class="calibration-scale"></div>
             </section>
 
             <fieldset class="calibration-field calibration-confidence">
-              <legend>Confidence</legend>
+              <legend>How likely is additional information to change this rating?</legend>
               <label class="calibration-radio">
                 <input type="radio" name="feed-confidence" value="1" required />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                Low (evidence is limited or ambiguous)
+                Low — likely to change because important facts are missing or disputed
               </label>
               <label class="calibration-radio">
                 <input type="radio" name="feed-confidence" value="2" />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                Medium (some meaningful uncertainty)
+                Medium — could change because the scale or consequences remain uncertain
               </label>
               <label class="calibration-radio">
                 <input type="radio" name="feed-confidence" value="3" />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                High (evidence is clear and unlikely to change)
+                High — unlikely to change because the event and consequences are clear
               </label>
             </fieldset>
 
             <div class="calibration-field">
-              <label for="feed-reasoning">Brief reasoning</label>
+              <label for="feed-reasoning">Additional context [optional]</label>
               <textarea
                 id="feed-reasoning"
                 name="reasoning"
                 rows="4"
-                required
-                placeholder="What apparent harm, scope, immediacy, or uncertainty shaped this rating?"
+                placeholder="Add context that the structured evidence choices do not capture."
               ></textarea>
             </div>
 
@@ -146,54 +188,99 @@
           </div>
 
           <form id="article-rating-form" class="calibration-form calibration-form--article">
-            <div class="calibration-field">
-              <div class="calibration-field-heading">
-                <label for="article-rating">Article-informed Doom Index rating</label>
-                <output id="article-rating-output" for="article-rating">0</output>
+            <div
+              id="article-evidence-groups"
+              class="calibration-evidence-groups"
+              aria-label="Full article evidence assessment"
+            ></div>
+
+            <section
+              id="article-recommendation"
+              class="calibration-recommendation"
+              aria-live="polite"
+              hidden
+            >
+              <div class="calibration-recommendation-heading">Suggested article-informed rating</div>
+              <output id="article-recommendation-output" class="calibration-recommendation-value">
+                Complete the evidence questions
+              </output>
+              <p id="article-recommendation-reasoning" class="calibration-recommendation-reasoning"></p>
+
+              <fieldset class="calibration-field calibration-rating-choice">
+                <legend>Choose the final human rating</legend>
+                <label class="calibration-radio">
+                  <input type="radio" name="article-rating-choice" value="lower" required />
+                  [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                  Lower end [<span data-rating-value="lower">—</span>]
+                </label>
+                <label class="calibration-radio">
+                  <input type="radio" name="article-rating-choice" value="middle" />
+                  [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                  Middle [<span data-rating-value="middle">—</span>]
+                </label>
+                <label class="calibration-radio">
+                  <input type="radio" name="article-rating-choice" value="upper" />
+                  [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                  Upper end [<span data-rating-value="upper">—</span>]
+                </label>
+                <label class="calibration-radio">
+                  <input type="radio" name="article-rating-choice" value="manual" />
+                  [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
+                  Choose an exact score
+                </label>
+              </fieldset>
+
+              <div id="article-manual-rating" class="calibration-field" hidden>
+                <div class="calibration-field-heading calibration-rating-heading">
+                  <label for="article-rating">Exact article-informed Doom Index rating</label>
+                  <output id="article-rating-output" for="article-rating">0</output>
+                </div>
+                <div class="calibration-slider-bounds">
+                  <span>0</span>
+                  <input
+                    id="article-rating"
+                    class="calibration-slider"
+                    name="rating"
+                    type="range"
+                    min="0"
+                    max="100"
+                    step="1"
+                    value="0"
+                  />
+                  <span>100</span>
+                </div>
+                <p class="calibration-validation" data-validation-for="article-rating" hidden>
+                  Move or otherwise interact with the slider before continuing.
+                </p>
               </div>
-              <div class="calibration-slider-bounds">
-                <span>0</span>
-                <input
-                  id="article-rating"
-                  class="calibration-slider"
-                  name="rating"
-                  type="range"
-                  min="0"
-                  max="100"
-                  step="1"
-                  value="0"
-                />
-                <span>100</span>
-              </div>
-            </div>
+            </section>
 
             <fieldset class="calibration-field calibration-confidence">
-              <legend>Confidence after reading</legend>
+              <legend>How likely is additional information to change this rating?</legend>
               <label class="calibration-radio">
                 <input type="radio" name="article-confidence" value="1" required />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                Low (evidence is limited or ambiguous)
+                Low — likely to change because important facts are missing or disputed
               </label>
               <label class="calibration-radio">
                 <input type="radio" name="article-confidence" value="2" />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                Medium (some meaningful uncertainty)
+                Medium — could change because the scale or consequences remain uncertain
               </label>
               <label class="calibration-radio">
                 <input type="radio" name="article-confidence" value="3" />
                 [<span class="calibration-radio-marker" aria-hidden="true">X</span>]
-                High (evidence is clear and unlikely to change)
+                High — unlikely to change because the event and consequences are clear
               </label>
             </fieldset>
 
             <div class="calibration-field">
-              <label for="article-reasoning">Brief reasoning after reading</label>
+              <label for="article-reasoning">Additional context after reading [optional]</label>
               <textarea
                 id="article-reasoning"
                 name="reasoning"
                 rows="4"
-                required
-                placeholder="What did the full article confirm, add, or contradict?"
+                placeholder="Add context that the structured evidence choices do not capture."
               ></textarea>
             </div>
 
@@ -272,6 +359,7 @@
     </dialog>
 
     <script src="./articles.js"></script>
+    <script src="./calibration-guidance.js"></script>
     <script src="./rate-stories.js"></script>
   </body>
 </html>
