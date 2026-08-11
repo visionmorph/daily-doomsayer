@@ -60,7 +60,9 @@
 .calibration-note,
 .calibration-reader-fallback,
 .calibration-rubric,
-.calibration-comparison {
+.calibration-comparison,
+.calibration-recommendation-heading,
+.calibration-recommendation-value {
   font-family: "Cossette Titre", serif;
   font-size: 20px;
   font-weight: 700;
@@ -221,6 +223,49 @@
   margin-top: 0;
   padding: 24px;
   background: #ff0000;
+}
+
+.calibration-evidence-groups,
+.calibration-recommendation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.calibration-evidence-factor {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #000000;
+}
+
+.calibration-evidence-factor:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.calibration-recommendation {
+  padding: 16px;
+  border: 1px solid #000000;
+}
+
+.calibration-recommendation-value {
+  display: block;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0;
+}
+
+.calibration-recommendation-reasoning {
+  margin: 0;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+}
+
+.calibration-rating-choice,
+.calibration-recommendation > .calibration-field {
+  margin-top: 0;
 }
 
 .calibration-field {
