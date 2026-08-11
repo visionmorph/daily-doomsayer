@@ -261,6 +261,14 @@
   }
 
   function selectedValue(form, name) {
+    const checkedRadio = form.querySelector(
+      `input[type="radio"][name="${name}"]:checked`,
+    );
+
+    if (checkedRadio) {
+      return checkedRadio.value;
+    }
+
     return form.elements[name]?.value || "";
   }
 
