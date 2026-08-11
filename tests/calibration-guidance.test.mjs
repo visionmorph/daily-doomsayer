@@ -208,6 +208,10 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   assert.match(script, /function applyNoHarmShortcut\(stage\)/);
   assert.match(script, /fieldset\.dataset\.autoSelected = "true";[\s\S]*fieldset\.disabled = true;/);
   assert.match(script, /if \(input\.name === `\$\{stage\.id\}-factor-harm`\)/);
+  assert.match(
+    script,
+    /function selectedValue\(form, name\)[\s\S]*input\[type="radio"\]\[name="\$\{name\}"\]:checked[\s\S]*return checkedRadio\.value;/,
+  );
   assert.doesNotMatch(
     script,
     /NO_HARM_DEPENDENT_FACTORS = new Set\(\[[\s\S]*"certainty"/,
