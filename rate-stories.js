@@ -9,6 +9,11 @@
     : [];
   const site = window.DAILY_DOOMSAYER_SITE || {};
   const doomIndex = site.doomIndex || {};
+  const guidance = window.DAILY_DOOMSAYER_CALIBRATION_GUIDANCE;
+
+  if (!guidance?.factors || typeof guidance.recommendation !== "function") {
+    throw new Error("The human calibration guidance could not be loaded.");
+  }
 
   const elements = {
     workspace: document.querySelector("#calibration-workspace"),
@@ -32,11 +37,53 @@
     feedOutput: document.querySelector("#feed-rating-output"),
     articleOutput: document.querySelector("#article-rating-output"),
     feedValidation: document.querySelector('[data-validation-for="feed-rating"]'),
+    articleValidation: document.querySelector(
+      '[data-validation-for="article-rating"]',
+    ),
     nextButton: document.querySelector("#next-story"),
     scale: document.querySelector("#calibration-scale"),
     skipDialog: document.querySelector("#skip-dialog"),
     skipForm: document.querySelector("#skip-form"),
     cancelSkip: document.querySelector("#cancel-skip"),
+  };
+
+  const stages = {
+    feed: {
+      id: "feed",
+      form: elements.feedForm,
+      evidenceGroups: document.querySelector("#feed-evidence-groups"),
+      recommendation: document.querySelector("#feed-recommendation"),
+      recommendationOutput: document.querySelector("#feed-recommendation-output"),
+      recommendationReasoning: document.querySelector(
+        "#feed-recommendation-reasoning",
+      ),
+      manualRating: document.querySelector("#feed-manual-rating"),
+      slider: elements.feedSlider,
+      output: elements.feedOutput,
+      validation: elements.feedValidation,
+      ratingChoiceName: "feed-rating-choice",
+      confidenceName: "feed-confidence",
+      currentRecommendation: null,
+    },
+    article: {
+      id: "article",
+      form: elements.articleForm,
+      evidenceGroups: document.querySelector("#article-evidence-groups"),
+      recommendation: document.querySelector("#article-recommendation"),
+      recommendationOutput: document.querySelector(
+        "#article-recommendation-output",
+      ),
+      recommendationReasoning: document.querySelector(
+        "#article-recommendation-reasoning",
+      ),
+      manualRating: document.querySelector("#article-manual-rating"),
+      slider: elements.articleSlider,
+      output: elements.articleOutput,
+      validation: elements.articleValidation,
+      ratingChoiceName: "article-rating-choice",
+      confidenceName: "article-confidence",
+      currentRecommendation: null,
+    },
   };
 
   let state = loadState();
@@ -206,6 +253,205 @@
       });
   }
 
+  function radioLabel(name, value, text, required = false) {
+    const label = document.createElement("label");
+    label.className = "calibration-radio";
+
+    const input = document.createElement("input");
+    input.type = "radio";
+    input.name = name;
+    input.value = String(value);
+    input.required = required;
+
+    const marker = document.createElement("span");
+    marker.className = "calibration-radio-marker";
+    marker.setAttribute("aria-hidden", "true");
+    marker.textContent = "X";
+
+    label.append("[", marker, `] ${text}`);
+    label.prepend(input);
+    return label;
+  }
+
+  function renderEvidenceGroups(stage) {
+    stage.evidenceGroups.replaceChildren();
+
+    for (const factor of guidance.factors) {
+      const fieldset = document.createElement("fieldset");
+      fieldset.className = "calibration-field calibration-evidence-factor";
+      fieldset.dataset.factorId = factor.id;
+
+      const legend = document.createElement("legend");
+      legend.textContent = factor.label;
+      fieldset.append(legend);
+
+      factor.options.forEach((option, level) => {
+        fieldset.append(
+          radioLabel(
+            `${stage.id}-factor-${factor.id}`,
+            level,
+            option,
+            level === 0,
+          ),
+        );
+      });
+      stage.evidenceGroups.append(fieldset);
+    }
+  }
+
+  function selectedLevels(stage) {
+    return Object.fromEntries(
+      guidance.factors.map((factor) => [
+        factor.id,
+        selectedValue(stage.form, `${stage.id}-factor-${factor.id}`),
+      ]),
+    );
+  }
+
+  function selectedRadio(form, name, value) {
+    const input = form.querySelector(
+      `input[name="${name}"][value="${String(value)}"]`,
+    );
+    if (!input) return null;
+    input.checked = true;
+    input.dispatchEvent(new Event("change", { bubbles: true }));
+    return input;
+  }
+
+  function updateRecommendation(stage, { initializeManual = false } = {}) {
+    const recommendation = guidance.recommendation(
+      selectedLevels(stage),
+      doomIndex.severityScale,
+    );
+    stage.currentRecommendation = recommendation;
+    const ratingChoices = stage.form.querySelectorAll(
+      `input[name="${stage.ratingChoiceName}"]`,
+    );
+
+    if (!recommendation) {
+      stage.recommendation.hidden = true;
+      stage.manualRating.hidden = true;
+      ratingChoices.forEach((input) => {
+        input.disabled = true;
+      });
+      return;
+    }
+
+    ratingChoices.forEach((input) => {
+      input.disabled = false;
+    });
+    stage.recommendation.hidden = false;
+    stage.recommendationOutput.value = `${recommendation.band} ${recommendation.range.lower}–${recommendation.range.upper}`;
+    stage.recommendationOutput.textContent =
+      stage.recommendationOutput.value;
+    stage.recommendationReasoning.textContent = recommendation.reasoning;
+    stage.recommendation
+      .querySelectorAll("[data-rating-value]")
+      .forEach((element) => {
+        element.textContent = String(
+          recommendation.range[element.dataset.ratingValue],
+        );
+      });
+
+    const choice = selectedValue(stage.form, stage.ratingChoiceName);
+    stage.manualRating.hidden = choice !== "manual";
+    if (choice === "manual" && initializeManual) {
+      setSlider(
+        stage.slider,
+        stage.output,
+        recommendation.range.middle,
+        false,
+      );
+      stage.validation.hidden = true;
+    }
+  }
+
+  function generatedReasoning(recommendation, additionalContext) {
+    const context = String(additionalContext || "").trim();
+    return context
+      ? `${recommendation.reasoning} Additional context: ${context}`
+      : recommendation.reasoning;
+  }
+
+  function stageRating(stage) {
+    const recommendation = stage.currentRecommendation;
+    const selection = selectedValue(stage.form, stage.ratingChoiceName);
+
+    if (!recommendation || !selection) return null;
+    if (
+      selection === "manual" &&
+      stage.slider.dataset.interacted !== "true"
+    ) {
+      stage.validation.hidden = false;
+      stage.slider.focus();
+      return null;
+    }
+
+    const additionalContext = stage.form.elements.reasoning.value.trim();
+    const selectedScore =
+      selection === "manual"
+        ? humanScore(stage.slider.value)
+        : recommendation.range[selection];
+
+    return {
+      score: selectedScore,
+      confidence: Number(
+        selectedValue(stage.form, stage.confidenceName),
+      ),
+      reasoning: generatedReasoning(recommendation, additionalContext),
+      assessment: {
+        rubricVersion: recommendation.rubricVersion,
+        factors: recommendation.selected,
+        recommendation: {
+          rawScore: recommendation.rawScore,
+          score: recommendation.score,
+          band: recommendation.band,
+          range: recommendation.range,
+          direEligible: recommendation.direEligible,
+          catastrophicEligible: recommendation.catastrophicEligible,
+          constraints: recommendation.constraints,
+        },
+        selection,
+        additionalContext,
+      },
+    };
+  }
+
+  function hydrateStage(stage, rating) {
+    const assessment = rating?.assessment;
+
+    if (assessment?.factors) {
+      for (const factor of guidance.factors) {
+        const selected = assessment.factors[factor.id];
+        if (selected && Number.isInteger(Number(selected.level))) {
+          selectedRadio(
+            stage.form,
+            `${stage.id}-factor-${factor.id}`,
+            selected.level,
+          );
+        }
+      }
+      updateRecommendation(stage);
+      selectedRadio(
+        stage.form,
+        stage.ratingChoiceName,
+        assessment.selection || "middle",
+      );
+      updateRecommendation(stage);
+      if (assessment.selection === "manual") {
+        setSlider(stage.slider, stage.output, rating.score, true);
+      }
+    }
+
+    const confidence = stage.form.querySelector(
+      `input[name="${stage.confidenceName}"][value="${rating?.confidence}"]`,
+    );
+    if (confidence) {
+      confidence.checked = true;
+      confidence.dispatchEvent(new Event("change", { bubbles: true }));
+    }
+  }
+
   function currentArticle() {
     return articles[currentIndex] || null;
   }
@@ -304,6 +550,11 @@
     setSlider(elements.feedSlider, elements.feedOutput, 0, false);
     setSlider(elements.articleSlider, elements.articleOutput, 0, false);
     elements.feedValidation.hidden = true;
+    elements.articleValidation.hidden = true;
+    for (const stage of Object.values(stages)) {
+      stage.currentRecommendation = null;
+      updateRecommendation(stage);
+    }
     elements.result.hidden = true;
 
     const record = currentRecord();
@@ -327,21 +578,8 @@
     elements.feedStage.hidden = true;
     elements.articleStage.hidden = false;
     elements.result.hidden = true;
-    setSlider(
-      elements.articleSlider,
-      elements.articleOutput,
-      record.feedRating.score,
-      true,
-    );
     elements.articleForm.elements["reasoning"].value = "";
-
-    const confidence = elements.articleForm.querySelector(
-      `input[name="article-confidence"][value="${record.feedRating.confidence}"]`,
-    );
-    if (confidence) {
-      confidence.checked = true;
-      confidence.dispatchEvent(new Event("change", { bubbles: true }));
-    }
+    hydrateStage(stages.article, record.feedRating);
   }
 
   function comparisonItem(label, value) {
@@ -413,14 +651,10 @@
 
   function handleFeedSubmit(event) {
     event.preventDefault();
-
-    if (elements.feedSlider.dataset.interacted !== "true") {
-      elements.feedValidation.hidden = false;
-      elements.feedSlider.focus();
-      return;
-    }
-
     if (!elements.feedForm.reportValidity()) return;
+
+    const humanRating = stageRating(stages.feed);
+    if (!humanRating) return;
 
     const article = currentArticle();
     const key = storyKey(article);
@@ -435,9 +669,7 @@
       },
       scoringInput: modelScoringInput(article),
       feedRating: {
-        score: humanScore(elements.feedSlider.value),
-        confidence: Number(selectedValue(elements.feedForm, "feed-confidence")),
-        reasoning: elements.feedForm.elements.reasoning.value.trim(),
+        ...humanRating,
         ratedAt: now,
       },
       models: {
@@ -458,6 +690,9 @@
     event.preventDefault();
     if (!elements.articleForm.reportValidity()) return;
 
+    const humanRating = stageRating(stages.article);
+    if (!humanRating) return;
+
     const article = currentArticle();
     const key = storyKey(article);
     const record = state.ratings[key];
@@ -465,11 +700,7 @@
 
     record.status = "rated";
     record.articleRating = {
-      score: humanScore(elements.articleSlider.value),
-      confidence: Number(
-        selectedValue(elements.articleForm, "article-confidence"),
-      ),
-      reasoning: elements.articleForm.elements.reasoning.value.trim(),
+      ...humanRating,
       ratedAt: now,
     };
     record.contextAdjustment =
@@ -540,6 +771,8 @@
       calibrationMethod: {
         firstJudgment: "title-and-feed-summary",
         secondJudgment: "full-article-confirmation-or-revision",
+        humanRatingMethod: guidance.version,
+        structuredFactors: guidance.factors.map((factor) => factor.id),
         modelScoresHiddenUntil: "both-human-judgments-complete",
       },
       severityScale: doomIndex.severityScale || [],
@@ -577,15 +810,27 @@
 
   function updateSlider(event) {
     const slider = event.currentTarget;
-    const output = slider === elements.feedSlider
-      ? elements.feedOutput
-      : elements.articleOutput;
+    const stage = slider === elements.feedSlider ? stages.feed : stages.article;
     slider.dataset.interacted = "true";
-    output.value = String(Math.round(Number(slider.value)));
-    output.textContent = String(Math.round(Number(slider.value)));
+    stage.output.value = String(Math.round(Number(slider.value)));
+    stage.output.textContent = String(Math.round(Number(slider.value)));
+    stage.validation.hidden = true;
+  }
 
-    if (slider === elements.feedSlider) {
-      elements.feedValidation.hidden = true;
+  function updateGuidedForm(event, stage) {
+    updateRadioStyle(event);
+    const input = event.target.closest('input[type="radio"]');
+    if (!input) return;
+
+    const choseManual =
+      input.name === stage.ratingChoiceName &&
+      input.checked &&
+      input.value === "manual";
+    if (
+      input.name.startsWith(`${stage.id}-factor-`) ||
+      input.name === stage.ratingChoiceName
+    ) {
+      updateRecommendation(stage, { initializeManual: choseManual });
     }
   }
 
@@ -593,8 +838,12 @@
   elements.feedSlider.addEventListener("change", updateSlider);
   elements.articleSlider.addEventListener("input", updateSlider);
   elements.articleSlider.addEventListener("change", updateSlider);
-  elements.feedForm.addEventListener("change", updateRadioStyle);
-  elements.articleForm.addEventListener("change", updateRadioStyle);
+  elements.feedForm.addEventListener("change", (event) => {
+    updateGuidedForm(event, stages.feed);
+  });
+  elements.articleForm.addEventListener("change", (event) => {
+    updateGuidedForm(event, stages.article);
+  });
   elements.skipForm.addEventListener("change", updateRadioStyle);
   elements.feedForm.addEventListener("submit", handleFeedSubmit);
   elements.articleForm.addEventListener("submit", handleArticleSubmit);
@@ -606,6 +855,8 @@
     button.addEventListener("click", openSkipDialog);
   });
 
+  renderEvidenceGroups(stages.feed);
+  renderEvidenceGroups(stages.article);
   renderScale();
   renderStory();
 })();
