@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-11T16:00:00.000Z",
+  "generatedAt": "2026-08-11T17:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-11",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T15:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 46.96
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "https://techcrunch.com/wp-content/uploads/2026/08/Claw-weight.png?resize=1200,600",
           "peak": 43.33,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 43.33
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 39.53
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 29.27
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/8cada91fc66730d41f73d5404006b5d61ba2d2f3/13_0_1033_826/master/1033.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 26.41,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 26.41
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 23.95
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
           "peak": 21.55,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 21.55
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ageverificationbanner-3.png",
           "peak": 19.04,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T07:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 19.04
         }
       ]
@@ -903,11 +903,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T15:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 46.96
         },
         {
@@ -931,11 +931,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "https://techcrunch.com/wp-content/uploads/2026/08/Claw-weight.png?resize=1200,600",
           "peak": 43.33,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T21:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 43.33
         },
         {
@@ -945,11 +945,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 21,
+          "observations": 22,
           "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 39.53
         },
         {
@@ -973,12 +973,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/8cada91fc66730d41f73d5404006b5d61ba2d2f3/13_0_1033_826/master/1033.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 33.82,
-          "observations": 21,
+          "observations": 22,
           "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
-          "average": 26.76
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
+          "average": 26.75
         },
         {
           "storyId": "557e0bfc0113e2a72215",
@@ -1001,11 +1001,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 21,
+          "observations": 22,
           "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 29.27
         },
         {
@@ -1195,11 +1195,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T15:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 46.96
         },
         {
@@ -1265,11 +1265,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "https://techcrunch.com/wp-content/uploads/2026/08/Claw-weight.png?resize=1200,600",
           "peak": 43.33,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 2,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T21:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 43.33
         },
         {
@@ -1279,11 +1279,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 78,
+          "observations": 79,
           "daysTracked": 6,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-11T16:00:00.000Z",
+          "lastObservedAt": "2026-08-11T17:00:00.000Z",
           "average": 39.53
         },
         {
