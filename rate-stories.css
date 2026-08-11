@@ -46,6 +46,11 @@
   text-underline-offset: 0.15em;
 }
 
+.calibration-radio:hover,
+.calibration-radio:has(input:focus-visible) {
+  text-underline-offset: 0.1em;
+}
+
 .calibration-radio:has(input:focus-visible) {
   outline: 1px solid var(--text-primary);
   outline-offset: 2px;
@@ -127,6 +132,12 @@
   padding: 16px 0;
 }
 
+.calibration-story-context {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .calibration-rubric {
   border-bottom: 0;
   margin-block: 0;
@@ -177,6 +188,8 @@
 
 .calibration-story-summary {
   margin: 0;
+  font-size: 32px;
+  line-height: 40px;
 }
 
 .calibration-empty p {
@@ -192,10 +205,17 @@
 
 .calibration-stage-heading h2,
 .calibration-empty h1 {
-  margin-top: 4px;
   font-size: 48px;
   line-height: 60px;
   letter-spacing: 0;
+}
+
+.calibration-stage-heading h2 {
+  margin-top: 0;
+}
+
+.calibration-empty h1 {
+  margin-top: 4px;
 }
 
 .calibration-stage-heading p {
@@ -313,6 +333,14 @@
   color: rgb(0 0 0 / 65%);
   font-family: "Cossette Texte", serif;
   font-weight: 400;
+}
+
+.calibration-field:has(> textarea) {
+  gap: 8px;
+}
+
+.calibration-actions {
+  gap: 16px;
 }
 
 .calibration-slider {
