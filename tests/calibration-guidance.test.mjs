@@ -183,6 +183,8 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   );
   assert.doesNotMatch(html, /Funnel Display/);
   assert.doesNotMatch(styles, /Funnel Display/);
+  assert.doesNotMatch(html, /calibration-action--primary/);
+  assert.doesNotMatch(styles, /\.calibration-action--primary/);
   assert.match(styles, /font-family: "Cossette Texte"/);
   assert.match(styles, /#feed-rating-form\s*\{[^}]*gap: 24px/s);
   assert.match(styles, /\.calibration-field textarea\s*\{[^}]*border: 2px solid #000000/s);
@@ -272,6 +274,19 @@ test("rate-stories page uses guided groups with a conditional manual override", 
     /stage\.recommendationReasoning\.textContent = \[\s*recommendation\.reasoning/s,
   );
   assert.match(script, /function severityBandForScore\(value\)/);
+  assert.match(script, /const FEED_SUMMARY_CHARACTER_LIMIT = 360;/);
+  assert.match(
+    script,
+    /function feedSummaryForCalibration\(article\)[\s\S]*summary\.length <= FEED_SUMMARY_CHARACTER_LIMIT[\s\S]*\.slice\(0, FEED_SUMMARY_CHARACTER_LIMIT - 1\)[\s\S]*return `\$\{truncated\.trimEnd\(\)\}…`;/,
+  );
+  assert.match(
+    script,
+    /const feedSummary = feedSummaryForCalibration\(article\);[\s\S]*elements\.summary\.textContent = feedSummary;/,
+  );
+  assert.match(
+    script,
+    /feedEvidence:\s*\{[\s\S]*summary: feedSummary,[\s\S]*summaryAvailable: Boolean\(feedSummary\)/,
+  );
   assert.match(
     script,
     /function sliderOutputText\(slider, value\)[\s\S]*band\?\.label \|\| "UNCLASSIFIED"[\s\S]*\$\{normalized\}/,
