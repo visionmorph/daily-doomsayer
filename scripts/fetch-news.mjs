@@ -1238,6 +1238,28 @@ function itemAnalysisText(item) {
     .slice(0, 4_000));
 }
 
+function sourceIncludeKeywords(source) {
+  const keywordSetNames = [
+    ...textValues(source.includeKeywordSet),
+    ...textValues(source.includeKeywordSets),
+  ];
+  const keywords = [...textValues(source.includeKeywords)];
+
+  for (const keywordSetName of keywordSetNames) {
+    const keywordSet = config.keywordSets?.[keywordSetName];
+
+    if (!Array.isArray(keywordSet)) {
+      throw new Error(
+        `Unknown include keyword set "${keywordSetName}" for ${source.name || source.feed}`,
+      );
+    }
+
+    keywords.push(...textValues(keywordSet));
+  }
+
+  return [...new Set(keywords.map((keyword) => keyword.trim()).filter(Boolean))];
+}
+
 function sourceAcceptsItem(source, item) {
   const categories = itemCategories(item);
   const articleTypes = itemArticleTypes(item);
@@ -1251,6 +1273,7 @@ function sourceAcceptsItem(source, item) {
     .filter(Boolean)
     .join(" ");
   const link = String(item.link || "").toLowerCase();
+  const includeKeywords = sourceIncludeKeywords(source);
 
   if (
     exactValueMatch(categories, source.excludeCategories) ||
@@ -1265,9 +1288,9 @@ function sourceAcceptsItem(source, item) {
     inclusionRules.push(exactValueMatch(categories, source.includeCategories));
   }
 
-  if (Array.isArray(source.includeKeywords) && source.includeKeywords.length) {
+  if (includeKeywords.length) {
     inclusionRules.push(
-      containsConfiguredTerm(searchableText, source.includeKeywords),
+      containsConfiguredTerm(searchableText, includeKeywords),
     );
   }
 
@@ -1561,6 +1584,183 @@ function extractImage(item) {
   return highResolutionStoryImage(structuredImage || embeddedImage || "");
 }
 
+function metaContentFromHtml(html, names) {
+  const acceptedNames = new Set(names.map((name) => name.toLowerCase()));
+
+  for (const tag of html.match(/<meta\b[^>]*>/gi) || []) {
+    const name = (
+      tagAttribute(tag, "property") || tagAttribute(tag, "name")
+    ).toLowerCase();
+
+    if (acceptedNames.has(name)) {
+      const content = normalizeArticleText(tagAttribute(tag, "content"));
+      if (content) return content;
+    }
+  }
+
+  return "";
+}
+
+function pageArticleLinks(html, pageUrl, configuredPatterns = []) {
+  const patterns = textValues(configuredPatterns)
+    .map((pattern) => String(pattern).toLowerCase())
+    .filter(Boolean);
+  const page = new URL(pageUrl);
+  const seen = new Set();
+  const links = [];
+  const anchorPattern = /<a\b([^>]*\bhref\s*=\s*(["'])(.*?)\2[^>]*)>([\s\S]*?)<\/a>/gi;
+
+  for (const match of html.matchAll(anchorPattern)) {
+    const attributes = match[1];
+    const href = match[3];
+    let url;
+
+    try {
+      url = new URL(href, pageUrl);
+    } catch {
+      continue;
+    }
+
+    if (!/^https?:$/i.test(url.protocol) || url.hostname !== page.hostname) {
+      continue;
+    }
+
+    const normalizedUrl = canonicalStoryUrl(url.href);
+    const normalizedPageUrl = canonicalStoryUrl(pageUrl);
+    const searchableUrl = normalizedUrl.toLowerCase();
+
+    if (
+      !normalizedUrl ||
+      normalizedUrl === normalizedPageUrl ||
+      seen.has(normalizedUrl) ||
+      (patterns.length && !patterns.some((pattern) => searchableUrl.includes(pattern)))
+    ) {
+      continue;
+    }
+
+    const title = normalizeArticleText(
+      tagAttribute(attributes, "aria-label") ||
+        tagAttribute(attributes, "title") ||
+        match[4],
+    );
+
+    if (title.length < 12) continue;
+    seen.add(normalizedUrl);
+    links.push({ url: normalizedUrl, title });
+  }
+
+  return links;
+}
+
+function articleMetadataFromHtml(html, pageUrl, fallbackTitle = "") {
+  const title =
+    metaContentFromHtml(html, ["og:title", "twitter:title"]) ||
+    normalizeArticleText(html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i)?.[1]) ||
+    normalizeArticleText(fallbackTitle);
+  const description = metaContentFromHtml(html, [
+    "og:description",
+    "twitter:description",
+    "description",
+  ]);
+  const published =
+    metaContentFromHtml(html, [
+      "article:published_time",
+      "datepublished",
+      "date",
+    ]) ||
+    normalizeArticleText(
+      html.match(/["']datePublished["']\s*:\s*["']([^"']+)["']/i)?.[1],
+    );
+
+  return {
+    title,
+    link: pageUrl,
+    isoDate: published,
+    description,
+    summary: description,
+    image: highResolutionStoryImage(socialImageFromHtml(html, pageUrl)),
+  };
+}
+
+async function fetchSourcePageArticles(source) {
+  const group = String(source.group ?? "").trim();
+  const sourceName = source.name || source.pageUrl;
+
+  if (!group) {
+    throw new Error(`Invalid group for source: ${sourceName}`);
+  }
+
+  const startedAt = Date.now();
+  console.log(`[page] Fetching ${sourceName}`);
+
+  try {
+    const response = await requestText(source.pageUrl, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; Daily Doomsayer/1.0; news aggregator)",
+        Accept: "text/html,application/xhtml+xml",
+      },
+      timeoutMs: FEED_TIMEOUT_MS,
+    });
+    const limit = Math.max(1, Math.min(Number(source.limit) || 10, 10));
+    const sourceWeight = Math.max(0.1, Math.min(Number(source.weight) || 1, 2));
+    const candidates = pageArticleLinks(
+      response.text,
+      response.url,
+      source.pageArticleUrlPatterns,
+    ).slice(0, limit);
+    const fetchedItems = await mapWithConcurrency(
+      candidates,
+      3,
+      async (candidate) => {
+        try {
+          const articlePage = await requestText(candidate.url, {
+            headers: {
+              "User-Agent": "Mozilla/5.0 (compatible; Daily Doomsayer/1.0; news aggregator)",
+              Accept: "text/html,application/xhtml+xml",
+            },
+            timeoutMs: ARTICLE_TIMEOUT_MS,
+          });
+          return articleMetadataFromHtml(
+            articlePage.text,
+            articlePage.url,
+            candidate.title,
+          );
+        } catch (error) {
+          console.error(
+            `[page] Could not inspect ${candidate.url}: ${error.message}`,
+          );
+          return null;
+        }
+      },
+    );
+    const acceptedItems = fetchedItems
+      .filter((item) => item?.title && item?.link)
+      .filter((item) => sourceAcceptsItem(source, item));
+    const sourceArticles = acceptedItems.map((item, feedPosition) => ({
+      group,
+      title: normalizeArticleText(item.title),
+      url: item.link,
+      source: normalizeArticleText(source.name),
+      published: item.isoDate || "",
+      image: item.image || "",
+      analysisText: itemAnalysisText(item),
+      feedPosition,
+      sourceWeight,
+      candidateCount: acceptedItems.length,
+    }));
+
+    console.log(
+      `[page] Finished ${sourceName}: ${sourceArticles.length} articles in ${Date.now() - startedAt}ms`,
+    );
+    return sourceArticles;
+  } catch (error) {
+    console.error(
+      `[page] Skipped ${sourceName} after ${Date.now() - startedAt}ms: ${error.message}`,
+    );
+    return [];
+  }
+}
+
 async function fetchSourceArticles(source) {
   const group = String(source.group ?? "").trim();
   const sourceName = source.name || source.feed;
@@ -1642,10 +1842,25 @@ const configuredFeeds = config.sources.flatMap((source) => {
     .map((feed) => ({ ...source, feed: feed.trim() }));
 });
 
+const configuredPages = config.sources
+  .filter(
+    (source) =>
+      typeof source.pageUrl === "string" && source.pageUrl.trim(),
+  )
+  .map((source) => ({ ...source, pageUrl: source.pageUrl.trim() }));
+
+const configuredSources = [
+  ...configuredFeeds.map((source) => ({ type: "feed", source })),
+  ...configuredPages.map((source) => ({ type: "page", source })),
+];
+
 const sourceBatches = await mapWithConcurrency(
-  configuredFeeds,
+  configuredSources,
   SOURCE_CONCURRENCY,
-  fetchSourceArticles,
+  ({ type, source }) =>
+    type === "page"
+      ? fetchSourcePageArticles(source)
+      : fetchSourceArticles(source),
 );
 articles.push(...sourceBatches.flat());
 
