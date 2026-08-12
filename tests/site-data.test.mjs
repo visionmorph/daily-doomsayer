@@ -125,6 +125,9 @@ test("news sources include scoped publisher feeds, pages, and image collection p
     "/article/",
     "/newsletter/",
   ]);
+  assert.deepEqual(sources["The Dispatch AI"].excludeUrlPatterns, [
+    "/newsletter/morning/",
+  ]);
   assert.equal(
     sources["Mashable AI"].feed,
     "https://mashable.com/feeds/rss/tech",
@@ -170,6 +173,10 @@ test("news sources include scoped publisher feeds, pages, and image collection p
   assert.match(
     fetchScript,
     /source\.articlePageImageFallback === false[\s\S]*?return;[\s\S]*?fetchArticleImage\(article\.url\)/,
+  );
+  assert.match(
+    fetchScript,
+    /Array\.isArray\(source\.excludeUrlPatterns\)[\s\S]*?link\.includes\(String\(pattern\)\.toLowerCase\(\)\)/,
   );
   assert.match(fetchScript, /function politicoImageAtWidth\(value, width\)/);
   assert.match(fetchScript, /url\.hostname === "www\.politico\.com"/);
