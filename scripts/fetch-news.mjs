@@ -1277,7 +1277,11 @@ function sourceAcceptsItem(source, item) {
 
   if (
     exactValueMatch(categories, source.excludeCategories) ||
-    containsConfiguredTerm(title, source.excludeTitleTerms)
+    containsConfiguredTerm(title, source.excludeTitleTerms) ||
+    (Array.isArray(source.excludeUrlPatterns) &&
+      source.excludeUrlPatterns.some((pattern) =>
+        link.includes(String(pattern).toLowerCase()),
+      ))
   ) {
     return false;
   }
