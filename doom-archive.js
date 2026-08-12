@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-12T08:00:00.000Z",
+  "generatedAt": "2026-08-12T09:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-12",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T09:00:00.000Z",
           "average": 46.96
         },
         {
@@ -45,12 +45,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T09:00:00.000Z",
           "average": 29.27
+        },
+        {
+          "storyId": "6fb146886d70fc34f9c8",
+          "title": "Harrods returns to profit after 2024 loss triggered by Al Fayed abuse provision",
+          "url": "https://news.sky.com/story/harrods-returns-to-profit-after-2024-loss-triggered-by-al-fayed-abuse-provision-13571719",
+          "source": "Sky News AI",
+          "image": "https://e3.365dm.com/24/10/1920x1080/skynews-harrods-london_6727506.jpg?20250926225504",
+          "peak": 27.04,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-12",
+          "firstObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "average": 27.04
         },
         {
           "storyId": "b3989dcfb48ba9b056fe",
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
           "peak": 21.55,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T09:00:00.000Z",
           "average": 21.55
         },
         {
@@ -87,12 +101,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/877feb4bab4c2039e0cdd325710d3b00e9f9b822/857_0_6109_4888/master/6109.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 21.14,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T09:00:00.000Z",
           "average": 21.14
+        },
+        {
+          "storyId": "8f968feb1a74bc5bf7b1",
+          "title": "Bashar al Assad sentenced to death by Syrian court",
+          "url": "https://news.sky.com/story/bashar-al-assad-sentenced-to-death-in-absentia-by-syrian-court-for-war-crimes-13571874",
+          "source": "Sky News AI",
+          "image": "https://e3.365dm.com/25/03/1920x1080/skynews-syria-isis_6855227.jpg?20250313161414",
+          "peak": 21.12,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-12",
+          "firstObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "average": 21.12
         },
         {
           "storyId": "23a292887ca5e4c75326",
@@ -121,34 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
           "lastObservedAt": "2026-08-12T08:00:00.000Z",
           "average": 18.98
-        },
-        {
-          "storyId": "0d32aa6b6a8fd310bb9e",
-          "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-          "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-          "source": "VentureBeat AI",
-          "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&q=30",
-          "peak": 17.48,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-08-12",
-          "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
-          "average": 17.48
-        },
-        {
-          "storyId": "17c11ad9e85102512f94",
-          "title": "We posted a job. Then came the AI slop, impersonator and recruiter scam",
-          "url": "https://themarkup.org/hello-world/2026/01/24/we-posted-a-job-then-came-the-ai-slop-impersonator-and-recruiter-scam",
-          "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2025/12/121625-HELLO-WORLD-AI-HIRING-GH-TM.png",
-          "peak": 16.98,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-08-12",
-          "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
-          "average": 16.98
         }
       ]
     },
@@ -1048,11 +1048,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 2,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T15:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T09:00:00.000Z",
           "average": 46.96
         },
         {
@@ -1146,11 +1146,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 32,
+          "observations": 33,
           "daysTracked": 3,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T09:00:00.000Z",
           "average": 29.27
         },
         {
@@ -1340,11 +1340,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 2,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T15:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T09:00:00.000Z",
           "average": 46.96
         },
         {
