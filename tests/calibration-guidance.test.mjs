@@ -163,7 +163,7 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   assert.ok(
     html.indexOf("calibration-guidance.js") < html.indexOf("rate-stories.js"),
   );
-  assert.match(html, /rate-stories\.js\?v=20260812-360/);
+  assert.match(html, /rate-stories\.js\?v=20260812-review/);
   assert.match(script, /assessment:/);
   assert.match(script, /structuredFactors:/);
   assert.match(
