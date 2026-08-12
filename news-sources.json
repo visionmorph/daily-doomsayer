@@ -130,6 +130,7 @@
       "displayName": "AI News",
       "indexUrl": "https://www.artificialintelligence-news.com/",
       "feed": "https://www.artificialintelligence-news.com/feed/",
+      "wordpressFeaturedImageFallback": true,
       "resolveMissingArticleImages": true
     },
     {
