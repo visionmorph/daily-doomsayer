@@ -452,7 +452,7 @@
       setSlider(
         stage.slider,
         stage.output,
-        recommendation.range.middle,
+        stage.slider.min,
         false,
       );
       stage.validation.hidden = true;
@@ -837,8 +837,20 @@
     elements.result.scrollIntoView({ behavior: "auto", block: "start" });
   }
 
-  function openSkipDialog() {
+  function resetSkipForm() {
     elements.skipForm.reset();
+    elements.skipForm
+      .querySelectorAll('input[type="radio"]')
+      .forEach((radio) => {
+        radio.checked = false;
+        radio
+          .closest(".calibration-radio")
+          ?.classList.remove("is-selected");
+      });
+  }
+
+  function openSkipDialog() {
+    resetSkipForm();
     elements.skipDialog.showModal();
   }
 
@@ -980,6 +992,7 @@
   elements.exportButton.addEventListener("click", exportRatings);
   elements.skipForm.addEventListener("submit", handleSkipSubmit);
   elements.cancelSkip.addEventListener("click", () => elements.skipDialog.close());
+  elements.skipDialog.addEventListener("close", resetSkipForm);
   document.querySelectorAll("[data-skip-story]").forEach((button) => {
     button.addEventListener("click", openSkipDialog);
   });
