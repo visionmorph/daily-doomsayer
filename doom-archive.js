@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-12T21:00:00.000Z",
+  "generatedAt": "2026-08-12T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-12",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T21:00:00.000Z",
+          "lastObservedAt": "2026-08-12T22:00:00.000Z",
           "average": 39.53
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 36.22,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-12T21:00:00.000Z",
+          "lastObservedAt": "2026-08-12T22:00:00.000Z",
           "average": 36.22
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T21:00:00.000Z",
+          "lastObservedAt": "2026-08-12T22:00:00.000Z",
           "average": 23.95
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
           "peak": 21.55,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T21:00:00.000Z",
+          "lastObservedAt": "2026-08-12T22:00:00.000Z",
           "average": 21.55
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/877feb4bab4c2039e0cdd325710d3b00e9f9b822/857_0_6109_4888/master/6109.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 21.14,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T21:00:00.000Z",
+          "lastObservedAt": "2026-08-12T22:00:00.000Z",
           "average": 21.14
         },
         {
@@ -1090,11 +1090,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 41,
+          "observations": 42,
           "daysTracked": 3,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-12T21:00:00.000Z",
+          "lastObservedAt": "2026-08-12T22:00:00.000Z",
           "average": 39.53
         },
         {
@@ -1118,11 +1118,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 36.22,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-12T21:00:00.000Z",
+          "lastObservedAt": "2026-08-12T22:00:00.000Z",
           "average": 36.22
         },
         {
@@ -1424,11 +1424,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 98,
+          "observations": 99,
           "daysTracked": 7,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-12T21:00:00.000Z",
+          "lastObservedAt": "2026-08-12T22:00:00.000Z",
           "average": 39.53
         },
         {
