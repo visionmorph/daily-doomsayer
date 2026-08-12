@@ -261,6 +261,22 @@
     },
     {
       "group": "ai",
+      "name": "Mashable AI",
+      "displayName": "Mashable",
+      "indexUrl": "https://mashable.com/category/artificial-intelligence",
+      "feed": "https://mashable.com/feeds/rss/tech",
+      "includeKeywordSet": "ai"
+    },
+    {
+      "group": "ai",
+      "name": "Inc. AI",
+      "displayName": "Inc.",
+      "indexUrl": "https://www.inc.com/artificial-intelligence",
+      "feed": "http://www.inc.com/rss/homepage.xml",
+      "includeKeywordSet": "ai"
+    },
+    {
+      "group": "ai",
       "name": "The Guardian AI",
       "displayName": "The Guardian",
       "indexUrl": "https://www.theguardian.com/technology/artificialintelligenceai",
