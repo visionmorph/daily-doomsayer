@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-12T10:00:00.000Z",
+  "generatedAt": "2026-08-12T12:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-12",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T10:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 46.96
         },
         {
@@ -31,12 +31,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 39.53
+        },
+        {
+          "storyId": "1c9f14ee09a7b9f09c18",
+          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 36.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-12",
+          "firstObservedAt": "2026-08-12T12:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
+          "average": 36.22
         },
         {
           "storyId": "32c5457cb1c56b255a8f",
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T10:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 29.27
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 23.95
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
           "peak": 21.55,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T10:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 21.55
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/877feb4bab4c2039e0cdd325710d3b00e9f9b822/857_0_6109_4888/master/6109.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 21.14,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T10:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 21.14
         },
         {
@@ -123,32 +137,18 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 21.12
         },
         {
-          "storyId": "5698e809e332002405fc",
-          "title": "AI was supposed to destroy jobs. Where’s the carnage?",
-          "url": "https://www.theguardian.com/technology/2026/aug/12/ai-job-destruction",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/7f3afc0d9b6e673a4c0f7f4207a13737e3df983d/0_0_2939_2351/master/2939.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 20.14,
+          "storyId": "03b040bf38152b1c8328",
+          "title": "Former Syrian President Assad sentenced to death in absentia for war crimes",
+          "url": "https://apnews.com/article/syria-assad-death-trial-d4c486b5d39bbdb41108112b0ddc8e79",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/ef935fc/2147483647/strip/true/crop/2728x1818+19+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9d%2F84%2F8bd5b3056ec8265a764a69b8ad67%2F2d591048854649c28884e1194ce6d41c",
+          "peak": 20.68,
           "observations": 1,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
-          "firstObservedAt": "2026-08-12T10:00:00.000Z",
-          "lastObservedAt": "2026-08-12T10:00:00.000Z",
-          "average": 20.14
-        },
-        {
-          "storyId": "23a292887ca5e4c75326",
-          "title": "The Senate Should Reject KOSA's Privacy Risks",
-          "url": "https://www.eff.org/deeplinks/2026/08/senate-should-reject-kosas-privacy-risks",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/ageverificationbanner-3.png",
-          "peak": 19.04,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-08-12",
-          "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
-          "average": 19.04
+          "firstObservedAt": "2026-08-12T12:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
+          "average": 20.68
         }
       ]
     },
@@ -1048,11 +1048,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 2,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T15:00:00.000Z",
-          "lastObservedAt": "2026-08-12T10:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 46.96
         },
         {
@@ -1090,11 +1090,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 32,
+          "observations": 33,
           "daysTracked": 3,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 39.53
         },
         {
@@ -1110,6 +1110,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
           "lastObservedAt": "2026-08-10T10:00:00.000Z",
           "average": 39.53
+        },
+        {
+          "storyId": "1c9f14ee09a7b9f09c18",
+          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 36.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-12",
+          "firstObservedAt": "2026-08-12T12:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
+          "average": 36.22
         },
         {
           "storyId": "1d069b1fc66d18a784ee",
@@ -1146,26 +1160,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 34,
+          "observations": 35,
           "daysTracked": 3,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-12T10:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 29.27
-        },
-        {
-          "storyId": "cdf501208964dff36e1c",
-          "title": "Rising number of UK children report seeing explicit deepfakes of themselves",
-          "url": "https://www.theguardian.com/technology/2026/aug/08/uk-children-explicit-deepfake-images-ai",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/518184ea461f32002734db1dfcd6d1e8d169a1a8/581_0_4448_3559/master/4448.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 29.23,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-10",
-          "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-10T06:00:00.000Z",
-          "average": 29.23
         }
       ]
     },
@@ -1340,11 +1340,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 2,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T15:00:00.000Z",
-          "lastObservedAt": "2026-08-12T10:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 46.96
         },
         {
@@ -1424,11 +1424,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5392/live/fbde6a50-90af-11f1-b35a-3be58eca94a8.jpg",
           "peak": 39.53,
-          "observations": 89,
+          "observations": 90,
           "daysTracked": 7,
           "peakDate": "2026-08-06",
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
+          "lastObservedAt": "2026-08-12T12:00:00.000Z",
           "average": 39.53
         },
         {
