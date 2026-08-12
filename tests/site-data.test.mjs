@@ -184,6 +184,19 @@ test("news sources include scoped publisher feeds, pages, and image collection p
   assert.match(fetchScript, /async function fetchSourcePageArticles\(source\)/);
   assert.match(fetchScript, /const configuredPages = config\.sources/);
   assert.match(fetchScript, /type === "page"\s*\? fetchSourcePageArticles\(source\)/);
+  assert.match(
+    fetchScript,
+    /function itemDisplaySummary\(item\)[\s\S]*?item\.contentSnippet[\s\S]*?item\.summary[\s\S]*?item\.description/,
+  );
+  assert.match(fetchScript, /feedSummary: itemDisplaySummary\(item\)/);
+  assert.match(
+    fetchScript,
+    /feedSummary: normalizeArticleText\(feedSummary\)/,
+  );
+  assert.doesNotMatch(
+    fetchScript,
+    /feedSummary: normalizeArticleText\(analysisText\)/,
+  );
 });
 
 test("severity scale must be contiguous and cover the complete index", () => {
