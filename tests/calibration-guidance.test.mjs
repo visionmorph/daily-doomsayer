@@ -163,6 +163,7 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   assert.ok(
     html.indexOf("calibration-guidance.js") < html.indexOf("rate-stories.js"),
   );
+  assert.match(html, /rate-stories\.js\?v=20260812-360/);
   assert.match(script, /assessment:/);
   assert.match(script, /structuredFactors:/);
   assert.match(
@@ -246,6 +247,10 @@ test("rate-stories page uses guided groups with a conditional manual override", 
     /\.calibration-field:has\(> textarea\)\s*\{[^}]*gap: 8px;/s,
   );
   assert.match(styles, /\.calibration-actions\s*\{[^}]*gap: 16px;/s);
+  assert.match(
+    styles,
+    /\.calibration-result\s*\{[^}]*border-bottom: 0;[^}]*padding-bottom: 0;/s,
+  );
   assert.match(
     styles,
     /\.calibration-radio:hover,[^}]*text-underline-offset: 0\.1em;/s,
