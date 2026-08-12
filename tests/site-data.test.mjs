@@ -128,6 +128,11 @@ test("news sources include scoped publisher feeds, pages, and image collection p
   assert.deepEqual(sources["The Dispatch AI"].excludeUrlPatterns, [
     "/newsletter/morning/",
   ]);
+  assert.deepEqual(sources["The Guardian AI"].displaySummaryStopTerms, [
+    "Get our breaking news email",
+    "Sign up for a weekly email",
+    "Sign up to our",
+  ]);
   assert.equal(
     sources["Mashable AI"].feed,
     "https://mashable.com/feeds/rss/tech",
@@ -186,9 +191,13 @@ test("news sources include scoped publisher feeds, pages, and image collection p
   assert.match(fetchScript, /type === "page"\s*\? fetchSourcePageArticles\(source\)/);
   assert.match(
     fetchScript,
-    /function itemDisplaySummary\(item\)[\s\S]*?item\.contentSnippet[\s\S]*?item\.summary[\s\S]*?item\.description/,
+    /function itemDisplaySummary\(source, item\)[\s\S]*?item\.contentSnippet[\s\S]*?item\.summary[\s\S]*?item\.description/,
   );
-  assert.match(fetchScript, /feedSummary: itemDisplaySummary\(item\)/);
+  assert.match(
+    fetchScript,
+    /function cleanDisplaySummary\(source, value\)[\s\S]*?source\.displaySummaryStopTerms[\s\S]*?summary\.slice\(0, stopIndex\)/,
+  );
+  assert.match(fetchScript, /feedSummary: itemDisplaySummary\(source, item\)/);
   assert.match(
     fetchScript,
     /feedSummary: normalizeArticleText\(feedSummary\)/,
