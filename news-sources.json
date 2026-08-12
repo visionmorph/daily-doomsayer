@@ -288,7 +288,12 @@
       "name": "The Guardian AI",
       "displayName": "The Guardian",
       "indexUrl": "https://www.theguardian.com/technology/artificialintelligenceai",
-      "feed": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      "feed": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+      "displaySummaryStopTerms": [
+        "Get our breaking news email",
+        "Sign up for a weekly email",
+        "Sign up to our"
+      ]
     },
     {
       "group": "ai",
