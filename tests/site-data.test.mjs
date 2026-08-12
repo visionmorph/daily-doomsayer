@@ -82,7 +82,7 @@ test("source directory is deduplicated and alphabetized without leading The", ()
   );
 });
 
-test("news sources include scoped AP, Reuters, and POLITICO collection paths", async () => {
+test("news sources include scoped AP, Reuters, POLITICO, and The Dispatch collection paths", async () => {
   const [configText, fetchScript] = await Promise.all([
     readFile(new URL("../news-sources.json", import.meta.url), "utf8"),
     readFile(new URL("../scripts/fetch-news.mjs", import.meta.url), "utf8"),
@@ -102,6 +102,12 @@ test("news sources include scoped AP, Reuters, and POLITICO collection paths", a
     "https://www.politico.eu/section/technology/feed/",
   );
   assert.equal(sources["POLITICO Europe AI"].includeKeywordSet, "ai");
+  assert.equal(
+    sources["The Dispatch AI"].feed,
+    "https://thedispatch.com/feed/",
+  );
+  assert.equal(sources["The Dispatch AI"].includeKeywordSet, "ai");
+  assert.equal(sources["The Dispatch AI"].resolveMissingArticleImages, true);
   assert.equal(
     sources["AP News AI"].pageUrl,
     "https://apnews.com/hub/artificial-intelligence",
