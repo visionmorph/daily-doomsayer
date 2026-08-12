@@ -969,7 +969,7 @@
       "url": "https://science.nasa.gov/science-research/ai-foundation-model-in-orbit/",
       "canonicalUrl": "https://science.nasa.gov/science-research/ai-foundation-model-in-orbit",
       "source": "NASA AI",
-      "image": "https://science.nasa.gov/wp-content/uploads/2026/08/side-by-side-graphic-polargeospatial.jpg",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/article-media/prithvi-wildfire-demo.png?w=1764&h=1226&fit=crop&crop=faces%2Cfocalpoint",
       "published": "2026-05-07T14:23:35.000Z",
       "firstSeen": "2026-08-05T18:00:00.000Z",
       "lastSeen": "2026-08-12T15:00:00.000Z"
@@ -7031,6 +7031,42 @@
       "source": "ScienceDaily Technology",
       "image": "",
       "published": "2026-08-11T10:14:58.000Z",
+      "firstSeen": "2026-08-12T15:00:00.000Z",
+      "lastSeen": "2026-08-12T15:00:00.000Z"
+    },
+    "362dd9f71ed275051e5e": {
+      "storyId": "362dd9f71ed275051e5e",
+      "currentTitle": "Putin threatens retaliation for Western seizures of Russian commercial vessels",
+      "originalTitle": "Putin threatens retaliation for Western seizures of Russian commercial vessels",
+      "url": "https://apnews.com/article/russia-putin-navy-ships-seizures-shadow-fleet-0c184bfe95397fae3b7093139453d1cb",
+      "canonicalUrl": "https://apnews.com/article/russia-putin-navy-ships-seizures-shadow-fleet-0c184bfe95397fae3b7093139453d1cb",
+      "source": "AP News AI",
+      "image": "https://dims.apnews.com/dims4/default/7896b6f/2147483647/strip/true/crop/5678x3783+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe3%2F2d%2F3607ae794bee1f872ba53d115062%2F17ffce8a91da46ef8d6928dc7380a036",
+      "published": "2026-08-12T10:04:13",
+      "firstSeen": "2026-08-12T15:00:00.000Z",
+      "lastSeen": "2026-08-12T15:00:00.000Z"
+    },
+    "a7a9c478940f938dd7c5": {
+      "storyId": "a7a9c478940f938dd7c5",
+      "currentTitle": "Here’s a balm if the idea of destroying books to train AI breaks your heart",
+      "originalTitle": "Here’s a balm if the idea of destroying books to train AI breaks your heart",
+      "url": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+      "canonicalUrl": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart",
+      "source": "Ars Technica AI",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-162426304-1152x648.jpg",
+      "published": "2026-08-12T15:19:17.000Z",
+      "firstSeen": "2026-08-12T15:00:00.000Z",
+      "lastSeen": "2026-08-12T15:00:00.000Z"
+    },
+    "d6a24a8c27af0913a1f0": {
+      "storyId": "d6a24a8c27af0913a1f0",
+      "currentTitle": "Ultrarare Nintendo Mario game cartridges discovered in Wisconsin",
+      "originalTitle": "Ultrarare Nintendo Mario game cartridges discovered in Wisconsin",
+      "url": "https://apnews.com/article/nintendo-wisconsin-mario-cartridges-video-de88a9fd5643913454328830e73f74c2",
+      "canonicalUrl": "https://apnews.com/article/nintendo-wisconsin-mario-cartridges-video-de88a9fd5643913454328830e73f74c2",
+      "source": "AP News AI",
+      "image": "https://dims.apnews.com/dims4/default/517f034/2147483647/strip/true/crop/1000x666+0+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa8%2F3a%2F26e1fd440e90871ec53bb7407bfa%2Fd0e1fa3bbd504cca9472a9d128b7f6c3",
+      "published": "2026-08-11T20:02:39",
       "firstSeen": "2026-08-12T15:00:00.000Z",
       "lastSeen": "2026-08-12T15:00:00.000Z"
     }

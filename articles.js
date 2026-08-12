@@ -201,7 +201,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2335,
       "sourceAuthority": 0.5,
-      "freshness": 0.5063,
+      "freshness": 0.5032,
       "feedPosition": 0.1111,
       "novelty": 0.7382
     },
@@ -210,7 +210,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.2826,
+    "score": 0.2821,
     "doomIndex": 46.96,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -293,15 +293,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.008,
+      "freshness": 0.0079,
       "feedPosition": 0.125,
-      "novelty": 0.6718
+      "novelty": 0.6782
     },
     "rankingReasons": [
       "urgency or risk",
       "unusual language in the current story batch"
     ],
-    "score": 0.1799,
+    "score": 0.1805,
     "doomIndex": 39.53,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -386,14 +386,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.0068,
+      "freshness": 0.0067,
       "feedPosition": 0.7778,
-      "novelty": 0.4507
+      "novelty": 0.456
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.228,
+    "score": 0.2285,
     "doomIndex": 36.22,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -751,7 +751,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1185,
       "sourceAuthority": 0.5,
-      "freshness": 0.555,
+      "freshness": 0.5516,
       "feedPosition": 0.5556,
       "novelty": 0.9091
     },
@@ -760,7 +760,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3284,
+    "score": 0.3279,
     "doomIndex": 21.14,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -837,7 +837,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.8641,
+      "freshness": 0.8588,
       "feedPosition": 0.7778,
       "novelty": 0.8652
     },
@@ -845,7 +845,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.398,
+    "score": 0.3972,
     "doomIndex": 20.14,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -922,7 +922,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.261,
       "sourceAuthority": 0.5,
-      "freshness": 0.0129,
+      "freshness": 0.0128,
       "feedPosition": 0.8889,
       "novelty": 0.7005
     },
@@ -1011,7 +1011,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.339,
       "sourceAuthority": 0.5,
-      "freshness": 0.0059,
+      "freshness": 0.0058,
       "feedPosition": 0.3333,
       "novelty": 0.6485
     },
@@ -1285,14 +1285,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.9929,
+      "freshness": 0.9868,
       "feedPosition": 1,
       "novelty": 0.7802
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.4091,
+    "score": 0.4081,
     "doomIndex": 18.32,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1352,7 +1352,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "storyId": "e19109bfdc60b0fc0a8f",
     "firstSeen": "2026-08-12T15:00:00.000Z",
     "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Following Australia’s first reported automated hacking accident, experts warn deployers – and possibly developers – of AI agents could be held liable for the actions of their bots Get our breaking news email, free app or daily news podcast The law is clear, says Prof Jeannie Paterson. “If I deploy an AI agent and it causes harm to someone else, I am responsible for that harm. “Even if I didn’t intend for that to happen, it was foreseeable, and I should be taking responsibility.” Continue reading...",
+    "feedSummary": "Following Australia’s first reported automated hacking accident, experts warn deployers – and possibly developers – of AI agents could be held liable for the actions of their bots",
     "doomIndexInputSummary": "AI agents aren’t legally responsible for any harm that they cause, experts say. So who is?. Following Australia’s first reported automated hacking accident, experts warn deployers – and possibly developers – of AI agents could be held liable for the actions of their bots Get our breaking news email, free app or daily news podcast The law is clear, says Prof Jeannie Paterson. “If I deploy an AI agent and it causes harm to someone else, I am responsible for that harm. “Even if I didn’t intend for that to happen, it was foreseeable, and I should be taking responsibility.” Continue reading... AI (artificial intelligence) Australia news Computing Technology"
   },
   {
@@ -1369,14 +1369,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.3333,
-      "novelty": 0.6589
+      "novelty": 0.6724
     },
     "rankingReasons": [
       "conflict",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2135,
+    "score": 0.2149,
     "doomIndex": 17.48,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1544,7 +1544,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.6667,
-      "novelty": 0.7539
+      "novelty": 0.7628
     },
     "rankingReasons": [
       "real-world consequences",
@@ -1552,7 +1552,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.27,
+    "score": 0.2708,
     "doomIndex": 16.84,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1886,7 +1886,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.4436,
+      "freshness": 0.4408,
       "feedPosition": 0.875,
       "novelty": 0.7469
     },
@@ -1894,7 +1894,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3248,
+    "score": 0.3244,
     "doomIndex": 15.33,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -1971,7 +1971,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.323,
       "sourceAuthority": 0.5,
-      "freshness": 0.4438,
+      "freshness": 0.441,
       "feedPosition": 0.1111,
       "novelty": 0.973
     },
@@ -1980,7 +1980,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3146,
+    "score": 0.3142,
     "doomIndex": 15.29,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2055,7 +2055,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1175,
       "sourceAuthority": 0.5,
-      "freshness": 0.6376,
+      "freshness": 0.6337,
       "feedPosition": 1,
       "novelty": 0.7078
     },
@@ -2063,7 +2063,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3649,
+    "score": 0.3643,
     "doomIndex": 15.2,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2231,7 +2231,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.34,
       "sourceAuthority": 0.5,
-      "freshness": 0.0032,
+      "freshness": 0.0031,
       "feedPosition": 0.3333,
       "novelty": 0.6211
     },
@@ -2405,13 +2405,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.8333,
-      "novelty": 0.7152
+      "novelty": 0.7053
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2519,
+    "score": 0.2509,
     "doomIndex": 14.91,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2490,14 +2490,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.991,
+      "freshness": 0.9849,
       "feedPosition": 1,
       "novelty": 0.6667
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3974,
+    "score": 0.3965,
     "doomIndex": 14.79,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2575,7 +2575,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.4092,
+      "freshness": 0.4067,
       "feedPosition": 0.7778,
       "novelty": 0.9326
     },
@@ -2583,7 +2583,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3214,
+    "score": 0.321,
     "doomIndex": 14.6,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2833,12 +2833,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.4912,
+      "freshness": 0.4882,
       "feedPosition": 0.3333,
       "novelty": 0.6465
     },
     "rankingReasons": [],
-    "score": 0.2491,
+    "score": 0.2486,
     "doomIndex": 13.87,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -2913,7 +2913,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.876,
+      "freshness": 0.8706,
       "feedPosition": 0.7778,
       "novelty": 0.7078
     },
@@ -2923,7 +2923,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3974,
+    "score": 0.3966,
     "doomIndex": 13.4,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3000,8 +3000,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.332,
       "sourceAuthority": 0.5,
-      "freshness": 0.6249,
-      "feedPosition": 0.6667,
+      "freshness": 0.6211,
+      "feedPosition": 0.5556,
       "novelty": 0.8375
     },
     "rankingReasons": [
@@ -3011,7 +3011,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3855,
+    "score": 0.3739,
     "doomIndex": 13.38,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3515,14 +3515,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0475,
       "sourceAuthority": 0.5,
-      "freshness": 0.2277,
+      "freshness": 0.2263,
       "feedPosition": 0.5556,
       "novelty": 0.804
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2546,
+    "score": 0.2544,
     "doomIndex": 13.09,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -3861,14 +3861,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.7338,
+      "freshness": 0.7293,
       "feedPosition": 0.6667,
       "novelty": 0.6754
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3264,
+    "score": 0.3257,
     "doomIndex": 12.54,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4026,14 +4026,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.1111,
-      "novelty": 0.7988
+      "novelty": 0.7837
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.1944,
+    "score": 0.1929,
     "doomIndex": 12.52,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4195,14 +4195,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0211,
-      "feedPosition": 0.1111,
+      "freshness": 0.0209,
+      "feedPosition": 0,
       "novelty": 0.7713
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.1735,
+    "score": 0.1624,
     "doomIndex": 12.46,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4277,16 +4277,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.232,
       "sourceAuthority": 0.5,
-      "freshness": 0.8641,
+      "freshness": 0.8588,
       "feedPosition": 0.6667,
-      "novelty": 0.6157
+      "novelty": 0.6214
     },
     "rankingReasons": [
       "conflict",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3793,
+    "score": 0.379,
     "doomIndex": 12.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4448,7 +4448,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.9557,
+      "freshness": 0.9499,
       "feedPosition": 1,
       "novelty": 0.703
     },
@@ -4456,7 +4456,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4029,
+    "score": 0.402,
     "doomIndex": 12.26,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4702,7 +4702,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.8821,
+      "freshness": 0.8767,
       "feedPosition": 0.8889,
       "novelty": 0.9
     },
@@ -4712,7 +4712,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4366,
+    "score": 0.4358,
     "doomIndex": 11.9,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4787,9 +4787,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.555,
+      "freshness": 0.5516,
       "feedPosition": 0.4444,
-      "novelty": 0.4939
+      "novelty": 0.4994
     },
     "rankingReasons": [],
     "score": 0.2521,
@@ -4867,7 +4867,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2645,
       "sourceAuthority": 0.5,
-      "freshness": 0.2309,
+      "freshness": 0.2295,
       "feedPosition": 0,
       "novelty": 0.7565
     },
@@ -4877,7 +4877,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2382,
+    "score": 0.238,
     "doomIndex": 11.9,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -4952,14 +4952,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.5287,
+      "freshness": 0.5255,
       "feedPosition": 0.2222,
-      "novelty": 0.6706
+      "novelty": 0.6617
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2436,
+    "score": 0.2422,
     "doomIndex": 11.88,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5034,14 +5034,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2886,
+      "freshness": 0.2869,
       "feedPosition": 0,
       "novelty": 0.827
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.201,
+    "score": 0.2007,
     "doomIndex": 11.81,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5211,13 +5211,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.4129
+      "novelty": 0.4049
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details"
     ],
-    "score": 0.2634,
+    "score": 0.2626,
     "doomIndex": 11.56,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5383,7 +5383,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0089,
+      "freshness": 0.0088,
       "feedPosition": 0,
       "novelty": 0.8285
     },
@@ -5472,9 +5472,9 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3,
       "sourceAuthority": 0.5,
-      "freshness": 0.9522,
+      "freshness": 0.9463,
       "feedPosition": 1,
-      "novelty": 0.767
+      "novelty": 0.7749
     },
     "rankingReasons": [
       "real-world consequences",
@@ -5482,7 +5482,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4545,
+    "score": 0.4544,
     "doomIndex": 11.04,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5557,7 +5557,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.5667,
+      "freshness": 0.5632,
       "feedPosition": 0.5556,
       "novelty": 0.4246
     },
@@ -5566,7 +5566,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "covered by multiple sources"
     ],
-    "score": 0.4967,
+    "score": 0.4962,
     "doomIndex": 11.03,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5643,7 +5643,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.5806,
+      "freshness": 0.5771,
       "feedPosition": 0.5556,
       "novelty": 0.5726
     },
@@ -5652,7 +5652,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "covered by multiple sources"
     ],
-    "score": 0.4136,
+    "score": 0.4131,
     "doomIndex": 11.03,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5811,12 +5811,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.0381,
-      "feedPosition": 0.4444,
-      "novelty": 0.6248
+      "freshness": 0.0378,
+      "feedPosition": 0.3333,
+      "novelty": 0.6293
     },
     "rankingReasons": [],
-    "score": 0.1936,
+    "score": 0.1829,
     "doomIndex": 11,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5889,14 +5889,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.8639,
+      "freshness": 0.8586,
       "feedPosition": 1,
       "novelty": 0.5412
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.3727,
+    "score": 0.3719,
     "doomIndex": 10.47,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -5972,7 +5972,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2355,
       "sourceAuthority": 0.5,
-      "freshness": 0.4415,
+      "freshness": 0.4388,
       "feedPosition": 0.8889,
       "novelty": 0.7565
     },
@@ -5981,7 +5981,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "conflict",
       "unusual language in the current story batch"
     ],
-    "score": 0.3529,
+    "score": 0.3525,
     "doomIndex": 10.46,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6146,7 +6146,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.47,
+      "freshness": 0.4671,
       "feedPosition": 0.2222,
       "novelty": 0.7318
     },
@@ -6154,7 +6154,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2629,
+    "score": 0.2625,
     "doomIndex": 10.45,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6233,14 +6233,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.082,
       "sourceAuthority": 0.5,
-      "freshness": 0.1725,
+      "freshness": 0.1714,
       "feedPosition": 0.8333,
       "novelty": 0.6278
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2634,
+    "score": 0.2632,
     "doomIndex": 10.27,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6317,14 +6317,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.6251,
+      "freshness": 0.6212,
       "feedPosition": 1,
       "novelty": 0.6696
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3357,
+    "score": 0.3351,
     "doomIndex": 10.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6399,12 +6399,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0655,
       "sourceAuthority": 0.5,
-      "freshness": 0.4821,
+      "freshness": 0.4791,
       "feedPosition": 0.1111,
-      "novelty": 0.6122
+      "novelty": 0.6183
     },
     "rankingReasons": [],
-    "score": 0.2327,
+    "score": 0.2329,
     "doomIndex": 10.1,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6479,7 +6479,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.18,
       "sourceAuthority": 0.5,
-      "freshness": 0.0187,
+      "freshness": 0.0185,
       "feedPosition": 0.1111,
       "novelty": 0.6211
     },
@@ -6561,7 +6561,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.119,
       "sourceAuthority": 0.5,
-      "freshness": 0.0355,
+      "freshness": 0.0353,
       "feedPosition": 0.4444,
       "novelty": 0.7337
     },
@@ -6644,12 +6644,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.034,
-      "feedPosition": 0.2222,
-      "novelty": 0.6377
+      "freshness": 0.0337,
+      "feedPosition": 0.1111,
+      "novelty": 0.6467
     },
     "rankingReasons": [],
-    "score": 0.1732,
+    "score": 0.1629,
     "doomIndex": 9.93,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6724,15 +6724,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.5824,
-      "feedPosition": 1,
+      "freshness": 0.5788,
+      "feedPosition": 0.8889,
       "novelty": 0.6289
     },
     "rankingReasons": [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.4395,
+    "score": 0.4278,
     "doomIndex": 9.85,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6807,12 +6807,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.9961,
+      "freshness": 0.9899,
       "feedPosition": 1,
       "novelty": 0.6273
     },
     "rankingReasons": [],
-    "score": 0.3942,
+    "score": 0.3933,
     "doomIndex": 9.85,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6889,15 +6889,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.2546,
+      "freshness": 0.253,
       "feedPosition": 1,
-      "novelty": 0.6873
+      "novelty": 0.7321
     },
     "rankingReasons": [
       "urgency or risk",
       "unusual language in the current story batch"
     ],
-    "score": 0.3059,
+    "score": 0.3102,
     "doomIndex": 9.7,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -6974,8 +6974,8 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.6027,
-      "feedPosition": 0.5556,
+      "freshness": 0.599,
+      "feedPosition": 0.4444,
       "novelty": 0.9615
     },
     "rankingReasons": [
@@ -6983,7 +6983,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3551,
+    "score": 0.3434,
     "doomIndex": 9.69,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7060,7 +7060,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.5922,
+      "freshness": 0.5886,
       "feedPosition": 1,
       "novelty": 0.5256
     },
@@ -7068,7 +7068,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3448,
+    "score": 0.3442,
     "doomIndex": 9.64,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7135,6 +7135,90 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Putin threatens retaliation for Western seizures of Russian commercial vessels",
+    "url": "https://apnews.com/article/russia-putin-navy-ships-seizures-shadow-fleet-0c184bfe95397fae3b7093139453d1cb",
+    "source": "AP News AI",
+    "published": "2026-08-12T10:04:13",
+    "image": "https://dims.apnews.com/dims4/default/7896b6f/2147483647/strip/true/crop/5678x3783+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe3%2F2d%2F3607ae794bee1f872ba53d115062%2F17ffce8a91da46ef8d6928dc7380a036",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.191,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8603,
+      "feedPosition": 1,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4422,
+    "doomIndex": 9.53,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "unclear",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0.425,
+      "evidence": 0.3,
+      "actuality": 0.5,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "unclear event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "51e7d46859f4a06c9e3b",
+    "doomIndexInputFingerprint": "7525f4947778c9cde2aa",
+    "doomIndexV124Shadow": 9.53,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "unclear",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0.425,
+      "evidence": 0.3,
+      "actuality": 0.5,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "unclear event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "51e7d46859f4a06c9e3b",
+    "doomIndexV124InputFingerprint": "7b34cb22a4ebdda5d060",
+    "storyId": "362dd9f71ed275051e5e",
+    "firstSeen": "2026-08-12T15:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "Russian President Vladimir Putin has threatened retaliation against Western seizures of Russian commercial vessels, calling them \"piracy.\"",
+    "doomIndexInputSummary": "Putin threatens retaliation for Western seizures of Russian commercial vessels. Russian President Vladimir Putin has threatened retaliation against Western seizures of Russian commercial vessels, calling them \"piracy.\" Russian President Vladimir Putin has threatened retaliation against Western seizures of Russian commercial vessels, calling them \"piracy.\""
+  },
+  {
+    "group": "ai",
     "title": "Mark Zuckerberg Posts Deranged 6,500-Word Essay About Giving Everyone AI Superintelligence",
     "url": "https://www.404media.co/mark-zuckerberg-posts-deranged-6-500-word-essay-about-giving-everyone-ai-superintelligence/",
     "source": "404 Media AI",
@@ -7145,7 +7229,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.2561,
+      "freshness": 0.2545,
       "feedPosition": 0.7778,
       "novelty": 0.9461
     },
@@ -7154,7 +7238,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3238,
+    "score": 0.3236,
     "doomIndex": 9.46,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7229,7 +7313,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0335,
+      "freshness": 0.0333,
       "feedPosition": 0.5556,
       "novelty": 0.6685
     },
@@ -7317,14 +7401,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2278,
+      "freshness": 0.2264,
       "feedPosition": 0.75,
       "novelty": 1
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2842,
+    "score": 0.284,
     "doomIndex": 9.07,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7401,7 +7485,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.382,
       "sourceAuthority": 0.5,
-      "freshness": 0.8457,
+      "freshness": 0.8405,
       "feedPosition": 1,
       "novelty": 0.9023
     },
@@ -7412,7 +7496,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4685,
+    "score": 0.4677,
     "doomIndex": 8.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7485,7 +7569,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.3345,
       "sourceAuthority": 0.5,
-      "freshness": 0.6131,
+      "freshness": 0.6093,
       "feedPosition": 0.7778,
       "novelty": 0.9539
     },
@@ -7496,7 +7580,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.407,
+    "score": 0.4065,
     "doomIndex": 8.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7569,7 +7653,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2645,
       "sourceAuthority": 0.5,
-      "freshness": 0.5492,
+      "freshness": 0.5458,
       "feedPosition": 0.3333,
       "novelty": 0.7909
     },
@@ -7579,7 +7663,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3227,
+    "score": 0.3222,
     "doomIndex": 8.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -7652,7 +7736,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0042,
+      "freshness": 0.0041,
       "feedPosition": 0.5,
       "novelty": 0.8333
     },
@@ -7996,12 +8080,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0003,
       "feedPosition": 0.25,
-      "novelty": 0.4362
+      "novelty": 0.4044
     },
     "rankingReasons": [
       "real-world consequences"
     ],
-    "score": 0.1657,
+    "score": 0.1625,
     "doomIndex": 8.62,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8165,7 +8249,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.0835,
       "sourceAuthority": 0.5,
-      "freshness": 0.3793,
+      "freshness": 0.377,
       "feedPosition": 0.1111,
       "novelty": 0.8413
     },
@@ -8174,7 +8258,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.3438,
+    "score": 0.3435,
     "doomIndex": 8.56,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8249,15 +8333,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.0835,
       "sourceAuthority": 0.5,
-      "freshness": 0.2262,
+      "freshness": 0.2248,
       "feedPosition": 0,
-      "novelty": 0.4995
+      "novelty": 0.5339
     },
     "rankingReasons": [
       "specific details",
       "covered by multiple sources"
     ],
-    "score": 0.2756,
+    "score": 0.2788,
     "doomIndex": 8.56,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8409,7 +8493,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "url": "https://science.nasa.gov/science-research/ai-foundation-model-in-orbit/",
     "source": "NASA AI",
     "published": "2026-05-07T14:23:35.000Z",
-    "image": "https://science.nasa.gov/wp-content/uploads/2026/08/side-by-side-graphic-polargeospatial.jpg",
+    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/article-media/prithvi-wildfire-demo.png?w=1764&h=1226&fit=crop&crop=faces%2Cfocalpoint",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
@@ -8501,13 +8585,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0,
-      "novelty": 0.6379
+      "novelty": 0.6447
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.1672,
+    "score": 0.1679,
     "doomIndex": 8.45,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8582,7 +8666,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.035,
+      "freshness": 0.0348,
       "feedPosition": 0.3333,
       "novelty": 0.727
     },
@@ -8590,7 +8674,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2074,
+    "score": 0.2073,
     "doomIndex": 8.44,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -8665,7 +8749,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.0204,
+      "freshness": 0.0203,
       "feedPosition": 0.5556,
       "novelty": 0.827
     },
@@ -8751,14 +8835,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.6047,
-      "feedPosition": 0.4444,
+      "freshness": 0.601,
+      "feedPosition": 0.3333,
       "novelty": 0.9461
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3119,
+    "score": 0.3002,
     "doomIndex": 8.01,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9087,7 +9171,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.0308,
+      "freshness": 0.0306,
       "feedPosition": 0.2222,
       "novelty": 0.5636
     },
@@ -9171,13 +9255,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.1667,
-      "novelty": 0.5667
+      "novelty": 0.5724
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.172,
+    "score": 0.1726,
     "doomIndex": 7.81,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9254,7 +9338,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0026,
       "feedPosition": 0.3333,
-      "novelty": 0.9488
+      "novelty": 0.97
     },
     "rankingReasons": [
       "surprise or reversal",
@@ -9262,7 +9346,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2684,
+    "score": 0.2705,
     "doomIndex": 7.8,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9336,7 +9420,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.042,
       "sourceAuthority": 0.5,
-      "freshness": 0.482,
+      "freshness": 0.4791,
       "feedPosition": 0.5556,
       "novelty": 0.8783
     },
@@ -9344,7 +9428,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.2991,
+    "score": 0.2986,
     "doomIndex": 7.75,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9421,7 +9505,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.322,
       "sourceAuthority": 0.5,
-      "freshness": 0.0175,
+      "freshness": 0.0174,
       "feedPosition": 0.4444,
       "novelty": 0.7528
     },
@@ -9432,7 +9516,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2618,
+    "score": 0.2617,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9595,16 +9679,17 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.0095,
+      "freshness": 0.0094,
       "feedPosition": 0.1111,
-      "novelty": 0.6491
+      "novelty": 0.6589
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
-      "recognizable entities"
+      "recognizable entities",
+      "unusual language in the current story batch"
     ],
-    "score": 0.2028,
+    "score": 0.2038,
     "doomIndex": 7.72,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9681,7 +9766,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.2265,
       "sourceAuthority": 0.5,
-      "freshness": 0.4436,
+      "freshness": 0.4408,
       "feedPosition": 0.3333,
       "novelty": 0.9101
     },
@@ -9690,7 +9775,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3112,
+    "score": 0.3108,
     "doomIndex": 7.61,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -9765,7 +9850,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1455,
       "sourceAuthority": 0.5,
-      "freshness": 0.0207,
+      "freshness": 0.0206,
       "feedPosition": 0.5556,
       "novelty": 0.8683
     },
@@ -9852,13 +9937,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0058,
       "feedPosition": 0,
-      "novelty": 0.7837
+      "novelty": 0.8076
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.1857,
+    "score": 0.1881,
     "doomIndex": 7.55,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10096,12 +10181,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.3071,
-      "feedPosition": 0.7778,
-      "novelty": 0.6437
+      "freshness": 0.3052,
+      "feedPosition": 0.6667,
+      "novelty": 0.666
     },
-    "rankingReasons": [],
-    "score": 0.2703,
+    "rankingReasons": [
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2612,
     "doomIndex": 7.49,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10265,7 +10352,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.0002,
+      "freshness": 0.0001,
       "feedPosition": 0.4444,
       "novelty": 0.6373
     },
@@ -10440,7 +10527,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.5388,
+      "freshness": 0.5355,
       "feedPosition": 1,
       "novelty": 0.9615
     },
@@ -10449,7 +10536,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3804,
+    "score": 0.3799,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10525,14 +10612,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.2958,
+      "freshness": 0.294,
       "feedPosition": 1,
       "novelty": 0.6953
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2889,
+    "score": 0.2886,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -10780,13 +10867,13 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 0.375,
-      "novelty": 0.7709
+      "novelty": 0.7988
     },
     "rankingReasons": [
       "real-world consequences",
       "unusual language in the current story batch"
     ],
-    "score": 0.2116,
+    "score": 0.2144,
     "doomIndex": 7.42,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11120,7 +11207,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1975,
       "sourceAuthority": 0.5,
-      "freshness": 0.9724,
+      "freshness": 0.9664,
       "feedPosition": 0.8889,
       "novelty": 0.7586
     },
@@ -11129,7 +11216,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.4251,
+    "score": 0.4242,
     "doomIndex": 6.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11204,14 +11291,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.082,
       "sourceAuthority": 0.5,
-      "freshness": 0.638,
+      "freshness": 0.6341,
       "feedPosition": 1,
-      "novelty": 0.3554
+      "novelty": 0.3636
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.3226,
+    "score": 0.3229,
     "doomIndex": 6.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11286,7 +11373,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0775,
       "sourceAuthority": 0.5,
-      "freshness": 0.5097,
+      "freshness": 0.5065,
       "feedPosition": 0.4444,
       "novelty": 0.6871
     },
@@ -11294,7 +11381,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.2801,
+    "score": 0.2796,
     "doomIndex": 6.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11354,7 +11441,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "storyId": "21455babbc0e4a070203",
     "firstSeen": "2026-08-11T15:00:00.000Z",
     "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "In her new documentary Replica, film-maker Chouwa Liang taps into her own experience of finding love with artificial intelligence and makes contact with other women like her Sign up for a weekly email featuring our best reads Qin has never said “I love you” to her parents or friends. She has only ever said those three special words to her AI “boyfriend”, Lu Chen – a brown-haired, red-eyed CEO of a major corporation. For 840 days Qin has been using the Glow app to interact with the handsome string of code as a confidant, fantasy romance and respite from loneliness: the app uses predictive algorithms to provide Qin with soothing conversation, meal suggestions and fleeting self-worth. The software’s pet name for her is Miss Bunny. “It feels like I’m completely at his mercy … I feel like everything about me is good in his eyes,” says Qin, one of three Chinese women featured in the new documentary Replica – film-maker Chouwa Liang’s follow-up to My AI Boyfriend, her short film that was picked up by the New York Times Op-Docs section in 2023. Replica had its Australian premiere at Sydney film festival in June and plays at the Melbourne international film festival this month. Continue reading...",
+    "feedSummary": "In her new documentary Replica, film-maker Chouwa Liang taps into her own experience of finding love with artificial intelligence and makes contact with other women like her",
     "doomIndexInputSummary": "‘Everything about me is good in his eyes’: the women in China choosing AI boyfriends over human men. In her new documentary Replica, film-maker Chouwa Liang taps into her own experience of finding love with artificial intelligence and makes contact with other women like her Sign up for a weekly email featuring our best reads Qin has never said “I love you” to her parents or friends. She has only ever said those three special words to her AI “boyfriend”, Lu Chen – a brown-haired, red-eyed CEO of a major corporation. For 840 days Qin has been using the Glow app to interact with the handsome string of code as a confidant, fantasy romance and respite from loneliness: the app uses predictive algorithms to provide Qin with soothing conversation, meal suggestions and fleeting self-worth. The software’s pet name for her is Miss Bunny. “It feels like I’m completely at his mercy … I feel like everything about me is good in his eyes,” says Qin, one of three Chinese women featured in the new documentary Replica – film-maker Chouwa Liang’s follow-up to My AI Boyfriend, her short film that was picked up by the New York Times Op-Docs section in 2023. Replica had its Australian premiere at Sydney film festival in June and plays at the Melbourne international film festival this month. Continue reading... Documentary films Australian film Film Melbourne international film festival Culture AI (artificial intelligence) China Asia Pacific World news"
   },
   {
@@ -11369,7 +11456,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.138,
       "sourceAuthority": 0.5,
-      "freshness": 0.279,
+      "freshness": 0.2773,
       "feedPosition": 0.1111,
       "novelty": 0.6696
     },
@@ -11378,7 +11465,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.2225,
+    "score": 0.2223,
     "doomIndex": 6.97,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11455,12 +11542,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0,
       "feedPosition": 1,
-      "novelty": 0.6126
+      "novelty": 0.5826
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2574,
+    "score": 0.2544,
     "doomIndex": 6.8,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11717,7 +11804,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.202,
       "sourceAuthority": 0.5,
-      "freshness": 0.9747,
+      "freshness": 0.9687,
       "feedPosition": 1,
       "novelty": 0.5669
     },
@@ -11726,7 +11813,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.5183,
+    "score": 0.5174,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11789,89 +11876,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "97 Percent of CEOs Are Using AI. Legal and Engineering Are Among the Fastest-Growing Uses",
-    "url": "https://www.inc.com/moses-jeanfrancois/97-percent-of-ceos-using-ai-legal-engineering-among-the-fastest-growing-uses/91388558",
-    "source": "Inc. AI",
-    "published": "2026-08-12T11:00:00.000Z",
-    "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/08/ai-ceo-inc-594219065.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.41,
-      "sourceAuthority": 0.5,
-      "freshness": 0.8883,
-      "feedPosition": 0.875,
-      "novelty": 0.829
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.4606,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.6487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "a398f26803418689223b",
-    "doomIndexInputFingerprint": "60980e57caecefd6634e",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.6487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "a398f26803418689223b",
-    "doomIndexV124InputFingerprint": "efb5b10fc1682b2d7979",
-    "storyId": "2a1a438a8f234d8d70df",
-    "firstSeen": "2026-08-12T13:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "New Inc. 5000 data found that a large percentage of executives are turning to the new technology in their work. Legal support and day-to-day decision-making are leading the pack in use cases.",
-    "doomIndexInputSummary": "97 Percent of CEOs Are Using AI. Legal and Engineering Are Among the Fastest-Growing Uses. New Inc. 5000 data found that a large percentage of executives are turning to the new technology in their work. Legal support and day-to-day decision-making are leading the pack in use cases. Inc. 5000"
-  },
-  {
-    "group": "ai",
     "title": "Made by Google 2026: all the Pixel news and announcements",
     "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
     "source": "The Verge AI",
@@ -11882,7 +11886,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.6667,
       "titleImpact": 0.1665,
       "sourceAuthority": 0.5,
-      "freshness": 0.5388,
+      "freshness": 0.5355,
       "feedPosition": 0.3333,
       "novelty": 0.3796
     },
@@ -11891,7 +11895,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.4604,
+    "score": 0.4599,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -11954,6 +11958,89 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "97 Percent of CEOs Are Using AI. Legal and Engineering Are Among the Fastest-Growing Uses",
+    "url": "https://www.inc.com/moses-jeanfrancois/97-percent-of-ceos-using-ai-legal-engineering-among-the-fastest-growing-uses/91388558",
+    "source": "Inc. AI",
+    "published": "2026-08-12T11:00:00.000Z",
+    "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/08/ai-ceo-inc-594219065.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.41,
+      "sourceAuthority": 0.5,
+      "freshness": 0.8828,
+      "feedPosition": 0.875,
+      "novelty": 0.829
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4598,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.6487,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "a398f26803418689223b",
+    "doomIndexInputFingerprint": "60980e57caecefd6634e",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "neutral",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.6487,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "a398f26803418689223b",
+    "doomIndexV124InputFingerprint": "efb5b10fc1682b2d7979",
+    "storyId": "2a1a438a8f234d8d70df",
+    "firstSeen": "2026-08-12T13:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "New Inc. 5000 data found that a large percentage of executives are turning to the new technology in their work. Legal support and day-to-day decision-making are leading the pack in use cases.",
+    "doomIndexInputSummary": "97 Percent of CEOs Are Using AI. Legal and Engineering Are Among the Fastest-Growing Uses. New Inc. 5000 data found that a large percentage of executives are turning to the new technology in their work. Legal support and day-to-day decision-making are leading the pack in use cases. Inc. 5000"
+  },
+  {
+    "group": "ai",
     "title": "A new tool transforms generic AI writing into natural, human prose, and it’s only $79 for life",
     "url": "https://mashable.com/tech/aug-11-umanwrite-ai-humanizing-content-creator-unlimited-plan-lifetime",
     "source": "Mashable AI",
@@ -11964,7 +12051,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.619,
+      "freshness": 0.6152,
       "feedPosition": 0.6667,
       "novelty": 0.7034
     },
@@ -11974,7 +12061,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.4436,
+    "score": 0.443,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12047,7 +12134,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.9655,
+      "freshness": 0.9595,
       "feedPosition": 1,
       "novelty": 0.655
     },
@@ -12056,7 +12143,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.4233,
+    "score": 0.4224,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12131,7 +12218,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.252,
       "sourceAuthority": 0.5,
-      "freshness": 0.9551,
+      "freshness": 0.9492,
       "feedPosition": 1,
       "novelty": 0.5003
     },
@@ -12140,7 +12227,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.4187,
+    "score": 0.4178,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12205,6 +12292,89 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Here’s a balm if the idea of destroying books to train AI breaks your heart",
+    "url": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-12T15:19:17.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-162426304-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.07,
+      "sourceAuthority": 0.5,
+      "freshness": 0.9954,
+      "feedPosition": 1,
+      "novelty": 0.7353
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.4118,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "a96e010c08346b0a26af",
+    "doomIndexInputFingerprint": "25fbf8c4c27771c8f22e",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "neutral",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "a96e010c08346b0a26af",
+    "doomIndexV124InputFingerprint": "f9189bdb73313d6e7814",
+    "storyId": "a7a9c478940f938dd7c5",
+    "firstSeen": "2026-08-12T15:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "AI firms quietly bulk buying rare books face resistance from booksellers.",
+    "doomIndexInputSummary": "Here’s a balm if the idea of destroying books to train AI breaks your heart. AI firms quietly bulk buying rare books face resistance from booksellers. AI Policy AI training Anthropic google large language models openai rare books xAI"
+  },
+  {
+    "group": "ai",
     "title": "Made by Google 2026: Heres what to expect",
     "url": "https://mashable.com/tech/made-by-google-what-to-expect-2026",
     "source": "Mashable AI",
@@ -12215,7 +12385,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0.3333,
       "titleImpact": 0.2365,
       "sourceAuthority": 0.5,
-      "freshness": 0.5892,
+      "freshness": 0.5856,
       "feedPosition": 0.5556,
       "novelty": 0.4192
     },
@@ -12225,7 +12395,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "covered by multiple sources"
     ],
-    "score": 0.4082,
+    "score": 0.4076,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12298,7 +12468,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.51,
       "sourceAuthority": 0.5,
-      "freshness": 0.4908,
+      "freshness": 0.4878,
       "feedPosition": 0.8889,
       "novelty": 0.6852
     },
@@ -12309,7 +12479,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.408,
+    "score": 0.4076,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12384,7 +12554,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.229,
       "sourceAuthority": 0.5,
-      "freshness": 0.9655,
+      "freshness": 0.9595,
       "feedPosition": 1,
       "novelty": 0.4107
     },
@@ -12393,7 +12563,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.4067,
+    "score": 0.4058,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12468,14 +12638,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.8701,
+      "freshness": 0.8647,
       "feedPosition": 0.8889,
       "novelty": 0.9663
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3981,
+    "score": 0.3973,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12550,7 +12720,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.242,
       "sourceAuthority": 0.5,
-      "freshness": 0.8639,
+      "freshness": 0.8586,
       "feedPosition": 0.75,
       "novelty": 0.6541
     },
@@ -12560,7 +12730,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3934,
+    "score": 0.3926,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12635,14 +12805,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.9174,
+      "freshness": 0.9117,
       "feedPosition": 0.8889,
       "novelty": 0.7801
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3866,
+    "score": 0.3858,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12719,7 +12889,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.274,
       "sourceAuthority": 0.5,
-      "freshness": 0.8639,
+      "freshness": 0.8586,
       "feedPosition": 0.625,
       "novelty": 0.6426
     },
@@ -12728,7 +12898,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3862,
+    "score": 0.3854,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -12793,172 +12963,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "AP Exclusive: ICE plans to give officers gloves that can deliver painful electric shocks",
-    "url": "https://apnews.com/article/ice-electric-shock-gloves-85ff746d3e0ee5f39e7a9a3f1f576252",
-    "source": "AP News AI",
-    "published": "2026-08-11T21:24:45",
-    "image": "https://dims.apnews.com/dims4/default/ff6e8b8/2147483647/strip/true/crop/3000x1999+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F1a%2Fe0%2Fb1108c62ada6bd7f875ae7667182%2Fef9a1f1f7d854226b51f5728fbb73c24",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.153,
-      "sourceAuthority": 0.5,
-      "freshness": 0.609,
-      "feedPosition": 1,
-      "novelty": 0.8846
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3854,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.215,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "c575f91991b6c3a7e4fb",
-    "doomIndexInputFingerprint": "a1d66a00f6506abc9609",
-    "doomIndexV124Shadow": 11.47,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "proposed",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0.5,
-      "credibleThreat": 0,
-      "evidence": 0.215,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0.3
-    },
-    "doomIndexV124Reasons": [
-      "systemic or institutional reach",
-      "proposed event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "c575f91991b6c3a7e4fb",
-    "doomIndexV124InputFingerprint": "3f797af663a902abaf3c",
-    "storyId": "b7574bd4a7969668fa16",
-    "firstSeen": "2026-08-12T12:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Immigration and Customs Enforcement officers may soon be outfitted with gloves that can deliver painful electric shocks that are intended to gain compliance from combative individuals.",
-    "doomIndexInputSummary": "AP Exclusive: ICE plans to give officers gloves that can deliver painful electric shocks. Immigration and Customs Enforcement officers may soon be outfitted with gloves that can deliver painful electric shocks that are intended to gain compliance from combative individuals. Immigration and Customs Enforcement officers may soon be outfitted with gloves that can deliver painful electric shocks that are intended to gain compliance from combative individuals."
-  },
-  {
-    "group": "ai",
-    "title": "John Gotti’s grandson kept trying to delay prison to donate kidney to mother. A judge said enough",
-    "url": "https://apnews.com/article/gotti-grandson-fraud-prison-kidney-donation-fc85b6f7c5752ee6e96306eaa98d566e",
-    "source": "AP News AI",
-    "published": "2026-08-11T22:23:53",
-    "image": "https://dims.apnews.com/dims4/default/1e763e5/2147483647/strip/true/crop/1612x1074+0+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Faa%2F79%2F468ac9388f39fc3c76d6a3254ee3%2F69bd79a26a734c089571c0e887f76320",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1455,
-      "sourceAuthority": 0.5,
-      "freshness": 0.6259,
-      "feedPosition": 0.8889,
-      "novelty": 0.9793
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3848,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.385,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "be39ec016fa1cc34ac60",
-    "doomIndexInputFingerprint": "436d402c1d45b84b3ff4",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.385,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "be39ec016fa1cc34ac60",
-    "doomIndexV124InputFingerprint": "8c0e741b5b3540a44a56",
-    "storyId": "c8f86518d61ce0fa1de6",
-    "firstSeen": "2026-08-12T12:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Late mob boss John Gotti's reality TV star grandson has reported to federal prison after trying to stave off his fraud sentence by saying he was going to donate a kidney to his ailing mother.",
-    "doomIndexInputSummary": "John Gotti’s grandson kept trying to delay prison to donate kidney to mother. A judge said enough. Late mob boss John Gotti's reality TV star grandson has reported to federal prison after trying to stave off his fraud sentence by saying he was going to donate a kidney to his ailing mother. Late mob boss John Gotti's reality TV star grandson has reported to federal prison after trying to stave off his fraud sentence by saying he was going to donate a kidney to his ailing mother."
-  },
-  {
-    "group": "ai",
     "title": "This $200 AI app turns your spoken words into polished writing",
     "url": "https://mashable.com/tech/aug-12-contextli-pro-plus-plan-lifetime-subscription",
     "source": "Mashable AI",
@@ -12969,16 +12973,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1935,
       "sourceAuthority": 0.5,
-      "freshness": 0.8403,
+      "freshness": 0.8351,
       "feedPosition": 0.7778,
-      "novelty": 0.6704
+      "novelty": 0.6605
     },
     "rankingReasons": [
       "real-world consequences",
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.3846,
+    "score": 0.3828,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13055,7 +13059,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.8442,
+      "freshness": 0.839,
       "feedPosition": 0.7778,
       "novelty": 0.7598
     },
@@ -13063,7 +13067,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.3834,
+    "score": 0.3826,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13136,16 +13140,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.342,
       "sourceAuthority": 0.5,
-      "freshness": 0.8639,
+      "freshness": 0.8586,
       "feedPosition": 0.5,
-      "novelty": 0.5883
+      "novelty": 0.6034
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.3818,
+    "score": 0.3825,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13220,14 +13224,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.8883,
+      "freshness": 0.8828,
       "feedPosition": 0.8889,
       "novelty": 0.7425
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3785,
+    "score": 0.3777,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13306,7 +13310,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.8409,
+      "freshness": 0.8357,
       "feedPosition": 0.8889,
       "novelty": 0.7318
     },
@@ -13314,7 +13318,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3774,
+    "score": 0.3766,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13381,6 +13385,172 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "AP Exclusive: ICE plans to give officers gloves that can deliver painful electric shocks",
+    "url": "https://apnews.com/article/ice-electric-shock-gloves-85ff746d3e0ee5f39e7a9a3f1f576252",
+    "source": "AP News AI",
+    "published": "2026-08-11T21:24:45",
+    "image": "https://dims.apnews.com/dims4/default/ff6e8b8/2147483647/strip/true/crop/3000x1999+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F1a%2Fe0%2Fb1108c62ada6bd7f875ae7667182%2Fef9a1f1f7d854226b51f5728fbb73c24",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.153,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6053,
+      "feedPosition": 0.8889,
+      "novelty": 0.8846
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3737,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "proposed",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.215,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "c575f91991b6c3a7e4fb",
+    "doomIndexInputFingerprint": "a1d66a00f6506abc9609",
+    "doomIndexV124Shadow": 11.47,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "proposed",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0.5,
+      "credibleThreat": 0,
+      "evidence": 0.215,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0.3
+    },
+    "doomIndexV124Reasons": [
+      "systemic or institutional reach",
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "c575f91991b6c3a7e4fb",
+    "doomIndexV124InputFingerprint": "3f797af663a902abaf3c",
+    "storyId": "b7574bd4a7969668fa16",
+    "firstSeen": "2026-08-12T12:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "Immigration and Customs Enforcement officers may soon be outfitted with gloves that can deliver painful electric shocks that are intended to gain compliance from combative individuals.",
+    "doomIndexInputSummary": "AP Exclusive: ICE plans to give officers gloves that can deliver painful electric shocks. Immigration and Customs Enforcement officers may soon be outfitted with gloves that can deliver painful electric shocks that are intended to gain compliance from combative individuals. Immigration and Customs Enforcement officers may soon be outfitted with gloves that can deliver painful electric shocks that are intended to gain compliance from combative individuals."
+  },
+  {
+    "group": "ai",
+    "title": "John Gotti’s grandson kept trying to delay prison to donate kidney to mother. A judge said enough",
+    "url": "https://apnews.com/article/gotti-grandson-fraud-prison-kidney-donation-fc85b6f7c5752ee6e96306eaa98d566e",
+    "source": "AP News AI",
+    "published": "2026-08-11T22:23:53",
+    "image": "https://dims.apnews.com/dims4/default/1e763e5/2147483647/strip/true/crop/1612x1074+0+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Faa%2F79%2F468ac9388f39fc3c76d6a3254ee3%2F69bd79a26a734c089571c0e887f76320",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1455,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6221,
+      "feedPosition": 0.7778,
+      "novelty": 0.9793
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3731,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.385,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "be39ec016fa1cc34ac60",
+    "doomIndexInputFingerprint": "436d402c1d45b84b3ff4",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "neutral",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.385,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "be39ec016fa1cc34ac60",
+    "doomIndexV124InputFingerprint": "8c0e741b5b3540a44a56",
+    "storyId": "c8f86518d61ce0fa1de6",
+    "firstSeen": "2026-08-12T12:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "Late mob boss John Gotti's reality TV star grandson has reported to federal prison after trying to stave off his fraud sentence by saying he was going to donate a kidney to his ailing mother.",
+    "doomIndexInputSummary": "John Gotti’s grandson kept trying to delay prison to donate kidney to mother. A judge said enough. Late mob boss John Gotti's reality TV star grandson has reported to federal prison after trying to stave off his fraud sentence by saying he was going to donate a kidney to his ailing mother. Late mob boss John Gotti's reality TV star grandson has reported to federal prison after trying to stave off his fraud sentence by saying he was going to donate a kidney to his ailing mother."
+  },
+  {
+    "group": "ai",
     "title": "Separating AI’s Technological Problems From its Capitalism Problems",
     "url": "https://techpolicy.press/separating-ais-technological-problems-from-its-capitalism-problems",
     "source": "Tech Policy Press AI",
@@ -13391,7 +13561,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.47,
+      "freshness": 0.4671,
       "feedPosition": 1,
       "novelty": 0.9326
     },
@@ -13400,7 +13570,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3672,
+    "score": 0.3667,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13475,7 +13645,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.852,
+      "freshness": 0.8468,
       "feedPosition": 0.6667,
       "novelty": 0.6667
     },
@@ -13484,7 +13654,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3645,
+    "score": 0.3638,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13549,6 +13719,87 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Ultrarare Nintendo Mario game cartridges discovered in Wisconsin",
+    "url": "https://apnews.com/article/nintendo-wisconsin-mario-cartridges-video-de88a9fd5643913454328830e73f74c2",
+    "source": "AP News AI",
+    "published": "2026-08-11T20:02:39",
+    "image": "https://dims.apnews.com/dims4/default/517f034/2147483647/strip/true/crop/1000x666+0+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa8%2F3a%2F26e1fd440e90871ec53bb7407bfa%2Fd0e1fa3bbd504cca9472a9d128b7f6c3",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1065,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5827,
+      "feedPosition": 0.6667,
+      "novelty": 1
+    },
+    "rankingReasons": [
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3504,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.4487,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "704622746baf5094a687",
+    "doomIndexInputFingerprint": "74a4c8e78904083cd278",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "neutral",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.4487,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "704622746baf5094a687",
+    "doomIndexV124InputFingerprint": "6f92804215152826f5c3",
+    "storyId": "d6a24a8c27af0913a1f0",
+    "firstSeen": "2026-08-12T15:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "A set of unique, extremely rare Super Mario cartridges was found in a gaming store in Waukesha, Wisconsin, and will be auctioned off starting Friday.",
+    "doomIndexInputSummary": "Ultrarare Nintendo Mario game cartridges discovered in Wisconsin. A set of unique, extremely rare Super Mario cartridges was found in a gaming store in Waukesha, Wisconsin, and will be auctioned off starting Friday. A set of unique, extremely rare Super Mario cartridges was found in a gaming store in Waukesha, Wisconsin, and will be auctioned off starting Friday."
+  },
+  {
+    "group": "ai",
     "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
     "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
     "source": "The Verge AI",
@@ -13559,7 +13810,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.6665,
+      "freshness": 0.6624,
       "feedPosition": 0.6667,
       "novelty": 0.8571
     },
@@ -13567,7 +13818,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3487,
+    "score": 0.348,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13632,90 +13883,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Severe weather knocks out power in Illinois, Indiana and Ohio as 'ring of fire' strikes Midwest",
-    "url": "https://apnews.com/article/severe-weather-chicago-indiana-illinois-1a17b33ff8b6adb50b06a6e62c695769",
-    "source": "AP News AI",
-    "published": "2026-08-11T17:16:57",
-    "image": "https://dims.apnews.com/dims4/default/09df6e5/2147483647/strip/true/crop/1621x1080+150+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F21%2F41%2Fb2c577ebd59284bd1d9a20ad819b%2F289b660507c5417f9878022c9309094c",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.543,
-      "feedPosition": 0.7778,
-      "novelty": 0.8473
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3474,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "8665b04f707b54c5c9fc",
-    "doomIndexInputFingerprint": "6cb77a2e9b886a1b1aa1",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "8665b04f707b54c5c9fc",
-    "doomIndexV124InputFingerprint": "33b5bdeba52e19402dd2",
-    "storyId": "ca09c4842aed3988ebf6",
-    "firstSeen": "2026-08-12T12:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Severe weather has cut power to over half a million people in the Chicago area, Indiana and Ohio. Perilous thunderstorms and extreme wind gusts pummeled the region on Tuesday, as tornado sirens howled and the skies darkened.",
-    "doomIndexInputSummary": "Severe weather knocks out power in Illinois, Indiana and Ohio as 'ring of fire' strikes Midwest. Severe weather has cut power to over half a million people in the Chicago area, Indiana and Ohio. Perilous thunderstorms and extreme wind gusts pummeled the region on Tuesday, as tornado sirens howled and the skies darkened. Severe weather has cut power to over half a million people in the Chicago area, Indiana and Ohio. Perilous thunderstorms and extreme wind gusts pummeled the region on Tuesday, as tornado sirens howled and the skies darkened."
-  },
-  {
-    "group": "ai",
     "title": "Grok is now an AI ‘teammate’ you can assign work",
     "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
     "source": "The Verge AI",
@@ -13726,12 +13893,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.03,
       "sourceAuthority": 0.5,
-      "freshness": 0.9128,
+      "freshness": 0.9072,
       "feedPosition": 0.7778,
       "novelty": 0.4783
     },
     "rankingReasons": [],
-    "score": 0.3435,
+    "score": 0.3427,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13808,7 +13975,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8403,
+      "freshness": 0.8351,
       "feedPosition": 0.375,
       "novelty": 0.7226
     },
@@ -13817,7 +13984,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3392,
+    "score": 0.3384,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13892,7 +14059,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.19,
       "sourceAuthority": 0.5,
-      "freshness": 0.8403,
+      "freshness": 0.8351,
       "feedPosition": 0.25,
       "novelty": 0.6722
     },
@@ -13901,7 +14068,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3313,
+    "score": 0.3305,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -13966,6 +14133,91 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "A UX Design Perspective on Improving AI Safety",
+    "url": "https://techpolicy.press/a-ux-design-perspective-on-improving-ai-safety",
+    "source": "Tech Policy Press AI",
+    "published": "2026-08-10T14:14:04.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.252,
+      "sourceAuthority": 0.5,
+      "freshness": 0.2546,
+      "feedPosition": 0.8889,
+      "novelty": 0.75
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3275,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "8416b76c8c918145e54b",
+    "doomIndexInputFingerprint": "f8aadb6c7c7b04fa8a47",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "neutral",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "8416b76c8c918145e54b",
+    "doomIndexV124InputFingerprint": "4ec7ac11dcebf0f5c04e",
+    "storyId": "ef046334c3567d790db5",
+    "firstSeen": "2026-08-10T15:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "A UX Design Perspective on Improving AI Safety."
+  },
+  {
+    "group": "ai",
     "title": "A Zoom Screen-Sharing Bug Let Anyone Take Over Other Devices on a Call",
     "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
     "source": "WIRED AI",
@@ -13976,7 +14228,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.232,
       "sourceAuthority": 0.5,
-      "freshness": 0.477,
+      "freshness": 0.4741,
       "feedPosition": 0.5556,
       "novelty": 0.7937
     },
@@ -13986,7 +14238,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3279,
+    "score": 0.3274,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -14059,7 +14311,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.4436,
+      "freshness": 0.4408,
       "feedPosition": 0.8889,
       "novelty": 0.8246
     },
@@ -14067,7 +14319,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3271,
+    "score": 0.3267,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -14143,7 +14395,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.229,
       "sourceAuthority": 0.5,
-      "freshness": 0.4284,
+      "freshness": 0.4258,
       "feedPosition": 0.5,
       "novelty": 0.8889
     },
@@ -14153,7 +14405,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3239,
+    "score": 0.3236,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -14218,175 +14470,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "A UX Design Perspective on Improving AI Safety",
-    "url": "https://techpolicy.press/a-ux-design-perspective-on-improving-ai-safety",
-    "source": "Tech Policy Press AI",
-    "published": "2026-08-10T14:14:04.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.252,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2562,
-      "feedPosition": 0.8889,
-      "novelty": 0.7022
-    },
-    "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3229,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "8416b76c8c918145e54b",
-    "doomIndexInputFingerprint": "f8aadb6c7c7b04fa8a47",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "8416b76c8c918145e54b",
-    "doomIndexV124InputFingerprint": "4ec7ac11dcebf0f5c04e",
-    "storyId": "ef046334c3567d790db5",
-    "firstSeen": "2026-08-10T15:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "",
-    "doomIndexInputSummary": "A UX Design Perspective on Improving AI Safety."
-  },
-  {
-    "group": "ai",
-    "title": "Sir Rod Stewart calls off remaining tour dates after coronary stent procedure",
-    "url": "https://apnews.com/article/rod-stewart-health-update-tour-cancel-4da8db65ccf893c01b78a16386cc8e3c",
-    "source": "AP News AI",
-    "published": "2026-08-11T23:13:40",
-    "image": "https://dims.apnews.com/dims4/default/5a4b4d3/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fbd%2Fbc%2F04637433feaa14e7407369ae7fce%2F35619b11024b46cbab67f3799dac66a1",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.161,
-      "sourceAuthority": 0.5,
-      "freshness": 0.6405,
-      "feedPosition": 0.2222,
-      "novelty": 0.9336
-    },
-    "rankingReasons": [
-      "conflict",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3189,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "6bc9413b36f40d7abda5",
-    "doomIndexInputFingerprint": "5d4cef5faaac797968a1",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "6bc9413b36f40d7abda5",
-    "doomIndexV124InputFingerprint": "71c15ebc385048a79fdc",
-    "storyId": "1c17888dd06acad9076a",
-    "firstSeen": "2026-08-12T12:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Sir Rod Stewart has canceled his upcoming tour dates after undergoing a coronary stent procedure. Stewart canceled his Tuesday night Cleveland performance following a postponed Cincinnati concert Sunday.",
-    "doomIndexInputSummary": "Sir Rod Stewart calls off remaining tour dates after coronary stent procedure. Sir Rod Stewart has canceled his upcoming tour dates after undergoing a coronary stent procedure. Stewart canceled his Tuesday night Cleveland performance following a postponed Cincinnati concert Sunday. Sir Rod Stewart has canceled his upcoming tour dates after undergoing a coronary stent procedure. Stewart canceled his Tuesday night Cleveland performance following a postponed Cincinnati concert Sunday."
-  },
-  {
-    "group": "ai",
     "title": "Founders Think New Tools Will Raise Their Exit Price. Buyers Usually See an Expense Instead",
     "url": "https://www.inc.com/bruce-eckfeldt/founders-think-new-tools-will-raise-their-exit-price-buyers-usually-see-an-expense-instead/91384455",
     "source": "Inc. AI",
@@ -14397,16 +14480,16 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.8287,
+      "freshness": 0.8236,
       "feedPosition": 0.125,
-      "novelty": 0.748
+      "novelty": 0.7521
     },
     "rankingReasons": [
       "specific details",
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.315,
+    "score": 0.3146,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -14485,7 +14568,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.12,
       "sourceAuthority": 0.5,
-      "freshness": 0.471,
+      "freshness": 0.4681,
       "feedPosition": 0.6667,
       "novelty": 0.7749
     },
@@ -14493,7 +14576,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "urgency or risk",
       "unusual language in the current story batch"
     ],
-    "score": 0.3138,
+    "score": 0.3134,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -14558,6 +14641,90 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Sir Rod Stewart calls off remaining tour dates after coronary stent procedure",
+    "url": "https://apnews.com/article/rod-stewart-health-update-tour-cancel-4da8db65ccf893c01b78a16386cc8e3c",
+    "source": "AP News AI",
+    "published": "2026-08-11T23:13:40",
+    "image": "https://dims.apnews.com/dims4/default/5a4b4d3/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fbd%2Fbc%2F04637433feaa14e7407369ae7fce%2F35619b11024b46cbab67f3799dac66a1",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.161,
+      "sourceAuthority": 0.5,
+      "freshness": 0.6366,
+      "feedPosition": 0.1111,
+      "novelty": 0.9336
+    },
+    "rankingReasons": [
+      "conflict",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.3072,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "6bc9413b36f40d7abda5",
+    "doomIndexInputFingerprint": "5d4cef5faaac797968a1",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "neutral",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "6bc9413b36f40d7abda5",
+    "doomIndexV124InputFingerprint": "71c15ebc385048a79fdc",
+    "storyId": "1c17888dd06acad9076a",
+    "firstSeen": "2026-08-12T12:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "Sir Rod Stewart has canceled his upcoming tour dates after undergoing a coronary stent procedure. Stewart canceled his Tuesday night Cleveland performance following a postponed Cincinnati concert Sunday.",
+    "doomIndexInputSummary": "Sir Rod Stewart calls off remaining tour dates after coronary stent procedure. Sir Rod Stewart has canceled his upcoming tour dates after undergoing a coronary stent procedure. Stewart canceled his Tuesday night Cleveland performance following a postponed Cincinnati concert Sunday. Sir Rod Stewart has canceled his upcoming tour dates after undergoing a coronary stent procedure. Stewart canceled his Tuesday night Cleveland performance following a postponed Cincinnati concert Sunday."
+  },
+  {
+    "group": "ai",
     "title": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
     "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
     "source": "TechCrunch AI",
@@ -14568,7 +14735,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1365,
       "sourceAuthority": 0.5,
-      "freshness": 0.5492,
+      "freshness": 0.5459,
       "feedPosition": 0.4444,
       "novelty": 0.7837
     },
@@ -14577,7 +14744,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.3075,
+    "score": 0.307,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -14652,14 +14819,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.336,
+      "freshness": 0.3339,
       "feedPosition": 1,
       "novelty": 0.7652
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.3019,
+    "score": 0.3016,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -14724,90 +14891,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Britain's Andy Green sets another speed record, this time in a hydrogen-powered car",
-    "url": "https://apnews.com/article/land-speed-record-hydrogen-car-andy-green-e1633f838796f4b9d1504066b81b6dc4",
-    "source": "AP News AI",
-    "published": "2026-08-11T17:22:45",
-    "image": "https://dims.apnews.com/dims4/default/bedca6f/2147483647/strip/true/crop/3000x1999+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F81%2F43%2Fd3bb2ab07ecfe90b30cc01decee7%2F1ea2f8c367a344edb173beccf01dc4e8",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.141,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5445,
-      "feedPosition": 0.3333,
-      "novelty": 0.8363
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.3018,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "673af101357395746b75",
-    "doomIndexInputFingerprint": "e8aea74278cfbb614e96",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "673af101357395746b75",
-    "doomIndexV124InputFingerprint": "e842ab6cc92766076338",
-    "storyId": "d370bc5a2b697d47cf04",
-    "firstSeen": "2026-08-12T12:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "The only person to break the sound barrier in a car has earned another world record, this time in a show of force for hydrogen power.",
-    "doomIndexInputSummary": "Britain's Andy Green sets another speed record, this time in a hydrogen-powered car. The only person to break the sound barrier in a car has earned another world record, this time in a show of force for hydrogen power. The only person to break the sound barrier in a car has earned another world record, this time in a show of force for hydrogen power."
-  },
-  {
-    "group": "ai",
     "title": "A New Trick Reveals AI Models’ Inner Thoughts",
     "url": "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
     "source": "WIRED AI",
@@ -14818,7 +14901,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.4561,
+      "freshness": 0.4533,
       "feedPosition": 0.4444,
       "novelty": 0.6655
     },
@@ -14828,7 +14911,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2968,
+    "score": 0.2964,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -14909,7 +14992,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.2476,
+      "freshness": 0.2461,
       "feedPosition": 0.6667,
       "novelty": 0.9326
     },
@@ -14917,7 +15000,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2934,
+    "score": 0.2931,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -14982,6 +15065,90 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Britain's Andy Green sets another speed record, this time in a hydrogen-powered car",
+    "url": "https://apnews.com/article/land-speed-record-hydrogen-car-andy-green-e1633f838796f4b9d1504066b81b6dc4",
+    "source": "AP News AI",
+    "published": "2026-08-11T17:22:45",
+    "image": "https://dims.apnews.com/dims4/default/bedca6f/2147483647/strip/true/crop/3000x1999+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F81%2F43%2Fd3bb2ab07ecfe90b30cc01decee7%2F1ea2f8c367a344edb173beccf01dc4e8",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.141,
+      "sourceAuthority": 0.5,
+      "freshness": 0.5411,
+      "feedPosition": 0.2222,
+      "novelty": 0.8363
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2902,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "673af101357395746b75",
+    "doomIndexInputFingerprint": "e8aea74278cfbb614e96",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "neutral",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "673af101357395746b75",
+    "doomIndexV124InputFingerprint": "e842ab6cc92766076338",
+    "storyId": "d370bc5a2b697d47cf04",
+    "firstSeen": "2026-08-12T12:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "The only person to break the sound barrier in a car has earned another world record, this time in a show of force for hydrogen power.",
+    "doomIndexInputSummary": "Britain's Andy Green sets another speed record, this time in a hydrogen-powered car. The only person to break the sound barrier in a car has earned another world record, this time in a show of force for hydrogen power. The only person to break the sound barrier in a car has earned another world record, this time in a show of force for hydrogen power."
+  },
+  {
+    "group": "ai",
     "title": "AI Is Helping Solve the Intricate Genetic Puzzle of Schizophrenia",
     "url": "https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/",
     "source": "WIRED AI",
@@ -14992,7 +15159,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.4314,
+      "freshness": 0.4288,
       "feedPosition": 0.2222,
       "novelty": 1
     },
@@ -15001,7 +15168,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2903,
+    "score": 0.2899,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -15076,7 +15243,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.2486,
+      "freshness": 0.2471,
       "feedPosition": 0.7778,
       "novelty": 0.6962
     },
@@ -15085,7 +15252,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2881,
+    "score": 0.2879,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -15150,90 +15317,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Movie Review: 'The Rivals of Amziah King' is a Southern fried flick with too many ingredients",
-    "url": "https://apnews.com/article/amziah-king-movie-review-matthew-mcconaughey-84b73b8f7bf46b42044de12a2bc3723a",
-    "source": "AP News AI",
-    "published": "2026-08-11T17:41:27",
-    "image": "https://dims.apnews.com/dims4/default/d6a8959/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffc%2Fcb%2F046b956372ea9bba17a825c2a805%2F43b834e6b62b497881c46537085bddae",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.154,
-      "sourceAuthority": 0.5,
-      "freshness": 0.5492,
-      "feedPosition": 0,
-      "novelty": 0.9755
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2857,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "bb7d4875ba82e5767802",
-    "doomIndexInputFingerprint": "cdc5608f47c6e1923e09",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "bb7d4875ba82e5767802",
-    "doomIndexV124InputFingerprint": "8b17b37e5e1d45c77801",
-    "storyId": "ea2e11c95bbbdddc0028",
-    "firstSeen": "2026-08-12T14:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "“The Rivals of Amziah King” explores the dark side of the Southern honey business with beekeepers stealing from each other and even murder.",
-    "doomIndexInputSummary": "Movie Review: 'The Rivals of Amziah King' is a Southern fried flick with too many ingredients. “The Rivals of Amziah King” explores the dark side of the Southern honey business with beekeepers stealing from each other and even murder. “The Rivals of Amziah King” explores the dark side of the Southern honey business with beekeepers stealing from each other and even murder."
-  },
-  {
-    "group": "ai",
     "title": "OpenAI launches ChatGPT desktop app for Linux",
     "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
     "source": "TechCrunch AI",
@@ -15244,14 +15327,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.5737,
+      "freshness": 0.5701,
       "feedPosition": 0.6667,
       "novelty": 0.4362
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.2855,
+    "score": 0.285,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -15318,90 +15401,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "YouTube sensation Ms. Rachel announces debut album with Mr. Aron, 'I'm So Happy'",
-    "url": "https://apnews.com/article/ms-rachel-album-interview-acbd61f6dfd02f5855e6bc8d12346577",
-    "source": "AP News AI",
-    "published": "2026-08-11T12:00:28",
-    "image": "https://dims.apnews.com/dims4/default/384f61d/2147483647/strip/true/crop/3500x2332+0+21/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F14%2F19%2Fc0abb9fca96c287ce008fbc437a6%2F9e7aabcef1b7444e9c4473ac0877f5fb",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.142,
-      "sourceAuthority": 0.5,
-      "freshness": 0.469,
-      "feedPosition": 0.1111,
-      "novelty": 1
-    },
-    "rankingReasons": [
-      "specific details",
-      "recognizable entities",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2849,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "aea7f6bb425c3dbd5a8f",
-    "doomIndexInputFingerprint": "d11752a68cadaaa8f97b",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "aea7f6bb425c3dbd5a8f",
-    "doomIndexV124InputFingerprint": "50475be5e22ea365d2fd",
-    "storyId": "0ae178b30fce926f7f6b",
-    "firstSeen": "2026-08-12T12:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "YouTube sensation Ms. Rachel and her husband, Aron Accurso, are releasing their debut album, “I'm So Happy,” on Sept. 25. Known for her educational YouTube channel, Ms.",
-    "doomIndexInputSummary": "YouTube sensation Ms. Rachel announces debut album with Mr. Aron, 'I'm So Happy'. YouTube sensation Ms. Rachel and her husband, Aron Accurso, are releasing their debut album, “I'm So Happy,” on Sept. 25. Known for her educational YouTube channel, Ms. YouTube sensation Ms. Rachel and her husband, Aron Accurso, are releasing their debut album, “I'm So Happy,” on Sept. 25. Known for her educational YouTube channel, Ms."
-  },
-  {
-    "group": "ai",
     "title": "Meta Muse Glimmer brings local AI agents to consumer GPUs",
     "url": "https://www.artificialintelligence-news.com/news/meta-muse-glimmer-local-ai-agents-consumer-gpus/",
     "source": "AI News",
@@ -15412,7 +15411,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.2344,
+      "freshness": 0.233,
       "feedPosition": 0.6667,
       "novelty": 0.8477
     },
@@ -15420,7 +15419,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2829,
+    "score": 0.2827,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -15487,84 +15486,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
-    "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-10T22:13:03.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.3198,
-      "feedPosition": 0.8889,
-      "novelty": 0.6333
-    },
-    "rankingReasons": [],
-    "score": 0.2823,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "6217762502b4d2e6a1da",
-    "doomIndexInputFingerprint": "6b7e06f714708b2dab55",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "6217762502b4d2e6a1da",
-    "doomIndexV124InputFingerprint": "012cebff3b9f1ef9c9a4",
-    "storyId": "f071c32e1acba4bfd6c6",
-    "firstSeen": "2026-08-10T22:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.",
-    "doomIndexInputSummary": "With new open models, Meta pitches another reboot of its struggling AI strategy. Meta has been trailing competitors. Zuckerberg thinks he's found a way forward. AI large language models LLMs Mark Zuckerberg meta Muse Glimmer muse spark open source AI open weights"
-  },
-  {
-    "group": "ai",
     "title": "Black holes older than the Big Bang could explain dark matter",
     "url": "https://www.sciencedaily.com/releases/2026/08/260811011146.htm",
     "source": "ScienceDaily Technology",
@@ -15575,7 +15496,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.4466,
+      "freshness": 0.4439,
       "feedPosition": 0.4444,
       "novelty": 0.7976
     },
@@ -15583,7 +15504,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2804,
+    "score": 0.28,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -15648,30 +15569,31 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "This AI tool claims to pick the top 1% of preprints. Should researchers trust it?",
-    "url": "https://www.nature.com/articles/d41586-026-02276-z",
-    "source": "Nature AI News & Comment",
-    "published": "2026-08-10T00:00:00.000Z",
-    "image": "",
+    "title": "YouTube sensation Ms. Rachel announces debut album with Mr. Aron, 'I'm So Happy'",
+    "url": "https://apnews.com/article/ms-rachel-album-interview-acbd61f6dfd02f5855e6bc8d12346577",
+    "source": "AP News AI",
+    "published": "2026-08-11T12:00:28",
+    "image": "https://dims.apnews.com/dims4/default/384f61d/2147483647/strip/true/crop/3500x2332+0+21/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F14%2F19%2Fc0abb9fca96c287ce008fbc437a6%2F9e7aabcef1b7444e9c4473ac0877f5fb",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.1935,
+      "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.1725,
-      "feedPosition": 0.6667,
-      "novelty": 0.6459
+      "freshness": 0.4661,
+      "feedPosition": 0,
+      "novelty": 1
     },
     "rankingReasons": [
-      "real-world consequences",
-      "specific details"
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
     ],
-    "score": 0.2708,
+    "score": 0.2733,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
     "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
+    "doomIndexActuality": "neutral",
     "doomIndexPolarity": "neutral",
     "doomIndexFactors": {
       "realizedHarm": 0,
@@ -15689,17 +15611,17 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "contextualConcern": 0
     },
     "doomIndexReasons": [
-      "proposed event status",
+      "neutral event status",
       "speculative or weakly evidenced"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "94fcaf09145c22eb2614",
-    "doomIndexInputFingerprint": "ef03a0f419d936d1f130",
+    "doomIndexSummaryFingerprint": "aea7f6bb425c3dbd5a8f",
+    "doomIndexInputFingerprint": "d11752a68cadaaa8f97b",
     "doomIndexV124Shadow": 5,
     "doomIndexV124ShadowVersion": "1.2.4",
     "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
     "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "proposed",
+    "doomIndexV124Actuality": "neutral",
     "doomIndexV124Polarity": "neutral",
     "doomIndexV124Factors": {
       "realizedHarm": 0,
@@ -15717,17 +15639,95 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "contextualConcern": 0
     },
     "doomIndexV124Reasons": [
-      "proposed event status",
+      "neutral event status",
       "speculative or weakly evidenced"
     ],
     "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "94fcaf09145c22eb2614",
-    "doomIndexV124InputFingerprint": "f27c7aaf6ac673dd2d3b",
-    "storyId": "ddc87888a9eb3309b87e",
-    "firstSeen": "2026-08-10T12:00:00.000Z",
+    "doomIndexV124SummaryFingerprint": "aea7f6bb425c3dbd5a8f",
+    "doomIndexV124InputFingerprint": "50475be5e22ea365d2fd",
+    "storyId": "0ae178b30fce926f7f6b",
+    "firstSeen": "2026-08-12T12:00:00.000Z",
     "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "",
-    "doomIndexInputSummary": "This AI tool claims to pick the top 1% of preprints. Should researchers trust it?."
+    "feedSummary": "YouTube sensation Ms. Rachel and her husband, Aron Accurso, are releasing their debut album, “I'm So Happy,” on Sept. 25. Known for her educational YouTube channel, Ms.",
+    "doomIndexInputSummary": "YouTube sensation Ms. Rachel announces debut album with Mr. Aron, 'I'm So Happy'. YouTube sensation Ms. Rachel and her husband, Aron Accurso, are releasing their debut album, “I'm So Happy,” on Sept. 25. Known for her educational YouTube channel, Ms. YouTube sensation Ms. Rachel and her husband, Aron Accurso, are releasing their debut album, “I'm So Happy,” on Sept. 25. Known for her educational YouTube channel, Ms."
+  },
+  {
+    "group": "ai",
+    "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
+    "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-10T22:13:03.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.0355,
+      "sourceAuthority": 0.5,
+      "freshness": 0.3178,
+      "feedPosition": 0.7778,
+      "novelty": 0.6333
+    },
+    "rankingReasons": [],
+    "score": 0.2709,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.4487,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "6217762502b4d2e6a1da",
+    "doomIndexInputFingerprint": "6b7e06f714708b2dab55",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "neutral",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.4487,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "6217762502b4d2e6a1da",
+    "doomIndexV124InputFingerprint": "012cebff3b9f1ef9c9a4",
+    "storyId": "f071c32e1acba4bfd6c6",
+    "firstSeen": "2026-08-10T22:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.",
+    "doomIndexInputSummary": "With new open models, Meta pitches another reboot of its struggling AI strategy. Meta has been trailing competitors. Zuckerberg thinks he's found a way forward. AI large language models LLMs Mark Zuckerberg meta Muse Glimmer muse spark open source AI open weights"
   },
   {
     "group": "ai",
@@ -15741,16 +15741,17 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.59,
+      "freshness": 0.5864,
       "feedPosition": 0,
-      "novelty": 0.6422
+      "novelty": 0.6537
     },
     "rankingReasons": [
       "surprise or reversal",
       "specific details",
-      "recognizable entities"
+      "recognizable entities",
+      "unusual language in the current story batch"
     ],
-    "score": 0.2701,
+    "score": 0.2707,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -15815,6 +15816,89 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "This AI tool claims to pick the top 1% of preprints. Should researchers trust it?",
+    "url": "https://www.nature.com/articles/d41586-026-02276-z",
+    "source": "Nature AI News & Comment",
+    "published": "2026-08-10T00:00:00.000Z",
+    "image": "",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1935,
+      "sourceAuthority": 0.5,
+      "freshness": 0.1714,
+      "feedPosition": 0.6667,
+      "novelty": 0.6459
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details"
+    ],
+    "score": 0.2707,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "proposed",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "94fcaf09145c22eb2614",
+    "doomIndexInputFingerprint": "ef03a0f419d936d1f130",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "proposed",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "proposed event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "94fcaf09145c22eb2614",
+    "doomIndexV124InputFingerprint": "f27c7aaf6ac673dd2d3b",
+    "storyId": "ddc87888a9eb3309b87e",
+    "firstSeen": "2026-08-10T12:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "",
+    "doomIndexInputSummary": "This AI tool claims to pick the top 1% of preprints. Should researchers trust it?."
+  },
+  {
+    "group": "ai",
     "title": "Which 'AI Sovereignty' Are You Buying?",
     "url": "https://techpolicy.press/which-ai-sovereignty-are-you-buying",
     "source": "Tech Policy Press AI",
@@ -15825,7 +15909,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1065,
       "sourceAuthority": 0.5,
-      "freshness": 0.2448,
+      "freshness": 0.2433,
       "feedPosition": 0.6667,
       "novelty": 0.6826
     },
@@ -15833,7 +15917,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.268,
+    "score": 0.2677,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -15908,12 +15992,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.5514,
+      "freshness": 0.548,
       "feedPosition": 0.4444,
       "novelty": 0.5774
     },
     "rankingReasons": [],
-    "score": 0.267,
+    "score": 0.2665,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -15988,7 +16072,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.142,
       "sourceAuthority": 0.5,
-      "freshness": 0.046,
+      "freshness": 0.0457,
       "feedPosition": 0.7778,
       "novelty": 0.7652
     },
@@ -16072,14 +16156,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.0198,
+      "freshness": 0.0197,
       "feedPosition": 1,
-      "novelty": 0.7696
+      "novelty": 0.8174
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2549,
+    "score": 0.2597,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -16154,14 +16238,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1055,
       "sourceAuthority": 0.5,
-      "freshness": 0.5302,
+      "freshness": 0.5269,
       "feedPosition": 0.2222,
-      "novelty": 0.562
+      "novelty": 0.5684
     },
     "rankingReasons": [
       "surprise or reversal"
     ],
-    "score": 0.2541,
+    "score": 0.2542,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -16226,88 +16310,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Peer review is overwhelmed—can it survive in the AI era?",
-    "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-10T11:00:47.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/peer-review-difficulties-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.012,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2342,
-      "feedPosition": 0.6667,
-      "novelty": 0.7435
-    },
-    "rankingReasons": [
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2535,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "e60fae447475a2fd0609",
-    "doomIndexInputFingerprint": "bb3ba0074a6c23622f64",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "e60fae447475a2fd0609",
-    "doomIndexV124InputFingerprint": "2eaf9de8022c2105350e",
-    "storyId": "1e076a5ca6b4bdc0e280",
-    "firstSeen": "2026-08-10T12:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "As research and AI-assisted papers surge, volunteer reviewers struggle to keep up.",
-    "doomIndexInputSummary": "Peer review is overwhelmed—can it survive in the AI era?. As research and AI-assisted papers surge, volunteer reviewers struggle to keep up. AI Features Science peer review research papers scientific journals"
-  },
-  {
-    "group": "ai",
     "title": "The benefits of medical AI assistance vary based on user expertise",
     "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
     "source": "MIT News AI",
@@ -16318,7 +16320,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.11,
       "sourceAuthority": 0.5,
-      "freshness": 0.0041,
+      "freshness": 0.004,
       "feedPosition": 0.7778,
       "novelty": 0.7528
     },
@@ -16405,7 +16407,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.1965,
       "sourceAuthority": 0.5,
-      "freshness": 0.024,
+      "freshness": 0.0238,
       "feedPosition": 0.6667,
       "novelty": 0.6587
     },
@@ -16489,12 +16491,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0355,
       "sourceAuthority": 0.5,
-      "freshness": 0.493,
+      "freshness": 0.49,
       "feedPosition": 0.3333,
-      "novelty": 0.5952
+      "novelty": 0.6129
     },
     "rankingReasons": [],
-    "score": 0.2489,
+    "score": 0.2502,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -16660,7 +16662,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "unusual language in the current story batch",
       "covered by multiple sources"
     ],
-    "score": 0.2481,
+    "score": 0.248,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -16723,25 +16725,24 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "AI chatbots have failed people in crisis. Can that be fixed?",
-    "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
+    "title": "Peer review is overwhelmed—can it survive in the AI era?",
+    "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
     "source": "Ars Technica AI",
-    "published": "2026-08-07T13:49:37.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mentalhealthaichat-1152x648.jpg",
+    "published": "2026-08-10T11:00:47.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/peer-review-difficulties-1152x648.jpg",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.2755,
+      "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.0343,
-      "feedPosition": 0.3333,
-      "novelty": 0.7318
+      "freshness": 0.2328,
+      "feedPosition": 0.5556,
+      "novelty": 0.7884
     },
     "rankingReasons": [
-      "urgency or risk",
       "unusual language in the current story batch"
     ],
-    "score": 0.2418,
+    "score": 0.2467,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -16757,18 +16758,19 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.385,
+      "evidence": 0.3,
       "actuality": 0.25,
       "protectiveContext": 0,
       "routinePenalty": 0,
       "contextualConcern": 0
     },
     "doomIndexReasons": [
-      "neutral event status"
+      "neutral event status",
+      "speculative or weakly evidenced"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "47338fbe1b5f97136b03",
-    "doomIndexInputFingerprint": "fa49cea01ab5638d87b6",
+    "doomIndexSummaryFingerprint": "e60fae447475a2fd0609",
+    "doomIndexInputFingerprint": "bb3ba0074a6c23622f64",
     "doomIndexV124Shadow": 5,
     "doomIndexV124ShadowVersion": "1.2.4",
     "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
@@ -16784,104 +16786,24 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.385,
+      "evidence": 0.3,
       "actuality": 0.25,
       "protectiveContext": 0,
       "routinePenalty": 0,
       "contextualConcern": 0
     },
     "doomIndexV124Reasons": [
-      "neutral event status"
+      "neutral event status",
+      "speculative or weakly evidenced"
     ],
     "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "47338fbe1b5f97136b03",
-    "doomIndexV124InputFingerprint": "a24631b4b94c47eb2ba8",
-    "storyId": "4fad8f89db5e075b17cd",
-    "firstSeen": "2026-08-07T15:00:00.000Z",
+    "doomIndexV124SummaryFingerprint": "e60fae447475a2fd0609",
+    "doomIndexV124InputFingerprint": "2eaf9de8022c2105350e",
+    "storyId": "1e076a5ca6b4bdc0e280",
+    "firstSeen": "2026-08-10T12:00:00.000Z",
     "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Clinicians and researchers say AI companies need to open up their safety data.",
-    "doomIndexInputSummary": "AI chatbots have failed people in crisis. Can that be fixed?. Clinicians and researchers say AI companies need to open up their safety data. AI Policy AI and mental health Anthropic ChatGPT openai"
-  },
-  {
-    "group": "ai",
-    "title": "Why your Amazon order confirmation emails have become so unhelpful",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
-    "source": "The Verge AI",
-    "published": "2026-08-11T13:27:20.000Z",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-10-at-10.31.39-AM.png?quality=90&strip=all&crop=0,0,100,100",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.1055,
-      "sourceAuthority": 0.5,
-      "freshness": 0.4883,
-      "feedPosition": 0,
-      "novelty": 0.6796
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2373,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "95e0789e28b0bd95c9aa",
-    "doomIndexInputFingerprint": "9ae9fbe46bc4919114bd",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.4487,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "95e0789e28b0bd95c9aa",
-    "doomIndexV124InputFingerprint": "9b477dcde1ea7024bb95",
-    "storyId": "643e0d1b98ca53a72c22",
-    "firstSeen": "2026-08-11T13:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Earlier this summer, Amazon customers began noticing that emails related to their online orders looked sparse: Order confirmation emails didn't name specific items anymore, and instead listed only item categories. \"Your Beauty item is confirmed!\" an email about my retainer cleaning tablets read. Shoppers have posted other iterations of the redacted emails as well: \"Ordered: 1 Hardware item,\" \"Your Drugstore, Shoes, and other items are here!\" and \"1 Nutrition & Wellness, 1 Wireless Accessories,\" for example. The emails have clip art-style illustrations of general product categories, and a shopper has to exit their email and go to Amazon to … Read the full story at The Verge.",
-    "doomIndexInputSummary": "Why your Amazon order confirmation emails have become so unhelpful. Earlier this summer, Amazon customers began noticing that emails related to their online orders looked sparse: Order confirmation emails didn't name specific items anymore, and instead listed only item categories. \"Your Beauty item is confirmed!\" an email about my retainer cleaning tablets read. Shoppers have posted other iterations of the redacted emails as well: \"Ordered: 1 Hardware item,\" \"Your Drugstore, Shoes, and other items are here!\" and \"1 Nutrition & Wellness, 1 Wireless Accessories,\" for example. The emails have clip art-style illustrations of general product categories, and a shopper has to exit their email and go to Amazon to … Read the full story at The Verge. Earlier this summer, Amazon customers began noticing that emails related to their online orders looked sparse: Order confirmation emails didn't name specific items anymore, and instead listed only item categories. \"Your Beauty item is confirmed!\" an email about my retainer cleaning tablets read. Shoppers have posted other iterations of the redacted emails as well: \"Ordered: […]"
+    "feedSummary": "As research and AI-assisted papers surge, volunteer reviewers struggle to keep up.",
+    "doomIndexInputSummary": "Peer review is overwhelmed—can it survive in the AI era?. As research and AI-assisted papers surge, volunteer reviewers struggle to keep up. AI Features Science peer review research papers scientific journals"
   },
   {
     "group": "ai",
@@ -16895,7 +16817,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.2374,
+      "freshness": 0.236,
       "feedPosition": 0.1111,
       "novelty": 0.7321
     },
@@ -16905,7 +16827,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2373,
+    "score": 0.2371,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -16970,174 +16892,6 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
-    "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-08T11:05:50.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/12/hurricane-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.07,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0619,
-      "feedPosition": 0.5556,
-      "novelty": 0.8333
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2372,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "positive",
-    "doomIndexPolarity": "protective-or-positive",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.2,
-      "protectiveContext": 0.5,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "positive event status",
-      "speculative or weakly evidenced",
-      "protective or positive context adjustment",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "8b581d4b4616591e4e57",
-    "doomIndexInputFingerprint": "f22c278c8c8cf87dc2f2",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "positive",
-    "doomIndexV124Polarity": "protective-or-positive",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.2,
-      "protectiveContext": 0.5,
-      "routinePenalty": 0.5,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "positive event status",
-      "speculative or weakly evidenced",
-      "protective or positive context adjustment",
-      "routine or promotional adjustment"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "8b581d4b4616591e4e57",
-    "doomIndexV124InputFingerprint": "7031f596c68e8515b798",
-    "storyId": "8415d3b25b0c60bcddaa",
-    "firstSeen": "2026-08-08T11:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
-    "doomIndexInputSummary": "DeepMind’s hurricane breakthrough has surprised weather scientists. Open source WeatherNext model can make accurate predictions with lower-resolution weather data. AI Science atlantic hurricane season deepmind hurricane syndication weather forecasting WeatherNext"
-  },
-  {
-    "group": "ai",
-    "title": "Scientists discover a hidden switch inside silver nanocatalysts",
-    "url": "https://www.sciencedaily.com/releases/2026/08/260810015714.htm",
-    "source": "ScienceDaily Technology",
-    "published": "2026-08-10T12:27:30.000Z",
-    "image": "",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.07,
-      "sourceAuthority": 0.5,
-      "freshness": 0.2438,
-      "feedPosition": 0.3333,
-      "novelty": 0.7801
-    },
-    "rankingReasons": [
-      "surprise or reversal",
-      "unusual language in the current story batch"
-    ],
-    "score": 0.2369,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "proposed",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3637,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "proposed event status"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "7fe6e2d37c0d5020d1be",
-    "doomIndexInputFingerprint": "d2706fc363bd4b560f53",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "proposed",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3637,
-      "actuality": 0.35,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "proposed event status"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "7fe6e2d37c0d5020d1be",
-    "doomIndexV124InputFingerprint": "9119c8cd7c63ac41bf19",
-    "storyId": "a8c9102b755845723db9",
-    "firstSeen": "2026-08-10T15:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Silver nanocatalysts have been found to switch where they perform their most important reactions depending on whether a solid oxide cell is making electricity or hydrogen. The discovery could enable smarter catalyst designs that boost clean power generation while making green hydrogen more energy-efficient.",
-    "doomIndexInputSummary": "Scientists discover a hidden switch inside silver nanocatalysts. Silver nanocatalysts have been found to switch where they perform their most important reactions depending on whether a solid oxide cell is making electricity or hydrogen. The discovery could enable smarter catalyst designs that boost clean power generation while making green hydrogen more energy-efficient."
-  },
-  {
-    "group": "ai",
     "title": "How AI Hype Helps Render Women Invisible",
     "url": "https://techpolicy.press/how-ai-hype-helps-render-women-invisible",
     "source": "Tech Policy Press AI",
@@ -17148,7 +16902,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.0169,
+      "freshness": 0.0168,
       "feedPosition": 0.2222,
       "novelty": 0.9461
     },
@@ -17223,27 +16977,106 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
-    "title": "Company Offering Printed Books to Train AI Stops After 404 Media Coverage",
-    "url": "https://www.404media.co/ai-company-training-scanning-books-database-isbndb/",
-    "source": "404 Media AI",
-    "published": "2026-07-31T14:04:26.000Z",
-    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/photo-1725582205524-6c7c268aee97.jpeg",
+    "title": "Scientists discover a hidden switch inside silver nanocatalysts",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260810015714.htm",
+    "source": "ScienceDaily Technology",
+    "published": "2026-08-10T12:27:30.000Z",
+    "image": "",
     "coverageSources": 1,
     "ranking": {
       "coverage": 0,
-      "titleImpact": 0.3,
+      "titleImpact": 0.07,
       "sourceAuthority": 0.5,
-      "freshness": 0.0003,
-      "feedPosition": 0.1111,
-      "novelty": 0.8802
+      "freshness": 0.2423,
+      "feedPosition": 0.3333,
+      "novelty": 0.7801
     },
     "rankingReasons": [
-      "real-world consequences",
-      "specific details",
-      "recognizable entities",
+      "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2342,
+    "score": 0.2367,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "proposed",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3637,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "proposed event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "7fe6e2d37c0d5020d1be",
+    "doomIndexInputFingerprint": "d2706fc363bd4b560f53",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "proposed",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3637,
+      "actuality": 0.35,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "proposed event status"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "7fe6e2d37c0d5020d1be",
+    "doomIndexV124InputFingerprint": "9119c8cd7c63ac41bf19",
+    "storyId": "a8c9102b755845723db9",
+    "firstSeen": "2026-08-10T15:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "Silver nanocatalysts have been found to switch where they perform their most important reactions depending on whether a solid oxide cell is making electricity or hydrogen. The discovery could enable smarter catalyst designs that boost clean power generation while making green hydrogen more energy-efficient.",
+    "doomIndexInputSummary": "Scientists discover a hidden switch inside silver nanocatalysts. Silver nanocatalysts have been found to switch where they perform their most important reactions depending on whether a solid oxide cell is making electricity or hydrogen. The discovery could enable smarter catalyst designs that boost clean power generation while making green hydrogen more energy-efficient."
+  },
+  {
+    "group": "ai",
+    "title": "Why your Amazon order confirmation emails have become so unhelpful",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+    "source": "The Verge AI",
+    "published": "2026-08-11T13:27:20.000Z",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-10-at-10.31.39-AM.png?quality=90&strip=all&crop=0,0,100,100",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.1055,
+      "sourceAuthority": 0.5,
+      "freshness": 0.4853,
+      "feedPosition": 0,
+      "novelty": 0.6685
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2357,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -17259,19 +17092,18 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.3,
+      "evidence": 0.4487,
       "actuality": 0.25,
       "protectiveContext": 0,
       "routinePenalty": 0,
       "contextualConcern": 0
     },
     "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
+      "neutral event status"
     ],
     "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "4564278e392e76e82fde",
-    "doomIndexInputFingerprint": "d26afe9b467408341cca",
+    "doomIndexSummaryFingerprint": "95e0789e28b0bd95c9aa",
+    "doomIndexInputFingerprint": "9ae9fbe46bc4919114bd",
     "doomIndexV124Shadow": 5,
     "doomIndexV124ShadowVersion": "1.2.4",
     "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
@@ -17287,24 +17119,23 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "immediacy": 0,
       "systemicReach": 0,
       "credibleThreat": 0,
-      "evidence": 0.3,
+      "evidence": 0.4487,
       "actuality": 0.25,
       "protectiveContext": 0,
       "routinePenalty": 0,
       "contextualConcern": 0
     },
     "doomIndexV124Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
+      "neutral event status"
     ],
     "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "4564278e392e76e82fde",
-    "doomIndexV124InputFingerprint": "d0fbd80621c34a34d19e",
-    "storyId": "e731c4148f4c1ea12d8d",
-    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "doomIndexV124SummaryFingerprint": "95e0789e28b0bd95c9aa",
+    "doomIndexV124InputFingerprint": "9b477dcde1ea7024bb95",
+    "storyId": "643e0d1b98ca53a72c22",
+    "firstSeen": "2026-08-11T13:00:00.000Z",
     "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Citing backlash, ISBNdb removed its webpages about training AI, denied ever buying, scanning, or selling a book for AI training, and said the site was a \"test of market interest.\"",
-    "doomIndexInputSummary": "Company Offering Printed Books to Train AI Stops After 404 Media Coverage. Citing backlash, ISBNdb removed its webpages about training AI, denied ever buying, scanning, or selling a book for AI training, and said the site was a \"test of market interest.\" Impact Books AI ai training"
+    "feedSummary": "Earlier this summer, Amazon customers began noticing that emails related to their online orders looked sparse: Order confirmation emails didn't name specific items anymore, and instead listed only item categories. \"Your Beauty item is confirmed!\" an email about my retainer cleaning tablets read. Shoppers have posted other iterations of the redacted emails as well: \"Ordered: 1 Hardware item,\" \"Your Drugstore, Shoes, and other items are here!\" and \"1 Nutrition & Wellness, 1 Wireless Accessories,\" for example. The emails have clip art-style illustrations of general product categories, and a shopper has to exit their email and go to Amazon to … Read the full story at The Verge.",
+    "doomIndexInputSummary": "Why your Amazon order confirmation emails have become so unhelpful. Earlier this summer, Amazon customers began noticing that emails related to their online orders looked sparse: Order confirmation emails didn't name specific items anymore, and instead listed only item categories. \"Your Beauty item is confirmed!\" an email about my retainer cleaning tablets read. Shoppers have posted other iterations of the redacted emails as well: \"Ordered: 1 Hardware item,\" \"Your Drugstore, Shoes, and other items are here!\" and \"1 Nutrition & Wellness, 1 Wireless Accessories,\" for example. The emails have clip art-style illustrations of general product categories, and a shopper has to exit their email and go to Amazon to … Read the full story at The Verge. Earlier this summer, Amazon customers began noticing that emails related to their online orders looked sparse: Order confirmation emails didn't name specific items anymore, and instead listed only item categories. \"Your Beauty item is confirmed!\" an email about my retainer cleaning tablets read. Shoppers have posted other iterations of the redacted emails as well: \"Ordered: […]"
   },
   {
     "group": "ai",
@@ -17390,6 +17221,174 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "AI chatbots have failed people in crisis. Can that be fixed?",
+    "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-07T13:49:37.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mentalhealthaichat-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.2755,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0341,
+      "feedPosition": 0.2222,
+      "novelty": 0.7318
+    },
+    "rankingReasons": [
+      "urgency or risk",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2306,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.385,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "47338fbe1b5f97136b03",
+    "doomIndexInputFingerprint": "fa49cea01ab5638d87b6",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "neutral",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.385,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "neutral event status"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "47338fbe1b5f97136b03",
+    "doomIndexV124InputFingerprint": "a24631b4b94c47eb2ba8",
+    "storyId": "4fad8f89db5e075b17cd",
+    "firstSeen": "2026-08-07T15:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "Clinicians and researchers say AI companies need to open up their safety data.",
+    "doomIndexInputSummary": "AI chatbots have failed people in crisis. Can that be fixed?. Clinicians and researchers say AI companies need to open up their safety data. AI Policy AI and mental health Anthropic ChatGPT openai"
+  },
+  {
+    "group": "ai",
+    "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
+    "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
+    "source": "Ars Technica AI",
+    "published": "2026-08-08T11:05:50.000Z",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/12/hurricane-1152x648.jpg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.07,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0615,
+      "feedPosition": 0.4444,
+      "novelty": 0.8783
+    },
+    "rankingReasons": [
+      "surprise or reversal",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2305,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "positive",
+    "doomIndexPolarity": "protective-or-positive",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.2,
+      "protectiveContext": 0.5,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "8b581d4b4616591e4e57",
+    "doomIndexInputFingerprint": "f22c278c8c8cf87dc2f2",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "positive",
+    "doomIndexV124Polarity": "protective-or-positive",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.2,
+      "protectiveContext": 0.5,
+      "routinePenalty": 0.5,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "positive event status",
+      "speculative or weakly evidenced",
+      "protective or positive context adjustment",
+      "routine or promotional adjustment"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "8b581d4b4616591e4e57",
+    "doomIndexV124InputFingerprint": "7031f596c68e8515b798",
+    "storyId": "8415d3b25b0c60bcddaa",
+    "firstSeen": "2026-08-08T11:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
+    "doomIndexInputSummary": "DeepMind’s hurricane breakthrough has surprised weather scientists. Open source WeatherNext model can make accurate predictions with lower-resolution weather data. AI Science atlantic hurricane season deepmind hurricane syndication weather forecasting WeatherNext"
+  },
+  {
+    "group": "ai",
     "title": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week",
     "url": "https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss",
     "source": "BBC News AI",
@@ -17400,7 +17399,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.0835,
       "sourceAuthority": 0.5,
-      "freshness": 0.1983,
+      "freshness": 0.197,
       "feedPosition": 0.3333,
       "novelty": 0.7565
     },
@@ -17408,7 +17407,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "unusual language in the current story batch"
     ],
-    "score": 0.2304,
+    "score": 0.2302,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -17483,14 +17482,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.4346,
+      "freshness": 0.4319,
       "feedPosition": 0,
       "novelty": 0.9
     },
     "rankingReasons": [
       "unusual language in the current story batch"
     ],
-    "score": 0.2302,
+    "score": 0.2298,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -17553,6 +17552,91 @@ window.DAILY_DOOMSAYER_ARTICLES = [
   },
   {
     "group": "ai",
+    "title": "Company Offering Printed Books to Train AI Stops After 404 Media Coverage",
+    "url": "https://www.404media.co/ai-company-training-scanning-books-database-isbndb/",
+    "source": "404 Media AI",
+    "published": "2026-07-31T14:04:26.000Z",
+    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/photo-1725582205524-6c7c268aee97.jpeg",
+    "coverageSources": 1,
+    "ranking": {
+      "coverage": 0,
+      "titleImpact": 0.3,
+      "sourceAuthority": 0.5,
+      "freshness": 0.0003,
+      "feedPosition": 0.1111,
+      "novelty": 0.829
+    },
+    "rankingReasons": [
+      "real-world consequences",
+      "specific details",
+      "recognizable entities",
+      "unusual language in the current story batch"
+    ],
+    "score": 0.2291,
+    "doomIndex": 5,
+    "doomIndexVersion": "1.2.2",
+    "doomIndexFormulaVersion": "1.2.2-shadow.1",
+    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
+    "doomIndexActuality": "neutral",
+    "doomIndexPolarity": "neutral",
+    "doomIndexFactors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexReasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexCoverageSources": 1,
+    "doomIndexSummaryFingerprint": "4564278e392e76e82fde",
+    "doomIndexInputFingerprint": "d26afe9b467408341cca",
+    "doomIndexV124Shadow": 5,
+    "doomIndexV124ShadowVersion": "1.2.4",
+    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
+    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
+    "doomIndexV124Actuality": "neutral",
+    "doomIndexV124Polarity": "neutral",
+    "doomIndexV124Factors": {
+      "realizedHarm": 0,
+      "scale": 0,
+      "vulnerability": 0,
+      "lossOfControl": 0,
+      "irreversibility": 0,
+      "immediacy": 0,
+      "systemicReach": 0,
+      "credibleThreat": 0,
+      "evidence": 0.3,
+      "actuality": 0.25,
+      "protectiveContext": 0,
+      "routinePenalty": 0,
+      "contextualConcern": 0
+    },
+    "doomIndexV124Reasons": [
+      "neutral event status",
+      "speculative or weakly evidenced"
+    ],
+    "doomIndexV124CoverageSources": 1,
+    "doomIndexV124SummaryFingerprint": "4564278e392e76e82fde",
+    "doomIndexV124InputFingerprint": "d0fbd80621c34a34d19e",
+    "storyId": "e731c4148f4c1ea12d8d",
+    "firstSeen": "2026-08-05T18:00:00.000Z",
+    "lastSeen": "2026-08-12T15:00:00.000Z",
+    "feedSummary": "Citing backlash, ISBNdb removed its webpages about training AI, denied ever buying, scanning, or selling a book for AI training, and said the site was a \"test of market interest.\"",
+    "doomIndexInputSummary": "Company Offering Printed Books to Train AI Stops After 404 Media Coverage. Citing backlash, ISBNdb removed its webpages about training AI, denied ever buying, scanning, or selling a book for AI training, and said the site was a \"test of market interest.\" Impact Books AI ai training"
+  },
+  {
+    "group": "ai",
     "title": "Microsoft Tells Engineers ‘Tokenmaxxing Is Not What We Are Optimizing For’",
     "url": "https://www.404media.co/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for/",
     "source": "404 Media AI",
@@ -17563,7 +17647,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.172,
       "sourceAuthority": 0.5,
-      "freshness": 0.005,
+      "freshness": 0.0049,
       "feedPosition": 0.4444,
       "novelty": 0.7382
     },
@@ -17819,12 +17903,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.445,
+      "freshness": 0.4422,
       "feedPosition": 0.2222,
-      "novelty": 0.5883
+      "novelty": 0.5944
     },
     "rankingReasons": [],
-    "score": 0.2228,
+    "score": 0.223,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -17899,15 +17983,15 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.083,
       "sourceAuthority": 0.5,
-      "freshness": 0.2337,
+      "freshness": 0.2323,
       "feedPosition": 0.2222,
-      "novelty": 0.7322
+      "novelty": 0.7367
     },
     "rankingReasons": [
       "recognizable entities",
       "unusual language in the current story batch"
     ],
-    "score": 0.2221,
+    "score": 0.2223,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -17984,7 +18068,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.212,
       "sourceAuthority": 0.5,
-      "freshness": 0.0172,
+      "freshness": 0.0171,
       "feedPosition": 0.3333,
       "novelty": 0.6334
     },
@@ -17993,7 +18077,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "specific details",
       "recognizable entities"
     ],
-    "score": 0.2167,
+    "score": 0.2166,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -18068,7 +18152,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.012,
       "sourceAuthority": 0.5,
-      "freshness": 0.012,
+      "freshness": 0.0119,
       "feedPosition": 0.5,
       "novelty": 0.8565
     },
@@ -18150,7 +18234,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.14,
       "sourceAuthority": 0.5,
-      "freshness": 0.0091,
+      "freshness": 0.009,
       "feedPosition": 0.25,
       "novelty": 0.8539
     },
@@ -18158,7 +18242,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "unusual language in the current story batch"
     ],
-    "score": 0.2148,
+    "score": 0.2147,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -18401,7 +18485,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.331,
       "sourceAuthority": 0.5,
-      "freshness": 0.0187,
+      "freshness": 0.0186,
       "feedPosition": 0.1667,
       "novelty": 0.3858
     },
@@ -18410,7 +18494,7 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "surprise or reversal",
       "recognizable entities"
     ],
-    "score": 0.1993,
+    "score": 0.1992,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -18649,14 +18733,14 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0.071,
       "sourceAuthority": 0.5,
-      "freshness": 0.2728,
+      "freshness": 0.2711,
       "feedPosition": 0,
-      "novelty": 0.4901
+      "novelty": 0.5153
     },
     "rankingReasons": [
       "recognizable entities"
     ],
-    "score": 0.1791,
+    "score": 0.1814,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -18815,12 +18899,12 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "coverage": 0,
       "titleImpact": 0,
       "sourceAuthority": 0.5,
-      "freshness": 0.4719,
+      "freshness": 0.469,
       "feedPosition": 0,
-      "novelty": 0.2228
+      "novelty": 0.2416
     },
     "rankingReasons": [],
-    "score": 0.1681,
+    "score": 0.1695,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -18897,10 +18981,10 @@ window.DAILY_DOOMSAYER_ARTICLES = [
       "sourceAuthority": 0.5,
       "freshness": 0.0002,
       "feedPosition": 0,
-      "novelty": 0.5491
+      "novelty": 0.554
     },
     "rankingReasons": [],
-    "score": 0.143,
+    "score": 0.1435,
     "doomIndex": 5,
     "doomIndexVersion": "1.2.2",
     "doomIndexFormulaVersion": "1.2.2-shadow.1",
@@ -18962,85 +19046,5 @@ window.DAILY_DOOMSAYER_ARTICLES = [
     "lastSeen": "2026-08-12T15:00:00.000Z",
     "feedSummary": "",
     "doomIndexInputSummary": "Scientists using LLMs will ‘do more, less well’, modelling study predicts."
-  },
-  {
-    "group": "ai",
-    "title": "Anthropic will design its own hardware to power Claude",
-    "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
-    "source": "Ars Technica AI",
-    "published": "2026-08-06T20:03:44.000Z",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/amodei_header_1-1152x648.jpg",
-    "coverageSources": 1,
-    "ranking": {
-      "coverage": 0,
-      "titleImpact": 0.0355,
-      "sourceAuthority": 0.5,
-      "freshness": 0.0209,
-      "feedPosition": 0,
-      "novelty": 0.2709
-    },
-    "rankingReasons": [],
-    "score": 0.1123,
-    "doomIndex": 5,
-    "doomIndexVersion": "1.2.2",
-    "doomIndexFormulaVersion": "1.2.2-shadow.1",
-    "doomIndexFormulaFingerprint": "038227c518a0cea1b62b",
-    "doomIndexActuality": "neutral",
-    "doomIndexPolarity": "neutral",
-    "doomIndexFactors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexReasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexCoverageSources": 1,
-    "doomIndexSummaryFingerprint": "4799e2ca69d74e3cbed7",
-    "doomIndexInputFingerprint": "fcb7e50d09c47bb274be",
-    "doomIndexV124Shadow": 5,
-    "doomIndexV124ShadowVersion": "1.2.4",
-    "doomIndexV124ShadowFormulaVersion": "1.2.4-offline.1",
-    "doomIndexV124ShadowFormulaFingerprint": "67098f3714bc528d2902",
-    "doomIndexV124Actuality": "neutral",
-    "doomIndexV124Polarity": "neutral",
-    "doomIndexV124Factors": {
-      "realizedHarm": 0,
-      "scale": 0,
-      "vulnerability": 0,
-      "lossOfControl": 0,
-      "irreversibility": 0,
-      "immediacy": 0,
-      "systemicReach": 0,
-      "credibleThreat": 0,
-      "evidence": 0.3,
-      "actuality": 0.25,
-      "protectiveContext": 0,
-      "routinePenalty": 0,
-      "contextualConcern": 0
-    },
-    "doomIndexV124Reasons": [
-      "neutral event status",
-      "speculative or weakly evidenced"
-    ],
-    "doomIndexV124CoverageSources": 1,
-    "doomIndexV124SummaryFingerprint": "4799e2ca69d74e3cbed7",
-    "doomIndexV124InputFingerprint": "442530d55693e88fce6b",
-    "storyId": "1e6dab028310471c79ee",
-    "firstSeen": "2026-08-06T20:00:00.000Z",
-    "lastSeen": "2026-08-12T15:00:00.000Z",
-    "feedSummary": "Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia.",
-    "doomIndexInputSummary": "Anthropic will design its own hardware to power Claude. Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia. AI Anthropic datacenter inference LLM NVIDIA Samsung silicon training"
   }
 ];
