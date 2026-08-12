@@ -1502,12 +1502,39 @@ function guardianImageAtWidth(value, width) {
   }
 }
 
+function politicoImageAtWidth(value, width) {
+  const imageUrl = cleanImageUrl(value);
+
+  if (!imageUrl) {
+    return "";
+  }
+
+  try {
+    const url = new URL(imageUrl);
+
+    if (
+      url.hostname === "www.politico.com" &&
+      url.pathname.startsWith("/dims4/") &&
+      /\/resize\/\d+\//.test(url.pathname)
+    ) {
+      url.pathname = url.pathname.replace(
+        /\/resize\/\d+\//,
+        `/resize/${width}/`,
+      );
+    }
+
+    return url.href;
+  } catch {
+    return imageUrl;
+  }
+}
+
 function highResolutionStoryImage(value) {
-  return guardianImageAtWidth(value, 800);
+  return politicoImageAtWidth(guardianImageAtWidth(value, 800), 800);
 }
 
 function highResolutionHeadlineImage(value) {
-  return guardianImageAtWidth(value, 1900);
+  return politicoImageAtWidth(guardianImageAtWidth(value, 1900), 1900);
 }
 
 function tagAttribute(tag, attributeName) {
@@ -1670,12 +1697,21 @@ function blueskyExternalCard(feedEntry) {
 
   return {
     articleUrl: canonicalStoryUrl(external.uri),
+    title: normalizeArticleText(external.title || ""),
     image: highResolutionBlueskyImage(external.thumb),
   };
 }
 
-async function fetchBlueskyArticleImages(actor, articleUrls) {
-  const requestedUrls = new Set(articleUrls.map(canonicalStoryUrl).filter(Boolean));
+async function fetchBlueskyArticleImages(actor, articles) {
+  const requestedArticles = articles
+    .map((article) => ({
+      articleUrl: canonicalStoryUrl(article.url),
+      title: normalizeArticleText(article.title || ""),
+    }))
+    .filter((article) => article.articleUrl);
+  const requestedUrls = new Set(
+    requestedArticles.map((article) => article.articleUrl),
+  );
   const images = new Map();
   let cursor = "";
 
@@ -1699,13 +1735,33 @@ async function fetchBlueskyArticleImages(actor, articleUrls) {
 
     for (const feedEntry of Array.isArray(payload.feed) ? payload.feed : []) {
       const card = blueskyExternalCard(feedEntry);
+      let matchedUrl = card?.articleUrl;
+
+      if (card?.image && !requestedUrls.has(matchedUrl) && card.title) {
+        const titleMatches = requestedArticles
+          .filter((article) => !images.has(article.articleUrl))
+          .map((article) => ({
+            ...article,
+            similarity: titleSimilarity(article.title, card.title),
+          }))
+          .filter((article) => article.similarity >= 0.8)
+          .sort((first, second) => second.similarity - first.similarity);
+
+        if (
+          titleMatches.length > 0 &&
+          (titleMatches.length === 1 ||
+            titleMatches[0].similarity > titleMatches[1].similarity)
+        ) {
+          matchedUrl = titleMatches[0].articleUrl;
+        }
+      }
 
       if (
         card?.image &&
-        requestedUrls.has(card.articleUrl) &&
+        requestedUrls.has(matchedUrl) &&
         !isLikelyPromotionalImage(card.image)
       ) {
-        images.set(card.articleUrl, card.image);
+        images.set(matchedUrl, card.image);
       }
     }
 
@@ -1970,7 +2026,7 @@ async function fetchSourceArticles(source) {
         try {
           blueskyImages = await fetchBlueskyArticleImages(
             source.blueskyImageFallbackActor,
-            sourceArticles.filter((article) => !article.image).map((article) => article.url),
+            sourceArticles.filter((article) => !article.image),
           );
         } catch (error) {
           console.error(
@@ -2001,6 +2057,10 @@ async function fetchSourceArticles(source) {
         }
 
         if (article.image) {
+          return;
+        }
+
+        if (source.articlePageImageFallback === false) {
           return;
         }
 
@@ -2195,17 +2255,24 @@ const featuredArticle = uniqueArticles.find((article) => article.group === "ai")
 
 if (featuredArticle) {
   featuredArticle.featured = true;
+  const featuredSource = config.sources.find(
+    (source) => source.name === featuredArticle.source,
+  );
 
-  try {
-    const articlePageImage = await fetchArticleImage(featuredArticle.url);
-    featuredArticle.image = highResolutionHeadlineImage(
-      articlePageImage || featuredArticle.image,
-    );
-  } catch (error) {
+  if (featuredSource?.articlePageImageFallback === false) {
     featuredArticle.image = highResolutionHeadlineImage(featuredArticle.image);
-    console.error(
-      `Could not inspect the headline page for ${featuredArticle.url}: ${error.message}`,
-    );
+  } else {
+    try {
+      const articlePageImage = await fetchArticleImage(featuredArticle.url);
+      featuredArticle.image = highResolutionHeadlineImage(
+        articlePageImage || featuredArticle.image,
+      );
+    } catch (error) {
+      featuredArticle.image = highResolutionHeadlineImage(featuredArticle.image);
+      console.error(
+        `Could not inspect the headline page for ${featuredArticle.url}: ${error.message}`,
+      );
+    }
   }
 }
 
