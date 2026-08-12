@@ -6865,6 +6865,66 @@
       "published": "2026-08-11T22:20:19",
       "firstSeen": "2026-08-12T14:00:00.000Z",
       "lastSeen": "2026-08-12T14:00:00.000Z"
+    },
+    "98ca4f1ba1ba1981a684": {
+      "storyId": "98ca4f1ba1ba1981a684",
+      "currentTitle": "‘Nightmare fodder’: Roku’s AI slop channel is even worse than expected",
+      "originalTitle": "‘Nightmare fodder’: Roku’s AI slop channel is even worse than expected",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/aug/12/roku-ai-slop-fairground-creator-tv-channel",
+      "canonicalUrl": "https://www.theguardian.com/tv-and-radio/2026/aug/12/roku-ai-slop-fairground-creator-tv-channel",
+      "source": "The Guardian AI",
+      "image": "https://i.guim.co.uk/img/media/8e23e7893584e80a93e1e36e0b662ddcde735636/493_0_4913_3933/master/4913.jpg?width=800&dpr=2&s=none&crop=none",
+      "published": "2026-08-12T14:15:25.000Z",
+      "firstSeen": "2026-08-12T14:00:00.000Z",
+      "lastSeen": "2026-08-12T14:00:00.000Z"
+    },
+    "847e04a735969f84f125": {
+      "storyId": "847e04a735969f84f125",
+      "currentTitle": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+      "originalTitle": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+      "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026",
+      "source": "TechCrunch AI",
+      "image": "",
+      "published": "2026-08-12T14:20:33.000Z",
+      "firstSeen": "2026-08-12T14:00:00.000Z",
+      "lastSeen": "2026-08-12T14:00:00.000Z"
+    },
+    "5672aebf276807565a9f": {
+      "storyId": "5672aebf276807565a9f",
+      "currentTitle": "4 New Camera Tricks on Google’s Latest Pixel 11 Smartphones",
+      "originalTitle": "4 New Camera Tricks on Google’s Latest Pixel 11 Smartphones",
+      "url": "https://www.wired.com/story/new-camera-tricks-on-google-latest-pixel-11-smartphones/",
+      "canonicalUrl": "https://www.wired.com/story/new-camera-tricks-on-google-latest-pixel-11-smartphones",
+      "source": "WIRED AI",
+      "image": "https://media.wired.com/photos/6a7b42c0e3ffed826d9fc63e/master/pass/Google%20Pixel%2011%20in%20Hibiscus%20SOURCE%20Julian%20Chokkattu.jpg",
+      "published": "2026-08-12T14:00:00.000Z",
+      "firstSeen": "2026-08-12T14:00:00.000Z",
+      "lastSeen": "2026-08-12T14:00:00.000Z"
+    },
+    "b926419d1bf47342bb89": {
+      "storyId": "b926419d1bf47342bb89",
+      "currentTitle": "Google’s Pixel Watch 5 dives deeper into AI and health",
+      "originalTitle": "Google’s Pixel Watch 5 dives deeper into AI and health",
+      "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+      "canonicalUrl": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+      "source": "The Verge AI",
+      "image": "",
+      "published": "2026-08-12T14:00:00.000Z",
+      "firstSeen": "2026-08-12T14:00:00.000Z",
+      "lastSeen": "2026-08-12T14:00:00.000Z"
+    },
+    "ea2e11c95bbbdddc0028": {
+      "storyId": "ea2e11c95bbbdddc0028",
+      "currentTitle": "Movie Review: 'The Rivals of Amziah King' is a Southern fried flick with too many ingredients",
+      "originalTitle": "Movie Review: 'The Rivals of Amziah King' is a Southern fried flick with too many ingredients",
+      "url": "https://apnews.com/article/amziah-king-movie-review-matthew-mcconaughey-84b73b8f7bf46b42044de12a2bc3723a",
+      "canonicalUrl": "https://apnews.com/article/amziah-king-movie-review-matthew-mcconaughey-84b73b8f7bf46b42044de12a2bc3723a",
+      "source": "AP News AI",
+      "image": "https://dims.apnews.com/dims4/default/d6a8959/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffc%2Fcb%2F046b956372ea9bba17a825c2a805%2F43b834e6b62b497881c46537085bddae",
+      "published": "2026-08-11T17:41:27",
+      "firstSeen": "2026-08-12T14:00:00.000Z",
+      "lastSeen": "2026-08-12T14:00:00.000Z"
     }
   },
   "formulas": {
