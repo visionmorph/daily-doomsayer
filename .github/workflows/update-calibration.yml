@@ -35,6 +35,9 @@ jobs:
       - name: Rebuild the calibration benchmark
         run: npm run build-calibration-benchmark
 
+      - name: Rebuild the blind review queue
+        run: npm run build-calibration-review-queue
+
       - name: Analyze DREAD model agreement
         run: |
           npm run --silent analyze-calibration | tee calibration-report.md
@@ -48,6 +51,8 @@ jobs:
       - name: Save the updated benchmark
         run: |
           git add data/human-calibration/calibration-benchmark.v1.json
+          git add data/human-calibration/review-queues/guided-v1.1-live-review.json
+          git add review-queue.js
           if git diff --cached --quiet; then
             echo "No calibration benchmark changes"
             exit 0
