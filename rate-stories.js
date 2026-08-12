@@ -1,13 +1,32 @@
 (function initializeHumanCalibration() {
   "use strict";
 
-  const STORAGE_KEY = "daily-doomsayer-human-calibration-v1";
-  const articles = Array.isArray(window.DAILY_DOOMSAYER_ARTICLES)
-    ? window.DAILY_DOOMSAYER_ARTICLES.filter(
-        (article) => article?.title && article?.url,
-      )
+  const reviewMode =
+    new URLSearchParams(window.location.search).get("mode") === "blind-review";
+  const reviewQueue = window.DAILY_DOOMSAYER_REVIEW_QUEUE || {};
+  const reviewArticles = Array.isArray(reviewQueue.records)
+    ? reviewQueue.records.map((record) => ({
+        benchmarkId: record.benchmarkId,
+        storyId: record.article?.storyId || null,
+        title: record.article?.title || "",
+        url: record.article?.url || "",
+        source: record.article?.source || "",
+        published: record.article?.published || "",
+        feedSummary: record.feedSummary || "",
+      }))
     : [];
-  const site = window.DAILY_DOOMSAYER_SITE || {};
+  const sourceArticles = reviewMode
+    ? reviewArticles
+    : window.DAILY_DOOMSAYER_ARTICLES;
+  const STORAGE_KEY = reviewMode
+    ? `daily-doomsayer-blind-review-${reviewQueue.queueFingerprint || "v1"}`
+    : "daily-doomsayer-human-calibration-v1";
+  const articles = Array.isArray(sourceArticles)
+    ? sourceArticles.filter((article) => article?.title && article?.url)
+    : [];
+  const site = reviewMode
+    ? { doomIndex: { severityScale: reviewQueue.severityScale || [] } }
+    : window.DAILY_DOOMSAYER_SITE || {};
   const doomIndex = site.doomIndex || {};
   const guidance = window.DAILY_DOOMSAYER_CALIBRATION_GUIDANCE;
   const FEED_SUMMARY_CHARACTER_LIMIT = 360;
@@ -106,6 +125,7 @@
 
   function articleIdentity(article) {
     return {
+      benchmarkId: article.benchmarkId || null,
       storyId: article.storyId || null,
       title: article.title,
       url: article.url,
@@ -487,6 +507,42 @@
       : structuredReasoning;
   }
 
+  function blindReviewExplanationReasons(
+    stage,
+    selection,
+    selectedScore,
+    recommendation,
+  ) {
+    if (!reviewMode) return [];
+
+    const reasons = [];
+    const recommendedBand = recommendation.effectiveBand || recommendation.band;
+    const selectedBand = severityBandForScore(selectedScore)?.label || "UNCLASSIFIED";
+
+    if (
+      selection === "manual" &&
+      (selectedScore < recommendation.range.lower ||
+        selectedScore > recommendation.range.upper)
+    ) {
+      reasons.push("the exact score is outside the suggested range");
+    }
+    if (selection === "manual" && selectedBand !== recommendedBand) {
+      reasons.push("the exact score changes the suggested severity band");
+    }
+    if (selectedScore >= 60) {
+      reasons.push("the rating is Dire or Catastrophic");
+    }
+    if (stage.id === "article") {
+      const article = articles[currentIndex];
+      const feedScore = Number(state.ratings[storyKey(article)]?.feedRating?.score);
+      if (Number.isFinite(feedScore) && Math.abs(selectedScore - feedScore) >= 15) {
+        reasons.push("the full article changes the rating by at least 15 points");
+      }
+    }
+
+    return [...new Set(reasons)];
+  }
+
   function stageRating(stage) {
     const recommendation = stage.currentRecommendation;
     const selection = selectedValue(stage.form, stage.ratingChoiceName);
@@ -506,6 +562,23 @@
       selection === "manual"
         ? humanScore(stage.slider.value)
         : recommendation.range[selection];
+    const explanationReasons = blindReviewExplanationReasons(
+      stage,
+      selection,
+      selectedScore,
+      recommendation,
+    );
+    const reasoningField = stage.form.elements.reasoning;
+
+    if (explanationReasons.length && !additionalContext) {
+      reasoningField.setCustomValidity(
+        `Briefly explain why ${explanationReasons.join(" and ")}.`,
+      );
+      reasoningField.reportValidity();
+      reasoningField.focus();
+      return null;
+    }
+    reasoningField.setCustomValidity("");
 
     return {
       score: selectedScore,
@@ -530,6 +603,7 @@
         },
         selection,
         additionalContext,
+        reviewFlags: explanationReasons,
       },
     };
   }
@@ -740,6 +814,24 @@
     elements.result.hidden = false;
     elements.comparison.replaceChildren();
 
+    if (reviewMode) {
+      elements.comparison.append(
+        comparisonItem("Feed review", humanScoreText(record.feedRating.score)),
+        comparisonItem(
+          "Article review",
+          humanScoreText(record.articleRating.score),
+        ),
+        comparisonItem(
+          "Article context adjustment",
+          signedDifference(record.articleRating.score, record.feedRating.score, 0),
+        ),
+      );
+      elements.status.textContent =
+        "Blind review saved locally. Previous ratings and DREAD scores remain hidden.";
+      updateProgress();
+      return;
+    }
+
     const publicDefinition = record.models.public;
     const shadowDefinition = record.models.shadow;
 
@@ -814,10 +906,14 @@
         ...humanRating,
         ratedAt: now,
       },
-      models: {
-        public: publicModel(article),
-        shadow: shadowModel(article),
-      },
+      ...(reviewMode
+        ? {}
+        : {
+            models: {
+              public: publicModel(article),
+              shadow: shadowModel(article),
+            },
+          }),
       startedAt: state.ratings[key]?.startedAt || now,
       updatedAt: now,
     };
@@ -891,10 +987,14 @@
         details: elements.skipForm.elements["skip-details"].value.trim(),
         skippedAt: now,
       },
-      models: existing?.models || {
-        public: publicModel(article),
-        shadow: shadowModel(article),
-      },
+      ...(reviewMode
+        ? {}
+        : {
+            models: existing?.models || {
+              public: publicModel(article),
+              shadow: shadowModel(article),
+            },
+          }),
       startedAt: existing?.startedAt || now,
       completedAt: now,
       updatedAt: now,
@@ -919,7 +1019,7 @@
         ? { ...record, scoringInput: capturedInput }
         : record;
     });
-    const payload = {
+    const sharedPayload = {
       schemaVersion: state.schemaVersion,
       exportedAt: new Date().toISOString(),
       calibrationMethod: {
@@ -930,14 +1030,6 @@
         modelScoresHiddenUntil: "both-human-judgments-complete",
       },
       severityScale: doomIndex.severityScale || [],
-      modelConfiguration: {
-        public: {
-          name: String(doomIndex.modelName || "DREAD").toUpperCase(),
-          version: doomIndex.version || null,
-          formulaVersion: doomIndex.formulaVersion || null,
-        },
-        shadow: doomIndex.shadow || null,
-      },
       totals: {
         availableStories: articles.length,
         rated: records.filter((record) => record.status === "rated").length,
@@ -946,6 +1038,38 @@
       },
       records,
     };
+    const payload = reviewMode
+      ? {
+          ...sharedPayload,
+          exportType: "blind-calibration-review",
+          reviewQueue: {
+            version: reviewQueue.queueVersion || null,
+            fingerprint: reviewQueue.queueFingerprint || null,
+            sourceBenchmarkVersion: reviewQueue.sourceBenchmarkVersion || null,
+            sourceBenchmarkAsOf: reviewQueue.sourceBenchmarkAsOf || null,
+            totalRecords: Number(reviewQueue.totals?.records || articles.length),
+            eligibleBenchmarkIds: reviewQueue.records.map((record) =>
+              String(record.benchmarkId),
+            ),
+          },
+          blindness: {
+            previousHumanRatingsHidden: true,
+            questionnaireRecommendationsFromPreviousPassHidden: true,
+            modelScoresHidden: true,
+            queueOrder: "deterministically-shuffled",
+          },
+        }
+      : {
+          ...sharedPayload,
+          modelConfiguration: {
+            public: {
+              name: String(doomIndex.modelName || "DREAD").toUpperCase(),
+              version: doomIndex.version || null,
+              formulaVersion: doomIndex.formulaVersion || null,
+            },
+            shadow: doomIndex.shadow || null,
+          },
+        };
 
     const blob = new Blob([`${JSON.stringify(payload, null, 2)}\n`], {
       type: "application/json",
@@ -954,12 +1078,16 @@
     const link = document.createElement("a");
     const date = new Date().toISOString().slice(0, 10);
     link.href = url;
-    link.download = `dread-human-calibration-${date}.json`;
+    link.download = reviewMode
+      ? `dread-blind-review-${date}.json`
+      : `dread-human-calibration-${date}.json`;
     document.body.append(link);
     link.click();
     link.remove();
     URL.revokeObjectURL(url);
-    elements.status.textContent = "Calibration ratings exported.";
+    elements.status.textContent = reviewMode
+      ? "Blind review ratings exported."
+      : "Calibration ratings exported.";
   }
 
   function updateSlider(event) {
@@ -1003,6 +1131,11 @@
   elements.articleForm.addEventListener("change", (event) => {
     updateGuidedForm(event, stages.article);
   });
+  [elements.feedForm, elements.articleForm].forEach((form) => {
+    form.elements.reasoning.addEventListener("input", (event) => {
+      event.currentTarget.setCustomValidity("");
+    });
+  });
   elements.skipForm.addEventListener("change", updateRadioStyle);
   elements.feedForm.addEventListener("submit", handleFeedSubmit);
   elements.articleForm.addEventListener("submit", handleArticleSubmit);
@@ -1017,6 +1150,16 @@
 
   renderEvidenceGroups(stages.feed);
   renderEvidenceGroups(stages.article);
+  if (reviewMode) {
+    document.title = "DREAD BLIND CALIBRATION REVIEW";
+    const logo = document.querySelector(".calibration-logo");
+    if (logo) logo.textContent = "Daily Doomsayer / Blind Review";
+    const guardrail = document.createElement("p");
+    guardrail.className = "calibration-note calibration-review-instruction";
+    guardrail.textContent =
+      "Rate only the event described by this headline—not background incidents, hypothetical outcomes, or the problem a protective measure addresses.";
+    elements.title.closest(".calibration-story-context")?.prepend(guardrail);
+  }
   renderScaleItem(stages.feed.scale, stages.feed.slider.value);
   renderScaleItem(stages.article.scale, stages.article.slider.value);
   renderStory();
