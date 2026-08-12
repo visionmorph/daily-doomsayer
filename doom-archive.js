@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-12T09:00:00.000Z",
+  "generatedAt": "2026-08-12T10:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-12",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T10:00:00.000Z",
           "average": 46.96
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T10:00:00.000Z",
           "average": 29.27
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Sky News AI",
           "image": "https://e3.365dm.com/24/10/1920x1080/skynews-harrods-london_6727506.jpg?20250926225504",
           "peak": 27.04,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T09:00:00.000Z",
-          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T10:00:00.000Z",
           "average": 27.04
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
           "peak": 21.55,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T10:00:00.000Z",
           "average": 21.55
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/877feb4bab4c2039e0cdd325710d3b00e9f9b822/857_0_6109_4888/master/6109.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 21.14,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T10:00:00.000Z",
           "average": 21.14
         },
         {
@@ -115,12 +115,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Sky News AI",
           "image": "https://e3.365dm.com/25/03/1920x1080/skynews-syria-isis_6855227.jpg?20250313161414",
           "peak": 21.12,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T09:00:00.000Z",
-          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T10:00:00.000Z",
           "average": 21.12
+        },
+        {
+          "storyId": "5698e809e332002405fc",
+          "title": "AI was supposed to destroy jobs. Where’s the carnage?",
+          "url": "https://www.theguardian.com/technology/2026/aug/12/ai-job-destruction",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/7f3afc0d9b6e673a4c0f7f4207a13737e3df983d/0_0_2939_2351/master/2939.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 20.14,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-12",
+          "firstObservedAt": "2026-08-12T10:00:00.000Z",
+          "lastObservedAt": "2026-08-12T10:00:00.000Z",
+          "average": 20.14
         },
         {
           "storyId": "23a292887ca5e4c75326",
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-12T05:00:00.000Z",
           "lastObservedAt": "2026-08-12T08:00:00.000Z",
           "average": 19.04
-        },
-        {
-          "storyId": "15370392c6eefb0825a2",
-          "title": "Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country",
-          "url": "https://www.eff.org/deeplinks/2026/07/hundreds-drone-first-responder-programs-could-soon-be-launched-across-country",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/drone-police-by-shelby-criswell.png",
-          "peak": 18.98,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-08-12",
-          "firstObservedAt": "2026-08-12T05:00:00.000Z",
-          "lastObservedAt": "2026-08-12T08:00:00.000Z",
-          "average": 18.98
         }
       ]
     },
@@ -1048,11 +1048,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 2,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T15:00:00.000Z",
-          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T10:00:00.000Z",
           "average": 46.96
         },
         {
@@ -1146,11 +1146,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
           "peak": 29.27,
-          "observations": 33,
+          "observations": 34,
           "daysTracked": 3,
           "peakDate": "2026-08-10",
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T10:00:00.000Z",
           "average": 29.27
         },
         {
@@ -1340,11 +1340,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK059_zoom_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "peak": 46.96,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 2,
           "peakDate": "2026-08-11",
           "firstObservedAt": "2026-08-11T15:00:00.000Z",
-          "lastObservedAt": "2026-08-12T09:00:00.000Z",
+          "lastObservedAt": "2026-08-12T10:00:00.000Z",
           "average": 46.96
         },
         {
