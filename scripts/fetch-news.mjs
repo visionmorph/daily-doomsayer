@@ -1238,6 +1238,24 @@ function itemAnalysisText(item) {
     .slice(0, 4_000));
 }
 
+function itemDisplaySummary(item) {
+  const candidates = [
+    ...textValues(item.contentSnippet),
+    ...textValues(item.summary),
+    ...textValues(item.description),
+  ];
+
+  for (const candidate of candidates) {
+    const summary = normalizeArticleText(candidate);
+
+    if (summary) {
+      return summary;
+    }
+  }
+
+  return "";
+}
+
 function sourceIncludeKeywords(source) {
   const keywordSetNames = [
     ...textValues(source.includeKeywordSet),
@@ -1962,6 +1980,7 @@ async function fetchSourcePageArticles(source) {
       source: normalizeArticleText(source.name),
       published: item.isoDate || "",
       image: item.image || "",
+      feedSummary: itemDisplaySummary(item),
       analysisText: itemAnalysisText(item),
       feedPosition,
       sourceWeight,
@@ -2016,6 +2035,7 @@ async function fetchSourceArticles(source) {
         source: normalizeArticleText(source.name || feed.title || ""),
         published: item.isoDate || item.pubDate || "",
         image: extractImage(item),
+        feedSummary: itemDisplaySummary(item),
         analysisText: itemAnalysisText(item),
         feedPosition,
         sourceWeight,
@@ -2295,10 +2315,11 @@ const publishedArticles = uniqueArticles.map(
     sourceWeight,
     doomIndexInputSummary,
     doomIndexV124InputSummary,
+    feedSummary,
     ...article
   }) => ({
     ...article,
-    feedSummary: normalizeArticleText(analysisText),
+    feedSummary: normalizeArticleText(feedSummary),
     doomIndexInputSummary: normalizeArticleText(doomIndexInputSummary),
   }),
 );
