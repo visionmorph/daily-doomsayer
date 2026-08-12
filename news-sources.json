@@ -311,6 +311,7 @@
       "indexUrl": "https://www.politico.com/technology",
       "feed": "https://rss.politico.com/technology.xml",
       "includeKeywordSet": "ai",
+      "blueskyImageFallbackActor": "politico.com",
       "resolveMissingArticleImages": true
     },
     {
@@ -320,6 +321,7 @@
       "indexUrl": "https://www.politico.eu/section/technology/",
       "feed": "https://www.politico.eu/section/technology/feed/",
       "includeKeywordSet": "ai",
+      "blueskyImageFallbackActor": "politico.eu",
       "resolveMissingArticleImages": true
     },
     {
