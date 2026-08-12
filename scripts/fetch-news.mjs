@@ -1574,6 +1574,83 @@ async function fetchArticleImage(articleUrl) {
   return socialImageFromHtml(page.text, page.url);
 }
 
+function wordpressFeaturedImageFromPost(post, baseUrl) {
+  const media = post?._embedded?.["wp:featuredmedia"]?.[0];
+
+  if (!media || typeof media !== "object") {
+    return "";
+  }
+
+  const originalWidth = Number(media.media_details?.width) || 0;
+  const originalHeight = Number(media.media_details?.height) || 0;
+  const candidates = [
+    {
+      url: media.source_url,
+      width: originalWidth,
+      height: originalHeight,
+    },
+    ...Object.values(media.media_details?.sizes || {}).map((size) => ({
+      url: size?.source_url,
+      width: Number(size?.width) || 0,
+      height: Number(size?.height) || 0,
+    })),
+  ]
+    .map((candidate) => ({
+      ...candidate,
+      url: cleanImageUrl(candidate.url, baseUrl),
+    }))
+    .filter(
+      (candidate) =>
+        candidate.url &&
+        !isLikelyPromotionalImage(candidate.url, {
+          width: candidate.width,
+          height: candidate.height,
+        }),
+    );
+
+  candidates.sort(
+    (first, second) =>
+      second.width * second.height - first.width * first.height,
+  );
+
+  return candidates[0]?.url || "";
+}
+
+async function fetchWordPressFeaturedImage(articleUrl) {
+  const canonicalArticleUrl = canonicalStoryUrl(articleUrl);
+  const article = new URL(canonicalArticleUrl);
+  const slug = article.pathname.split("/").filter(Boolean).at(-1);
+
+  if (!slug) {
+    return "";
+  }
+
+  const endpoint = new URL("/wp-json/wp/v2/posts", article.origin);
+  endpoint.searchParams.set("slug", slug);
+  endpoint.searchParams.set("_embed", "wp:featuredmedia");
+
+  const response = await requestText(endpoint.href, {
+    headers: {
+      "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " +
+        "(KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      Accept: "application/json,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9",
+      Referer: `${article.origin}/`,
+    },
+    timeoutMs: ARTICLE_TIMEOUT_MS,
+  });
+  const posts = JSON.parse(response.text);
+
+  if (!Array.isArray(posts) || posts.length === 0) {
+    return "";
+  }
+
+  return highResolutionStoryImage(
+    wordpressFeaturedImageFromPost(posts[0], article.origin),
+  );
+}
+
 function extractImage(item) {
   const enclosureImage =
     item.enclosure?.url &&
@@ -1822,6 +1899,20 @@ async function fetchSourceArticles(source) {
 
     if (source.resolveMissingArticleImages === true) {
       await mapWithConcurrency(sourceArticles, 3, async (article) => {
+        if (article.image) {
+          return;
+        }
+
+        if (source.wordpressFeaturedImageFallback === true) {
+          try {
+            article.image = await fetchWordPressFeaturedImage(article.url);
+          } catch (error) {
+            console.error(
+              `[image] Could not inspect WordPress metadata for ${article.url}: ${error.message}`,
+            );
+          }
+        }
+
         if (article.image) {
           return;
         }
