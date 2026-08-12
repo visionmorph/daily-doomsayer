@@ -370,8 +370,28 @@
       </form>
     </dialog>
 
-    <script src="./articles.js"></script>
-    <script src="./calibration-guidance.js"></script>
-    <script src="./rate-stories.js?v=20260812-360"></script>
+    <script>
+      (function loadCalibrationData() {
+        const reviewMode =
+          new URLSearchParams(window.location.search).get("mode") ===
+          "blind-review";
+        const sources = [
+          reviewMode ? "./review-queue.js" : "./articles.js",
+          "./calibration-guidance.js",
+          "./rate-stories.js?v=20260812-review",
+        ];
+
+        function loadNext() {
+          const source = sources.shift();
+          if (!source) return;
+          const script = document.createElement("script");
+          script.src = source;
+          script.onload = loadNext;
+          document.body.append(script);
+        }
+
+        loadNext();
+      })();
+    </script>
   </body>
 </html>
