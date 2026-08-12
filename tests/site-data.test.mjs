@@ -82,6 +82,43 @@ test("source directory is deduplicated and alphabetized without leading The", ()
   );
 });
 
+test("news sources include scoped AP, Reuters, and POLITICO collection paths", async () => {
+  const [configText, fetchScript] = await Promise.all([
+    readFile(new URL("../news-sources.json", import.meta.url), "utf8"),
+    readFile(new URL("../scripts/fetch-news.mjs", import.meta.url), "utf8"),
+  ]);
+  const config = JSON.parse(configText);
+  const sources = Object.fromEntries(
+    config.sources.map((source) => [source.name, source]),
+  );
+
+  assert.equal(
+    sources["POLITICO AI"].feed,
+    "https://rss.politico.com/technology.xml",
+  );
+  assert.equal(sources["POLITICO AI"].includeKeywordSet, "ai");
+  assert.equal(
+    sources["POLITICO Europe AI"].feed,
+    "https://www.politico.eu/section/technology/feed/",
+  );
+  assert.equal(sources["POLITICO Europe AI"].includeKeywordSet, "ai");
+  assert.equal(
+    sources["AP News AI"].pageUrl,
+    "https://apnews.com/hub/artificial-intelligence",
+  );
+  assert.deepEqual(sources["AP News AI"].pageArticleUrlPatterns, ["/article/"]);
+  assert.equal(
+    sources["Reuters AI"].pageUrl,
+    "https://www.reuters.com/technology/artificial-intelligence/",
+  );
+  assert.deepEqual(sources["Reuters AI"].pageArticleUrlPatterns, [
+    "/technology/artificial-intelligence/",
+  ]);
+  assert.match(fetchScript, /async function fetchSourcePageArticles\(source\)/);
+  assert.match(fetchScript, /const configuredPages = config\.sources/);
+  assert.match(fetchScript, /type === "page"\s*\? fetchSourcePageArticles\(source\)/);
+});
+
 test("severity scale must be contiguous and cover the complete index", () => {
   const scale = normalizedSeverityScale([
     {
