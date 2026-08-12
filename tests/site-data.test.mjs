@@ -120,6 +120,10 @@ test("news sources include scoped AP, Reuters, POLITICO, and The Dispatch collec
   assert.deepEqual(sources["Reuters AI"].pageArticleUrlPatterns, [
     "/technology/artificial-intelligence/",
   ]);
+  assert.match(
+    fetchScript,
+    /async function fetchArticleImage\(articleUrl\)\s*\{[\s\S]*?canonicalStoryUrl\(articleUrl\)[\s\S]*?Mozilla\/5\.0[\s\S]*?Accept-Language[\s\S]*?Referer:/,
+  );
   assert.match(fetchScript, /async function fetchSourcePageArticles\(source\)/);
   assert.match(fetchScript, /const configuredPages = config\.sources/);
   assert.match(fetchScript, /type === "page"\s*\? fetchSourcePageArticles\(source\)/);
