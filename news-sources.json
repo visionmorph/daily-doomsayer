@@ -293,6 +293,44 @@
         "Artificial Intelligence"
       ],
       "includeKeywordSet": "ai"
+    },
+    {
+      "group": "ai",
+      "name": "POLITICO AI",
+      "displayName": "POLITICO",
+      "indexUrl": "https://www.politico.com/technology",
+      "feed": "https://rss.politico.com/technology.xml",
+      "includeKeywordSet": "ai",
+      "resolveMissingArticleImages": true
+    },
+    {
+      "group": "ai",
+      "name": "POLITICO Europe AI",
+      "displayName": "POLITICO Europe",
+      "indexUrl": "https://www.politico.eu/section/technology/",
+      "feed": "https://www.politico.eu/section/technology/feed/",
+      "includeKeywordSet": "ai",
+      "resolveMissingArticleImages": true
+    },
+    {
+      "group": "ai",
+      "name": "AP News AI",
+      "displayName": "AP News",
+      "indexUrl": "https://apnews.com/hub/artificial-intelligence",
+      "pageUrl": "https://apnews.com/hub/artificial-intelligence",
+      "pageArticleUrlPatterns": [
+        "/article/"
+      ]
+    },
+    {
+      "group": "ai",
+      "name": "Reuters AI",
+      "displayName": "Reuters",
+      "indexUrl": "https://www.reuters.com/technology/artificial-intelligence/",
+      "pageUrl": "https://www.reuters.com/technology/artificial-intelligence/",
+      "pageArticleUrlPatterns": [
+        "/technology/artificial-intelligence/"
+      ]
     }
   ]
 }
