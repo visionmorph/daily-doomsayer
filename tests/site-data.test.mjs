@@ -82,7 +82,7 @@ test("source directory is deduplicated and alphabetized without leading The", ()
   );
 });
 
-test("news sources include scoped AP, Reuters, POLITICO, The Dispatch, and AI News image collection paths", async () => {
+test("news sources include scoped publisher feeds, pages, and image collection paths", async () => {
   const [configText, fetchScript] = await Promise.all([
     readFile(new URL("../news-sources.json", import.meta.url), "utf8"),
     readFile(new URL("../scripts/fetch-news.mjs", import.meta.url), "utf8"),
@@ -99,17 +99,32 @@ test("news sources include scoped AP, Reuters, POLITICO, The Dispatch, and AI Ne
     "https://rss.politico.com/technology.xml",
   );
   assert.equal(sources["POLITICO AI"].includeKeywordSet, "ai");
+  assert.equal(sources["POLITICO AI"].blueskyImageFallbackActor, "politico.com");
   assert.equal(
     sources["POLITICO Europe AI"].feed,
     "https://www.politico.eu/section/technology/feed/",
   );
   assert.equal(sources["POLITICO Europe AI"].includeKeywordSet, "ai");
   assert.equal(
+    sources["POLITICO Europe AI"].blueskyImageFallbackActor,
+    "politico.eu",
+  );
+  assert.equal(
     sources["The Dispatch AI"].feed,
     "https://thedispatch.com/feed/",
   );
   assert.equal(sources["The Dispatch AI"].includeKeywordSet, "ai");
   assert.equal(sources["The Dispatch AI"].resolveMissingArticleImages, true);
+  assert.equal(
+    sources["Mashable AI"].feed,
+    "https://mashable.com/feeds/rss/tech",
+  );
+  assert.equal(sources["Mashable AI"].includeKeywordSet, "ai");
+  assert.equal(
+    sources["Inc. AI"].feed,
+    "http://www.inc.com/rss/homepage.xml",
+  );
+  assert.equal(sources["Inc. AI"].includeKeywordSet, "ai");
   assert.equal(
     sources["AP News AI"].pageUrl,
     "https://apnews.com/hub/artificial-intelligence",
@@ -133,6 +148,14 @@ test("news sources include scoped AP, Reuters, POLITICO, The Dispatch, and AI Ne
   assert.match(
     fetchScript,
     /source\.wordpressFeaturedImageFallback === true[\s\S]*?fetchWordPressFeaturedImage\(article\.url\)/,
+  );
+  assert.match(
+    fetchScript,
+    /async function fetchBlueskyArticleImages\(actor, articleUrls\)[\s\S]*?public\.api\.bsky\.app\/xrpc\/app\.bsky\.feed\.getAuthorFeed[\s\S]*?posts_with_links/,
+  );
+  assert.match(
+    fetchScript,
+    /source\.blueskyImageFallbackActor[\s\S]*?fetchBlueskyArticleImages\(/,
   );
   assert.match(fetchScript, /async function fetchSourcePageArticles\(source\)/);
   assert.match(fetchScript, /const configuredPages = config\.sources/);
