@@ -68,6 +68,33 @@
       "formulaVersion": "1.2.4-offline.1"
     }
   },
+  "keywordSets": {
+    "ai": [
+      "AI",
+      "artificial intelligence",
+      "generative AI",
+      "AI-generated",
+      "AI model",
+      "AI models",
+      "AI agent",
+      "AI agents",
+      "large language model",
+      "LLM",
+      "chatbot",
+      "machine learning",
+      "algorithmic",
+      "deepfake",
+      "OpenAI",
+      "Anthropic",
+      "DeepSeek",
+      "ChatGPT",
+      "Gemini",
+      "Claude",
+      "xAI",
+      "Grok",
+      "Copilot"
+    ]
+  },
   "sources": [
     {
       "group": "ai",
@@ -142,23 +169,7 @@
       "includeCategories": [
         "Artificial intelligence"
       ],
-      "includeKeywords": [
-        "AI",
-        "artificial intelligence",
-        "generative AI",
-        "AI-generated",
-        "AI model",
-        "large language model",
-        "LLM",
-        "chatbot",
-        "machine learning",
-        "deepfake",
-        "OpenAI",
-        "Anthropic",
-        "DeepSeek",
-        "ChatGPT",
-        "Gemini"
-      ]
+      "includeKeywordSet": "ai"
     },
     {
       "group": "ai",
@@ -220,28 +231,7 @@
         "https://feeds.bbci.co.uk/news/education/rss.xml",
         "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"
       ],
-      "includeKeywords": [
-        "AI",
-        "artificial intelligence",
-        "generative AI",
-        "AI-generated",
-        "AI model",
-        "AI models",
-        "AI agent",
-        "AI agents",
-        "large language model",
-        "LLM",
-        "chatbot",
-        "machine learning",
-        "deepfake",
-        "OpenAI",
-        "Anthropic",
-        "DeepSeek",
-        "ChatGPT",
-        "Gemini",
-        "Claude",
-        "xAI"
-      ]
+      "includeKeywordSet": "ai"
     },
     {
       "group": "ai",
@@ -257,31 +247,7 @@
         "https://feeds.skynews.com/feeds/rss/us.xml",
         "https://feeds.skynews.com/feeds/rss/entertainment.xml"
       ],
-      "includeKeywords": [
-        "AI",
-        "artificial intelligence",
-        "generative AI",
-        "AI-generated",
-        "AI model",
-        "AI models",
-        "AI agent",
-        "AI agents",
-        "large language model",
-        "LLM",
-        "chatbot",
-        "machine learning",
-        "algorithmic",
-        "deepfake",
-        "OpenAI",
-        "Anthropic",
-        "DeepSeek",
-        "ChatGPT",
-        "Gemini",
-        "Claude",
-        "xAI",
-        "Grok",
-        "Copilot"
-      ]
+      "includeKeywordSet": "ai"
     },
     {
       "group": "ai",
@@ -296,29 +262,7 @@
       "displayName": "The Markup",
       "indexUrl": "https://themarkup.org/series/artificial-intelligence",
       "feed": "https://themarkup.org/feeds/rss.xml",
-      "includeKeywords": [
-        "AI",
-        "artificial intelligence",
-        "generative AI",
-        "AI-generated",
-        "AI model",
-        "AI models",
-        "AI agent",
-        "AI agents",
-        "large language model",
-        "LLM",
-        "chatbot",
-        "machine learning",
-        "algorithmic",
-        "deepfake",
-        "OpenAI",
-        "Anthropic",
-        "DeepSeek",
-        "ChatGPT",
-        "Gemini",
-        "Claude",
-        "xAI"
-      ]
+      "includeKeywordSet": "ai"
     },
     {
       "group": "ai",
@@ -329,28 +273,7 @@
       "includeCategories": [
         "AI"
       ],
-      "includeKeywords": [
-        "AI",
-        "artificial intelligence",
-        "generative AI",
-        "AI-generated",
-        "AI model",
-        "AI models",
-        "AI agent",
-        "AI agents",
-        "large language model",
-        "LLM",
-        "chatbot",
-        "machine learning",
-        "deepfake",
-        "OpenAI",
-        "Anthropic",
-        "DeepSeek",
-        "ChatGPT",
-        "Gemini",
-        "Claude",
-        "xAI"
-      ]
+      "includeKeywordSet": "ai"
     },
     {
       "group": "ai",
@@ -358,28 +281,7 @@
       "displayName": "Lawfare",
       "indexUrl": "https://www.lawfaremedia.org/topics/artificial-intelligence",
       "feed": "https://www.lawfaremedia.org/feeds/cybersecurity-tech",
-      "includeKeywords": [
-        "AI",
-        "artificial intelligence",
-        "generative AI",
-        "AI-generated",
-        "AI model",
-        "AI models",
-        "AI agent",
-        "AI agents",
-        "large language model",
-        "LLM",
-        "chatbot",
-        "machine learning",
-        "deepfake",
-        "OpenAI",
-        "Anthropic",
-        "DeepSeek",
-        "ChatGPT",
-        "Gemini",
-        "Claude",
-        "xAI"
-      ]
+      "includeKeywordSet": "ai"
     },
     {
       "group": "ai",
@@ -390,29 +292,7 @@
       "includeCategories": [
         "Artificial Intelligence"
       ],
-      "includeKeywords": [
-        "AI",
-        "artificial intelligence",
-        "generative AI",
-        "AI-generated",
-        "AI model",
-        "AI models",
-        "AI agent",
-        "AI agents",
-        "large language model",
-        "LLM",
-        "chatbot",
-        "machine learning",
-        "algorithmic",
-        "deepfake",
-        "OpenAI",
-        "Anthropic",
-        "DeepSeek",
-        "ChatGPT",
-        "Gemini",
-        "Claude",
-        "xAI"
-      ]
+      "includeKeywordSet": "ai"
     }
   ]
 }
