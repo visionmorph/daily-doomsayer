@@ -1238,7 +1238,24 @@ function itemAnalysisText(item) {
     .slice(0, 4_000));
 }
 
-function itemDisplaySummary(item) {
+function cleanDisplaySummary(source, value) {
+  let summary = normalizeArticleText(value);
+  const stopTerms = textValues(source.displaySummaryStopTerms);
+
+  for (const stopTerm of stopTerms) {
+    const stopIndex = summary
+      .toLocaleLowerCase()
+      .indexOf(stopTerm.toLocaleLowerCase());
+
+    if (stopIndex > 0) {
+      summary = summary.slice(0, stopIndex).trimEnd();
+    }
+  }
+
+  return summary;
+}
+
+function itemDisplaySummary(source, item) {
   const candidates = [
     ...textValues(item.contentSnippet),
     ...textValues(item.summary),
@@ -1246,7 +1263,7 @@ function itemDisplaySummary(item) {
   ];
 
   for (const candidate of candidates) {
-    const summary = normalizeArticleText(candidate);
+    const summary = cleanDisplaySummary(source, candidate);
 
     if (summary) {
       return summary;
@@ -1980,7 +1997,7 @@ async function fetchSourcePageArticles(source) {
       source: normalizeArticleText(source.name),
       published: item.isoDate || "",
       image: item.image || "",
-      feedSummary: itemDisplaySummary(item),
+      feedSummary: itemDisplaySummary(source, item),
       analysisText: itemAnalysisText(item),
       feedPosition,
       sourceWeight,
@@ -2035,7 +2052,7 @@ async function fetchSourceArticles(source) {
         source: normalizeArticleText(source.name || feed.title || ""),
         published: item.isoDate || item.pubDate || "",
         image: extractImage(item),
-        feedSummary: itemDisplaySummary(item),
+        feedSummary: itemDisplaySummary(source, item),
         analysisText: itemAnalysisText(item),
         feedPosition,
         sourceWeight,
