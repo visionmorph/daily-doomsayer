@@ -256,6 +256,11 @@
       "displayName": "The Dispatch",
       "indexUrl": "https://thedispatch.com/",
       "feed": "https://thedispatch.com/feed/",
+      "pageUrl": "https://thedispatch.com/?s=artificial%20intelligence&order=newest",
+      "pageArticleUrlPatterns": [
+        "/article/",
+        "/newsletter/"
+      ],
       "includeKeywordSet": "ai",
       "resolveMissingArticleImages": true
     },
@@ -328,7 +333,8 @@
       "feed": "https://rss.politico.com/technology.xml",
       "includeKeywordSet": "ai",
       "blueskyImageFallbackActor": "politico.com",
-      "resolveMissingArticleImages": true
+      "resolveMissingArticleImages": true,
+      "articlePageImageFallback": false
     },
     {
       "group": "ai",
@@ -338,7 +344,8 @@
       "feed": "https://www.politico.eu/section/technology/feed/",
       "includeKeywordSet": "ai",
       "blueskyImageFallbackActor": "politico.eu",
-      "resolveMissingArticleImages": true
+      "resolveMissingArticleImages": true,
+      "articlePageImageFallback": false
     },
     {
       "group": "ai",
