@@ -1547,10 +1547,26 @@ function socialImageFromHtml(html, pageUrl) {
 }
 
 async function fetchArticleImage(articleUrl) {
-  const page = await requestText(articleUrl, {
+  const canonicalArticleUrl = canonicalStoryUrl(articleUrl);
+  let articleOrigin = "";
+
+  try {
+    articleOrigin = `${new URL(canonicalArticleUrl).origin}/`;
+  } catch {
+    articleOrigin = "";
+  }
+
+  const page = await requestText(canonicalArticleUrl, {
     headers: {
-      "User-Agent": "Daily Doomsayer RSS aggregator",
-      Accept: "text/html,application/xhtml+xml",
+      "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " +
+        "(KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      Accept:
+        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif," +
+        "image/webp,image/apng,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cache-Control": "no-cache",
+      ...(articleOrigin ? { Referer: articleOrigin } : {}),
     },
     timeoutMs: ARTICLE_TIMEOUT_MS,
   });
