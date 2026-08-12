@@ -165,6 +165,22 @@ test("rate-stories page uses guided groups with a conditional manual override", 
   );
   assert.match(script, /assessment:/);
   assert.match(script, /structuredFactors:/);
+  assert.match(
+    script,
+    /function resetSkipForm\(\)[\s\S]*elements\.skipForm\.reset\(\)[\s\S]*radio\.checked = false;[\s\S]*classList\.remove\("is-selected"\)/,
+  );
+  assert.match(
+    script,
+    /function openSkipDialog\(\)\s*\{\s*resetSkipForm\(\);\s*elements\.skipDialog\.showModal\(\);/,
+  );
+  assert.match(
+    script,
+    /choice === "manual" && initializeManual[\s\S]*setSlider\([\s\S]*stage\.slider\.min,[\s\S]*false,/,
+  );
+  assert.doesNotMatch(
+    script,
+    /choice === "manual" && initializeManual[\s\S]{0,200}recommendation\.range\.middle/,
+  );
   assert.doesNotMatch(html, /Funnel Display/);
   assert.doesNotMatch(styles, /Funnel Display/);
   assert.match(styles, /font-family: "Cossette Texte"/);
