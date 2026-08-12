@@ -1651,6 +1651,72 @@ async function fetchWordPressFeaturedImage(articleUrl) {
   );
 }
 
+function highResolutionBlueskyImage(value) {
+  const imageUrl = cleanImageUrl(value);
+
+  if (!imageUrl) {
+    return "";
+  }
+
+  return imageUrl.replace("/feed_thumbnail/", "/feed_fullsize/");
+}
+
+function blueskyExternalCard(feedEntry) {
+  const external = feedEntry?.post?.embed?.external;
+
+  if (!external?.uri || !external?.thumb) {
+    return null;
+  }
+
+  return {
+    articleUrl: canonicalStoryUrl(external.uri),
+    image: highResolutionBlueskyImage(external.thumb),
+  };
+}
+
+async function fetchBlueskyArticleImages(actor, articleUrls) {
+  const requestedUrls = new Set(articleUrls.map(canonicalStoryUrl).filter(Boolean));
+  const images = new Map();
+  let cursor = "";
+
+  for (let page = 0; page < 10 && requestedUrls.size > images.size; page += 1) {
+    const endpoint = new URL(
+      "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed",
+    );
+    endpoint.searchParams.set("actor", actor);
+    endpoint.searchParams.set("limit", "100");
+    endpoint.searchParams.set("filter", "posts_with_links");
+    if (cursor) endpoint.searchParams.set("cursor", cursor);
+
+    const response = await requestText(endpoint.href, {
+      headers: {
+        "User-Agent": "Daily Doomsayer RSS aggregator/1.0",
+        Accept: "application/json",
+      },
+      timeoutMs: ARTICLE_TIMEOUT_MS,
+    });
+    const payload = JSON.parse(response.text);
+
+    for (const feedEntry of Array.isArray(payload.feed) ? payload.feed : []) {
+      const card = blueskyExternalCard(feedEntry);
+
+      if (
+        card?.image &&
+        requestedUrls.has(card.articleUrl) &&
+        !isLikelyPromotionalImage(card.image)
+      ) {
+        images.set(card.articleUrl, card.image);
+      }
+    }
+
+    const nextCursor = String(payload.cursor || "");
+    if (!nextCursor || nextCursor === cursor) break;
+    cursor = nextCursor;
+  }
+
+  return images;
+}
+
 function extractImage(item) {
   const enclosureImage =
     item.enclosure?.url &&
@@ -1898,7 +1964,28 @@ async function fetchSourceArticles(source) {
     }
 
     if (source.resolveMissingArticleImages === true) {
+      let blueskyImages = new Map();
+
+      if (source.blueskyImageFallbackActor) {
+        try {
+          blueskyImages = await fetchBlueskyArticleImages(
+            source.blueskyImageFallbackActor,
+            sourceArticles.filter((article) => !article.image).map((article) => article.url),
+          );
+        } catch (error) {
+          console.error(
+            `[image] Could not inspect Bluesky cards for ${sourceName}: ${error.message}`,
+          );
+        }
+      }
+
       await mapWithConcurrency(sourceArticles, 3, async (article) => {
+        if (article.image) {
+          return;
+        }
+
+        article.image = blueskyImages.get(canonicalStoryUrl(article.url)) || "";
+
         if (article.image) {
           return;
         }
