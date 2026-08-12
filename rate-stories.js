@@ -10,6 +10,7 @@
   const site = window.DAILY_DOOMSAYER_SITE || {};
   const doomIndex = site.doomIndex || {};
   const guidance = window.DAILY_DOOMSAYER_CALIBRATION_GUIDANCE;
+  const FEED_SUMMARY_CHARACTER_LIMIT = 360;
   const NO_HARM_DEPENDENT_FACTORS = new Set([
     "reach",
     "reversibility",
@@ -113,9 +114,25 @@
     };
   }
 
+  function feedSummaryForCalibration(article) {
+    const summary = String(article.feedSummary || article.summary || "").trim();
+
+    if (summary.length <= FEED_SUMMARY_CHARACTER_LIMIT) {
+      return summary;
+    }
+
+    const clipped = summary
+      .slice(0, FEED_SUMMARY_CHARACTER_LIMIT - 1)
+      .trimEnd();
+    const finalSpace = clipped.lastIndexOf(" ");
+    const truncated = finalSpace > 0 ? clipped.slice(0, finalSpace) : clipped;
+
+    return `${truncated.trimEnd()}…`;
+  }
+
   function modelScoringInput(article) {
     const productionSummary = String(article.doomIndexInputSummary || "").trim();
-    const feedSummary = String(article.feedSummary || article.summary || "").trim();
+    const feedSummary = feedSummaryForCalibration(article);
     const coverageSources = Number(
       article.doomIndexCoverageSources || article.coverageSources || 1,
     );
@@ -646,7 +663,7 @@
     elements.workspace.hidden = false;
     elements.title.textContent = article.title;
 
-    const feedSummary = String(article.feedSummary || article.summary || "").trim();
+    const feedSummary = feedSummaryForCalibration(article);
     elements.summary.textContent = feedSummary;
     elements.summary.hidden = !feedSummary;
     elements.summaryNote.textContent = feedSummary
@@ -783,13 +800,14 @@
     const article = currentArticle();
     const key = storyKey(article);
     const now = new Date().toISOString();
+    const feedSummary = feedSummaryForCalibration(article);
 
     state.ratings[key] = {
       status: "in-progress",
       article: articleIdentity(article),
       feedEvidence: {
-        summary: String(article.feedSummary || article.summary || ""),
-        summaryAvailable: Boolean(article.feedSummary || article.summary),
+        summary: feedSummary,
+        summaryAvailable: Boolean(feedSummary),
       },
       scoringInput: modelScoringInput(article),
       feedRating: {
