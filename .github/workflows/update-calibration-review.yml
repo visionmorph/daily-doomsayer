@@ -1,0 +1,55 @@
+name: Update blind calibration review
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/human-calibration/reviews/raw/**/*.json"
+      - "data/human-calibration/reviews/adjudicated/**/*.json"
+
+concurrency:
+  group: update-calibration-review-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  update-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          package-manager-cache: false
+
+      - name: Verify blind review tools
+        run: node --test tests/calibration-review.test.mjs tests/calibration-guidance.test.mjs
+
+      - name: Compare blind reviews with the original ratings
+        run: |
+          npm run --silent analyze-calibration-review | tee calibration-review-report.md
+          cat calibration-review-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Build calibration benchmark version 2
+        run: npm run build-calibration-benchmark:v2
+
+      - name: Save review results
+        run: |
+          git add data/human-calibration/reviews/review-comparison.json
+          git add data/human-calibration/calibration-benchmark.v2.json
+          if git diff --cached --quiet; then
+            echo "No blind review changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update DREAD blind calibration review"
+          git push
