@@ -82,7 +82,7 @@ test("source directory is deduplicated and alphabetized without leading The", ()
   );
 });
 
-test("news sources include scoped AP, Reuters, POLITICO, and The Dispatch collection paths", async () => {
+test("news sources include scoped AP, Reuters, POLITICO, The Dispatch, and AI News image collection paths", async () => {
   const [configText, fetchScript] = await Promise.all([
     readFile(new URL("../news-sources.json", import.meta.url), "utf8"),
     readFile(new URL("../scripts/fetch-news.mjs", import.meta.url), "utf8"),
@@ -91,6 +91,8 @@ test("news sources include scoped AP, Reuters, POLITICO, and The Dispatch collec
   const sources = Object.fromEntries(
     config.sources.map((source) => [source.name, source]),
   );
+
+  assert.equal(sources["AI News"].wordpressFeaturedImageFallback, true);
 
   assert.equal(
     sources["POLITICO AI"].feed,
@@ -123,6 +125,14 @@ test("news sources include scoped AP, Reuters, POLITICO, and The Dispatch collec
   assert.match(
     fetchScript,
     /async function fetchArticleImage\(articleUrl\)\s*\{[\s\S]*?canonicalStoryUrl\(articleUrl\)[\s\S]*?Mozilla\/5\.0[\s\S]*?Accept-Language[\s\S]*?Referer:/,
+  );
+  assert.match(
+    fetchScript,
+    /async function fetchWordPressFeaturedImage\(articleUrl\)\s*\{[\s\S]*?\/wp-json\/wp\/v2\/posts[\s\S]*?_embed[\s\S]*?wp:featuredmedia/,
+  );
+  assert.match(
+    fetchScript,
+    /source\.wordpressFeaturedImageFallback === true[\s\S]*?fetchWordPressFeaturedImage\(article\.url\)/,
   );
   assert.match(fetchScript, /async function fetchSourcePageArticles\(source\)/);
   assert.match(fetchScript, /const configuredPages = config\.sources/);
