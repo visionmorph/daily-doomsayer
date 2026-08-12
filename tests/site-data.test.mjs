@@ -100,6 +100,7 @@ test("news sources include scoped publisher feeds, pages, and image collection p
   );
   assert.equal(sources["POLITICO AI"].includeKeywordSet, "ai");
   assert.equal(sources["POLITICO AI"].blueskyImageFallbackActor, "politico.com");
+  assert.equal(sources["POLITICO AI"].articlePageImageFallback, false);
   assert.equal(
     sources["POLITICO Europe AI"].feed,
     "https://www.politico.eu/section/technology/feed/",
@@ -109,12 +110,21 @@ test("news sources include scoped publisher feeds, pages, and image collection p
     sources["POLITICO Europe AI"].blueskyImageFallbackActor,
     "politico.eu",
   );
+  assert.equal(sources["POLITICO Europe AI"].articlePageImageFallback, false);
   assert.equal(
     sources["The Dispatch AI"].feed,
     "https://thedispatch.com/feed/",
   );
   assert.equal(sources["The Dispatch AI"].includeKeywordSet, "ai");
   assert.equal(sources["The Dispatch AI"].resolveMissingArticleImages, true);
+  assert.equal(
+    sources["The Dispatch AI"].pageUrl,
+    "https://thedispatch.com/?s=artificial%20intelligence&order=newest",
+  );
+  assert.deepEqual(sources["The Dispatch AI"].pageArticleUrlPatterns, [
+    "/article/",
+    "/newsletter/",
+  ]);
   assert.equal(
     sources["Mashable AI"].feed,
     "https://mashable.com/feeds/rss/tech",
@@ -151,12 +161,19 @@ test("news sources include scoped publisher feeds, pages, and image collection p
   );
   assert.match(
     fetchScript,
-    /async function fetchBlueskyArticleImages\(actor, articleUrls\)[\s\S]*?public\.api\.bsky\.app\/xrpc\/app\.bsky\.feed\.getAuthorFeed[\s\S]*?posts_with_links/,
+    /async function fetchBlueskyArticleImages\(actor, articles\)[\s\S]*?public\.api\.bsky\.app\/xrpc\/app\.bsky\.feed\.getAuthorFeed[\s\S]*?posts_with_links[\s\S]*?titleSimilarity\(article\.title, card\.title\)/,
   );
   assert.match(
     fetchScript,
     /source\.blueskyImageFallbackActor[\s\S]*?fetchBlueskyArticleImages\(/,
   );
+  assert.match(
+    fetchScript,
+    /source\.articlePageImageFallback === false[\s\S]*?return;[\s\S]*?fetchArticleImage\(article\.url\)/,
+  );
+  assert.match(fetchScript, /function politicoImageAtWidth\(value, width\)/);
+  assert.match(fetchScript, /url\.hostname === "www\.politico\.com"/);
+  assert.match(fetchScript, /`\/resize\/\$\{width\}\/`/);
   assert.match(fetchScript, /async function fetchSourcePageArticles\(source\)/);
   assert.match(fetchScript, /const configuredPages = config\.sources/);
   assert.match(fetchScript, /type === "page"\s*\? fetchSourcePageArticles\(source\)/);
