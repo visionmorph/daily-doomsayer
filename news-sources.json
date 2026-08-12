@@ -261,6 +261,9 @@
         "/article/",
         "/newsletter/"
       ],
+      "excludeUrlPatterns": [
+        "/newsletter/morning/"
+      ],
       "includeKeywordSet": "ai",
       "resolveMissingArticleImages": true
     },
