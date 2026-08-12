@@ -1317,13 +1317,125 @@ function mediaUrl(value) {
   return "";
 }
 
-function imageFromHtml(html) {
+const PROMOTIONAL_ASSET_PATTERN =
+  /(?:advert(?:isement|ising)?|sponsored?|newsletter|(?:expo|summit|conference|webinar)[-_/.\s]*banner|banner[-_/.\s]*(?:ad|promo|event|20\d{2}))/i;
+const NON_STORY_ASSET_PATTERN =
+  /(?:^|[-_/])(logo|icon|avatar|favicon|pixel|tracking)(?:[-_.?/]|$)/i;
+
+function safelyDecodeUri(value) {
+  try {
+    return decodeURIComponent(String(value || ""));
+  } catch {
+    return String(value || "");
+  }
+}
+
+function isLikelyPromotionalImage(value, attributes = {}) {
+  const searchable = safelyDecodeUri(value).toLowerCase();
+  const width = Number(attributes.width) || 0;
+  const height = Number(attributes.height) || 0;
+  const extremeBannerRatio = width > 0 && height > 0 && width / height >= 4;
+  const trackingPixel = width > 0 && height > 0 && width <= 2 && height <= 2;
+
+  return (
+    PROMOTIONAL_ASSET_PATTERN.test(searchable) ||
+    NON_STORY_ASSET_PATTERN.test(searchable) ||
+    extremeBannerRatio ||
+    trackingPixel
+  );
+}
+
+function largestSrcsetImage(srcset, baseUrl) {
+  const candidates = String(srcset || "")
+    .split(",")
+    .map((entry) => {
+      const [value, descriptor = ""] = entry.trim().split(/\s+/, 2);
+      return {
+        url: cleanImageUrl(value, baseUrl),
+        size: Number.parseFloat(descriptor) || 0,
+      };
+    })
+    .filter((candidate) => candidate.url);
+
+  candidates.sort((first, second) => second.size - first.size);
+  return candidates[0]?.url || "";
+}
+
+function imageTitleTokens(title) {
+  const ignoredTokens = new Set([
+    "about",
+    "after",
+    "from",
+    "into",
+    "that",
+    "their",
+    "these",
+    "this",
+    "with",
+  ]);
+
+  return new Set(
+    (String(title || "").toLowerCase().match(/[a-z0-9]{4,}/g) || []).filter(
+      (token) => !ignoredTokens.has(token),
+    ),
+  );
+}
+
+function embeddedImageScore(candidate, title) {
+  const searchable = safelyDecodeUri(candidate.url).toLowerCase();
+  let score = 100 - candidate.index;
+
+  for (const token of imageTitleTokens(title)) {
+    if (searchable.includes(token)) {
+      score += 8;
+    }
+  }
+
+  if (/\/uploads\/20\d{2}\/\d{2}\//i.test(searchable)) {
+    score += 8;
+  }
+
+  if (/\.(?:jpe?g|webp)(?:[?#]|$)/i.test(searchable)) {
+    score += 3;
+  }
+
+  return score;
+}
+
+function bestImageFromHtml(html, { baseUrl, title } = {}) {
   if (typeof html !== "string") {
     return "";
   }
 
-  const match = html.match(/<img[^>]+src=["']([^"']+)["']/i);
-  return match?.[1] || "";
+  const tags = html.match(/<img\b[^>]*>/gi) || [];
+  const candidates = tags.flatMap((tag, index) => {
+    const attributes = {
+      width: tagAttribute(tag, "width"),
+      height: tagAttribute(tag, "height"),
+    };
+    const values = [
+      largestSrcsetImage(tagAttribute(tag, "srcset"), baseUrl),
+      tagAttribute(tag, "data-lazy-src"),
+      tagAttribute(tag, "data-src"),
+      tagAttribute(tag, "src"),
+    ];
+
+    return values
+      .map((value) => cleanImageUrl(value, baseUrl))
+      .filter(
+        (url, valueIndex, urls) =>
+          url &&
+          urls.indexOf(url) === valueIndex &&
+          !isLikelyPromotionalImage(url, attributes),
+      )
+      .map((url) => ({ url, index }));
+  });
+
+  candidates.sort(
+    (first, second) =>
+      embeddedImageScore(second, title) - embeddedImageScore(first, title),
+  );
+  return candidates[0]?.url || "";
 }
 
 function cleanImageUrl(value, baseUrl) {
@@ -1401,7 +1513,7 @@ function socialImageFromHtml(html, pageUrl) {
       if (name === preferredName) {
         const imageUrl = cleanImageUrl(tagAttribute(tag, "content"), pageUrl);
 
-        if (imageUrl) {
+        if (imageUrl && !isLikelyPromotionalImage(imageUrl)) {
           return imageUrl;
         }
       }
@@ -1430,17 +1542,23 @@ function extractImage(item) {
       ? item.enclosure.url
       : "";
 
-  return highResolutionStoryImage(
-    cleanImageUrl(
-      enclosureImage ||
-        mediaUrl(item.mediaContent) ||
-        mediaUrl(item.mediaThumbnail) ||
-        imageFromHtml(item.contentEncoded) ||
-        imageFromHtml(item.content) ||
-        imageFromHtml(item.description) ||
-        "",
-    ),
-  );
+  const structuredCandidates = [
+    enclosureImage,
+    mediaUrl(item.mediaContent),
+    mediaUrl(item.mediaThumbnail),
+  ];
+  const structuredImage = structuredCandidates
+    .map((value) => cleanImageUrl(value))
+    .find((value) => value && !isLikelyPromotionalImage(value));
+  const embeddedImage = [
+    item.contentEncoded,
+    item.content,
+    item.description,
+  ]
+    .map((html) => bestImageFromHtml(html, { title: item.title }))
+    .find(Boolean);
+
+  return highResolutionStoryImage(structuredImage || embeddedImage || "");
 }
 
 async function fetchSourceArticles(source) {
@@ -1483,6 +1601,24 @@ async function fetchSourceArticles(source) {
         feedPosition,
         sourceWeight,
         candidateCount: acceptedItems.length,
+      });
+    }
+
+    if (source.resolveMissingArticleImages === true) {
+      await mapWithConcurrency(sourceArticles, 3, async (article) => {
+        if (article.image) {
+          return;
+        }
+
+        try {
+          article.image = highResolutionStoryImage(
+            await fetchArticleImage(article.url),
+          );
+        } catch (error) {
+          console.error(
+            `[image] Could not inspect ${article.url}: ${error.message}`,
+          );
+        }
       });
     }
 
