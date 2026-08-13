@@ -14745,8 +14745,149 @@
           "vulnerability": 0
         }
       }
+    },
+    "2489f89ac18627aa9b2f": {
+      "storyId": "2489f89ac18627aa9b2f",
+      "url": "https://apnews.com/article/david-crowley-wisconsin-governor-democrat-socialist-b23fe75b1fb54f5c0c27379ed0693319",
+      "title": "David Crowley's razor-thin primary win sets up Wisconsin governor's race against Trump's pick",
+      "source": "AP News AI",
+      "published": "2026-08-12T15:10:33",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5209e869e8d4c15cb8299e2d",
+      "bodyFingerprint": "420b0d0dff71f2b39c1f7144",
+      "bodyCharacterCount": 11754,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T08:45:30.114Z",
+      "assessment": {
+        "centralEvent": "David Crowley's razor-thin primary win sets up Wisconsin governor's race against Trump's pick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Crowley’s surprise win came after he had dropped out of the race Crowley, 40, often notes on the campaign trail that he grew up in poverty in the poorest ZIP code in Wisconsin on Milwaukee’s north side, his parents struggled with drug abuse",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Trump won the state in 2024 and 2016, but lost in 2020.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Mark Pocan and others at a unity event outside Madison before embarking on a statewide tour.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“This is Democrats defeating a MAGA extremist in Congressman Tom Tiffany and that’s what we should be focusing on moving forward.” Related Stories Wisconsin’s appeals court overturns ruling that had restored collective bargaining power 4 MI",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.1,
+        "rawScore": 48.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3725,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "37dd1131109e7a642d21": {
+      "storyId": "37dd1131109e7a642d21",
+      "url": "https://www.bbc.co.uk/news/videos/cwyq22g0ylxo?at_campaign=rss&at_medium=RSS",
+      "title": "Amazon is using Twitch to train generative AI",
+      "source": "BBC News AI",
+      "published": "2026-08-13T07:04:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9b59e9f63ab4497be3bde5b6",
+      "bodyFingerprint": "56bb3ac65879751cc1fc5f39",
+      "bodyCharacterCount": 761,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T08:45:30.131Z",
+      "assessment": {
+        "centralEvent": "Amazon is using Twitch to train generative AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Section News Published 1 hour ago Share close panel Share page Copy link About sharing Related topics Artificial intelligence Follow Artificial intelligence close panel You are now following Artificial intelligence Updates from your News to",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-13T06:47:44.209Z"
+  "updatedAt": "2026-08-13T08:45:30.131Z"
 }
