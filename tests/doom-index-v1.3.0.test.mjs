@@ -223,6 +223,9 @@ test("body-aware workflow is separated from the hourly feed workflow", async () 
     "1.3.0-context-rules.1",
   );
   assert.equal(config.doomIndex.bodyAware.model, undefined);
+  assert.equal(config.doomIndex.bodyAware.maxNewPerRun, 200);
+  assert.equal(config.doomIndex.bodyAware.articleConcurrency, 4);
+  assert.equal(config.doomIndex.bodyAware.articleTimeoutMs, 12000);
 });
 
 test("DREAD 1.3 contains no external AI model or API dependency", async () => {
@@ -248,4 +251,6 @@ test("DREAD 1.3 contains no external AI model or API dependency", async () => {
     );
   }
   assert.match(implementation, /analyzeDreadV130Evidence/);
+  assert.match(implementation, /mapWithConcurrency\(\s*candidates,\s*articleConcurrency/s);
+  assert.match(implementation, /requestText\(article\.url, articleTimeoutMs\)/);
 });
