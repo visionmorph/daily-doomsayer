@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-13T10:00:00.000Z",
+  "generatedAt": "2026-08-13T12:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-13",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 36.22,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 36.22
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 23.95
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
           "peak": 21.55,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 21.55
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/877feb4bab4c2039e0cdd325710d3b00e9f9b822/857_0_6109_4888/master/6109.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 21.14,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 21.14
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/24f9e83964f0e02da873ca453489a039bab94bee/0_0_5989_4792/master/5989.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 20.89,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T10:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 20.89
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 20.54,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 20.54
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/b8dd417e84353f628ec5a28d1377d0367d5741f4/0_0_3000_2400/master/3000.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 20.14,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 20.14
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg",
           "peak": 20,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 20
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 19.75,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 19.75
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO AI",
           "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
           "peak": 19.05,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 19.05
         }
       ]
@@ -1263,11 +1263,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 36.22,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 2,
           "peakDate": "2026-08-12",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-13T10:00:00.000Z",
+          "lastObservedAt": "2026-08-13T12:00:00.000Z",
           "average": 36.22
         },
         {
