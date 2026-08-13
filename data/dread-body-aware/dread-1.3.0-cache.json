@@ -17337,8 +17337,279 @@
           "vulnerability": 0
         }
       }
+    },
+    "33627f1af0f8ba242637": {
+      "storyId": "33627f1af0f8ba242637",
+      "url": "https://mashable.com/tech/microsoft-ditches-copilot-mascot-mico-ai-features-merges-apps",
+      "title": "Microsoft ditches Copilots mascot Mico (and cuts a few AI features)",
+      "source": "Mashable AI",
+      "published": "2026-08-13T17:18:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4240082ff9bcc1c26930680d",
+      "bodyFingerprint": "e5ddc64bd34df13c7e1f5b05",
+      "bodyCharacterCount": 2728,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T18:11:16.218Z",
+      "assessment": {
+        "centralEvent": "Microsoft ditches Copilots mascot Mico (and cuts a few AI features)",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to new Microsoft support documents, the tech giant is making major changes to its AI assistant, Copilot.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b8ce9076d38473874f5f": {
+      "storyId": "b8ce9076d38473874f5f",
+      "url": "https://mashable.com/tech/apple-siri-ai-news-publisher-deals",
+      "title": "Apple wants to make Siri AI better at keeping up with the news",
+      "source": "Mashable AI",
+      "published": "2026-08-13T17:12:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f25edf63f5e785a339215cf8",
+      "bodyFingerprint": "ef301150f62b1f956e1cbb24",
+      "bodyCharacterCount": 3661,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T18:11:16.222Z",
+      "assessment": {
+        "centralEvent": "Apple wants to make Siri AI better at keeping up with the news",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to an Aug.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c4f639825b9e50ed81b6": {
+      "storyId": "c4f639825b9e50ed81b6",
+      "url": "https://www.lawfaremedia.org/article/who-writes-the-ai-constitution",
+      "title": "Who Writes the AI Constitution?",
+      "source": "Lawfare AI",
+      "published": "2026-08-13T18:05:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8482dbb37b38c6103408d394",
+      "bodyFingerprint": "eb81dd42091dc5c45bdff5ca",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T18:11:16.451Z",
+      "assessment": {
+        "centralEvent": "Who Writes the AI Constitution?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Scaling Laws: Algorithmic Disgorgement with Christina Lee Kevin Frazier Christina Lee Aug 11, 2026 Live from the Institute of Law & AI's Workshop on Law-Following AI Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Across executive orders , Office of Management and Budget (OMB) procurement rules , Federal Trade Commission actions , and Department of Justice interventions , the federal government has engaged in an expansive effort to dictate the values",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The possibility of governments and governing bodies—state, federal, and international—attempting to amend or revise AI constitutions warrants advanced scrutiny from, among other things, First Amendment scholars.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The Most Important Phrase in GSA’s Revised AI Clause Has No Definition Jessica Tillipman Aug 11, 2026 The revision fixed much of the first draft’s overreach, but the clause still doesn’t say where the government’s data protections begin and",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The Most Important Phrase in GSA’s Revised AI Clause Has No Definition Jessica Tillipman Aug 11, 2026 The revision fixed much of the first draft’s overreach, but the clause still doesn’t say where the government’s data protections begin and",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Across executive orders , Office of Management and Budget (OMB) procurement rules , Federal Trade Commission actions , and Department of Justice interventions , the federal government has engaged in an expansive effort to dictate the values",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 105,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.41,
+        "rawScore": 50.41,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5825,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c2387aa897345cef2ced": {
+      "storyId": "c2387aa897345cef2ced",
+      "url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop",
+      "title": "The new Instagram logo is the perfect embodiment of AI slop",
+      "source": "Ars Technica AI",
+      "published": "2026-08-13T17:32:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dee33893304af91a64558499",
+      "bodyFingerprint": "0ac68e598b55e02fd4e88d41",
+      "bodyCharacterCount": 2825,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T18:11:16.458Z",
+      "assessment": {
+        "centralEvent": "The new Instagram logo is the perfect embodiment of AI slop",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Terabytes of credentials leaked in massive supply-chain attack 2.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-13T17:15:56.255Z"
+  "updatedAt": "2026-08-13T18:11:16.458Z"
 }
