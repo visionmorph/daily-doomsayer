@@ -1,0 +1,2611 @@
+{
+  "schemaVersion": "2.0",
+  "benchmarkVersion": "calibration-benchmark.v2",
+  "status": "draft",
+  "asOf": "2026-08-13T03:27:12.552Z",
+  "sourceBenchmarkVersion": "calibration-benchmark.v1",
+  "sourceBenchmarkAsOf": "2026-08-12T15:46:11.791Z",
+  "calibrationMethod": {
+    "firstJudgment": "title-and-feed-summary",
+    "secondJudgment": "full-article-confirmation-or-revision",
+    "humanRatingMethod": "guided-human-rating-v1.1",
+    "structuredFactors": [
+      "harm",
+      "certainty",
+      "reach",
+      "reversibility",
+      "containment",
+      "recurrence",
+      "vulnerability"
+    ],
+    "modelScoresHiddenUntil": "both-human-judgments-complete"
+  },
+  "severityScale": [
+    {
+      "minimum": 0,
+      "maximum": 19.99,
+      "label": "UNEASY",
+      "description": "No material harm is established.",
+      "qualification": "Use when the story is routine, beneficial, protective, primarily commercial, or based on speculation without demonstrated consequences. Any disruption is negligible, ordinary, easily reversible, or too weakly supported to establish meaningful harm."
+    },
+    {
+      "minimum": 20,
+      "maximum": 39.99,
+      "label": "OMINOUS",
+      "description": "A credible concern exists, but its consequences remain limited.",
+      "qualification": "Use when evidence supports a plausible threat, localized or reversible harm, a concerning trend, or a proposed action with credible downsides. The story lacks the demonstrated scale, immediacy, persistence, or material consequences required for Alarming."
+    },
+    {
+      "minimum": 40,
+      "maximum": 59.99,
+      "label": "ALARMING",
+      "description": "Meaningful harm, disruption, or escalation is occurring or credibly imminent.",
+      "qualification": "Use when reporting establishes material consequences for people, institutions, safety, privacy, livelihoods, or essential services. The harm may be repeated or significant, but remains bounded, containable, reversible, or lacks the combination of severe conditions required for Dire."
+    },
+    {
+      "minimum": 60,
+      "maximum": 79.99,
+      "label": "DIRE",
+      "description": "Severe harm is confirmed or imminent and difficult to contain.",
+      "qualification": "Use only when strong evidence establishes serious consequences alongside multiple aggravating conditions: broad or systemic reach, vulnerable populations, autonomous or unauthorized behavior, major loss of control, rapid escalation, prolonged disruption, or lasting damage."
+    },
+    {
+      "minimum": 80,
+      "maximum": 100,
+      "label": "CATASTROPHIC",
+      "description": "Exceptional mass harm or systemic failure is confirmed and potentially irreversible.",
+      "qualification": "Use only when strong evidence establishes widespread or global consequences combined with several extreme conditions, such as mass casualties or displacement, irreversible damage, failure of essential systems, uncontrollable escalation, or a credible existential threat. Frightening language, theoretical possibilities, or worst-case predictions alone never qualify."
+    }
+  ],
+  "modelConfiguration": {
+    "public": {
+      "name": "DREAD",
+      "version": "1.2.2",
+      "formulaVersion": "1.2.2-shadow.1"
+    },
+    "shadow": {
+      "version": "1.2.4",
+      "formulaVersion": "1.2.4-offline.1"
+    }
+  },
+  "eligibility": "Real stories reviewed with guided-human-rating-v1.1; stable blind reviews or explicitly adjudicated outcomes only. Legacy slider and synthetic records are excluded.",
+  "totals": {
+    "reviewed": 26,
+    "eligibleRecords": 12,
+    "stableRecords": 12,
+    "adjudicatedRecords": 0,
+    "pendingReviewRecords": 30,
+    "unresolvedRecords": 14,
+    "legacySliderRecordsExcluded": 112,
+    "syntheticRecords": 0
+  },
+  "unresolved": [
+    {
+      "benchmarkId": "0c394a3bdca966376404",
+      "title": "Spotify to distinguish AI artists from real people – and stop recommending them",
+      "status": "needs-adjudication",
+      "originalScore": 12,
+      "reviewScore": 58,
+      "absoluteDifference": 46,
+      "bandChanged": true
+    },
+    {
+      "benchmarkId": "bf5a2cb0206520ab34d9",
+      "title": "Gory AI clips of fruit and veg characters could radicalise kids, researchers say",
+      "status": "needs-adjudication",
+      "originalScore": 28,
+      "reviewScore": 58,
+      "absoluteDifference": 30,
+      "bandChanged": true
+    },
+    {
+      "benchmarkId": "3f7ee2eb37462a5e9854",
+      "title": "AI Is Dead. Organoids Are Alive",
+      "status": "needs-adjudication",
+      "originalScore": 32,
+      "reviewScore": 5,
+      "absoluteDifference": 27,
+      "bandChanged": true
+    },
+    {
+      "benchmarkId": "9625fa04845ca4130c75",
+      "title": "Spotify responds to concerns over AI songs",
+      "status": "needs-adjudication",
+      "originalScore": 29,
+      "reviewScore": 2,
+      "absoluteDifference": 27,
+      "bandChanged": true
+    },
+    {
+      "benchmarkId": "4b85bfc54fe4e759d4ec",
+      "title": "The Most Important Phrase in GSA’s Revised AI Clause Has No Definition",
+      "status": "needs-adjudication",
+      "originalScore": 29,
+      "reviewScore": 2,
+      "absoluteDifference": 27,
+      "bandChanged": true
+    },
+    {
+      "benchmarkId": "91db13f187f2356f171a",
+      "title": "Spotify will label ‘AI Persona’ profiles and exclude their music from recommendations",
+      "status": "needs-adjudication",
+      "originalScore": 9,
+      "reviewScore": 34,
+      "absoluteDifference": 25,
+      "bandChanged": true
+    },
+    {
+      "benchmarkId": "6abb52eeadf0014fee44",
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "status": "needs-adjudication",
+      "originalScore": 27,
+      "reviewScore": 50,
+      "absoluteDifference": 23,
+      "bandChanged": true
+    },
+    {
+      "benchmarkId": "2d8c162b5cd6de7579df",
+      "title": "The Guardian view on AI money in US politics: not the way to hold an urgent democratic debate | Editorial",
+      "status": "needs-adjudication",
+      "originalScore": 51,
+      "reviewScore": 34,
+      "absoluteDifference": 17,
+      "bandChanged": true
+    },
+    {
+      "benchmarkId": "35c94c944fa905bb2a25",
+      "title": "AI agents aren’t legally responsible for any harm that they cause, experts say. So who is?",
+      "status": "needs-adjudication",
+      "originalScore": 43,
+      "reviewScore": 27,
+      "absoluteDifference": 16,
+      "bandChanged": true
+    },
+    {
+      "benchmarkId": "23f462da5cc8759a0dd2",
+      "title": "Zuckerberg warns against centralizing AI power",
+      "status": "needs-adjudication",
+      "originalScore": 18,
+      "reviewScore": 2,
+      "absoluteDifference": 16,
+      "bandChanged": false
+    },
+    {
+      "benchmarkId": "97fa0d799c44ceef10df",
+      "title": "Experts are warning: our AI arms race is putting humanity at risk | Stuart Russell",
+      "status": "needs-inspection",
+      "originalScore": 29,
+      "reviewScore": 39,
+      "absoluteDifference": 10,
+      "bandChanged": false
+    },
+    {
+      "benchmarkId": "84066ad07342c999b77d",
+      "title": "If the markets reject OpenAI and Anthropic, the US should nationalize them | Bruce Schneier and Nathan E Sanders",
+      "status": "needs-inspection",
+      "originalScore": 13,
+      "reviewScore": 3,
+      "absoluteDifference": 10,
+      "bandChanged": false
+    },
+    {
+      "benchmarkId": "274d04c819a4e41fc7ab",
+      "title": "‘Everything about me is good in his eyes’: the women in China choosing AI boyfriends over human men",
+      "status": "needs-adjudication",
+      "originalScore": 43,
+      "reviewScore": 35,
+      "absoluteDifference": 8,
+      "bandChanged": true
+    },
+    {
+      "benchmarkId": "16aa3a1a7b179a209cea",
+      "title": "Why we should all be worried about AI in elections",
+      "status": "mandatory-adjudication",
+      "originalScore": 85,
+      "reviewScore": 77,
+      "absoluteDifference": 8,
+      "bandChanged": true
+    }
+  ],
+  "records": [
+    {
+      "benchmarkId": "af3e921e556736320752",
+      "aliases": [
+        {
+          "storyId": "e6f2455190eb74d242c4",
+          "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+          "source": "The Verge AI",
+          "published": "2026-08-11T14:45:44.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "e6f2455190eb74d242c4",
+        "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+        "source": "The Verge AI",
+        "published": "2026-08-11T14:45:44.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, which allows users to draw on their screen while sharing it with other meeting participants. With the exploit, an attacker could join or host a meeting and run malicious code on victims' devices, allowing them to steal data, turn on the camera or microphone, or install malware. The attack required no act … Read the full story at The Verge. Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, […]",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
+        "summary": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts. Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, which allows users to draw on their screen while sharing it with other meeting participants. With the exploit, an attacker could join or host a meeting and run malicious code on victims' devices, allowing them to steal data, turn on the camera or microphone, or install malware. The attack required no act … Read the full story at The Verge. Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, […]",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 30,
+        "confidence": 2,
+        "reasoning": "Credible concern or limited harm. Evidence: confirmed by strong evidence. Reach: an individual or single organization. Reversibility: easily or quickly reversible. Containment: prevented or fully contained after limited consequences. Pattern: a single isolated incident. Vulnerability: not applicable — no demonstrated effect.",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 1,
+              "label": "Credible concern or limited harm"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 1,
+              "label": "An individual or single organization"
+            },
+            "reversibility": {
+              "level": 1,
+              "label": "Easily or quickly reversible"
+            },
+            "containment": {
+              "level": 1,
+              "label": "Prevented or fully contained after limited consequences"
+            },
+            "recurrence": {
+              "level": 1,
+              "label": "A single isolated incident"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 27,
+            "score": 27,
+            "band": "OMINOUS",
+            "requestedBand": "OMINOUS",
+            "effectiveBand": "OMINOUS",
+            "supportIntensity": 0.3075,
+            "range": {
+              "lower": 24,
+              "middle": 27,
+              "upper": 30
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "upper",
+          "additionalContext": "",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-12T23:10:14.149Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 46.96
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 30.15
+        }
+      },
+      "startedAt": "2026-08-11T23:41:45.237Z",
+      "updatedAt": "2026-08-11T23:45:24.182Z",
+      "articleRating": {
+        "score": 30,
+        "confidence": 2,
+        "reasoning": "Credible concern or limited harm. Evidence: confirmed by strong evidence. Reach: an individual or single organization. Reversibility: easily or quickly reversible. Containment: prevented or fully contained after limited consequences. Pattern: a single isolated incident. Vulnerability: not applicable — no demonstrated effect. Additional context: No user was attacked. Real signal for how AI is lowering the skill barrier for serious hacking.",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 1,
+              "label": "Credible concern or limited harm"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 1,
+              "label": "An individual or single organization"
+            },
+            "reversibility": {
+              "level": 1,
+              "label": "Easily or quickly reversible"
+            },
+            "containment": {
+              "level": 1,
+              "label": "Prevented or fully contained after limited consequences"
+            },
+            "recurrence": {
+              "level": 1,
+              "label": "A single isolated incident"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 27,
+            "score": 27,
+            "band": "OMINOUS",
+            "requestedBand": "OMINOUS",
+            "effectiveBand": "OMINOUS",
+            "supportIntensity": 0.3075,
+            "range": {
+              "lower": 24,
+              "middle": 27,
+              "upper": 30
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "upper",
+          "additionalContext": "No user was attacked. Real signal for how AI is lowering the skill barrier for serious hacking.",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-12T23:12:38.965Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-11T23:45:24.182Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 27,
+        "blindReviewScore": 30,
+        "finalScore": 30,
+        "absoluteDifference": 3,
+        "bandChanged": false,
+        "factorChanges": [],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-12T23:12:38.965Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "405bb0abca008f0b597d",
+      "aliases": [
+        {
+          "storyId": "3e7e64d6cb49bdc89231",
+          "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
+          "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
+          "source": "The Verge AI",
+          "published": "2026-08-11T16:19:15.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "3e7e64d6cb49bdc89231",
+        "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
+        "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
+        "source": "The Verge AI",
+        "published": "2026-08-11T16:19:15.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Apple is seemingly developing an iOS feature that can verify when a photograph was taken using an iPhone camera. 9to5Mac reports that the iOS 27 beta 5 includes code references for an \"Apple Reference Image\" system that can embed provenance metadata into iPhone photographs at the point of capture - enabling users to prove where the photo originated, and that it isn't AI fakery. Apple Reference Image isn't currently live, but a privacy disclosure in the iOS beta notes that the feature will be off by default. When (or if) it does roll out, 9to5Mac says it can be enabled via Settings > Camera > Reference Image > Reference Mode, and that only p … Read the full story at The Verge. Apple is seemingly developing an iOS feature that can verify when a photograph was taken using an iPhone camera. 9to5Mac reports that the iOS 27 beta 5 includes code references for an \"Apple Reference Image\" system that can embed provenance metadata into iPhone photographs at the point of capture - enabling users to prove where […]",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
+        "summary": "Apple could help you prove your iPhone photos aren’t deepfakes. Apple is seemingly developing an iOS feature that can verify when a photograph was taken using an iPhone camera. 9to5Mac reports that the iOS 27 beta 5 includes code references for an \"Apple Reference Image\" system that can embed provenance metadata into iPhone photographs at the point of capture - enabling users to prove where the photo originated, and that it isn't AI fakery. Apple Reference Image isn't currently live, but a privacy disclosure in the iOS beta notes that the feature will be off by default. When (or if) it does roll out, 9to5Mac says it can be enabled via Settings > Camera > Reference Image > Reference Mode, and that only p … Read the full story at The Verge. Apple is seemingly developing an iOS feature that can verify when a photograph was taken using an iPhone camera. 9to5Mac reports that the iOS 27 beta 5 includes code references for an \"Apple Reference Image\" system that can embed provenance metadata into iPhone photographs at the point of capture - enabling users to prove where […]",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 2,
+        "confidence": 1,
+        "reasoning": "No material harm is established. Evidence: hypothetical, predicted, or speculative. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band. Additional context: Unconfirmed evidence of Apple feature in development to verify authenticity of photos against deepfakes.",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "lower",
+          "additionalContext": "Unconfirmed evidence of Apple feature in development to verify authenticity of photos against deepfakes.",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-12T23:55:33.131Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 11.88
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 11.88
+        }
+      },
+      "startedAt": "2026-08-12T01:59:47.011Z",
+      "updatedAt": "2026-08-12T02:00:34.043Z",
+      "articleRating": {
+        "score": 2,
+        "confidence": 1,
+        "reasoning": "No material harm is established. Evidence: hypothetical, predicted, or speculative. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band.",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "lower",
+          "additionalContext": "",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-12T23:58:31.069Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-12T02:00:34.043Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 6,
+        "blindReviewScore": 2,
+        "finalScore": 2,
+        "absoluteDifference": 4,
+        "bandChanged": false,
+        "factorChanges": [
+          {
+            "factor": "certainty",
+            "original": {
+              "level": 2,
+              "label": "Credibly reported but still developing"
+            },
+            "review": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            }
+          }
+        ],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-12T23:58:31.069Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "b73829651caede132fec",
+      "aliases": [
+        {
+          "storyId": "662d2e6743aa33137424",
+          "title": "Automated Moderation Is Here to Stay",
+          "url": "https://www.eff.org/deeplinks/2026/07/part-1-automated-moderation-here-stay",
+          "source": "EFF AI",
+          "published": "2026-07-07T16:21:36.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "662d2e6743aa33137424",
+        "title": "Automated Moderation Is Here to Stay",
+        "url": "https://www.eff.org/deeplinks/2026/07/part-1-automated-moderation-here-stay",
+        "source": "EFF AI",
+        "published": "2026-07-07T16:21:36.000Z"
+      },
+      "feedEvidence": {
+        "summary": "This blog post is part 1 of a 2-part series. The second part sets out recommendations for companies and policymakers. Six years ago—one month into a global pandemic—we argued that the automated moderation processes many platforms were rapidly adopting should be highly transparent, easily appealable, and temporary. We warned that \"protocols adopted in times of crisis often persist when the crisis is over.\" That warning proved prescient. The use of automation and artificial intelligence (AI) to identify, flag, and moderate content has become the new norm—a permanent feature of how platforms govern speech online. In this two part series, we’re take stock of this new norm, and considering what platforms can and should do to ensure that AI serves online expression rather than stifling it. A brief history of automated content moderation From spam filtering and keyword blacklists to the hash-matching technologies used to identify child sexual abuse material and terrorist content, automated technologies have been used in commercial content moderation for many years. While these tools have long posed risks to freedom of expression, their use was, for quite some time, relatively limited in scope. Then, in 2017, a blog post published by Facebook (now Meta) described the company's \"fairly recent\" use of artificial intelligence to identify, classify, and remove violent extremist content. At the same time, Facebook emphasized caution, noting that it did not want to suggest there was \"any easy technical fix.\" Just one year later, Mark Zuckerberg appeared before the U.S. Senate's Commerce and Judiciary Committees and disclosed that \"99 percent of the ISIS and Al Qaida content\" removed by Facebook was flagged by AI \"before any human sees it.\" He also stated that Facebook was \"developing A.I. tools that can identify certain classes of bad activity proactively and flag it for our team at Facebook.\" At the time, we raised concerns about the ethical implications of using AI in this manner. Then came 2020. The sudden reduction of the human moderation workforce, combined with a dramatic increase in social media use—and with it, a surge in misinformation—created the perfect conditions for platforms to expand their reliance on AI-driven moderation. It quickly became apparent that companies'—and particularly Meta's—approach to moderation during the pandemic represented a backslide in transparency, freedom of expression, and access to remedy. The increased reliance on automation was a significant factor. The costs and benefits of AI content moderation We knew in 2020 that the use of AI to moderate content would present problems for online freedom of expression. Today, those problems are well-documented. A 2025 joint declaration by special rapporteurs and representatives of the United Nations (UN), Organization for Security and Co-operation in Europe (OSCE), Organization of American States (OAS), and African Commission on Human and Peoples’ Rights (ACHPR) states: “The use of AI content moderation can lead to over-removal, discrimination and censorship. Reliance on inherently biased datasets and opaque training processes can amplify pre-existing inequalities, risking homogenisation of expression, and erasure of linguistic and cultural diversity.” EFF and many of our allies have documented these impacts. For example, our 2019 paper co-authored with Witness and Syrian Archive examined the impact of extremist content regulations—and their implementation through automation and AI—on human rights documentation. A 2020 report from Human Rights Watch highlighted the consequences of these removals, noting: \"There is no way of knowing how much potential evidence of serious crimes is disappearing without anyone's knowledge.\" The Center for Democracy and Technology's recent series on content moderation in the Global South demonstrates persistent inequities in content moderation of four “low-resource” languages—so-called because the relative scarcity of training data",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Automated Moderation Is Here to Stay",
+        "summary": "Automated Moderation Is Here to Stay—Accountability Must Keep Pace. This post is part 2 in a series about automated content moderation. Read the first post here. When whistleblower Frances Haugen leaked a set of documents from Meta in 2020, among the revelations was a jarring statistic: The company’s algorithms designed to detect terrorist content incorrectly deleted nonviolent Arabic-language content 77 percent of the time, while failing to detect hate speech under the company’s own policies in many instances. Meta’s own transparency report released later that year demonstrated similar findings. Five years later, researchers in the region report that overzealous moderation remains a problem, while paths to remedy have all but collapsed. Where these systems are faltering in Arabic, they’re positively failing in less-resourced languages. As a 2025 report from the Center for Democracy and Technology found, labeled datasets in certain languages and dialects such as Maghrebi Arabic and Kiswahili contain inconsistencies, bias, and inaccuracies due to the limited hiring of annotators who actually speak the languages as well as shifts in the languages themselves. An investigation into ChatGPT’s outputs in several low-resource languages demonstrates the depth of problem. But language disparities are just one of several concerns as automated moderation becomes more widespread. From the systemic suppression of content from Palestine to the repeated misclassification of LGBTQ+ content as adult or explicit material, these varied examples demonstrate the risks of overreliance on automated moderation—and the need for stronger safeguards. Transparency, Cultural Competence, Appeals As we discussed in Part 1 of this series, automated systems can process content at a scale that humans never could, potentially enabling better moderation at scale and alleviating the psychological load on ill-paid moderators whose jobs require them to view incredibly disturbing content. But automated systems also reproduce existing biases, struggle to understand context, and often make mistakes that disproportionately affect journalists, activists, artists, and other vulnerable and marginalized communities. As Rachel Griffin wrote in 2023, “Perfectly accurate moderation is not only technically out of reach but intrinsically impossible.” Despite those intrinsic flaws, there is a great deal companies, policymakers, and civil society can do to help ensure that highly-automated systems operate in ways that respect human rights, minimize predictable harms, and provide meaningful accountability when they fail. If companies are going to continue relying on automation to moderate users’ speech—and there is little reason to believe they won’t—then accountability must evolve alongside these technologies. That evolution can start with committing to the Santa Clara Principles 2.0. These principles, first outlined in 2020 and re-launched in 2021 after substantial international input, reflect the needs and expectations of the global community and specifically address automation. The first Foundational Principle states: Companies should ensure that human rights and due process considerations are integrated at all stages of the content moderation process, and should publish information outlining how this integration is made. Companies should only use automated processes to identify or remove content or suspend accounts, whether supplemented by human review or not, when there is sufficiently high confidence in the quality and accuracy of those processes. Companies should also provide users with clear and accessible methods of obtaining support in the event of content and account action. Drawing on the Santa Clara Principles 2.0, international human rights standards, and years of research documenting the shortcomings of automated moderation, we propose eight recommendations for policymakers thinking about regulation and companies deploying AI-assisted content moderation systems. Automated technologies should help, not replace, human moderators. Fo Automated Moderation Is Here to Stay. This blog post is part 1 of a 2-part series. The second part sets out recommendations for companies and policymakers. Six years ago—one month into a global pandemic—we argued that the automated moderation processes many platforms were rapidly adopting should be highly transparent, easily appealable, and temporary. We warned that \"protocols adopted in times of crisis often persist when the crisis is over.\" That warning proved prescient. The use of automation and artificial intelligence (AI) to identify, flag, and moderate content has become the new norm—a permanent feature of how platforms govern speech online. In this two part series, we’re take stock of this new norm, and considering what platforms can and should do to ensure that AI serves online expression rather than stifling it. A brief history of automated content moderation From spam filtering and keyword blacklists to the hash-matching technologies used to identify child sexual abuse material and terrorist content, automated technologies have been used in commercial content moderation for many years. While these tools have long posed risks to freedom of expression, their use was, for quite some time, relatively limited in scope. Then, in 2017, a blog post published by Facebook (now Meta) described the company's \"fairly recent\" use of artificial intelligence to identify, classify, and remove violent extremist content. At the same time, Facebook emphasized caution, noting that it did not want to suggest there was \"any easy technical fix.\" Just one year later, Mark Zuckerberg appeared before the U.S. Senate's Commerce and Judiciary Committees and disclosed that \"99 percent of the ISIS and Al Qaida content\" removed by Facebook was flagged by AI \"before any human sees it.\" He also stated that Facebook was \"developing A.I. tools that can identify certain classes of bad activity proactively and flag it for our team at Facebook.\" At the time, we raised concerns about the ethical implications of using AI in this manner. Then came 2020. The sudden reduction of the human moderation workforce, combined with a dramatic increase in social media use—and with it, a surge in misinformation—created the perfect conditions for platforms to expand their reliance on AI-driven moderation. It quickly became apparent that companies'—and particularly Meta's—approach to moderation during the pandemic represented a backslide in transparency, freedom of expression, and access to remedy. The increased reliance on automation was a significant factor. The costs and benefits of AI content moderation We knew in 2020 that the use of AI to moderate content would present problems for online freedom of expression. Today, those problems are well-documented. A 2025 joint declaration by special rapporteurs and representatives of the United Nations (UN), Organization for Security and Co-operation in Europe (OSCE), Organization of American States (OAS), and African Commission on Human and Peoples’ Rights (ACHPR) states: “The use of AI content moderation can lead to over-removal, discrimination and censorship. Reliance on inherently biased datasets and opaque training processes can amplify pre-existing inequalities, risking homogenisation of expression, and erasure of linguistic and cultural diversity.” EFF and many of our allies have documented these impacts. For example, our 2019 paper co-authored with Witness and Syrian Archive examined the impact of extremist content regulations—and their implementation through automation and AI—on human rights documentation. A 2020 report from Human Rights Watch highlighted the consequences of these removals, noting: \"There is no way of knowing how much potential evidence of serious crimes is disappearing without anyone's knowledge.\" The Center for Democracy and Technology's recent series on content moderation in the Global South demonstrates persistent inequities in content moderation of four “low-resource” languages—so-called because the relative scarcity of training data",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 5,
+        "confidence": 1,
+        "reasoning": "No material harm is established. Evidence: proposed, alleged, or incompletely documented. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band.",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 1,
+              "label": "Proposed, alleged, or incompletely documented"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0.05,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "middle",
+          "additionalContext": "",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-13T03:23:05.810Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 11.45
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 77.95
+        }
+      },
+      "startedAt": "2026-08-12T11:52:32.263Z",
+      "updatedAt": "2026-08-12T11:55:26.205Z",
+      "articleRating": {
+        "score": 55,
+        "confidence": 1,
+        "reasoning": "Meaningful harm or disruption. Evidence: confirmed by strong evidence. Reach: international or global reach. Reversibility: long-lasting or only partially reversible. Containment: partially contained or still developing. Pattern: a repeated or ongoing pattern. Vulnerability: yes, with serious consequences. Additional context: Automated moderation repeatedly suppresses legitimate expression",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 2,
+              "label": "Meaningful harm or disruption"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 4,
+              "label": "International or global reach"
+            },
+            "reversibility": {
+              "level": 3,
+              "label": "Long-lasting or only partially reversible"
+            },
+            "containment": {
+              "level": 2,
+              "label": "Partially contained or still developing"
+            },
+            "recurrence": {
+              "level": 3,
+              "label": "A repeated or ongoing pattern"
+            },
+            "vulnerability": {
+              "level": 3,
+              "label": "Yes, with serious consequences"
+            }
+          },
+          "recommendation": {
+            "rawScore": 52,
+            "score": 52,
+            "band": "ALARMING",
+            "requestedBand": "ALARMING",
+            "effectiveBand": "ALARMING",
+            "supportIntensity": 0.75,
+            "range": {
+              "lower": 49,
+              "middle": 52,
+              "upper": 55
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "upper",
+          "additionalContext": "Automated moderation repeatedly suppresses legitimate expression",
+          "reviewFlags": [
+            "the full article changes the rating by at least 15 points"
+          ]
+        },
+        "ratedAt": "2026-08-13T03:25:07.916Z"
+      },
+      "contextAdjustment": 50,
+      "completedAt": "2026-08-12T11:55:26.205Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 56,
+        "blindReviewScore": 55,
+        "finalScore": 55,
+        "absoluteDifference": 1,
+        "bandChanged": false,
+        "factorChanges": [
+          {
+            "factor": "containment",
+            "original": {
+              "level": 3,
+              "label": "Actively escalating"
+            },
+            "review": {
+              "level": 2,
+              "label": "Partially contained or still developing"
+            }
+          },
+          {
+            "factor": "recurrence",
+            "original": {
+              "level": 4,
+              "label": "Widespread and continuously occurring"
+            },
+            "review": {
+              "level": 3,
+              "label": "A repeated or ongoing pattern"
+            }
+          }
+        ],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-13T03:25:07.916Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "6a10eae8578751cd2fa9",
+      "aliases": [
+        {
+          "storyId": "34dea126e9f7f59cc4b5",
+          "title": "Automated Moderation Is Here to Stay—Accountability Must Keep Pace",
+          "url": "https://www.eff.org/deeplinks/2026/07/part-2-automated-moderation-here-stay-accountability-must-keep-pace",
+          "source": "EFF AI",
+          "published": "2026-07-10T13:19:46.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "34dea126e9f7f59cc4b5",
+        "title": "Automated Moderation Is Here to Stay—Accountability Must Keep Pace",
+        "url": "https://www.eff.org/deeplinks/2026/07/part-2-automated-moderation-here-stay-accountability-must-keep-pace",
+        "source": "EFF AI",
+        "published": "2026-07-10T13:19:46.000Z"
+      },
+      "feedEvidence": {
+        "summary": "This post is part 2 in a series about automated content moderation. Read the first post here. When whistleblower Frances Haugen leaked a set of documents from Meta in 2020, among the revelations was a jarring statistic: The company’s algorithms designed to detect terrorist content incorrectly deleted nonviolent Arabic-language content 77 percent of the time, while failing to detect hate speech under the company’s own policies in many instances. Meta’s own transparency report released later that year demonstrated similar findings. Five years later, researchers in the region report that overzealous moderation remains a problem, while paths to remedy have all but collapsed. Where these systems are faltering in Arabic, they’re positively failing in less-resourced languages. As a 2025 report from the Center for Democracy and Technology found, labeled datasets in certain languages and dialects such as Maghrebi Arabic and Kiswahili contain inconsistencies, bias, and inaccuracies due to the limited hiring of annotators who actually speak the languages as well as shifts in the languages themselves. An investigation into ChatGPT’s outputs in several low-resource languages demonstrates the depth of problem. But language disparities are just one of several concerns as automated moderation becomes more widespread. From the systemic suppression of content from Palestine to the repeated misclassification of LGBTQ+ content as adult or explicit material, these varied examples demonstrate the risks of overreliance on automated moderation—and the need for stronger safeguards. Transparency, Cultural Competence, Appeals As we discussed in Part 1 of this series, automated systems can process content at a scale that humans never could, potentially enabling better moderation at scale and alleviating the psychological load on ill-paid moderators whose jobs require them to view incredibly disturbing content. But automated systems also reproduce existing biases, struggle to understand context, and often make mistakes that disproportionately affect journalists, activists, artists, and other vulnerable and marginalized communities. As Rachel Griffin wrote in 2023, “Perfectly accurate moderation is not only technically out of reach but intrinsically impossible.” Despite those intrinsic flaws, there is a great deal companies, policymakers, and civil society can do to help ensure that highly-automated systems operate in ways that respect human rights, minimize predictable harms, and provide meaningful accountability when they fail. If companies are going to continue relying on automation to moderate users’ speech—and there is little reason to believe they won’t—then accountability must evolve alongside these technologies. That evolution can start with committing to the Santa Clara Principles 2.0. These principles, first outlined in 2020 and re-launched in 2021 after substantial international input, reflect the needs and expectations of the global community and specifically address automation. The first Foundational Principle states: Companies should ensure that human rights and due process considerations are integrated at all stages of the content moderation process, and should publish information outlining how this integration is made. Companies should only use automated processes to identify or remove content or suspend accounts, whether supplemented by human review or not, when there is sufficiently high confidence in the quality and accuracy of those processes. Companies should also provide users with clear and accessible methods of obtaining support in the event of content and account action. Drawing on the Santa Clara Principles 2.0, international human rights standards, and years of research documenting the shortcomings of automated moderation, we propose eight recommendations for policymakers thinking about regulation and companies deploying AI-assisted content moderation systems. Automated technologies should help, not replace, human moderators. Fo",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Automated Moderation Is Here to Stay—Accountability Must Keep Pace",
+        "summary": "Automated Moderation Is Here to Stay—Accountability Must Keep Pace. This post is part 2 in a series about automated content moderation. Read the first post here. When whistleblower Frances Haugen leaked a set of documents from Meta in 2020, among the revelations was a jarring statistic: The company’s algorithms designed to detect terrorist content incorrectly deleted nonviolent Arabic-language content 77 percent of the time, while failing to detect hate speech under the company’s own policies in many instances. Meta’s own transparency report released later that year demonstrated similar findings. Five years later, researchers in the region report that overzealous moderation remains a problem, while paths to remedy have all but collapsed. Where these systems are faltering in Arabic, they’re positively failing in less-resourced languages. As a 2025 report from the Center for Democracy and Technology found, labeled datasets in certain languages and dialects such as Maghrebi Arabic and Kiswahili contain inconsistencies, bias, and inaccuracies due to the limited hiring of annotators who actually speak the languages as well as shifts in the languages themselves. An investigation into ChatGPT’s outputs in several low-resource languages demonstrates the depth of problem. But language disparities are just one of several concerns as automated moderation becomes more widespread. From the systemic suppression of content from Palestine to the repeated misclassification of LGBTQ+ content as adult or explicit material, these varied examples demonstrate the risks of overreliance on automated moderation—and the need for stronger safeguards. Transparency, Cultural Competence, Appeals As we discussed in Part 1 of this series, automated systems can process content at a scale that humans never could, potentially enabling better moderation at scale and alleviating the psychological load on ill-paid moderators whose jobs require them to view incredibly disturbing content. But automated systems also reproduce existing biases, struggle to understand context, and often make mistakes that disproportionately affect journalists, activists, artists, and other vulnerable and marginalized communities. As Rachel Griffin wrote in 2023, “Perfectly accurate moderation is not only technically out of reach but intrinsically impossible.” Despite those intrinsic flaws, there is a great deal companies, policymakers, and civil society can do to help ensure that highly-automated systems operate in ways that respect human rights, minimize predictable harms, and provide meaningful accountability when they fail. If companies are going to continue relying on automation to moderate users’ speech—and there is little reason to believe they won’t—then accountability must evolve alongside these technologies. That evolution can start with committing to the Santa Clara Principles 2.0. These principles, first outlined in 2020 and re-launched in 2021 after substantial international input, reflect the needs and expectations of the global community and specifically address automation. The first Foundational Principle states: Companies should ensure that human rights and due process considerations are integrated at all stages of the content moderation process, and should publish information outlining how this integration is made. Companies should only use automated processes to identify or remove content or suspend accounts, whether supplemented by human review or not, when there is sufficiently high confidence in the quality and accuracy of those processes. Companies should also provide users with clear and accessible methods of obtaining support in the event of content and account action. Drawing on the Santa Clara Principles 2.0, international human rights standards, and years of research documenting the shortcomings of automated moderation, we propose eight recommendations for policymakers thinking about regulation and companies deploying AI-assisted content moderation systems. Automated technologies should help, not replace, human moderators. Fo Automated Moderation Is Here to Stay. This blog post is part 1 of a 2-part series. The second part sets out recommendations for companies and policymakers. Six years ago—one month into a global pandemic—we argued that the automated moderation processes many platforms were rapidly adopting should be highly transparent, easily appealable, and temporary. We warned that \"protocols adopted in times of crisis often persist when the crisis is over.\" That warning proved prescient. The use of automation and artificial intelligence (AI) to identify, flag, and moderate content has become the new norm—a permanent feature of how platforms govern speech online. In this two part series, we’re take stock of this new norm, and considering what platforms can and should do to ensure that AI serves online expression rather than stifling it. A brief history of automated content moderation From spam filtering and keyword blacklists to the hash-matching technologies used to identify child sexual abuse material and terrorist content, automated technologies have been used in commercial content moderation for many years. While these tools have long posed risks to freedom of expression, their use was, for quite some time, relatively limited in scope. Then, in 2017, a blog post published by Facebook (now Meta) described the company's \"fairly recent\" use of artificial intelligence to identify, classify, and remove violent extremist content. At the same time, Facebook emphasized caution, noting that it did not want to suggest there was \"any easy technical fix.\" Just one year later, Mark Zuckerberg appeared before the U.S. Senate's Commerce and Judiciary Committees and disclosed that \"99 percent of the ISIS and Al Qaida content\" removed by Facebook was flagged by AI \"before any human sees it.\" He also stated that Facebook was \"developing A.I. tools that can identify certain classes of bad activity proactively and flag it for our team at Facebook.\" At the time, we raised concerns about the ethical implications of using AI in this manner. Then came 2020. The sudden reduction of the human moderation workforce, combined with a dramatic increase in social media use—and with it, a surge in misinformation—created the perfect conditions for platforms to expand their reliance on AI-driven moderation. It quickly became apparent that companies'—and particularly Meta's—approach to moderation during the pandemic represented a backslide in transparency, freedom of expression, and access to remedy. The increased reliance on automation was a significant factor. The costs and benefits of AI content moderation We knew in 2020 that the use of AI to moderate content would present problems for online freedom of expression. Today, those problems are well-documented. A 2025 joint declaration by special rapporteurs and representatives of the United Nations (UN), Organization for Security and Co-operation in Europe (OSCE), Organization of American States (OAS), and African Commission on Human and Peoples’ Rights (ACHPR) states: “The use of AI content moderation can lead to over-removal, discrimination and censorship. Reliance on inherently biased datasets and opaque training processes can amplify pre-existing inequalities, risking homogenisation of expression, and erasure of linguistic and cultural diversity.” EFF and many of our allies have documented these impacts. For example, our 2019 paper co-authored with Witness and Syrian Archive examined the impact of extremist content regulations—and their implementation through automation and AI—on human rights documentation. A 2020 report from Human Rights Watch highlighted the consequences of these removals, noting: \"There is no way of knowing how much potential evidence of serious crimes is disappearing without anyone's knowledge.\" The Center for Democracy and Technology's recent series on content moderation in the Global South demonstrates persistent inequities in content moderation of four “low-resource” languages—so-called because the relative scarcity of training data",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 56,
+        "confidence": 3,
+        "reasoning": "Meaningful harm or disruption. Evidence: confirmed by strong evidence. Reach: international or global reach. Reversibility: long-lasting or only partially reversible. Containment: actively escalating. Pattern: widespread and continuously occurring. Vulnerability: yes, with serious consequences. Additional context: 77% incorrect removal rate sourced from Meta's own transparency report",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 2,
+              "label": "Meaningful harm or disruption"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 4,
+              "label": "International or global reach"
+            },
+            "reversibility": {
+              "level": 3,
+              "label": "Long-lasting or only partially reversible"
+            },
+            "containment": {
+              "level": 3,
+              "label": "Actively escalating"
+            },
+            "recurrence": {
+              "level": 4,
+              "label": "Widespread and continuously occurring"
+            },
+            "vulnerability": {
+              "level": 3,
+              "label": "Yes, with serious consequences"
+            }
+          },
+          "recommendation": {
+            "rawScore": 53,
+            "score": 53,
+            "band": "ALARMING",
+            "requestedBand": "ALARMING",
+            "effectiveBand": "ALARMING",
+            "supportIntensity": 0.825,
+            "range": {
+              "lower": 50,
+              "middle": 53,
+              "upper": 56
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "upper",
+          "additionalContext": "77% incorrect removal rate sourced from Meta's own transparency report",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-13T02:48:37.711Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 11.64
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 78.74
+        }
+      },
+      "startedAt": "2026-08-12T11:39:53.226Z",
+      "updatedAt": "2026-08-12T11:42:01.243Z",
+      "articleRating": {
+        "score": 59,
+        "confidence": 3,
+        "reasoning": "Meaningful harm or disruption. Evidence: confirmed by strong evidence. Reach: international or global reach. Reversibility: long-lasting or only partially reversible. Containment: actively escalating. Pattern: widespread and continuously occurring. Vulnerability: yes, with serious consequences. Additional context: Multiple low-resource languages, Palestine suppression, LGBTQ+ misclassification patterns",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 2,
+              "label": "Meaningful harm or disruption"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 4,
+              "label": "International or global reach"
+            },
+            "reversibility": {
+              "level": 3,
+              "label": "Long-lasting or only partially reversible"
+            },
+            "containment": {
+              "level": 3,
+              "label": "Actively escalating"
+            },
+            "recurrence": {
+              "level": 4,
+              "label": "Widespread and continuously occurring"
+            },
+            "vulnerability": {
+              "level": 3,
+              "label": "Yes, with serious consequences"
+            }
+          },
+          "recommendation": {
+            "rawScore": 53,
+            "score": 53,
+            "band": "ALARMING",
+            "requestedBand": "ALARMING",
+            "effectiveBand": "ALARMING",
+            "supportIntensity": 0.825,
+            "range": {
+              "lower": 50,
+              "middle": 53,
+              "upper": 56
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "manual",
+          "additionalContext": "Multiple low-resource languages, Palestine suppression, LGBTQ+ misclassification patterns",
+          "reviewFlags": [
+            "the exact score is outside the suggested range"
+          ]
+        },
+        "ratedAt": "2026-08-13T02:52:14.514Z"
+      },
+      "contextAdjustment": 3,
+      "completedAt": "2026-08-12T11:42:01.243Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 56,
+        "blindReviewScore": 59,
+        "finalScore": 59,
+        "absoluteDifference": 3,
+        "bandChanged": false,
+        "factorChanges": [],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-13T02:52:14.514Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "d20337bd18efaf5ce658",
+      "aliases": [
+        {
+          "storyId": "f535eaff4719bde51d94",
+          "title": "Bitcoin Miners Have Something Anthropic Desperately Needs. It’s Worth $9.1 Billion",
+          "url": "https://www.inc.com/georgia-fearn/bitcoin-miners-have-something-anthropic-despreately-needs-worth-9-billion-dollars/91388958",
+          "source": "Inc. AI",
+          "published": "2026-08-12T13:30:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "f535eaff4719bde51d94",
+        "title": "Bitcoin Miners Have Something Anthropic Desperately Needs. It’s Worth $9.1 Billion",
+        "url": "https://www.inc.com/georgia-fearn/bitcoin-miners-have-something-anthropic-despreately-needs-worth-9-billion-dollars/91388958",
+        "source": "Inc. AI",
+        "published": "2026-08-12T13:30:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "The AI startup’s deal with Riot signals a growing need as the build-out of data centers expands across the U.S.",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Bitcoin Miners Have Something Anthropic Desperately Needs. It’s Worth $9.1 Billion",
+        "summary": "Bitcoin Miners Have Something Anthropic Desperately Needs. It’s Worth $9.1 Billion. The AI startup’s deal with Riot signals a growing need as the build-out of data centers expands across the U.S. Lead",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 2,
+        "confidence": 2,
+        "reasoning": "No material harm is established. Evidence: hypothetical, predicted, or speculative. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band.",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "lower",
+          "additionalContext": "",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-13T03:02:57.222Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 11.04
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 11.04
+        }
+      },
+      "startedAt": "2026-08-12T14:58:35.712Z",
+      "updatedAt": "2026-08-12T14:59:32.811Z",
+      "articleRating": {
+        "score": 2,
+        "confidence": 2,
+        "reasoning": "No material harm is established. Evidence: hypothetical, predicted, or speculative. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band. Additional context: Business deal",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "lower",
+          "additionalContext": "Business deal",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-13T03:03:28.847Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-12T14:59:32.811Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 1,
+        "blindReviewScore": 2,
+        "finalScore": 2,
+        "absoluteDifference": 1,
+        "bandChanged": false,
+        "factorChanges": [],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-13T03:03:28.847Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "a6f36fe806c6f453872f",
+      "aliases": [
+        {
+          "storyId": "3adf1817d668ceec1c20",
+          "title": "Data centers have a politics problem — and industry knows it",
+          "url": "https://www.politico.com/news/2026/08/01/data-centers-have-a-politics-problem-and-industry-knows-it-01020412",
+          "source": "POLITICO AI",
+          "published": "2026-08-01T17:45:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "3adf1817d668ceec1c20",
+        "title": "Data centers have a politics problem — and industry knows it",
+        "url": "https://www.politico.com/news/2026/08/01/data-centers-have-a-politics-problem-and-industry-knows-it-01020412",
+        "source": "POLITICO AI",
+        "published": "2026-08-01T17:45:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "As opposition to the AI projects gains momentum, industry supporters say they have ceded the narrative to their critics.",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Data centers have a politics problem — and industry knows it",
+        "summary": "Data centers have a politics problem — and industry knows it. As opposition to the AI projects gains momentum, industry supporters say they have ceded the narrative to their critics. Technology, Technology, AI, The POLITICO Poll, Polling, Poll, Data",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 2,
+        "confidence": 2,
+        "reasoning": "No material harm is established. Evidence: hypothetical, predicted, or speculative. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band. Additional context: Political and public opposition to AI infrastructure",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "lower",
+          "additionalContext": "Political and public opposition to AI infrastructure",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-13T00:07:56.513Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 8.01
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 8.01
+        }
+      },
+      "startedAt": "2026-08-12T15:44:19.565Z",
+      "updatedAt": "2026-08-12T15:46:01.088Z",
+      "articleRating": {
+        "score": 35,
+        "confidence": 2,
+        "reasoning": "Credible concern or limited harm. Evidence: credibly reported but still developing. Reach: regional, national, or systemic reach. Reversibility: easily or quickly reversible. Containment: partially contained or still developing. Pattern: a repeated or ongoing pattern. Vulnerability: possibly. Additional context: National-scale political and economic friction backed by polling data",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 1,
+              "label": "Credible concern or limited harm"
+            },
+            "certainty": {
+              "level": 2,
+              "label": "Credibly reported but still developing"
+            },
+            "reach": {
+              "level": 3,
+              "label": "Regional, national, or systemic reach"
+            },
+            "reversibility": {
+              "level": 1,
+              "label": "Easily or quickly reversible"
+            },
+            "containment": {
+              "level": 2,
+              "label": "Partially contained or still developing"
+            },
+            "recurrence": {
+              "level": 3,
+              "label": "A repeated or ongoing pattern"
+            },
+            "vulnerability": {
+              "level": 1,
+              "label": "Possibly"
+            }
+          },
+          "recommendation": {
+            "rawScore": 29,
+            "score": 29,
+            "band": "OMINOUS",
+            "requestedBand": "OMINOUS",
+            "effectiveBand": "OMINOUS",
+            "supportIntensity": 0.495,
+            "range": {
+              "lower": 26,
+              "middle": 29,
+              "upper": 32
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "manual",
+          "additionalContext": "National-scale political and economic friction backed by polling data",
+          "reviewFlags": [
+            "the exact score is outside the suggested range",
+            "the full article changes the rating by at least 15 points"
+          ]
+        },
+        "ratedAt": "2026-08-13T00:09:24.085Z"
+      },
+      "contextAdjustment": 33,
+      "completedAt": "2026-08-12T15:46:01.088Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 31,
+        "blindReviewScore": 35,
+        "finalScore": 35,
+        "absoluteDifference": 4,
+        "bandChanged": false,
+        "factorChanges": [
+          {
+            "factor": "certainty",
+            "original": {
+              "level": 4,
+              "label": "Confirmed with measurable consequences"
+            },
+            "review": {
+              "level": 2,
+              "label": "Credibly reported but still developing"
+            }
+          },
+          {
+            "factor": "reversibility",
+            "original": {
+              "level": 2,
+              "label": "Recoverable with substantial effort"
+            },
+            "review": {
+              "level": 1,
+              "label": "Easily or quickly reversible"
+            }
+          },
+          {
+            "factor": "recurrence",
+            "original": {
+              "level": 2,
+              "label": "Multiple related incidents"
+            },
+            "review": {
+              "level": 3,
+              "label": "A repeated or ongoing pattern"
+            }
+          }
+        ],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-13T00:09:24.085Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "40cdb2b7613496af5152",
+      "aliases": [
+        {
+          "storyId": "5b25dbef57666966bcbe",
+          "title": "Ordinary WiFi can now identify you with near-perfect accuracy",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260811052857.htm",
+          "source": "ScienceDaily Technology",
+          "published": "2026-08-12T04:07:22.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "5b25dbef57666966bcbe",
+        "title": "Ordinary WiFi can now identify you with near-perfect accuracy",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260811052857.htm",
+        "source": "ScienceDaily Technology",
+        "published": "2026-08-12T04:07:22.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Ordinary WiFi networks could quietly become powerful surveillance tools, allowing people to be identified without cameras, special sensors, or even carrying a connected device. Researchers showed that unencrypted signals routinely exchanged between WiFi devices and routers can be used to create radio-based images of people and recognize them within…",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "Ordinary WiFi can now identify you with near-perfect accuracy",
+        "summary": "Ordinary WiFi can now identify you with near-perfect accuracy. Ordinary WiFi networks could quietly become powerful surveillance tools, allowing people to be identified without cameras, special sensors, or even carrying a connected device. Researchers showed that unencrypted signals routinely exchanged between WiFi devices and routers can be used to create radio-based images of people and recognize them within seconds. In tests involving 197 participants, the system identified individuals with nearly 100% accuracy, even from different angles and regardless of how they walked.",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 38,
+        "confidence": 2,
+        "reasoning": "Credible concern or limited harm. Evidence: confirmed by strong evidence. Reach: international or global reach. Reversibility: long-lasting or only partially reversible. Containment: not applicable — no harmful incident or active threat is established. Pattern: a repeated or ongoing pattern. Vulnerability: possibly. Additional context: Surveillance",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 1,
+              "label": "Credible concern or limited harm"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 4,
+              "label": "International or global reach"
+            },
+            "reversibility": {
+              "level": 3,
+              "label": "Long-lasting or only partially reversible"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 3,
+              "label": "A repeated or ongoing pattern"
+            },
+            "vulnerability": {
+              "level": 1,
+              "label": "Possibly"
+            }
+          },
+          "recommendation": {
+            "rawScore": 30,
+            "score": 30,
+            "band": "OMINOUS",
+            "requestedBand": "OMINOUS",
+            "effectiveBand": "OMINOUS",
+            "supportIntensity": 0.575,
+            "range": {
+              "lower": 27,
+              "middle": 30,
+              "upper": 33
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "manual",
+          "additionalContext": "Surveillance",
+          "reviewFlags": [
+            "the exact score is outside the suggested range"
+          ]
+        },
+        "ratedAt": "2026-08-12T23:30:07.198Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 12.54
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 12.54
+        }
+      },
+      "startedAt": "2026-08-12T15:33:44.647Z",
+      "updatedAt": "2026-08-12T15:38:09.851Z",
+      "articleRating": {
+        "score": 38,
+        "confidence": 2,
+        "reasoning": "Credible concern or limited harm. Evidence: confirmed by strong evidence. Reach: international or global reach. Reversibility: long-lasting or only partially reversible. Containment: partially contained or still developing. Pattern: not applicable — no harmful incident is established. Vulnerability: yes, with serious consequences. Additional context: Researchers can identify people using ordinary WiFi signals",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 1,
+              "label": "Credible concern or limited harm"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 4,
+              "label": "International or global reach"
+            },
+            "reversibility": {
+              "level": 3,
+              "label": "Long-lasting or only partially reversible"
+            },
+            "containment": {
+              "level": 2,
+              "label": "Partially contained or still developing"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 3,
+              "label": "Yes, with serious consequences"
+            }
+          },
+          "recommendation": {
+            "rawScore": 31,
+            "score": 31,
+            "band": "OMINOUS",
+            "requestedBand": "OMINOUS",
+            "effectiveBand": "OMINOUS",
+            "supportIntensity": 0.66,
+            "range": {
+              "lower": 28,
+              "middle": 31,
+              "upper": 34
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "manual",
+          "additionalContext": "Researchers can identify people using ordinary WiFi signals",
+          "reviewFlags": [
+            "the exact score is outside the suggested range"
+          ]
+        },
+        "ratedAt": "2026-08-12T23:32:42.988Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-12T15:38:09.851Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 36,
+        "blindReviewScore": 38,
+        "finalScore": 38,
+        "absoluteDifference": 2,
+        "bandChanged": false,
+        "factorChanges": [
+          {
+            "factor": "reach",
+            "original": {
+              "level": 1,
+              "label": "An individual or single organization"
+            },
+            "review": {
+              "level": 4,
+              "label": "International or global reach"
+            }
+          },
+          {
+            "factor": "reversibility",
+            "original": {
+              "level": 1,
+              "label": "Easily or quickly reversible"
+            },
+            "review": {
+              "level": 3,
+              "label": "Long-lasting or only partially reversible"
+            }
+          },
+          {
+            "factor": "containment",
+            "original": {
+              "level": 1,
+              "label": "Prevented or fully contained after limited consequences"
+            },
+            "review": {
+              "level": 2,
+              "label": "Partially contained or still developing"
+            }
+          },
+          {
+            "factor": "recurrence",
+            "original": {
+              "level": 1,
+              "label": "A single isolated incident"
+            },
+            "review": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            }
+          },
+          {
+            "factor": "vulnerability",
+            "original": {
+              "level": 1,
+              "label": "Possibly"
+            },
+            "review": {
+              "level": 3,
+              "label": "Yes, with serious consequences"
+            }
+          }
+        ],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-12T23:32:42.988Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "a464334d95fee2b24f91",
+      "aliases": [
+        {
+          "storyId": "61d9544eee866d320113",
+          "title": "The AI industry won a primary fight. Now its target is inspiring lawmakers nationwide.",
+          "url": "https://www.politico.com/news/2026/08/11/alex-bores-ai-regulation-primary-loss-01031248",
+          "source": "POLITICO AI",
+          "published": "2026-08-11T09:50:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "61d9544eee866d320113",
+        "title": "The AI industry won a primary fight. Now its target is inspiring lawmakers nationwide.",
+        "url": "https://www.politico.com/news/2026/08/11/alex-bores-ai-regulation-primary-loss-01031248",
+        "source": "POLITICO AI",
+        "published": "2026-08-11T09:50:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Democratic New York assemblymember Alex Bores narrowly lost his House primary in June after facing an onslaught of Silicon Valley dollars. But his influence over state AI rules is only rising.",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "The AI industry won a primary fight. Now its target is inspiring lawmakers nationwide.",
+        "summary": "The AI industry won a primary fight. Now its target is inspiring lawmakers nationwide.. Democratic New York assemblymember Alex Bores narrowly lost his House primary in June after facing an onslaught of Silicon Valley dollars. But his influence over state AI rules is only rising. Technology, Technology, New York Politics, AI",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 27,
+        "confidence": 2,
+        "reasoning": "Credible concern or limited harm. Evidence: confirmed by strong evidence. Reach: regional, national, or systemic reach. Reversibility: easily or quickly reversible. Containment: actively escalating. Pattern: a repeated or ongoing pattern. Vulnerability: not applicable — no demonstrated effect. Additional context: Political campaign finance story",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 1,
+              "label": "Credible concern or limited harm"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 3,
+              "label": "Regional, national, or systemic reach"
+            },
+            "reversibility": {
+              "level": 1,
+              "label": "Easily or quickly reversible"
+            },
+            "containment": {
+              "level": 3,
+              "label": "Actively escalating"
+            },
+            "recurrence": {
+              "level": 3,
+              "label": "A repeated or ongoing pattern"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 30,
+            "score": 30,
+            "band": "OMINOUS",
+            "requestedBand": "OMINOUS",
+            "effectiveBand": "OMINOUS",
+            "supportIntensity": 0.5475,
+            "range": {
+              "lower": 27,
+              "middle": 30,
+              "upper": 33
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "lower",
+          "additionalContext": "Political campaign finance story",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-13T00:28:23.077Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 10.46
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 10.46
+        }
+      },
+      "startedAt": "2026-08-12T15:12:07.277Z",
+      "updatedAt": "2026-08-12T15:14:22.547Z",
+      "articleRating": {
+        "score": 27,
+        "confidence": 2,
+        "reasoning": "Credible concern or limited harm. Evidence: confirmed by strong evidence. Reach: regional, national, or systemic reach. Reversibility: easily or quickly reversible. Containment: partially contained or still developing. Pattern: a repeated or ongoing pattern. Vulnerability: not applicable — no demonstrated effect. Additional context: Pro-regulation money outspent anti-regulation money supporting the same candidate who lost.",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 1,
+              "label": "Credible concern or limited harm"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 3,
+              "label": "Regional, national, or systemic reach"
+            },
+            "reversibility": {
+              "level": 1,
+              "label": "Easily or quickly reversible"
+            },
+            "containment": {
+              "level": 2,
+              "label": "Partially contained or still developing"
+            },
+            "recurrence": {
+              "level": 3,
+              "label": "A repeated or ongoing pattern"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 30,
+            "score": 30,
+            "band": "OMINOUS",
+            "requestedBand": "OMINOUS",
+            "effectiveBand": "OMINOUS",
+            "supportIntensity": 0.5025,
+            "range": {
+              "lower": 27,
+              "middle": 30,
+              "upper": 33
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "lower",
+          "additionalContext": "Pro-regulation money outspent anti-regulation money supporting the same candidate who lost.",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-13T00:30:00.233Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-12T15:14:22.547Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 27,
+        "blindReviewScore": 27,
+        "finalScore": 27,
+        "absoluteDifference": 0,
+        "bandChanged": false,
+        "factorChanges": [
+          {
+            "factor": "reversibility",
+            "original": {
+              "level": 2,
+              "label": "Recoverable with substantial effort"
+            },
+            "review": {
+              "level": 1,
+              "label": "Easily or quickly reversible"
+            }
+          }
+        ],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-13T00:30:00.233Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "927d9d5ad3153c00ae02",
+      "aliases": [
+        {
+          "storyId": "4c16bc788e0d3586b7ae",
+          "title": "The AI takeover of mathematics has begun",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+          "source": "The Verge AI",
+          "published": "2026-08-11T11:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "4c16bc788e0d3586b7ae",
+        "title": "The AI takeover of mathematics has begun",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+        "source": "The Verge AI",
+        "published": "2026-08-11T11:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Mathematician James Maynard has spent a lot of time this past year \"soul searching.\" A professor at the University of Oxford and winner of the prestigious Fields Medal, Maynard told The Verge he's been grappling with the future of his field as the traditionally slow-moving discipline hurries to adapt to AI. Days before we spoke, OpenAI revealed it had produced the solutions to 10 long-standing mathematics problems, some of which had confounded academics for decades. Like generative AI used to produce text and images or propose ideas in science and medicine, the technology learns patterns and connections from the vast amount of material it' … Read the full story at The Verge. Mathematician James Maynard has spent a lot of time this past year \"soul searching.\" A professor at the University of Oxford and winner of the prestigious Fields Medal, Maynard told The Verge he's been grappling with the future of his field as the traditionally slow-moving discipline hurries to adapt to AI. Days before we spoke, […]",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "The AI takeover of mathematics has begun",
+        "summary": "The AI takeover of mathematics has begun. Mathematician James Maynard has spent a lot of time this past year \"soul searching.\" A professor at the University of Oxford and winner of the prestigious Fields Medal, Maynard told The Verge he's been grappling with the future of his field as the traditionally slow-moving discipline hurries to adapt to AI. Days before we spoke, OpenAI revealed it had produced the solutions to 10 long-standing mathematics problems, some of which had confounded academics for decades. Like generative AI used to produce text and images or propose ideas in science and medicine, the technology learns patterns and connections from the vast amount of material it' … Read the full story at The Verge. Mathematician James Maynard has spent a lot of time this past year \"soul searching.\" A professor at the University of Oxford and winner of the prestigious Fields Medal, Maynard told The Verge he's been grappling with the future of his field as the traditionally slow-moving discipline hurries to adapt to AI. Days before we spoke, […]",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 0,
+        "confidence": 2,
+        "reasoning": "No material harm is established. Evidence: hypothetical, predicted, or speculative. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band. Additional context: Personal opinion",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "manual",
+          "additionalContext": "Personal opinion",
+          "reviewFlags": [
+            "the exact score is outside the suggested range"
+          ]
+        },
+        "ratedAt": "2026-08-12T23:33:33.349Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 7.86
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 11.82
+        }
+      },
+      "startedAt": "2026-08-12T07:10:14.805Z",
+      "updatedAt": "2026-08-12T07:43:18.661Z",
+      "articleRating": {
+        "score": 38,
+        "confidence": 2,
+        "reasoning": "Credible concern or limited harm. Evidence: confirmed by strong evidence. Reach: regional, national, or systemic reach. Reversibility: recoverable with substantial effort. Containment: partially contained or still developing. Pattern: a repeated or ongoing pattern. Vulnerability: yes, with limited consequences. Additional context: Reporting genuine professional anxiety and early signs of psychological distress among graduate students",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 1,
+              "label": "Credible concern or limited harm"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 3,
+              "label": "Regional, national, or systemic reach"
+            },
+            "reversibility": {
+              "level": 2,
+              "label": "Recoverable with substantial effort"
+            },
+            "containment": {
+              "level": 2,
+              "label": "Partially contained or still developing"
+            },
+            "recurrence": {
+              "level": 3,
+              "label": "A repeated or ongoing pattern"
+            },
+            "vulnerability": {
+              "level": 2,
+              "label": "Yes, with limited consequences"
+            }
+          },
+          "recommendation": {
+            "rawScore": 31,
+            "score": 31,
+            "band": "OMINOUS",
+            "requestedBand": "OMINOUS",
+            "effectiveBand": "OMINOUS",
+            "supportIntensity": 0.625,
+            "range": {
+              "lower": 28,
+              "middle": 31,
+              "upper": 34
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "manual",
+          "additionalContext": "Reporting genuine professional anxiety and early signs of psychological distress among graduate students",
+          "reviewFlags": [
+            "the exact score is outside the suggested range",
+            "the full article changes the rating by at least 15 points"
+          ]
+        },
+        "ratedAt": "2026-08-12T23:48:53.207Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-12T07:43:18.661Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 33,
+        "blindReviewScore": 38,
+        "finalScore": 38,
+        "absoluteDifference": 5,
+        "bandChanged": false,
+        "factorChanges": [
+          {
+            "factor": "reach",
+            "original": {
+              "level": 2,
+              "label": "Multiple people or organizations"
+            },
+            "review": {
+              "level": 3,
+              "label": "Regional, national, or systemic reach"
+            }
+          }
+        ],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-12T23:48:53.207Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "8be963fd5f4238c6b791",
+      "aliases": [
+        {
+          "storyId": "524b2ed437618bbc9c4e",
+          "title": "The limits of physics AI: where Siemens says the human stays in charge",
+          "url": "https://www.artificialintelligence-news.com/news/siemens-physics-ai-simulation-human-oversight/",
+          "source": "AI News",
+          "published": "2026-08-10T10:00:00.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "524b2ed437618bbc9c4e",
+        "title": "The limits of physics AI: where Siemens says the human stays in charge",
+        "url": "https://www.artificialintelligence-news.com/news/siemens-physics-ai-simulation-human-oversight/",
+        "source": "AI News",
+        "published": "2026-08-10T10:00:00.000Z"
+      },
+      "feedEvidence": {
+        "summary": "Physics AI can now explore thousands of design variations in the time it would take a traditional simulation to chew through a handful of them. Precisely up to 1,000 times faster, according to Siemens. What it cannot do is sign off a safety-critical part. On that, the technology has a firm limit, and Sam Mahalingam, […] The post The limits of physics AI: where Siemens says the human stays in charge appeared first on AI News. Artificial Intelligence Infrastructure & Hardware Interviews AI surrogate models engineering simulation physics AI safety-critical AI Sam Mahalingam Siemens Siemens Digital Industries Software Simcenter PhysicsAI",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "The limits of physics AI: where Siemens says the human stays in charge",
+        "summary": "The limits of physics AI: where Siemens says the human stays in charge. Physics AI can now explore thousands of design variations in the time it would take a traditional simulation to chew through a handful of them. Precisely up to 1,000 times faster, according to Siemens. What it cannot do is sign off a safety-critical part. On that, the technology has a firm limit, and Sam Mahalingam, […] The post The limits of physics AI: where Siemens says the human stays in charge appeared first on AI News. Artificial Intelligence Infrastructure & Hardware Interviews AI surrogate models engineering simulation physics AI safety-critical AI Sam Mahalingam Siemens Siemens Digital Industries Software Simcenter PhysicsAI",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 2,
+        "confidence": 3,
+        "reasoning": "No material harm is established. Evidence: hypothetical, predicted, or speculative. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band.",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "lower",
+          "additionalContext": "",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-12T16:52:23.797Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 13.09
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 13.09
+        }
+      },
+      "startedAt": "2026-08-11T09:35:28.419Z",
+      "updatedAt": "2026-08-11T09:36:12.922Z",
+      "articleRating": {
+        "score": 2,
+        "confidence": 3,
+        "reasoning": "No material harm is established. Evidence: hypothetical, predicted, or speculative. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band.",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "lower",
+          "additionalContext": "",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-12T16:52:32.877Z"
+      },
+      "contextAdjustment": 0,
+      "completedAt": "2026-08-11T09:36:12.922Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 3,
+        "blindReviewScore": 2,
+        "finalScore": 2,
+        "absoluteDifference": 1,
+        "bandChanged": false,
+        "factorChanges": [
+          {
+            "factor": "certainty",
+            "original": {
+              "level": 2,
+              "label": "Credibly reported but still developing"
+            },
+            "review": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            }
+          }
+        ],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-12T16:52:32.877Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "534bc68d5a8b343657f0",
+      "aliases": [
+        {
+          "storyId": "110140286b999c36b493",
+          "title": "What happens when medical students rely on AI – and never develop their own judgment? | Simar Bajaj and Joseph Sakran",
+          "url": "https://www.theguardian.com/commentisfree/2026/aug/10/ai-medical-students-judgment",
+          "source": "The Guardian AI",
+          "published": "2026-08-10T12:00:44.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "110140286b999c36b493",
+        "title": "What happens when medical students rely on AI – and never develop their own judgment? | Simar Bajaj and Joseph Sakran",
+        "url": "https://www.theguardian.com/commentisfree/2026/aug/10/ai-medical-students-judgment",
+        "source": "The Guardian AI",
+        "published": "2026-08-10T12:00:44.000Z"
+      },
+      "feedEvidence": {
+        "summary": "AI’s danger isn’t just in experts losing the ability to reason. It’s that trainees may never learn how to do so in the first place In healthcare, there’s growing concern over doctors becoming less clinically adept as they increasingly rely on AI tools. But what about the trainees – medical students, residents and fellows – who are using these tools before they have built their own clinical judgment? The idea of deskilling implies that someone possessed an ability and then lost it. Here, the danger is not just deskilling but never-skilling. Although a doctor who has forgotten how to reason is recoverable, one who never learned how may not be. OpenEvidence, essentially an AI chatbot for clinicians, has given this concern its most concrete form. About two-thirds of US doctors actively use OpenEvidence, asking about puzzling symptoms, drug interactions and clinical guidelines, getting responses within seconds, anchored in the latest research. Trainees, unsurprisingly, have also begun to use this AI tool in many of the same ways – but at a far more formative stage. Continue reading... Health AI (artificial intelligence) US healthcare US news Computing Society Technology Medicine Research",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "What happens when medical students rely on AI – and never develop their own judgment? | Simar Bajaj and Joseph Sakran",
+        "summary": "What happens when medical students rely on AI – and never develop their own judgment? | Simar Bajaj and Joseph Sakran. AI’s danger isn’t just in experts losing the ability to reason. It’s that trainees may never learn how to do so in the first place In healthcare, there’s growing concern over doctors becoming less clinically adept as they increasingly rely on AI tools. But what about the trainees – medical students, residents and fellows – who are using these tools before they have built their own clinical judgment? The idea of deskilling implies that someone possessed an ability and then lost it. Here, the danger is not just deskilling but never-skilling. Although a doctor who has forgotten how to reason is recoverable, one who never learned how may not be. OpenEvidence, essentially an AI chatbot for clinicians, has given this concern its most concrete form. About two-thirds of US doctors actively use OpenEvidence, asking about puzzling symptoms, drug interactions and clinical guidelines, getting responses within seconds, anchored in the latest research. Trainees, unsurprisingly, have also begun to use this AI tool in many of the same ways – but at a far more formative stage. Continue reading... Health AI (artificial intelligence) US healthcare US news Computing Society Technology Medicine Research",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 2,
+        "confidence": 3,
+        "reasoning": "No material harm is established. Evidence: hypothetical, predicted, or speculative. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band.",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "lower",
+          "additionalContext": "",
+          "reviewFlags": []
+        },
+        "ratedAt": "2026-08-12T23:20:39.636Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 10.45
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 13.85
+        }
+      },
+      "startedAt": "2026-08-12T02:02:57.692Z",
+      "updatedAt": "2026-08-12T02:04:26.914Z",
+      "articleRating": {
+        "score": 34,
+        "confidence": 3,
+        "reasoning": "Credible concern or limited harm. Evidence: confirmed by strong evidence. Reach: regional, national, or systemic reach. Reversibility: long-lasting or only partially reversible. Containment: partially contained or still developing. Pattern: a repeated or ongoing pattern. Vulnerability: possibly. Additional context: Future physician competency and patient safey risk",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 1,
+              "label": "Credible concern or limited harm"
+            },
+            "certainty": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            },
+            "reach": {
+              "level": 3,
+              "label": "Regional, national, or systemic reach"
+            },
+            "reversibility": {
+              "level": 3,
+              "label": "Long-lasting or only partially reversible"
+            },
+            "containment": {
+              "level": 2,
+              "label": "Partially contained or still developing"
+            },
+            "recurrence": {
+              "level": 3,
+              "label": "A repeated or ongoing pattern"
+            },
+            "vulnerability": {
+              "level": 1,
+              "label": "Possibly"
+            }
+          },
+          "recommendation": {
+            "rawScore": 31,
+            "score": 31,
+            "band": "OMINOUS",
+            "requestedBand": "OMINOUS",
+            "effectiveBand": "OMINOUS",
+            "supportIntensity": 0.62,
+            "range": {
+              "lower": 28,
+              "middle": 31,
+              "upper": 34
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "upper",
+          "additionalContext": "Future physician competency and patient safey risk",
+          "reviewFlags": [
+            "the full article changes the rating by at least 15 points"
+          ]
+        },
+        "ratedAt": "2026-08-12T23:25:45.468Z"
+      },
+      "contextAdjustment": 32,
+      "completedAt": "2026-08-12T02:04:26.914Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 29,
+        "blindReviewScore": 34,
+        "finalScore": 34,
+        "absoluteDifference": 5,
+        "bandChanged": false,
+        "factorChanges": [
+          {
+            "factor": "certainty",
+            "original": {
+              "level": 2,
+              "label": "Credibly reported but still developing"
+            },
+            "review": {
+              "level": 3,
+              "label": "Confirmed by strong evidence"
+            }
+          },
+          {
+            "factor": "reach",
+            "original": {
+              "level": 2,
+              "label": "Multiple people or organizations"
+            },
+            "review": {
+              "level": 3,
+              "label": "Regional, national, or systemic reach"
+            }
+          },
+          {
+            "factor": "reversibility",
+            "original": {
+              "level": 2,
+              "label": "Recoverable with substantial effort"
+            },
+            "review": {
+              "level": 3,
+              "label": "Long-lasting or only partially reversible"
+            }
+          }
+        ],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-12T23:25:45.468Z",
+        "adjudicatedAt": null
+      }
+    },
+    {
+      "benchmarkId": "fa86a9ea1fdc70ad6c8d",
+      "aliases": [
+        {
+          "storyId": "9e0b258a05ac8179f31d",
+          "title": "White House AI vetting plan to exempt lower-cost ‘open’ models",
+          "url": "https://www.politico.com/news/2026/08/04/white-house-ai-vetting-plan-to-exempt-nonproprietary-models-01024816",
+          "source": "POLITICO AI",
+          "published": "2026-08-04T23:40:13.000Z"
+        }
+      ],
+      "status": "rated",
+      "article": {
+        "storyId": "9e0b258a05ac8179f31d",
+        "title": "White House AI vetting plan to exempt lower-cost ‘open’ models",
+        "url": "https://www.politico.com/news/2026/08/04/white-house-ai-vetting-plan-to-exempt-nonproprietary-models-01024816",
+        "source": "POLITICO AI",
+        "published": "2026-08-04T23:40:13.000Z"
+      },
+      "feedEvidence": {
+        "summary": "The details of the framework, which would govern the voluntary review of advanced AI models, come after a Tuesday meeting at the White House with top tech companies.",
+        "summaryAvailable": true
+      },
+      "scoringInput": {
+        "title": "White House AI vetting plan to exempt lower-cost ‘open’ models",
+        "summary": "White House AI vetting plan to exempt lower-cost ‘open’ models. The details of the framework, which would govern the voluntary review of advanced AI models, come after a Tuesday meeting at the White House with top tech companies. Technology, Technology, White House",
+        "coverageSources": 1,
+        "provenance": "production"
+      },
+      "feedRating": {
+        "score": 1,
+        "confidence": 2,
+        "reasoning": "No material harm is established. Evidence: hypothetical, predicted, or speculative. Reach: not applicable — no demonstrated harmful consequences. Reversibility: not applicable — no material harm is established. Containment: not applicable — no harmful incident or active threat is established. Pattern: not applicable — no harmful incident is established. Vulnerability: not applicable — no demonstrated effect. No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band. Additional context: Policy development",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 0,
+              "label": "No material harm is established"
+            },
+            "certainty": {
+              "level": 0,
+              "label": "Hypothetical, predicted, or speculative"
+            },
+            "reach": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated harmful consequences"
+            },
+            "reversibility": {
+              "level": 0,
+              "label": "Not applicable — no material harm is established"
+            },
+            "containment": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident or active threat is established"
+            },
+            "recurrence": {
+              "level": 0,
+              "label": "Not applicable — no harmful incident is established"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 5,
+            "score": 5,
+            "band": "UNEASY",
+            "requestedBand": "UNEASY",
+            "effectiveBand": "UNEASY",
+            "supportIntensity": 0,
+            "range": {
+              "lower": 2,
+              "middle": 5,
+              "upper": 8
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": [
+              "No material harm anchors the recommendation in Uneasy; incident factors cannot move it into a higher band."
+            ]
+          },
+          "selection": "manual",
+          "additionalContext": "Policy development",
+          "reviewFlags": [
+            "the exact score is outside the suggested range"
+          ]
+        },
+        "ratedAt": "2026-08-13T02:41:58.525Z"
+      },
+      "models": {
+        "public": {
+          "name": "DREAD",
+          "role": "PUBLIC",
+          "version": "1.2.2",
+          "formulaVersion": "1.2.2-shadow.1",
+          "score": 11
+        },
+        "shadow": {
+          "name": "DREAD",
+          "role": "EXPERIMENTAL",
+          "version": "1.2.4",
+          "formulaVersion": "1.2.4-offline.1",
+          "score": 11
+        }
+      },
+      "startedAt": "2026-08-12T15:00:19.133Z",
+      "updatedAt": "2026-08-12T15:01:50.743Z",
+      "articleRating": {
+        "score": 31,
+        "confidence": 1,
+        "reasoning": "Credible concern or limited harm. Evidence: proposed, alleged, or incompletely documented. Reach: regional, national, or systemic reach. Reversibility: easily or quickly reversible. Containment: partially contained or still developing. Pattern: a single isolated incident. Vulnerability: not applicable — no demonstrated effect. Additional context: Proposed and not finalized policy sourced from anonymous sources",
+        "assessment": {
+          "rubricVersion": "guided-human-rating-v1.1",
+          "factors": {
+            "harm": {
+              "level": 1,
+              "label": "Credible concern or limited harm"
+            },
+            "certainty": {
+              "level": 1,
+              "label": "Proposed, alleged, or incompletely documented"
+            },
+            "reach": {
+              "level": 3,
+              "label": "Regional, national, or systemic reach"
+            },
+            "reversibility": {
+              "level": 1,
+              "label": "Easily or quickly reversible"
+            },
+            "containment": {
+              "level": 2,
+              "label": "Partially contained or still developing"
+            },
+            "recurrence": {
+              "level": 1,
+              "label": "A single isolated incident"
+            },
+            "vulnerability": {
+              "level": 0,
+              "label": "Not applicable — no demonstrated effect"
+            }
+          },
+          "recommendation": {
+            "rawScore": 28,
+            "score": 28,
+            "band": "OMINOUS",
+            "requestedBand": "OMINOUS",
+            "effectiveBand": "OMINOUS",
+            "supportIntensity": 0.3425,
+            "range": {
+              "lower": 25,
+              "middle": 28,
+              "upper": 31
+            },
+            "direEligible": false,
+            "catastrophicEligible": false,
+            "constraints": []
+          },
+          "selection": "upper",
+          "additionalContext": "Proposed and not finalized policy sourced from anonymous sources",
+          "reviewFlags": [
+            "the full article changes the rating by at least 15 points"
+          ]
+        },
+        "ratedAt": "2026-08-13T02:44:05.860Z"
+      },
+      "contextAdjustment": 30,
+      "completedAt": "2026-08-12T15:01:50.743Z",
+      "review": {
+        "status": "stable",
+        "resolution": "stable-review",
+        "originalScore": 33,
+        "blindReviewScore": 31,
+        "finalScore": 31,
+        "absoluteDifference": 2,
+        "bandChanged": false,
+        "factorChanges": [
+          {
+            "factor": "containment",
+            "original": {
+              "level": 1,
+              "label": "Prevented or fully contained after limited consequences"
+            },
+            "review": {
+              "level": 2,
+              "label": "Partially contained or still developing"
+            }
+          }
+        ],
+        "reasoning": "Blind review agreed within 5 points and the same severity band.",
+        "reviewedAt": "2026-08-13T02:44:05.860Z",
+        "adjudicatedAt": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,1390 @@
+{
+  "schemaVersion": "1.0",
+  "reportVersion": "blind-calibration-review-comparison.v1",
+  "generatedAt": "2026-08-13T03:27:12.376Z",
+  "sourceBenchmarkVersion": "calibration-benchmark.v1",
+  "sourceBenchmarkAsOf": "2026-08-12T15:46:11.791Z",
+  "reviewQueueFingerprint": "0f1f238a37667e0c4eab",
+  "totals": {
+    "expected": 56,
+    "reviewed": 26,
+    "stable": 12,
+    "needsInspection": 2,
+    "needsAdjudication": 11,
+    "mandatoryAdjudication": 1,
+    "missingFromReview": 30
+  },
+  "rules": {
+    "stable": "Same severity band and within 5 points.",
+    "needsInspection": "Same severity band and 6–14 points apart.",
+    "needsAdjudication": "Different severity bands or at least 15 points apart.",
+    "mandatoryAdjudication": "Either judgment is Dire or Catastrophic, regardless of agreement."
+  },
+  "comparisons": [
+    {
+      "benchmarkId": "0c394a3bdca966376404",
+      "title": "Spotify to distinguish AI artists from real people – and stop recommending them",
+      "source": "The Guardian AI",
+      "originalScore": 12,
+      "reviewScore": 58,
+      "signedDifference": 46,
+      "absoluteDifference": 46,
+      "originalBand": "UNEASY",
+      "reviewBand": "ALARMING",
+      "bandChanged": true,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "harm",
+          "original": {
+            "level": 0,
+            "label": "No material harm is established"
+          },
+          "review": {
+            "level": 2,
+            "label": "Meaningful harm or disruption"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated harmful consequences"
+          },
+          "review": {
+            "level": 4,
+            "label": "International or global reach"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 0,
+            "label": "Not applicable — no material harm is established"
+          },
+          "review": {
+            "level": 1,
+            "label": "Easily or quickly reversible"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 0,
+            "label": "Not applicable — no harmful incident or active threat is established"
+          },
+          "review": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          }
+        },
+        {
+          "factor": "recurrence",
+          "original": {
+            "level": 0,
+            "label": "Not applicable — no harmful incident is established"
+          },
+          "review": {
+            "level": 3,
+            "label": "A repeated or ongoing pattern"
+          }
+        },
+        {
+          "factor": "vulnerability",
+          "original": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated effect"
+          },
+          "review": {
+            "level": 2,
+            "label": "Yes, with limited consequences"
+          }
+        }
+      ],
+      "reviewSelection": "manual",
+      "reviewConfidence": 3,
+      "reviewCompletedAt": "2026-08-13T00:19:25.733Z"
+    },
+    {
+      "benchmarkId": "bf5a2cb0206520ab34d9",
+      "title": "Gory AI clips of fruit and veg characters could radicalise kids, researchers say",
+      "source": "Sky News AI",
+      "originalScore": 28,
+      "reviewScore": 58,
+      "signedDifference": 30,
+      "absoluteDifference": 30,
+      "originalBand": "OMINOUS",
+      "reviewBand": "ALARMING",
+      "bandChanged": true,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "harm",
+          "original": {
+            "level": 1,
+            "label": "Credible concern or limited harm"
+          },
+          "review": {
+            "level": 2,
+            "label": "Meaningful harm or disruption"
+          }
+        },
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 1,
+            "label": "Proposed, alleged, or incompletely documented"
+          },
+          "review": {
+            "level": 3,
+            "label": "Confirmed by strong evidence"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 2,
+            "label": "Multiple people or organizations"
+          },
+          "review": {
+            "level": 4,
+            "label": "International or global reach"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 1,
+            "label": "Easily or quickly reversible"
+          },
+          "review": {
+            "level": 2,
+            "label": "Recoverable with substantial effort"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          },
+          "review": {
+            "level": 3,
+            "label": "Actively escalating"
+          }
+        },
+        {
+          "factor": "vulnerability",
+          "original": {
+            "level": 1,
+            "label": "Possibly"
+          },
+          "review": {
+            "level": 3,
+            "label": "Yes, with serious consequences"
+          }
+        }
+      ],
+      "reviewSelection": "manual",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T02:57:32.837Z"
+    },
+    {
+      "benchmarkId": "3f7ee2eb37462a5e9854",
+      "title": "AI Is Dead. Organoids Are Alive",
+      "source": "WIRED AI",
+      "originalScore": 32,
+      "reviewScore": 5,
+      "signedDifference": -27,
+      "absoluteDifference": 27,
+      "originalBand": "OMINOUS",
+      "reviewBand": "UNEASY",
+      "bandChanged": true,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "harm",
+          "original": {
+            "level": 1,
+            "label": "Credible concern or limited harm"
+          },
+          "review": {
+            "level": 0,
+            "label": "No material harm is established"
+          }
+        },
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          },
+          "review": {
+            "level": 0,
+            "label": "Hypothetical, predicted, or speculative"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 2,
+            "label": "Multiple people or organizations"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated harmful consequences"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 2,
+            "label": "Recoverable with substantial effort"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no material harm is established"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no harmful incident or active threat is established"
+          }
+        },
+        {
+          "factor": "recurrence",
+          "original": {
+            "level": 3,
+            "label": "A repeated or ongoing pattern"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no harmful incident is established"
+          }
+        },
+        {
+          "factor": "vulnerability",
+          "original": {
+            "level": 1,
+            "label": "Possibly"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated effect"
+          }
+        }
+      ],
+      "reviewSelection": "middle",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T03:22:24.540Z"
+    },
+    {
+      "benchmarkId": "9625fa04845ca4130c75",
+      "title": "Spotify responds to concerns over AI songs",
+      "source": "Sky News AI",
+      "originalScore": 29,
+      "reviewScore": 2,
+      "signedDifference": -27,
+      "absoluteDifference": 27,
+      "originalBand": "OMINOUS",
+      "reviewBand": "UNEASY",
+      "bandChanged": true,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "harm",
+          "original": {
+            "level": 1,
+            "label": "Credible concern or limited harm"
+          },
+          "review": {
+            "level": 0,
+            "label": "No material harm is established"
+          }
+        },
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 3,
+            "label": "Confirmed by strong evidence"
+          },
+          "review": {
+            "level": 0,
+            "label": "Hypothetical, predicted, or speculative"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 2,
+            "label": "Multiple people or organizations"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated harmful consequences"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 2,
+            "label": "Recoverable with substantial effort"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no material harm is established"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no harmful incident or active threat is established"
+          }
+        },
+        {
+          "factor": "recurrence",
+          "original": {
+            "level": 3,
+            "label": "A repeated or ongoing pattern"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no harmful incident is established"
+          }
+        },
+        {
+          "factor": "vulnerability",
+          "original": {
+            "level": 1,
+            "label": "Possibly"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated effect"
+          }
+        }
+      ],
+      "reviewSelection": "lower",
+      "reviewConfidence": 3,
+      "reviewCompletedAt": "2026-08-13T03:12:28.794Z"
+    },
+    {
+      "benchmarkId": "4b85bfc54fe4e759d4ec",
+      "title": "The Most Important Phrase in GSA’s Revised AI Clause Has No Definition",
+      "source": "Lawfare AI",
+      "originalScore": 29,
+      "reviewScore": 2,
+      "signedDifference": -27,
+      "absoluteDifference": 27,
+      "originalBand": "OMINOUS",
+      "reviewBand": "UNEASY",
+      "bandChanged": true,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "harm",
+          "original": {
+            "level": 1,
+            "label": "Credible concern or limited harm"
+          },
+          "review": {
+            "level": 0,
+            "label": "No material harm is established"
+          }
+        },
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          },
+          "review": {
+            "level": 0,
+            "label": "Hypothetical, predicted, or speculative"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 3,
+            "label": "Regional, national, or systemic reach"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated harmful consequences"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 2,
+            "label": "Recoverable with substantial effort"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no material harm is established"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no harmful incident or active threat is established"
+          }
+        },
+        {
+          "factor": "vulnerability",
+          "original": {
+            "level": 1,
+            "label": "Possibly"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated effect"
+          }
+        }
+      ],
+      "reviewSelection": "lower",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T00:11:08.807Z"
+    },
+    {
+      "benchmarkId": "91db13f187f2356f171a",
+      "title": "Spotify will label ‘AI Persona’ profiles and exclude their music from recommendations",
+      "source": "TechCrunch AI",
+      "originalScore": 9,
+      "reviewScore": 34,
+      "signedDifference": 25,
+      "absoluteDifference": 25,
+      "originalBand": "UNEASY",
+      "reviewBand": "OMINOUS",
+      "bandChanged": true,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "harm",
+          "original": {
+            "level": 0,
+            "label": "No material harm is established"
+          },
+          "review": {
+            "level": 1,
+            "label": "Credible concern or limited harm"
+          }
+        },
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 3,
+            "label": "Confirmed by strong evidence"
+          },
+          "review": {
+            "level": 1,
+            "label": "Proposed, alleged, or incompletely documented"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated harmful consequences"
+          },
+          "review": {
+            "level": 2,
+            "label": "Multiple people or organizations"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 0,
+            "label": "Not applicable — no material harm is established"
+          },
+          "review": {
+            "level": 1,
+            "label": "Easily or quickly reversible"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 0,
+            "label": "Not applicable — no harmful incident or active threat is established"
+          },
+          "review": {
+            "level": 1,
+            "label": "Prevented or fully contained after limited consequences"
+          }
+        },
+        {
+          "factor": "recurrence",
+          "original": {
+            "level": 0,
+            "label": "Not applicable — no harmful incident is established"
+          },
+          "review": {
+            "level": 3,
+            "label": "A repeated or ongoing pattern"
+          }
+        },
+        {
+          "factor": "vulnerability",
+          "original": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated effect"
+          },
+          "review": {
+            "level": 1,
+            "label": "Possibly"
+          }
+        }
+      ],
+      "reviewSelection": "manual",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-12T23:19:35.121Z"
+    },
+    {
+      "benchmarkId": "6abb52eeadf0014fee44",
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "source": "TechCrunch AI",
+      "originalScore": 27,
+      "reviewScore": 50,
+      "signedDifference": 23,
+      "absoluteDifference": 23,
+      "originalBand": "OMINOUS",
+      "reviewBand": "ALARMING",
+      "bandChanged": true,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "harm",
+          "original": {
+            "level": 1,
+            "label": "Credible concern or limited harm"
+          },
+          "review": {
+            "level": 2,
+            "label": "Meaningful harm or disruption"
+          }
+        },
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          },
+          "review": {
+            "level": 3,
+            "label": "Confirmed by strong evidence"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 1,
+            "label": "An individual or single organization"
+          },
+          "review": {
+            "level": 2,
+            "label": "Multiple people or organizations"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 1,
+            "label": "Easily or quickly reversible"
+          },
+          "review": {
+            "level": 3,
+            "label": "Long-lasting or only partially reversible"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 1,
+            "label": "Prevented or fully contained after limited consequences"
+          },
+          "review": {
+            "level": 3,
+            "label": "Actively escalating"
+          }
+        },
+        {
+          "factor": "recurrence",
+          "original": {
+            "level": 1,
+            "label": "A single isolated incident"
+          },
+          "review": {
+            "level": 2,
+            "label": "Multiple related incidents"
+          }
+        }
+      ],
+      "reviewSelection": "middle",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T03:02:11.867Z"
+    },
+    {
+      "benchmarkId": "2d8c162b5cd6de7579df",
+      "title": "The Guardian view on AI money in US politics: not the way to hold an urgent democratic debate | Editorial",
+      "source": "The Guardian AI",
+      "originalScore": 51,
+      "reviewScore": 34,
+      "signedDifference": -17,
+      "absoluteDifference": 17,
+      "originalBand": "ALARMING",
+      "reviewBand": "OMINOUS",
+      "bandChanged": true,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "harm",
+          "original": {
+            "level": 2,
+            "label": "Meaningful harm or disruption"
+          },
+          "review": {
+            "level": 1,
+            "label": "Credible concern or limited harm"
+          }
+        },
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 3,
+            "label": "Confirmed by strong evidence"
+          },
+          "review": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 2,
+            "label": "Recoverable with substantial effort"
+          },
+          "review": {
+            "level": 1,
+            "label": "Easily or quickly reversible"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          },
+          "review": {
+            "level": 3,
+            "label": "Actively escalating"
+          }
+        },
+        {
+          "factor": "vulnerability",
+          "original": {
+            "level": 2,
+            "label": "Yes, with limited consequences"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated effect"
+          }
+        }
+      ],
+      "reviewSelection": "manual",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T00:22:57.289Z"
+    },
+    {
+      "benchmarkId": "35c94c944fa905bb2a25",
+      "title": "AI agents aren’t legally responsible for any harm that they cause, experts say. So who is?",
+      "source": "The Guardian AI",
+      "originalScore": 43,
+      "reviewScore": 27,
+      "signedDifference": -16,
+      "absoluteDifference": 16,
+      "originalBand": "ALARMING",
+      "reviewBand": "OMINOUS",
+      "bandChanged": true,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 3,
+            "label": "Confirmed by strong evidence"
+          },
+          "review": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 2,
+            "label": "Multiple people or organizations"
+          },
+          "review": {
+            "level": 1,
+            "label": "An individual or single organization"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          },
+          "review": {
+            "level": 1,
+            "label": "Prevented or fully contained after limited consequences"
+          }
+        }
+      ],
+      "reviewSelection": "middle",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T03:11:12.620Z"
+    },
+    {
+      "benchmarkId": "23f462da5cc8759a0dd2",
+      "title": "Zuckerberg warns against centralizing AI power",
+      "source": "POLITICO Europe AI",
+      "originalScore": 18,
+      "reviewScore": 2,
+      "signedDifference": -16,
+      "absoluteDifference": 16,
+      "originalBand": "UNEASY",
+      "reviewBand": "UNEASY",
+      "bandChanged": false,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "harm",
+          "original": {
+            "level": 1,
+            "label": "Credible concern or limited harm"
+          },
+          "review": {
+            "level": 0,
+            "label": "No material harm is established"
+          }
+        },
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 3,
+            "label": "Confirmed by strong evidence"
+          },
+          "review": {
+            "level": 0,
+            "label": "Hypothetical, predicted, or speculative"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 4,
+            "label": "International or global reach"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated harmful consequences"
+          }
+        }
+      ],
+      "reviewSelection": "lower",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T03:18:53.865Z"
+    },
+    {
+      "benchmarkId": "97fa0d799c44ceef10df",
+      "title": "Experts are warning: our AI arms race is putting humanity at risk | Stuart Russell",
+      "source": "The Guardian AI",
+      "originalScore": 29,
+      "reviewScore": 39,
+      "signedDifference": 10,
+      "absoluteDifference": 10,
+      "originalBand": "OMINOUS",
+      "reviewBand": "OMINOUS",
+      "bandChanged": false,
+      "status": "needs-inspection",
+      "factorChanges": [
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          },
+          "review": {
+            "level": 3,
+            "label": "Confirmed by strong evidence"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 2,
+            "label": "Multiple people or organizations"
+          },
+          "review": {
+            "level": 4,
+            "label": "International or global reach"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 2,
+            "label": "Recoverable with substantial effort"
+          },
+          "review": {
+            "level": 3,
+            "label": "Long-lasting or only partially reversible"
+          }
+        },
+        {
+          "factor": "vulnerability",
+          "original": {
+            "level": 1,
+            "label": "Possibly"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no demonstrated effect"
+          }
+        }
+      ],
+      "reviewSelection": "manual",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T00:33:35.210Z"
+    },
+    {
+      "benchmarkId": "84066ad07342c999b77d",
+      "title": "If the markets reject OpenAI and Anthropic, the US should nationalize them | Bruce Schneier and Nathan E Sanders",
+      "source": "The Guardian AI",
+      "originalScore": 13,
+      "reviewScore": 3,
+      "signedDifference": -10,
+      "absoluteDifference": 10,
+      "originalBand": "UNEASY",
+      "reviewBand": "UNEASY",
+      "bandChanged": false,
+      "status": "needs-inspection",
+      "factorChanges": [],
+      "reviewSelection": "manual",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-12T23:07:56.412Z"
+    },
+    {
+      "benchmarkId": "274d04c819a4e41fc7ab",
+      "title": "‘Everything about me is good in his eyes’: the women in China choosing AI boyfriends over human men",
+      "source": "The Guardian AI",
+      "originalScore": 43,
+      "reviewScore": 35,
+      "signedDifference": -8,
+      "absoluteDifference": 8,
+      "originalBand": "ALARMING",
+      "reviewBand": "OMINOUS",
+      "bandChanged": true,
+      "status": "needs-adjudication",
+      "factorChanges": [
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          },
+          "review": {
+            "level": 3,
+            "label": "Confirmed by strong evidence"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 3,
+            "label": "Regional, national, or systemic reach"
+          },
+          "review": {
+            "level": 4,
+            "label": "International or global reach"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          },
+          "review": {
+            "level": 3,
+            "label": "Actively escalating"
+          }
+        },
+        {
+          "factor": "vulnerability",
+          "original": {
+            "level": 2,
+            "label": "Yes, with limited consequences"
+          },
+          "review": {
+            "level": 3,
+            "label": "Yes, with serious consequences"
+          }
+        }
+      ],
+      "reviewSelection": "upper",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T03:15:24.150Z"
+    },
+    {
+      "benchmarkId": "16aa3a1a7b179a209cea",
+      "title": "Why we should all be worried about AI in elections",
+      "source": "Rest of World AI",
+      "originalScore": 85,
+      "reviewScore": 77,
+      "signedDifference": -8,
+      "absoluteDifference": 8,
+      "originalBand": "CATASTROPHIC",
+      "reviewBand": "DIRE",
+      "bandChanged": true,
+      "status": "mandatory-adjudication",
+      "factorChanges": [],
+      "reviewSelection": "upper",
+      "reviewConfidence": 3,
+      "reviewCompletedAt": "2026-08-13T03:06:37.271Z"
+    },
+    {
+      "benchmarkId": "927d9d5ad3153c00ae02",
+      "title": "The AI takeover of mathematics has begun",
+      "source": "The Verge AI",
+      "originalScore": 33,
+      "reviewScore": 38,
+      "signedDifference": 5,
+      "absoluteDifference": 5,
+      "originalBand": "OMINOUS",
+      "reviewBand": "OMINOUS",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [
+        {
+          "factor": "reach",
+          "original": {
+            "level": 2,
+            "label": "Multiple people or organizations"
+          },
+          "review": {
+            "level": 3,
+            "label": "Regional, national, or systemic reach"
+          }
+        }
+      ],
+      "reviewSelection": "manual",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-12T23:48:53.207Z"
+    },
+    {
+      "benchmarkId": "534bc68d5a8b343657f0",
+      "title": "What happens when medical students rely on AI – and never develop their own judgment? | Simar Bajaj and Joseph Sakran",
+      "source": "The Guardian AI",
+      "originalScore": 29,
+      "reviewScore": 34,
+      "signedDifference": 5,
+      "absoluteDifference": 5,
+      "originalBand": "OMINOUS",
+      "reviewBand": "OMINOUS",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          },
+          "review": {
+            "level": 3,
+            "label": "Confirmed by strong evidence"
+          }
+        },
+        {
+          "factor": "reach",
+          "original": {
+            "level": 2,
+            "label": "Multiple people or organizations"
+          },
+          "review": {
+            "level": 3,
+            "label": "Regional, national, or systemic reach"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 2,
+            "label": "Recoverable with substantial effort"
+          },
+          "review": {
+            "level": 3,
+            "label": "Long-lasting or only partially reversible"
+          }
+        }
+      ],
+      "reviewSelection": "upper",
+      "reviewConfidence": 3,
+      "reviewCompletedAt": "2026-08-12T23:25:45.468Z"
+    },
+    {
+      "benchmarkId": "405bb0abca008f0b597d",
+      "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
+      "source": "The Verge AI",
+      "originalScore": 6,
+      "reviewScore": 2,
+      "signedDifference": -4,
+      "absoluteDifference": 4,
+      "originalBand": "UNEASY",
+      "reviewBand": "UNEASY",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          },
+          "review": {
+            "level": 0,
+            "label": "Hypothetical, predicted, or speculative"
+          }
+        }
+      ],
+      "reviewSelection": "lower",
+      "reviewConfidence": 1,
+      "reviewCompletedAt": "2026-08-12T23:58:31.069Z"
+    },
+    {
+      "benchmarkId": "a6f36fe806c6f453872f",
+      "title": "Data centers have a politics problem — and industry knows it",
+      "source": "POLITICO AI",
+      "originalScore": 31,
+      "reviewScore": 35,
+      "signedDifference": 4,
+      "absoluteDifference": 4,
+      "originalBand": "OMINOUS",
+      "reviewBand": "OMINOUS",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 4,
+            "label": "Confirmed with measurable consequences"
+          },
+          "review": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 2,
+            "label": "Recoverable with substantial effort"
+          },
+          "review": {
+            "level": 1,
+            "label": "Easily or quickly reversible"
+          }
+        },
+        {
+          "factor": "recurrence",
+          "original": {
+            "level": 2,
+            "label": "Multiple related incidents"
+          },
+          "review": {
+            "level": 3,
+            "label": "A repeated or ongoing pattern"
+          }
+        }
+      ],
+      "reviewSelection": "manual",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T00:09:24.085Z"
+    },
+    {
+      "benchmarkId": "af3e921e556736320752",
+      "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
+      "source": "The Verge AI",
+      "originalScore": 27,
+      "reviewScore": 30,
+      "signedDifference": 3,
+      "absoluteDifference": 3,
+      "originalBand": "OMINOUS",
+      "reviewBand": "OMINOUS",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [],
+      "reviewSelection": "upper",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-12T23:12:38.965Z"
+    },
+    {
+      "benchmarkId": "6a10eae8578751cd2fa9",
+      "title": "Automated Moderation Is Here to Stay—Accountability Must Keep Pace",
+      "source": "EFF AI",
+      "originalScore": 56,
+      "reviewScore": 59,
+      "signedDifference": 3,
+      "absoluteDifference": 3,
+      "originalBand": "ALARMING",
+      "reviewBand": "ALARMING",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [],
+      "reviewSelection": "manual",
+      "reviewConfidence": 3,
+      "reviewCompletedAt": "2026-08-13T02:52:14.514Z"
+    },
+    {
+      "benchmarkId": "40cdb2b7613496af5152",
+      "title": "Ordinary WiFi can now identify you with near-perfect accuracy",
+      "source": "ScienceDaily Technology",
+      "originalScore": 36,
+      "reviewScore": 38,
+      "signedDifference": 2,
+      "absoluteDifference": 2,
+      "originalBand": "OMINOUS",
+      "reviewBand": "OMINOUS",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [
+        {
+          "factor": "reach",
+          "original": {
+            "level": 1,
+            "label": "An individual or single organization"
+          },
+          "review": {
+            "level": 4,
+            "label": "International or global reach"
+          }
+        },
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 1,
+            "label": "Easily or quickly reversible"
+          },
+          "review": {
+            "level": 3,
+            "label": "Long-lasting or only partially reversible"
+          }
+        },
+        {
+          "factor": "containment",
+          "original": {
+            "level": 1,
+            "label": "Prevented or fully contained after limited consequences"
+          },
+          "review": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          }
+        },
+        {
+          "factor": "recurrence",
+          "original": {
+            "level": 1,
+            "label": "A single isolated incident"
+          },
+          "review": {
+            "level": 0,
+            "label": "Not applicable — no harmful incident is established"
+          }
+        },
+        {
+          "factor": "vulnerability",
+          "original": {
+            "level": 1,
+            "label": "Possibly"
+          },
+          "review": {
+            "level": 3,
+            "label": "Yes, with serious consequences"
+          }
+        }
+      ],
+      "reviewSelection": "manual",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-12T23:32:42.988Z"
+    },
+    {
+      "benchmarkId": "fa86a9ea1fdc70ad6c8d",
+      "title": "White House AI vetting plan to exempt lower-cost ‘open’ models",
+      "source": "POLITICO AI",
+      "originalScore": 33,
+      "reviewScore": 31,
+      "signedDifference": -2,
+      "absoluteDifference": 2,
+      "originalBand": "OMINOUS",
+      "reviewBand": "OMINOUS",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [
+        {
+          "factor": "containment",
+          "original": {
+            "level": 1,
+            "label": "Prevented or fully contained after limited consequences"
+          },
+          "review": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          }
+        }
+      ],
+      "reviewSelection": "upper",
+      "reviewConfidence": 1,
+      "reviewCompletedAt": "2026-08-13T02:44:05.860Z"
+    },
+    {
+      "benchmarkId": "b73829651caede132fec",
+      "title": "Automated Moderation Is Here to Stay",
+      "source": "EFF AI",
+      "originalScore": 56,
+      "reviewScore": 55,
+      "signedDifference": -1,
+      "absoluteDifference": 1,
+      "originalBand": "ALARMING",
+      "reviewBand": "ALARMING",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [
+        {
+          "factor": "containment",
+          "original": {
+            "level": 3,
+            "label": "Actively escalating"
+          },
+          "review": {
+            "level": 2,
+            "label": "Partially contained or still developing"
+          }
+        },
+        {
+          "factor": "recurrence",
+          "original": {
+            "level": 4,
+            "label": "Widespread and continuously occurring"
+          },
+          "review": {
+            "level": 3,
+            "label": "A repeated or ongoing pattern"
+          }
+        }
+      ],
+      "reviewSelection": "upper",
+      "reviewConfidence": 1,
+      "reviewCompletedAt": "2026-08-13T03:25:07.916Z"
+    },
+    {
+      "benchmarkId": "d20337bd18efaf5ce658",
+      "title": "Bitcoin Miners Have Something Anthropic Desperately Needs. It’s Worth $9.1 Billion",
+      "source": "Inc. AI",
+      "originalScore": 1,
+      "reviewScore": 2,
+      "signedDifference": 1,
+      "absoluteDifference": 1,
+      "originalBand": "UNEASY",
+      "reviewBand": "UNEASY",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [],
+      "reviewSelection": "lower",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T03:03:28.847Z"
+    },
+    {
+      "benchmarkId": "8be963fd5f4238c6b791",
+      "title": "The limits of physics AI: where Siemens says the human stays in charge",
+      "source": "AI News",
+      "originalScore": 3,
+      "reviewScore": 2,
+      "signedDifference": -1,
+      "absoluteDifference": 1,
+      "originalBand": "UNEASY",
+      "reviewBand": "UNEASY",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [
+        {
+          "factor": "certainty",
+          "original": {
+            "level": 2,
+            "label": "Credibly reported but still developing"
+          },
+          "review": {
+            "level": 0,
+            "label": "Hypothetical, predicted, or speculative"
+          }
+        }
+      ],
+      "reviewSelection": "lower",
+      "reviewConfidence": 3,
+      "reviewCompletedAt": "2026-08-12T16:52:32.877Z"
+    },
+    {
+      "benchmarkId": "a464334d95fee2b24f91",
+      "title": "The AI industry won a primary fight. Now its target is inspiring lawmakers nationwide.",
+      "source": "POLITICO AI",
+      "originalScore": 27,
+      "reviewScore": 27,
+      "signedDifference": 0,
+      "absoluteDifference": 0,
+      "originalBand": "OMINOUS",
+      "reviewBand": "OMINOUS",
+      "bandChanged": false,
+      "status": "stable",
+      "factorChanges": [
+        {
+          "factor": "reversibility",
+          "original": {
+            "level": 2,
+            "label": "Recoverable with substantial effort"
+          },
+          "review": {
+            "level": 1,
+            "label": "Easily or quickly reversible"
+          }
+        }
+      ],
+      "reviewSelection": "lower",
+      "reviewConfidence": 2,
+      "reviewCompletedAt": "2026-08-13T00:30:00.233Z"
+    }
+  ]
+}
