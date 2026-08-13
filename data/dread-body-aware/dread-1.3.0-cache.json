@@ -3,5 +3,1726 @@
   "version": "1.3.0",
   "formulaVersion": "1.3.0-body-context.1",
   "analyzerVersion": "1.3.0-context-rules.1",
-  "records": {}
+  "records": {
+    "1c9f14ee09a7b9f09c18": {
+      "storyId": "1c9f14ee09a7b9f09c18",
+      "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042",
+      "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+      "source": "POLITICO Europe AI",
+      "published": "2026-08-05T03:25:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0d41b3ca41f55f09ddbd28b8",
+      "bodyFingerprint": "8398ef787138e4721f8ccbaa",
+      "bodyCharacterCount": 132,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-13T05:09:08.437Z",
+      "assessment": {
+        "centralEvent": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b3989dcfb48ba9b056fe": {
+      "storyId": "b3989dcfb48ba9b056fe",
+      "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
+      "title": "The Youth AI Privacy Act’s Privacy Paradox",
+      "source": "EFF AI",
+      "published": "2026-08-03T21:08:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b4dcba854c70c0bd2587bd0",
+      "bodyFingerprint": "5c023ac8536b38cb293baa90",
+      "bodyCharacterCount": 3340,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:08.747Z",
+      "assessment": {
+        "centralEvent": "The Youth AI Privacy Act’s Privacy Paradox",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Either way, services will need to collect even more information from young people, who are already targets of data theft and identity fraud.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Similarly, the Supreme Court has repeatedly ruled that “minors are entitled to a significant measure of First Amendment protection.” This does not mean that parents or guardians can’t set their own rules for their families—they can and they",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "In fact, federal courts have largely blocked these laws from going into effect because they likely violate the First Amendment rights of all internet users and the online services they regulate.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.15,
+        "rawScore": 46.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f333764b4be201d3f9ff": {
+      "storyId": "f333764b4be201d3f9ff",
+      "url": "https://www.404media.co/google-earths-new-ai-lets-anyone-fabricate-completely-bullshit-satellite-images",
+      "title": "Google Earth’s New AI Lets Anyone Fabricate Completely Bullshit Satellite Images",
+      "source": "404 Media AI",
+      "published": "2026-07-31T16:03:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bed44dcd93b60a69dd0ee80a",
+      "bodyFingerprint": "29d7dd29db03d25ba411ef8b",
+      "bodyCharacterCount": 1431,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:08.807Z",
+      "assessment": {
+        "centralEvent": "Google Earth’s New AI Lets Anyone Fabricate Completely Bullshit Satellite Images",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "998aad2a360b6be3c3d1": {
+      "storyId": "998aad2a360b6be3c3d1",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/11/the-guardian-view-on-ai-money-in-us-politics-not-the-way-to-hold-an-urgent-democratic-debate",
+      "title": "The Guardian view on AI money in US politics: not the way to hold an urgent democratic debate | Editorial",
+      "source": "The Guardian AI",
+      "published": "2026-08-11T18:04:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "45e89c862eed3f41498db568",
+      "bodyFingerprint": "6ca398f9c4d4efb74a935535",
+      "bodyCharacterCount": 4339,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:09.042Z",
+      "assessment": {
+        "centralEvent": "The Guardian view on AI money in US politics: not the way to hold an urgent democratic debate | Editorial",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Amid public concern over the impact of new technology, Silicon Valley’s use of its wealth to influence specific election races is an unwelcome development As the huge societal ramifications of artificial intelligence have become clear, some",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He appears to miss the irony that an unelected tech oligarchy, to which he belongs, is already performing that function by default.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Demonstrators wave signs during a nationwide protest in July against AI data centre expansion in Imperial, California.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.04,
+        "rawScore": 26.04,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3165e9f7bc4bfb96de39": {
+      "storyId": "3165e9f7bc4bfb96de39",
+      "url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures",
+      "title": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
+      "source": "TechCrunch AI",
+      "published": "2026-08-12T15:44:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3585d44603d6ae5759dc3788",
+      "bodyFingerprint": "4b812240f3ef32db8f115e96",
+      "bodyCharacterCount": 6751,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:09.098Z",
+      "assessment": {
+        "centralEvent": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to a court filing from Lingotto, $53 million was transferred to an account controlled by Clippings on October 1, backed by a standard repayment schedule.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The acquirer was Minute Media, an international sports publisher split between New York and Tel Aviv, with plans to scale VideoVerse’s clipping software beyond its Indian niche and into the lucrative world of international sports.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 47.74,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5698e809e332002405fc": {
+      "storyId": "5698e809e332002405fc",
+      "url": "https://www.theguardian.com/technology/2026/aug/12/ai-job-destruction",
+      "title": "AI was supposed to destroy jobs. Where’s the carnage?",
+      "source": "The Guardian AI",
+      "published": "2026-08-12T10:00:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "285d35271fbb01a947d77b30",
+      "bodyFingerprint": "3ad5f49c84293fe394c6974f",
+      "bodyCharacterCount": 7779,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:09.138Z",
+      "assessment": {
+        "centralEvent": "AI was supposed to destroy jobs. Where’s the carnage?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Since 2022, the year ChatGPT launched, the unemployment rate for the 20% of workers most exposed to AI rose by 0.77 percentage points, less than the 0.85 percentage-point increase for the least-exposed workers, the report showed.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Since 2022, the year ChatGPT launched, the unemployment rate for the 20% of workers most exposed to AI rose by 0.77 percentage points, less than the 0.85 percentage-point increase for the least-exposed workers, the report showed.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "AI could be a factor in recent graduates’ rising unemployment, which hit 5.6% compared with the national average of 4.2% earlier this year.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Since 2022, the year ChatGPT launched, the unemployment rate for the 20% of workers most exposed to AI rose by 0.77 percentage points, less than the 0.85 percentage-point increase for the least-exposed workers, the report showed.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.62,
+        "rawScore": 48.62,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.42,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 2
+        }
+      }
+    },
+    "e0f3cee3b824c175efea": {
+      "storyId": "e0f3cee3b824c175efea",
+      "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack",
+      "title": "Terabytes of credentials leaked in massive supply-chain attack",
+      "source": "Ars Technica AI",
+      "published": "2026-08-12T21:43:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fa2c41d57c1cada1fb2f8902",
+      "bodyFingerprint": "59821968f529204afdb30fa9",
+      "bodyCharacterCount": 7877,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:09.318Z",
+      "assessment": {
+        "centralEvent": "Terabytes of credentials leaked in massive supply-chain attack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Terabytes of credentials leaked in massive supply-chain attack",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In all, both security firms said some 434,000 CI/CD (continuous integration/continuous delivery) software pipelines had credentials exposed after running the compromised LiteLLM versions.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hoffmann-La Roche AG ServiceNow Siemens AG S&P Global Airbus US Space & Defense John Deere Regeneron Pharmaceuticals, Inc.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The key takeaway is how supply chains have evolved to make a single upstream breach affect thousands of companies simultaneously,” Alon Gal, co-founder and chief technology officer of Hudson Rock, wrote in an email.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4886a2e07c39d71065d0": {
+      "storyId": "4886a2e07c39d71065d0",
+      "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750",
+      "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
+      "source": "POLITICO Europe AI",
+      "published": "2026-08-06T02:33:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fdfc074f8aaf3d100b9d2201",
+      "bodyFingerprint": "91b8064d92174a4752352da5",
+      "bodyCharacterCount": 187,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-13T05:09:09.336Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "12b2563b9d6861b5c366": {
+      "storyId": "12b2563b9d6861b5c366",
+      "url": "https://www.politico.com/news/2026/08/04/open-ai-discrimination-settlement-doj-01024742",
+      "title": "OpenAI settles claims of discrimination against US workers for $3.2 million",
+      "source": "POLITICO AI",
+      "published": "2026-08-04T22:14:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a60cca4b4113c9a7e9940f8e",
+      "bodyFingerprint": "09976efe97dd7d4c84b7eaca",
+      "bodyCharacterCount": 86,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-13T05:09:09.352Z",
+      "assessment": {
+        "centralEvent": "OpenAI settles claims of discrimination against US workers for $3.2 million",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "23a292887ca5e4c75326": {
+      "storyId": "23a292887ca5e4c75326",
+      "url": "https://www.eff.org/deeplinks/2026/08/senate-should-reject-kosas-privacy-risks",
+      "title": "The Senate Should Reject KOSA's Privacy Risks",
+      "source": "EFF AI",
+      "published": "2026-08-03T23:47:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "93983b848598c11b46c32dd0",
+      "bodyFingerprint": "e8ff19b527e7acefceede09b",
+      "bodyCharacterCount": 4357,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:09.368Z",
+      "assessment": {
+        "centralEvent": "The Senate Should Reject KOSA's Privacy Risks",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "They also create new databases of personal information that can be breached, misused, or demanded by governments.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Whether companies verify ages by checking government IDs, performing facial analysis, checking your bank records, or collecting other personal information, all of these systems require the handing over of more sensitive data, simply to acce",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Even more likely, it will lead to limits on what minors and adults are able to see at all, as companies shut down potentially controversial forums in order to avoid legal action from government bureaucrats.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.59,
+        "rawScore": 45.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "15370392c6eefb0825a2": {
+      "storyId": "15370392c6eefb0825a2",
+      "url": "https://www.eff.org/deeplinks/2026/07/hundreds-drone-first-responder-programs-could-soon-be-launched-across-country",
+      "title": "Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country",
+      "source": "EFF AI",
+      "published": "2026-07-23T22:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0981120c34c77c6a27520837",
+      "bodyFingerprint": "6556560fa43c2572bf890bc0",
+      "bodyCharacterCount": 6186,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:09.382Z",
+      "assessment": {
+        "centralEvent": "Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Police departments across the country are lining up to launch drone-as-first-responder (DFR) programs, and hundreds have cleared a necessary hurdle toward making deployment a reality, expanding aerial surveillance and data collection even i",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "In October 2024, the Campbell Police Department in California announced it had received the first FAA approval for BVLOS operations at night, claiming it was the “first to incorporate radar technology with electro-optical sensors to enhance",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "DFR programs have become important sources of revenue for companies like Flock Safety and Axon, the latter of which reported that its DFR platform has become one of the company’s fastest growing sectors.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "In October 2024, the Campbell Police Department in California announced it had received the first FAA approval for BVLOS operations at night, claiming it was the “first to incorporate radar technology with electro-optical sensors to enhance",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.02,
+        "rawScore": 47.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e19109bfdc60b0fc0a8f": {
+      "storyId": "e19109bfdc60b0fc0a8f",
+      "url": "https://www.theguardian.com/technology/2026/aug/13/ai-agents-arent-legally-responsible-for-any-harm-that-they-cause-experts-say-so-who-is",
+      "title": "AI agents aren’t legally responsible for any harm that they cause, experts say. So who is?",
+      "source": "The Guardian AI",
+      "published": "2026-08-12T15:00:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b4e482121bd00d2c90e5765",
+      "bodyFingerprint": "e32685aafcda38550c803b0c",
+      "bodyCharacterCount": 7144,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:09.432Z",
+      "assessment": {
+        "centralEvent": "AI agents aren’t legally responsible for any harm that they cause, experts say. So who is?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "AI agents aren’t legally responsible for any harm that they cause, experts say.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2fdaac3f6f700557c1be": {
+      "storyId": "2fdaac3f6f700557c1be",
+      "url": "https://www.theguardian.com/technology/2026/aug/13/taiwan-ai-assisted-cyber-attacks-overseas",
+      "title": "Taiwan says it was hit by ‘abnormal’ AI-assisted cyber-attack",
+      "source": "The Guardian AI",
+      "published": "2026-08-13T05:02:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ac4c5964cb5aacbe5b727f9c",
+      "bodyFingerprint": "6ef1eb8bb1d72d5761ec053d",
+      "bodyCharacterCount": 4605,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:09.467Z",
+      "assessment": {
+        "centralEvent": "Taiwan says it was hit by ‘abnormal’ AI-assisted cyber-attack",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "‘A statement of freedom’: T-shirt slogan goes viral and book sales rocket in Taiwan after Hong Kong raids Read more Dream was reported as saying that the tool compromised “at least 85 government user accounts, extracting more than 2,500 per",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Chinese cyber-attacks on Taiwan’s key infrastructure, from hospitals to banks, rose 6% in 2025 from the previous year to an average of 2.63m attacks a ⁠day, the island’s National Security Bureau said in January, adding some hacks were synch",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The National Institute of Cyber Security issued a series of warning alerts while it investigated.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d32aa6b6a8fd310bb9e": {
+      "storyId": "0d32aa6b6a8fd310bb9e",
+      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+      "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+      "source": "VentureBeat AI",
+      "published": "2026-01-13T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "44ae17c5a47e2e6251e76de9",
+      "bodyFingerprint": "f5443cd7941ec18d7ccdefee",
+      "bodyCharacterCount": 15677,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-13T05:09:09.594Z",
+      "assessment": {
+        "centralEvent": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "After a bruising year on Wall Street and persistent questions about whether AI threatens its core business, the company is wagering that Slackbot can prove the opposite — that the tens of millions of people already chatting in Slack every d",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Employees report saving between two and 20 hours per week.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "After a bruising year on Wall Street and persistent questions about whether AI threatens its core business, the company is wagering that Slackbot can prove the opposite — that the tens of millions of people already chatting in Slack every d",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "After a bruising year on Wall Street and persistent questions about whether AI threatens its core business, the company is wagering that Slackbot can prove the opposite — that the tens of millions of people already chatting in Slack every d",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 99,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 29,
+        "rawScore": 29,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "17c11ad9e85102512f94": {
+      "storyId": "17c11ad9e85102512f94",
+      "url": "https://themarkup.org/hello-world/2026/01/24/we-posted-a-job-then-came-the-ai-slop-impersonator-and-recruiter-scam",
+      "title": "We posted a job. Then came the AI slop, impersonator and recruiter scam",
+      "source": "The Markup AI",
+      "published": "2026-01-24T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "84d4ac57cf104257b21180d2",
+      "bodyFingerprint": "836b806e3d0e2ef1ff49aa00",
+      "bodyCharacterCount": 4466,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:09.758Z",
+      "assessment": {
+        "centralEvent": "We posted a job. Then came the AI slop, impersonator and recruiter scam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Then came the AI slop, impersonator and recruiter scam",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read our series Within 12 hours of posting the role, we received more than 400 applications.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One applicant reported working for a trucking company, and, as part of their job, they “often worked closely with journalists to create data dashboards and visualizations.” In the most extreme case, one person claimed they had built our web",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "However, as the person who had to read them all, I quickly saw some red flags, which were all clear indicators of inauthenticity: Contact information, such as email addresses and phone numbers, was repeated across multiple applicants, altho",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "99a74fa8e5c3257d2eab": {
+      "storyId": "99a74fa8e5c3257d2eab",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "source": "VentureBeat AI",
+      "published": "2026-01-19T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ada532c188bfd9cbb031ff05",
+      "bodyFingerprint": "b785201b0c86177cb39f7f44",
+      "bodyCharacterCount": 14856,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-13T05:09:09.777Z",
+      "assessment": {
+        "centralEvent": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Anthropic's new rate limits spark a developer revolt To understand why Goose matters, you need to understand the Claude Code pricing controversy.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The Pro plan, at $17 per month with annual billing (or $20 monthly), limits users to just 10 to 40 prompts every five hours — a constraint that serious developers exhaust within minutes of intensive work.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Features like prompt caching (which can reduce costs by up to 90 percent for repeated contexts) and structured outputs are polished and well-documented.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 236,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 29.17,
+        "rawScore": 29.17,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "766dff2299466e2fb336": {
+      "storyId": "766dff2299466e2fb336",
+      "url": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_campaign=rss&at_medium=RSS",
+      "title": "Schools to offer technical subjects to pupils from age 14 in England, Burnham says",
+      "source": "BBC News AI",
+      "published": "2026-07-28T16:35:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3a458651186930ad68c36290",
+      "bodyFingerprint": "bc1d709dec1326b520ce7cd8",
+      "bodyCharacterCount": 7475,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:10.007Z",
+      "assessment": {
+        "centralEvent": "Schools to offer technical subjects to pupils from age 14 in England, Burnham says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Branwen Jeffreys , Education Editor , Nathan Standley , Education reporter and Toby Mann Published 27 July 2026 Updated 28 July 2026 Secondary school pupils in England will be able to study subjects like manufa",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3bf44cdfb8f59b7f06d5": {
+      "storyId": "3bf44cdfb8f59b7f06d5",
+      "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
+      "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
+      "source": "The Markup AI",
+      "published": "2026-07-09T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "98deb41c67a90bd2f405f54f",
+      "bodyFingerprint": "fec3e7ff86fcb33dac274138",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:10.022Z",
+      "assessment": {
+        "centralEvent": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Call center nurses at the health giant said workplace surveillance tools and AI prioritize speed and cost savings over quality and safety.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Raquel Alvarez Sanchez, a Kaiser Permanente advice nurse in Vallejo since 2010, said she was on a call with a patient who was suicidal last year that took more than an hour because she had to wait for police to arrive before hanging up.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Credit: Photo by Eric Risberg, AP Photo Nurses nationwide are more frequently encountering artificial intelligence and similar software systems in the workplace.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nurses also said they get little time between calls even if that call involves speaking with a patient who is suicidal, experiencing a mental health episode, or near death.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The nurse wanted to take time to show compassion or comfort to the woman, who acts as a caretaker for her daughter, but she stopped herself out of fear it would hurt her monthly performance score and lead to a reprimand from her manager.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Any tools used in contact center settings support our quality assurance efforts and have human review and oversight.” In a statement provided to The Markup and CalMatters, spokesperson Vincent Staupe added that Kaiser uses AI responsibly, w",
+            "matchedRule": "/\\b(?:children|patients|elderly|disabled people|low-income|victims of abuse)\\b.*\\b(?:harmed|targeted|exposed|affected|at risk)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 110,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 51.23,
+        "rawScore": 51.23,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.6575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 3
+        }
+      }
+    },
+    "495dc4e7c8c440d3ed6a": {
+      "storyId": "495dc4e7c8c440d3ed6a",
+      "url": "https://restofworld.org/2026/ai-jobs-economy-impact",
+      "title": "Growth without work: The human cost of the AI revolution",
+      "source": "Rest of World AI",
+      "published": "2026-08-05T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "113feac412d37b04967311ec",
+      "bodyFingerprint": "bf589fab54ac88e8815b219d",
+      "bodyCharacterCount": 9386,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:10.079Z",
+      "assessment": {
+        "centralEvent": "Growth without work: The human cost of the AI revolution",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Hiring froze; the recruitment team itself was laid off.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In Manila, tens of thousands of Filipino transcriptionists have already been displaced .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Cecil Williams/Claflin University via Getty Images By Jibu Elias 5 August 2026 At the turn of the millennium, India became the global hub for medical transcription.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 82,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6f84bf745789e33a05ca": {
+      "storyId": "6f84bf745789e33a05ca",
+      "url": "https://restofworld.org/2026/activate-interview-vc-sovereign-ai",
+      "title": "How one VC burns through hundreds of millions of tokens a day to find the next unicorn",
+      "source": "Rest of World AI",
+      "published": "2026-08-11T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "001ab820ba1a905bec31445e",
+      "bodyFingerprint": "2e25e014a45e8d4fb20a9884",
+      "bodyCharacterCount": 5520,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:10.090Z",
+      "assessment": {
+        "centralEvent": "How one VC burns through hundreds of millions of tokens a day to find the next unicorn",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "How one VC burns through hundreds of millions of tokens a day to find the next unicorn",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4909137d46e5e3801e51": {
+      "storyId": "4909137d46e5e3801e51",
+      "url": "https://www.bbc.co.uk/news/articles/c872r52x7jgo?at_campaign=rss&at_medium=RSS",
+      "title": "Tokenomics: Why making AI pay is tricky",
+      "source": "BBC News AI",
+      "published": "2026-08-11T23:03:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "19ee52053fbd9f2ddeed06f9",
+      "bodyFingerprint": "8bbe943406231586e94cd4ea",
+      "bodyCharacterCount": 6378,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:10.103Z",
+      "assessment": {
+        "centralEvent": "Tokenomics: Why making AI pay is tricky",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But, he says: \"This has to end at some point in time, because the big guys are taking a bath on those accounts.\" Once the big AI platforms start facing pressure from shareholders to show a profit, he predicts: \"They will start clamping down",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "While the cost of individual tokens – or the credits used to pay for them - has plummeted in recent years, according to analysis by Goldman Sachs, the number of tokens consumed by businesses, and consumers, has skyrocketed.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "That's not how anybody builds a budget.\" Related topics International Business Technology of Business Artificial intelligence Software More Technology of Business India's 'blue gold' starts a new drinks industry Published 12 June The ancien",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "26d70e0b85e61748941b": {
+      "storyId": "26d70e0b85e61748941b",
+      "url": "https://www.eff.org/deeplinks/2026/08/appeals-court-agrees-eff-building-web-browser-doesnt-violate-cfaa",
+      "title": "Appeals Court Agrees with EFF that Building a Web Browser Doesn’t Violate the CFAA",
+      "source": "EFF AI",
+      "published": "2026-08-04T22:32:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "60819d8cacc6d4c16b73b569",
+      "bodyFingerprint": "7376894e8d0d5b47bd03592e",
+      "bodyCharacterCount": 2425,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:10.117Z",
+      "assessment": {
+        "centralEvent": "Appeals Court Agrees with EFF that Building a Web Browser Doesn’t Violate the CFAA",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The Ninth Circuit Court of Appeals has endorsed a commonsense technical interpretation of the Computer Fraud and Abuse Act (CFAA), a law not usually given to such interpretation.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The court agreed, noting that EFF’s explanation “articulates the nature of the system most clearly.” The court noted that agentic AI may present novel legal issues, and there is “little to no existing caselaw directly dealing with how to as",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Amazon had sued Perplexity AI to try to shut down its Comet browser, claiming the browser’s optional agentic AI “Assistant” that can browse websites like Amazon for comparison shopping purposes, violated the CFAA because Amazon did not “aut",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.15,
+        "rawScore": 46.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1329ff5bf1768001805a": {
+      "storyId": "1329ff5bf1768001805a",
+      "url": "https://www.inc.com/bruce-crumley/ai-isnt-taking-your-job-its-silently-shrinking-your-paycheck/91389581",
+      "title": "AI Isn’t Taking Your Job—It’s Silently Shrinking Your Paycheck",
+      "source": "Inc. AI",
+      "published": "2026-08-12T16:43:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f69958cd063a8878910da320",
+      "bodyFingerprint": "fdbb811926eac5de96febd35",
+      "bodyCharacterCount": 151,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-13T05:09:10.195Z",
+      "assessment": {
+        "centralEvent": "AI Isn’t Taking Your Job—It’s Silently Shrinking Your Paycheck",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1b31b1a391a00190d985": {
+      "storyId": "1b31b1a391a00190d985",
+      "url": "https://www.nature.com/articles/d41586-026-02288-9",
+      "title": "Privacy risks from medical AI tools are not shared equally",
+      "source": "Nature AI News & Comment",
+      "published": "2026-08-04T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af89fb13de7b1de71ef6b4dd",
+      "bodyFingerprint": "751a8bb75a4a0080db3c0d49",
+      "bodyCharacterCount": 59,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-13T05:09:10.655Z",
+      "assessment": {
+        "centralEvent": "Privacy risks from medical AI tools are not shared equally",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "712e645398d8b6885215": {
+      "storyId": "712e645398d8b6885215",
+      "url": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
+      "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
+      "source": "MIT News AI",
+      "published": "2026-07-22T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "22313de58e67a8ba65d74333",
+      "bodyFingerprint": "e9af5330e7cd37fec528e100",
+      "bodyCharacterCount": 15839,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T05:09:10.708Z",
+      "assessment": {
+        "centralEvent": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Rather than answering my question directly, Dimitri gave me a preliminary draft of his manuscript, which eventually became his book 'Dynamic Programming and Stochastic Control,' and asked me to proofread it,” remembers Shreve, now Orion Ho",
+            "matchedRule": "/\\b(?:still developing|preliminary|early findings?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    }
+  },
+  "formulaFingerprint": "5616a7325b811a3302fe",
+  "updatedAt": "2026-08-13T05:09:10.708Z"
 }
