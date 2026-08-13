@@ -19,8 +19,9 @@ import {
   writeBodyAwareCache,
 } from "./dread-body-aware-store.mjs";
 
-const ARTICLE_TIMEOUT_MS = 20_000;
-const DEFAULT_MAX_NEW_PER_RUN = 25;
+const DEFAULT_ARTICLE_TIMEOUT_MS = 12_000;
+const DEFAULT_ARTICLE_CONCURRENCY = 4;
+const DEFAULT_MAX_NEW_PER_RUN = 200;
 const DEFAULT_ARTICLE_CHARACTER_LIMIT = 18_000;
 const ARTICLE_HEADERS = {
   "User-Agent": "Daily Doomsayer body-aware research bot/1.0",
@@ -136,9 +137,9 @@ export function extractArticleEvidence(
     .trimStart()}`;
 }
 
-async function requestText(url) {
+async function requestText(url, timeoutMs = DEFAULT_ARTICLE_TIMEOUT_MS) {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), ARTICLE_TIMEOUT_MS);
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
     const response = await fetch(url, {
@@ -151,6 +152,23 @@ async function requestText(url) {
   } finally {
     clearTimeout(timeout);
   }
+}
+
+async function mapWithConcurrency(values, concurrency, mapper) {
+  const results = new Array(values.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < values.length) {
+      const currentIndex = nextIndex;
+      nextIndex += 1;
+      results[currentIndex] = await mapper(values[currentIndex], currentIndex);
+    }
+  }
+
+  const workerCount = Math.min(concurrency, values.length);
+  await Promise.all(Array.from({ length: workerCount }, () => worker()));
+  return results;
 }
 
 function readWindowAssignment(text, globalName) {
@@ -228,7 +246,21 @@ export async function updateDreadBodyAware() {
   );
   const maximum = Math.max(
     1,
-    Math.min(Number(bodyConfig.maxNewPerRun) || DEFAULT_MAX_NEW_PER_RUN, 100),
+    Math.min(Number(bodyConfig.maxNewPerRun) || DEFAULT_MAX_NEW_PER_RUN, 500),
+  );
+  const articleConcurrency = Math.max(
+    1,
+    Math.min(
+      Number(bodyConfig.articleConcurrency) || DEFAULT_ARTICLE_CONCURRENCY,
+      8,
+    ),
+  );
+  const articleTimeoutMs = Math.max(
+    5_000,
+    Math.min(
+      Number(bodyConfig.articleTimeoutMs) || DEFAULT_ARTICLE_TIMEOUT_MS,
+      30_000,
+    ),
   );
   const characterLimit = Math.max(
     2_000,
@@ -259,89 +291,93 @@ export async function updateDreadBodyAware() {
     .slice(0, maximum);
   let completed = 0;
 
-  for (const [index, article] of candidates.entries()) {
-    const storyId = bodyAwareStoryId(article.url);
-    let articleBody = "";
-    let evidenceScope = "article-body";
+  await mapWithConcurrency(
+    candidates,
+    articleConcurrency,
+    async (article, index) => {
+      const storyId = bodyAwareStoryId(article.url);
+      let articleBody = "";
+      let evidenceScope = "article-body";
 
-    try {
-      articleBody = extractArticleEvidence(
-        await requestText(article.url),
-        characterLimit,
+      try {
+        articleBody = extractArticleEvidence(
+          await requestText(article.url, articleTimeoutMs),
+          characterLimit,
+        );
+      } catch (error) {
+        console.warn(
+          `[dread-1.3] Article unavailable for ${article.url}: ${error.message}`,
+        );
+      }
+
+      if (articleBody.length < 300) {
+        evidenceScope = "feed-only";
+        articleBody = normalizeText(
+          article.feedSummary || article.doomIndexInputSummary || "",
+        );
+      }
+
+      if (!articleBody) {
+        console.warn(
+          `[dread-1.3] Skipping ${article.url}: no usable article or feed text`,
+        );
+        return;
+      }
+
+      const fingerprint = bodyFingerprint(articleBody);
+      const inputFingerprint = createDoomIndexV130InputFingerprint({
+        title: article.title,
+        summary: article.feedSummary || article.doomIndexInputSummary,
+        bodyFingerprint: fingerprint,
+        source: article.source,
+        formulaVersion,
+        analyzerVersion,
+      });
+      const existing = cache.records?.[storyId];
+
+      if (existing?.inputFingerprint === inputFingerprint) return;
+
+      const assessment = analyzeDreadV130Evidence({
+        title: article.title,
+        summary: article.feedSummary || article.doomIndexInputSummary,
+        body: articleBody,
+        evidenceScope,
+      });
+      const score = calculateDoomIndexV130FromAssessment(assessment, {
+        severityScale: config.doomIndex?.severityScale,
+      });
+
+      cache.records[storyId] = {
+        storyId,
+        url: canonicalBodyAwareUrl(article.url),
+        title: article.title,
+        source: article.source,
+        published: article.published,
+        version,
+        formulaVersion,
+        formulaFingerprint,
+        analyzerVersion,
+        inputFingerprint,
+        bodyFingerprint: fingerprint,
+        bodyCharacterCount: articleBody.length,
+        evidenceScope,
+        assessedAt: new Date().toISOString(),
+        assessment: {
+          centralEvent: assessment.centralEvent,
+          confidence: assessment.confidence,
+          evidence: assessment.evidence,
+          constraints: assessment.constraints,
+          rationale: assessment.rationale,
+          diagnostics: assessment.diagnostics,
+        },
+        score,
+      };
+      completed += 1;
+      console.log(
+        `[dread-1.3] ${index + 1}/${candidates.length} ${score.value.toFixed(2)} ${score.band}: ${article.title}`,
       );
-    } catch (error) {
-      console.warn(
-        `[dread-1.3] Article unavailable for ${article.url}: ${error.message}`,
-      );
-    }
-
-    if (articleBody.length < 300) {
-      evidenceScope = "feed-only";
-      articleBody = normalizeText(
-        article.feedSummary || article.doomIndexInputSummary || "",
-      );
-    }
-
-    if (!articleBody) {
-      console.warn(
-        `[dread-1.3] Skipping ${article.url}: no usable article or feed text`,
-      );
-      continue;
-    }
-
-    const fingerprint = bodyFingerprint(articleBody);
-    const inputFingerprint = createDoomIndexV130InputFingerprint({
-      title: article.title,
-      summary: article.feedSummary || article.doomIndexInputSummary,
-      bodyFingerprint: fingerprint,
-      source: article.source,
-      formulaVersion,
-      analyzerVersion,
-    });
-    const existing = cache.records?.[storyId];
-
-    if (existing?.inputFingerprint === inputFingerprint) continue;
-
-    const assessment = analyzeDreadV130Evidence({
-      title: article.title,
-      summary: article.feedSummary || article.doomIndexInputSummary,
-      body: articleBody,
-      evidenceScope,
-    });
-    const score = calculateDoomIndexV130FromAssessment(assessment, {
-      severityScale: config.doomIndex?.severityScale,
-    });
-
-    cache.records[storyId] = {
-      storyId,
-      url: canonicalBodyAwareUrl(article.url),
-      title: article.title,
-      source: article.source,
-      published: article.published,
-      version,
-      formulaVersion,
-      formulaFingerprint,
-      analyzerVersion,
-      inputFingerprint,
-      bodyFingerprint: fingerprint,
-      bodyCharacterCount: articleBody.length,
-      evidenceScope,
-      assessedAt: new Date().toISOString(),
-      assessment: {
-        centralEvent: assessment.centralEvent,
-        confidence: assessment.confidence,
-        evidence: assessment.evidence,
-        constraints: assessment.constraints,
-        rationale: assessment.rationale,
-        diagnostics: assessment.diagnostics,
-      },
-      score,
-    };
-    completed += 1;
-    console.log(
-      `[dread-1.3] ${index + 1}/${candidates.length} ${score.value.toFixed(2)} ${score.band}: ${article.title}`,
-    );
-  }
+    },
+  );
 
   cache.schemaVersion = "1.0";
   cache.version = version;
@@ -355,7 +391,7 @@ export async function updateDreadBodyAware() {
   await writeArticles(site, articles);
 
   console.log(
-    `[dread-1.3] Added ${completed} deterministic assessments; ${Object.keys(cache.records).length} cached stories are available.`,
+    `[dread-1.3] Added ${completed} deterministic assessments with ${articleConcurrency} concurrent article requests; ${Object.keys(cache.records).length} cached stories are available.`,
   );
 
   return { completed, cached: Object.keys(cache.records).length };
