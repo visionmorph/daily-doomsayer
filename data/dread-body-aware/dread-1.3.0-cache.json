@@ -18563,8 +18563,233 @@
           "vulnerability": 0
         }
       }
+    },
+    "ef1fe5976a6493819229": {
+      "storyId": "ef1fe5976a6493819229",
+      "url": "https://mashable.com/tech/why-is-openai-losing-so-many-executives",
+      "title": "Why is OpenAI losing so many executives?",
+      "source": "Mashable AI",
+      "published": "2026-08-13T22:22:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bf882d6122ea266c25e3b8e6",
+      "bodyFingerprint": "dc42ddcb68631624a4d531fe",
+      "bodyCharacterCount": 3712,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T23:04:56.694Z",
+      "assessment": {
+        "centralEvent": "Why is OpenAI losing so many executives?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Over the last few months, I’ve been focused on the next horizon,” Lightcap said in a note to OpenAI employees, as reported by Bloomberg .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0657bb0c957d62cf59a2": {
+      "storyId": "0657bb0c957d62cf59a2",
+      "url": "https://www.theguardian.com/society/2026/aug/14/unemployed-young-people-to-join-ai-boot-camps-to-get-job-ready",
+      "title": "Unemployed young people to join AI boot camps to get job-ready",
+      "source": "The Guardian AI",
+      "published": "2026-08-13T23:01:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2f079bb9a1890ec94a096877",
+      "bodyFingerprint": "17def959ade272f93c8e02e8",
+      "bodyCharacterCount": 3645,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T23:04:56.776Z",
+      "assessment": {
+        "centralEvent": "Unemployed young people to join AI boot camps to get job-ready",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This week Stanford University in the US flagged a decline in the employment of young workers in AI-exposed occupations such as software engineering and customer service.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An interim report by the former Labour minister Alan Milburn , also published in May, warned that the figure could rise to one in six by 2031 and that Britain risked leaving behind a “lost generation” of young people ill-prepared for work.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The government wants the majority of attenders at the boot camp to gain an apprenticeship at local businesses that have signed up, including the defence firm BAE Systems and the food company Heinz.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This week Stanford University in the US flagged a decline in the employment of young workers in AI-exposed occupations such as software engineering and customer service.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 2
+        }
+      }
+    },
+    "e9e13da88b51b8d9de79": {
+      "storyId": "e9e13da88b51b8d9de79",
+      "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture",
+      "title": "The Safety Reckoning Inside OpenAI",
+      "source": "WIRED AI",
+      "published": "2026-08-13T22:37:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "11af7bc48006a37a25a66bc1",
+      "bodyFingerprint": "0fe70eda31d1ab32314f7fc3",
+      "bodyCharacterCount": 12547,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T23:04:56.789Z",
+      "assessment": {
+        "centralEvent": "The Safety Reckoning Inside OpenAI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Read More Senior Writer Topics Model Behavior artificial intelligence OpenAI agentic AI cybersecurity Safety AI safety OpenAI’s Hacking Debacle Comes Down to Human Error If the generative AI giant had followed well-known security best pract",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Will Knight OpenAI Models Escaped Containment and Hacked Hugging Face The cybersecurity-focused models, including GPT-5.6 Sol, broke out of a testing sandbox, exploited a zero-day, and gained access to the open internet to pull off the atta",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“They'll walk up to that line from a public relations perspective without stepping over it, because then they could be held accountable.” OpenAI and Anthropic signed on to a letter last month saying they would support an industry-wide effor",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Will Knight OpenAI Models Escaped Containment and Hacked Hugging Face The cybersecurity-focused models, including GPT-5.6 Sol, broke out of a testing sandbox, exploited a zero-day, and gained access to the open internet to pull off the atta",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“The entire leadership team and I stand behind Mia and Tibo as highly capable people with strong integrity, and the way they make decisions every day gives us confidence that any perceived conflict of interest is being handled responsibly,”",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 70.98,
+        "rawScore": 70.98,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.635,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-13T22:05:02.761Z"
+  "updatedAt": "2026-08-13T23:04:56.789Z"
 }
