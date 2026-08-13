@@ -5,24 +5,38 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-13T22:00:00.000Z",
+  "generatedAt": "2026-08-13T23:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-13",
       "stories": [
+        {
+          "storyId": "e9e13da88b51b8d9de79",
+          "title": "The Safety Reckoning Inside OpenAI",
+          "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/191:100/w_1280,c_limit/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg",
+          "peak": 40.07,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-13",
+          "firstObservedAt": "2026-08-13T23:00:00.000Z",
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
+          "average": 40.07
+        },
         {
           "storyId": "1c9f14ee09a7b9f09c18",
           "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
           "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
           "source": "POLITICO Europe AI",
           "image": "",
-          "peak": 36.22,
-          "observations": 13,
+          "peak": 40.07,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T22:00:00.000Z",
-          "average": 36.22
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
+          "average": 36.49
         },
         {
           "storyId": "b3989dcfb48ba9b056fe",
@@ -31,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T22:00:00.000Z",
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
           "average": 23.95
         },
         {
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
           "peak": 21.55,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T22:00:00.000Z",
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
           "average": 21.55
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/24f9e83964f0e02da873ca453489a039bab94bee/0_0_5989_4792/master/5989.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 20.89,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T10:00:00.000Z",
-          "lastObservedAt": "2026-08-13T22:00:00.000Z",
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
           "average": 20.89
         },
         {
@@ -115,40 +129,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg",
           "peak": 20,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T22:00:00.000Z",
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
           "average": 20
         },
         {
-          "storyId": "4886a2e07c39d71065d0",
-          "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
-          "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "",
-          "peak": 19.75,
-          "observations": 13,
+          "storyId": "0657bb0c957d62cf59a2",
+          "title": "Unemployed young people to join AI boot camps to get job-ready",
+          "url": "https://www.theguardian.com/society/2026/aug/14/unemployed-young-people-to-join-ai-boot-camps-to-get-job-ready",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/f80afc307589a27ed9fbd5dbef921648d92089e1/46_0_4898_3921/master/4898.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 19.87,
+          "observations": 1,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
-          "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T22:00:00.000Z",
-          "average": 19.75
-        },
-        {
-          "storyId": "12b2563b9d6861b5c366",
-          "title": "OpenAI settles claims of discrimination against US workers for $3.2 million",
-          "url": "https://www.politico.com/news/2026/08/04/open-ai-discrimination-settlement-doj-01024742",
-          "source": "POLITICO AI",
-          "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
-          "peak": 19.05,
-          "observations": 13,
-          "daysTracked": 1,
-          "peakDate": "2026-08-13",
-          "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-13T22:00:00.000Z",
-          "average": 19.05
+          "firstObservedAt": "2026-08-13T23:00:00.000Z",
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
+          "average": 19.87
         }
       ]
     },
@@ -1229,6 +1229,34 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 43.33
         },
         {
+          "storyId": "e9e13da88b51b8d9de79",
+          "title": "The Safety Reckoning Inside OpenAI",
+          "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/191:100/w_1280,c_limit/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg",
+          "peak": 40.07,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-13",
+          "firstObservedAt": "2026-08-13T23:00:00.000Z",
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
+          "average": 40.07
+        },
+        {
+          "storyId": "1c9f14ee09a7b9f09c18",
+          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 40.07,
+          "observations": 26,
+          "daysTracked": 2,
+          "peakDate": "2026-08-13",
+          "firstObservedAt": "2026-08-12T12:00:00.000Z",
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
+          "average": 36.37
+        },
+        {
           "storyId": "0a3c0d9f2ec55a3e2d14",
           "title": "Anthropic AI used fake profiles to target people in hack then hid the evidence",
           "url": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss",
@@ -1257,20 +1285,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 39.53
         },
         {
-          "storyId": "1c9f14ee09a7b9f09c18",
-          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
-          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "",
-          "peak": 36.22,
-          "observations": 25,
-          "daysTracked": 2,
-          "peakDate": "2026-08-12",
-          "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-13T22:00:00.000Z",
-          "average": 36.22
-        },
-        {
           "storyId": "1d069b1fc66d18a784ee",
           "title": "SA premier announces royal commission into AI – as it happened",
           "url": "https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb",
@@ -1297,20 +1311,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-10T06:00:00.000Z",
           "lastObservedAt": "2026-08-11T11:00:00.000Z",
           "average": 30.4
-        },
-        {
-          "storyId": "32c5457cb1c56b255a8f",
-          "title": "Inside an AI TikTok Shop Slop Factory That Shills Supplements Recalled By the FDA",
-          "url": "https://www.404media.co/inside-an-ai-tiktok-shop-slop-factory-that-shills-supplements-recalled-by-the-fda/",
-          "source": "404 Media AI",
-          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-30-at-07.44.38@2x.png",
-          "peak": 29.27,
-          "observations": 40,
-          "daysTracked": 3,
-          "peakDate": "2026-08-10",
-          "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-12T17:00:00.000Z",
-          "average": 29.27
         }
       ]
     },
@@ -1563,6 +1563,34 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 43.33
         },
         {
+          "storyId": "e9e13da88b51b8d9de79",
+          "title": "The Safety Reckoning Inside OpenAI",
+          "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/191:100/w_1280,c_limit/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg",
+          "peak": 40.07,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-13",
+          "firstObservedAt": "2026-08-13T23:00:00.000Z",
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
+          "average": 40.07
+        },
+        {
+          "storyId": "1c9f14ee09a7b9f09c18",
+          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 40.07,
+          "observations": 26,
+          "daysTracked": 2,
+          "peakDate": "2026-08-13",
+          "firstObservedAt": "2026-08-12T12:00:00.000Z",
+          "lastObservedAt": "2026-08-13T23:00:00.000Z",
+          "average": 36.37
+        },
+        {
           "storyId": "0a3c0d9f2ec55a3e2d14",
           "title": "Anthropic AI used fake profiles to target people in hack then hid the evidence",
           "url": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss",
@@ -1575,34 +1603,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
           "lastObservedAt": "2026-08-12T22:00:00.000Z",
           "average": 39.53
-        },
-        {
-          "storyId": "36afd164b5931dcbff9b",
-          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285051730-1152x648.jpg",
-          "peak": 39.53,
-          "observations": 59,
-          "daysTracked": 5,
-          "peakDate": "2026-08-06",
-          "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-10T10:00:00.000Z",
-          "average": 39.53
-        },
-        {
-          "storyId": "b323c71ed3d014cc4423",
-          "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
-          "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a6d058753afe1590265744d/master/pass/073126-meta-nudify-ads-children.jpg",
-          "peak": 39.32,
-          "observations": 11,
-          "daysTracked": 2,
-          "peakDate": "2026-08-06",
-          "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-07T13:00:00.000Z",
-          "average": 39.32
         }
       ]
     }
