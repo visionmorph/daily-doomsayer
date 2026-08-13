@@ -98,6 +98,12 @@ main > .category-row {
   outline-offset: 2px;
 }
 
+.model-option:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
 .banner-secondary {
   max-width: 260px;
   color: var(--text-primary);
