@@ -20,6 +20,10 @@ import {
   normalizeArticleText,
   normalizedSeverityScale,
 } from "./site-data.mjs";
+import {
+  applyBodyAwareCacheToArticles,
+  readBodyAwareCache,
+} from "./dread-body-aware-store.mjs";
 
 const FEED_TIMEOUT_MS = 20_000;
 const ARTICLE_TIMEOUT_MS = 15_000;
@@ -71,6 +75,20 @@ const doomIndexShadowConfig = {
   ),
   weights: normalizedDoomIndexV124Weights(
     config.doomIndex?.shadow?.weights || config.doomIndex?.weights,
+  ),
+};
+const doomIndexBodyAwareConfig = {
+  enabled: config.doomIndex?.bodyAware?.enabled !== false,
+  version: String(config.doomIndex?.bodyAware?.version || "1.3.0"),
+  formulaVersion: String(
+    config.doomIndex?.bodyAware?.formulaVersion || "1.3.0-body-context.1",
+  ),
+  valueField: String(
+    config.doomIndex?.bodyAware?.valueField || "doomIndexV130BodyAware",
+  ),
+  analyzerVersion: String(
+    config.doomIndex?.bodyAware?.analyzerVersion ||
+      "1.3.0-context-rules.1",
   ),
 };
 
@@ -2280,6 +2298,15 @@ for (const [articleIndex, article] of uniqueArticles.entries()) {
   }
 }
 
+if (doomIndexBodyAwareConfig.enabled) {
+  const bodyAwareCache = await readBodyAwareCache();
+  const applied = applyBodyAwareCacheToArticles(uniqueArticles, bodyAwareCache, {
+    formulaVersion: doomIndexBodyAwareConfig.formulaVersion,
+    valueField: doomIndexBodyAwareConfig.valueField,
+  });
+  console.log(`[dread-1.3] Restored ${applied} cached body-aware assessments.`);
+}
+
 uniqueArticles.sort((first, second) => {
   if (second.doomIndex !== first.doomIndex) {
     return second.doomIndex - first.doomIndex;
@@ -2358,6 +2385,14 @@ const output = [
           ? {
               version: doomIndexShadowConfig.version,
               formulaVersion: doomIndexShadowConfig.formulaVersion,
+            }
+          : null,
+        bodyAware: doomIndexBodyAwareConfig.enabled
+          ? {
+              version: doomIndexBodyAwareConfig.version,
+              formulaVersion: doomIndexBodyAwareConfig.formulaVersion,
+              valueField: doomIndexBodyAwareConfig.valueField,
+              analyzerVersion: doomIndexBodyAwareConfig.analyzerVersion,
             }
           : null,
       },
