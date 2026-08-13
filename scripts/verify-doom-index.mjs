@@ -18,6 +18,10 @@ import {
   normalizedDoomIndexV124Weights,
 } from "./doom-index-v1.2.4.mjs";
 import {
+  calculateDoomIndexV130FromAssessment,
+  createDoomIndexV130Fingerprint,
+} from "./doom-index-v1.3.0.mjs";
+import {
   buildSourceDirectory,
   calculateIntradayDoom,
   normalizeArticleText,
@@ -412,6 +416,22 @@ const shadowVersion = String(
 const shadowFormulaVersion = String(
   config.doomIndex?.shadow?.formulaVersion || "1.2.4-offline.1",
 );
+const bodyAwareVersion = String(
+  config.doomIndex?.bodyAware?.version || "1.3.0",
+);
+const bodyAwareFormulaVersion = String(
+  config.doomIndex?.bodyAware?.formulaVersion || "1.3.0-body-context.1",
+);
+const bodyAwareValueField = String(
+  config.doomIndex?.bodyAware?.valueField || "doomIndexV130BodyAware",
+);
+const bodyAwareAnalyzerVersion = String(
+  config.doomIndex?.bodyAware?.analyzerVersion ||
+    "1.3.0-context-rules.1",
+);
+const expectedBodyAwareFingerprint = createDoomIndexV130Fingerprint({
+  formulaVersion: bodyAwareFormulaVersion,
+});
 const publicWeights = normalizedDoomIndexV122Weights(
   config.doomIndex?.weights,
 );
@@ -447,6 +467,11 @@ if (
   site.doomIndex?.formulaVersion !== formulaVersion ||
   site.doomIndex?.shadow?.version !== shadowVersion ||
   site.doomIndex?.shadow?.formulaVersion !== shadowFormulaVersion ||
+  site.doomIndex?.bodyAware?.version !== bodyAwareVersion ||
+  site.doomIndex?.bodyAware?.formulaVersion !== bodyAwareFormulaVersion ||
+  site.doomIndex?.bodyAware?.valueField !== bodyAwareValueField ||
+  site.doomIndex?.bodyAware?.analyzerVersion !==
+    bodyAwareAnalyzerVersion ||
   JSON.stringify(site.doomIndex?.severityScale) !==
     JSON.stringify(expectedSeverityScale)
 ) {
@@ -481,6 +506,41 @@ const seenStoryIds = new Set();
 
 for (const article of articles) {
   const context = { storyId: article.storyId, title: article.title };
+
+  if (article[bodyAwareValueField] !== undefined) {
+    const bodyAwareValue = Number(article[bodyAwareValueField]);
+    if (!Number.isFinite(bodyAwareValue) || bodyAwareValue < 0 || bodyAwareValue > 100) {
+      reportError("Invalid DREAD 1.3 body-aware value", context);
+    } else if (
+      article.doomIndexV130BodyAwareVersion !== bodyAwareVersion ||
+      article.doomIndexV130BodyAwareFormulaVersion !== bodyAwareFormulaVersion ||
+      article.doomIndexV130BodyAwareAnalyzerVersion !==
+        bodyAwareAnalyzerVersion ||
+      article.doomIndexV130BodyAwareFormulaFingerprint !==
+        expectedBodyAwareFingerprint
+    ) {
+      reportError("DREAD 1.3 body-aware metadata is out of date", context);
+    } else {
+      try {
+        const recalculated = calculateDoomIndexV130FromAssessment(
+          article.doomIndexV130BodyAwareFactors,
+          { severityScale: expectedSeverityScale },
+        );
+        if (recalculated.value !== bodyAwareValue) {
+          reportError("DREAD 1.3 body-aware value does not match its factors", {
+            ...context,
+            actual: bodyAwareValue,
+            expected: recalculated.value,
+          });
+        }
+      } catch (error) {
+        reportError("DREAD 1.3 body-aware factors are invalid", {
+          ...context,
+          reason: error.message,
+        });
+      }
+    }
+  }
 
   if (normalizeArticleText(article.title) !== article.title) {
     reportError("Story title contains undecoded or unnormalized text", context);
