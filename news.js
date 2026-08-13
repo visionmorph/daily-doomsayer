@@ -17,21 +17,31 @@
       status: "EXPERIMENTAL",
       valueField: "doomIndexV124Shadow",
     },
+    "body-aware": {
+      version: String(site.doomIndex?.bodyAware?.version || "1.3.0"),
+      status: "EXPERIMENTAL",
+      valueField: String(
+        site.doomIndex?.bodyAware?.valueField || "doomIndexV130BodyAware",
+      ),
+    },
   };
-  const experimentalAvailable =
-    Array.isArray(articles) &&
-    articles.some((article) =>
-      Number.isFinite(Number(article?.doomIndexV124Shadow)),
+
+  function modelAvailable(model) {
+    const definition = modelDefinitions[model];
+    return (
+      Boolean(definition) &&
+      Array.isArray(articles) &&
+      articles.some((article) =>
+        Number.isFinite(Number(article?.[definition.valueField])),
+      )
     );
+  }
+
   let activeModel = "public";
 
   try {
-    if (
-      window.localStorage.getItem(modelStorageKey) === "experimental" &&
-      experimentalAvailable
-    ) {
-      activeModel = "experimental";
-    }
+    const storedModel = window.localStorage.getItem(modelStorageKey);
+    if (modelAvailable(storedModel)) activeModel = storedModel;
   } catch {
     activeModel = "public";
   }
@@ -259,6 +269,10 @@
 
     if (Number.isFinite(selectedDoomIndex)) {
       return Math.max(0, Math.min(selectedDoomIndex, 100));
+    }
+
+    if (model !== "public") {
+      return null;
     }
 
     const recordedDoomIndex = Number(article?.doomIndex);
@@ -573,7 +587,11 @@
       return;
     }
 
-    const orderedArticles = [...articles].sort(compareArticles);
+    const modelArticles =
+      activeModel === "public"
+        ? articles
+        : articles.filter((article) => doomIndexValue(article) !== null);
+    const orderedArticles = [...modelArticles].sort(compareArticles);
     const featuredArticle = orderedArticles.find(
       (article) => article.group === "ai",
     );
@@ -588,10 +606,11 @@
       const model = button.dataset.doomModel;
       const definition = modelDefinitions[model];
       const selected = model === activeModel;
-      const unavailable = model === "experimental" && !experimentalAvailable;
+      const unavailable = !modelAvailable(model);
 
       button.classList.toggle("is-selected", selected);
       button.setAttribute("aria-checked", String(selected));
+      button.setAttribute("aria-disabled", String(unavailable));
       button.setAttribute(
         "aria-label",
         `${modelName} ${definition.version} ${definition.status}`,
@@ -606,7 +625,7 @@
   function selectModel(model) {
     if (
       !modelDefinitions[model] ||
-      (model === "experimental" && !experimentalAvailable) ||
+      !modelAvailable(model) ||
       model === activeModel
     ) {
       return;
