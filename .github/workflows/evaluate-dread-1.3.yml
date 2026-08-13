@@ -1,0 +1,36 @@
+name: Evaluate DREAD 1.3 body awareness
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Update DREAD 1.3 body-aware ratings
+      - Update calibration benchmark
+    types:
+      - completed
+
+permissions:
+  contents: read
+
+jobs:
+  evaluate-dread-1-3:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          package-manager-cache: false
+
+      - name: Verify the DREAD 1.3 evaluator
+        run: node --test tests/body-aware-evaluation.test.mjs tests/doom-index-v1.3.0.test.mjs
+
+      - name: Compare DREAD models with guided human ratings
+        run: |
+          npm run --silent evaluate-body-aware:1.3 | tee dread-1.3-evaluation.md
+          cat dread-1.3-evaluation.md >> "$GITHUB_STEP_SUMMARY"
