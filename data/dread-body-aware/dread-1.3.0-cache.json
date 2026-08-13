@@ -17608,8 +17608,458 @@
           "vulnerability": 0
         }
       }
+    },
+    "9a2ddf92ac93318a032c": {
+      "storyId": "9a2ddf92ac93318a032c",
+      "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push",
+      "title": "IBM partners with OpenAI to bolster enterprise AI push",
+      "source": "TechCrunch AI",
+      "published": "2026-08-13T19:19:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "32be5fcccb02494f82120fdc",
+      "bodyFingerprint": "b97a7f88284d72274aa7b0b8",
+      "bodyCharacterCount": 4296,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T19:27:40.316Z",
+      "assessment": {
+        "centralEvent": "IBM partners with OpenAI to bolster enterprise AI push",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes Lucas Ropek Phoebe Gates and Sophia Kianni reportedly knew Phia was ‘cookie stuffing’ for months Dominic-Mad",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "647c46da607af06e7c2b": {
+      "storyId": "647c46da607af06e7c2b",
+      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war",
+      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-13T18:28:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1fc5ed6949ba583b76303ed2",
+      "bodyFingerprint": "2a2a415dda6d4fa8180a82fa",
+      "bodyCharacterCount": 9830,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T19:27:40.324Z",
+      "assessment": {
+        "centralEvent": "Anthropic set AI agents loose on the same task. They started a turf war.",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The models all assumed the others were “purposefully impeding their work” and started sabotaging each other with “increasingly aggressive, self-replicating malware.” The study comes in the wake of several high-profile incidents of agents fr",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Anthropic researchers found AI agents can clash, collude and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Benign behavioral quirks at the individual level might compound into unwanted global outcomes.” A recent OpenAI incident provides a messy real-world example of several of the dynamics Anthropic mentioned in its paper.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“Sonnet 4.6 and Opus 4.6’s recurring inability to consider the goals of others causes them to spiral into the most misaligned behaviors of the models evaluated: they continue escalating in the name of their directive,” the paper reads.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 69,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.62,
+        "rawScore": 48.62,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.42,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d796dd4f41b1239bb3cf": {
+      "storyId": "d796dd4f41b1239bb3cf",
+      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed",
+      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT 5.6 Sol work at 14x the speed",
+      "source": "TechCrunch AI",
+      "published": "2026-08-13T19:22:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "de9e7443bbaf18707be57f8e",
+      "bodyFingerprint": "4fe38b4c1d4f8c74cccc753e",
+      "bodyCharacterCount": 2638,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T19:27:40.339Z",
+      "assessment": {
+        "centralEvent": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT 5.6 Sol work at 14x the speed",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Rebecca Bellan 55 minutes ago AI OpenAI hires new CRO as executive shake-up continues Tim Fernholz 2 hours ago Latest in AI In Brief OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT 5.6 Sol work at 14x the speed Lucas Ropek 7 second",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4d5a0782e04d8eefade0": {
+      "storyId": "4d5a0782e04d8eefade0",
+      "url": "https://apnews.com/article/mlb-bobbleheads-giveaways-d0c306dda5ecd7cb504ef1916ecc8e29",
+      "title": "Pope hats, bloody shirts and so many bobbleheads: The creative ways MLB teams lure fans to the park",
+      "source": "AP News AI",
+      "published": "2026-08-12T17:58:31",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6ce4b9dcf4c6661d6e117f09",
+      "bodyFingerprint": "1894780dcc968b8bb7f2dcdf",
+      "bodyCharacterCount": 11935,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T19:27:40.360Z",
+      "assessment": {
+        "centralEvent": "Pope hats, bloody shirts and so many bobbleheads: The creative ways MLB teams lure fans to the park",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "11, 2026, in Chicago. (AP Photo/Melissa Tamez) Read More 4 of 5 | Texas Rangers fans in the stands wear Nolan Ryan jerseys during a baseball game against the Kansas City Royals, May 29, 2026, in Arlington, Texas. (AP Photo/LM Otero, File) R",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7a3e6b0177519a75121f": {
+      "storyId": "7a3e6b0177519a75121f",
+      "url": "https://apnews.com/article/flock-license-plate-cameras-surveillance-deflock-2a93bc075e2f7ffcca9e04a35d75a3fe",
+      "title": "Flock announces changes amid backlash over its license plate reader network",
+      "source": "AP News AI",
+      "published": "2026-08-13T14:45:10",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bb0601285c8a1f6aee9edc18",
+      "bodyFingerprint": "e13dc1bf748cbda236ef1033",
+      "bodyCharacterCount": 9514,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T19:27:40.371Z",
+      "assessment": {
+        "centralEvent": "Flock announces changes amid backlash over its license plate reader network",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit RICHMOND, Va. (AP) — Flock Safety, the surveillance technology company increasingly under scrutiny from lawmakers from both parties, civil liber",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Flock, which says its customers own the data that the cameras record, is also shortening the standard data retention window from 30 days to seven.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "A company that operates a vast nationwide network of automated cameras that record the license plate numbers and other characteristics of all passing vehicles every day is making changes to its platform.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "A company that operates a vast nationwide network of automated cameras that record the license plate numbers and other characteristics of all passing vehicles every day is making changes to its platform.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1566c900f8f1005970cd": {
+      "storyId": "1566c900f8f1005970cd",
+      "url": "https://www.inc.com/richard-kilgannon/how-exceptional-experience-drives-sustainable-growth/91389545",
+      "title": "How Exceptional Experience Drives Sustainable Growth",
+      "source": "Inc. AI",
+      "published": "2026-08-13T18:53:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8bf62ede707c285c55077a20",
+      "bodyFingerprint": "43312ece6347cbc90d09c9b1",
+      "bodyCharacterCount": 70,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-13T19:27:40.511Z",
+      "assessment": {
+        "centralEvent": "How Exceptional Experience Drives Sustainable Growth",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "999a7eeaec8f7bc4cf2c": {
+      "storyId": "999a7eeaec8f7bc4cf2c",
+      "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service?at_campaign=rss&at_medium=RSS",
+      "title": "BBC Inside Science",
+      "source": "BBC News AI",
+      "published": "2026-08-13T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a9727a498bdd0ac39915cb5a",
+      "bodyFingerprint": "19910e662b25985101abfdfe",
+      "bodyCharacterCount": 3174,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T19:27:40.650Z",
+      "assessment": {
+        "centralEvent": "BBC Inside Science",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-13T18:11:16.458Z"
+  "updatedAt": "2026-08-13T19:27:40.650Z"
 }
