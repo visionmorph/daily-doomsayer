@@ -18231,8 +18231,340 @@
           "vulnerability": 0
         }
       }
+    },
+    "dff70d0cff63e6487c21": {
+      "storyId": "dff70d0cff63e6487c21",
+      "url": "https://apnews.com/article/mlb-field-of-dreams-phillies-twins-13e2902508d7a490e37f7ab0331e9b7d",
+      "title": "Major League Baseball is back at the Field of Dreams, now in a permanent ballpark amid the corn",
+      "source": "AP News AI",
+      "published": "2026-08-12T23:10:10",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "705eb9cf406f9bf4475e336f",
+      "bodyFingerprint": "635444a31f7b23ef0833a612",
+      "bodyCharacterCount": 8773,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T22:05:02.654Z",
+      "assessment": {
+        "centralEvent": "Major League Baseball is back at the Field of Dreams, now in a permanent ballpark amid the corn",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2bbd9d42fdc460f2d46a": {
+      "storyId": "2bbd9d42fdc460f2d46a",
+      "url": "https://www.theguardian.com/us-news/2026/aug/13/massachusetts-teen-killing-chatgpt",
+      "title": "Massachusetts teen accused of killing mother and brother used ChatGPT",
+      "source": "The Guardian AI",
+      "published": "2026-08-13T21:34:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3f5cdb6acbfbb15d3bb3d2d0",
+      "bodyFingerprint": "c12cfce279f2c575fbe598cf",
+      "bodyCharacterCount": 4622,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T22:05:02.670Z",
+      "assessment": {
+        "centralEvent": "Massachusetts teen accused of killing mother and brother used ChatGPT",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Officials said Siddharth’s body was discovered on the home’s first floor, while his mother’s body was found in the basement.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "738b25361089d8094578": {
+      "storyId": "738b25361089d8094578",
+      "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs",
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "source": "TechCrunch AI",
+      "published": "2026-08-13T21:13:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6f9c887ec2c73baef5a0effd",
+      "bodyFingerprint": "9caeafc531c1257e88d9a4c1",
+      "bodyCharacterCount": 3755,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T22:05:02.674Z",
+      "assessment": {
+        "centralEvent": "Writer introduces new AI model and upgraded harness to contain token costs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes Lucas Ropek Phoebe Gates and Sophia Kianni reportedly knew Phia was ‘cookie stuffing’ for months Dominic-Mad",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“They want flattening cost, and it seems like nobody can deliver that.” The new approach puts particular emphasis on complex, multi-step tasks, executed faster and with fewer tokens.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The harness is the one component whose efficiency multiplies across every model an organization runs—present and future,” the researchers wrote.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.05,
+        "rawScore": 45.05,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7b5737f80429ee775ce7": {
+      "storyId": "7b5737f80429ee775ce7",
+      "url": "https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything",
+      "title": "Mark Zuckerberg’s AI Manifesto Is 6,500-Words—and Barely Says Anything",
+      "source": "WIRED AI",
+      "published": "2026-08-13T21:14:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2f56b10ef688b72f02d89dbc",
+      "bodyFingerprint": "82858a76d044ebc21cb48d75",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T22:05:02.751Z",
+      "assessment": {
+        "centralEvent": "Mark Zuckerberg’s AI Manifesto Is 6,500-Words—and Barely Says Anything",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Andy Greenberg OpenAI’s Hacking Debacle Comes Down to Human Error If the generative AI giant had followed well-known security best practices, it’s likely that its AI agent would never have escaped to the open internet and hacked multiple co",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Will Knight This Coin-Sized Device Can Hack a Boeing 737 Security researchers found that in less than 60 seconds, they could open a hatch on a plane’s exterior, plug in a tiny device, and redirect the aircraft’s autopilot or sabotage its fl",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Leah Feiger : I mean, from the Trump White House , which has historically been so anti-AI regulation that its very own AI czar for the first year of the Trump presidency, David Sacks was like, \"We're not regulating,\" to now where the White ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Lily Hay Newman Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting The two Chrome updates in June patched more bugs than the 23 updates before them.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Including one of Meta's and showing how unpredictable and out of control these things can be.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 180,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 69.53,
+        "rawScore": 69.53,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.5025,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "da231860f502f10c9175": {
+      "storyId": "da231860f502f10c9175",
+      "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
+      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+      "source": "The Verge AI",
+      "published": "2026-08-13T21:42:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2eb88497552e171efa6076f3",
+      "bodyFingerprint": "9df71271c0f50a8383114d82",
+      "bodyCharacterCount": 3479,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T22:05:02.761Z",
+      "assessment": {
+        "centralEvent": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Microsoft News Tech Most Popular Most Popular This is Instagram’s new logo Xbox Elite 3 prototype pad leaks with tiny built-in screen How Google’s new Pixel 11 phones compare to last year’s models Google’s Pixel 11 series pairs",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-13T21:05:32.484Z"
+  "updatedAt": "2026-08-13T22:05:02.761Z"
 }
