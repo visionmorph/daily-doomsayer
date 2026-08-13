@@ -16435,8 +16435,539 @@
           "vulnerability": 0
         }
       }
+    },
+    "5907436efdfd30573bd5": {
+      "storyId": "5907436efdfd30573bd5",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+      "title": "Suno is trying to look more like a real music production tool",
+      "source": "The Verge AI",
+      "published": "2026-08-13T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5191c9df4e01064d99d939c1",
+      "bodyFingerprint": "6fcbdbb1b4823fdfd34e5ccc",
+      "bodyCharacterCount": 4953,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T16:14:09.994Z",
+      "assessment": {
+        "centralEvent": "Suno is trying to look more like a real music production tool",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nilay Patel Two hours ago Microsoft is combining its Copilot apps ahead of a ‘super app’ Jess Weatherbed Two hours ago Twitch streamers can now opt out from training Amazon’s AI Jay Peters Aug 12 Guitar company D’Addario admits that AI musi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "90172aa997e68b3a6d2d": {
+      "storyId": "90172aa997e68b3a6d2d",
+      "url": "https://www.inc.com/georgia-fearn/new-york-city-prediction-market-ads-may-be-deceptive/91389649",
+      "title": "New York City Says Prediction Market Ads May Be Deceptive. 4 Companies Have 14 Days to Answer",
+      "source": "Inc. AI",
+      "published": "2026-08-13T15:38:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5acddd4bd0565dd314c2392f",
+      "bodyFingerprint": "68bbeb842ce2fccc4bc5f64d",
+      "bodyCharacterCount": 127,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-13T16:14:10.075Z",
+      "assessment": {
+        "centralEvent": "New York City Says Prediction Market Ads May Be Deceptive. 4 Companies Have 14 Days to Answer",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "4 Companies Have 14 Days to Answer",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "86cac8b7d92ac87a2a41": {
+      "storyId": "86cac8b7d92ac87a2a41",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct9780?at_campaign=rss&at_medium=RSS",
+      "title": "BBC Inside Science",
+      "source": "BBC News AI",
+      "published": "2026-08-13T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6cea0ab19198cb0894a55b7d",
+      "bodyFingerprint": "899d8e0633992ed64a8a82fc",
+      "bodyCharacterCount": 1195,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T16:14:10.089Z",
+      "assessment": {
+        "centralEvent": "BBC Inside Science",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BBC Inside Science Play Bookmark Bookmark Subscribe Subscribe Available for 35 days The extreme possibilities of synthetic biology hit the headlines last week, when researchers at Stanford University in the US announced they had created new",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e5256eb51dcec9283b70": {
+      "storyId": "e5256eb51dcec9283b70",
+      "url": "https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
+      "title": "I looked inside an AI generated movie, and the best parts were all human",
+      "source": "The Verge AI",
+      "published": "2026-08-13T15:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3806245762e0f8ddebb48144",
+      "bodyFingerprint": "954bff908fea838e067dd139",
+      "bodyCharacterCount": 10329,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T16:14:10.107Z",
+      "assessment": {
+        "centralEvent": "I looked inside an AI generated movie, and the best parts were all human",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Charles Pulliam-Moore AI Entertainment Film Report Most Popular Most Popular Google’s Pixel 11 series pairs a little new hardware with a lot of new software How Google’s new Pixel 11 phones compare to last year’s models Xbox Elite 3 prototy",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "810592fba5ba854c7bb2": {
+      "storyId": "810592fba5ba854c7bb2",
+      "url": "https://thedispatch.com/newsletter/dispatch-markets/artificial-intelligence-winners-losers-land-housing",
+      "title": "Why Land Will Be a Winner in the Age of AI",
+      "source": "The Dispatch AI",
+      "published": "2026-08-13T15:24:35+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "22e084a19e15af81383498b6",
+      "bodyFingerprint": "08a64fb07c3e8c6004e8dc9b",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T16:14:10.321Z",
+      "assessment": {
+        "centralEvent": "Why Land Will Be a Winner in the Age of AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "History shows there is a massive amount of uncertainty around these questions.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "To access more Dispatch reporting and analysis, become a member today.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As the economist Daniel Rock, co-author of one of the most highly cited AI-exposure papers , tells me, “It’s easier to map capabilities to tasks that have the potential to change than to predict in advance what the changes will be.” This ho",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "We can say confidently that mean income will go up, but there may nevertheless be lower demand for some workers who don’t reap as [ARTICLE TRUNCATED] e-out duration-300\" x-transition:enter-start=\"translate-y-full\" x-transition:enter-end=\"tr",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "We can say confidently that mean income will go up, but there may nevertheless be lower demand for some workers who don’t reap as [ARTICLE TRUNCATED] e-out duration-300\" x-transition:enter-start=\"translate-y-full\" x-transition:enter-end=\"tr",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 141,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.5,
+        "rawScore": 26.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c92540e932ed6719107e": {
+      "storyId": "c92540e932ed6719107e",
+      "url": "https://apnews.com/article/russia-ukraine-war-oil-refinery-8050b4afb5bfd6f4d93c76b4d9795dfa",
+      "title": "Ukrainian drones strike a major refinery deep inside Russia, setting it ablaze",
+      "source": "AP News AI",
+      "published": "2026-08-13T11:20:32",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9138a776c5473590fae18fd3",
+      "bodyFingerprint": "1d3f74fa00a70921a08a3836",
+      "bodyCharacterCount": 8813,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T16:14:10.775Z",
+      "assessment": {
+        "centralEvent": "Ukrainian drones strike a major refinery deep inside Russia, setting it ablaze",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Ukrainian drones strike a major refinery deep inside Russia, setting it ablaze 1 of 3 | At least two people have been killed after Russian drone attacked a passenger train in Odesa region, CEO of Ukrainian Railways Oleksandr Pertsovskyi sai",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "18b38584392c7d31f0e2": {
+      "storyId": "18b38584392c7d31f0e2",
+      "url": "https://apnews.com/article/trump-kennedy-center-closure-renovations-591cc891a1c0ececf3602ed121ce4840",
+      "title": "Kennedy Center board set to vote on whether to move forward with closure",
+      "source": "AP News AI",
+      "published": "2026-08-13T04:11:09",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3128d1c983612e1b7b637ba5",
+      "bodyFingerprint": "a1695f1a4f4939897b41b492",
+      "bodyCharacterCount": 7147,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T16:14:10.824Z",
+      "assessment": {
+        "centralEvent": "Kennedy Center board set to vote on whether to move forward with closure",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Matt Floca, the Kennedy Center’s executive director and chief operating officer , guided a group of journalists through the building in April, highlighting severe water damage that he said corroded steel in some places as thin as tissue pap",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He demolished the East Wing of the White House and is building a controversial ballroom in its place, though an appeals court ruled last week that construction should stop because Congress didn’t approve the project.",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Kennedy Center board set to vote on whether to move forward with closure 1 of 3 | The exterior of the Kennedy Center is seen, Friday, July 31, 2026, in Washington. (AP Photo/Mark Schiefelbein) Read More 2 of 3 | National Guard members walk ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8e77a85b47ddb894bb26": {
+      "storyId": "8e77a85b47ddb894bb26",
+      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps",
+      "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+      "source": "TechCrunch AI",
+      "published": "2026-08-13T15:30:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5a0e3b84b2cd1327e3d94f82",
+      "bodyFingerprint": "7f2bdf14eb744c4093535e8e",
+      "bodyCharacterCount": 3421,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T16:14:10.904Z",
+      "assessment": {
+        "centralEvent": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As initially reported by GeekWire and detailed in Microsoft’s support documentation , the tech giant will combine the functionality of its consumer-facing Copilot app and the more business-oriented Microsoft 365 Copilot app.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-13T15:17:04.029Z"
+  "updatedAt": "2026-08-13T16:14:10.904Z"
 }
