@@ -26,7 +26,7 @@ test("Chronicle interaction covers the rendered label without a tooltip", async 
   assert.doesNotMatch(newsScript, /\.title\s*=\s*numerical/);
 });
 
-test("DREAD 1.2.4 is the configured experimental model throughout the site", async () => {
+test("the site exposes public, experimental, and body-aware DREAD models", async () => {
   const [
     configText,
     indexHtml,
@@ -47,10 +47,25 @@ test("DREAD 1.2.4 is the configured experimental model throughout the site", asy
   assert.equal(config.doomIndex.version, "1.2.2");
   assert.equal(config.doomIndex.shadow.version, "1.2.4");
   assert.equal(config.doomIndex.shadow.formulaVersion, "1.2.4-offline.1");
+  assert.equal(config.doomIndex.bodyAware.version, "1.3.0");
+  assert.equal(
+    config.doomIndex.bodyAware.formulaVersion,
+    "1.3.0-body-context.1",
+  );
+  assert.equal(
+    config.doomIndex.bodyAware.analyzerVersion,
+    "1.3.0-context-rules.1",
+  );
+  assert.equal(config.doomIndex.bodyAware.model, undefined);
   assert.match(indexHtml, /data-model-version>1\.2\.4</);
+  assert.match(indexHtml, /data-doom-model="body-aware"/);
+  assert.match(indexHtml, /data-model-version>1\.3\.0</);
   assert.match(newsScript, /doomIndexV124Shadow/);
+  assert.match(newsScript, /doomIndexV130BodyAware/);
+  assert.match(newsScript, /if \(model !== "public"\) \{\s*return null;/);
   assert.match(calibrationScript, /doomIndexV124Shadow/);
   assert.match(fetchScript, /calculateDoomIndexV124/);
+  assert.match(fetchScript, /doomIndexBodyAwareConfig/);
   assert.match(verificationScript, /calculateDoomIndexV124FromFactors/);
   assert.doesNotMatch(newsScript, /doomIndexV123Shadow/);
   assert.doesNotMatch(calibrationScript, /doomIndexV123Shadow/);
