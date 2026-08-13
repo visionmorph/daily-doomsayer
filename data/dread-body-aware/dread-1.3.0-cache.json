@@ -18058,8 +18058,181 @@
           "vulnerability": 0
         }
       }
+    },
+    "31b6cf628065b1501e93": {
+      "storyId": "31b6cf628065b1501e93",
+      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation",
+      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-13T20:14:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1e12707288983f6cbb3db1d2",
+      "bodyFingerprint": "881ccabc4ef30a77d3582ffe",
+      "bodyCharacterCount": 5469,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T21:05:32.475Z",
+      "assessment": {
+        "centralEvent": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes Lucas Ropek Phoebe Gates and Sophia Kianni reportedly knew Phia was ‘cookie stuffing’ for months Dominic-Mad",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Its AI chatbot tool Genie, that can do business analysis on the spot, “is insanely popular,” he said.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fbf5b2d271ed286ddf06": {
+      "storyId": "fbf5b2d271ed286ddf06",
+      "url": "https://www.inc.com/anna-anisin/most-people-are-looking-at-ai-and-saas-the-wrong-way/91389553",
+      "title": "Most People Are Looking at AI and SaaS the Wrong Way",
+      "source": "Inc. AI",
+      "published": "2026-08-13T19:33:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b054e824e62d710c821a7ad6",
+      "bodyFingerprint": "8b44a69d021a7c9e528b0996",
+      "bodyCharacterCount": 60,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-13T21:05:32.478Z",
+      "assessment": {
+        "centralEvent": "Most People Are Looking at AI and SaaS the Wrong Way",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "32bc4b8d7d79ba6daa57": {
+      "storyId": "32bc4b8d7d79ba6daa57",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+      "title": "OpenAI is losing its second executive this week",
+      "source": "The Verge AI",
+      "published": "2026-08-13T19:28:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6fdbcf11d1c5af2d9d58cf03",
+      "bodyFingerprint": "fff953605cb35086cda72bac",
+      "bodyCharacterCount": 3662,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-13T21:05:32.484Z",
+      "assessment": {
+        "centralEvent": "OpenAI is losing its second executive this week",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-13T19:27:40.650Z"
+  "updatedAt": "2026-08-13T21:05:32.484Z"
 }
