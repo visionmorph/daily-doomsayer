@@ -73,7 +73,9 @@
       "formulaVersion": "1.3.0-body-context.1",
       "valueField": "doomIndexV130BodyAware",
       "analyzerVersion": "1.3.0-context-rules.1",
-      "maxNewPerRun": 25,
+      "maxNewPerRun": 200,
+      "articleConcurrency": 4,
+      "articleTimeoutMs": 12000,
       "articleCharacterLimit": 18000
     }
   },
