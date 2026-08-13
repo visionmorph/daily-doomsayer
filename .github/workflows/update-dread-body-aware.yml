@@ -1,0 +1,54 @@
+name: Update DREAD 1.3 body-aware ratings
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Update news articles
+    types:
+      - completed
+
+concurrency:
+  group: update-dread-body-aware-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-dread-body-aware:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          package-manager-cache: false
+
+      - name: Install project dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Assess new stories with DREAD 1.3
+        timeout-minutes: 15
+        run: npm run update-dread-body-aware
+
+      - name: Verify the body-aware implementation
+        timeout-minutes: 2
+        run: node --test tests/doom-index-v1.3.0.test.mjs tests/site-data.test.mjs
+
+      - name: Save body-aware ratings
+        run: |
+          git add articles.js data/dread-body-aware/dread-1.3.0-cache.json
+          if git diff --cached --quiet; then
+            echo "No new DREAD 1.3 ratings"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update DREAD 1.3 body-aware ratings"
+          git push
