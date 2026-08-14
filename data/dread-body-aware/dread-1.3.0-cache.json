@@ -21604,8 +21604,316 @@
           "vulnerability": 0
         }
       }
+    },
+    "23be1c8a10c016b60ce6": {
+      "storyId": "23be1c8a10c016b60ce6",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone",
+      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "source": "TechCrunch AI",
+      "published": "2026-08-14T15:43:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "84983734b6e6414f12cf865e",
+      "bodyFingerprint": "55a1bfd89f7ebca0863b715d",
+      "bodyCharacterCount": 367,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T16:07:45.851Z",
+      "assessment": {
+        "centralEvent": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "297d6cc2d693633af177": {
+      "storyId": "297d6cc2d693633af177",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong",
+      "title": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+      "source": "TechCrunch AI",
+      "published": "2026-08-14T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d94d4482f9247ded9716e011",
+      "bodyFingerprint": "c6ae1e5445899cda6f253486",
+      "bodyCharacterCount": 5219,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T16:07:45.865Z",
+      "assessment": {
+        "centralEvent": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The potential cost Amazon’s planned data center in Texas and the startups racing to fix the grid, including Form Energy’s $750M raise for 100-hour batteries, Reservoir’s $8M bet on smarter water heaters, and Discovered Materials’ hunt for c",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a54e596ca01f1a4fa8fc": {
+      "storyId": "a54e596ca01f1a4fa8fc",
+      "url": "https://www.theguardian.com/uk-news/2026/aug/14/scottish-police-expect-public-opposition-larbert-datacentre",
+      "title": "Scottish police expect ‘great deal of public opposition’ to planned Larbert datacentre",
+      "source": "The Guardian AI",
+      "published": "2026-08-14T16:05:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "04c8a854cbe2b3d1f25b001f",
+      "bodyFingerprint": "233d072ce1720b4400516364",
+      "bodyCharacterCount": 5947,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T16:07:45.880Z",
+      "assessment": {
+        "centralEvent": "Scottish police expect ‘great deal of public opposition’ to planned Larbert datacentre",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“The amount of pollution and the noise created by these things will be horrendous in every direction.” View image in fullscreen Campaigners in Larbert are concerned about the potential health and environmental impacts of the proposed datace",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "These questions are particularly acute in Scotland, where there are at least 23 “hyperscale” datacentre developments in the planning process, according to the Edinburgh-based charity Action to Protect Rural Scotland (APRS).",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "This summer, the Scottish National party passed a motion to freeze all new datacentres in Scotland.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "374acfbd66bc567154a4": {
+      "storyId": "374acfbd66bc567154a4",
+      "url": "https://apnews.com/article/trump-white-house-china-tariffs-avoidance-5dacb82bc5a0a1d550b0ea2353ace005",
+      "title": "Trump White House says it's losing $19B-$26B a year in revenue as countries dodge tariffs",
+      "source": "AP News AI",
+      "published": "2026-08-13T16:37:01",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "560c4aef682816c83b0a6f45",
+      "bodyFingerprint": "ff356f6fcea1925e4d564d4f",
+      "bodyCharacterCount": 4021,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T16:07:45.917Z",
+      "assessment": {
+        "centralEvent": "Trump White House says it's losing $19B-$26B a year in revenue as countries dodge tariffs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“For years, the great transshipment scam has let communist China launder its exports,” Navarro said.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "11, 2026, outside the White House in Washington. (AP Photo/Julia Demaree Nikhinson) By JOSH BOAK Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "aa5d2f437488ee225c67": {
+      "storyId": "aa5d2f437488ee225c67",
+      "url": "https://www.nature.com/articles/d41586-026-02562-w",
+      "title": "Briefing Chat: Anthropic rolls out new AI watermark — will it make a difference?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-08-14T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dcbfa9e82df2e760b15643a0",
+      "bodyFingerprint": "a3aa8664c0c3a606814022b9",
+      "bodyCharacterCount": 81,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T16:07:46.388Z",
+      "assessment": {
+        "centralEvent": "Briefing Chat: Anthropic rolls out new AI watermark — will it make a difference?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T15:08:32.091Z"
+  "updatedAt": "2026-08-14T16:07:46.388Z"
 }
