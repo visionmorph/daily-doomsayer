@@ -22501,8 +22501,87 @@
           "vulnerability": 0
         }
       }
+    },
+    "5d267d01d291cd817dde": {
+      "storyId": "5d267d01d291cd817dde",
+      "url": "https://apnews.com/article/military-families-ice-soldier-jaramillo-8fd49a323642f278add1c9ce39d131c3",
+      "title": "Wife of US soldier is removed from deportation flight and released from federal immigration custody",
+      "source": "AP News AI",
+      "published": "2026-08-14T13:33:56",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f9df22a552c8c8a760ee0281",
+      "bodyFingerprint": "c69eb6e96e92b1768d1478cf",
+      "bodyCharacterCount": 8097,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T19:59:04.031Z",
+      "assessment": {
+        "centralEvent": "Wife of US soldier is removed from deportation flight and released from federal immigration custody",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Stories Documents show federal surveillance operation in Minnesota targeted progressive groups, unions 4 MIN READ 25 US Attorney confirms no meth was found in van of Texas man shot by immigration officers 2 MIN READ 37 Judge orders ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The wife of a U.S. soldier has been released from federal immigration custody after spending more than a month detained, according to her family.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Alexis Jaramillo shows photos of his wife, Maisa Lopes Eliaser, a Brazilian national who is detained by ICE, near the South Louisiana ICE Processing Center where she is currently held, in Basile, La., Sunday, Aug.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Tammy Duckworth, a Democrat and combat veteran, told the AP that she personally contacted DHS to call for the release of Deisy Rivera Ortega, the immigrant wife of an Army sergeant who did three tours in Afghanistan, after learning about he",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.24,
+        "rawScore": 47.24,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.295,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T19:15:57.150Z"
+  "updatedAt": "2026-08-14T19:59:04.032Z"
 }
