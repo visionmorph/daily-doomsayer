@@ -22742,8 +22742,140 @@
           "vulnerability": 0
         }
       }
+    },
+    "3c565c04f6e389db5664": {
+      "storyId": "3c565c04f6e389db5664",
+      "url": "https://apnews.com/article/iran-uae-us-strait-hormuz-august-14-2026-e8565c608ac5283ec8103c85df924b13",
+      "title": "2 UAE tankers attacked while transiting Strait of Hormuz, and other news from the Middle East",
+      "source": "AP News AI",
+      "published": "2026-08-14T09:07:18",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "75e82b39d22975e32e84323c",
+      "bodyFingerprint": "aad5e23a4799e4ba6c6d3c5f",
+      "bodyCharacterCount": 10048,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T21:43:02.074Z",
+      "assessment": {
+        "centralEvent": "2 UAE tankers attacked while transiting Strait of Hormuz, and other news from the Middle East",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "14, 2026. (AP Photo/Abdulnasser Alseddik) Read More 2 of 5 | An injured child receives treatment at a hospital after a strike on the port of Mokha, Yemen, Friday, Aug.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5ad17c7b86be6525acf0": {
+      "storyId": "5ad17c7b86be6525acf0",
+      "url": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china",
+      "title": "The Next Big Influencer Is This 4-Foot-Tall Robot From China",
+      "source": "WIRED AI",
+      "published": "2026-08-14T20:59:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d256a0ecce5cfb6fdf757d02",
+      "bodyFingerprint": "1d34b2873d5d51bf3b30d37f",
+      "bodyCharacterCount": 10581,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T21:43:02.176Z",
+      "assessment": {
+        "centralEvent": "The Next Big Influencer Is This 4-Foot-Tall Robot From China",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like In your inbox: This is not your average politics newsletter WiFi-8 is coming—here’s everything you need to know Big Story: Young runners are becoming freakish",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Rates range from $800 to $1,200 an hour, depending on what the robot needs to do.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In April, a video of it chasing away wild boars in Warsaw, armed with a backpack and a Rolex, went viral worldwide .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 86,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T20:47:44.484Z"
+  "updatedAt": "2026-08-14T21:43:02.176Z"
 }
