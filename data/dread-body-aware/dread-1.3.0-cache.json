@@ -21974,8 +21974,350 @@
           "vulnerability": 0
         }
       }
+    },
+    "c2b511d8de276ce99f74": {
+      "storyId": "c2b511d8de276ce99f74",
+      "url": "https://www.inc.com/hazel-gandhi/founders-are-using-ai-to-do-the-impossible-but-its-secretly-becoming-their-biggest-nightmare/91391232",
+      "title": "Founders Are Using AI to Do the Impossible—But It’s Secretly Becoming Their Biggest Nightmare",
+      "source": "Inc. AI",
+      "published": "2026-08-14T16:55:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "50a3fcc9e064f11ca0c6b692",
+      "bodyFingerprint": "340a7a1678192e38321dc860",
+      "bodyCharacterCount": 85,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T18:08:52.241Z",
+      "assessment": {
+        "centralEvent": "Founders Are Using AI to Do the Impossible—But It’s Secretly Becoming Their Biggest Nightmare",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e5026bc3d2dc8fd3a568": {
+      "storyId": "e5026bc3d2dc8fd3a568",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "title": "You can now turn off Google Gemini’s visible watermarks",
+      "source": "The Verge AI",
+      "published": "2026-08-14T16:39:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c91394204574b68a04a35736",
+      "bodyFingerprint": "ac4f14b56502728edadc13cc",
+      "bodyCharacterCount": 4131,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T18:08:52.303Z",
+      "assessment": {
+        "centralEvent": "You can now turn off Google Gemini’s visible watermarks",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Screenshot: The Verge Related Reality is losing the deepfake war Europe’s AI labeling and transparency rules are now in effect While this change might make it more difficult to quickly discern if an image or video is AI-generated, many user",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Though visible watermarks are now optional, AI-generated content will have invisible SynthID watermarks and C2PA metadata embedded in the background, according to Josh Woodward, the vice president of Google Labs, Gemini, and AI Studio.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0ac410e43437d3fe2015": {
+      "storyId": "0ac410e43437d3fe2015",
+      "url": "https://apnews.com/article/wwii-memorial-vandalized-paint-bubbles-ac1f767c2bfb81f0902b1914c2dfe252",
+      "title": "Suspect arrested in World War II Memorial vandalism in Washington",
+      "source": "AP News AI",
+      "published": "2026-08-14T04:04:48",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd33347887cb475482e7defc",
+      "bodyFingerprint": "24a66a4da0955fa460f593b3",
+      "bodyCharacterCount": 7436,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T18:08:52.322Z",
+      "assessment": {
+        "centralEvent": "Suspect arrested in World War II Memorial vandalism in Washington",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Park Police have been investigating vandalism at the World War II Memorial in Washington, according to WJLA.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0915045e2374a66241ca": {
+      "storyId": "0915045e2374a66241ca",
+      "url": "https://apnews.com/article/luigi-mangione-plea-unitedhealthcare-ceo-3b8a5bb41589c9f5f4775dba2beea66f",
+      "title": "Luigi Mangione pleads guilty to federal stalking charges in the killing of UnitedHealthcare CEO",
+      "source": "AP News AI",
+      "published": "2026-08-14T04:04:29",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fbc31454ddc0e2f0f5055be5",
+      "bodyFingerprint": "bc249c11f10670a279d427ce",
+      "bodyCharacterCount": 11948,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T18:08:52.348Z",
+      "assessment": {
+        "centralEvent": "Luigi Mangione pleads guilty to federal stalking charges in the killing of UnitedHealthcare CEO",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Read More Mangione alludes to back pain in explaining his actions Surveillance video of the ambush showed a masked gunman shooting Thompson, 50, from behind.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Braun/Pittsburgh Post-Gazette via AP, File) Read More 6 of 6 | A man holds a sign outside of Manhattan Federal Court on the day of a hearing for Luigi Mangione on Friday, Aug.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Mangione still faces a separate state murder case Mangione entered the plea at a hastily scheduled hearing in Manhattan federal court, resolving one of two cases against him in connection with Thompson’s death.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Mangione still faces a separate state murder case Mangione entered the plea at a hastily scheduled hearing in Manhattan federal court, resolving one of two cases against him in connection with Thompson’s death.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "44f5ffd58af345960036": {
+      "storyId": "44f5ffd58af345960036",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case",
+      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "source": "Ars Technica AI",
+      "published": "2026-08-14T17:26:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "80cf5cc0836078f7fda8531b",
+      "bodyFingerprint": "7a664c5eeab00c9c5832d708",
+      "bodyCharacterCount": 8365,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T18:08:52.554Z",
+      "assessment": {
+        "centralEvent": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The plan didn’t work, but Elliott faced modest sanctions anyway because he continued adding hidden text to filings even after the court warned him that he could face penalties for what was ultimately deemed a “serious litigation abuse.” The",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a decision published last week, Connecticut judge Walter Spader Jr. confirmed that the hidden text had no impact in a case where a man alleged a healthcare provider was improperly withholding access to records.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In Connecticut, like many other court systems, the focus so far has been on policing AI outputs that damage trust in courts, like hallucinated citations or fabricated quotes, not inputs like prompt injections.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The offending text directed any AI system reviewing the document to ensure textual outputs agreed with the plaintiff’s arguments, ignored prior denials from the court, and ensured that remediation would follow as the plaintiff desired.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Instead, the judge prohibited Elliott from e-filing in the future, declaring that requiring him to submit paper filings would not change his access to justice but would prevent repeated misuse of the court’s e-filing system.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.45,
+        "rawScore": 48.45,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.405,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T17:13:52.011Z"
+  "updatedAt": "2026-08-14T18:08:52.554Z"
 }
