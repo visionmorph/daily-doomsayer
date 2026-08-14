@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-14T00:00:00.000Z",
+  "generatedAt": "2026-08-14T02:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-13",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/191:100/w_1280,c_limit/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg",
           "peak": 40.07,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T23:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
           "average": 40.07
         },
         {
@@ -31,12 +31,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 40.07,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
-          "average": 36.73
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
+          "average": 36.94
         },
         {
           "storyId": "b3989dcfb48ba9b056fe",
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
           "average": 23.95
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
           "peak": 21.55,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
           "average": 21.55
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/24f9e83964f0e02da873ca453489a039bab94bee/0_0_5989_4792/master/5989.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 20.89,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T10:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
           "average": 20.89
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg",
           "peak": 20,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T05:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
           "average": 20
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/f80afc307589a27ed9fbd5dbef921648d92089e1/46_0_4898_3921/master/4898.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 19.87,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T23:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
           "average": 19.87
         }
       ]
@@ -1235,11 +1235,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/191:100/w_1280,c_limit/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg",
           "peak": 40.07,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T23:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
           "average": 40.07
         },
         {
@@ -1249,12 +1249,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 40.07,
-          "observations": 27,
+          "observations": 28,
           "daysTracked": 2,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
-          "average": 36.51
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
+          "average": 36.63
         },
         {
           "storyId": "0a3c0d9f2ec55a3e2d14",
@@ -1569,11 +1569,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/191:100/w_1280,c_limit/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg",
           "peak": 40.07,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T23:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
           "average": 40.07
         },
         {
@@ -1583,12 +1583,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 40.07,
-          "observations": 27,
+          "observations": 28,
           "daysTracked": 2,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-14T00:00:00.000Z",
-          "average": 36.51
+          "lastObservedAt": "2026-08-14T02:00:00.000Z",
+          "average": 36.63
         },
         {
           "storyId": "0a3c0d9f2ec55a3e2d14",
