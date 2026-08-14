@@ -20184,8 +20184,814 @@
           "vulnerability": 0
         }
       }
+    },
+    "d1db148f3a46d9ba3df0": {
+      "storyId": "d1db148f3a46d9ba3df0",
+      "url": "https://www.inc.com/tariq-omair/ai-is-closing-some-career-doors/91389857",
+      "title": "AI Is Closing Some Career Doors",
+      "source": "Inc. AI",
+      "published": "2026-08-14T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0de0c7318da0da5c2fdb740f",
+      "bodyFingerprint": "da856c40557d288f41a47ec3",
+      "bodyCharacterCount": 155,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T13:45:51.527Z",
+      "assessment": {
+        "centralEvent": "AI Is Closing Some Career Doors",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cf4c9c81ccd45eaab78c": {
+      "storyId": "cf4c9c81ccd45eaab78c",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/aug/14/online-dating-salvage-mode--ai-bumble-app",
+      "title": "As online dating goes into ‘salvage mode’, can AI solve all its problems?",
+      "source": "The Guardian AI",
+      "published": "2026-08-14T13:00:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "066179a57d94361b41879c04",
+      "bodyFingerprint": "d89ae179674a1059320a27d1",
+      "bodyCharacterCount": 5541,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T13:45:51.565Z",
+      "assessment": {
+        "centralEvent": "As online dating goes into ‘salvage mode’, can AI solve all its problems?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This risky, standout pivot suggests they’re wondering how, despite all that, to keep going.” The number of Bumble’s paying users fell sharply over the past year and its share price has been under sustained pressure.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b2310836aec0f1168377": {
+      "storyId": "b2310836aec0f1168377",
+      "url": "https://www.inc.com/georgia-fearn/anthropic-biggest-acquisition-six-billion-bet-making-claude-run-faster/91390617",
+      "title": "Anthropic’s Biggest Acquisition Could Be a $6 Billion Bet on Making Claude Run Faster",
+      "source": "Inc. AI",
+      "published": "2026-08-14T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d5d8942f75881eb565da9961",
+      "bodyFingerprint": "2358bad15e6c2d1e72851a47",
+      "bodyCharacterCount": 158,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T13:45:51.584Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s Biggest Acquisition Could Be a $6 Billion Bet on Making Claude Run Faster",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2530ac11aeab8613dbd4": {
+      "storyId": "2530ac11aeab8613dbd4",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
+      "title": "Scientists detect a nuclear reactor’s ghostly afterglow for the first time",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-14T13:16:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9427ffe670b1c06efd9ea16e",
+      "bodyFingerprint": "7b6d6130cb7d482775ceb221",
+      "bodyCharacterCount": 9369,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T13:45:51.600Z",
+      "assessment": {
+        "centralEvent": "Scientists detect a nuclear reactor’s ghostly afterglow for the first time",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Researchers examined 17.2 days of observations collected while both reactor units were fully shut down.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d129c30eadc844a69ff": {
+      "storyId": "0d129c30eadc844a69ff",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260812015203.htm",
+      "title": "NASA’s Perseverance rover watches Earth vanish from the surface of Mars",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-13T13:20:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b826569cfcaaaf505624d247",
+      "bodyFingerprint": "86baa90d8c38ba44a0405e50",
+      "bodyCharacterCount": 7791,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T13:45:51.704Z",
+      "assessment": {
+        "centralEvent": "NASA’s Perseverance rover watches Earth vanish from the surface of Mars",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Share: Facebook Twitter Pinterest LinkedIN Email FULL STORY This composite of three images of Earth passing behind the Martian moon Phobos was acquired from data taken on July 2, 2026, 1,907th Martian day, or sol, of the mission.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7d82841add7626fd68af": {
+      "storyId": "7d82841add7626fd68af",
+      "url": "https://mashable.com/tech/google-pixel-watch-5-lab-report",
+      "title": "Your new workout partner: Google Pixel Watch 5 | Lab Report",
+      "source": "Mashable AI",
+      "published": "2026-08-14T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "96e3543cb05a4c4776b23a27",
+      "bodyFingerprint": "d0c5fe105ffe5e43034ac1f0",
+      "bodyCharacterCount": 567,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T13:45:51.715Z",
+      "assessment": {
+        "centralEvent": "Your new workout partner: Google Pixel Watch 5 | Lab Report",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0443a5f930f21fdab051": {
+      "storyId": "0443a5f930f21fdab051",
+      "url": "https://www.inc.com/stephanie-cartin/human-connection-is-your-advantage-in-the-age-of-ai/91390197",
+      "title": "Human Connection Is Your Advantage in the Age of AI",
+      "source": "Inc. AI",
+      "published": "2026-08-14T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ec2dc1228a441623c01b0db6",
+      "bodyFingerprint": "9a52eade8f5ba49a7f7194c7",
+      "bodyCharacterCount": 113,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T13:45:51.729Z",
+      "assessment": {
+        "centralEvent": "Human Connection Is Your Advantage in the Age of AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "55af8468217b466e2cd5": {
+      "storyId": "55af8468217b466e2cd5",
+      "url": "https://www.inc.com/ivan-lucin/when-writing-code-is-no-longer-the-issue-what-is/91389903",
+      "title": "When Writing Code Is No Longer the Issue, What Is?",
+      "source": "Inc. AI",
+      "published": "2026-08-14T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ce74b08a3ce3802e41964849",
+      "bodyFingerprint": "69328363ce1675958bbda74b",
+      "bodyCharacterCount": 67,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T13:45:51.738Z",
+      "assessment": {
+        "centralEvent": "When Writing Code Is No Longer the Issue, What Is?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "952b1ee1e28fb307a59b": {
+      "storyId": "952b1ee1e28fb307a59b",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814011041.htm",
+      "title": "World’s first superconducting quantum heat engine could help unlock massive quantum computers",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-14T12:56:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2fe63785365268a825851e5f",
+      "bodyFingerprint": "a06f26858eedbc029c7aaa2c",
+      "bodyCharacterCount": 9355,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T13:45:51.754Z",
+      "assessment": {
+        "centralEvent": "World’s first superconducting quantum heat engine could help unlock massive quantum computers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "20, 2023  Researchers have devised a new concept of superconducting microwave low-noise amplifiers for use in radio wave detectors for radio astronomy observations, and successfully demonstrated a ...",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f3e04798ad676ce60b12": {
+      "storyId": "f3e04798ad676ce60b12",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260813045541.htm",
+      "title": "A massive new cosmic map is revealing black holes, rare stars, and hidden gas",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-14T04:21:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c11dab403ee33e541e61af91",
+      "bodyFingerprint": "d105b0730bdee61727c78025",
+      "bodyCharacterCount": 12602,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T13:45:51.835Z",
+      "assessment": {
+        "centralEvent": "A massive new cosmic map is revealing black holes, rare stars, and hidden gas",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By combining over 50 hours of ...",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 77,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f2e5414e8d54e4f545a7": {
+      "storyId": "f2e5414e8d54e4f545a7",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260813045545.htm",
+      "title": "Neptune’s tiny moons may be the wreckage of shattered ancient worlds",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-14T04:35:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9246375dd53522d62ce9557d",
+      "bodyFingerprint": "b79467d1488a268ffa88cc0b",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T13:45:51.841Z",
+      "assessment": {
+        "centralEvent": "Neptune’s tiny moons may be the wreckage of shattered ancient worlds",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "All three moons appear to contain the same hydrated mineral, but researchers have not yet been able to determine exactly what it is. \"We see something that doesn't really look like anything else we've identified in the solar system; it does",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Webb Detects Unexpected Clay Minerals The observations produced a major surprise. \"Phyllosilicates had never been detected anywhere in the outer solar system beyond Jupiter, so that was not on our list of things to look for,\" says Davis, wh",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "20, 2023  An international team has found two new crystal structures for salty ice, or solid hydrate made from water and sodium chloride.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 82,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "31169dc6c759bfc1669c": {
+      "storyId": "31169dc6c759bfc1669c",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260813045538.htm",
+      "title": "JWST spots a bizarre “black hole star” 100 billion times brighter than a star",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-13T13:03:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "37a88b23762e03987d9da402",
+      "bodyFingerprint": "8ec858c22523cf0a4e331bd4",
+      "bodyCharacterCount": 12828,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T13:45:51.920Z",
+      "assessment": {
+        "centralEvent": "JWST spots a bizarre “black hole star” 100 billion times brighter than a star",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The researchers also found a striking pattern in its spectrum.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 83,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e2f82ff7cf5d089e424f": {
+      "storyId": "e2f82ff7cf5d089e424f",
+      "url": "https://www.artificialintelligence-news.com/news/samsung-health-ai-models-analyse-wearable-biosignal-data",
+      "title": "Samsung health AI models analyse wearable biosignal data",
+      "source": "AI News",
+      "published": "2026-08-14T13:30:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6cf146c7fe089c4d8dea1fa5",
+      "bodyFingerprint": "95e6aa728a2b506a0dbefb66",
+      "bodyCharacterCount": 468,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T13:45:52.158Z",
+      "assessment": {
+        "centralEvent": "Samsung health AI models analyse wearable biosignal data",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e49c8dffbddc09714bc3": {
+      "storyId": "e49c8dffbddc09714bc3",
+      "url": "https://www.artificialintelligence-news.com/news/google-ai-health-coach-abbott-glucose-data",
+      "title": "Google AI health coach to use Abbott glucose data",
+      "source": "AI News",
+      "published": "2026-08-14T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f097e03c508ec1aae7c80b0d",
+      "bodyFingerprint": "80a87824cf0adacf45b47a20",
+      "bodyCharacterCount": 473,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T13:45:52.239Z",
+      "assessment": {
+        "centralEvent": "Google AI health coach to use Abbott glucose data",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T11:59:08.235Z"
+  "updatedAt": "2026-08-14T13:45:52.239Z"
 }
