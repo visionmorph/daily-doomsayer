@@ -969,7 +969,7 @@
       "url": "https://science.nasa.gov/science-research/ai-foundation-model-in-orbit/",
       "canonicalUrl": "https://science.nasa.gov/science-research/ai-foundation-model-in-orbit",
       "source": "NASA AI",
-      "image": "https://science.nasa.gov/wp-content/uploads/2026/08/side-by-side-graphic-polargeospatial.jpg",
+      "image": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ar-emergence-model-screenshot.jpg",
       "published": "2026-05-07T14:23:35.000Z",
       "firstSeen": "2026-08-05T18:00:00.000Z",
       "lastSeen": "2026-08-14T19:00:00.000Z"
@@ -9004,7 +9004,7 @@
     },
     "c2b511d8de276ce99f74": {
       "storyId": "c2b511d8de276ce99f74",
-      "currentTitle": "Founders Are Using AI to Do the Impossible—But It’s Secretly Becoming Their Biggest Nightmare",
+      "currentTitle": "Founders Are Using AI to Do the Impossible—but It’s Secretly Becoming Their Biggest Nightmare",
       "originalTitle": "Founders Are Using AI to Do the Impossible—But It’s Secretly Becoming Their Biggest Nightmare",
       "url": "https://www.inc.com/hazel-gandhi/founders-are-using-ai-to-do-the-impossible-but-its-secretly-becoming-their-biggest-nightmare/91391232",
       "canonicalUrl": "https://www.inc.com/hazel-gandhi/founders-are-using-ai-to-do-the-impossible-but-its-secretly-becoming-their-biggest-nightmare/91391232",
@@ -9083,6 +9083,18 @@
       "source": "Inc. AI",
       "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/08/INC-Masters-Fast-Company-publishing-2026-08-12T172114.545.png",
       "published": "2026-08-14T18:19:00.000Z",
+      "firstSeen": "2026-08-14T19:00:00.000Z",
+      "lastSeen": "2026-08-14T19:00:00.000Z"
+    },
+    "5d267d01d291cd817dde": {
+      "storyId": "5d267d01d291cd817dde",
+      "currentTitle": "Wife of US soldier is removed from deportation flight and released from federal immigration custody",
+      "originalTitle": "Wife of US soldier is removed from deportation flight and released from federal immigration custody",
+      "url": "https://apnews.com/article/military-families-ice-soldier-jaramillo-8fd49a323642f278add1c9ce39d131c3",
+      "canonicalUrl": "https://apnews.com/article/military-families-ice-soldier-jaramillo-8fd49a323642f278add1c9ce39d131c3",
+      "source": "AP News AI",
+      "image": "https://dims.apnews.com/dims4/default/5e29094/2147483647/strip/true/crop/8256x5501+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff1%2F08%2Fedd34bd9c8a39258298cb107d63d%2Fe6cb33327c8a420795382aec3ad71f9d",
+      "published": "2026-08-14T13:33:56",
       "firstSeen": "2026-08-14T19:00:00.000Z",
       "lastSeen": "2026-08-14T19:00:00.000Z"
     }
