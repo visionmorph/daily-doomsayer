@@ -22316,8 +22316,193 @@
           "vulnerability": 0
         }
       }
+    },
+    "b271b4571d9f374cc37a": {
+      "storyId": "b271b4571d9f374cc37a",
+      "url": "https://www.inc.com/andy-ibbotson/the-ai-visibility-blind-spot-in-healthcare/91390266",
+      "title": "The AI Visibility Blind Spot in Healthcare",
+      "source": "Inc. AI",
+      "published": "2026-08-14T18:19:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1b89cce58e59258cdff835f2",
+      "bodyFingerprint": "b3463e880ece7f9ee12d3e0e",
+      "bodyCharacterCount": 40,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T19:15:57.106Z",
+      "assessment": {
+        "centralEvent": "The AI Visibility Blind Spot in Healthcare",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ac19fc1cc3a0a9154fac": {
+      "storyId": "ac19fc1cc3a0a9154fac",
+      "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+      "title": "Mark Zuckerberg has an Instagzam",
+      "source": "The Verge AI",
+      "published": "2026-08-14T16:54:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f87cd8503dd64c9bb0fcd3f1",
+      "bodyFingerprint": "f5776102dc11f5c643fc313c",
+      "bodyCharacterCount": 3813,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T19:15:57.125Z",
+      "assessment": {
+        "centralEvent": "Mark Zuckerberg has an Instagzam",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c2fa9c24ac83af8fb183": {
+      "storyId": "c2fa9c24ac83af8fb183",
+      "url": "https://apnews.com/article/italy-stolen-paintings-recovered-renoir-cezanne-matisse-7d0989da55b2ae2e204bb7c759a81266",
+      "title": "Italian Carabinieri recover stolen Renoir, Cézanne and Matisse artworks worth millions",
+      "source": "AP News AI",
+      "published": "2026-08-14T10:48:41",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6cd45dc17be59321099b0af3",
+      "bodyFingerprint": "65174c7bc3437420b90fdb48",
+      "bodyCharacterCount": 8321,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T19:15:57.150Z",
+      "assessment": {
+        "centralEvent": "Italian Carabinieri recover stolen Renoir, Cézanne and Matisse artworks worth millions",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Italian Carabinieri recover stolen Renoir, Cézanne and Matisse artworks worth millions",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The museum believes a structured and organized gang was responsible for the theft, which the alarm interrupted, local media reported.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Sao Paulo police said in a statement they arrested one man at the scene for allegedly holding the prints for another person who was taken into custody in April during an unrelated art theft probe.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Italian authorities have recovered three stolen artworks by Renoir, Cézanne, and Matisse worth millions of euros.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.01,
+        "rawScore": 46.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1825,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T18:08:52.554Z"
+  "updatedAt": "2026-08-14T19:15:57.150Z"
 }
