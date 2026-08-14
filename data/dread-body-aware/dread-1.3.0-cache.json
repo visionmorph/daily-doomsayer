@@ -22874,8 +22874,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "ef9c72ca6c8e0e24c732": {
+      "storyId": "ef9c72ca6c8e0e24c732",
+      "url": "https://apnews.com/article/trump-white-house-ballroom-supreme-court-84db62e26459e2206659d36cc5a749aa",
+      "title": "Trump asks Supreme Court to let White House ballroom construction continue during appeal",
+      "source": "AP News AI",
+      "published": "2026-08-14T13:54:35",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "99c89a542d9a06ee09cd2892",
+      "bodyFingerprint": "6b1f9f8311d3884ee429a5d2",
+      "bodyCharacterCount": 11140,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T22:42:42.784Z",
+      "assessment": {
+        "centralEvent": "Trump asks Supreme Court to let White House ballroom construction continue during appeal",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The divided appeals court panel ruled last week Trump must stop the White House ballroom’s construction because Congress has not approved the project.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 80,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T21:43:02.176Z"
+  "updatedAt": "2026-08-14T22:42:42.784Z"
 }
