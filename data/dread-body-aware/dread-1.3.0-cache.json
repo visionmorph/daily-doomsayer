@@ -19074,8 +19074,323 @@
           "vulnerability": 0
         }
       }
+    },
+    "aed0ac3f041a5b83950a": {
+      "storyId": "aed0ac3f041a5b83950a",
+      "url": "https://mashable.com/tech/ai-play-role-double-murder",
+      "title": "Did AI play a role in a grisly double murder?",
+      "source": "Mashable AI",
+      "published": "2026-08-14T01:06:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "87579c15093a66d679e5ea57",
+      "bodyFingerprint": "42cba25869f83ca4796f7a7f",
+      "bodyCharacterCount": 3744,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T02:48:02.547Z",
+      "assessment": {
+        "centralEvent": "Did AI play a role in a grisly double murder?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "You May Also Like SEE ALSO: Teens talking to Meta AI about suicide will trigger alert Speaking to reporters following Aravind’s arrest, Middlesex County DA Marian Ryan made a point of highlighting Arjun Aravind's internet use, saying the te",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eb997b4a45ef7965bab9": {
+      "storyId": "eb997b4a45ef7965bab9",
+      "url": "https://apnews.com/article/aircraft-carriers-uss-abraham-lincoln-washington-iran-5366eba29f72b6b317416fde81d57a61",
+      "title": "New aircraft carrier heads toward Mideast after reports of issues on long-deployed USS Lincoln",
+      "source": "AP News AI",
+      "published": "2026-08-13T18:17:19",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "52c92026cd6287e462164fe7",
+      "bodyFingerprint": "cccd4bb49f3d79f4e07a8aa7",
+      "bodyCharacterCount": 9061,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T02:48:02.573Z",
+      "assessment": {
+        "centralEvent": "New aircraft carrier heads toward Mideast after reports of issues on long-deployed USS Lincoln",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Lincoln has been supporting the U.S. war against Iran , and its deployment has included a record-setting uninterrupted time at sea of more than 260 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d656a60fba4eccfbe8fe": {
+      "storyId": "d656a60fba4eccfbe8fe",
+      "url": "https://apnews.com/article/enbridge-pipeline-straits-of-mackinac-362091b1022d1584ad1a78364bd28b41",
+      "title": "Feds issue Line 5 tunnel permit, call it ‘not contrary to the public interest’",
+      "source": "AP News AI",
+      "published": "2026-08-13T17:17:58",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7ae679dab844ece1d535c26f",
+      "bodyFingerprint": "6127969d08e2ea82e4bee02a",
+      "bodyCharacterCount": 6064,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T02:48:02.581Z",
+      "assessment": {
+        "centralEvent": "Feds issue Line 5 tunnel permit, call it ‘not contrary to the public interest’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Enbridge is also seeking a permit to discharge millions of gallons of treated wastewater per day into Lake Michigan during tunnel construction.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "78e5513de11d98f9f75d": {
+      "storyId": "78e5513de11d98f9f75d",
+      "url": "https://www.politico.eu/article/artificial-intelligence-ai-watermark-big-tech",
+      "title": "Hiding your use of AI is about to get much harder — thanks to Brussels",
+      "source": "POLITICO Europe AI",
+      "published": "2026-08-13T15:05:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "18235717153edabca2b7393e",
+      "bodyFingerprint": "f92e3d8cb85632a4ee7d7c2d",
+      "bodyCharacterCount": 5276,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T02:48:02.850Z",
+      "assessment": {
+        "centralEvent": "Hiding your use of AI is about to get much harder — thanks to Brussels",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "While leading AI companies have said they wanted to address this risk by identifying the provenance of content generated by their models, their efforts have been largely voluntary.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "She described a change from a world where people had to make an “educated decision” on whether something was AI-generated to one where such content has a verified symbol or overlay.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It's a reminder that Brussels often ends up as a kind of global regulator of last resort, ready to step in and set limits on the Big Tech industry that might otherwise barrel ahead at full speed.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.63,
+        "rawScore": 27.63,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e46430a98549625cc9bb": {
+      "storyId": "e46430a98549625cc9bb",
+      "url": "https://www.politico.eu/article/nato-plan-drone-battlefield-ai-artificial-intelligence",
+      "title": "NATO’s plan for a drone-infested battlefield: Let AI fly while humans decide who dies",
+      "source": "POLITICO Europe AI",
+      "published": "2026-08-13T15:42:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d528b0632ca0d3153f80c9f4",
+      "bodyFingerprint": "7a305a2cdb81ee86f16a2a11",
+      "bodyCharacterCount": 5433,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T02:48:02.855Z",
+      "assessment": {
+        "centralEvent": "NATO’s plan for a drone-infested battlefield: Let AI fly while humans decide who dies",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“We’re learning from Ukraine.” The Axel Springer Global Reporters Network harnesses the resources of the company’s newsrooms to publish ambitious scoops, investigations, interviews, opinion pieces and analysis.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T00:00:45.630Z"
+  "updatedAt": "2026-08-14T02:48:02.855Z"
 }
