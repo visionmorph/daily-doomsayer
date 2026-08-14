@@ -22580,8 +22580,170 @@
           "vulnerability": 0
         }
       }
+    },
+    "7a4bdcddfbbd94754011": {
+      "storyId": "7a4bdcddfbbd94754011",
+      "url": "https://www.inc.com/tomas-gorny/businesses-measuring-ai-value-wrong/91391271",
+      "title": "A New Report Finds Businesses Are Measuring AI Value Entirely Wrong. Here’s the Better Way",
+      "source": "Inc. AI",
+      "published": "2026-08-14T20:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0374a36c17a250ce765fd893",
+      "bodyFingerprint": "63c7cb16cdaa4fe033c3ee4c",
+      "bodyCharacterCount": 91,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T20:47:44.443Z",
+      "assessment": {
+        "centralEvent": "A New Report Finds Businesses Are Measuring AI Value Entirely Wrong. Here’s the Better Way",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "01d9a680c02378416fbb": {
+      "storyId": "01d9a680c02378416fbb",
+      "url": "https://www.inc.com/chloe-aiello/openais-chief-revenue-officer-is-leaving-after-8-months-shes-just-the-latest-executive-to-head-for-the-exit/91391463",
+      "title": "OpenAI’s Chief Revenue Officer Is Leaving After 8 Months. She’s Just the Latest Executive to Head for the Exit",
+      "source": "Inc. AI",
+      "published": "2026-08-14T19:58:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f48053a89b16430536a7d3cf",
+      "bodyFingerprint": "2fe690c6b5bd52a5d02381cf",
+      "bodyCharacterCount": 110,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T20:47:44.451Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s Chief Revenue Officer Is Leaving After 8 Months. She’s Just the Latest Executive to Head for the Exit",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f6b821ae34a106d784bc": {
+      "storyId": "f6b821ae34a106d784bc",
+      "url": "https://www.theguardian.com/us-news/video/2026/aug/14/era-of-joyless-decadence-stateside-podcast",
+      "title": "Why does everything feel meh? We're in the era of joyless decadence – Stateside with Kai and Carter",
+      "source": "The Guardian AI",
+      "published": "2026-08-14T20:45:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b53210e1d7b1fb94071d9c62",
+      "bodyFingerprint": "b32213ab2562858b30f05370",
+      "bodyCharacterCount": 1116,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T20:47:44.484Z",
+      "assessment": {
+        "centralEvent": "Why does everything feel meh? We're in the era of joyless decadence – Stateside with Kai and Carter",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T19:59:04.032Z"
+  "updatedAt": "2026-08-14T20:47:44.484Z"
 }
