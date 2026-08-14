@@ -19899,8 +19899,293 @@
           "vulnerability": 0
         }
       }
+    },
+    "d18a834100efa6980af9": {
+      "storyId": "d18a834100efa6980af9",
+      "url": "https://apnews.com/article/britain-politics-farage-binface-clacton-election-reform-uk-16f5c7deff9de672c1c9b1950513b52f",
+      "title": "Reform UK's Nigel Farage beats a slate of fringe candidates in election boycotted by major parties",
+      "source": "AP News AI",
+      "published": "2026-08-14T05:14:27",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b6f4f4d2334c3b9b9d12483f",
+      "bodyFingerprint": "420299e3f0b73d7f070287e6",
+      "bodyCharacterCount": 11988,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T11:59:07.899Z",
+      "assessment": {
+        "centralEvent": "Reform UK's Nigel Farage beats a slate of fringe candidates in election boycotted by major parties",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Farage also faces an investigation into his financial relationship with George Cottrell , an aristocratic crypto-gambling entrepreneur who served eight months in a U.S. prison for fraud a decade ago after offering to launder money for under",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He denied wrongdoing and ran again for the seat to prove he had voters’ support, regaining it with 63% of Thursday’s vote in an unusual election on the hottest day of the year.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Reform has frequently changed the national conversation and forced the governing center-left Labour Party and the Conservatives, long the dominant parties, to address Reform’s key issues.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a3f0add94c6da9247518": {
+      "storyId": "a3f0add94c6da9247518",
+      "url": "https://www.wired.com/story/people-are-marrying-chatbots-these-lawmakers-want-to-stop-them",
+      "title": "People Are ‘Marrying’ Chatbots. These Lawmakers Want to Stop Them",
+      "source": "WIRED AI",
+      "published": "2026-08-14T10:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "387bf85120cb91ab36caf9d8",
+      "bodyFingerprint": "54d47e45fe499d82033b425b",
+      "bodyCharacterCount": 12092,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T11:59:07.951Z",
+      "assessment": {
+        "centralEvent": "People Are ‘Marrying’ Chatbots. These Lawmakers Want to Stop Them",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Legislation moves very slowly; we’re always going to be behind technological growth.” But no matter what, Nicola says, “We need to prohibit AI personhood from ever happening in our country.” Comments Back to top Join the discussion Comment",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a Harvard Business Review study , which analyzed more than 12,600 AI use cases between March 2025 and February 2026, companionship and therapy were the top use cases for chatbots, with the Institute for Family Studies reporting that a qu",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He suggests that the best way to approach the question of legal rights is to analyze one right at a time and see if the right makes sense for a new type of system.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Several lawmakers, primarily from Republican states, are trying to stop it from happening, in some cases mirroring the arguments used against gay marriage.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.26,
+        "rawScore": 46.26,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.205,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e1cd998bd23ae2913370": {
+      "storyId": "e1cd998bd23ae2913370",
+      "url": "https://www.wired.com/story/these-masturbation-consultants-were-hired-to-pleasure-themselves-using-ai",
+      "title": "These ‘Masturbation Consultants’ Were Hired to Pleasure Themselves With AI",
+      "source": "WIRED AI",
+      "published": "2026-08-14T10:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "76ca022201c4d8b00d98d1d8",
+      "bodyFingerprint": "cf9f1e51e91ba0147d3a4993",
+      "bodyCharacterCount": 12268,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T11:59:07.963Z",
+      "assessment": {
+        "centralEvent": "These ‘Masturbation Consultants’ Were Hired to Pleasure Themselves With AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Masturbation is obviously way healthier than alcohol or nicotine.” But Nicole Prause, a neuroscientist studying human sexuality and addiction, says “this is a gross overstatement from the evidence they claim to have.” Prause is not aware o",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Save this story Save this story For 28 days, Keshav had a new item on his daily to-do list: masturbate for research purposes.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Matt Burgess Chinese AI Researchers Are Finding Their Voice on X As OpenAI and Anthropic employees grow quieter online, researchers at Chinese AI labs are flocking to X to explain their work, recruit talent, and shape the global conversatio",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Keshav was taking part in AI companion company Joi AI’s experiment assessing what happens if erotic self-stimulation becomes “an AI-guided wellness ritual.” Throughout July, 10 “masturbation consultants” were instructed to masturbate every ",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.5,
+        "rawScore": 49.5,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b6b2786acd88ce843318": {
+      "storyId": "b6b2786acd88ce843318",
+      "url": "https://www.lawfaremedia.org/article/scaling-laws--ai-consciousness-with-anil-seth",
+      "title": "Scaling Laws: AI Consciousness with Anil Seth",
+      "source": "Lawfare AI",
+      "published": "2026-08-14T11:00:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e91b240cfb7ba1e834228c67",
+      "bodyFingerprint": "8da7393fe3af42d32bf8f530",
+      "bodyCharacterCount": 2566,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T11:59:08.235Z",
+      "assessment": {
+        "centralEvent": "Scaling Laws: AI Consciousness with Anil Seth",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T10:18:41.815Z"
+  "updatedAt": "2026-08-14T11:59:08.235Z"
 }
