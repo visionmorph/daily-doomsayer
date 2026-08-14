@@ -19671,8 +19671,236 @@
           "vulnerability": 2
         }
       }
+    },
+    "de2137edb8d306b69348": {
+      "storyId": "de2137edb8d306b69348",
+      "url": "https://www.inc.com/dan-furman/business-ai-use-marketing-strategy/91387988",
+      "title": "Some Businesses Say They Don’t Use AI. That’s Not the Advantage They Think It Is",
+      "source": "Inc. AI",
+      "published": "2026-08-14T09:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d6e128b804edf2fbfa590857",
+      "bodyFingerprint": "03f4628ab50a1bf89e6693bc",
+      "bodyCharacterCount": 74,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T10:18:41.743Z",
+      "assessment": {
+        "centralEvent": "Some Businesses Say They Don’t Use AI. That’s Not the Advantage They Think It Is",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3808ba57d59038270d53": {
+      "storyId": "3808ba57d59038270d53",
+      "url": "https://www.inc.com/netta-jenkins/the-leadership-conversation-your-company-cant-afford-to-miss-happens-at-marthas-vineyard-every-year/91389896",
+      "title": "The Leadership Conversation Your Company Can’t Afford to Miss Happens at Martha’s Vineyard Every Year",
+      "source": "Inc. AI",
+      "published": "2026-08-14T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "beea0027a318a10282b3d7da",
+      "bodyFingerprint": "d456d1bcc41d9c553585e5e1",
+      "bodyCharacterCount": 50,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-14T10:18:41.749Z",
+      "assessment": {
+        "centralEvent": "The Leadership Conversation Your Company Can’t Afford to Miss Happens at Martha’s Vineyard Every Year",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9d7bfbd4e75cd5b0d1eb": {
+      "storyId": "9d7bfbd4e75cd5b0d1eb",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "source": "The Verge AI",
+      "published": "2026-08-14T09:21:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b638fa9a86e02f3e1ee483e",
+      "bodyFingerprint": "b57abd249df3832b6090a1a2",
+      "bodyCharacterCount": 3879,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T10:18:41.759Z",
+      "assessment": {
+        "centralEvent": "Apple trained its own AI model for China with help from Alibaba",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It would also make Apple the first US company approved to offer a proprietary AI model in China, according to Reuters .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ed22e6e7687f495088c7": {
+      "storyId": "ed22e6e7687f495088c7",
+      "url": "https://apnews.com/article/italy-heat-neros-bridge-tiber-river-d42fbed89b54530bd5c381aa53a1884b",
+      "title": "Nero’s Bridge emerges from Tiber River as Rome faces water crisis",
+      "source": "AP News AI",
+      "published": "2026-08-13T16:59:16",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d37de6a9f0f10688d84a7fe",
+      "bodyFingerprint": "509f0f0e9ca2b726e7cd9d69",
+      "bodyCharacterCount": 5740,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-14T10:18:41.815Z",
+      "assessment": {
+        "centralEvent": "Nero’s Bridge emerges from Tiber River as Rome faces water crisis",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit Read More The Tiber’s flow has fallen below 80 cubic meters (2,825 cubic feet) per second, about half the historic average for the month of July",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T08:38:59.856Z"
+  "updatedAt": "2026-08-14T10:18:41.815Z"
 }
