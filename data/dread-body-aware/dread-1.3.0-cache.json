@@ -24212,8 +24212,75 @@
           "vulnerability": 0
         }
       }
+    },
+    "4c2801492334bd061e10": {
+      "storyId": "4c2801492334bd061e10",
+      "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition",
+      "title": "SpaceX officially closes its Cursor acquisition",
+      "source": "TechCrunch AI",
+      "published": "2026-08-15T16:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "789dca6a3ca8db050b3d57c1",
+      "bodyFingerprint": "7b4d9b12e88baba67bf7e406",
+      "bodyCharacterCount": 2126,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T17:37:40.139Z",
+      "assessment": {
+        "centralEvent": "SpaceX officially closes its Cursor acquisition",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In its announcement that the deal has closed, Cursor repeatedly referenced SpaceX’s computing infrastructure, which the company has been renting out to customers including Anthropic and Google . (SpaceX also faces a lawsuit over the polluti",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Venture Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria Julie Bort 22 hours ago Transportation TechCrunch Mobility: Zoox prepares fo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-15T16:43:23.921Z"
+  "updatedAt": "2026-08-15T17:37:40.139Z"
 }
