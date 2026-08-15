@@ -23263,8 +23263,188 @@
           "vulnerability": 0
         }
       }
+    },
+    "b23fc9ea127160b46445": {
+      "storyId": "b23fc9ea127160b46445",
+      "url": "https://www.theguardian.com/technology/2026/aug/15/uk-ireland-booksellers-suspect-ai-companies-bulk-orders-data-acquisition",
+      "title": "Secondhand booksellers in UK and Ireland suspect AI firms behind ‘strange’ bulk orders",
+      "source": "The Guardian AI",
+      "published": "2026-08-15T08:00:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b49173b9e4d4664f48ba8af7",
+      "bodyFingerprint": "22dfa2d5feb3a8c8c8c54f09",
+      "bodyCharacterCount": 6288,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T08:46:53.084Z",
+      "assessment": {
+        "centralEvent": "Secondhand booksellers in UK and Ireland suspect AI firms behind ‘strange’ bulk orders",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“It appears to be either a human or a machine dipping into the sandbox of secondhand books and what they are buying makes no sense in terms of the wider trends in the market.” The Guardian reported this month that Australian booksellers had",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d4c611d1506b7ec21dd5": {
+      "storyId": "d4c611d1506b7ec21dd5",
+      "url": "https://apnews.com/article/nfl-atlanta-falcons-b5eb71e5108fd4e5002b686a63427f84",
+      "title": "NFL suspends Falcons' James Pearce Jr. for 8 games after his arrest in domestic dispute",
+      "source": "AP News AI",
+      "published": "2026-08-14T19:52:07",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "205b8ceca433c48049834b5f",
+      "bodyFingerprint": "c866616b017f4ddaf3c63688",
+      "bodyCharacterCount": 6890,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T08:46:53.102Z",
+      "assessment": {
+        "centralEvent": "NFL suspends Falcons' James Pearce Jr. for 8 games after his arrest in domestic dispute",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Mathis was issued a three-game suspension for violating the league’s substances of abuse policy.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c8c03c547d2e3b8a095": {
+      "storyId": "8c8c03c547d2e3b8a095",
+      "url": "https://apnews.com/article/laufey-interview-ccbbc3c99a17f7a648f8b14f202707f4",
+      "title": "Laufey created a 'third space' with her annual fan event, 'A Very Laufey Day.' Then it exploded",
+      "source": "AP News AI",
+      "published": "2026-08-14T14:00:18",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6a4fb2ee3c35a288a25b7830",
+      "bodyFingerprint": "a3f4078a3c534ea3ef1b63e0",
+      "bodyCharacterCount": 6929,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T08:46:53.112Z",
+      "assessment": {
+        "centralEvent": "Laufey created a 'third space' with her annual fan event, 'A Very Laufey Day.' Then it exploded",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Laufey created a ‘third space’ with her annual fan event, ‘A Very Laufey Day.’ Then it exploded 1 of 5 | Musician Laufey describes how she created “A Very Laufey Day,” saying the annual global fan event began as a way to encourage connectio",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-15T07:46:24.621Z"
+  "updatedAt": "2026-08-15T08:46:53.112Z"
 }
