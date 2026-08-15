@@ -23756,8 +23756,209 @@
           "vulnerability": 0
         }
       }
+    },
+    "61dca0bc8a7f281e0f44": {
+      "storyId": "61dca0bc8a7f281e0f44",
+      "url": "https://apnews.com/article/anthony-fauci-covid-senate-contempt-15af424942646d9d43257d72e8bbd561",
+      "title": "Dr. Anthony Fauci declines request to appear before a second Senate panel after GOP contempt vote",
+      "source": "AP News AI",
+      "published": "2026-08-15T00:55:10",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "972b7c04da0f0fdb88a3814b",
+      "bodyFingerprint": "dd19e29b10b11df6850d78ec",
+      "bodyCharacterCount": 2589,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T13:00:39.791Z",
+      "assessment": {
+        "centralEvent": "Dr. Anthony Fauci declines request to appear before a second Senate panel after GOP contempt vote",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Anthony Fauci appears before the Senate Homeland Security and Governmental Affairs Committee at the Capitol, Wednesday, July 29, 2026, in Washington. (AP Photo/Allison Robbert) By THOMAS BEAUMONT Updated [hour]:[minute] [AMPM] [timezone], [",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "52a9ac8529e8e3441a70": {
+      "storyId": "52a9ac8529e8e3441a70",
+      "url": "https://apnews.com/article/border-wall-trump-tohono-oodham-nation-277da20a8808e120110506133c784c70",
+      "title": "Judge refuses to block Trump administration from building border wall along tribe's reservation",
+      "source": "AP News AI",
+      "published": "2026-08-14T21:35:11",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "94f0025fba5b52e4be19729c",
+      "bodyFingerprint": "37c308fbd2ba9b7093c66a74",
+      "bodyCharacterCount": 3496,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T13:00:39.805Z",
+      "assessment": {
+        "centralEvent": "Judge refuses to block Trump administration from building border wall along tribe's reservation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The sun sets over a section of the border wall, June 18, 2025, in Mission, Texas. (AP Photo/Jacquelyn Martin, File) By MICHAEL KUNZELMAN Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Goo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d011ab799fff9299ed53": {
+      "storyId": "d011ab799fff9299ed53",
+      "url": "https://apnews.com/article/indonesia-earthquake-magnitude-77-c31ad3cf07fa83d2d443e8d85e5c9d84",
+      "title": "Magnitude 7.7 earthquake strikes off Indonesia's coast, killing at least 40 and toppling buildings",
+      "source": "AP News AI",
+      "published": "2026-08-14T22:53:01",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6e8cf264d0a6252f41194e32",
+      "bodyFingerprint": "aa2897d6860e10bd8414b795",
+      "bodyCharacterCount": 11361,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T13:00:39.816Z",
+      "assessment": {
+        "centralEvent": "Magnitude 7.7 earthquake strikes off Indonesia's coast, killing at least 40 and toppling buildings",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Tsunami waves exceeding 0.5 meters (1.6 feet) were also detected in Bulukumba, South Sulawesi, and Sape in Bima Regency Read More The quake has collapsed buildings East Nusa Tenggara Police Chief Rudi Darmoko said the earthquake caused seve",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Authorities said dozens of residents were injured.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The initial quake was followed by several aftershocks. (AP Video shot by Kurniawan) Read More 2 of 6 | In this photo released by the Indonesian National Search and Rescue Agency (BASARNAS), rescuers attempt to clear debris at building damag",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The death toll could rise because landslides triggered by the earthquake buried or cut off many remote villages across six regencies on Flores Island, Rahman said.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 69.33,
+        "rawScore": 69.33,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.485,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-15T11:35:24.939Z"
+  "updatedAt": "2026-08-15T13:00:39.816Z"
 }
