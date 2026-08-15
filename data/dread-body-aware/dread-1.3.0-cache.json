@@ -23957,8 +23957,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "929f15b07dfd4ac79e63": {
+      "storyId": "929f15b07dfd4ac79e63",
+      "url": "https://www.inc.com/netta-jenkins/the-biggest-ai-risk-isnt-the-technology-its-how-organizations-manage-it/91387020",
+      "title": "The Biggest AI Risk Isn’t the Technology. It’s How Organizations Manage It",
+      "source": "Inc. AI",
+      "published": "2026-08-15T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "61192bd3b48ec89d80cce183",
+      "bodyFingerprint": "107ecbcafbf3c51d6c307625",
+      "bodyCharacterCount": 49,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-15T14:41:51.416Z",
+      "assessment": {
+        "centralEvent": "The Biggest AI Risk Isn’t the Technology. It’s How Organizations Manage It",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "The Biggest AI Risk Isn’t the Technology.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-15T13:45:26.007Z"
+  "updatedAt": "2026-08-15T14:41:51.417Z"
 }
