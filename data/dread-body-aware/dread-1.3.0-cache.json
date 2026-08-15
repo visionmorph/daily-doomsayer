@@ -24017,8 +24017,80 @@
           "vulnerability": 0
         }
       }
+    },
+    "de8690e7a34a8544da30": {
+      "storyId": "de8690e7a34a8544da30",
+      "url": "https://apnews.com/article/israel-palestinians-settler-violence-us-siege-west-bank-bd4ae76cec1773c1c09233cc0b33a378",
+      "title": "There’s a reason why Israel has done little to rein in settler violence. It’s not just Netanyahu",
+      "source": "AP News AI",
+      "published": "2026-08-15T04:00:29",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bff5368af68be14284e47901",
+      "bodyFingerprint": "9c7d492a761da5b9378212f0",
+      "bodyCharacterCount": 10862,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T15:36:42.808Z",
+      "assessment": {
+        "centralEvent": "There’s a reason why Israel has done little to rein in settler violence. It’s not just Netanyahu",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "US pressure has had little impact, and has eased under Trump Settler violence intensified after the Hamas attack on Oct.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "14, 2026. (AP Photo/Mahmoud Illean) By JOSEPH KRAUSS Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Most of the international community views all settlements as illegal and an obstacle to peace.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-15T14:41:51.417Z"
+  "updatedAt": "2026-08-15T15:36:42.808Z"
 }
