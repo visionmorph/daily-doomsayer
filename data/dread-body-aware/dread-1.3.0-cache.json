@@ -24533,8 +24533,80 @@
           "vulnerability": 0
         }
       }
+    },
+    "d120adf212b59c1ef131": {
+      "storyId": "d120adf212b59c1ef131",
+      "url": "https://apnews.com/article/aircraft-carriers-trump-china-pacific-iran-war-87cfb838de8c13464fa3cab1840ad87d",
+      "title": "US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
+      "source": "AP News AI",
+      "published": "2026-08-15T12:37:01",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "14a92e212ff61695dc919f72",
+      "bodyFingerprint": "28ae4e20c0844041a2aef0aa",
+      "bodyCharacterCount": 9845,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T22:40:21.399Z",
+      "assessment": {
+        "centralEvent": "US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Trump says USS Lincoln’s record time at sea during Iran operations ‘not nearly long enough’ 3 MIN READ 1378 New aircraft carrier heads toward Middle East after reports of issues on long-deployed USS Lincoln 5 MIN READ 491 Fl",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Meanwhile, the Lincoln has spent a record uninterrupted time at sea of more than 240 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“The administration says that the Pacific is supposed to be the most important behind the Western Hemisphere,” said Greg Poling, director of the Southeast Asia Program at the Center for Strategic and International Studies.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-15T21:36:34.819Z"
+  "updatedAt": "2026-08-15T22:40:21.399Z"
 }
