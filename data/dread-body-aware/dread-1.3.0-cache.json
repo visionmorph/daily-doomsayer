@@ -24344,8 +24344,80 @@
           "vulnerability": 0
         }
       }
+    },
+    "3ab0963d9f0fef623bab": {
+      "storyId": "3ab0963d9f0fef623bab",
+      "url": "https://apnews.com/article/hawaii-tropical-storm-lala-hurricane-0c3d63c8a87943cdf8d57c530a7ed9d0",
+      "title": "Lala strengthens into a hurricane and bears down on Hawaii’s Big Island with heavy rain, winds",
+      "source": "AP News AI",
+      "published": "2026-08-15T12:55:25",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b3365dd66acc9eae59bbfa83",
+      "bodyFingerprint": "acf8f6a4bc8f01232285268c",
+      "bodyCharacterCount": 10108,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T20:41:05.685Z",
+      "assessment": {
+        "centralEvent": "Lala strengthens into a hurricane and bears down on Hawaii’s Big Island with heavy rain, winds",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Hawaii’s Big Island under rare hurricane landfall threat as Tropical Storm Lala strengthens 4 MIN READ Torrential rain near Tokyo causes flooding and paralyzes traffic, killing 1 1 MIN READ Forecasters warn a Pacific system ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Electricity was knocked out for 10% of customers on the Big Island, according to poweroutage.us.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Hurricane Lala formed Saturday on a path to make landfall on Hawaii’s Big Island, the National Hurricane Center said.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.59,
+        "rawScore": 26.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-15T19:36:27.683Z"
+  "updatedAt": "2026-08-15T20:41:05.685Z"
 }
