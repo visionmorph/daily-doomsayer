@@ -23059,8 +23059,147 @@
           "vulnerability": 0
         }
       }
+    },
+    "5805b57feee0c898c3cb": {
+      "storyId": "5805b57feee0c898c3cb",
+      "url": "https://apnews.com/article/jason-arday-cambridge-professor-london-dead-reports-9036e2b405f5849415534e80bb1b9cb1",
+      "title": "Youngest Black professor at Cambridge who faced plagiarism claims is found dead",
+      "source": "AP News AI",
+      "published": "2026-08-14T20:24:32",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "caa2f6f39db7605f9e9fd2d9",
+      "bodyFingerprint": "2cbd6417e9bddae95ca197cc",
+      "bodyCharacterCount": 5813,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T03:06:37.975Z",
+      "assessment": {
+        "centralEvent": "Youngest Black professor at Cambridge who faced plagiarism claims is found dead",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a statement issued through his publisher, Arday’s family said that they were “in shock to have lost this amazing father, partner, brother, uncle and son.” “The campaign of misinformation was too much for Jason, who was a gentle man and w",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Torchbearer Jason Arday carries the Olympic Flame on the Torch Relay leg between Sutton and Merton, in London, July 23, 2012. (Joe Giddens/LOCOG/PA via AP) By SYLVIA HUI Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] A",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "News of his death comes the same week as the release of his memoir, “Great and Unfortunate Things,” a highly anticipated work that Simon & Schuster had decided to release despite the doubts about his credibility.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Questions about Arday’s qualifications were raised publicly last month by Nathan Cofnas, a one-time Cambridge philosophy researcher who left the university after his critique of diversity, equity and inclusion programs sparked widespread pr",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ea078ff3cf0de1afd53f": {
+      "storyId": "ea078ff3cf0de1afd53f",
+      "url": "https://apnews.com/article/field-of-dreams-game-phillies-twins-mlb-a4c9dd1ae9a9c9ecb8383a84e333ec3f",
+      "title": "Field of Dreams welcomes Hall of Fame, as 26 members come out of the corn for Phillies-Twins game",
+      "source": "AP News AI",
+      "published": "2026-08-14T01:11:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "51c07160e392c77c7f72fd6f",
+      "bodyFingerprint": "a85e1ba18f6d8fcf95d34147",
+      "bodyCharacterCount": 11211,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T03:06:37.989Z",
+      "assessment": {
+        "centralEvent": "Field of Dreams welcomes Hall of Fame, as 26 members come out of the corn for Phillies-Twins game",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Beavers’ 2-run pinch-hit single sparks the Orioles’ 6-5 win over the Rays 1 MIN READ Padres storm back from 3-run deficit to beat the Guardians 7-5, win 6th straight 1 MIN READ Francisco Lindor and Jared Young homer to lead ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-15T01:51:25.983Z"
+  "updatedAt": "2026-08-15T03:06:37.989Z"
 }
