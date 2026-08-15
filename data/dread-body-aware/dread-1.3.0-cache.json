@@ -22999,8 +22999,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "20bf681023521091f112": {
+      "storyId": "20bf681023521091f112",
+      "url": "https://apnews.com/article/trump-iran-aircraft-carrier-uss-lincoln-023413c38373d4a6ba033612a1f552c6",
+      "title": "Trump says USS Lincoln's record time at sea during Iran operations 'not nearly long enough'",
+      "source": "AP News AI",
+      "published": "2026-08-14T18:34:32",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7633ee1db53d72fc5415ea53",
+      "bodyFingerprint": "e6156cdb9df12817bc2c2dd9",
+      "bodyCharacterCount": 7797,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T01:51:25.983Z",
+      "assessment": {
+        "centralEvent": "Trump says USS Lincoln's record time at sea during Iran operations 'not nearly long enough'",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In a brief exchange with reporters before flying to New York for an event to highlight falling violent crime rates across the U.S., Trump refuted that family members have raised concerns about the deployment’s length and even said that the ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-14T23:39:36.542Z"
+  "updatedAt": "2026-08-15T01:51:25.983Z"
 }
