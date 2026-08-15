@@ -23696,8 +23696,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "7c136ceef9cc00374989": {
+      "storyId": "7c136ceef9cc00374989",
+      "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_campaign=rss&at_medium=RSS",
+      "title": "Secondhand book sales are booming. Is it because of AI?",
+      "source": "BBC News AI",
+      "published": "2026-08-15T11:25:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "67122876c7c543aadf941c33",
+      "bodyFingerprint": "37d902049cc754f9b4677295",
+      "bodyCharacterCount": 5068,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T11:35:24.938Z",
+      "assessment": {
+        "centralEvent": "Secondhand book sales are booming. Is it because of AI?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In 2025, a judge ruled using books purchased in this way to train AI software was not a violation of US copyright law.",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-15T10:42:10.310Z"
+  "updatedAt": "2026-08-15T11:35:24.939Z"
 }
