@@ -24279,8 +24279,73 @@
           "vulnerability": 0
         }
       }
+    },
+    "b89f894a66c0374e393e": {
+      "storyId": "b89f894a66c0374e393e",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "source": "TechCrunch AI",
+      "published": "2026-08-15T18:58:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "74c8ae1273c74565e53d27a9",
+      "bodyFingerprint": "27a8891d66d6f0c13becaab8",
+      "bodyCharacterCount": 4636,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-15T19:36:27.683Z",
+      "assessment": {
+        "centralEvent": "Anthropic shares more details about how Claude’s new watermarks will work",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes Lucas Ropek Phoebe Gates and Sophia Kianni reportedly knew Phia was ‘cookie stuffing’ for months Dominic-Mad",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes Lucas Ropek Phoebe Gates and Sophia Kianni reportedly knew Phia was ‘cookie stuffing’ for months Dominic-Mad",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44.55,
+        "rawScore": 44.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-15T18:49:37.704Z"
+  "updatedAt": "2026-08-15T19:36:27.683Z"
 }
