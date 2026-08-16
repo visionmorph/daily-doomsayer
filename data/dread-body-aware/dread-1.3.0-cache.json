@@ -25109,8 +25109,87 @@
           "vulnerability": 0
         }
       }
+    },
+    "3f3688ec5865b5c6517a": {
+      "storyId": "3f3688ec5865b5c6517a",
+      "url": "https://www.theguardian.com/global-development/2026/aug/16/ai-cheating-leaked-papers-marking-errors-how-exam-protests-went-global",
+      "title": "AI cheating, leaked papers and marking errors: how exam protests went global",
+      "source": "The Guardian AI",
+      "published": "2026-08-16T07:00:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3016ee21c1332f015ef1aae9",
+      "bodyFingerprint": "d34f21a5fc4ed6c8a1ad0957",
+      "bodyCharacterCount": 7365,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T07:47:27.273Z",
+      "assessment": {
+        "centralEvent": "AI cheating, leaked papers and marking errors: how exam protests went global",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "AI cheating, leaked papers and marking errors: how exam protests went global",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Experts say the growth of AI cheating and attempts by academic institutions to digitise examinations are at the heart of the issue.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "AI cheating, leaked papers and marking errors: how exam protests went global",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Photograph: Jose Luis Torales/NurPhoto/Shutterstock When a single test can determine a young person’s entire future, cheating is no longer just about individuals but becomes a systematic issue, said Eaton.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.41,
+        "rawScore": 47.41,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T07:01:16.000Z"
+  "updatedAt": "2026-08-16T07:47:27.273Z"
 }
