@@ -24841,8 +24841,276 @@
           "vulnerability": 0
         }
       }
+    },
+    "cb78af08212df3853f29": {
+      "storyId": "cb78af08212df3853f29",
+      "url": "https://apnews.com/article/britain-jason-arday-cambridge-death-burnham-b9e2463ca6b474ac90cc6196ed668238",
+      "title": "UK's leader calls for reflection after the death of former Cambridge professor accused of plagiarism",
+      "source": "AP News AI",
+      "published": "2026-08-15T14:29:26",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8eee3899ceba90fdcec164b9",
+      "bodyFingerprint": "638ca8fc38132183d812c230",
+      "bodyCharacterCount": 6827,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T07:01:15.916Z",
+      "assessment": {
+        "centralEvent": "UK's leader calls for reflection after the death of former Cambridge professor accused of plagiarism",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Arday’s family says he suffered years of abuse and harassment Police said the death was being treated as “unexpected” but not suspicious.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "British media then raised wider questions about many of Arday’s claims about his life, including statements he had raised 5.5 million pounds ($7.4 million) for charity through feats such as running 30 marathons in 35 days and 600 miles in s",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Daniel Kebede, general secretary of the National Education Union, said questions about Arday’s credibility “unleashed a tirade of racism.” “There is a profound difference between scrutiny and a sustained public campaign that turns an indivi",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "title",
+            "excerpt": "UK's leader calls for reflection after the death of former Cambridge professor accused of plagiarism",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Cambridge had opened investigations into plagiarism Questions about Arday’s qualifications were raised publicly last month by Nathan Cofnas, a one-time Cambridge philosophy researcher who left the university after his critique of diversity,",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.66,
+        "rawScore": 49.66,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.515,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c1ccfa2c6b250b0cc55": {
+      "storyId": "8c1ccfa2c6b250b0cc55",
+      "url": "https://apnews.com/article/michael-phelps-beckett-phelps-db0b6eda3e058ab3ae5701ce2fe12fd4",
+      "title": "Michael Phelps returns poolside with his sons as 8-year-old Beckett eyes swimming",
+      "source": "AP News AI",
+      "published": "2026-08-15T22:55:59",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "738737ebeae075a82d49d20b",
+      "bodyFingerprint": "9e3384ba4d24c63ebaa4149f",
+      "bodyCharacterCount": 4121,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T07:01:15.933Z",
+      "assessment": {
+        "centralEvent": "Michael Phelps returns poolside with his sons as 8-year-old Beckett eyes swimming",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Beckett, who’s 8, and brother Maverick, who’s 6, sat with their dad and mom Nicole watching two days of the international meet featuring the U.S., Australia, Canada and Japan.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5490e9820fcc7a9e1bed": {
+      "storyId": "5490e9820fcc7a9e1bed",
+      "url": "https://apnews.com/article/election-2026-primaries-turnout-democrats-midterms-19225a9c4e76b0830f8542fade68dfe3",
+      "title": "Democratic primary turnout has soared in some states. Can it carry over to November?",
+      "source": "AP News AI",
+      "published": "2026-08-15T12:18:29",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "be2f5d137997c0206898aae2",
+      "bodyFingerprint": "ef0d24f3c241104308e12fca",
+      "bodyCharacterCount": 11067,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T07:01:15.942Z",
+      "assessment": {
+        "centralEvent": "Democratic primary turnout has soared in some states. Can it carry over to November?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "7, 2026, in Detroit. (AP Photo/Paul Sancya) By JOEY CAPPELLETTI , LEAH ASKARINAM and JOSH BOAK Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Add AP News on Google Add AP News as your preferred source to see more of ou",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 76,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "56992fce95db56fb892b": {
+      "storyId": "56992fce95db56fb892b",
+      "url": "https://www.theguardian.com/money/2026/aug/16/scam-ai-holiday-photos-instagram-facebook",
+      "title": "‘We detected unusual activity’: the scam that uses AI to exploit your holiday photos",
+      "source": "The Guardian AI",
+      "published": "2026-08-16T06:00:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d4d7bac1a8ca8ee787df1cee",
+      "bodyFingerprint": "b91582d036ea28f470afda85",
+      "bodyCharacterCount": 4458,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T07:01:16.000Z",
+      "assessment": {
+        "centralEvent": "‘We detected unusual activity’: the scam that uses AI to exploit your holiday photos",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "‘We detected unusual activity’: the scam that uses AI to exploit your holiday photos",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T05:45:14.079Z"
+  "updatedAt": "2026-08-16T07:01:16.000Z"
 }
