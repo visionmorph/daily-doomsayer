@@ -24719,8 +24719,130 @@
           "vulnerability": 0
         }
       }
+    },
+    "132801126cd921eb37e3": {
+      "storyId": "132801126cd921eb37e3",
+      "url": "https://apnews.com/article/hall-of-fame-wnba-dawn-staley-candace-parker-608eee6655549e62540cf48f0a5ddf45",
+      "title": "WNBA icons say the discourse and scrutiny around the league are part of the growing pains of success",
+      "source": "AP News AI",
+      "published": "2026-08-15T15:46:37",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7921dfbb4af8adba2cc21efd",
+      "bodyFingerprint": "b5939bcfd763f5b0596cbe11",
+      "bodyCharacterCount": 8524,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T04:02:53.510Z",
+      "assessment": {
+        "centralEvent": "WNBA icons say the discourse and scrutiny around the league are part of the growing pains of success",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But then it’s also like do I want to seem insensitive by not talking about the things that are going on?” Staley agrees that it’s unfortunate that all the great things happening on the court are put on the backburner in discussions.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ad5396da87a826d7b54f": {
+      "storyId": "ad5396da87a826d7b54f",
+      "url": "https://apnews.com/article/cardinals-cubs-score-joshua-baez-276e1b7bdcac54d7af2454ac5027b35a",
+      "title": "Joshua Báez first player to homer in first 3 at-bats in the majors, leads Cardinals past Cubs 8-4",
+      "source": "AP News AI",
+      "published": "2026-08-15T21:17:25",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20cf4cd488c855e20846acf2",
+      "bodyFingerprint": "9722d2397bf53a47de42cea5",
+      "bodyCharacterCount": 6144,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T04:02:53.545Z",
+      "assessment": {
+        "centralEvent": "Joshua Báez first player to homer in first 3 at-bats in the majors, leads Cardinals past Cubs 8-4",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The 23-year-old left fielder, called up from Triple-A Memphis earlier in the day, hit the first pitch he saw into the Wrigley Field bleachers, then homered in his next two at-bats.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T03:14:30.930Z"
+  "updatedAt": "2026-08-16T04:02:53.545Z"
 }
