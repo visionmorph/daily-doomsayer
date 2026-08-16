@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-16T05:00:00.000Z",
+  "generatedAt": "2026-08-16T07:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-16",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 40.07,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-16",
           "firstObservedAt": "2026-08-16T05:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 40.07
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/191:100/w_1280,c_limit/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg",
           "peak": 40.07,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-16",
           "firstObservedAt": "2026-08-16T05:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 40.07
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-16",
           "firstObservedAt": "2026-08-16T05:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 23.95
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
           "peak": 21.55,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-16",
           "firstObservedAt": "2026-08-16T05:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 21.55
         },
         {
@@ -81,17 +81,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 20.89
         },
         {
+          "storyId": "cb78af08212df3853f29",
+          "title": "UK's leader calls for reflection after the death of former Cambridge professor accused of plagiarism",
+          "url": "https://apnews.com/article/britain-jason-arday-cambridge-death-burnham-b9e2463ca6b474ac90cc6196ed668238",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/006f46e/2147483647/strip/true/crop/1081x720+100+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F69%2Fd2%2F5920c1dfff32a79bdbc9e513f8b5%2Fuk-arday-death-burnham-20260815cr-1920x1080.jpg",
+          "peak": 20.68,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-16",
+          "firstObservedAt": "2026-08-16T07:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
+          "average": 20.68
+        },
+        {
           "storyId": "f939cd8244044d7aab10",
           "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
           "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
           "source": "TechCrunch AI",
           "image": "",
           "peak": 20.47,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-16",
           "firstObservedAt": "2026-08-16T05:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 20.47
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg",
           "peak": 20,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-16",
           "firstObservedAt": "2026-08-16T05:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 20
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/f80afc307589a27ed9fbd5dbef921648d92089e1/46_0_4898_3921/master/4898.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 19.87,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-16",
           "firstObservedAt": "2026-08-16T05:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 19.87
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 19.75,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-16",
           "firstObservedAt": "2026-08-16T05:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 19.75
-        },
-        {
-          "storyId": "921f3b3b47ac02dc8182",
-          "title": "Police have arrested a 19-year-old in connection with Virginia State University shooting",
-          "url": "https://apnews.com/article/virginia-state-university-shooting-campus-lockdown-783d5190d7fe0818fc27a98123311dc3",
-          "source": "AP News AI",
-          "image": "https://dims.apnews.com/dims4/default/f94b88e/2147483647/strip/true/crop/2517x1677+196+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F35%2Ffd%2Fefc42c8ee278cf1f96c39239d265%2F2df2015ee9c94f688c6677e565e0976e",
-          "peak": 19.38,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-16",
-          "firstObservedAt": "2026-08-16T05:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
-          "average": 19.38
         }
       ]
     },
@@ -1670,11 +1670,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/191:100/w_1280,c_limit/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg",
           "peak": 40.07,
-          "observations": 43,
+          "observations": 44,
           "daysTracked": 4,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T23:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 40.07
         },
         {
@@ -1684,12 +1684,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 40.07,
-          "observations": 68,
+          "observations": 69,
           "daysTracked": 5,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
-          "average": 38.65
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
+          "average": 38.68
         },
         {
           "storyId": "0a3c0d9f2ec55a3e2d14",
@@ -2004,11 +2004,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/191:100/w_1280,c_limit/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg",
           "peak": 40.07,
-          "observations": 43,
+          "observations": 44,
           "daysTracked": 4,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-13T23:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 40.07
         },
         {
@@ -2018,12 +2018,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 40.07,
-          "observations": 68,
+          "observations": 69,
           "daysTracked": 5,
           "peakDate": "2026-08-13",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-16T05:00:00.000Z",
-          "average": 38.65
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
+          "average": 38.68
         },
         {
           "storyId": "0a3c0d9f2ec55a3e2d14",
