@@ -26002,8 +26002,219 @@
           "vulnerability": 0
         }
       }
+    },
+    "b85e3949703b405203d6": {
+      "storyId": "b85e3949703b405203d6",
+      "url": "https://apnews.com/article/iran-us-israel-lebanon-gaza-uss-lincoln-august-16-2026-98f43f920c102080a3526981cf0dd7b8",
+      "title": "Top US commander visits aircraft carrier, Gaza talks in Egypt and other Mideast news",
+      "source": "AP News AI",
+      "published": "2026-08-16T07:53:19",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af2239e0a0eb6e8934458b6c",
+      "bodyFingerprint": "609833dea73871217fc3a358",
+      "bodyCharacterCount": 8311,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T15:38:04.418Z",
+      "assessment": {
+        "centralEvent": "Top US commander visits aircraft carrier, Gaza talks in Egypt and other Mideast news",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Lebanon’s Health Ministry and state news agency said at least 11 people were killed.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And the 60-day negotiating period that began with the June 17 signing of an interim agreement between the U.S. and Iran is set to end with no word of an extension.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Before then, about one-fifth of the world’s traded oil and natural gas passed through what had been considered an international waterway.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "While the heaviest fighting has subsided since a ceasefire took hold in October between Israel and Hamas, Israeli forces have carried out repeated airstrikes , killing at least 1,262 Palestinians, according to Gaza’s Health Ministry.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 69.17,
+        "rawScore": 69.17,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.47,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "312d6a578d3134898f3c": {
+      "storyId": "312d6a578d3134898f3c",
+      "url": "https://apnews.com/article/greece-olympic-panathenaic-stadium-kallimarmaro-cleanup-3306e3b722b1e9f1a08b9f07f61ffee0",
+      "title": "Athens is cleaning its all-marble Olympic stadium for the first time in more than a century",
+      "source": "AP News AI",
+      "published": "2026-08-16T04:23:38",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a60be2d19c80de4c95f5766d",
+      "bodyFingerprint": "28186a44551463109f05d80f",
+      "bodyCharacterCount": 14811,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T15:38:04.436Z",
+      "assessment": {
+        "centralEvent": "Athens is cleaning its all-marble Olympic stadium for the first time in more than a century",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Read More Related Stories Police arrest man on suspicion of fraud after security incident at European athletics championships 1 MIN READ Israel’s Ben Gvir advocates killing ’30 to 40' people in Gaza nightly while speaking to ex-hostage 3 MI",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "An African celebration planned in Athens Since its 1896 revival, it has staged fashion shows, rock concerts, boxing matches and national celebrations — as well as lavish patriotic ceremonies ordered by a military dictatorship in the 1960s.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "An African celebration planned in Athens Since its 1896 revival, it has staged fashion shows, rock concerts, boxing matches and national celebrations — as well as lavish patriotic ceremonies ordered by a military dictatorship in the 1960s.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 77,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "99f79a191e7351c97c8d": {
+      "storyId": "99f79a191e7351c97c8d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+      "source": "The Verge AI",
+      "published": "2026-08-16T14:56:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "688be0278afa05ccf21631ac",
+      "bodyFingerprint": "dcc78f9850e2017b3078585b",
+      "bodyCharacterCount": 3377,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T15:38:04.443Z",
+      "assessment": {
+        "centralEvent": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI News OpenAI Most Popular Most Popular Marvel reveals the new X-Men cast, including Inde Navarrette and Adam Driver We’re reaching peak camera with the Sony A7R VI I finally found a magnetic phone grip I never want to rem",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T14:41:37.866Z"
+  "updatedAt": "2026-08-16T15:38:04.443Z"
 }
