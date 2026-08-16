@@ -26764,8 +26764,116 @@
           "vulnerability": 0
         }
       }
+    },
+    "7944e4ee9751251aa8fb": {
+      "storyId": "7944e4ee9751251aa8fb",
+      "url": "https://www.inc.com/kevin-haynes/a-real-life-terminator-ai-store-manager-fires-human-employee/91391677",
+      "title": "A Real-Life Terminator: AI Store Manager Fires Human Employee",
+      "source": "Inc. AI",
+      "published": "2026-08-16T19:16:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "776cbe4447abc144a85b3ef5",
+      "bodyFingerprint": "dd6561772bfc9d65fad65d15",
+      "bodyCharacterCount": 178,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-16T19:35:47.191Z",
+      "assessment": {
+        "centralEvent": "A Real-Life Terminator: AI Store Manager Fires Human Employee",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a225be78492d06fc4205": {
+      "storyId": "a225be78492d06fc4205",
+      "url": "https://www.inc.com/georgia-fearn/fast-growing-companies-austin-texas-round-rock-san-marcos-metro-area/91384916",
+      "title": "These 10 Austin Companies Are Among the Fastest-Growing in the U.S.",
+      "source": "Inc. AI",
+      "published": "2026-08-16T19:10:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "365033e75b8ef84089314f02",
+      "bodyFingerprint": "73a4520455883c47863c4f68",
+      "bodyCharacterCount": 136,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-16T19:35:47.197Z",
+      "assessment": {
+        "centralEvent": "These 10 Austin Companies Are Among the Fastest-Growing in the U.S.",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T18:49:39.228Z"
+  "updatedAt": "2026-08-16T19:35:47.197Z"
 }
