@@ -39,6 +39,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 40.07
         },
         {
+          "storyId": "3f3688ec5865b5c6517a",
+          "title": "AI cheating, leaked papers and marking errors: how exam protests went global",
+          "url": "https://www.theguardian.com/global-development/2026/aug/16/ai-cheating-leaked-papers-marking-errors-how-exam-protests-went-global",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/f59fdc6ca49456115605c5555d4f96d97e18d4e6/424_0_4080_3264/master/4080.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 32.46,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-16",
+          "firstObservedAt": "2026-08-16T07:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
+          "average": 32.46
+        },
+        {
           "storyId": "b3989dcfb48ba9b056fe",
           "title": "The Youth AI Privacy Act’s Privacy Paradox",
           "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-16T05:00:00.000Z",
           "lastObservedAt": "2026-08-16T07:00:00.000Z",
           "average": 19.87
-        },
-        {
-          "storyId": "4886a2e07c39d71065d0",
-          "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
-          "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "",
-          "peak": 19.75,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-08-16",
-          "firstObservedAt": "2026-08-16T05:00:00.000Z",
-          "lastObservedAt": "2026-08-16T07:00:00.000Z",
-          "average": 19.75
         }
       ]
     },
@@ -1734,18 +1734,18 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 26.75
         },
         {
-          "storyId": "557e0bfc0113e2a72215",
-          "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK155_OPEN_AI_CVirginia_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 30.4,
-          "observations": 18,
-          "daysTracked": 2,
-          "peakDate": "2026-08-10",
-          "firstObservedAt": "2026-08-10T06:00:00.000Z",
-          "lastObservedAt": "2026-08-11T11:00:00.000Z",
-          "average": 30.4
+          "storyId": "3f3688ec5865b5c6517a",
+          "title": "AI cheating, leaked papers and marking errors: how exam protests went global",
+          "url": "https://www.theguardian.com/global-development/2026/aug/16/ai-cheating-leaked-papers-marking-errors-how-exam-protests-went-global",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/f59fdc6ca49456115605c5555d4f96d97e18d4e6/424_0_4080_3264/master/4080.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 32.46,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-16",
+          "firstObservedAt": "2026-08-16T07:00:00.000Z",
+          "lastObservedAt": "2026-08-16T07:00:00.000Z",
+          "average": 32.46
         }
       ]
     },
