@@ -27187,8 +27187,82 @@
           "vulnerability": 0
         }
       }
+    },
+    "45c4d80bddfc0d0d6edb": {
+      "storyId": "45c4d80bddfc0d0d6edb",
+      "url": "https://apnews.com/article/korea-trump-military-exercises-ae21e0af5ea16f0a74e9a176b3cc2136",
+      "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+      "source": "AP News AI",
+      "published": "2026-08-16T21:37:11",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eb47bfef3b84de5e53bc144f",
+      "bodyFingerprint": "0914fdd8762231dc5e938084",
+      "bodyCharacterCount": 4965,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T23:35:48.146Z",
+      "assessment": {
+        "centralEvent": "Trump orders Pentagon to scale back joint exercises with South Korea",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The warning was typical of the harsh rhetoric that North Korea often deploys ahead of major U.S.-South Korean military exercises.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "16, 2026, in Morristown, N.J. (AP Photo/Julia Demaree Nikhinson) By KONSTANTIN TOROPIN and ALANNA DURKIN RICHER Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your p",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Related Stories Israel’s Ben Gvir advocates killing ’30 to 40' people in Gaza nightly while speaking to ex-hostage 3 MIN READ 426 Top US commander visits aircraft carrier, Gaza talks in Egypt and other Mideast news 4 MIN READ 369 US pulls l",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T22:38:58.891Z"
+  "updatedAt": "2026-08-16T23:35:48.146Z"
 }
