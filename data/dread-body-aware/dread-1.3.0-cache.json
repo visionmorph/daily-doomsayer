@@ -25851,8 +25851,87 @@
           "vulnerability": 0
         }
       }
+    },
+    "0ff6f8b6a66ae6b9ac2f": {
+      "storyId": "0ff6f8b6a66ae6b9ac2f",
+      "url": "https://techpolicy.press/how-ai-is-reshaping-election-information-ahead-of-the-2026-us-midterms",
+      "title": "How AI Is Reshaping Election Information Ahead of the 2026 US Midterms",
+      "source": "Tech Policy Press AI",
+      "published": "2026-08-16T13:18:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e71ccf2715adcda44c5f8595",
+      "bodyFingerprint": "b2af8ec88dabb9196ec82f28",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T13:46:48.080Z",
+      "assessment": {
+        "centralEvent": "How AI Is Reshaping Election Information Ahead of the 2026 US Midterms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And obviously chatbots are known for making errors, but when it came to the themes of these false conspiracy theories that just keep coming up, whether it's that there's massive voter fraud or the voting machines are rigged or mail ballots ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "You just mentioned the spread of conspiracy theories, the rise of false claims and violent threats that have been rising according to multiple figures that are created by entities like yours.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Millions of people now use AI chatbots, both to retrieve information about elections and to create it.",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Now, virtually everywhere in the country, there is a paper record of every single vote.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 147,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.91,
+        "rawScore": 46.91,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.265,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T13:02:37.076Z"
+  "updatedAt": "2026-08-16T13:46:48.080Z"
 }
