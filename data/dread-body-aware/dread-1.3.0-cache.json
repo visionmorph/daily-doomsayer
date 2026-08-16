@@ -26420,8 +26420,194 @@
           "vulnerability": 0
         }
       }
+    },
+    "f84ca95f344f52abf655": {
+      "storyId": "f84ca95f344f52abf655",
+      "url": "https://www.inc.com/rebecca-hinds/ai-is-making-workers-more-productive-so-why-arent-companies-performing-better/91390033",
+      "title": "AI Is Making Workers More Productive. So Why Aren’t Companies Performing Better?",
+      "source": "Inc. AI",
+      "published": "2026-08-16T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4a5f40991d0bb8adf9a84036",
+      "bodyFingerprint": "d896f45d3808cd183399f333",
+      "bodyCharacterCount": 42,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-16T17:35:43.829Z",
+      "assessment": {
+        "centralEvent": "AI Is Making Workers More Productive. So Why Aren’t Companies Performing Better?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c132c1e1c64dad92108c": {
+      "storyId": "c132c1e1c64dad92108c",
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust",
+      "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "source": "TechCrunch AI",
+      "published": "2026-08-16T16:53:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d4501471bf8ea11cfbb4182",
+      "bodyFingerprint": "88ec3867b725211855d90a67",
+      "bodyCharacterCount": 5180,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T17:35:43.840Z",
+      "assessment": {
+        "centralEvent": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular If Apple sends you a push notification alerting you to a spyware attack, take it seriously Zack Whittaker Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes Lu",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Many people outside this bubble think of regulation as something that constrains corporate power and benefits ordinary people.” Amodei added that he doesn’t “necessarily agree with that perspective either,” but he said that’s “why Anthropi",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.54,
+        "rawScore": 25.54,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.14,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a6638ce1612331816dcf": {
+      "storyId": "a6638ce1612331816dcf",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/16/the-guardian-view-on-the-changed-world-of-job-interviews-missing-the-human-factor",
+      "title": "The Guardian view on the changed world of job interviews: missing the human factor | Editorial",
+      "source": "The Guardian AI",
+      "published": "2026-08-16T17:30:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "48f697fa34a4ead89c721583",
+      "bodyFingerprint": "bd4341eeb844042c375a71c4",
+      "bodyCharacterCount": 4291,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T17:35:43.971Z",
+      "assessment": {
+        "centralEvent": "The Guardian view on the changed world of job interviews: missing the human factor | Editorial",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Andy Burnham’s doubts about Zoom interviews apply more widely to a hiring process being transformed by AI Almost half of UK jobseekers have found themselves pitching to an AI bot, according to recent research, leading many to give up in fru",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T16:43:54.928Z"
+  "updatedAt": "2026-08-16T17:35:43.971Z"
 }
