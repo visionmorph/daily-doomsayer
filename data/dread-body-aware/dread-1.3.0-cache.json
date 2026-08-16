@@ -25188,8 +25188,146 @@
           "vulnerability": 0
         }
       }
+    },
+    "944b902c8a4cdbf32720": {
+      "storyId": "944b902c8a4cdbf32720",
+      "url": "https://apnews.com/article/bonnie-tyler-wales-coffin-mumbles-54e2fad306c66dfb3bfeef24355165f3",
+      "title": "Bonnie Tyler fans line the streets of a Welsh village as her coffin is brought home",
+      "source": "AP News AI",
+      "published": "2026-08-15T15:57:11",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3a43da720f1a0e810fdfe0e1",
+      "bodyFingerprint": "0d1f3e7b060fd2d3b9170dbc",
+      "bodyCharacterCount": 7285,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T08:48:40.337Z",
+      "assessment": {
+        "centralEvent": "Bonnie Tyler fans line the streets of a Welsh village as her coffin is brought home",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "22f34599628e46979344": {
+      "storyId": "22f34599628e46979344",
+      "url": "https://www.theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman",
+      "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: ‘Regain your humanity’",
+      "source": "The Guardian AI",
+      "published": "2026-08-16T08:00:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1e996ac996ff55f11f1a7ab9",
+      "bodyFingerprint": "39c9082254dc34f26a929a87",
+      "bodyCharacterCount": 7180,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T08:48:40.402Z",
+      "assessment": {
+        "centralEvent": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: ‘Regain your humanity’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Wynd Kaufman, 69, chained and locked the front doors of OpenAI’s headquarters last year with members of StopAI An activist who blocked the entrance to one of the world’s biggest AI companies is believed to have become the first person jaile",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Since the lobby sit-in last year, some of the biggest AI labs, including OpenAI and Anthropic, have reported their models escaping the confinements of experiments.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Let’s get a global ban on the race to superintelligence.” Professor Stuart Russell, a leading AI professor at the University of California at Berkeley and president of the International Association for Safe and Ethical AI, gave evidence in ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "This week, the US senator Bernie Sanders demanded tech leaders pause AI development, citing fears that, in the wrong hands, it might “lead to new bioweapons that result in the deaths of tens of millions of people”.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Wynd Kaufman, 69, chained and locked the front doors of OpenAI’s headquarters last year with members of StopAI An activist who blocked the entrance to one of the world’s biggest AI companies is believed to have become the first person jaile",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.23,
+        "rawScore": 29.23,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.475,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T07:47:27.273Z"
+  "updatedAt": "2026-08-16T08:48:40.402Z"
 }
