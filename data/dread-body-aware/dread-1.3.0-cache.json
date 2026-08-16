@@ -25326,8 +25326,196 @@
           "vulnerability": 0
         }
       }
+    },
+    "847b6f3aa2d507bd76d4": {
+      "storyId": "847b6f3aa2d507bd76d4",
+      "url": "https://mashable.com/tech/aug-16-chatplayground-ai-unlimited-plan-lifetime-subscriptions",
+      "title": "This platform gives you ChatGPT, Gemini, Claude, and 17+ other AI models for life for $54.97",
+      "source": "Mashable AI",
+      "published": "2026-08-16T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd1fdc1167f10c5f51b9fa18",
+      "bodyFingerprint": "399ede62bf539b8f6ec7f91f",
+      "bodyCharacterCount": 3153,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T09:43:59.355Z",
+      "assessment": {
+        "centralEvent": "This platform gives you ChatGPT, Gemini, Claude, and 17+ other AI models for life for $54.97",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ba1a2fbf73c5d09afba4": {
+      "storyId": "ba1a2fbf73c5d09afba4",
+      "url": "https://apnews.com/article/michigan-shooting-dead-ce8b1a0e7ea2389331ee9b6dfcfa27a2",
+      "title": "Teen boy among 6 dead including suspect in Michigan shootings; girl survived",
+      "source": "AP News AI",
+      "published": "2026-08-15T18:46:57",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "84ac0de72651000876d04014",
+      "bodyFingerprint": "b223c363fa9e1a40d7b0a1f6",
+      "bodyCharacterCount": 3129,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T09:43:59.374Z",
+      "assessment": {
+        "centralEvent": "Teen boy among 6 dead including suspect in Michigan shootings; girl survived",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Hickman was convicted in 2024 of misdemeanor fourth-degree child abuse, according to court records.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "This undated poster provided by The Michigan State Police (MSP) Seventh District, shows suspect Chad Hickman, who was the suspect in the killing of 5 people and found dead on Friday, Aug.14, 2026. (The Michigan State Police, Seventh Distric",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Report for America is a nonprofit national service program that places journalists in local newsrooms to report on undercovered issues.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4b6349c6e4433522a854": {
+      "storyId": "4b6349c6e4433522a854",
+      "url": "https://www.inc.com/pam-didner/short-chatbot-prompts-are-a-beginner-habit-skilled-users-turn-them-into-whole-workflows/91387220",
+      "title": "Short Chatbot Prompts Are a Beginner Habit. Skilled Users Turn Them Into Whole Workflows",
+      "source": "Inc. AI",
+      "published": "2026-08-16T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "132a1574228c60853b5f3d83",
+      "bodyFingerprint": "6896fbc2df39f6dbed4303d8",
+      "bodyCharacterCount": 71,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-16T09:43:59.429Z",
+      "assessment": {
+        "centralEvent": "Short Chatbot Prompts Are a Beginner Habit. Skilled Users Turn Them Into Whole Workflows",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T08:48:40.402Z"
+  "updatedAt": "2026-08-16T09:43:59.429Z"
 }
