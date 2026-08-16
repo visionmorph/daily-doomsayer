@@ -25568,8 +25568,291 @@
           "vulnerability": 0
         }
       }
+    },
+    "8ccd370b2e0a729360bb": {
+      "storyId": "8ccd370b2e0a729360bb",
+      "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "title": "Rogue AI aren’t science fiction anymore",
+      "source": "The Verge AI",
+      "published": "2026-08-16T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aa7e55af61bce4bef6f34e07",
+      "bodyFingerprint": "e5ab8b689a24bb44ecf8ecc8",
+      "bodyCharacterCount": 13741,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T13:02:36.898Z",
+      "assessment": {
+        "centralEvent": "Rogue AI aren’t science fiction anymore",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The agent escaped its isolated testing environment, accessed the internet, and hacked another company, Hugging Face.",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Worse still, it had not known until it checked — and a further investigation found that the rogue agent had also attempted to hack four other companies as well.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "What comes next, then, comes down to solving several hard problems at once: managing a technology that can be used for good and ill, such as defending against or facilitating cyberattacks; coordinating across companies with incentives to cu",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Several incidents involved unreleased models being tested with safeguards lowered, often by third parties whose supposedly secure environments were not that secure, raising basic questions about competence, transparency, and who is responsi",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 92,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.29,
+        "rawScore": 68.29,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.39,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c82305f4e655a16b0e23": {
+      "storyId": "c82305f4e655a16b0e23",
+      "url": "https://www.theguardian.com/film/2026/aug/16/directors-embracing-ai-film-making",
+      "title": "‘It will help get mid-budget films made’: why directors are embracing AI",
+      "source": "The Guardian AI",
+      "published": "2026-08-16T12:00:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dd210af67e9af2a94160f676",
+      "bodyFingerprint": "546360d7f4bb659dbe24f993",
+      "bodyCharacterCount": 9842,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T13:02:37.029Z",
+      "assessment": {
+        "centralEvent": "‘It will help get mid-budget films made’: why directors are embracing AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Leading directors including Christopher Nolan and Guillermo del Toro have criticised generative technology, actors and writers are fearing for their jobs, and the Democratic congresswoman Laura Friedman, who represents Hollywood’s actors, w",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2d74080d5722957fa7d3": {
+      "storyId": "2d74080d5722957fa7d3",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260815064805.htm",
+      "title": "Physicists discover a hidden gluon structure inside protons that could rewrite textbooks",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-16T09:55:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1584c9cb8831b41631800d79",
+      "bodyFingerprint": "04ce7a7f58eab25d298d7e54",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T13:02:37.072Z",
+      "assessment": {
+        "centralEvent": "Physicists discover a hidden gluon structure inside protons that could rewrite textbooks",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "If confirmed, that would challenge the long-standing assumption that baryon number belongs exclusively to those quarks. \"Traditionally, scientists have assumed that each of the three main 'valence' quarks inside a proton or neutron carries ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3f588eab7a750007a740": {
+      "storyId": "3f588eab7a750007a740",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814235849.htm",
+      "title": "A black hole shredded a “super sun” — but something strange may have survived",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-16T03:46:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20020ca5786562c035386bcb",
+      "bodyFingerprint": "b274f322878c4cb3c6010175",
+      "bodyCharacterCount": 10137,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-16T13:02:37.076Z",
+      "assessment": {
+        "centralEvent": "A black hole shredded a “super sun” — but something strange may have survived",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Explore More from ScienceDaily RELATED STORIES A Star’s Violent Death Exposed a Hidden Supermassive Black Hole Aug.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Astronomers have witnessed a black hole violently shredding a massive star, creating one of the most energetic stellar explosions ever observed.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: AI/ScienceDaily.com A massive star has been torn apart and gradually consumed by a black hole in a spectacular event that scientists compared to \"preparing a snack for lunch.\" Astronomers around the world observed the extreme encoun",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Explore More from ScienceDaily RELATED STORIES A Star’s Violent Death Exposed a Hidden Supermassive Black Hole Aug.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.28,
+        "rawScore": 49.28,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.48,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T11:36:26.455Z"
+  "updatedAt": "2026-08-16T13:02:37.076Z"
 }
