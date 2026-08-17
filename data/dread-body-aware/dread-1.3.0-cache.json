@@ -27850,8 +27850,452 @@
           "vulnerability": 0
         }
       }
+    },
+    "f6ae65e282402a9a2614": {
+      "storyId": "f6ae65e282402a9a2614",
+      "url": "https://www.politico.com/news/2026/08/17/ai-slop-lawmakers-congress-01008376",
+      "title": "AI slop is swamping a House office that drafts US laws",
+      "source": "POLITICO AI",
+      "published": "2026-08-17T08:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "571ee9f3f6db8bf4d9d31cf4",
+      "bodyFingerprint": "0b963858c3a87e84cbeddbcb",
+      "bodyCharacterCount": 119,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-17T09:02:40.209Z",
+      "assessment": {
+        "centralEvent": "AI slop is swamping a House office that drafts US laws",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "74b78e94ea7e379c3ced": {
+      "storyId": "74b78e94ea7e379c3ced",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260815064803.htm",
+      "title": "Scientists tracked kids for 8 years — the screen time result was unexpected",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-17T06:41:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "51bd39032edaef6ecba8cacc",
+      "bodyFingerprint": "de07ba6e747ac63a07ee7ee5",
+      "bodyCharacterCount": 9228,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T09:02:40.363Z",
+      "assessment": {
+        "centralEvent": "Scientists tracked kids for 8 years — the screen time result was unexpected",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Low levels of physical activity among adolescents remain a significant public health concern.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "19, 2021  Adults younger than age 60 who spent eight or more hours a day during their free time using a computer, watching TV or reading and participated in little physical activity had an increased risk of ...",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One possible explanation is that these sensors can measure movement and physiological activity but cannot determine exactly what a person is doing during periods of activity or inactivity. \"Our study indicates that the connections of physic",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "These years are especially important because the brain is still developing.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c9c0e217074dbed86278": {
+      "storyId": "c9c0e217074dbed86278",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260816044853.htm",
+      "title": "Scientists turn DNA into a memory device that uses 100x less power",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-17T08:06:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a4f79ff2c380a4d3ad6d14ea",
+      "bodyFingerprint": "a967958f426ec3b741de6eb4",
+      "bodyCharacterCount": 11578,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T09:02:40.371Z",
+      "assessment": {
+        "centralEvent": "Scientists turn DNA into a memory device that uses 100x less power",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The researchers found that electrons moved reliably when they applied less than 0.1 volt -- for comparison, standard U.S. outlets have 120 volts -- and the device responded predictably when the direction of the current was changed.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "09a976739cfde6ef521a": {
+      "storyId": "09a976739cfde6ef521a",
+      "url": "https://www.bbc.co.uk/news/articles/cddjlmeqjgyo?at_campaign=rss&at_medium=RSS",
+      "title": "Sainsbury's pauses AI cameras after shopper ousted",
+      "source": "BBC News AI",
+      "published": "2026-08-17T04:57:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2a1ce7fa3a9c1a18c394fbcc",
+      "bodyFingerprint": "ea34b4297302e3677f5e49c4",
+      "bodyCharacterCount": 6485,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T09:02:40.393Z",
+      "assessment": {
+        "centralEvent": "Sainsbury's pauses AI cameras after shopper ousted",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Describing the experience as a \"terrifying glimpse of the future,\" he has warned that retail surveillance tech risks humiliating customers and creating a system where staff feel compelled to follow automated alerts without applying human lo",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image caption, Matt Arnold says he was falsely flagged as a shoplifter by AI-powered cameras By James W Kelly London Published 4 hours ago Sainsbury's has suspended its use of live facial recognition technology at one of its London branches",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "They're not being equipped to implement the AI properly.\" Arnold argued that even if the technology was as accurate as Sainsbury's claimed, the 0.2% error rate is \"a lot of people when millions go into a Sainsbury's shop each week\". \"There ",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Arnold, who donated a £150 goodwill voucher from Sainsbury's to a local food bank, questioned why the system remains active elsewhere. \"If they're suspending it in this East Dulwich store, they are conceding there's a problem with it.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Instead, he said he was approached by two of the management staff and told he could not be served due to an incident \"earlier in the week\". 'People just listen to the machine' \"They came over and said I had to leave.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.34,
+        "rawScore": 49.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "574d0c8289c0aa79825a": {
+      "storyId": "574d0c8289c0aa79825a",
+      "url": "https://apnews.com/article/ben-gvir-israel-gaza-hamas-netanyahu-53f98e92686746f3c9bccd7cf59f26ad",
+      "title": "Israel's Ben-Gvir advocates killing '30 to 40' people in Gaza nightly while speaking to ex-hostage",
+      "source": "AP News AI",
+      "published": "2026-08-16T14:17:21",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bc1774beae71b1aaf20635a9",
+      "bodyFingerprint": "96b654602f94c0262af56e4b",
+      "bodyCharacterCount": 5428,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T09:02:40.456Z",
+      "assessment": {
+        "centralEvent": "Israel's Ben-Gvir advocates killing '30 to 40' people in Gaza nightly while speaking to ex-hostage",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Many hostages have recounted long-term starvation , physical and psychological abuse and, in some cases, sexual abuse .",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Israel’s Minister of National Security, Itamar Ben-Gvir, prays during the mourning ritual of Tisha B’Av at the Western Wall, Judaism’s holiest site, in Jerusalem’s Old City, Wednesday, July 22, 2026. (AP Photo/Ohad Zwigenberg) By JULIA FRAN",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Ben-Gvir advocates mass emigration, expulsion of Palestinians from Gaza In the same taped appearance, the lawmaker advocated for mass emigration of Palestinians from Gaza — a proposal that international lawyers say could amount to ethnic cl",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More Ben-Gvir criticizes drawdown of Israeli strikes in Gaza Until recently, Israel was striking Gaza nearly every day, attacks that have killed over 1,250 people since an October truce deal came into effect, according to Gaza’s Health",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.5,
+        "rawScore": 49.5,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2448e574f7658b4373a8": {
+      "storyId": "2448e574f7658b4373a8",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260815064801.htm",
+      "title": "Tiny graphene wrinkles create surprisingly powerful electrical effects",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-17T02:28:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "211f2b9eb691c404c2f0a587",
+      "bodyFingerprint": "ee420f1301d0f0391c4ce43d",
+      "bodyCharacterCount": 10328,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T09:02:40.462Z",
+      "assessment": {
+        "centralEvent": "Tiny graphene wrinkles create surprisingly powerful electrical effects",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "By comparing highly curved wrinkles with nearby areas of flat graphene, the researchers were able to separate the electrical effects produced by curvature from other possible influences. \"Earlier studies often examined gentler bends or reli",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Credit: Ajayan lab/Rice University Researchers at Rice University have found that extremely small wrinkles in graphene can alter how the material behaves electrically.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "27, 2022  Inefficient fluid machinery used in the energy and transportation sector are responsible for greenhouse gas emissions and the resulting global warming.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 3,
+            "source": "body",
+            "excerpt": "22, 2022  Researchers have used the singing saw to demonstrate how the geometry of a curved sheet, like curved metal, could be tuned to create high-quality, long-lasting oscillations for applications in ...",
+            "matchedRule": "/\\b(?:long-lasting|lasting damage|years to recover|chronic|only partially reversible)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In the future, that strategy could contribute to more sensitive sensors and extremely thin electronic devices. \"Our work shows that even an ordinary wrinkle can become an extraordinary electronic feature when viewed at the atomic scale,\" sa",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.2,
+        "rawScore": 29.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4725,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 3,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T07:17:55.837Z"
+  "updatedAt": "2026-08-17T09:02:40.462Z"
 }
