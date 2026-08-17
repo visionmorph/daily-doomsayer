@@ -30551,8 +30551,201 @@
           "vulnerability": 0
         }
       }
+    },
+    "65be739f4b8bdbbb5b91": {
+      "storyId": "65be739f4b8bdbbb5b91",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
+      "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "source": "TechCrunch AI",
+      "published": "2026-08-17T21:27:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "78c273351d4916387b5d9bb0",
+      "bodyFingerprint": "ef7f98d948c15adc713e959b",
+      "bodyCharacterCount": 3714,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T21:43:04.233Z",
+      "assessment": {
+        "centralEvent": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Bank, who previously spent a little over six years at Google, revealed that he would now be rejoining the tech giant as VP of Product for Google Chrome, where he will lead the product and developer relations teams for Chrome, according to h",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a40230c73300e1ebd7b8": {
+      "storyId": "a40230c73300e1ebd7b8",
+      "url": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts",
+      "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
+      "source": "Ars Technica AI",
+      "published": "2026-08-17T21:18:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2db997eb03f5f456ef73f6a5",
+      "bodyFingerprint": "c50a9d85330b48e031ffc24c",
+      "bodyCharacterCount": 8686,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T21:43:04.242Z",
+      "assessment": {
+        "centralEvent": "Former SpaceX engineers are building a robotic factory for making steel parts",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Vulnerability giving attackers full control of Macs is under active exploitation Customize",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Raptor team’s use of “intelligent software” for tracking and managing the physical manufacturing of Raptor hardware became the “secret sauce” for implementing changes rapidly and precisely, according to Summers.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Our differentiator is our ability to take robotic systems that are either built by us or built by partners like Path Robotics, pull them into a single system and orchestrate them together in a way in which you can really achieve a seamless",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Our differentiator is our ability to take robotic systems that are either built by us or built by partners like Path Robotics, pull them into a single system and orchestrate them together in a way in which you can really achieve a seamless",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.93,
+        "rawScore": 25.93,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "50446b41087e21fe3a2e": {
+      "storyId": "50446b41087e21fe3a2e",
+      "url": "https://www.inc.com/marcel-schwantes/52-percent-of-workers-hesitate-to-admit-using-ai-leaders-may-be-teaching-them-to-hide-it/91391581",
+      "title": "52 Percent of Workers Hesitate to Admit Using AI. Leaders May Be Teaching Them to Hide It",
+      "source": "Inc. AI",
+      "published": "2026-08-17T21:15:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bb9aa853f1f9fc80022a5aa6",
+      "bodyFingerprint": "e1edd1145f5b38c6cbed6566",
+      "bodyCharacterCount": 83,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-17T21:43:04.299Z",
+      "assessment": {
+        "centralEvent": "52 Percent of Workers Hesitate to Admit Using AI. Leaders May Be Teaching Them to Hide It",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T20:45:49.168Z"
+  "updatedAt": "2026-08-17T21:43:04.299Z"
 }
