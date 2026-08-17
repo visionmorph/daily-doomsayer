@@ -28294,8 +28294,132 @@
           "vulnerability": 0
         }
       }
+    },
+    "534062f929373bcfd5a3": {
+      "storyId": "534062f929373bcfd5a3",
+      "url": "https://www.inc.com/nicole-ramirez/southwest-got-5-million-views-in-a-day-its-smartest-move-was-letting-its-audience-lead/91387353",
+      "title": "Southwest Got 5 Million Views in a Day. Its Smartest Move Was Letting Its Audience Lead",
+      "source": "Inc. AI",
+      "published": "2026-08-17T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ebe825df81566759e88903fa",
+      "bodyFingerprint": "3a33526bf1ab48d1c97089d8",
+      "bodyCharacterCount": 113,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-17T09:59:43.415Z",
+      "assessment": {
+        "centralEvent": "Southwest Got 5 Million Views in a Day. Its Smartest Move Was Letting Its Audience Lead",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Southwest Got 5 Million Views in a Day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "054ab54958ba682a9f1c": {
+      "storyId": "054ab54958ba682a9f1c",
+      "url": "https://mashable.com/tech/aug-17-askanymodel-ai-pro-plan-lifetime-subscription",
+      "title": "Stop choosing between AI models and ask them all with this $40 lifetime tool",
+      "source": "Mashable AI",
+      "published": "2026-08-17T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ec1d5fd4b989059df0d238fc",
+      "bodyFingerprint": "b6e36e817da2d001b8a63d89",
+      "bodyCharacterCount": 3234,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T09:59:43.505Z",
+      "assessment": {
+        "centralEvent": "Stop choosing between AI models and ask them all with this $40 lifetime tool",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T09:02:40.462Z"
+  "updatedAt": "2026-08-17T09:59:43.505Z"
 }
