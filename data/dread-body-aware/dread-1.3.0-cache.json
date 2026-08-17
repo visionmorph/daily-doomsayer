@@ -27261,8 +27261,128 @@
           "vulnerability": 0
         }
       }
+    },
+    "d1b7ed52e00e3aef4b11": {
+      "storyId": "d1b7ed52e00e3aef4b11",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "source": "The Verge AI",
+      "published": "2026-08-16T21:32:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dae1ffe05b720ff18f8b7942",
+      "bodyFingerprint": "cc317753e803317eb87ff1c7",
+      "bodyCharacterCount": 3282,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T01:56:37.299Z",
+      "assessment": {
+        "centralEvent": "OpenAI reportedly disbanded its preparedness team",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bda686c219208dbf83dd": {
+      "storyId": "bda686c219208dbf83dd",
+      "url": "https://apnews.com/article/children-shot-lexington-kentucky-2ce4f44c6a75a1841af4f491fc2a69d6",
+      "title": "1 killed, 4 injured in shooting at park in Kentucky",
+      "source": "AP News AI",
+      "published": "2026-08-16T14:34:52",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "220ea8aeedf0967140b8345a",
+      "bodyFingerprint": "d1176fa19cfec94d33db20b3",
+      "bodyCharacterCount": 2659,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T01:56:37.321Z",
+      "assessment": {
+        "centralEvent": "1 killed, 4 injured in shooting at park in Kentucky",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "1 killed, 4 injured in shooting at park in Kentucky",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-16T23:35:48.146Z"
+  "updatedAt": "2026-08-17T01:56:37.321Z"
 }
