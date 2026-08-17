@@ -30111,8 +30111,182 @@
           "vulnerability": 0
         }
       }
+    },
+    "33f6c512714a20abfa8f": {
+      "storyId": "33f6c512714a20abfa8f",
+      "url": "https://www.inc.com/kit-eaton/in-just-1-word-anthropics-ceo-admitted-why-everyone-hates-tech-companies-right-now-its-not-ai/91391966",
+      "title": "In Just 1 Word, Anthropic’s CEO Admitted Why Everyone Hates Tech Companies Right Now—It’s Not AI",
+      "source": "Inc. AI",
+      "published": "2026-08-17T18:56:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "78a0482407f4d923eb594833",
+      "bodyFingerprint": "d441d599414c22ef0c0068e3",
+      "bodyCharacterCount": 130,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-17T19:44:34.330Z",
+      "assessment": {
+        "centralEvent": "In Just 1 Word, Anthropic’s CEO Admitted Why Everyone Hates Tech Companies Right Now—It’s Not AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "aec57c15264fe197fa11": {
+      "storyId": "aec57c15264fe197fa11",
+      "url": "https://apnews.com/article/iran-us-israel-lebanon-gaza-hormuz-august-17-2026-53ae10812e472a4e5bb228b9f318a5fc",
+      "title": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal, and other Middle East news",
+      "source": "AP News AI",
+      "published": "2026-08-17T09:37:56",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b7d0956f5df6a51ca2fa511",
+      "bodyFingerprint": "011f2eae37e99957b21d216a",
+      "bodyCharacterCount": 10483,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T19:44:34.396Z",
+      "assessment": {
+        "centralEvent": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal, and other Middle East news",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal, and other Middle East news 1 of 5 | This is a locator map for Iran with its capital, Tehran. (AP Photo) Read More 2 of 5 | A woman mourns during the funeral of Hezbollah",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4af4e9e08e4c19515634": {
+      "storyId": "4af4e9e08e4c19515634",
+      "url": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_fourfm?at_campaign=rss&at_medium=RSS",
+      "title": "BBC Inside Science",
+      "source": "BBC News AI",
+      "published": "2026-08-13T20:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "041464d4f97cef31c0f5898a",
+      "bodyFingerprint": "699ca871a6813a48d35bb10b",
+      "bodyCharacterCount": 2636,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T19:44:34.925Z",
+      "assessment": {
+        "centralEvent": "BBC Inside Science",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Script 28 mins More episodes Scam Secrets How To Spot A Deepfake 30 mins More episodes Human Intelligence Recluses Emily Brontë 14 mins More episodes Behind the Crime Pieter 42 mins More episodes",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T18:59:30.598Z"
+  "updatedAt": "2026-08-17T19:44:34.925Z"
 }
