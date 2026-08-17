@@ -30285,8 +30285,274 @@
           "vulnerability": 0
         }
       }
+    },
+    "7e6e09263a094a2756fc": {
+      "storyId": "7e6e09263a094a2756fc",
+      "url": "https://apnews.com/article/lindsay-clancy-postpartum-murder-trial-prosecution-5fa1e451f824009b35f8888702356aaa",
+      "title": "Mom and sister testify about Lindsay Clancy's declining mental state before she killed her children",
+      "source": "AP News AI",
+      "published": "2026-08-17T15:23:21",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ce970ce0f3228cd8c648b650",
+      "bodyFingerprint": "a231986ae7eb1cd17f378c86",
+      "bodyCharacterCount": 6080,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T20:45:49.134Z",
+      "assessment": {
+        "centralEvent": "Mom and sister testify about Lindsay Clancy's declining mental state before she killed her children",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Before killing her kids, Lindsay Clancy searched about hallucinations, psychosis and ways to die 3 MIN READ 50 At Lindsay Clancy trial, focus turns to medications prescribed before she killed her 3 children 5 MIN READ Musgro",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a837ad209110ff23f710": {
+      "storyId": "a837ad209110ff23f710",
+      "url": "https://www.inc.com/moses-jeanfrancois/lovable-reached-13-billion-dollar-valuation-investors-betting-more-than-software-builder/91391805",
+      "title": "Lovable Just Reached a $13.3 Billion Valuation. Investors Are Betting It Can Be More Than a Software Builder",
+      "source": "Inc. AI",
+      "published": "2026-08-17T19:55:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bf11cd29e68823067d12ec92",
+      "bodyFingerprint": "7b29ca35f3fa3d27df5cad0a",
+      "bodyCharacterCount": 114,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-17T20:45:49.142Z",
+      "assessment": {
+        "centralEvent": "Lovable Just Reached a $13.3 Billion Valuation. Investors Are Betting It Can Be More Than a Software Builder",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8de0c5c14a792c3f2d4e": {
+      "storyId": "8de0c5c14a792c3f2d4e",
+      "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0818",
+      "title": "Q&A: Rethinking how innovation happens",
+      "source": "MIT News AI",
+      "published": "2026-08-17T19:50:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6a0137990a344202fc6561a6",
+      "bodyFingerprint": "1346cb0c267922e774ce6b41",
+      "bodyCharacterCount": 10398,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T20:45:49.151Z",
+      "assessment": {
+        "centralEvent": "Q&A: Rethinking how innovation happens",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In this interview, Fitzgerald discusses his own experiences with innovation — including his co-invention of strained silicon at AT&T Bell Laboratories in the 1990s, which helped extend Moore’s Law, the semiconductor industry’s long-standing",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Author and MIT Professor Eugene Fitzgerald’s ideas about innovation draw on his experience at MIT and leading international research programs, where he explored innovation as the integration of market applications, technology, and implement",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A new F-35, for example, may need advancements in several fields, so the customer — in this case the government — wants them to come together.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.64,
+        "rawScore": 26.64,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "437e1f1a3c86a58e4ba5": {
+      "storyId": "437e1f1a3c86a58e4ba5",
+      "url": "https://apnews.com/article/ap-top-25-preseason-poll-bd5dd1c058fab6047510f09e18b035f1",
+      "title": "Ohio State and Oregon are 1-2 in the AP preseason Top 25, SEC leads conferences with 9 ranked teams",
+      "source": "AP News AI",
+      "published": "2026-08-17T16:00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "668c91a0fe647e6b366fe359",
+      "bodyFingerprint": "69cdeadf1419c0b7873da88b",
+      "bodyCharacterCount": 10447,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T20:45:49.168Z",
+      "assessment": {
+        "centralEvent": "Ohio State and Oregon are 1-2 in the AP preseason Top 25, SEC leads conferences with 9 ranked teams",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There is little concern about the defense even though eight starters must be replaced for a second straight year.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The two-time defending SEC champion Bulldogs are favored to play in a sixth straight conference title game and appear in the CFP for the sixth time in 10 years.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Defending national champion Indiana starts at No.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "27, 2025, in Fayetteville, Ark. (AP Photo/Michael Woods, File) Read More 4 of 5 | Ohio State running back CJ Donaldson is stopped by the Texas defense during the second half of an NCAA college football game in Columbus, Ohio., Aug.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 83,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T19:44:34.925Z"
+  "updatedAt": "2026-08-17T20:45:49.168Z"
 }
