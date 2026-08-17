@@ -28418,8 +28418,122 @@
           "vulnerability": 0
         }
       }
+    },
+    "e82fdf6a1f9efd8e2721": {
+      "storyId": "e82fdf6a1f9efd8e2721",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+      "title": "Anthropic explains how Claude’s invisible text watermarks will work",
+      "source": "The Verge AI",
+      "published": "2026-08-17T10:57:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "277da479409c2dd8a8d10fd6",
+      "bodyFingerprint": "7c1da28f14c2770ff9ecb840",
+      "bodyCharacterCount": 4424,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T11:43:27.114Z",
+      "assessment": {
+        "centralEvent": "Anthropic explains how Claude’s invisible text watermarks will work",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Jess Weatherbed AI Anthropic News Tech Most Popular Most Popular Flock CEO: ‘We got this one wrong’ I finally found a magnetic phone grip I never want to remove ChatGPT’s Computer History tracks your clicks and keystrokes OpenAI reportedly ",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "71b0ef0a66b524022de7": {
+      "storyId": "71b0ef0a66b524022de7",
+      "url": "https://www.nature.com/articles/d41586-026-02529-x",
+      "title": "Why AI systems are most useful as designers of new scientific tools",
+      "source": "Nature AI News & Comment",
+      "published": "2026-08-17T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "df9433cf06b4c1e53a939099",
+      "bodyFingerprint": "7f148f7755da3b7b4648269f",
+      "bodyCharacterCount": 68,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-17T11:43:27.675Z",
+      "assessment": {
+        "centralEvent": "Why AI systems are most useful as designers of new scientific tools",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T10:49:38.390Z"
+  "updatedAt": "2026-08-17T11:43:27.675Z"
 }
