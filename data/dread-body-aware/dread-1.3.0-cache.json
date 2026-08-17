@@ -28532,8 +28532,198 @@
           "vulnerability": 0
         }
       }
+    },
+    "22648566398ea0884b94": {
+      "storyId": "22648566398ea0884b94",
+      "url": "https://www.theguardian.com/us-news/2026/aug/17/satellites-ai-wildfire-detection",
+      "title": "AI eyes in the sky: new satellites and artificial intelligence are transforming wildfire detection",
+      "source": "The Guardian AI",
+      "published": "2026-08-17T12:00:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3a62d69a98baffa16d508541",
+      "bodyFingerprint": "30f3d0d289dfce4ad08a78aa",
+      "bodyCharacterCount": 5948,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T13:08:08.491Z",
+      "assessment": {
+        "centralEvent": "AI eyes in the sky: new satellites and artificial intelligence are transforming wildfire detection",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“The ones you don’t see.” Climate Central is an independent group of scientists and communicators who research and report the facts about our changing climate and how it affects people’s lives Explore more on these topics Firefighters Wildf",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The trio is the first part of a planned network of 50 satellites built solely to spot wildfires while they are still small enough to stop.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44.55,
+        "rawScore": 44.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd4bbfe3a71abf75ca74": {
+      "storyId": "bd4bbfe3a71abf75ca74",
+      "url": "https://apnews.com/article/bbc-trump-defamation-lawsuit-subpoenas-6e5936f0a221c04927459efdb1e949ef",
+      "title": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit",
+      "source": "AP News AI",
+      "published": "2026-08-16T15:26:41",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e9adaddc0e18f737fb890789",
+      "bodyFingerprint": "58fe3b3431edb70c5bbd630e",
+      "bodyCharacterCount": 5464,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T13:08:08.511Z",
+      "assessment": {
+        "centralEvent": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Lawyers for the BBC argued that Ivanka Trump, her husband Jared Kushner, and Donald Trump, Jr. have “personal knowledge” and likely have records relevant to elements of Trump’s claims against the broadcaster, according to a filing Friday in",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e3b65660646195f535bf": {
+      "storyId": "e3b65660646195f535bf",
+      "url": "https://apnews.com/article/russia-ukraine-war-putin-wildberries-kim-48c331f100a1d981959c5d75a1397d21",
+      "title": "Ukraine takes aim at Russia’s economy and morale by attacking online retailer",
+      "source": "AP News AI",
+      "published": "2026-08-17T04:05:53",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "66e20a6b1be0e4455fd11c14",
+      "bodyFingerprint": "8ac2f58cca147588e3926ebd",
+      "bodyCharacterCount": 13031,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T13:08:08.529Z",
+      "assessment": {
+        "centralEvent": "Ukraine takes aim at Russia’s economy and morale by attacking online retailer",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Wildberries has drawn massive loans from VTB and other banks as it expanded and likely will have trouble repaying them, putting more pressure on the financial system.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hundreds of thousands of individual sellers have lost their merchandise, sending shock waves across Russia’s economy.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 80,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T11:43:27.675Z"
+  "updatedAt": "2026-08-17T13:08:08.529Z"
 }
