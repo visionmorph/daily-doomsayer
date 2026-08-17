@@ -10225,6 +10225,78 @@
       "published": "2026-08-16T15:26:41",
       "firstSeen": "2026-08-17T13:00:00.000Z",
       "lastSeen": "2026-08-17T13:00:00.000Z"
+    },
+    "550359696f0417d9fafc": {
+      "storyId": "550359696f0417d9fafc",
+      "currentTitle": "Sainsbury’s store pauses AI scanning after false shoplifting accusation",
+      "originalTitle": "Sainsbury’s store pauses AI scanning after false shoplifting accusation",
+      "url": "https://www.theguardian.com/technology/2026/aug/17/humiliated-sainsburys-store-pauses-ai-scanning-after-false-shoplifting-accusation",
+      "canonicalUrl": "https://www.theguardian.com/technology/2026/aug/17/humiliated-sainsburys-store-pauses-ai-scanning-after-false-shoplifting-accusation",
+      "source": "The Guardian AI",
+      "image": "https://i.guim.co.uk/img/media/60fed540912aa1661cae133bc78735c5c0a07162/151_245_663_530/master/663.jpg?width=800&dpr=2&s=none&crop=none",
+      "published": "2026-08-17T13:21:25.000Z",
+      "firstSeen": "2026-08-17T13:00:00.000Z",
+      "lastSeen": "2026-08-17T13:00:00.000Z"
+    },
+    "4438b95a5014664d0658": {
+      "storyId": "4438b95a5014664d0658",
+      "currentTitle": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
+      "originalTitle": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+      "canonicalUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
+      "source": "NASA AI",
+      "image": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ai-model-for-ar-emergence.mp4",
+      "published": "2026-08-14T17:00:23.000Z",
+      "firstSeen": "2026-08-17T13:00:00.000Z",
+      "lastSeen": "2026-08-17T13:00:00.000Z"
+    },
+    "c7de0ac22c0c4ca36afa": {
+      "storyId": "c7de0ac22c0c4ca36afa",
+      "currentTitle": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+      "originalTitle": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation",
+      "source": "TechCrunch AI",
+      "image": "",
+      "published": "2026-08-17T13:10:05.000Z",
+      "firstSeen": "2026-08-17T13:00:00.000Z",
+      "lastSeen": "2026-08-17T13:00:00.000Z"
+    },
+    "9398addc4f8f70db7295": {
+      "storyId": "9398addc4f8f70db7295",
+      "currentTitle": "Caltech breakthrough brings fiber-optic performance to silicon chips",
+      "originalTitle": "Caltech breakthrough brings fiber-optic performance to silicon chips",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814235905.htm",
+      "canonicalUrl": "https://www.sciencedaily.com/releases/2026/08/260814235905.htm",
+      "source": "ScienceDaily Technology",
+      "image": "",
+      "published": "2026-08-17T12:30:41.000Z",
+      "firstSeen": "2026-08-17T13:00:00.000Z",
+      "lastSeen": "2026-08-17T13:00:00.000Z"
+    },
+    "57c675f6d976df8146fe": {
+      "storyId": "57c675f6d976df8146fe",
+      "currentTitle": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "originalTitle": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+      "canonicalUrl": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+      "source": "404 Media AI",
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/image3-2-1.png",
+      "published": "2026-08-17T13:16:09.000Z",
+      "firstSeen": "2026-08-17T13:00:00.000Z",
+      "lastSeen": "2026-08-17T13:00:00.000Z"
+    },
+    "0ddde1c6e530ce2739e2": {
+      "storyId": "0ddde1c6e530ce2739e2",
+      "currentTitle": "Webb’s mysterious little red dots may be hiding entire galaxies",
+      "originalTitle": "Webb’s mysterious little red dots may be hiding entire galaxies",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260815064808.htm",
+      "canonicalUrl": "https://www.sciencedaily.com/releases/2026/08/260815064808.htm",
+      "source": "ScienceDaily Technology",
+      "image": "",
+      "published": "2026-08-17T12:56:43.000Z",
+      "firstSeen": "2026-08-17T13:00:00.000Z",
+      "lastSeen": "2026-08-17T13:00:00.000Z"
     }
   },
   "formulas": {
