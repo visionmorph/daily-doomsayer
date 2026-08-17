@@ -27716,8 +27716,142 @@
           "vulnerability": 0
         }
       }
+    },
+    "86e223bcc9149779aa98": {
+      "storyId": "86e223bcc9149779aa98",
+      "url": "https://www.inc.com/kevin-haynes/anthropics-new-ai-watermark-sparks-backlash-from-claude-subscribers/91391704",
+      "title": "Anthropic’s New AI Watermark Sparks Backlash From Claude Subscribers",
+      "source": "Inc. AI",
+      "published": "2026-08-17T04:05:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "992c936c7fdbe20c26505ef8",
+      "bodyFingerprint": "a777a4d643a4d831b6800ee1",
+      "bodyCharacterCount": 188,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-17T04:59:54.201Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s New AI Watermark Sparks Backlash From Claude Subscribers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Anthropic’s New AI Watermark Sparks Backlash From Claude Subscribers",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2f6e5ea1c163827cbbb6": {
+      "storyId": "2f6e5ea1c163827cbbb6",
+      "url": "https://apnews.com/article/trump-vandalism-claim-world-war-ii-memorial-f37b3fe1daae73d00f4faad29a5df80e",
+      "title": "Trump blames vandals for damaged grass in the same spot where he held his big July 4 celebration",
+      "source": "AP News AI",
+      "published": "2026-08-17T02:36:17",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1bb2a6ee64c53c6a836b4626",
+      "bodyFingerprint": "03cfdf410b5a7cd13509c1be",
+      "bodyCharacterCount": 3800,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T04:59:54.225Z",
+      "assessment": {
+        "centralEvent": "Trump blames vandals for damaged grass in the same spot where he held his big July 4 celebration",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "He cited it as evidence refuting Pirro’s conclusion, calling it “a pure case of VANDALISM, that included the grass.” “There may have been some contractor difficulty, but the major damage was caused by VANDALS!” he wrote.",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Workers dismantle structures from Salute to America, an Independence Day event honoring the nation’s 250th anniversary, as seen from the Washington Monument, on July 10, 2026, in Washington. (AP Photo/Mark Schiefelbein, File) Updated [hour]",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "President Donald Trump says vandals are to blame for large swaths of dead grass on the National Mall near the World War II Memorial.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 67.69,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T04:06:38.507Z"
+  "updatedAt": "2026-08-17T04:59:54.225Z"
 }
