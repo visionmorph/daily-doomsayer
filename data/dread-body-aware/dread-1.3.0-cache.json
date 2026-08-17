@@ -27381,8 +27381,221 @@
           "vulnerability": 0
         }
       }
+    },
+    "86328d9d1207b00a2c38": {
+      "storyId": "86328d9d1207b00a2c38",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/17/australia-social-media-ban-report-ai-hallucinations-ntwnfb",
+      "title": "Report supporting Australia’s teen social media ban appears to contain AI hallucinations, Senate hears",
+      "source": "The Guardian AI",
+      "published": "2026-08-17T02:58:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "89d2552664d7dd8d2b0247bd",
+      "bodyFingerprint": "fe3c7b72c21fecf101142869",
+      "bodyCharacterCount": 8283,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T03:14:52.938Z",
+      "assessment": {
+        "centralEvent": "Report supporting Australia’s teen social media ban appears to contain AI hallucinations, Senate hears",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Explore more on these topics Social media ban AI (artificial intelligence) Labor party ChatGPT Australian politics news Share Reuse this content More on this story More on this story Live Australia politics live: Hill says using super to bu",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "However, one of the lead authors of this study confirmed to the Guardian that their article was not publicly accessible until it was published in June 2025.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“So, something may have changed in the interim. [They] did also assure us that while some of the links may have been broken, though the source documents do still exist, they are still valid.” Prof Christian Downie, from the school of regula",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5766616836db3feb799c": {
+      "storyId": "5766616836db3feb799c",
+      "url": "https://apnews.com/article/flooding-indiana-severe-weather-aa3624a3ff1a0d241f62ec980a23e856",
+      "title": "At least 7 people have died from days of heavy rain and record-setting flooding in Indiana",
+      "source": "AP News AI",
+      "published": "2026-08-16T16:23:43",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1a9fee20829611b12d2d0bc8",
+      "bodyFingerprint": "e3513f8d72dc2ee467be792a",
+      "bodyCharacterCount": 10941,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T03:14:52.970Z",
+      "assessment": {
+        "centralEvent": "At least 7 people have died from days of heavy rain and record-setting flooding in Indiana",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "At least 7 people have died from days of heavy rain and record-setting flooding in Indiana 1 of 7 | At least five people died in flooding across the state this week, as first responders worked to rescue more people Saturday from rising wate",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "At least 7 people have died from days of heavy rain and record-setting flooding in Indiana",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "While northern parts of Indiana dried out, a cluster of storms was expected to pass through the central and southern regions later Sunday, bringing the potential for heavy rain, flash flooding and damaging winds, the National Weather Servic",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "We’re going to push through this as a community.” The other victims included a 19-year-old man whose body was recovered Saturday.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.1,
+        "rawScore": 68.1,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3725,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "62acee6d88434f49614e": {
+      "storyId": "62acee6d88434f49614e",
+      "url": "https://apnews.com/article/mma-ufc-330-298f0c28e672384f8ad8d3286f227348",
+      "title": "Make it 17 straight! Makhachev sets UFC record for consecutive wins in welterweight title defense",
+      "source": "AP News AI",
+      "published": "2026-08-16T03:35:33",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "549a0f316005e8b9940594f2",
+      "bodyFingerprint": "e02105e0548166f7ba30f064",
+      "bodyCharacterCount": 10855,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T03:14:52.992Z",
+      "assessment": {
+        "centralEvent": "Make it 17 straight! Makhachev sets UFC record for consecutive wins in welterweight title defense",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“He gave me a hard time,” Makhachev said, “but I still prove it every fight.” Makhachev (29-1) was tied with UFC Hall of Famer Anderson Silva with 16 straight victories and has not lost since UFC 192 in 2015.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T01:56:37.321Z"
+  "updatedAt": "2026-08-17T03:14:52.992Z"
 }
