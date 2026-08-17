@@ -28722,8 +28722,402 @@
           "vulnerability": 0
         }
       }
+    },
+    "c7de0ac22c0c4ca36afa": {
+      "storyId": "c7de0ac22c0c4ca36afa",
+      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation",
+      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+      "source": "TechCrunch AI",
+      "published": "2026-08-17T13:10:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0170bd5b697e746293ed9e82",
+      "bodyFingerprint": "3bc1b7c1fe7f2b40ba92ca09",
+      "bodyCharacterCount": 3456,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T13:55:09.223Z",
+      "assessment": {
+        "centralEvent": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular If Apple sends you a push notification alerting you to a spyware attack, take it seriously Zack Whittaker Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes Lu",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4438b95a5014664d0658": {
+      "storyId": "4438b95a5014664d0658",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
+      "title": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
+      "source": "NASA AI",
+      "published": "2026-08-14T17:00:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b57e43bb321d3b782c419886",
+      "bodyFingerprint": "4face953e6693e820b4034f3",
+      "bodyCharacterCount": 9047,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T13:55:09.235Z",
+      "assessment": {
+        "centralEvent": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Now, a team of astrophysicists and data scientists with NASA’s COFFIES (Consequence Of Fields and Flows in the Interior and Exterior of the Sun) has developed a novel machine-learning model capable of predicting the emergence of active regi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "550359696f0417d9fafc": {
+      "storyId": "550359696f0417d9fafc",
+      "url": "https://www.theguardian.com/technology/2026/aug/17/humiliated-sainsburys-store-pauses-ai-scanning-after-false-shoplifting-accusation",
+      "title": "Sainsbury’s store pauses AI scanning after false shoplifting accusation",
+      "source": "The Guardian AI",
+      "published": "2026-08-17T13:21:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0d0db7817f73e1c5a34435d3",
+      "bodyFingerprint": "367d9fd7fd5cefa6f279bf41",
+      "bodyCharacterCount": 5691,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T13:55:09.317Z",
+      "assessment": {
+        "centralEvent": "Sainsbury’s store pauses AI scanning after false shoplifting accusation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Also, I would worry about the confidence-destroying effect of it happening to a younger person or someone less willing or able to stand up for themselves as I have done.” The supermarket chain uses facial recognition technology to identify",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "What isn’t necessary is allowing machines to make decisions and then expect humans to scuttle off and do their bidding unquestioningly.” A Sainsbury’s spokesperson said: “We have contacted Mr Arnold to apologise for his experience at our Du",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The comedy promoter was buying supplies in the store in East Dulwich, in south-east London , for a standup event at Dulwich Hamlet football club when, after scanning his items and a Nectar card, he was approached by two managers who told hi",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.21,
+        "rawScore": 45.21,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.11,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "57c675f6d976df8146fe": {
+      "storyId": "57c675f6d976df8146fe",
+      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "source": "404 Media AI",
+      "published": "2026-08-17T13:16:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c5b317a972c62bcd37d909ea",
+      "bodyFingerprint": "5db85ac4ee4bff308d9701b3",
+      "bodyCharacterCount": 10294,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T13:55:09.334Z",
+      "assessment": {
+        "centralEvent": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Elsewhere online in 2024, booksellers who sell their books on Amazon said they received a spike in orders to be shipped directly to the VGT3 location for a customer named “Amazon FC.” This was so unusual given its size they suspected the or",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "6 Amazon warehouse: LAS8 The next day it arrives at an Amazon warehouse called LAS8.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "2 Milwaukee Next time we see it is right outside Milwaukee Mitchell International Airport.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Earlier this year, some employees expressed concerns that Amazon would shut down the site because they had worked through the books they had and weren’t getting enough shipments of new books, though the site is still operational today.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 77,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.67,
+        "rawScore": 48.67,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0ddde1c6e530ce2739e2": {
+      "storyId": "0ddde1c6e530ce2739e2",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260815064808.htm",
+      "title": "Webb’s mysterious little red dots may be hiding entire galaxies",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-17T12:56:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d6053bcaf6581d3b6e74e3fe",
+      "bodyFingerprint": "f58c2aa82cd562bc78fe97dd",
+      "bodyCharacterCount": 13417,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T13:55:09.340Z",
+      "assessment": {
+        "centralEvent": "Webb’s mysterious little red dots may be hiding entire galaxies",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "By studying a spiral galaxy nicknamed the “Saguaro,” researchers found a compact, bright red center that closely resembles these distant objects—but with something Webb usually can’t see around them: a full galaxy.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 92,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9398addc4f8f70db7295": {
+      "storyId": "9398addc4f8f70db7295",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814235905.htm",
+      "title": "Caltech breakthrough brings fiber-optic performance to silicon chips",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-17T12:30:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "89ebeaf37908ae720141025d",
+      "bodyFingerprint": "bbf3ab57b777ad8fe3a724b9",
+      "bodyCharacterCount": 10335,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T13:55:09.415Z",
+      "assessment": {
+        "centralEvent": "Caltech breakthrough brings fiber-optic performance to silicon chips",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Credit: Vahala Lab/Caltech Caltech researchers have found a way to move light across silicon wafers with exceptionally little signal loss, reaching levels at visible wavelengths that approach those of optical fiber.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T13:08:08.529Z"
+  "updatedAt": "2026-08-17T13:55:09.415Z"
 }
