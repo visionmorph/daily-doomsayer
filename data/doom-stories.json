@@ -10096,7 +10096,7 @@
     },
     "09a976739cfde6ef521a": {
       "storyId": "09a976739cfde6ef521a",
-      "currentTitle": "Sainsbury's pauses AI cameras after shopper ousted",
+      "currentTitle": "Sainsbury's branch halts AI use as shopper ejected",
       "originalTitle": "Sainsbury's pauses AI cameras after shopper ousted",
       "url": "https://www.bbc.co.uk/news/articles/cddjlmeqjgyo?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://www.bbc.co.uk/news/articles/cddjlmeqjgyo?at_campaign=rss&at_medium=RSS",
@@ -10139,6 +10139,30 @@
       "source": "ScienceDaily Technology",
       "image": "",
       "published": "2026-08-17T02:28:23.000Z",
+      "firstSeen": "2026-08-17T09:00:00.000Z",
+      "lastSeen": "2026-08-17T09:00:00.000Z"
+    },
+    "534062f929373bcfd5a3": {
+      "storyId": "534062f929373bcfd5a3",
+      "currentTitle": "Southwest Got 5 Million Views in a Day. Its Smartest Move Was Letting Its Audience Lead",
+      "originalTitle": "Southwest Got 5 Million Views in a Day. Its Smartest Move Was Letting Its Audience Lead",
+      "url": "https://www.inc.com/nicole-ramirez/southwest-got-5-million-views-in-a-day-its-smartest-move-was-letting-its-audience-lead/91387353",
+      "canonicalUrl": "https://www.inc.com/nicole-ramirez/southwest-got-5-million-views-in-a-day-its-smartest-move-was-letting-its-audience-lead/91387353",
+      "source": "Inc. AI",
+      "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/08/southwest-airlines-inc-711396337.jpg",
+      "published": "2026-08-17T09:00:00.000Z",
+      "firstSeen": "2026-08-17T09:00:00.000Z",
+      "lastSeen": "2026-08-17T09:00:00.000Z"
+    },
+    "054ab54958ba682a9f1c": {
+      "storyId": "054ab54958ba682a9f1c",
+      "currentTitle": "Stop choosing between AI models and ask them all with this $40 lifetime tool",
+      "originalTitle": "Stop choosing between AI models and ask them all with this $40 lifetime tool",
+      "url": "https://mashable.com/tech/aug-17-askanymodel-ai-pro-plan-lifetime-subscription",
+      "canonicalUrl": "https://mashable.com/tech/aug-17-askanymodel-ai-pro-plan-lifetime-subscription",
+      "source": "Mashable AI",
+      "image": "https://helios-i.mashable.com/imagery/articles/05fwf8HKdVVRm6RkVNvPoZd/hero-image.jpg",
+      "published": "2026-08-17T09:00:00.000Z",
       "firstSeen": "2026-08-17T09:00:00.000Z",
       "lastSeen": "2026-08-17T09:00:00.000Z"
     }
