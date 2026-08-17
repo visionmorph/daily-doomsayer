@@ -29782,8 +29782,337 @@
           "vulnerability": 0
         }
       }
+    },
+    "19c1c54540721b9892f1": {
+      "storyId": "19c1c54540721b9892f1",
+      "url": "https://www.inc.com/moses-jeanfrancois/openai-wants-chatgpt-to-learn-how-you-work-raises-privacy-questions/91391800",
+      "title": "OpenAI Wants ChatGPT to Learn How You Work. Its New Mac Feature Raises Privacy Questions",
+      "source": "Inc. AI",
+      "published": "2026-08-17T18:20:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6141eab20e11dfd49b7fe386",
+      "bodyFingerprint": "b5d602ff740e8628f7cde343",
+      "bodyCharacterCount": 93,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-17T18:59:30.203Z",
+      "assessment": {
+        "centralEvent": "OpenAI Wants ChatGPT to Learn How You Work. Its New Mac Feature Raises Privacy Questions",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "714ea430e2cf672f8ba2": {
+      "storyId": "714ea430e2cf672f8ba2",
+      "url": "https://mashable.com/tech/grok-child-abuse-lawsuit-expands-new",
+      "title": "Grok CSAM lawsuit expands as more step forward",
+      "source": "Mashable AI",
+      "published": "2026-08-17T17:37:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a9fdd4ed494df3faf4f48e08",
+      "bodyFingerprint": "126953dcb108f780e302e3de",
+      "bodyCharacterCount": 3742,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T18:59:30.239Z",
+      "assessment": {
+        "centralEvent": "Grok CSAM lawsuit expands as more step forward",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credit: SOPA Images / Contributor / Elon Musk-owned SpaceXAI is set to defend its artificial intelligence bot Grok in federal court, following a scandal that alleges the AI assistant was used to produce child sexual abuse material (CSAM) .",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But, according to NCMEC, many of these reports left out key information, including disclosures regarding the presence of child sex abuse material (CSAM) in AI training data and specific details that could aid law enforcement in locating sus",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The CCRI website also includes helpful information as well as a list of international resources .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Last month, the lawsuit expanded as two additional plaintiffs joined the case, detailing startling stories of online sexual abuse enabled by Grok's image-generating features.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 47.74,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1a72a03fca39839e1c5d": {
+      "storyId": "1a72a03fca39839e1c5d",
+      "url": "https://apnews.com/article/trump-military-operations-latin-american-western-hemisphere-a1fccf4414e44341d3dbd54e19ae1ba4",
+      "title": "After killing hundreds in boat strikes, US military expands campaign on land in Latin America",
+      "source": "AP News AI",
+      "published": "2026-08-17T07:03:22",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d1b831ac27f948cbb961449",
+      "bodyFingerprint": "ac10c60f1a5303d050751c2c",
+      "bodyCharacterCount": 10263,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T18:59:30.260Z",
+      "assessment": {
+        "centralEvent": "After killing hundreds in boat strikes, US military expands campaign on land in Latin America",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit Read More The expansion marks a new phase in the Trump administration’s campaign to pressure governments across Latin America to align with its ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit MEXICO CITY (AP) — Hundreds of people have been killed in the year since the U.S. military began bombing boats it accused of ferrying drugs off ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But sustained U.S. combat operations alongside local forces would be “new and different,” said William LeoGrande, a Latin America specialist at American University, testing deep-rooted sensitivities over national sovereignty and the presenc",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3d01d6b3cc54c41a19ad": {
+      "storyId": "3d01d6b3cc54c41a19ad",
+      "url": "https://apnews.com/article/trump-supreme-court-e-jean-carroll-defamation-769b731baf27199224c30af55cd0a149",
+      "title": "Supreme Court again rebuffs Trump’s push to toss out $5 million verdict in E. Jean Carroll case",
+      "source": "AP News AI",
+      "published": "2026-08-17T13:46:24",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "77ee55b526c94101afbf6b06",
+      "bodyFingerprint": "b781daa6d1d35995364103d8",
+      "bodyCharacterCount": 4145,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T18:59:30.266Z",
+      "assessment": {
+        "centralEvent": "Supreme Court again rebuffs Trump’s push to toss out $5 million verdict in E. Jean Carroll case",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bf9241800bcd0946d274": {
+      "storyId": "bf9241800bcd0946d274",
+      "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai",
+      "title": "Hidden Airtag reveals Amazon is trashing rare books to train AI",
+      "source": "Ars Technica AI",
+      "published": "2026-08-17T18:13:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4da0e0edc0dd87229819807e",
+      "bodyFingerprint": "4dfaeadccdee9c2a45d568af",
+      "bodyCharacterCount": 7912,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-17T18:59:30.598Z",
+      "assessment": {
+        "centralEvent": "Hidden Airtag reveals Amazon is trashing rare books to train AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Apparently tone-deaf to the escalating backlash over destructive book scanning, a logo on the door of that team’s warehouse, VGT3, showed a Tyrannosaurus rex preparing to devour a book, 404 Media documented.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“You were not going to buy that old paper book,” one Redditor commented in response to a post lamenting that “an obscure book from 1700 is now a museum piece and may reveal day-to-day stuff that we didn’t know.” In that thread, the original",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The shortage was so alarming that they worried the warehouse might shut down if Amazon couldn’t find more books to scan.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.7,
+        "rawScore": 26.7,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-17T17:47:08.873Z"
+  "updatedAt": "2026-08-17T18:59:30.598Z"
 }
