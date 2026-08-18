@@ -33041,8 +33041,334 @@
           "vulnerability": 0
         }
       }
+    },
+    "6aebc1eb2c5ec36d1aec": {
+      "storyId": "6aebc1eb2c5ec36d1aec",
+      "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
+      "title": "Q&A: Rethinking how innovation happens",
+      "source": "MIT News AI",
+      "published": "2026-08-17T19:50:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6a0137990a344202fc6561a6",
+      "bodyFingerprint": "1346cb0c267922e774ce6b41",
+      "bodyCharacterCount": 10398,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T14:54:32.862Z",
+      "assessment": {
+        "centralEvent": "Q&A: Rethinking how innovation happens",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In this interview, Fitzgerald discusses his own experiences with innovation — including his co-invention of strained silicon at AT&T Bell Laboratories in the 1990s, which helped extend Moore’s Law, the semiconductor industry’s long-standing",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Author and MIT Professor Eugene Fitzgerald’s ideas about innovation draw on his experience at MIT and leading international research programs, where he explored innovation as the integration of market applications, technology, and implement",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A new F-35, for example, may need advancements in several fields, so the customer — in this case the government — wants them to come together.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.64,
+        "rawScore": 26.64,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0dca809f98c3557e30ac": {
+      "storyId": "0dca809f98c3557e30ac",
+      "url": "https://www.inc.com/moses-jeanfrancois/google-spirit-airlines-data-is-not-getting-97-million-passenger-profiles/91392143",
+      "title": "Google Paid $10 Million for Spirit Airlines’ Data. It Isn’t Getting 97.5 Million Passenger Profiles",
+      "source": "Inc. AI",
+      "published": "2026-08-18T14:39:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1eae75394b287d081774f681",
+      "bodyFingerprint": "1503de5de9d8a5ea8d2f1740",
+      "bodyCharacterCount": 145,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-18T14:54:32.870Z",
+      "assessment": {
+        "centralEvent": "Google Paid $10 Million for Spirit Airlines’ Data. It Isn’t Getting 97.5 Million Passenger Profiles",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Experts say the massive data set serves as a blueprint for how companies operate.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "171f975911a6f8570d38": {
+      "storyId": "171f975911a6f8570d38",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
+      "title": "Warp’s new system is an out-of-the-box software factory for AI development",
+      "source": "TechCrunch AI",
+      "published": "2026-08-18T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8403d50f1c3a956918d80477",
+      "bodyFingerprint": "a2e2739817970613179d4f65",
+      "bodyCharacterCount": 4615,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T14:54:32.913Z",
+      "assessment": {
+        "centralEvent": "Warp’s new system is an out-of-the-box software factory for AI development",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+ Anthony Ha If Apple sends you a push notification alerting you to a spyware attack, take it seriously Zack Whittaker Instagram introduces a rede",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "64ee2a6e04f6a44829ee": {
+      "storyId": "64ee2a6e04f6a44829ee",
+      "url": "https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review",
+      "title": "Google’s Pet Memory forgot who my cats are",
+      "source": "The Verge AI",
+      "published": "2026-08-18T12:01:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "26d3fd4a848988c4c3fdbb5b",
+      "bodyFingerprint": "faf766ae9efb800cf8333b6c",
+      "bodyCharacterCount": 12017,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T14:54:32.949Z",
+      "assessment": {
+        "centralEvent": "Google’s Pet Memory forgot who my cats are",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "My cat is an iPad kid Jess Weatherbed 11:30 AM UTC How I turned my fish tank high tech Emma Roth 11:15 AM UTC Most Popular Most Popular YouTube is changing how it counts views to give the numbers a boost I’m hooked on Peak Design’s new City",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "My cat is an iPad kid Jess Weatherbed 11:30 AM UTC How I turned my fish tank high tech Emma Roth 11:15 AM UTC Advertiser Content From This is the title for the native ad Top Stories 11:00 AM UTC Elon Musk made flying even worse so Palantir ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Discovery tried to kill it An hour ago ABC sues the FCC over Trump and Carr’s campaign of threats 11:00 AM UTC Fairphone’s latest repairable phone is going on sale in the US Aug 17 Trump’s border wall push is back — and it’s destroying nati",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 91,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "21900f7b988b1a0c080b": {
+      "storyId": "21900f7b988b1a0c080b",
+      "url": "https://apnews.com/article/wnba-fans-shirts-transgender-security-e4e4dfda3c55e7ee408ae3288e1e3839",
+      "title": "WNBA says fans should have been free to wear shirts with messaging about transgender issue",
+      "source": "AP News AI",
+      "published": "2026-08-18T00:38:27",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "226976c2bd0cc603baab2908",
+      "bodyFingerprint": "ed9f9f1af8929d3cdf9abcd7",
+      "bodyCharacterCount": 3016,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T14:54:32.980Z",
+      "assessment": {
+        "centralEvent": "WNBA says fans should have been free to wear shirts with messaging about transgender issue",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "16, 2026, in Atlanta. (AP Photo/Brynn Anderson) By DOUG FEINBERG Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T13:58:55.533Z"
+  "updatedAt": "2026-08-18T14:54:32.980Z"
 }
