@@ -31496,8 +31496,123 @@
           "vulnerability": 0
         }
       }
+    },
+    "7da24a5ab00abffc268e": {
+      "storyId": "7da24a5ab00abffc268e",
+      "url": "https://apnews.com/article/fbi-headquarters-maryland-reagan-building-f5a77411bf54f3e17beb9cd41fd046a8",
+      "title": "Judge blocks the Trump administration from moving FBI headquarters to DC office building",
+      "source": "AP News AI",
+      "published": "2026-08-17T23:40:37",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7567179f768ff9d9d45b5a97",
+      "bodyFingerprint": "f17a7a649b96b2f6207b94da",
+      "bodyCharacterCount": 4764,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T08:55:17.948Z",
+      "assessment": {
+        "centralEvent": "Judge blocks the Trump administration from moving FBI headquarters to DC office building",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3a9b4e94dfb32a88b6ac": {
+      "storyId": "3a9b4e94dfb32a88b6ac",
+      "url": "https://apnews.com/article/trump-north-south-korea-military-drills-kim-84d2ae42b527d6a71d2e7d69acf8483d",
+      "title": "South Korea hopes for talks between US and North Korea after Trump downsizes military drills",
+      "source": "AP News AI",
+      "published": "2026-08-17T10:44:45",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "245c95eb3c6f226c753aab4b",
+      "bodyFingerprint": "a00d9a207f082fe087b5577e",
+      "bodyCharacterCount": 10630,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T08:55:17.959Z",
+      "assessment": {
+        "centralEvent": "South Korea hopes for talks between US and North Korea after Trump downsizes military drills",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "South Korea hopes for talks between US and North Korea after Trump downsizes military drills 1 of 4 | President Donald Trump said Monday that North Korean leader Kim Jong Un treats him with “great respect,” a day after ordering the Pentagon",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T07:56:01.372Z"
+  "updatedAt": "2026-08-18T08:55:17.959Z"
 }
