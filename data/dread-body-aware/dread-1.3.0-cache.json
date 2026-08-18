@@ -32039,8 +32039,496 @@
           "vulnerability": 0
         }
       }
+    },
+    "ba537370f7532a789e1d": {
+      "storyId": "ba537370f7532a789e1d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
+      "title": "ChatGPT is getting a dedicated mode for teens",
+      "source": "The Verge AI",
+      "published": "2026-08-18T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "75fd2eeedc63ff575b8587ac",
+      "bodyFingerprint": "31aa9ab88e5c20b86bd72873",
+      "bodyCharacterCount": 4889,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T11:43:40.592Z",
+      "assessment": {
+        "centralEvent": "ChatGPT is getting a dedicated mode for teens",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Children under 13 aren’t permitted to use the platform, according to OpenAI’s published age policy .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bf599835c6da6b185439": {
+      "storyId": "bf599835c6da6b185439",
+      "url": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir",
+      "title": "Elon Musk made flying even worse so Palantir could profit",
+      "source": "The Verge AI",
+      "published": "2026-08-18T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae888e109f5c99db83b05d6b",
+      "bodyFingerprint": "512d67b7af7e9136a035766d",
+      "bodyCharacterCount": 12939,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T11:43:40.613Z",
+      "assessment": {
+        "centralEvent": "Elon Musk made flying even worse so Palantir could profit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Controllers risk medical suspension or even the loss of their job if they seek professional help for anxiety or depression.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Transportation AI Tech Elon Musk made flying even worse so Palantir could profit Musk’s DOGE was supposed to rebuild the nation’s air traffic control system, but it ended up paving the way for Peter Thiel’s company to take over. by Darryl C",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "As Federal Aviation Administration (FAA) protocol requires, the pilots tried to contact Reagan National Airport to tell them to halt commercial traffic during the flight.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Chronic staffing shortages in Boston, New York, Los Angeles, Orlando, and Philadelphia.",
+            "matchedRule": "/\\b(?:long-lasting|lasting damage|years to recover|chronic|only partially reversible)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 95,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.92,
+        "rawScore": 28.92,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4475,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 3,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9a1fdeac6b870cb97d59": {
+      "storyId": "9a1fdeac6b870cb97d59",
+      "url": "https://www.bbc.co.uk/news/articles/czxqz91n5n8o?at_campaign=rss&at_medium=RSS",
+      "title": "ChatGPT to stop responding to teens in human voice",
+      "source": "BBC News AI",
+      "published": "2026-08-18T11:26:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "70e47992131509202df2971d",
+      "bodyFingerprint": "9f45c27bfb4d928fa6b3eefe",
+      "bodyCharacterCount": 4325,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T11:43:40.623Z",
+      "assessment": {
+        "centralEvent": "ChatGPT to stop responding to teens in human voice",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Related topics Artificial intelligence Young people More on this story How the social media ban could reshape how all of us use the internet Published 21 June Microsoft boss troubled by rise in reports of 'AI psychosis' Published 20 August ",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Study Mode and quiet time Last year, ChatGPT launched Study Mode for students, in which it talks through schoolwork without giving away the answers.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 65.1,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8f51b93763972661e237": {
+      "storyId": "8f51b93763972661e237",
+      "url": "https://apnews.com/article/trump-white-house-millionaires-billionaires-appointees-212d2d5117f9be390f7eacfb79cf9cfc",
+      "title": "Trump dwarfs his predecessors in the number of ultra-rich in his second White House, report shows",
+      "source": "AP News AI",
+      "published": "2026-08-17T13:00:19",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f1e81964bbc1194be0406243",
+      "bodyFingerprint": "cd999dddea0b47c200fcc35d",
+      "bodyCharacterCount": 10026,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T11:43:40.643Z",
+      "assessment": {
+        "centralEvent": "Trump dwarfs his predecessors in the number of ultra-rich in his second White House, report shows",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The number of people worth at least $100 million whom the Republican president has appointed to his administration is more than four times the combined total under the three previous presidents, according to a report from the consumer advoc",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e0e6479d170aace15187": {
+      "storyId": "e0e6479d170aace15187",
+      "url": "https://mashable.com/tech/chatgpt-for-teens",
+      "title": "OpenAI launches ChatGPT for Teens",
+      "source": "Mashable AI",
+      "published": "2026-08-18T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "18f2cd634aa03876ea28b3cd",
+      "bodyFingerprint": "7648e6e5287996455fc4c0ac",
+      "bodyCharacterCount": 5796,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T11:43:40.703Z",
+      "assessment": {
+        "centralEvent": "OpenAI launches ChatGPT for Teens",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It recently announced that one of its agents hacked into another company .",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This customizable version of ChatGPT, which debuted Tuesday, is designed to \"support\" learning and human relationships, according to OpenAI's launch announcement.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Here is a list of international resources .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Last week, Massachusetts authorities accused a 17-year-old boy of murdering his mother and younger brother after using ChatGPT to play out fantasy stories involving their deaths .",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.73,
+        "rawScore": 48.73,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.43,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "14d7df75f1087ee59e8c": {
+      "storyId": "14d7df75f1087ee59e8c",
+      "url": "https://apnews.com/article/iran-us-war-diplomacy-deal-deadline-nuclear-258e9c556fc861c05ccf6ed2b38515d6",
+      "title": "The 60-day deadline for an Iran peace deal is expiring. Here's where things stand",
+      "source": "AP News AI",
+      "published": "2026-08-17T08:33:18",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d70cc56d7386ab2ee1e7a631",
+      "bodyFingerprint": "93bf1be21dba4bbbe6c10e4e",
+      "bodyCharacterCount": 10516,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T11:43:40.717Z",
+      "assessment": {
+        "centralEvent": "The 60-day deadline for an Iran peace deal is expiring. Here's where things stand",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Iran-backed Houthi rebels in Yemen have meanwhile begun attacking Saudi oil tankers in the Red Sea, threatening another crucial trade route that had been used to relieve some of the pressure from the strait being closed.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "The 60-day deadline for an Iran peace deal is expiring.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Acceding to Iran’s latest demands would mean giving it control over a critical international waterway that carried a fifth of the world’s traded oil and gas before the war — and would be tantamount to admitting defeat .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The U.S. canceled waivers issued as part of the deal that had allowed Iran to sell its oil internationally and Trump restored a blockade of Iran’s ports.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Iranian officials say they stopped negotiating with the U.S. in June, while acknowledging that messages have been relayed by intermediaries.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.09,
+        "rawScore": 29.09,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dc4723e78f2bdb43fc21": {
+      "storyId": "dc4723e78f2bdb43fc21",
+      "url": "https://www.artificialintelligence-news.com/news/zhipu-glm-5-3-benchmarks-explained",
+      "title": "Reading Zhipu’s GLM-5.3 results past the headline number",
+      "source": "AI News",
+      "published": "2026-08-18T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2cb5a681ff4aaed1554b3dd5",
+      "bodyFingerprint": "5e07fa026d754e1f9f6be0fb",
+      "bodyCharacterCount": 446,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-18T11:43:41.348Z",
+      "assessment": {
+        "centralEvent": "Reading Zhipu’s GLM-5.3 results past the headline number",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T10:48:41.270Z"
+  "updatedAt": "2026-08-18T11:43:41.348Z"
 }
