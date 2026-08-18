@@ -32727,8 +32727,322 @@
           "vulnerability": 0
         }
       }
+    },
+    "921d4bbc23fd8b844301": {
+      "storyId": "921d4bbc23fd8b844301",
+      "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india",
+      "title": "Perplexity’s free AI offer left it with millions more users in India",
+      "source": "TechCrunch AI",
+      "published": "2026-08-18T13:45:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6311eeb108bc82a1e46f6c57",
+      "bodyFingerprint": "e5daaf952f69d0ec273760fc",
+      "bodyCharacterCount": 8990,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T13:58:54.921Z",
+      "assessment": {
+        "centralEvent": "Perplexity’s free AI offer left it with millions more users in India",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "From around July 18 through August 12, Perplexity’s average daily in-app purchase revenue in India, per Sensor Tower, was 9% higher than during the preceding 30 days and 27% above the average for the first half of 2026.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7aa778327f7a42031cca": {
+      "storyId": "7aa778327f7a42031cca",
+      "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it",
+      "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+      "source": "TechCrunch AI",
+      "published": "2026-08-18T13:50:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "14f3fe789b757cedd7a3e95d",
+      "bodyFingerprint": "ca9b21d58598fc1e2fc054b2",
+      "bodyCharacterCount": 3821,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T13:58:54.928Z",
+      "assessment": {
+        "centralEvent": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "These measures are based on OpenAI’s Under-18 Principles in our Model Spec , which the company claims to be informed by “developmental science and guidance from experts.” Parents will also be able to use the family tools and parental contro",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7eb62104c2e7e1656d04": {
+      "storyId": "7eb62104c2e7e1656d04",
+      "url": "https://www.theguardian.com/technology/2026/aug/17/meta-lawsuits-ai-cybersecurity",
+      "title": "Meta’s legal jeopardy is growing by the day",
+      "source": "The Guardian AI",
+      "published": "2026-08-18T13:15:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d58da32affd495f5e2088394",
+      "bodyFingerprint": "7ae0a3998d615974a58d055e",
+      "bodyCharacterCount": 7536,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T13:58:54.957Z",
+      "assessment": {
+        "centralEvent": "Meta’s legal jeopardy is growing by the day",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Meta disclosed earlier in the month that one of its AI agents – tools that carry out computer tasks autonomously – had broken containment and hacked a third party during safety testing.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Department of Homeland Security has 60 days to lay out the specifics of the program.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "On the global scale, the potential penalties imperil Meta’s ambitions in the AI race.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Meta has denied the accusations in all three cases and plans to appeal both of the losing verdicts.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7c4f8b50b8c7b148407a": {
+      "storyId": "7c4f8b50b8c7b148407a",
+      "url": "https://www.lawfaremedia.org/article/lawfare-daily--vinh-nguyen--elham-tabassi--and-kat-duffy-on-how-to-design-a-better-ai-regulator",
+      "title": "Lawfare Daily: Vinh Nguyen, Elham Tabassi, and Kat Duffy on How to Design a Better AI Regulator",
+      "source": "Lawfare AI",
+      "published": "2026-08-18T11:01:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "729ed510b203c809556f6cfa",
+      "bodyFingerprint": "13dababcd906507c5b348696",
+      "bodyCharacterCount": 3849,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T13:58:55.258Z",
+      "assessment": {
+        "centralEvent": "Lawfare Daily: Vinh Nguyen, Elham Tabassi, and Kat Duffy on How to Design a Better AI Regulator",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Discussing the FINRA-style AI regulator reportedly under White House review.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2e8002bca4a816e44850": {
+      "storyId": "2e8002bca4a816e44850",
+      "url": "https://www.artificialintelligence-news.com/news/alvys-ai-agents-freight-tms",
+      "title": "Alvys launches AI agents for freight TMS workflows",
+      "source": "AI News",
+      "published": "2026-08-18T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4853b5472fc162c97b24365c",
+      "bodyFingerprint": "3e351f8acef056e0e8b7360d",
+      "bodyCharacterCount": 467,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-18T13:58:55.533Z",
+      "assessment": {
+        "centralEvent": "Alvys launches AI agents for freight TMS workflows",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T13:10:22.693Z"
+  "updatedAt": "2026-08-18T13:58:55.533Z"
 }
