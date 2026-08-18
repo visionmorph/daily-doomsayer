@@ -31611,8 +31611,382 @@
           "vulnerability": 0
         }
       }
+    },
+    "abe15a101a64c60a28bc": {
+      "storyId": "abe15a101a64c60a28bc",
+      "url": "https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak",
+      "title": "Apple’s camera-equipped AirPods appear in leaked video",
+      "source": "The Verge AI",
+      "published": "2026-08-18T09:00:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f2d7d757a22fd45fcc41d69e",
+      "bodyFingerprint": "6ef8f18db471b1961d4ae9a7",
+      "bodyCharacterCount": 4364,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T09:50:33.395Z",
+      "assessment": {
+        "centralEvent": "Apple’s camera-equipped AirPods appear in leaked video",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Apple’s camera-equipped AirPods appear in leaked video",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Just ask me to save it for later.\" Bloomberg's Mark Gurman has previously reported that the rumored AirPods with cameras are designed to take in \"visual information in low resolution\" and act as eyes ...",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Jess Weatherbed AI Apple Apple Rumors Audio Gadgets News Tech Most Popular Most Popular I’m hooked on Peak Design’s new City bags YouTube is changing how it counts views to give the numbers a boost Whisker’s AI-powered litter robot thinks m",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "874cb4b5787dcaed301c": {
+      "storyId": "874cb4b5787dcaed301c",
+      "url": "https://www.theguardian.com/technology/2026/aug/18/dickovers-baggravation-botiquette-18-new-words-tech-hellscape",
+      "title": "Dickovers, baggravation and botiquette: 18 new words to describe our tech hellscape",
+      "source": "The Guardian AI",
+      "published": "2026-08-18T09:00:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4c2eb5e4ceec5e34d00b7d42",
+      "bodyFingerprint": "736da2f832ff3e8741dbc160",
+      "bodyCharacterCount": 14269,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T09:50:33.440Z",
+      "assessment": {
+        "centralEvent": "Dickovers, baggravation and botiquette: 18 new words to describe our tech hellscape",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But now these interactions are marked by a nagging uncertainty.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Because now, whenever you approach a ticket barrier, you almost always find yourself trapped behind someone desperately trying to locate a QR code ticket or their face-recognition payment method on a phone they don’t seem to have used until",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Gatejamming View image in fullscreen ‘You almost always find yourself trapped behind someone desperately trying to locate a QR code.’ Photograph: Posed by model; Oscar Wong/Getty Images From an environmental point of view, the death of trai",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "You can expect to receive messages informing you of every single step in the process.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 116,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9a52a86a82b8e5e5d671": {
+      "storyId": "9a52a86a82b8e5e5d671",
+      "url": "https://www.bbc.co.uk/news/articles/c62em5lpvnjo?at_campaign=rss&at_medium=RSS",
+      "title": "AI to help planes avoid climate-warming 'sky graffiti'",
+      "source": "BBC News AI",
+      "published": "2026-08-18T09:26:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "257d87f5f2bd2120ce9932e0",
+      "bodyFingerprint": "557071209372f1fd5ff15e7e",
+      "bodyCharacterCount": 5181,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T09:50:33.491Z",
+      "assessment": {
+        "centralEvent": "AI to help planes avoid climate-warming 'sky graffiti'",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Dr Hodgson acknowledged there was uncertainty around the precise figure, but said scientists were confident it was \"either quite a large problem or a very large problem\".",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Previous airline-level trials have achieved reductions of around 60-70% in contrail formation or warming, according to Hodgson.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It will focus on the Shanwick Oceanic airspace in the eastern half of the North Atlantic corridor which accounts for approximately 5% of global contrail warming.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "08fab64b8bd5f4fb67a6": {
+      "storyId": "08fab64b8bd5f4fb67a6",
+      "url": "https://mashable.com/tech/reddit-ai-generated-video-audio-posts",
+      "title": "Reddit is testing AI-generated videos that read text posts aloud",
+      "source": "Mashable AI",
+      "published": "2026-08-18T08:59:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "129089d2b9099264d9b67d58",
+      "bodyFingerprint": "033986fef8633c53d36473a8",
+      "bodyCharacterCount": 9175,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T09:50:33.518Z",
+      "assessment": {
+        "centralEvent": "Reddit is testing AI-generated videos that read text posts aloud",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Credit: Mashable screenshot: Reddit Posts with this new feature available will have a toggle appear above them, allowing users to switch between \"Read\" and \"Play.\" While \"Read\" displays the Reddit post and comments as normal, switching to \"",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "98c849022938d8bc8192": {
+      "storyId": "98c849022938d8bc8192",
+      "url": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking",
+      "title": "The Powerful Chinese Model Experts Warned About—and Waited for—Is Here",
+      "source": "WIRED AI",
+      "published": "2026-08-18T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a9b1dc40e11704c540e6f4e6",
+      "bodyFingerprint": "2483fa1aed62ef59abc6007f",
+      "bodyCharacterCount": 8369,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T09:50:33.670Z",
+      "assessment": {
+        "centralEvent": "The Powerful Chinese Model Experts Warned About—and Waited for—Is Here",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Read More Senior Writer Topics artificial intelligence hacking cybersecurity OpenAI Anthropic China OpenAI Models Escaped Containment and Hacked Hugging Face The cybersecurity-focused models, including GPT-5.6 Sol, broke out of a testing sa",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More Senior Writer Topics artificial intelligence hacking cybersecurity OpenAI Anthropic China OpenAI Models Escaped Containment and Hacked Hugging Face The cybersecurity-focused models, including GPT-5.6 Sol, broke out of a testing sa",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Maxwell Zeff OpenAI’s Hacking Debacle Comes Down to Human Error If the generative AI giant had followed well-known security best practices, it’s likely that its AI agent would never have escaped to the open internet and hacked multiple comp",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“These capabilities can help defenders identify weaknesses earlier, validate risks, and accelerate remediation,” the company wrote.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More Senior Writer Topics artificial intelligence hacking cybersecurity OpenAI Anthropic China OpenAI Models Escaped Containment and Hacked Hugging Face The cybersecurity-focused models, including GPT-5.6 Sol, broke out of a testing sa",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.99,
+        "rawScore": 70,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.545,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 2,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T08:55:17.959Z"
+  "updatedAt": "2026-08-18T09:50:33.671Z"
 }
