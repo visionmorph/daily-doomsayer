@@ -31232,8 +31232,212 @@
           "vulnerability": 0
         }
       }
+    },
+    "696627551ef3bdb3050d": {
+      "storyId": "696627551ef3bdb3050d",
+      "url": "https://apnews.com/article/trump-border-big-bend-national-park-immigration-c8439ceed11ff5e7f3ca95fa0003327b",
+      "title": "Trump administration briefly pauses contentious border project in Texas' Big Bend National Park",
+      "source": "AP News AI",
+      "published": "2026-08-17T18:20:27",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b96cfe68b82ee55e014d7ae",
+      "bodyFingerprint": "065c6442449b77ca4a7dd55e",
+      "bodyCharacterCount": 9528,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T07:06:28.530Z",
+      "assessment": {
+        "centralEvent": "Trump administration briefly pauses contentious border project in Texas' Big Bend National Park",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Bulldozers seen recently in park clearing land Last week, bulldozers were seen clearing land at the park, sparking even more concern and raising questions from one of the state’s Republican senators.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "She’s reported on refugee resettlement, ICE operations and employment-based immigration and is reachable on Signal at RebeccaSantana.51. twitter mailto",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "title",
+            "excerpt": "Trump administration briefly pauses contentious border project in Texas' Big Bend National Park",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A rare concession from Trump administration While it isn’t clear whether the brief suspension portended a more permanent halt to the construction in the area, it reflected the intensity of the bipartisan opposition and was a rare concession",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.23,
+        "rawScore": 28.23,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.385,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "98dd6410c1d7a556b89e": {
+      "storyId": "98dd6410c1d7a556b89e",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260816044835.htm",
+      "title": "Einstein’s biggest “mistake” came back — and changed cosmology forever",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-18T05:58:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "43ebf930072b6e733b152398",
+      "bodyFingerprint": "dcb03c4847f81d11e23846ed",
+      "bodyCharacterCount": 8995,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T07:06:28.537Z",
+      "assessment": {
+        "centralEvent": "Einstein’s biggest “mistake” came back — and changed cosmology forever",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Ghostly 'Mirror World' Might Be Cause of Cosmic Controversy May 19, 2022  New research suggests an unseen 'mirror world' of particles that interacts with our world only via gravity that might be the key to solving a major puzzle in cosmolo",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A constant background effect that produces cosmic repulsion could account for the observed acceleration.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "49ec2bbdadaab29af084": {
+      "storyId": "49ec2bbdadaab29af084",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260815065007.htm",
+      "title": "Scientists may have finally proved that “empty” space isn’t really empty",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-18T06:08:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ada01d5fea12895201222b36",
+      "bodyFingerprint": "1b3fa8be75b015a34c57aa6b",
+      "bodyCharacterCount": 9747,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T07:06:28.543Z",
+      "assessment": {
+        "centralEvent": "Scientists may have finally proved that “empty” space isn’t really empty",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "If confirmed, the discovery could offer the first direct evidence of vacuum birefringence and open a new window into the strange physics of the quantum vacuum.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T05:47:02.039Z"
+  "updatedAt": "2026-08-18T07:06:28.543Z"
 }
