@@ -31436,8 +31436,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "5258a3978dfb1dfbd3a4": {
+      "storyId": "5258a3978dfb1dfbd3a4",
+      "url": "https://www.inc.com/michael-kaye/linkedin-says-women-hold-just-13-percent-of-top-ai-roles-thats-becoming-a-business-risk/91392198",
+      "title": "LinkedIn Says Women Hold Just 13 Percent of Top AI Roles. That’s Becoming a Business Risk",
+      "source": "Inc. AI",
+      "published": "2026-08-18T07:31:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "452d030c14dc3f5e9cf8344d",
+      "bodyFingerprint": "7517f73685240ada21bdb999",
+      "bodyCharacterCount": 119,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-18T07:56:01.372Z",
+      "assessment": {
+        "centralEvent": "LinkedIn Says Women Hold Just 13 Percent of Top AI Roles. That’s Becoming a Business Risk",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "That’s Becoming a Business Risk",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T07:06:28.543Z"
+  "updatedAt": "2026-08-18T07:56:01.372Z"
 }
