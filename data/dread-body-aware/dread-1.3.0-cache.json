@@ -34666,8 +34666,188 @@
           "vulnerability": 0
         }
       }
+    },
+    "ede609b0616ffbb3696f": {
+      "storyId": "ede609b0616ffbb3696f",
+      "url": "https://www.inc.com/hazel-gandhi/openais-new-chatgpt-for-teens-includes-parental-controls-but-theres-a-catch/91392766",
+      "title": "OpenAI’s New ‘ChatGPT for Teens’ Includes Parental Controls—But There’s a Catch",
+      "source": "Inc. AI",
+      "published": "2026-08-18T19:09:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6e213e1adc4808aa844e1986",
+      "bodyFingerprint": "896782f49653d7a7ffaeba26",
+      "bodyCharacterCount": 96,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-18T19:42:42.642Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s New ‘ChatGPT for Teens’ Includes Parental Controls—But There’s a Catch",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1071167795711355c6e1": {
+      "storyId": "1071167795711355c6e1",
+      "url": "https://www.inc.com/ryan-rosett/5-leadership-skills-that-matter-most-in-the-age-of-ai/91390803",
+      "title": "5 Leadership Skills That Matter Most in the Age of AI",
+      "source": "Inc. AI",
+      "published": "2026-08-18T19:10:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0010cb01591d9c5e1a640233",
+      "bodyFingerprint": "78f613ddf68510d2676f5400",
+      "bodyCharacterCount": 98,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-18T19:42:42.648Z",
+      "assessment": {
+        "centralEvent": "5 Leadership Skills That Matter Most in the Age of AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fb163e20a123110ba0a6": {
+      "storyId": "fb163e20a123110ba0a6",
+      "url": "https://www.lawfaremedia.org/article/scaling-laws--matt-abrams-on-trust-and-the-migration-to-the-digital-age",
+      "title": "Scaling Laws: Matt Abrams on Trust and the Migration to the Digital Age",
+      "source": "Lawfare AI",
+      "published": "2026-08-18T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "510239a4c68df9ebf8a6797e",
+      "bodyFingerprint": "055cf951a0c0c40253b8127b",
+      "bodyCharacterCount": 2004,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T19:42:43.440Z",
+      "assessment": {
+        "centralEvent": "Scaling Laws: Matt Abrams on Trust and the Migration to the Digital Age",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Chasing Surveillance Powers, Canada Risks the CLOUD Act Deal It Needs Richard Salgado Aug 17, 2026 Bill C-22’s anti-security powers could cost Canada the tool it needs most to modernize investigations for the cloud era.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Matt Abrams Read More Matt Abrams is the co-founder of $1 Billion for Trust. } More Articles Lawfare Daily: Vinh Nguyen, Elham Tabassi, and Kat Duffy on How to Design a Better AI Regulator Kate Klonick Vinh Nguyen Elham Tabassi , +4 Aug 18,",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T18:58:37.972Z"
+  "updatedAt": "2026-08-18T19:42:43.440Z"
 }
