@@ -31985,8 +31985,62 @@
           "vulnerability": 0
         }
       }
+    },
+    "2f1e9cc83993d7482d30": {
+      "storyId": "2f1e9cc83993d7482d30",
+      "url": "https://www.inc.com/joe-procopio/generative-ai-is-over-in-case-that-wasnt-clear/91392009",
+      "title": "Generative AI Is Over, In Case That Wasn’t Clear",
+      "source": "Inc. AI",
+      "published": "2026-08-18T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4b317c6cda9d24d41f1cbfb2",
+      "bodyFingerprint": "3f19dadc842cc96b32683ff0",
+      "bodyCharacterCount": 113,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-18T10:48:41.269Z",
+      "assessment": {
+        "centralEvent": "Generative AI Is Over, In Case That Wasn’t Clear",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T09:50:33.671Z"
+  "updatedAt": "2026-08-18T10:48:41.270Z"
 }
