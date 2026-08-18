@@ -33367,8 +33367,299 @@
           "vulnerability": 0
         }
       }
+    },
+    "e1dc4f39fa3fd430a562": {
+      "storyId": "e1dc4f39fa3fd430a562",
+      "url": "https://www.theguardian.com/technology/2026/aug/18/openai-chatgpt-for-teens",
+      "title": "OpenAI launches ChatGPT for Teens with stronger safeguards",
+      "source": "The Guardian AI",
+      "published": "2026-08-18T15:28:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dc6e3a8cde97334d10022283",
+      "bodyFingerprint": "a41756c3755f60d6bab8f5fd",
+      "bodyCharacterCount": 4508,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T15:48:17.427Z",
+      "assessment": {
+        "centralEvent": "OpenAI launches ChatGPT for Teens with stronger safeguards",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“We want to treat teens like teens, which means that we have to make sure that we’re showing up with the right developmental stage when we’re not either talking down to them or treating them like kids, but we’re also making sure that they’r",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "It also provides homework and study support designed to help students learn rather than spit out answers and school essays.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“We want to treat teens like teens, which means that we have to make sure that we’re showing up with the right developmental stage when we’re not either talking down to them or treating them like kids, but we’re also making sure that they’r",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI’s CEO, Sam Altman, has said that the company is trying to study “emotional overreliance” on the technology, describing it last year as a “really common thing” with young people. skip past newsletter promotion after newsletter promoti",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c9c7f84c9c0c1ab30b26": {
+      "storyId": "c9c7f84c9c0c1ab30b26",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
+      "title": "Firefox’s Smart Window promises a better AI browser",
+      "source": "The Verge AI",
+      "published": "2026-08-18T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5b8f0b56ffe35a7dc0ba1210",
+      "bodyFingerprint": "5033e314db4c10e0226f90f2",
+      "bodyCharacterCount": 6366,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T15:48:17.438Z",
+      "assessment": {
+        "centralEvent": "Firefox’s Smart Window promises a better AI browser",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Stevie Bonifield AI News Tech Web Most Popular Most Popular YouTube is changing how it counts views to give the numbers a boost I’m hooked on Peak Design’s new City bags Apple’s camera-equipped AirPods appear in leaked video Trump’s dumb bo",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Stevie Bonifield AI News Tech Web Most Popular Most Popular YouTube is changing how it counts views to give the numbers a boost I’m hooked on Peak Design’s new City bags Apple’s camera-equipped AirPods appear in leaked video Trump’s dumb bo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Discovery tried to kill it Two hours ago ABC sues the FCC over Trump and Carr’s campaign of threats 11:00 AM UTC Fairphone’s latest repairable phone is going on sale in the US Aug 17 Trump’s border wall push is back — and it’s destroying na",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7e5b777cc4da0a579330": {
+      "storyId": "7e5b777cc4da0a579330",
+      "url": "https://apnews.com/article/iran-us-israel-lebanon-gaza-hormuz-august-18-2026-9c48af23b713709e8e170191fbc78c2a",
+      "title": "Trump says US has no planned talks with Iran and other news from the Middle East",
+      "source": "AP News AI",
+      "published": "2026-08-18T08:20:04",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ee04b33fcaa3a6c9b489db3",
+      "bodyFingerprint": "d2b4e50bfde2f4f084da0ab3",
+      "bodyCharacterCount": 8920,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T15:48:17.482Z",
+      "assessment": {
+        "centralEvent": "Trump says US has no planned talks with Iran and other news from the Middle East",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There was no immediate claim of responsibility but the attack highlights the danger of attempting to transit the strait as Iran throttles shipping traffic, even as it finalizes negotiations with Oman on a plan to manage the passage that’s c",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The post comes after a 60-day negotiating period ended this week between the U.S. and Iran with no clear end to the war in sight.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "There was no immediate claim of responsibility but the attack highlights the danger of attempting to transit the strait as Iran throttles shipping traffic, even as it finalizes negotiations with Oman on a plan to manage the passage that’s c",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "President Donald Trump reacted angrily, reportedly telling Fox News reporter Trey Yingst in a telephone interview that the U.S. would bomb Oman if it “gets in the way.” Following a meeting between Egyptian Foreign Minister Badr Abdelatty an",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Turkey, a NATO member that borders Iran, earlier this month signed a joint defense agreement with Saudi Arabia and Pakistan, which stipulates “that any armed attack against any one of the three states shall be regarded as an attack against ",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.49,
+        "rawScore": 30.49,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.59,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0cae8036779db8873ce7": {
+      "storyId": "0cae8036779db8873ce7",
+      "url": "https://www.artificialintelligence-news.com/news/openai-president-urges-enterprises-hasten-ai-security-defences",
+      "title": "OpenAI president urges enterprises to hasten AI security defences",
+      "source": "AI News",
+      "published": "2026-08-18T14:58:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e633428f4186e73f506573e5",
+      "bodyFingerprint": "590c9c1732abf3d511c2842d",
+      "bodyCharacterCount": 469,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-18T15:48:18.308Z",
+      "assessment": {
+        "centralEvent": "OpenAI president urges enterprises to hasten AI security defences",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T14:54:32.980Z"
+  "updatedAt": "2026-08-18T15:48:18.308Z"
 }
