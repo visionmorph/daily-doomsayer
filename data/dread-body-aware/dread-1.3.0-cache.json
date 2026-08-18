@@ -34846,8 +34846,351 @@
           "vulnerability": 0
         }
       }
+    },
+    "5918a741bcb0759ee135": {
+      "storyId": "5918a741bcb0759ee135",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+      "source": "The Verge AI",
+      "published": "2026-08-18T19:28:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b48dff0f8eeb8cfd24256e40",
+      "bodyFingerprint": "3fc3ae842eac475f262e385b",
+      "bodyCharacterCount": 4192,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T20:42:43.498Z",
+      "assessment": {
+        "centralEvent": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The company's \"largest planned frontier RL run remains on hold.\" For its frontier model research, OpenAI now r ...",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Discovery tried to kill it 1:27 PM UTC ABC sues the FCC over Trump and Carr’s campaign of threats 11:00 AM UTC Fairphone’s latest repairable phone is going on sale in the US Aug 17 Trump’s border wall push is back — and it’s destroying nati",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "068161fbb4e485c8ddd3": {
+      "storyId": "068161fbb4e485c8ddd3",
+      "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
+      "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+      "source": "The Verge AI",
+      "published": "2026-08-18T19:48:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "32ebe6c104d5ceeb23266ac6",
+      "bodyFingerprint": "e5430a8298d1d948084f5a69",
+      "bodyCharacterCount": 4706,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T20:42:43.512Z",
+      "assessment": {
+        "centralEvent": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Discovery tried to kill it 1:27 PM UTC ABC sues the FCC over Trump and Carr’s campaign of threats 11:00 AM UTC Fairphone’s latest repairable phone is going on sale in the US Aug 17 Trump’s border wall push is back — and it’s destroying nati",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robin Williams’ Instagram account remained inactive following his death in 2014.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.23,
+        "rawScore": 48.23,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.385,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1a181c9b2c28227165f8": {
+      "storyId": "1a181c9b2c28227165f8",
+      "url": "https://apnews.com/article/lindsay-clancy-murder-trial-301ed728e868ec398ee06864ea27b3f6",
+      "title": "Lindsay Clancy was ‘begging for help’ before killing her children, former mother-in-law testifies",
+      "source": "AP News AI",
+      "published": "2026-08-18T16:08:08",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ac00af2660c87486f2e1dfbc",
+      "bodyFingerprint": "db14c8603543bf5e49f565aa",
+      "bodyCharacterCount": 5741,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T20:42:43.531Z",
+      "assessment": {
+        "centralEvent": "Lindsay Clancy was ‘begging for help’ before killing her children, former mother-in-law testifies",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Susan Clancy, who, like Lindsay, worked as a labor and delivery nurse, said in Plymouth Superior Court that she and her former daughter-in-law were close and described Lindsay as a “wonderful mother” who was “very nurturing, very loving.” R",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f08b9693d423c843a6a7": {
+      "storyId": "f08b9693d423c843a6a7",
+      "url": "https://apnews.com/article/oman-iran-war-us-hormuz-a8298715a51159225d2f37a6d50ce682",
+      "title": "Trump threatened to bomb Oman because he's unhappy with country's deal with Iran, officials say",
+      "source": "AP News AI",
+      "published": "2026-08-18T14:30:05",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "550f7e4f5d9478d95886d3d5",
+      "bodyFingerprint": "a892d644affe0cbb89bbfbc3",
+      "bodyCharacterCount": 9954,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T20:42:43.542Z",
+      "assessment": {
+        "centralEvent": "Trump threatened to bomb Oman because he's unhappy with country's deal with Iran, officials say",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Meanwhile, the 60-day negotiating period to find a peace deal between the U.S. and Iran was expiring, with no word of an extension and both sides seemingly as far apart as they were at the start.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e6ee37f8029fd5a652bb": {
+      "storyId": "e6ee37f8029fd5a652bb",
+      "url": "https://apnews.com/article/ice-liability-insurance-misconduct-civil-lawsuit-af330d49dcb9e40295c1fea4fc9ae6f6",
+      "title": "ICE pitches legal insurance to help shield local officers who make immigration arrests",
+      "source": "AP News AI",
+      "published": "2026-08-17T21:31:46",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a0835cb798925c3a46d9ad8f",
+      "bodyFingerprint": "a705734668981193a0b78495",
+      "bodyCharacterCount": 7124,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T20:42:43.611Z",
+      "assessment": {
+        "centralEvent": "ICE pitches legal insurance to help shield local officers who make immigration arrests",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The concern here is that ICE is going above and beyond to guarantee law enforcement does not have even the slightest risk of liability for violating Americans’ rights while helping ICE arrest people,” said David Bier, director of immigrati",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The agency is proposing to subsidize liability insurance for state and local officers who are trained and deputized to enforce federal immigration laws, according to a planning document published Friday.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Sheriffs’ group says ICE’s insurance idea sounds promising Justin Smith, a former Colorado sheriff who is executive director of the National Sheriffs’ Association, said ICE’s plan sounds promising and that he was anxious to speak with ICE a",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.59,
+        "rawScore": 26.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T19:42:43.440Z"
+  "updatedAt": "2026-08-18T20:42:43.611Z"
 }
