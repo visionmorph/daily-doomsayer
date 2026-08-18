@@ -81,6 +81,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 29.65
         },
         {
+          "storyId": "7aa778327f7a42031cca",
+          "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+          "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 50.28,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-18",
+          "firstObservedAt": "2026-08-18T13:00:00.000Z",
+          "lastObservedAt": "2026-08-18T13:00:00.000Z",
+          "average": 50.28
+        },
+        {
           "storyId": "e0e6479d170aace15187",
           "title": "OpenAI launches ChatGPT for Teens",
           "url": "https://mashable.com/tech/chatgpt-for-teens",
@@ -109,6 +123,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 32.46
         },
         {
+          "storyId": "7eb62104c2e7e1656d04",
+          "title": "Meta’s legal jeopardy is growing by the day",
+          "url": "https://www.theguardian.com/technology/2026/aug/17/meta-lawsuits-ai-cybersecurity",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/7a7e6a226df067c7884c93e9a593c8aef1f4aff4/500_0_5000_4000/master/5000.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 24.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-18",
+          "firstObservedAt": "2026-08-18T13:00:00.000Z",
+          "lastObservedAt": "2026-08-18T13:00:00.000Z",
+          "average": 24.83
+        },
+        {
           "storyId": "b3989dcfb48ba9b056fe",
           "title": "The Youth AI Privacy Act’s Privacy Paradox",
           "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
@@ -121,34 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-18T05:00:00.000Z",
           "lastObservedAt": "2026-08-18T13:00:00.000Z",
           "average": 23.95
-        },
-        {
-          "storyId": "f939cd8244044d7aab10",
-          "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-          "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 20.47,
-          "observations": 7,
-          "daysTracked": 1,
-          "peakDate": "2026-08-18",
-          "firstObservedAt": "2026-08-18T05:00:00.000Z",
-          "lastObservedAt": "2026-08-18T13:00:00.000Z",
-          "average": 20.47
-        },
-        {
-          "storyId": "e0f3cee3b824c175efea",
-          "title": "Terabytes of credentials leaked in massive supply-chain attack",
-          "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg",
-          "peak": 20,
-          "observations": 6,
-          "daysTracked": 1,
-          "peakDate": "2026-08-18",
-          "firstObservedAt": "2026-08-18T05:00:00.000Z",
-          "lastObservedAt": "2026-08-18T11:00:00.000Z",
-          "average": 20
         }
       ]
     },
@@ -1968,6 +1968,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 29.65
         },
         {
+          "storyId": "7aa778327f7a42031cca",
+          "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+          "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 50.28,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-18",
+          "firstObservedAt": "2026-08-18T13:00:00.000Z",
+          "lastObservedAt": "2026-08-18T13:00:00.000Z",
+          "average": 50.28
+        },
+        {
           "storyId": "e0e6479d170aace15187",
           "title": "OpenAI launches ChatGPT for Teens",
           "url": "https://mashable.com/tech/chatgpt-for-teens",
@@ -1996,6 +2010,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 32.46
         },
         {
+          "storyId": "7eb62104c2e7e1656d04",
+          "title": "Meta’s legal jeopardy is growing by the day",
+          "url": "https://www.theguardian.com/technology/2026/aug/17/meta-lawsuits-ai-cybersecurity",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/7a7e6a226df067c7884c93e9a593c8aef1f4aff4/500_0_5000_4000/master/5000.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 24.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-18",
+          "firstObservedAt": "2026-08-18T13:00:00.000Z",
+          "lastObservedAt": "2026-08-18T13:00:00.000Z",
+          "average": 24.83
+        },
+        {
           "storyId": "b3989dcfb48ba9b056fe",
           "title": "The Youth AI Privacy Act’s Privacy Paradox",
           "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
@@ -2008,34 +2036,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-17T05:00:00.000Z",
           "lastObservedAt": "2026-08-18T13:00:00.000Z",
           "average": 23.95
-        },
-        {
-          "storyId": "f21ccdbed15174e2eee4",
-          "title": "Reaction to the death of Tommy John",
-          "url": "https://apnews.com/article/tommy-john-death-reaction-69e93c181f51cb63e2d9cb66acc2046a",
-          "source": "AP News AI",
-          "image": "https://dims.apnews.com/dims4/default/03d5abc/2147483647/strip/true/crop/3000x1999+0+27/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc0%2F26%2Fa87d9e52535db04b0acd2fd84845%2F4430b95716cb4c738284e0ab8dd1edae",
-          "peak": 23.24,
-          "observations": 5,
-          "daysTracked": 1,
-          "peakDate": "2026-08-17",
-          "firstObservedAt": "2026-08-17T16:00:00.000Z",
-          "lastObservedAt": "2026-08-17T23:00:00.000Z",
-          "average": 20.7
-        },
-        {
-          "storyId": "f333764b4be201d3f9ff",
-          "title": "Google Earth’s New AI Lets Anyone Fabricate Completely Bullshit Satellite Images",
-          "url": "https://www.404media.co/google-earths-new-ai-lets-anyone-fabricate-completely-bullshit-satellite-images/",
-          "source": "404 Media AI",
-          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
-          "peak": 21.55,
-          "observations": 7,
-          "daysTracked": 1,
-          "peakDate": "2026-08-17",
-          "firstObservedAt": "2026-08-17T05:00:00.000Z",
-          "lastObservedAt": "2026-08-17T14:00:00.000Z",
-          "average": 21.55
         }
       ]
     },
@@ -2405,6 +2405,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 29.65
         },
         {
+          "storyId": "7aa778327f7a42031cca",
+          "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+          "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 50.28,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-18",
+          "firstObservedAt": "2026-08-18T13:00:00.000Z",
+          "lastObservedAt": "2026-08-18T13:00:00.000Z",
+          "average": 50.28
+        },
+        {
           "storyId": "e0e6479d170aace15187",
           "title": "OpenAI launches ChatGPT for Teens",
           "url": "https://mashable.com/tech/chatgpt-for-teens",
@@ -2459,20 +2473,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-06T20:00:00.000Z",
           "lastObservedAt": "2026-08-07T16:00:00.000Z",
           "average": 44.8
-        },
-        {
-          "storyId": "4f47d4d73942c27efbc9",
-          "title": "Rogue AI agents created fake online identities in another hacking attempt",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 45.42,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-06",
-          "firstObservedAt": "2026-08-06T20:00:00.000Z",
-          "lastObservedAt": "2026-08-06T20:00:00.000Z",
-          "average": 45.42
         }
       ]
     }
