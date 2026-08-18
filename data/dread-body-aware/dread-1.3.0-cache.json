@@ -34323,8 +34323,351 @@
           "vulnerability": 0
         }
       }
+    },
+    "1a3ef848db3d87256e3e": {
+      "storyId": "1a3ef848db3d87256e3e",
+      "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach",
+      "title": "OpenAI institutes new safeguards after Hugging Face breach",
+      "source": "TechCrunch AI",
+      "published": "2026-08-18T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ded2e3618981926535edada",
+      "bodyFingerprint": "f5abfc7546556ae446d7ef89",
+      "bodyCharacterCount": 4214,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T18:58:37.582Z",
+      "assessment": {
+        "centralEvent": "OpenAI institutes new safeguards after Hugging Face breach",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Under the new system, the post says, “a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the Internet, or other internal networks.” The strongest safeguard is the monitoring system,",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+ Anthony Ha Apple proposes to take a 15% cut of purchases made outside the App Store Sarah Perez If Apple sends you a push notification alerting ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Our standards for monitoring, alignment, and security must stay ahead of those risks.” The new measures are one of the first public changes in OpenAI’s safety practices since the immediate aftermath of the Hugging Face incident, which was ",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In the same post, OpenAI disclosed that it had paused reinforcement learning (RL) for two weeks following the Hugging Face incident but had since restarted many of the less-risky models.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.35,
+        "rawScore": 47.35,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.305,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f28e1d38d26743334ac9": {
+      "storyId": "f28e1d38d26743334ac9",
+      "url": "https://www.inc.com/amie-sheridan/bill-gates-jeff-bezos-big-pharma-ai-empowered-drug-discovery/91392591",
+      "title": "Bill Gates and Jeff Bezos Are Teaming Up with Big Pharma to Supercharge AI-Empowered Drug Discovery",
+      "source": "Inc. AI",
+      "published": "2026-08-18T18:33:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0bca415b04c2b433b76f971d",
+      "bodyFingerprint": "794a02795840289b155ccef1",
+      "bodyCharacterCount": 95,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-18T18:58:37.611Z",
+      "assessment": {
+        "centralEvent": "Bill Gates and Jeff Bezos Are Teaming Up with Big Pharma to Supercharge AI-Empowered Drug Discovery",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "46b6312454a97895d0b0": {
+      "storyId": "46b6312454a97895d0b0",
+      "url": "https://mashable.com/tech/apple-siri-ai-settlement-final-hearing-iphone-payout",
+      "title": "Apple Siri AI settlement: When eligible iPhone users can receive up to $95",
+      "source": "Mashable AI",
+      "published": "2026-08-18T17:53:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b8f1df26826d52e4b86e443a",
+      "bodyFingerprint": "ac4949f594ab15a78bb74928",
+      "bodyCharacterCount": 2875,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T18:58:37.715Z",
+      "assessment": {
+        "centralEvent": "Apple Siri AI settlement: When eligible iPhone users can receive up to $95",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Apple's settlement in the Siri AI-related class action lawsuit received preliminary approval last month.",
+            "matchedRule": "/\\b(?:still developing|preliminary|early findings?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3510c0ce249193d78acb": {
+      "storyId": "3510c0ce249193d78acb",
+      "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue",
+      "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
+      "source": "WIRED AI",
+      "published": "2026-08-18T18:33:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "37c80ea574f2e3fea1875192",
+      "bodyFingerprint": "094bf3b1c0dcb64a1cf33536",
+      "bodyCharacterCount": 7702,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T18:58:37.729Z",
+      "assessment": {
+        "centralEvent": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Paresh Dave OpenAI’s Hacking Debacle Comes Down to Human Error If the generative AI giant had followed well-known security best practices, it’s likely that its AI agent would never have escaped to the open internet and hacked multiple compa",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Lily Hay Newman OpenAI Models Escaped Containment and Hacked Hugging Face The cybersecurity-focused models, including GPT-5.6 Sol, broke out of a testing sandbox, exploited a zero-day, and gained access to the open internet to pull off the ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Paresh Dave OpenAI’s Hacking Debacle Comes Down to Human Error If the generative AI giant had followed well-known security best practices, it’s likely that its AI agent would never have escaped to the open internet and hacked multiple compa",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Lily Hay Newman OpenAI Models Escaped Containment and Hacked Hugging Face The cybersecurity-focused models, including GPT-5.6 Sol, broke out of a testing sandbox, exploited a zero-day, and gained access to the open internet to pull off the ",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Maxwell Zeff Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests In a review triggered by OpenAI’s Hugging Face incident, Anthropic discovered three of its AI models had breached real-world organizations during thir",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.83,
+        "rawScore": 69.83,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5a2b4aa88c97c34ff04e": {
+      "storyId": "5a2b4aa88c97c34ff04e",
+      "url": "https://apnews.com/article/ten-commandments-texas-law-supreme-court-facb4b90c54fba5c1d0b3e63079c8b4b",
+      "title": "Supreme Court asked to review Texas law requiring the Ten Commandments in public schools",
+      "source": "AP News AI",
+      "published": "2026-08-17T20:06:34",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d6f99738620d0b94b1770716",
+      "bodyFingerprint": "b4f1c78430b295ac7b0309c9",
+      "bodyCharacterCount": 3495,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T18:58:37.972Z",
+      "assessment": {
+        "centralEvent": "Supreme Court asked to review Texas law requiring the Ten Commandments in public schools",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "16, 2025. (AP Photo/Eric Gay,File) By MICHAEL KUNZELMAN and JAMIE STENGLE Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T17:45:56.570Z"
+  "updatedAt": "2026-08-18T18:58:37.972Z"
 }
