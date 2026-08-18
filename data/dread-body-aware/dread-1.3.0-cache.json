@@ -32527,8 +32527,208 @@
           "vulnerability": 0
         }
       }
+    },
+    "cb9971584030a46e1313": {
+      "storyId": "cb9971584030a46e1313",
+      "url": "https://www.inc.com/rebecca-hoeft/your-brand-is-no-longer-what-you-say-about-yourself/91391259",
+      "title": "Your Brand Is No Longer What You Say About Yourself",
+      "source": "Inc. AI",
+      "published": "2026-08-18T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "845307022c885d8926497ff6",
+      "bodyFingerprint": "6f388dc9f6791e76cf1be4a4",
+      "bodyCharacterCount": 107,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-18T13:10:22.432Z",
+      "assessment": {
+        "centralEvent": "Your Brand Is No Longer What You Say About Yourself",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ab928637ba227f4e4ce1": {
+      "storyId": "ab928637ba227f4e4ce1",
+      "url": "https://apnews.com/article/israel-west-bank-palestinian-american-israeli-settlers-515e39a03c3e7cb00528c466bf106270",
+      "title": "Palestinian American returns to West Bank to defend his home under siege by Israeli settlers",
+      "source": "AP News AI",
+      "published": "2026-08-17T16:52:32",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b711cf3e61d49211f92c661a",
+      "bodyFingerprint": "7925e268e81057645d13e7f8",
+      "bodyCharacterCount": 9454,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T13:10:22.557Z",
+      "assessment": {
+        "centralEvent": "Palestinian American returns to West Bank to defend his home under siege by Israeli settlers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It’s not just Netanyahu 5 MIN READ 594 Palestinians besieged in West Bank village fear Israeli settlers will seize their homes 5 MIN READ 66 “I’ve been watching this live for many days and now this is the second week.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ac6126c61ae7a87f3561": {
+      "storyId": "ac6126c61ae7a87f3561",
+      "url": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked",
+      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+      "source": "Ars Technica AI",
+      "published": "2026-08-18T13:00:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a3031fc928a6982f1947dd97",
+      "bodyFingerprint": "60c4e1dd359291b882cd653d",
+      "bodyCharacterCount": 7780,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T13:10:22.693Z",
+      "assessment": {
+        "centralEvent": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In June, the firm demonstrated another one-click exfiltration attack named SearchLeak .",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The prompt executes to completion—including any network fetches, connector invocations, or multi-turn chains—even if the Copilot tab is closed immediately after load The problem with guardrails Separately, Varonis devised another attack tha",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The user instead had to click and type manually, a requirement that prevented third-party browser integrations from using the parameter as intended.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav It’s not every day that attackers can force a frontier AI model to cough up user passwords and othe",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.12,
+        "rawScore": 49.12,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.465,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T11:43:41.348Z"
+  "updatedAt": "2026-08-18T13:10:22.693Z"
 }
