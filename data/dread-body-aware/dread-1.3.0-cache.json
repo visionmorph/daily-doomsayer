@@ -35387,8 +35387,204 @@
           "vulnerability": 0
         }
       }
+    },
+    "47b57fe9ee426cc062ce": {
+      "storyId": "47b57fe9ee426cc062ce",
+      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform",
+      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+      "source": "TechCrunch AI",
+      "published": "2026-08-18T22:14:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af523d3f2e1e144c33b58cb2",
+      "bodyFingerprint": "36ace0208224992595626189",
+      "bodyCharacterCount": 3886,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T22:43:52.495Z",
+      "assessment": {
+        "centralEvent": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+ Anthony Ha Apple proposes to take a 15% cut of purchases made outside the App Store Sarah Perez If Apple sends you a push notification alerting ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "57088e0938809a8bd017": {
+      "storyId": "57088e0938809a8bd017",
+      "url": "https://mashable.com/tech/aug-18-claude-chatgpt-for-project-management-bundle",
+      "title": "Get 6 hours of Claude and ChatGPT project management training for $20",
+      "source": "Mashable AI",
+      "published": "2026-08-18T22:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "34a66e30bc5f2287e1f6af3d",
+      "bodyFingerprint": "152bc1dfe2d3dd286c502a18",
+      "bodyCharacterCount": 3775,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T22:43:52.503Z",
+      "assessment": {
+        "centralEvent": "Get 6 hours of Claude and ChatGPT project management training for $20",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Learn how to use Claude and ChatGPT for project planning, scheduling, risk management and other project management tasks for $19.99.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Get 6 hours of Claude and ChatGPT project management training for $20",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Learn how to put ChatGPT and Claude to work for $20 Credit: ExpertEase Global Deal pricing and availability subject to change after time of publication.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2041020932b181197d87": {
+      "storyId": "2041020932b181197d87",
+      "url": "https://apnews.com/article/bill-rasmussen-dead-espn-founder-8c559f6ee4b88536836f14a5ee9eedb6",
+      "title": "ESPN co-founder Bill Rasmussen dies at 93 from the effects of Parkinson’s disease",
+      "source": "AP News AI",
+      "published": "2026-08-18T16:31:41",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a15ded5e89c84fceadaccfb0",
+      "bodyFingerprint": "8e733b376b097dcacf26d8f9",
+      "bodyCharacterCount": 7511,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T22:43:52.519Z",
+      "assessment": {
+        "centralEvent": "ESPN co-founder Bill Rasmussen dies at 93 from the effects of Parkinson’s disease",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Many, many people told us there wasn’t enough sports to do a 24-hour channel.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T21:40:57.706Z"
+  "updatedAt": "2026-08-18T22:43:52.519Z"
 }
