@@ -30973,8 +30973,188 @@
           "vulnerability": 0
         }
       }
+    },
+    "c0b6fa8a7e19f06e9897": {
+      "storyId": "c0b6fa8a7e19f06e9897",
+      "url": "https://apnews.com/article/midterms-florida-trump-debbie-wasserman-schultz-72997f3c390437a7f33dc4134736d324",
+      "title": "In Florida, Wasserman Schultz sparks a debate over what representation means in diverse districts",
+      "source": "AP News AI",
+      "published": "2026-08-17T04:07:55",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b28d5003180def63889fbbca",
+      "bodyFingerprint": "492e37d27ecaed730a1d6be7",
+      "bodyCharacterCount": 16053,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T03:10:34.025Z",
+      "assessment": {
+        "centralEvent": "In Florida, Wasserman Schultz sparks a debate over what representation means in diverse districts",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Going into November, an Associated Press analysis found that Wasserman Schultz is the only white Democrat positioned to represent any of the remaining districts with a Black majority or plurality.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 98,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "26c6c1a092171d55fcf0": {
+      "storyId": "26c6c1a092171d55fcf0",
+      "url": "https://apnews.com/article/luigi-mangione-unitedhealthcare-ceo-postponed-plea-09c039f61c62d2c0e8815ea0189f0522",
+      "title": "Luigi Mangione’s state murder trial postponed indefinitely amid double jeopardy fight",
+      "source": "AP News AI",
+      "published": "2026-08-17T20:15:35",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "56c65e7a397794ec1bf2b056",
+      "bodyFingerprint": "2cb5eab91fee8d19283162c2",
+      "bodyCharacterCount": 4388,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T03:10:34.030Z",
+      "assessment": {
+        "centralEvent": "Luigi Mangione’s state murder trial postponed indefinitely amid double jeopardy fight",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The charges alleged that he used a cellphone, the internet, interstate highways and a hostel serving out-of-state customers to plan and carry out the attack.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d189a5b52ecb6f36afd9": {
+      "storyId": "d189a5b52ecb6f36afd9",
+      "url": "https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review",
+      "title": "Whisker’s AI-powered litter robot thinks my cats swapped bodies",
+      "source": "The Verge AI",
+      "published": "2026-08-17T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "85422ce876eb59f8c308442c",
+      "bodyFingerprint": "fc55f96e32d313d2d7027768",
+      "bodyCharacterCount": 15141,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-18T03:10:34.043Z",
+      "assessment": {
+        "centralEvent": "Whisker’s AI-powered litter robot thinks my cats swapped bodies",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "All this is apparently why my 13.4-pound Smokey lost 2 pounds overnight, with his weight recorded as Boone’s when the robot mistook his scrawny younger brother for him.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 121,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T01:52:29.801Z"
+  "updatedAt": "2026-08-18T03:10:34.043Z"
 }
