@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-19T18:00:00.000Z",
+  "generatedAt": "2026-08-19T19:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-19",
@@ -15,42 +15,14 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
           "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
           "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/191:100/w_1280,c_limit/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
+          "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 54.33
-        },
-        {
-          "storyId": "5d2b7216dfbecc302ef8",
-          "title": "What parents should know about ChatGPT for Teens",
-          "url": "https://mashable.com/tech/chatgpt-for-teens-what-to-know",
-          "source": "Mashable AI",
-          "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
-          "peak": 56.32,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-19",
-          "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 56.32
-        },
-        {
-          "storyId": "1c9f14ee09a7b9f09c18",
-          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
-          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "",
-          "peak": 56.32,
-          "observations": 12,
-          "daysTracked": 1,
-          "peakDate": "2026-08-19",
-          "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 53.66
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 50.92
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -67,18 +39,32 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 53.66
         },
         {
+          "storyId": "1c9f14ee09a7b9f09c18",
+          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 56.32,
+          "observations": 13,
+          "daysTracked": 1,
+          "peakDate": "2026-08-19",
+          "firstObservedAt": "2026-08-19T05:00:00.000Z",
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 52.32
+        },
+        {
           "storyId": "9a1fdeac6b870cb97d59",
           "title": "OpenAI makes ChatGPT less 'human' for teens in new safety update",
           "url": "https://www.bbc.co.uk/news/articles/czxqz91n5n8o?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 53.66
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 50.55
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -87,12 +73,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Parental-Controls-1.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 56.32,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 53.66
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 50.55
+        },
+        {
+          "storyId": "5d2b7216dfbecc302ef8",
+          "title": "What parents should know about ChatGPT for Teens",
+          "url": "https://mashable.com/tech/chatgpt-for-teens-what-to-know",
+          "source": "Mashable AI",
+          "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
+          "peak": 56.32,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-19",
+          "firstObservedAt": "2026-08-19T18:00:00.000Z",
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 34.76
         },
         {
           "storyId": "e0e6479d170aace15187",
@@ -101,12 +101,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/03ensJrYVfSa3ZDjor24sog/hero-image.jpg",
           "peak": 55.09,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 52.49
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 49.37
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -115,12 +115,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/f60de82acdf518360559012a8befee837437552b/659_559_2572_2057/master/2572.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 55.09,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 52.49
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 49.37
         },
         {
           "storyId": "ede609b0616ffbb3696f",
@@ -160,7 +160,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
           "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
           "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/191:100/w_1280,c_limit/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
+          "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 54.09,
           "observations": 9,
           "daysTracked": 1,
@@ -2047,28 +2047,14 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
           "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
           "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/191:100/w_1280,c_limit/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
+          "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 21,
+          "observations": 22,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 54.23
-        },
-        {
-          "storyId": "5d2b7216dfbecc302ef8",
-          "title": "What parents should know about ChatGPT for Teens",
-          "url": "https://mashable.com/tech/chatgpt-for-teens-what-to-know",
-          "source": "Mashable AI",
-          "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
-          "peak": 56.32,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-19",
-          "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 56.32
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 52.21
         },
         {
           "storyId": "9a1fdeac6b870cb97d59",
@@ -2077,12 +2063,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 27,
+          "observations": 28,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 51.51
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 50.14
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -2091,26 +2077,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Parental-Controls-1.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 56.32,
-          "observations": 27,
+          "observations": 28,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 51.51
-        },
-        {
-          "storyId": "1c9f14ee09a7b9f09c18",
-          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
-          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "",
-          "peak": 56.32,
-          "observations": 51,
-          "daysTracked": 3,
-          "peakDate": "2026-08-19",
-          "firstObservedAt": "2026-08-17T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 46.75
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 50.14
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -2127,18 +2099,46 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 46.75
         },
         {
+          "storyId": "1c9f14ee09a7b9f09c18",
+          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 56.32,
+          "observations": 52,
+          "daysTracked": 3,
+          "peakDate": "2026-08-19",
+          "firstObservedAt": "2026-08-17T05:00:00.000Z",
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 46.54
+        },
+        {
+          "storyId": "5d2b7216dfbecc302ef8",
+          "title": "What parents should know about ChatGPT for Teens",
+          "url": "https://mashable.com/tech/chatgpt-for-teens-what-to-know",
+          "source": "Mashable AI",
+          "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
+          "peak": 56.32,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-19",
+          "firstObservedAt": "2026-08-19T18:00:00.000Z",
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 34.76
+        },
+        {
           "storyId": "e1dc4f39fa3fd430a562",
           "title": "OpenAI launches ChatGPT for Teens with stronger safeguards",
           "url": "https://www.theguardian.com/technology/2026/aug/18/openai-chatgpt-for-teens",
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/f60de82acdf518360559012a8befee837437552b/659_559_2572_2057/master/2572.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 55.09,
-          "observations": 24,
+          "observations": 25,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T15:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 52.37
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 50.75
         },
         {
           "storyId": "e0e6479d170aace15187",
@@ -2147,12 +2147,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/03ensJrYVfSa3ZDjor24sog/hero-image.jpg",
           "peak": 55.09,
-          "observations": 27,
+          "observations": 28,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 50.39
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 49.02
         },
         {
           "storyId": "ede609b0616ffbb3696f",
@@ -2484,28 +2484,14 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
           "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
           "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/191:100/w_1280,c_limit/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
+          "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 21,
+          "observations": 22,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 54.23
-        },
-        {
-          "storyId": "5d2b7216dfbecc302ef8",
-          "title": "What parents should know about ChatGPT for Teens",
-          "url": "https://mashable.com/tech/chatgpt-for-teens-what-to-know",
-          "source": "Mashable AI",
-          "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
-          "peak": 56.32,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-19",
-          "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 56.32
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 52.21
         },
         {
           "storyId": "9a1fdeac6b870cb97d59",
@@ -2514,12 +2500,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 27,
+          "observations": 28,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 51.51
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 50.14
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -2528,12 +2514,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Parental-Controls-1.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 56.32,
-          "observations": 27,
+          "observations": 28,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 51.51
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 50.14
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -2556,12 +2542,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 138,
+          "observations": 139,
           "daysTracked": 8,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 41.84
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 41.8
+        },
+        {
+          "storyId": "5d2b7216dfbecc302ef8",
+          "title": "What parents should know about ChatGPT for Teens",
+          "url": "https://mashable.com/tech/chatgpt-for-teens-what-to-know",
+          "source": "Mashable AI",
+          "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
+          "peak": 56.32,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-08-19",
+          "firstObservedAt": "2026-08-19T18:00:00.000Z",
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 34.76
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -2570,12 +2570,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/f60de82acdf518360559012a8befee837437552b/659_559_2572_2057/master/2572.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 55.09,
-          "observations": 24,
+          "observations": 25,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T15:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 52.37
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 50.75
         },
         {
           "storyId": "e0e6479d170aace15187",
@@ -2584,12 +2584,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/03ensJrYVfSa3ZDjor24sog/hero-image.jpg",
           "peak": 55.09,
-          "observations": 27,
+          "observations": 28,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T18:00:00.000Z",
-          "average": 50.39
+          "lastObservedAt": "2026-08-19T19:00:00.000Z",
+          "average": 49.02
         },
         {
           "storyId": "ede609b0616ffbb3696f",
