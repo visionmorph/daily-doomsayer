@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-19T20:00:00.000Z",
+  "generatedAt": "2026-08-19T21:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-19",
@@ -17,12 +17,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 47.99
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 45.45
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -45,12 +45,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 51.17
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 50.17
         },
         {
           "storyId": "9a1fdeac6b870cb97d59",
@@ -59,12 +59,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 47.88
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 45.57
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -73,12 +73,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Parental-Controls-1.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 56.32,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 47.88
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 45.57
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -87,12 +87,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
           "peak": 56.32,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 27.57
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 23.97
         },
         {
           "storyId": "e0e6479d170aace15187",
@@ -101,12 +101,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/03ensJrYVfSa3ZDjor24sog/hero-image.jpg",
           "peak": 55.09,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 46.7
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 44.38
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -115,12 +115,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/f60de82acdf518360559012a8befee837437552b/659_559_2572_2057/master/2572.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 55.09,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 46.7
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 44.38
         },
         {
           "storyId": "ede609b0616ffbb3696f",
@@ -2049,12 +2049,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 23,
+          "observations": 24,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 50.38
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 48.69
         },
         {
           "storyId": "9a1fdeac6b870cb97d59",
@@ -2063,12 +2063,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 29,
+          "observations": 30,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 48.87
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 47.68
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -2077,12 +2077,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Parental-Controls-1.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 56.32,
-          "observations": 29,
+          "observations": 30,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 48.87
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 47.68
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -2105,12 +2105,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 53,
+          "observations": 54,
           "daysTracked": 3,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-17T05:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 46.35
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 46.16
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -2119,12 +2119,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
           "peak": 56.32,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 27.57
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 23.97
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -2133,12 +2133,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/f60de82acdf518360559012a8befee837437552b/659_559_2572_2057/master/2572.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 55.09,
-          "observations": 26,
+          "observations": 27,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T15:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 49.26
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 47.88
         },
         {
           "storyId": "e0e6479d170aace15187",
@@ -2147,12 +2147,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/03ensJrYVfSa3ZDjor24sog/hero-image.jpg",
           "peak": 55.09,
-          "observations": 29,
+          "observations": 30,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 47.74
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 46.55
         },
         {
           "storyId": "ede609b0616ffbb3696f",
@@ -2486,12 +2486,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 23,
+          "observations": 24,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 50.38
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 48.69
         },
         {
           "storyId": "9a1fdeac6b870cb97d59",
@@ -2500,12 +2500,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 29,
+          "observations": 30,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 48.87
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 47.68
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -2514,12 +2514,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Parental-Controls-1.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 56.32,
-          "observations": 29,
+          "observations": 30,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 48.87
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 47.68
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -2542,12 +2542,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 140,
+          "observations": 141,
           "daysTracked": 8,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 41.76
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 41.72
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -2556,12 +2556,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
           "peak": 56.32,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 27.57
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 23.97
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -2570,12 +2570,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/f60de82acdf518360559012a8befee837437552b/659_559_2572_2057/master/2572.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 55.09,
-          "observations": 26,
+          "observations": 27,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T15:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 49.26
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 47.88
         },
         {
           "storyId": "e0e6479d170aace15187",
@@ -2584,12 +2584,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/03ensJrYVfSa3ZDjor24sog/hero-image.jpg",
           "peak": 55.09,
-          "observations": 29,
+          "observations": 30,
           "daysTracked": 2,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-19T20:00:00.000Z",
-          "average": 47.74
+          "lastObservedAt": "2026-08-19T21:00:00.000Z",
+          "average": 46.55
         },
         {
           "storyId": "ede609b0616ffbb3696f",
