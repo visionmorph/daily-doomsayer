@@ -39097,8 +39097,194 @@
           "vulnerability": 0
         }
       }
+    },
+    "f09ab60acbfa6f3b1c94": {
+      "storyId": "f09ab60acbfa6f3b1c94",
+      "url": "https://www.inc.com/stephanie-davis/ai-agents-mistakes-consequences-liability-security-concerns-illegal-hacking/91393284",
+      "title": "When AI Agents Try to Help, Things Can Go Spectacularly Wrong",
+      "source": "Inc. AI",
+      "published": "2026-08-19T20:21:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0198c79909cbb2182083038c",
+      "bodyFingerprint": "b0e76d5a3b1f3cac6c6df51d",
+      "bodyCharacterCount": 90,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-19T20:47:41.072Z",
+      "assessment": {
+        "centralEvent": "When AI Agents Try to Help, Things Can Go Spectacularly Wrong",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "121d12b40727e4a3800a": {
+      "storyId": "121d12b40727e4a3800a",
+      "url": "https://mashable.com/tech/amazon-alexa-plus-ai-assisant-free-for-fire-tv-users",
+      "title": "You may have just gotten Alexa+ AI for free, even if you dont have Amazon Prime",
+      "source": "Mashable AI",
+      "published": "2026-08-19T20:14:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7ce429c0bdf9640e23bcd502",
+      "bodyFingerprint": "7f575be04e76db690151eaa3",
+      "bodyCharacterCount": 2786,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T20:47:41.087Z",
+      "assessment": {
+        "centralEvent": "You may have just gotten Alexa+ AI for free, even if you dont have Amazon Prime",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Amazon, Alexa+ is already a hit with users.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b525b75212132ef5a21b": {
+      "storyId": "b525b75212132ef5a21b",
+      "url": "https://arstechnica.com/tech-policy/2026/08/flight-attendants-freaked-out-that-google-to-buy-tons-of-spirit-employee-data",
+      "title": "Flight attendants freaked out that Google is buying tons of Spirit employee data",
+      "source": "Ars Technica AI",
+      "published": "2026-08-19T20:04:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "491eaa9fa0287495fce52a23",
+      "bodyFingerprint": "751a17fc524a410f397c1baa",
+      "bodyCharacterCount": 12743,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T20:47:41.163Z",
+      "assessment": {
+        "centralEvent": "Flight attendants freaked out that Google is buying tons of Spirit employee data",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Any data we receive will be rigorously scrubbed of any personally identifiable information by a third party before receipt.” Although the AFA doesn’t make a “technical claim that any particular record can be re-identified,” they feel that t",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea 2.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a press release , Texas Attorney General Ken Paxton bragged that it was “the highest recovery nationwide against Google for any attorney general’s enforcement of state privacy laws.” Consumers will also have to trust that Google’s third ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T19:42:13.346Z"
+  "updatedAt": "2026-08-19T20:47:41.163Z"
 }
