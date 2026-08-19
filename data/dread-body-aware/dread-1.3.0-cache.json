@@ -38546,8 +38546,559 @@
           "vulnerability": 0
         }
       }
+    },
+    "950c9a646a19aa781177": {
+      "storyId": "950c9a646a19aa781177",
+      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
+      "title": "Google packs Search and Gemini with new AI study tools",
+      "source": "TechCrunch AI",
+      "published": "2026-08-19T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c586e7d89124ecd60b1f29a1",
+      "bodyFingerprint": "826a0d23f52dea779562c395",
+      "bodyCharacterCount": 4375,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T19:42:11.052Z",
+      "assessment": {
+        "centralEvent": "Google packs Search and Gemini with new AI study tools",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Google packs Search and Gemini with new AI study tools",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "07c93ee4cd979f504a6b": {
+      "storyId": "07c93ee4cd979f504a6b",
+      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt",
+      "title": "AI was supposed to win people over by now — it hasn’t",
+      "source": "TechCrunch AI",
+      "published": "2026-08-19T19:11:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1691df78e6bc881ebb1203f1",
+      "bodyFingerprint": "588dba09520ee439447d2109",
+      "bodyCharacterCount": 7017,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T19:42:11.063Z",
+      "assessment": {
+        "centralEvent": "AI was supposed to win people over by now — it hasn’t",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On Wednesday, Axios reported that the National Republican Senatorial Committee sent a memo to top AI companies warning that U.S. data centers are hurting the party’s chances in a key Ohio election.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "On Wednesday, Axios reported that the National Republican Senatorial Committee sent a memo to top AI companies warning that U.S. data centers are hurting the party’s chances in a key Ohio election.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "On Wednesday, Axios reported that the National Republican Senatorial Committee sent a memo to top AI companies warning that U.S. data centers are hurting the party’s chances in a key Ohio election.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.59,
+        "rawScore": 26.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "98dbcee942b93b2ba206": {
+      "storyId": "98dbcee942b93b2ba206",
+      "url": "https://mashable.com/tech/google-search-ai-study-features-gemini",
+      "title": "Google is turning Search into an AI study tool",
+      "source": "Mashable AI",
+      "published": "2026-08-19T19:00:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "adcd0010854c50e080aaf596",
+      "bodyFingerprint": "f77aae5954964865f579f7b5",
+      "bodyCharacterCount": 4557,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T19:42:11.072Z",
+      "assessment": {
+        "centralEvent": "Google is turning Search into an AI study tool",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Last month, child safety watchdog Common Sense Media declared Google's AI-powered Search posed an \"unacceptable risk\" to minor users.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Google is turning Search into an AI study tool",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3ce595e677a9ba3ce63f": {
+      "storyId": "3ce595e677a9ba3ce63f",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "title": "Google Gemini is getting a dedicated student hub",
+      "source": "The Verge AI",
+      "published": "2026-08-19T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "92511757639ba8a4ccb3adb7",
+      "bodyFingerprint": "4baaf5ab992debdf67d22264",
+      "bodyCharacterCount": 3517,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T19:42:11.083Z",
+      "assessment": {
+        "centralEvent": "Google Gemini is getting a dedicated student hub",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI Google News Tech Most Popular Most Popular Comcast is turning millions of its routers into motion detectors Amazon seemingly leaked Jason Statham’s entire Mutiny movie Elon Musk broke the FAA — Palantir is picking up the",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "84fd7f60214c5a5f4010": {
+      "storyId": "84fd7f60214c5a5f4010",
+      "url": "https://www.inc.com/esther-lian/employers-getting-one-thing-wrong-gen-z-chatbot-use-not-the-technology/91393350",
+      "title": "Employers Are Getting 1 Thing Wrong About Gen-Z’s Chatbot Use. It’s Not the Technology",
+      "source": "Inc. AI",
+      "published": "2026-08-19T19:02:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fcff063d1b251c68659a9a3e",
+      "bodyFingerprint": "a7fcb27e59a692feac3598b8",
+      "bodyCharacterCount": 133,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-19T19:42:11.237Z",
+      "assessment": {
+        "centralEvent": "Employers Are Getting 1 Thing Wrong About Gen-Z’s Chatbot Use. It’s Not the Technology",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Concern about AI among adults under 30 jumped 16 percentage points in just two years.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Experts say employers are missing one key fact.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "60946debb3c11468d4bf": {
+      "storyId": "60946debb3c11468d4bf",
+      "url": "https://apnews.com/article/britain-royals-queen-camilla-cancer-king-charles-3778bc90e2d72e4e0b37a5567c39ca7a",
+      "title": "Queen Camilla wished she could share king's diagnosis during a visit to cancer charity",
+      "source": "AP News AI",
+      "published": "2026-08-19T09:47:02",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ec283d58c718c5a67ceaa791",
+      "bodyFingerprint": "05d9c93dd70a8063de0f7e71",
+      "bodyCharacterCount": 2628,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T19:42:11.301Z",
+      "assessment": {
+        "centralEvent": "Queen Camilla wished she could share king's diagnosis during a visit to cancer charity",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Britain’s King Charles III and Queen Camilla attend the state opening of Parliament at the Palace of Westminster in London, Wednesday, May 13, 2026. (Chris Jackson/Pool Photo via AP, File) By DANICA KIRKA Updated [hour]:[minute] [AMPM] [tim",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3bfcc7254be446da92ae": {
+      "storyId": "3bfcc7254be446da92ae",
+      "url": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers",
+      "title": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
+      "source": "WIRED AI",
+      "published": "2026-08-19T19:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "adfb8201f893ae4ba533a62d",
+      "bodyFingerprint": "8c23e1e5ec55648d847664eb",
+      "bodyCharacterCount": 9022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T19:42:11.335Z",
+      "assessment": {
+        "centralEvent": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like In your inbox: This is not your average politics newsletter WiFi-8 is coming—here’s everything you need to know Big Story: Young runners are becoming freakish",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Steven Levy AI Scammers Are Better at Building Trust Than Humans Researchers pitted a person against a Claude agent and found that, after a week of texting, the AI chatbot was more effective at creating “exploitable trust” with others.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Will Knight Chinese AI Researchers Are Finding Their Voice on X As OpenAI and Anthropic employees grow quieter online, researchers at Chinese AI labs are flocking to X to explain their work, recruit talent, and shape the global conversation",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7e320b947db595e614dd": {
+      "storyId": "7e320b947db595e614dd",
+      "url": "https://techpolicy.press/taxing-tech-in-age-of-ai-could-fund-human-rights",
+      "title": "Taxing Tech in Age of AI Could Fund Human Rights",
+      "source": "Tech Policy Press AI",
+      "published": "2026-08-19T19:17:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2e22aad1702d5e97dc15a720",
+      "bodyFingerprint": "9faaefd0c52e25c90dab1daa",
+      "bodyCharacterCount": 9937,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T19:42:13.346Z",
+      "assessment": {
+        "centralEvent": "Taxing Tech in Age of AI Could Fund Human Rights",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Governments could find themselves desperate for more revenue to support millions of potentially laid off workers at exactly the same time that they are losing the taxes those vanished jobs would have generated.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A 2025 analysis of the “Silicon Six” found that these tech giants earned nearly half their $11 trillion revenues overseas between 2015 and 2024, yet only 30 percent of what they reported in estimated taxes was booked to foreign governments—",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The current international tax system doesn’t allow states much room to do this effectively, however.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "These treaties generally let governments tax a foreign company’s profits only if it has a “permanent establishment”—a physical presence—in the country.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In Mathare, one of the largest informal housing settlements in Nairobi, residents have fought for years to get even a single public elementary school built in an area with 100,000 people.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.06,
+        "rawScore": 49.06,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.46,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T18:55:11.125Z"
+  "updatedAt": "2026-08-19T19:42:13.346Z"
 }
