@@ -8040,7 +8040,7 @@
       "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0m1ww2j.jpg",
       "published": "2026-08-13T20:00:00.000Z",
       "firstSeen": "2026-08-13T16:00:00.000Z",
-      "lastSeen": "2026-08-19T03:00:00.000Z"
+      "lastSeen": "2026-08-19T04:00:00.000Z"
     },
     "18b38584392c7d31f0e2": {
       "storyId": "18b38584392c7d31f0e2",
@@ -11508,6 +11508,30 @@
       "image": "https://dims.apnews.com/dims4/default/24c779c/2147483647/strip/true/crop/6897x4596+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F94%2F33%2F338ff7c5a5f1de1ef05a6138f62b%2Fd2a79b9a1d734454bd25dc853e9acc97",
       "published": "2026-08-18T22:07:36",
       "firstSeen": "2026-08-19T03:00:00.000Z",
+      "lastSeen": "2026-08-19T04:00:00.000Z"
+    },
+    "36895293df6c56b18a1e": {
+      "storyId": "36895293df6c56b18a1e",
+      "currentTitle": "Election takeaways: Donalds joins historic field and progressive scores upset victory in Florida",
+      "originalTitle": "Election takeaways: Donalds joins historic field and progressive scores upset victory in Florida",
+      "url": "https://apnews.com/article/florida-wyoming-alaska-primaries-democrats-trump-63e620b06acba77102cfe32781bd4efa",
+      "canonicalUrl": "https://apnews.com/article/florida-wyoming-alaska-primaries-democrats-trump-63e620b06acba77102cfe32781bd4efa",
+      "source": "AP News AI",
+      "image": "https://dims.apnews.com/dims4/default/14e7ebe/2147483647/strip/true/crop/5941x3959+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F5d%2F5c%2Fd640fec4d9918b0e33df00597789%2Fc1bc64ec4e2448dd8fcbc709246054b4",
+      "published": "2026-08-18T04:03:47",
+      "firstSeen": "2026-08-19T04:00:00.000Z",
+      "lastSeen": "2026-08-19T04:00:00.000Z"
+    },
+    "3a73d5374a800a9f04b2": {
+      "storyId": "3a73d5374a800a9f04b2",
+      "currentTitle": "Frank Beard, drummer of boogie-rock trio ZZ Top, dies at 77",
+      "originalTitle": "Frank Beard, drummer of boogie-rock trio ZZ Top, dies at 77",
+      "url": "https://apnews.com/article/frank-beard-died-zz-top-obit-72139238d1dbf3d277bdb3b8584eecc9",
+      "canonicalUrl": "https://apnews.com/article/frank-beard-died-zz-top-obit-72139238d1dbf3d277bdb3b8584eecc9",
+      "source": "AP News AI",
+      "image": "https://dims.apnews.com/dims4/default/6d2c426/2147483647/strip/true/crop/2641x1760+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff7%2Fe8%2F5781e494488c685ab07c27db19e1%2F1fe5f25666a24e0c969754dfcf8da156",
+      "published": "2026-08-18T20:00:41",
+      "firstSeen": "2026-08-19T04:00:00.000Z",
       "lastSeen": "2026-08-19T04:00:00.000Z"
     }
   },
