@@ -36726,8 +36726,512 @@
           "vulnerability": 2
         }
       }
+    },
+    "9d8a9b8bf88a2be11484": {
+      "storyId": "9d8a9b8bf88a2be11484",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
+      "title": "Nvidia’s new financial strategy does not compute",
+      "source": "The Verge AI",
+      "published": "2026-08-19T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8635aab59b6171b1b5871b83",
+      "bodyFingerprint": "188f1cd018fddcfa754d3734",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T13:11:53.530Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s new financial strategy does not compute",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Discovery tried to kill it Apple’s camera-equipped AirPods appear in leaked video Polaroid’s new Pokémon collection captures memories, not Pikachus Advertiser Content From This is the title for the native ad More in AI Robin Williams’ Insta",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Discovery tried to kill it Aug 18 ABC sues the FCC over Trump and Carr’s campaign of threats An hour ago The everyday tech I use to track my corgi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Huang appears to be discussing compute without those things, dubbing Nvidia’s system “a complete AI factory platform including accelerated computing, networking, systems software, AI frameworks and a global developer ecosystem.” Notably abs",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Their value is not fixed at installation: CUDA continuously improves their output; the installed base remains productive well beyond its initial depreciation period.” Okay, but the chips and software alone don’t create compute — they’re on",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Their value is not fixed at installation: CUDA continuously improves their output; the installed base remains productive well beyond its initial depreciation period.” Okay, but the chips and software alone don’t create compute — they’re on",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 130,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.09,
+        "rawScore": 49.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c809761a7b329479d8fc": {
+      "storyId": "c809761a7b329479d8fc",
+      "url": "https://www.inc.com/ashish-fernando/the-cost-of-administrative-burden-in-higher-ed-admissions/91392392",
+      "title": "The Cost of Administrative Burden in Higher-Ed Admissions",
+      "source": "Inc. AI",
+      "published": "2026-08-19T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "32bf21c1e485639689b59527",
+      "bodyFingerprint": "f70b2f22753bd875bcbe513d",
+      "bodyCharacterCount": 109,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-19T13:11:53.589Z",
+      "assessment": {
+        "centralEvent": "The Cost of Administrative Burden in Higher-Ed Admissions",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0134d8955fa19065444e": {
+      "storyId": "0134d8955fa19065444e",
+      "url": "https://apnews.com/article/mideast-oman-explainer-trump-threat-iran-097224f5a65b66d7fa3dab4862b5a45e",
+      "title": "Trump is threatening to bomb Oman, but why?",
+      "source": "AP News AI",
+      "published": "2026-08-18T16:57:13",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "72b1aa2deadcc9e4f01a9ea0",
+      "bodyFingerprint": "bef5e4f53d51822edad73f39",
+      "bodyCharacterCount": 11551,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T13:11:53.620Z",
+      "assessment": {
+        "centralEvent": "Trump is threatening to bomb Oman, but why?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Trump is under pressure.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Meanwhile, the 60-day negotiating period to find a peace deal between the U.S. and Iran was expiring, with no word of an extension and both sides seemingly as far apart as they were at the start.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Instead, Iran has seized on the Strait of Hormuz as a new weapon in talks, asserting control of what had been seen as an international waterway before the war.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "After a meeting Tuesday between Oman’s foreign minister and his Egyptian counterpart, Egypt said the Iranian-Omani deal could pave the way for the U.S. and Tehran to return to negotiations for a “comprehensive and permanent deal that addres",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Oman earlier this month described the talks as “proceeding in a positive and constructive atmosphere,” while in the same statement condemning repeated attacks on ships transiting the strait.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.82,
+        "rawScore": 30.82,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.62,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "313073ed0e9d35697e6c": {
+      "storyId": "313073ed0e9d35697e6c",
+      "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take",
+      "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-19T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fb9508d0ce67896d337e5cb9",
+      "bodyFingerprint": "466feefca8629507d1a1a808",
+      "bodyCharacterCount": 6727,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T13:11:53.676Z",
+      "assessment": {
+        "centralEvent": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“In other words, the model learns ‘this is cell state A,’ ‘this is cell state B,’ but never ‘cell state B is the effect of inflaming cell state A.’” Vivodyne’s HIVE machines, however, are tracking hundreds of thousands of ongoing experiment",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“In other words, the model learns ‘this is cell state A,’ ‘this is cell state B,’ but never ‘cell state B is the effect of inflaming cell state A.’” Vivodyne’s HIVE machines, however, are tracking hundreds of thousands of ongoing experiment",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "HIVE, modular robotic labs built by the company, can grow 20 kinds of human tissue, then autonomously dose and monitor them, generating the kind of causal biological data that today’s AI models are missing — data that today mostly comes fro",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "879d841e91a904693b32": {
+      "storyId": "879d841e91a904693b32",
+      "url": "https://apnews.com/article/kyrgios-cocaine-doping-bb91d0d0039e5ff76c8b0d2740b42195",
+      "title": "Former Wimbledon finalist Nick Kyrgios suspended after positive test for cocaine",
+      "source": "AP News AI",
+      "published": "2026-08-19T09:04:19",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8f97a180f4e8ed16afbd1422",
+      "bodyFingerprint": "88310dc0c77538a87ec42d04",
+      "bodyCharacterCount": 4139,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T13:11:53.684Z",
+      "assessment": {
+        "centralEvent": "Former Wimbledon finalist Nick Kyrgios suspended after positive test for cocaine",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nick Kyrgios, of Australia, reacts during his match against Mackenzie McDonald at the Miami Open tennis tournament, Wednesday, March 19, 2025, in Miami Gardens, Fla. (AP Photo/Lynne Sladky, file) By GRAHAM DUNBAR Updated [hour]:[minute] [AM",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a78608f4cae376a6bd8a": {
+      "storyId": "a78608f4cae376a6bd8a",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260819041222.htm",
+      "title": "Tiny quantum engines reveal useful energy hiding in “waste heat”",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-19T11:49:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1344eaf906426839738fb46c",
+      "bodyFingerprint": "d4eb5732862aa6cbf59ceb55",
+      "bodyCharacterCount": 8586,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T13:11:53.780Z",
+      "assessment": {
+        "centralEvent": "Tiny quantum engines reveal useful energy hiding in “waste heat”",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Janovitch and his colleagues have now demonstrated mathematically that this is possible with their approach.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3890492c69d5f1673598": {
+      "storyId": "3890492c69d5f1673598",
+      "url": "https://techpolicy.press/zuckerbergs-ai-manifesto-lost-it-at-compute",
+      "title": "Zuckerberg’s AI Manifesto Lost it at Compute",
+      "source": "Tech Policy Press AI",
+      "published": "2026-08-19T10:53:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9ca5cd7d510c0639a5280bcc",
+      "bodyFingerprint": "76edf32c5a07518cebbdd283",
+      "bodyCharacterCount": 8920,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T13:11:54.200Z",
+      "assessment": {
+        "centralEvent": "Zuckerberg’s AI Manifesto Lost it at Compute",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“There is a risk that an imbalance of power between individuals and government leads to a loss of freedom or totalitarian state,” Zuckerberg writes.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The Atlantic’s Will Oremus observes wryly that in the manifesto, “a man who single-handedly commands a $1.5 trillion tech giant comes out as a critic of corporate power.” Platformer’s Casey Newton notes that while Zuckerberg “celebrates ind",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Last year, Asad Ramzanali of the Vanderbilt Policy Accelerator published a blueprint for federal legislation for the AI stack, including compute, that he described as pro-competition and pro-national security, and which might actually creat",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The Atlantic’s Will Oremus observes wryly that in the manifesto, “a man who single-handedly commands a $1.5 trillion tech giant comes out as a critic of corporate power.” Platformer’s Casey Newton notes that while Zuckerberg “celebrates ind",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.36,
+        "rawScore": 26.36,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.215,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T11:43:22.300Z"
+  "updatedAt": "2026-08-19T13:11:54.200Z"
 }
