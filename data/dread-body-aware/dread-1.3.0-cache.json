@@ -38202,8 +38202,352 @@
           "vulnerability": 0
         }
       }
+    },
+    "5d2b7216dfbecc302ef8": {
+      "storyId": "5d2b7216dfbecc302ef8",
+      "url": "https://mashable.com/tech/chatgpt-for-teens-what-to-know",
+      "title": "What parents should know about ChatGPT for Teens",
+      "source": "Mashable AI",
+      "published": "2026-08-19T18:22:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6f626d3b49a558a6d6b5fd23",
+      "bodyFingerprint": "44a5b7745b973e34c5f72c74",
+      "bodyCharacterCount": 17016,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T18:55:11.007Z",
+      "assessment": {
+        "centralEvent": "What parents should know about ChatGPT for Teens",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Teens still may turn to ChatGPT instead of humans firstGiven the growing concern over teens replacing human relationships with AI chatbots, it's unsurprising that OpenAI launched ChatGPT for Teens as a product it claims supports real-world ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In some tragic cases, that dynamic has allegedly led teens and young adults to attempt or die by suicide after heavy engagement with ChatGPT, according to lawsuits filed against OpenAI.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Trusting teens to keep themselves on trackThe increasingly personalized, frictionless assistance provided by universal chatbots is counter to the principles of learning, some experts say. \"This is especially important for teens, who may ove",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.09,
+        "rawScore": 26.09,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.19,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "66f694c3d21612b3c781": {
+      "storyId": "66f694c3d21612b3c781",
+      "url": "https://www.inc.com/annabel-burba/jason-kelce-liquid-death-garage-beer-data-center-pee/91393380",
+      "title": "Liquid Death Just Sold Out of $18 ‘Pee Jars’ to Troll AI Data Centers Thanks to Jason Kelce",
+      "source": "Inc. AI",
+      "published": "2026-08-19T18:36:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0e4e6094b1e0637144be2cc7",
+      "bodyFingerprint": "33c752dafad361aea7a0c2b8",
+      "bodyCharacterCount": 80,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-19T18:55:11.014Z",
+      "assessment": {
+        "centralEvent": "Liquid Death Just Sold Out of $18 ‘Pee Jars’ to Troll AI Data Centers Thanks to Jason Kelce",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "970e5d1f4a83bb7a0901": {
+      "storyId": "970e5d1f4a83bb7a0901",
+      "url": "https://www.inc.com/chloe-rosenberg/is-your-boss-watching-your-face-the-next-frontier-of-workplace-surveillance/91393352",
+      "title": "Is Your Boss Watching Your Face? The Next Frontier of Workplace Surveillance",
+      "source": "Inc. AI",
+      "published": "2026-08-19T18:27:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "46d31d255f5771d82d71c476",
+      "bodyFingerprint": "fdc450e09b45cc4f3d2ecd69",
+      "bodyCharacterCount": 143,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-19T18:55:11.016Z",
+      "assessment": {
+        "centralEvent": "Is Your Boss Watching Your Face? The Next Frontier of Workplace Surveillance",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "The Next Frontier of Workplace Surveillance",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cecb3fc11f3582b85177": {
+      "storyId": "cecb3fc11f3582b85177",
+      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
+      "title": "Researchers say OpenAI revoked their access to limited cyber program",
+      "source": "TechCrunch AI",
+      "published": "2026-08-19T18:46:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f6af0bfb78d9e3aa1e06aed4",
+      "bodyFingerprint": "b7c708011ef9b66baa01e91f",
+      "bodyCharacterCount": 4725,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T18:55:11.110Z",
+      "assessment": {
+        "centralEvent": "Researchers say OpenAI revoked their access to limited cyber program",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“It is the recommended starting point for most defenders, supporting vulnerability discovery, secure code review, malware analysis, incident response, and patch validation.” At the same time, the company also introduced a higher tier called",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "OpenAI confirmed that the issue was caused by an error.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "At this point, it’s not entirely clear why these researchers are getting their access to TAC revoked, nor how many people have had this issue.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The idea behind TAC and CVP is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The idea behind TAC and CVP is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.55,
+        "rawScore": 47.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3225,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "16cc635e89fc4dac50a3": {
+      "storyId": "16cc635e89fc4dac50a3",
+      "url": "https://apnews.com/article/comey-justice-department-trump-264e3a178525ebd8fee051771948709e",
+      "title": "'No serious dispute' that Comey's seashell post could be read as a Trump threat, prosecutors say",
+      "source": "AP News AI",
+      "published": "2026-08-19T11:51:36",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bc202311f10c4525be900a8d",
+      "bodyFingerprint": "cc0ef7ef551b1ceacbbe15df",
+      "bodyCharacterCount": 9816,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T18:55:11.125Z",
+      "assessment": {
+        "centralEvent": "'No serious dispute' that Comey's seashell post could be read as a Trump threat, prosecutors say",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The evidence still supports that Defendant acted at least recklessly by consciously disregarding a substantial risk that his coded message of “8647” that he sent to his 200,000 or so Instagram followers, and the millions of secondary socia",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "After the Instagram post provoked an outcry, according to the government’s filings, Comey’s publishing agent observed in a text message to him that he had “gone viral.” Comey responded that that was “not my intention, but I’ll be OK if it s",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“The evidence still supports that Defendant acted at least recklessly by consciously disregarding a substantial risk that his coded message of “8647” that he sent to his 200,000 or so Instagram followers, and the millions of secondary socia",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.14,
+        "rawScore": 27.14,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T17:42:57.843Z"
+  "updatedAt": "2026-08-19T18:55:11.125Z"
 }
