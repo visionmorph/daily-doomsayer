@@ -35775,8 +35775,128 @@
           "vulnerability": 0
         }
       }
+    },
+    "3a73d5374a800a9f04b2": {
+      "storyId": "3a73d5374a800a9f04b2",
+      "url": "https://apnews.com/article/frank-beard-died-zz-top-obit-72139238d1dbf3d277bdb3b8584eecc9",
+      "title": "Frank Beard, drummer of boogie-rock trio ZZ Top, dies at 77",
+      "source": "AP News AI",
+      "published": "2026-08-18T20:00:41",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1d6614f45d72bbad9763f9ab",
+      "bodyFingerprint": "f47030f9c3ff1f8e7f7aef1d",
+      "bodyCharacterCount": 9451,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T04:53:51.724Z",
+      "assessment": {
+        "centralEvent": "Frank Beard, drummer of boogie-rock trio ZZ Top, dies at 77",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Beard was in hospice care when he died Tuesday at his ranch in Richmond, Texas, with family members at his side, according to publicist Bob Merlis.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "36895293df6c56b18a1e": {
+      "storyId": "36895293df6c56b18a1e",
+      "url": "https://apnews.com/article/florida-wyoming-alaska-primaries-democrats-trump-63e620b06acba77102cfe32781bd4efa",
+      "title": "Election takeaways: Donalds joins historic field and progressive scores upset victory in Florida",
+      "source": "AP News AI",
+      "published": "2026-08-18T04:03:47",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c393088cbcf98b5449ad4656",
+      "bodyFingerprint": "b4bd6ff3e9135d16bbd85b20",
+      "bodyCharacterCount": 17774,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T04:53:51.743Z",
+      "assessment": {
+        "centralEvent": "Election takeaways: Donalds joins historic field and progressive scores upset victory in Florida",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Voters in Alaska, Wyoming and California were also choosing their nominees, sometimes considering multiple people running with matching last names.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 124,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T04:00:58.279Z"
+  "updatedAt": "2026-08-19T04:53:51.744Z"
 }
