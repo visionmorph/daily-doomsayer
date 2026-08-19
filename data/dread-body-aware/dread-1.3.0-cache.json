@@ -35715,8 +35715,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "172dd5f4eec67a0a268d": {
+      "storyId": "172dd5f4eec67a0a268d",
+      "url": "https://apnews.com/article/ketel-marte-arizona-diamondbacks-2ddd5cf0bf2d54e9b0cd22e56c9f9481",
+      "title": "D-backs manager Lovullo: Marte returns to Phoenix for knee testing, hopeful he can play again in '26",
+      "source": "AP News AI",
+      "published": "2026-08-18T22:07:36",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6d379a4b6bbfafe60e64dfa7",
+      "bodyFingerprint": "fee8081f99e0b19d00a3c5f3",
+      "bodyCharacterCount": 1894,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T03:12:36.500Z",
+      "assessment": {
+        "centralEvent": "D-backs manager Lovullo: Marte returns to Phoenix for knee testing, hopeful he can play again in '26",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "11, 2026, in Phoenix. (AP Photo/Rick Scuteri) Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T01:54:52.970Z"
+  "updatedAt": "2026-08-19T03:12:36.501Z"
 }
