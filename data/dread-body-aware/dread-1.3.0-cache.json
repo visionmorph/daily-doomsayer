@@ -37944,8 +37944,266 @@
           "vulnerability": 0
         }
       }
+    },
+    "f05312c96fe3c2220a09": {
+      "storyId": "f05312c96fe3c2220a09",
+      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "title": "Meta AI is getting a Mac app",
+      "source": "The Verge AI",
+      "published": "2026-08-19T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5ee476c245ed954bf3e9485e",
+      "bodyFingerprint": "a631677a19a781cc6a088246",
+      "bodyCharacterCount": 3926,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T17:42:57.755Z",
+      "assessment": {
+        "centralEvent": "Meta AI is getting a Mac app",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI Apple Apps macOS Meta News Tech Most Popular Most Popular Comcast is turning millions of its routers into motion detectors Amazon seemingly leaked Jason Statham’s entire Mutiny movie Elon Musk broke the FAA — Palantir is pickin",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Discovery tried to kill it Tesla is finally launching the Cybercab — let’s hope it’s ready Advertiser Content From This is the title for the native ad More in Tech We reviewed the new Pixel lineup, ask us anything 8 Verge Score The Pixel 11",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The app can also pull information from a business’s account and the web to create decks, docs, and spreadsheets, as well as perform recurring tasks, like providing weekly performance updates.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e24875277dd9c8e66641": {
+      "storyId": "e24875277dd9c8e66641",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "title": "OpenAI hit the brakes. Now what?",
+      "source": "The Verge AI",
+      "published": "2026-08-19T17:10:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c4ac022a92a2755c3fdfa68f",
+      "bodyFingerprint": "5638dceb48f64d9039845b6c",
+      "bodyCharacterCount": 9457,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T17:42:57.769Z",
+      "assessment": {
+        "centralEvent": "OpenAI hit the brakes. Now what?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Just last month, OpenAI disclosed that its models broke out of a supposedly secure testing environment and hacked developer platform Hugging Face, without OpenAI noticing.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Discovery tried to kill it Tesla is finally launching the Cybercab — let’s hope it’s ready Advertiser Content From This is the title for the native ad More in AI Nvidia’s new financial strategy does not compute Robin Williams’ Instagram acc",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“For the pause to be sustainable, it has to be made industry-wide.” For all the talk of slowing down, OpenAI isn’t exactly standing still.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "26abc1950a12af9bbdc1": {
+      "storyId": "26abc1950a12af9bbdc1",
+      "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute",
+      "title": "Meet the startup helping Wall Street put a price on AI compute",
+      "source": "TechCrunch AI",
+      "published": "2026-08-19T17:26:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d05a2924972ecfe619b0904f",
+      "bodyFingerprint": "cd593a7e9d038aa8f8032bfd",
+      "bodyCharacterCount": 373,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-19T17:42:57.841Z",
+      "assessment": {
+        "centralEvent": "Meet the startup helping Wall Street put a price on AI compute",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "402723965c80072de8ba": {
+      "storyId": "402723965c80072de8ba",
+      "url": "https://mashable.com/tech/anthropic-claude-send-gmail-emails-without-asking",
+      "title": "Anthropic’s Claude can now send Gmail emails without asking first",
+      "source": "Mashable AI",
+      "published": "2026-08-19T16:34:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8411eda3976b94d7718487b3",
+      "bodyFingerprint": "1d4391464bf5acaf1e909ad3",
+      "bodyCharacterCount": 2585,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T17:42:57.843Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s Claude can now send Gmail emails without asking first",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But, once Claude writes up the response, it no longer needs to check with the user before sending it.According to Anthropic, users can still control when Claude checks for approval before sending an email.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T16:48:39.187Z"
+  "updatedAt": "2026-08-19T17:42:57.843Z"
 }
