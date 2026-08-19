@@ -37292,8 +37292,293 @@
           "vulnerability": 0
         }
       }
+    },
+    "fcee4ba15ecfb807ab76": {
+      "storyId": "fcee4ba15ecfb807ab76",
+      "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "source": "VentureBeat AI",
+      "published": "2026-08-19T14:18:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7686e4385426b5c25b3c1c86",
+      "bodyFingerprint": "14a2391ae2e95656526f47eb",
+      "bodyCharacterCount": 4376,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-19T14:54:42.657Z",
+      "assessment": {
+        "centralEvent": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Rather than high-level industry overviews, the series will bring architectural blueprints, actual deployment barriers, and back-end infrastructure realities to light through in-depth technical interviews with the architects and product lead",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "His arrival is the next step in a deliberate move at VentureBeat toward deeper specialization: analysis built for the technical decision-makers — the directors, VPs, CIOs, and CTOs — who are evaluating, buying, and deploying enterprise AI.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Our June report on agentic orchestration, drawn from a survey of 145 enterprises, found that two-thirds of those enterprises had hedged their AI model strategy rather than committing to a single provider — a posture whose value the June out",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 25.43,
+        "rawScore": 25.43,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.13,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bf0e5a0c7ddaf000891b": {
+      "storyId": "bf0e5a0c7ddaf000891b",
+      "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus",
+      "title": "Calendly throws its hat into meeting note-taker circus",
+      "source": "TechCrunch AI",
+      "published": "2026-08-19T14:09:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aa5292c98e6e3f30d1c46ab4",
+      "bodyFingerprint": "26d5142cab9d986d2214fa0b",
+      "bodyCharacterCount": 3597,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T14:54:42.688Z",
+      "assessment": {
+        "centralEvent": "Calendly throws its hat into meeting note-taker circus",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+ Anthony Ha Anthropic shares more details about how Claude’s new watermarks will work Anthony Ha Apple proposes to take a 15% cut of purchases ma",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4f214ad04e3c0e050175": {
+      "storyId": "4f214ad04e3c0e050175",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/aug/19/meta-glasses-privacy-surveillance",
+      "title": "Did someone wearing Meta Glasses film you today? Are you sure?",
+      "source": "The Guardian AI",
+      "published": "2026-08-19T14:13:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ffa254aa6babc8803a896f32",
+      "bodyFingerprint": "16bfd9b5664aa7afb18068e6",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T14:54:42.775Z",
+      "assessment": {
+        "centralEvent": "Did someone wearing Meta Glasses film you today? Are you sure?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Many of his customers are parents, who he says tell him: “‘I want to record my kid, but every time the light’s on, the kid just keeps looking at the light.’” He also said he’s done several pairs for food delivery drivers and others with sim",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In February, the New York Times reported on an internal Meta Reality Labs document in which the company discussed its plans to integrate a facial recognition feature called “NameTag” into its smartglasses.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Influencers , athletes and global celebrities such as Chris Hemsworth and Teyana Taylor have embraced the tech in sponsored posts and buzzy ads.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Meta makes assurances that the glasses won’t record when the LED light is blocked or obscured.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 123,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ac72003e9e5e0abf9c00": {
+      "storyId": "ac72003e9e5e0abf9c00",
+      "url": "https://apnews.com/article/russia-ukraine-war-drone-strikes-8d9eb77fc5fc29c4771503b75f98b1f4",
+      "title": "A warehouse burns near Moscow. In Ukraine, drone crews prepare to strike again",
+      "source": "AP News AI",
+      "published": "2026-08-19T04:05:43",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b38be23f1379e1a1e5ffa6ef",
+      "bodyFingerprint": "9519d41b71d0f1b4db8fd201",
+      "bodyCharacterCount": 12018,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T14:54:43.382Z",
+      "assessment": {
+        "centralEvent": "A warehouse burns near Moscow. In Ukraine, drone crews prepare to strike again",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Kyiv officials aim to make the Russian public feel the war’s consequences and pressure Russian President Vladimir Putin into negotiating a peace settlement.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories UN rights chief is concerned about arrest of opposition figures in Zambia’s election 1 MIN READ Israel’s deadly Gaza strikes cast doubt on ceasefire progress days after Kushner visit 3 MIN READ Israeli strikes hit an air bas",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The unit’s medallion — something militaries across the world refer to as a “challenge coin” — carries the troops’ insignia on one side, a stylized, three-prong arrow.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T13:59:47.583Z"
+  "updatedAt": "2026-08-19T14:54:43.382Z"
 }
