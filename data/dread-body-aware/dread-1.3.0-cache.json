@@ -39842,8 +39842,73 @@
           "vulnerability": 0
         }
       }
+    },
+    "9d321051f4147de8d941": {
+      "storyId": "9d321051f4147de8d941",
+      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity",
+      "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+      "source": "TechCrunch AI",
+      "published": "2026-08-19T23:32:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "82cf611713f668ca7d8306ad",
+      "bodyFingerprint": "afcad6b193dc8bb85c623d0f",
+      "bodyCharacterCount": 4884,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T23:39:59.953Z",
+      "assessment": {
+        "centralEvent": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The short and funny answer, according to a leaked letter from Stripe’s founders to its investors about the deal, is: the singularity.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Stripe confirmed on Wednesday that it was buying OpenRouter.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T22:44:11.953Z"
+  "updatedAt": "2026-08-19T23:39:59.953Z"
 }
