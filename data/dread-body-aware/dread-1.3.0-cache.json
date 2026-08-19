@@ -39283,8 +39283,368 @@
           "vulnerability": 0
         }
       }
+    },
+    "98a1021aaf372fd3ca7f": {
+      "storyId": "98a1021aaf372fd3ca7f",
+      "url": "https://apnews.com/article/immigration-firing-range-san-diego-7c5e0e697a02ba701f68797865af9630",
+      "title": "San Diego County will stop letting federal immigration agents train at local firing ranges",
+      "source": "AP News AI",
+      "published": "2026-08-18T21:55:38",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "82dec7d37570c47eb169fe18",
+      "bodyFingerprint": "51bd61c03e0011168f9b1669",
+      "bodyCharacterCount": 5224,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T21:43:34.262Z",
+      "assessment": {
+        "centralEvent": "San Diego County will stop letting federal immigration agents train at local firing ranges",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“It is unprecedented for a local partner, such as the San Diego County Board of Supervisors, to knowingly undermine border security and put our communities at risk,” Scott said in a statement.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A federal agent wears an Immigration and Customs Enforcement badge in New York, June 10, 2025. (AP Photo/Yuki Iwamura, File) By AMY TAXIN Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Go",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Stories New CDC director acknowledges agency problems in first large staff meeting 3 MIN READ Trump says US and Canada have a trade deal, but key terms remain unclear 5 MIN READ An alarmed bond market gets the Trump administration t",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.19,
+        "rawScore": 27.19,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e16f95cffa4db44ec390": {
+      "storyId": "e16f95cffa4db44ec390",
+      "url": "https://apnews.com/article/israel-military-hind-rajab-gaza-parademics-investigations-c0a733a3ac78660b474e5bdb47154f8b",
+      "title": "Israeli military launches criminal probes into killings of Hind Rajab and Palestinian paramedics",
+      "source": "AP News AI",
+      "published": "2026-08-19T11:04:47",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9a6b2d68dc8571d4e282f3a1",
+      "bodyFingerprint": "6ab94b43c20cc1d993dc0428",
+      "bodyCharacterCount": 15514,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T21:43:34.276Z",
+      "assessment": {
+        "centralEvent": "Israeli military launches criminal probes into killings of Hind Rajab and Palestinian paramedics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "7, 2023, for alleged abuse of Palestinian prisoners.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "11, 2024, shows Palestinian girl Hind Rajab who was killed in Feb.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Chef José Andrés, founder of U.S.-based World Central Kitchen, condemned the decision on X as “wrong and painful.” The investigations involve killings that drew a heavy international outcry.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Israeli military launches criminal probes into killings of Hind Rajab and Palestinian paramedics 1 of 6 | Israel’s military says it will open criminal investigations into the deaths of 5 years old Hind Rajab and 15 Palestinian paramedics in",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Seconds later, more gunshots were heard, and Layan’s screaming stopped, according to the Red Crescent recording of the call.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The military said it would not probe three other attacks that killed aid workers from World Central Kitchen and Doctors Without Borders.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 97,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.98,
+        "rawScore": 50.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.635,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fac0f033ecb1748ca580": {
+      "storyId": "fac0f033ecb1748ca580",
+      "url": "https://apnews.com/article/darline-graham-taiwan-debate-national-security-5b045abd68cc4aa350177b5d1c6ee650",
+      "title": "National security question trips up Sen. Darline Graham in South Carolina debate",
+      "source": "AP News AI",
+      "published": "2026-08-19T05:29:52",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d8bf6d4a909a4239e2b33d11",
+      "bodyFingerprint": "129767ce05ec8331b4ee2510",
+      "bodyCharacterCount": 10691,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T21:43:34.285Z",
+      "assessment": {
+        "centralEvent": "National security question trips up Sen. Darline Graham in South Carolina debate",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Darline Graham in South Carolina Republican Senate runoff 2 MIN READ 16 Tuesday’s takeaways: No clear direction for Wisconsin Democrats 5 MIN READ 351 There were multiple trips to Taiwan, including in 2022, when he led a delegation for a tw",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 98,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bdb5b37585b314b9223f": {
+      "storyId": "bdb5b37585b314b9223f",
+      "url": "https://apnews.com/article/texas-track-stabbing-austin-metcalf-karmelo-anthony-5526b6ba91035724814c2beeab4bd4fb",
+      "title": "Judge removed from Texas track meet killing case as Karmelo Anthony seeks new trial",
+      "source": "AP News AI",
+      "published": "2026-08-19T04:07:03",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "019bbd5055d1e10d5bf8e274",
+      "bodyFingerprint": "3e82e649d2637c75c273e09c",
+      "bodyCharacterCount": 11954,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T21:43:34.293Z",
+      "assessment": {
+        "centralEvent": "Judge removed from Texas track meet killing case as Karmelo Anthony seeks new trial",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Anthony at one point reached inside a bag and replied: “Touch me and see what happens,” according to a police report.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8e38c7fc142c68ec11b6": {
+      "storyId": "8e38c7fc142c68ec11b6",
+      "url": "https://apnews.com/article/sydney-swans-bans-australian-rules-afl-6697b76c928fb35c72ca47ec21b882ba",
+      "title": "Sydney Swans ban 5 players for rest of AFL season over hotel misconduct and a police investigation",
+      "source": "AP News AI",
+      "published": "2026-08-19T03:52:48",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7cd3e32d31cbdffcba3a4330",
+      "bodyFingerprint": "45402589264ce1532fb2281f",
+      "bodyCharacterCount": 3330,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T21:43:34.315Z",
+      "assessment": {
+        "centralEvent": "Sydney Swans ban 5 players for rest of AFL season over hotel misconduct and a police investigation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“The Sydney Swans condemn all forms of abuse and disrespectful behavior toward women,” the Swans said in a statement ahead of the board meeting.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "19, 2026. (Bianca De Marchi/AAP Image via AP) Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“We respect there is an ongoing investigation by Victoria Police and the actions we have taken today are independent of this,” the Swans statement said, adding that the Australian Football League “is supportive of the club’s sanctions.” Swa",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T20:47:41.163Z"
+  "updatedAt": "2026-08-19T21:43:34.315Z"
 }
