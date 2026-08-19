@@ -36194,8 +36194,315 @@
           "vulnerability": 0
         }
       }
+    },
+    "3e24031df83f42b32130": {
+      "storyId": "3e24031df83f42b32130",
+      "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers",
+      "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+      "source": "TechCrunch AI",
+      "published": "2026-08-19T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "89f84463814c6274c94cb19c",
+      "bodyFingerprint": "a9171a4c8cab4cab13f3864d",
+      "bodyCharacterCount": 4055,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T10:48:18.770Z",
+      "assessment": {
+        "centralEvent": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+ Anthony Ha Anthropic shares more details about how Claude’s new watermarks will work Anthony Ha Apple proposes to take a 15% cut of purchases ma",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0a8c4651bb437a4e81dd": {
+      "storyId": "0a8c4651bb437a4e81dd",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260816044850.htm",
+      "title": "Tiny robots powered by light can hunt down and collect bacteria",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-18T22:21:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3e1e08ba2b2d1c1e0aaf259a",
+      "bodyFingerprint": "2b37dd0bc5933dfb7194d365",
+      "bodyCharacterCount": 7863,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T10:48:18.813Z",
+      "assessment": {
+        "centralEvent": "Tiny robots powered by light can hunt down and collect bacteria",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "31, 2026  DNA robots are emerging as tiny programmable machines that could one day deliver drugs, hunt viruses, and build molecular-scale devices.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3b5050eec0d9fea98c5e": {
+      "storyId": "3b5050eec0d9fea98c5e",
+      "url": "https://www.inc.com/soren-kaplan/hiring-for-tech-skills-the-strongest-candidate-may-not-be-a-computer-science-major/91390650",
+      "title": "Hiring for Tech Skills? The Strongest Candidate May Not Be a Computer Science Major",
+      "source": "Inc. AI",
+      "published": "2026-08-19T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d3e23136f33bb1ce1bb38372",
+      "bodyFingerprint": "c16262a77911338da8bf1b3a",
+      "bodyCharacterCount": 150,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-19T10:48:18.820Z",
+      "assessment": {
+        "centralEvent": "Hiring for Tech Skills? The Strongest Candidate May Not Be a Computer Science Major",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "876f25f5a553079163cb": {
+      "storyId": "876f25f5a553079163cb",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/19/poll-progressive-candidates-election-economy",
+      "title": "Why are progressives winning across the United States? It’s not complicated | Bernie Sanders",
+      "source": "The Guardian AI",
+      "published": "2026-08-19T10:00:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41edfa2364269d2dd5afec22",
+      "bodyFingerprint": "e0d4128e514130da920357ec",
+      "bodyCharacterCount": 8440,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T10:48:18.842Z",
+      "assessment": {
+        "centralEvent": "Why are progressives winning across the United States? It’s not complicated | Bernie Sanders",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Climate change Progressives believe that Trump’s assertion that climate change is a “hoax” is not only extraordinarily ignorant, but is a real danger to the planet.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "We regard it as outrageous that in the year 2026 millions of workers continue to earn starvation wages and that the federal minimum wage remains at a disgraceful $7.25 an hour.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "We do not need to spend $1.5tn a year on the Pentagon fighting endless wars and propping up dictatorships around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In the richest country in the history of the world, Americans do not want to have to struggle every single day just to pay the bills.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e1c13007ce18d54cb487": {
+      "storyId": "e1c13007ce18d54cb487",
+      "url": "https://apnews.com/article/ap-preseason-allamerica-6f7447d5ca254b3795dce5ad9564bcc3",
+      "title": "Texas puts 4 players on preseason AP All-America team; 14 of the 27 first-team picks are from SEC",
+      "source": "AP News AI",
+      "published": "2026-08-18T16:01:10",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "242b73f4c939095f8507c96d",
+      "bodyFingerprint": "91ddfc10632918d03e0269a9",
+      "bodyCharacterCount": 8962,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T10:48:18.860Z",
+      "assessment": {
+        "centralEvent": "Texas puts 4 players on preseason AP All-America team; 14 of the 27 first-team picks are from SEC",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T09:50:56.375Z"
+  "updatedAt": "2026-08-19T10:48:18.860Z"
 }
