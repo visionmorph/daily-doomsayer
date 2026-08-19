@@ -37699,8 +37699,253 @@
           "vulnerability": 0
         }
       }
+    },
+    "97b54f80babb2bf064c3": {
+      "storyId": "97b54f80babb2bf064c3",
+      "url": "https://www.inc.com/moses-jeanfrancois/gwyneth-paltrow-goop-embraced-tech-for-years-now-hosting-sam-altman/91393387",
+      "title": "Gwyneth Paltrow’s Goop Has Embraced Tech for Years. Now She’s Hosting Sam Altman at Her Hamptons Home",
+      "source": "Inc. AI",
+      "published": "2026-08-19T16:28:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9ccc8733085bd3b7e426a249",
+      "bodyFingerprint": "383cffa45596f317dcb34ee4",
+      "bodyCharacterCount": 175,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-19T16:48:38.598Z",
+      "assessment": {
+        "centralEvent": "Gwyneth Paltrow’s Goop Has Embraced Tech for Years. Now She’s Hosting Sam Altman at Her Hamptons Home",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c4af28cc56a31010cc54": {
+      "storyId": "c4af28cc56a31010cc54",
+      "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks",
+      "title": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
+      "source": "WIRED AI",
+      "published": "2026-08-19T16:44:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ed2bde7045617c5d2f760de6",
+      "bodyFingerprint": "d094e8ca24f1962fbb69065f",
+      "bodyCharacterCount": 8919,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T16:48:38.685Z",
+      "assessment": {
+        "centralEvent": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“I think they wanted to show that they're in good faith doing it,” says Pan, “but I don't think you can ever have a watermark that will withstand everything.” Comments Back to top Join the discussion Comments Back to top You Might Also Like",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Vittoria Elliott AI Scammers Are Better at Building Trust Than Humans Researchers pitted a person against a Claude agent and found that, after a week of texting, the AI chatbot was more effective at creating “exploitable trust” with others.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b6b786ec500cd85f6264": {
+      "storyId": "b6b786ec500cd85f6264",
+      "url": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians",
+      "title": "Meta ran ads for an app promising to nudify female politicians",
+      "source": "Ars Technica AI",
+      "published": "2026-08-19T15:45:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d3e06d5439c5e6d42c93eb7e",
+      "bodyFingerprint": "547c4feb2ca7b7035da1ebfd",
+      "bodyCharacterCount": 8967,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T16:48:38.901Z",
+      "assessment": {
+        "centralEvent": "Meta ran ads for an app promising to nudify female politicians",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "One ad featured a pornographic video with deepfake closely resembling a US politician.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In all, the account tied to the campaign ran 32 ads, according to Meta, which ran for between five and 46 hours.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The ads, which ran between November 2025 and August, sometimes reached thousands of people, including those in the US, UK, and across at least a dozen European countries.",
+            "matchedRule": "/\\b(?:thousands|hundreds)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "af445b694d92c3081407": {
+      "storyId": "af445b694d92c3081407",
+      "url": "https://www.nature.com/articles/d41586-026-02377-9",
+      "title": "Psychedelics tune the brain to the environment",
+      "source": "Nature AI News & Comment",
+      "published": "2026-08-19T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "042d983578a52f125ec6da8a",
+      "bodyFingerprint": "c7c3ccd986b68e3f95db4f77",
+      "bodyCharacterCount": 47,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-19T16:48:39.187Z",
+      "assessment": {
+        "centralEvent": "Psychedelics tune the brain to the environment",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T15:48:04.401Z"
+  "updatedAt": "2026-08-19T16:48:39.187Z"
 }
