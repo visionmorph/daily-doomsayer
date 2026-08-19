@@ -35583,8 +35583,140 @@
           "vulnerability": 0
         }
       }
+    },
+    "15bd4d0aba7270a3b3c8": {
+      "storyId": "15bd4d0aba7270a3b3c8",
+      "url": "https://apnews.com/article/fifa-lamour-infantino-world-cup-0c43270c0b6cdccf0482a62e8fa4e846",
+      "title": "A top official leaves FIFA, deepening the fallout from Infantino’s World Cup sell-off plan",
+      "source": "AP News AI",
+      "published": "2026-08-18T03:34:23",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "583979c8f8974a73acf7238c",
+      "bodyFingerprint": "92f5c31ef8250c88d87945d5",
+      "bodyCharacterCount": 4819,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T01:54:52.951Z",
+      "assessment": {
+        "centralEvent": "A top official leaves FIFA, deepening the fallout from Infantino’s World Cup sell-off plan",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "No further comment will be made on the matter.” Infantino is seeking reelection as FIFA president but remains under pressure after the heads of three continental confederations — for Europe, Asia and for North, Central America and the Carib",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "FIFA's chief operating officer, Kevin Lamour, has reportedly left his role weeks after accusing president Gianni Infantino of deceiving staff with a World Cup sell-off plan.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "K(AP Photo/Alessandra Tarantino, File) Read More 2 of 2 | FIFA President Gianni Infantino makes comments during the opening ceremony of the International Broadcast Center, June 1, 2026, in Dallas. (AP Photo/Tony Gutierrez, File) Read More A",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "09d4db1544190f82f413": {
+      "storyId": "09d4db1544190f82f413",
+      "url": "https://apnews.com/article/penn-state-fraternity-frat-house-drug-ring-cocaine-f78b51c445a680ffa260337e3500e5aa",
+      "title": "Penn State frat pledges were made to cut and bag cocaine for college drug ring, authorities say",
+      "source": "AP News AI",
+      "published": "2026-08-18T16:47:56",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c83588b62305d27e41d8e7a2",
+      "bodyFingerprint": "cddcddf3d97fc491e494ef66",
+      "bodyCharacterCount": 4008,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-19T01:54:52.969Z",
+      "assessment": {
+        "centralEvent": "Penn State frat pledges were made to cut and bag cocaine for college drug ring, authorities say",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "9, 2023, in State College, Pa. (AP Photo/Barry Reeger, File) Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Googl",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-18T23:39:14.370Z"
+  "updatedAt": "2026-08-19T01:54:52.970Z"
 }
