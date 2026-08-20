@@ -42055,8 +42055,327 @@
           "vulnerability": 2
         }
       }
+    },
+    "c98b23eaf7c1d748e4f9": {
+      "storyId": "c98b23eaf7c1d748e4f9",
+      "url": "https://www.inc.com/victoria-salves/bots-scanned-beehiiv-sites-500-million-times-last-month-new-tool-gives-creators-more-control/91393302",
+      "title": "Bots Scanned Beehiiv Sites 500 Million Times Last Month. A New Tool Gives Creators More Control",
+      "source": "Inc. AI",
+      "published": "2026-08-20T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e5c99c9d519ddfedbfe829e6",
+      "bodyFingerprint": "281820d2d1b3ecce07aae856",
+      "bodyCharacterCount": 124,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T14:01:47.596Z",
+      "assessment": {
+        "centralEvent": "Bots Scanned Beehiiv Sites 500 Million Times Last Month. A New Tool Gives Creators More Control",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "111246f655bf4d91bac3": {
+      "storyId": "111246f655bf4d91bac3",
+      "url": "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x",
+      "title": "Subtlefakes: Slightly Altered Nonconsensual AI Images Are Taking Over X",
+      "source": "404 Media AI",
+      "published": "2026-08-20T13:34:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "755384d824e84e84bb884e3b",
+      "bodyFingerprint": "665ec8e9a38d33dfcbfe42b5",
+      "bodyCharacterCount": 8937,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T14:01:47.609Z",
+      "assessment": {
+        "centralEvent": "Subtlefakes: Slightly Altered Nonconsensual AI Images Are Taking Over X",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Since X is not interested in moderating this content, one person can also operate multiple accounts, posting dozens of times a day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "15f2edbd2bf19c0ff314": {
+      "storyId": "15f2edbd2bf19c0ff314",
+      "url": "https://apnews.com/article/milligan-university-cyclists-killed-tennessee-e75912c4663e6d76b8e571dc7cd0a62a",
+      "title": "2 college cyclists killed and 7 injured in Tennessee car crash",
+      "source": "AP News AI",
+      "published": "2026-08-19T23:41:33",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1c7ce5dc48e6b40a21081c76",
+      "bodyFingerprint": "49a63f577592c84a2ce6bcd7",
+      "bodyCharacterCount": 5309,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T14:01:47.624Z",
+      "assessment": {
+        "centralEvent": "2 college cyclists killed and 7 injured in Tennessee car crash",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "2 college cyclists killed and 7 injured in Tennessee car crash",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a9f0044edd6fada438dc": {
+      "storyId": "a9f0044edd6fada438dc",
+      "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "title": "Slack is launching collaborative vibe-coding channels",
+      "source": "The Verge AI",
+      "published": "2026-08-20T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "238ef57d5b09351e35202a66",
+      "bodyFingerprint": "9eb7448c299ce365aad64339",
+      "bodyCharacterCount": 3879,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T14:01:47.629Z",
+      "assessment": {
+        "centralEvent": "Slack is launching collaborative vibe-coding channels",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jess Weatherbed AI Business News Tech Most Popular Most Popular Amazon seemingly leaked Jason Statham’s entire Mutiny movie The Pixel 11 Pro is a great phone, no thanks to its flashiest new features Google’s Pixel 11 Pro Fold feels like the",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4e1b63a2e790f293fa1d": {
+      "storyId": "4e1b63a2e790f293fa1d",
+      "url": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+      "title": "Welcome to the AI crisis in math",
+      "source": "The Verge AI",
+      "published": "2026-08-20T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "55df53d50965c158aa862d50",
+      "bodyFingerprint": "83d3c7bae69048e99e3ab2db",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T14:01:47.658Z",
+      "assessment": {
+        "centralEvent": "Welcome to the AI crisis in math",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Nilay Patel AI Decoder OpenAI Podcasts Tech Most Popular Most Popular Amazon seemingly leaked Jason Statham’s entire Mutiny movie The Pixel 11 Pro is a great phone, no thanks to its flashiest new features Google’s Pixel 11 Pro Fold feels li",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nilay Patel Aug 10 What’s behind the Google AI shake-up David Pierce Aug 7 The left and right agree on one thing: no data centers Nilay Patel Aug 6 Advertiser Content From This is the title for the native ad Top Stories Two hours ago Meta g",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Because that is usually the thing that undercuts the criticism from the professionals is, well, many, many more people now have access to this thing that only you had access to because of your money and your training.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "That’s where the models can generate a proof or solve a problem that no one’s been able to solve, and then try to verify that that has existed and they can just run it again and again and again.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 512,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T13:13:03.495Z"
+  "updatedAt": "2026-08-20T14:01:47.658Z"
 }
