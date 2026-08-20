@@ -41446,8 +41446,231 @@
           "vulnerability": 0
         }
       }
+    },
+    "51dd115b2f8a5ac12c24": {
+      "storyId": "51dd115b2f8a5ac12c24",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260820002432.htm",
+      "title": "This total solar eclipse looked strangely golden — here’s why",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-20T06:59:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "00b7bbfa11fd7b309eeec976",
+      "bodyFingerprint": "f24d972c681918ae2a237193",
+      "bodyCharacterCount": 6162,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T11:45:22.227Z",
+      "assessment": {
+        "centralEvent": "This total solar eclipse looked strangely golden — here’s why",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "RELATED TOPICS Space & Time Space Telescopes Sun Space Exploration Asteroids, Comets and Meteors Earth & Climate Air Quality Atmosphere Air Pollution Environmental Science RELATED TERMS Solar power Smoke Solar eclipse Solar flare Greenhouse",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "27, 2025  Researchers have directly observed torsional Alfvén waves twisting through the Sun’s corona — magnetic waves first predicted over 80 years ago.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "HDR, or high dynamic range imaging, combines exposures with different brightness levels so that both very bright and very faint details can be preserved in a single image.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e6562fcfeb20f36371a1": {
+      "storyId": "e6562fcfeb20f36371a1",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260820002424.htm",
+      "title": "Scientists crushed diamond beyond Neptune-like pressures—and solved a 20-year mystery",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-20T08:55:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3c29183dcbd9b1c08b5ea037",
+      "bodyFingerprint": "27bc091ad344fec8b6597e80",
+      "bodyCharacterCount": 12908,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T11:45:22.257Z",
+      "assessment": {
+        "centralEvent": "Scientists crushed diamond beyond Neptune-like pressures—and solved a 20-year mystery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In both environments, diamond is subjected to immense pressure.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers at Lawrence Livermore National Laboratory (LLNL) measured how diamond melts at pressures three times greater than those found at Earth's core. \"We were able to take tiny diamond samples and shock compress them to temperatures ho",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "To find out, an international team conducted a novel experiment.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "No intermediate phase appeared during the experiment. \"We think that is because the sample does not have time to change when it only experiences a single shock.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 84,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.96,
+        "rawScore": 27.96,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1902919cb24283881a45": {
+      "storyId": "1902919cb24283881a45",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260820002429.htm",
+      "title": "A SpaceX rocket smashed into the Moon — NASA just revealed the crater",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-20T07:10:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "373e4de16b8de0baddf84f70",
+      "bodyFingerprint": "627d3740a584fd6ed490c9aa",
+      "bodyCharacterCount": 7198,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T11:45:22.328Z",
+      "assessment": {
+        "centralEvent": "A SpaceX rocket smashed into the Moon — NASA just revealed the crater",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The impact even exposed fresh material buried beneath the Moon’s weathered exterior.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Because of this motion, LRO must wait for a particular location to rotate into a position where it can be observed.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An International Search for the Impact Site Locating the crater involved cooperation among professional researchers and amateur observers around the world.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T10:49:38.908Z"
+  "updatedAt": "2026-08-20T11:45:22.328Z"
 }
