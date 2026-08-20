@@ -40352,8 +40352,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "6b3d155590b8691debd7": {
+      "storyId": "6b3d155590b8691debd7",
+      "url": "https://apnews.com/article/vandenberg-space-force-base-california-journalists-detained-4815c999cbcb9ea60c918429c0e0ade4",
+      "title": "Invited media and military members held at gunpoint at Space Force base in California",
+      "source": "AP News AI",
+      "published": "2026-08-20T00:20:52",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b0c038320c14109d95962926",
+      "bodyFingerprint": "36a7aef055f62cee22006f26",
+      "bodyCharacterCount": 3022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T04:00:44.506Z",
+      "assessment": {
+        "centralEvent": "Invited media and military members held at gunpoint at Space Force base in California",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "27, 2021. (Matt Hartman via AP, File) Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T03:11:49.562Z"
+  "updatedAt": "2026-08-20T04:00:44.506Z"
 }
