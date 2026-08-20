@@ -39907,8 +39907,192 @@
           "vulnerability": 0
         }
       }
+    },
+    "861f4442ab889354de10": {
+      "storyId": "861f4442ab889354de10",
+      "url": "https://news.sky.com/story/uk-cinemas-consider-ban-on-meta-glasses-13574686",
+      "title": "UK cinemas consider ban on Meta glasses",
+      "source": "Sky News AI",
+      "published": "2026-08-19T11:44:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0d215f90d9d69115324839b8",
+      "bodyFingerprint": "c88feefb60b1da82a5eaba0a",
+      "bodyCharacterCount": 70,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T01:53:36.228Z",
+      "assessment": {
+        "centralEvent": "UK cinemas consider ban on Meta glasses",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Cinemas are considering a ban on Meta AI glasses amid piracy concerns.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "79cf73e3d72de20e25fb": {
+      "storyId": "79cf73e3d72de20e25fb",
+      "url": "https://apnews.com/article/deion-sanders-colorado-serve-papers-9aa40d7be2a3428394d5985bc8f7b141",
+      "title": "Deputy tried to serve civil papers to Deion Sanders at Colorado practice, but coach was unavailable",
+      "source": "AP News AI",
+      "published": "2026-08-19T18:12:25",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "117428cc62dba11b0940710d",
+      "bodyFingerprint": "a3c19aea93cf3c7d4dfc805b",
+      "bodyCharacterCount": 2838,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T01:53:36.318Z",
+      "assessment": {
+        "centralEvent": "Deputy tried to serve civil papers to Deion Sanders at Colorado practice, but coach was unavailable",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "6, 2026. (AP Photo/David Zalubowski) By PAT GRAHAM Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9b4f7e9ea34823fa57b2": {
+      "storyId": "9b4f7e9ea34823fa57b2",
+      "url": "https://www.theguardian.com/us-news/2026/aug/19/uc-berkeley-professor-ai",
+      "title": "UC Berkeley professor admits to using AI to edit op-ed on students’ math skills",
+      "source": "The Guardian AI",
+      "published": "2026-08-20T00:35:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d637ec16ee0529a1f8dc7b87",
+      "bodyFingerprint": "cfc29c5fd3364a84f870b4da",
+      "bodyCharacterCount": 4613,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T01:53:36.491Z",
+      "assessment": {
+        "centralEvent": "UC Berkeley professor admits to using AI to edit op-ed on students’ math skills",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In response, Stankova admitted she had used AI software to “help edit the piece” but that the article was “the result of several hundred person-hours of intensive human work, of which about 80 hours are my own”.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-19T23:39:59.953Z"
+  "updatedAt": "2026-08-20T01:53:36.491Z"
 }
