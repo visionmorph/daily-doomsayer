@@ -41669,8 +41669,394 @@
           "vulnerability": 0
         }
       }
+    },
+    "2f17e3b184ca196a65d2": {
+      "storyId": "2f17e3b184ca196a65d2",
+      "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps",
+      "title": "Meta AI’s new Mac app wants you to talk to your apps",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T12:11:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b6f5b0ed88652df937a05118",
+      "bodyFingerprint": "fc586a5746cb0646403b27ec",
+      "bodyCharacterCount": 2573,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T13:13:02.858Z",
+      "assessment": {
+        "centralEvent": "Meta AI’s new Mac app wants you to talk to your apps",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Climate TerraPower’s nuclear reactor has a secret weapon for powering AI data centers Tim De Chant 21 hours ago Media & Entertainment Amazon makes its ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "16dbb8c1a5c78d25077e": {
+      "storyId": "16dbb8c1a5c78d25077e",
+      "url": "https://apnews.com/article/college-sports-nil-74e5108ea2df594f4a0962987f5f9d74",
+      "title": "A left tackle can make $4M in college football, not the NFL. Is this pay for play?",
+      "source": "AP News AI",
+      "published": "2026-08-19T17:24:44",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7b893e253a5661c0f18468bd",
+      "bodyFingerprint": "0347cd93e43db9535945f186",
+      "bodyCharacterCount": 12394,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T13:13:02.910Z",
+      "assessment": {
+        "centralEvent": "A left tackle can make $4M in college football, not the NFL. Is this pay for play?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "All of those amounts are less than what the top 10 college players make in sponsorships, according to On3, which tracks college NIL deals, none of which are disclosed by schools.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "26847b0057a70dd95769": {
+      "storyId": "26847b0057a70dd95769",
+      "url": "https://www.inc.com/liviu-tanase/trust-is-your-new-email-marketing-advantage/91393207",
+      "title": "Trust Is Your New Email Marketing Advantage",
+      "source": "Inc. AI",
+      "published": "2026-08-20T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9553fca8f43c6a18ede74dd4",
+      "bodyFingerprint": "9e76c4b6b4b593a1119eb504",
+      "bodyCharacterCount": 76,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T13:13:02.921Z",
+      "assessment": {
+        "centralEvent": "Trust Is Your New Email Marketing Advantage",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a9e7d80754e6f186f92d": {
+      "storyId": "a9e7d80754e6f186f92d",
+      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted",
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "source": "Ars Technica AI",
+      "published": "2026-08-20T13:00:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d3c5c26fbee493fedaf3c2a3",
+      "bodyFingerprint": "cb8d158d6283be40a1258ab9",
+      "bodyCharacterCount": 6775,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T13:13:03.148Z",
+      "assessment": {
+        "centralEvent": "Grok exfiltrates user data when malicious instructions are encrypted",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dan Goodin Senior Security Editor Dan Goodin Senior Security Editor Dan Goodin is Senior Security Editor at Ars Technica, where he oversees coverage of malware, computer espionage, botnets, hardware hacking, encryption, and passwords.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea 3.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "813a6e8108cc726cc57e": {
+      "storyId": "813a6e8108cc726cc57e",
+      "url": "https://techpolicy.press/congress-can-get-ai-whistleblower-protection-right-on-its-first-try",
+      "title": "Congress Can Get AI Whistleblower Protection Right On Its First Try",
+      "source": "Tech Policy Press AI",
+      "published": "2026-08-20T12:07:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9de5ab01498ecf987d38b3ad",
+      "bodyFingerprint": "89a9df183ba70c91276c51c6",
+      "bodyCharacterCount": 68,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T13:13:03.220Z",
+      "assessment": {
+        "centralEvent": "Congress Can Get AI Whistleblower Protection Right On Its First Try",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3f3860fafa6c86ffb26f": {
+      "storyId": "3f3860fafa6c86ffb26f",
+      "url": "https://techpolicy.press/ai-audits-need-a-power-test-not-just-a-fairness-score",
+      "title": "AI Audits Need a Power Test, Not Just a Fairness Score",
+      "source": "Tech Policy Press AI",
+      "published": "2026-08-20T11:37:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "28de4084eb308f5acfa4f4d7",
+      "bodyFingerprint": "6d87a455edd01b2cdf08a618",
+      "bodyCharacterCount": 10888,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T13:13:03.495Z",
+      "assessment": {
+        "centralEvent": "AI Audits Need a Power Test, Not Just a Fairness Score",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A statistically balanced system can still support a punitive welfare policy, an exclusionary hiring process, or a surveillance practice that should not have been automated in the first place.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A fair result can still serve the wrong objective Most technical audits ask whether a system performs consistently, whether error rates differ across groups, and whether documented controls are working.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The US National Institute of Standards and Technology’s (NIST) framework encourages organizations to govern, map, measure, and manage AI risks.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Treating it as a fixed technical specification does not make the choice neutral.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Previous Tech Policy Press analysis has identified unresolved questions concerning audit objects, credentialing, and declining audit quality.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Auditors should not replace legislators, regulators, courts, workers, or affected communities.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 96,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.47,
+        "rawScore": 49.47,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4975,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 2,
+          "recurrence": 0,
+          "vulnerability": 2
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T11:45:22.328Z"
+  "updatedAt": "2026-08-20T13:13:03.495Z"
 }
