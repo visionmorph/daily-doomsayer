@@ -44312,8 +44312,62 @@
           "vulnerability": 0
         }
       }
+    },
+    "1397b3877a882b6d4256": {
+      "storyId": "1397b3877a882b6d4256",
+      "url": "https://www.inc.com/inc-video/how-to-build-a-platform-for-a-market-that-doesnt-exist-yet/91393752",
+      "title": "How to Build a Platform for a Market That Doesn’t Exist Yet",
+      "source": "Inc. AI",
+      "published": "2026-08-20T19:50:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "060bd3316636a5b7b5a87718",
+      "bodyFingerprint": "ebbc16ef769ae19e460c0388",
+      "bodyCharacterCount": 164,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T20:48:46.063Z",
+      "assessment": {
+        "centralEvent": "How to Build a Platform for a Market That Doesn’t Exist Yet",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T19:47:48.601Z"
+  "updatedAt": "2026-08-20T20:48:46.064Z"
 }
