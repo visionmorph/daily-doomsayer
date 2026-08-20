@@ -40091,8 +40091,269 @@
           "vulnerability": 0
         }
       }
+    },
+    "8ee2ff6fa638ae5d7456": {
+      "storyId": "8ee2ff6fa638ae5d7456",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260819041231.htm",
+      "title": "MIT physicists discover electrons rebuilding like ice inside a quantum material",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-20T01:32:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d7245bced61fb189edad187",
+      "bodyFingerprint": "9db2150eed3d474da6d6a95b",
+      "bodyCharacterCount": 12747,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T03:11:49.523Z",
+      "assessment": {
+        "centralEvent": "MIT physicists discover electrons rebuilding like ice inside a quantum material",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "More recently, researchers have found them in materials that also support more complicated forms of collective electron behavior, including magnetism and superconductivity, in which electrons pair together and move through a material withou",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 93,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7e1bf3dbc18d9c66b6cc": {
+      "storyId": "7e1bf3dbc18d9c66b6cc",
+      "url": "https://apnews.com/article/angie-nixon-florida-senate-democratic-socialist-65380b9f11e406198569c830b10507b7",
+      "title": "Democratic socialist Angie Nixon won Tuesday's primary in Florida. Can she win in November?",
+      "source": "AP News AI",
+      "published": "2026-08-19T14:16:54",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "763a3fdd95e3215c51744211",
+      "bodyFingerprint": "36d43873816d06eab9d12022",
+      "bodyCharacterCount": 9009,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T03:11:49.539Z",
+      "assessment": {
+        "centralEvent": "Democratic socialist Angie Nixon won Tuesday's primary in Florida. Can she win in November?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Angie Nixon, D-Fla., speaks loudly on the House floor as the House votes on HB1D, a redistricting bill, during a special session of the Florida Legislature, April 29, 2026, in Tallahassee, Fla. (AP Photo/Mike Stewart, File) By MATT BROWN Up",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1111b445eb8aadbf8a54": {
+      "storyId": "1111b445eb8aadbf8a54",
+      "url": "https://apnews.com/article/amazon-drone-delivery-expansion-walmart-20db399ba65e8bc36a76b547f990b118",
+      "title": "Amazon set to expand drone delivery of lightweight packages to 500 US cities",
+      "source": "AP News AI",
+      "published": "2026-08-19T10:00:49",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4a0229e854e7f9642c7742bc",
+      "bodyFingerprint": "df3452eaad69dabcc94d6a09",
+      "bodyCharacterCount": 7083,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T03:11:49.553Z",
+      "assessment": {
+        "centralEvent": "Amazon set to expand drone delivery of lightweight packages to 500 US cities",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An Amazon company logo marks the facade of a building, March 18, 2022, in Schoenefeld near Berlin. (AP Photo/Michael Sohn, File) By JOSH FUNK Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News o",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "62c853ec1f89e34473b1": {
+      "storyId": "62c853ec1f89e34473b1",
+      "url": "https://apnews.com/article/iran-united-arab-emirates-trade-august-19-2026-47c95fe382c49289ab0419310b6d8057",
+      "title": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
+      "source": "AP News AI",
+      "published": "2026-08-19T10:56:38",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f5139e5ac13a7f9b94f242d2",
+      "bodyFingerprint": "c8dc73ef7c253644d4227c91",
+      "bodyCharacterCount": 9093,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T03:11:49.562Z",
+      "assessment": {
+        "centralEvent": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“Any major conflict with Iran can therefore cause substantial damage to its economy.” The Emirati announcement comes as the U.S. prepares to apply new economic pressure on Iran.",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In late June, as hostilities eased, some maritime trade resumed, Iran’s state-run IRNA news agency reported.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Already the International Monetary Fund forecasts inflation of nearly 70% this year in Iran and an economic contraction of 5.4%.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Tehran denies it Following the announcement that two ballistic missiles had been fired toward the UAE, both of which splashed down in the Persian Gulf late Tuesday, the Emirati Foreign Ministry said it decided to impose the punitive measure",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 67.74,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T01:53:36.491Z"
+  "updatedAt": "2026-08-20T03:11:49.562Z"
 }
