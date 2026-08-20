@@ -40412,8 +40412,141 @@
           "vulnerability": 0
         }
       }
+    },
+    "2ec3eda03e6d27e0d0a3": {
+      "storyId": "2ec3eda03e6d27e0d0a3",
+      "url": "https://news.sky.com/story/how-the-ai-boom-has-contributed-to-a-growing-economic-threat-13574693",
+      "title": "How the AI boom has contributed to a growing economic threat",
+      "source": "Sky News AI",
+      "published": "2026-08-19T11:56:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f456e0557147aadfb8689385",
+      "bodyFingerprint": "e7d897658f18ebaee0ce0431",
+      "bodyCharacterCount": 113,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T04:55:34.953Z",
+      "assessment": {
+        "centralEvent": "How the AI boom has contributed to a growing economic threat",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b3a28205e176413f5de3": {
+      "storyId": "b3a28205e176413f5de3",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/20/bodies-ai-minds-history-technology-humans",
+      "title": "It used to be our imperfect bodies that made us insecure. With AI, it’s our minds as well",
+      "source": "The Guardian AI",
+      "published": "2026-08-20T04:00:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd45f61216e1dba772dced30",
+      "bodyFingerprint": "dc7960dc0f19ae30552f41d6",
+      "bodyCharacterCount": 6533,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T04:55:35.120Z",
+      "assessment": {
+        "centralEvent": "It used to be our imperfect bodies that made us insecure. With AI, it’s our minds as well",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One explanation may be that we sense danger when encountering something we cannot categorise easily as either human or not.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A 2025 study from the renowned German Max Planck Institute for Human Development evaluating 360,000 YouTube videos and 772,000 podcasts found that after the release of ChatGPT, people started to use words preferred by the AI chatbot such as",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A humanoid robot developed by RB Labs, at the AI for Good global summit, 7 July 2026.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Another is that the features that seem “off”, such as glossy skin or frozen expressions, resemble signs of disease or death .",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.73,
+        "rawScore": 28.73,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.43,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T04:00:44.506Z"
+  "updatedAt": "2026-08-20T04:55:35.120Z"
 }
