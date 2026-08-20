@@ -41009,8 +41009,242 @@
           "vulnerability": 0
         }
       }
+    },
+    "e587d6d486cec35126aa": {
+      "storyId": "e587d6d486cec35126aa",
+      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T09:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7946a54aa8e2e120d7146ad0",
+      "bodyFingerprint": "ef8df166158cc347dd1e87a1",
+      "bodyCharacterCount": 6022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T09:51:51.421Z",
+      "assessment": {
+        "centralEvent": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Regular swaps are capped at $50,000 a day, DeFi transactions have a default $100,000 daily limit, and x402 payments are limited to $20 a day, according to the company.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "814c08736cd7593170ed": {
+      "storyId": "814c08736cd7593170ed",
+      "url": "https://www.inc.com/pam-didner/the-best-ai-training-costs-nothing-and-takes-5-minutes-most-companies-do-the-opposite/91387238",
+      "title": "The Best AI Training Costs Nothing and Takes 5 Minutes. Most Companies Do the Opposite",
+      "source": "Inc. AI",
+      "published": "2026-08-20T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8ac128a64892e91c43a53191",
+      "bodyFingerprint": "9642a1297942748ab59d2752",
+      "bodyCharacterCount": 124,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T09:51:51.462Z",
+      "assessment": {
+        "centralEvent": "The Best AI Training Costs Nothing and Takes 5 Minutes. Most Companies Do the Opposite",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "41a3e5cbe1d87b94fcda": {
+      "storyId": "41a3e5cbe1d87b94fcda",
+      "url": "https://www.theguardian.com/society/2026/aug/20/yorkshire-rotherham-ai-gp-receptionist-cannot-understand-accent",
+      "title": "Patients in Yorkshire complain AI GP receptionist cannot understand accent",
+      "source": "The Guardian AI",
+      "published": "2026-08-20T09:25:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "016a86596f384987e10619dc",
+      "bodyFingerprint": "0b5f720f131ff78f08715518",
+      "bodyCharacterCount": 4280,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T09:51:51.474Z",
+      "assessment": {
+        "centralEvent": "Patients in Yorkshire complain AI GP receptionist cannot understand accent",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Emma is designed to improve access by answering calls instantly and removing telephone queues.” Explore more on these topics GPs AI (artificial intelligence) Doctors NHS Health Yorkshire Rotherham news Share Reuse this content More on this",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9cfbc8ef94edb37dcfe7": {
+      "storyId": "9cfbc8ef94edb37dcfe7",
+      "url": "https://www.nature.com/articles/d41586-026-02549-7",
+      "title": "Investors’ sneak peak: can this AI tool spot the science that will lead to patents?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-08-20T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41f79cccce0d538a98423030",
+      "bodyFingerprint": "874778fa5a958a1f645a3573",
+      "bodyCharacterCount": 84,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T09:51:51.996Z",
+      "assessment": {
+        "centralEvent": "Investors’ sneak peak: can this AI tool spot the science that will lead to patents?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T08:58:30.490Z"
+  "updatedAt": "2026-08-20T09:51:51.996Z"
 }
