@@ -12156,7 +12156,7 @@
       "image": "https://dims.apnews.com/dims4/default/b85cc07/2147483647/strip/true/crop/1440x960+0+27/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffe%2F17%2Ffa182f1a64b5e34ad62f53d42ef7%2F0c4502d107194092a540fa5ffbf7e779",
       "published": "2026-08-19T11:04:47",
       "firstSeen": "2026-08-19T21:00:00.000Z",
-      "lastSeen": "2026-08-20T01:00:00.000Z"
+      "lastSeen": "2026-08-20T04:00:00.000Z"
     },
     "fac0f033ecb1748ca580": {
       "storyId": "fac0f033ecb1748ca580",
@@ -12288,7 +12288,7 @@
       "image": "https://dims.apnews.com/dims4/default/e46e119/2147483647/strip/true/crop/8176x5448+232+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F93%2Fc6%2F709846581c1a74afbe57172e8781%2F76752a85c62c478d81fd3355d2f62ee6",
       "published": "2026-08-19T10:00:49",
       "firstSeen": "2026-08-20T03:00:00.000Z",
-      "lastSeen": "2026-08-20T03:00:00.000Z"
+      "lastSeen": "2026-08-20T04:00:00.000Z"
     },
     "7e1bf3dbc18d9c66b6cc": {
       "storyId": "7e1bf3dbc18d9c66b6cc",
@@ -12335,6 +12335,30 @@
       "source": "AP News AI",
       "image": "https://dims.apnews.com/dims4/default/69f737f/2147483647/strip/true/crop/4452x2966+0+77/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffd%2F49%2F10343ec47dba0735a0ce1209b92f%2Ffc352892e1ac4522a2b2b21d7686a629",
       "published": "2026-08-20T00:20:52",
+      "firstSeen": "2026-08-20T04:00:00.000Z",
+      "lastSeen": "2026-08-20T04:00:00.000Z"
+    },
+    "2ec3eda03e6d27e0d0a3": {
+      "storyId": "2ec3eda03e6d27e0d0a3",
+      "currentTitle": "How the AI boom has contributed to a growing economic threat",
+      "originalTitle": "How the AI boom has contributed to a growing economic threat",
+      "url": "https://news.sky.com/story/how-the-ai-boom-has-contributed-to-a-growing-economic-threat-13574693",
+      "canonicalUrl": "https://news.sky.com/story/how-the-ai-boom-has-contributed-to-a-growing-economic-threat-13574693",
+      "source": "Sky News AI",
+      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-dollar-pound-sterling_7325729.jpg?20260819150135",
+      "published": "2026-08-19T11:56:00.000Z",
+      "firstSeen": "2026-08-20T04:00:00.000Z",
+      "lastSeen": "2026-08-20T04:00:00.000Z"
+    },
+    "b3a28205e176413f5de3": {
+      "storyId": "b3a28205e176413f5de3",
+      "currentTitle": "It used to be our imperfect bodies that made us insecure. With AI, it’s our minds as well",
+      "originalTitle": "It used to be our imperfect bodies that made us insecure. With AI, it’s our minds as well",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/20/bodies-ai-minds-history-technology-humans",
+      "canonicalUrl": "https://www.theguardian.com/commentisfree/2026/aug/20/bodies-ai-minds-history-technology-humans",
+      "source": "The Guardian AI",
+      "image": "https://i.guim.co.uk/img/media/1b11b1a94c94a990f5576ba75e14b9a320163341/142_11_4043_3234/master/4043.jpg?width=800&dpr=2&s=none&crop=none",
+      "published": "2026-08-20T04:00:42.000Z",
       "firstSeen": "2026-08-20T04:00:00.000Z",
       "lastSeen": "2026-08-20T04:00:00.000Z"
     }
