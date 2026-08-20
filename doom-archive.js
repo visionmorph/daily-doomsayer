@@ -2255,7 +2255,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
           "lastObservedAt": "2026-08-20T14:00:00.000Z",
-          "average": 37.25
+          "average": 37.17
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -2269,7 +2269,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
           "lastObservedAt": "2026-08-20T14:00:00.000Z",
-          "average": 15.73
+          "average": 15.53
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -2297,7 +2297,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
           "lastObservedAt": "2026-08-20T14:00:00.000Z",
-          "average": 36.09
+          "average": 36.03
         },
         {
           "storyId": "ede609b0616ffbb3696f",
@@ -2692,7 +2692,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
           "lastObservedAt": "2026-08-20T14:00:00.000Z",
-          "average": 37.25
+          "average": 37.17
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -2706,7 +2706,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
           "lastObservedAt": "2026-08-20T14:00:00.000Z",
-          "average": 15.73
+          "average": 15.53
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -2734,7 +2734,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
           "lastObservedAt": "2026-08-20T14:00:00.000Z",
-          "average": 36.09
+          "average": 36.03
         },
         {
           "storyId": "ede609b0616ffbb3696f",
