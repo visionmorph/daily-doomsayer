@@ -42374,8 +42374,268 @@
           "vulnerability": 0
         }
       }
+    },
+    "06ab095a1ab06a32e5f1": {
+      "storyId": "06ab095a1ab06a32e5f1",
+      "url": "https://apnews.com/article/south-north-korea-projectile-launch-military-exercises-b3af05067e4258f90f67023c7b2b3e9a",
+      "title": "North Korea fires barrage of missiles toward the sea after dismissing overture from Trump",
+      "source": "AP News AI",
+      "published": "2026-08-20T08:32:06",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20424bf947cbf22af2c903c8",
+      "bodyFingerprint": "785d472f8d4fbf879eb35e2a",
+      "bodyCharacterCount": 8169,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T14:56:59.022Z",
+      "assessment": {
+        "centralEvent": "North Korea fires barrage of missiles toward the sea after dismissing overture from Trump",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The military said South Korea has bolstered its surveillance posture and was closely coordinating information on the launches with the U.S. and Japan.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "North Korea fires barrage of missiles toward the sea after dismissing overture from Trump 1 of 4 | North Korea launched a barrage of ballistic missiles toward the sea on Thursday, South Korea’s military said, a day after the North shrugged ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "They say Kim likely hopes to eventually win international recognition as a nuclear state and extensive sanctions relief in exchange for only limited steps toward denuclearization. __ Associated Press writer Mari Yamaguchi in Tokyo contribut",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6098655395ae757ad2c3": {
+      "storyId": "6098655395ae757ad2c3",
+      "url": "https://www.inc.com/staff/sign-up-now-meet-leah-solivan-founder-of-taskrabbit-and-joanna-strober-co-founder-and-ceo-midi-health-in-this-exclusive-inc-livestream-today-at-2-p-m-et/91389772",
+      "title": "Sign Up Now: Meet Leah Solivan, Founder of TaskRabbit, and Joanna Strober, Co-Founder and CEO of Midi Health, in This Exclusive Inc. Livestream Today at 2 p.m. ET",
+      "source": "Inc. AI",
+      "published": "2026-08-20T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2670119d146cd2996f54a3fb",
+      "bodyFingerprint": "0b29e3727b49618144c48ad7",
+      "bodyCharacterCount": 408,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T14:56:59.120Z",
+      "assessment": {
+        "centralEvent": "Sign Up Now: Meet Leah Solivan, Founder of TaskRabbit, and Joanna Strober, Co-Founder and CEO of Midi Health, in This Exclusive Inc. Livestream Today at 2 p.m. ET",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e19ddde457d6c5e24584": {
+      "storyId": "e19ddde457d6c5e24584",
+      "url": "https://www.theguardian.com/technology/2026/aug/20/piracy-fears-prompt-calls-for-ban-on-meta-smart-glasses-in-uk-cinemas",
+      "title": "UK cinemas look at banning Meta smart glasses over piracy fears",
+      "source": "The Guardian AI",
+      "published": "2026-08-20T14:06:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b70101576aec245cab087586",
+      "bodyFingerprint": "4d84d54ff57d98c597601350",
+      "bodyCharacterCount": 4934,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T14:56:59.163Z",
+      "assessment": {
+        "centralEvent": "UK cinemas look at banning Meta smart glasses over piracy fears",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Meta glasses seem to breach this code, and common sense, by enabling surreptitious surveillance, so our instinct is to say turn off the cameras.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Photograph: Bloomberg/Getty In a statement first reported by Sky News, the trade body said: “Cinema operators are aware of the increasing availability and use of wearable technology such as smart glasses and the extent to which these can pr",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Photograph: Bloomberg/Getty In a statement first reported by Sky News, the trade body said: “Cinema operators are aware of the increasing availability and use of wearable technology such as smart glasses and the extent to which these can pr",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.43,
+        "rawScore": 45.43,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.13,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a8b9bc4a9c02a8188b96": {
+      "storyId": "a8b9bc4a9c02a8188b96",
+      "url": "https://www.artificialintelligence-news.com/news/amazons-prime-air-autonomous-drones-to-reach-500-us-cities",
+      "title": "Amazon’s Prime Air autonomous drones to reach 500 US cities",
+      "source": "AI News",
+      "published": "2026-08-20T14:05:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7f6900595bbe10182f1d850c",
+      "bodyFingerprint": "8d97b2d7834ac3cc13c87fb6",
+      "bodyCharacterCount": 420,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T14:56:59.511Z",
+      "assessment": {
+        "centralEvent": "Amazon’s Prime Air autonomous drones to reach 500 US cities",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "That build-out amounts to six times the number of locations Prime Air serves today, extending the option to communities with tens of millions of customers, according to Amazon.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T14:01:47.658Z"
+  "updatedAt": "2026-08-20T14:56:59.511Z"
 }
