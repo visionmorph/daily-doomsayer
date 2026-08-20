@@ -42634,8 +42634,149 @@
           "vulnerability": 0
         }
       }
+    },
+    "081de1e8594de7f2e50a": {
+      "storyId": "081de1e8594de7f2e50a",
+      "url": "https://www.inc.com/eli-lippman/astromech-is-using-3-8-billion-years-of-evolution-to-predict-the-future/91392993",
+      "title": "This AI Company Is Using 3.8 Billion Years of Evolution to Predict the Future",
+      "source": "Inc. AI",
+      "published": "2026-08-20T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "18803598c7fac3c4b8da122d",
+      "bodyFingerprint": "6abc0d1afe08a43699062dc9",
+      "bodyCharacterCount": 44,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T15:50:24.632Z",
+      "assessment": {
+        "centralEvent": "This AI Company Is Using 3.8 Billion Years of Evolution to Predict the Future",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "This AI Company Is Using 3.8 Billion Years of Evolution to Predict the Future",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e8f76919d1ebf96f6a8f": {
+      "storyId": "e8f76919d1ebf96f6a8f",
+      "url": "https://apnews.com/article/treasury-national-debt-limit-a27a8d3651ff810b25c610d3e1b6259d",
+      "title": "The US national debt now stands at $40 trillion",
+      "source": "AP News AI",
+      "published": "2026-08-19T21:14:41",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "16e8c19ec2f7be0e2f0da880",
+      "bodyFingerprint": "49fd83dc809d56690a252965",
+      "bodyCharacterCount": 5157,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T15:50:24.690Z",
+      "assessment": {
+        "centralEvent": "The US national debt now stands at $40 trillion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Kush Desai, a White House spokesman, said the Trump administration “has been focused on slashing waste, fraud, and abuse in federal spending while accelerating economic growth to get America’s debt-to-GDP ratio trending in the right directi",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Kush Desai, a White House spokesman, said the Trump administration “has been focused on slashing waste, fraud, and abuse in federal spending while accelerating economic growth to get America’s debt-to-GDP ratio trending in the right directi",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Report: Disruption of Mideast energy supplies into next year would slam global economy 2 MIN READ The debt has exploded over several presidential administrations, as the nation’s leaders spend more money than it collects in ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In recent memory, the multi-year COVID-19 pandemic shut down much of the U.S. economy, where the federal government borrowed heavily during President Trump’s first term and under former President Joe Biden to stabilize the economy and suppo",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T14:56:59.511Z"
+  "updatedAt": "2026-08-20T15:50:24.691Z"
 }
