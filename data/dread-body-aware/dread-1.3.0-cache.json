@@ -44452,8 +44452,257 @@
           "vulnerability": 0
         }
       }
+    },
+    "5139cb7756590ae9be32": {
+      "storyId": "5139cb7756590ae9be32",
+      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin",
+      "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T22:09:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "94518d6bd1420be4f30987ad",
+      "bodyFingerprint": "947afef54444bf4e218be5d9",
+      "bodyCharacterCount": 2522,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T22:47:01.470Z",
+      "assessment": {
+        "centralEvent": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , Apple , ChatGPT , In Brief , OpenAI October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f4be18b46597191058a4": {
+      "storyId": "f4be18b46597191058a4",
+      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates",
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T22:36:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6b75bc758a3fb4a96dd28ee1",
+      "bodyFingerprint": "1cee78ee0f76bc29e9069af9",
+      "bodyCharacterCount": 3752,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T22:47:01.478Z",
+      "assessment": {
+        "centralEvent": "OpenAI is gaining on Anthropic with business users, new data indicates",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Still, Anthropic did cause some outrage when it warned Fable users that it must retain their data for 30 days .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bdb698ec663c3ddc49e9": {
+      "storyId": "bdb698ec663c3ddc49e9",
+      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "title": "Google Discover is getting an AI chatbot-tuned feed",
+      "source": "The Verge AI",
+      "published": "2026-08-20T21:50:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0c6e0dfc6184b45e09463557",
+      "bodyFingerprint": "4d9b2ee13f94d3f7fa94b972",
+      "bodyCharacterCount": 3931,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T22:47:01.512Z",
+      "assessment": {
+        "centralEvent": "Google Discover is getting an AI chatbot-tuned feed",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hawkins 2:00 PM UTC Advertiser Content From This is the title for the native ad Top Stories 12:00 PM UTC Meta glasses are a workplace menace 3:45 PM UTC It’s Greg Brockman’s OpenAI now Two hours ago The Genesis GV90 blows the bloody doors o",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "81f885f1b00df0f459b3": {
+      "storyId": "81f885f1b00df0f459b3",
+      "url": "https://apnews.com/article/lindsay-clancy-postpartum-supporters-murder-trial-9ae86dc05b44c78722a47915320e0606",
+      "title": "Women in pink rally in support of Lindsay Clancy at her trial for killing her 3 children",
+      "source": "AP News AI",
+      "published": "2026-08-20T14:42:56",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d520bd87c82e3a691dd10332",
+      "bodyFingerprint": "a3ed871cfcef4484c10d6d6f",
+      "bodyCharacterCount": 13743,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T22:47:01.554Z",
+      "assessment": {
+        "centralEvent": "Women in pink rally in support of Lindsay Clancy at her trial for killing her 3 children",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Psychologist testifies Lindsay Clancy was not criminally responsible in killing of her 3 children 3 MIN READ 69 Lindsay Clancy was ‘begging for help’ before killing her children, former mother-in-law testifies 4 MIN READ 53 ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T21:45:41.609Z"
+  "updatedAt": "2026-08-20T22:47:01.554Z"
 }
