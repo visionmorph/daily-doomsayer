@@ -40815,8 +40815,202 @@
           "vulnerability": 0
         }
       }
+    },
+    "1af4f3300d0130192a63": {
+      "storyId": "1af4f3300d0130192a63",
+      "url": "https://www.politico.eu/sponsored-content/laying-the-groundwork-for-ai-powered-cybersecurity",
+      "title": "LAYING THE GROUNDWORK FOR AI-POWERED CYBERSECURITY",
+      "source": "POLITICO Europe AI",
+      "published": "2026-08-20T08:25:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "886978a19c13052a71340ac0",
+      "bodyFingerprint": "cf112f34a907da8d16854aff",
+      "bodyCharacterCount": 8936,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T08:58:28.882Z",
+      "assessment": {
+        "centralEvent": "LAYING THE GROUNDWORK FOR AI-POWERED CYBERSECURITY",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The best of these platforms will incorporate AI capabilities to identify threats and automate analytical and management tasks, including reverse-engineering malware, compiling actionable case summaries and predicting future vulnerabilities.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Just three engineers are able to operate detection and investigation across 64 billion events and more than 300 servers, because VUB has centralized its data, normalized it for analysis, and built detection and investigation capabilities on",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Open-source technologies are continuously reviewed, maintained and improved by a global development community of people working together to make updates, address gaps, fix bugs and test security tools.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Adapt and survive This is an important step forward but, in today’s AI-fueled threat landscape, there are three areas that EU organizations need to consider if they want to keep hackers in check.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 47.74,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cbd6536895369b94066c": {
+      "storyId": "cbd6536895369b94066c",
+      "url": "https://www.artificialintelligence-news.com/news/a-third-of-chatgpt-ads-appear-in-irrelevant-conversations",
+      "title": "A third of ChatGPT ads appear in irrelevant conversations",
+      "source": "AI News",
+      "published": "2026-08-20T08:07:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6d52c0c68a71321a88c61fce",
+      "bodyFingerprint": "bbb162ebb2c963405a85246d",
+      "bodyCharacterCount": 445,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T08:58:29.846Z",
+      "assessment": {
+        "centralEvent": "A third of ChatGPT ads appear in irrelevant conversations",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "A third of ChatGPT ads appear in irrelevant conversations",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "77c2ca0ae6770e334a0b": {
+      "storyId": "77c2ca0ae6770e334a0b",
+      "url": "https://www.artificialintelligence-news.com/news/ai-data-centre-regulation-pennsylvania-template",
+      "title": "AI data centre regulation just got a template that needs no new law",
+      "source": "AI News",
+      "published": "2026-08-20T08:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "61b26759f8f0d8301e44606c",
+      "bodyFingerprint": "8387543337da5ccbe049da66",
+      "bodyCharacterCount": 418,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T08:58:30.489Z",
+      "assessment": {
+        "centralEvent": "AI data centre regulation just got a template that needs no new law",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T07:58:32.262Z"
+  "updatedAt": "2026-08-20T08:58:30.490Z"
 }
