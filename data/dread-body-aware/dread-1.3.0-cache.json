@@ -41243,8 +41243,211 @@
           "vulnerability": 0
         }
       }
+    },
+    "b7f438c53637bf430bb0": {
+      "storyId": "b7f438c53637bf430bb0",
+      "url": "https://restofworld.org/2026/mark-zuckerberg-meta-ai-for-everyone-manifesto-global-critique",
+      "title": "“It’s laughable”: Global AI experts challenge Zuckerberg’s “AI for everyone”",
+      "source": "Rest of World AI",
+      "published": "2026-08-20T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2790b5bb11916e906e871d75",
+      "bodyFingerprint": "bf17fbf184c236ee71461c36",
+      "bodyCharacterCount": 8959,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T10:49:38.720Z",
+      "assessment": {
+        "centralEvent": "“It’s laughable”: Global AI experts challenge Zuckerberg’s “AI for everyone”",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Looking beyond Africa, nobody should take Meta or Zuckerberg’s letter to “benefit everyone” seriously when the corporation that continues to silence criticism, retaliates against its own workers for exposing its technology’s harms, buries e",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "These contradictions become more acute as the U.S. expects its private multinational tech corporations to play a key role in upholding U.S. hegemony, which often contradicts its profit-driven motives.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "“It’s laughable”: Global AI experts challenge Zuckerberg’s “AI for everyone”",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The labor benefits of data centers are primarily concentrated during construction, and once operational, they employ only a small fraction of permanent workers.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bdbf455e7d7f36d7a857": {
+      "storyId": "bdbf455e7d7f36d7a857",
+      "url": "https://www.artificialintelligence-news.com/news/agentic-ai-in-government-uae-classification",
+      "title": "Agentic AI in government just hit the hard part: deciding what a machine may decide",
+      "source": "AI News",
+      "published": "2026-08-20T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "032df580e91f04017e476f33",
+      "bodyFingerprint": "c0d8ac44aead4302fd39a220",
+      "bodyCharacterCount": 447,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T10:49:38.872Z",
+      "assessment": {
+        "centralEvent": "Agentic AI in government just hit the hard part: deciding what a machine may decide",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "It published a national AI strategy in October 2017 and, days later, created a ministerial post to run it, making Omar Sultan Al Olama the world’s first minister of state for artificial intelligence at 27.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "59b2337dda06a06b1d24": {
+      "storyId": "59b2337dda06a06b1d24",
+      "url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing",
+      "title": "Stripe agrees to buy OpenRouter as AI model routing expands",
+      "source": "AI News",
+      "published": "2026-08-20T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4a31899bead9431b7e304981",
+      "bodyFingerprint": "9f1a9bc3101f1c398ec8761b",
+      "bodyCharacterCount": 465,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T10:49:38.908Z",
+      "assessment": {
+        "centralEvent": "Stripe agrees to buy OpenRouter as AI model routing expands",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "OpenRouter supports more than 400 models from over 80 providers, according to Stripe.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T09:51:51.996Z"
+  "updatedAt": "2026-08-20T10:49:38.908Z"
 }
