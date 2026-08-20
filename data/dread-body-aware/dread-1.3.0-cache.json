@@ -44021,8 +44021,299 @@
           "vulnerability": 0
         }
       }
+    },
+    "b3a178aa7fef1f49c1b1": {
+      "storyId": "b3a178aa7fef1f49c1b1",
+      "url": "https://www.inc.com/goran-paun/why-good-interfaces-should-know-when-to-slow-down/91393006",
+      "title": "Why good interfaces should know when to slow down",
+      "source": "Inc. AI",
+      "published": "2026-08-20T19:01:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6fca36d27525e20dd0433161",
+      "bodyFingerprint": "848872404ffb092d36d1875f",
+      "bodyCharacterCount": 64,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T19:47:48.371Z",
+      "assessment": {
+        "centralEvent": "Why good interfaces should know when to slow down",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "08b5db046daa5e3ef0db": {
+      "storyId": "08b5db046daa5e3ef0db",
+      "url": "https://www.inc.com/sam-blum/the-17000-domain-that-could-be-worth-70-million-just-became-an-ai-chatbot-instead-people-are-asking-why/91393038",
+      "title": "The $17,000 Domain That Could Be Worth $70 Million Just Became an AI Chatbot Instead. People Are Asking “Why?”",
+      "source": "Inc. AI",
+      "published": "2026-08-20T19:33:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0610cbb81e59ee85d4ef0344",
+      "bodyFingerprint": "06c5b8028f25f49c0571396a",
+      "bodyCharacterCount": 143,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-20T19:47:48.381Z",
+      "assessment": {
+        "centralEvent": "The $17,000 Domain That Could Be Worth $70 Million Just Became an AI Chatbot Instead. People Are Asking “Why?”",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cba8417ecebda0991d59": {
+      "storyId": "cba8417ecebda0991d59",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses",
+      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T19:18:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4b3cde737f65cce1c24a237f",
+      "bodyFingerprint": "b392516982dbaae39abb8bf1",
+      "bodyCharacterCount": 3631,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T19:47:48.404Z",
+      "assessment": {
+        "centralEvent": "Google gives publishers a new way to fight AI-driven traffic losses",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "79fdd08ae106be4e0fa4": {
+      "storyId": "79fdd08ae106be4e0fa4",
+      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders",
+      "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T19:15:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "538e34421df487200d684cab",
+      "bodyFingerprint": "e57bfe3e7a9b869b9772f67f",
+      "bodyCharacterCount": 4609,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T19:47:48.412Z",
+      "assessment": {
+        "centralEvent": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "10e998215dacccedec10": {
+      "storyId": "10e998215dacccedec10",
+      "url": "https://apnews.com/article/eric-swalwell-sexual-misconduct-investigation-congress-4615d9309781afd72fc2cd3fb7d7c121",
+      "title": "Federal agents seize devices from ex-Rep. Eric Swalwell in sexual misconduct probe, AP source says",
+      "source": "AP News AI",
+      "published": "2026-08-20T16:15:38",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ff23114f4689de249dd4d3e0",
+      "bodyFingerprint": "b702e51d35c4aabb663ad297",
+      "bodyCharacterCount": 6899,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-20T19:47:48.601Z",
+      "assessment": {
+        "centralEvent": "Federal agents seize devices from ex-Rep. Eric Swalwell in sexual misconduct probe, AP source says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The office of Manhattan District Attorney Alvin Bragg confirmed in April that it was investigating Swalwell after a former staffer told CNN and the Chronicle that Swalwell raped her at a hotel while he was in New York City for a charity gal",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T19:02:00.103Z"
+  "updatedAt": "2026-08-20T19:47:48.601Z"
 }
