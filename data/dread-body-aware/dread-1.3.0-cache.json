@@ -45265,8 +45265,141 @@
           "vulnerability": 0
         }
       }
+    },
+    "a92bf865a41f00301438": {
+      "storyId": "a92bf865a41f00301438",
+      "url": "https://apnews.com/article/indiana-power-outages-gary-ohio-floods-e0fbdd4a721b6269e8ec62e512299b11",
+      "title": "‘Survival mode’: Indiana residents endure a ninth day without power",
+      "source": "AP News AI",
+      "published": "2026-08-20T22:14:51",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f81ceb14c6044e0c3618ec33",
+      "bodyFingerprint": "76a003e5829859090dbc97c0",
+      "bodyCharacterCount": 11351,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T08:59:52.968Z",
+      "assessment": {
+        "centralEvent": "‘Survival mode’: Indiana residents endure a ninth day without power",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In addition, those reliant on medical devices risk having them lose their charge, while refrigerated food once safe to eat could pose health risks as it spoils.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "‘Survival mode’: Indiana residents endure a ninth day without power 1 of 6 | Tens of thousands of residents in northwest Indiana were in survival mode Thursday as they endured a ninth day without power. (AP video: Laura Bargfeld) Read More ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Tens of thousands of people in northwest Indiana are entering a second week without power after a deadly storm toppled trees and power lines.",
+            "matchedRule": "/\\b(?:thousands|hundreds)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The utility said it has restored power to 306,500 others since Aug.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 89,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.6,
+        "rawScore": 27.6,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e9fa19f9c3bfec94aaa8": {
+      "storyId": "e9fa19f9c3bfec94aaa8",
+      "url": "https://www.artificialintelligence-news.com/news/how-ai-coding-tools-are-contributing-to-the-popularity-of-javascript",
+      "title": "How AI coding tools are contributing to the popularity of JavaScript",
+      "source": "AI News",
+      "published": "2026-08-21T08:41:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b867737429487851b952423d",
+      "bodyFingerprint": "b78b32fa134db382a0a93055",
+      "bodyCharacterCount": 440,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-21T08:59:53.210Z",
+      "assessment": {
+        "centralEvent": "How AI coding tools are contributing to the popularity of JavaScript",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T07:59:15.288Z"
+  "updatedAt": "2026-08-21T08:59:53.210Z"
 }
