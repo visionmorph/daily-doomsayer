@@ -47107,8 +47107,307 @@
           "vulnerability": 0
         }
       }
+    },
+    "04439948ee69ec0eae09": {
+      "storyId": "04439948ee69ec0eae09",
+      "url": "https://mashable.com/tech/new-tech-hiding-cars-from-flock-cameras",
+      "title": "Can a vehicle wrap hide your car from Flock cameras?",
+      "source": "Mashable AI",
+      "published": "2026-08-21T18:02:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6ea68b8b725c5cf845c71c11",
+      "bodyFingerprint": "6e1b5c08d6c56fc36003e640",
+      "bodyCharacterCount": 4369,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T18:58:21.546Z",
+      "assessment": {
+        "centralEvent": "Can a vehicle wrap hide your car from Flock cameras?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credit: Chip Somodevilla / Staff / Getty Images News via Getty Images Could a solution to the ever-growing surveillance network across the U.S. be as simple as some garish attire?",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The anti-AI designs can be applied to T-shirts, hoodies, and head buffs for anonymous wearers; the merch is sold in limited quantities with unrepeatable designs that trip up surveillance tech, according to the company.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Commonly referred to as \"computer vision dazzle\" or \"cv dazzle,\" the makeup was created by researcher Adam Harvey and popularized by activist groups amid global protests in 2020.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e7d5a820c595de995b27": {
+      "storyId": "e7d5a820c595de995b27",
+      "url": "https://apnews.com/article/alex-jones-infowars-newtown-b7866ab5ef652bbc7307ae55b09937ce",
+      "title": "Court cuts $50M judgment against Infowars' Alex Jones over falsely labeling Newtown killings a hoax",
+      "source": "AP News AI",
+      "published": "2026-08-21T15:03:26",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ec8fbf91913a3d5aafc8428e",
+      "bodyFingerprint": "e8273ae3aaf8b9b4c62b6d1c",
+      "bodyCharacterCount": 6001,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T18:58:21.573Z",
+      "assessment": {
+        "centralEvent": "Court cuts $50M judgment against Infowars' Alex Jones over falsely labeling Newtown killings a hoax",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The court found that Heslin and Lewis did not show evidence that harassment that resulted from Jones’ hoax claims rose to a level that would allow them to exceed the cap.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "26 killed in Sandy Hook massacre Heslin and Lewis’s 6-year-old son Jesse Lewis was among 20 children and six educators killed in the attack in Newtown, Connecticut.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "He won a National Headliner Award for sports writing in 2013. twitter mailto",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At the Texas and Connecticut trials, victims’ relatives testified that Jones’ followers -- believing his claims that the shooting didn’t happen -- subjected them to death and rape threats, in-person harassment and abusive comments on social",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.34,
+        "rawScore": 49.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "14ff5e5e379963e34047": {
+      "storyId": "14ff5e5e379963e34047",
+      "url": "https://apnews.com/article/iran-economy-sanctions-inflation-73b0278a0307030588cac9f47b3443e0",
+      "title": "Iranian families struggle to afford the basics as US ratchets up economic warfare",
+      "source": "AP News AI",
+      "published": "2026-08-21T09:06:29",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "91c1069628d66065d8a50da9",
+      "bodyFingerprint": "00b6336ec97d89d9c7ee0d0d",
+      "bodyCharacterCount": 12867,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T18:58:21.588Z",
+      "assessment": {
+        "centralEvent": "Iranian families struggle to afford the basics as US ratchets up economic warfare",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Whether this intensifying economic pressure will translate anytime soon into military or political concessions from Iran remains to be seen — but some experts are skeptical.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“We have virtually given up on many things,” said Ahmad Karimi, 52, a taxi driver and father of two who has been working 15-hour days to make ends meet.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By the end of the year, inflation in Iran is expected to rise nearly 70%, according to the International Monetary Fund, and the country’s economy — devastated by a decade of sanctions before the war — is forecast to shrink by more than 5%.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Iran’s leaders have said it is a treasonous offense — punishable by death — to take part in anti-government protests.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories US, South Korean militaries wrap up drill early, a day after North Korea’s missile barrage 3 MIN READ Trump warns of ‘economic D-Day’ against Iran, but Tehran is well acquainted with sanctions 5 MIN READ 324 Army will shut d",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.33,
+        "rawScore": 30.33,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2107a40b23b99d7231ad": {
+      "storyId": "2107a40b23b99d7231ad",
+      "url": "https://apnews.com/article/drones-army-ukraine-iran-war-hegseth-b4d70633a8832d779f3d4002b30298e3",
+      "title": "Army will shut down a unit in Europe focused on learning drone warfare",
+      "source": "AP News AI",
+      "published": "2026-08-20T21:25:14",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1493bdc37fc2fd3323431dc",
+      "bodyFingerprint": "c60689d3a60ceb5143784aaf",
+      "bodyCharacterCount": 6181,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T18:58:21.596Z",
+      "assessment": {
+        "centralEvent": "Army will shut down a unit in Europe focused on learning drone warfare",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Christopher LaNeve, the Army’s acting chief of staff, has ordered the battalion to refocus on its core mission of being an airborne infantry unit, according to two U.S. officials who spoke on condition of anonymity to discuss internal Army ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T17:47:39.740Z"
+  "updatedAt": "2026-08-21T18:58:21.596Z"
 }
