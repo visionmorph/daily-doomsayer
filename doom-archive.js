@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-21T10:00:00.000Z",
+  "generatedAt": "2026-08-21T11:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-21",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AI News",
           "image": "",
           "peak": 46.24,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-08-21",
           "firstObservedAt": "2026-08-21T07:00:00.000Z",
-          "lastObservedAt": "2026-08-21T09:00:00.000Z",
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
           "average": 46.24
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-21",
           "firstObservedAt": "2026-08-21T05:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
           "average": 42.44
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/97c70a6b185a61783623194a6c08e38ab9881a23/0_0_3000_2400/master/3000.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 36.24,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-21",
           "firstObservedAt": "2026-08-21T05:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
           "average": 36.24
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 36.22,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-21",
           "firstObservedAt": "2026-08-21T05:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
           "average": 36.22
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Inc. AI",
           "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/08/ai-hiring-bot-inc-2009987029.jpg",
           "peak": 24.64,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-08-21",
           "firstObservedAt": "2026-08-21T09:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
           "average": 24.64
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-21",
           "firstObservedAt": "2026-08-21T05:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
           "average": 23.95
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/ad85a9abed95abdd431f53ef872369fb0344b714/0_54_2400_1919/master/2400.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 22.22,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-21",
           "firstObservedAt": "2026-08-21T05:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
           "average": 22.22
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 19.75,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-08-21",
           "firstObservedAt": "2026-08-21T05:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
           "average": 19.75
         }
       ]
@@ -2339,12 +2339,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 53,
+          "observations": 54,
           "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
-          "average": 27.49
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "average": 27.16
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -2367,12 +2367,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 83,
+          "observations": 84,
           "daysTracked": 5,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-17T05:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
-          "average": 42.69
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "average": 42.61
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -2395,12 +2395,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 59,
+          "observations": 60,
           "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
-          "average": 29.76
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "average": 29.43
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -2409,12 +2409,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
           "peak": 56.32,
-          "observations": 33,
+          "observations": 34,
           "daysTracked": 3,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
-          "average": 12.77
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "average": 12.68
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -2437,12 +2437,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/03ensJrYVfSa3ZDjor24sog/hero-image.jpg",
           "peak": 55.09,
-          "observations": 59,
+          "observations": 60,
           "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
-          "average": 28.73
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "average": 28.4
         },
         {
           "storyId": "ede609b0616ffbb3696f",
@@ -2776,12 +2776,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 53,
+          "observations": 54,
           "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
-          "average": 27.49
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "average": 27.16
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -2804,12 +2804,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 170,
+          "observations": 171,
           "daysTracked": 10,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
-          "average": 40.78
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "average": 40.76
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -2832,12 +2832,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 59,
+          "observations": 60,
           "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
-          "average": 29.76
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "average": 29.43
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -2846,12 +2846,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
           "peak": 56.32,
-          "observations": 33,
+          "observations": 34,
           "daysTracked": 3,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
-          "average": 12.77
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "average": 12.68
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -2874,12 +2874,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/03ensJrYVfSa3ZDjor24sog/hero-image.jpg",
           "peak": 55.09,
-          "observations": 59,
+          "observations": 60,
           "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-21T10:00:00.000Z",
-          "average": 28.73
+          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "average": 28.4
         },
         {
           "storyId": "ede609b0616ffbb3696f",
