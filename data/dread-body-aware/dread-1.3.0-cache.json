@@ -47661,8 +47661,231 @@
           "vulnerability": 0
         }
       }
+    },
+    "5c3d76b828a4f01ae470": {
+      "storyId": "5c3d76b828a4f01ae470",
+      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
+      "title": "Anthropic’s Opus 4.6 is a smut-machine",
+      "source": "TechCrunch AI",
+      "published": "2026-08-21T23:07:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a5f31cd3179f9958cfd77394",
+      "bodyFingerprint": "03a559e62a7458147a3c0f90",
+      "bodyCharacterCount": 7025,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T23:41:36.160Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s Opus 4.6 is a smut-machine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The spokesperson said Anthropic continues to improve its safeguards with each model launch, and that cases involving adult sexual content are not indicative of broader jailbreak vulnerabilities, especially in higher-risk domains that have t",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Daily traffic for Opus 4.6 on OpenRouter reached roughly 1.17 million API requests and 46 billion tokens in a single day in August.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But that hasn’t stopped Claude Opus 4.6, an Anthropic model released earlier this year, from readily engaging in erotic roleplay scenarios that its safeguards are designed to prevent.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Daily traffic for Opus 4.6 on OpenRouter reached roughly 1.17 million API requests and 46 billion tokens in a single day in August.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.02,
+        "rawScore": 27.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "060fd2af5a73df5ae5de": {
+      "storyId": "060fd2af5a73df5ae5de",
+      "url": "https://apnews.com/article/ncaa-eligibility-lawsuit-a0ba388e1f7a2cbd3bad9d6b1e0dc3cc",
+      "title": "NCAA gets win in court on 5-year eligibility rule, but this is hardly the end of the lawsuits",
+      "source": "AP News AI",
+      "published": "2026-08-21T15:20:14",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd98d040fd433d1465a73051",
+      "bodyFingerprint": "f5f2f767a1d4eca057acdfa1",
+      "bodyCharacterCount": 7162,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T23:41:36.234Z",
+      "assessment": {
+        "centralEvent": "NCAA gets win in court on 5-year eligibility rule, but this is hardly the end of the lawsuits",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Ohio State’s new offense: Fewer plays, more purpose under new offensive coordinator Arthur Smith Ole Miss QB Trainidad Chambliss welcomes pressure that comes with fame and aims to refine his game Sun Belt football in 2026 headlined by Billy",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“It was a ‘just in case.’ They did it just in case what we just saw happen actually happened.” Among the many athletes watching this unfold and wondering where it winds up are defensive linemen Kellan Wyatt and Stephan Daley, both members o",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But other than those two cases, Ehrlich said, judges across the country “are unanimous that the NCAA is in the wrong” on the five-year eligibility issue when it comes to the Class of 2022.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.14,
+        "rawScore": 26.14,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ae5142e8755ad2968878": {
+      "storyId": "ae5142e8755ad2968878",
+      "url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom",
+      "title": "The Unlikely Place at the Center of China’s AI Boom",
+      "source": "WIRED AI",
+      "published": "2026-08-21T23:25:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f4f734fb67b6fc721303df29",
+      "bodyFingerprint": "f5814f5dfce3ada1965dd158",
+      "bodyCharacterCount": 10023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T23:41:36.348Z",
+      "assessment": {
+        "centralEvent": "The Unlikely Place at the Center of China’s AI Boom",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Molly Taft The Trump Administration Wants to Change Public Engagement Rules for Polluters The EPA has proposed a rule change that would let states decide how much input the public has on air pollution permits.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Chinese companies have pledged to build projects with a combined estimated capacity of 12.5 gigawatts in the city, and over 70 percent of the total commitments have been announced in just the last year, making it one of the fastest growing ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Molly Taft What Is El Niño, and What Does It Mean for Weather, Water, and the Global Economy?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T22:44:11.388Z"
+  "updatedAt": "2026-08-21T23:41:36.348Z"
 }
