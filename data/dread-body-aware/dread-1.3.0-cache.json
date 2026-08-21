@@ -45510,8 +45510,364 @@
           "vulnerability": 0
         }
       }
+    },
+    "fed4f618afd72974d968": {
+      "storyId": "fed4f618afd72974d968",
+      "url": "https://www.inc.com/ashley-couto/hiring-marketing-team-ai-era-startup-founders/91393348",
+      "title": "A New Report Says Hiring Marketers Has Changed For Good. Here’s How to Build Your Marketing Team For the AI Era",
+      "source": "Inc. AI",
+      "published": "2026-08-21T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6255d3d607519ae7ad66ecbf",
+      "bodyFingerprint": "bda829b0a2618234c8368dd9",
+      "bodyCharacterCount": 83,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-21T10:50:06.106Z",
+      "assessment": {
+        "centralEvent": "A New Report Says Hiring Marketers Has Changed For Good. Here’s How to Build Your Marketing Team For the AI Era",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f427ede6399c2ab0c6a4": {
+      "storyId": "f427ede6399c2ab0c6a4",
+      "url": "https://apnews.com/article/us-cuba-sanctions-rubio-castro-f60f12386ac528c3511d929cc3e1431c",
+      "title": "US ramps up Cuba sanctions and detentions of Americans returning from the island",
+      "source": "AP News AI",
+      "published": "2026-08-20T17:20:48",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f9f210334594b4e0549d1945",
+      "bodyFingerprint": "25af153aa2d56b119701798b",
+      "bodyCharacterCount": 9610,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T10:50:06.143Z",
+      "assessment": {
+        "centralEvent": "US ramps up Cuba sanctions and detentions of Americans returning from the island",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The Trump administration is increasing pressure on Cuba by imposing more economic penalties on industries in the heavily sanctioned socialist country.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Cuba says US sanctions are blocking its efforts to open the economy to private investment 5 MIN READ Iranian families struggle to afford the basics as US ratchets up economic warfare 6 MIN READ Trump warns of ‘economic D-Day",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Just days ago, the regime attempted to use Communist kingpin and despot Fidel Castro’s 100th birthday to reinvigorate this subversive network, ferrying a new brigade of international sympathizers to Havana to network with regime officials,",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d7769cca38598e970713": {
+      "storyId": "d7769cca38598e970713",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/21/openai-frontier-ai-speed",
+      "title": "I worked at OpenAI. Here’s how tech companies can prepare for a slowdown | Miles Brundage",
+      "source": "The Guardian AI",
+      "published": "2026-08-21T10:00:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c804b95e4c4cadc8ff05613e",
+      "bodyFingerprint": "198a0aa7c7eaeaccf7c6c5a0",
+      "bodyCharacterCount": 6245,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T10:50:06.177Z",
+      "assessment": {
+        "centralEvent": "I worked at OpenAI. Here’s how tech companies can prepare for a slowdown | Miles Brundage",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "They were right to be concerned: just days earlier, two AI models that OpenAI was testing internally escaped the test environment, then autonomously hacked the company Hugging Face and at least three other online services.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Third, they could invest in the technologies we need to make AI guardrails global.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "708219152a6605aa94f8": {
+      "storyId": "708219152a6605aa94f8",
+      "url": "https://www.theguardian.com/uk-news/2026/aug/21/proposed-london-datacentre-will-have-annual-carbon-footprint-of-27000-flights-to-new-york",
+      "title": "Proposed London datacentre will have annual carbon footprint of 27,000 flights to New York",
+      "source": "The Guardian AI",
+      "published": "2026-08-21T10:00:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "75ea9c1927c4079fc49eb957",
+      "bodyFingerprint": "574898f1ffaf9813b4cb8e7b",
+      "bodyCharacterCount": 6419,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T10:50:06.200Z",
+      "assessment": {
+        "centralEvent": "Proposed London datacentre will have annual carbon footprint of 27,000 flights to New York",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“It’s crop-producing farmland, in an age when we are threatened by security, it’s the loss of wildlife habitats, and there’s the pollution cost, which everyone seems to brush under the carpet,” a group spokesperson said.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Guardian analysis of planning documents for the dozens of proposed datacentres in the UK shows that the EHDCC has the highest projected carbon emissions disclosed by a developer.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The 1.2m tonnes of CO2e the EHDCC expects to emit would amount to 26,795 long-haul flights from London Heathrow to New York’s John F Kennedy international airport, according to the UN’s International Civil Aviation Organization’s carbon cal",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "94a8b583f2489846f773": {
+      "storyId": "94a8b583f2489846f773",
+      "url": "https://apnews.com/article/canada-quebec-trump-tariffs-75d3f24bb11178d8c9bb28b144e1dcf0",
+      "title": "Canadian provincial leader says Trump is a ‘bad person’ as Canada weighs concessions for trade deal",
+      "source": "AP News AI",
+      "published": "2026-08-20T11:41:36",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fc45c3a1f80c86daf2fafa08",
+      "bodyFingerprint": "62f7f47d5bbeaa04b112ddfd",
+      "bodyCharacterCount": 10111,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T10:50:06.214Z",
+      "assessment": {
+        "centralEvent": "Canadian provincial leader says Trump is a ‘bad person’ as Canada weighs concessions for trade deal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Despite his criticism of Trump, Kinew said Manitoba may go along with Carney’s request as part of a “Team Canada” approach.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Related Stories Cuba says US sanctions are blocking its efforts to open the economy to private investment 5 MIN READ 5 books to read this fall, from Marlon James to Joe Biden 3 MIN READ Fall books: Fiction takes the spotlight in bookstores ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "I think America is weaker around the world today than it was a year ago.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Kinew said Carney strongly pressed premiers to restore U.S. alcohol sales while other details of the agreement were still being finalized.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Quebec Premier Christine Fréchette, meanwhile, said Carney had answered many of her questions about the emerging agreement but stopped short of endorsing it while the province assesses the economic impact.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Eight of Canada’s 10 provinces restrict or ban U.S. alcohol — measures imposed in retaliation for Trump’s previous tariffs on Canadian goods and amid anger over his repeated talk of making Canada the 51st U.S. state.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.94,
+        "rawScore": 29.94,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.54,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T09:54:19.860Z"
+  "updatedAt": "2026-08-21T10:50:06.214Z"
 }
