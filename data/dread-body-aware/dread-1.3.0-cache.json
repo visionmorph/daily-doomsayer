@@ -47047,8 +47047,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "c4704319ae35e8692b86": {
+      "storyId": "c4704319ae35e8692b86",
+      "url": "https://www.inc.com/kit-eaton/apple-users-beware-chatgpts-newest-mac-feature-could-pose-a-major-privacy-risk/91394807",
+      "title": "Apple Users Beware: ChatGPT’s Newest Mac Feature Could Pose a Major Privacy Risk",
+      "source": "Inc. AI",
+      "published": "2026-08-21T17:22:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fc100d62db1480b07695d4ec",
+      "bodyFingerprint": "db5f997de2f74e77bc5c8f60",
+      "bodyCharacterCount": 171,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-21T17:47:39.740Z",
+      "assessment": {
+        "centralEvent": "Apple Users Beware: ChatGPT’s Newest Mac Feature Could Pose a Major Privacy Risk",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Apple Users Beware: ChatGPT’s Newest Mac Feature Could Pose a Major Privacy Risk",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T16:53:39.920Z"
+  "updatedAt": "2026-08-21T17:47:39.740Z"
 }
