@@ -45040,8 +45040,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "7f9b39f21f48c03c451d": {
+      "storyId": "7f9b39f21f48c03c451d",
+      "url": "https://www.theguardian.com/politics/audio/2026/aug/21/jill-lepore-on-why-the-artificial-state-is-doomed-podcast",
+      "title": "Jill Lepore on why the artificial state is ‘doomed’ – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-08-21T04:00:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "63e9cd8da91826cc54f851f7",
+      "bodyFingerprint": "1c13fb726c93c513dc235e77",
+      "bodyCharacterCount": 889,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T04:55:52.122Z",
+      "assessment": {
+        "centralEvent": "Jill Lepore on why the artificial state is ‘doomed’ – podcast",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "This week, Jonathan Freedland speaks to the historian Jill Lepore about how this latest AI backlash could influence those all-important elections in November.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T03:18:08.313Z"
+  "updatedAt": "2026-08-21T04:55:52.123Z"
 }
