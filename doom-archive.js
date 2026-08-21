@@ -5,8 +5,153 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-21T04:00:00.000Z",
+  "generatedAt": "2026-08-21T05:00:00.000Z",
   "daily": [
+    {
+      "period": "2026-08-21",
+      "stories": [
+        {
+          "storyId": "1af4f3300d0130192a63",
+          "title": "LAYING THE GROUNDWORK FOR AI-POWERED CYBERSECURITY",
+          "url": "https://www.politico.eu/sponsored-content/laying-the-groundwork-for-ai-powered-cybersecurity/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
+          "peak": 42.44,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-21",
+          "firstObservedAt": "2026-08-21T05:00:00.000Z",
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 42.44
+        },
+        {
+          "storyId": "0f743a48654d5a86797a",
+          "title": "Will AI give you the job? Automated hiring tools spark discrimination and secrecy lawsuits",
+          "url": "https://www.theguardian.com/technology/2026/aug/19/ai-hiring-tools-discrimination",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/97c70a6b185a61783623194a6c08e38ab9881a23/0_0_3000_2400/master/3000.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 36.24,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-21",
+          "firstObservedAt": "2026-08-21T05:00:00.000Z",
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 36.24
+        },
+        {
+          "storyId": "1c9f14ee09a7b9f09c18",
+          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 36.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-21",
+          "firstObservedAt": "2026-08-21T05:00:00.000Z",
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 36.22
+        },
+        {
+          "storyId": "876f25f5a553079163cb",
+          "title": "Why are progressives winning across the United States? It’s not complicated | Bernie Sanders",
+          "url": "https://www.theguardian.com/commentisfree/2026/aug/19/poll-progressive-candidates-election-economy",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/c12b42fdf0dc3326ec19c52fea573f18a034d5e8/493_0_4913_3933/master/4913.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 24.06,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-21",
+          "firstObservedAt": "2026-08-21T05:00:00.000Z",
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 24.06
+        },
+        {
+          "storyId": "b3989dcfb48ba9b056fe",
+          "title": "The Youth AI Privacy Act’s Privacy Paradox",
+          "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
+          "peak": 23.95,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-21",
+          "firstObservedAt": "2026-08-21T05:00:00.000Z",
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 23.95
+        },
+        {
+          "storyId": "4f214ad04e3c0e050175",
+          "title": "Did someone wearing Meta Glasses film you today? Are you sure?",
+          "url": "https://www.theguardian.com/technology/ng-interactive/2026/aug/19/meta-glasses-privacy-surveillance",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/ad85a9abed95abdd431f53ef872369fb0344b714/0_54_2400_1919/master/2400.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 22.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-21",
+          "firstObservedAt": "2026-08-21T05:00:00.000Z",
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 22.22
+        },
+        {
+          "storyId": "c98b23eaf7c1d748e4f9",
+          "title": "Bots Scanned Beehiiv Sites 500 Million Times Last Month. A New Tool Gives Creators More Control",
+          "url": "https://www.inc.com/victoria-salves/bots-scanned-beehiiv-sites-500-million-times-last-month-new-tool-gives-creators-more-control/91393302",
+          "source": "Inc. AI",
+          "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/08/beehiiv-aeo-news-inc.jpg",
+          "peak": 21.46,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-21",
+          "firstObservedAt": "2026-08-21T05:00:00.000Z",
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 21.46
+        },
+        {
+          "storyId": "4886a2e07c39d71065d0",
+          "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
+          "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 19.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-21",
+          "firstObservedAt": "2026-08-21T05:00:00.000Z",
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 19.75
+        },
+        {
+          "storyId": "068161fbb4e485c8ddd3",
+          "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+          "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-175034585.jpg?quality=90&strip=all&crop=0,0,100,78.26399746371",
+          "peak": 19.4,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-21",
+          "firstObservedAt": "2026-08-21T05:00:00.000Z",
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 19.4
+        },
+        {
+          "storyId": "12b2563b9d6861b5c366",
+          "title": "OpenAI settles claims of discrimination against US workers for $3.2 million",
+          "url": "https://www.politico.com/news/2026/08/04/open-ai-discrimination-settlement-doj-01024742",
+          "source": "POLITICO AI",
+          "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
+          "peak": 19.05,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-21",
+          "firstObservedAt": "2026-08-21T05:00:00.000Z",
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 19.05
+        }
+      ]
+    },
     {
       "period": "2026-08-20",
       "stories": [
@@ -2194,12 +2339,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 48,
-          "daysTracked": 3,
+          "observations": 49,
+          "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-21T04:00:00.000Z",
-          "average": 29.32
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 28.92
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -2222,12 +2367,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 78,
-          "daysTracked": 4,
+          "observations": 79,
+          "daysTracked": 5,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-17T05:00:00.000Z",
-          "lastObservedAt": "2026-08-21T04:00:00.000Z",
-          "average": 43.1
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 43.02
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -2250,12 +2395,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 54,
-          "daysTracked": 3,
+          "observations": 55,
+          "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-21T04:00:00.000Z",
-          "average": 31.6
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 31.21
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -2264,12 +2409,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
           "peak": 56.32,
-          "observations": 28,
-          "daysTracked": 2,
+          "observations": 29,
+          "daysTracked": 3,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-21T04:00:00.000Z",
-          "average": 13.29
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 13.17
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -2292,12 +2437,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/03ensJrYVfSa3ZDjor24sog/hero-image.jpg",
           "peak": 55.09,
-          "observations": 54,
-          "daysTracked": 3,
+          "observations": 55,
+          "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-21T04:00:00.000Z",
-          "average": 30.54
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 30.16
         },
         {
           "storyId": "ede609b0616ffbb3696f",
@@ -2631,12 +2776,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 48,
-          "daysTracked": 3,
+          "observations": 49,
+          "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-21T04:00:00.000Z",
-          "average": 29.32
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 28.92
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -2659,12 +2804,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 165,
-          "daysTracked": 9,
+          "observations": 166,
+          "daysTracked": 10,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-21T04:00:00.000Z",
-          "average": 40.92
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 40.89
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -2687,12 +2832,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 54,
-          "daysTracked": 3,
+          "observations": 55,
+          "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-21T04:00:00.000Z",
-          "average": 31.6
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 31.21
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -2701,12 +2846,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
           "peak": 56.32,
-          "observations": 28,
-          "daysTracked": 2,
+          "observations": 29,
+          "daysTracked": 3,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-21T04:00:00.000Z",
-          "average": 13.29
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 13.17
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -2729,12 +2874,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/03ensJrYVfSa3ZDjor24sog/hero-image.jpg",
           "peak": 55.09,
-          "observations": 54,
-          "daysTracked": 3,
+          "observations": 55,
+          "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-21T04:00:00.000Z",
-          "average": 30.54
+          "lastObservedAt": "2026-08-21T05:00:00.000Z",
+          "average": 30.16
         },
         {
           "storyId": "ede609b0616ffbb3696f",
