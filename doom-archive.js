@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AI News",
           "image": "",
           "peak": 46.24,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-08-21",
           "firstObservedAt": "2026-08-21T07:00:00.000Z",
-          "lastObservedAt": "2026-08-21T11:00:00.000Z",
+          "lastObservedAt": "2026-08-21T14:00:00.000Z",
           "average": 46.24
         },
         {
