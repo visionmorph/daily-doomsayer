@@ -45866,8 +45866,221 @@
           "vulnerability": 0
         }
       }
+    },
+    "e9a76df9e6c53635161b": {
+      "storyId": "e9a76df9e6c53635161b",
+      "url": "https://www.theguardian.com/politics/video/2026/aug/21/jill-lepore-on-why-the-artificial-state-is-doomed-politics-weekly-america",
+      "title": "Historian Jill Lepore on why the artificial state is ‘doomed’ | Politics Weekly America",
+      "source": "The Guardian AI",
+      "published": "2026-08-21T11:00:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f97ff471836c3b758beb5eb0",
+      "bodyFingerprint": "a1db68f32f2c3e4279ccc8fe",
+      "bodyCharacterCount": 586,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T11:44:24.864Z",
+      "assessment": {
+        "centralEvent": "Historian Jill Lepore on why the artificial state is ‘doomed’ | Politics Weekly America",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "This week, Jonathan Freedland speaks to historian Jill Lepore about how this latest AI backlash could influence those all-important elections in November.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "387b09bf9d98c0cb37f0": {
+      "storyId": "387b09bf9d98c0cb37f0",
+      "url": "https://mashable.com/tech/ai-audio-deepfakes-ai-impersonation-scams",
+      "title": "AI audio deepfakes are leading new ai-impersonation scams",
+      "source": "Mashable AI",
+      "published": "2026-08-21T10:32:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "396f4ae03769581cf62cd2f4",
+      "bodyFingerprint": "9836c3d7f6a774d09c7bb3d1",
+      "bodyCharacterCount": 368,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T11:44:24.910Z",
+      "assessment": {
+        "centralEvent": "AI audio deepfakes are leading new ai-impersonation scams",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Stories Conan O'Brien, deepfake master, wants to stop you from getting pwned It's now a federal crime to publish AI deepfake porn Google is turning Search into an AI study tool 3 AdultFriendFinder red flags — how to avoid scams on A",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Stories Conan O'Brien, deepfake master, wants to stop you from getting pwned It's now a federal crime to publish AI deepfake porn Google is turning Search into an AI study tool 3 AdultFriendFinder red flags — how to avoid scams on A",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cbfbeb9ff14287921139": {
+      "storyId": "cbfbeb9ff14287921139",
+      "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+      "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
+      "source": "Ars Technica AI",
+      "published": "2026-08-21T11:00:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aaf95bfc84b903c46f05e2a2",
+      "bodyFingerprint": "e73264c47d41bcc30c642f76",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T11:44:25.065Z",
+      "assessment": {
+        "centralEvent": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Those bans are an important way to push back against the potential for abuse.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As millions of people buy into the smart glasses fad each year, the odds are increasing that you could be secretly recorded while simply going about your day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Though the Jenner campaign was supposedly viewed as a success internally at Meta, it also prompted global backlash.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Eventually, he settled on a solution that scans continuously, but rather than flagging all known devices the moment they’re turned on, Apple allows only a fixed list of known Bluetooth service identifiers to be detected in that mode.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Eventually, he settled on a solution that scans continuously, but rather than flagging all known devices the moment they’re turned on, Apple allows only a fixed list of known Bluetooth service identifiers to be detected in that mode.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 118,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.09,
+        "rawScore": 49.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T10:50:06.214Z"
+  "updatedAt": "2026-08-21T11:44:25.065Z"
 }
