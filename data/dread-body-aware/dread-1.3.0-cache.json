@@ -45398,8 +45398,120 @@
           "vulnerability": 0
         }
       }
+    },
+    "f72b0bd12d2b3ab46bc3": {
+      "storyId": "f72b0bd12d2b3ab46bc3",
+      "url": "https://www.inc.com/suzanne-lucas/why-saying-the-ai-did-it-wont-stop-an-age-discrimination-lawsuit/91393888",
+      "title": "Why Saying ‘The AI Did It’ Won’t Stop an Age Discrimination Lawsuit",
+      "source": "Inc. AI",
+      "published": "2026-08-21T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b836de48e7eb140b20ed703",
+      "bodyFingerprint": "1ecaeb0eb5b95068a3a77fcf",
+      "bodyCharacterCount": 147,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-21T09:54:19.853Z",
+      "assessment": {
+        "centralEvent": "Why Saying ‘The AI Did It’ Won’t Stop an Age Discrimination Lawsuit",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dd8d8b78cdd8319f74af": {
+      "storyId": "dd8d8b78cdd8319f74af",
+      "url": "https://www.inc.com/deepali-vyas/the-invisible-font-resume-hack-is-breaking-ai-job-screeners-as-a-recruiter-i-dont-blame-candidates/91394378",
+      "title": "The Invisible Font Resume Hack is Breaking AI Job Screeners. As a Recruiter, I Don’t Blame Candidates",
+      "source": "Inc. AI",
+      "published": "2026-08-21T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9fad82d1bd72e91596877ceb",
+      "bodyFingerprint": "b2358f1cdecad81271788fb7",
+      "bodyCharacterCount": 138,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-21T09:54:19.860Z",
+      "assessment": {
+        "centralEvent": "The Invisible Font Resume Hack is Breaking AI Job Screeners. As a Recruiter, I Don’t Blame Candidates",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Candidates are using white text to trick AI screeners, but veteran recruiter Deepali Vyas warns the real risk is screening out top talent.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T08:59:53.210Z"
+  "updatedAt": "2026-08-21T09:54:19.860Z"
 }
