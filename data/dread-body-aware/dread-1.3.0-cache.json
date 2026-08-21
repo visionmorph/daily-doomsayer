@@ -46079,8 +46079,432 @@
           "vulnerability": 0
         }
       }
+    },
+    "c39362cf315682fda879": {
+      "storyId": "c39362cf315682fda879",
+      "url": "https://restofworld.org/2026/china-ai-adoption-jinguyuan",
+      "title": "A dumpling shop becomes a poster child of AI adoption in China",
+      "source": "Rest of World AI",
+      "published": "2026-08-21T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9edcfcef77aef7bbe8484298",
+      "bodyFingerprint": "2cb1b2ed8b57c2e105789a7f",
+      "bodyCharacterCount": 4292,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T13:13:16.659Z",
+      "assessment": {
+        "centralEvent": "A dumpling shop becomes a poster child of AI adoption in China",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“You always need to surround yourself with the most advanced productive force.” In many developed countries, AI is primarily associated with job losses, threats to creativity, and sprawling data centers invading rural communities.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Rest of World/iStock By Viola Zhou 21 August 2026 Global Dispatch A dumpling shop becomes a poster child of AI adoption in China By Viola Zhou > Global Dispatch This essay was first published in our Global Dispatch newsletter.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3690ee74c184c11a747f": {
+      "storyId": "3690ee74c184c11a747f",
+      "url": "https://www.inc.com/tony-manganiello/your-ai-strategy-may-be-creating-a-human-bottleneck-and-hurting-productivity/91393886",
+      "title": "Companies Are Spending Billions on New Tech Tools. The Real Bottleneck May Be Their People",
+      "source": "Inc. AI",
+      "published": "2026-08-21T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ced6c4b632c912b7fd4e1dee",
+      "bodyFingerprint": "941dae59bc987e90bd65408c",
+      "bodyCharacterCount": 48,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-21T13:13:16.725Z",
+      "assessment": {
+        "centralEvent": "Companies Are Spending Billions on New Tech Tools. The Real Bottleneck May Be Their People",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5e467e875ff04a8b5d99": {
+      "storyId": "5e467e875ff04a8b5d99",
+      "url": "https://www.politico.eu/article/poll-ai-age-group-weath-future-technology",
+      "title": "Poll: The older and richer you are, the more you like AI",
+      "source": "POLITICO Europe AI",
+      "published": "2026-08-21T11:56:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c882b6da1a7f570bbf52be92",
+      "bodyFingerprint": "ecb6d7cc89c997edf24c2876",
+      "bodyCharacterCount": 1843,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T13:13:16.825Z",
+      "assessment": {
+        "centralEvent": "Poll: The older and richer you are, the more you like AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The results do not prove that financial insecurity causes pessimism, note the study authors, but highlight that as young adults are entering the jobs market without the financial and professional security of older groups, their concerns aro",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "281a199b45fb6a75919d": {
+      "storyId": "281a199b45fb6a75919d",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260820202856.htm",
+      "title": "Scientists catch a hidden electronic state forming in just 30 femtoseconds",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-21T12:01:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e33046c39c259366e9270263",
+      "bodyFingerprint": "a5dbb4546182b135a1a0920f",
+      "bodyCharacterCount": 9334,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T13:13:16.940Z",
+      "assessment": {
+        "centralEvent": "Scientists catch a hidden electronic state forming in just 30 femtoseconds",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A Fleeting Electronic State Comes First The analysis showed that immediately after absorbing light, the material briefly entered an intermediate electronic state.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e23dcfdbcb34227a1ca7": {
+      "storyId": "e23dcfdbcb34227a1ca7",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260820202846.htm",
+      "title": "A strange new quantum droplet can hold itself together",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-21T04:54:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fced5fbf3b73ff6e435bb570",
+      "bodyFingerprint": "33a6e903830a35ee554e6440",
+      "bodyCharacterCount": 6963,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T13:13:16.955Z",
+      "assessment": {
+        "centralEvent": "A strange new quantum droplet can hold itself together",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "An attractive force pulling the particles together is precisely counteracted by pressure produced by the fermions, keeping the droplet from collapsing.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "7, 2026  A team of physicists has experimentally confirmed a long-predicted sequence of exotic magnetic phases in an atomically thin material.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9bcf0a1a52b75f307828": {
+      "storyId": "9bcf0a1a52b75f307828",
+      "url": "https://apnews.com/article/peru-earthquake-andes-mountains-0018e250224f1cd86fc4c99cb33a9537",
+      "title": "A magnitude 6.7 earthquake shakes Peru’s southern Andes, injuring at least 2 and damaging homes",
+      "source": "AP News AI",
+      "published": "2026-08-20T18:40:22",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "09c7732cb755653192d3c9b3",
+      "bodyFingerprint": "46b5a1be26efd86d3f981919",
+      "bodyCharacterCount": 2330,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T13:13:16.974Z",
+      "assessment": {
+        "centralEvent": "A magnitude 6.7 earthquake shakes Peru’s southern Andes, injuring at least 2 and damaging homes",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A magnitude 6.7 earthquake shook Peru’s southern Andes Mountains on Thursday, according to the U.S.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9501d58f9e27e9748f6d": {
+      "storyId": "9501d58f9e27e9748f6d",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260820202849.htm",
+      "title": "Hidden magnetism inside atoms may explain mysterious gamma rays",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-21T04:21:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0c5edc1279b95120e83a22f7",
+      "bodyFingerprint": "f13c60fc7da14ea216881dd8",
+      "bodyCharacterCount": 8329,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T13:13:17.016Z",
+      "assessment": {
+        "centralEvent": "Hidden magnetism inside atoms may explain mysterious gamma rays",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "It does not appear in every nucleus, and researchers have not been able to reliably predict where it will occur. \"This low-energy enhancement wasn't predicted by theory, so it was kind of a shock to the community when it was first observed,",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T11:44:25.065Z"
+  "updatedAt": "2026-08-21T13:13:17.016Z"
 }
