@@ -44701,8 +44701,150 @@
           "vulnerability": 0
         }
       }
+    },
+    "b39e42552198e020d6a9": {
+      "storyId": "b39e42552198e020d6a9",
+      "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom",
+      "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+      "source": "TechCrunch AI",
+      "published": "2026-08-21T00:13:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f2799a678719f23028b73d5e",
+      "bodyFingerprint": "98ba82e9c7ba4687f198c53d",
+      "bodyCharacterCount": 4243,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T01:59:19.853Z",
+      "assessment": {
+        "centralEvent": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eb624f8006dc3f4b7613": {
+      "storyId": "eb624f8006dc3f4b7613",
+      "url": "https://apnews.com/article/trump-michael-cohen-fixer-breakup-reconciliation-interview-7c183e3e579be93df6d83d64b7402379",
+      "title": "Trump appears on former fixer-turned-enemy Michael Cohen's radio show after detente",
+      "source": "AP News AI",
+      "published": "2026-08-20T18:14:50",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4090cf87e89dd1d2d7bee718",
+      "bodyFingerprint": "4b157a35a29144dd210defe2",
+      "bodyCharacterCount": 8463,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T01:59:19.884Z",
+      "assessment": {
+        "centralEvent": "Trump appears on former fixer-turned-enemy Michael Cohen's radio show after detente",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Simply, he said: “We forgave.” Trump had made no warm public statements about Cohen before Thursday, but in a series of social media posts this year, he linked to some of his former lawyer’s comments saying he felt pressured by prosecutors ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Trump,” Cohen was unsparing, calling Trump an “organized crime don” and “master manipulator.” But, foreshadowing their later rapprochement, Cohen also wrote that he still cared for Trump, writing, “I had and still have a lot of affection fo",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "She is based in Washington. twitter mailto JILL COLVIN Colvin is an Associated Press national political reporter covering campaigns and elections. twitter mailto",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It does not mean the scars vanish, that the pain was fake or that I have forgotten a single second of what transpired, I have not.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.91,
+        "rawScore": 46.91,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.265,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-20T23:42:23.240Z"
+  "updatedAt": "2026-08-21T01:59:19.884Z"
 }
