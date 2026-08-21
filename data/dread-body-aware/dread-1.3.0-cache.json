@@ -47538,8 +47538,131 @@
           "vulnerability": 0
         }
       }
+    },
+    "924e05a3179e98e99178": {
+      "storyId": "924e05a3179e98e99178",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf",
+      "title": "Nvidia partners with data center developer Cloverleaf",
+      "source": "TechCrunch AI",
+      "published": "2026-08-21T22:37:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f501dfcbea94a9e5fd52f9ee",
+      "bodyFingerprint": "a26f2e82b8e30b78925e438d",
+      "bodyCharacterCount": 2197,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T22:44:11.364Z",
+      "assessment": {
+        "centralEvent": "Nvidia partners with data center developer Cloverleaf",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , AI , data centers , nvidia , OpenAI October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "71ad8c19dd1a5551e42a": {
+      "storyId": "71ad8c19dd1a5551e42a",
+      "url": "https://apnews.com/article/stars-stripes-pentagon-censorship-media-d42affb0c17fef31c6089645c8dbbe70",
+      "title": "Pentagon dismisses Stars and Stripes leadership after editor, reporter oppose military interference",
+      "source": "AP News AI",
+      "published": "2026-08-21T19:12:40",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a5d370c22a5df32381e9da2",
+      "bodyFingerprint": "6b92f9624fa41dfe7b561ddc",
+      "bodyCharacterCount": 6502,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-21T22:44:11.388Z",
+      "assessment": {
+        "centralEvent": "Pentagon dismisses Stars and Stripes leadership after editor, reporter oppose military interference",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Pentagon is seen from the air, July 15, 2026, in Washington. (AP Photo/Alex Brandon, File) By JOCELYN NOVECK Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Add AP News on Google Add AP News as your preferred source",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T21:41:56.459Z"
+  "updatedAt": "2026-08-21T22:44:11.388Z"
 }
