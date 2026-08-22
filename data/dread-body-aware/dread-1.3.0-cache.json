@@ -48475,8 +48475,190 @@
           "vulnerability": 0
         }
       }
+    },
+    "f369bd1509833fec1bc4": {
+      "storyId": "f369bd1509833fec1bc4",
+      "url": "https://www.inc.com/moses-jeanfrancois/google-wants-spirit-airlines-data-startup-just-outbid-10-million-dollar-offer/91394727",
+      "title": "Google Wants Spirit Airlines’ Data. A Startup Just Outbid Its $10 Million Offer",
+      "source": "Inc. AI",
+      "published": "2026-08-22T12:49:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8b11911ff5e34e6d245cb8b8",
+      "bodyFingerprint": "d85820823a4ecce7b8f73b32",
+      "bodyCharacterCount": 125,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-22T13:02:47.119Z",
+      "assessment": {
+        "centralEvent": "Google Wants Spirit Airlines’ Data. A Startup Just Outbid Its $10 Million Offer",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Experts say Spirit’s records offer something AI companies desperately need: an understanding of how businesses actually work.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d194f44b168bf6446923": {
+      "storyId": "d194f44b168bf6446923",
+      "url": "https://apnews.com/article/sweden-school-sword-attack-d07f2b075d2c20837a9d3d767a57246b",
+      "title": "An 18-year-old with a sword attacks a school in Sweden, leaving 1 dead and 2 injured",
+      "source": "AP News AI",
+      "published": "2026-08-21T13:51:03",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e80b0079e37f921491353ed6",
+      "bodyFingerprint": "da168adb1899a9fe42dd67b9",
+      "bodyCharacterCount": 7003,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T13:02:47.172Z",
+      "assessment": {
+        "centralEvent": "An 18-year-old with a sword attacks a school in Sweden, leaving 1 dead and 2 injured",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "An 18-year-old with a sword attacks a school in Sweden, leaving 1 dead and 2 injured",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "737ed69760b06a0a8f24": {
+      "storyId": "737ed69760b06a0a8f24",
+      "url": "https://apnews.com/article/record-blue-marlin-fish-new-england-6903fbb5fbb2c7cd110ff00a86776eef",
+      "title": "Charter boat hauls in 1,260-pound blue marlin believed to be East Coast's largest catch",
+      "source": "AP News AI",
+      "published": "2026-08-21T21:45:20",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b9695453da5299761116d012",
+      "bodyFingerprint": "26b9157a66b55dd7626cf3e4",
+      "bodyCharacterCount": 6786,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T13:02:47.182Z",
+      "assessment": {
+        "centralEvent": "Charter boat hauls in 1,260-pound blue marlin believed to be East Coast's largest catch",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "That was just 142 pounds (64.4 kilograms) shy of the world record for an Atlantic blue marlin, caught off Brazil in 1992, according to records kept by the International Game Fish Association.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-22T11:37:13.200Z"
+  "updatedAt": "2026-08-22T13:02:47.182Z"
 }
