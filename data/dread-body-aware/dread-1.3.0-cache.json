@@ -48068,8 +48068,60 @@
           "vulnerability": 0
         }
       }
+    },
+    "ba52d64622579a4c6037": {
+      "storyId": "ba52d64622579a4c6037",
+      "url": "https://apnews.com/article/angel-reese-dream-sparks-score-6bd6000c42d872696fc4eddec17aacdd",
+      "title": "Angel Reese has stunning perfect shooting night in the Dream's 124-88 romp over the Sparks",
+      "source": "AP News AI",
+      "published": "2026-08-21T04:44:57",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d1424cf0fcacc967a5d6b6d3",
+      "bodyFingerprint": "22c1d758df59dbff9c60b3a6",
+      "bodyCharacterCount": 3823,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T03:58:18.066Z",
+      "assessment": {
+        "centralEvent": "Angel Reese has stunning perfect shooting night in the Dream's 124-88 romp over the Sparks",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-22T03:09:14.910Z"
+  "updatedAt": "2026-08-22T03:58:18.067Z"
 }
