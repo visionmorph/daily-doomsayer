@@ -49428,8 +49428,187 @@
           "vulnerability": 0
         }
       }
+    },
+    "31a0101740debd65b7d7": {
+      "storyId": "31a0101740debd65b7d7",
+      "url": "https://www.inc.com/moshe-engelberg/what-meta-zuckerberg-and-ai-reveal-about-the-values-we-claim-to-have/91390859",
+      "title": "What Meta, Zuckerberg, and AI Reveal About the Values We Claim to Have",
+      "source": "Inc. AI",
+      "published": "2026-08-22T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a30e716da9c512c575f481b",
+      "bodyFingerprint": "dec7c425ad33799c1e2779bc",
+      "bodyCharacterCount": 56,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-22T19:38:13.977Z",
+      "assessment": {
+        "centralEvent": "What Meta, Zuckerberg, and AI Reveal About the Values We Claim to Have",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0da3fa7805d095150fcc": {
+      "storyId": "0da3fa7805d095150fcc",
+      "url": "https://apnews.com/article/canada-us-trade-war-trump-carney-tariffs-4d18583fe52134ca8550652ad9772d2c",
+      "title": "A trade war between Canada and the US further ruptures a once-close and durable alliance",
+      "source": "AP News AI",
+      "published": "2026-08-22T15:07:16",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7fa36b29983940bd66f2fa48",
+      "bodyFingerprint": "d153fee2c112c9835ffcb5ad",
+      "bodyCharacterCount": 12482,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T19:38:14.000Z",
+      "assessment": {
+        "centralEvent": "A trade war between Canada and the US further ruptures a once-close and durable alliance",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Now, after the collapse of trade talks , one of the world’s closest and most durable alliances has been fundamentally altered, with both countries facing the risk of a full-scale trade war .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Ford said Trump “is not to be trusted whatsoever.” Former Alberta Premier Jason Kenney said Canada was “not cravenly surrendering in the face of constant economic and political aggression.” Lana Payne, national president of Unifor, Canada’s",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.48,
+        "rawScore": 25.48,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.135,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e0cf4087263d4676e050": {
+      "storyId": "e0cf4087263d4676e050",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "source": "TechCrunch AI",
+      "published": "2026-08-22T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cb3cbc10fa2e9f0589f00d24",
+      "bodyFingerprint": "7dde70df46968ba43fd2cdbb",
+      "bodyCharacterCount": 6320,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T19:38:14.056Z",
+      "assessment": {
+        "centralEvent": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-22T18:50:33.971Z"
+  "updatedAt": "2026-08-22T19:38:14.056Z"
 }
