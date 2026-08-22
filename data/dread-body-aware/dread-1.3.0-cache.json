@@ -49607,8 +49607,166 @@
           "vulnerability": 0
         }
       }
+    },
+    "9fa5782fcc9384c1abad": {
+      "storyId": "9fa5782fcc9384c1abad",
+      "url": "https://apnews.com/article/trump-administration-visa-ban-immigration-64feb19b54d1bce50891437a5ba25d50",
+      "title": "Federal judge vacates Trump policy that suspended processing of immigration visas from 75 countries",
+      "source": "AP News AI",
+      "published": "2026-08-22T15:05:25",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "59452387d29c4b8e11382145",
+      "bodyFingerprint": "083a6d0dc54b8c07b62d7852",
+      "bodyCharacterCount": 5519,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T20:42:21.653Z",
+      "assessment": {
+        "centralEvent": "Federal judge vacates Trump policy that suspended processing of immigration visas from 75 countries",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“This decision affirms both those values and the rule of law, allowing families to once again move forward toward reunification.” Related Stories Trump’s trade war with Canada: A timeline of how we got here 5 MIN READ Nancy Kassebaum Baker,",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "District Judge Jeannette Vargas, an appointee of former President Joe Biden, set aside the policy Friday as “contrary to law and in excess of statutory authority.” Secretary of State Marco Rubio exceeded his authority by issuing the policy,",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Advocates say keeping families apart is cruel “We welcome this ruling because, at its heart, this case is about keeping families together,” said Anna Gallagher, the executive director of CLINIC, a national nonprofit that provides training, ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“The Policy, which categorically prohibits the issuance of immigrant visas based upon the nationality of the applicant, represents a direct abrogation of this statutory scheme.” The policy was challenged by two nonprofit organizations along",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.34,
+        "rawScore": 28.34,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.395,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "49f2a4f54800765ef966": {
+      "storyId": "49f2a4f54800765ef966",
+      "url": "https://apnews.com/article/national-parks-white-house-priorities-051fd27a454094a7cbec0718517e35e3",
+      "title": "National park maintenance work sidelined as Trump's Freedom 250 takes precedence",
+      "source": "AP News AI",
+      "published": "2026-08-21T20:52:14",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c1539ffdc97c42d686bfcd8b",
+      "bodyFingerprint": "7f5c30202a3edfdf8f4fae8c",
+      "bodyCharacterCount": 11366,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T20:42:21.667Z",
+      "assessment": {
+        "centralEvent": "National park maintenance work sidelined as Trump's Freedom 250 takes precedence",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Trump’s trade war with Canada: A timeline of how we got here 5 MIN READ Nancy Kassebaum Baker, former US senator from Kansas, dies at 94 5 MIN READ A US envoy says Israel did not give a warning to the US ahead of a recent Sy",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Work wanted by the White House was taking precedence, including repairs to the Lincoln Memorial Reflecting Pool , according to documents obtained by The Associated Press and three officials from the park service and Interior Department who ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "title",
+            "excerpt": "National park maintenance work sidelined as Trump's Freedom 250 takes precedence",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It lost at least one-quarter of its permanent workforce under Trump.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.23,
+        "rawScore": 28.23,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.385,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-22T19:38:14.056Z"
+  "updatedAt": "2026-08-22T20:42:21.667Z"
 }
