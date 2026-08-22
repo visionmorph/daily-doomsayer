@@ -48657,8 +48657,80 @@
           "vulnerability": 0
         }
       }
+    },
+    "2659df263e6f473a179c": {
+      "storyId": "2659df263e6f473a179c",
+      "url": "https://apnews.com/article/middle-east-iran-israel-golan-467d9b2970e0b9855ac9a68ef90c8e75",
+      "title": "Iran says the world has accepted it has defeated the US, and other Middle East developments",
+      "source": "AP News AI",
+      "published": "2026-08-22T09:23:58",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b6a5656587ee5f121d5ee53",
+      "bodyFingerprint": "8fa5462c6d3abb124bbd92f3",
+      "bodyCharacterCount": 6293,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T13:45:51.684Z",
+      "assessment": {
+        "centralEvent": "Iran says the world has accepted it has defeated the US, and other Middle East developments",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Barrack’s remarks sparked a backlash Saturday from conservative activist and U.S. presidential ally Laura Loomer, who posted on X that he “should resign for his lack of understanding of U.S. foreign policy.” Sign up for Morning Wire: Our fl",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Iranian families struggle to afford the basics as US ratchets up economic warfare 6 MIN READ 489 US, South Korean militaries wrap up drill early, a day after North Korea’s missile barrage 3 MIN READ Trump warns of ‘economic ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The move did not change the territory’s status under international law or win broader international recognition.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-22T13:02:47.182Z"
+  "updatedAt": "2026-08-22T13:45:51.684Z"
 }
