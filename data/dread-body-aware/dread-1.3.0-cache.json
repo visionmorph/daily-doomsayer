@@ -49314,8 +49314,122 @@
           "vulnerability": 0
         }
       }
+    },
+    "04956aa8e410839f5e5a": {
+      "storyId": "04956aa8e410839f5e5a",
+      "url": "https://www.inc.com/kimanzi-constable/these-founders-are-using-ai-to-build-lean-businesses-with-millions-in-revenue/91391190",
+      "title": "These Founders Are Using AI to Build Lean Businesses With Millions in Revenue",
+      "source": "Inc. AI",
+      "published": "2026-08-22T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "36489df14230517d41bd800f",
+      "bodyFingerprint": "3486225316c5dae7ff171e33",
+      "bodyCharacterCount": 43,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-22T17:38:18.576Z",
+      "assessment": {
+        "centralEvent": "These Founders Are Using AI to Build Lean Businesses With Millions in Revenue",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cefe19d1f276f366bf0c": {
+      "storyId": "cefe19d1f276f366bf0c",
+      "url": "https://apnews.com/article/wnba-sex-toys-921466387c651094c1710cc664b875ff",
+      "title": "Sex toys tossed on court interrupt WNBA games in Chicago and LA in replay of 2025 incidents",
+      "source": "AP News AI",
+      "published": "2026-08-22T02:54:36",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "90892149e64d308d888eb261",
+      "bodyFingerprint": "57655d7dd74c40fefa251054",
+      "bodyCharacterCount": 1290,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T17:38:18.712Z",
+      "assessment": {
+        "centralEvent": "Sex toys tossed on court interrupt WNBA games in Chicago and LA in replay of 2025 incidents",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "17, 2026. (AP Photo/Jeff Chiu) Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-22T16:42:54.757Z"
+  "updatedAt": "2026-08-22T17:38:18.712Z"
 }
