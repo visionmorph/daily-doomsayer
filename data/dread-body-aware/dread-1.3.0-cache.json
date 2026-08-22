@@ -47884,8 +47884,120 @@
           "vulnerability": 0
         }
       }
+    },
+    "39648f2d4e457b7defda": {
+      "storyId": "39648f2d4e457b7defda",
+      "url": "https://apnews.com/article/mcrilroy-woodland-bmw-championship-clark-scheffler-bd146990eb60a9b4cf8ecb297e8ead21",
+      "title": "Rory McIlroy makes quick turnaround for 5-way share of the lead at BMW as ailing Scheffler fades",
+      "source": "AP News AI",
+      "published": "2026-08-20T23:31:33",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9af825313ebee015af7f58fc",
+      "bodyFingerprint": "286e47e949ba7312f048b330",
+      "bodyCharacterCount": 9385,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T01:52:31.424Z",
+      "assessment": {
+        "centralEvent": "Rory McIlroy makes quick turnaround for 5-way share of the lead at BMW as ailing Scheffler fades",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "08010668de9651be5886": {
+      "storyId": "08010668de9651be5886",
+      "url": "https://apnews.com/article/trump-white-house-ballroom-supreme-court-b3eaee672028e584d0c520180c663e2c",
+      "title": "Supreme Court's chief justice allows work on Trump’s $400M White House ballroom to continue for now",
+      "source": "AP News AI",
+      "published": "2026-08-21T18:10:53",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "634bccbc09853450d39c1964",
+      "bodyFingerprint": "491de3cb57792ba3958d9c6a",
+      "bodyCharacterCount": 8415,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T01:52:31.441Z",
+      "assessment": {
+        "centralEvent": "Supreme Court's chief justice allows work on Trump’s $400M White House ballroom to continue for now",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Crews are working 20 hours a day, seven days a week, on the project, where about $200 million in private donations has been spent or committed, according to court documents filed by the Justice Department.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-21T23:41:36.348Z"
+  "updatedAt": "2026-08-22T01:52:31.441Z"
 }
