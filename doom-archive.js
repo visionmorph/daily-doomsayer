@@ -5,8 +5,153 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-22T04:00:00.000Z",
+  "generatedAt": "2026-08-22T05:00:00.000Z",
   "daily": [
+    {
+      "period": "2026-08-22",
+      "stories": [
+        {
+          "storyId": "0cae8036779db8873ce7",
+          "title": "OpenAI president urges enterprises to hasten AI security defences",
+          "url": "https://www.artificialintelligence-news.com/news/openai-president-urges-enterprises-hasten-ai-security-defences/",
+          "source": "AI News",
+          "image": "",
+          "peak": 46.24,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-22",
+          "firstObservedAt": "2026-08-22T05:00:00.000Z",
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 46.24
+        },
+        {
+          "storyId": "1af4f3300d0130192a63",
+          "title": "LAYING THE GROUNDWORK FOR AI-POWERED CYBERSECURITY",
+          "url": "https://www.politico.eu/sponsored-content/laying-the-groundwork-for-ai-powered-cybersecurity/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
+          "peak": 42.44,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-22",
+          "firstObservedAt": "2026-08-22T05:00:00.000Z",
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 42.44
+        },
+        {
+          "storyId": "1c9f14ee09a7b9f09c18",
+          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 36.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-22",
+          "firstObservedAt": "2026-08-22T05:00:00.000Z",
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 36.22
+        },
+        {
+          "storyId": "e24875277dd9c8e66641",
+          "title": "OpenAI hit the brakes. Now what?",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 27.08,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-22",
+          "firstObservedAt": "2026-08-22T05:00:00.000Z",
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 27.08
+        },
+        {
+          "storyId": "08dde364f7c2aa81dece",
+          "title": "It’s Greg Brockman’s OpenAI now",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 27.08,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-22",
+          "firstObservedAt": "2026-08-22T05:00:00.000Z",
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 27.08
+        },
+        {
+          "storyId": "d7769cca38598e970713",
+          "title": "I worked at OpenAI. Here are the guardrails we need now | Miles Brundage",
+          "url": "https://www.theguardian.com/commentisfree/2026/aug/21/openai-frontier-ai-speed",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/5580ff8262ca418fc1145725debe914855547075/667_0_3333_2667/master/3333.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 27.08,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-22",
+          "firstObservedAt": "2026-08-22T05:00:00.000Z",
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 27.08
+        },
+        {
+          "storyId": "f72b0bd12d2b3ab46bc3",
+          "title": "Why Saying ‘The AI Did It’ Won’t Stop an Age Discrimination Lawsuit",
+          "url": "https://www.inc.com/suzanne-lucas/why-saying-the-ai-did-it-wont-stop-an-age-discrimination-lawsuit/91393888",
+          "source": "Inc. AI",
+          "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/08/ai-hiring-bot-inc-2009987029.jpg",
+          "peak": 24.64,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-22",
+          "firstObservedAt": "2026-08-22T05:00:00.000Z",
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 24.64
+        },
+        {
+          "storyId": "b3989dcfb48ba9b056fe",
+          "title": "The Youth AI Privacy Act’s Privacy Paradox",
+          "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
+          "peak": 23.95,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-22",
+          "firstObservedAt": "2026-08-22T05:00:00.000Z",
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 23.95
+        },
+        {
+          "storyId": "4f214ad04e3c0e050175",
+          "title": "Did someone wearing Meta Glasses film you today? Are you sure?",
+          "url": "https://www.theguardian.com/technology/ng-interactive/2026/aug/19/meta-glasses-privacy-surveillance",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/ad85a9abed95abdd431f53ef872369fb0344b714/0_54_2400_1919/master/2400.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 22.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-22",
+          "firstObservedAt": "2026-08-22T05:00:00.000Z",
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 22.22
+        },
+        {
+          "storyId": "4886a2e07c39d71065d0",
+          "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
+          "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 19.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-22",
+          "firstObservedAt": "2026-08-22T05:00:00.000Z",
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 19.75
+        }
+      ]
+    },
     {
       "period": "2026-08-21",
       "stories": [
@@ -2339,12 +2484,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 68,
-          "daysTracked": 4,
+          "observations": 69,
+          "daysTracked": 5,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-22T04:00:00.000Z",
-          "average": 23.62
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 23.42
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -2367,12 +2512,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 98,
-          "daysTracked": 5,
+          "observations": 99,
+          "daysTracked": 6,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-17T05:00:00.000Z",
-          "lastObservedAt": "2026-08-22T04:00:00.000Z",
-          "average": 41.7
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 41.64
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -2395,12 +2540,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 74,
-          "daysTracked": 4,
+          "observations": 75,
+          "daysTracked": 5,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-22T04:00:00.000Z",
-          "average": 25.7
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 25.49
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -2409,12 +2554,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
           "peak": 56.32,
-          "observations": 48,
-          "daysTracked": 3,
+          "observations": 49,
+          "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-22T04:00:00.000Z",
-          "average": 11.39
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 11.3
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
@@ -2776,12 +2921,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 68,
-          "daysTracked": 4,
+          "observations": 69,
+          "daysTracked": 5,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-22T04:00:00.000Z",
-          "average": 23.62
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 23.42
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -2804,12 +2949,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 185,
-          "daysTracked": 10,
+          "observations": 186,
+          "daysTracked": 11,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-22T04:00:00.000Z",
-          "average": 40.41
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 40.39
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -2832,12 +2977,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 74,
-          "daysTracked": 4,
+          "observations": 75,
+          "daysTracked": 5,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-22T04:00:00.000Z",
-          "average": 25.7
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 25.49
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
@@ -2846,12 +2991,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/02UYcmhqlegcuAXCOwljjXS/hero-image.jpg",
           "peak": 56.32,
-          "observations": 48,
-          "daysTracked": 3,
+          "observations": 49,
+          "daysTracked": 4,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-19T18:00:00.000Z",
-          "lastObservedAt": "2026-08-22T04:00:00.000Z",
-          "average": 11.39
+          "lastObservedAt": "2026-08-22T05:00:00.000Z",
+          "average": 11.3
         },
         {
           "storyId": "e1dc4f39fa3fd430a562",
