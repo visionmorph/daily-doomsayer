@@ -48192,8 +48192,152 @@
           "vulnerability": 0
         }
       }
+    },
+    "67720c7e870758a81b56": {
+      "storyId": "67720c7e870758a81b56",
+      "url": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+      "title": "‘Digging the grave of my profession’: the Hollywood creatives training AI to do their jobs",
+      "source": "The Guardian AI",
+      "published": "2026-08-22T06:00:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1914e200bca8c30cc0c8ccfc",
+      "bodyFingerprint": "e50610e42578d35e9c383fef",
+      "bodyCharacterCount": 7181,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T07:01:33.090Z",
+      "assessment": {
+        "centralEvent": "‘Digging the grave of my profession’: the Hollywood creatives training AI to do their jobs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He also had to create a visual guide to each speaker (for example: blond woman with a buttoned-down shirt with a gold necklace) and characterise accents, such as English, Scottish, African American or Asian – which sparked concern among the",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Experienced and award-winning writers, directors and producers are being paid from $12 to $200 an hour to teach AI models the intricacies of their jobs, from writing a screenplay to devising a shooting schedule.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4c6669631a794cc3dc5b": {
+      "storyId": "4c6669631a794cc3dc5b",
+      "url": "https://apnews.com/article/lindsay-clancy-murder-trial-defense-93d6b815b81a2e89920307d88dd66973",
+      "title": "Lindsay Clancy’s defense rests at trial over whether postpartum psychosis drove her to kill her kids",
+      "source": "AP News AI",
+      "published": "2026-08-21T16:01:06",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b1fa94fb78c4c35ba880bb84",
+      "bodyFingerprint": "4f6fb8dd796257cf8a70a2c3",
+      "bodyCharacterCount": 11764,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-22T07:01:33.215Z",
+      "assessment": {
+        "centralEvent": "Lindsay Clancy’s defense rests at trial over whether postpartum psychosis drove her to kill her kids",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Resnick described several categories of filicide, including killings involving abuse.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "If you or someone you know needs help, the national suicide and crisis lifeline in the U.S. is available by calling or texting 988. ___ Related Stories Women in pink rally in support of Lindsay Clancy at her trial for killing her 3 children",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "If you or someone you know needs help, the national suicide and crisis lifeline in the U.S. is available by calling or texting 988. ___ Related Stories Women in pink rally in support of Lindsay Clancy at her trial for killing her 3 children",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Clancy, 36, has pleaded not guilty to murder charges in the deaths of her children Callan, Dawson and Cora Clancy, who ranged from 8 months to 5 years old.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.34,
+        "rawScore": 49.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-22T05:44:38.385Z"
+  "updatedAt": "2026-08-22T07:01:33.215Z"
 }
