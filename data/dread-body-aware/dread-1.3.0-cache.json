@@ -52037,8 +52037,134 @@
           "vulnerability": 0
         }
       }
+    },
+    "5d1101a95b2e8e4e6429": {
+      "storyId": "5d1101a95b2e8e4e6429",
+      "url": "https://www.inc.com/kevin-haynes/harvard-cloned-professors-to-coach-startups-founders-love-it/91395040",
+      "title": "Harvard Cloned Professors to Coach Startups. Founders Love It",
+      "source": "Inc. AI",
+      "published": "2026-08-23T21:15:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "32ecb3d3a885cc23d8b02c9d",
+      "bodyFingerprint": "336a0cce3a6e391f027d6dda",
+      "bodyCharacterCount": 184,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-23T21:37:57.553Z",
+      "assessment": {
+        "centralEvent": "Harvard Cloned Professors to Coach Startups. Founders Love It",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c42467ba5c64054473bd": {
+      "storyId": "c42467ba5c64054473bd",
+      "url": "https://apnews.com/article/japan-earthquake-tokyo-3b39d6dc29cb5ad1bada31a524b6e0c6",
+      "title": "A moderate earthquake shakes Japan, injuring more than 30 people in the Tokyo region",
+      "source": "AP News AI",
+      "published": "2026-08-22T17:59:03",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ff87454b11d1c71e6b5eec81",
+      "bodyFingerprint": "a72a359ba444e640da739876",
+      "bodyCharacterCount": 5465,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T21:37:57.647Z",
+      "assessment": {
+        "centralEvent": "A moderate earthquake shakes Japan, injuring more than 30 people in the Tokyo region",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "A moderate earthquake with a preliminary magnitude of 5.9 has rattled eastern Japan, including the Tokyo area, but no tsunami warning was issued.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More 2 of 2 | First responders from the Tokyo Fire Department stand on a street partially flooded in the early hours of Sunday, Aug.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The pipe has been repaired and the leak stopped.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.7,
+        "rawScore": 26.7,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-23T20:41:48.489Z"
+  "updatedAt": "2026-08-23T21:37:57.647Z"
 }
