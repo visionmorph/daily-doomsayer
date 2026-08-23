@@ -51856,8 +51856,189 @@
           "vulnerability": 0
         }
       }
+    },
+    "3b921118c9bb5bb8c69e": {
+      "storyId": "3b921118c9bb5bb8c69e",
+      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha",
+      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "source": "TechCrunch AI",
+      "published": "2026-08-23T20:01:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4eea2a95ac8391ec242298c8",
+      "bodyFingerprint": "d1b4953a9b37ccbbf1555a8d",
+      "bodyCharacterCount": 2227,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T20:41:48.121Z",
+      "assessment": {
+        "centralEvent": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Government & Policy Uber faces fine of nearly $1B over automated driver suspensions Anthony Ha 1 hour ago Hardware Flock CEO calls for ‘compromise’ as ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , openrouter October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4928b498b3e5001a586e": {
+      "storyId": "4928b498b3e5001a586e",
+      "url": "https://apnews.com/article/erling-haaland-hair-cut-man-city-a8b6d229d93a2f2bd50995a520b087d8",
+      "title": "Haaland's haircut: Man City star chops off his locks for the new season",
+      "source": "AP News AI",
+      "published": "2026-08-23T12:58:57",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9386d35d4c9f49112f0d2ba1",
+      "bodyFingerprint": "3175f27c0e566fdd248c7c26",
+      "bodyCharacterCount": 4833,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T20:41:48.203Z",
+      "assessment": {
+        "centralEvent": "Haaland's haircut: Man City star chops off his locks for the new season",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a916a9cc66b548ef6a3a": {
+      "storyId": "a916a9cc66b548ef6a3a",
+      "url": "https://apnews.com/article/good-good-golf-callaway-ad-deleted-d970a76f06c4577a532ea2a572576c49",
+      "title": "Good Good Golf pulls video after criticism that it depicts violence against women",
+      "source": "AP News AI",
+      "published": "2026-08-22T23:50:34",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bac59cdcf9ac552b4849a47f",
+      "bodyFingerprint": "cbdfdfafcfd83d20ec921219",
+      "bodyCharacterCount": 2849,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T20:41:48.489Z",
+      "assessment": {
+        "centralEvent": "Good Good Golf pulls video after criticism that it depicts violence against women",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Good Good Golf pulls video after criticism that it depicts violence against women",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-23T19:38:02.504Z"
+  "updatedAt": "2026-08-23T20:41:48.489Z"
 }
