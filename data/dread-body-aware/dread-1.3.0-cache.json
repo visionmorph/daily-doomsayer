@@ -51710,8 +51710,154 @@
           "vulnerability": 0
         }
       }
+    },
+    "8f1ee24ca1f05a5a2627": {
+      "storyId": "8f1ee24ca1f05a5a2627",
+      "url": "https://apnews.com/article/hawk-fire-reno-nevada-evacuations-aae2f4b77e2d4aa5678b365a2ee377e6",
+      "title": "Wildfire started by humans approaches Reno, Nevada, forcing thousands of evacuations",
+      "source": "AP News AI",
+      "published": "2026-08-23T12:09:54",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2e4566fd8e3dada0a52c91ee",
+      "bodyFingerprint": "fdc4b0d8d44bf629fd482d49",
+      "bodyCharacterCount": 9921,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T19:38:02.495Z",
+      "assessment": {
+        "centralEvent": "Wildfire started by humans approaches Reno, Nevada, forcing thousands of evacuations",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "An additional 45,000 people were in the evacuation warning zone, and encouraged to leave now and be prepared to stay away for several days to clear the roads for first-responders.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An additional 45,000 people were in the evacuation warning zone, and encouraged to leave now and be prepared to stay away for several days to clear the roads for first-responders.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Reno-Tahoe International Airport also was outside the evacuation zone.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The largest of the three, the Bug Fire, burned nearly 150 square miles (390 sq. kms.) but now is almost fully contained. ___ Raby reported from Charleston, West Virginia, Brook from New Orleans and Seewer from Toledo, Ohio.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "So far, he’s experienced a hailstorm with flash flooding, two different power outages and, now, the second wildfire incident in the region in two weeks.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.34,
+        "rawScore": 29.34,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "17740dc5b55bf046e349": {
+      "storyId": "17740dc5b55bf046e349",
+      "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule",
+      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "source": "TechCrunch AI",
+      "published": "2026-08-23T19:14:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d78d16f1da525b5880e10b5f",
+      "bodyFingerprint": "e08b97a4163f3cf5b2c767ca",
+      "bodyCharacterCount": 4033,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T19:38:02.504Z",
+      "assessment": {
+        "centralEvent": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-23T18:49:57.687Z"
+  "updatedAt": "2026-08-23T19:38:02.504Z"
 }
