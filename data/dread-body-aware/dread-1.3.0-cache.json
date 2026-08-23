@@ -50227,8 +50227,132 @@
           "vulnerability": 0
         }
       }
+    },
+    "0f48ee9e5df56d53a473": {
+      "storyId": "0f48ee9e5df56d53a473",
+      "url": "https://apnews.com/article/fifa-infantino-concacaf-bald-caribbean-bea16fcb047bafcec4d3fecabffc54b8",
+      "title": "Infantino defies FIFA vice president by going to youth event in Caribbean amid global soccer rift",
+      "source": "AP News AI",
+      "published": "2026-08-22T14:03:28",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2af48fadd496ff4c9802ba9e",
+      "bodyFingerprint": "bb9e7ffbda1626a8f5502623",
+      "bodyCharacterCount": 5863,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T08:51:01.574Z",
+      "assessment": {
+        "centralEvent": "Infantino defies FIFA vice president by going to youth event in Caribbean amid global soccer rift",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "1 amid a global backlash by soccer leaders and fans, and hours after his own chief operating officer published stinging criticism of the proposal and his leadership style in a statement to the AP.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "1 amid a global backlash by soccer leaders and fans, and hours after his own chief operating officer published stinging criticism of the proposal and his leadership style in a statement to the AP.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Infantino defies FIFA vice president by going to youth event in Caribbean amid global soccer rift",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "187b063a63904c2648db": {
+      "storyId": "187b063a63904c2648db",
+      "url": "https://apnews.com/article/jaquinden-jackson-eagles-injury-patriots-20102fb9f5d79b1d72e45dc9687a151e",
+      "title": "Eagles' Ja’Quinden Jackson has movement after being taken off in ambulance following injury",
+      "source": "AP News AI",
+      "published": "2026-08-22T23:40:47",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "19fdcc1f63f8cddc62ffdf5c",
+      "bodyFingerprint": "ac638df15a958abb1cc15f99",
+      "bodyCharacterCount": 5900,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T08:51:01.586Z",
+      "assessment": {
+        "centralEvent": "Eagles' Ja’Quinden Jackson has movement after being taken off in ambulance following injury",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-23T07:48:45.167Z"
+  "updatedAt": "2026-08-23T08:51:01.586Z"
 }
