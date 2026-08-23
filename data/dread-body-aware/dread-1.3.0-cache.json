@@ -52163,8 +52163,166 @@
           "vulnerability": 0
         }
       }
+    },
+    "705e9a5ebf9292cf5e1c": {
+      "storyId": "705e9a5ebf9292cf5e1c",
+      "url": "https://apnews.com/article/jeffries-kushner-trump-congress-midterms-democrats-58d74003d07ef8bb150677c0040bf9ab",
+      "title": "Jared Kushner meets with Democratic leader Jeffries with House control at stake in November",
+      "source": "AP News AI",
+      "published": "2026-08-23T19:00:54",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3ca61820b63a829bc8960683",
+      "bodyFingerprint": "c3c7b9393c9d28213a0fef88",
+      "bodyCharacterCount": 8244,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T23:37:16.327Z",
+      "assessment": {
+        "centralEvent": "Jared Kushner meets with Democratic leader Jeffries with House control at stake in November",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Trump has been able to alternately ignore the Congress as he relies on the sheer force of executive power to implement his priorities or to pressure the Republicans in the House and Senate, when needed, to fall in line behind the White Hous",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Trump urges court to reject BBC’s bid to secure records from his family in defamation case 1 MIN READ 234 Israel’s deadly Gaza strikes cast doubt on ceasefire progress days after Kushner visit 4 MIN READ 23 Trump threatens O",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "While not necessarily close, the two have maintained a relationship despite the repeated attacks Trump has leveled against Jeffries and the Democratic leader’s responses.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.19,
+        "rawScore": 27.19,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "05dc70390e58f3aea50d": {
+      "storyId": "05dc70390e58f3aea50d",
+      "url": "https://apnews.com/article/russia-ukraine-war-zelenskyy-fedorov-15d84a5a1f52e376ffdf98082cdf9712",
+      "title": "Zelenskyy details rift with Ukraine's dismissed defense minister Fedorov",
+      "source": "AP News AI",
+      "published": "2026-08-23T09:23:36",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ebe46da442f578cbd3dfdb81",
+      "bodyFingerprint": "6e2fe61f70166a2d081cbd5e",
+      "bodyCharacterCount": 15481,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T23:37:16.340Z",
+      "assessment": {
+        "centralEvent": "Zelenskyy details rift with Ukraine's dismissed defense minister Fedorov",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Read More The Ukrainian leader told journalists that he believes holding an election during the war would be a huge risk with the potential to “split Ukraine apart.” “I believe elections during a war like this would generally pose enormous ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Zelenskyy details rift with Ukraine’s dismissed defense minister Fedorov 1 of 7 | Ukrainian President Volodymyr Zelenskyy thanked the visiting leaders from Nordic and Baltic countries at a flag-raising ceremony in Kyiv on Sunday, as Ukraine",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Zelenskyy details rift with Ukraine’s dismissed defense minister Fedorov 1 of 7 | Ukrainian President Volodymyr Zelenskyy thanked the visiting leaders from Nordic and Baltic countries at a flag-raising ceremony in Kyiv on Sunday, as Ukraine",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Zelenskyy said that Russia had occupied about 990 square kilometers (380 square miles) since the start of the year, while Ukraine had restored control over roughly 820 square kilometers (315 square miles).",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Russian and Ukrainian attacks kill 10 people, a day after deadly shopping mall drone strike 3 MIN READ 26 Russian drones kill 15 people at a shopping mall in a central Ukrainian city, officials say 3 MIN READ 17 Army will sh",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 94,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.59,
+        "rawScore": 28.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-23T22:40:19.343Z"
+  "updatedAt": "2026-08-23T23:37:16.340Z"
 }
