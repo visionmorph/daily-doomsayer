@@ -50544,8 +50544,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "8d4e26a5c07ca5ef8e46": {
+      "storyId": "8d4e26a5c07ca5ef8e46",
+      "url": "https://apnews.com/article/trump-omaha-nebraska-congress-strict-blue-dot-midterms-83d612c000e576b4c0737f28cfd6827c",
+      "title": "Trump wants the midterms to be about himself. That may not help in a rare Nebraska swing district",
+      "source": "AP News AI",
+      "published": "2026-08-22T12:27:55",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0a1e8fb64fbe80c03ed68ce6",
+      "bodyFingerprint": "c3f9a6549b5b66b4a40e76d3",
+      "bodyCharacterCount": 14187,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T11:37:34.818Z",
+      "assessment": {
+        "centralEvent": "Trump wants the midterms to be about himself. That may not help in a rare Nebraska swing district",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Johnson in 1964, the answer may seem obvious.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 95,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-23T10:43:46.936Z"
+  "updatedAt": "2026-08-23T11:37:34.818Z"
 }
