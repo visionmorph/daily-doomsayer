@@ -50667,8 +50667,189 @@
           "vulnerability": 0
         }
       }
+    },
+    "d3bc844eaee00aedbaba": {
+      "storyId": "d3bc844eaee00aedbaba",
+      "url": "https://www.inc.com/bill-fotsch/the-ai-question-every-ceo-should-be-asking-instead-of-who-can-we-cut/91394341",
+      "title": "The AI Question Every CEO Should Be Asking Instead of ‘Who Can We Cut?’",
+      "source": "Inc. AI",
+      "published": "2026-08-23T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a11da63d53c858661ca7f3de",
+      "bodyFingerprint": "5f9f8de24e62a9f09fdd621c",
+      "bodyCharacterCount": 32,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-23T14:42:57.431Z",
+      "assessment": {
+        "centralEvent": "The AI Question Every CEO Should Be Asking Instead of ‘Who Can We Cut?’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0fddbd7f375adabd1c74": {
+      "storyId": "0fddbd7f375adabd1c74",
+      "url": "https://apnews.com/article/china-humanoid-robot-games-us-86cb8e310843151a77057e4cb764b4e2",
+      "title": "Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games",
+      "source": "AP News AI",
+      "published": "2026-08-22T16:16:14",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6ca46aab197b0a0b111763f0",
+      "bodyFingerprint": "c759178adfa40aacb222bbc5",
+      "bodyCharacterCount": 6306,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T14:42:57.483Z",
+      "assessment": {
+        "centralEvent": "Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The five-day games, now in its second year, are a spectacle demonstrating China’s rapid progress in advanced robotics as the technology race with the U.S. heats up, with 51 events and more than 1,000 competitions taking place including runn",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d2bdda1c9026935ae35e": {
+      "storyId": "d2bdda1c9026935ae35e",
+      "url": "https://www.theguardian.com/technology/2026/aug/23/ai-debt-bomb-crisis",
+      "title": "An AI ‘debt bomb’ crisis? No. This isn’t Enron 2.0 | Gene Marks",
+      "source": "The Guardian AI",
+      "published": "2026-08-23T14:00:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d75fa350415f417d779d2d01",
+      "bodyFingerprint": "19c112b588e2e5aa97668825",
+      "bodyCharacterCount": 6013,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T14:42:57.596Z",
+      "assessment": {
+        "centralEvent": "An AI ‘debt bomb’ crisis? No. This isn’t Enron 2.0 | Gene Marks",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It’s highly unlikely that fraud at that level is being perpetuated now by these companies.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Financial Times reported in December 2025 that tech companies had shifted more than $120bn of AI datacenter spending off their balance sheets through special-purpose vehicles and similar financing structures.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-23T13:46:59.029Z"
+  "updatedAt": "2026-08-23T14:42:57.596Z"
 }
