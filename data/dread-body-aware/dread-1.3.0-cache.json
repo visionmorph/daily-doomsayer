@@ -50351,8 +50351,141 @@
           "vulnerability": 0
         }
       }
+    },
+    "d5a907424d36c45131ff": {
+      "storyId": "d5a907424d36c45131ff",
+      "url": "https://apnews.com/article/texas-track-stabbing-austin-metcalf-karmelo-anthony-816dec0031af206d1129cefe03492693",
+      "title": "Texas judge denies Karmelo Anthony's request for new trial in deadly stabbing at track meet",
+      "source": "AP News AI",
+      "published": "2026-08-22T22:24:43",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fe8dbb4a1f3d523cd60fa974",
+      "bodyFingerprint": "61d8983d4c95c0e2d3e2afc9",
+      "bodyCharacterCount": 7111,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T09:44:53.762Z",
+      "assessment": {
+        "centralEvent": "Texas judge denies Karmelo Anthony's request for new trial in deadly stabbing at track meet",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit DALLAS (AP) — A Texas judge denied a new trial for Karmelo Anthony on Saturday in the stabbing death of a 17-year-old athlete at a high school t",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "At one point Anthony reached inside a bag and said: “Touch me and see what happens,” according to a police report .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit DALLAS (AP) — A Texas judge denied a new trial for Karmelo Anthony on Saturday in the stabbing death of a 17-year-old athlete at a high school t",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "A Texas judge has denied a new trial for Karmelo Anthony in the stabbing death of an athlete at a high school track meet.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.23,
+        "rawScore": 48.23,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.385,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1183b6bf37b68cf6eee1": {
+      "storyId": "1183b6bf37b68cf6eee1",
+      "url": "https://www.inc.com/pam-didner/most-people-treat-ai-fluency-like-a-ladder-the-best-teams-use-a-trampoline-instead/91387269",
+      "title": "Most People Treat AI Fluency Like a Ladder. The Best Teams Use a Trampoline Instead",
+      "source": "Inc. AI",
+      "published": "2026-08-23T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5652f8a2fffb47732dcbd129",
+      "bodyFingerprint": "d3a8daec7e0ba3090703f9a8",
+      "bodyCharacterCount": 90,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-23T09:44:53.797Z",
+      "assessment": {
+        "centralEvent": "Most People Treat AI Fluency Like a Ladder. The Best Teams Use a Trampoline Instead",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-23T08:51:01.586Z"
+  "updatedAt": "2026-08-23T09:44:53.797Z"
 }
