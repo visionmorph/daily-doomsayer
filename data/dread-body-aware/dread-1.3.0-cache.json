@@ -51191,8 +51191,413 @@
           "vulnerability": 0
         }
       }
+    },
+    "5b70534369de162a371a": {
+      "storyId": "5b70534369de162a371a",
+      "url": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash",
+      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+      "source": "TechCrunch AI",
+      "published": "2026-08-23T15:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5b56dd72691c63ee2f6da12d",
+      "bodyFingerprint": "0cb88d7b53fa4c9efba453fa",
+      "bodyCharacterCount": 4510,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T16:45:00.361Z",
+      "assessment": {
+        "centralEvent": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "STOP FLOCK.” On the right, three House Republicans recently introduced a bill that would prohibit the federal government from purchasing automated surveillance systems that use facial recognition, biometric IDs, or license plate recognition",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "STOP FLOCK.” On the right, three House Republicans recently introduced a bill that would prohibit the federal government from purchasing automated surveillance systems that use facial recognition, biometric IDs, or license plate recognition",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.86,
+        "rawScore": 46.86,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.26,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "22eba649f5831b9dbf08": {
+      "storyId": "22eba649f5831b9dbf08",
+      "url": "https://mashable.com/tech/openai-urges-stregthening-of-california-ai-safety-bill",
+      "title": "OpenAI wants California to strengthen its newly passed AI safety law",
+      "source": "Mashable AI",
+      "published": "2026-08-23T15:39:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cc462624e54f0879273375cd",
+      "bodyFingerprint": "0041a09fa1246a53fd304bd3",
+      "bodyCharacterCount": 3752,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T16:45:00.393Z",
+      "assessment": {
+        "centralEvent": "OpenAI wants California to strengthen its newly passed AI safety law",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to the Governor's office , the law requires large frontier AI developers to publish safety frameworks, establishes a formal channel for reporting critical safety incidents to California's Office of Emergency Services, protects whi",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ee36a756f3ff4dd9aaf": {
+      "storyId": "4ee36a756f3ff4dd9aaf",
+      "url": "https://apnews.com/article/canada-carney-trump-tariffs-economic-coercion-trade-a180ac85a70bbfb512ea59c224cb6c31",
+      "title": "Carney warned about economic coercion. Now Trump is testing the Canadian prime minister",
+      "source": "AP News AI",
+      "published": "2026-08-23T14:11:23",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b4d4235083023bad590dc7c8",
+      "bodyFingerprint": "e412a42b6c6716d9ccee4bfb",
+      "bodyCharacterCount": 11258,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T16:45:00.411Z",
+      "assessment": {
+        "centralEvent": "Carney warned about economic coercion. Now Trump is testing the Canadian prime minister",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“No country is more exposed than Canada,” Bothwell said.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories What to know about Trump’s 50% tariffs on Canadian goods that just went into effect 5 MIN READ 529 Trump’s trade war with Canada: A timeline of how we got here 5 MIN READ A trade war between Canada and the US further rupture",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Canadian Prime Minister Mark Carney drew international attention earlier this year by warning that middle powers such as Canada must resist economic coercion.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b03834e6777b7f93760e": {
+      "storyId": "b03834e6777b7f93760e",
+      "url": "https://apnews.com/article/buttigieg-black-voters-south-carolina-2028-president-53f9ff5a74cd5e1cdaa677fc95e58a39",
+      "title": "Pete Buttigieg returns to South Carolina as he weighs another White House run",
+      "source": "AP News AI",
+      "published": "2026-08-23T11:50:25",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "02f09e85845055ea207c3b63",
+      "bodyFingerprint": "31bffd45e03c1d06eeaf80b1",
+      "bodyCharacterCount": 11656,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T16:45:00.425Z",
+      "assessment": {
+        "centralEvent": "Pete Buttigieg returns to South Carolina as he weighs another White House run",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A second ovation came as Buttigieg gave a speech warning of a country in “big trouble” while laying out his own vision for what should come next.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He previously reported on Michigan politics for AP. twitter mailto MEG KINNARD Kinnard covers national politics for The Associated Press.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“You need to demonstrate that you can win Black voters,” said Jaime Harrison, a former Democratic National Committee chair and South Carolina Democratic Party chairman.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 77,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.59,
+        "rawScore": 26.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "abcb7f4e419278d5cc76": {
+      "storyId": "abcb7f4e419278d5cc76",
+      "url": "https://apnews.com/article/bucees-ohio-trademark-lawsuit-beaver-mini-mart-7aceb65a23ffdf0514df67fbe3cc6b91",
+      "title": "Buc-ee’s chain draws outcry in Ohio for launching fight over a mini mart's beaver logo",
+      "source": "AP News AI",
+      "published": "2026-08-23T05:00:39",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0711bf630fe27a811374da55",
+      "bodyFingerprint": "d1c228b8f6209cdc4f06b642",
+      "bodyCharacterCount": 8784,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T16:45:00.475Z",
+      "assessment": {
+        "centralEvent": "Buc-ee’s chain draws outcry in Ohio for launching fight over a mini mart's beaver logo",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Gas station giant Buc-ee’s has sparked a backlash in Ohio over one of its frequent trademark infringement lawsuits.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The small business, incorporated in 2017, changed its name from Hanes Road Carryout to Beaver’s Mini Mart in January 2025, according to the paperwork.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "10 making the beaver a permanent and official part of its 200-plus-year history.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.75,
+        "rawScore": 26.75,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.25,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c82b5513bca48c54e1c": {
+      "storyId": "8c82b5513bca48c54e1c",
+      "url": "https://apnews.com/article/trump-indycar-america-250-fe6d60c0be3a82c63d44d7aa1703a671",
+      "title": "Trump will kick off the IndyCar race in the Beast before cars zoom through Washington's streets",
+      "source": "AP News AI",
+      "published": "2026-08-23T04:01:18",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b26a58082fc0702b7f96813",
+      "bodyFingerprint": "52a50f846d514277b41881ac",
+      "bodyCharacterCount": 7251,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-23T16:45:00.483Z",
+      "assessment": {
+        "centralEvent": "Trump will kick off the IndyCar race in the Beast before cars zoom through Washington's streets",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-23T15:39:36.872Z"
+  "updatedAt": "2026-08-23T16:45:00.483Z"
 }
