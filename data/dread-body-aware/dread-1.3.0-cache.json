@@ -53367,8 +53367,643 @@
           "vulnerability": 0
         }
       }
+    },
+    "d90c0d9c7e076b70e0a0": {
+      "storyId": "d90c0d9c7e076b70e0a0",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/25/albanese-seeks-to-quell-datacentre-disquiet-as-climate-expert-warns-weve-got-one-shot-to-get-the-rules-right",
+      "title": "Albanese seeks to quell datacentre disquiet as climate expert warns ‘we’ve got one shot to get the rules right’",
+      "source": "The Guardian AI",
+      "published": "2026-08-24T14:01:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "027433de0450f765e78c7453",
+      "bodyFingerprint": "7018fa212bdd210f9ff3f0b0",
+      "bodyCharacterCount": 142,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T14:06:32.429Z",
+      "assessment": {
+        "centralEvent": "Albanese seeks to quell datacentre disquiet as climate expert warns ‘we’ve got one shot to get the rules right’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "052ca13d07abb2c877c2": {
+      "storyId": "052ca13d07abb2c877c2",
+      "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b",
+      "title": "Hugging Face reportedly in talks to be acquired for $13B",
+      "source": "TechCrunch AI",
+      "published": "2026-08-24T13:47:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a3149faea920cff6ef424a70",
+      "bodyFingerprint": "0e7dd0ca5b89b5b027fa78f4",
+      "bodyCharacterCount": 215,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T14:06:32.433Z",
+      "assessment": {
+        "centralEvent": "Hugging Face reportedly in talks to be acquired for $13B",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Hugging Face reportedly in talks to be acquired for $13B",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "89f971190b38c0bd8943": {
+      "storyId": "89f971190b38c0bd8943",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823015000.htm",
+      "title": "A ghostly ribbon of stars reveals hidden dark matter",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-24T12:19:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f843226dcacab6116ec34c8c",
+      "bodyFingerprint": "a2e9a4ff4349839ad25d75f8",
+      "bodyCharacterCount": 10802,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T14:06:32.590Z",
+      "assessment": {
+        "centralEvent": "A ghostly ribbon of stars reveals hidden dark matter",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Dogs and Humans May Share a Surprising Biological Secret to Longevity Cleaner Cars May Be Hiding a New Pollution Problem Scientists Uncover Signs of an Ancient Climate “Tipping Point” 236-Million-Year-Old Fossil",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "An international research team, including an astrophysicist from Northwestern University, has identified the first stellar stream of this type ever observed outside the Milky Way.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An international research team, including an astrophysicist from Northwestern University, has identified the first stellar stream of this type ever observed outside the Milky Way.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1380bfcb3ff0ce4ee864": {
+      "storyId": "1380bfcb3ff0ce4ee864",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823094140.htm",
+      "title": "NASA is about to launch a powerful new eye on the universe",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-24T04:45:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7df647e11b99359e1772be63",
+      "bodyFingerprint": "cd77c36ec6ec7c6871aab8cf",
+      "bodyCharacterCount": 5824,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T14:06:32.636Z",
+      "assessment": {
+        "centralEvent": "NASA is about to launch a powerful new eye on the universe",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Dogs and Humans May Share a Surprising Biological Secret to Longevity Cleaner Cars May Be Hiding a New Pollution Problem Scientists Uncover Signs of an Ancient Climate “Tipping Point” 236-Million-Year-Old Fossil",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Scientists will use Roman to study how the universe has evolved, examine what is causing its expansion, and investigate planets that orbit stars beyond our solar system, known as exoplanets.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "2, 2026  NASA’s SpaceX Crew-12 team has entered a carefully controlled two-week quarantine as the countdown begins for their journey to the International Space Station.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1f928cae2cff89573a67": {
+      "storyId": "1f928cae2cff89573a67",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260822015213.htm",
+      "title": "Scientists just imaged the hidden quantum shape of a molecule",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-24T09:55:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "45c34463b756418679a3dd7d",
+      "bodyFingerprint": "0e7a2e6d27c256bd0f285f39",
+      "bodyCharacterCount": 8758,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T14:06:32.648Z",
+      "assessment": {
+        "centralEvent": "Scientists just imaged the hidden quantum shape of a molecule",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Dogs and Humans May Share a Surprising Biological Secret to Longevity Cleaner Cars May Be Hiding a New Pollution Problem Scientists Uncover Signs of an Ancient Climate “Tipping Point” 236-Million-Year-Old Fossil",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Researchers have found a way to create a complete 3D image of a molecule’s wavefunction, one of quantum mechanics’ most fundamental yet elusive features.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "7, 2025  An international team has confirmed that large quantum systems really do obey quantum mechanics.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c31b0a49651964d5cafe": {
+      "storyId": "c31b0a49651964d5cafe",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823094152.htm",
+      "title": "Screen time at ages 1 and 6 may matter more than parents realize",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-24T10:31:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1cb8469e31708c488e8205b9",
+      "bodyFingerprint": "9a2db732b83d071315d2452d",
+      "bodyCharacterCount": 8821,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T14:06:32.656Z",
+      "assessment": {
+        "centralEvent": "Screen time at ages 1 and 6 may matter more than parents realize",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The results suggest that when children are exposed to screens could matter just as much as how much time they spend using them.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The World Health Organization (WHO) and the American Academy of Pediatrics recommend avoiding screen use before 18-24 months and limiting it to less than one hour per day for children ages 2 to 5.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "RELATED TOPICS Computers & Math Hacking Math Puzzles Encryption Artificial Intelligence Science & Society STEM Education Funding Policy Educational Policy Public Health RELATED TERMS Early childhood education News media Entertainment Workah",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Much of the previous work has relied on snapshots taken at a single point in time, focused mainly on school-age children, or lacked repeated measurements throughout early childhood.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The results suggest that when children are exposed to screens could matter just as much as how much time they spend using them.",
+            "matchedRule": "/\\b(?:children|patients|elderly|disabled people|low-income|victims of abuse)\\b.*\\b(?:harmed|targeted|exposed|affected|at risk)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.57,
+        "rawScore": 50.57,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5975,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 3
+        }
+      }
+    },
+    "3bcf776b867ffe930112": {
+      "storyId": "3bcf776b867ffe930112",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823014946.htm",
+      "title": "A tiny “rainbow on a chip” could help supercharge 6G networks",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-24T12:07:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "32b51739cc6406a9ba68e5ad",
+      "bodyFingerprint": "444e6c6dc6c8c8d096a4f8ff",
+      "bodyCharacterCount": 11055,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T14:06:32.669Z",
+      "assessment": {
+        "centralEvent": "A tiny “rainbow on a chip” could help supercharge 6G networks",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Dogs and Humans May Share a Surprising Biological Secret to Longevity Cleaner Cars May Be Hiding a New Pollution Problem Scientists Uncover Signs of an Ancient Climate “Tipping Point” 236-Million-Year-Old Fossil",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Physicists at Loughborough University, working with an international research team, demonstrated a system that produces a series of precisely spaced light frequencies.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Physicists at Loughborough University, working with an international research team, demonstrated a system that produces a series of precisely spaced light frequencies.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And How It Was Brilliantly Fixed Oct.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And How It Was Brilliantly Fixed Oct.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Earlier research demonstrated that microcombs could produce a single precise millimeter wave frequency.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.87,
+        "rawScore": 48.87,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0e1cc9f89d35d3b033bc": {
+      "storyId": "0e1cc9f89d35d3b033bc",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823094138.htm",
+      "title": "Trump to award Congressional Space Medal of Honor to Artemis II astronauts",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-24T04:25:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ab6962d390b363ec4e5587e",
+      "bodyFingerprint": "6d95ebaec437dc3ea07f9d11",
+      "bodyCharacterCount": 5199,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T14:06:32.694Z",
+      "assessment": {
+        "centralEvent": "Trump to award Congressional Space Medal of Honor to Artemis II astronauts",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Dogs and Humans May Share a Surprising Biological Secret to Longevity Cleaner Cars May Be Hiding a New Pollution Problem Scientists Uncover Signs of an Ancient Climate “Tipping Point” 236-Million-Year-Old Fossil",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Their 10-day Orion mission also carried them farther into space than anyone in history.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "16, 2026  SpaceX Crew-11 splashed down safely in the Pacific after more than five months in orbit aboard the International Space Station.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "67835332f934086e9979": {
+      "storyId": "67835332f934086e9979",
+      "url": "https://apnews.com/article/scottie-scheffler-hand-foot-mouth-bmw-championship-10dfd0a3a3432a58aef7621ea1fea2c1",
+      "title": "Scheffler says he played BMW Championship with hand, foot and mouth disease",
+      "source": "AP News AI",
+      "published": "2026-08-23T21:01:05",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c5cf29633de93cb618de27c3",
+      "bodyFingerprint": "39731ed9e92b445db8f51a0b",
+      "bodyCharacterCount": 6302,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T14:06:32.718Z",
+      "assessment": {
+        "centralEvent": "Scheffler says he played BMW Championship with hand, foot and mouth disease",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T13:15:33.538Z"
+  "updatedAt": "2026-08-24T14:06:32.718Z"
 }
