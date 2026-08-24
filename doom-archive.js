@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-24T17:00:00.000Z",
+  "generatedAt": "2026-08-24T19:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-24",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 42.44
         },
         {
@@ -45,40 +45,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 36.22,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 36.22
-        },
-        {
-          "storyId": "e24875277dd9c8e66641",
-          "title": "OpenAI hit the brakes. Now what?",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 27.08,
-          "observations": 10,
-          "daysTracked": 1,
-          "peakDate": "2026-08-24",
-          "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
-          "average": 27.08
-        },
-        {
-          "storyId": "08dde364f7c2aa81dece",
-          "title": "It’s Greg Brockman’s OpenAI now",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 27.08,
-          "observations": 10,
-          "daysTracked": 1,
-          "peakDate": "2026-08-24",
-          "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
-          "average": 27.08
         },
         {
           "storyId": "d7769cca38598e970713",
@@ -95,17 +67,45 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 27.08
         },
         {
+          "storyId": "e24875277dd9c8e66641",
+          "title": "OpenAI hit the brakes. Now what?",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 27.08,
+          "observations": 11,
+          "daysTracked": 1,
+          "peakDate": "2026-08-24",
+          "firstObservedAt": "2026-08-24T05:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
+          "average": 26.05
+        },
+        {
+          "storyId": "08dde364f7c2aa81dece",
+          "title": "It’s Greg Brockman’s OpenAI now",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 27.08,
+          "observations": 11,
+          "daysTracked": 1,
+          "peakDate": "2026-08-24",
+          "firstObservedAt": "2026-08-24T05:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
+          "average": 26.05
+        },
+        {
           "storyId": "b3989dcfb48ba9b056fe",
           "title": "The Youth AI Privacy Act’s Privacy Paradox",
           "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 23.95
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 19.75,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 19.75
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif",
           "peak": 19.71,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T10:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 19.71
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO AI",
           "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
           "peak": 19.05,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 19.05
         }
       ]
@@ -2788,11 +2788,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 42.44
         },
         {
@@ -2802,40 +2802,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 36.22,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 36.22
-        },
-        {
-          "storyId": "e24875277dd9c8e66641",
-          "title": "OpenAI hit the brakes. Now what?",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 27.08,
-          "observations": 10,
-          "daysTracked": 1,
-          "peakDate": "2026-08-24",
-          "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
-          "average": 27.08
-        },
-        {
-          "storyId": "08dde364f7c2aa81dece",
-          "title": "It’s Greg Brockman’s OpenAI now",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 27.08,
-          "observations": 10,
-          "daysTracked": 1,
-          "peakDate": "2026-08-24",
-          "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
-          "average": 27.08
         },
         {
           "storyId": "d7769cca38598e970713",
@@ -2852,17 +2824,45 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 27.08
         },
         {
+          "storyId": "e24875277dd9c8e66641",
+          "title": "OpenAI hit the brakes. Now what?",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 27.08,
+          "observations": 11,
+          "daysTracked": 1,
+          "peakDate": "2026-08-24",
+          "firstObservedAt": "2026-08-24T05:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
+          "average": 26.05
+        },
+        {
+          "storyId": "08dde364f7c2aa81dece",
+          "title": "It’s Greg Brockman’s OpenAI now",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 27.08,
+          "observations": 11,
+          "daysTracked": 1,
+          "peakDate": "2026-08-24",
+          "firstObservedAt": "2026-08-24T05:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
+          "average": 26.05
+        },
+        {
           "storyId": "b3989dcfb48ba9b056fe",
           "title": "The Youth AI Privacy Act’s Privacy Paradox",
           "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 23.95
         },
         {
@@ -2872,11 +2872,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 19.75,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 19.75
         },
         {
@@ -2886,11 +2886,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif",
           "peak": 19.71,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T10:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 19.71
         },
         {
@@ -2900,11 +2900,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO AI",
           "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
           "peak": 19.05,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 19.05
         }
       ]
@@ -3356,12 +3356,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 117,
+          "observations": 118,
           "daysTracked": 7,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
-          "average": 17.89
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
+          "average": 17.82
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -3384,12 +3384,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 234,
+          "observations": 235,
           "daysTracked": 13,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
-          "average": 39.53
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
+          "average": 39.52
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -3412,12 +3412,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 123,
+          "observations": 124,
           "daysTracked": 7,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
-          "average": 19.32
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
+          "average": 19.24
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
