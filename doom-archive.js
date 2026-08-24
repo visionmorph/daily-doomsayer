@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-24T21:00:00.000Z",
+  "generatedAt": "2026-08-24T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-24",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AI News",
           "image": "",
           "peak": 46.24,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T20:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 46.24
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 42.44
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 36.22,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 36.22
         },
         {
@@ -73,12 +73,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 27.08,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
-          "average": 24.47
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
+          "average": 23.85
         },
         {
           "storyId": "08dde364f7c2aa81dece",
@@ -87,12 +87,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 27.08,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
-          "average": 24.47
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
+          "average": 23.85
         },
         {
           "storyId": "b3989dcfb48ba9b056fe",
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 23.95
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 19.75,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 19.75
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif",
           "peak": 19.71,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T10:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 19.71
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO AI",
           "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
           "peak": 19.05,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 19.05
         }
       ]
@@ -2774,11 +2774,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AI News",
           "image": "",
           "peak": 46.24,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T20:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 46.24
         },
         {
@@ -2788,11 +2788,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 42.44
         },
         {
@@ -2802,11 +2802,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 36.22,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 36.22
         },
         {
@@ -2830,12 +2830,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 27.08,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
-          "average": 24.47
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
+          "average": 23.85
         },
         {
           "storyId": "08dde364f7c2aa81dece",
@@ -2844,12 +2844,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 27.08,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
-          "average": 24.47
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
+          "average": 23.85
         },
         {
           "storyId": "b3989dcfb48ba9b056fe",
@@ -2858,11 +2858,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 23.95
         },
         {
@@ -2872,11 +2872,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 19.75,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 19.75
         },
         {
@@ -2886,11 +2886,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif",
           "peak": 19.71,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T10:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 19.71
         },
         {
@@ -2900,11 +2900,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO AI",
           "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
           "peak": 19.05,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
           "average": 19.05
         }
       ]
@@ -3356,12 +3356,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 120,
+          "observations": 121,
           "daysTracked": 7,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
-          "average": 17.69
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
+          "average": 17.63
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -3384,12 +3384,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 237,
+          "observations": 238,
           "daysTracked": 13,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
-          "average": 39.49
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
+          "average": 39.48
         },
         {
           "storyId": "ba537370f7532a789e1d",
@@ -3412,12 +3412,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/d1a80e80-9aeb-11f1-930b-57cfba7235f9.jpg",
           "peak": 56.32,
-          "observations": 126,
+          "observations": 127,
           "daysTracked": 7,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T11:00:00.000Z",
-          "lastObservedAt": "2026-08-24T21:00:00.000Z",
-          "average": 19.09
+          "lastObservedAt": "2026-08-24T22:00:00.000Z",
+          "average": 19.02
         },
         {
           "storyId": "5d2b7216dfbecc302ef8",
