@@ -54348,8 +54348,227 @@
           "vulnerability": 0
         }
       }
+    },
+    "8ed24a571110dd622cbf": {
+      "storyId": "8ed24a571110dd622cbf",
+      "url": "https://www.inc.com/kaylawebster/slacks-new-ai-update-wants-everyone-to-be-a-builder-is-your-job-description-about-to-change/91395056",
+      "title": "Slack’s New AI Update Wants ‘Everyone to Be a Builder.’ Is Your Job Description About to Change?",
+      "source": "Inc. AI",
+      "published": "2026-08-24T15:49:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ac9481bb12d0d2ed45c62834",
+      "bodyFingerprint": "f45ed5db8c450fbf14df2c02",
+      "bodyCharacterCount": 153,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T16:57:35.660Z",
+      "assessment": {
+        "centralEvent": "Slack’s New AI Update Wants ‘Everyone to Be a Builder.’ Is Your Job Description About to Change?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e0a42bbea0adf02121b0": {
+      "storyId": "e0a42bbea0adf02121b0",
+      "url": "https://apnews.com/article/canada-trade-trump-ontario-53c4f83c8365c14b372b314396ae8179",
+      "title": "Ontario's premier: Canada should be ready to cut electricity, critical minerals as trade woes worsen",
+      "source": "AP News AI",
+      "published": "2026-08-24T14:43:12",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1f0068b51963bc2d0ab18db0",
+      "bodyFingerprint": "5d12b68b8fd0d13e02d1cba9",
+      "bodyCharacterCount": 12134,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T16:57:35.713Z",
+      "assessment": {
+        "centralEvent": "Ontario's premier: Canada should be ready to cut electricity, critical minerals as trade woes worsen",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Ford, speaking in an interview with The Associated Press, said Trump has underestimated Canadians’ willingness to endure economic pain rather than give in to U.S. pressure.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Ford says he opposed preliminary deal Ford also disclosed that he had opposed the preliminary agreement Carney was considering before Canada walked away from the negotiations.",
+            "matchedRule": "/\\b(?:still developing|preliminary|early findings?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Related Stories National Code Talker Day brings 101-year-old veteran to Phoenix 4 MIN READ Millions crowd Spanish cities to see country’s first total solar eclipse in over a century 5 MIN READ 25 Investigators look at why a plane was allowe",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Ford said he was unwilling to restore American liquor to Ontario store shelves as part of an agreement and had been prepared to publicly break with the proposed deal.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“He wants to bleed out every single sector and bring them down to the U.S.,” Ford said.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 79,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.74,
+        "rawScore": 27.74,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e24a79b33926d2bb51a1": {
+      "storyId": "e24a79b33926d2bb51a1",
+      "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china",
+      "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
+      "source": "Ars Technica AI",
+      "published": "2026-08-24T16:41:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a287ff91d1aed033f6d0dd08",
+      "bodyFingerprint": "444a6590258074564aef69da",
+      "bodyCharacterCount": 8697,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T16:57:35.843Z",
+      "assessment": {
+        "centralEvent": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Spooked investors have even sued Supermicro for securities fraud, fearing that the company’s sales may be dominated by such illicit sales.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "On Monday, Reuters reported that prosecutors in Keelung did not release any names but confirmed that the suspects were “charged with breach of trust and document forgery.” One suspect linked to a related case remains at large, accused of th",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "They alleged that Nvidia’s manager and Supermicro employees “colluded with one another at various levels for enormous profit, illegally exporting high-end servers, increasing corporate compliance costs, and severely damaging our nation’s in",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But 74 of those servers “were ultimately exported and delivered to Chinese customers,” Reuters reported, while the rest, 56, were intended to go to China but were blocked once Taiwanese customs officials “detected irregularities.” Ars could",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.13,
+        "rawScore": 48.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.375,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T15:58:24.502Z"
+  "updatedAt": "2026-08-24T16:57:35.843Z"
 }
