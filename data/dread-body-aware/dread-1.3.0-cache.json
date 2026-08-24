@@ -52381,8 +52381,115 @@
           "vulnerability": 0
         }
       }
+    },
+    "395f5eb4453935e4e3c1": {
+      "storyId": "395f5eb4453935e4e3c1",
+      "url": "https://www.inc.com/kevin-haynes/ai-skin-samples-and-beauty-michael-polansky-and-lady-gaga-chase-the-next-breakthrough-in-skincare/91395054",
+      "title": "AI, Skin Samples, and Beauty: Michael Polansky and Lady Gaga Chase the Next Breakthrough in Skincare",
+      "source": "Inc. AI",
+      "published": "2026-08-24T02:48:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5518aa2a60022b529f8040a8",
+      "bodyFingerprint": "c9d12cc9d1f32f96cbc7ea5d",
+      "bodyCharacterCount": 136,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T03:18:31.309Z",
+      "assessment": {
+        "centralEvent": "AI, Skin Samples, and Beauty: Michael Polansky and Lady Gaga Chase the Next Breakthrough in Skincare",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "159008b62d51e41cd668": {
+      "storyId": "159008b62d51e41cd668",
+      "url": "https://www.theguardian.com/news/audio/2026/aug/24/black-box-episode-1-the-connectionists-podcast",
+      "title": "Black Box: episode 1 – The connectionists – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-08-24T02:00:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "72fa9626dbcce07fcf62d265",
+      "bodyFingerprint": "c328e8dd466757377c15dcd2",
+      "bodyCharacterCount": 1003,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T03:18:31.324Z",
+      "assessment": {
+        "centralEvent": "Black Box: episode 1 – The connectionists – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T01:59:25.658Z"
+  "updatedAt": "2026-08-24T03:18:31.324Z"
 }
