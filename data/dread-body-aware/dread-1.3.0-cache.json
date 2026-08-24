@@ -52622,8 +52622,334 @@
           "vulnerability": 0
         }
       }
+    },
+    "f6fdc378e9279f2365e9": {
+      "storyId": "f6fdc378e9279f2365e9",
+      "url": "https://www.inc.com/jason-aten/for-12-years-ive-wanted-apple-to-bring-back-aperture-claude-code-helped-me-do-it-in-a-week/91395048",
+      "title": "For 12 Years, I’ve Wanted Apple to Bring Back Aperture. Claude Code Helped Me Do It in a Week",
+      "source": "Inc. AI",
+      "published": "2026-08-24T09:05:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e2c89424076b0cab8fc463e4",
+      "bodyFingerprint": "5bd1250e78b910a1a8007ce4",
+      "bodyCharacterCount": 77,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T10:05:56.585Z",
+      "assessment": {
+        "centralEvent": "For 12 Years, I’ve Wanted Apple to Bring Back Aperture. Claude Code Helped Me Do It in a Week",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6782b373bc53841f49dc": {
+      "storyId": "6782b373bc53841f49dc",
+      "url": "https://www.inc.com/amy-zwagerman/youtube-linkedin-and-substack-are-flagging-ai-generated-content-brands-need-a-public-policy/91389773",
+      "title": "YouTube, LinkedIn, and Substack Are Flagging AI-Generated Content. Brands Need a Public Policy",
+      "source": "Inc. AI",
+      "published": "2026-08-24T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5d9f207c94d387ecafc2a841",
+      "bodyFingerprint": "aef71851d113b539e983ddb9",
+      "bodyCharacterCount": 118,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T10:05:56.590Z",
+      "assessment": {
+        "centralEvent": "YouTube, LinkedIn, and Substack Are Flagging AI-Generated Content. Brands Need a Public Policy",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8335b908821f97f34548": {
+      "storyId": "8335b908821f97f34548",
+      "url": "https://www.wired.com/story/teachers-deepfake-ai-students-content",
+      "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
+      "source": "WIRED AI",
+      "published": "2026-08-24T09:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f84957ee7ef881e253052e6b",
+      "bodyFingerprint": "e87ec5d33405255db1d2d5d1",
+      "bodyCharacterCount": 15496,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T10:05:56.635Z",
+      "assessment": {
+        "centralEvent": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The deepfake epidemic in schools is affecting more than students.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Dhruv Mehrotra Reverse-Lookup Service Exposed Millions of Photos of People’s Faces The people-search tool ClarityCheck says its reverse image search service is “private and secure”—but it left a database containing more than 9 million image",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Now hundreds of thousands of people never convicted of a crime are in an FBI criminal database forever.",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Miles Klee A Typo Landed an Innocent Gamer in Prison for 18 Months How much could a single underscore in a username really matter?",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 110,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.02,
+        "rawScore": 48.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "90ea4c2370c26bc66e97": {
+      "storyId": "90ea4c2370c26bc66e97",
+      "url": "https://apnews.com/article/phoenix-police-fired-traffic-stop-taser-481bce1312f77bdbaff2c3823c2d1698",
+      "title": "Two Phoenix police officers arrested and fired after violent, unreported traffic stop",
+      "source": "AP News AI",
+      "published": "2026-08-23T21:17:52",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0734805161897d974749b8e6",
+      "bodyFingerprint": "d09e790f56184741dc199d8c",
+      "bodyCharacterCount": 4134,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T10:05:56.703Z",
+      "assessment": {
+        "centralEvent": "Two Phoenix police officers arrested and fired after violent, unreported traffic stop",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“Detectives have confirmed that the two former officers physically assaulted both the man and woman during the traffic stop,” Giordano said.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2f1ce688a79e27310726": {
+      "storyId": "2f1ce688a79e27310726",
+      "url": "https://restofworld.org/2026/uae-ai-cyberattacks-cyber-factory-defenses",
+      "title": "The UAE is fighting AI hackers with AI of its own",
+      "source": "Rest of World AI",
+      "published": "2026-08-24T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e04e7a2165ed7cd97701555a",
+      "bodyFingerprint": "9598d007066e98bac30a227e",
+      "bodyCharacterCount": 6911,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T10:05:56.745Z",
+      "assessment": {
+        "centralEvent": "The UAE is fighting AI hackers with AI of its own",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Iranian hackers have used AI at every step during the war, from choosing targets to writing malicious code and fake messages that get people to click, according to the Center for Strategic and International Studies, a Washington-based resea",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Rest of World/iStock By Divsha Bhat 24 August 2026 &bull; Dubai, United Arab Emirates Hacking attempts reached about 800,000 a day, four times prewar levels.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Iranian hackers have used AI at every step during the war, from choosing targets to writing malicious code and fake messages that get people to click, according to the Center for Strategic and International Studies, a Washington-based resea",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The UAE’s federal cyber agency has reported three waves of AI-assisted attacks this year.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T09:06:40.793Z"
+  "updatedAt": "2026-08-24T10:05:56.745Z"
 }
