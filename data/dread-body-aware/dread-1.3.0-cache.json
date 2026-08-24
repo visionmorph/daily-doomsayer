@@ -53068,8 +53068,307 @@
           "vulnerability": 0
         }
       }
+    },
+    "7862d9b3703ab31eb338": {
+      "storyId": "7862d9b3703ab31eb338",
+      "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
+      "title": "Iran's rial currency hits new record low as US prepares to announce more sanctions",
+      "source": "AP News AI",
+      "published": "2026-08-24T08:27:18",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "34ea64d3ff8ae2dcf3723c11",
+      "bodyFingerprint": "7b76c548f132a096814c977b",
+      "bodyCharacterCount": 7273,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T13:15:33.485Z",
+      "assessment": {
+        "centralEvent": "Iran's rial currency hits new record low as US prepares to announce more sanctions",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The U.S. has said the sanctions would add further pressure on an economy already battered by previous ones and an American naval blockade.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Pakistan, which played a key role in brokering a 60-day ceasefire in June, sent a high-level delegation to Iran on Monday to discuss ending the war, the military said.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The International Monetary Fund forecasts that GDP will contract more than 5%.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f86f05792d70a36dbc74": {
+      "storyId": "f86f05792d70a36dbc74",
+      "url": "https://www.inc.com/sophie-meharenna/spirit-airlines-died-its-data-lives-on-ai-could-tell-the-story/91394359",
+      "title": "A Company Dies. Its Data Lives On. AI Could Tell the Story.",
+      "source": "Inc. AI",
+      "published": "2026-08-24T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd3cf7cfe6b29960c6bba89c",
+      "bodyFingerprint": "405370997b7ecfa6f335217f",
+      "bodyCharacterCount": 64,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T13:15:33.497Z",
+      "assessment": {
+        "centralEvent": "A Company Dies. Its Data Lives On. AI Could Tell the Story.",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8d103f5479b93e4d4949": {
+      "storyId": "8d103f5479b93e4d4949",
+      "url": "https://www.bbc.co.uk/news/articles/c70ljqk5kjqo?at_campaign=rss&at_medium=RSS",
+      "title": "Twitch and Amazon face legal action over using livestreams to train AI",
+      "source": "BBC News AI",
+      "published": "2026-08-24T13:09:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "72c40ba8ed3a63b19e1ef632",
+      "bodyFingerprint": "0241d1ab093559e09b792ba3",
+      "bodyCharacterCount": 2833,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T13:15:33.515Z",
+      "assessment": {
+        "centralEvent": "Twitch and Amazon face legal action over using livestreams to train AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It claims Twitch breached its contract with users by using that content as AI training data for Amazon's models without obtaining their permission.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Streamers on the platform reportedly produced , external more than 215 million hours of content in the first few months of 2026 alone.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "be1f1f4f28beb9931113": {
+      "storyId": "be1f1f4f28beb9931113",
+      "url": "https://www.inc.com/inc-leadership-forum/21-leaders-on-staying-educated-on-ai/91391951",
+      "title": "21 Leaders on Staying Educated on AI",
+      "source": "Inc. AI",
+      "published": "2026-08-24T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "36aef3a16d04450c29a68642",
+      "bodyFingerprint": "f18008605909896fce56b694",
+      "bodyCharacterCount": 59,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T13:15:33.529Z",
+      "assessment": {
+        "centralEvent": "21 Leaders on Staying Educated on AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7a01bea9eaa0231adb86": {
+      "storyId": "7a01bea9eaa0231adb86",
+      "url": "https://mashable.com/tech/google-gemini-app-iphone-walkthrough",
+      "title": "Google’s Gemini app walkthrough: I have a personal assistant in my pocket",
+      "source": "Mashable AI",
+      "published": "2026-08-24T12:36:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6d36e5eb5822559245454d35",
+      "bodyFingerprint": "997c0a181498d904d5898065",
+      "bodyCharacterCount": 523,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T13:15:33.538Z",
+      "assessment": {
+        "centralEvent": "Google’s Gemini app walkthrough: I have a personal assistant in my pocket",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T11:46:03.753Z"
+  "updatedAt": "2026-08-24T13:15:33.538Z"
 }
