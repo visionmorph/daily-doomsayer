@@ -52488,8 +52488,142 @@
           "vulnerability": 0
         }
       }
+    },
+    "41104016879b4bcfdc7c": {
+      "storyId": "41104016879b4bcfdc7c",
+      "url": "https://mashable.com/tech/anthropic-claude-down",
+      "title": "Claude is down",
+      "source": "Mashable AI",
+      "published": "2026-08-24T07:10:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "07e83196e302654abf510336",
+      "bodyFingerprint": "8819c64021fc06bb804df312",
+      "bodyCharacterCount": 1862,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T09:06:40.766Z",
+      "assessment": {
+        "centralEvent": "Claude is down",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Anthropic's smart assistant Claude is experiencing a major outage.",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There's no word on what caused the issues or when we can expect a resolution.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "You May Also Like The most recent update at writing time didn't add any new information: \"We are continuing to work to resolve issues causing elevated requests on multiple models.\" Other companies' LLMs, including OpenAI's ChatGPT, appear t",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.54,
+        "rawScore": 65.54,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.14,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 1,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7b2400724942c7695418": {
+      "storyId": "7b2400724942c7695418",
+      "url": "https://apnews.com/article/sky-enes-kanter-natasha-cloud-8bf4dc50c06a01c402c1c4dc75f313eb",
+      "title": "Enes Kanter Freedom ejected from Fever-Sky game after he was confronted by Sky's Cloud",
+      "source": "AP News AI",
+      "published": "2026-08-24T01:19:55",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ade51fe06926e57474990454",
+      "bodyFingerprint": "9964cb958a5e95dd5a73f89d",
+      "bodyCharacterCount": 7573,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T09:06:40.793Z",
+      "assessment": {
+        "centralEvent": "Enes Kanter Freedom ejected from Fever-Sky game after he was confronted by Sky's Cloud",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“If you come to a game you should probably come to enjoy the basketball,” he said, “and that seems pretty simple to me.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T07:30:34.436Z"
+  "updatedAt": "2026-08-24T09:06:40.793Z"
 }
