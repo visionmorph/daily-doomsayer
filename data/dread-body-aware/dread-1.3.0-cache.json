@@ -55399,8 +55399,173 @@
           "vulnerability": 0
         }
       }
+    },
+    "91f828a962ad69f5576e": {
+      "storyId": "91f828a962ad69f5576e",
+      "url": "https://apnews.com/article/trump-mail-voting-supreme-court-157afc3c195ce0a62c522da5ce904b04",
+      "title": "Supreme Court sides with Trump administration on mail voting restrictions ahead of midterms",
+      "source": "AP News AI",
+      "published": "2026-08-24T20:50:48",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8c5ce3038ec3d703a84d11c",
+      "bodyFingerprint": "5b47afecd0c17aea5827aa6f",
+      "bodyCharacterCount": 8983,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T22:46:40.445Z",
+      "assessment": {
+        "centralEvent": "Supreme Court sides with Trump administration on mail voting restrictions ahead of midterms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Read More Trump fights mail-in voting despite its growing popularity Mail balloting has long been a favorite target for Trump, who has claimed that it breeds fraud despite strong evidence to the contrary and his own use of the voting method",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The three liberal-leaning justices publicly dissented, with Justice Ketanji Brown Jackson writing that the rule “lets another shoe drop in the Kafkaesque nightmare that our precedents have been steadily creating for certain plaintiffs who s",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "She later granted a second order blocking it nationwide , another remaining stumbling block for Trump administration.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A judge in Massachusetts blocked the plan for the midterm elections in those states.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A 2025 Brookings Institution study found only about four cases of fraud out of every 10 million mail ballots cast.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ea439fd975889fad9cb7": {
+      "storyId": "ea439fd975889fad9cb7",
+      "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds",
+      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "source": "Ars Technica AI",
+      "published": "2026-08-24T21:45:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9267903c785750f093ea1711",
+      "bodyFingerprint": "e7f7b38b3b5fc343141997a9",
+      "bodyCharacterCount": 8086,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T22:46:40.591Z",
+      "assessment": {
+        "centralEvent": "AI is hitting entry-level jobs hardest, Stanford study finds",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Now, newly updated research from Stanford University economists suggests AI seems to be causing significant entry-level job losses for younger workers in some fields, even as older workers appear largely unaffected so far.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Specifically, employment levels for workers aged 22 to 25 in the most “AI-exposed” occupations are now 19 percent below those of their peers in fields less exposed to AI disruption.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Brynjolfsson et al Stay in school, kids The researchers also theorized that entry-level workers could be especially affected by AI’s impact on jobs requiring heavily “codified” knowledge—the kind of “formal, standardized, documented knowled",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Specifically, employment levels for workers aged 22 to 25 in the most “AI-exposed” occupations are now 19 percent below those of their peers in fields less exposed to AI disruption.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.13,
+        "rawScore": 48.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.375,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 2
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T21:45:42.938Z"
+  "updatedAt": "2026-08-24T22:46:40.591Z"
 }
