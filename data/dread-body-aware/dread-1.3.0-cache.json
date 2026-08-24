@@ -54002,8 +54002,62 @@
           "vulnerability": 0
         }
       }
+    },
+    "b9b1e516215dec64b917": {
+      "storyId": "b9b1e516215dec64b917",
+      "url": "https://www.inc.com/kachelle-pratcher/nearly-3-in-4-young-adult-candidates-think-ai-will-reduce-jobs-heres-what-that-means/91394463",
+      "title": "Nearly 3 in 4 Young Adults Think AI Will Reduce Jobs. Here’s What That Means",
+      "source": "Inc. AI",
+      "published": "2026-08-24T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2c222be4bf840b2bf312d794",
+      "bodyFingerprint": "ce1577bc9e84f1318efbb071",
+      "bodyCharacterCount": 42,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T15:02:49.934Z",
+      "assessment": {
+        "centralEvent": "Nearly 3 in 4 Young Adults Think AI Will Reduce Jobs. Here’s What That Means",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T14:06:32.718Z"
+  "updatedAt": "2026-08-24T15:02:49.938Z"
 }
