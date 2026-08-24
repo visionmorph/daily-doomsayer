@@ -54567,8 +54567,87 @@
           "vulnerability": 0
         }
       }
+    },
+    "b47e8eab50217418f1e4": {
+      "storyId": "b47e8eab50217418f1e4",
+      "url": "https://apnews.com/article/middle-east-iran-israel-syria-august-24-2026-4c37df8a725b49eae2ab1672b4ae4201",
+      "title": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
+      "source": "AP News AI",
+      "published": "2026-08-24T10:48:56",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "08ba97cb7e35cec3332aee65",
+      "bodyFingerprint": "14638aae35c37dcef85a2aa5",
+      "bodyCharacterCount": 12169,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T17:48:50.451Z",
+      "assessment": {
+        "centralEvent": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Iran is again warning about consequences in response to expected new U.S. economic sanctions, including for its neighbors.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Uganda and Burundi military officials visit Israel to discuss Gaza troop deployment 3 MIN READ 24 Settlers kill a Palestinian teen in a West Bank clash, and other Middle East developments 4 MIN READ 79 Israel’s deadly Gaza s",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More He added that China was calling on all parties to avoid measures “that could further intensify differences and conflicts and disrupt global economic development and financial stability.” China is considered the biggest buyer of Ir",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Israel struck the Abu Duhur air base in Idlib province, saying it aimed to stop Turkey — which has supported the new Syrian government’s efforts to rebuild its armed forces after 14 years of civil war — from establishing a presence there.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29,
+        "rawScore": 29,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T16:57:35.843Z"
+  "updatedAt": "2026-08-24T17:48:50.452Z"
 }
