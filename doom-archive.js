@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AI News",
           "image": "",
           "peak": 46.24,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 46.24
         },
         {
@@ -2774,11 +2774,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AI News",
           "image": "",
           "peak": 46.24,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 1,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-24T17:00:00.000Z",
+          "lastObservedAt": "2026-08-24T19:00:00.000Z",
           "average": 46.24
         },
         {
