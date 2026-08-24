@@ -52321,8 +52321,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "2c41c26d54cd1bf0b73e": {
+      "storyId": "2c41c26d54cd1bf0b73e",
+      "url": "https://apnews.com/article/uss-lincoln-soldier-immigrant-detention-trump-8697cd00f0b3099a0c03932e40f674db",
+      "title": "He was waiting for his son to return from the USS Lincoln. Then Border Patrol arrested him.",
+      "source": "AP News AI",
+      "published": "2026-08-23T20:03:59",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b1605d85e0da134797dfea39",
+      "bodyFingerprint": "6dfe52886f3fafc7fd12c68b",
+      "bodyCharacterCount": 5847,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T01:59:25.658Z",
+      "assessment": {
+        "centralEvent": "He was waiting for his son to return from the USS Lincoln. Then Border Patrol arrested him.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "2025, shortly before Joshua deployed on the USS Lincoln the following month in Key West, Fla. (Katherine Delgado via the AP) By SAFIYAH RIDDLE , AMY TAXIN and JACK BROOK Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] L",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-23T23:37:16.340Z"
+  "updatedAt": "2026-08-24T01:59:25.658Z"
 }
