@@ -55108,8 +55108,239 @@
           "vulnerability": 0
         }
       }
+    },
+    "631077bebbf8d3968c52": {
+      "storyId": "631077bebbf8d3968c52",
+      "url": "https://www.inc.com/ashley-couto/free-ai-coding-model-ox-alpha-founders-risks/91395460",
+      "title": "A New Free AI Coding Model—Ox Alpha—Just Dropped. Founders Should Weigh the Risks Before Using It",
+      "source": "Inc. AI",
+      "published": "2026-08-24T20:30:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "891075a084f4efedfb2a5255",
+      "bodyFingerprint": "6c6372c1fcc83b7b1aa3c165",
+      "bodyCharacterCount": 179,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T20:50:42.851Z",
+      "assessment": {
+        "centralEvent": "A New Free AI Coding Model—Ox Alpha—Just Dropped. Founders Should Weigh the Risks Before Using It",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9eb5bd9441517e1157d0": {
+      "storyId": "9eb5bd9441517e1157d0",
+      "url": "https://www.inc.com/tomas-gorny/the-dangers-of-ai-speeding-why-every-business-must-master-the-human-rhythm-now/91395366",
+      "title": "The Dangers of AI Speeding: Why Every Business Must Master the Human Rhythm Now",
+      "source": "Inc. AI",
+      "published": "2026-08-24T20:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8bdf3d28ec43563d29985071",
+      "bodyFingerprint": "daf709470ae9ec847ea66bdf",
+      "bodyCharacterCount": 110,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T20:50:42.856Z",
+      "assessment": {
+        "centralEvent": "The Dangers of AI Speeding: Why Every Business Must Master the Human Rhythm Now",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2b1867bbaa95d1ff3654": {
+      "storyId": "2b1867bbaa95d1ff3654",
+      "url": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026",
+      "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-08-24T19:54:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "638649a06b4dd7f6f9a0297f",
+      "bodyFingerprint": "3b1f789270a973a5f1936cff",
+      "bodyCharacterCount": 4335,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T20:50:42.905Z",
+      "assessment": {
+        "centralEvent": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TechCrunch Events View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9e416a89eca0da7952d4": {
+      "storyId": "9e416a89eca0da7952d4",
+      "url": "https://apnews.com/article/browns-watson-sanders-monken-078db0e378eb5e30f914ad9ce8f78e75",
+      "title": "Deshaun Watson named Cleveland Browns starting quarterback over Shedeur Sanders",
+      "source": "AP News AI",
+      "published": "2026-08-24T14:19:47",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "73d0ed468233bc107da2fa91",
+      "bodyFingerprint": "a6b67aebfae33128f15b3dac",
+      "bodyCharacterCount": 9214,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T20:50:42.967Z",
+      "assessment": {
+        "centralEvent": "Deshaun Watson named Cleveland Browns starting quarterback over Shedeur Sanders",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Saleh embraces Titans’ preseason blunders as awesome for teaching tape after 19-16 win 2 MIN READ Panthers expect starting RB Chuba Hubbard to be ready for the season opener vs. the Bears 2 MIN READ 49ers owner Jed York plea",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 69,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T19:47:12.839Z"
+  "updatedAt": "2026-08-24T20:50:42.967Z"
 }
