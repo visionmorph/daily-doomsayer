@@ -52948,8 +52948,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "b76006014c0e1cc70c56": {
+      "storyId": "b76006014c0e1cc70c56",
+      "url": "https://www.inc.com/chris-morris/gallop-poll-gen-z-shoppers-ai-slop-algorithms-social-media-kalshi-guess/91394559",
+      "title": "The 73 Percent Warning Sign: Why Gen Z Shoppers Are Rejecting the New Internet",
+      "source": "Inc. AI",
+      "published": "2026-08-24T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "411b19c4e3667fa861ea63b2",
+      "bodyFingerprint": "7ef8235506d567b12f56cb61",
+      "bodyCharacterCount": 79,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-24T10:55:21.588Z",
+      "assessment": {
+        "centralEvent": "The 73 Percent Warning Sign: Why Gen Z Shoppers Are Rejecting the New Internet",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "The 73 Percent Warning Sign: Why Gen Z Shoppers Are Rejecting the New Internet",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T10:05:56.745Z"
+  "updatedAt": "2026-08-24T10:55:21.588Z"
 }
