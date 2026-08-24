@@ -55564,8 +55564,82 @@
           "vulnerability": 2
         }
       }
+    },
+    "71f2bb74fdeb648cdbf9": {
+      "storyId": "71f2bb74fdeb648cdbf9",
+      "url": "https://apnews.com/article/deportations-migrants-trump-liberia-equatorial-guinea-7ad8054e3a544882801e434c9b457483",
+      "title": "Deportees who refused to exit a US flight in Liberia are sent to Equatorial Guinea",
+      "source": "AP News AI",
+      "published": "2026-08-24T15:02:05",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9fe1b4ec561d104e634dc157",
+      "bodyFingerprint": "17b08b1fb944309fa688e68d",
+      "bodyCharacterCount": 4922,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-24T23:39:15.493Z",
+      "assessment": {
+        "centralEvent": "Deportees who refused to exit a US flight in Liberia are sent to Equatorial Guinea",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A Honduran deportee aboard the flight said the group refused to disembark, saying Liberia was “not their country” and that they would face danger there.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Instead, they were sent to Equatorial Guinea, according to a person on the plane and a lawyer.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Deportees who refused to exit a US flight in Liberia are sent to Equatorial Guinea 1 of 2 | A plane carrying the deportees from the United States arrives at the Roberts International Airport outside of Monrovia, Liberia, Thursday, Aug.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T22:46:40.591Z"
+  "updatedAt": "2026-08-24T23:39:15.493Z"
 }
