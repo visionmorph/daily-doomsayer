@@ -14560,7 +14560,7 @@
     },
     "41104016879b4bcfdc7c": {
       "storyId": "41104016879b4bcfdc7c",
-      "currentTitle": "Claude is down",
+      "currentTitle": "Claude is down (Update: Resolved)",
       "originalTitle": "Claude is down",
       "url": "https://mashable.com/tech/anthropic-claude-down",
       "canonicalUrl": "https://mashable.com/tech/anthropic-claude-down",
@@ -14639,6 +14639,18 @@
       "source": "AP News AI",
       "image": "https://dims.apnews.com/dims4/default/6455ebc/2147483647/strip/true/crop/3321x2213+139+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc8%2F25%2F75d84989c6846fa50dbeb73a8fee%2F5160eb23ba9148fbb807a3280769253c",
       "published": "2026-08-23T21:17:52",
+      "firstSeen": "2026-08-24T10:00:00.000Z",
+      "lastSeen": "2026-08-24T10:00:00.000Z"
+    },
+    "b76006014c0e1cc70c56": {
+      "storyId": "b76006014c0e1cc70c56",
+      "currentTitle": "The 73 Percent Warning Sign: Why Gen Z Shoppers Are Rejecting the New Internet",
+      "originalTitle": "The 73 Percent Warning Sign: Why Gen Z Shoppers Are Rejecting the New Internet",
+      "url": "https://www.inc.com/chris-morris/gallop-poll-gen-z-shoppers-ai-slop-algorithms-social-media-kalshi-guess/91394559",
+      "canonicalUrl": "https://www.inc.com/chris-morris/gallop-poll-gen-z-shoppers-ai-slop-algorithms-social-media-kalshi-guess/91394559",
+      "source": "Inc. AI",
+      "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/08/ai-lose-customers-inc-313835113.jpg",
+      "published": "2026-08-24T10:00:00.000Z",
       "firstSeen": "2026-08-24T10:00:00.000Z",
       "lastSeen": "2026-08-24T10:00:00.000Z"
     }
