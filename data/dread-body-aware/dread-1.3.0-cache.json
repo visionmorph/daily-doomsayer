@@ -58761,8 +58761,395 @@
           "vulnerability": 0
         }
       }
+    },
+    "c71c4b26752f758a639b": {
+      "storyId": "c71c4b26752f758a639b",
+      "url": "https://www.inc.com/moses-jeanfrancois/anthropic-hired-north-america-largest-security-firm-labor-dispute-has-closed-offices/91395797",
+      "title": "Anthropic Hired North America’s Largest Security Firm. Now a Labor Dispute Has Closed Its Offices",
+      "source": "Inc. AI",
+      "published": "2026-08-25T18:14:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1501007384dadde4195493e4",
+      "bodyFingerprint": "a3f3b3b3ab65dcf806b17890",
+      "bodyCharacterCount": 90,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-25T18:59:30.041Z",
+      "assessment": {
+        "centralEvent": "Anthropic Hired North America’s Largest Security Firm. Now a Labor Dispute Has Closed Its Offices",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The tech startup is reportedly preparing for a potential strike to disrupt in-person work.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "22147c40d454ec4f8629": {
+      "storyId": "22147c40d454ec4f8629",
+      "url": "https://www.inc.com/robyn-d-shulman/ghostwriter-linkedin-reach-advice/91395956",
+      "title": "This Ghostwriter Gets 20 Times More LinkedIn Reach Than Creators His Size. He Refuses to Use AI",
+      "source": "Inc. AI",
+      "published": "2026-08-25T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "56015b9c95717fc0fdc52489",
+      "bodyFingerprint": "33cf0a39d3e947dd3ba48ea8",
+      "bodyCharacterCount": 60,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-25T18:59:30.048Z",
+      "assessment": {
+        "centralEvent": "This Ghostwriter Gets 20 Times More LinkedIn Reach Than Creators His Size. He Refuses to Use AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c5401387773bd6a897b5": {
+      "storyId": "c5401387773bd6a897b5",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat",
+      "title": "Claude Cowork finally remembers what you told the app in chat",
+      "source": "TechCrunch AI",
+      "published": "2026-08-25T17:50:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "edbd6342aeca14bfe499c0b5",
+      "bodyFingerprint": "d32d6d28f5bcf909e46de83f",
+      "bodyCharacterCount": 3917,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T18:59:30.109Z",
+      "assessment": {
+        "centralEvent": "Claude Cowork finally remembers what you told the app in chat",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b52c237de482f52dbe3f": {
+      "storyId": "b52c237de482f52dbe3f",
+      "url": "https://www.theguardian.com/us-news/2026/aug/25/ken-paxton-datacenters-plan-texas",
+      "title": "Trump-backed Ken Paxton unveils ‘Texas first’ datacenter plan aimed at ‘negative impact’",
+      "source": "The Guardian AI",
+      "published": "2026-08-25T17:54:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "96809f7ee30024070c2bc395",
+      "bodyFingerprint": "5c1b17904694d44462cddaa4",
+      "bodyCharacterCount": 5503,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T18:59:30.119Z",
+      "assessment": {
+        "centralEvent": "Trump-backed Ken Paxton unveils ‘Texas first’ datacenter plan aimed at ‘negative impact’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He was also indicted on charges of felony securities fraud but the case was dismissed after a 2024 pre-trial diversion agreement.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Axios website reported that the National Republican Senatorial Committee warned leading AI companies that voter discontent with the centers is endangering the party’s chances of defending a Senate seat in Ohio.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The Axios website reported that the National Republican Senatorial Committee warned leading AI companies that voter discontent with the centers is endangering the party’s chances of defending a Senate seat in Ohio.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7797a8125dbb3a27cf61": {
+      "storyId": "7797a8125dbb3a27cf61",
+      "url": "https://apnews.com/article/canada-trump-lake-810649a0a4143d9042094626c4a36dad",
+      "title": "Canada strikes back at US with retaliatory tariffs as trade war escalates",
+      "source": "AP News AI",
+      "published": "2026-08-25T11:20:44",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0de3318c3ae220c496d1dd2e",
+      "bodyFingerprint": "01be5e7e96766e011405e44e",
+      "bodyCharacterCount": 13301,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T18:59:30.153Z",
+      "assessment": {
+        "centralEvent": "Canada strikes back at US with retaliatory tariffs as trade war escalates",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“We did not choose this conflict, but when our economic integration is used as a weapon rather than the foundation for a win-win partnership, we need to stand up,” Finance Minister François-Philippe Champagne said in French, calling the sit",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Canadian officials acknowledged the counter tariffs will raise costs for some businesses and consumers but said they expect the overall economic effects to be moderate.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Read More 2 of 7 | The owner of a Michigan furniture manufacturer said the White House’s new tariffs on Canadian imports will “hamper the ability for us to put food on the table for our family” (AP video: Mike Householder) Read More 3 of 7 ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Canada also announced a support package for workers and businesses affected by the dispute worth $7.5 billion in Canadian dollars ($5.4 billion in U.S. dollars).",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.97,
+        "rawScore": 26.97,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.27,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 2
+        }
+      }
+    },
+    "b90f42fde3e4b829951b": {
+      "storyId": "b90f42fde3e4b829951b",
+      "url": "https://apnews.com/article/middle-east-iran-israel-hormuz-pakistan-august-25-2026-1a4fa2e3812c458a25a561b38dc89f09",
+      "title": "Iran and Oman hold talks on managing the Strait of Hormuz and other news from around the Middle East",
+      "source": "AP News AI",
+      "published": "2026-08-25T09:46:16",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "143b4b4d3ba0e46c6d4081e2",
+      "bodyFingerprint": "198a9ed5c23a7ab2de046270",
+      "bodyCharacterCount": 11747,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T18:59:30.172Z",
+      "assessment": {
+        "centralEvent": "Iran and Oman hold talks on managing the Strait of Hormuz and other news from around the Middle East",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "24, 2026, at the Treasury Department in Washington. (AP Photo/Julia Demaree Nikhinson) Read More 5 of 5 | Riyad Abu Dagga, 69, visits the grave of his daughter, Mariam Dagga, a freelance journalist who worked with The Associated Press and o",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T17:47:23.412Z"
+  "updatedAt": "2026-08-25T18:59:30.172Z"
 }
