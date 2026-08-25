@@ -58649,8 +58649,120 @@
           "vulnerability": 0
         }
       }
+    },
+    "e3de2e7e759362f20d88": {
+      "storyId": "e3de2e7e759362f20d88",
+      "url": "https://mashable.com/tech/mac-studio-m5-ultra-can-cost-over-18k",
+      "title": "A maxed-out Mac Studio with the M5 Ultra will set you back $18,299",
+      "source": "Mashable AI",
+      "published": "2026-08-25T15:53:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5837c80e4972f6650a62d806",
+      "bodyFingerprint": "9d2cc8f6a3ff3161be1b5540",
+      "bodyCharacterCount": 14111,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T16:57:55.593Z",
+      "assessment": {
+        "centralEvent": "A maxed-out Mac Studio with the M5 Ultra will set you back $18,299",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7c95d5bb03454246cd31": {
+      "storyId": "7c95d5bb03454246cd31",
+      "url": "https://www.theguardian.com/technology/2026/aug/25/why-the-threat-from-the-rampaging-ai-machine-went-ignored",
+      "title": "Why the threat from the rampaging AI machine went ignored | Letters",
+      "source": "The Guardian AI",
+      "published": "2026-08-25T16:44:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "072c5c576554293c73cf30b1",
+      "bodyFingerprint": "0ba76b090fe1ef547b88d755",
+      "bodyCharacterCount": 2864,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T16:57:55.649Z",
+      "assessment": {
+        "centralEvent": "Why the threat from the rampaging AI machine went ignored | Letters",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In part because the next year the UK cut research funding for machine learning, robotics and AI, following the Lighthill report, which had been established – it has since been documented – for this purpose.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T16:02:45.592Z"
+  "updatedAt": "2026-08-25T16:57:55.650Z"
 }
