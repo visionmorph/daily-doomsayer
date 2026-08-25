@@ -57751,8 +57751,173 @@
           "vulnerability": 0
         }
       }
+    },
+    "dd2722042f10da3b18a0": {
+      "storyId": "dd2722042f10da3b18a0",
+      "url": "https://www.lawfaremedia.org/article/the-federal-trade-commission-after-trump-v.-slaughter",
+      "title": "The Federal Trade Commission After Trump v. Slaughter",
+      "source": "Lawfare AI",
+      "published": "2026-08-25T14:00:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4ba8e234112c6a3204d0caa5",
+      "bodyFingerprint": "b65e39a272fbfd60b7312838",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T14:07:16.397Z",
+      "assessment": {
+        "centralEvent": "The Federal Trade Commission After Trump v. Slaughter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The commission has likewise pursued enforcement actions involving allegedly deceptive AI claims, issued a report on commercial surveillance , and issued rules on negative options .",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "As James Landis later observed in “The Administrative Process,” independent commissions were designed to combine expert judgment with political accountability in a manner distinct from purely executive agencies .",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A nationally recognized expert on AI governance and civil liberties, he has advised national and international lawmakers.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Fixed terms provided continuity that allowed commissioners to pursue long-term regulatory priorities without constant concern over changes in presidential administrations.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Fixed terms provided continuity that allowed commissioners to pursue long-term regulatory priorities without constant concern over changes in presidential administrations.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Rather than concentrating authority in a single executive officer, Congress vested the commission’s powers in five commissioners serving staggered terms, limited the number of commissioners from any one political party, and expected the age",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 112,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.87,
+        "rawScore": 48.87,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1dd563e8a8d9820cd9b8": {
+      "storyId": "1dd563e8a8d9820cd9b8",
+      "url": "https://techpolicy.press/ai-systems-are-getting-more-powerful-the-ability-to-verify-must-keep-pace",
+      "title": "AI Systems Are Getting More Powerful. The Ability to Verify Must Keep Pace.",
+      "source": "Tech Policy Press AI",
+      "published": "2026-08-25T12:57:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "983a442ea330f61c467bee92",
+      "bodyFingerprint": "11756eb17ea64af01443725d",
+      "bodyCharacterCount": 7830,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T14:07:16.542Z",
+      "assessment": {
+        "centralEvent": "AI Systems Are Getting More Powerful. The Ability to Verify Must Keep Pace.",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A series of disclosures that systems developed by OpenAI , Anthropic , and Meta each hacked third-party systems during testing raised alarm, while news that an OpenAI system produced novel mathematical results accompanied by proofs that cou",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "L to R: Open AI CEO Sam Altman, US President Donald Trump, CEO of DeepMind Demis Hassabis, South Korea's President Lee Jae Myung and German Chancellor Friedrich Merz attend a working session during the G7 Summit in Evian, France, on June 17",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "He established the US Center for AI Standards and Innovation at the National Institute of Standards and Technology, and from 2017 to 2020, he served as the first assistant director for Quantum Information Science at the White House Office o",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.13,
+        "rawScore": 47.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T13:13:59.239Z"
+  "updatedAt": "2026-08-25T14:07:16.542Z"
 }
