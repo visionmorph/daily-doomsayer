@@ -5,8 +5,153 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-25T04:00:00.000Z",
+  "generatedAt": "2026-08-25T05:00:00.000Z",
   "daily": [
+    {
+      "period": "2026-08-25",
+      "stories": [
+        {
+          "storyId": "1af4f3300d0130192a63",
+          "title": "LAYING THE GROUNDWORK FOR AI-POWERED CYBERSECURITY",
+          "url": "https://www.politico.eu/sponsored-content/laying-the-groundwork-for-ai-powered-cybersecurity/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
+          "peak": 42.44,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T05:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 42.44
+        },
+        {
+          "storyId": "1c9f14ee09a7b9f09c18",
+          "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing",
+          "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 36.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T05:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 36.22
+        },
+        {
+          "storyId": "b3989dcfb48ba9b056fe",
+          "title": "The Youth AI Privacy Act’s Privacy Paradox",
+          "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
+          "peak": 23.95,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T05:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 23.95
+        },
+        {
+          "storyId": "4886a2e07c39d71065d0",
+          "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
+          "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 19.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T05:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 19.75
+        },
+        {
+          "storyId": "8335b908821f97f34548",
+          "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
+          "url": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif",
+          "peak": 19.71,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T05:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 19.71
+        },
+        {
+          "storyId": "12b2563b9d6861b5c366",
+          "title": "OpenAI settles claims of discrimination against US workers for $3.2 million",
+          "url": "https://www.politico.com/news/2026/08/04/open-ai-discrimination-settlement-doj-01024742",
+          "source": "POLITICO AI",
+          "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
+          "peak": 19.05,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T05:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 19.05
+        },
+        {
+          "storyId": "23a292887ca5e4c75326",
+          "title": "The Senate Should Reject KOSA's Privacy Risks",
+          "url": "https://www.eff.org/deeplinks/2026/08/senate-should-reject-kosas-privacy-risks",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/ageverificationbanner-3.png",
+          "peak": 19.04,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T05:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 19.04
+        },
+        {
+          "storyId": "15370392c6eefb0825a2",
+          "title": "Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country",
+          "url": "https://www.eff.org/deeplinks/2026/07/hundreds-drone-first-responder-programs-could-soon-be-launched-across-country",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/drone-police-by-shelby-criswell.png",
+          "peak": 18.98,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T05:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 18.98
+        },
+        {
+          "storyId": "387b09bf9d98c0cb37f0",
+          "title": "AI audio deepfakes are leading new ai-impersonation scams",
+          "url": "https://mashable.com/tech/ai-audio-deepfakes-ai-impersonation-scams",
+          "source": "Mashable AI",
+          "image": "https://cdn.ex.co/transformations-account/production/a0be6317-e085-43f9-8cb5-7b125d25af4b/87caa780-24c9-48f7-abbf-e03431e17e04/master.m3u8",
+          "peak": 18.14,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T05:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 18.14
+        },
+        {
+          "storyId": "ac6126c61ae7a87f3561",
+          "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+          "url": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2242817595-1152x648.jpg",
+          "peak": 17.97,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T05:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 17.97
+        }
+      ]
+    },
     {
       "period": "2026-08-24",
       "stories": [
@@ -2788,11 +2933,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 18,
-          "daysTracked": 1,
+          "observations": 19,
+          "daysTracked": 2,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-25T04:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
           "average": 42.44
         },
         {
@@ -2802,11 +2947,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 36.22,
-          "observations": 18,
-          "daysTracked": 1,
+          "observations": 19,
+          "daysTracked": 2,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-25T04:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
           "average": 36.22
         },
         {
@@ -2830,12 +2975,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 27.08,
-          "observations": 18,
-          "daysTracked": 1,
+          "observations": 19,
+          "daysTracked": 2,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-25T04:00:00.000Z",
-          "average": 22.06
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 21.73
         },
         {
           "storyId": "08dde364f7c2aa81dece",
@@ -2844,12 +2989,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 27.08,
-          "observations": 18,
-          "daysTracked": 1,
+          "observations": 19,
+          "daysTracked": 2,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-25T04:00:00.000Z",
-          "average": 22.06
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 21.73
         },
         {
           "storyId": "b3989dcfb48ba9b056fe",
@@ -2858,11 +3003,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 18,
-          "daysTracked": 1,
+          "observations": 19,
+          "daysTracked": 2,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-25T04:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
           "average": 23.95
         },
         {
@@ -2872,11 +3017,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 19.75,
-          "observations": 18,
-          "daysTracked": 1,
+          "observations": 19,
+          "daysTracked": 2,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-25T04:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
           "average": 19.75
         },
         {
@@ -2886,11 +3031,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif",
           "peak": 19.71,
-          "observations": 15,
-          "daysTracked": 1,
+          "observations": 16,
+          "daysTracked": 2,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T10:00:00.000Z",
-          "lastObservedAt": "2026-08-25T04:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
           "average": 19.71
         },
         {
@@ -2900,11 +3045,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO AI",
           "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
           "peak": 19.05,
-          "observations": 18,
-          "daysTracked": 1,
+          "observations": 19,
+          "daysTracked": 2,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-25T04:00:00.000Z",
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
           "average": 19.05
         }
       ]
@@ -3356,12 +3501,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
           "peak": 56.98,
-          "observations": 125,
-          "daysTracked": 7,
+          "observations": 126,
+          "daysTracked": 8,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-18T18:00:00.000Z",
-          "lastObservedAt": "2026-08-25T04:00:00.000Z",
-          "average": 17.38
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 17.32
         },
         {
           "storyId": "e9e13da88b51b8d9de79",
@@ -3384,12 +3529,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 56.32,
-          "observations": 242,
-          "daysTracked": 13,
+          "observations": 243,
+          "daysTracked": 14,
           "peakDate": "2026-08-19",
           "firstObservedAt": "2026-08-12T12:00:00.000Z",
-          "lastObservedAt": "2026-08-25T04:00:00.000Z",
-          "average": 39.42
+          "lastObservedAt": "2026-08-25T05:00:00.000Z",
+          "average": 39.41
         },
         {
           "storyId": "ba537370f7532a789e1d",
