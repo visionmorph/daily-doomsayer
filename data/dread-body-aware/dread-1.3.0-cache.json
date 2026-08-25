@@ -56230,8 +56230,187 @@
           "vulnerability": 0
         }
       }
+    },
+    "7322dc6ba67fb834cf14": {
+      "storyId": "7322dc6ba67fb834cf14",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/25/war-loudcasting-british-nudging-phones-public",
+      "title": "The war on ‘loudcasting’ phones can be won, but it will take some very British nudging | Dan Hancox",
+      "source": "The Guardian AI",
+      "published": "2026-08-25T07:00:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "07997e08a6b48e59d84fca9f",
+      "bodyFingerprint": "f8456d8103d710fe7df51a3e",
+      "bodyCharacterCount": 6562,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T07:10:53.429Z",
+      "assessment": {
+        "centralEvent": "The war on ‘loudcasting’ phones can be won, but it will take some very British nudging | Dan Hancox",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "His latest book is Multitudes: How Crowds Made the Modern World Explore more on these topics Environment Opinion Public transport Mobile phones TfL Pollution AI (artificial intelligence) Headphones comment Share Reuse this content Most view",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "For another – warning, more anecdotal analysis incoming – these days it always seems to be full-grown adults rather than teenagers taking calls on speakerphone or watching reels with no headphones.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a8e94d598cbc2b518730": {
+      "storyId": "a8e94d598cbc2b518730",
+      "url": "https://www.theguardian.com/technology/2026/aug/25/google-ai-overview",
+      "title": "Tell us: do you think AI has made Google search better or worse?",
+      "source": "The Guardian AI",
+      "published": "2026-08-25T06:00:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e4e9ed6befbc76abf2191a9a",
+      "bodyFingerprint": "290ae9e8c6bb9b9de1fd14d7",
+      "bodyCharacterCount": 3006,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T07:10:53.449Z",
+      "assessment": {
+        "centralEvent": "Tell us: do you think AI has made Google search better or worse?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "be25f4d73b98546ba4a8": {
+      "storyId": "be25f4d73b98546ba4a8",
+      "url": "https://apnews.com/article/officer-killed-massachusetts-husband-wife-006117548f4d151c1878adb706cbd17a",
+      "title": "Police find the body of Karen Solomon, who was sought in the killing of her police officer husband",
+      "source": "AP News AI",
+      "published": "2026-08-24T20:44:54",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "653530c4a3b839040d456602",
+      "bodyFingerprint": "c0e93ffbb21550c9a6bf835e",
+      "bodyCharacterCount": 5520,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T07:10:53.468Z",
+      "assessment": {
+        "centralEvent": "Police find the body of Karen Solomon, who was sought in the killing of her police officer husband",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Kurt Solomon, who had served 31 years with the police department, was mortally injured with a sharp object, authorities have said.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T05:49:32.713Z"
+  "updatedAt": "2026-08-25T07:10:53.468Z"
 }
