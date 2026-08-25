@@ -57118,8 +57118,80 @@
           "vulnerability": 0
         }
       }
+    },
+    "6161beeffbc3b7477742": {
+      "storyId": "6161beeffbc3b7477742",
+      "url": "https://www.theguardian.com/uk-news/2026/aug/25/planned-datacentres-carbon-emissions-uk-exxonmobil",
+      "title": "Two planned datacentres will have higher UK carbon emissions than ExxonMobil, analysis finds",
+      "source": "The Guardian AI",
+      "published": "2026-08-25T11:04:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "18559bc2ff36df94f96bee1d",
+      "bodyFingerprint": "abceb528268f9abcfa4ed810",
+      "bodyCharacterCount": 5455,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T11:45:59.541Z",
+      "assessment": {
+        "centralEvent": "Two planned datacentres will have higher UK carbon emissions than ExxonMobil, analysis finds",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "However there remains a high level of uncertainty over how this will work.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A government spokesperson said these figures were “misleading” because of the assumption that both projects will run at 100% utilisation from day one, which they said was “not accurate”.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "ExxonMobil emitted 3.9m tonnes in 2023, according to the global energy thinktank Ember.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T10:51:44.707Z"
+  "updatedAt": "2026-08-25T11:45:59.541Z"
 }
