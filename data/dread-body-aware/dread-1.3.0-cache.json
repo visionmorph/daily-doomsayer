@@ -56992,8 +56992,134 @@
           "vulnerability": 0
         }
       }
+    },
+    "6ffcbcd5e776d031e0e5": {
+      "storyId": "6ffcbcd5e776d031e0e5",
+      "url": "https://www.inc.com/joe-procopio/generative-ai-is-fading-here-are-4-bets-on-whats-next-in-tech/91395641",
+      "title": "Generative AI Is Fading. Here Are 4 Bets On What’s Next In Tech",
+      "source": "Inc. AI",
+      "published": "2026-08-25T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "046e26df057c765b11108b24",
+      "bodyFingerprint": "8a61b12f0b8add8cdabd8654",
+      "bodyCharacterCount": 64,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-25T10:51:44.642Z",
+      "assessment": {
+        "centralEvent": "Generative AI Is Fading. Here Are 4 Bets On What’s Next In Tech",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "33323de9ccb939b175ed": {
+      "storyId": "33323de9ccb939b175ed",
+      "url": "https://restofworld.org/2026/us-immigration-rules-ai-talent-china",
+      "title": "America’s immigration policy is driving away future AI leaders",
+      "source": "Rest of World AI",
+      "published": "2026-08-25T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0d93676aa2e1f4b9981be11a",
+      "bodyFingerprint": "22a069ed35cec429ac9416b6",
+      "bodyCharacterCount": 6352,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T10:51:44.706Z",
+      "assessment": {
+        "centralEvent": "America’s immigration policy is driving away future AI leaders",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In addition to the $100,000 for OPTs, the window for students to remain in the country after finishing a degree has been cut from 60 days to 30 to combat “rampant visa abuse.” Which means students will spend the last year of their Ph.D. str",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In addition to the $100,000 for OPTs, the window for students to remain in the country after finishing a degree has been cut from 60 days to 30 to combat “rampant visa abuse.” Which means students will spend the last year of their Ph.D. str",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Visa restrictions are deterring international AI talent from building companies in the U.S., giving other nations including China an opportunity to catch up.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T09:53:08.685Z"
+  "updatedAt": "2026-08-25T10:51:44.707Z"
 }
