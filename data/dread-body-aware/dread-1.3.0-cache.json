@@ -55908,8 +55908,73 @@
           "vulnerability": 0
         }
       }
+    },
+    "47afb2bef012645bf05a": {
+      "storyId": "47afb2bef012645bf05a",
+      "url": "https://www.theguardian.com/news/audio/2026/aug/25/black-box-episode-2-the-hunt-for-clothoff-the-deepfake-porn-app-podcast",
+      "title": "Black Box: episode 2 – The hunt for ClothOff, the deepfake porn app – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-08-25T02:00:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fe499ed7cd37c9c6aa5cab76",
+      "bodyFingerprint": "98e5b9bb6b75b522d46dfb42",
+      "bodyCharacterCount": 1011,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T03:14:03.509Z",
+      "assessment": {
+        "centralEvent": "Black Box: episode 2 – The hunt for ClothOff, the deepfake porn app – podcast",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Black Box: episode 2 – The hunt for ClothOff, the deepfake porn app – podcast",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "These deepfakes are causing havoc around the world, with police and lawmakers baffled about how to deal with them.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T01:54:12.840Z"
+  "updatedAt": "2026-08-25T03:14:03.510Z"
 }
