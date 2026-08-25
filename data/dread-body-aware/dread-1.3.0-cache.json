@@ -59422,8 +59422,142 @@
           "vulnerability": 0
         }
       }
+    },
+    "8800c2c2798abc53a0ae": {
+      "storyId": "8800c2c2798abc53a0ae",
+      "url": "https://apnews.com/article/immigration-military-spouse-deported-1f7b72c850410fa1e314902b0464eca5",
+      "title": "Wife of active-duty Army sergeant is deported to Honduras under Trump's immigration crackdown",
+      "source": "AP News AI",
+      "published": "2026-08-25T00:53:52",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5ef4d4b0a0f73bbc4d5b3c43",
+      "bodyFingerprint": "506190df3f5318b6de7c2e83",
+      "bodyCharacterCount": 6749,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T20:48:22.209Z",
+      "assessment": {
+        "centralEvent": "Wife of active-duty Army sergeant is deported to Honduras under Trump's immigration crackdown",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“I have to make a plan to make sure I can still fulfill my military responsibilities — but also take care of my family.” DHS confirmed Villafranca-Trejo’s deportation, saying she had “received due process.” Related Stories Father of Navy sa",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3b8130f5b18883c4b794": {
+      "storyId": "3b8130f5b18883c4b794",
+      "url": "https://apnews.com/article/us-open-roger-federer-e0fb8a7036f8189db5c29ca6f8568b66",
+      "title": "Roger Federer is coming back to play at the US Open, but not interested in coming back to pro tennis",
+      "source": "AP News AI",
+      "published": "2026-08-24T19:59:01",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7f8d0e69d4d97397838332db",
+      "bodyFingerprint": "043c8c4d975577538ddbd0f5",
+      "bodyCharacterCount": 4610,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T20:48:22.219Z",
+      "assessment": {
+        "centralEvent": "Roger Federer is coming back to play at the US Open, but not interested in coming back to pro tennis",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "So there is a lot of uncertainty but a lot of happiness that I can return to Arthur Ashe, a place where I have had so many beautiful moments.” It’s only one set of singles in an exhibition against Andy Roddick and one set of doubles with Jo",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "2, 2017. (AP Photo/Seth Wenig) By BRIAN MAHONEY Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More The trip to New York is a stop for Federer on his way to Newport, Rhode Island, where he will be enshrined in the International Tennis Hall of Fame on Saturday.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T19:47:44.819Z"
+  "updatedAt": "2026-08-25T20:48:22.219Z"
 }
