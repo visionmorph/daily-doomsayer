@@ -59148,8 +59148,282 @@
           "vulnerability": 0
         }
       }
+    },
+    "e825eacb926a575f14c8": {
+      "storyId": "e825eacb926a575f14c8",
+      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding",
+      "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+      "source": "TechCrunch AI",
+      "published": "2026-08-25T19:03:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "559e12079e5b8a9d308f9565",
+      "bodyFingerprint": "be15a53d8e184d4b1f40bcfc",
+      "bodyCharacterCount": 3453,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T19:47:44.767Z",
+      "assessment": {
+        "centralEvent": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A judge ruled largely in Stability’s favor in that case, but a similar lawsuit from Getty in the U.S. is still working its way through the courts .",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6c3d6616e6fb4fd313dd": {
+      "storyId": "6c3d6616e6fb4fd313dd",
+      "url": "https://www.theguardian.com/technology/2026/aug/25/taiwan-china-ai-smugglers",
+      "title": "Taiwan charges nine people for smuggling ‘high-end’ AI servers to China",
+      "source": "The Guardian AI",
+      "published": "2026-08-25T19:02:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6af1d34658ca50f10120e4e2",
+      "bodyFingerprint": "32cd3e96e62ae85ad5d1112d",
+      "bodyCharacterCount": 3344,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T19:47:44.797Z",
+      "assessment": {
+        "centralEvent": "Taiwan charges nine people for smuggling ‘high-end’ AI servers to China",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Chang was the “key figure” responsible for “authorizing the release of the B300 GPUs” in this case but “demonstrated a clearly poor attitude following the offense”, the document said.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c4d904a2fe671745993f": {
+      "storyId": "c4d904a2fe671745993f",
+      "url": "https://apnews.com/article/russia-ukraine-war-putin-companies-drones-f2ef0ded42dfab093bd9b08a8157b931",
+      "title": "Putin decree lets Russia take control of infrastructure damaged in Ukrainian drone attacks",
+      "source": "AP News AI",
+      "published": "2026-08-25T09:58:26",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1c8918691b796a4f1a557377",
+      "bodyFingerprint": "7529448ea621fa9bff3bc7db",
+      "bodyCharacterCount": 8938,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T19:47:44.808Z",
+      "assessment": {
+        "centralEvent": "Putin decree lets Russia take control of infrastructure damaged in Ukrainian drone attacks",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The move came Monday amid growing economic pressure and public frustration being felt in Russia after months of escalating Ukrainian attacks on oil refineries and e-commerce hubs that have caused nationwide disruptions.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories A women’s shelter for refugees in Poland fights for survival as anti-Ukrainian sentiment rises 5 MIN READ 16 The UK will help Ukraine make long-range missiles by sharing classified tech information 3 MIN READ 21 Ukraine’s am",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Putin decree lets Russia take control of infrastructure damaged in Ukrainian drone attacks 1 of 3 | Odesa Regional Military Administration head Oleh Kiper said food storage facilities and energy infrastructure were hit.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Russian President Vladimir Putin has decreed that the state can temporarily seize control of critical infrastructure facilities if private owners fail to protect them from Ukrainian drone attacks or rebuild them after the strikes.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The company and thousands of sellers working with it have been hit hard by repeated Ukrainian strikes on warehouses.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.5,
+        "rawScore": 29.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ed749a39403a4e9e361d": {
+      "storyId": "ed749a39403a4e9e361d",
+      "url": "https://apnews.com/article/49ers-jed-york-arrested-e8b72b47841e50760dfa9c4713d4267e",
+      "title": "49ers owner Jed York pleads no contest to two misdemeanor charges in Ohio",
+      "source": "AP News AI",
+      "published": "2026-08-24T16:03:11",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4dc1bc28109957d8be7f6cc8",
+      "bodyFingerprint": "87f231a34150a5606b51cfc6",
+      "bodyCharacterCount": 3968,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T19:47:44.819Z",
+      "assessment": {
+        "centralEvent": "49ers owner Jed York pleads no contest to two misdemeanor charges in Ohio",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "York took over day-to-day control of the 49ers from his parents in 2008.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "2, 2026. (AP Photo/Jeff Chiu, File) By JOSH DUBOW Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T18:59:30.172Z"
+  "updatedAt": "2026-08-25T19:47:44.819Z"
 }
