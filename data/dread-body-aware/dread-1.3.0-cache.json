@@ -55638,8 +55638,278 @@
           "vulnerability": 0
         }
       }
+    },
+    "06bedc60f5b26915a82a": {
+      "storyId": "06bedc60f5b26915a82a",
+      "url": "https://www.inc.com/melissa-angell/openai-sba-and-labor-department-launch-manufacturing-jobs-expo-for-college-students/91393914",
+      "title": "OpenAI, SBA, and Labor Department Launch Manufacturing Jobs Expo for College Students",
+      "source": "Inc. AI",
+      "published": "2026-08-24T23:36:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "120a1dfb13568ff312be9e1c",
+      "bodyFingerprint": "c1d0e58a4e539dc59cd5385f",
+      "bodyCharacterCount": 162,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-25T01:54:12.705Z",
+      "assessment": {
+        "centralEvent": "OpenAI, SBA, and Labor Department Launch Manufacturing Jobs Expo for College Students",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "907d1cf9aab54bfad0e9": {
+      "storyId": "907d1cf9aab54bfad0e9",
+      "url": "https://apnews.com/article/hawk-fire-reno-nevada-evacuations-b572e2a15fe6a263231e04ea932cf6c8",
+      "title": "Firefighters make progress against a Nevada wildfire that's destroyed more than 30 homes",
+      "source": "AP News AI",
+      "published": "2026-08-24T15:07:15",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "958b8132de00d3a208250a22",
+      "bodyFingerprint": "0d0ce5232bde3bb7e9f940c5",
+      "bodyCharacterCount": 13393,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T01:54:12.759Z",
+      "assessment": {
+        "centralEvent": "Firefighters make progress against a Nevada wildfire that's destroyed more than 30 homes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Read More 4 of 9 | The out-of-control fire has already burned some homes, but there’s concern that shifting winds could push the flames into newly developed and densely packed neighbourhoods on the edge of Nevada’s second-biggest city.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Crystal Hallock, 53, lost her home to fire for a second time in less than a decade.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The Hawk Fire began Saturday and quickly grew to 20 square miles (53 square kilometres) as it spread across the Peavine Peak area of the Humboldt-Toiyabe National Forest.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“It took your breath away, in the worst way.” Related Stories Wife of active-duty Army sergeant is deported to Honduras under Trump’s immigration crackdown 3 MIN READ California lawmakers vote to increase transparency over influencers’ paid",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Containment reached 27% and there was no new growth of the Hawk Fire , which has held steady at about 23 square miles (60 square kilometers) since it burned out of control on Sunday, authorities said at an afternoon news briefing.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Treat our neighbors, first responders, hospitality workers and everyone affected by this emergency with patience and care,” a Burning Man statement said.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 91,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 32.25,
+        "rawScore": 32.25,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.75,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 2
+        }
+      }
+    },
+    "2600a6f3e6c45305ffa2": {
+      "storyId": "2600a6f3e6c45305ffa2",
+      "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec",
+      "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+      "source": "TechCrunch AI",
+      "published": "2026-08-25T00:23:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41d33991d013c4be7db4da97",
+      "bodyFingerprint": "718037d5bf85184a382a8da5",
+      "bodyCharacterCount": 2196,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T01:54:12.789Z",
+      "assessment": {
+        "centralEvent": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , TC October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "637989f91d7f00835701": {
+      "storyId": "637989f91d7f00835701",
+      "url": "https://apnews.com/article/trump-rubio-visas-revoke-e9c14fdfd0ada439d2b9d8694e678a46",
+      "title": "US set for largest mass visa revocation in history targeting up to 200,000 foreigners, officials say",
+      "source": "AP News AI",
+      "published": "2026-08-24T20:30:22",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41c2297e9f1812abc6298823",
+      "bodyFingerprint": "c18b5fa848ce8b28ad717bbf",
+      "bodyCharacterCount": 6578,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T01:54:12.839Z",
+      "assessment": {
+        "centralEvent": "US set for largest mass visa revocation in history targeting up to 200,000 foreigners, officials say",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Unless challenged or revised, the State Department is expected to announce in the coming weeks the revocation of so-called B1 and B2 visas issued between 2016 and 2026 whose holders have sought asylum or are now seeking asylum, according to",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-24T23:39:15.493Z"
+  "updatedAt": "2026-08-25T01:54:12.840Z"
 }
