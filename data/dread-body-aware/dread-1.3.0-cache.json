@@ -58334,8 +58334,323 @@
           "vulnerability": 0
         }
       }
+    },
+    "b6a30b9b2c24b0fdce07": {
+      "storyId": "b6a30b9b2c24b0fdce07",
+      "url": "https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs",
+      "title": "AI won’t replace radiologists, but it will dramatically change their jobs",
+      "source": "Ars Technica AI",
+      "published": "2026-08-25T15:10:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6597436e1cdef87befa10a6d",
+      "bodyFingerprint": "fd1a9da1601a916d2774a5d9",
+      "bodyCharacterCount": 10147,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T16:02:45.329Z",
+      "assessment": {
+        "centralEvent": "AI won’t replace radiologists, but it will dramatically change their jobs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Electronic medical record alerts triggered by rule-based algorithms have been warning physicians for decades about things like potentially dangerous drug interactions.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "For example, an analysis of 43 clinical trials concluded that AI-assisted colonoscopies reveal more polyps than conventional ones.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Improving accuracy is important, because the average human error rates involving diagnostic images are estimated to range from 3 to 5 percent, which translates to about 40 million errors worldwide each year .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Today the field can retort by quoting Mark Twain’s famous quip: The report of my death was an exaggeration .",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.73,
+        "rawScore": 28.73,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.43,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "206149a507acaf7a37f6": {
+      "storyId": "206149a507acaf7a37f6",
+      "url": "https://mashable.com/tech/tee-app-mental-health",
+      "title": "AI mental healthcare is here. Can it help people — or cause more problems?",
+      "source": "Mashable AI",
+      "published": "2026-08-25T15:39:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "180550b7f821f4b357c43cd9",
+      "bodyFingerprint": "6ca9ffe0241f4891c1fd7e74",
+      "bodyCharacterCount": 8916,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T16:02:45.355Z",
+      "assessment": {
+        "centralEvent": "AI mental healthcare is here. Can it help people — or cause more problems?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "We don't want people engaging with Tee 20 hours a day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "72e0e3b3ed0fb0012e77": {
+      "storyId": "72e0e3b3ed0fb0012e77",
+      "url": "https://www.politico.eu/article/un-chief-antonio-guterres-calls-to-rein-in-autonomous-weapons",
+      "title": "UN chief tells countries to rein in autonomous weapons",
+      "source": "POLITICO Europe AI",
+      "published": "2026-08-25T15:17:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d881af4434b1be64a27127d5",
+      "bodyFingerprint": "049d4d70f2fde826422208f5",
+      "bodyCharacterCount": 1653,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T16:02:45.358Z",
+      "assessment": {
+        "centralEvent": "UN chief tells countries to rein in autonomous weapons",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cd36e34ebecc2c2e78f4": {
+      "storyId": "cd36e34ebecc2c2e78f4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "source": "The Verge AI",
+      "published": "2026-08-25T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "368fb4a99648fad31dca3fe2",
+      "bodyFingerprint": "96eb2395c8360cd73e2206d3",
+      "bodyCharacterCount": 4652,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T16:02:45.371Z",
+      "assessment": {
+        "centralEvent": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Emma Roth Jul 9 Most Popular Most Popular Raspberry Pi shares its official tutorial for making a cyberdeck Android is getting its own weird dots to cure car sickness The cat-and-mouse game over 3D-printed guns has begun Robotaxis are real n",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth Jul 9 Most Popular Most Popular Raspberry Pi shares its official tutorial for making a cyberdeck Android is getting its own weird dots to cure car sickness The cat-and-mouse game over 3D-printed guns has begun Robotaxis are real n",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "db5737db19b3e5c7ea5c": {
+      "storyId": "db5737db19b3e5c7ea5c",
+      "url": "https://www.artificialintelligence-news.com/news/mit-ai-forecasts-extreme-weather-without-historical-data",
+      "title": "MIT AI forecasts extreme weather without historical data",
+      "source": "AI News",
+      "published": "2026-08-25T15:46:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7db085401ed986d9c6d7898f",
+      "bodyFingerprint": "d8aecc2e539b4d71fc6ea487",
+      "bodyCharacterCount": 467,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-25T16:02:45.591Z",
+      "assessment": {
+        "centralEvent": "MIT AI forecasts extreme weather without historical data",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T15:08:25.294Z"
+  "updatedAt": "2026-08-25T16:02:45.592Z"
 }
