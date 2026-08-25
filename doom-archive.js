@@ -67,6 +67,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 23.95
         },
         {
+          "storyId": "6c2861183e872b5c5256",
+          "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 19.98,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T09:00:00.000Z",
+          "lastObservedAt": "2026-08-25T09:00:00.000Z",
+          "average": 19.98
+        },
+        {
           "storyId": "4886a2e07c39d71065d0",
           "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
           "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-25T05:00:00.000Z",
           "lastObservedAt": "2026-08-25T09:00:00.000Z",
           "average": 18.98
-        },
-        {
-          "storyId": "387b09bf9d98c0cb37f0",
-          "title": "AI audio deepfakes are leading new ai-impersonation scams",
-          "url": "https://mashable.com/tech/ai-audio-deepfakes-ai-impersonation-scams",
-          "source": "Mashable AI",
-          "image": "https://cdn.ex.co/transformations-account/production/a0be6317-e085-43f9-8cb5-7b125d25af4b/87caa780-24c9-48f7-abbf-e03431e17e04/master.m3u8",
-          "peak": 18.14,
-          "observations": 4,
-          "daysTracked": 1,
-          "peakDate": "2026-08-25",
-          "firstObservedAt": "2026-08-25T05:00:00.000Z",
-          "lastObservedAt": "2026-08-25T09:00:00.000Z",
-          "average": 18.14
         }
       ]
     },
@@ -3011,6 +3011,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 23.95
         },
         {
+          "storyId": "6c2861183e872b5c5256",
+          "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 19.98,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-25",
+          "firstObservedAt": "2026-08-25T09:00:00.000Z",
+          "lastObservedAt": "2026-08-25T09:00:00.000Z",
+          "average": 19.98
+        },
+        {
           "storyId": "4886a2e07c39d71065d0",
           "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
           "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -3037,20 +3051,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-24T10:00:00.000Z",
           "lastObservedAt": "2026-08-25T09:00:00.000Z",
           "average": 19.71
-        },
-        {
-          "storyId": "12b2563b9d6861b5c366",
-          "title": "OpenAI settles claims of discrimination against US workers for $3.2 million",
-          "url": "https://www.politico.com/news/2026/08/04/open-ai-discrimination-settlement-doj-01024742",
-          "source": "POLITICO AI",
-          "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
-          "peak": 19.05,
-          "observations": 22,
-          "daysTracked": 2,
-          "peakDate": "2026-08-24",
-          "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-25T09:00:00.000Z",
-          "average": 19.05
         }
       ]
     },
