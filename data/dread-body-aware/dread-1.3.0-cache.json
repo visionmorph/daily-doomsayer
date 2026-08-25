@@ -59676,8 +59676,131 @@
           "vulnerability": 0
         }
       }
+    },
+    "85e33029e1e89bee7db7": {
+      "storyId": "85e33029e1e89bee7db7",
+      "url": "https://apnews.com/article/billings-montana-family-killed-house-burned-e977fa5e9cd635eea4e111ad8b2c79ff",
+      "title": "A Montana man killed 8 relatives, including 4 kids, at Sunday dinner, family says",
+      "source": "AP News AI",
+      "published": "2026-08-25T21:23:33",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3dcbdf288e3202d88a0345d6",
+      "bodyFingerprint": "dbd59f67658d5ce9068b6329",
+      "bodyCharacterCount": 5812,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T23:40:58.481Z",
+      "assessment": {
+        "centralEvent": "A Montana man killed 8 relatives, including 4 kids, at Sunday dinner, family says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "25, 2026, where a family was killed and the house burned in Billings, Mont. (AP Photo/Matthew Brown) Read More 2 of 2 | Landon and Charlotte Ghekiere of Billings, Montana, are seen in an undated photo provided by their mother, Erica Schneid",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f6e7507c08afd56909f7": {
+      "storyId": "f6e7507c08afd56909f7",
+      "url": "https://www.bbc.co.uk/news/articles/c07ler8x9kpo?at_campaign=rss&at_medium=RSS",
+      "title": "AI gold rush draws crypto firms away from Bitcoin",
+      "source": "BBC News AI",
+      "published": "2026-08-25T23:11:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fea2dddafe1fdd2454d123ff",
+      "bodyFingerprint": "9644023fc80c7298314f3d86",
+      "bodyCharacterCount": 5000,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T23:40:58.670Z",
+      "assessment": {
+        "centralEvent": "AI gold rush draws crypto firms away from Bitcoin",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image caption, Crypto mining companies can house tens of thousands of powerful computers Wolfie Zhao from The Energy Mag - a publication that rebranded from The Miner Mag to reflect the trend - predicts the industry pivot will continue even",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T22:47:38.819Z"
+  "updatedAt": "2026-08-25T23:40:58.670Z"
 }
