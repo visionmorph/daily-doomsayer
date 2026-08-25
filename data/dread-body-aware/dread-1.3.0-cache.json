@@ -57916,8 +57916,426 @@
           "vulnerability": 0
         }
       }
+    },
+    "0c7fd51720556fba224e": {
+      "storyId": "0c7fd51720556fba224e",
+      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show",
+      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "source": "TechCrunch AI",
+      "published": "2026-08-25T14:22:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b3d7405bc7cb746def88e8d7",
+      "bodyFingerprint": "63fb4928574111d67303a9ed",
+      "bodyCharacterCount": 3301,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T15:08:24.827Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fc24cc252e631bc7c52f": {
+      "storyId": "fc24cc252e631bc7c52f",
+      "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica",
+      "title": "Gamma acquires Accel-backed design startup Lica",
+      "source": "TechCrunch AI",
+      "published": "2026-08-25T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4564b01fc001e1a1b70be2a4",
+      "bodyFingerprint": "5c82c1c9db921e4c90874337",
+      "bodyCharacterCount": 4281,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T15:08:24.856Z",
+      "assessment": {
+        "centralEvent": "Gamma acquires Accel-backed design startup Lica",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c43f68465b003f3379f": {
+      "storyId": "8c43f68465b003f3379f",
+      "url": "https://apnews.com/article/britain-tiktok-videos-dangerous-driving-deaths-f7f32062f2093046ce71fd0703896d66",
+      "title": "Britain tells TikTok and other platforms to remove videos glorifying dangerous driving after deaths",
+      "source": "AP News AI",
+      "published": "2026-08-24T17:00:37",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "98bc4a8d7dd029501cad876a",
+      "bodyFingerprint": "8a428adaa231432efebf0dbd",
+      "bodyCharacterCount": 3301,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T15:08:24.876Z",
+      "assessment": {
+        "centralEvent": "Britain tells TikTok and other platforms to remove videos glorifying dangerous driving after deaths",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "22, 2026. (Owen Humphreys/PA via AP) Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "16b0fe1dbaad50f5e05c": {
+      "storyId": "16b0fe1dbaad50f5e05c",
+      "url": "https://www.nature.com/articles/d41586-026-02569-3",
+      "title": "AI-detection tools have made huge leaps forward — how good are they?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-08-25T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3cc36cfa7903e86e56698b96",
+      "bodyFingerprint": "5b780896dd4f687121c8046c",
+      "bodyCharacterCount": 69,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-25T15:08:24.925Z",
+      "assessment": {
+        "centralEvent": "AI-detection tools have made huge leaps forward — how good are they?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "413c39275ec14d84ed33": {
+      "storyId": "413c39275ec14d84ed33",
+      "url": "https://www.inc.com/bruce-crumley/the-new-no-1-u-s-tech-hub-isnt-silicon-valley-anymore/91395767",
+      "title": "The New No. 1 U.S. Tech Hub Isn’t Silicon Valley Anymore",
+      "source": "Inc. AI",
+      "published": "2026-08-25T14:53:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "59825e3ad878797a2df8f339",
+      "bodyFingerprint": "97ec3501fa74b2ae5d9bf69b",
+      "bodyCharacterCount": 156,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-25T15:08:24.955Z",
+      "assessment": {
+        "centralEvent": "The New No. 1 U.S. Tech Hub Isn’t Silicon Valley Anymore",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c9152cdd5c9116ba3604": {
+      "storyId": "c9152cdd5c9116ba3604",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/26/australia-may-face-a-rush-of-datacentre-construction-as-ai-firms-look-to-dodge-upcoming-rules-experts-say",
+      "title": "Australia may face a rush of datacentre construction as AI firms look to dodge upcoming rules, experts say",
+      "source": "The Guardian AI",
+      "published": "2026-08-25T15:00:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b405a527398107d9e3743a50",
+      "bodyFingerprint": "1de0306c7bc7f2df0af43875",
+      "bodyCharacterCount": 4613,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T15:08:25.041Z",
+      "assessment": {
+        "centralEvent": "Australia may face a rush of datacentre construction as AI firms look to dodge upcoming rules, experts say",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There is uncertainty over the number of projects that will ultimately go ahead.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Australian Energy Market Operator (Aemo) reported on Tuesday there were 225 datacentres in development, and electricity demand from them was expected to grow from 5 to 34 terawatt hours by 2036.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Anthony Albanese at a national cabinet meeting in Perth.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ee667e1db898b613d7ff": {
+      "storyId": "ee667e1db898b613d7ff",
+      "url": "https://www.nature.com/articles/d41586-026-02567-5",
+      "title": "How to manage AI risks while reaping the benefits",
+      "source": "Nature AI News & Comment",
+      "published": "2026-08-25T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "90cb743cbe60154db648c417",
+      "bodyFingerprint": "04db9d73753061d3daa2a038",
+      "bodyCharacterCount": 50,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-25T15:08:25.293Z",
+      "assessment": {
+        "centralEvent": "How to manage AI risks while reaping the benefits",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T14:07:16.542Z"
+  "updatedAt": "2026-08-25T15:08:25.294Z"
 }
