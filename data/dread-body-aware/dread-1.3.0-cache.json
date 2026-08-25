@@ -57190,8 +57190,569 @@
           "vulnerability": 0
         }
       }
+    },
+    "706dcdf4cbb7e612b6f5": {
+      "storyId": "706dcdf4cbb7e612b6f5",
+      "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents",
+      "title": "Accel-backed Keenable is indexing the web for AI agents",
+      "source": "TechCrunch AI",
+      "published": "2026-08-25T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1d933a100f64964d735b76d7",
+      "bodyFingerprint": "2711d0307aa83cc1b93d8b30",
+      "bodyCharacterCount": 6094,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T13:13:58.978Z",
+      "assessment": {
+        "centralEvent": "Accel-backed Keenable is indexing the web for AI agents",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f4246b18c0472f224cbd": {
+      "storyId": "f4246b18c0472f224cbd",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/25/ai-mathematics-careers",
+      "title": "No, AI doesn’t mean the end of mathematics – at least not yet | Bruce Schneier and Kasra Rafi",
+      "source": "The Guardian AI",
+      "published": "2026-08-25T12:00:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2bc9f9647801784d888ada81",
+      "bodyFingerprint": "a760f7a753a19d8933878300",
+      "bodyCharacterCount": 5529,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T13:13:59.055Z",
+      "assessment": {
+        "centralEvent": "No, AI doesn’t mean the end of mathematics – at least not yet | Bruce Schneier and Kasra Rafi",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The AI seems to have combined some sort of intuition acquired through machine learning with extensive computational search, in order to find the right example.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a5353f929f8743e0cd89": {
+      "storyId": "a5353f929f8743e0cd89",
+      "url": "https://apnews.com/article/colombia-de-la-espriella-migrants-president-venezuelans-raids-crime-05bb694f97b18a1d449e0926fe8f94e6",
+      "title": "Colombian president orders immigration raids, vows deportations of migrants without legal status",
+      "source": "AP News AI",
+      "published": "2026-08-24T23:05:32",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d02a5f7f26b21807d1d518f",
+      "bodyFingerprint": "cc274fb9b591329fc7d789c6",
+      "bodyCharacterCount": 4263,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T13:13:59.068Z",
+      "assessment": {
+        "centralEvent": "Colombian president orders immigration raids, vows deportations of migrants without legal status",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "7, 2026. (AP Photo/Matias Delacroix, File) By MANUEL RUEDA and ASTRID SUÁREZ Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Add AP News on Google Add AP News as your preferred source to see more of our stories on Googl",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "670dcd0ef4cb8e876341": {
+      "storyId": "670dcd0ef4cb8e876341",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823094142.htm",
+      "title": "NASA finds Earth microbes could survive on the Moon",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-25T06:30:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fbf6283a559cc9b74f0baea7",
+      "bodyFingerprint": "b609b2424096de9f6330646a",
+      "bodyCharacterCount": 10636,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T13:13:59.074Z",
+      "assessment": {
+        "centralEvent": "NASA finds Earth microbes could survive on the Moon",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Because it was the most resistant to UV radiation, the fungus could potentially survive even in locations exposed to some sunlight.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Aspergillus niger was one of five microbes examined in the new study because of its demonstrated resilience in spaceflight conditions.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Astronauts have collected samples of the fungus aboard the International Space Station, and previous experiments have shown that it can also survive outside the station.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As people establish a more permanent presence on the Moon, contamination from astronauts could make it harder for scientists to separate ancient lunar chemistry from material introduced by humans.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 76,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.28,
+        "rawScore": 49.28,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.48,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d9bffbbc29b492963e55": {
+      "storyId": "d9bffbbc29b492963e55",
+      "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux",
+      "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
+      "source": "TechCrunch AI",
+      "published": "2026-08-25T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aab87ed4da2f3966cbe9aa6e",
+      "bodyFingerprint": "6b3d4911a5aa5f7e72a13db5",
+      "bodyCharacterCount": 8495,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T13:13:59.085Z",
+      "assessment": {
+        "centralEvent": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a2fb3a8c4dced5d9f7b8": {
+      "storyId": "a2fb3a8c4dced5d9f7b8",
+      "url": "https://www.inc.com/john-beyer/5-things-leaders-should-know-as-ai-replaces-search/91394966",
+      "title": "5 Things Leaders Should Know as AI Replaces Search",
+      "source": "Inc. AI",
+      "published": "2026-08-25T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d000d43be5f99e5caa8665a0",
+      "bodyFingerprint": "2b61407beaa0996d2909cbfb",
+      "bodyCharacterCount": 79,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-25T13:13:59.118Z",
+      "assessment": {
+        "centralEvent": "5 Things Leaders Should Know as AI Replaces Search",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "53b79efc3ed622300594": {
+      "storyId": "53b79efc3ed622300594",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260824065601.htm",
+      "title": "Atomic catalyst unlocks the hidden value of plant waste",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-25T10:09:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd44e894d66cca3bc1953e68",
+      "bodyFingerprint": "be846793bd2343f1c1677c99",
+      "bodyCharacterCount": 7848,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T13:13:59.137Z",
+      "assessment": {
+        "centralEvent": "Atomic catalyst unlocks the hidden value of plant waste",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The team's research demonstrated a continuous process that directly converts lignin ...",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c9ad041cedfbe656fe2f": {
+      "storyId": "c9ad041cedfbe656fe2f",
+      "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference",
+      "title": "With new Mac Studio and Mac mini, Apple leans hard into local AI inference",
+      "source": "Ars Technica AI",
+      "published": "2026-08-25T13:00:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "50c606f53762ce3e7f94b41c",
+      "bodyFingerprint": "1c3a999b38323e47aeeb6523",
+      "bodyCharacterCount": 6324,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T13:13:59.158Z",
+      "assessment": {
+        "centralEvent": "With new Mac Studio and Mac mini, Apple leans hard into local AI inference",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Apple’s release notes , 26.2 enabled “low-latency communication between Thunderbolt 5 hosts for use cases including distributed AI inference using MLX.” Thunderbolt 5 is a very fast wired data connection, and MLX is an open sou",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "91921e0eecf7d1c85629": {
+      "storyId": "91921e0eecf7d1c85629",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823015019.htm",
+      "title": "Newton’s 300-year-old law just passed its biggest test yet",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-25T01:49:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "28a603d6186f564c29c89943",
+      "bodyFingerprint": "712297d90fbb33c8364f5c5e",
+      "bodyCharacterCount": 12035,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-25T13:13:59.239Z",
+      "assessment": {
+        "centralEvent": "Newton’s 300-year-old law just passed its biggest test yet",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Entire galaxies travel through these enormous structures at speeds that cannot be explained by their observed mass alone. \"That is the central puzzle,\" Gallardo explains. \"Either gravity behaves differently on very large scales, or the univ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T11:45:59.541Z"
+  "updatedAt": "2026-08-25T13:13:59.239Z"
 }
