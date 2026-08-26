@@ -16096,7 +16096,7 @@
     },
     "4b7bc87e21d57c66538e": {
       "storyId": "4b7bc87e21d57c66538e",
-      "currentTitle": "Albanese backs down on states powering AI datacentres using sustainable energy",
+      "currentTitle": "Albanese backs down on states powering AI datacentres using renewable energy",
       "originalTitle": "Albanese backs down on states powering AI datacentres using sustainable energy",
       "url": "https://www.theguardian.com/australia-news/2026/aug/26/albanese-backs-down-on-states-powering-ai-datacentres-using-sustainable-energy",
       "canonicalUrl": "https://www.theguardian.com/australia-news/2026/aug/26/albanese-backs-down-on-states-powering-ai-datacentres-using-sustainable-energy",
@@ -16115,6 +16115,42 @@
       "source": "The Guardian AI",
       "image": "https://i.guim.co.uk/img/media/ada086bceb21d1e283eff5dd443008604f95cc3c/73_34_3111_2491/master/3111.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-08-26T08:48:43.000Z",
+      "firstSeen": "2026-08-26T09:00:00.000Z",
+      "lastSeen": "2026-08-26T09:00:00.000Z"
+    },
+    "29facfa5780b28e74813": {
+      "storyId": "29facfa5780b28e74813",
+      "currentTitle": "AI helps design new materials that work in the real world",
+      "originalTitle": "AI helps design new materials that work in the real world",
+      "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+      "canonicalUrl": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+      "source": "MIT News AI",
+      "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/MIT-Valence-01-press.jpg?itok=OJTlsBvb",
+      "published": "2026-08-26T09:00:00.000Z",
+      "firstSeen": "2026-08-26T09:00:00.000Z",
+      "lastSeen": "2026-08-26T09:00:00.000Z"
+    },
+    "fc529d62ab0b64d4c264": {
+      "storyId": "fc529d62ab0b64d4c264",
+      "currentTitle": "This six-course Claude AI and ChatGPT training bundle is $29.99",
+      "originalTitle": "This six-course Claude AI and ChatGPT training bundle is $29.99",
+      "url": "https://mashable.com/tech/aug-26-the-2026-complete-claude-ai-claude-code-claude-cowork-chatgpt-training",
+      "canonicalUrl": "https://mashable.com/tech/aug-26-the-2026-complete-claude-ai-claude-code-claude-cowork-chatgpt-training",
+      "source": "Mashable AI",
+      "image": "https://helios-i.mashable.com/imagery/articles/059rx6WUlmcUxWlSwx9mCnK/hero-image.jpg",
+      "published": "2026-08-26T09:00:00.000Z",
+      "firstSeen": "2026-08-26T09:00:00.000Z",
+      "lastSeen": "2026-08-26T09:00:00.000Z"
+    },
+    "b7e27f418139a325b2b3": {
+      "storyId": "b7e27f418139a325b2b3",
+      "currentTitle": "Claude, ChatGPT, Gemini, and more — get all of them for life for $80 through Aug. 30",
+      "originalTitle": "Claude, ChatGPT, Gemini, and more — get all of them for life for $80 through Aug. 30",
+      "url": "https://mashable.com/tech/aug-26-1minai-advanced-business-plan-lifetime-subscription",
+      "canonicalUrl": "https://mashable.com/tech/aug-26-1minai-advanced-business-plan-lifetime-subscription",
+      "source": "Mashable AI",
+      "image": "https://helios-i.mashable.com/imagery/articles/02AilHxppQg9RDE7v01mGBi/hero-image.jpg",
+      "published": "2026-08-26T09:00:00.000Z",
       "firstSeen": "2026-08-26T09:00:00.000Z",
       "lastSeen": "2026-08-26T09:00:00.000Z"
     }
