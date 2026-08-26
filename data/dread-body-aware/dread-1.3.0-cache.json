@@ -62171,8 +62171,855 @@
           "vulnerability": 0
         }
       }
+    },
+    "a64cb1c3f2fc6fe416a1": {
+      "storyId": "a64cb1c3f2fc6fe416a1",
+      "url": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai",
+      "title": "Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T14:37:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dddd89de9da0c40225b7f766",
+      "bodyFingerprint": "d15571844def0037ece5acef",
+      "bodyCharacterCount": 3530,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:56.842Z",
+      "assessment": {
+        "centralEvent": "Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Media & Entertainment Radar makes podcasts searchable — and usable by AI agents Sarah Perez 20 minutes ago AI Arga Labs is building a better way to tra",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ca54be2f354839cf41fe": {
+      "storyId": "ca54be2f354839cf41fe",
+      "url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "source": "VentureBeat AI",
+      "published": "2026-08-26T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2e0d203a5bf722b778b0254b",
+      "bodyFingerprint": "8d451cc11383dc8cea117b18",
+      "bodyCharacterCount": 9500,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-26T16:17:56.852Z",
+      "assessment": {
+        "centralEvent": "Orchestration is the new challenge for CX in the age of AI agents",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Automated call summaries, real-time sentiment analysis, and AI-powered assistance provide agents with instant, actionable insights and suggested next steps directly within their workflow.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 69,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "83b416b43d924603dc15": {
+      "storyId": "83b416b43d924603dc15",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
+      "title": "Bill Gates is deeply worried about AI, and he’s no longer staying quiet",
+      "source": "The Verge AI",
+      "published": "2026-08-26T11:07:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6ed8724d7259587c8be0e3c9",
+      "bodyFingerprint": "a3099e8697ae6a53526fd89b",
+      "bodyCharacterCount": 7076,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:56.868Z",
+      "assessment": {
+        "centralEvent": "Bill Gates is deeply worried about AI, and he’s no longer staying quiet",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Many jobs will disappear forever,” he warned, with white- and blue-collar jobs both at risk of replacement.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robert Hart AI Analysis Microsoft Report Tech Most Popular Most Popular Rockstar finally responds to ‘heartbreaking’ GTA 6 leaks Apple’s new Mac Mini has fresh M6 and M5 Pro chip offerings — and higher prices Xbox announces disc-to-digital ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Worse still, he notes, “we are not preparing for it.” Gates attempts to chart a path forward, but the essay largely treads familiar ground, identifying deeply entrenched, systemic hurdles familiar in matters of global governance while offer",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The result is a bleak departure from the hopeful excitement about AI present in the billionaire’s 2023 essay on the matter , though Gates insists it is not too late “to ensure that the good outweighs the bad.” Here are some of the main take",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The result is a bleak departure from the hopeful excitement about AI present in the billionaire’s 2023 essay on the matter , though Gates insists it is not too late “to ensure that the good outweighs the bad.” Here are some of the main take",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.33,
+        "rawScore": 30.33,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b69b4dcf308e907448c2": {
+      "storyId": "b69b4dcf308e907448c2",
+      "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents",
+      "title": "Radar makes podcasts searchable — and usable by AI agents",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T15:47:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9bb1c4d41c40ebd6125cc262",
+      "bodyFingerprint": "6722d161735758c83d2ce4f8",
+      "bodyCharacterCount": 5744,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:56.877Z",
+      "assessment": {
+        "centralEvent": "Radar makes podcasts searchable — and usable by AI agents",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replic",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0abd2a34eaed265b5917": {
+      "storyId": "0abd2a34eaed265b5917",
+      "url": "https://www.theguardian.com/business/grogonomics/2026/aug/27/ai-boom-noisy-energy-hungry-datacentres-construction-economy",
+      "title": "What will we get out of the AI boom? The data suggests lots of noisy, energy-hungry datacentres and not much else",
+      "source": "The Guardian AI",
+      "published": "2026-08-26T15:00:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0e5b08f7f71aadcf80486e60",
+      "bodyFingerprint": "f9f34060a146f56acc68b67a",
+      "bodyCharacterCount": 6819,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:56.884Z",
+      "assessment": {
+        "centralEvent": "What will we get out of the AI boom? The data suggests lots of noisy, energy-hungry datacentres and not much else",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Here’s why that could spell disaster for Australia’s finances Australia may face a rush of datacentre construction as AI firms look to avoid upcoming rules, experts say No ‘automatic knockback’ for non-compliant datacentres as NSW announces",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "34c855ce504c5202da48": {
+      "storyId": "34c855ce504c5202da48",
+      "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model",
+      "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T14:19:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e2ac147af5632bcbcb65a341",
+      "bodyFingerprint": "75cc8ef812016363fe058466",
+      "bodyCharacterCount": 2277,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:56.890Z",
+      "assessment": {
+        "centralEvent": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI Runable hits $21M to bet AI agents can go from building businesses to growing them Jagmeet Singh 5 hours ago Robotics Robotics startup Generalist re",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4626e26be997b91fe015": {
+      "storyId": "4626e26be997b91fe015",
+      "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor",
+      "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6c501a63c0f2345a7d05510c",
+      "bodyFingerprint": "b64893e85bf555193fd74d31",
+      "bodyCharacterCount": 5380,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:56.897Z",
+      "assessment": {
+        "centralEvent": "Ex-Meta scientists want to bring visual AI to the factory floor",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replic",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a7865b683f7d9810802c": {
+      "storyId": "a7865b683f7d9810802c",
+      "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era",
+      "title": "Robot brain builders are pushing out of their GPT-2 era",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T13:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f3388e1a2653ec19ef682f22",
+      "bodyFingerprint": "8f4e61c74d53202e9ab8d1fc",
+      "bodyCharacterCount": 8556,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:56.902Z",
+      "assessment": {
+        "centralEvent": "Robot brain builders are pushing out of their GPT-2 era",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The risk was also evident: A sign on a booth for Avala, another physical AI infrastructure player, promised to solve “the robotics data crisis.” That crisis is the lack of high-quality training data for AI models.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replic",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e2cd18dd9dc883915865": {
+      "storyId": "e2cd18dd9dc883915865",
+      "url": "https://mashable.com/tech/aug-26-crealty-k1-max-3d-printer-deal",
+      "title": "This AI-powered 3D printer is heavily discounted on Amazon — save $170 on the Creality K1 Max 3D Printer",
+      "source": "Mashable AI",
+      "published": "2026-08-26T13:40:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5c624824e270a24bdaacd8f4",
+      "bodyFingerprint": "06b5c4d6d1852d15179ba914",
+      "bodyCharacterCount": 2872,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:56.951Z",
+      "assessment": {
+        "centralEvent": "This AI-powered 3D printer is heavily discounted on Amazon — save $170 on the Creality K1 Max 3D Printer",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3c082e44f831fcbbbb83": {
+      "storyId": "3c082e44f831fcbbbb83",
+      "url": "https://www.404media.co/inside-the-warehouse-where-amazon-scans-and-destroys-books-for-ai-training",
+      "title": "Inside the Warehouse Where Amazon Scans and Destroys Books for AI Training",
+      "source": "404 Media AI",
+      "published": "2026-08-26T13:21:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f5700d96a34234ef2c9c095f",
+      "bodyFingerprint": "40e0401f4f0474678e5992b3",
+      "bodyCharacterCount": 7963,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:56.961Z",
+      "assessment": {
+        "centralEvent": "Inside the Warehouse Where Amazon Scans and Destroys Books for AI Training",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Our job was to unbox the books, and honestly, they seem like a mess over there.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "af8cc238f0c5f5e99cca": {
+      "storyId": "af8cc238f0c5f5e99cca",
+      "url": "https://apnews.com/article/trump-renaming-lake-ontario-65bbd47925365ffd5d9522cf4b2e4bc8",
+      "title": "Trump mulls renaming Lake Ontario as 'Lake America.' Canadians balk at the idea",
+      "source": "AP News AI",
+      "published": "2026-08-25T18:50:08",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b3099c1a26d3270b28067c7",
+      "bodyFingerprint": "297707672dfd19aff3619aa0",
+      "bodyCharacterCount": 12542,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:57.010Z",
+      "assessment": {
+        "centralEvent": "Trump mulls renaming Lake Ontario as 'Lake America.' Canadians balk at the idea",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Said Wiseman of Trump, “He’s not going to be in the presidency forever.” ___ This story has corrected to reflect that Trump floated the idea in a social media post on Tuesday, not Monday. ___ Barrow reported from Atlanta.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8ef4265c530e07489644": {
+      "storyId": "8ef4265c530e07489644",
+      "url": "https://apnews.com/article/alaska-primary-senate-congress-midterms-dan-sullivan-592c7fb777ed9e68da0c31d8ed7346e8",
+      "title": "Republican with same name as incumbent Dan Sullivan advances from Alaska US Senate primary",
+      "source": "AP News AI",
+      "published": "2026-08-26T04:10:10",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c4ae35d6f443593e66476956",
+      "bodyFingerprint": "02cd01a4728454b7bc0ba06e",
+      "bodyCharacterCount": 6866,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:57.096Z",
+      "assessment": {
+        "centralEvent": "Republican with same name as incumbent Dan Sullivan advances from Alaska US Senate primary",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The state accepts absentee and overseas ballots up to 10 days after the primary as long as they were postmarked by election day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "46b4f034c5af6781c88b": {
+      "storyId": "46b4f034c5af6781c88b",
+      "url": "https://apnews.com/article/iran-us-war-sanctions-blockade-fuel-economy-41ac797399040746c2caa76a409ae580",
+      "title": "Iran's gas lines are growing, but there's no sign so far that its leaders will bow to US sanctions",
+      "source": "AP News AI",
+      "published": "2026-08-25T16:29:24",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b5f523861356e6b5f953972e",
+      "bodyFingerprint": "63b99ff789499180af68173a",
+      "bodyCharacterCount": 11773,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T16:17:57.106Z",
+      "assessment": {
+        "centralEvent": "Iran's gas lines are growing, but there's no sign so far that its leaders will bow to US sanctions",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The currency had already been under pressure before the U.S. and Israel attacked Iran on Feb.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Everything I buy has grown more expensive over the last week, from milk to pasta.” Related Stories Key inflation gauge remains elevated during Iran conflict and ongoing US trade fights 4 MIN READ 12 Trump’s new economic squeeze on Iran has",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Treasury Secretary Scott Bessent vowed to fully sever the country from the global economy.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“People are losing their purchasing power every day,” he said.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.5,
+        "rawScore": 29.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T13:18:47.987Z"
+  "updatedAt": "2026-08-26T16:17:57.106Z"
 }
