@@ -61854,8 +61854,325 @@
           "vulnerability": 0
         }
       }
+    },
+    "b6920185a5e7fa727153": {
+      "storyId": "b6920185a5e7fa727153",
+      "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents",
+      "title": "Arga is building a better way to train enterprise AI agents",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T12:55:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b82cef251fa688eeeb815fb4",
+      "bodyFingerprint": "32708ea874e389172bf44e31",
+      "bodyCharacterCount": 4777,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T13:18:47.739Z",
+      "assessment": {
+        "centralEvent": "Arga is building a better way to train enterprise AI agents",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replic",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7a7bcfb1a72096760d09": {
+      "storyId": "7a7bcfb1a72096760d09",
+      "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses",
+      "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5ed2409cb4757e665f8fc839",
+      "bodyFingerprint": "c4f7903862b97486d8057049",
+      "bodyCharacterCount": 6133,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T13:18:47.753Z",
+      "assessment": {
+        "centralEvent": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It reduces dementia risk and depression risk,” he continued.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "We’ve got a product that lives on people for 16 hours that is trusted to help them with their hearing and their vision, and we’d love to continue helping them in every way we can.” When the frames launch later this year, Legato says they’ll",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image Credits: Legato / The company’s funding, which is from Neotribe Ventures, Listen, and Village Global, has largely gone toward product development, along with marketing efforts.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "87c12d2e343bd9ef902a": {
+      "storyId": "87c12d2e343bd9ef902a",
+      "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you",
+      "title": "QueryStory wants you to believe what AI is telling you",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e166a7f524ab0c50cae75a5e",
+      "bodyFingerprint": "52dea0e529d7db1774a35ce2",
+      "bodyCharacterCount": 7544,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T13:18:47.760Z",
+      "assessment": {
+        "centralEvent": "QueryStory wants you to believe what AI is telling you",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replic",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "71ec1ed9d958a77450e9": {
+      "storyId": "71ec1ed9d958a77450e9",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260826055448.htm",
+      "title": "NASA’s Roman Space Telescope is ready to hunt thousands of alien worlds",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-26T10:29:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bc671bb039d4b9c3959d1cb1",
+      "bodyFingerprint": "edcb632d8eca12920afa504b",
+      "bodyCharacterCount": 7071,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T13:18:47.963Z",
+      "assessment": {
+        "centralEvent": "NASA’s Roman Space Telescope is ready to hunt thousands of alien worlds",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As Falcon Heavy accelerates through Earth's atmosphere, Roman will experience powerful sound waves, aerodynamic pressure, and significant heating.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "31, 2024  The earliest galaxies are thought to have formed as the gravitational pull of dark matter, which has been impossible to study directly, slowly drew in enough hydrogen and helium to ignite stars.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2fe4d6c43df7bc93d8fc": {
+      "storyId": "2fe4d6c43df7bc93d8fc",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260824065516.htm",
+      "title": "One asteroid strike may explain two mysteries of Mars’ moon Deimos",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-26T09:05:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17d0c6f33e34603c41213a2c",
+      "bodyFingerprint": "a74da222fc57a588930ca3e3",
+      "bodyCharacterCount": 10871,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T13:18:47.987Z",
+      "assessment": {
+        "centralEvent": "One asteroid strike may explain two mysteries of Mars’ moon Deimos",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "By combining detailed computer simulations with recent images from ESA's Hera spacecraft, the researchers concluded that one impact could account for both the moon's large southern depression and its unusually smooth, dusty surface.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T11:47:35.641Z"
+  "updatedAt": "2026-08-26T13:18:47.987Z"
 }
