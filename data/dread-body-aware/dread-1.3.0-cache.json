@@ -60389,8 +60389,128 @@
           "vulnerability": 0
         }
       }
+    },
+    "324a3b749d1a939dfee7": {
+      "storyId": "324a3b749d1a939dfee7",
+      "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call",
+      "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T03:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4ba08cc4fee286230fd68ac3",
+      "bodyFingerprint": "7d5281cce194ad854e3b1b7f",
+      "bodyCharacterCount": 5541,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T04:57:38.231Z",
+      "assessment": {
+        "centralEvent": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3873c27f7a5a1589fadd": {
+      "storyId": "3873c27f7a5a1589fadd",
+      "url": "https://www.theguardian.com/media/2026/aug/26/nine-entertainment-ai-deals-network-slashes-costs",
+      "title": "Nine CEO sees ‘world of growth in publishing’ as network slashes costs",
+      "source": "The Guardian AI",
+      "published": "2026-08-26T04:18:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "44e65156eaaedcb7657eb121",
+      "bodyFingerprint": "d32512e93b628dc3f1b315a1",
+      "bodyCharacterCount": 4093,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T04:57:38.529Z",
+      "assessment": {
+        "centralEvent": "Nine CEO sees ‘world of growth in publishing’ as network slashes costs",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Nine’s business masthead, the Australian Financial Review, has been spared the cuts and remains a robust revenue earner, according to financial results for the year to 30 June released on Wednesday. skip past newsletter promotion after news",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T03:20:34.876Z"
+  "updatedAt": "2026-08-26T04:57:38.529Z"
 }
