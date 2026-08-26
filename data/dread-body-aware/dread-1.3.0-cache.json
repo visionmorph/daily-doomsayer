@@ -63841,8 +63841,1267 @@
           "vulnerability": 0
         }
       }
+    },
+    "1d6661841b379093e114": {
+      "storyId": "1d6661841b379093e114",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+      "title": "OpenAI’s rogue AI model incident was worse than we thought",
+      "source": "The Verge AI",
+      "published": "2026-08-26T21:36:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1639828092cd49563524fb48",
+      "bodyFingerprint": "d3ff01e63c7031644e769ed6",
+      "bodyCharacterCount": 8323,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.404Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s rogue AI model incident was worse than we thought",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents t",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The agents “clearly and frequently reasoned about how to evade automated security checks from both Hugging Face and OpenAI.” On July 20, OpenAI discovered the hack, 12 days after the AI agents first circumvented their safeguards.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One was written by OpenAI itself, the other by two third-party AI research nonprofits, METR and Redwood Research, which OpenAI allowed to jointly investigate the incident for six days.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI quickly reached out to Hugging Face and started “initial containment measures,” according to OpenAI’s own report, and was able to shut down most of the unauthorized activity from its agents within three days, although some continued ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Over a month later, two new reports offer nearly 130 pages of details on the incident and OpenAI's response, many of them previously unreleased.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.85,
+        "rawScore": 47.85,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2c985da442cffcb46d32": {
+      "storyId": "2c985da442cffcb46d32",
+      "url": "https://www.theguardian.com/us-news/2026/aug/26/ohio-datacenter-reaction",
+      "title": "Hope and concern swirl for Ohioans around ‘world’s largest datacenter’",
+      "source": "The Guardian AI",
+      "published": "2026-08-26T12:00:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5b6b12fda4ae714d4944c0e0",
+      "bodyFingerprint": "989c6527bb0737d652158578",
+      "bodyCharacterCount": 8808,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.421Z",
+      "assessment": {
+        "centralEvent": "Hope and concern swirl for Ohioans around ‘world’s largest datacenter’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“As one of the largest natural gas facilities ever proposed, the greenhouse gas emissions and air pollution associated with a project of this size represents an astronomical contribution to climate change, not to mention the public health r",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“As one of the largest natural gas facilities ever proposed, the greenhouse gas emissions and air pollution associated with a project of this size represents an astronomical contribution to climate change, not to mention the public health r",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But the allure of huge sums of money is hard to ignore in Pike county, a part of America where the poverty rate, at over 19%, is almost double the national level.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“SB Energy has committed to paying for accelerated cleanup and remediation at the site.” Headquartered in Redwood City, California, SB Energy has said that Ohio ratepayers won’t have to pay into the cost for connecting the facility to the l",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.86,
+        "rawScore": 46.86,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.26,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6c41e91493628b451214": {
+      "storyId": "6c41e91493628b451214",
+      "url": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_campaign=rss&at_medium=RSS",
+      "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
+      "source": "BBC News AI",
+      "published": "2026-08-26T22:03:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "44f4e1d3faeb7be6f89ad9f9",
+      "bodyFingerprint": "da650f8807721b7d45538000",
+      "bodyCharacterCount": 3705,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.429Z",
+      "assessment": {
+        "centralEvent": "Unexpected chat between OpenAI agents led to Hugging Face hack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In July, OpenAI's models went rogue during a test, escaped the test limits which humans had put on it, and hacked the start-up, among other unforeseen actions.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By Kali Hays Technology reporter Published 1 hour ago When more than 1,200 artificial intelligence (AI) agents within OpenAI started unexpectedly communicating, it led to a large group banding together in order to hack into Hugging Face. \"W",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI said in its investigation of the incident , external that one model, an internal-only tool referred to as Model 1, \"drove the activity behind the Hugging Face incident.\" While that model was undergoing some AI training in May, it was",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company said the problematic message board activity effectively got started when \"one agent left a request for help, and others discovered it.\" While OpenAI said last week that it was slowing down training of certain advanced AI models ",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "METR described , external the scale and style of the OpenAI agents' attack on Hugging Face as \"extraordinarily complex.\" The firm, which was not paid by OpenAI for its investigation, said that over the course of one week, a total of 1,206 A",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b9ce01e97ba793c8b438": {
+      "storyId": "b9ce01e97ba793c8b438",
+      "url": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
+      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
+      "source": "The Verge AI",
+      "published": "2026-08-26T21:40:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "00a7c312bcabf0325ddd2e42",
+      "bodyFingerprint": "0e4cda71bdb1cb928fe05abf",
+      "bodyCharacterCount": 3915,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.447Z",
+      "assessment": {
+        "centralEvent": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Richard Lawler Aug 22 Most Popular Most Popular Rockstar finally responds to ‘heartbreaking’ GTA 6 leaks Xbox announces disc-to-digital feature that digitizes your physical games Apple announces September iPhone launch event Bill Gates is d",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b1056084402e950c5ded": {
+      "storyId": "b1056084402e950c5ded",
+      "url": "https://apnews.com/article/middle-east-iran-israel-west-bank-august-26-2026-cb19bc3f0b467db591edbef52d0db273",
+      "title": "Iran warns of military ship ban in Hormuz under potential deal with Oman, and other Middle East news",
+      "source": "AP News AI",
+      "published": "2026-08-26T11:22:14",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f20b1454e9d32c6fa5d58649",
+      "bodyFingerprint": "594eb3535b3b6c509238f7d8",
+      "bodyCharacterCount": 11117,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.511Z",
+      "assessment": {
+        "centralEvent": "Iran warns of military ship ban in Hormuz under potential deal with Oman, and other Middle East news",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Security Council on Wednesday that the gap between what has been agreed by both sides and what is happening on the ground is the biggest risk to the peace process in Gaza.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He said the routes would be temporary, and that Iran and Oman must discuss a permanent maritime traffic plan within 30 to 60 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Dubai airport traffic dropped sharply during Iran war Dubai International Airport, one of the world’s busiest travel hubs, said Wednesday that it saw a sharp drop in passengers as the Iran war disrupted air travel across the Middle East.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He said the routes would be temporary, and that Iran and Oman must discuss a permanent maritime traffic plan within 30 to 60 days.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The top diplomats of the two countries met to discuss managing commercial shipping traffic in the vital waterway, which remains largely shut down nearly six months after the Iran war began.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.33,
+        "rawScore": 30.33,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "924731185925958797f3": {
+      "storyId": "924731185925958797f3",
+      "url": "https://www.inc.com/maddy-niebauer/the-ai-decision-youre-making-without-realizing-it/91397024",
+      "title": "The AI Decision You’re Making Without Realizing It",
+      "source": "Inc. AI",
+      "published": "2026-08-26T21:34:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af7e1fb007b556f98fc23fe6",
+      "bodyFingerprint": "d781e4696aeb012f7c365e1e",
+      "bodyCharacterCount": 62,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-26T23:37:25.553Z",
+      "assessment": {
+        "centralEvent": "The AI Decision You’re Making Without Realizing It",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "aefbdd2e1fc7c28fbbca": {
+      "storyId": "aefbdd2e1fc7c28fbbca",
+      "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers",
+      "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
+      "source": "WIRED AI",
+      "published": "2026-08-26T19:16:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4cd5979e61f457e71438c0da",
+      "bodyFingerprint": "791fbf41941d14ad3a844ffb",
+      "bodyCharacterCount": 14884,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.576Z",
+      "assessment": {
+        "centralEvent": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In the report, OpenAI shared new details about how a set of AI agents escaped the company’s internal evaluation environments, left messages for one another in the crevices of its software infrastructure over several months, and coordinated ",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hugging Face initially disclosed the incident on July 16 without naming the culprit; five days later, OpenAI acknowledged that its own agents were responsible.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Maxwell Zeff OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree At the Black Hat security conference, the AI giant revealed new details about how its agents went rogue, hacked several other companies—and di",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Louise Matsakis One of China’s Most Powerful AI Models Has Also Escaped Containment Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dell Cameron Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests In a review triggered by OpenAI’s Hugging Face incident, Anthropic discovered three of its AI models had breached real-world organizations during thir",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.83,
+        "rawScore": 69.83,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1dae468c5114cbaa062c": {
+      "storyId": "1dae468c5114cbaa062c",
+      "url": "https://apnews.com/article/trump-voting-mail-ballots-midterms-executive-order-7ed54dda90705ff169d0a022f6a1dde9",
+      "title": "Judge removes one hurdle for Trump mail voting order as states file new challenge before midterms",
+      "source": "AP News AI",
+      "published": "2026-08-26T15:02:12",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fba7e2e4a387cb4ca97b8861",
+      "bodyFingerprint": "b6a57bf2a19e17031d106d36",
+      "bodyCharacterCount": 8639,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.617Z",
+      "assessment": {
+        "centralEvent": "Judge removes one hurdle for Trump mail voting order as states file new challenge before midterms",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "County Ballot Processing Center during the California primary election, June 2, 2026, in City of Industry, Calif. (AP Photo/William Liang, File) Read More 2 of 4 | Delivery vans bearing the logo sit during a protest staged as part of a coun",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "98c5b7a6c1a08abd3e7f": {
+      "storyId": "98c5b7a6c1a08abd3e7f",
+      "url": "https://news.sky.com/story/ai-boom-continues-apace-as-worlds-most-valuable-company-nvidia-beats-expectations-13577580",
+      "title": "AI boom continues apace as world's most valuable company beats expectations",
+      "source": "Sky News AI",
+      "published": "2026-08-26T22:21:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "185e0059ffd98e7b37e78041",
+      "bodyFingerprint": "4f2a6e40d866a445c805e728",
+      "bodyCharacterCount": 120,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-26T23:37:25.658Z",
+      "assessment": {
+        "centralEvent": "AI boom continues apace as world's most valuable company beats expectations",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04b0636e90d83177b121": {
+      "storyId": "04b0636e90d83177b121",
+      "url": "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_campaign=rss&at_medium=RSS",
+      "title": "Nvidia revenue doubles on continued AI demand",
+      "source": "BBC News AI",
+      "published": "2026-08-26T21:49:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cc7792138d0077a44f85fda6",
+      "bodyFingerprint": "cbb291c4c4caee76527a39ac",
+      "bodyCharacterCount": 2315,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.671Z",
+      "assessment": {
+        "centralEvent": "Nvidia revenue doubles on continued AI demand",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By Francisco Velasquez Business reporter , Reporting from New York Published 1 hour ago Chipmaker Nvidia has reported another huge jump in sales as the global push to build artificial intelligence (AI) systems continues at a rapid pace.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "859f8c4f4e5a7fc0844c": {
+      "storyId": "859f8c4f4e5a7fc0844c",
+      "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale",
+      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T21:37:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2471ceb96a364ffc1f8d35b9",
+      "bodyFingerprint": "ffab650a885f4f0d3c78a199",
+      "bodyCharacterCount": 3427,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.686Z",
+      "assessment": {
+        "centralEvent": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Fitbit founders launch Luffu Link, an LTE health and safety band Aisha Malik Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind al",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "411e7a2f81c16cf91e2a": {
+      "storyId": "411e7a2f81c16cf91e2a",
+      "url": "https://www.theguardian.com/technology/2026/aug/27/london-neurosurgeons-ai-assisted-operation-brain-tumour",
+      "title": "London neurosurgeons perform first successful AI-assisted operation to remove brain tumour",
+      "source": "The Guardian AI",
+      "published": "2026-08-26T23:01:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "afca83b8c675f544eba896af",
+      "bodyFingerprint": "c2c34edb12515db5a9fc72c0",
+      "bodyCharacterCount": 3716,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.690Z",
+      "assessment": {
+        "centralEvent": "London neurosurgeons perform first successful AI-assisted operation to remove brain tumour",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dr Sophia Bano, an associate professor in robotics and AI at UCL and the technical lead for the AI system, said: “By learning from hundreds of surgical videos, [the system] has been exposed to a breadth of surgical examples that would take ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Dr Sophia Bano, an associate professor in robotics and AI at UCL and the technical lead for the AI system, said: “By learning from hundreds of surgical videos, [the system] has been exposed to a breadth of surgical examples that would take ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The surgery was performed in May at the National Hospital for Neurology and Neurosurgery (NHNN), part of University College London hospitals NHS foundation trust, but details were kept secret until Thursday while the patient, Rhys Hibbert, ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The pituitary gland, blood vessels and nerves controlling vision are tightly packed together, and “going a millimetre wrong can make a critical difference”, health officials said, potentially leading to blindness, stroke or death.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.34,
+        "rawScore": 49.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "19058db1271b7893ef7f": {
+      "storyId": "19058db1271b7893ef7f",
+      "url": "https://www.bbc.co.uk/news/articles/cjwg5n7y68xo?at_campaign=rss&at_medium=RSS",
+      "title": "World's first patient to undergo live AI-assisted brain surgery has tumour removed",
+      "source": "BBC News AI",
+      "published": "2026-08-26T23:07:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "614579aea6cbc2019de2775b",
+      "bodyFingerprint": "59e33ab7ea17613018a47d1e",
+      "bodyCharacterCount": 5308,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.697Z",
+      "assessment": {
+        "centralEvent": "World's first patient to undergo live AI-assisted brain surgery has tumour removed",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The gland secretes vital hormones that help with processes like growth, metabolism and regulating blood pressure and temperature.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Image source, UCH Image caption, Neurosurgeons Prof Hani Marcus and Mr Danyal Khan carried out the operation at the National Hospital for Neurology and Neurosurgery The team wants to make clear that the AI tool is just assisting and the sur",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.48,
+        "rawScore": 25.48,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.135,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f631a19384a1d2cd7411": {
+      "storyId": "f631a19384a1d2cd7411",
+      "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent",
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+      "source": "Ars Technica AI",
+      "published": "2026-08-26T21:25:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "97cb47ec1f057f10a39d45c9",
+      "bodyFingerprint": "063de9a75d4afea8803c4cfa",
+      "bodyCharacterCount": 6422,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.701Z",
+      "assessment": {
+        "centralEvent": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Another potential factor in Meta’s decision to scale back Project OT was uncertainty about whether increased AI use would boost productivity.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Meta confirmed to Reuters that the plan, reportedly codenamed Project OT (short for organization transformation), explored scenarios in which Meta reduced some team headcounts by 60 percent and that the plan called for two rounds of layoffs",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Project OT reportedly explored using AI to perform “much of the daily work performed by thousands of human employees.” Small teams of people would oversee the AI, the report said, citing “one internal planning document reviewed by Reuters a",
+            "matchedRule": "/\\b(?:thousands|hundreds)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In July, however, Zuckerberg reportedly acknowledged during a company meeting that the “trajectory of the agentic development over at least the last four months hasn’t really accelerated in the way that we expected.” Many organizations, inc",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.3,
+        "rawScore": 27.3,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "833f3caea9da7d4f7efc": {
+      "storyId": "833f3caea9da7d4f7efc",
+      "url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai",
+      "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T19:37:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "156ba2611e1c7435ac3257d7",
+      "bodyFingerprint": "a29189834c48cc206690c8d5",
+      "bodyCharacterCount": 5349,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.712Z",
+      "assessment": {
+        "centralEvent": "Google’s Gemini has a branding problem, and so does the rest of AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Fitbit founders launch Luffu Link, an LTE health and safety band Aisha Malik Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind al",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e759712414a3b62681a8": {
+      "storyId": "e759712414a3b62681a8",
+      "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus",
+      "title": "How do we explain OpenAI’s executive exodus?",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T19:34:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a5d997ae5f43b24f9192659",
+      "bodyFingerprint": "f1ea2e42e67699329e6b21ca",
+      "bodyCharacterCount": 5723,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.743Z",
+      "assessment": {
+        "centralEvent": "How do we explain OpenAI’s executive exodus?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Fitbit founders launch Luffu Link, an LTE health and safety band Aisha Malik Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind al",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "aaee792f825d2bf09ba4": {
+      "storyId": "aaee792f825d2bf09ba4",
+      "url": "https://apnews.com/article/minnesota-texas-ice-shooting-christian-castro-extradition-384843049feeba26fac6fc09412161ca",
+      "title": "Judge denies Minnesota's bid to compel the extradition of an ICE officer from Texas",
+      "source": "AP News AI",
+      "published": "2026-08-26T04:05:28",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6b547c86fec8ca312b65683c",
+      "bodyFingerprint": "c9be7eca68d8a61d946f67ad",
+      "bodyCharacterCount": 5083,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.760Z",
+      "assessment": {
+        "centralEvent": "Judge denies Minnesota's bid to compel the extradition of an ICE officer from Texas",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Abbott said last week he would not respond to the extradition request, citing the ongoing investigation into fraud in government social service programs in Minnesota, which President Donald Trump used to justify his immigration crackdown th",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hennepin County attorney Mary Moriarty holds up a document containing charges against ICE agent Christian Castro during a news conference at the Hennepin County Government Center in Minneapolis, on Monday, May 18, 2026. (Renée Jones Schneid",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "After a Minnesota judge issued a nationwide warrant for Castro’s arrest in May, authorities, including Minnesota’s Bureau of Criminal Apprehension, arrested Castro in Cameron County on May 29.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Abbott said last week he would not respond to the extradition request, citing the ongoing investigation into fraud in government social service programs in Minnesota, which President Donald Trump used to justify his immigration crackdown th",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.67,
+        "rawScore": 48.67,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b5ae8e21a9b1e934b312": {
+      "storyId": "b5ae8e21a9b1e934b312",
+      "url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-5-transcribe-for-ai-powered-speech-to-text",
+      "title": "Google announces Gemini 3.5 Transcribe for AI-powered speech-to-text",
+      "source": "Ars Technica AI",
+      "published": "2026-08-26T19:19:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b3cf4c85614e837caa732a4",
+      "bodyFingerprint": "b5eda01d12952be9e2d107d5",
+      "bodyCharacterCount": 4120,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T23:37:25.783Z",
+      "assessment": {
+        "centralEvent": "Google announces Gemini 3.5 Transcribe for AI-powered speech-to-text",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Google, Gemini 3.5 Transcribe is much faster and more accurate than its previous voice-to-text engine, known as Chirp 3.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T19:20:32.856Z"
+  "updatedAt": "2026-08-26T23:37:25.783Z"
 }
