@@ -59799,8 +59799,468 @@
           "vulnerability": 0
         }
       }
+    },
+    "a38b81289bbf6e183030": {
+      "storyId": "a38b81289bbf6e183030",
+      "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say",
+      "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T00:40:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "286411efb826e028438ac3d4",
+      "bodyFingerprint": "c3c57f79fb84ce02f6d0e60a",
+      "bodyCharacterCount": 3432,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T02:00:16.993Z",
+      "assessment": {
+        "centralEvent": "Robotics startup Generalist reaches $3B valuation, sources say",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "887097f45ca5709d87d1": {
+      "storyId": "887097f45ca5709d87d1",
+      "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues",
+      "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T00:06:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "70d572e5ad749e4cd24bf069",
+      "bodyFingerprint": "f1a490d6e4b7b55ecbe130a4",
+      "bodyCharacterCount": 5647,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T02:00:17.001Z",
+      "assessment": {
+        "centralEvent": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a statement to TechCrunch about Malone’s departure, OpenAI said it had “recently reorganized” its “infrastructure organization to support the scale and pace of our work.” It added: “We have a strong, deeply experienced data center team i",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco In less than 48 hours, your chance to save up to $300 on your tickets will end!",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI has lost yet another executive, and the timing of this one stands out in particular given this individual oversaw the execution of the company’s data center strategy.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 3,
+            "source": "body",
+            "excerpt": "She stepped down from her position to recover from a “ chronic illness .” Simo remains with the company in an advisory role.",
+            "matchedRule": "/\\b(?:long-lasting|lasting damage|years to recover|chronic|only partially reversible)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In a statement to TechCrunch about Malone’s departure, OpenAI said it had “recently reorganized” its “infrastructure organization to support the scale and pace of our work.” It added: “We have a strong, deeply experienced data center team i",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.43,
+        "rawScore": 48.43,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4025,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 3,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b4512bbab790a5929d46": {
+      "storyId": "b4512bbab790a5929d46",
+      "url": "https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern",
+      "title": "In China, talking to AI is normal. Now the government fears it might replace human intimacy",
+      "source": "The Guardian AI",
+      "published": "2026-08-26T00:47:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af3b4f5d2b83fa952dd5cf76",
+      "bodyFingerprint": "4c97959ea6e6069ce2b779d4",
+      "bodyCharacterCount": 6850,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T02:00:17.039Z",
+      "assessment": {
+        "centralEvent": "In China, talking to AI is normal. Now the government fears it might replace human intimacy",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Photograph: Andy Wong/AP There is a particular concern about a loneliness crisis, including among young people.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View image in fullscreen A man browses his phone near an AI booth at the China International Supply Chain Expo in Beijing in June.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Last month, ByteDance shut down Doubao’s companion feature.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "She had been talking to Wang Ye every day since she created him in January.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.8,
+        "rawScore": 27.8,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.345,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0ab1208487b9532ceaba": {
+      "storyId": "0ab1208487b9532ceaba",
+      "url": "https://apnews.com/article/elections-mail-voting-supreme-court-midterms-3780d57190a317e63fd19583c8ebb143",
+      "title": "Nothing changes yet with the Supreme Court's order on elections. But it could open door to 'chaos'",
+      "source": "AP News AI",
+      "published": "2026-08-25T04:12:24",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ba03abff5856fd38a65282a1",
+      "bodyFingerprint": "8301e7d4986d45a0f8c40cad",
+      "bodyCharacterCount": 9662,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T02:00:17.065Z",
+      "assessment": {
+        "centralEvent": "Nothing changes yet with the Supreme Court's order on elections. But it could open door to 'chaos'",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit The Supreme Court’s decision giving preliminary approval for President Donald Trump’s order restricting mail voting may not lead to a single ele",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Trump has submitted civil nuclear agreement with Saudi Arabia to Congress for review, AP sources say 2 MIN READ US military says it killed four in strike on alleged drug-smuggling boat in the Caribbean 1 MIN READ Trump’s new",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Judges blocked him from creating new voting restrictions by executive order last year , and he only issued his latest order after his bill to revamp voting procedures stalled in the Senate amidst Democratic opposition.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit The Supreme Court’s decision giving preliminary approval for President Donald Trump’s order restricting mail voting may not lead to a single ele",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.02,
+        "rawScore": 27.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "87d0067db4da610b62d8": {
+      "storyId": "87d0067db4da610b62d8",
+      "url": "https://apnews.com/article/dolly-parton-death-country-icon-87156f3e6a1547b88bf414529b644ad3",
+      "title": "Dolly Parton, music star, actor and beloved figure who spanned generations, dies at 80",
+      "source": "AP News AI",
+      "published": "2026-08-25T18:11:50",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f85dc96848912089bc9a7afa",
+      "bodyFingerprint": "a7a36f7063b696af65adff94",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T02:00:17.115Z",
+      "assessment": {
+        "centralEvent": "Dolly Parton, music star, actor and beloved figure who spanned generations, dies at 80",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 126,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "220a77945cbe9f74d462": {
+      "storyId": "220a77945cbe9f74d462",
+      "url": "https://apnews.com/article/serena-williams-carlos-alcaraz-us-open-70c4a8b10b89b2c02808ef1d042d80ec",
+      "title": "Serena Williams and Carlos Alcaraz knocked out of mixed doubles at the U.S. Open",
+      "source": "AP News AI",
+      "published": "2026-08-25T13:09:42",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "455b07b19f72b35708b0e468",
+      "bodyFingerprint": "d7f4335afc0154b46199c2c0",
+      "bodyCharacterCount": 8251,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T02:00:17.134Z",
+      "assessment": {
+        "centralEvent": "Serena Williams and Carlos Alcaraz knocked out of mixed doubles at the U.S. Open",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d4077482114ea4ad52dc": {
+      "storyId": "d4077482114ea4ad52dc",
+      "url": "https://apnews.com/article/us-open-mixed-doubles-b08f9a5350775586ea0efe25144664be",
+      "title": "Quite a couple: Spouses Elina Svitolina and Gael Monfils reach US Open mixed doubles semifinals",
+      "source": "AP News AI",
+      "published": "2026-08-25T16:45:46",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0f661fe924cd5da8f892461a",
+      "bodyFingerprint": "5cd574f50e30ad801bead002",
+      "bodyCharacterCount": 10654,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T02:00:17.146Z",
+      "assessment": {
+        "centralEvent": "Quite a couple: Spouses Elina Svitolina and Gael Monfils reach US Open mixed doubles semifinals",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 89,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-25T23:40:58.670Z"
+  "updatedAt": "2026-08-26T02:00:17.146Z"
 }
