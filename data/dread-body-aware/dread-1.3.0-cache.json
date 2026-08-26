@@ -61279,8 +61279,583 @@
           "vulnerability": 0
         }
       }
+    },
+    "2d6054cc51934d57f4b0": {
+      "storyId": "2d6054cc51934d57f4b0",
+      "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them",
+      "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "18ee7fa4a8dff843e57a5976",
+      "bodyFingerprint": "2ed75c449001c30b42d74b67",
+      "bodyCharacterCount": 7167,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T11:47:35.011Z",
+      "assessment": {
+        "centralEvent": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Runable says 60%–70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fb586a988ac87f509134": {
+      "storyId": "fb586a988ac87f509134",
+      "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+      "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+      "source": "The Guardian AI",
+      "published": "2026-08-26T11:00:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a997b40168096857279d7f0d",
+      "bodyFingerprint": "79fc273055cfdcdf9ecdcfc3",
+      "bodyCharacterCount": 14288,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T11:47:35.220Z",
+      "assessment": {
+        "centralEvent": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "One study – a 2022 analysis of antisemitic comments on the Facebook pages of British, French and German media outlets – is cited 454 times across 88 of the 124 reports, including in pages on apparently unrelated topics including land regist",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "In effort to prime chatbots to make pro-Israel arguments the site published 124 reports, over 560,000 words in nine days, Guardian analysis shows A pro-Israel messaging website badged with the name of a thinktank that does not exist has pub",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "All but one of the 124 headlines on the website opens with a question resembling one that a user might type into a chatbot, including “ Is Anti-Zionism Antisemitism? ”, “ Did Israel Expel Palestinians From Their Land? ”, “ Is Israel Carryin",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "One study – a 2022 analysis of antisemitic comments on the Facebook pages of British, French and German media outlets – is cited 454 times across 88 of the 124 reports, including in pages on apparently unrelated topics including land regist",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The existence of the site was first reported on 14 August.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 89,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 70.16,
+        "rawScore": 70.16,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.56,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "32b7787b7fabead0b0f1": {
+      "storyId": "32b7787b7fabead0b0f1",
+      "url": "https://mashable.com/tech/chatgpt-login-details",
+      "title": "ChatGPT can now do things on your behalf without seeing your login details",
+      "source": "Mashable AI",
+      "published": "2026-08-26T11:13:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "16daf8277c4931105e2ae15e",
+      "bodyFingerprint": "26dc83485a4085a49a8588b3",
+      "bodyCharacterCount": 9848,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T11:47:35.227Z",
+      "assessment": {
+        "centralEvent": "ChatGPT can now do things on your behalf without seeing your login details",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to OpenAI, ChatGPT Work can now do things like set up utilities for your home, book a passport or medical appointment, buy or cancel plane tickets, or rearrange a package's arrival, all without viewing your login details.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3153272b9ab355c103b3": {
+      "storyId": "3153272b9ab355c103b3",
+      "url": "https://www.inc.com/ash-kumra/everyone-is-chasing-ai-peter-castleman-says-theyre-missing-the-real-opportunity/91394971",
+      "title": "Everyone Is Chasing AI. Peter Castleman Says They’re Missing the Real Opportunity",
+      "source": "Inc. AI",
+      "published": "2026-08-26T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9a9260cca0c3c44ec4d57fe4",
+      "bodyFingerprint": "322852a7a4d75fba923ccaf5",
+      "bodyCharacterCount": 37,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-26T11:47:35.313Z",
+      "assessment": {
+        "centralEvent": "Everyone Is Chasing AI. Peter Castleman Says They’re Missing the Real Opportunity",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "36551c55b72c6244c488": {
+      "storyId": "36551c55b72c6244c488",
+      "url": "https://www.artificialintelligence-news.com/news/gatik-200m-ai-autonomous-freight",
+      "title": "Gatik raises $200M to scale AI-powered autonomous freight",
+      "source": "AI News",
+      "published": "2026-08-26T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b34e74621da60a55c758076b",
+      "bodyFingerprint": "ffa99d7412e3a3d5f9ef3f98",
+      "bodyCharacterCount": 471,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-26T11:47:35.503Z",
+      "assessment": {
+        "centralEvent": "Gatik raises $200M to scale AI-powered autonomous freight",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "55ad61861a26c558cdce": {
+      "storyId": "55ad61861a26c558cdce",
+      "url": "https://www.artificialintelligence-news.com/news/nvidia-jetson-orin-nano-2-physical-ai-to-drones-and-robots",
+      "title": "NVIDIA Jetson Orin Nano 2 brings physical AI to drones and robots",
+      "source": "AI News",
+      "published": "2026-08-26T09:08:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "06b133500ad3f79f560d6488",
+      "bodyFingerprint": "edb27c82a1310bdb8b96b46d",
+      "bodyCharacterCount": 440,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-26T11:47:35.520Z",
+      "assessment": {
+        "centralEvent": "NVIDIA Jetson Orin Nano 2 brings physical AI to drones and robots",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5fd4c43ea92b5c0613ca": {
+      "storyId": "5fd4c43ea92b5c0613ca",
+      "url": "https://www.wired.com/story/ai-slop-is-ruining-the-internets-cute-animal-economy",
+      "title": "AI Slop Is Ruining Cute Animals on the Internet",
+      "source": "WIRED AI",
+      "published": "2026-08-26T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e7224cd38882de1f50f48940",
+      "bodyFingerprint": "ab8b8a34e4b2ed1ee3bdcc1e",
+      "bodyCharacterCount": 10876,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T11:47:35.535Z",
+      "assessment": {
+        "centralEvent": "AI Slop Is Ruining Cute Animals on the Internet",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The nonprofit We Animals has published the work of 175 photojournalists who have documented alleged animal abuse and other harms at farms, circuses, and scientific labs.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Her roommate’s boyfriend had allegedly taken the cat and dumped him 30 minutes away in the Los Angeles suburbs the day prior.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Andy Greenberg Reverse-Lookup Service Exposed Millions of Photos of People’s Faces The people-search tool ClarityCheck says its reverse image search service is “private and secure”—but it left a database containing more than 9 million image",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Greater public awareness about AI and increasing access to verification tools could further restore trust.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "63957b78290a595cd858": {
+      "storyId": "63957b78290a595cd858",
+      "url": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms",
+      "title": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
+      "source": "Ars Technica AI",
+      "published": "2026-08-26T11:10:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4f1cf68548837f13b5e53268",
+      "bodyFingerprint": "e4775d9798cae9b4c1470c9b",
+      "bodyCharacterCount": 3724,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T11:47:35.612Z",
+      "assessment": {
+        "centralEvent": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Relative to even other competitors in the local enterprise space, like Nvidia’s Nemotron, the pitch seems to be predictable deployments—which is the priority you might expect from IBM these days.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c01ebadb81f8ddff7499": {
+      "storyId": "c01ebadb81f8ddff7499",
+      "url": "https://apnews.com/article/secret-service-investigation-leave-5892dada87ed302f175406472b58b708",
+      "title": "Three Secret Service officials have been placed on administrative leave pending investigation",
+      "source": "AP News AI",
+      "published": "2026-08-26T02:09:23",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "87ce1fd2edefd7fd2591394a",
+      "bodyFingerprint": "e6f6e9dfee5f007f142eb7db",
+      "bodyCharacterCount": 2964,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T11:47:35.641Z",
+      "assessment": {
+        "centralEvent": "Three Secret Service officials have been placed on administrative leave pending investigation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In April, police said an armed man breached security at the Washington Hilton during the White House Correspondents’ Association dinner, which Trump was attending.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "23, 2026, in Washington. (AP Photo/Julia Demaree Nikhinson) Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T10:53:25.655Z"
+  "updatedAt": "2026-08-26T11:47:35.641Z"
 }
