@@ -61060,8 +61060,227 @@
           "vulnerability": 0
         }
       }
+    },
+    "e85d6aab643260710028": {
+      "storyId": "e85d6aab643260710028",
+      "url": "https://www.theguardian.com/technology/2026/aug/26/bill-gates-human-reserved-jobs-ai-takeover",
+      "title": "Bill Gates calls for ‘human reserved’ jobs in face of AI takeover",
+      "source": "The Guardian AI",
+      "published": "2026-08-26T10:33:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "04431d40e6e6911603d995ae",
+      "bodyFingerprint": "30611e45856fc39229a73b05",
+      "bodyCharacterCount": 4789,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T10:53:25.171Z",
+      "assessment": {
+        "centralEvent": "Bill Gates calls for ‘human reserved’ jobs in face of AI takeover",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AI labels to be compulsory on authentic-looking content under EU rules Rogue OpenAI agent that hacked startup tried to attack other firms Boss of startup hacked by rogue OpenAI agent urges ‘radical transparency’ in investigation Most viewed",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“ One preliminary survey suggested that heavier AI use was associated with less critical thinking.",
+            "matchedRule": "/\\b(?:still developing|preliminary|early findings?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“The highest priority is a monumental task: creating a domestic and international framework for dealing with AI,” he wrote.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "18514da62116892af479": {
+      "storyId": "18514da62116892af479",
+      "url": "https://restofworld.org/2026/google-amazon-cloud-china-india",
+      "title": "Why the global push to break free from Big Tech keeps falling short",
+      "source": "Rest of World AI",
+      "published": "2026-08-26T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "32c6d7e7c01da87895198a5b",
+      "bodyFingerprint": "372410fafd794c6b9e4f8801",
+      "bodyCharacterCount": 8890,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T10:53:25.212Z",
+      "assessment": {
+        "centralEvent": "Why the global push to break free from Big Tech keeps falling short",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Called Project Nimbus, the initiative came to light after employees from both companies revealed it was designed to support the Israeli military’s use of AI for surveillance and unlawful data collection targeting Palestinians.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As the trajectory of these initiatives illustrates, it seems to be impossible to decouple from cloud hegemons and other U.S.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Why the global push to break free from Big Tech keeps falling short",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Airports were shut down, major airlines experienced widespread delays, and media outlets were unable to broadcast live content.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Among the governments implementing industrial policies to counter the dominance of U.S. (and Chinese) Big Tech, three cases stand out: the European Commission and two approaches from emerging economies.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emergency services in the U.S. were affected, along with banking services, stock markets, petrol stations, retail stores, hospitals and telecommunications companies.",
+            "matchedRule": "/\\b(?:essential systems?|critical infrastructure|hospitals?|power grid|water supply|emergency services?)\\b.*\\b(?:affected|failed|disrupted|compromised)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.55,
+        "rawScore": 49.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.505,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 4
+        }
+      }
+    },
+    "36e517221bd386b3e08e": {
+      "storyId": "36e517221bd386b3e08e",
+      "url": "https://techpolicy.press/banning-ai-toys-for-four-years-wont-make-kids-safer",
+      "title": "Banning AI Toys for Four Years Won't Make Kids Safer",
+      "source": "Tech Policy Press AI",
+      "published": "2026-08-26T10:38:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b10c205106d0332b249cd256",
+      "bodyFingerprint": "f6bd517b6a4ba6c336f4e576",
+      "bodyCharacterCount": 53,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-26T10:53:25.655Z",
+      "assessment": {
+        "centralEvent": "Banning AI Toys for Four Years Won't Make Kids Safer",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T09:59:33.161Z"
+  "updatedAt": "2026-08-26T10:53:25.655Z"
 }
