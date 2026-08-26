@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-26T17:00:00.000Z",
+  "generatedAt": "2026-08-26T19:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-26",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
           "average": 42.44
         },
         {
@@ -59,12 +59,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 24.64,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
-          "average": 17.75
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "average": 18.44
         },
         {
           "storyId": "b3989dcfb48ba9b056fe",
@@ -73,12 +73,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
           "average": 23.95
+        },
+        {
+          "storyId": "4886a2e07c39d71065d0",
+          "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
+          "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 21.2,
+          "observations": 10,
+          "daysTracked": 1,
+          "peakDate": "2026-08-26",
+          "firstObservedAt": "2026-08-26T05:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "average": 19.89
         },
         {
           "storyId": "6c2861183e872b5c5256",
@@ -87,26 +101,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 19.98,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
           "average": 19.98
-        },
-        {
-          "storyId": "4886a2e07c39d71065d0",
-          "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
-          "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "",
-          "peak": 19.75,
-          "observations": 9,
-          "daysTracked": 1,
-          "peakDate": "2026-08-26",
-          "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
-          "average": 19.75
         },
         {
           "storyId": "8335b908821f97f34548",
@@ -115,12 +115,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif",
           "peak": 19.71,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
           "average": 19.71
+        },
+        {
+          "storyId": "d985d6cb66f34dc2a83f",
+          "title": "OpenAI releases its official report on the Hugging Face breach",
+          "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 19.42,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-26",
+          "firstObservedAt": "2026-08-26T19:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "average": 19.42
         },
         {
           "storyId": "12b2563b9d6861b5c366",
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO AI",
           "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
           "peak": 19.05,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
           "average": 19.05
-        },
-        {
-          "storyId": "23a292887ca5e4c75326",
-          "title": "The Senate Should Reject KOSA's Privacy Risks",
-          "url": "https://www.eff.org/deeplinks/2026/08/senate-should-reject-kosas-privacy-risks",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/ageverificationbanner-3.png",
-          "peak": 19.04,
-          "observations": 9,
-          "daysTracked": 1,
-          "peakDate": "2026-08-26",
-          "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
-          "average": 19.04
         }
       ]
     },
@@ -3078,11 +3078,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 47,
+          "observations": 48,
           "daysTracked": 3,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
           "average": 42.44
         },
         {
@@ -3120,12 +3120,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 27.08,
-          "observations": 47,
+          "observations": 48,
           "daysTracked": 3,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
-          "average": 18.56
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "average": 18.69
         },
         {
           "storyId": "e24875277dd9c8e66641",
@@ -3148,11 +3148,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 47,
+          "observations": 48,
           "daysTracked": 3,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
           "average": 23.95
         },
         {
@@ -3170,32 +3170,32 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 22.52
         },
         {
+          "storyId": "4886a2e07c39d71065d0",
+          "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
+          "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "",
+          "peak": 21.2,
+          "observations": 48,
+          "daysTracked": 3,
+          "peakDate": "2026-08-26",
+          "firstObservedAt": "2026-08-24T05:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "average": 19.78
+        },
+        {
           "storyId": "6c2861183e872b5c5256",
           "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
           "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 19.98,
-          "observations": 26,
+          "observations": 27,
           "daysTracked": 2,
           "peakDate": "2026-08-25",
           "firstObservedAt": "2026-08-25T09:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
+          "lastObservedAt": "2026-08-26T19:00:00.000Z",
           "average": 19.98
-        },
-        {
-          "storyId": "4886a2e07c39d71065d0",
-          "title": "OpenAI’s models shared hacking tips on a secret messaging board before Hugging Face breach",
-          "url": "https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "",
-          "peak": 19.75,
-          "observations": 47,
-          "daysTracked": 3,
-          "peakDate": "2026-08-24",
-          "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T17:00:00.000Z",
-          "average": 19.75
         }
       ]
     },
