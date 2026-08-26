@@ -60876,8 +60876,192 @@
           "vulnerability": 0
         }
       }
+    },
+    "29facfa5780b28e74813": {
+      "storyId": "29facfa5780b28e74813",
+      "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+      "title": "AI helps design new materials that work in the real world",
+      "source": "MIT News AI",
+      "published": "2026-08-26T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f919a539b540380eb256b94c",
+      "bodyFingerprint": "f28001a935a35084173572c7",
+      "bodyCharacterCount": 10013,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T09:59:33.131Z",
+      "assessment": {
+        "centralEvent": "AI helps design new materials that work in the real world",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But if we put a language model in the beginning of the process to constrain the generation, you can significantly enhance the ratio of stable materials generated.” The new study involved MIT researchers affiliated with the departments of Ma",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b7e27f418139a325b2b3": {
+      "storyId": "b7e27f418139a325b2b3",
+      "url": "https://mashable.com/tech/aug-26-1minai-advanced-business-plan-lifetime-subscription",
+      "title": "Claude, ChatGPT, Gemini, and more — get all of them for life for $80 through Aug. 30",
+      "source": "Mashable AI",
+      "published": "2026-08-26T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9213f5710b2194f50f0609b3",
+      "bodyFingerprint": "1c4d8e7ae735366be715c9ba",
+      "bodyCharacterCount": 2807,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T09:59:33.152Z",
+      "assessment": {
+        "centralEvent": "Claude, ChatGPT, Gemini, and more — get all of them for life for $80 through Aug. 30",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fc529d62ab0b64d4c264": {
+      "storyId": "fc529d62ab0b64d4c264",
+      "url": "https://mashable.com/tech/aug-26-the-2026-complete-claude-ai-claude-code-claude-cowork-chatgpt-training",
+      "title": "This six-course Claude AI and ChatGPT training bundle is $29.99",
+      "source": "Mashable AI",
+      "published": "2026-08-26T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1d17864483cb68059bc7a5eb",
+      "bodyFingerprint": "d9cbe113aeaf9b447294fa99",
+      "bodyCharacterCount": 2959,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T09:59:33.161Z",
+      "assessment": {
+        "centralEvent": "This six-course Claude AI and ChatGPT training bundle is $29.99",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TL;DR: This 2026 Complete Claude AI, Claude Code, Claude Cowork and ChatGPT Training Bundle is $29.99 (reg. $174), giving you lifetime access to six courses and 16 hours of instruction on using today’s leading AI tools for work.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T09:04:36.233Z"
+  "updatedAt": "2026-08-26T09:59:33.161Z"
 }
