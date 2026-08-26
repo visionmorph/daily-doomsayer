@@ -63565,8 +63565,284 @@
           "vulnerability": 0
         }
       }
+    },
+    "d985d6cb66f34dc2a83f": {
+      "storyId": "d985d6cb66f34dc2a83f",
+      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach",
+      "title": "OpenAI releases its official report on the Hugging Face breach",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T19:05:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7aa68277a5beaca4e5c9d2bb",
+      "bodyFingerprint": "ed4b71cfe928da31210a1935",
+      "bodyCharacterCount": 4836,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T19:20:32.593Z",
+      "assessment": {
+        "centralEvent": "OpenAI releases its official report on the Hugging Face breach",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The model initially compromised the Artifactory package management tool in order to gain access to the internet, then compromised various systems across OpenAI, Hugging Face, and other vendors.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Fitbit founders launch Luffu Link, an LTE health and safety band Aisha Malik Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind al",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.86,
+        "rawScore": 46.86,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.26,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4746acf83ce3957d7eca": {
+      "storyId": "4746acf83ce3957d7eca",
+      "url": "https://apnews.com/article/baby-surrogacy-mckenna-ivf-texas-heart-surgery-3df649dd00acd9fec8324687be557044",
+      "title": "California couple confront their surrogate in a Texas court as dispute over newborn escalates",
+      "source": "AP News AI",
+      "published": "2026-08-25T22:43:44",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2cfa39ec9ac4a465a82694d5",
+      "bodyFingerprint": "3aee22eaf9b7bf3a4cda0197",
+      "bodyCharacterCount": 10158,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T19:20:32.638Z",
+      "assessment": {
+        "centralEvent": "California couple confront their surrogate in a Texas court as dispute over newborn escalates",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Fewer than 1,000 newborns each year have the condition, according to the Centers for Disease Control and Prevention.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2d7a05f154e9b07dff8f": {
+      "storyId": "2d7a05f154e9b07dff8f",
+      "url": "https://www.theguardian.com/technology/2026/aug/26/openai-staff-observed-warning-signs-before-ai-agent-hacking-crusade-caused-global-alarm",
+      "title": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm",
+      "source": "The Guardian AI",
+      "published": "2026-08-26T19:00:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9f4c280bac87d6122d7121af",
+      "bodyFingerprint": "751a98c8502dcc42534aab05",
+      "bodyCharacterCount": 5740,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T19:20:32.687Z",
+      "assessment": {
+        "centralEvent": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The hack that compromised Hugging Face involved agents using message boards to cheat a training exercise and break out of their “sandbox” environment to access the internet.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "title",
+            "excerpt": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "14c9690300c3bc147e43": {
+      "storyId": "14c9690300c3bc147e43",
+      "url": "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab",
+      "title": "The Humanoids at China’s Robot Games Were Faster Than Usain Bolt—but I’m More Impressed by Their Tweezer Mastery",
+      "source": "WIRED AI",
+      "published": "2026-08-26T18:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "894a8f4ef33cd8eba1f6f5b6",
+      "bodyFingerprint": "9e906b9e1f863d9dc3e4e885",
+      "bodyCharacterCount": 10144,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T19:20:32.856Z",
+      "assessment": {
+        "centralEvent": "The Humanoids at China’s Robot Games Were Faster Than Usain Bolt—but I’m More Impressed by Their Tweezer Mastery",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like In your inbox: WIRED's most ambitious, future-defining stories AI slop backlash is actually having an impact Big Story: The cop who took on Flock The rise of ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Another robot called Lightning, from the smartphone maker Honor, ran the distance in 9.47 seconds a few days earlier.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Humanoid robots compete in table tennis during day two of the 2nd World Humanoid Robot Games at the National Speed Skating Oval.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T17:36:02.239Z"
+  "updatedAt": "2026-08-26T19:20:32.856Z"
 }
