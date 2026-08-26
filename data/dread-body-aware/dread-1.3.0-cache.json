@@ -63018,8 +63018,555 @@
           "vulnerability": 0
         }
       }
+    },
+    "4c1d708c3bc30b3d97c0": {
+      "storyId": "4c1d708c3bc30b3d97c0",
+      "url": "https://apnews.com/article/russia-us-putin-trump-cia-director-visit-4efffcaac5ef6736e2b10cef73054e48",
+      "title": "The Kremlin says the CIA director held talks in Moscow with his intelligence counterparts",
+      "source": "AP News AI",
+      "published": "2026-08-26T12:44:41",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c979168677ba5c389237c84d",
+      "bodyFingerprint": "0b0ac0c851376c85bb4435e7",
+      "bodyCharacterCount": 7700,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T17:36:01.532Z",
+      "assessment": {
+        "centralEvent": "The Kremlin says the CIA director held talks in Moscow with his intelligence counterparts",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories A Wildberries depot in Russia is destroyed as Ukraine extends its drone campaign 3 MIN READ 35 Putin decree lets Russia take control of infrastructure damaged in Ukrainian drone attacks 4 MIN READ 57 Russian drones kill 15 p",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Russian state news agencies reported that a U.S. military plane landed in Moscow’s Vnukovo airport on Tuesday and departed later that day.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Details of Tuesday’s discussions have not been revealed but such meetings normally take place only when there is a matter of pressing national security and when it is in “American national interests,” Soldatov said.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In his radio appearance Wednesday, Trump repeated that he wants to see the Russia-Ukraine war end.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.57,
+        "rawScore": 27.57,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6c8bee0fd0cfed1cbd5b": {
+      "storyId": "6c8bee0fd0cfed1cbd5b",
+      "url": "https://mashable.com/tech/bill-gates-ai-tax-proposal-to-protect-human-workers",
+      "title": "Bill Gates proposes a token tax on AI to protect human workers",
+      "source": "Mashable AI",
+      "published": "2026-08-26T17:08:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3c1cf7fa2adaa0e5ee29355a",
+      "bodyFingerprint": "b376f126677ffc21e9ddda77",
+      "bodyCharacterCount": 3894,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T17:36:01.598Z",
+      "assessment": {
+        "centralEvent": "Bill Gates proposes a token tax on AI to protect human workers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A study found that tens of thousands of jobs were lost due to AI last year, and economists are warning that more AI job losses are on the way.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f57c7772542421e04d7f": {
+      "storyId": "f57c7772542421e04d7f",
+      "url": "https://www.inc.com/tony-manganiello/ai-adoption-is-surging-most-employees-still-arent-using-it-well/91395725",
+      "title": "AI Adoption Is Surging. Most Employees Still Aren’t Using It Well",
+      "source": "Inc. AI",
+      "published": "2026-08-26T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d02acf6cb69ac141b8d553c6",
+      "bodyFingerprint": "484af48537c3ea60d8e91afa",
+      "bodyCharacterCount": 45,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-26T17:36:01.633Z",
+      "assessment": {
+        "centralEvent": "AI Adoption Is Surging. Most Employees Still Aren’t Using It Well",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "be159e51440f416e874f": {
+      "storyId": "be159e51440f416e874f",
+      "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety",
+      "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
+      "source": "WIRED AI",
+      "published": "2026-08-26T17:13:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c2104e287ae6ab143f9f3334",
+      "bodyFingerprint": "9446d1abf5cfff9f01fc3501",
+      "bodyCharacterCount": 10989,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T17:36:01.739Z",
+      "assessment": {
+        "centralEvent": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Some of the signers have built their campaigns around opposition to data centers and Big Tech, like Representative Justin Pearson, a Tennessee Democrat who rose to national prominence pushing back against pollution from SpaceX’s data center",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The new pledge is intended, according to its website, to provide “a needed baseline to ensure a humanity-first future.” The pact is an offshoot of the Political Integrity Project, an anti-money in politics group that has a similar pledge fo",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Some of the signers have built their campaigns around opposition to data centers and Big Tech, like Representative Justin Pearson, a Tennessee Democrat who rose to national prominence pushing back against pollution from SpaceX’s data center",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Daniel Lobo-Lewis, one of the founders, says that he and his other cofounders came up with the five promises in the AI Pact—which include advocating for mandatory safety reviews for AI models, supporting policies that would create an AI div",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.24,
+        "rawScore": 47.24,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.295,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b9b7e9271a29b3a2870f": {
+      "storyId": "b9b7e9271a29b3a2870f",
+      "url": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "title": "Google’s new AI transcription edits out your ‘ums’ and ‘ahs’",
+      "source": "The Verge AI",
+      "published": "2026-08-26T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c3a1efffcdad47392f41fb6a",
+      "bodyFingerprint": "b33476cadbe2f20ba8d8eca8",
+      "bodyCharacterCount": 4556,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T17:36:01.749Z",
+      "assessment": {
+        "centralEvent": "Google’s new AI transcription edits out your ‘ums’ and ‘ahs’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jess Weatherbed AI Google News Tech Most Popular Most Popular Rockstar finally responds to ‘heartbreaking’ GTA 6 leaks Xbox announces disc-to-digital feature that digitizes your physical games Bill Gates is deeply worried about AI, and he’s",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "915c15ba945dcaadaaa1": {
+      "storyId": "915c15ba945dcaadaaa1",
+      "url": "https://www.inc.com/moses-jeanfrancois/leopold-aschenbrenner-wedding-officiant-was-not-tech-leader-was-former-new-york-times-columnist/91396483",
+      "title": "Leopold Aschenbrenner’s Wedding Officiant Wasn’t a Tech Leader. It Was a Former ‘New York Times’ Columnist",
+      "source": "Inc. AI",
+      "published": "2026-08-26T16:00:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0463467119e7ac99a9b575dd",
+      "bodyFingerprint": "c48d4c6cf13817e1da0bd753",
+      "bodyCharacterCount": 155,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-26T17:36:01.752Z",
+      "assessment": {
+        "centralEvent": "Leopold Aschenbrenner’s Wedding Officiant Wasn’t a Tech Leader. It Was a Former ‘New York Times’ Columnist",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e41252e73ce985d80217": {
+      "storyId": "e41252e73ce985d80217",
+      "url": "https://apnews.com/article/roger-federer-andy-roddick-us-open-55b0529e0770a7ae1587b0e186823584",
+      "title": "Roger Federer celebrated upon his return to the US Open for an exhibition against Andy Roddick",
+      "source": "AP News AI",
+      "published": "2026-08-26T00:39:03",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2699dbaf6f4b4f7a058ce99d",
+      "bodyFingerprint": "7aebf91198d2ab3aab460d27",
+      "bodyCharacterCount": 3086,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T17:36:01.805Z",
+      "assessment": {
+        "centralEvent": "Roger Federer celebrated upon his return to the US Open for an exhibition against Andy Roddick",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "2, 2017. (AP Photo/Seth Wenig) By STEPHEN WHYNO Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dc44b5e0c2d7dd5001a1": {
+      "storyId": "dc44b5e0c2d7dd5001a1",
+      "url": "https://www.lawfaremedia.org/article/replacement-through-knowledge-acquisition",
+      "title": "Replacement Through Knowledge Acquisition",
+      "source": "Lawfare AI",
+      "published": "2026-08-26T17:00:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "916f15d20d0f3055f8b9d5ef",
+      "bodyFingerprint": "e2327a8a7cf51f03f75934d0",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T17:36:02.239Z",
+      "assessment": {
+        "centralEvent": "Replacement Through Knowledge Acquisition",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Given how murky the internal activities of AI labs are and how new the AI industry is, it is unclear whether or to what extent AI labs are currently engaging in RKA.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "New models are released as discrete versions (for example, GPT 5.1, 5.2, 5.3), and, once released, the weights for any particular version are relatively fixed.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "New models are released as discrete versions (for example, GPT 5.1, 5.2, 5.3), and, once released, the weights for any particular version are relatively fixed.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Moreover, if many employees within the same enterprise are using the same AI models simultaneously, the available information, once linked and synthesized, could reveal much more about the enterprise than any single employee has access to.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 104,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.77,
+        "rawScore": 47.77,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T16:17:57.106Z"
+  "updatedAt": "2026-08-26T17:36:02.239Z"
 }
