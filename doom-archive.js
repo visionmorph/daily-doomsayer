@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-26T13:00:00.000Z",
+  "generatedAt": "2026-08-26T15:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-26",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 42.44
         },
         {
@@ -53,17 +53,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 36.22
         },
         {
+          "storyId": "08dde364f7c2aa81dece",
+          "title": "It’s Greg Brockman’s OpenAI now",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 24.64,
+          "observations": 8,
+          "daysTracked": 1,
+          "peakDate": "2026-08-26",
+          "firstObservedAt": "2026-08-26T05:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
+          "average": 16.89
+        },
+        {
           "storyId": "b3989dcfb48ba9b056fe",
           "title": "The Youth AI Privacy Act’s Privacy Paradox",
           "url": "https://www.eff.org/deeplinks/2026/08/youth-ai-privacy-acts-privacy-paradox",
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 23.95
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 19.98,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 19.98
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 19.75,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 19.75
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif",
           "peak": 19.71,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 19.71
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO AI",
           "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
           "peak": 19.05,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 19.05
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ageverificationbanner-3.png",
           "peak": 19.04,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 19.04
-        },
-        {
-          "storyId": "15370392c6eefb0825a2",
-          "title": "Hundreds of Drone-as-First-Responder Programs Could Soon Be Launched Across the Country",
-          "url": "https://www.eff.org/deeplinks/2026/07/hundreds-drone-first-responder-programs-could-soon-be-launched-across-country",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/drone-police-by-shelby-criswell.png",
-          "peak": 18.98,
-          "observations": 7,
-          "daysTracked": 1,
-          "peakDate": "2026-08-26",
-          "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
-          "average": 18.98
         }
       ]
     },
@@ -3078,11 +3078,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 45,
+          "observations": 46,
           "daysTracked": 3,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 42.44
         },
         {
@@ -3114,25 +3114,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 27.08
         },
         {
-          "storyId": "e24875277dd9c8e66641",
-          "title": "OpenAI hit the brakes. Now what?",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 27.08,
-          "observations": 45,
-          "daysTracked": 3,
-          "peakDate": "2026-08-24",
-          "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
-          "average": 18.29
-        },
-        {
           "storyId": "08dde364f7c2aa81dece",
           "title": "It’s Greg Brockman’s OpenAI now",
           "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 27.08,
+          "observations": 46,
+          "daysTracked": 3,
+          "peakDate": "2026-08-24",
+          "firstObservedAt": "2026-08-24T05:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
+          "average": 18.43
+        },
+        {
+          "storyId": "e24875277dd9c8e66641",
+          "title": "OpenAI hit the brakes. Now what?",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 27.08,
           "observations": 45,
           "daysTracked": 3,
@@ -3148,11 +3148,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 45,
+          "observations": 46,
           "daysTracked": 3,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 23.95
         },
         {
@@ -3176,11 +3176,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 19.98,
-          "observations": 24,
+          "observations": 25,
           "daysTracked": 2,
           "peakDate": "2026-08-25",
           "firstObservedAt": "2026-08-25T09:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 19.98
         },
         {
@@ -3190,11 +3190,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 19.75,
-          "observations": 45,
+          "observations": 46,
           "daysTracked": 3,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T13:00:00.000Z",
+          "lastObservedAt": "2026-08-26T15:00:00.000Z",
           "average": 19.75
         }
       ]
