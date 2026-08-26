@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "038227c518a0cea1b62b",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-08-26T19:00:00.000Z",
+  "generatedAt": "2026-08-26T23:00:00.000Z",
   "daily": [
     {
       "period": "2026-08-26",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
           "average": 42.44
         },
         {
@@ -53,18 +53,32 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 36.22
         },
         {
+          "storyId": "1d6661841b379093e114",
+          "title": "OpenAI’s rogue AI model incident was worse than we thought",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK_414_AI_CHATBOT_R2_CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 32.32,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-26",
+          "firstObservedAt": "2026-08-26T23:00:00.000Z",
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
+          "average": 32.32
+        },
+        {
           "storyId": "08dde364f7c2aa81dece",
           "title": "It’s Greg Brockman’s OpenAI now",
           "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 24.64,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
-          "average": 18.44
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
+          "average": 19
         },
         {
           "storyId": "b3989dcfb48ba9b056fe",
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
           "average": 23.95
         },
         {
@@ -87,12 +101,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 21.2,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
-          "average": 19.89
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
+          "average": 20.01
         },
         {
           "storyId": "6c2861183e872b5c5256",
@@ -101,12 +115,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 19.98,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
-          "average": 19.98
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
+          "average": 19.35
         },
         {
           "storyId": "8335b908821f97f34548",
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif",
           "peak": 19.71,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
           "average": 19.71
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 19.42,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-26T19:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
           "average": 19.42
-        },
-        {
-          "storyId": "12b2563b9d6861b5c366",
-          "title": "OpenAI settles claims of discrimination against US workers for $3.2 million",
-          "url": "https://www.politico.com/news/2026/08/04/open-ai-discrimination-settlement-doj-01024742",
-          "source": "POLITICO AI",
-          "image": "https://static.politico.com/e5/f5/9c69f9b0496298dae2206f7f8bfd/open-ai-98772.jpg",
-          "peak": 19.05,
-          "observations": 10,
-          "daysTracked": 1,
-          "peakDate": "2026-08-26",
-          "firstObservedAt": "2026-08-26T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
-          "average": 19.05
         }
       ]
     },
@@ -3078,11 +3078,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/08/19/Rene-van-Haaster-vice-president-EMEA-North_Elastic_SearchAI-1-659x1024.jpeg",
           "peak": 42.44,
-          "observations": 48,
+          "observations": 49,
           "daysTracked": 3,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
           "average": 42.44
         },
         {
@@ -3098,6 +3098,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
           "lastObservedAt": "2026-08-26T13:00:00.000Z",
           "average": 36.22
+        },
+        {
+          "storyId": "1d6661841b379093e114",
+          "title": "OpenAI’s rogue AI model incident was worse than we thought",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK_414_AI_CHATBOT_R2_CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 32.32,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-08-26",
+          "firstObservedAt": "2026-08-26T23:00:00.000Z",
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
+          "average": 32.32
         },
         {
           "storyId": "d7769cca38598e970713",
@@ -3120,12 +3134,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 27.08,
-          "observations": 48,
+          "observations": 49,
           "daysTracked": 3,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
-          "average": 18.69
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
+          "average": 18.81
         },
         {
           "storyId": "e24875277dd9c8e66641",
@@ -3148,11 +3162,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/ai-robots-emotion.png",
           "peak": 23.95,
-          "observations": 48,
+          "observations": 49,
           "daysTracked": 3,
           "peakDate": "2026-08-24",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
           "average": 23.95
         },
         {
@@ -3176,26 +3190,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "",
           "peak": 21.2,
-          "observations": 48,
+          "observations": 49,
           "daysTracked": 3,
           "peakDate": "2026-08-26",
           "firstObservedAt": "2026-08-24T05:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
-          "average": 19.78
-        },
-        {
-          "storyId": "6c2861183e872b5c5256",
-          "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 19.98,
-          "observations": 27,
-          "daysTracked": 2,
-          "peakDate": "2026-08-25",
-          "firstObservedAt": "2026-08-25T09:00:00.000Z",
-          "lastObservedAt": "2026-08-26T19:00:00.000Z",
-          "average": 19.98
+          "lastObservedAt": "2026-08-26T23:00:00.000Z",
+          "average": 19.81
         }
       ]
     },
