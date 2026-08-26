@@ -60509,8 +60509,198 @@
           "vulnerability": 0
         }
       }
+    },
+    "76ebd23c9d5a0324c077": {
+      "storyId": "76ebd23c9d5a0324c077",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/26/world-people-dangerous-politics-global-public-human-rights",
+      "title": "Around the world, people are rejecting divisive and dangerous politics. We can – and must – build on that | Gordon Brown",
+      "source": "The Guardian AI",
+      "published": "2026-08-26T05:00:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee2864a6ca107b86d41cb11c",
+      "bodyFingerprint": "b6abd759cc265d1c409c1db2",
+      "bodyCharacterCount": 7998,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T05:52:02.725Z",
+      "assessment": {
+        "centralEvent": "Around the world, people are rejecting divisive and dangerous politics. We can – and must – build on that | Gordon Brown",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "And with Donald Trump’s recent threat of genocide against the Iranian people – “a whole civilisation will die tonight, never to be brought back again” – and his further threat to even bomb an ally, Oman , the American president has demonstr",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "369e5b7bde96efd3771e": {
+      "storyId": "369e5b7bde96efd3771e",
+      "url": "https://apnews.com/article/mexicali-threat-border-mexico-us-0a030c90e73f7ff41a212b2079609633",
+      "title": "US issues security alert in Mexican border city and suspends consular activities",
+      "source": "AP News AI",
+      "published": "2026-08-25T19:50:19",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee4ce1e95ede88342b8bab23",
+      "bodyFingerprint": "7190f33fc90b05f7e30ef3ce",
+      "bodyCharacterCount": 3111,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T05:52:02.756Z",
+      "assessment": {
+        "centralEvent": "US issues security alert in Mexican border city and suspends consular activities",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“There is no further information about what this alert could involve, but simply to remain alert and maintain surveillance in Mexicali,” Sheinbaum said at her regular morning news conference.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "La presidenta mexicana Claudia Sheinbaum llega para recibir al presidente suizo Guy Parmelin y a su esposa Caroline Merotto en el Palacio Nacional de la Ciudad de México, el miércoles 8 de julio de 2026. (Foto AP/Eduardo Verdugo) Updated [h",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "069a21d2b999cf2ab74a": {
+      "storyId": "069a21d2b999cf2ab74a",
+      "url": "https://thedispatch.com/article/data-centers-artificial-intelligence-moral-panic",
+      "title": "The Data Center Backlash Is Just a New Moral Panic",
+      "source": "The Dispatch AI",
+      "published": "2026-08-26T05:01:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c93b1a8635158c6ffcd20ace",
+      "bodyFingerprint": "f70d34e6ce2a20cac6cba3c1",
+      "bodyCharacterCount": 5038,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-26T05:52:03.251Z",
+      "assessment": {
+        "centralEvent": "The Data Center Backlash Is Just a New Moral Panic",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Text Size { this.tooltipOpen = false; }, 200); } }\" class=\"relative\"> Members can share articles with friends & family to bypass the paywall. { if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText('https://thed",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T04:57:38.529Z"
+  "updatedAt": "2026-08-26T05:52:03.251Z"
 }
