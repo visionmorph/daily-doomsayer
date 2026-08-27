@@ -65100,8 +65100,1080 @@
           "vulnerability": 0
         }
       }
+    },
+    "17c2b87af33824b00896": {
+      "storyId": "17c2b87af33824b00896",
+      "url": "https://mashable.com/tech/synthetic-performer-disclosure-new-york-state-law-first-complaints",
+      "title": "Seen an ad with an AI influencer or actor? It may be against the law.",
+      "source": "Mashable AI",
+      "published": "2026-08-27T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ec5e16baab087a2756fbc4dc",
+      "bodyFingerprint": "0c9d272cc849b85acd1ffb56",
+      "bodyCharacterCount": 6548,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.489Z",
+      "assessment": {
+        "centralEvent": "Seen an ad with an AI influencer or actor? It may be against the law.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The maximum fine from the FTC could be a whopping $51,744 per violation.Mashable previously reached out to the FTC to ask if AI-generated actors and influencers could violate its regulations prohibiting fake reviews and testimonials. \"If th",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "71e3056613d17350cd6d": {
+      "storyId": "71e3056613d17350cd6d",
+      "url": "https://www.politico.com/news/2026/08/26/hundreds-of-ai-agents-went-rogue-in-openais-hugging-face-hack-01052139",
+      "title": "Hundreds of AI agents went rogue in OpenAI’s Hugging Face hack",
+      "source": "POLITICO Europe AI",
+      "published": "2026-08-27T08:48:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ef2efb3d6d66dad431438c78",
+      "bodyFingerprint": "a537cf56970a90baa3da5b01",
+      "bodyCharacterCount": 155,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-27T09:53:20.495Z",
+      "assessment": {
+        "centralEvent": "Hundreds of AI agents went rogue in OpenAI’s Hugging Face hack",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "title",
+            "excerpt": "Hundreds of AI agents went rogue in OpenAI’s Hugging Face hack",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 64,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "064ab98aa3389c7bbf3b": {
+      "storyId": "064ab98aa3389c7bbf3b",
+      "url": "https://www.theguardian.com/science/audio/2026/aug/27/everyone-hates-datacentres-do-we-really-need-them-podcast",
+      "title": "Everyone hates datacentres. Do we really need them? – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-08-27T04:00:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fbbd11ecc42d8a5b718e9463",
+      "bodyFingerprint": "148f97f0cd08fe2613f305f2",
+      "bodyCharacterCount": 819,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.584Z",
+      "assessment": {
+        "centralEvent": "Everyone hates datacentres. Do we really need them? – podcast",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Madeleine Finlay speaks to the Guardian’s global technology reporter Aisha Down about the backlash to datacentres across the UK and around the world For tickets to the Science Weekly live event at the London podcast festival on the future o",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Madeleine Finlay speaks to the Guardian’s global technology reporter Aisha Down about the backlash to datacentres across the UK and around the world For tickets to the Science Weekly live event at the London podcast festival on the future o",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.5,
+        "rawScore": 24.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.045,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "80b256b102804c43e648": {
+      "storyId": "80b256b102804c43e648",
+      "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand",
+      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+      "source": "TechCrunch AI",
+      "published": "2026-08-26T23:47:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b76596b620233a27e9fa5bf2",
+      "bodyFingerprint": "13166bb318d4f222ff2f2ab5",
+      "bodyCharacterCount": 7373,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.597Z",
+      "assessment": {
+        "centralEvent": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Fitbit founders launch Luffu Link, an LTE health and safety band Aisha Malik Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind al",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f102e443156ffdb4ddfe": {
+      "storyId": "f102e443156ffdb4ddfe",
+      "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition",
+      "title": "Nvidia closes in on Hugging Face acquisition",
+      "source": "TechCrunch AI",
+      "published": "2026-08-27T06:32:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3310b13facafe96fb55c1db7",
+      "bodyFingerprint": "7f75cb42f0121c21ab48ead5",
+      "bodyCharacterCount": 7197,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.649Z",
+      "assessment": {
+        "centralEvent": "Nvidia closes in on Hugging Face acquisition",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Most obviously, it comes down to protecting its dominance in AI chips, which, from the outside at least, appears increasingly at risk, even with Nvidia’s aggressive chip-release schedule.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Fitbit founders launch Luffu Link, an LTE health and safety band Aisha Malik Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders Jagmeet Singh Inherent, founded by DeepMind al",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Hugging Face CEO Clem Delangue has spent much of this year publicly aligned with Nvidia’s open-source push, amid a debate that has been building for months, as Washington officials reportedly weighed restrictions on open-weight models. (Chi",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Business Insider, which first reported over the weekend that Hugging Face was fielding takeover interest, reported Wednesday night that the talks — which would value the company at more than $13 billion — had not yet produced a signed agree",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.02,
+        "rawScore": 28.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9723cad75b4031452ee0": {
+      "storyId": "9723cad75b4031452ee0",
+      "url": "https://www.theguardian.com/environment/2026/aug/27/how-decoding-beluga-whales-chitchat-may-save-them-and-teach-us-more-about-ourselves",
+      "title": "How decoding beluga whales’ chitchat may save them – and teach us more about ourselves",
+      "source": "The Guardian AI",
+      "published": "2026-08-27T09:02:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7024232725b05181e2933f8e",
+      "bodyFingerprint": "993ceb4380d108b21a8cfd36",
+      "bodyCharacterCount": 13575,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.703Z",
+      "assessment": {
+        "centralEvent": "How decoding beluga whales’ chitchat may save them – and teach us more about ourselves",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Intriguingly, researchers have found that these dialects often correlate to unique behavioural differences between groups, such as specific foraging and migration habits.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 90,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ae37e6b25ef17440ad4": {
+      "storyId": "4ae37e6b25ef17440ad4",
+      "url": "https://www.wired.com/story/uk-data-centers-logjam-ofgem-regulations",
+      "title": "The UK Power Grid Has a Phantom Data Center Problem",
+      "source": "WIRED AI",
+      "published": "2026-08-27T06:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d6e33595db67268f95edf51",
+      "bodyFingerprint": "6c4cca5ddf0c13bc0f0b86b5",
+      "bodyCharacterCount": 10470,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.720Z",
+      "assessment": {
+        "centralEvent": "The UK Power Grid Has a Phantom Data Center Problem",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But whereas the US is a highly desirable market , Ofgem’s reforms risk making the UK—already unattractive for the high cost of energy and dearth of land—one of the world’s most expensive places to build a data center, industry experts belie",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The queue to join the UK grid began to balloon toward the end of 2024, around the time the government designated data centers “critical national infrastructure.” Between November 2024 and June 2025, the total energy demand of the projects i",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“We don’t want to shoot the golden goose.” Ofgem says that it will take into account industry concerns before settling on a fee, but that differences between international energy markets make like-for-like comparison difficult.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Yessenia Funes The Single English County Saying No to Palantir The UK government is facing calls to cancel a sprawling health care contract with Palantir.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.41,
+        "rawScore": 27.41,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6050aa46cf9e60a287ba": {
+      "storyId": "6050aa46cf9e60a287ba",
+      "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation",
+      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
+      "source": "TechCrunch AI",
+      "published": "2026-08-27T00:24:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8bcf758c3201f322fb15e664",
+      "bodyFingerprint": "da8b44afcdeb6a56253d1bb8",
+      "bodyCharacterCount": 2573,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.744Z",
+      "assessment": {
+        "centralEvent": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Someone’s even planning their wedding with Instinct.” Instinct, which rocks a decidedly lo-fi website , is currently in private beta, but it has already inspired a certain amount of controversy due to privacy concerns .",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI Anthropic continues compute-gobbling streak in $45B deal with Nscale Lucas Ropek 12 hours ago AI Ex-Meta scientists want to bring visual AI to the f",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1279d030617492a76b84": {
+      "storyId": "1279d030617492a76b84",
+      "url": "https://mashable.com/tech/airpods-pro-ultra-cameras-rumors-september-iphone-event-2026",
+      "title": "The latest AirPods rumors ahead of the Apple event: AirPods 5, cameras, and AI",
+      "source": "Mashable AI",
+      "published": "2026-08-27T09:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0d9a4a1993c1404811cec7d4",
+      "bodyFingerprint": "64cf558ddf1aedd6f4db46f4",
+      "bodyCharacterCount": 6306,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.752Z",
+      "assessment": {
+        "centralEvent": "The latest AirPods rumors ahead of the Apple event: AirPods 5, cameras, and AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Here are the latest AirPods rumors ahead of the September iPhone event.Two new AirPods 5 modelsWhenever a big slew of Apple announcements is imminent, it's always worth checking in with Bloomberg reporter Mark Gurman, who usually prognostic",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "60bd0f4b81cc87da9277": {
+      "storyId": "60bd0f4b81cc87da9277",
+      "url": "https://www.theguardian.com/news/audio/2026/aug/27/black-box-episode-4-bing-and-i-podcast",
+      "title": "Black Box: episode 4 – Bing and I – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-08-27T02:00:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c684c154a787ff54d4fcb25a",
+      "bodyFingerprint": "dc32344472977bb33b282ca5",
+      "bodyCharacterCount": 1039,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.811Z",
+      "assessment": {
+        "centralEvent": "Black Box: episode 4 – Bing and I – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e3a1a1d1bc8c171655a1": {
+      "storyId": "e3a1a1d1bc8c171655a1",
+      "url": "https://news.sky.com/story/ai-helps-perform-brain-surgery-on-british-man-in-world-first-13577615",
+      "title": "British man first in the world to have brain tumour removed with help of AI",
+      "source": "Sky News AI",
+      "published": "2026-08-27T02:28:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd641c11c380dd5c963b003e",
+      "bodyFingerprint": "af851eaf3bc3c08f2ce5991e",
+      "bodyCharacterCount": 110,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-27T09:53:20.847Z",
+      "assessment": {
+        "centralEvent": "British man first in the world to have brain tumour removed with help of AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1b790ebd95e902e1e881": {
+      "storyId": "1b790ebd95e902e1e881",
+      "url": "https://apnews.com/article/good-good-golf-ad-7e98f011d6c3ba9078eef02fd929b72a",
+      "title": "Dick's Sporting Goods and Golf Galaxy remove Good Good Golf items after backlash to video",
+      "source": "AP News AI",
+      "published": "2026-08-26T23:22:45",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "05ad184acab60872d3ba558a",
+      "bodyFingerprint": "eaf1c26f8360378a5853b01b",
+      "bodyCharacterCount": 1391,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.853Z",
+      "assessment": {
+        "centralEvent": "Dick's Sporting Goods and Golf Galaxy remove Good Good Golf items after backlash to video",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Dick's Sporting Goods and Golf Galaxy remove Good Good Golf items after backlash to video",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Front Office Sports reported Tuesday that Dick’s and Golf Galaxy had stopped selling Good Good products.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 10,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f25b00229d22d54f9ec7": {
+      "storyId": "f25b00229d22d54f9ec7",
+      "url": "https://apnews.com/article/pro-bowl-ends-nfl-837191baa459e7afd7a4c7603dc41101",
+      "title": "NFL ends the Pro Bowl game, but players will still be honored as Pro Bowlers",
+      "source": "AP News AI",
+      "published": "2026-08-26T22:05:05",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8345cf1f088d4b008bbeec5",
+      "bodyFingerprint": "087b9208c9e5c75ad2bb09f5",
+      "bodyCharacterCount": 2389,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.859Z",
+      "assessment": {
+        "centralEvent": "NFL ends the Pro Bowl game, but players will still be honored as Pro Bowlers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "26, 2026, in Atlanta. (AP Photo/Brynn Anderson) Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "046751ef47641833882c": {
+      "storyId": "046751ef47641833882c",
+      "url": "https://apnews.com/article/nfl-owners-seahawks-sale-cbeece035eb56f26c7d789a2b8971f01",
+      "title": "NFL owners unanimously approve the sale of the Seahawks to Vinod Khosla and his family",
+      "source": "AP News AI",
+      "published": "2026-08-26T19:36:21",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd9c111b7c8715909dfa31d0",
+      "bodyFingerprint": "39393d59a9f600eb0b23dd45",
+      "bodyCharacterCount": 6871,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.919Z",
+      "assessment": {
+        "centralEvent": "NFL owners unanimously approve the sale of the Seahawks to Vinod Khosla and his family",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "His current net worth is $13.7 billion, according to Forbes.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e045a7d4e566aa64f4d7": {
+      "storyId": "e045a7d4e566aa64f4d7",
+      "url": "https://apnews.com/article/thailand-us-aircraft-carrier-lincoln-port-visit-3f144724cdd0661561fe1f93447aef42",
+      "title": "USS Abraham Lincoln will stop in Thailand on its way home from lengthy deployment in Middle East",
+      "source": "AP News AI",
+      "published": "2026-08-26T06:15:54",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3db9adbb7a56dc251334f47c",
+      "bodyFingerprint": "e9bb368ed67d8a50b7fbf2b7",
+      "bodyCharacterCount": 3401,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.935Z",
+      "assessment": {
+        "centralEvent": "USS Abraham Lincoln will stop in Thailand on its way home from lengthy deployment in Middle East",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Lincoln was supporting the U.S. war against Iran , and its deployment included a record-setting uninterrupted time at sea of more than 250 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b64e867cf800d5eb8b7b": {
+      "storyId": "b64e867cf800d5eb8b7b",
+      "url": "https://apnews.com/article/uk-prince-harry-meghan-arrive-royal-family-1876835913eb08c0b2d82f8e41e0cfe5",
+      "title": "Prince Harry and wife Meghan arrive in the UK as they make a fresh start in Britain",
+      "source": "AP News AI",
+      "published": "2026-08-26T12:16:44",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e516b34b67a5334beae0e31e",
+      "bodyFingerprint": "54d704b85ccbdf0222ff5ab6",
+      "bodyCharacterCount": 2916,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.941Z",
+      "assessment": {
+        "centralEvent": "Prince Harry and wife Meghan arrive in the UK as they make a fresh start in Britain",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Prince Harry, and Meghan, the Duke and Duchess of Sussex, arrive for an event, during a visit to Bondi Beach, Australia, April 17, 2026. (Jonathan Brady/Pool Photo via AP, File) By DANICA KIRKA Updated [hour]:[minute] [AMPM] [timezone], [mo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c4a3d2cde5e8e39bbdf6": {
+      "storyId": "c4a3d2cde5e8e39bbdf6",
+      "url": "https://apnews.com/article/lindsay-clancy-trial-postpartum-psychosis-98dd823104893f0ba0fbfbc9f8145f5e",
+      "title": "Testimony concludes in Lindsay Clancy’s murder trial. Jury to hear closing arguments Thursday",
+      "source": "AP News AI",
+      "published": "2026-08-26T13:58:06",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1cbf895718277a40d65c3a06",
+      "bodyFingerprint": "4bc951254171ff7404983595",
+      "bodyCharacterCount": 10719,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-27T09:53:20.953Z",
+      "assessment": {
+        "centralEvent": "Testimony concludes in Lindsay Clancy’s murder trial. Jury to hear closing arguments Thursday",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Clancy, 36, has pleaded not guilty by reason of lack of criminal responsibility, with her lawyers arguing she was experiencing postpartum psychosis when she killed 5-year-old Cora, 3-year-old Dawson and 8-month-old Callan Clancy at the fami",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-26T23:37:25.783Z"
+  "updatedAt": "2026-08-27T09:53:20.953Z"
 }
