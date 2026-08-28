@@ -6,8 +6,8 @@ window.DAILY_DOOMSAYER_SITE = {
   },
   "doomIndex": {
     "modelName": "DREAD",
-    "version": "1.2.2",
-    "formulaVersion": "1.2.2-shadow.1",
+    "version": "1.3.0",
+    "formulaVersion": "1.3.0-body-context.1",
     "severityScale": [
       {
         "minimum": 0,
@@ -45,10 +45,7 @@ window.DAILY_DOOMSAYER_SITE = {
         "qualification": "Use only when strong evidence establishes widespread or global consequences combined with several extreme conditions, such as mass casualties or displacement, irreversible damage, failure of essential systems, uncontrollable escalation, or a credible existential threat. Frightening language, theoretical possibilities, or worst-case predictions alone never qualify."
       }
     ],
-    "shadow": {
-      "version": "1.2.4",
-      "formulaVersion": "1.2.4-offline.1"
-    },
+    "shadow": null,
     "bodyAware": {
       "version": "1.3.0",
       "formulaVersion": "1.3.0-body-context.1",
@@ -58,30 +55,30 @@ window.DAILY_DOOMSAYER_SITE = {
   },
   "intradayDoom": {
     "date": "2026-08-28",
-    "formulaVersion": "1.2.2-shadow.1",
+    "formulaVersion": "1.3.0-body-context.1",
     "observedAt": "2026-08-28T18:00:00.000Z",
-    "current": 42.44,
+    "current": 71.31,
     "currentStory": {
-      "storyId": "1af4f3300d0130192a63",
-      "title": "LAYING THE GROUNDWORK FOR AI-POWERED CYBERSECURITY",
-      "url": "https://www.politico.eu/sponsored-content/laying-the-groundwork-for-ai-powered-cybersecurity/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+      "storyId": "8b1ceabf6e0aa471cf2b",
+      "title": "He Scraped All of Their Art for AI. Now He’s Collaborating on a Tool to Help Them",
+      "url": "https://www.wired.com/story/he-scraped-art-from-cara-for-ai-now-he-is-collaborating-on-a-tool-to-help-them/"
     },
-    "lastHourChange": null,
-    "open": 42.44,
+    "lastHourChange": 0,
+    "open": 71.31,
     "openingStory": {
-      "storyId": "1af4f3300d0130192a63",
-      "title": "LAYING THE GROUNDWORK FOR AI-POWERED CYBERSECURITY",
-      "url": "https://www.politico.eu/sponsored-content/laying-the-groundwork-for-ai-powered-cybersecurity/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+      "storyId": "8b1ceabf6e0aa471cf2b",
+      "title": "He Scraped All of Their Art for AI. Now He’s Collaborating on a Tool to Help Them",
+      "url": "https://www.wired.com/story/he-scraped-art-from-cara-for-ai-now-he-is-collaborating-on-a-tool-to-help-them/"
     },
     "dayChange": 0,
-    "peak": 42.44,
+    "peak": 71.31,
     "peakStory": {
-      "storyId": "1af4f3300d0130192a63",
-      "title": "LAYING THE GROUNDWORK FOR AI-POWERED CYBERSECURITY",
-      "url": "https://www.politico.eu/sponsored-content/laying-the-groundwork-for-ai-powered-cybersecurity/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+      "storyId": "8b1ceabf6e0aa471cf2b",
+      "title": "He Scraped All of Their Art for AI. Now He’s Collaborating on a Tool to Help Them",
+      "url": "https://www.wired.com/story/he-scraped-art-from-cara-for-ai-now-he-is-collaborating-on-a-tool-to-help-them/"
     },
     "observations": 1,
-    "definition": "Highest public Doom Index story observed during each hourly update."
+    "definition": "Highest DREAD 1.3.0 story observed during each hourly update."
   },
   "sources": [
     {

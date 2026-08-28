@@ -7,7 +7,7 @@ Daily Doomsayer is an experimental news aggregator that presents current events 
 
 The Doom Index is calculated by **DREAD**, a versioned scoring model that evaluates story titles, summaries, source coverage, and—when available—article context. Scores correspond to five severity levels: **Uneasy, Ominous, Alarming, Dire,** and **Catastrophic**.
 
-DREAD is tested against guided human ratings so that new versions can be compared with the public model before they are promoted. The model switcher on the website lets readers compare public and experimental interpretations of the same stories.
+DREAD is tested against guided human ratings before new versions are promoted. The website now publishes DREAD 1.3.0 as its single live interpretation of each story.
 
 ## Visual concept
 
@@ -20,7 +20,7 @@ Together, the scoring and visual system make each headline feel as though the we
 1. Scheduled GitHub Actions collect stories from publisher RSS feeds.
 2. Node.js scripts clean and organize the stories, retrieve available article images and context, and calculate DREAD scores.
 3. The generated story data is saved for the static website.
-4. Browser-side JavaScript builds the page, applies the selected DREAD model, and renders the animated image corruption.
+4. Browser-side JavaScript builds the page using DREAD 1.3.0 and renders the animated image corruption.
 5. A separate calibration page records guided human ratings used to evaluate future DREAD versions.
 
 ## Technology

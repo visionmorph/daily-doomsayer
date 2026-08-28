@@ -660,27 +660,17 @@
     return {
       name: String(doomIndex.modelName || "DREAD").toUpperCase(),
       role: "PUBLIC",
-      version: String(doomIndex.version || article.doomIndexVersion || "unknown"),
-      formulaVersion: String(
-        doomIndex.formulaVersion || article.doomIndexFormulaVersion || "unknown",
-      ),
-      score: score(article.doomIndex),
-    };
-  }
-
-  function shadowModel(article) {
-    return {
-      name: String(doomIndex.modelName || "DREAD").toUpperCase(),
-      role: "EXPERIMENTAL",
       version: String(
-        doomIndex.shadow?.version || article.doomIndexV124ShadowVersion || "1.2.4",
+        doomIndex.bodyAware?.version ||
+          article.doomIndexV130BodyAwareVersion ||
+          "1.3.0",
       ),
       formulaVersion: String(
-        doomIndex.shadow?.formulaVersion ||
-          article.doomIndexV124ShadowFormulaVersion ||
+        doomIndex.bodyAware?.formulaVersion ||
+          article.doomIndexV130BodyAwareFormulaVersion ||
           "unknown",
       ),
-      score: score(article.doomIndexV124Shadow),
+      score: score(article.doomIndexV130BodyAware),
     };
   }
 
@@ -833,7 +823,6 @@
     }
 
     const publicDefinition = record.models.public;
-    const shadowDefinition = record.models.shadow;
 
     elements.comparison.append(
       comparisonItem("Human / feed", humanScoreText(record.feedRating.score)),
@@ -843,16 +832,12 @@
         scoreText(publicDefinition.score),
       ),
       comparisonItem(
-        `${shadowDefinition.name} ${shadowDefinition.version} / ${shadowDefinition.role}`,
-        scoreText(shadowDefinition.score),
-      ),
-      comparisonItem(
         "Article context adjustment",
         signedDifference(record.articleRating.score, record.feedRating.score, 0),
       ),
       comparisonItem(
-        "Experimental error after reading",
-        signedDifference(shadowDefinition.score, record.articleRating.score),
+        "DREAD error after reading",
+        signedDifference(publicDefinition.score, record.articleRating.score),
       ),
     );
 
@@ -911,7 +896,6 @@
         : {
             models: {
               public: publicModel(article),
-              shadow: shadowModel(article),
             },
           }),
       startedAt: state.ratings[key]?.startedAt || now,
@@ -992,7 +976,6 @@
         : {
             models: existing?.models || {
               public: publicModel(article),
-              shadow: shadowModel(article),
             },
           }),
       startedAt: existing?.startedAt || now,
@@ -1067,7 +1050,6 @@
               version: doomIndex.version || null,
               formulaVersion: doomIndex.formulaVersion || null,
             },
-            shadow: doomIndex.shadow || null,
           },
         };
 

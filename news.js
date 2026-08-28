@@ -5,46 +5,15 @@
   let glitchImageIndex = 0;
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const modelName = String(site.doomIndex?.modelName || "DREAD").toUpperCase();
-  const modelStorageKey = "daily-doomsayer-doom-model";
-  const modelDefinitions = {
-    public: {
-      version: String(site.doomIndex?.version || "1.2.2"),
-      status: "PUBLIC",
-      valueField: "doomIndex",
-    },
-    experimental: {
-      version: String(site.doomIndex?.shadow?.version || "1.2.4"),
-      status: "EXPERIMENTAL",
-      valueField: "doomIndexV124Shadow",
-    },
-    "body-aware": {
-      version: String(site.doomIndex?.bodyAware?.version || "1.3.0"),
-      status: "EXPERIMENTAL",
-      valueField: String(
-        site.doomIndex?.bodyAware?.valueField || "doomIndexV130BodyAware",
-      ),
-    },
+  const activeModel = {
+    version: String(
+      site.doomIndex?.bodyAware?.version || site.doomIndex?.version || "1.3.0",
+    ),
+    status: "PUBLIC",
+    valueField: String(
+      site.doomIndex?.bodyAware?.valueField || "doomIndexV130BodyAware",
+    ),
   };
-
-  function modelAvailable(model) {
-    const definition = modelDefinitions[model];
-    return (
-      Boolean(definition) &&
-      Array.isArray(articles) &&
-      articles.some((article) =>
-        Number.isFinite(Number(article?.[definition.valueField])),
-      )
-    );
-  }
-
-  let activeModel = "public";
-
-  try {
-    const storedModel = window.localStorage.getItem(modelStorageKey);
-    if (modelAvailable(storedModel)) activeModel = storedModel;
-  } catch {
-    activeModel = "public";
-  }
 
   document.querySelectorAll("a.news-link").forEach((link) => {
     link.target = "_blank";
@@ -222,9 +191,8 @@
     const scaleElement = document.querySelector("#doom-index-legend-scale");
 
     if (versionElement) {
-      const definition = modelDefinitions[activeModel];
       versionElement.textContent =
-        `${modelName} ${definition.version} [${definition.status}]`.trim();
+        `${modelName} ${activeModel.version} [${activeModel.status}]`.trim();
     }
 
     if (!scaleElement || severityScale.length === 0) {
@@ -263,31 +231,14 @@
     }
   }
 
-  function doomIndexValue(article, model = activeModel) {
-    const definition = modelDefinitions[model] || modelDefinitions.public;
-    const selectedDoomIndex = Number(article?.[definition.valueField]);
+  function doomIndexValue(article) {
+    const selectedDoomIndex = Number(article?.[activeModel.valueField]);
 
     if (Number.isFinite(selectedDoomIndex)) {
       return Math.max(0, Math.min(selectedDoomIndex, 100));
     }
 
-    if (model !== "public") {
-      return null;
-    }
-
-    const recordedDoomIndex = Number(article?.doomIndex);
-
-    if (Number.isFinite(recordedDoomIndex)) {
-      return Math.max(0, Math.min(recordedDoomIndex, 100));
-    }
-
-    const score = Number(article?.score);
-
-    if (!Number.isFinite(score)) {
-      return null;
-    }
-
-    return Math.max(0, Math.min(score * 100, 100));
+    return null;
   }
 
   function doomClassification(value) {
@@ -587,10 +538,9 @@
       return;
     }
 
-    const modelArticles =
-      activeModel === "public"
-        ? articles
-        : articles.filter((article) => doomIndexValue(article) !== null);
+    const modelArticles = articles.filter(
+      (article) => doomIndexValue(article) !== null,
+    );
     const orderedArticles = [...modelArticles].sort(compareArticles);
     const featuredArticle = orderedArticles.find(
       (article) => article.group === "ai",
@@ -601,61 +551,8 @@
     renderDoomIndexLegend();
   }
 
-  function updateModelSwitcher() {
-    document.querySelectorAll("[data-doom-model]").forEach((button) => {
-      const model = button.dataset.doomModel;
-      const definition = modelDefinitions[model];
-      const selected = model === activeModel;
-      const unavailable = !modelAvailable(model);
-
-      button.classList.toggle("is-selected", selected);
-      button.setAttribute("aria-checked", String(selected));
-      button.setAttribute("aria-disabled", String(unavailable));
-      button.setAttribute(
-        "aria-label",
-        `${modelName} ${definition.version} ${definition.status}`,
-      );
-      button.disabled = unavailable;
-      button.querySelector("[data-model-name]").textContent = modelName;
-      button.querySelector("[data-model-version]").textContent =
-        definition.version;
-    });
-  }
-
-  function selectModel(model) {
-    if (
-      !modelDefinitions[model] ||
-      !modelAvailable(model) ||
-      model === activeModel
-    ) {
-      return;
-    }
-
-    activeModel = model;
-
-    try {
-      window.localStorage.setItem(modelStorageKey, activeModel);
-    } catch {
-      // The model still switches when browser storage is unavailable.
-    }
-
-    updateModelSwitcher();
-    renderModelView();
-  }
-
-  function initializeModelSwitcher() {
-    document.querySelectorAll("[data-doom-model]").forEach((button) => {
-      button.addEventListener("click", () => {
-        selectModel(button.dataset.doomModel);
-      });
-    });
-
-    updateModelSwitcher();
-  }
-
   initializeChronicle();
   initializeMarketTape();
   renderSourceDirectory();
-  initializeModelSwitcher();
   renderModelView();
 })();
