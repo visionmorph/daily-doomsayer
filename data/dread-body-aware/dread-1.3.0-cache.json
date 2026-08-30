@@ -76803,8 +76803,200 @@
           "vulnerability": 0
         }
       }
+    },
+    "9931d5e21a87c594a2b7": {
+      "storyId": "9931d5e21a87c594a2b7",
+      "url": "https://apnews.com/article/iran-strait-hormuz-strike-united-states-6b098da673ac3161a266ee459d5eff44",
+      "title": "US strikes Iranian rocket launchers on the Strait of Hormuz in first military action in weeks",
+      "source": "AP News AI",
+      "published": "2026-08-30T20:01:35",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c11ed5abceab7349674136da",
+      "bodyFingerprint": "63dd9366a5e738ae5385b911",
+      "bodyCharacterCount": 8720,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-30T23:32:15.251Z",
+      "assessment": {
+        "centralEvent": "US strikes Iranian rocket launchers on the Strait of Hormuz in first military action in weeks",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The last time the U.S. military confirmed targeting Iran was on July 29, when it announced a “heavy wave of strikes” on dozens of Revolutionary Guard targets including coastal surveillance and defense sites.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Forces with the Revolutionary Guard Corps were observed preparing to launch rockets with sea mines into the strait, according to Tim Hawkins, a spokesperson for the U.S.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The U.S. military last week completed clearing sea mines from the strait’s international shipping routes.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "01d284604067169b6170": {
+      "storyId": "01d284604067169b6170",
+      "url": "https://apnews.com/article/columbia-south-carolina-officers-shot-b95bb232cfd85cabd5264c6c301a87a3",
+      "title": "An officer is dead and a second is injured in a shooting at South Carolina park, police chief says",
+      "source": "AP News AI",
+      "published": "2026-08-29T22:45:17",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd00eb9247edd84913fc1199",
+      "bodyFingerprint": "7331bf72152bd7e016dfbc65",
+      "bodyCharacterCount": 6606,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-30T23:32:15.266Z",
+      "assessment": {
+        "centralEvent": "An officer is dead and a second is injured in a shooting at South Carolina park, police chief says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An officer is dead and a second is injured in a shooting at South Carolina park, police chief says 1 of 5 | A South Carolina police officer died and a second was injured in a “gunfight” Saturday in a park, following a call about a domestic ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a2063af457477c0e4001": {
+      "storyId": "a2063af457477c0e4001",
+      "url": "https://apnews.com/article/grand-canyon-flood-bright-angel-water-arizona-8e2211e04f30b637e35ab95ecb1a1626",
+      "title": "Dozens evacuated from Grand Canyon after flash flood hits creek leading to the Colorado River",
+      "source": "AP News AI",
+      "published": "2026-08-30T20:30:28",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fc05b9a030aae5c0a1fe6c20",
+      "bodyFingerprint": "20cf8cfd2c20aa5ca20100ed",
+      "bodyCharacterCount": 6551,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-30T23:32:15.290Z",
+      "assessment": {
+        "centralEvent": "Dozens evacuated from Grand Canyon after flash flood hits creek leading to the Colorado River",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dozens evacuated from Grand Canyon after flash flood hits creek leading to the Colorado River 1 of 3 | About 50 hikers were safely airlifted out of the area, according to local media reports, and a number of trails were closed out as a safe",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-30T21:09:12.264Z"
+  "updatedAt": "2026-08-30T23:32:15.291Z"
 }
