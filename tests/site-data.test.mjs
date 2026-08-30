@@ -26,27 +26,25 @@ test("Chronicle interaction covers the rendered label without a tooltip", async 
   assert.doesNotMatch(newsScript, /\.title\s*=\s*numerical/);
 });
 
-test("the site exposes public, experimental, and body-aware DREAD models", async () => {
+test("the site publishes only the body-aware DREAD 1.3.0 model", async () => {
   const [
     configText,
     indexHtml,
     newsScript,
     calibrationScript,
     fetchScript,
-    verificationScript,
   ] = await Promise.all([
     readFile(new URL("../news-sources.json", import.meta.url), "utf8"),
     readFile(new URL("../index.html", import.meta.url), "utf8"),
     readFile(new URL("../news.js", import.meta.url), "utf8"),
     readFile(new URL("../rate-stories.js", import.meta.url), "utf8"),
     readFile(new URL("../scripts/fetch-news.mjs", import.meta.url), "utf8"),
-    readFile(new URL("../scripts/verify-doom-index.mjs", import.meta.url), "utf8"),
   ]);
   const config = JSON.parse(configText);
 
-  assert.equal(config.doomIndex.version, "1.2.2");
-  assert.equal(config.doomIndex.shadow.version, "1.2.4");
-  assert.equal(config.doomIndex.shadow.formulaVersion, "1.2.4-offline.1");
+  assert.equal(config.doomIndex.version, "1.3.0");
+  assert.equal(config.doomIndex.formulaVersion, "1.3.0-body-context.1");
+  assert.equal(config.doomIndex.shadow.enabled, false);
   assert.equal(config.doomIndex.bodyAware.version, "1.3.0");
   assert.equal(
     config.doomIndex.bodyAware.formulaVersion,
@@ -57,20 +55,14 @@ test("the site exposes public, experimental, and body-aware DREAD models", async
     "1.3.0-context-rules.1",
   );
   assert.equal(config.doomIndex.bodyAware.model, undefined);
-  assert.match(indexHtml, /data-model-version>1\.2\.4</);
-  assert.match(indexHtml, /data-doom-model="body-aware"/);
-  assert.match(indexHtml, /data-model-version>1\.3\.0</);
-  assert.match(newsScript, /doomIndexV124Shadow/);
+  assert.doesNotMatch(indexHtml, /model-switcher|data-doom-model/);
   assert.match(newsScript, /doomIndexV130BodyAware/);
-  assert.match(newsScript, /if \(model !== "public"\) \{\s*return null;/);
-  assert.match(calibrationScript, /doomIndexV124Shadow/);
-  assert.match(fetchScript, /calculateDoomIndexV124/);
+  assert.doesNotMatch(newsScript, /localStorage|doomIndexV12/);
+  assert.match(calibrationScript, /doomIndexV130BodyAware/);
+  assert.doesNotMatch(calibrationScript, /doomIndexV12/);
+  assert.doesNotMatch(fetchScript, /calculateDoomIndexV12/);
   assert.match(fetchScript, /doomIndexBodyAwareConfig/);
-  assert.match(verificationScript, /calculateDoomIndexV124FromFactors/);
-  assert.doesNotMatch(newsScript, /doomIndexV123Shadow/);
-  assert.doesNotMatch(calibrationScript, /doomIndexV123Shadow/);
-  assert.doesNotMatch(fetchScript, /doomIndexV123Shadow/);
-  assert.doesNotMatch(verificationScript, /doomIndexV123Shadow/);
+  assert.match(fetchScript, /Highest DREAD 1\.3\.0 story/);
 });
 
 test("article text decodes numeric, named, and double-encoded entities", () => {
@@ -264,7 +256,7 @@ test("severity scale must be contiguous and cover the complete index", () => {
   );
 });
 
-test("intraday Doom uses the highest public story score in each hour", () => {
+test("intraday Doom uses the highest active DREAD story score in each hour", () => {
   const publicSample = (value, observedAt) => ({
     value,
     observedAt,
