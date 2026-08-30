@@ -2,18 +2,7 @@ import { createHash } from "node:crypto";
 import { mkdir, readFile, readdir, rename, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import Parser from "rss-parser";
-import {
-  calculateDoomIndexV122,
-  createDoomIndexV122Fingerprint,
-  createDoomIndexV122InputFingerprint,
-  normalizedDoomIndexV122Weights,
-} from "./doom-index-v1.2.2.mjs";
-import {
-  calculateDoomIndexV124,
-  createDoomIndexV124Fingerprint,
-  createDoomIndexV124InputFingerprint,
-  normalizedDoomIndexV124Weights,
-} from "./doom-index-v1.2.4.mjs";
+import { createDoomIndexV130Fingerprint } from "./doom-index-v1.3.0.mjs";
 import {
   buildSourceDirectory,
   calculateIntradayDoom,
@@ -48,11 +37,10 @@ const config = JSON.parse(await readFile("news-sources.json", "utf8"));
 const articles = [];
 const doomIndexConfig = {
   modelName: String(config.doomIndex?.modelName || "DREAD"),
-  version: String(config.doomIndex?.version || "1.2.2"),
+  version: String(config.doomIndex?.version || "1.3.0"),
   formulaVersion: String(
-    config.doomIndex?.formulaVersion || "1.2.2-shadow.1",
+    config.doomIndex?.formulaVersion || "1.3.0-body-context.1",
   ),
-  weights: normalizedDoomIndexV122Weights(config.doomIndex?.weights),
   timeZone: String(config.doomIndex?.timeZone || "America/Chicago"),
   trackingStartedOn: String(config.doomIndex?.trackingStartedOn || ""),
   severityScale: normalizedSeverityScale(config.doomIndex?.severityScale),
@@ -67,16 +55,6 @@ const sourceDirectory = buildSourceDirectory(config.sources);
 if (!/^\d{4}-\d{2}-\d{2}$/.test(doomIndexConfig.trackingStartedOn)) {
   throw new Error("doomIndex.trackingStartedOn must use YYYY-MM-DD format");
 }
-const doomIndexShadowConfig = {
-  enabled: config.doomIndex?.shadow?.enabled !== false,
-  version: String(config.doomIndex?.shadow?.version || "1.2.4"),
-  formulaVersion: String(
-    config.doomIndex?.shadow?.formulaVersion || "1.2.4-offline.1",
-  ),
-  weights: normalizedDoomIndexV124Weights(
-    config.doomIndex?.shadow?.weights || config.doomIndex?.weights,
-  ),
-};
 const doomIndexBodyAwareConfig = {
   enabled: config.doomIndex?.bodyAware?.enabled !== false,
   version: String(config.doomIndex?.bodyAware?.version || "1.3.0"),
@@ -92,14 +70,6 @@ const doomIndexBodyAwareConfig = {
   ),
 };
 
-if (
-  doomIndexShadowConfig.enabled &&
-  doomIndexConfig.formulaVersion === doomIndexShadowConfig.formulaVersion
-) {
-  throw new Error(
-    "Public and active-shadow formula versions must be distinct",
-  );
-}
 const DOOM_DATA_DIRECTORY = "data";
 const DOOM_HISTORY_DIRECTORY = join(DOOM_DATA_DIRECTORY, "doom-history");
 const DOOM_STORIES_FILE = join(DOOM_DATA_DIRECTORY, "doom-stories.json");
@@ -477,13 +447,8 @@ function weightedArticleScore(factors) {
   );
 }
 
-const formulaFingerprint = createDoomIndexV122Fingerprint({
+const formulaFingerprint = createDoomIndexV130Fingerprint({
   formulaVersion: doomIndexConfig.formulaVersion,
-  weights: doomIndexConfig.weights,
-});
-const shadowFormulaFingerprint = createDoomIndexV124Fingerprint({
-  formulaVersion: doomIndexShadowConfig.formulaVersion,
-  weights: doomIndexShadowConfig.weights,
 });
 
 function canonicalStoryUrl(value) {
@@ -845,7 +810,6 @@ async function updateDoomIndexHistory(articleList, observedAt) {
   const localHourKey = `${zoned.date}T${zoned.hour}`;
   const legacySampleKey = `${observedAt.slice(0, 13)}Z`;
   const sampleKey = `${legacySampleKey}|${doomIndexConfig.formulaVersion}`;
-  const shadowSampleKey = `${legacySampleKey}|${doomIndexShadowConfig.formulaVersion}`;
   const historyFile = join(DOOM_HISTORY_DIRECTORY, `${monthKey}.json`);
   const catalog = await readJsonFile(DOOM_STORIES_FILE, {
     version: doomIndexConfig.version,
@@ -877,26 +841,13 @@ async function updateDoomIndexHistory(articleList, observedAt) {
   const publicFormula = {
     formulaVersion: doomIndexConfig.formulaVersion,
     fingerprint: formulaFingerprint,
-    kind: "contextual-consequence-severity-v1.2.2",
+    kind: "body-aware-consequence-severity-v1.3.0",
     status: "public",
-    weights: doomIndexConfig.weights,
-  };
-  const shadowFormula = {
-    formulaVersion: doomIndexShadowConfig.formulaVersion,
-    fingerprint: shadowFormulaFingerprint,
-    kind: "contextual-consequence-severity-v1.2.4",
-    status: "shadow",
-    weights: doomIndexShadowConfig.weights,
+    analyzerVersion: doomIndexBodyAwareConfig.analyzerVersion,
   };
 
-  retireInactiveShadowFormulas(
-    catalog,
-    doomIndexShadowConfig.formulaVersion,
-  );
+  retireInactiveShadowFormulas(catalog, doomIndexConfig.formulaVersion);
   registerFormula(catalog, observedAt, DOOM_STORIES_FILE, publicFormula);
-  if (doomIndexShadowConfig.enabled) {
-    registerFormula(catalog, observedAt, DOOM_STORIES_FILE, shadowFormula);
-  }
   history.version = doomIndexConfig.version;
   history.legacyFormulaVersion ||= legacyHistoryFormulaVersion;
   history.formulaVersion = doomIndexConfig.formulaVersion;
@@ -909,14 +860,8 @@ async function updateDoomIndexHistory(articleList, observedAt) {
   for (const story of Object.values(history.stories)) {
     story.title = normalizeArticleText(story.title);
   }
-  retireInactiveShadowFormulas(
-    history,
-    doomIndexShadowConfig.formulaVersion,
-  );
+  retireInactiveShadowFormulas(history, doomIndexConfig.formulaVersion);
   registerFormula(history, observedAt, historyFile, publicFormula);
-  if (doomIndexShadowConfig.enabled) {
-    registerFormula(history, observedAt, historyFile, shadowFormula);
-  }
 
   for (const article of articleList) {
     const canonicalUrl = canonicalStoryUrl(article.url);
@@ -996,10 +941,9 @@ async function updateDoomIndexHistory(articleList, observedAt) {
       summary: article.doomIndexInputSummary || "",
       summaryFingerprint: article.doomIndexSummaryFingerprint,
       coverageSources: article.doomIndexCoverageSources,
-      factors: article.doomIndexFactors || {},
-      reasons: article.doomIndexReasons || [],
-      actuality: article.doomIndexActuality,
-      polarity: article.doomIndexPolarity,
+      factors: article.doomIndexV130BodyAwareFactors || {},
+      reasons: article.doomIndexV130BodyAwareReasons || [],
+      evidenceScope: article.doomIndexV130BodyAwareEvidenceScope,
     };
 
     day.samples[sampleKey] = {
@@ -1018,8 +962,8 @@ async function updateDoomIndexHistory(articleList, observedAt) {
     const previousPeakSampleHour = previousSummary?.peakSampleHour;
 
     if (summary.peakSampleHour === sampleKey) {
-      summary.peakReasons = article.doomIndexReasons || [];
-      summary.peakFactors = article.doomIndexFactors || {};
+      summary.peakReasons = article.doomIndexV130BodyAwareReasons || [];
+      summary.peakFactors = article.doomIndexV130BodyAwareFactors || {};
     } else if (summary.peakSampleHour === previousPeakSampleHour) {
       summary.peakReasons = previousSummary?.peakReasons || [];
       summary.peakFactors = previousSummary?.peakFactors || {};
@@ -1031,60 +975,6 @@ async function updateDoomIndexHistory(articleList, observedAt) {
     day.formulaSummaries[doomIndexConfig.formulaVersion] = summary;
     day.activeFormulaVersion = doomIndexConfig.formulaVersion;
     copyFormulaSummaryToDay(day, summary);
-
-    if (doomIndexShadowConfig.enabled) {
-      const existingShadowSummary =
-        day.formulaSummaries[doomIndexShadowConfig.formulaVersion];
-
-      historyStory.shadowInputs ||= {};
-      historyStory.shadowInputs[doomIndexShadowConfig.formulaVersion] ||= {};
-      const inputFingerprint = article.doomIndexV124InputFingerprint;
-      const formulaInputs =
-        historyStory.shadowInputs[doomIndexShadowConfig.formulaVersion];
-
-      formulaInputs[inputFingerprint] ||= {
-        title: article.title,
-        summary: article.doomIndexV124InputSummary || "",
-        summaryFingerprint: article.doomIndexV124SummaryFingerprint,
-        coverageSources: article.doomIndexV124CoverageSources,
-        factors: article.doomIndexV124Factors || {},
-        reasons: article.doomIndexV124Reasons || [],
-        actuality: article.doomIndexV124Actuality,
-        polarity: article.doomIndexV124Polarity,
-      };
-
-      day.samples[shadowSampleKey] = {
-        value: article.doomIndexV124Shadow,
-        observedAt,
-        formulaVersion: doomIndexShadowConfig.formulaVersion,
-        formulaFingerprint: shadowFormulaFingerprint,
-        inputFingerprint,
-      };
-
-      const shadowSummary = calculateDaySummary(
-        day,
-        doomIndexShadowConfig.formulaVersion,
-        legacyHistoryFormulaVersion,
-      );
-      const existingShadowPeakSampleHour =
-        existingShadowSummary?.peakSampleHour;
-
-      if (shadowSummary.peakSampleHour === shadowSampleKey) {
-        shadowSummary.peakReasons = article.doomIndexV124Reasons || [];
-        shadowSummary.peakFactors = article.doomIndexV124Factors || {};
-      } else if (
-        shadowSummary.peakSampleHour === existingShadowPeakSampleHour
-      ) {
-        shadowSummary.peakReasons = existingShadowSummary?.peakReasons || [];
-        shadowSummary.peakFactors = existingShadowSummary?.peakFactors || {};
-      } else {
-        shadowSummary.peakReasons = [];
-        shadowSummary.peakFactors = {};
-      }
-
-      day.formulaSummaries[doomIndexShadowConfig.formulaVersion] = shadowSummary;
-      day.shadowFormulaVersion = doomIndexShadowConfig.formulaVersion;
-    }
 
     historyStory.days[zoned.date] = day;
     history.stories[storyId] = historyStory;
@@ -2238,64 +2128,14 @@ for (const [articleIndex, article] of uniqueArticles.entries()) {
   const severitySummary = severityCluster
     .map((candidate) => `${candidate.title}. ${candidate.analysisText || ""}`)
     .join(" ");
-  const publicDoomIndex = calculateDoomIndexV122({
-    title: article.title,
-    summary: severitySummary,
-    coverageSources: severityCoverageSources,
-    weights: doomIndexConfig.weights,
-  });
   const summaryFingerprint = createHash("sha256")
     .update(normalizeArticleText(severitySummary))
     .digest("hex")
     .slice(0, 20);
 
-  article.doomIndex = publicDoomIndex.value;
-  article.doomIndexVersion = doomIndexConfig.version;
-  article.doomIndexFormulaVersion = doomIndexConfig.formulaVersion;
-  article.doomIndexFormulaFingerprint = formulaFingerprint;
-  article.doomIndexActuality = publicDoomIndex.actuality;
-  article.doomIndexPolarity = publicDoomIndex.polarity;
-  article.doomIndexFactors = publicDoomIndex.factors;
-  article.doomIndexReasons = publicDoomIndex.reasons;
   article.doomIndexCoverageSources = severityCoverageSources;
   article.doomIndexInputSummary = severitySummary;
   article.doomIndexSummaryFingerprint = summaryFingerprint;
-  article.doomIndexInputFingerprint = createDoomIndexV122InputFingerprint({
-    title: article.title,
-    summary: severitySummary,
-    coverageSources: severityCoverageSources,
-    formulaVersion: doomIndexConfig.formulaVersion,
-  });
-
-  if (doomIndexShadowConfig.enabled) {
-    const shadow = calculateDoomIndexV124({
-      title: article.title,
-      summary: severitySummary,
-      coverageSources: severityCoverageSources,
-      weights: doomIndexShadowConfig.weights,
-    });
-
-    article.doomIndexV124Shadow = shadow.value;
-    article.doomIndexV124ShadowVersion = doomIndexShadowConfig.version;
-    article.doomIndexV124ShadowFormulaVersion =
-      doomIndexShadowConfig.formulaVersion;
-    article.doomIndexV124ShadowFormulaFingerprint =
-      shadowFormulaFingerprint;
-    article.doomIndexV124Actuality = shadow.actuality;
-    article.doomIndexV124Polarity = shadow.polarity;
-    article.doomIndexV124Factors = shadow.factors;
-    article.doomIndexV124Reasons = shadow.reasons;
-    article.doomIndexV124CoverageSources = severityCoverageSources;
-    article.doomIndexV124InputSummary = severitySummary;
-    article.doomIndexV124SummaryFingerprint = summaryFingerprint;
-    article.doomIndexV124InputFingerprint =
-      createDoomIndexV124InputFingerprint({
-        title: article.title,
-        summary: severitySummary,
-        coverageSources: severityCoverageSources,
-        formulaVersion: doomIndexShadowConfig.formulaVersion,
-      });
-  }
 }
 
 if (doomIndexBodyAwareConfig.enabled) {
@@ -2307,9 +2147,29 @@ if (doomIndexBodyAwareConfig.enabled) {
   console.log(`[dread-1.3] Restored ${applied} cached body-aware assessments.`);
 }
 
+for (const article of uniqueArticles) {
+  const value = Number(article[doomIndexBodyAwareConfig.valueField]);
+  if (!Number.isFinite(value)) continue;
+
+  article.doomIndex = value;
+  article.doomIndexVersion = article.doomIndexV130BodyAwareVersion;
+  article.doomIndexFormulaVersion =
+    article.doomIndexV130BodyAwareFormulaVersion;
+  article.doomIndexFormulaFingerprint =
+    article.doomIndexV130BodyAwareFormulaFingerprint;
+  article.doomIndexFactors = article.doomIndexV130BodyAwareFactors;
+  article.doomIndexReasons = article.doomIndexV130BodyAwareReasons;
+  article.doomIndexInputFingerprint =
+    article.doomIndexV130BodyAwareInputFingerprint;
+}
+
 uniqueArticles.sort((first, second) => {
-  if (second.doomIndex !== first.doomIndex) {
-    return second.doomIndex - first.doomIndex;
+  const firstDoom = Number(first.doomIndex);
+  const secondDoom = Number(second.doomIndex);
+  if (Number.isFinite(secondDoom) || Number.isFinite(firstDoom)) {
+    if (!Number.isFinite(firstDoom)) return 1;
+    if (!Number.isFinite(secondDoom)) return -1;
+    if (secondDoom !== firstDoom) return secondDoom - firstDoom;
   }
 
   if (second.score !== first.score) {
@@ -2347,7 +2207,7 @@ if (featuredArticle) {
 const observationTime = new Date();
 observationTime.setUTCMinutes(0, 0, 0);
 const intradayDoom = await updateDoomIndexHistory(
-  uniqueArticles,
+  uniqueArticles.filter((article) => Number.isFinite(Number(article.doomIndex))),
   observationTime.toISOString(),
 );
 
@@ -2358,7 +2218,6 @@ const publishedArticles = uniqueArticles.map(
     feedPosition,
     sourceWeight,
     doomIndexInputSummary,
-    doomIndexV124InputSummary,
     feedSummary,
     ...article
   }) => ({
@@ -2381,12 +2240,7 @@ const output = [
         version: doomIndexConfig.version,
         formulaVersion: doomIndexConfig.formulaVersion,
         severityScale: doomIndexConfig.severityScale,
-        shadow: doomIndexShadowConfig.enabled
-          ? {
-              version: doomIndexShadowConfig.version,
-              formulaVersion: doomIndexShadowConfig.formulaVersion,
-            }
-          : null,
+        shadow: null,
         bodyAware: doomIndexBodyAwareConfig.enabled
           ? {
               version: doomIndexBodyAwareConfig.version,
@@ -2398,7 +2252,7 @@ const output = [
       },
       intradayDoom: {
         ...intradayDoom,
-        definition: "Highest public Doom Index story observed during each hourly update.",
+        definition: "Highest DREAD 1.3.0 story observed during each hourly update.",
       },
       sources: sourceDirectory,
     },

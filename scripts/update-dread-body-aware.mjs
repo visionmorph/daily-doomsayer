@@ -222,6 +222,74 @@ function bodyFingerprint(text) {
   return createHash("sha256").update(text).digest("hex").slice(0, 24);
 }
 
+function publishDreadV130(site, articles, bodyConfig, formulaFingerprint) {
+  const valueField = String(bodyConfig.valueField || "doomIndexV130BodyAware");
+  const scored = articles.filter((article) =>
+    Number.isFinite(Number(article[valueField])),
+  );
+
+  for (const article of scored) {
+    article.doomIndex = Number(article[valueField]);
+    article.doomIndexVersion = article.doomIndexV130BodyAwareVersion;
+    article.doomIndexFormulaVersion =
+      article.doomIndexV130BodyAwareFormulaVersion;
+    article.doomIndexFormulaFingerprint =
+      article.doomIndexV130BodyAwareFormulaFingerprint;
+    article.doomIndexFactors = article.doomIndexV130BodyAwareFactors;
+    article.doomIndexReasons = article.doomIndexV130BodyAwareReasons;
+    article.doomIndexInputFingerprint =
+      article.doomIndexV130BodyAwareInputFingerprint;
+  }
+
+  const currentStory = scored.reduce(
+    (highest, article) =>
+      !highest || Number(article[valueField]) > Number(highest[valueField])
+        ? article
+        : highest,
+    null,
+  );
+  const current = currentStory ? Number(currentStory[valueField]) : null;
+  const previous = site.intradayDoom || {};
+  const sameFormula = previous.formulaVersion === bodyConfig.formulaVersion;
+  const open = sameFormula && Number.isFinite(Number(previous.open))
+    ? Number(previous.open)
+    : current;
+  const previousPeak = sameFormula && Number.isFinite(Number(previous.peak))
+    ? Number(previous.peak)
+    : null;
+  const peakUsesCurrent = previousPeak === null || current > previousPeak;
+  const storyIdentity = (article) => article && ({
+    storyId: article.storyId,
+    title: article.title,
+    url: article.url,
+  });
+
+  site.doomIndex.version = bodyConfig.version;
+  site.doomIndex.formulaVersion = bodyConfig.formulaVersion;
+  site.doomIndex.shadow = null;
+  site.intradayDoom = {
+    ...previous,
+    formulaVersion: bodyConfig.formulaVersion,
+    observedAt: new Date().toISOString(),
+    current,
+    currentStory: storyIdentity(currentStory),
+    lastHourChange:
+      sameFormula && Number.isFinite(Number(previous.current))
+        ? current - Number(previous.current)
+        : 0,
+    open,
+    openingStory: sameFormula ? previous.openingStory : storyIdentity(currentStory),
+    dayChange: current - open,
+    peak: peakUsesCurrent ? current : previousPeak,
+    peakStory: peakUsesCurrent
+      ? storyIdentity(currentStory)
+      : previous.peakStory,
+    observations: sameFormula ? Number(previous.observations || 0) + 1 : 1,
+    definition: "Highest DREAD 1.3.0 story observed during each hourly update.",
+    formulaFingerprint,
+  };
+}
+
 export async function updateDreadBodyAware() {
   const [config, generatedText, cache] = await Promise.all([
     readFile("news-sources.json", "utf8").then(JSON.parse),
@@ -387,6 +455,12 @@ export async function updateDreadBodyAware() {
   cache.updatedAt = new Date().toISOString();
 
   applyBodyAwareCacheToArticles(articles, cache, { formulaVersion, valueField });
+  publishDreadV130(
+    site,
+    articles,
+    { ...bodyConfig, version, formulaVersion, valueField },
+    formulaFingerprint,
+  );
   await writeBodyAwareCache(cache);
   await writeArticles(site, articles);
 
