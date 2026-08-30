@@ -76594,8 +76594,217 @@
           "vulnerability": 0
         }
       }
+    },
+    "7ab04ace09648fa30331": {
+      "storyId": "7ab04ace09648fa30331",
+      "url": "https://apnews.com/article/roger-federer-mary-carillo-international-tennis-hall-of-fame-45c02876e2f67106a2a9f233468d9ece",
+      "title": "Roger Federer brought to tears during his induction into International Tennis Hall of Fame",
+      "source": "AP News AI",
+      "published": "2026-08-30T01:28:45",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d677d8432bfcda27ef175801",
+      "bodyFingerprint": "e5c57084c26f2bad8387aacd",
+      "bodyCharacterCount": 7019,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-30T21:09:12.239Z",
+      "assessment": {
+        "centralEvent": "Roger Federer brought to tears during his induction into International Tennis Hall of Fame",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Oh gosh, this such a mess.” He tried to joke, but the tears took over like a quick return at the net.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Roger Federer brought to tears during his induction into International Tennis Hall of Fame",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e02cfcd9758688f296fc": {
+      "storyId": "e02cfcd9758688f296fc",
+      "url": "https://apnews.com/article/markey-moulton-election-massachusetts-2281949ec2b785f62667d328b8a88f70",
+      "title": "Moulton says Sen. Markey, 80, is too old for another term. Young Massachusetts Democrats are divided",
+      "source": "AP News AI",
+      "published": "2026-08-30T11:46:57",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "80ed9dd8b936d288632ba3f1",
+      "bodyFingerprint": "943b7259029bae0e4ca60b3f",
+      "bodyCharacterCount": 12053,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-30T21:09:12.254Z",
+      "assessment": {
+        "centralEvent": "Moulton says Sen. Markey, 80, is too old for another term. Young Massachusetts Democrats are divided",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Seth Moulton , the answer reinforced a concern that has become central to Moulton’s campaign to unseat the incumbent in Tuesday’s party primary: that Markey, who would be 86 at the end of another term, is too old to represent a generation c",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "When asked whether he uses AI platforms like Claude or ChatGPT in his work, Markey seemed unclear on the topic.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Milan van Dam, a 17-year-old who serves as national chair of the High School Democrats of America, said generational leadership is “less about an age on a Wikipedia page” than the ideas a candidate represents and their consistency through t",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 106,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.04,
+        "rawScore": 26.04,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d597d3e381da9f24b761": {
+      "storyId": "d597d3e381da9f24b761",
+      "url": "https://mashable.com/tech/texas-blocks-funding-flock-ai-surveillance-cameras-amid-backlash",
+      "title": "Texas blocks funding for Flock as backlash grows against AI surveillance cameras",
+      "source": "Mashable AI",
+      "published": "2026-08-30T18:52:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f3e6310979fef42e2e93ff85",
+      "bodyFingerprint": "247a1180e58e713adfe3524b",
+      "bodyCharacterCount": 3278,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-30T21:09:12.264Z",
+      "assessment": {
+        "centralEvent": "Texas blocks funding for Flock as backlash grows against AI surveillance cameras",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Texas blocks funding for Flock as backlash grows against AI surveillance cameras",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to the report , the money came from a higher fee levied by Texas lawmakers on Texans' car insurance policies.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Case in point: Texas Governor Greg Abbot, a Republican, has just recently blocked funding for Flock across the state.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.59,
+        "rawScore": 45.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-30T18:06:21.193Z"
+  "updatedAt": "2026-08-30T21:09:12.264Z"
 }
