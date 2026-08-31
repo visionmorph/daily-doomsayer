@@ -77531,8 +77531,1470 @@
           "vulnerability": 0
         }
       }
+    },
+    "baab72ac3819c3f5adcc": {
+      "storyId": "baab72ac3819c3f5adcc",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "title": "ChatGPT to face tougher regulation in the EU",
+      "source": "The Verge AI",
+      "published": "2026-08-31T13:27:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4f30731da369c4a30e08ea53",
+      "bodyFingerprint": "9f3063dec4c82a28c66de819",
+      "bodyCharacterCount": 3736,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:18.816Z",
+      "assessment": {
+        "centralEvent": "ChatGPT to face tougher regulation in the EU",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI Apps News OpenAI Policy Politics Reddit Regulation Tech Most Popular Most Popular China’s robots race ahead Chess.com launched a poker site, and it’s planning even more classic games Enormous 12TB Steam leak includes abandoned ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d9c1624fa078b6894657": {
+      "storyId": "d9c1624fa078b6894657",
+      "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+      "title": "Instagram cracks down on AI accounts pretending to be human",
+      "source": "The Verge AI",
+      "published": "2026-08-31T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f3b4697b399c116a573faebb",
+      "bodyFingerprint": "103276ade7d6e866b82dfca8",
+      "bodyCharacterCount": 3515,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:18.832Z",
+      "assessment": {
+        "centralEvent": "Instagram cracks down on AI accounts pretending to be human",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "It's also renaming the \"AI creator\" label to \"AI-generated profile\" to make it clear when a profile features an AI-generated person that's not a real human being. \"We've heard that people don't like seeing a profile that seems human, only t",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "54157944fd6ce74ba7ff": {
+      "storyId": "54157944fd6ce74ba7ff",
+      "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers",
+      "title": "Meeting notetaker Circleback adds a free tier to attract more customers",
+      "source": "TechCrunch AI",
+      "published": "2026-08-31T12:56:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "09e15ada47001ae519a5b3c9",
+      "bodyFingerprint": "c536701e16a8bd594f2f2b32",
+      "bodyCharacterCount": 3537,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:18.915Z",
+      "assessment": {
+        "centralEvent": "Meeting notetaker Circleback adds a free tier to attract more customers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The new plan lets users transcribe an unlimited number of meetings though they can only access their history for the last 30 days (Granola added a similar tier a few months ago).",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cdbff28ee576cb63e22f": {
+      "storyId": "cdbff28ee576cb63e22f",
+      "url": "https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude",
+      "title": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
+      "source": "The Guardian AI",
+      "published": "2026-08-31T12:42:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "554f4eb774f34d4d4353ed71",
+      "bodyFingerprint": "32a690bfa2ed5ee1e686ef6b",
+      "bodyCharacterCount": 4215,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.019Z",
+      "assessment": {
+        "centralEvent": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It alleges the defendants breached copyright law by “torrenting, scraping and downloading” lyrics from copyrighted works to train its family of Claude AI models – as well as reproducing those lyrics in responses to users’ prompts.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion dollar lawsuit against the ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The lawsuit , filed on 28 August, was first reported by trade publication Music Business Worldwide.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The lawsuit , filed on 28 August, was first reported by trade publication Music Business Worldwide.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.41,
+        "rawScore": 47.41,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9e8c99d84c557460307d": {
+      "storyId": "9e8c99d84c557460307d",
+      "url": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules",
+      "title": "ChatGPT and Reddit now face EU's toughest online safety rules",
+      "source": "Ars Technica AI",
+      "published": "2026-08-31T13:41:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1ea41ac03d9bdbebf3d5b785",
+      "bodyFingerprint": "c878570f16c665a4d28d10bc",
+      "bodyCharacterCount": 3311,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.028Z",
+      "assessment": {
+        "centralEvent": "ChatGPT and Reddit now face EU's toughest online safety rules",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Under its competition rule book, the bloc has also started an investigation into AI services, including whether Google breached EU competition rules in its use of AI overviews.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The designation means all three services will face additional obligations such as removing illegal content and protecting the privacy and security of minors and could face fines of up to 6 percent of their global revenue if they fail to com",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "447387b6f9f9d438be3d": {
+      "storyId": "447387b6f9f9d438be3d",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/31/ai-politics-voters",
+      "title": "AI is hurting US politics. Here’s how candidates could use it for good | Bruce Schneier and Nathan E Sanders",
+      "source": "The Guardian AI",
+      "published": "2026-08-31T12:00:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8f87022c4c298325aca9533a",
+      "bodyFingerprint": "8b2e73df3cb65dcc624b7734",
+      "bodyCharacterCount": 7789,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.039Z",
+      "assessment": {
+        "centralEvent": "AI is hurting US politics. Here’s how candidates could use it for good | Bruce Schneier and Nathan E Sanders",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "So far, the powerful force of polarization in US politics seems to be separating the parties into the AI skeptics versus the AI boosters.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "76b426ce559f770af6f6": {
+      "storyId": "76b426ce559f770af6f6",
+      "url": "https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-ideas-real-now-meta-controls-the-results",
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+      "source": "Ars Technica AI",
+      "published": "2026-08-31T10:00:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e5676e44953450b0464fb989",
+      "bodyFingerprint": "5d2e5ff1ef45378b76103231",
+      "bodyCharacterCount": 14538,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.123Z",
+      "assessment": {
+        "centralEvent": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But even the best Pocket gizmos don’t seem designed to be played for more than a minute or two.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 101,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b1a96cfbc2d8497fe0ba": {
+      "storyId": "b1a96cfbc2d8497fe0ba",
+      "url": "https://www.inc.com/kevin-haynes/illegal-and-baseless-judge-slams-pentagon-for-branding-anthropic-a-supply-chain-risk/91398408",
+      "title": "‘Illegal and Baseless’: Judge Slams Pentagon for Branding Anthropic a Supply Chain Risk",
+      "source": "Inc. AI",
+      "published": "2026-08-31T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d3eab8ac2f1a513f9982e6ef",
+      "bodyFingerprint": "6abe57429b10b109e88d7cf7",
+      "bodyCharacterCount": 226,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-31T13:56:19.425Z",
+      "assessment": {
+        "centralEvent": "‘Illegal and Baseless’: Judge Slams Pentagon for Branding Anthropic a Supply Chain Risk",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "‘Illegal and Baseless’: Judge Slams Pentagon for Branding Anthropic a Supply Chain Risk",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The Defense Department said Anthropic posed a threat to national security.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 25.48,
+        "rawScore": 25.48,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.135,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "66f510ddbb936b356f02": {
+      "storyId": "66f510ddbb936b356f02",
+      "url": "https://www.politico.eu/article/chatgpt-reddit-roblox-face-eus-strictest-platforms-regime",
+      "title": "EU places ChatGPT, Reddit, Roblox under its strictest platform rules",
+      "source": "POLITICO Europe AI",
+      "published": "2026-08-31T10:02:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e2ab032eb1ebde84e43af56d",
+      "bodyFingerprint": "d089bb6c35b038ff27c19609",
+      "bodyCharacterCount": 2040,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.530Z",
+      "assessment": {
+        "centralEvent": "EU places ChatGPT, Reddit, Roblox under its strictest platform rules",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Reddit, a discussion platform founded in 2005, reported 57.2 million users in July, whereas gaming platform Roblox said it had 46.6 million users in the EU.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "068dbb7cb087eb856599": {
+      "storyId": "068dbb7cb087eb856599",
+      "url": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai",
+      "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
+      "source": "WIRED AI",
+      "published": "2026-08-31T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4f1aba64be542b53d710d2c8",
+      "bodyFingerprint": "619c9db2687a5e133fa318d6",
+      "bodyCharacterCount": 10235,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.575Z",
+      "assessment": {
+        "centralEvent": "You Know Who Really Hates AI? Insurance Claims Adjusters",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "We Got Its Code Flock’s surveillance cameras have already sparked outrage.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Typically, insurance adjusters complain about “AI-obsessed leaders forcing error-prone AI on them and their clients,” according to the research.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Conrad understands that many people see claims adjusters as soulless vultures circling after a catastrophe.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Maxwell Zeff ‘The Worst I’ve Ever Seen’: Cargo Thefts Have Turned Violent in Pursuit of AI Hardware Experts allege that two recent incidents in California show the extreme lengths that criminal organizations are willing to go to to steal se",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 84,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.75,
+        "rawScore": 46.75,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.25,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b2b61c67d4b21052fc4f": {
+      "storyId": "b2b61c67d4b21052fc4f",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260831035213.htm",
+      "title": "NASA’s Roman Space Telescope launches to reveal the Universe’s darkest secrets",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-31T09:23:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "03be358b9ff9d5fde8f42a2e",
+      "bodyFingerprint": "6e2012ff56e7d604038c321a",
+      "bodyCharacterCount": 11204,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.587Z",
+      "assessment": {
+        "centralEvent": "NASA’s Roman Space Telescope launches to reveal the Universe’s darkest secrets",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "With survey speeds roughly 1,000 times faster than Hubble and a torrent of 1.4 terabytes of data per day, Roman could uncover cosmic surprises astronomers have never seen before.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fed513ab596973b86cfb": {
+      "storyId": "fed513ab596973b86cfb",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/31/gen-z-stability-homeownership-onlyfans-ai",
+      "title": "OnlyFans and AI training: why gen Z doesn’t care where our money comes from | Alice Lassman",
+      "source": "The Guardian AI",
+      "published": "2026-08-31T09:00:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "881d13e572e54ead9f8d1aef",
+      "bodyFingerprint": "b27bf3301cc6208c3f42379e",
+      "bodyCharacterCount": 6855,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.630Z",
+      "assessment": {
+        "centralEvent": "OnlyFans and AI training: why gen Z doesn’t care where our money comes from | Alice Lassman",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Americans seem to be coming around to the idea of “portfolio careers”, with more than half calling them more desirable than traditional careers for a future workforce.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3a90fd6b12a5d4d78de4": {
+      "storyId": "3a90fd6b12a5d4d78de4",
+      "url": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20",
+      "title": "AI could cause global economic downturn, Bank of England governor tells G20",
+      "source": "The Guardian AI",
+      "published": "2026-08-31T09:00:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "982f03fb78acf837d67387ae",
+      "bodyFingerprint": "d521460c7cc1c00c78957b28",
+      "bodyCharacterCount": 4649,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.685Z",
+      "assessment": {
+        "centralEvent": "AI could cause global economic downturn, Bank of England governor tells G20",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Andrew Bailey, in role as financial stability watchdog chief, warns advanced models risk destabilising system The Bank of England’s governor, Andrew Bailey, has joined the throng of figures warning about the global risks posed by the most a",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Photograph: Christian Ohde/Alamy Last month, a letter signed by 1,367 researchers and engineers at frontier AI labs – mainly OpenAI, Anthropic and Google DeepMind – also shone a light on the concerns of the engineers working on the technolo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "AI could cause global economic downturn, Bank of England governor tells G20",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Photograph: Christian Ohde/Alamy Last month, a letter signed by 1,367 researchers and engineers at frontier AI labs – mainly OpenAI, Anthropic and Google DeepMind – also shone a light on the concerns of the engineers working on the technolo",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.5,
+        "rawScore": 29.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a59f9bbaf2fb77199e19": {
+      "storyId": "a59f9bbaf2fb77199e19",
+      "url": "https://www.theguardian.com/society/2026/aug/31/doctors-ai-scribes-get-names-of-drugs-and-diagnoses-wrong-nhs-watchdog-warns",
+      "title": "Doctors’ AI scribes get names of drugs and diagnoses wrong, NHS watchdog warns",
+      "source": "The Guardian AI",
+      "published": "2026-08-31T06:00:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2e68577877f50cc4145fef26",
+      "bodyFingerprint": "6d60fc4863df7594afb8a714",
+      "bodyCharacterCount": 5472,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.693Z",
+      "assessment": {
+        "centralEvent": "Doctors’ AI scribes get names of drugs and diagnoses wrong, NHS watchdog warns",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Exclusive: Patients identify errors in consultation transcripts that are missed by GPs, Healthwatch England finds AI technology that listens to and transcribes patients’ consultations with doctors can put them at risk by getting the names o",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The government’s 10-year health plan for the NHS in England expects AI scribes to ‘liberate staff from their current burden of bureaucracy and administration’.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Dr Charlotte Blease, an expert in AI use in healthcare at Uppsala university in Sweden, said: “AI can and does make mistakes.” Her research found that GPs who use ambient voice technology believe that errors are more likely to creep in when",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Given the belief of NHS bosses that scribes will mean GPs no longer have to take notes during an appointment, family doctors may be expected to see two more patients every day, even though NHS GP consultation times are already some of the s",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Exclusive: Patients identify errors in consultation transcripts that are missed by GPs, Healthwatch England finds AI technology that listens to and transcribes patients’ consultations with doctors can put them at risk by getting the names o",
+            "matchedRule": "/\\b(?:children|patients|elderly|disabled people|low-income|victims of abuse)\\b.*\\b(?:harmed|targeted|exposed|affected|at risk)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.77,
+        "rawScore": 27.77,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 3
+        }
+      }
+    },
+    "99e4c2682d6d41dc0bd1": {
+      "storyId": "99e4c2682d6d41dc0bd1",
+      "url": "https://techpolicy.press/in-the-us-caution-rules-on-ai-ahead-of-k12-school-year",
+      "title": "In the US, Caution Rules on AI Ahead of K-12 School Year",
+      "source": "Tech Policy Press AI",
+      "published": "2026-08-31T12:38:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ab01e20f6fb9687e15da0c26",
+      "bodyFingerprint": "ffa7f0ebcb3446dc31f89936",
+      "bodyCharacterCount": 13511,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.727Z",
+      "assessment": {
+        "centralEvent": "In the US, Caution Rules on AI Ahead of K-12 School Year",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Topics Related Perspective Red Teaming Generative AI in Classrooms and Beyond September 19, 2025 Perspective Unmasking EdTech's Surveillance Infrastructure in the Age of AI February 6, 2026 Perspective Beta Testing Childhood April 23, 2026",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Analysis In the US, Caution Rules on AI Ahead of K-12 School Year Chris Mills Rodrigo / Aug 31, 2026 Chris Mills Rodrigo is a fellow at Tech Policy Press .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The federal government has also weighed in with the 2025 executive order on “Advancing Artificial Intelligence Education for American Youth,” which allocates resources for AI literacy training for teachers, creates a task force dedicated to",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Every day, it just becomes clearer to me that AI literacy cannot be done well without guardrails, and guardrails cannot be done well without AI literacy,” Bickerstaff said.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 84,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.91,
+        "rawScore": 47.91,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.355,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "738d80ca691353835868": {
+      "storyId": "738d80ca691353835868",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260828082345.htm",
+      "title": "Rocky planets may have formed just 100 million years after the Big Bang",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-31T05:00:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b74921eef9b1e6e97ab68e65",
+      "bodyFingerprint": "08ebe587ce7f0b71c5532331",
+      "bodyCharacterCount": 7736,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.732Z",
+      "assessment": {
+        "centralEvent": "Rocky planets may have formed just 100 million years after the Big Bang",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credit: AI/ScienceDaily.com The ingredients needed to build rocky planets may have appeared as early as 100 million years after the Big Bang, according to new research from the University of Portsmouth.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "57dbbecd37d09ca121df": {
+      "storyId": "57dbbecd37d09ca121df",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260829035223.htm",
+      "title": "Scientists discover diamonds can generate electricity",
+      "source": "ScienceDaily Technology",
+      "published": "2026-08-31T04:13:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee4a0e62fb3aeccc52916d2b",
+      "bodyFingerprint": "beb63e7d635185a2012536c4",
+      "bodyCharacterCount": 7660,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.791Z",
+      "assessment": {
+        "centralEvent": "Scientists discover diamonds can generate electricity",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "When the researchers deliberately flexed the membrane, they observed stable voltage signals.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c824d566623431c7982f": {
+      "storyId": "c824d566623431c7982f",
+      "url": "https://apnews.com/article/nepal-tibet-china-flash-floods-744fe6e15ae7751e15efcd6dff70170c",
+      "title": "Hundreds of workers feared stuck in hydropower tunnels as Nepal flood deaths cross 900",
+      "source": "AP News AI",
+      "published": "2026-08-31T05:07:52",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f4d931659cc9d2337a8e966f",
+      "bodyFingerprint": "d6a07d90092ad2773e20543b",
+      "bodyCharacterCount": 13340,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.811Z",
+      "assessment": {
+        "centralEvent": "Hundreds of workers feared stuck in hydropower tunnels as Nepal flood deaths cross 900",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit KATHMANDU, Nepal (AP) — Rescuers rushed Monday to reach workers believed to be trapped in tunnels at hydropower sites buried in mud after catast",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As of Sunday, Chinese authorities reported 16 deaths and 546 missing, and Chinese state media said 261 of the missing were foreigners, including over a hundred Nepalis. (AP Video shot by Rishi Lekhi and Rajesh Kumar Singh) Read More 3 of 7 ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Hundreds of workers feared stuck in hydropower tunnels as Nepal flood deaths cross 900",
+            "matchedRule": "/\\b(?:thousands|hundreds)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Hundreds of workers feared stuck in hydropower tunnels as Nepal flood deaths cross 900",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 68.84,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e9b2810b9118db4c5d27": {
+      "storyId": "e9b2810b9118db4c5d27",
+      "url": "https://apnews.com/article/trump-third-term-postpresidency-f372ce4ed7e780cf2d1ae8b4ce89df06",
+      "title": "Trump still teases seeking a third term. But he's now talking more about post-presidency life",
+      "source": "AP News AI",
+      "published": "2026-08-31T04:09:25",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "15d089846ef6f8a3da5aec4a",
+      "bodyFingerprint": "19122e35bf5cef23374a3e3d",
+      "bodyCharacterCount": 11706,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.876Z",
+      "assessment": {
+        "centralEvent": "Trump still teases seeking a third term. But he's now talking more about post-presidency life",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "21, 2026, seen from the Washington Monument in Washington. (AP Photo/Julia Demaree Nikhinson) Read More 5 of 5 | A mockup of President Donald Trump’s proposed triumphal arch stands at the Great American State Fair on the National Mall, June",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "072d32ef9959ae6fdffc": {
+      "storyId": "072d32ef9959ae6fdffc",
+      "url": "https://apnews.com/article/mideast-iran-israel-palestinians-august-30-2026-49cf07bcd4f9166f93f51136892d76a6",
+      "title": "Iran's supreme leader calls for Muslim unity against US and Israel, and other Mideast news",
+      "source": "AP News AI",
+      "published": "2026-08-30T11:57:38",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c828c1bef66921a45e7eeb14",
+      "bodyFingerprint": "50e887690d3ed356109b8c8e",
+      "bodyCharacterCount": 13552,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.895Z",
+      "assessment": {
+        "centralEvent": "Iran's supreme leader calls for Muslim unity against US and Israel, and other Mideast news",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The war has exposed divisions in the Muslim world after Iran struck targets in neighboring Gulf Arab countries and restricted shipping through the Strait of Hormuz.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Iran’s supreme leader calls for Muslim unity against US and Israel, and other Mideast news 1 of 6 | Israeli strikes and fire in central Gaza killed three Palestinians and wounded others on Saturday, according to local health officials.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 85,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "58f60cd9e4edf472f469": {
+      "storyId": "58f60cd9e4edf472f469",
+      "url": "https://apnews.com/article/scottie-scheffler-tour-championship-fedex-cup-tiger-1b2aa76983df4cfb5b56db10019fe6c2",
+      "title": "Scottie Scheffler captures another FedEx Cup and moves past Tiger Woods in PGA Tour career earnings",
+      "source": "AP News AI",
+      "published": "2026-08-30T21:47:45",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f704463ea13e396035df6bd9",
+      "bodyFingerprint": "20789d78991e5c0404346f24",
+      "bodyCharacterCount": 9841,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T13:56:19.926Z",
+      "assessment": {
+        "centralEvent": "Scottie Scheffler captures another FedEx Cup and moves past Tiger Woods in PGA Tour career earnings",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "7, the other from a gnarly lie in the rough on the 14th — and otherwise felt he didn’t miss much over a tough day of wind and firm turf that made the landing spots feel smaller.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "257f22102baba953b20f": {
+      "storyId": "257f22102baba953b20f",
+      "url": "https://www.nature.com/articles/d41586-026-02543-z",
+      "title": "What’s your lab’s archetype? The answer could inform how you use AI",
+      "source": "Nature AI News & Comment",
+      "published": "2026-08-31T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d26de04ad7b776c0fa1cbf3",
+      "bodyFingerprint": "7800a64762581f5d361051aa",
+      "bodyCharacterCount": 68,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-31T13:56:20.839Z",
+      "assessment": {
+        "centralEvent": "What’s your lab’s archetype? The answer could inform how you use AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-31T05:40:03.914Z"
+  "updatedAt": "2026-08-31T13:56:20.839Z"
 }
