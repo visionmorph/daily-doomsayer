@@ -76995,8 +76995,544 @@
           "vulnerability": 0
         }
       }
+    },
+    "97eaaf36b3550f0383dd": {
+      "storyId": "97eaaf36b3550f0383dd",
+      "url": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
+      "title": "How an MIT research project became a global programming language",
+      "source": "MIT News AI",
+      "published": "2026-08-31T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0fec0e01b630a305ba33f312",
+      "bodyFingerprint": "91d6bdfcbfdddf3efe5f76dd",
+      "bodyCharacterCount": 9682,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T05:40:03.741Z",
+      "assessment": {
+        "centralEvent": "How an MIT research project became a global programming language",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The emails turned into a research project at MIT with the mission of building an easy-to-use, high-performance programming language called Julia, which is designed for scientific research, data analysis, and modeling complex systems such as",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dace0cd7c43aa269a759": {
+      "storyId": "dace0cd7c43aa269a759",
+      "url": "https://apnews.com/article/novak-djokovic-mariano-navone-us-open-8541a748a9e48346ddaea528ee7a739b",
+      "title": "Novak Djokovic loses in opening round of US Open for first time, falling in 5 sets to Mariano Navone",
+      "source": "AP News AI",
+      "published": "2026-08-31T04:01:34",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c4128d2cf97a83ef480c4616",
+      "bodyFingerprint": "2718770f253102905fda71f8",
+      "bodyCharacterCount": 9407,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T05:40:03.779Z",
+      "assessment": {
+        "centralEvent": "Novak Djokovic loses in opening round of US Open for first time, falling in 5 sets to Mariano Navone",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Open but acknowledged concern that the first match at any tournament has become challenging for him in recent years.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Open after a first-round defeat to Mariano Navone on Sunday night, losing 7-6 (5), 5-7, 4-6, 6-2, 6-1 in a five-set marathon that lasted four hours and 36 minutes.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Instead of overcoming the hurdle and building from there, he is left to contemplate an uncertain future. ___ See AP’s full tennis coverage here STEPHEN WHYNO Whyno has covered the NHL, international hockey, NFL and horse racing for The Asso",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "11b8606a8d3036b18607": {
+      "storyId": "11b8606a8d3036b18607",
+      "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale",
+      "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+      "source": "TechCrunch AI",
+      "published": "2026-08-31T02:34:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dde8eb03ef014aba353f6eab",
+      "bodyFingerprint": "ab77b8ffa5e1a306ec1ab725",
+      "bodyCharacterCount": 8994,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T05:40:03.813Z",
+      "assessment": {
+        "centralEvent": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The FCC’s Covered List , established in 2021, initially targeted telecommunications and surveillance equipment from companies including Huawei, ZTE and Hikvision before expanding to foreign-made drones and, most recently, to advanced roboti",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "China dominates global humanoid robot manufacturing, with global shipments hitting 22,000 units in the first half of this year — the vast majority from Chinese manufacturers — according to a report by Counterpoint .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "China’s scale means the global competition may simply move elsewhere.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Unlike semiconductors, robotics does not hinge on a single technology that one country can easily control, said Ankur Saxena, an investment director at TDK Ventures.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.41,
+        "rawScore": 47.41,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd4076fa5eb41a98f336": {
+      "storyId": "bd4076fa5eb41a98f336",
+      "url": "https://apnews.com/article/bessent-interview-iran-sanctions-bank-68d1bb0817c9f83eaa34e9ec643690fa",
+      "title": "US plans to sanction another bank in effort to clamp down on Iran transactions, Bessent tells AP",
+      "source": "AP News AI",
+      "published": "2026-08-30T21:39:54",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd3aba012476853ed946e7d9",
+      "bodyFingerprint": "44106868b7ee06f70a6e730e",
+      "bodyCharacterCount": 9443,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T05:40:03.841Z",
+      "assessment": {
+        "centralEvent": "US plans to sanction another bank in effort to clamp down on Iran transactions, Bessent tells AP",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "His comments come after the Trump administration signaled that it would shift from military strikes to economic pressure during a war that recently reached the six-month mark, promising what it called an “economic D-Day” against a country t",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Treasury’s first official action in this campaign of economic pressure was a proposed rulemaking on Friday, which would, if finalized, sever the Emirati branches of Banque Misr, Egypt’s second-largest bank, from access to the U.S. financial",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He also argued that long-term U.S. bond yields were down in August “for all the noise” and said that rising yields were “a global phenomenon.” Bessent blamed tariff refunds for the deficit hike.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e580cca74ec33065d289": {
+      "storyId": "e580cca74ec33065d289",
+      "url": "https://www.theguardian.com/news/audio/2026/aug/31/black-box-episode-6-shut-it-down-podcast",
+      "title": "Black Box: episode 6 – Shut it down? – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-08-31T02:00:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c29e88d89d022e6b4df1edf1",
+      "bodyFingerprint": "3d3fd8e410c16103d2657263",
+      "bodyCharacterCount": 750,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T05:40:03.856Z",
+      "assessment": {
+        "centralEvent": "Black Box: episode 6 – Shut it down? – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ed535dd7653efc713e4e": {
+      "storyId": "ed535dd7653efc713e4e",
+      "url": "https://apnews.com/article/g20-treasury-journalists-blocked-89e4fe117db8356562b811af1ada8242",
+      "title": "US Treasury blocks certain journalists from G20 meeting in North Carolina",
+      "source": "AP News AI",
+      "published": "2026-08-30T22:16:58",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f3bd17463f0896853fa06253",
+      "bodyFingerprint": "2262d366df4d5dc6a1f219f9",
+      "bodyCharacterCount": 5240,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T05:40:03.867Z",
+      "assessment": {
+        "centralEvent": "US Treasury blocks certain journalists from G20 meeting in North Carolina",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Individual reporters from The New York Times, The Wall Street Journal and Bloomberg News were not granted credentials to the Group of 20 finance ministers’ meeting in Asheville, North Carolina, the Times reported.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fe0854a44d419b242a28": {
+      "storyId": "fe0854a44d419b242a28",
+      "url": "https://apnews.com/article/mamdani-lookalike-contest-new-york-4ff1905bf3008b4c03931972dfad1ca6",
+      "title": "Hundreds show up to judge New York City Mayor Zohran Mamdani look-alike contest",
+      "source": "AP News AI",
+      "published": "2026-08-30T21:00:58",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "648f655dcf0ffd7cb79a9758",
+      "bodyFingerprint": "47c63b653fdb8b0be1a2e6a4",
+      "bodyCharacterCount": 6079,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T05:40:03.901Z",
+      "assessment": {
+        "centralEvent": "Hundreds show up to judge New York City Mayor Zohran Mamdani look-alike contest",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A similar contest was held in Brooklyn in 2025 when Mamdani was campaigning for mayor. ___ Wilder reported from Austin, Texas, and is a corps member for The Associated Press/Report for America Statehouse News Initiative.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f0cdc313e8fbc94e1e6f": {
+      "storyId": "f0cdc313e8fbc94e1e6f",
+      "url": "https://apnews.com/article/nepal-china-flood-galchhi-warning-afec20e612514ca3598c65b29f485303",
+      "title": "Nepal warns of possible fresh flooding as communities grapple with devastation",
+      "source": "AP News AI",
+      "published": "2026-08-30T04:37:01",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e331a1ce3c1ee2e8adc913af",
+      "bodyFingerprint": "879d35402c3f342067408d58",
+      "bodyCharacterCount": 17091,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T05:40:03.914Z",
+      "assessment": {
+        "centralEvent": "Nepal warns of possible fresh flooding as communities grapple with devastation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "At relief centers, while some arrived, families of others waited anxiously for news of their loved ones as the death toll and the number of people unaccounted for continued to rise. (AP video shot by: Rajesh Kumar Singh and Rishi Lekhi) Rea",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The warning came after Chinese authorities shared information indicating increased water flow upstream. (AP Video by Rajesh Kumar Singh and Shonal Ganguly) Read More 2 of 11 | As rescue efforts in communities buried by catastrophic flash fl",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "On Sunday, Chinese state media said 261 foreigners were missing in Tibet, including over a hundred Nepalis and others from around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At relief centers, while some arrived, families of others waited anxiously for news of their loved ones as the death toll and the number of people unaccounted for continued to rise. (AP video shot by: Rajesh Kumar Singh and Rishi Lekhi) Rea",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 69.83,
+        "rawScore": 69.83,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.53,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-30T23:32:15.291Z"
+  "updatedAt": "2026-08-31T05:40:03.914Z"
 }
