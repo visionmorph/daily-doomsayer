@@ -80603,8 +80603,268 @@
           "vulnerability": 0
         }
       }
+    },
+    "cf3d8ead7771d3292228": {
+      "storyId": "cf3d8ead7771d3292228",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
+      "title": "The Pentagon now has its own version of ChatGPT and Grok",
+      "source": "TechCrunch AI",
+      "published": "2026-08-31T20:13:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "082f3b100d27b11988cc8616",
+      "bodyFingerprint": "80d66414dac42467cc2e50e0",
+      "bodyCharacterCount": 4344,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T23:52:58.776Z",
+      "assessment": {
+        "centralEvent": "The Pentagon now has its own version of ChatGPT and Grok",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Anthropic was labeled a supply-chain risk by the Trump administration — a designation that it is currently fighting in court — after it refused to give the Pentagon unrestricted use of its AI tools and instead insisted on certain safety gua",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And according to the Department of Defense, the generative AI portal has proven popular.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ad34bd830cd469d8738b": {
+      "storyId": "ad34bd830cd469d8738b",
+      "url": "https://www.inc.com/marc-emmer/your-best-ai-builder-may-be-a-cfo-operations-leader-or-salesperson-who-knows-the-broken-process/91395687",
+      "title": "Your Best AI Builder May Be a CFO, Operations Leader, or Salesperson Who Knows the Broken Process",
+      "source": "Inc. AI",
+      "published": "2026-08-31T20:07:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2adc8305362c9e612c204fbe",
+      "bodyFingerprint": "a27502d1badb8f3ba878c6e5",
+      "bodyCharacterCount": 153,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-31T23:52:58.802Z",
+      "assessment": {
+        "centralEvent": "Your Best AI Builder May Be a CFO, Operations Leader, or Salesperson Who Knows the Broken Process",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d804cb3d00cc4080ae89": {
+      "storyId": "d804cb3d00cc4080ae89",
+      "url": "https://www.inc.com/moses-jeanfrancois/openai-new-ad-business-hit-1-billion-dollr-run-rate-200-days/91398556",
+      "title": "OpenAI’s New Ad Business Hit a $1 Billion Run Rate in 200 Days. Its Expansion Is Only Just Starting",
+      "source": "Inc. AI",
+      "published": "2026-08-31T21:06:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c0826d9bc770633cc54ae739",
+      "bodyFingerprint": "161287e2a8812f5ad08aff6d",
+      "bodyCharacterCount": 92,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-08-31T23:52:58.805Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s New Ad Business Hit a $1 Billion Run Rate in 200 Days. Its Expansion Is Only Just Starting",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "OpenAI’s New Ad Business Hit a $1 Billion Run Rate in 200 Days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c40af4e63c2c9541f0e0": {
+      "storyId": "c40af4e63c2c9541f0e0",
+      "url": "https://apnews.com/article/kalshi-george-santos-lifetime-ban-c8ac3e25aec55cd5509485a84f79f9e0",
+      "title": "Kalshi bans ex-Congressman George Santos for life after concluding he likely was insider trading",
+      "source": "AP News AI",
+      "published": "2026-08-31T15:18:01",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "88b80b86f2222bb5289de6cd",
+      "bodyFingerprint": "00322897f2e5fa66356d7c93",
+      "bodyCharacterCount": 5511,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-08-31T23:52:58.864Z",
+      "assessment": {
+        "centralEvent": "Kalshi bans ex-Congressman George Santos for life after concluding he likely was insider trading",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Read More The convicted ex-congressman had repeatedly discussed his intention to attend the State of the Union, which came just four months after he was granted clemency by President Donald Trump in a fraud case that led to his expulsion fr",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "George Santos arrives at federal court for sentencing, April 25, 2025, in Central Islip, N.Y. (AP Photo/Julia Demaree Nikhinson, File) By LARRY NEUMEISTER Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Kalshi spokesperson Elisabeth Diana said it was the first permanent ban in the company’s history.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "She said those affected by four other new enforcement cases announced Monday would be banned from trading temporarily because they cooperated with Kalshi’s probe.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-31T20:08:11.584Z"
+  "updatedAt": "2026-08-31T23:52:58.864Z"
 }
