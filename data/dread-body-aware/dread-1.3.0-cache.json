@@ -84487,8 +84487,1317 @@
           "vulnerability": 0
         }
       }
+    },
+    "437ffb23ae2ef611e091": {
+      "storyId": "437ffb23ae2ef611e091",
+      "url": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
+      "title": "Walter Torous named executive director of MIT Center for Real Estate",
+      "source": "MIT News AI",
+      "published": "2026-09-01T21:25:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2d4f5de4f193e9bc0ee80f77",
+      "bodyFingerprint": "77db5191d3f63a4ef0fbddbd",
+      "bodyCharacterCount": 6146,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:09.980Z",
+      "assessment": {
+        "centralEvent": "Walter Torous named executive director of MIT Center for Real Estate",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9772983faa9346995a5e": {
+      "storyId": "9772983faa9346995a5e",
+      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems",
+      "title": "Open AI’s Astra model is on the way—and very good at breaking into computer systems",
+      "source": "TechCrunch AI",
+      "published": "2026-09-01T21:06:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9201ebcbef6ed2a18c23fee5",
+      "bodyFingerprint": "fd7a67be4baed2e85e32af51",
+      "bodyCharacterCount": 4548,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.003Z",
+      "assessment": {
+        "centralEvent": "Open AI’s Astra model is on the way—and very good at breaking into computer systems",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "1 in Navigation after refusing to rename Lake Ontario Sarah Perez Musk’s faster path to more gas turbines comes with pollution problem Connie Loizos Nvidia’s AI advantage is moving beyond the GPU Russell Brandom Hugging Face is selling a cu",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The company said it expects to release more evaluations of the model and further safety information when it is launched widely to the public.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bfbdf33ad0e753704f4a": {
+      "storyId": "bfbdf33ad0e753704f4a",
+      "url": "https://mashable.com/tech/openai-astra-model-release-date-everything-we-know",
+      "title": "OpenAI Astra: All about the quantum math-solving model with critical hacking skills",
+      "source": "Mashable AI",
+      "published": "2026-09-01T21:08:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17e726762454c91d662659d0",
+      "bodyFingerprint": "ef942cf70ac7d685ff06d68e",
+      "bodyCharacterCount": 10932,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.013Z",
+      "assessment": {
+        "centralEvent": "OpenAI Astra: All about the quantum math-solving model with critical hacking skills",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "At the time, OpenAI said it couldn't \"rule out critical cyber capabilities under our Preparedness Framework ,\" meaning the model could have existential-threat-level cybersecurity capabilities. (OpenAI's Preparedness Framework tracks risk le",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Previously, OpenAI deemed GPT-5.6-Sol a \"high\" cybersecurity risk, making Astra the first OpenAI model to be classified as a genuine \"critical\" risk. \"Under our Preparedness Framework, a model reaches the Critical cybersecurity threshold if",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Previously, OpenAI deemed GPT-5.6-Sol a \"high\" cybersecurity risk, making Astra the first OpenAI model to be classified as a genuine \"critical\" risk. \"Under our Preparedness Framework, a model reaches the Critical cybersecurity threshold if",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "1, the ChatGPT-maker revealed that an internal model named Astra had solved 10 major open math problems, some of which had been unresolved for decades.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b4a1188cc06fc47f39b5": {
+      "storyId": "b4a1188cc06fc47f39b5",
+      "url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more",
+      "title": "Google’s Android update tackles motion sickness, accessibility, and more",
+      "source": "TechCrunch AI",
+      "published": "2026-09-01T20:53:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "da12df285c7852793ba5b60b",
+      "bodyFingerprint": "970f79f312fcd1fbd63f9227",
+      "bodyCharacterCount": 3932,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.070Z",
+      "assessment": {
+        "centralEvent": "Google’s Android update tackles motion sickness, accessibility, and more",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "1 in Navigation after refusing to rename Lake Ontario Sarah Perez Musk’s faster path to more gas turbines comes with pollution problem Connie Loizos Nvidia’s AI advantage is moving beyond the GPU Russell Brandom Hugging Face is selling a cu",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6bcd067fabce21a3b693": {
+      "storyId": "6bcd067fabce21a3b693",
+      "url": "https://www.inc.com/dan-schawbel/demand-for-one-leadership-skill-just-spiked-350-in-a-year-report-finds/91399470",
+      "title": "Demand for One Leadership Skill Just Spiked 350% in a Year, Report Finds",
+      "source": "Inc. AI",
+      "published": "2026-09-01T21:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dac6197f240270a5f605837c",
+      "bodyFingerprint": "4c008fc8b493bbea4db61117",
+      "bodyCharacterCount": 80,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T21:49:10.079Z",
+      "assessment": {
+        "centralEvent": "Demand for One Leadership Skill Just Spiked 350% in a Year, Report Finds",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "36b6b04303f0d1c81cef": {
+      "storyId": "36b6b04303f0d1c81cef",
+      "url": "https://mashable.com/tech/anthropic-fable-5-1-launch-announcment",
+      "title": "Anthropic launches Fable 5.1 as AI security worries mount",
+      "source": "Mashable AI",
+      "published": "2026-09-01T20:28:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "62582c7d73526195d31f2002",
+      "bodyFingerprint": "dbcf6e4d5dfd5364591324f0",
+      "bodyCharacterCount": 3594,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.137Z",
+      "assessment": {
+        "centralEvent": "Anthropic launches Fable 5.1 as AI security worries mount",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to the company, typical workloads will cost around 25 percent less than they did with Fable 5, with savings of roughly 45 percent for heavily agentic tasks, largely due to cheaper cache-read pricing.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "99982d414e4d49aed60f": {
+      "storyId": "99982d414e4d49aed60f",
+      "url": "https://www.inc.com/tomas-gorny/stroke-patient-ai-receptionist-failure/91399468",
+      "title": "A Stroke Patient’s AI Receptionist Failure is a Wake-Up Call to Businesses",
+      "source": "Inc. AI",
+      "published": "2026-09-01T20:06:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9b17d638ef6fff6b9dbb4f3a",
+      "bodyFingerprint": "05e854f73e6220da98dfe6d6",
+      "bodyCharacterCount": 92,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T21:49:10.183Z",
+      "assessment": {
+        "centralEvent": "A Stroke Patient’s AI Receptionist Failure is a Wake-Up Call to Businesses",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a101021e89aef0da7c80": {
+      "storyId": "a101021e89aef0da7c80",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "source": "The Verge AI",
+      "published": "2026-09-01T20:45:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "38ad47dda41eb96931e80a54",
+      "bodyFingerprint": "0dcf52c7f37ab694e40f39af",
+      "bodyCharacterCount": 4961,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.202Z",
+      "assessment": {
+        "centralEvent": "OpenAI delayed its new model’s development after the Hugging Face hack",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into internet access, made it possible for AI agents to secretly conspire under the company's nose using a secret message board, and hacked into t",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hayden Field AI News OpenAI Most Popular Most Popular Sonos introduces new headphones, soundbar, and software in its biggest announcement in years Dyson made a camera-equipped toothbrush that flosses for you The Google TV Streamer now costs",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog po",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1ac14c578ffaf691552f": {
+      "storyId": "1ac14c578ffaf691552f",
+      "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive",
+      "title": "Anthropic’s new Fable release is cheaper, less restrictive",
+      "source": "TechCrunch AI",
+      "published": "2026-09-01T19:39:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "286e774497df55b92cb863f6",
+      "bodyFingerprint": "9315c855107017a7be6f3a13",
+      "bodyCharacterCount": 3870,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.230Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s new Fable release is cheaper, less restrictive",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "One of the most significant changes is Anthropic’s previously reported embrace of zero data retention, allowing clients to run Anthropic models on their own infrastructure without data outflows.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2abb69d0d0bf8742031d": {
+      "storyId": "2abb69d0d0bf8742031d",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyc?at_campaign=rss&at_medium=RSS",
+      "title": "Tech Life",
+      "source": "BBC News AI",
+      "published": "2026-09-01T20:10:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "91115010a5c73eeab14c1362",
+      "bodyFingerprint": "f954a0dead4b241928b1372d",
+      "bodyCharacterCount": 1086,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.256Z",
+      "assessment": {
+        "centralEvent": "Tech Life",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4fe69375392354836a0e": {
+      "storyId": "4fe69375392354836a0e",
+      "url": "https://www.inc.com/bruce-crumley/how-ai-anxiety-and-job-insecurity-are-rewriting-gen-zs-dating-rules/91399232",
+      "title": "How AI Anxiety and Job Insecurity Are Rewriting Gen Z’s Dating Rules",
+      "source": "Inc. AI",
+      "published": "2026-09-01T19:34:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9799f690fc5b8753b1471b58",
+      "bodyFingerprint": "9333808bba3231bf3a12f137",
+      "bodyCharacterCount": 168,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T21:49:10.276Z",
+      "assessment": {
+        "centralEvent": "How AI Anxiety and Job Insecurity Are Rewriting Gen Z’s Dating Rules",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1cb687a0be9eb4179641": {
+      "storyId": "1cb687a0be9eb4179641",
+      "url": "https://mashable.com/tech/what-is-dlss-5-controversy",
+      "title": "What is NVIDIAs DLSS 5 and why is it so controversial?",
+      "source": "Mashable AI",
+      "published": "2026-09-01T19:19:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "457e45edbf5cb545195ac2d4",
+      "bodyFingerprint": "863bbbe2ac8a5b888ea5c02c",
+      "bodyCharacterCount": 6130,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.306Z",
+      "assessment": {
+        "centralEvent": "What is NVIDIAs DLSS 5 and why is it so controversial?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "When NVIDIA first unveiled the tech back in March, the company called it a landmark moment, framed as its biggest graphics breakthrough since real-time ray tracing debuted in 2018.NVIDIA also claims that the system hands creative control ba",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The new version goes further.As we reported when it was first announced, DLSS 5 aims to use AI to add more realistic lighting and materials to a scene in real-time.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "edb7cc4914739ee42a3c": {
+      "storyId": "edb7cc4914739ee42a3c",
+      "url": "https://www.inc.com/brian-contreras/ernst-young-bonuses-soft-skills-ai-rewarding-employees/91399339",
+      "title": "Ernst & Young Is Paying $100 Million in Bonuses for Skills That AI Can’t Replace",
+      "source": "Inc. AI",
+      "published": "2026-09-01T19:06:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "051781a52c09c732a4591651",
+      "bodyFingerprint": "761e3b2e03dbfb561b9f446d",
+      "bodyCharacterCount": 103,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T21:49:10.334Z",
+      "assessment": {
+        "centralEvent": "Ernst & Young Is Paying $100 Million in Bonuses for Skills That AI Can’t Replace",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "78f5b18132c56f69ed9c": {
+      "storyId": "78f5b18132c56f69ed9c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+      "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
+      "source": "The Verge AI",
+      "published": "2026-09-01T19:02:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "048019af80a5ae7a245180b9",
+      "bodyFingerprint": "acf1d98e757ce2208ec6bc52",
+      "bodyCharacterCount": 10398,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.360Z",
+      "assessment": {
+        "centralEvent": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The agent escaped its supposedly isolated test environment, accessed the internet, and hacked Hugging Face, alongside several other organizations .",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robert Hart AI OpenAI Security Tech Most Popular Most Popular Sonos introduces new headphones, soundbar, and software in its biggest announcement in years Dyson made a camera-equipped toothbrush that flosses for you The Google TV Streamer n",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The agent escaped its supposedly isolated test environment, accessed the internet, and hacked Hugging Face, alongside several other organizations .",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The agent escaped its supposedly isolated test environment, accessed the internet, and hacked Hugging Face, alongside several other organizations .",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.85,
+        "rawScore": 67.85,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9bc3d27bc8bdeb4cfdf0": {
+      "storyId": "9bc3d27bc8bdeb4cfdf0",
+      "url": "https://www.theguardian.com/us-news/2026/sep/01/top-pentagon-official-ai-stock-holdings",
+      "title": "Pentagon official overseeing military AI sold millions worth of stock in AI firm",
+      "source": "The Guardian AI",
+      "published": "2026-09-01T19:17:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "836ae2ba80e4fdd3ea012ab5",
+      "bodyFingerprint": "866379617b19b5d6b101f0ca",
+      "bodyCharacterCount": 4624,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.395Z",
+      "assessment": {
+        "centralEvent": "Pentagon official overseeing military AI sold millions worth of stock in AI firm",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Exclusive: financial disclosures from Emil Michael – who also reaped millions from xAI stock earlier this year – show he sold his Perplexity stock for up to $25m The top Pentagon official overseeing military artificial intelligence policy, ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3951a0599c9e89f86a0a": {
+      "storyId": "3951a0599c9e89f86a0a",
+      "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities",
+      "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
+      "source": "WIRED AI",
+      "published": "2026-09-01T20:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5fc21b560c3ad9542e0ebbdd",
+      "bodyFingerprint": "15838488546145373251c2ef",
+      "bodyCharacterCount": 8666,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.461Z",
+      "assessment": {
+        "centralEvent": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Maxwell Zeff One of China’s Most Powerful AI Models Has Also Escaped Containment Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given.",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to figures from OpenAI, Astra outperforms industry leading AI models such as GPT-5.6 Sol and Anthropic’s Mythos on cybersecurity benchmarks such as ExploitBench, which Astra scored 100 percent on.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Will Knight OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree At the Black Hat security conference, the AI giant revealed new details about how its agents went rogue, hacked several other companies—and did",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Maxwell Zeff One of China’s Most Powerful AI Models Has Also Escaped Containment Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In July, OpenAI disclosed an incident in which agents running two of its models exploited vulnerabilities in what was supposed to be a siloed testing environment , gaining access to the internet and hacking the open source AI platform Huggi",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.73,
+        "rawScore": 68.73,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.43,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "537589a95584b08f8fd5": {
+      "storyId": "537589a95584b08f8fd5",
+      "url": "https://apnews.com/article/tony-romo-arrest-92fb917a83eb60dbae1f547ec6915b9b",
+      "title": "Tony Romo pleads no contest to charge of operating while intoxicated and issues statement of apology",
+      "source": "AP News AI",
+      "published": "2026-09-01T17:10:34",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ae52dbfdc4256c4a99c6f12",
+      "bodyFingerprint": "563b4d4d84b2147765c398d8",
+      "bodyCharacterCount": 4448,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.504Z",
+      "assessment": {
+        "centralEvent": "Tony Romo pleads no contest to charge of operating while intoxicated and issues statement of apology",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Read More Romo also initially had received citations for possessing open intoxicants in a motor vehicle, unsafe passing on the right and refusal to take a test for intoxication after arrest.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "12, 2025. (AP Photo/Adrian Kraus, File) By STEVE MEGARGEE Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Body camera footage showed Romo telling deputies he had been coming from a golf course and was on his way “to visit grandma and grandpa” when he was stopped.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.7,
+        "rawScore": 26.7,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "373e7e0a6436a712543b": {
+      "storyId": "373e7e0a6436a712543b",
+      "url": "https://apnews.com/article/lindsay-clancy-jury-deliberates-86af7acf9dcb729c2fbdc475b34803cf",
+      "title": "Lindsay Clancy jury goes home after a fourth day without a verdict and signals an impasse",
+      "source": "AP News AI",
+      "published": "2026-09-01T04:04:20",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "98f6c260b8bce1bfd6309333",
+      "bodyFingerprint": "83465694b4f9e52d60c490c2",
+      "bodyCharacterCount": 5851,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.524Z",
+      "assessment": {
+        "centralEvent": "Lindsay Clancy jury goes home after a fourth day without a verdict and signals an impasse",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "If she is acquitted, a judge could still order her confined to a mental health facility if an evaluation determines she is a danger to the public.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "If you or someone you know needs help, the national suicide and crisis lifeline in the U.S. is available by calling or texting 988. ___ Related Stories No verdict after 3 days of deliberations in the Lindsay Clancy trial over the killing of",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "If you or someone you know needs help, the national suicide and crisis lifeline in the U.S. is available by calling or texting 988. ___ Related Stories No verdict after 3 days of deliberations in the Lindsay Clancy trial over the killing of",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e820e0ca0367d26f078f": {
+      "storyId": "e820e0ca0367d26f078f",
+      "url": "https://apnews.com/article/times-square-shooting-a46620ce4073cc1b924758bb2ef66278",
+      "title": "Woman randomly stabs 2 people in New York City's Times Square, killing 1, then is killed by police",
+      "source": "AP News AI",
+      "published": "2026-08-31T22:52:26",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "13f324e1c6ce473d4cc71496",
+      "bodyFingerprint": "49135c41aae0dacc728d5ef7",
+      "bodyCharacterCount": 7730,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:10.668Z",
+      "assessment": {
+        "centralEvent": "Woman randomly stabs 2 people in New York City's Times Square, killing 1, then is killed by police",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Woman randomly stabs 2 people in New York City's Times Square, killing 1, then is killed by police",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b95ed8026c025433b444": {
+      "storyId": "b95ed8026c025433b444",
+      "url": "https://www.eff.org/deeplinks/2026/09/metas-17-billion-settlement-bad-deal-teens-and-all-social-media-users",
+      "title": "Meta's $17 Billion Settlement is a Bad Deal for Teens and All Social Media Users",
+      "source": "EFF AI",
+      "published": "2026-09-01T20:51:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "491bfd1162e1b38484241f73",
+      "bodyFingerprint": "14523eb8709c33759934dfa3",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T21:49:11.340Z",
+      "assessment": {
+        "centralEvent": "Meta's $17 Billion Settlement is a Bad Deal for Teens and All Social Media Users",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "In this post, we go through the Settlement’s provisions in detail and explain why that is so, including how: The Settlement embeds age assurance technology and age-gates into Meta’s social media products and requires all users—minors and ad",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "18, §II.A.10.b] (b) Fourteen (14) days or more after creating a Meta SMP account, Meta SMP users who have not yet had their age assessed by an Age Assurance Method pursuant to the Age Assurance Framework shall be treated as Teen Users for t",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "This concession firmly embeds deeply flawed age estimation technology into the online experience of millions of people around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The Supervising Parent also gets notices of the teen’s repeated searches related to suicide, self-harm and eating disorders. [P.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 224,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.17,
+        "rawScore": 49.17,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-01T18:34:34.256Z"
+  "updatedAt": "2026-09-01T21:49:11.340Z"
 }
