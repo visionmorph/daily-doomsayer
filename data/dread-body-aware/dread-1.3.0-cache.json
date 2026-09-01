@@ -80863,8 +80863,504 @@
           "vulnerability": 0
         }
       }
+    },
+    "33393b97fc764010311c": {
+      "storyId": "33393b97fc764010311c",
+      "url": "https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us",
+      "title": "‘If you build something vastly smarter than you, it better be on your side’: can we stop AI from deceiving us?",
+      "source": "The Guardian AI",
+      "published": "2026-09-01T04:00:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "48df1ff68a38986fb5d064af",
+      "bodyFingerprint": "7f598d93788103208dd5145d",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T05:13:49.701Z",
+      "assessment": {
+        "centralEvent": "‘If you build something vastly smarter than you, it better be on your side’: can we stop AI from deceiving us?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“But if in six to 12 months they become extremely capable senior employees scheming against you, it’s a different kind of concern.” This summer – in an incident that OpenAI called “ unprecedented ” – hundreds of AI agents powered by multipl",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A UK government official presented an experiment conducted by Apollo Research, a London-based company that had been set up that year to study AI behaviour.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The goal for him, as for many others, was to make sure AI systems behave as humans intend them to.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Once the goal was fixed, the agents were assigned routine tasks: analysing data, drafting recommendations, retrieving files.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Once the goal was fixed, the agents were assigned routine tasks: analysing data, drafting recommendations, retrieving files.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 145,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47,
+        "rawScore": 47,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2725,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1c2f401a7e703ed13b44": {
+      "storyId": "1c2f401a7e703ed13b44",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/01/from-bill-gates-to-bernie-sanders-most-agree-the-ai-arms-race-is-disastrous-only-europe-can-make-it-stop",
+      "title": "From Bill Gates to Bernie Sanders, most agree the AI arms race is disastrous. Only Europe can make it stop",
+      "source": "The Guardian AI",
+      "published": "2026-09-01T04:00:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dd7176b9ebec8f89812e3d3b",
+      "bodyFingerprint": "6e9593e0809c894877caeb86",
+      "bodyCharacterCount": 7732,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T05:13:49.716Z",
+      "assessment": {
+        "centralEvent": "From Bill Gates to Bernie Sanders, most agree the AI arms race is disastrous. Only Europe can make it stop",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Other outcomes include some or all of: the bubble bursting and an ensuing financial crisis; mass unemployment via automation; the end of democracy and the rise of authoritarian surveillance states; raving cults who believe the pattern-match",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The best chance of inducing a slowdown, it seems, would be for a single actor to control a choke-point, and have an incentive to close it.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Despite this, an international agreement is sadly unlikely.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The best chance of inducing a slowdown, it seems, would be for a single actor to control a choke-point, and have an incentive to close it.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.86,
+        "rawScore": 46.86,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.26,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "19e797d504230c2e1874": {
+      "storyId": "19e797d504230c2e1874",
+      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai",
+      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "source": "TechCrunch AI",
+      "published": "2026-09-01T00:13:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3265544d3e6a0b5f4caa849a",
+      "bodyFingerprint": "6d1d7f39e3e2e90d467ede33",
+      "bodyCharacterCount": 3890,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T05:13:49.735Z",
+      "assessment": {
+        "centralEvent": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "1 in Navigation after refusing to rename Lake Ontario Sarah Perez Musk’s faster path to more gas turbines comes with pollution problem Connie Loizos Hugging Face is selling a cute $399 open source duck robot, Microduck Rebecca Bellan Nvidia",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Apple is seeking a preliminary injunction — a court order that would block OpenAI from working on hardware based on Apple’s technology while the case is ongoing — as well as expedited discovery, a fast-tracked process for gathering evidence",
+            "matchedRule": "/\\b(?:still developing|preliminary|early findings?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI has previously defended Liu by saying that he only accessed Apple files after he stopped working there in order to help former colleagues who asked for his assistance.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.59,
+        "rawScore": 45.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7121e737b53f5c8f3a57": {
+      "storyId": "7121e737b53f5c8f3a57",
+      "url": "https://news.mit.edu/2026/ila-kumar-innovates-with-communities-0901",
+      "title": "Ila Kumar: Innovating with communities",
+      "source": "MIT News AI",
+      "published": "2026-09-01T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e59adb54b88d599e8f7001b8",
+      "bodyFingerprint": "92712526fd12c5a4c012273b",
+      "bodyCharacterCount": 9489,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T05:13:49.746Z",
+      "assessment": {
+        "centralEvent": "Ila Kumar: Innovating with communities",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Kumar sees the way digital platforms have the potential to both harm young people’s mental health and development, and help young people process emotions, strengthen relationships, and practice healthy vulnerability — if those tools are des",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This project surfaced the importance of not just designing tools that center youths’ needs but also considering the ways in which social services need to be brought into the innovation process.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A credit line must be used when reproducing images; if one is not provided below, credit the images to \"MIT.\" Close Caption : MIT PhD student Ila Kumar works alongside young people who have gone through the child welfare system, to reimagin",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Recognizing that many students interested in community-engaged work often feel isolated, she collaborated with the Priscilla King Gray Public Service Center to co-teach a course on community-driven innovation.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.38,
+        "rawScore": 25.38,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.125,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "79772ac462ea1f356097": {
+      "storyId": "79772ac462ea1f356097",
+      "url": "https://apnews.com/article/san-diego-mosque-shooting-20f609e3042817ab67551f4cb439685f",
+      "title": "DA says a teen who recorded San Diego mosque shooting livestream has been charged with murder",
+      "source": "AP News AI",
+      "published": "2026-08-31T19:45:09",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2f1df9195dfccc3da238ec9b",
+      "bodyFingerprint": "3d6c09d4f5bff907e3285c0f",
+      "bodyCharacterCount": 6955,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T05:13:49.790Z",
+      "assessment": {
+        "centralEvent": "DA says a teen who recorded San Diego mosque shooting livestream has been charged with murder",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "A North Carolina district attorney says a 17-year-old girl who recorded a livestream of a shooting that killed three people at a San Diego mosque and who disseminated the attackers’ white-supremacist writings has been charged with murder by",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "13a8848ec97ddeae2455": {
+      "storyId": "13a8848ec97ddeae2455",
+      "url": "https://apnews.com/article/trump-white-house-ballroom-supreme-court-6b9434af0a2dbeffa0ca19f5cdf7d775",
+      "title": "Supreme Court lets White House continue construction on Trump’s $400 million ballroom",
+      "source": "AP News AI",
+      "published": "2026-08-31T20:12:04",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "55b7c4188298d32087ccdaa6",
+      "bodyFingerprint": "6b3be67e225bf404c7fc4911",
+      "bodyCharacterCount": 6244,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T05:13:49.818Z",
+      "assessment": {
+        "centralEvent": "Supreme Court lets White House continue construction on Trump’s $400 million ballroom",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "23, 2026, in Washington. (AP Photo/Manuel Balce Ceneta) By LINDSAY WHITEHURST Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "58d85be6eed1bc37c49d": {
+      "storyId": "58d85be6eed1bc37c49d",
+      "url": "https://apnews.com/article/shanghai-cooperation-organization-russia-china-india-cf543dfad0a20097ed4c2b415a26e8b4",
+      "title": "Leaders of China, Russia and India are among heads of state meeting to counter US influence",
+      "source": "AP News AI",
+      "published": "2026-08-31T04:00:28",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "338c61838f48095ec9235c0c",
+      "bodyFingerprint": "43d4263487e51625cb1fb68b",
+      "bodyCharacterCount": 12783,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T05:13:49.827Z",
+      "assessment": {
+        "centralEvent": "Leaders of China, Russia and India are among heads of state meeting to counter US influence",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "15, and authorities declared Tuesday a non-working day for public sector and civil servants in Bishkek. ___ Andrew Wilks in Istanbul, Turkey, Huizhong Wu in Bangkok, and Aijaz Hussain in New Delhi contributed.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-08-31T23:52:58.864Z"
+  "updatedAt": "2026-09-01T05:13:49.828Z"
 }
