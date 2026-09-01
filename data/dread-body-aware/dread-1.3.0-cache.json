@@ -81359,8 +81359,774 @@
           "vulnerability": 0
         }
       }
+    },
+    "971f50aa6ba5aaea40fe": {
+      "storyId": "971f50aa6ba5aaea40fe",
+      "url": "https://www.politico.com/news/2026/09/01/wake-up-call-for-congress-lawmakers-get-a-big-brother-warning-on-ai-01054087",
+      "title": "‘Wake-up call for Congress’: Lawmakers get a Big Brother warning on AI",
+      "source": "POLITICO AI",
+      "published": "2026-09-01T08:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "34c6229474d112e77a5e4558",
+      "bodyFingerprint": "082c66920bceeb734de755b7",
+      "bodyCharacterCount": 172,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T10:11:03.011Z",
+      "assessment": {
+        "centralEvent": "‘Wake-up call for Congress’: Lawmakers get a Big Brother warning on AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "‘Wake-up call for Congress’: Lawmakers get a Big Brother warning on AI",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ad41dbc97c3040b36b9": {
+      "storyId": "4ad41dbc97c3040b36b9",
+      "url": "https://www.inc.com/joe-procopio/the-failure-of-generative-ai-more-communication-does-not-equal-better-communication/91397978",
+      "title": "The Failure of Generative AI: More Communication Does Not Equal Better Communication",
+      "source": "Inc. AI",
+      "published": "2026-09-01T08:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "16346149016268bcbb7800ed",
+      "bodyFingerprint": "1939ca78943cae9327ce063c",
+      "bodyCharacterCount": 38,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T10:11:03.058Z",
+      "assessment": {
+        "centralEvent": "The Failure of Generative AI: More Communication Does Not Equal Better Communication",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cc0373186770830890bf": {
+      "storyId": "cc0373186770830890bf",
+      "url": "https://www.bbc.co.uk/news/videos/cvgy4ddx1q8o?at_campaign=rss&at_medium=RSS",
+      "title": "Flock's rapidly expanding AI surveillance network facing growing backlash in US",
+      "source": "BBC News AI",
+      "published": "2026-09-01T05:11:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "98a59c205fd1ffb7bd872bb5",
+      "bodyFingerprint": "1406cd740e93ddd0a12c2c03",
+      "bodyCharacterCount": 1224,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T10:11:03.113Z",
+      "assessment": {
+        "centralEvent": "Flock's rapidly expanding AI surveillance network facing growing backlash in US",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Flock's rapidly expanding AI surveillance network facing growing backlash in US",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Subsection US & Canada Published 4 hours ago Share close panel Share page Copy link About sharing Related topics Surveillance Follow Surveillance close panel You are now following Surveillance Updates from your News topics will appear in My",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bc33e585c27c5c2fcbb8": {
+      "storyId": "bc33e585c27c5c2fcbb8",
+      "url": "https://www.nature.com/articles/d41586-026-02686-z",
+      "title": "Who is responsible when AI helps to write science?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-01T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a4bbe7bd90169e5b27f401a",
+      "bodyFingerprint": "d99ced1edf9ac8e3ffd77af8",
+      "bodyCharacterCount": 107,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T10:11:03.160Z",
+      "assessment": {
+        "centralEvent": "Who is responsible when AI helps to write science?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c27132df8dfd72a99145": {
+      "storyId": "c27132df8dfd72a99145",
+      "url": "https://restofworld.org/2026/ai-safety-bias",
+      "title": "AI safety is designed in the West, and failing users everywhere",
+      "source": "Rest of World AI",
+      "published": "2026-09-01T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bb8083031edcdadabb018c7e",
+      "bodyFingerprint": "85324d6313a6aced5d6a2a90",
+      "bodyCharacterCount": 8926,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T10:11:03.253Z",
+      "assessment": {
+        "centralEvent": "AI safety is designed in the West, and failing users everywhere",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The unprecedented move came weeks after its models broke free during a test and hacked other websites, sparking concern about losing control of AI systems, as Anthropic and Meta reported similar incidents.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Natural language processing in healthcare in Africa showed cultural and linguistic bias, poor adaptation to medical contexts, and translation errors, researchers found.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The gaps have real consequences: Queries related to health are among the most common uses of AI chatbots worldwide, yet in many African and Asian nations, even multilingual AI tools make errors that can affect diagnoses and treatment decisi",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "They do not pay much attention to deployment risks including discrimination, exclusion, surveillance, language failures , and the inability of affected communities to seek remediation.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.45,
+        "rawScore": 48.45,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.405,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1af84a5dd970db519e0f": {
+      "storyId": "1af84a5dd970db519e0f",
+      "url": "https://apnews.com/article/driscoll-departure-army-secretary-hegseth-4853c46840a522911da5a510b01966d2",
+      "title": "Army Secretary Dan Driscoll is stepping down after 18 months on the job, White House says",
+      "source": "AP News AI",
+      "published": "2026-08-31T22:21:01",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d528aee4d74d3cb8dabd5a28",
+      "bodyFingerprint": "7c203437f4b9481742b12ed8",
+      "bodyCharacterCount": 8532,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T10:11:03.300Z",
+      "assessment": {
+        "centralEvent": "Army Secretary Dan Driscoll is stepping down after 18 months on the job, White House says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "5 MIN READ Days after Trump announces Venezuela oil deal, White House fills in some of the details 4 MIN READ 50 Gen.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "75c1629565c5ad7a7d0e": {
+      "storyId": "75c1629565c5ad7a7d0e",
+      "url": "https://apnews.com/article/nepal-flash-floods-school-principal-rajendra-dawadi-de0b24519de6514dd150737c2a729d97",
+      "title": "This principal evacuated 900 students before flooding swept away their school in Nepal",
+      "source": "AP News AI",
+      "published": "2026-08-31T10:49:16",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "df1a5a8a330382e074f180e2",
+      "bodyFingerprint": "1bdb7dfc94d9021d790f87bb",
+      "bodyCharacterCount": 7959,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T10:11:03.322Z",
+      "assessment": {
+        "centralEvent": "This principal evacuated 900 students before flooding swept away their school in Nepal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit BIDUR, Nepal (AP) — Rajendra Dawadi was inside his classroom when a colleague rushed in with a warning: Floodwaters were racing through Nepal’s ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The danger had not yet been confirmed, but Dawadi, the principal, had little time to act.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Stories Parents Demanding Tech Opt Outs Take Their Fight to Federal Court 5 MIN READ School starts soon in Lebanon but thousands still shelter in them during war 5 MIN READ Saved by a lunch break: Nepal floods destroyed many schools",
+            "matchedRule": "/\\b(?:thousands|hundreds)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "His appeal to the Nepalese government is simple: rebuild the schools and get children back to classes. ___ Saaliq reported from New Delhi.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The destruction of Dawadi’s school was not an isolated loss.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Aid group Save the Children said in a statement that at least 69 schools in northern Nepal were destroyed, putting the education of nearly 19,000 students at risk.",
+            "matchedRule": "/\\b(?:children|patients|elderly|disabled people|low-income|victims of abuse)\\b.*\\b(?:harmed|targeted|exposed|affected|at risk)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.2,
+        "rawScore": 29.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4725,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 3
+        }
+      }
+    },
+    "0236db5cccfe8a56be2b": {
+      "storyId": "0236db5cccfe8a56be2b",
+      "url": "https://apnews.com/article/hurricane-karina-tropical-storm-lowell-pacific-ae53ec6c000b92675fe8202d171d131c",
+      "title": "Tropical Storm Edouard forms near Texas and Louisiana while a storm moves toward Hawaii",
+      "source": "AP News AI",
+      "published": "2026-08-31T10:05:43",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6ccd7528ed36b457aaffd037",
+      "bodyFingerprint": "0fc1de6011e325b2448aafa6",
+      "bodyCharacterCount": 6306,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T10:11:03.368Z",
+      "assessment": {
+        "centralEvent": "Tropical Storm Edouard forms near Texas and Louisiana while a storm moves toward Hawaii",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Tropical Storm Edouard forms near Texas and Louisiana while a storm moves toward Hawaii 1 of 4 | Texas Governor Greg Abbott said the biggest problem expected from the storm is flooding after the National Hurricane Center issued a tropical s",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Tropical Storm Edouard forms near Texas and Louisiana while a storm moves toward Hawaii 1 of 4 | Texas Governor Greg Abbott said the biggest problem expected from the storm is flooding after the National Hurricane Center issued a tropical s",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Tropical Storm Edouard forms near Texas and Louisiana while a storm moves toward Hawaii 1 of 4 | Texas Governor Greg Abbott said the biggest problem expected from the storm is flooding after the National Hurricane Center issued a tropical s",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8301fe018f862b124616": {
+      "storyId": "8301fe018f862b124616",
+      "url": "https://apnews.com/article/colin-kaepernick-nfl-national-anthem-808a100d32c0fec506f28c001bbd4a1c",
+      "title": "A decade after Colin Kaepernick took a knee that led to his exile, the ripple effects continue",
+      "source": "AP News AI",
+      "published": "2026-08-31T10:00:38",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "357232467352fb8685e4e962",
+      "bodyFingerprint": "4e4ff7682474b06b341a8c4c",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T10:11:03.396Z",
+      "assessment": {
+        "centralEvent": "A decade after Colin Kaepernick took a knee that led to his exile, the ripple effects continue",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He just did it, quietly placing his right knee on the ground, his left arm across his left knee and staring silently ahead as Navy Petty Officer 1st Class Steven Powell sang “The Star-Spangled Banner.” Read More When Kaepernick huddled with",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "While supporters pointed out that Kaepernick’s right to kneel is one of the freedoms protected by the First Amendment of the Constitution, the very thing those in uniform are commanded to defend, it didn’t seem to matter.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Former NFL quarterback Colin Kaepernick's decision to kneel during the national anthem in 2016 sparked a cultural conversation.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit Read More While Kaepernick, who is biracial, was hardly the first athlete of color to parlay the playing of the anthem into an attempt to draw a",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 98,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "63fc39e11dbf07f5d08c": {
+      "storyId": "63fc39e11dbf07f5d08c",
+      "url": "https://www.nature.com/articles/d41586-026-02735-7",
+      "title": "When AI does science, who is accountable for mistakes?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-01T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0677253a9d35f44a0157f471",
+      "bodyFingerprint": "d99ced1edf9ac8e3ffd77af8",
+      "bodyCharacterCount": 107,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T10:11:03.635Z",
+      "assessment": {
+        "centralEvent": "When AI does science, who is accountable for mistakes?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dc9615b4ee13075560e5": {
+      "storyId": "dc9615b4ee13075560e5",
+      "url": "https://techpolicy.press/germanys-draft-law-on-ai-in-migration-raises-rights-and-bias-concerns",
+      "title": "Germany's Draft Law on AI in Migration Raises Rights and Bias Concerns",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-01T10:04:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7c85f11991f956d0f77059c6",
+      "bodyFingerprint": "6549377b8eacc0d7feacaa05",
+      "bodyCharacterCount": 13317,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T10:11:03.690Z",
+      "assessment": {
+        "centralEvent": "Germany's Draft Law on AI in Migration Raises Rights and Bias Concerns",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Second, in cases involving “legitimate concern” that evidence is contradictory or implausible, it permits automated comparison of applicants' statements with internet sources, including social media.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Analysis Germany's Draft Law on AI in Migration Raises Rights and Bias Concerns Natalie Welfens, Josefine Flesch, Bernard Quante / Sep 1, 2026 Amritha R Warrier & AI4Media / Better Images of AI / tic tac toe / CC-BY 4.0 Republish Share In l",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Governments and companies worldwide have faced criticism for rushing to apply AI, and generative AI in particular, to complex social and administrative problems faster than research, regulation, or public deliberation can keep pace .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Questions left unanswered Beyond the three main lines of criticism highlighted by civil society organizations, the draft leaves a long list of questions unresolved.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Several organizations argue the scope of personal data use is too broad, and question whether sensitive personal data can be fully deleted once it has been used to develop AI systems.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "One of the consulted civil society organizations, the Workers’ Welfare Association (AWO), has made that argument explicit, calling for an independent, interdisciplinary expert commission to examine — before any system is built — whether and",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.66,
+        "rawScore": 29.66,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.515,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 2,
+          "vulnerability": 2
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-01T05:13:49.828Z"
+  "updatedAt": "2026-09-01T10:11:03.690Z"
 }
