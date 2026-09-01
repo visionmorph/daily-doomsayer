@@ -82125,8 +82125,808 @@
           "vulnerability": 2
         }
       }
+    },
+    "4c19d7e486e378650569": {
+      "storyId": "4c19d7e486e378650569",
+      "url": "https://www.inc.com/ethan-fixell/your-ai-generated-resume-could-be-the-reason-youre-not-getting-hired/91398246",
+      "title": "Your AI-Generated Resume Could Be the Reason You’re Not Getting Hired",
+      "source": "Inc. AI",
+      "published": "2026-09-01T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cf6b6ca2125d067fca3f84fc",
+      "bodyFingerprint": "2859890389ef38a9cb594249",
+      "bodyCharacterCount": 41,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T14:55:57.853Z",
+      "assessment": {
+        "centralEvent": "Your AI-Generated Resume Could Be the Reason You’re Not Getting Hired",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0988fa6a206dc6c53ea3": {
+      "storyId": "0988fa6a206dc6c53ea3",
+      "url": "https://www.wired.com/story/sonos-has-new-devices-a-new-os-and-yes-a-new-app",
+      "title": "Sonos Ace Ultra, Beam Ultra, Sonos Fabric, and a New App: Everything Sonos Just Announced",
+      "source": "WIRED AI",
+      "published": "2026-09-01T14:40:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f00b20107f4022fbbf169f11",
+      "bodyFingerprint": "c7482890d126fa122b6a6d52",
+      "bodyCharacterCount": 10162,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T14:55:57.942Z",
+      "assessment": {
+        "centralEvent": "Sonos Ace Ultra, Beam Ultra, Sonos Fabric, and a New App: Everything Sonos Just Announced",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like In your inbox: WIRED's most ambitious, future-defining stories AI slop backlash is actually having an impact Big Story: The cop who took on Flock The rise of ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It has 35 hours of battery life and can connect to devices via USB-C and 3.5 mm.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The Ace Ultra runs on Sonos Fabric, which means it can connect to your wider Sonos system and let you switch playback between speakers and the headphones “With a single push of a button, you'll be able to suck music into your headphones,” P",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 80,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c83f72602d8465c85927": {
+      "storyId": "c83f72602d8465c85927",
+      "url": "https://www.inc.com/stephanie-davis/burning-man-startup-lessons-ai-age-technology-customer-value/91398913",
+      "title": "What Burning Man Can Teach Startups About Surviving the AI Age",
+      "source": "Inc. AI",
+      "published": "2026-09-01T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "42962dd4d4f35d182c5d361c",
+      "bodyFingerprint": "bba6ac968e027332b1a26ab0",
+      "bodyCharacterCount": 67,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T14:55:57.957Z",
+      "assessment": {
+        "centralEvent": "What Burning Man Can Teach Startups About Surviving the AI Age",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e26e9dafde37f5b9e7a9": {
+      "storyId": "e26e9dafde37f5b9e7a9",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901010702.htm",
+      "title": "NASA’s Swift telescope is back, but time is running out",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-01T05:43:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fde6a0cde6347e403264c702",
+      "bodyFingerprint": "f4a511a54672c82fe95d1d1c",
+      "bodyCharacterCount": 7451,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T14:55:58.091Z",
+      "assessment": {
+        "centralEvent": "NASA’s Swift telescope is back, but time is running out",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "10, 2022  With the help of special telescopes, researchers have observed a cosmic particle accelerator as never before.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c10a5b83bc6dc98da521": {
+      "storyId": "c10a5b83bc6dc98da521",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901010705.htm",
+      "title": "NASA delays Crew-13 launch after leak found on SpaceX Dragon",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-01T05:33:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9a8035886a0a270819af4b3c",
+      "bodyFingerprint": "75e96a4a27b9d571ee18ba97",
+      "bodyCharacterCount": 5702,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T14:55:58.148Z",
+      "assessment": {
+        "centralEvent": "NASA delays Crew-13 launch after leak found on SpaceX Dragon",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Share: Facebook Twitter Pinterest LinkedIN Email FULL STORY The SpaceX Crew-13 members are pictured in their pressure suits seated inside a mockup Dragon spacecraft during a preflight training session at the company's headquarters in Hawtho",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A new study suggests that these issues could be due to the excessively sterile ...",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Engineers are investigating the problem before the four-person crew can begin its journey to the International Space Station.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 3,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com NASA’s Roman Telescope Begins a Million-Mile Journey Into Deep Space Researchers Have Discovered a New Way To Reduce Chronic Nerve Pain JWST Finds Giant Planets Face a Cosmic Race Against Time Magnetic Bacterium",
+            "matchedRule": "/\\b(?:long-lasting|lasting damage|years to recover|chronic|only partially reversible)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.32,
+        "rawScore": 28.32,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3925,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 3,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "60819fc5fe5329d75ab5": {
+      "storyId": "60819fc5fe5329d75ab5",
+      "url": "https://techpolicy.press/what-12-state-companion-bot-laws-demand-of-ai-providers",
+      "title": "What 12 State ‘Companion Bot’ Laws Demand of AI Providers",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-01T11:24:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "480cb61b3092d83808eae171",
+      "bodyFingerprint": "112f9076a565d6c8c9662a8a",
+      "bodyCharacterCount": 9904,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T14:55:58.289Z",
+      "assessment": {
+        "centralEvent": "What 12 State ‘Companion Bot’ Laws Demand of AI Providers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "However, the Georgia law limits this duty to when it is proportionate to the risk of access to features that may generate sexually explicit content.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Analysis What 12 State ‘Companion Bot’ Laws Demand of AI Providers Danny Tobey, Ashley Carr, Michael Atleson / Sep 1, 2026 The Colorado State Capitol is framed by buildings along Sherman Street Friday, June 27, 2025, in Denver. (AP Photo/Da",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Donate Authors Danny Tobey Danny Tobey is a Partner at DLA Piper and Global Co-Chair and Chair of DLA Piper Americas AI and Data Analytics Practice.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "For covered products, the law requires providers to institute (a) “technically feasible measures” to prevent specified types of explicit sexual content and (b) “reasonable measures” to prevent “formulating, structuring, or optimizing a resp",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Some states require disclosure at the outset of an interaction, while others require repeated or persistent notices during extended conversations.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.89,
+        "rawScore": 28.89,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.445,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "acf1c467744d62351699": {
+      "storyId": "acf1c467744d62351699",
+      "url": "https://apnews.com/article/nepal-flash-floods-death-toll-tibet-china-835459b2978adcd2b3bcf6e0595aee6c",
+      "title": "Mass burials in Nepal as death toll from flash floods exceeds 1,000",
+      "source": "AP News AI",
+      "published": "2026-09-01T05:31:56",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cdba06122c709fcfd8fc5d9a",
+      "bodyFingerprint": "c4397dcd0d357588c69e5c03",
+      "bodyCharacterCount": 11994,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T14:55:58.306Z",
+      "assessment": {
+        "centralEvent": "Mass burials in Nepal as death toll from flash floods exceeds 1,000",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "title",
+            "excerpt": "Mass burials in Nepal as death toll from flash floods exceeds 1,000",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Meanwhile in south-central Nepal’s Chitwan district, authorities said they were carrying out temporary burials of unidentified bodies in trenches dug in a forested area as concerns for health risks mounts. (AP Video: Dar Yasin) Read More 2 ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Other teams used heavy machinery to clear a major highway leading to Gyirong Port, hoping to clear the way for equipment, personnel and supplies to reach the disaster zone, according to China’s state-run Global Times newspaper.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Mass burials in Nepal as death toll from flash floods exceeds 1,000",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Crews faced challenging conditions as they searched unstable terrain and piles of debris, raising fears the death toll could rise as rescuers reach isolated communities.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 70.16,
+        "rawScore": 70.16,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.56,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0138de8bc6a52c7bdc40": {
+      "storyId": "0138de8bc6a52c7bdc40",
+      "url": "https://apnews.com/article/us-open-naomi-osaka-allen-iverson-e3d55c7d1042608b0f5d6d6d30d229cc",
+      "title": "Naomi Osaka's US Open look channels Allen Iverson with gray hoodie and hair in cornrows",
+      "source": "AP News AI",
+      "published": "2026-09-01T03:39:35",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a8b4122102518c306e06c882",
+      "bodyFingerprint": "65051ddf860a8a2dae118a77",
+      "bodyCharacterCount": 6785,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T14:55:58.412Z",
+      "assessment": {
+        "centralEvent": "Naomi Osaka's US Open look channels Allen Iverson with gray hoodie and hair in cornrows",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f18af786a769f2ea1502": {
+      "storyId": "f18af786a769f2ea1502",
+      "url": "https://www.lawfaremedia.org/article/lawfare-daily--how-terrorist-groups-are-using-artificial-intelligence",
+      "title": "Lawfare Daily: How Terrorist Groups are Using Artificial Intelligence",
+      "source": "Lawfare AI",
+      "published": "2026-09-01T11:00:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c568dbb838e103c2e0a01d6f",
+      "bodyFingerprint": "348b96c71ba94ed0d9133b6d",
+      "bodyCharacterCount": 2985,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T14:55:58.444Z",
+      "assessment": {
+        "centralEvent": "Lawfare Daily: How Terrorist Groups are Using Artificial Intelligence",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Daniel Byman @dbyman Tricia Bacon Antonia Juelich Meet The Authors Subscribe to Lawfare Lawfare Foreign Policy Editor Daniel Byman sits down with Tricia Bacon, professor at American University, and Antonia Juelich, International Security Le",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.5,
+        "rawScore": 24.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.045,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c1a504e1b284c973dcbb": {
+      "storyId": "c1a504e1b284c973dcbb",
+      "url": "https://apnews.com/article/norway-royals-king-harald-death-mette-marit-fb8cefb3bc49eec6d06335e1f1fc72bf",
+      "title": "Norway's Queen Mette-Marit joins procession to bring late King Harald V's coffin to royal chapel",
+      "source": "AP News AI",
+      "published": "2026-08-31T14:17:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b8506baf717592f318e7bd81",
+      "bodyFingerprint": "7f639ff7cf63f98d23b9a746",
+      "bodyCharacterCount": 7615,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T14:55:58.505Z",
+      "assessment": {
+        "centralEvent": "Norway's Queen Mette-Marit joins procession to bring late King Harald V's coffin to royal chapel",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "31, 2026. (Cornelius Poppe/Pool Photo via AP) Read More 4 of 6 | Norway’s Queen Mette-Mari, Queen Sonja, Princess Märtha Louise and King Haakon come out to the Palace Square to greet the people and look at the sea of flowers and greetings t",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5f8953cdc81ef071acbc": {
+      "storyId": "5f8953cdc81ef071acbc",
+      "url": "https://www.lawfaremedia.org/article/scaling-laws--building-ai-assurance-ecosystem",
+      "title": "Scaling Laws: Building AI Assurance Ecosystem",
+      "source": "Lawfare AI",
+      "published": "2026-09-01T14:00:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "50fe05e8054b08330f8cb034",
+      "bodyFingerprint": "ee5511e1c432049ff9d3f0a3",
+      "bodyCharacterCount": 2196,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-01T14:55:58.530Z",
+      "assessment": {
+        "centralEvent": "Scaling Laws: Building AI Assurance Ecosystem",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Rob Slone Read More Rob Slone is the chief scientist & innovation officer at UL Solutions. } More Articles White House Unveils Program to Authorize Private-Sector Cyber Surveillance and Disruption Operations Aaron R.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The conversation also covers PACT AI’s 90-day formation process and UL Solutions’ pre-existing work on AI-enabled products.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "99573fa37bbbec47fa74": {
+      "storyId": "99573fa37bbbec47fa74",
+      "url": "https://www.nature.com/articles/d41586-026-02682-3",
+      "title": "Bland new world: is AI making us all think the same?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-01T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a856a8e9240ca24343c64b15",
+      "bodyFingerprint": "5e09da83c7b1d401b1bc0e92",
+      "bodyCharacterCount": 53,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-01T14:55:58.912Z",
+      "assessment": {
+        "centralEvent": "Bland new world: is AI making us all think the same?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-01T10:11:03.690Z"
+  "updatedAt": "2026-09-01T14:55:58.912Z"
 }
