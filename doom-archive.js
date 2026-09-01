@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-01T14:00:00.000Z",
+  "generatedAt": "2026-09-01T18:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-01",
@@ -17,12 +17,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8f719f1780b42ea22395f3/191:100/w_1280,c_limit/Anti-AI-Artists-Gathered-to-Share-Their-Handmade-Work-Culture.jpg",
           "peak": 71.31,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 71.31
+        },
+        {
+          "storyId": "acf1c467744d62351699",
+          "title": "Mass burials in Nepal as death toll from flash floods exceeds 1,000",
+          "url": "https://apnews.com/article/nepal-flash-floods-death-toll-tibet-china-835459b2978adcd2b3bcf6e0595aee6c",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/4527907/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2d%2F01%2F99c86013faf9c143ceab3ffc99ed%2F693550320f22473a99e7bb9af5fc30a6",
+          "peak": 70.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-01",
+          "firstObservedAt": "2026-09-01T18:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
+          "average": 70.16
         },
         {
           "storyId": "1ba2d1aad50f660a62cd",
@@ -31,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 53.13,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 53.13
         },
         {
@@ -45,12 +59,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "ef50ad066e690c66a70e",
+          "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
+          "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
+          "peak": 49.61,
+          "observations": 4,
+          "daysTracked": 1,
+          "peakDate": "2026-09-01",
+          "firstObservedAt": "2026-09-01T05:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
+          "average": 49.61
         },
         {
           "storyId": "96a57f951d8ea6de5ea6",
@@ -67,31 +95,17 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.61
         },
         {
-          "storyId": "ef50ad066e690c66a70e",
-          "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
-          "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
-          "peak": 49.61,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
-          "average": 49.61
-        },
-        {
           "storyId": "18514da62116892af479",
           "title": "Why the global push to break free from Big Tech keeps falling short",
           "url": "https://restofworld.org/2026/google-amazon-cloud-china-india/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 49.55
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg",
           "peak": 49.12,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 49.12
         },
         {
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
           "lastObservedAt": "2026-09-01T05:00:00.000Z",
           "average": 49.06
-        },
-        {
-          "storyId": "6c41e91493628b451214",
-          "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
-          "url": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f095/live/1bbd32b0-a191-11f1-9e49-ab6cded816f9.jpg",
-          "peak": 49.01,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
@@ -454,12 +454,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8f719f1780b42ea22395f3/191:100/w_1280,c_limit/Anti-AI-Artists-Gathered-to-Share-Their-Handmade-Work-Culture.jpg",
           "peak": 71.31,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 71.31
+        },
+        {
+          "storyId": "acf1c467744d62351699",
+          "title": "Mass burials in Nepal as death toll from flash floods exceeds 1,000",
+          "url": "https://apnews.com/article/nepal-flash-floods-death-toll-tibet-china-835459b2978adcd2b3bcf6e0595aee6c",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/4527907/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2d%2F01%2F99c86013faf9c143ceab3ffc99ed%2F693550320f22473a99e7bb9af5fc30a6",
+          "peak": 70.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-01",
+          "firstObservedAt": "2026-09-01T18:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
+          "average": 70.16
         },
         {
           "storyId": "1ba2d1aad50f660a62cd",
@@ -468,11 +482,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 53.13,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T23:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 53.13
         },
         {
@@ -482,11 +496,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 51.23
         },
         {
@@ -524,11 +538,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 49.61
         },
         {
@@ -552,11 +566,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 49.55
         },
         {
@@ -572,20 +586,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
           "lastObservedAt": "2026-09-01T10:00:00.000Z",
           "average": 49.47
-        },
-        {
-          "storyId": "7bbb293c57c5ff6bddba",
-          "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
-          "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 49.17,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-08-31",
-          "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-08-31T13:00:00.000Z",
-          "average": 49.17
         }
       ]
     },
@@ -746,12 +746,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8f719f1780b42ea22395f3/191:100/w_1280,c_limit/Anti-AI-Artists-Gathered-to-Share-Their-Handmade-Work-Culture.jpg",
           "peak": 71.31,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 71.31
+        },
+        {
+          "storyId": "acf1c467744d62351699",
+          "title": "Mass burials in Nepal as death toll from flash floods exceeds 1,000",
+          "url": "https://apnews.com/article/nepal-flash-floods-death-toll-tibet-china-835459b2978adcd2b3bcf6e0595aee6c",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/4527907/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2d%2F01%2F99c86013faf9c143ceab3ffc99ed%2F693550320f22473a99e7bb9af5fc30a6",
+          "peak": 70.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-01",
+          "firstObservedAt": "2026-09-01T18:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
+          "average": 70.16
         },
         {
           "storyId": "1ba2d1aad50f660a62cd",
@@ -760,11 +774,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 53.13,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 53.13
         },
         {
@@ -774,12 +788,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "ef50ad066e690c66a70e",
+          "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
+          "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
+          "peak": 49.61,
+          "observations": 4,
+          "daysTracked": 1,
+          "peakDate": "2026-09-01",
+          "firstObservedAt": "2026-09-01T05:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
+          "average": 49.61
         },
         {
           "storyId": "96a57f951d8ea6de5ea6",
@@ -796,31 +824,17 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.61
         },
         {
-          "storyId": "ef50ad066e690c66a70e",
-          "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
-          "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
-          "peak": 49.61,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
-          "average": 49.61
-        },
-        {
           "storyId": "18514da62116892af479",
           "title": "Why the global push to break free from Big Tech keeps falling short",
           "url": "https://restofworld.org/2026/google-amazon-cloud-china-india/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 49.55
         },
         {
@@ -844,11 +858,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg",
           "peak": 49.12,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-01T18:00:00.000Z",
           "average": 49.12
         },
         {
@@ -864,20 +878,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
           "lastObservedAt": "2026-09-01T05:00:00.000Z",
           "average": 49.06
-        },
-        {
-          "storyId": "6c41e91493628b451214",
-          "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
-          "url": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f095/live/1bbd32b0-a191-11f1-9e49-ab6cded816f9.jpg",
-          "peak": 49.01,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
