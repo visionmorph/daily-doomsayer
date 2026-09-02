@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-02T18:00:00.000Z",
+  "generatedAt": "2026-09-02T21:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-02",
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/46cd27119d365fb4e0fcb8b1a7e4456e941a3908/1245_0_4590_3674/master/4590.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 50.55,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T18:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 50.55
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 49.61
         },
         {
@@ -101,12 +101,40 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 49.55
+        },
+        {
+          "storyId": "5669750843cd523a667b",
+          "title": "AIs as Modern Genies",
+          "url": "https://www.lawfaremedia.org/article/ais-as-modern-genies",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 49.34,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-02",
+          "firstObservedAt": "2026-09-02T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
+          "average": 49.34
+        },
+        {
+          "storyId": "f6464ac921452f0800d4",
+          "title": "Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was hit",
+          "url": "https://apnews.com/article/iran-us-strikes-hormuz-trump-september-2-2026-cc891e22860d7a53bf7ade9a3d74c0ae",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/7e1add7/2147483647/strip/true/crop/7379x4917+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F50%2Fa1%2Fd20fd63e2fb749a44397c82b2889%2F7391f687df814c40991c125da6054221",
+          "peak": 49.34,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-02",
+          "firstObservedAt": "2026-09-02T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
+          "average": 49.34
         },
         {
           "storyId": "b95ed8026c025433b444",
@@ -115,40 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 49.17
-        },
-        {
-          "storyId": "ed54a64570e2c77eef53",
-          "title": "Earth may have lost the Sun’s protective shield millions of years ago",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260901070523.htm",
-          "source": "ScienceDaily Technology",
-          "image": "",
-          "peak": 49.17,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-02",
-          "firstObservedAt": "2026-09-02T14:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
-          "average": 49.17
-        },
-        {
-          "storyId": "497ac6665ed35087ae45",
-          "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
-          "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg",
-          "peak": 49.12,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-09-02",
-          "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
-          "average": 49.12
         }
       ]
     },
@@ -641,11 +641,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -669,11 +669,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/46cd27119d365fb4e0fcb8b1a7e4456e941a3908/1245_0_4590_3674/master/4590.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 50.55,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T18:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 50.55
         },
         {
@@ -697,11 +697,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 49.61
         },
         {
@@ -725,11 +725,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 49.55
         }
       ]
@@ -933,11 +933,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -947,11 +947,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/46cd27119d365fb4e0fcb8b1a7e4456e941a3908/1245_0_4590_3674/master/4590.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 50.55,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T18:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 50.55
         },
         {
@@ -961,11 +961,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 49.61
         },
         {
@@ -989,11 +989,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 2,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
           "average": 49.55
         },
         {
@@ -1011,18 +1011,18 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.47
         },
         {
-          "storyId": "b95ed8026c025433b444",
-          "title": "Meta's $17 Billion Settlement is a Bad Deal for Teens and All Social Media Users",
-          "url": "https://www.eff.org/deeplinks/2026/09/metas-17-billion-settlement-bad-deal-teens-and-all-social-media-users",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
-          "peak": 49.17,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-02T00:00:00.000Z",
-          "lastObservedAt": "2026-09-02T18:00:00.000Z",
-          "average": 49.17
+          "storyId": "5669750843cd523a667b",
+          "title": "AIs as Modern Genies",
+          "url": "https://www.lawfaremedia.org/article/ais-as-modern-genies",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 49.34,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-02",
+          "firstObservedAt": "2026-09-02T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T21:00:00.000Z",
+          "average": 49.34
         }
       ]
     },
