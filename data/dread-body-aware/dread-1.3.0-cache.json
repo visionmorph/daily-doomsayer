@@ -86179,8 +86179,394 @@
           "vulnerability": 0
         }
       }
+    },
+    "2f4cff74028d418ca9d6": {
+      "storyId": "2f4cff74028d418ca9d6",
+      "url": "https://www.theguardian.com/technology/2026/sep/02/architect-of-uks-ai-strategy-joins-anthropic",
+      "title": "Architect of British government’s AI strategy joins Anthropic",
+      "source": "The Guardian AI",
+      "published": "2026-09-02T04:00:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f008eb75e0f691de21fb66ac",
+      "bodyFingerprint": "4ab7cf32e041a572b43ab632",
+      "bodyCharacterCount": 5380,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T04:45:20.114Z",
+      "assessment": {
+        "centralEvent": "Architect of British government’s AI strategy joins Anthropic",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Explore more on these topics Anthropic AI (artificial intelligence) Computing news Share Reuse this content More on this story More on this story Anthropic investigates report of rogue access to hack-enabling Mythos AI US summons bank bosse",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Clifford is moving to Anthropic as managing director, international affairs, and will lead the company’s engagement with governments outside the US including in the UK, Europe, Asia-Pacific and India.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b2c5e4d741498b762d62": {
+      "storyId": "b2c5e4d741498b762d62",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/02/tech-giants-australia-privacy-act-legislation-laws",
+      "title": "Tech giants are trying to obliterate privacy. Australia has a rare chance to take back part of their power | Lizzie O'Shea",
+      "source": "The Guardian AI",
+      "published": "2026-09-02T03:00:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6d77fb1d06dfb37af89f85ad",
+      "bodyFingerprint": "63cf3ad306bb805df2f93627",
+      "bodyCharacterCount": 7439,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T04:45:20.130Z",
+      "assessment": {
+        "centralEvent": "Tech giants are trying to obliterate privacy. Australia has a rare chance to take back part of their power | Lizzie O'Shea",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But there are better ways to feel connected Smartglasses should automatically blur people’s faces while filming, Australia’s online safety regulator says ‘Reluctant’ approval for Tasmanian datacentre sets marker for national battle Albanese",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dc555085b877b29c139a": {
+      "storyId": "dc555085b877b29c139a",
+      "url": "https://apnews.com/article/pennsylvania-wrong-house-officer-charged-f60abeceb17a9572a457615b3549bd6d",
+      "title": "Pennsylvania police officer charged with voluntary manslaughter in killing of college student",
+      "source": "AP News AI",
+      "published": "2026-09-01T18:34:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "77df180af584fd3c978016c9",
+      "bodyFingerprint": "5df2d7764d7c516a826f453d",
+      "bodyCharacterCount": 15800,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T04:45:20.240Z",
+      "assessment": {
+        "centralEvent": "Pennsylvania police officer charged with voluntary manslaughter in killing of college student",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More 2 of 6 | Glenwood Pysher III, watches as pallbearers carry a casket containing the remains of his son Glenwood “Bubba” Pysher IV who was killed by police, in Pottstown, Pa., Monday, Aug.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 95,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "379592ba6c49e5fec95c": {
+      "storyId": "379592ba6c49e5fec95c",
+      "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_south_asia?at_campaign=rss&at_medium=RSS",
+      "title": "Tech Life",
+      "source": "BBC News AI",
+      "published": "2026-09-01T20:10:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3558e17d8fa92ec660402bb9",
+      "bodyFingerprint": "316a1783a8152bebd159b9f8",
+      "bodyCharacterCount": 1238,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T04:45:20.394Z",
+      "assessment": {
+        "centralEvent": "Tech Life",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "95b2e5210fc7a879d078": {
+      "storyId": "95b2e5210fc7a879d078",
+      "url": "https://www.eff.org/deeplinks/2026/09/judge-rules-dod-unlawfully-retaliated-against-anthropic",
+      "title": "Judge Rules DOD Unlawfully Retaliated Against Anthropic",
+      "source": "EFF AI",
+      "published": "2026-09-02T01:13:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "23ce266b672d2f268e6c103c",
+      "bodyFingerprint": "6bc1ab3f6802c248bf3eadcf",
+      "bodyCharacterCount": 3306,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T04:45:20.772Z",
+      "assessment": {
+        "centralEvent": "Judge Rules DOD Unlawfully Retaliated Against Anthropic",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "A federal judge has sided with Anthropic on its claims that the Department of Defense illegally retaliated against Anthropic’s protected speech by labeling the AI company a “supply chain risk.” The judge found that designation, intended to ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "None of this is to say that Anthropic is a morally unimpeachable company, or that it and other companies would never permit their products to be used under specific conditions to aid in surveillance or analysis of collected data that could ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Ultimately, the Department of Defense, deciding that it did not want military contractors dictating what its products could or could not be used for, declared the company a “supply chain risk.” This national security designation means the g",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "034afc2f17481bc10176": {
+      "storyId": "034afc2f17481bc10176",
+      "url": "https://www.politico.eu/article/ai-race-splits-europe-into-spenders-and-laggards-eu-gigafactory",
+      "title": "The EU is ready to bet billions on data centers. Not all countries want in.",
+      "source": "POLITICO Europe AI",
+      "published": "2026-08-31T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ff50b9d6d552ede03422417e",
+      "bodyFingerprint": "38a8e25b2167a9271aca2657",
+      "bodyCharacterCount": 5201,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T04:45:20.970Z",
+      "assessment": {
+        "centralEvent": "The EU is ready to bet billions on data centers. Not all countries want in.",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But that enthusiasm is matched by criticism, as politicians and experts push back and question the business case behind the gigafactories.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Two-thirds of EU members have pledged funding to support industry consortia that bid to host one of the seven hubs, committing around €3 billion in total, according to a European Commission document .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BRUSSELS — The global frenzy to build massive AI data centers is coming to Europe.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-02T00:17:13.238Z"
+  "updatedAt": "2026-09-02T04:45:20.971Z"
 }
