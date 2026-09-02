@@ -90659,8 +90659,429 @@
           "vulnerability": 0
         }
       }
+    },
+    "4546ba65600cacfebe05": {
+      "storyId": "4546ba65600cacfebe05",
+      "url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+      "title": "From MIT to IBM, expediting AI and quantum deployment",
+      "source": "MIT News AI",
+      "published": "2026-09-02T20:25:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d323d302cec1d4cb6483da3f",
+      "bodyFingerprint": "0587d3f4e825b9efd3274804",
+      "bodyCharacterCount": 9314,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T21:51:32.354Z",
+      "assessment": {
+        "centralEvent": "From MIT to IBM, expediting AI and quantum deployment",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "During his graduate work with EECS Associate Professor Pulkit Agrawal, who is also a principal investigator with the lab, Hong sought to build on this: improving value function learning for reinforcement learning in video games, using “Mont",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b5008ebffacf4d58ec96": {
+      "storyId": "b5008ebffacf4d58ec96",
+      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
+      "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+      "source": "TechCrunch AI",
+      "published": "2026-09-02T20:19:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "038a3b2af2d36a122443ec92",
+      "bodyFingerprint": "a8fbf37268f18739bd00c551",
+      "bodyCharacterCount": 4903,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T21:51:32.364Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s new reasoning technique alarms AI safety experts",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Still, those caveats don’t dispel the concern that opaque recurrence may make AI reasoning harder to monitor, particularly as it grows in use across different models.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Uber is laying off 10% of staff, or 3,300 people Ram Iyer AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B Julie Bort Apple shares ‘shocking evidence’ against former employee a",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3efe85b1b8f114b98752": {
+      "storyId": "3efe85b1b8f114b98752",
+      "url": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai",
+      "title": "Trump administration sides with OpenAI in lawsuit against New York Times",
+      "source": "The Guardian AI",
+      "published": "2026-09-02T20:39:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8cb02e4af666b254ddbb0bae",
+      "bodyFingerprint": "22c49784cb292f92502f8349",
+      "bodyCharacterCount": 3755,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T21:51:32.451Z",
+      "assessment": {
+        "centralEvent": "Trump administration sides with OpenAI in lawsuit against New York Times",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The bots produce their output by statistical analysis of what the next word should be by matching a user’s query to parts of the database.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "076ef766b70520650765": {
+      "storyId": "076ef766b70520650765",
+      "url": "https://apnews.com/article/uss-abraham-lincoln-pattaya-thailand-1bbd568f1c2c6ce6ba1dcbb12b0784fa",
+      "title": "Crew from USS Abraham Lincoln takes a break in Thailand after long months at sea",
+      "source": "AP News AI",
+      "published": "2026-09-02T01:08:25",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "85c4341ef8e839e2753946cb",
+      "bodyFingerprint": "b9d336fa52b9efe29070ed37",
+      "bodyCharacterCount": 13553,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T21:51:32.477Z",
+      "assessment": {
+        "centralEvent": "Crew from USS Abraham Lincoln takes a break in Thailand after long months at sea",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Its deployment included a record-setting uninterrupted time at sea of more than 250 days. (AP video/Anton Delgado) Read More 2 of 6 | American service members of the USS Abraham Lincoln strike group arrive at a hotel in Pattaya, Thailand, W",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 101,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d5c02968719b999f5a72": {
+      "storyId": "d5c02968719b999f5a72",
+      "url": "https://www.artificialintelligence-news.com/news/motional-and-mit-ai-explains-self-driving-car-decisions",
+      "title": "Motional and MIT AI explains self-driving car decisions",
+      "source": "AI News",
+      "published": "2026-09-02T15:25:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cc910640d2453ce2cb789396",
+      "bodyFingerprint": "05ec7c0ddc46087a5202656e",
+      "bodyCharacterCount": 480,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-02T21:51:32.718Z",
+      "assessment": {
+        "centralEvent": "Motional and MIT AI explains self-driving car decisions",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Their proposed method, [...] The post Motional and MIT AI explains self-driving car decisions appeared first on AI News.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "478ac27c6764ba2189ba": {
+      "storyId": "478ac27c6764ba2189ba",
+      "url": "https://www.artificialintelligence-news.com/news/chatgpt-ads-passes-1b-run-rate-in-200-days",
+      "title": "ChatGPT Ads passes $1B run rate in 200 days",
+      "source": "AI News",
+      "published": "2026-09-01T16:05:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ffa9e3d70a2addea7d5f3184",
+      "bodyFingerprint": "ecd72621541f6488bb80e441",
+      "bodyCharacterCount": 419,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-02T21:51:32.754Z",
+      "assessment": {
+        "centralEvent": "ChatGPT Ads passes $1B run rate in 200 days",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "ChatGPT Ads passes $1B run rate in 200 days",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d30b71af3d1c5ebd027d": {
+      "storyId": "d30b71af3d1c5ebd027d",
+      "url": "https://www.artificialintelligence-news.com/news/why-mcp-servers-are-becoming-ais-newest-attack-surface",
+      "title": "Why MCP servers are becoming AI’s newest attack surface",
+      "source": "AI News",
+      "published": "2026-09-01T07:37:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "18cda5b2315e18b5e931716e",
+      "bodyFingerprint": "a35d297f60e2f81b9c0a45b8",
+      "bodyCharacterCount": 442,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-02T21:51:32.944Z",
+      "assessment": {
+        "centralEvent": "Why MCP servers are becoming AI’s newest attack surface",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-02T18:45:23.616Z"
+  "updatedAt": "2026-09-02T21:51:32.944Z"
 }
