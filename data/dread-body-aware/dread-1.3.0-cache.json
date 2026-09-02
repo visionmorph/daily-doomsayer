@@ -86565,8 +86565,676 @@
           "vulnerability": 0
         }
       }
+    },
+    "458a4ba2ac1a5a99481c": {
+      "storyId": "458a4ba2ac1a5a99481c",
+      "url": "https://www.politico.com/news/2026/09/02/how-silicon-valley-lost-its-war-against-state-ai-laws-01054133",
+      "title": "How Silicon Valley lost its war against state AI laws",
+      "source": "POLITICO AI",
+      "published": "2026-09-02T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "331506e2cebf7a6263492e3f",
+      "bodyFingerprint": "d0d907b762509b70ee3f325c",
+      "bodyCharacterCount": 181,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-02T09:40:41.052Z",
+      "assessment": {
+        "centralEvent": "How Silicon Valley lost its war against state AI laws",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e66b3c1474691c709311": {
+      "storyId": "e66b3c1474691c709311",
+      "url": "https://www.inc.com/emily-cody/as-ai-fills-the-internet-with-content-founders-are-becoming-a-brands-edge/91397378",
+      "title": "As AI Fills the Internet With Content, Founders Are Becoming a Brand’s Edge",
+      "source": "Inc. AI",
+      "published": "2026-09-02T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c491e9ae7d28eb5a67c9cc75",
+      "bodyFingerprint": "cc6057e582f2207bb13599af",
+      "bodyCharacterCount": 111,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-02T09:40:41.112Z",
+      "assessment": {
+        "centralEvent": "As AI Fills the Internet With Content, Founders Are Becoming a Brand’s Edge",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "563f3535b26fd693e691": {
+      "storyId": "563f3535b26fd693e691",
+      "url": "https://www.inc.com/joel-comm/the-next-wave-of-business-growth-wont-come-from-ai-software-alone-it-will-reshape-real-world-operations/91399611",
+      "title": "The Next Wave of Business Growth Won’t Come From AI Software Alone. It Will Reshape Real-World Operations",
+      "source": "Inc. AI",
+      "published": "2026-09-02T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a948dc4bd66d45acda7050e5",
+      "bodyFingerprint": "3d48a1b163c9522d7158ba61",
+      "bodyCharacterCount": 78,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-02T09:40:41.134Z",
+      "assessment": {
+        "centralEvent": "The Next Wave of Business Growth Won’t Come From AI Software Alone. It Will Reshape Real-World Operations",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ce8587ec7a8cf9bc414d": {
+      "storyId": "ce8587ec7a8cf9bc414d",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/02/we-have-had-enough-thousands-of-staff-at-the-university-of-sydney-walk-off-the-job-over-ai-job-security",
+      "title": "‘We have had enough’: thousands of University of Sydney staff walk off the job over AI and job security",
+      "source": "The Guardian AI",
+      "published": "2026-09-02T05:50:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "40402d846e58189b775bc8d3",
+      "bodyFingerprint": "e54d94d5cf070d4a6b058d40",
+      "bodyCharacterCount": 7365,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T09:40:41.282Z",
+      "assessment": {
+        "centralEvent": "‘We have had enough’: thousands of University of Sydney staff walk off the job over AI and job security",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Photograph: Blake Sharp-Wiggins/The Guardian ‘We have had enough’: thousands of University of Sydney staff walk off the job over AI and job security Hundreds of university staff were stationed at picket lines, calling for stronger protectio",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ed54a64570e2c77eef53": {
+      "storyId": "ed54a64570e2c77eef53",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901070523.htm",
+      "title": "Earth may have lost the Sun’s protective shield millions of years ago",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-02T04:25:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "31a26d9c5e6914a2af9262a0",
+      "bodyFingerprint": "81c50f14088789ac3bf51c07",
+      "bodyCharacterCount": 13552,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T09:40:41.417Z",
+      "assessment": {
+        "centralEvent": "Earth may have lost the Sun’s protective shield millions of years ago",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "If the heliosphere contracted as the simulations suggest, Earth's atmosphere would have been directly exposed to a very different interstellar environment during those periods.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Astrophysical Journal Letters , 2026; 1002 (1): L12 DOI: 10.3847/2041-8213/ae5491 Cite This Page : MLA APA Chicago NASA’s Goddard Space Flight Center. \"Earth may have lost the Sun’s protective shield millions of years ago.\" ScienceDaily",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At various points, major ice ages temporarily lowered global average temperatures by several degrees, while other periods brought repeated swings between warmer and colder conditions.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "At various points, major ice ages temporarily lowered global average temperatures by several degrees, while other periods brought repeated swings between warmer and colder conditions.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 104,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.17,
+        "rawScore": 49.17,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1b1504bda999c771214f": {
+      "storyId": "1b1504bda999c771214f",
+      "url": "https://apnews.com/article/kyle-whittingham-michigan-coach-d4404129cd08f66cad893069f4b88311",
+      "title": "Michigan coach Kyle Whittingham is a man of discipline, leading a program in desperate need of it",
+      "source": "AP News AI",
+      "published": "2026-09-01T21:44:47",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "63c3b1c93fb30d8d544ef37e",
+      "bodyFingerprint": "6c1b964355f3a1e9c683da4b",
+      "bodyCharacterCount": 8040,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T09:40:41.492Z",
+      "assessment": {
+        "centralEvent": "Michigan coach Kyle Whittingham is a man of discipline, leading a program in desperate need of it",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "2, 2026, in Ann Arbor, Mich. (AP Photo/Ryan Sun, File) By LARRY LAGE Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8e8bfc2493f24b42a6a9": {
+      "storyId": "8e8bfc2493f24b42a6a9",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260831015147.htm",
+      "title": "A search for one exotic particle uncovered two strange new structures",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-02T05:28:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b4580383f0c44ae520cef42d",
+      "bodyFingerprint": "ea9cac8c6c9cbd664f48cc10",
+      "bodyCharacterCount": 14948,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T09:40:41.500Z",
+      "assessment": {
+        "centralEvent": "A search for one exotic particle uncovered two strange new structures",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The results could help scientists better understand how one of nature's fundamental forces contributes to the formation of matter. \"We went searching for a confirmed XYZ candidate with a photon beam but instead found two other structures,\" ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 85,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e9e67476d88a95c03156": {
+      "storyId": "e9e67476d88a95c03156",
+      "url": "https://apnews.com/article/angels-sale-stan-kroenke-f0c936f634cd014e247cb4831b577975",
+      "title": "MLB's Los Angeles Angels to be sold to Rams and Arsenal owner Stan Kroenke",
+      "source": "AP News AI",
+      "published": "2026-09-01T18:40:29",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17fb94a5ffc226229534f656",
+      "bodyFingerprint": "d99dd205b1c414113aa4781b",
+      "bodyCharacterCount": 10325,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T09:40:41.552Z",
+      "assessment": {
+        "centralEvent": "MLB's Los Angeles Angels to be sold to Rams and Arsenal owner Stan Kroenke",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "That’s all you can ask.” Trout also confirmed he still has no desire to leave Orange County: The 12-time All-Star intends to play out the remaining four years of the $426.5 million contract he signed with Moreno in 2019.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9348c1871a09b73f2695": {
+      "storyId": "9348c1871a09b73f2695",
+      "url": "https://www.theguardian.com/world/2026/sep/02/wednesday-briefing-whats-behind-the-global-backlash-against-datacentres",
+      "title": "Wednesday briefing: ​What’s behind the global backlash against datacentres?",
+      "source": "The Guardian AI",
+      "published": "2026-09-02T05:45:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "34b8a8ec5696d281796ea3f2",
+      "bodyFingerprint": "14824e807054b3d0cb6db4cb",
+      "bodyCharacterCount": 13565,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T09:40:41.562Z",
+      "assessment": {
+        "centralEvent": "Wednesday briefing: ​What’s behind the global backlash against datacentres?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Wednesday briefing: ​What’s behind the global backlash against datacentres?",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "They worried about the amount of energy the building will consume (5.2MW, according to a local campaign group, which is enough to power 15,000 homes), about its use of water (projections for this haven’t been released), and about the noise ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Wednesday briefing: ​What’s behind the global backlash against datacentres?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 108,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c7b53e6db6f16ce04592": {
+      "storyId": "c7b53e6db6f16ce04592",
+      "url": "https://apnews.com/article/tupac-shakur-trial-las-vegas-duane-davis-0b0b080d73f91cd122b6dd438e5bbb80",
+      "title": "Jury convicts a man of first-degree murder for the 1996 killing of rap icon Tupac Shakur",
+      "source": "AP News AI",
+      "published": "2026-08-31T04:06:14",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0a3039ca8f9b5059649e5090",
+      "bodyFingerprint": "ae10cc709da00a9bd8e17b6b",
+      "bodyCharacterCount": 12744,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T09:40:41.582Z",
+      "assessment": {
+        "centralEvent": "Jury convicts a man of first-degree murder for the 1996 killing of rap icon Tupac Shakur",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More 2 of 7 | Jurors have reached a guilty verdict after less than three hours of deliberations Monday in the trial of Duane “Keffe D” Davis, who is accused of orchestrating the killing of rapper Tupac Shakur. (Aug.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1cda1e4c2ffcd0901ae7": {
+      "storyId": "1cda1e4c2ffcd0901ae7",
+      "url": "https://thedispatch.com/article/artificial-intelligence-child-pornography-law",
+      "title": "AI Child Porn Is Still Porn",
+      "source": "The Dispatch AI",
+      "published": "2026-09-02T05:00:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7aa8ad287b9fcc96a2687ccc",
+      "bodyFingerprint": "391076264af7142a9e0d30a1",
+      "bodyCharacterCount": 4540,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T09:40:41.679Z",
+      "assessment": {
+        "centralEvent": "AI Child Porn Is Still Porn",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-02T04:45:20.971Z"
+  "updatedAt": "2026-09-02T09:40:41.680Z"
 }
