@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-01T21:00:00.000Z",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-01",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8f719f1780b42ea22395f3/191:100/w_1280,c_limit/Anti-AI-Artists-Gathered-to-Share-Their-Handmade-Work-Culture.jpg",
           "peak": 71.31,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 71.31
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/4527907/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2d%2F01%2F99c86013faf9c143ceab3ffc99ed%2F693550320f22473a99e7bb9af5fc30a6",
           "peak": 70.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T18:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 70.16
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 53.13,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 53.13
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 49.61
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 49.55
         },
         {
@@ -123,32 +123,32 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.47
         },
         {
+          "storyId": "b95ed8026c025433b444",
+          "title": "Meta's $17 Billion Settlement is a Bad Deal for Teens and All Social Media Users",
+          "url": "https://www.eff.org/deeplinks/2026/09/metas-17-billion-settlement-bad-deal-teens-and-all-social-media-users",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
+          "peak": 49.17,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-01",
+          "firstObservedAt": "2026-09-02T00:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
+          "average": 49.17
+        },
+        {
           "storyId": "497ac6665ed35087ae45",
           "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
           "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg",
           "peak": 49.12,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 49.12
-        },
-        {
-          "storyId": "7e320b947db595e614dd",
-          "title": "Taxing Tech in Age of AI Could Fund Human Rights",
-          "url": "https://techpolicy.press/taxing-tech-in-age-of-ai-could-fund-human-rights",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.06,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T05:00:00.000Z",
-          "average": 49.06
         }
       ]
     },
@@ -454,11 +454,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8f719f1780b42ea22395f3/191:100/w_1280,c_limit/Anti-AI-Artists-Gathered-to-Share-Their-Handmade-Work-Culture.jpg",
           "peak": 71.31,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 71.31
         },
         {
@@ -468,11 +468,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/4527907/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2d%2F01%2F99c86013faf9c143ceab3ffc99ed%2F693550320f22473a99e7bb9af5fc30a6",
           "peak": 70.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T18:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 70.16
         },
         {
@@ -482,11 +482,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 53.13,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T23:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 53.13
         },
         {
@@ -496,11 +496,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -538,11 +538,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 49.61
         },
         {
@@ -566,11 +566,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 49.55
         },
         {
@@ -746,11 +746,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8f719f1780b42ea22395f3/191:100/w_1280,c_limit/Anti-AI-Artists-Gathered-to-Share-Their-Handmade-Work-Culture.jpg",
           "peak": 71.31,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 71.31
         },
         {
@@ -760,11 +760,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/4527907/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2d%2F01%2F99c86013faf9c143ceab3ffc99ed%2F693550320f22473a99e7bb9af5fc30a6",
           "peak": 70.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T18:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 70.16
         },
         {
@@ -774,11 +774,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 53.13,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 53.13
         },
         {
@@ -788,11 +788,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -802,11 +802,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 49.61
         },
         {
@@ -830,11 +830,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 49.55
         },
         {
@@ -852,32 +852,32 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.47
         },
         {
+          "storyId": "b95ed8026c025433b444",
+          "title": "Meta's $17 Billion Settlement is a Bad Deal for Teens and All Social Media Users",
+          "url": "https://www.eff.org/deeplinks/2026/09/metas-17-billion-settlement-bad-deal-teens-and-all-social-media-users",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
+          "peak": 49.17,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-01",
+          "firstObservedAt": "2026-09-02T00:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
+          "average": 49.17
+        },
+        {
           "storyId": "497ac6665ed35087ae45",
           "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
           "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg",
           "peak": 49.12,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T21:00:00.000Z",
+          "lastObservedAt": "2026-09-02T00:00:00.000Z",
           "average": 49.12
-        },
-        {
-          "storyId": "7e320b947db595e614dd",
-          "title": "Taxing Tech in Age of AI Could Fund Human Rights",
-          "url": "https://techpolicy.press/taxing-tech-in-age-of-ai-could-fund-human-rights",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.06,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T05:00:00.000Z",
-          "average": 49.06
         }
       ]
     },
