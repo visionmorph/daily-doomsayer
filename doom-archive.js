@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-02T09:00:00.000Z",
+  "generatedAt": "2026-09-02T14:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-02",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8f719f1780b42ea22395f3/191:100/w_1280,c_limit/Anti-AI-Artists-Gathered-to-Share-Their-Handmade-Work-Culture.jpg",
           "peak": 71.31,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 71.31
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 53.13,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 53.13
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 51.23
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 49.61
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 49.55
         },
         {
@@ -101,11 +101,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
+          "average": 49.17
+        },
+        {
+          "storyId": "ed54a64570e2c77eef53",
+          "title": "Earth may have lost the Sun’s protective shield millions of years ago",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260901070523.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 49.17,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-02",
+          "firstObservedAt": "2026-09-02T14:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 49.17
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg",
           "peak": 49.12,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 49.12
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f095/live/1bbd32b0-a191-11f1-9e49-ab6cded816f9.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-02",
           "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 49.01
-        },
-        {
-          "storyId": "3c0eda88434513ec8cec",
-          "title": "‘Show How 3M Is 0% at Fault:’ Expert Witness Used ChatGPT to Write Report Defending Company in Deadly Explosion Lawsuit",
-          "url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
-          "source": "404 Media AI",
-          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/3M-St-Paul-Monument-place001-rgb.jpg",
-          "peak": 48.84,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-09-02",
-          "firstObservedAt": "2026-09-02T09:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
-          "average": 48.84
         }
       ]
     },
@@ -599,11 +599,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8f719f1780b42ea22395f3/191:100/w_1280,c_limit/Anti-AI-Artists-Gathered-to-Share-Their-Handmade-Work-Culture.jpg",
           "peak": 71.31,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 71.31
         },
         {
@@ -627,11 +627,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 53.13,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T23:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 53.13
         },
         {
@@ -641,11 +641,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 51.23
         },
         {
@@ -683,11 +683,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 49.61
         },
         {
@@ -711,11 +711,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 49.55
         },
         {
@@ -891,11 +891,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a8f719f1780b42ea22395f3/191:100/w_1280,c_limit/Anti-AI-Artists-Gathered-to-Share-Their-Handmade-Work-Culture.jpg",
           "peak": 71.31,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 71.31
         },
         {
@@ -919,11 +919,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 53.13,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 53.13
         },
         {
@@ -933,11 +933,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 51.23
         },
         {
@@ -947,11 +947,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 49.61
         },
         {
@@ -975,11 +975,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 49.55
         },
         {
@@ -1003,26 +1003,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-02T00:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
           "average": 49.17
         },
         {
-          "storyId": "497ac6665ed35087ae45",
-          "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
-          "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg",
-          "peak": 49.12,
-          "observations": 8,
-          "daysTracked": 2,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-02T09:00:00.000Z",
-          "average": 49.12
+          "storyId": "ed54a64570e2c77eef53",
+          "title": "Earth may have lost the Sun’s protective shield millions of years ago",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260901070523.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 49.17,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-02",
+          "firstObservedAt": "2026-09-02T14:00:00.000Z",
+          "lastObservedAt": "2026-09-02T14:00:00.000Z",
+          "average": 49.17
         }
       ]
     },
