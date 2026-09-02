@@ -87233,8 +87233,1102 @@
           "vulnerability": 0
         }
       }
+    },
+    "277af8c19fc653623717": {
+      "storyId": "277af8c19fc653623717",
+      "url": "https://www.inc.com/ash-kumra/ai-isnt-replacing-creators-its-changing-what-makes-them-valuable/91398385",
+      "title": "AI Isn’t Replacing Creators. It’s Changing What Makes Them Valuable",
+      "source": "Inc. AI",
+      "published": "2026-09-02T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20af4feab2ba2cabd99bd81d",
+      "bodyFingerprint": "db5e662ab644f4f9aa281978",
+      "bodyCharacterCount": 53,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-02T14:32:01.190Z",
+      "assessment": {
+        "centralEvent": "AI Isn’t Replacing Creators. It’s Changing What Makes Them Valuable",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "21c3e78a8e10cda30769": {
+      "storyId": "21c3e78a8e10cda30769",
+      "url": "https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting",
+      "title": "Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI",
+      "source": "The Guardian AI",
+      "published": "2026-09-02T13:22:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8effa941ffddc8ead0430d1c",
+      "bodyFingerprint": "f7ab7e80216bca6068d06872",
+      "bodyCharacterCount": 5332,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.259Z",
+      "assessment": {
+        "centralEvent": "Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The suits, filed on Wednesday, allege the company’s ChatGPT chatbot induced the shooter to carry out the attack in rural Canada in February, in which eight people were killed and dozens more wounded – most of them children.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Employees on the company’s safety team had flagged the shooter’s account to executives eight months before the attack, describing her in internal messages as “a credible and specific threat of gun violence against real people”, according to",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Edelson singled out Chris Lehane, who is OpenAI’s head of global affairs and a former member of Bill Clinton’s administration who specialized in opposition research .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“While I know words can never be enough, I believe an apology is necessary to recognize the harm and irreversible loss your community has suffered,” Altman wrote.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Family of Tumbler Ridge shooting victim sues OpenAI alleging it could have prevented attack Read more “These were people who really endured just total hell that day,” Jay Edelson, the lead lawyer representing the plaintiffs, said in an inte",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jason Kwon, OpenAI’s chief strategy officer, said in a statement that he thinks about what happened at Tumbler Ridge every day and that the company works hard to create standards for reporting cases to law enforcement.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.55,
+        "rawScore": 70.55,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.595,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "df6438938a8bbd884a1b": {
+      "storyId": "df6438938a8bbd884a1b",
+      "url": "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo",
+      "title": "Adobe acquires Indian market intelligence startup Rilo",
+      "source": "TechCrunch AI",
+      "published": "2026-09-02T14:03:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ec9cff8cfbb159f49bd5c60f",
+      "bodyFingerprint": "96a32bf6ae682e2a3cd12cdf",
+      "bodyCharacterCount": 3703,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.285Z",
+      "assessment": {
+        "centralEvent": "Adobe acquires Indian market intelligence startup Rilo",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "1 in Navigation after refusing to rename Lake Ontario Sarah Perez Musk’s faster path to more gas turbines comes with pollution problem Connie Loizos Hugging Face is selling a cute $399 open source duck robot, Microduck Rebecca Bellan Nvidia",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Founded by IIT batchmates Georgi Boby and Dhruv Jaglan in 2025, Rilo raised $1 million from investors including PeakXV, DeVC, and Day Zero Ventures at a $10 million valuation.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Ivan Mehta Ivan covers global consumer tech developments at TechCrunch.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Post-acquisition, Rilo will shut down and won’t be available to its customers.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.67,
+        "rawScore": 48.67,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "edd4a5e41d0417deb574": {
+      "storyId": "edd4a5e41d0417deb574",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/02/uk-datacentres-ai-boom-foi-environment",
+      "title": "UK government does not know what datacentres are being used for, FoI request shows",
+      "source": "The Guardian AI",
+      "published": "2026-09-02T13:44:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "564c64a2ca41e43aab01b87d",
+      "bodyFingerprint": "4b42e354ef93ae122fe531ee",
+      "bodyCharacterCount": 4923,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.305Z",
+      "assessment": {
+        "centralEvent": "UK government does not know what datacentres are being used for, FoI request shows",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "What is more ‘critical’ than our need to transition to a low-energy, low-pollution world so we can put the brakes on climate extremes?” While there is consensus that datacentres can provide some essential services, there are concerns that d",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The Scottish government is said to be considering a moratorium on new datacentres.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Oliver Hayes of Global Action Plan, the environmental charity which submitted the FoI request, said: “It’s highly likely that we’re going to end up seeing datacentres given favourable and preferential treatment when it comes to resources th",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ec9dacd818f801e83b11": {
+      "storyId": "ec9dacd818f801e83b11",
+      "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting",
+      "title": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+      "source": "TechCrunch AI",
+      "published": "2026-09-02T12:09:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "54f94dd7ebe848d3d5102e52",
+      "bodyFingerprint": "908fff9844815621fe73298b",
+      "bodyCharacterCount": 7206,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.341Z",
+      "assessment": {
+        "centralEvent": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The complaints come as OpenAI continues to deal with the fallout of another high-profile safety incident after one of the company’s AI models escaped its sandbox during cybersecurity evaluations and hacked into the servers of Hugging Face’,",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Wall Street Journal reported that OpenAI staff had been alarmed by VanRootselaar’s use of ChatGPT, including conversations around gun violence and advice for how to plan an attack.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The new set of complaints specifically name OpenAI Chief Global Affairs Officer Chris Lehane as the person who told staff to stand down and not contact the authorities, though the complaints offer no direct evidence that he was personally i",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“When its own people were at risk, no ‘privacy’ interest stopped OpenAI from notifying the police or circulating the man’s name and photograph to thousands of employees.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2e955c3ee4337fde06e4": {
+      "storyId": "2e955c3ee4337fde06e4",
+      "url": "https://www.theguardian.com/technology/2026/sep/02/ai-jobs-freelance-cleanup",
+      "title": "Freelancers are getting buried with ‘soulless’ AI slop cleanup: ‘It’s a shame we need to do it’",
+      "source": "The Guardian AI",
+      "published": "2026-09-02T12:00:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cb45dab15336c2ccdfeb1c76",
+      "bodyFingerprint": "4101190ef5b88e8687984423",
+      "bodyCharacterCount": 9398,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.353Z",
+      "assessment": {
+        "centralEvent": "Freelancers are getting buried with ‘soulless’ AI slop cleanup: ‘It’s a shame we need to do it’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Listings for freelance jobs exposed to automation fell 21% in the eight months after ChatGPT launched and image-creation gigs dropped 17% after AI image generators arrived, according to a 2025 study published in the academic journal Managem",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "His rate is $65 an hour and “doesn’t go down from there”, he said.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Upwork saw AI remediation gigs jump 70% year over year, and Fiverr saw keyword searches for “AI cleanup” services grow more than 20 times between 2023 and 2026, according to data shared with the Guardian.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "After he stopped taking AI cleanup gigs late last year, he has seen more clients, some of whom have been dissatisfied with AI, seeking original, hand-drawn work.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "She quickly learned to spot recurring problems, from repetitive language and awkward paragraph structures to a lack of emotional nuance.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 79,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2d79f14e278d3781ba41": {
+      "storyId": "2d79f14e278d3781ba41",
+      "url": "https://www.inc.com/jon-shanahan/ais-biggest-efficiency-risk-is-training/91398758",
+      "title": "AI’s Biggest Efficiency Risk is Training",
+      "source": "Inc. AI",
+      "published": "2026-09-02T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b6bca4047f8f5feaf289d971",
+      "bodyFingerprint": "91115d3cf663f39aedf7928e",
+      "bodyCharacterCount": 144,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-02T14:32:01.379Z",
+      "assessment": {
+        "centralEvent": "AI’s Biggest Efficiency Risk is Training",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "AI’s Biggest Efficiency Risk is Training",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "29d22b29a0effaf1ceb2": {
+      "storyId": "29d22b29a0effaf1ceb2",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/02/tell-us-do-you-live-near-a-planned-ai-datacentre-uk",
+      "title": "Tell us: do you live near the site of a planned AI datacentre in the UK?",
+      "source": "The Guardian AI",
+      "published": "2026-09-02T13:32:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "284e7bca460d622f054201e5",
+      "bodyFingerprint": "9d0febd65e325585ac4e562e",
+      "bodyCharacterCount": 2154,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.391Z",
+      "assessment": {
+        "centralEvent": "Tell us: do you live near the site of a planned AI datacentre in the UK?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "There is much debate about how datacentres affect their local areas, with concerns raised by nearby residents about land use, pollution, noise, and the “ heat island effect ”.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Tell us: do you live near the site of a planned AI datacentre in the UK?",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "We would like to hear from people who live in an area where there are plans for AI datacentres to be built – or who already live near one The Scottish National Party and the Greens have backed a moratorium on new developments of AI datacent",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "75bffcb5f9408010e305": {
+      "storyId": "75bffcb5f9408010e305",
+      "url": "https://www.inc.com/marcel-schwantes/ceos-are-training-workers-on-ai-this-fortune-500-company-says-thats-only-half-the-job/91399395",
+      "title": "CEOs Are Training Workers on AI. This Fortune 500 Company Says That’s Only Half the Job",
+      "source": "Inc. AI",
+      "published": "2026-09-02T09:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f22b97c02c4cb0bab009fb9d",
+      "bodyFingerprint": "0e2436de2e7d3c8aecbabe8a",
+      "bodyCharacterCount": 47,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-02T14:32:01.451Z",
+      "assessment": {
+        "centralEvent": "CEOs Are Training Workers on AI. This Fortune 500 Company Says That’s Only Half the Job",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "24bcf58e0c13ce88ecb6": {
+      "storyId": "24bcf58e0c13ce88ecb6",
+      "url": "https://www.bbc.co.uk/news/articles/c0rez9zegj5o?at_campaign=rss&at_medium=RSS",
+      "title": "Faisal Islam: Why bond market wildfire is keeping world leaders up at night",
+      "source": "BBC News AI",
+      "published": "2026-09-02T13:20:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9dabc96aca2db26df3c67f8a",
+      "bodyFingerprint": "4e9bf846834ef0b22f46454d",
+      "bodyCharacterCount": 5065,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.546Z",
+      "assessment": {
+        "centralEvent": "Faisal Islam: Why bond market wildfire is keeping world leaders up at night",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Lord Jim O'Neill, says the recent action has been caused by uncertainty about US policy, and in particular efforts by the US Government to try to manage down surging yields.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, EPA/Shutterstock By Faisal Islam Economics editor Published 1 hour ago It is not just the wildfire burning in the bond markets, with many countries facing interest rates at multi-decade highs.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Huge AI spending plans and the ongoing war in Iran are driving up borrowing costs around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But that has not happened, leaving markets pricing in higher energy prices, a chronic Gulf crisis, higher inflation for longer - and so higher interest rates.",
+            "matchedRule": "/\\b(?:long-lasting|lasting damage|years to recover|chronic|only partially reversible)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It has the highest debt burden, relative to its GDP, of the major economies and is the biggest single lender to the US government.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.75,
+        "rawScore": 29.75,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.5225,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 3,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "99a4a80f57e69d713584": {
+      "storyId": "99a4a80f57e69d713584",
+      "url": "https://apnews.com/article/lindsay-clancy-mistrial-what-happens-next-da699b71b3c9136fbb41dc086417ab48",
+      "title": "What happens next if the jury in the Lindsay Clancy murder trial can't reach a verdict?",
+      "source": "AP News AI",
+      "published": "2026-09-02T04:33:47",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6344c37e4d3907b262795658",
+      "bodyFingerprint": "c1a8bf6def4f2bb8919899d7",
+      "bodyCharacterCount": 6029,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.565Z",
+      "assessment": {
+        "centralEvent": "What happens next if the jury in the Lindsay Clancy murder trial can't reach a verdict?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "If you or someone you know needs help, the national suicide and crisis lifeline in the U.S. is available by calling or texting 988. ___ Related Stories Lindsay Clancy trial jury deliberates for fifth day after telling judge they were deadlo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fb82de88b6ebd95c260d": {
+      "storyId": "fb82de88b6ebd95c260d",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct98hc?at_campaign=rss&at_medium=RSS",
+      "title": "The Interview",
+      "source": "BBC News AI",
+      "published": "2026-09-01T23:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dd9d7ddc600aeec7838eafd6",
+      "bodyFingerprint": "990579a1e22ee899382c4c00",
+      "bodyCharacterCount": 2114,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.571Z",
+      "assessment": {
+        "centralEvent": "The Interview",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ca82b56c4d279bd2f010": {
+      "storyId": "ca82b56c4d279bd2f010",
+      "url": "https://apnews.com/article/italy-blue-crabs-invasion-export-12f1fb25558d35cf1230e335d5534af2",
+      "title": "Italy has started exporting a delicacy prized abroad, reviled at home",
+      "source": "AP News AI",
+      "published": "2026-09-02T04:07:30",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c872469ca28f1b972f74e637",
+      "bodyFingerprint": "a454ea5a895e5c92e2522efe",
+      "bodyCharacterCount": 15925,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.608Z",
+      "assessment": {
+        "centralEvent": "Italy has started exporting a delicacy prized abroad, reviled at home",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "University of Bologna scientists this summer released 150,000 baby octopuses into the Adriatic Sea on the Riviera Romagnola, some two hours south of the Po Delta, promoting their project with an impressive video showing an adult octopus gra",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 94,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "070c7e54d0e53c4348c8": {
+      "storyId": "070c7e54d0e53c4348c8",
+      "url": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection",
+      "title": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
+      "source": "WIRED AI",
+      "published": "2026-09-02T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cab94f27454c08e850ee82be",
+      "bodyFingerprint": "fc7df1701cc8db4c6bedac2d",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.637Z",
+      "assessment": {
+        "centralEvent": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Critics point to two major issues with Pangram: the damage done by false positives and the potential bias built into its machine learning.",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A spokesperson from Penguin Random House confirmed that its editors may use approved AI-detection tools “as one additional means of identifying potential AI-generated content,” but that such tools are “not determinative and are only one com",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 138,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 65.65,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "39b8b43041881dd3a972": {
+      "storyId": "39b8b43041881dd3a972",
+      "url": "https://apnews.com/article/carney-trump-canada-trade-talks-538688b715c16bb42ecaef93d25c3db2",
+      "title": "Carney tells Trump ‘Stop trying to be tough'",
+      "source": "AP News AI",
+      "published": "2026-09-01T16:52:10",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "77fb354da7f505bcef74af89",
+      "bodyFingerprint": "15466c848d898eabceb0e711",
+      "bodyCharacterCount": 8953,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.677Z",
+      "assessment": {
+        "centralEvent": "Carney tells Trump ‘Stop trying to be tough'",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Bea Bruske, president of the Canadian Labour Congress, said Carney told labor leaders Tuesday they could not expect relations with the United States to “go back to normal any time soon,” calling the current situation “a new normal that we h",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "364d496b9373c9174ac6": {
+      "storyId": "364d496b9373c9174ac6",
+      "url": "https://apnews.com/article/treasury-bessent-g20-trade-tariffs-426a8b4d10c6610c2d7200bab412fe1b",
+      "title": "Bessent says 19 finance ministers agreed 'cheap exports' are unsustainable, but China dissented",
+      "source": "AP News AI",
+      "published": "2026-09-01T19:24:16",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "10024acc12fc2f659ab7eef2",
+      "bodyFingerprint": "589e94f65e800403bd7dc6c7",
+      "bodyCharacterCount": 8726,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-02T14:32:01.704Z",
+      "assessment": {
+        "centralEvent": "Bessent says 19 finance ministers agreed 'cheap exports' are unsustainable, but China dissented",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“If both fighters go in a corner, then there will never be a resolution to this horrible conflict.” ____ Rugaber reported from Washington.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-02T09:40:41.680Z"
+  "updatedAt": "2026-09-02T14:32:01.704Z"
 }
