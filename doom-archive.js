@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-03T05:00:00.000Z",
+  "generatedAt": "2026-09-03T11:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-03",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/209d0bd/2147483647/strip/true/crop/5805x3868+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcf%2Fc5%2F18ec4e361d2b166cf765fe44fc95%2Fc23d68cd7c254d4a84ad7213afc03396",
           "peak": 51.65,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 51.65
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 49.61
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 49.55
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 49.34
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 49.17
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.17,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 49.17
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.17,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 49.17
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg",
           "peak": 49.12,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 49.12
         }
       ]
@@ -786,11 +786,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/209d0bd/2147483647/strip/true/crop/5805x3868+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcf%2Fc5%2F18ec4e361d2b166cf765fe44fc95%2Fc23d68cd7c254d4a84ad7213afc03396",
           "peak": 51.65,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 51.65
         },
         {
@@ -800,11 +800,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 17,
+          "observations": 18,
           "daysTracked": 4,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 51.23
         },
         {
@@ -856,11 +856,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 17,
+          "observations": 18,
           "daysTracked": 4,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 49.61
         },
         {
@@ -1078,11 +1078,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/209d0bd/2147483647/strip/true/crop/5805x3868+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcf%2Fc5%2F18ec4e361d2b166cf765fe44fc95%2Fc23d68cd7c254d4a84ad7213afc03396",
           "peak": 51.65,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 51.65
         },
         {
@@ -1092,11 +1092,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1120,11 +1120,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 49.61
         },
         {
@@ -1148,11 +1148,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T05:00:00.000Z",
+          "lastObservedAt": "2026-09-03T11:00:00.000Z",
           "average": 49.55
         },
         {
