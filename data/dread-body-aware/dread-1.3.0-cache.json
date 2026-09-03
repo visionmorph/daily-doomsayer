@@ -95389,8 +95389,1042 @@
           "vulnerability": 0
         }
       }
+    },
+    "f78234efca4ae322bc97": {
+      "storyId": "f78234efca4ae322bc97",
+      "url": "https://www.politico.com/news/2026/09/03/mark-zuckerberg-said-a-national-ai-regulator-was-a-flawed-idea-in-a-secret-call-with-president-trump-01063843",
+      "title": "Mark Zuckerberg said a national AI regulator was a flawed idea in a secret call with President Trump",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-03T19:05:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5477ca22cdf31fee091966da",
+      "bodyFingerprint": "743b0a9efd558fce4d4a84dc",
+      "bodyCharacterCount": 138,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-03T19:52:31.817Z",
+      "assessment": {
+        "centralEvent": "Mark Zuckerberg said a national AI regulator was a flawed idea in a secret call with President Trump",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The Trump administration is now considering both a FINRA-style approach and David Sacks’ industry-led approach as potential paths forward.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e337a0b2496955f51b53": {
+      "storyId": "e337a0b2496955f51b53",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation",
+      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+      "source": "TechCrunch AI",
+      "published": "2026-09-03T19:36:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "11a25c6cc9338a98ba354580",
+      "bodyFingerprint": "3cbabfb401fd538727b7fb4a",
+      "bodyCharacterCount": 2638,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:31.874Z",
+      "assessment": {
+        "centralEvent": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Climate Utilities are racing to link up with fusion startups, with Realta Fusion the latest to benefit Tim De Chant 7 minutes ago AI Abliteration.ai is",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0f98e72e20a4fc0ee7d6": {
+      "storyId": "0f98e72e20a4fc0ee7d6",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
+      "title": "Abliteration.ai is making a business out of removing AI guardrails",
+      "source": "TechCrunch AI",
+      "published": "2026-09-03T18:37:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "88b9be67d167e1e1a83c9beb",
+      "bodyFingerprint": "2e109e5647a310cc61b237b4",
+      "bodyCharacterCount": 9215,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:31.900Z",
+      "assessment": {
+        "centralEvent": "Abliteration.ai is making a business out of removing AI guardrails",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Norway considers ban on camera-enabled wearable ‘pervert glasses’ Zack Whittaker Uber is laying off 10% of staff, or 3,300 people Ram Iyer AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d3d0374ce494049c6682": {
+      "storyId": "d3d0374ce494049c6682",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model",
+      "title": "Meta is paying to peek at how you use their latest AI model",
+      "source": "TechCrunch AI",
+      "published": "2026-09-03T18:19:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dbd1305b3f7ec02c52364bb2",
+      "bodyFingerprint": "8feda91f92bfbb377f22e25a",
+      "bodyCharacterCount": 4325,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:31.921Z",
+      "assessment": {
+        "centralEvent": "Meta is paying to peek at how you use their latest AI model",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Norway considers ban on camera-enabled wearable ‘pervert glasses’ Zack Whittaker Uber is laying off 10% of staff, or 3,300 people Ram Iyer AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "939b4e3dff1a8fd03b0c": {
+      "storyId": "939b4e3dff1a8fd03b0c",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model",
+      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "source": "TechCrunch AI",
+      "published": "2026-09-03T18:01:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5259e2a70b0079830d45d29d",
+      "bodyFingerprint": "4db106d47c0d9c11e18bf861",
+      "bodyCharacterCount": 5320,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:31.947Z",
+      "assessment": {
+        "centralEvent": "OpenAI launches Astra, its powerful (and controversial) new model",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The company said Thursday that it had tested Astra on a variety of security benchmarks to ensure its capabilities, and that “Its ability to identify and develop zero-day exploits can help defenders find and patch weaknesses.” The company’s ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Norway considers ban on camera-enabled wearable ‘pervert glasses’ Zack Whittaker Uber is laying off 10% of staff, or 3,300 people Ram Iyer AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The company said Thursday that it had tested Astra on a variety of security benchmarks to ensure its capabilities, and that “Its ability to identify and develop zero-day exploits can help defenders find and patch weaknesses.” The company’s ",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ffd638909347d0ac0c73": {
+      "storyId": "ffd638909347d0ac0c73",
+      "url": "https://www.theguardian.com/technology/2026/sep/03/openai-artificial-general-intelligence-astra-release",
+      "title": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release",
+      "source": "The Guardian AI",
+      "published": "2026-09-03T18:24:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ddd45d69b50b52b67d5b1c40",
+      "bodyFingerprint": "b2de435204993ef91a44cc2c",
+      "bodyCharacterCount": 5107,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:31.972Z",
+      "assessment": {
+        "centralEvent": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Brockman made the claim on Thursday as the San Francisco company released the model only weeks after a serious AI safety incident involving other models under its development caused international concern and a pause in Astra’s training.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "I think it’s not unreasonable to feel that we are now in the AGI era.” OpenAI said Astra was a “major advance for scientific discovery, mathematics and health”, could fill out tax returns, build computer game scenes, draw architectural visu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Brockman made the claim on Thursday as the San Francisco company released the model only weeks after a serious AI safety incident involving other models under its development caused international concern and a pause in Astra’s training.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "I was going to say it’s like an irrelevant marketing term.” Last month OpenAI was forced to shut down parts of the model’s training in response to what Altman called a “legitimate AI safety accident and alignment failure” that “shouldn’t ha",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.68,
+        "rawScore": 28.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d309bdab2a0a0b8e61eb": {
+      "storyId": "d309bdab2a0a0b8e61eb",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
+      "source": "The Verge AI",
+      "published": "2026-09-03T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "beb65d80c185a1277011ad26",
+      "bodyFingerprint": "4cd4c2d1af2f8b1032122fae",
+      "bodyCharacterCount": 8502,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:31.997Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s next big AI model has ‘entered the AGI era’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AI News Report OpenAI’s next big AI model has ‘entered the AGI era’ It emphasized stronger guardrails for GPT-6 Astra after the company’s models hacked Hugging Face. by Hayden Field Sep 3, 2026, 6:00 PM UTC Image: Cath Virginia / The Verge,",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And during the press briefing, Mia Glaese, who leads OpenAI’s safety processes, referenced the company’s new misalignment monitoring approach, which includes “24/7 escalation and rapid response” for potential concerns, notifying researchers",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Investors are putting on the pressure for it to finally turn a profit — or, at least, generate more revenue — but it’s announcing Astra just after facing significant criticism for both the Hugging Face hack and the way the company handled i",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.76,
+        "rawScore": 45.76,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.16,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5246c8f3c3eb87a37f2f": {
+      "storyId": "5246c8f3c3eb87a37f2f",
+      "url": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human",
+      "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+      "source": "WIRED AI",
+      "published": "2026-09-03T18:06:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0d32904715293398b00acd41",
+      "bodyFingerprint": "29c11f8da733375f207e7ab8",
+      "bodyCharacterCount": 6473,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:32.035Z",
+      "assessment": {
+        "centralEvent": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Will Knight OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree At the Black Hat security conference, the AI giant revealed new details about how its agents went rogue, hacked several other companies—and did",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It plans to make GPT-6 Astra available to paid customers in the coming days, starting with enterprise clients in its Daybreak early access program, followed by ChatGPT Plus, Pro, and Business plan subscribers.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Will Knight Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out When Twitch announced that streamers could opt out, thousands of users questioned why their content was being used to train AI models in the first place.",
+            "matchedRule": "/\\b(?:thousands|hundreds)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9a047272fc1aa8612151": {
+      "storyId": "9a047272fc1aa8612151",
+      "url": "https://mashable.com/tech/openai-chatgpt-outage-updates-grok-gemini",
+      "title": "ChatGPT, Claude, Gemini down: What we know about the AI outages",
+      "source": "Mashable AI",
+      "published": "2026-09-03T17:43:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7d871dd5d2b49369271034c0",
+      "bodyFingerprint": "0fca9bca89dbbad1cabf91f4",
+      "bodyCharacterCount": 3723,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:32.133Z",
+      "assessment": {
+        "centralEvent": "ChatGPT, Claude, Gemini down: What we know about the AI outages",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Impact has ended as of 9:16 PT / 16:16 UTC.\"At this time, the cause of the outage is unknown.A major internet outage appears to have hit all of the major AI services on Thursday.ChatGPT, Claude, Gemini, Copilot, and Grok all appear to be su",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "ChatGPT's status monitor says \"we're currently experiencing issues\" and states that there are \"elevated errors across ChatGPT and Codex.\"Anthropic's own status monitor shared that Mythos/Fable 5.1, Mythos/Fable 5, Opus 5, Opus 4.8, and Opus",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Impact has ended as of 9:16 PT / 16:16 UTC.\"At this time, the cause of the outage is unknown.A major internet outage appears to have hit all of the major AI services on Thursday.ChatGPT, Claude, Gemini, Copilot, and Grok all appear to be su",
+            "matchedRule": "/\\b(?:thousands|hundreds)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "ET — It appears that all AI service providers have now been restored.In a statement provided to Mashable, Anthropic confirms that Claude is back online.\"Claude is fully back up after an infrastructure issue caused a partial outage across Cl",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.6,
+        "rawScore": 67.6,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4a5e7072a5b4d69bc128": {
+      "storyId": "4a5e7072a5b4d69bc128",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/03/hundreds-holyrood-pause-scotland-datacentre-boom-ai",
+      "title": "Hundreds gather to urge Scottish government to pause datacentre boom",
+      "source": "The Guardian AI",
+      "published": "2026-09-03T17:48:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bca84dcbd5c917acd4a0c49d",
+      "bodyFingerprint": "9201920bdf3310b64d9c141b",
+      "bodyCharacterCount": 7270,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:32.144Z",
+      "assessment": {
+        "centralEvent": "Hundreds gather to urge Scottish government to pause datacentre boom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Wednesday briefing: ​What’s behind the global backlash against datacentres?",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "UK government does not know what datacentres are being used for, FoI request shows Read more Jones, the director of the NGO Action to Protect Rural Scotland , is spearheading a campaign demanding a pause while the Scottish government produc",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It is going to be a monstrosity.” The rising public anger about the datacentre buildout that underpins the global AI boom is a growing threat to the UK’s strategy.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In John Swinney’s programme for government on Tuesday, Scotland’s equivalent to the king’s speech, the first minister said he would take a strategic approach to datacentres with “expectations around environmental sustainability, resource us",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“I am clear that voices of communities that will be affected will be central to any considerations on datacentres.” But Jones and the campaign want more.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 2
+        }
+      }
+    },
+    "2fa113fc74c46c816c6f": {
+      "storyId": "2fa113fc74c46c816c6f",
+      "url": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue",
+      "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
+      "source": "WIRED AI",
+      "published": "2026-09-03T16:42:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aedb29834bec1452825b4375",
+      "bodyFingerprint": "422d1db179ea85ec9c215597",
+      "bodyCharacterCount": 8809,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:32.221Z",
+      "assessment": {
+        "centralEvent": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The figures, which have not been previously reported, indicate the financial loss OpenAI is willing to take on to avoid doing business with Musk.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The figures, which have not been previously reported, indicate the financial loss OpenAI is willing to take on to avoid doing business with Musk.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "35e5f03b8fbdcddbc0bb": {
+      "storyId": "35e5f03b8fbdcddbc0bb",
+      "url": "https://apnews.com/article/dianna-russini-athletic-mike-vrabel-d904f700ebb7d0a86b954b07370cfb69",
+      "title": "Athletic's review of former NFL reporter Dianna Russini concludes she didn't comply with standards",
+      "source": "AP News AI",
+      "published": "2026-09-03T16:13:17",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ff025ee2b7d30666590312f5",
+      "bodyFingerprint": "d9f5e08cf8b8d3e0bc184035",
+      "bodyCharacterCount": 5989,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:32.294Z",
+      "assessment": {
+        "centralEvent": "Athletic's review of former NFL reporter Dianna Russini concludes she didn't comply with standards",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "An investigation by The Athletic has concluded that former NFL reporter Dianna Russini violated the company’s standards because of her relationship with New England Patriots coach Mike Vrabel that led to her resignation in April.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5b06b3a005ab2639f9e6": {
+      "storyId": "5b06b3a005ab2639f9e6",
+      "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime",
+      "title": "Four major AI models suffer rare overlapping downtime",
+      "source": "Ars Technica AI",
+      "published": "2026-09-03T18:10:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "65033e87c11f6016559bdf59",
+      "bodyFingerprint": "fe41d6d27d11949ab5ebbdaf",
+      "bodyCharacterCount": 3575,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:32.303Z",
+      "assessment": {
+        "centralEvent": "Four major AI models suffer rare overlapping downtime",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Claude reports 99.4 percent uptime for its services over the last 90 days and last reported a similar three-hour “partial outage” on August 24 .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4de0c424f66e3839e017": {
+      "storyId": "4de0c424f66e3839e017",
+      "url": "https://apnews.com/article/thailand-pattaya-abraham-lincoln-carrier-crew-ce9febd3795164e9743f22f1daa5c681",
+      "title": "USS Lincoln crew hits the streets of Thai beach city after lengthy Middle East deployment",
+      "source": "AP News AI",
+      "published": "2026-09-03T07:11:12",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "40d21c6267bb98c8fb6237d2",
+      "bodyFingerprint": "51622602f65bcaf83e28d662",
+      "bodyCharacterCount": 9069,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:32.358Z",
+      "assessment": {
+        "centralEvent": "USS Lincoln crew hits the streets of Thai beach city after lengthy Middle East deployment",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Lincoln was supporting the U.S. war against Iran , and its deployment included a record-setting uninterrupted time at sea of more than 260 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "617a2ebfe392b39fadcd": {
+      "storyId": "617a2ebfe392b39fadcd",
+      "url": "https://www.lawfaremedia.org/article/open-weight-diplomacy--how-china-s-ai-models-are-rerunning-the-digital-silk-road",
+      "title": "Open-Weight Diplomacy: How China’s AI Models Are Rerunning the Digital Silk Road",
+      "source": "Lawfare AI",
+      "published": "2026-09-03T17:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c091da9d12c60e4787a1c316",
+      "bodyFingerprint": "8d19aa7b92623f8b90e53fc4",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T19:52:32.937Z",
+      "assessment": {
+        "centralEvent": "Open-Weight Diplomacy: How China’s AI Models Are Rerunning the Digital Silk Road",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Urbanski of the Western District of Virginia, and co-founded a software development company. } More Articles The ‘Covered List’: A Fraud Claimed ‘National Security’ Nicholas Weaver Sep 3, 2026 A tool built to block Huawei and Hikvision now ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Seven senators urged the Commerce Department to scrutinize Chinese models by invoking the multibillion-dollar program that removed Huawei equipment from American networks; December’s annual defense budget bill ordered DeepSeek’s models purg",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It bought China structural leverage, including leadership in declared 5G standard-essential patents , the standing to propose rewriting the internet’s architecture at the International Telecommunication Union, and networks too embedded to r",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The rollout involved enormous contracts awarded to suppliers without a competitive process (or a justification for skipping one), repayment stretching over a decade, and enough leverage lost that Addis Ababa eventually had to split its foll",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 127,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-03T16:28:07.854Z"
+  "updatedAt": "2026-09-03T19:52:32.937Z"
 }
