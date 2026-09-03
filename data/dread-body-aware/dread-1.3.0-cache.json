@@ -93196,8 +93196,2201 @@
           "vulnerability": 0
         }
       }
+    },
+    "5711ab1005341a4eac4d": {
+      "storyId": "5711ab1005341a4eac4d",
+      "url": "https://mashable.com/tech/nvidia-acquires-hugging-face-ai-for-13-billion",
+      "title": "Nvidia’s Hugging Face purchase confirmed at $13 billion",
+      "source": "Mashable AI",
+      "published": "2026-09-03T16:20:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af591933f7294dca0721796b",
+      "bodyFingerprint": "e76147e7710022c3d2eeff72",
+      "bodyCharacterCount": 2403,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.287Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s Hugging Face purchase confirmed at $13 billion",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Hugging Face was recently thrust into the spotlight earlier this summer after OpenAI shared a serious security incident where its AI agents went rogue and hacked the open-source platform.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "title",
+            "excerpt": "Nvidia’s Hugging Face purchase confirmed at $13 billion",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "That is how AI can advance safely, strengthen cybersecurity and sovereignty, accelerate innovation, and reach factories, hospitals, farms, classrooms and Main Street businesses around the world.\" According to Huang, Hugging Face has more th",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "35fa00eb05c9f31dc9e4": {
+      "storyId": "35fa00eb05c9f31dc9e4",
+      "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race",
+      "title": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+      "source": "TechCrunch AI",
+      "published": "2026-09-03T16:09:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8a7c4e760d15f3139635b2e4",
+      "bodyFingerprint": "d0253770227bda83137d9545",
+      "bodyCharacterCount": 7032,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.299Z",
+      "assessment": {
+        "centralEvent": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Norway considers ban on camera-enabled wearable ‘pervert glasses’ Zack Whittaker Uber is laying off 10% of staff, or 3,300 people Ram Iyer AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e345c54782af922e3e39": {
+      "storyId": "e345c54782af922e3e39",
+      "url": "https://mashable.com/tech/ai-outages-chatgpt-claude-gemini-copilot-grok-down",
+      "title": "ChatGPT, Claude, Gemini down: What we know about the outages",
+      "source": "Mashable AI",
+      "published": "2026-09-03T16:22:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "31fbda7dc12e3361be548ef1",
+      "bodyFingerprint": "8420aa65054ddce65dab82fb",
+      "bodyCharacterCount": 2643,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.308Z",
+      "assessment": {
+        "centralEvent": "ChatGPT, Claude, Gemini down: What we know about the outages",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A major internet outage appears to have hit all of the major AI services on Thursday.ChatGPT, Claude, Gemini, Copilot, and Grok all appear to be suffering from stability and downtime issues as of publishing, with thousands of users reportin",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "ChatGPT's status monitor says \"we're currently experiencing issues\" and states that there are \"elevated errors across ChatGPT and Codex.\"Anthropic's own status monitor shared that Mythos/Fable 5.1, Mythos/Fable 5, Opus 5, Opus 4.8, and Opus",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A major internet outage appears to have hit all of the major AI services on Thursday.ChatGPT, Claude, Gemini, Copilot, and Grok all appear to be suffering from stability and downtime issues as of publishing, with thousands of users reportin",
+            "matchedRule": "/\\b(?:thousands|hundreds)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ce7d92c7ad67747c5a5c": {
+      "storyId": "ce7d92c7ad67747c5a5c",
+      "url": "https://mashable.com/tech/ifa-2026-lenovo-rtx-spark-laptops-yoga-pro-9n",
+      "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026",
+      "source": "Mashable AI",
+      "published": "2026-09-03T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20cc5ac448abdc694070fde2",
+      "bodyFingerprint": "3ca7f4486a6964cdebe18d4a",
+      "bodyCharacterCount": 6853,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.333Z",
+      "assessment": {
+        "centralEvent": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "You May Also Like Credit: Lenovo The other laptop is a previously unannounced 16-inch convertible called the Yoga 9n 2-in-1. (Pictures of it leaked back in July, but Lenovo hasn't confirmed its existence until now.) It's the second hybrid R",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Anyone familiar with the current state of the tech industry will expect them to be splurges, especially the upper-end configurations. (For reference, a 16-inch MacBook Pro with 128GB of RAM costs a cool $6,999.) Lenovo Yoga Pro 9n specs Cre",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "90c599e2da9dd5b774ff": {
+      "storyId": "90c599e2da9dd5b774ff",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+      "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
+      "source": "The Verge AI",
+      "published": "2026-09-03T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e0c52964cc491913be0db472",
+      "bodyFingerprint": "bbc7bbc697a806a690513c72",
+      "bodyCharacterCount": 5696,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.382Z",
+      "assessment": {
+        "centralEvent": "Nvidia launches free tool that links idle computers into a personal AI data center",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "There is no ethical consumption of HBO’s Harry Potter series The amazing USB-C gadgets that play old Nintendo cartridges Anker put a display on the case of its new sleepbuds Advertiser Content From This is the title for the native ad More i",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "24310dd0bfe4be1a4e04": {
+      "storyId": "24310dd0bfe4be1a4e04",
+      "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+      "title": "Google now lets you chat with Gmail, Docs, and Keep",
+      "source": "The Verge AI",
+      "published": "2026-09-03T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ca78089ea3abc1a62a84362c",
+      "bodyFingerprint": "52c00e1cfe4be48ae5c0201e",
+      "bodyCharacterCount": 4300,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.389Z",
+      "assessment": {
+        "centralEvent": "Google now lets you chat with Gmail, Docs, and Keep",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Di Benedetto 28 minutes ago The Moto Watch Ultra is a return to Wear OS Dominic Preston 28 minutes ago Circular’s new smart rings add contactless payments and vibrating alerts Andrew Liszewski 28 minutes ago I held the first truly bezel-fre",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eb1104274464bbfa7ea8": {
+      "storyId": "eb1104274464bbfa7ea8",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+      "title": "ChatGPT, Grok, and Claude all went down at the same time",
+      "source": "The Verge AI",
+      "published": "2026-09-03T15:35:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "094927eddc86d4e0ba7fe137",
+      "bodyFingerprint": "43d7107d119e79ad535baad0",
+      "bodyCharacterCount": 4018,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.401Z",
+      "assessment": {
+        "centralEvent": "ChatGPT, Grok, and Claude all went down at the same time",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "There is no ethical consumption of HBO’s Harry Potter series The amazing USB-C gadgets that play old Nintendo cartridges Anker put a display on the case of its new sleepbuds Advertiser Content From This is the title for the native ad More i",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4c5c1505bcc08f1525eb": {
+      "storyId": "4c5c1505bcc08f1525eb",
+      "url": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_campaign=rss&at_medium=RSS",
+      "title": "Nvidia strikes $12.9bn deal to buy AI platform Hugging Face",
+      "source": "BBC News AI",
+      "published": "2026-09-03T16:01:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "210237f6f9505cfdeac8338c",
+      "bodyFingerprint": "386e0efec3634d0478443eb5",
+      "bodyCharacterCount": 3042,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.448Z",
+      "assessment": {
+        "centralEvent": "Nvidia strikes $12.9bn deal to buy AI platform Hugging Face",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to the companies, Hugging Face is used by more than 18 million developers and hosts more than three million AI models.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e5a7e10db615029f6f74": {
+      "storyId": "e5a7e10db615029f6f74",
+      "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella",
+      "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+      "source": "TechCrunch AI",
+      "published": "2026-09-03T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1429f03cca47b574948b3759",
+      "bodyFingerprint": "9399a42412b413a47b3dc5e4",
+      "bodyCharacterCount": 7037,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.459Z",
+      "assessment": {
+        "centralEvent": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Its evaluations on rain are 60% improved over WeatherNext 2, and it can now produce hourly forecasts, instead of the standard prediction every six hours.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "591da8efaf769b4d1b59": {
+      "storyId": "591da8efaf769b4d1b59",
+      "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
+      "title": "Google says its AI weather model is getting better",
+      "source": "The Verge AI",
+      "published": "2026-09-03T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "30d365479643214683171b3c",
+      "bodyFingerprint": "30358684c85f4f98ac814907",
+      "bodyCharacterCount": 5797,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.471Z",
+      "assessment": {
+        "centralEvent": "Google says its AI weather model is getting better",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "WeatherNext 3 is able to produce a forecast each hour based on the most recent satellite observations.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8af31a529c61cdd729ac": {
+      "storyId": "8af31a529c61cdd729ac",
+      "url": "https://www.theguardian.com/technology/audio/2026/sep/03/black-box-the-chatbots-the-line-podcast",
+      "title": "Black Box: The Chatbots | The Line | Ep 5 – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-03T14:20:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ded6eb914569970ef31b22f0",
+      "bodyFingerprint": "2e6bd578714a2647408e5a19",
+      "bodyCharacterCount": 451,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.554Z",
+      "assessment": {
+        "centralEvent": "Black Box: The Chatbots | The Line | Ep 5 – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2db8e042e87af804e1a3": {
+      "storyId": "2db8e042e87af804e1a3",
+      "url": "https://www.theguardian.com/technology/audio/2026/sep/03/black-box-the-chatbots-life-raft-episode-4",
+      "title": "Black Box: The Chatbots | Life Raft | Ep 4 – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-03T14:00:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee65deebceb5a86e84e26765",
+      "bodyFingerprint": "b1ee5b6961c90d5826da7658",
+      "bodyCharacterCount": 633,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.587Z",
+      "assessment": {
+        "centralEvent": "Black Box: The Chatbots | Life Raft | Ep 4 – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "29eace6a269bcbd2a238": {
+      "storyId": "29eace6a269bcbd2a238",
+      "url": "https://www.artificialintelligence-news.com/news/ai-last-mile-delivery-optimisation",
+      "title": "OneRail uses Nvidia AI for real-time last-mile delivery optimisation",
+      "source": "AI News",
+      "published": "2026-09-03T16:07:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f216924aae9c4861706937b6",
+      "bodyFingerprint": "4cb183b9f75de6dafcaa2529",
+      "bodyCharacterCount": 512,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-03T16:28:00.639Z",
+      "assessment": {
+        "centralEvent": "OneRail uses Nvidia AI for real-time last-mile delivery optimisation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Called OmniSTAR, the system evaluates options including owned fleets, couriers, parcel carriers, and other delivery modes, then selects the lowest-cost option that meets the required service level, according to OneRail.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d7751a099e3cf2ffc54c": {
+      "storyId": "d7751a099e3cf2ffc54c",
+      "url": "https://www.inc.com/iza-montalvo/employees-used-to-ask-their-managers-now-theyre-asking-ai/91399406",
+      "title": "Employees Used to Ask Their Managers. New Research Finds They’re Now Asking AI, and Leaders Need to Adjust",
+      "source": "Inc. AI",
+      "published": "2026-09-03T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "87d62ff393c4550fdcdc05d3",
+      "bodyFingerprint": "fb30a111473bb99a2d04a271",
+      "bodyCharacterCount": 48,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-03T16:28:00.655Z",
+      "assessment": {
+        "centralEvent": "Employees Used to Ask Their Managers. New Research Finds They’re Now Asking AI, and Leaders Need to Adjust",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9fe57ae2829581b8234c": {
+      "storyId": "9fe57ae2829581b8234c",
+      "url": "https://www.theguardian.com/technology/audio/2026/sep/03/black-box-the-chatbots-what-i-saw-at-the-double-six-ranch-podcast",
+      "title": "Black Box: The Chatbots | What I Saw at the Double Six Ranch | Ep 6 – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-03T15:30:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9c5ae10cdc85a2c52f7a3ab7",
+      "bodyFingerprint": "2d047cb3267ce4b1fd5586c0",
+      "bodyCharacterCount": 580,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.685Z",
+      "assessment": {
+        "centralEvent": "Black Box: The Chatbots | What I Saw at the Double Six Ranch | Ep 6 – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "38f04a7f1f406d1807d4": {
+      "storyId": "38f04a7f1f406d1807d4",
+      "url": "https://www.artificialintelligence-news.com/news/nvidia-to-acquire-hugging-face-for-12-93b",
+      "title": "NVIDIA to acquire Hugging Face for $12.93B",
+      "source": "AI News",
+      "published": "2026-09-03T15:50:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "581a8a14bccb63372dbe2a2c",
+      "bodyFingerprint": "a9072c5684121911c9f8e9f6",
+      "bodyCharacterCount": 482,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-03T16:28:00.734Z",
+      "assessment": {
+        "centralEvent": "NVIDIA to acquire Hugging Face for $12.93B",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f6f4f7e9c865352e1904": {
+      "storyId": "f6f4f7e9c865352e1904",
+      "url": "https://www.theguardian.com/technology/audio/2026/sep/03/black-box-the-chatbots-happy-accident-episode-3-podcast",
+      "title": "Black Box: The Chatbots | Happy Accident | Ep 3 – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-03T13:39:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20cc8dc976baea6a3840a67c",
+      "bodyFingerprint": "b5e2cd663cd9617505e7b6cf",
+      "bodyCharacterCount": 1337,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.757Z",
+      "assessment": {
+        "centralEvent": "Black Box: The Chatbots | Happy Accident | Ep 3 – podcast",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The 2022 Anthropic pre-print study that identified sycophancy as a behavioural trait of LLMs.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eb51f088cbde86885731": {
+      "storyId": "eb51f088cbde86885731",
+      "url": "https://www.theguardian.com/business/2026/sep/03/john-lewis-youtube-chat-show-angela-scanlon",
+      "title": "John Lewis to launch YouTube chatshow to improve AI search results",
+      "source": "The Guardian AI",
+      "published": "2026-09-03T13:08:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0110f92ab2fe1f2315a6f933",
+      "bodyFingerprint": "4ccbdfee67f66dc45a4d9f8e",
+      "bodyCharacterCount": 5603,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.791Z",
+      "assessment": {
+        "centralEvent": "John Lewis to launch YouTube chatshow to improve AI search results",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "John Lewis managing director Peter Ruis quits job after less than three years Hundreds of jobs at risk as John Lewis announces closure of in-store services John Lewis boss’s pay rises to £1.2m as retailer cuts 3,300 jobs Keeping it simple w",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There will be six episodes running up to Christmas, with more planned if the series takes off.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a485386f434183de7a1a": {
+      "storyId": "a485386f434183de7a1a",
+      "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion",
+      "title": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
+      "source": "Ars Technica AI",
+      "published": "2026-09-03T13:34:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e18179bee5e898825e63653",
+      "bodyFingerprint": "35232d46efa943abba33647c",
+      "bodyCharacterCount": 5035,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.803Z",
+      "assessment": {
+        "centralEvent": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It turned down a $500 million investment from Nvidia late last year, in part to avoid having a single dominant investor, the FT reported.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "774c4b3a90a519fc0d3c": {
+      "storyId": "774c4b3a90a519fc0d3c",
+      "url": "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal",
+      "title": "Nvidia to buy developer platform Hugging Face in $12.9bn deal",
+      "source": "The Guardian AI",
+      "published": "2026-09-03T13:15:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1ca5018b723f18c6ddc25e1a",
+      "bodyFingerprint": "b173f403432ba2d9b64ca5ed",
+      "bodyCharacterCount": 3857,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.852Z",
+      "assessment": {
+        "centralEvent": "Nvidia to buy developer platform Hugging Face in $12.9bn deal",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "SoftBank sells stake in Nvidia for $5.8bn as it doubles down on OpenAI bets UK is going to be ‘AI superpower’, says Nvidia boss as he invests £500m Tech shares climb after strong Nvidia results despite warning over rise of Chinese rivals Mo",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Explore more on these topics Nvidia AI (artificial intelligence) Computing Technology sector news Share Reuse this content More on this story More on this story Nvidia links with Wall Street firms for $500bn AI financing deal Stock market t",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "de11ae3cf242cc85ce53": {
+      "storyId": "de11ae3cf242cc85ce53",
+      "url": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look",
+      "title": "Nvidia RTX Spark ‘Superchip’: The First AI PCs Are Here",
+      "source": "WIRED AI",
+      "published": "2026-09-03T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6000263843378c72c5243ea1",
+      "bodyFingerprint": "04233f3f190d57affc673d43",
+      "bodyCharacterCount": 8836,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.953Z",
+      "assessment": {
+        "centralEvent": "Nvidia RTX Spark ‘Superchip’: The First AI PCs Are Here",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Scott Gilbertson The Best Gaming Laptops I’ve Found After Hundreds of Hours of Testing You don’t want any old gaming laptop.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6fa65b17b90998591ee1": {
+      "storyId": "6fa65b17b90998591ee1",
+      "url": "https://www.theguardian.com/technology/audio/2026/sep/03/black-box-the-chatbots-14-days-ai-psychosis-podcast",
+      "title": "Black Box: The Chatbots | 14 days | Ep 2 – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-03T13:04:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2522449b212a21c498ae175c",
+      "bodyFingerprint": "3afbb1f78f6bb8b1af1b45ff",
+      "bodyCharacterCount": 541,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.961Z",
+      "assessment": {
+        "centralEvent": "Black Box: The Chatbots | 14 days | Ep 2 – podcast",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Black Box: The Chatbots | 14 days | Ep 2 – podcast",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c45bd88ef6208e754bf": {
+      "storyId": "8c45bd88ef6208e754bf",
+      "url": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai",
+      "title": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+      "source": "WIRED AI",
+      "published": "2026-09-03T12:43:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b24fcc45de4871137d129a5e",
+      "bodyFingerprint": "9dca3b8046848325ffb10d80",
+      "bodyCharacterCount": 7606,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.972Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Hugging Face has more recently been front and center after its platform was hacked by AI agents from OpenAI .",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Business Insider previously reported that the two companies were in talks, and The Information later reported that a deal had been reached.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Nvidia also launched an initiative called SAFE, or Shared AI Findings Exchange, that encouraged tech companies to “confidentially collect and analyze AI incidents and near misses, identify recurring control failures and publish evidence-bas",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And if all of them use Hugging Face all day, every day, we’ll obviously be in a good position.” Obviously, Nvidia seems to agree.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.91,
+        "rawScore": 47.91,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.355,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8335331bc7576864bb0f": {
+      "storyId": "8335331bc7576864bb0f",
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion",
+      "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+      "source": "TechCrunch AI",
+      "published": "2026-09-03T12:42:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee87cae63f4be04854f970fe",
+      "bodyFingerprint": "c963496c6e54d5dbbd7baaf9",
+      "bodyCharacterCount": 5145,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:00.978Z",
+      "assessment": {
+        "centralEvent": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Days before that, OpenAI admitted that its unreleased model breached Hugging Face .",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Norway considers ban on camera-enabled wearable ‘pervert glasses’ Zack Whittaker Uber is laying off 10% of staff, or 3,300 people Ram Iyer AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He argued that the company builds open models to get developers across the world to use them.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hugging Face has risen in prominence, with more models being released every day.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.5,
+        "rawScore": 49.5,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8f39aa4277ef3a98cec3": {
+      "storyId": "8f39aa4277ef3a98cec3",
+      "url": "https://www.theguardian.com/technology/audio/2026/sep/03/black-box-the-chatbots-spirals-ai-psychosis-podcast",
+      "title": "Black Box: The Chatbots | Spirals | Ep 1 – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-03T12:42:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "210f89d0c380ecefa7f4ff0c",
+      "bodyFingerprint": "fc0ea8492c25d6dfc1b05f94",
+      "bodyCharacterCount": 635,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:01.001Z",
+      "assessment": {
+        "centralEvent": "Black Box: The Chatbots | Spirals | Ep 1 – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7c09d2c80705d868a383": {
+      "storyId": "7c09d2c80705d868a383",
+      "url": "https://techpolicy.press/chatgpt-roblox-face-tough-eu-rules-implementation-is-the-hard-part",
+      "title": "ChatGPT, Roblox Face Tough EU Rules. Implementation Is the Hard Part",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-03T13:55:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "88b63841b981785d5a2976da",
+      "bodyFingerprint": "23f78156cfdb7ed549a20199",
+      "bodyCharacterCount": 9567,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:01.005Z",
+      "assessment": {
+        "centralEvent": "ChatGPT, Roblox Face Tough EU Rules. Implementation Is the Hard Part",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Much of what a researcher would need to study grooming, harassment, or radicalization on Roblox, for example, is ephemeral — real-time voice and text, gameplay behavior, interactions that are never retained long-term.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Analysis ChatGPT, Roblox Face Tough EU Rules.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Four months from now, these services will have to comply with additional obligations, including that they must: assess and mitigate the systemic risks their services generate submit to annual independent audits open their internal data to v",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "More recent designations, including those of WhatsApp , Roblox, and ChatGPT, involved the Commission applying fixed statutory definitions to services that have changed considerably since those definitions were drafted.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Data access The data access regime also poses unresolved questions, especially for gaming platforms that process ephemeral data.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In a single session, a user may reveal their occupation, health concerns, location, political leanings, or emotions, and the chatbot uses that information to return answers within that session.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.32,
+        "rawScore": 48.32,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3925,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 2,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cf9e32aa49ffe52cf581": {
+      "storyId": "cf9e32aa49ffe52cf581",
+      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+      "title": "Nvidia is buying Hugging Face for almost $13 billion",
+      "source": "The Verge AI",
+      "published": "2026-09-03T12:12:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7151eb50436af3c2dc5b4c70",
+      "bodyFingerprint": "3050b2086cb89b2f82547ce8",
+      "bodyCharacterCount": 5159,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:01.015Z",
+      "assessment": {
+        "centralEvent": "Nvidia is buying Hugging Face for almost $13 billion",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Di Benedetto 28 minutes ago The Moto Watch Ultra is a return to Wear OS Dominic Preston 28 minutes ago Circular’s new smart rings add contactless payments and vibrating alerts Andrew Liszewski 28 minutes ago I held the first truly bezel-fre",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5be51f046b2a925e06bc": {
+      "storyId": "5be51f046b2a925e06bc",
+      "url": "https://apnews.com/article/gloria-steinem-dies-724836935f6547fda60f361c15238d14",
+      "title": "Gloria Steinem, a potent voice of US feminism and co-founder of Ms. Magazine, dies at 92",
+      "source": "AP News AI",
+      "published": "2026-09-03T10:21:44",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e2bb68f03e08ba9f47df4496",
+      "bodyFingerprint": "f80d0242d99c8a0ff98ac195",
+      "bodyCharacterCount": 17849,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:01.125Z",
+      "assessment": {
+        "centralEvent": "Gloria Steinem, a potent voice of US feminism and co-founder of Ms. Magazine, dies at 92",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“There was no word for sexual harassment then,” she has said.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It should be obvious that people can’t empathize with each other unless we’re in the same room.” Steinem, who had been in declining health, died Wednesday at her home in New York City, according to a post on her social media page.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The ridicule was mutual: In a 1972 National Press Club speech, Steinem called Nixon “the most sexually insecure chief of state since Napoleon.” It was just one example of Steinem’s trademark wit.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Several years later, he became ill with brain lymphoma, and Steinem cared for him until his death in 2003.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "After that, Steinem headed to Manhattan, where she couldn’t rent her own apartment because landlords assumed if a single woman “could earn enough, you must be a hooker.” She wanted to write about politics.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 140,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.56,
+        "rawScore": 48.56,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.415,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3349b4842bd042fdcb18": {
+      "storyId": "3349b4842bd042fdcb18",
+      "url": "https://apnews.com/article/mideast-iran-hormuz-washington-september-3-2026-6b5f8c2e6153fa199cbdb567acef6806",
+      "title": "Iran targets Kuwait in retaliation for US bombardments, and other Mideast news",
+      "source": "AP News AI",
+      "published": "2026-09-03T07:53:57",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "53c35ca0003cc64269a90204",
+      "bodyFingerprint": "1a3d4d805ac266e6ed10884b",
+      "bodyCharacterCount": 11505,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:01.185Z",
+      "assessment": {
+        "centralEvent": "Iran targets Kuwait in retaliation for US bombardments, and other Mideast news",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Iranian state TV said Thursday that a person injured in the attack had died, increasing the death toll to five.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It’s some of his biggest supporters 3 MIN READ 13 Iran’s supreme leader calls for Muslim unity against US and Israel, and other Mideast news 5 MIN READ 191 However, officials at the Shifa hospital said the two Palestinians were killed in a ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Lebanese man held prisoner in Israel released A Lebanese man who had been held prisoner in Israel was released Thursday , the first such handover since the outbreak of the latest Israel-Hezbollah war six months ago, the International Commit",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Iranian state TV said Thursday that a person injured in the attack had died, increasing the death toll to five.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It came after U.S. allies Bahrain and Jordan said their air defense systems also intercepted several Iranian air attacks Wednesday.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 70.49,
+        "rawScore": 70.49,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.59,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a9e5d98363d51f506bb7": {
+      "storyId": "a9e5d98363d51f506bb7",
+      "url": "https://apnews.com/article/trump-2026-midterms-speech-d0c3658f865fe0a7aacfca6904fb69af",
+      "title": "Trump promises to campaign for Republicans and says they have a winning midterm message",
+      "source": "AP News AI",
+      "published": "2026-09-03T01:19:45",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1241f6b3cc01e41bfc9113ca",
+      "bodyFingerprint": "f41039a458577d253ef91388",
+      "bodyCharacterCount": 7171,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:01.255Z",
+      "assessment": {
+        "centralEvent": "Trump promises to campaign for Republicans and says they have a winning midterm message",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He pledged to spend the 30 days before the election campaigning hard in those battlegrounds, recalling his aggressive travel schedule ahead of his own White House victory two years ago.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ff03ad5978bb05b6f76": {
+      "storyId": "4ff03ad5978bb05b6f76",
+      "url": "https://apnews.com/article/trump-coin-america-250-gold-817c62abfcec862b8c1ec622e5809ab4",
+      "title": "Heads or tails? $1 coin with Trump's face and gold finish goes on sale",
+      "source": "AP News AI",
+      "published": "2026-09-02T14:52:10",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8e774ab294009ec1c5bd9301",
+      "bodyFingerprint": "c3f4c6dff19a5083131b5704",
+      "bodyCharacterCount": 2869,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:01.321Z",
+      "assessment": {
+        "centralEvent": "Heads or tails? $1 coin with Trump's face and gold finish goes on sale",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The coins, which can be used as legal tender, drew some criticism, particularly because of federal law that bars the depiction of a living president on U.S. currency.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Mint has started producing a new $1 coin featuring President Donald Trump’s image. (AP Graphic/Treasury Department, File) By JESSE BEDAYN Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Go",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Additional inventory is being made.” JESSE BEDAYN Bedayn is a national politics reporter based in Austin, Texas. mailto",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.59,
+        "rawScore": 25.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1ec0be0612ac4fd9f2d4": {
+      "storyId": "1ec0be0612ac4fd9f2d4",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901010659.htm",
+      "title": "Scientists just overturned a century-old physics assumption",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-03T12:17:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cdae606ca11e5a1f26743116",
+      "bodyFingerprint": "b0ae084c3cf9c5774e9be74f",
+      "bodyCharacterCount": 9827,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:01.630Z",
+      "assessment": {
+        "centralEvent": "Scientists just overturned a century-old physics assumption",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers in Carnegie Mellon's Department of Physics, working in the Lab for Investigating Quantum Materials, Interfaces and Devices (LIQUID), have now demonstrated a different form of the effect. \"For a long time, people thought the Hall",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2dc97a52343ffdee10cd": {
+      "storyId": "2dc97a52343ffdee10cd",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
+      "title": "NASA scientists discover a giant 10-sided pattern on Saturn",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-03T12:41:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "42c46b5c4220f1f5c11b4dc2",
+      "bodyFingerprint": "70dc426d9c30b2a111a9c398",
+      "bodyCharacterCount": 9734,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-03T16:28:01.988Z",
+      "assessment": {
+        "centralEvent": "NASA scientists discover a giant 10-sided pattern on Saturn",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "It is the first time scientists have observed a large, regularly shaped jet pattern in Saturn's southern hemisphere.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f154a5e69f9b60d72e9c": {
+      "storyId": "f154a5e69f9b60d72e9c",
+      "url": "https://techpolicy.press/can-the-eu-ai-acts-transparency-rules-strengthen-democratic-resilience",
+      "title": "Can the EU AI Act’s Transparency Rules Strengthen Democratic Resilience?",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-03T11:24:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "90473ab17d50562a3c2210f8",
+      "bodyFingerprint": "ad151f9e711bb0f52adb9473",
+      "bodyCharacterCount": 73,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-03T16:28:07.854Z",
+      "assessment": {
+        "centralEvent": "Can the EU AI Act’s Transparency Rules Strengthen Democratic Resilience?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-03T11:18:48.384Z"
+  "updatedAt": "2026-09-03T16:28:07.854Z"
 }
