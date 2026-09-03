@@ -5,11 +5,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-03T16:00:00.000Z",
+  "generatedAt": "2026-09-03T19:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-03",
       "stories": [
+        {
+          "storyId": "3349b4842bd042fdcb18",
+          "title": "Iran targets Kuwait in retaliation for US bombardments, and other Mideast news",
+          "url": "https://apnews.com/article/mideast-iran-hormuz-washington-september-3-2026-6b5f8c2e6153fa199cbdb567acef6806",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/edc0e50/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F88%2F98ab36cd74ee337750297f1702d8%2F1998eacced644b6ead4a89b0a5d42e1f",
+          "peak": 70.49,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-03",
+          "firstObservedAt": "2026-09-03T19:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
+          "average": 70.49
+        },
         {
           "storyId": "3bc6af587693d4b6a90a",
           "title": "Scams in the US are at a record high. Yet most victims get no help and some end up losing even more",
@@ -29,13 +43,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T16:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T16:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
           "average": 49.61
         },
         {
@@ -59,12 +73,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T16:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
           "average": 49.55
+        },
+        {
+          "storyId": "8335331bc7576864bb0f",
+          "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.5,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-03",
+          "firstObservedAt": "2026-09-03T19:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
+          "average": 49.5
         },
         {
           "storyId": "5669750843cd523a667b",
@@ -101,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T16:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
           "average": 49.17
         },
         {
@@ -115,40 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.17,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-03",
           "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T16:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
           "average": 49.17
-        },
-        {
-          "storyId": "d8f7e5310c5b9a5ea39f",
-          "title": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
-          "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 49.17,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-03",
-          "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T11:00:00.000Z",
-          "average": 49.17
-        },
-        {
-          "storyId": "497ac6665ed35087ae45",
-          "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
-          "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg",
-          "peak": 49.12,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-03",
-          "firstObservedAt": "2026-09-03T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T11:00:00.000Z",
-          "average": 49.12
         }
       ]
     },
@@ -202,7 +202,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
           "observations": 5,
           "daysTracked": 1,
@@ -347,7 +347,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
           "observations": 7,
           "daysTracked": 1,
@@ -752,6 +752,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 71.31
         },
         {
+          "storyId": "3349b4842bd042fdcb18",
+          "title": "Iran targets Kuwait in retaliation for US bombardments, and other Mideast news",
+          "url": "https://apnews.com/article/mideast-iran-hormuz-washington-september-3-2026-6b5f8c2e6153fa199cbdb567acef6806",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/edc0e50/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F88%2F98ab36cd74ee337750297f1702d8%2F1998eacced644b6ead4a89b0a5d42e1f",
+          "peak": 70.49,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-03",
+          "firstObservedAt": "2026-09-03T19:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
+          "average": 70.49
+        },
+        {
           "storyId": "acf1c467744d62351699",
           "title": "Mass burials in Nepal as death toll from flash floods exceeds 1,000",
           "url": "https://apnews.com/article/nepal-flash-floods-death-toll-tibet-china-835459b2978adcd2b3bcf6e0595aee6c",
@@ -798,13 +812,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 19,
+          "observations": 20,
           "daysTracked": 4,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T16:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -856,25 +870,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 19,
+          "observations": 20,
           "daysTracked": 4,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T16:00:00.000Z",
-          "average": 49.61
-        },
-        {
-          "storyId": "96a57f951d8ea6de5ea6",
-          "title": "Musk’s faster path to more gas turbines comes with pollution problem",
-          "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 49.61,
-          "observations": 7,
-          "daysTracked": 2,
-          "peakDate": "2026-08-31",
-          "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T14:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
           "average": 49.61
         }
       ]
@@ -1044,6 +1044,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 71.31
         },
         {
+          "storyId": "3349b4842bd042fdcb18",
+          "title": "Iran targets Kuwait in retaliation for US bombardments, and other Mideast news",
+          "url": "https://apnews.com/article/mideast-iran-hormuz-washington-september-3-2026-6b5f8c2e6153fa199cbdb567acef6806",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/edc0e50/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fde%2F88%2F98ab36cd74ee337750297f1702d8%2F1998eacced644b6ead4a89b0a5d42e1f",
+          "peak": 70.49,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-03",
+          "firstObservedAt": "2026-09-03T19:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
+          "average": 70.49
+        },
+        {
           "storyId": "acf1c467744d62351699",
           "title": "Mass burials in Nepal as death toll from flash floods exceeds 1,000",
           "url": "https://apnews.com/article/nepal-flash-floods-death-toll-tibet-china-835459b2978adcd2b3bcf6e0595aee6c",
@@ -1090,13 +1104,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 3,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T16:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1120,11 +1134,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
           "peak": 49.61,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 3,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T16:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
           "average": 49.61
         },
         {
@@ -1148,26 +1162,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 3,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-03T16:00:00.000Z",
+          "lastObservedAt": "2026-09-03T19:00:00.000Z",
           "average": 49.55
-        },
-        {
-          "storyId": "3f3860fafa6c86ffb26f",
-          "title": "AI Audits Need a Power Test, Not Just a Fairness Score",
-          "url": "https://techpolicy.press/ai-audits-need-a-power-test-not-just-a-fairness-score",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.47,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-01T10:00:00.000Z",
-          "average": 49.47
         }
       ]
     },
