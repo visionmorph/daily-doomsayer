@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-04T19:00:00.000Z",
+  "generatedAt": "2026-09-04T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-04",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-04",
           "firstObservedAt": "2026-09-04T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T19:00:00.000Z",
+          "lastObservedAt": "2026-09-04T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-04",
           "firstObservedAt": "2026-09-04T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T19:00:00.000Z",
+          "lastObservedAt": "2026-09-04T22:00:00.000Z",
           "average": 49.55
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-04",
           "firstObservedAt": "2026-09-04T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T19:00:00.000Z",
+          "lastObservedAt": "2026-09-04T22:00:00.000Z",
           "average": 49.17
         },
         {
@@ -101,11 +101,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.17,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-04",
           "firstObservedAt": "2026-09-04T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T19:00:00.000Z",
+          "lastObservedAt": "2026-09-04T22:00:00.000Z",
+          "average": 49.17
+        },
+        {
+          "storyId": "14aac003fa5b3a91c7ff",
+          "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+          "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
+          "peak": 49.17,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-04",
+          "firstObservedAt": "2026-09-04T22:00:00.000Z",
+          "lastObservedAt": "2026-09-04T22:00:00.000Z",
           "average": 49.17
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a87505516e3a66e632977e8/master/pass/Security_FlockLetsCopsConductAISearchUsingPolitics_v1.gif",
           "peak": 49.01,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-04",
           "firstObservedAt": "2026-09-04T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T19:00:00.000Z",
+          "lastObservedAt": "2026-09-04T22:00:00.000Z",
           "average": 49.01
         },
         {
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-04T05:00:00.000Z",
           "lastObservedAt": "2026-09-04T16:00:00.000Z",
           "average": 49.01
-        },
-        {
-          "storyId": "3c0eda88434513ec8cec",
-          "title": "‘Show How 3M Is 0% at Fault:’ Expert Witness Used ChatGPT to Write Report Defending Company in Deadly Explosion Lawsuit",
-          "url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
-          "source": "404 Media AI",
-          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/3M-St-Paul-Monument-place001-rgb.jpg",
-          "peak": 48.84,
-          "observations": 4,
-          "daysTracked": 1,
-          "peakDate": "2026-09-04",
-          "firstObservedAt": "2026-09-04T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T19:00:00.000Z",
-          "average": 48.84
         }
       ]
     },
@@ -959,11 +959,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 26,
+          "observations": 27,
           "daysTracked": 5,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T19:00:00.000Z",
+          "lastObservedAt": "2026-09-04T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1251,11 +1251,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 22,
+          "observations": 23,
           "daysTracked": 4,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T19:00:00.000Z",
+          "lastObservedAt": "2026-09-04T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1307,11 +1307,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 22,
+          "observations": 23,
           "daysTracked": 4,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T19:00:00.000Z",
+          "lastObservedAt": "2026-09-04T22:00:00.000Z",
           "average": 49.55
         }
       ]
