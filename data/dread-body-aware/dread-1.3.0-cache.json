@@ -97518,8 +97518,814 @@
           "vulnerability": 0
         }
       }
+    },
+    "f24bdcbc61ac28fe884d": {
+      "storyId": "f24bdcbc61ac28fe884d",
+      "url": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
+      "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
+      "source": "The Verge AI",
+      "published": "2026-09-04T10:44:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d0d8c7f1966127918c03c4d",
+      "bodyFingerprint": "5d98eaa869c1457547bc1095",
+      "bodyCharacterCount": 4486,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T11:21:49.620Z",
+      "assessment": {
+        "centralEvent": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "1Password wades into a right-wing mess after funding a Linux project Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers Advertiser Content From This is the title for the native ad More in News This rugged ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "46893d79734da48d137d": {
+      "storyId": "46893d79734da48d137d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+      "source": "The Verge AI",
+      "published": "2026-09-04T10:41:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d3f7611d8767617a5ef207be",
+      "bodyFingerprint": "8410329d58fbcff145890ad8",
+      "bodyCharacterCount": 5441,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T11:21:49.631Z",
+      "assessment": {
+        "centralEvent": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Altman said there was “a little snag getting the blog post deployed.” OpenAI has also faced intense criticism from safety advocates after it said Astra’s reasoning was harder to monitor than its other models.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "1Password wades into a right-wing mess after funding a Linux project Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers Advertiser Content From This is the title for the native ad More in AI OpenAI’s next ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“We will give one banked reset for every day you don’t have access to Astra on your paid ChatGPT plan, starting today,” said Codex engineering lead Thibault Sottiaux in a bid to calm concerns.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.52,
+        "rawScore": 27.52,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5597b0d13607de29aa6b": {
+      "storyId": "5597b0d13607de29aa6b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+      "title": "Why AI food looks like that",
+      "source": "The Verge AI",
+      "published": "2026-09-04T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d8244f608cc5b64bcebf4075",
+      "bodyFingerprint": "457de071c0dee03292ac68e2",
+      "bodyCharacterCount": 10309,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T11:21:49.642Z",
+      "assessment": {
+        "centralEvent": "Why AI food looks like that",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Scientists believe disgust evolved partly as a means of protecting us from parasites, pathogens, toxins, and other potential threats, making us particularly attuned to when something may be unsafe to eat.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "1Password wades into a right-wing mess after funding a Linux project Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers Advertiser Content From This is the title for the native ad More in AI OpenAI’s next ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "There are many reasons why this AI food is so wrong, from the technical nuances of how AI systems generate images and the materials used to train them to the psychological baggage humans perceive the images through.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“This means that initially coarse structures are recovered first with fine texture details” coming at the end, explained Chris Russell, a professor of AI, government, and policy at the University of Oxford and an expert in computer vision.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 69,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.6,
+        "rawScore": 27.6,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "906b9e6788bbd6852685": {
+      "storyId": "906b9e6788bbd6852685",
+      "url": "https://www.theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home",
+      "title": "This NAS company wants to run your local smart home",
+      "source": "The Verge AI",
+      "published": "2026-09-04T09:41:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "855ee6d71db6ffbb045253a0",
+      "bodyFingerprint": "dda83739e803f1bf451bb168",
+      "bodyCharacterCount": 8281,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T11:21:49.665Z",
+      "assessment": {
+        "centralEvent": "This NAS company wants to run your local smart home",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "1Password wades into a right-wing mess after funding a Linux project Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers Advertiser Content From This is the title for the native ad More in Tech This rugged ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "92a5304a9f6f749ce8bd": {
+      "storyId": "92a5304a9f6f749ce8bd",
+      "url": "https://www.wired.com/story/ai-job-market-infinite-doom-loop",
+      "title": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
+      "source": "WIRED AI",
+      "published": "2026-09-04T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eb6c80ca0bffc5af3994899a",
+      "bodyFingerprint": "c8f8c226f595df3b9294bfb8",
+      "bodyCharacterCount": 11198,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T11:21:49.703Z",
+      "assessment": {
+        "centralEvent": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "We Got Its Code Flock’s surveillance cameras have already sparked outrage.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The bottom 80 might never see the light of day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Chait has one more message for job seekers, which is to remember: “It's not you; it’s the system, and it stinks.” Comments Back to top Join the discussion Comments Back to top You Might Also Like In your inbox: WIRED's most ambitious, futur",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 100,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2ab3884d049bebd52e94": {
+      "storyId": "2ab3884d049bebd52e94",
+      "url": "https://www.inc.com/john-hall/the-hidden-ai-playbook-small-businesses-are-using-to-scale-without-blowing-their-budget/91400205",
+      "title": "The Hidden AI Playbook Small Businesses Are Using to Scale—Without Blowing Their Budget",
+      "source": "Inc. AI",
+      "published": "2026-09-04T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "46dea1a76abff2c38c2311e6",
+      "bodyFingerprint": "f3a6bbbd06aa88927ba890a8",
+      "bodyCharacterCount": 133,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-04T11:21:49.882Z",
+      "assessment": {
+        "centralEvent": "The Hidden AI Playbook Small Businesses Are Using to Scale—Without Blowing Their Budget",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "caa7402ccd20afcd204e": {
+      "storyId": "caa7402ccd20afcd204e",
+      "url": "https://apnews.com/article/thomas-ross-charges-plant-drugs-louise-secker-84244b8235a8f73a7f0d601e609f5084",
+      "title": "Missouri candidate charged with trying to plant cocaine on his political rival",
+      "source": "AP News AI",
+      "published": "2026-09-03T17:52:02",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fb9c198671d385f59bb76fa4",
+      "bodyFingerprint": "ce6d9240b6624f89036c7c13",
+      "bodyCharacterCount": 2861,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T11:21:49.956Z",
+      "assessment": {
+        "centralEvent": "Missouri candidate charged with trying to plant cocaine on his political rival",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "4 primary, according to court documents.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "03e780d2ab0487e6aeb7": {
+      "storyId": "03e780d2ab0487e6aeb7",
+      "url": "https://apnews.com/article/venezuela-us-oil-reserves-deal-1c509be8d665f16ee65a80a513463016",
+      "title": "Proud of their oil, Venezuelans view US stake in their reserves as a surrender",
+      "source": "AP News AI",
+      "published": "2026-09-03T14:29:57",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5476edc49f339e11ecd6e2f1",
+      "bodyFingerprint": "a7b9d531df84965d32d71f1c",
+      "bodyCharacterCount": 12438,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T11:21:50.012Z",
+      "assessment": {
+        "centralEvent": "Proud of their oil, Venezuelans view US stake in their reserves as a surrender",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“There is genuine collective concern in Venezuela right now about what we are witnessing.” Oil influences all aspects of life in Venezuela The 1920s discovery of oil in northwestern Venezuela sparked a booming industry that transformed a po",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Something is better than nothing,” former oil worker Romel Abreu said referring to the roughly 1 million barrels of oil per day that Venezuela currently produces.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Venezuela has been shaped by oil booms and busts Plummeting oil prices globally in the 1980s devastated Venezuela’s economy, necessitating an International Monetary Fund bailout.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By 2013, when Maduro became president following Chávez’s death, the country fell into a dire economic crisis .",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.83,
+        "rawScore": 29.83,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cbb4f8b1179686b34574": {
+      "storyId": "cbb4f8b1179686b34574",
+      "url": "https://restofworld.org/2026/china-ai-tokens-consumer-rewards-credit-cards-telcos-deepseek",
+      "title": "Chinese businesses are giving away AI tokens with coffee, credit cards, and dumplings",
+      "source": "Rest of World AI",
+      "published": "2026-09-04T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9536f7a346dce88b782a4ead",
+      "bodyFingerprint": "c569504b73dc875f808682db",
+      "bodyCharacterCount": 6604,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T11:21:50.024Z",
+      "assessment": {
+        "centralEvent": "Chinese businesses are giving away AI tokens with coffee, credit cards, and dumplings",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Go collect some tokens at the cashier so your [AI] agent can be fed with some computing power too.” Its two stores have been handing out more than 100 vouchers a day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "18e9d379c020d83c8280": {
+      "storyId": "18e9d379c020d83c8280",
+      "url": "https://apnews.com/article/trump-mail-voting-executive-order-lawsuit-63899f738d28d161b629054a314f161a",
+      "title": "Trump again appeals to Supreme Court on mail-voting restrictions with midterm elections looming",
+      "source": "AP News AI",
+      "published": "2026-09-03T10:25:30",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "16b0b8b8ef44e3c239037b25",
+      "bodyFingerprint": "d36855982376d35c2108a1ee",
+      "bodyCharacterCount": 11829,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T11:21:50.071Z",
+      "assessment": {
+        "centralEvent": "Trump again appeals to Supreme Court on mail-voting restrictions with midterm elections looming",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Jordan’s alliance with the US makes the kingdom a target for Iranian strikes 4 MIN READ Gloria Steinem lived to see a powerful backlash against her vision of feminism 5 MIN READ 15 United States likely added 65,000 jobs last",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Postal Service is poised to launch a hastily built, error-riddled computer system that could jeopardize the process of mail voting relied upon by one-third of all voters, according to a whistleblower statement released Tuesday. (AP Video: T",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Postal Service is poised to launch a hastily built, error-riddled computer system that could jeopardize the process of mail voting relied upon by one-third of all voters, according to a whistleblower statement released Tuesday. (AP Video: T",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Related Stories Jordan’s alliance with the US makes the kingdom a target for Iranian strikes 4 MIN READ Gloria Steinem lived to see a powerful backlash against her vision of feminism 5 MIN READ 15 United States likely added 65,000 jobs last",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.68,
+        "rawScore": 28.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fcd7a51427c08b157966": {
+      "storyId": "fcd7a51427c08b157966",
+      "url": "https://www.artificialintelligence-news.com/news/mt-bank-enterprise-ai-15000-employees",
+      "title": "M&T Bank expands enterprise AI after years of technology overhaul",
+      "source": "AI News",
+      "published": "2026-09-04T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "969332a11f7bdd602789332a",
+      "bodyFingerprint": "b6505512b6479247f8ab5645",
+      "bodyCharacterCount": 474,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-04T11:21:50.378Z",
+      "assessment": {
+        "centralEvent": "M&T Bank expands enterprise AI after years of technology overhaul",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "M&T Bank has deployed AI copilots to more than 15,000 employees as the US regional bank applies AI to internal operations, customer service, software development, and risk management.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The bank uses AI to analyse call-centre conversations, draft reports, generate code, identify customer needs, and flag portfolio risks, according to Fast Company.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "M&T Bank has deployed AI copilots to more than 15,000 employees as the US regional bank applies AI to internal operations, customer service, software development, and risk management.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e7109370f44b55fc5499": {
+      "storyId": "e7109370f44b55fc5499",
+      "url": "https://www.artificialintelligence-news.com/news/50-5-of-americans-say-ai-romance-can-count-as-cheating",
+      "title": "50.5% of Americans Say AI Romance Can Count as Cheating",
+      "source": "AI News",
+      "published": "2026-09-04T08:25:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fccc8b04647de27d84b6f451",
+      "bodyFingerprint": "5ad9315fb6b06eb5ba029e52",
+      "bodyCharacterCount": 416,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-04T11:21:50.562Z",
+      "assessment": {
+        "centralEvent": "50.5% of Americans Say AI Romance Can Count as Cheating",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-04T05:56:58.889Z"
+  "updatedAt": "2026-09-04T11:21:50.562Z"
 }
