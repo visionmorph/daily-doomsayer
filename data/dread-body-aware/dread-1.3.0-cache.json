@@ -99739,8 +99739,701 @@
           "vulnerability": 0
         }
       }
+    },
+    "d44926e13315b22a1976": {
+      "storyId": "d44926e13315b22a1976",
+      "url": "https://mashable.com/tech/hikers-used-ai-needed-to-be-rescued-mt-shasta",
+      "title": "These hikers relied on tech and AI. They had to be rescued.",
+      "source": "Mashable AI",
+      "published": "2026-09-04T18:32:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a5727c0755dd74eb9d1f2788",
+      "bodyFingerprint": "bd0387410d9098a288105f2f",
+      "bodyCharacterCount": 6637,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T19:38:14.873Z",
+      "assessment": {
+        "centralEvent": "These hikers relied on tech and AI. They had to be rescued.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "However, this is the first incident to involve 911 and a rescue, he noted. \"I think AI can be a great tool,\" Meyers told Mashable. \"But I think when you're talking about entering into a risky environment, especially with nature, talk to a r",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "85b5992af90135670054": {
+      "storyId": "85b5992af90135670054",
+      "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like",
+      "title": "What will Apple’s John Ternus era look like?",
+      "source": "TechCrunch AI",
+      "published": "2026-09-04T17:18:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e7b2ce5f51c8a7b1238f4b0",
+      "bodyFingerprint": "07b1d7653fe6095deabe85b6",
+      "bodyCharacterCount": 379,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-04T19:38:14.881Z",
+      "assessment": {
+        "centralEvent": "What will Apple’s John Ternus era look like?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d7da0fb3d5ff6a40f5a4": {
+      "storyId": "d7da0fb3d5ff6a40f5a4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "title": "Roland is getting into generative AI music with Melody Flip",
+      "source": "The Verge AI",
+      "published": "2026-09-04T17:51:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7b2f1e87562788d2ee431651",
+      "bodyFingerprint": "baf855d90a209c20c6d405bd",
+      "bodyCharacterCount": 4780,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T19:38:14.889Z",
+      "assessment": {
+        "centralEvent": "Roland is getting into generative AI music with Melody Flip",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control You can watch the coolant flow inside Ugreen’s liquid-cooled power bank Advertiser Content From This is the title for the native ad More in AI Microsoft ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9927834cb3e98a4ab3a7": {
+      "storyId": "9927834cb3e98a4ab3a7",
+      "url": "https://www.politico.com/news/2026/09/04/judge-rejects-musk-owned-spacexais-bid-to-block-deepfake-ban-01065242",
+      "title": "Judge rejects Musk-owned SpaceXAI’s bid to block deepfake ban",
+      "source": "POLITICO AI",
+      "published": "2026-09-04T17:17:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7113c9d07a808ff837b54b0e",
+      "bodyFingerprint": "ea67916a640ab521a27d6eab",
+      "bodyCharacterCount": 123,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-04T19:38:14.905Z",
+      "assessment": {
+        "centralEvent": "Judge rejects Musk-owned SpaceXAI’s bid to block deepfake ban",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Judge rejects Musk-owned SpaceXAI’s bid to block deepfake ban",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "14aac003fa5b3a91c7ff": {
+      "storyId": "14aac003fa5b3a91c7ff",
+      "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers",
+      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+      "source": "Ars Technica AI",
+      "published": "2026-09-04T17:18:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d16726d8b30c0dcb5f2095a8",
+      "bodyFingerprint": "76cbf323ea63b6286f483157",
+      "bodyCharacterCount": 5456,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T19:38:14.960Z",
+      "assessment": {
+        "centralEvent": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dan Goodin Senior Security Editor Dan Goodin Senior Security Editor Dan Goodin is Senior Security Editor at Ars Technica, where he oversees coverage of malware, computer espionage, botnets, hardware hacking, encryption, and passwords.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Beginning on one day in early February, the number of ASCII smuggling signatures detected by Microsoft Defender for Office spiked from roughly 21,000 per day to more than 1.3 million.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them Customize",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: Microsoft Daily Unicode-tag signature hits on finance-themed sender domains, log scale, measured every day from February 9 through June 18, 2026.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.17,
+        "rawScore": 49.17,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c327c03dcf431597ca2a": {
+      "storyId": "c327c03dcf431597ca2a",
+      "url": "https://www.inc.com/moses-jeanfrancois/3-hikers-planned-climb-google-gemini-got-stranded-on-mountain/91401514",
+      "title": "3 Hikers Planned Their Climb With Google’s Gemini. Then They Got Stranded on a Mountain",
+      "source": "Inc. AI",
+      "published": "2026-09-04T17:02:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0e4fb0d32617f8ca4f30bfc0",
+      "bodyFingerprint": "5fd014c1483175cfb94c48de",
+      "bodyCharacterCount": 111,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-04T19:38:14.992Z",
+      "assessment": {
+        "centralEvent": "3 Hikers Planned Their Climb With Google’s Gemini. Then They Got Stranded on a Mountain",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "3 Hikers Planned Their Climb With Google’s Gemini.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "55d2f9ad71f8eb104c29": {
+      "storyId": "55d2f9ad71f8eb104c29",
+      "url": "https://www.inc.com/avery-miles/you-dont-have-to-embrace-ai-or-boycott-it-ethical-advocates-say-theres-a-third-option/91400667",
+      "title": "You Don’t Have to Embrace AI or Boycott It. Ethics Advocates Say There’s a Third Option",
+      "source": "Inc. AI",
+      "published": "2026-09-04T16:53:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c5934b5e00735cf52461461b",
+      "bodyFingerprint": "98460320e38f25cd05c8afac",
+      "bodyCharacterCount": 151,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-04T19:38:15.002Z",
+      "assessment": {
+        "centralEvent": "You Don’t Have to Embrace AI or Boycott It. Ethics Advocates Say There’s a Third Option",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a4ff6e9720c8722e84da": {
+      "storyId": "a4ff6e9720c8722e84da",
+      "url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight",
+      "title": "Anthropic’s $2 trillion IPO puts powerful external trustees in spotlight",
+      "source": "Ars Technica AI",
+      "published": "2026-09-04T16:22:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2275e95823df4993118ddfe1",
+      "bodyFingerprint": "bcce01b780ae1f0c00e01375",
+      "bodyCharacterCount": 7241,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T19:38:15.098Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s $2 trillion IPO puts powerful external trustees in spotlight",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Public-market scrutiny will intensify pressure on the Claude maker’s unusual attempt to balance profit and purpose.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI, which was founded as a nonprofit, became a cautionary tale in November 2023, when its board tried to fire its chief executive Sam Altman but lost the confidence of the company’s investors and employees.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Mariano-Florentino “Tino” Cuéllar, a former California Supreme Court justice, left the trust after a few months to work as Anthropic’s chief global affairs officer.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them Customize",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.83,
+        "rawScore": 29.83,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5066c42d6dfe6900a5f6": {
+      "storyId": "5066c42d6dfe6900a5f6",
+      "url": "https://apnews.com/article/bucking-fastard-venice-film-festival-8c7b0b78485977f655855917c5c40b9e",
+      "title": "Rooney and Kate Mara had to speak in unison in ‘Bucking Fastard’",
+      "source": "AP News AI",
+      "published": "2026-09-03T13:28:51",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "591aca7cc71eae3db1c83963",
+      "bodyFingerprint": "08b99b35517798c7918f5d08",
+      "bodyCharacterCount": 9925,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T19:38:15.136Z",
+      "assessment": {
+        "centralEvent": "Rooney and Kate Mara had to speak in unison in ‘Bucking Fastard’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“It happened quite naturally.” They were so quick to pick it up, in fact, that Herzog cut the planned two-week rehearsal short after five days.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "49561670eae8aa5edd6a": {
+      "storyId": "49561670eae8aa5edd6a",
+      "url": "https://apnews.com/article/us-china-world-cup-score-9ff47b0711e2b4b5a36f3e051e568367",
+      "title": "Caitlin Clark helps US beat China and 7-foot-3 Zhang Ziyu 94-61 in women's World Cup opener",
+      "source": "AP News AI",
+      "published": "2026-09-04T14:15:37",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "db32585b56852612d81f5b42",
+      "bodyFingerprint": "2fd9679d9ca6667bb47626ca",
+      "bodyCharacterCount": 7026,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T19:38:15.153Z",
+      "assessment": {
+        "centralEvent": "Caitlin Clark helps US beat China and 7-foot-3 Zhang Ziyu 94-61 in women's World Cup opener",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Clark and Bueckers shine in World Cup debuts as the US women rout China 94-61 2 MIN READ A 30-game win streak for US on the line at the FIBA women’s World Cup with France and others waiting 2 MIN READ Sue Bird faces a new ki",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More The U.S., which is normally jeered by opposing crowds in international tournaments, had the fans backing them on Friday.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7d5e3db9ab29d2073d99": {
+      "storyId": "7d5e3db9ab29d2073d99",
+      "url": "https://apnews.com/article/ncaa-eligibility-lsu-kiffin-f67ac7909f6620f4d286fdf34740081d",
+      "title": "All eyes turn to federal court in Alabama as SEC tries again to ban former pros from LSU roster",
+      "source": "AP News AI",
+      "published": "2026-09-04T10:00:08",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9580ac0bfca2cc7491bc8528",
+      "bodyFingerprint": "8f2ec02e79732b5d27f374ae",
+      "bodyCharacterCount": 11006,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T19:38:15.200Z",
+      "assessment": {
+        "centralEvent": "All eyes turn to federal court in Alabama as SEC tries again to ban former pros from LSU roster",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "31, 2026, in Baton Rouge, La. (AP Photo/Brett Martel) Read More 4 of 6 | Greg Sankey, commissioner of the Southeastern Conference, speaks during NCAA college basketball women’s SEC Media Day, Oct.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-04T16:24:24.262Z"
+  "updatedAt": "2026-09-04T19:38:15.200Z"
 }
