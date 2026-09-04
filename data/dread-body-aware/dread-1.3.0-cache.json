@@ -97105,8 +97105,421 @@
           "vulnerability": 0
         }
       }
+    },
+    "de75015e2a4820381363": {
+      "storyId": "de75015e2a4820381363",
+      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+      "title": "The sameness problem behind those unappetizing AI-generated menus",
+      "source": "TechCrunch AI",
+      "published": "2026-09-04T04:21:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "51bad8b2d422d61947ee3f78",
+      "bodyFingerprint": "0068a5a84f51e46dd606e152",
+      "bodyCharacterCount": 7845,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T05:56:58.770Z",
+      "assessment": {
+        "centralEvent": "The sameness problem behind those unappetizing AI-generated menus",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But when AI models train on too much of their own AI-generated content, they risk model collapse .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Norway considers ban on camera-enabled wearable ‘pervert glasses’ Zack Whittaker Uber is laying off 10% of staff, or 3,300 people Ram Iyer AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "625f8e7321c142701221": {
+      "storyId": "625f8e7321c142701221",
+      "url": "https://www.theguardian.com/media/2026/sep/04/march-for-australia-rally-lisa-jane-spencer-mock-welcome-to-country-daily-mail-ntwnfb",
+      "title": "Comedian’s offensive mock Welcome to Country at far-right rally gets rerun in the Daily Mail | Weekly Beast",
+      "source": "The Guardian AI",
+      "published": "2026-09-04T01:16:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ed431469a14ba2b6a8a5e4c0",
+      "bodyFingerprint": "b8780f032d1e9749367af250",
+      "bodyCharacterCount": 10978,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T05:56:58.811Z",
+      "assessment": {
+        "centralEvent": "Comedian’s offensive mock Welcome to Country at far-right rally gets rerun in the Daily Mail | Weekly Beast",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Interesting, given a month ago, she depicted herself in a joke video as a Muslim woman running an NDIS scam.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "March for Australia’s ties to white nationalist ideas have been widely reported, including in an ABC investigation .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Organisers pivoted from campaigning against “mass immigration” to arguments over “free speech” – including calling for the ban of the White Australia party , formerly the National Socialist Network (NSN), to be overturned.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dbd987ccb35a6a26d06d": {
+      "storyId": "dbd987ccb35a6a26d06d",
+      "url": "https://apnews.com/article/maria-bartiromo-fox-news-leave-084013a9a95753e4252d81e6c6c531f5",
+      "title": "Maria Bartiromo out at Fox News after more than a decade; no reason specified",
+      "source": "AP News AI",
+      "published": "2026-09-03T17:34:51",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "614e840c4ede3c7304b0d0cc",
+      "bodyFingerprint": "4dae4c81943b553d1efe7475",
+      "bodyCharacterCount": 3635,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T05:56:58.829Z",
+      "assessment": {
+        "centralEvent": "Maria Bartiromo out at Fox News after more than a decade; no reason specified",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "She’s a very, very dear friend.” In 2025, a lawsuit against Fox News by voting technology company Smartmatic alleged that Bartiromo spread false rumors about claims of election fraud on the air — a notion she had vehemently rejected.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "FOX Business Network’s Mornings with Maria show anchor Maria Bartiromo, speaks during an interview, June 9, 2026, in Washington. (AP Photo/Jose Luis Magana, File) By THE ASSOCIATED PRESS Updated [hour]:[minute] [AMPM] [timezone], [monthFull",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3d7f810587a71219bad2": {
+      "storyId": "3d7f810587a71219bad2",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62j5lkjg74o?at_campaign=rss&at_medium=RSS",
+      "title": "Sutton's predictions v Kasabian frontman Serge Pizzorno",
+      "source": "BBC News AI",
+      "published": "2026-09-03T19:58:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f4de4dea0438d06d7b9b6eb2",
+      "bodyFingerprint": "de3f515ba21f2f9e23fd0e05",
+      "bodyCharacterCount": 15515,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T05:56:58.854Z",
+      "assessment": {
+        "centralEvent": "Sutton's predictions v Kasabian frontman Serge Pizzorno",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "My concern for them is what happens when European football starts, but that hasn't happened yet.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Published 9 hours ago Arsenal and Chelsea have both made 100% winning starts to the new season - but something has to give when they meet at Emirates Stadium on Sunday. \"I suspect Chelsea will give Arsenal lots of the ball and try to counte",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 117,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b8c3f2e2f5a6f7fd4233": {
+      "storyId": "b8c3f2e2f5a6f7fd4233",
+      "url": "https://apnews.com/article/world-cup-basketball-us-clark-wnba-c0ea6e0d11c72b2f28007dc5c87ef8de",
+      "title": "With a new-look roster and no A'ja Wilson the US FIBA World Cup title defense gets tougher",
+      "source": "AP News AI",
+      "published": "2026-09-03T10:00:06",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d922558b64767dd0457bf8fe",
+      "bodyFingerprint": "c0e40aced82afc1649f84fdd",
+      "bodyCharacterCount": 8052,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T05:56:58.876Z",
+      "assessment": {
+        "centralEvent": "With a new-look roster and no A'ja Wilson the US FIBA World Cup title defense gets tougher",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Her husband, Olaf Lange, took over Germany and will lead the host nation.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Related Stories A 30-game win streak for US on the line at the FIBA women’s World Cup with France and others waiting 2 MIN READ Sue Bird faces a new kind of pressure as managing director of US women’s national team 2 MIN READ US women look ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.5,
+        "rawScore": 24.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.045,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "217a97ed88eaf89e29f9": {
+      "storyId": "217a97ed88eaf89e29f9",
+      "url": "https://apnews.com/article/lindsay-clancy-trial-postpartum-269ff7196d474d3b627bd052d8c0fc47",
+      "title": "Lindsay Clancy trial ends without a verdict for a sixth day after drama in the courtroom",
+      "source": "AP News AI",
+      "published": "2026-09-03T04:02:11",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2c2fe29e0bf66288f679d9b6",
+      "bodyFingerprint": "8867db30929b157912d8dfc8",
+      "bodyCharacterCount": 13426,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T05:56:58.889Z",
+      "assessment": {
+        "centralEvent": "Lindsay Clancy trial ends without a verdict for a sixth day after drama in the courtroom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "If she is acquitted, a judge could still order her confined to a mental health facility if an evaluation determines that she poses a danger to the public.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Lindsay Clancy trial ends without a verdict for a sixth day after drama in the courtroom 1 of 8 | The deadlocked jury in the Lindsay Clancy trial went home without a verdict Thursday in a dramatic sixth day of deliberations, after the jury’",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "If you or someone you know needs help, the national suicide and crisis lifeline in the U.S. is available by calling or texting 988. ___ Read More Lindsay Clancy trial takes a new twist While the jury has twice sent the judge notes saying it",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The dramatic sixth day of deliberations Thursday saw the jury’s foreperson send the judge a note saying a single juror won’t follow the court’s instructions about reasonable doubt.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.02,
+        "rawScore": 28.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-04T01:00:49.055Z"
+  "updatedAt": "2026-09-04T05:56:58.889Z"
 }
