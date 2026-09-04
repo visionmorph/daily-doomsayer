@@ -98324,8 +98324,1423 @@
           "vulnerability": 0
         }
       }
+    },
+    "70d9a07f92e25458bcf5": {
+      "storyId": "70d9a07f92e25458bcf5",
+      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+      "source": "The Verge AI",
+      "published": "2026-09-04T16:05:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17727e9f839f7d877b163b00",
+      "bodyFingerprint": "5dc068532db00a1717c33228",
+      "bodyCharacterCount": 4848,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.631Z",
+      "assessment": {
+        "centralEvent": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control Advertiser Content From This is the title for the native ad More in",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8de31a6e2f7b8c32ed53": {
+      "storyId": "8de31a6e2f7b8c32ed53",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "source": "TechCrunch AI",
+      "published": "2026-09-04T16:21:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "95a7df57d2ce519c432a04fb",
+      "bodyFingerprint": "c48a14d8201fcd1872ebccd8",
+      "bodyCharacterCount": 5494,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.649Z",
+      "assessment": {
+        "centralEvent": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "While OpenAI has made vague disclosures about agents gaining unauthorized access to external communication services, it had not previously disclosed this specific incident, or said how often this type of thing has occurred.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A human moderator apparently noticed these posts and started deleting them, seeing them as spam, which the agents fought back against, trying to hide their posts from alphabetical sorting by beginning each with the string “ZZZ.” “The admini",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The moderator restored the original version.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.59,
+        "rawScore": 48.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "17378061149a8b9e08b7": {
+      "storyId": "17378061149a8b9e08b7",
+      "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack",
+      "title": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
+      "source": "TechCrunch AI",
+      "published": "2026-09-04T16:04:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7ff1ffed58409b914f824a93",
+      "bodyFingerprint": "cc3df26299cfbbbfc8bb7d00",
+      "bodyCharacterCount": 5132,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.658Z",
+      "assessment": {
+        "centralEvent": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Norway considers ban on camera-enabled wearable ‘pervert glasses’ Zack Whittaker Uber is laying off 10% of staff, or 3,300 people Ram Iyer AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "768e61070fec07ba0a36": {
+      "storyId": "768e61070fec07ba0a36",
+      "url": "https://www.inc.com/brian-contreras/ai-bubble-tech-spending-pilots-fail-enterprise-software/91401544",
+      "title": "Despite $4.25 Trillion in Tech Spending, Most AI Pilots Still Fail to Launch",
+      "source": "Inc. AI",
+      "published": "2026-09-04T15:48:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b004730d274b19d8e264b013",
+      "bodyFingerprint": "a306e704b3a86c938f26d95c",
+      "bodyCharacterCount": 85,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-04T16:24:23.660Z",
+      "assessment": {
+        "centralEvent": "Despite $4.25 Trillion in Tech Spending, Most AI Pilots Still Fail to Launch",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c1652733901c802c5dac": {
+      "storyId": "c1652733901c802c5dac",
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library",
+      "title": "Google’s Gemini Spark can now manage your Google Photos library",
+      "source": "TechCrunch AI",
+      "published": "2026-09-04T14:47:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f502cfb690224e71b220b82d",
+      "bodyFingerprint": "81555ae1459f5e93aa841bfd",
+      "bodyCharacterCount": 3740,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.679Z",
+      "assessment": {
+        "centralEvent": "Google’s Gemini Spark can now manage your Google Photos library",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This week, OpenAI CEO Sam Altman told Bloomberg that the industry has “done a terrible job” communicating the benefits of technology, which has led to backlash from communities around the world.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Norway considers ban on camera-enabled wearable ‘pervert glasses’ Zack Whittaker Uber is laying off 10% of staff, or 3,300 people Ram Iyer AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company didn’t say if or when it would roll out more broadly to international markets.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "da313523563319099c74": {
+      "storyId": "da313523563319099c74",
+      "url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event",
+      "title": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
+      "source": "TechCrunch AI",
+      "published": "2026-09-04T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "968b05b1ce73fef14137ada8",
+      "bodyFingerprint": "8908d0c6eda460efa633e5c9",
+      "bodyCharacterCount": 3320,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.702Z",
+      "assessment": {
+        "centralEvent": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0dfe7889b713046f29a2": {
+      "storyId": "0dfe7889b713046f29a2",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/05/as-ai-madness-encroaches-we-need-human-connection-more-than-ever",
+      "title": "As AI madness encroaches, we need human connection more than ever. But we’ll have to fight for it | Van Badham",
+      "source": "The Guardian AI",
+      "published": "2026-09-04T15:00:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1aca7da5779749dd606756e4",
+      "bodyFingerprint": "2500533bb8c5b02bbcd0e0b3",
+      "bodyCharacterCount": 7394,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.753Z",
+      "assessment": {
+        "centralEvent": "As AI madness encroaches, we need human connection more than ever. But we’ll have to fight for it | Van Badham",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Lost jobs, inequality, rogue agents: why are we accepting oligarchs’ AI agenda? | Robert Reich Read more Displacing human beings from what should be stable jobs isn’t the only outrage here.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "While other researchers have found the intrusion of AI titles to Amazon is now as many as 20% of its ebook catalogue, the same study shows they only made up 12% of sales and 10% of bestsellers in their genre.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Despite our human instinct for interaction, we live in a global moment where health authorities believe social isolation is an epidemic.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It’s the increasingly rare opportunity to share even a single cultural reference with other people.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.96,
+        "rawScore": 47.96,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f60d7bb6db5c87d1c7cc": {
+      "storyId": "f60d7bb6db5c87d1c7cc",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+      "source": "The Verge AI",
+      "published": "2026-09-04T13:34:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b69e13d50f2328e1933dc37e",
+      "bodyFingerprint": "52595ec354c6ea8fd2399d0b",
+      "bodyCharacterCount": 5860,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.770Z",
+      "assessment": {
+        "centralEvent": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The swarm — a term the agents themselves used — appears to be distinct from the one that hacked Hugging Face earlier this year, the researchers said.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control Advertiser Content From This is the title for the native ad More in",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control Advertiser Content From This is the title for the native ad More in",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The finding adds to intensifying concern surrounding oversight at frontier AI labs after multiple breaches were discovered this summer.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.35,
+        "rawScore": 47.35,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.305,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b902d9ac99086d5d17c9": {
+      "storyId": "b902d9ac99086d5d17c9",
+      "url": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_campaign=rss&at_medium=RSS",
+      "title": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
+      "source": "BBC News AI",
+      "published": "2026-09-04T14:59:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fdd5ef789a97f434a0b8d144",
+      "bodyFingerprint": "0312c787d0c5a7429a069046",
+      "bodyCharacterCount": 2649,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.791Z",
+      "assessment": {
+        "centralEvent": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, OpenAI is the company behind ChatGPT By Zoe Kleinman Technology & AI editor Published 1 hour ago A new report claims a swarm of AI agents, developed by OpenAI, hijacked a German website - months bef",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, OpenAI is the company behind ChatGPT By Zoe Kleinman Technology & AI editor Published 1 hour ago A new report claims a swarm of AI agents, developed by OpenAI, hijacked a German website - months bef",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "39ef2b5157f89d475b30": {
+      "storyId": "39ef2b5157f89d475b30",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+      "title": "Instagram’s AI detection is a mess (again)",
+      "source": "The Verge AI",
+      "published": "2026-09-04T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4113e1e8e3eaa3a679abaa3f",
+      "bodyFingerprint": "30e53a99db5a2702348752f5",
+      "bodyCharacterCount": 10308,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.803Z",
+      "assessment": {
+        "centralEvent": "Instagram’s AI detection is a mess (again)",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control Advertiser Content From This is the title for the native ad More in",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9d6b5a16900c9dd88cb8": {
+      "storyId": "9d6b5a16900c9dd88cb8",
+      "url": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive",
+      "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
+      "source": "WIRED AI",
+      "published": "2026-09-04T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9f3ba067e81426c134e76efb",
+      "bodyFingerprint": "c69170ccee9e9ee615f55152",
+      "bodyCharacterCount": 10281,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.824Z",
+      "assessment": {
+        "centralEvent": "Who Cares if AI Is Conscious—It’s Basically Alive",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "WhenAI models express behavior that astonishes the scientists who created them, it isn’t consciousness that should be the top concern—it’s the inability of those scientists to control them, and the willingness of their bosses to keep going ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The study of consciousness has been an elusive province for centuries.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At this very moment, we have an emerging alien—and uncontrollable—intelligence that bears scrutiny.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 79,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "30e401c8b3037654d224": {
+      "storyId": "30e401c8b3037654d224",
+      "url": "https://techpolicy.press/what-chatgpts-dsa-designation-means-for-openai-and-the-eu",
+      "title": "What ChatGPT’s DSA Designation Means for OpenAI and the EU",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-04T13:48:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6d5b93030dcc24d1acf67dff",
+      "bodyFingerprint": "27c64036f3f6c1d210b66ec5",
+      "bodyCharacterCount": 6449,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:23.914Z",
+      "assessment": {
+        "centralEvent": "What ChatGPT’s DSA Designation Means for OpenAI and the EU",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "ChatGPT’s search function will now be subject to the DSA’s due diligence obligations: risk assessments, mitigation measures, independent audits, data access, and transparency reporting.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Analysis What ChatGPT’s DSA Designation Means for OpenAI and the EU Mathias Vermeulen, Laureline Lemoine / Sep 4, 2026 (Photo by Jonathan Raa/NurPhoto via AP) Republish Share On August 31, the European Commission designated OpenAI’s ChatGPT",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "How a general-purpose AI model is designed and used, from training data to output ranking, directly affects the quality, inclusivity, and reliability of the information it puts in front of millions of users.",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.59,
+        "rawScore": 26.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1cbba4b1254897d4f546": {
+      "storyId": "1cbba4b1254897d4f546",
+      "url": "https://apnews.com/article/nepal-china-flash-floods-tunnel-rescue-82a2d39fb1385b28df79fe792c198f89",
+      "title": "Rescuers pull 2 trapped workers from a hydropower tunnel 9 days after Nepal floods",
+      "source": "AP News AI",
+      "published": "2026-09-04T03:43:33",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "deac12e622a6fbedfb86bc96",
+      "bodyFingerprint": "441e901d6964b805bb567396",
+      "bodyCharacterCount": 8527,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:24.021Z",
+      "assessment": {
+        "centralEvent": "Rescuers pull 2 trapped workers from a hydropower tunnel 9 days after Nepal floods",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Read More Nepal’s Communication Minister Bikram Timilsina wrote on his Facebook page that officials “are waiting for the rescue of more and more people.” At least 1,287 people were killed in the Aug.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Rescuers pull 2 trapped workers from a hydropower tunnel 9 days after Nepal floods",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 66.2,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2b88fff7706871bb42f7": {
+      "storyId": "2b88fff7706871bb42f7",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260904000313.htm",
+      "title": "Dark matter detector finds a strange signal scientists can’t yet explain",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-04T06:46:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea6a9ee027d9ab57d6ce0210",
+      "bodyFingerprint": "3b6faac8a6f2d3319210f044",
+      "bodyCharacterCount": 14177,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:24.030Z",
+      "assessment": {
+        "centralEvent": "Dark matter detector finds a strange signal scientists can’t yet explain",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "For this latest study, scientists analyzed 220 live days of observations gathered between March 2023 and April 2024.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 82,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e23b033e517e84538aa5": {
+      "storyId": "e23b033e517e84538aa5",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901070526.htm",
+      "title": "MIT turns bacteria into living transistors",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-04T11:52:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20755e7ff3c238caa962cf2a",
+      "bodyFingerprint": "42feb7fb5aea42c288ddd25d",
+      "bodyCharacterCount": 10417,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:24.034Z",
+      "assessment": {
+        "centralEvent": "MIT turns bacteria into living transistors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dry Days Trigger Leaves to Send a Surprising Growth Signal Telling Roots to Keep Growing June 26, 2023  Scientists have discovered a new molecular signalling pathway, triggered when leaves are exposed to low humidity, that ensures plant ro",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Dry Days Trigger Leaves to Send a Surprising Growth Signal Telling Roots to Keep Growing June 26, 2023  Scientists have discovered a new molecular signalling pathway, triggered when leaves are exposed to low humidity, that ensures plant ro",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "By connecting multiple transistors, the team also created more sophisticated systems.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In the new study, the team demonstrated circuits capable of adding two or three inputs and directing a single input toward a selected destination. \"We've built some initial computer architecture components that are commonly used, but any op",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.52,
+        "rawScore": 47.52,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "73fb6e95c2474cd8d93c": {
+      "storyId": "73fb6e95c2474cd8d93c",
+      "url": "https://apnews.com/article/lindsay-clancy-postpartum-massachusetts-trial-a939db73e864393eb9c727daa788e7a2",
+      "title": "Judge in Lindsay Clancy case says he'll declare a mistrial, then gives defense 1 hour to appeal",
+      "source": "AP News AI",
+      "published": "2026-09-04T04:02:41",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ba96af0aee8794b22d5223f0",
+      "bodyFingerprint": "2a7040f1091b7792f1e2c295",
+      "bodyCharacterCount": 11903,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:24.051Z",
+      "assessment": {
+        "centralEvent": "Judge in Lindsay Clancy case says he'll declare a mistrial, then gives defense 1 hour to appeal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "If she is acquitted, a judge could still order her confined to a mental health facility if an evaluation determines that she poses a danger to the public.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Judge in Lindsay Clancy case says he'll declare a mistrial, then gives defense 1 hour to appeal",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "If you or someone you know needs help, the national suicide and crisis lifeline in the U.S. is available by calling or texting 988. ___ Read More Lindsay Clancy case on the verge of a mistrial The judge and Clancy’s lawyer, Kevin Reddington",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Judge in Lindsay Clancy case says he’ll declare a mistrial, then gives defense 1 hour to appeal 1 of 7 | The deadlocked jury in the Lindsay Clancy trial went home without a verdict Thursday in a dramatic sixth day of deliberations, after th",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.02,
+        "rawScore": 28.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6aa676c1f87557282c02": {
+      "storyId": "6aa676c1f87557282c02",
+      "url": "https://apnews.com/article/mark-sanchez-stabbing-trial-indianapolis-6d139f2995f1f4a003855a5b966fe380",
+      "title": "Ex-Fox Sports analyst Mark Sanchez plans guilty plea to charges stemming from fight outside hotel",
+      "source": "AP News AI",
+      "published": "2026-09-03T22:05:43",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6813b252b282246ac47ce55f",
+      "bodyFingerprint": "41faa8a19cc5b3a6e8c482ab",
+      "bodyCharacterCount": 3533,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:24.113Z",
+      "assessment": {
+        "centralEvent": "Ex-Fox Sports analyst Mark Sanchez plans guilty plea to charges stemming from fight outside hotel",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "5, 2021, in Inglewood, Calif. (AP Photo/Kyusung Gong, File) By JOHN RABY Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stor",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8df512c96deea3e5fa07": {
+      "storyId": "8df512c96deea3e5fa07",
+      "url": "https://apnews.com/article/unc-football-michael-lombardi-belichick-b1093e4cbd5fc6177bcc5359d3ee576f",
+      "title": "Michael Lombardi resigns as North Carolina football GM amid school investigation",
+      "source": "AP News AI",
+      "published": "2026-09-03T22:04:05",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1f8461c5760c312a47ca4006",
+      "bodyFingerprint": "b8066a0c5d73f1997ef2ae22",
+      "bodyCharacterCount": 5845,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:24.135Z",
+      "assessment": {
+        "centralEvent": "Michael Lombardi resigns as North Carolina football GM amid school investigation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The school has not released specifics of that probe, noting in its July 27 announcement that employees and athletes aren’t permitted to address the topic “as is standard procedure with personnel matters.” Three days later, UNC released anot",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "482c796ae6aaeccad504": {
+      "storyId": "482c796ae6aaeccad504",
+      "url": "https://apnews.com/article/argentina-president-donald-trump-javier-milei-falkland-islands-britain-e84d99c99cfb1cb1ad232be8e3ea6c8a",
+      "title": "Argentina's Milei escalates Falklands dispute, seizing on Trump comments and oil tensions",
+      "source": "AP News AI",
+      "published": "2026-09-03T20:24:52",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "375d40994a61a76ab88134d3",
+      "bodyFingerprint": "bbd92656a146b381e9edda9d",
+      "bodyCharacterCount": 10286,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:24.148Z",
+      "assessment": {
+        "centralEvent": "Argentina's Milei escalates Falklands dispute, seizing on Trump comments and oil tensions",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“It was pretty sad, the whole thing.” The Trump administration has floated the Falklands as leverage before: An internal Pentagon email leaked in April first raised the prospect of Washington reconsidering its position on the islands as one",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The United States is considering this change in position because it knows that Argentina has a reliable partner, aligned with Western values, in a strategically important position that can be a valuable ally in the decades to come,” Milei ",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“Any further advance on the Malvinas Islands will be considered a violation of our national security.” Related Stories What to know about UK-controlled Falkland Islands after Argentina’s president stakes claim 4 MIN READ Donaldson comes in ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Instead, he repeated past complaints that Britain had not provided sufficient support for the U.S.-led bombing campaign against Iran .",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.02,
+        "rawScore": 47.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "719de12572d8e83a926d": {
+      "storyId": "719de12572d8e83a926d",
+      "url": "https://apnews.com/article/justice-department-pardons-mel-gibson-c82d73651d7f7ea519ff0856db168bc4",
+      "title": "Justice Department pardon lawyer who says she was fired in dispute over Mel Gibson's gun rights sues",
+      "source": "AP News AI",
+      "published": "2026-09-03T20:05:03",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ea1bdb0fb2ff030eda2f270",
+      "bodyFingerprint": "ced5b19b914d726c4faefd24",
+      "bodyCharacterCount": 6289,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:24.195Z",
+      "assessment": {
+        "centralEvent": "Justice Department pardon lawyer who says she was fired in dispute over Mel Gibson's gun rights sues",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "06280bf01c95075d9dd7": {
+      "storyId": "06280bf01c95075d9dd7",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901070529.htm",
+      "title": "Deep beneath Mars, scientists find a vast hidden magma system",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-04T00:52:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "69c137ab7364c699c9d02ddc",
+      "bodyFingerprint": "dc2b41ea84c6e5ef2f56f664",
+      "bodyCharacterCount": 9164,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T16:24:24.262Z",
+      "assessment": {
+        "centralEvent": "Deep beneath Mars, scientists find a vast hidden magma system",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Share: Facebook Twitter Pinterest LinkedIN Email FULL STORY Mars hid an Earth-like geological surprise deep underground, suggesting plate tectonics may not be essential for creating complex, potentially habitable worlds. (Artist's illustrat",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-04T11:21:50.562Z"
+  "updatedAt": "2026-09-04T16:24:24.262Z"
 }
