@@ -100432,8 +100432,408 @@
           "vulnerability": 0
         }
       }
+    },
+    "a1862a048f051a62900a": {
+      "storyId": "a1862a048f051a62900a",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "source": "TechCrunch AI",
+      "published": "2026-09-04T21:12:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4c5b98d557d3ebdd7c7e2918",
+      "bodyFingerprint": "b97024b5056f0e9d346d9aba",
+      "bodyCharacterCount": 2407,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T22:23:14.046Z",
+      "assessment": {
+        "centralEvent": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI OpenAI launches Astra, its powerful (and controversial) new model Lucas Ropek 1 day ago AI Nvidia confirms it will buy Hugging Face for $12.9 billio",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1ecdd987baa638963021": {
+      "storyId": "1ecdd987baa638963021",
+      "url": "https://apnews.com/article/jordan-iran-us-strikes-8ea01b827305ea96b1b8dce1c3d0be67",
+      "title": "Jordan's alliance with the US makes the kingdom a target for Iranian strikes",
+      "source": "AP News AI",
+      "published": "2026-09-04T05:01:14",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f6910704b2e554fb9874c449",
+      "bodyFingerprint": "0eb302efda810c567a8f63c3",
+      "bodyCharacterCount": 10706,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T22:23:14.175Z",
+      "assessment": {
+        "centralEvent": "Jordan's alliance with the US makes the kingdom a target for Iranian strikes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Despite the risk of more strikes, Jordanian leaders say they are committed to maintaining the relationship after decades of courting deeper security ties with American officials and offering to be a reliable partner with the West in a regio",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And next door, growing Israeli settler violence in the West Bank is deeply unsettling to Jordanians who fear instability could drive many of the 2.8 million Palestinians there to flee into the kingdom, said Sean Yom, a professor at Temple U",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Besides the threat from Iran, Jordan faces other challenges, such as an economy that has buckled under millions of refugees fleeing regional conflicts.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And next door, growing Israeli settler violence in the West Bank is deeply unsettling to Jordanians who fear instability could drive many of the 2.8 million Palestinians there to flee into the kingdom, said Sean Yom, a professor at Temple U",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.34,
+        "rawScore": 28.34,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.395,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "aa3c93e49b608a6cc539": {
+      "storyId": "aa3c93e49b608a6cc539",
+      "url": "https://apnews.com/article/venus-serena-williams-doubles-us-open-e585b0c6de838c13121e703a04a87c6a",
+      "title": "Williams sisters, at 44 and 46, reunite their iconic doubles team — at Serena's daughter's urging",
+      "source": "AP News AI",
+      "published": "2026-09-04T17:05:48",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "80a3387b3acb3d835bd04bd1",
+      "bodyFingerprint": "287995079aac5c3d42ff6fb6",
+      "bodyCharacterCount": 7269,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T22:23:14.194Z",
+      "assessment": {
+        "centralEvent": "Williams sisters, at 44 and 46, reunite their iconic doubles team — at Serena's daughter's urging",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "70fb8414545dd74725a4": {
+      "storyId": "70fb8414545dd74725a4",
+      "url": "https://apnews.com/article/gas-diesel-prices-us-iran-war-ebd01b9773365ee40550dcfd7d3ebf87",
+      "title": "US diesel prices hit a record high, pushing up transportation costs for a long list of goods",
+      "source": "AP News AI",
+      "published": "2026-09-04T08:37:59",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "621e6c121cf15aea899ea8ff",
+      "bodyFingerprint": "4341341b1b3cf7cc3dcef0ff",
+      "bodyCharacterCount": 10484,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T22:23:14.212Z",
+      "assessment": {
+        "centralEvent": "US diesel prices hit a record high, pushing up transportation costs for a long list of goods",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Many global events such as conflicts, sanctions or decisions by major oil producing countries can limit or create uncertainty about the supply of oil.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The average price was $4.15 a gallon, compared with $3.20 at this time last year, according to motor club AAA, which says gas has never been above $4 a gallon on Labor Day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Many global events such as conflicts, sanctions or decisions by major oil producing countries can limit or create uncertainty about the supply of oil.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 76,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "73b356d10012ae47743e": {
+      "storyId": "73b356d10012ae47743e",
+      "url": "https://apnews.com/article/trump-white-house-video-game-arcade-d540ff089ed5b1d432715a4209b16a23",
+      "title": "White House website debuts 5 retro arcade video games that promote Trump's agenda",
+      "source": "AP News AI",
+      "published": "2026-09-03T22:10:59",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0dc524857427a6c60968111d",
+      "bodyFingerprint": "0c92a98e923f87a62198f333",
+      "bodyCharacterCount": 3211,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T22:23:14.265Z",
+      "assessment": {
+        "centralEvent": "White House website debuts 5 retro arcade video games that promote Trump's agenda",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "abae171821916dd52ce2": {
+      "storyId": "abae171821916dd52ce2",
+      "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "source": "Ars Technica AI",
+      "published": "2026-09-04T22:17:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9a1af68d7e25ff0549c5d797",
+      "bodyFingerprint": "eb2d3e4e8a7861f43861dd68",
+      "bodyCharacterCount": 5255,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T22:23:14.328Z",
+      "assessment": {
+        "centralEvent": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a statement, OpenAI said: “We are now carefully reviewing its contents and will take any necessary next steps.” The company also said that the material reviewed so far doesn’t indicate that the agents hacked the wiki, and the company not",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a statement, OpenAI later confirmed they were.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them Customize",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI permitted METR to investigate only a single week’s activity in the event rather than their entire 1o-week span, The New York Times reported .",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-04T19:38:15.200Z"
+  "updatedAt": "2026-09-04T22:23:14.328Z"
 }
