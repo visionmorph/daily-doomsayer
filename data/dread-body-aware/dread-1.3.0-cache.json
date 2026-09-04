@@ -96843,8 +96843,270 @@
           "vulnerability": 0
         }
       }
+    },
+    "3dfb68e636d86bfcd161": {
+      "storyId": "3dfb68e636d86bfcd161",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation",
+      "title": "Crusoe reportedly raises $3B at a $30B valuation",
+      "source": "TechCrunch AI",
+      "published": "2026-09-04T00:48:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e5056ff39ec1358c8d0f8e1",
+      "bodyFingerprint": "7071802a6414a5f62f33caa5",
+      "bodyCharacterCount": 2124,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T01:00:48.954Z",
+      "assessment": {
+        "centralEvent": "Crusoe reportedly raises $3B at a $30B valuation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Biotech & Health Oura files to go public Lucas Ropek 2 hours ago Transportation Tesla is asking people if they want to buy and run Cybercab fleets Kirs",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "af75cbe9f9d6a142a2be": {
+      "storyId": "af75cbe9f9d6a142a2be",
+      "url": "https://www.politico.com/news/2026/09/03/someone-has-to-go-out-on-a-limb-what-to-know-about-bernie-sanders-newest-ai-pitch-01064424",
+      "title": "‘Someone has to go out on a limb’: What to know about Bernie Sanders’ newest AI pitch",
+      "source": "POLITICO AI",
+      "published": "2026-09-03T23:16:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4155f1080e39084d30e78e82",
+      "bodyFingerprint": "ef37cfc15276aa9dd1da37b0",
+      "bodyCharacterCount": 184,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-04T01:00:48.961Z",
+      "assessment": {
+        "centralEvent": "‘Someone has to go out on a limb’: What to know about Bernie Sanders’ newest AI pitch",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The Vermont senator's proposal to ban artificial \"superintelligence\" comes on the heels of his push for a nationwide data center moratorium — and a series of troubling AI cyberattacks.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b96522a75a7b1a7bff03": {
+      "storyId": "b96522a75a7b1a7bff03",
+      "url": "https://www.bbc.co.uk/news/articles/cy0zylpdveqo?at_campaign=rss&at_medium=RSS",
+      "title": "AI tools that take notes for GPs could miss vital information, study suggests",
+      "source": "BBC News AI",
+      "published": "2026-09-03T22:32:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "76d01425bb4a05dbd1a9fa24",
+      "bodyFingerprint": "9e445b271cd9021670907955",
+      "bodyCharacterCount": 3950,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T01:00:48.997Z",
+      "assessment": {
+        "centralEvent": "AI tools that take notes for GPs could miss vital information, study suggests",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It was also found that patients may be hesitant to reveal sensitive information - such as substance abuse, domestic abuse or mental health struggles - when they know the consultation is being recorded and processed by AI.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Published 2 hours ago AI tools that are used to take medical notes from patients could miss vital information and lead to medical staff being deskilled, according to new research.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dr Lucas Seuren, of the University of Edinburgh's centre for biomedicine, self and society, said: \"Many clinicians are excited about ambient AI scribes, because they promise to cut down on paperwork. \"But the experiences of patients are poo",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "16de8392c185290a2929": {
+      "storyId": "16de8392c185290a2929",
+      "url": "https://apnews.com/article/norway-russia-vessel-seizure-arbitration-ukraine-crimea-19fe5d3ed43bf6d892be450e357d9e35",
+      "title": "Norway seizes a Russian vessel in remote Arctic, drawing Putin's ire",
+      "source": "AP News AI",
+      "published": "2026-09-03T07:30:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e221a40a3472c43214c9623d",
+      "bodyFingerprint": "c6aa163dd6ef0b2b57ec6039",
+      "bodyCharacterCount": 5136,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-04T01:00:49.055Z",
+      "assessment": {
+        "centralEvent": "Norway seizes a Russian vessel in remote Arctic, drawing Putin's ire",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "We will continue to pursue Russian assets around the world.” Putin, speaking at the Eastern Economic Forum in Vladivostok, Russia, criticized the vessel seizure and Ukrainian President Volodymyr Zelenskyy’s warning to foreign airlines to av",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Russia cannot evade responsibility simply by refusing to comply with an international arbitral award.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-03T22:37:09.808Z"
+  "updatedAt": "2026-09-04T01:00:49.055Z"
 }
