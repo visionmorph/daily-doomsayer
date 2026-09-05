@@ -100832,8 +100832,471 @@
           "vulnerability": 0
         }
       }
+    },
+    "09a044d7fb733e4f087e": {
+      "storyId": "09a044d7fb733e4f087e",
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation",
+      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "source": "TechCrunch AI",
+      "published": "2026-09-04T23:36:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "78447d48b7947bc47f1cc074",
+      "bodyFingerprint": "a8073cfc86c4372c91bb261b",
+      "bodyCharacterCount": 4263,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T00:59:53.726Z",
+      "assessment": {
+        "centralEvent": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Feds launch investigation into Tesla’s Cybercab deployment Sean O'Kane Kirsten Korosec Tesla is asking people if they want to buy and run Cybercab fleets Kirsten Korosec Norway considers ban on camera-enabled weara",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7f2fe90b2352c6f97646": {
+      "storyId": "7f2fe90b2352c6f97646",
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "source": "TechCrunch AI",
+      "published": "2026-09-04T23:15:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4984e22390585d5b21798048",
+      "bodyFingerprint": "9caada262b480d0dfca0c200",
+      "bodyCharacterCount": 6434,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T00:59:53.734Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Researchers say the company’s internally deployed agents took over an obscure German-language wiki in May and June, using it to coordinate on evaluations and swap methods to evade OpenAI’s own controls (OpenAI has not yet confirmed the swar",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Feds launch investigation into Tesla’s Cybercab deployment Sean O'Kane Kirsten Korosec Tesla is asking people if they want to buy and run Cybercab fleets Kirsten Korosec Norway considers ban on camera-enabled weara",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Unfortunately, the law doesn’t yet call for the types of independent audits that other industries require — for example, when it comes to aviation accidents and serious chemical releases, there’s the National Transportation Safety Board and",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI brought in METR and Redwood to investigate the Hugging Face portion of the incident, but the scope of their investigation stopped short of the compromise of OpenAI’s own infrastructure.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "When asked if further investigation of that incident was in the works, researchers at Redwood and METR declined to comment, and OpenAI did not respond to repeated inquiries.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.17,
+        "rawScore": 49.17,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5ca7809385314acaa6d4": {
+      "storyId": "5ca7809385314acaa6d4",
+      "url": "https://www.inc.com/kevin-haynes/nvidia-may-put-2-5-billion-into-thinking-machines-valuing-the-startup-at-40-billion/91401970",
+      "title": "Nvidia May Put $2.5 Billion Into Thinking Machines Lab, Valuing the Startup at $40 Billion",
+      "source": "Inc. AI",
+      "published": "2026-09-04T23:57:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a596270c7366718e7ed7a1ec",
+      "bodyFingerprint": "b89a4374bbc978d5a5babfed",
+      "bodyCharacterCount": 198,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-05T00:59:53.769Z",
+      "assessment": {
+        "centralEvent": "Nvidia May Put $2.5 Billion Into Thinking Machines Lab, Valuing the Startup at $40 Billion",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1e6e96fe5c8b090c16bb": {
+      "storyId": "1e6e96fe5c8b090c16bb",
+      "url": "https://apnews.com/article/iran-war-trump-strait-of-hormuz-vance-oil-7ab86fbec23313f055fc2ab47933c199",
+      "title": "Vance says Iran fight isn't a 'war' as Trump tries to navigate unpopular conflict as election nears",
+      "source": "AP News AI",
+      "published": "2026-09-04T00:30:11",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6a02a889e47bc5393b8952c4",
+      "bodyFingerprint": "f89c4d86e592408bb1d82116",
+      "bodyCharacterCount": 13254,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T00:59:53.811Z",
+      "assessment": {
+        "centralEvent": "Vance says Iran fight isn't a 'war' as Trump tries to navigate unpopular conflict as election nears",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“And they appear to be doing it again to keep prices from going too high, so that they can extend the timeline before there’s a worse price spike.” With Iran’s refusal to back down in the face of the U.S. military campaign, Trump has settle",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Vance says Iran fight isn’t a ‘war’ as Trump tries to navigate unpopular conflict as election nears 1 of 6 | Vice President JD Vance told a White House press briefing Thursday that the ongoing conflict between the United States and Iran was",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The international benchmark was around $72 per barrel the day before the conflict began.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 99,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ced0e1519877a7d6cbaa": {
+      "storyId": "ced0e1519877a7d6cbaa",
+      "url": "https://apnews.com/article/us-open-sabalenka-marijuana-a3e1cf3857573918c4c9cee6b558059d",
+      "title": "Aryna Sabalenka complains about the smell of marijuana during her US Open match",
+      "source": "AP News AI",
+      "published": "2026-09-04T19:02:43",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bb38517e1b6699c84097b280",
+      "bodyFingerprint": "69e14ea73279c42102f28e1f",
+      "bodyCharacterCount": 5055,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T00:59:53.868Z",
+      "assessment": {
+        "centralEvent": "Aryna Sabalenka complains about the smell of marijuana during her US Open match",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "abe45bbd8228bb0837a1": {
+      "storyId": "abe45bbd8228bb0837a1",
+      "url": "https://apnews.com/article/us-sanctions-cuba-economy-castro-power-energy-outages-621f86ef80bf116ff69814f9777a444c",
+      "title": "US hits Cuba with new sanctions as island's crises multiply",
+      "source": "AP News AI",
+      "published": "2026-09-03T23:10:43",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7790e367603b9754df646b64",
+      "bodyFingerprint": "152c436b22c7931ad9689f33",
+      "bodyCharacterCount": 8678,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T00:59:53.876Z",
+      "assessment": {
+        "centralEvent": "US hits Cuba with new sanctions as island's crises multiply",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Enough with the abuse.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Islandwide blackouts have become increasingly common, while daily outages in Cuba now surpass 24 hours as the aging grid fails and fuel reserves dwindle ever since U.S.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "27, 2026. (AP Photo/Ramon Espinosa) Read More 2 of 5 | Director of the International Press Center, (CPI), Abel Ernesto Derivet Vidal, left, and Cuba’s Deputy Prime Minister Oscar Perez-Oliva Fraga walk past an image of the late Fidel Castro",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Erickson said he expects the U.S. to keep targeting smaller and smaller state companies to try and push them “into a death spiral.” The U.S. has previously sanctioned entities including Cuba’s state-owned oil and gas company.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.83,
+        "rawScore": 49.83,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b42a57ff66bc6dc72d67": {
+      "storyId": "b42a57ff66bc6dc72d67",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901070543.htm",
+      "title": "Harvard scientists turn knitting into shape-shifting smart fabric",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-04T21:43:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4141c67b02f4ae681931f5e1",
+      "bodyFingerprint": "7110f112b4fcd9983e2f4397",
+      "bodyCharacterCount": 9764,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T00:59:53.972Z",
+      "assessment": {
+        "centralEvent": "Harvard scientists turn knitting into shape-shifting smart fabric",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "21, 2023  Lights could soon use the full color suite of perfectly efficient organic light-emitting diodes, or OLEDs, that last tens of thousands of hours.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 76,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-04T22:23:14.328Z"
+  "updatedAt": "2026-09-05T00:59:53.972Z"
 }
