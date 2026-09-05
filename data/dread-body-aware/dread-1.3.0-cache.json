@@ -103116,8 +103116,294 @@
           "vulnerability": 0
         }
       }
+    },
+    "5cd919ca5d3f587201db": {
+      "storyId": "5cd919ca5d3f587201db",
+      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning",
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "source": "TechCrunch AI",
+      "published": "2026-09-05T19:35:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d9fc1cb800f7f1719375967d",
+      "bodyFingerprint": "a5e05e28f59b36dc46a54da4",
+      "bodyCharacterCount": 2199,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T21:17:03.597Z",
+      "assessment": {
+        "centralEvent": "Hikers rescued after using Google Gemini for planning",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "While it’s not clear whether Gemini can take all the blame for these bad decisions, the sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required, especially when their planned 8-hou",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "979cdc1c44ac5b0470f6": {
+      "storyId": "979cdc1c44ac5b0470f6",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/06/digital-duty-of-care-can-hold-big-tech-to-account-meta-tiktok-addictive-social-media-ban",
+      "title": "An algorithm off switch isn’t enough. Big tech needs a duty of care over addictive designs | Zoe Daniel",
+      "source": "The Guardian AI",
+      "published": "2026-09-05T20:00:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5d6688ac9c152354ce376dd2",
+      "bodyFingerprint": "c008823255d9fd8672a0ee1d",
+      "bodyCharacterCount": 6501,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T21:17:03.612Z",
+      "assessment": {
+        "centralEvent": "An algorithm off switch isn’t enough. Big tech needs a duty of care over addictive designs | Zoe Daniel",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It required detailed evidence of risk assessment and mitigation by the platforms; transparency and access for independent researchers to get “under the hood” and understand the algorithm; and penalties of up to 10% of global turnover for no",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“It is too easy for big tech to design schemes that appear as structural reform but actually suit them just fine,” the sexual consent advocate said in a speech to the National Press Club in Canberra on Thursday.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It required detailed evidence of risk assessment and mitigation by the platforms; transparency and access for independent researchers to get “under the hood” and understand the algorithm; and penalties of up to 10% of global turnover for no",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1c8977291d63827041cc": {
+      "storyId": "1c8977291d63827041cc",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/06/fix-victoria-ai-ads-flooding-social-media-election-who-is-behind-them",
+      "title": "Alarming AI ads are flooding social media in the lead-up to Victoria’s election. But who is behind them?",
+      "source": "The Guardian AI",
+      "published": "2026-09-05T20:00:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "29890e91eecd8064dfa4f666",
+      "bodyFingerprint": "5a9c283aa109b12aa036680f",
+      "bodyCharacterCount": 9404,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T21:17:03.620Z",
+      "assessment": {
+        "centralEvent": "Alarming AI ads are flooding social media in the lead-up to Victoria’s election. But who is behind them?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Victoria’s tsunami of debt steals resources from policing so organised illegal tobacco criminals are making billions, recruiting vulnerable kids and making our streets unsafe,” one 30-second Fix Victoria ad says.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "These are some of the AI-generated images being used as part of a social media advertising campaign attracting thousands of views less than 100 days out from the Victorian election.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The group had been attacking Labor, Greens and independent candidates. skip past newsletter promotion after newsletter promotion Transparency International Australia’s chief executive, Clancy Moore, says while Fix Victoria does not meet the",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "93abc300132de039e733": {
+      "storyId": "93abc300132de039e733",
+      "url": "https://apnews.com/article/trump-affordability-economy-inflation-jobs-tariffs-midterms-2c0c0495d4931d3724e0144285cfa010",
+      "title": "Trump keeps heralding an economic boom, but even a solid jobs report is causing problems for him",
+      "source": "AP News AI",
+      "published": "2026-09-05T14:11:18",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "42e3a4b0fe53536225347eaa",
+      "bodyFingerprint": "fadab781503ab21bc13a691f",
+      "bodyCharacterCount": 8661,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T21:17:03.639Z",
+      "assessment": {
+        "centralEvent": "Trump keeps heralding an economic boom, but even a solid jobs report is causing problems for him",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "They say that last year’s tariffs should ultimately bring more factory work to America, while Trump’s tax cuts will create more business investment and his administration’s efforts to identify fraud will create savings for taxpayers.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The president’s approval rating on the economy was a lowly 32% in the middle of the summer, according to polling by The Associated Press-NORC Center for Public Affairs Research.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The national debt has now crossed the daunting threshold of $40 trillion and rates on the 10-year U.S.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Read More “We could have a GDP that would break every single record,” Trump said.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.91,
+        "rawScore": 46.91,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.265,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-05T19:03:24.263Z"
+  "updatedAt": "2026-09-05T21:17:03.639Z"
 }
