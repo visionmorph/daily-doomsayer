@@ -102930,8 +102930,194 @@
           "vulnerability": 2
         }
       }
+    },
+    "0951ad5c8c179ed903ec": {
+      "storyId": "0951ad5c8c179ed903ec",
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "source": "TechCrunch AI",
+      "published": "2026-09-05T18:05:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d3c444f4590d0caf2d18bc7",
+      "bodyFingerprint": "57863de3604d0513d8c3bb87",
+      "bodyCharacterCount": 4107,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T19:03:24.221Z",
+      "assessment": {
+        "centralEvent": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Feds launch investigation into Tesla’s Cybercab deployment Sean O'Kane Kirsten Korosec Tesla is asking people if they want to buy and run Cybercab fleets Kirsten Korosec Norway considers ban on camera-enabled weara",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company contrasted this with “the Hugging Face incident,” where it “followed a traditional security incident response playbook.” During a media briefing this week , Jacob Steinhardt, founder and CEO of nonprofit research lab Transluce, ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1b165fb6ab122559c3de": {
+      "storyId": "1b165fb6ab122559c3de",
+      "url": "https://www.theguardian.com/australia-news/audio/2026/sep/06/black-box-the-chatbots-spirals-ep-1-full-story-podcast",
+      "title": "Black Box: The Chatbots | Spirals | Ep 1 - podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-05T19:00:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b72243e76d3a2d271e28415",
+      "bodyFingerprint": "856588cbdaeddb70b5ac72d5",
+      "bodyCharacterCount": 692,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T19:03:24.254Z",
+      "assessment": {
+        "centralEvent": "Black Box: The Chatbots | Spirals | Ep 1 - podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "90c57522af88efe96a4f": {
+      "storyId": "90c57522af88efe96a4f",
+      "url": "https://apnews.com/article/morphew-colorado-bond-jail-arrest-5b421815f69b21e89bca6b60bd7f8906",
+      "title": "Colorado man who was free on bond in wife's alleged killing is jailed after hit-and-run",
+      "source": "AP News AI",
+      "published": "2026-09-04T22:33:57",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ba309daf60f5f26d27506de9",
+      "bodyFingerprint": "6653024f1bdab0ee694ae66a",
+      "bodyCharacterCount": 2124,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T19:03:24.263Z",
+      "assessment": {
+        "centralEvent": "Colorado man who was free on bond in wife's alleged killing is jailed after hit-and-run",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Barry Morphew leaves a Fremont County court building in Canon City, Colo., with his daughters, Macy, left, and Mallory, after charges against him in the presumed death of his wife were dismissed on April 19, 2022. (Jerilee Bennett/The Gazet",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-05T16:50:34.551Z"
+  "updatedAt": "2026-09-05T19:03:24.263Z"
 }
