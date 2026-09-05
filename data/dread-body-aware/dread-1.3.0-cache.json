@@ -103402,8 +103402,206 @@
           "vulnerability": 0
         }
       }
+    },
+    "c358d62d97f8f78d588f": {
+      "storyId": "c358d62d97f8f78d588f",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "source": "TechCrunch AI",
+      "published": "2026-09-05T22:49:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fca21ae47e5eb0941df58c22",
+      "bodyFingerprint": "16c8b0ce0c232d59ddc93200",
+      "bodyCharacterCount": 2396,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T22:59:47.813Z",
+      "assessment": {
+        "centralEvent": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure Anthony Ha 5 hours ago Apps Clucky’s new alarm app wakes you",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 10,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a769eddb4dc4aa794209": {
+      "storyId": "a769eddb4dc4aa794209",
+      "url": "https://mashable.com/tech/sept-5-instaheadshots-ai-headshot-generator-premium-plan",
+      "title": "Get InstaHeadshots AI headshots for $60",
+      "source": "Mashable AI",
+      "published": "2026-09-05T22:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6e23c9e1957ba14dd9bd1e62",
+      "bodyFingerprint": "bd1e1661c47f37c9527f3d09",
+      "bodyCharacterCount": 2819,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T22:59:47.823Z",
+      "assessment": {
+        "centralEvent": "Get InstaHeadshots AI headshots for $60",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0fe26d55a0125e605ab0": {
+      "storyId": "0fe26d55a0125e605ab0",
+      "url": "https://apnews.com/article/kamila-valieva-figure-skating-russia-64e1416903a7896706f40df7b85322fb",
+      "title": "Russian figure skater Kamila Valieva has neutral athlete status revoked, AP source says",
+      "source": "AP News AI",
+      "published": "2026-09-05T15:01:42",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e8ce5a1a4ca0599c12b534e",
+      "bodyFingerprint": "5fab94e7a82226122d1e39a4",
+      "bodyCharacterCount": 3643,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T22:59:47.916Z",
+      "assessment": {
+        "centralEvent": "Russian figure skater Kamila Valieva has neutral athlete status revoked, AP source says",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Pressure off for F1 leader Antonelli heading into home grand prix in Italy 3 MIN READ No ‘big deal’ if Jamal Musiala has another seizure, Bayern coach Kompany says 1 MIN READ How ‘brave’ small-town club Elversberg is shaking",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "31, 2026. (AP Photo/Pavel Bednyakov, File) By JAMES ELLINGWORTH Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on Go",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The person said that Valieva was initially granted neutral status under a new International Skating Union rule for this season which states that skaters from Russia and Belarus are “presumed eligible unless they fall within the disqualifyin",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-05T21:17:03.639Z"
+  "updatedAt": "2026-09-05T22:59:47.916Z"
 }
