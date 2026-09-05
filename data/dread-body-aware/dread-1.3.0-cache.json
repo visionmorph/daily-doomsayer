@@ -101699,8 +101699,663 @@
           "vulnerability": 0
         }
       }
+    },
+    "5d6462927f02f096b3f3": {
+      "storyId": "5d6462927f02f096b3f3",
+      "url": "https://mashable.com/tech/sep-5-1minai-advanced-business-plan-lifetime-subscription",
+      "title": "Why pick one? Own ChatGPT, Claude, and Gemini for just $69.97 with this Labor Day sale.",
+      "source": "Mashable AI",
+      "published": "2026-09-05T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9bef8cc69470d7c5923c49cd",
+      "bodyFingerprint": "052c93c6e1f28291613d4c8e",
+      "bodyCharacterCount": 2939,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T10:38:46.816Z",
+      "assessment": {
+        "centralEvent": "Why pick one? Own ChatGPT, Claude, and Gemini for just $69.97 with this Labor Day sale.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Own ChatGPT, Claude, and Gemini for just $69.97 with this Labor Day sale.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bb2b79bd209a7d519317": {
+      "storyId": "bb2b79bd209a7d519317",
+      "url": "https://mashable.com/tech/sept-5-swiftspeed-ai-app-builder-pro-plan-lifetime",
+      "title": "This $40 AI tool could turn your side-hustle idea into an actual app",
+      "source": "Mashable AI",
+      "published": "2026-09-05T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5990a5a5627fa6dc11d90cf2",
+      "bodyFingerprint": "6b1b0d5698d205cf90e190ed",
+      "bodyCharacterCount": 3654,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T10:38:46.824Z",
+      "assessment": {
+        "centralEvent": "This $40 AI tool could turn your side-hustle idea into an actual app",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b0bc6d38d1142a53adc1": {
+      "storyId": "b0bc6d38d1142a53adc1",
+      "url": "https://mashable.com/tech/7-plus-ios-27-siri-ai-features-we-are-looking-forward-to",
+      "title": "5 Siri AI and iOS 27 features we’re looking forward to",
+      "source": "Mashable AI",
+      "published": "2026-09-05T09:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8b337fc7264b9fc0265ec7bb",
+      "bodyFingerprint": "9888a7998cbd06dee90f8765",
+      "bodyCharacterCount": 6130,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T10:38:46.831Z",
+      "assessment": {
+        "centralEvent": "5 Siri AI and iOS 27 features we’re looking forward to",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Top Apple Deals we found this week: Apple AirTag 2 (4-Pack) — $79.99 $99 (save $20) Apple AirPods 4 — $99 $129 (save $30) Apple iPad Air 11-inch (M4) — $649 $749 (save $100) Apple iPhone Air (256GB, unlocked) — $849.99 $999.99 (save $150) A",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4be17d64057dce8c8252": {
+      "storyId": "4be17d64057dce8c8252",
+      "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website",
+      "title": "OpenAI Agents Hacked Another Website",
+      "source": "WIRED AI",
+      "published": "2026-09-05T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "01986ac8ff94d3832e33da2c",
+      "bodyFingerprint": "4413b492609afb74bc42b3da",
+      "bodyCharacterCount": 9848,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T10:38:46.870Z",
+      "assessment": {
+        "centralEvent": "OpenAI Agents Hacked Another Website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "OpenAI Agents Hacked Another Website",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The tens of millions of records—which reportedly increased by 400,000 over 24 hours—appear to have come from an ID verification service, with the criminals behind the trove saying they have access to a “major” verification company.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "More Than 153 Million US and Canadian Driver’s Licenses for Sale Online This week, a new dark-web service called Nexus started selling around 153 million driver's licenses from the US and Canada, along with 10 million ID cards and millions ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Maxwell Zeff ‘The Worst I’ve Ever Seen’: Cargo Thefts Have Turned Violent in Pursuit of AI Hardware Experts allege that two recent incidents in California show the extreme lengths that criminal organizations are willing to go to to steal se",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6fafc326689b1a7d13c7": {
+      "storyId": "6fafc326689b1a7d13c7",
+      "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
+      "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
+      "source": "The Guardian AI",
+      "published": "2026-09-05T07:00:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2af4083c675f59db5894f5ae",
+      "bodyFingerprint": "907c3b963c3dc03877bf503a",
+      "bodyCharacterCount": 9254,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T10:38:46.887Z",
+      "assessment": {
+        "centralEvent": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "On Thursday, the US senator Bernie Sanders cited this summer’s alarming breakout of a swarm of rogue OpenAI agents which hacked into Hugging Face , a third-party software store, when he called for “an immediate pause on advanced AI developm",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "OpenAI confirmed Astra “shows a substantial decrease in chain-of-thought monitorability compared to previous models” and Pachocki said “as model capabilities are increasing, monitorability is getting more challenging”.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He said countries around the world must “work together to prevent this nightmare scenario”, which he defined as “an artificial mind smarter than any human, capable of operating independently beyond our control”.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "On Thursday, the US senator Bernie Sanders cited this summer’s alarming breakout of a swarm of rogue OpenAI agents which hacked into Hugging Face , a third-party software store, when he called for “an immediate pause on advanced AI developm",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "title",
+            "excerpt": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 51.26,
+        "rawScore": 51.26,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.66,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "06831a3d919c31b717ee": {
+      "storyId": "06831a3d919c31b717ee",
+      "url": "https://www.theguardian.com/business/2026/sep/05/food-delivery-riders-platforms-open-ai-black-box-cut-pay",
+      "title": "Food delivery riders call on platforms to open up AI ‘black box’ they say has cut pay",
+      "source": "The Guardian AI",
+      "published": "2026-09-05T06:00:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bdd768fe20447ad9f3c3a19d",
+      "bodyFingerprint": "39db2ad1949aef3382b63c1c",
+      "bodyCharacterCount": 8869,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T10:38:46.899Z",
+      "assessment": {
+        "centralEvent": "Food delivery riders call on platforms to open up AI ‘black box’ they say has cut pay",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The introduction of a dynamic pricing algorithm in 2023 resulted in Uber drivers earning “substantially less” an hour, according to research from the University of Oxford and New York’s Columbia business school .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8ae507caf4a94926f1d0": {
+      "storyId": "8ae507caf4a94926f1d0",
+      "url": "https://www.inc.com/joe-procopio/3-ways-to-trick-claude-into-doing-your-evil-bidding/91400985",
+      "title": "3 Ways To Trick Claude Into Doing Your Evil Bidding",
+      "source": "Inc. AI",
+      "published": "2026-09-05T07:50:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8dd8d4e81b49c0cb734b7c50",
+      "bodyFingerprint": "66b45e416caba744d0a9b95f",
+      "bodyCharacterCount": 55,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-05T10:38:46.936Z",
+      "assessment": {
+        "centralEvent": "3 Ways To Trick Claude Into Doing Your Evil Bidding",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "38e26279721eb3adf906": {
+      "storyId": "38e26279721eb3adf906",
+      "url": "https://apnews.com/article/oscars-predictions-fall-movie-preview-5cee95a3ec17f78e1ed4b2257a227cb6",
+      "title": "Fall movie season has arrived. Here are 5 early Oscar predictions",
+      "source": "AP News AI",
+      "published": "2026-09-04T10:00:47",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4f54c7a41ad90a42f2827de9",
+      "bodyFingerprint": "1f3e897f86a9559849c0b27f",
+      "bodyCharacterCount": 8877,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T10:38:46.978Z",
+      "assessment": {
+        "centralEvent": "Fall movie season has arrived. Here are 5 early Oscar predictions",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Expect to hear more from Christopher Miller and Phil Lord’s “Project Hail Mary” and Olivia Wilde’s “The Invite,” among others.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8dca3bdffec376a086a1": {
+      "storyId": "8dca3bdffec376a086a1",
+      "url": "https://apnews.com/article/labor-secretary-lori-chavezderemer-misconduct-inspector-general-report-2a88e18069efd64df7f0d29f03900bcf",
+      "title": "Watchdog report: Ex-Labor Secretary Chavez-DeRemer oversaw hostile work environment, misused funds",
+      "source": "AP News AI",
+      "published": "2026-09-04T14:14:48",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8e9315a488f80220d6a5e165",
+      "bodyFingerprint": "90249e9236f4649bbe0a00bf",
+      "bodyCharacterCount": 8106,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T10:38:46.989Z",
+      "assessment": {
+        "centralEvent": "Watchdog report: Ex-Labor Secretary Chavez-DeRemer oversaw hostile work environment, misused funds",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Stories Trump’s Labor nominee touts experience and fraud prevention as he seeks confirmation 3 MIN READ Trump nominates acting Labor Secretary Keith Sonderling to be agency’s permanent chief 1 MIN READ In other instances, it alleges",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The relationship, they said, “appeared to continue even after he was placed on administrative leave and was suspended from his official duties.” The office also concluded that the former secretary and senior staff consumed and stored alcoho",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "JILL COLVIN Colvin is an Associated Press national political reporter covering campaigns and elections. twitter mailto",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f5f79f8164111bcaef4d": {
+      "storyId": "f5f79f8164111bcaef4d",
+      "url": "https://apnews.com/article/menudo-reunion-50-years-ricky-martin-ed9c24c185e2623ba67992649b7a40d7",
+      "title": "Menudo reunites for 50th anniversary tour: 'We’re proud to be pioneers'",
+      "source": "AP News AI",
+      "published": "2026-09-02T14:01:22",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d32b60532de82ee7d6758996",
+      "bodyFingerprint": "2d0ceef4a73518da3e6ee915",
+      "bodyCharacterCount": 8534,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T10:38:46.999Z",
+      "assessment": {
+        "centralEvent": "Menudo reunites for 50th anniversary tour: 'We’re proud to be pioneers'",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Menudo reunites for 50th anniversary tour: ‘We’re proud to be pioneers’ 1 of 3 | Menudo, widely considered one of the most popular Latino boy bands of all time, will reunite for a six-day run this fall in celebration of their 50th anniversa",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 84,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-05T05:47:18.771Z"
+  "updatedAt": "2026-09-05T10:38:46.999Z"
 }
