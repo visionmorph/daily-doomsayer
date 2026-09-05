@@ -5,23 +5,37 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-05T10:00:00.000Z",
+  "generatedAt": "2026-09-05T13:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-05",
       "stories": [
         {
+          "storyId": "6fafc326689b1a7d13c7",
+          "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
+          "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
+          "peak": 51.26,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-05",
+          "firstObservedAt": "2026-09-05T13:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
+          "average": 51.26
+        },
+        {
           "storyId": "3bf44cdfb8f59b7f06d5",
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 49.55
         },
         {
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 49.17
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 49.17
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 49.17
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 49.17
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a87505516e3a66e632977e8/master/pass/Security_FlockLetsCopsConductAISearchUsingPolitics_v1.gif",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 49.01
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d4d7/live/a14c8c30-a8c8-11f1-b109-879e35c24276.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T10:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 49.01
         },
         {
@@ -129,25 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/3M-St-Paul-Monument-place001-rgb.jpg",
           "peak": 48.84,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
-          "average": 48.84
-        },
-        {
-          "storyId": "2f1ce688a79e27310726",
-          "title": "The UAE is fighting AI hackers with AI of its own",
-          "url": "https://restofworld.org/2026/uae-ai-cyberattacks-cyber-factory-defenses/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://restofworld.org/wp-content/uploads/2026/08/AIvsAI-Final-768x432.jpg",
-          "peak": 48.84,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-05",
-          "firstObservedAt": "2026-09-05T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 48.84
         }
       ]
@@ -174,7 +174,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
           "observations": 6,
           "daysTracked": 1,
@@ -333,7 +333,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
           "observations": 6,
           "daysTracked": 1,
@@ -492,7 +492,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
           "observations": 5,
           "daysTracked": 1,
@@ -637,7 +637,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
           "observations": 7,
           "daysTracked": 1,
@@ -1098,17 +1098,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 51.65
         },
         {
+          "storyId": "6fafc326689b1a7d13c7",
+          "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
+          "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
+          "peak": 51.26,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-05",
+          "firstObservedAt": "2026-09-05T13:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
+          "average": 51.26
+        },
+        {
           "storyId": "3bf44cdfb8f59b7f06d5",
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 30,
+          "observations": 31,
           "daysTracked": 6,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1152,20 +1166,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
           "lastObservedAt": "2026-08-31T05:00:00.000Z",
           "average": 50.27
-        },
-        {
-          "storyId": "ef50ad066e690c66a70e",
-          "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
-          "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
-          "peak": 49.61,
-          "observations": 25,
-          "daysTracked": 5,
-          "peakDate": "2026-08-31",
-          "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T16:00:00.000Z",
-          "average": 49.61
         }
       ]
     },
@@ -1390,17 +1390,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 51.65
         },
         {
+          "storyId": "6fafc326689b1a7d13c7",
+          "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
+          "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
+          "peak": 51.26,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-05",
+          "firstObservedAt": "2026-09-05T13:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
+          "average": 51.26
+        },
+        {
           "storyId": "3bf44cdfb8f59b7f06d5",
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 26,
+          "observations": 27,
           "daysTracked": 5,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
+          "lastObservedAt": "2026-09-05T13:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1444,20 +1458,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
           "lastObservedAt": "2026-09-01T14:00:00.000Z",
           "average": 49.61
-        },
-        {
-          "storyId": "18514da62116892af479",
-          "title": "Why the global push to break free from Big Tech keeps falling short",
-          "url": "https://restofworld.org/2026/google-amazon-cloud-china-india/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
-          "peak": 49.55,
-          "observations": 26,
-          "daysTracked": 5,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-05T10:00:00.000Z",
-          "average": 49.55
         }
       ]
     },
