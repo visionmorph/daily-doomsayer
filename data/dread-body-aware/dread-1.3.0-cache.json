@@ -101295,8 +101295,412 @@
           "vulnerability": 0
         }
       }
+    },
+    "3e1d6c425ac38dd0059f": {
+      "storyId": "3e1d6c425ac38dd0059f",
+      "url": "https://www.bbc.co.uk/news/articles/cew9kz1kxpvo?at_campaign=rss&at_medium=RSS",
+      "title": "Flock says its cameras make US safer - so why are they being sabotaged?",
+      "source": "BBC News AI",
+      "published": "2026-09-05T01:16:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e0f27023ad6b9e2698ddfab7",
+      "bodyFingerprint": "9766d1738e78a2978278234f",
+      "bodyCharacterCount": 10445,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T05:47:18.661Z",
+      "assessment": {
+        "centralEvent": "Flock says its cameras make US safer - so why are they being sabotaged?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The AI-powered cameras have been vandalised across the US, as citizens object to the growing surveillance network.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Figure caption, Watch: Activist explains app that maps Flock camera locations By Ellie House Reporting from Houston, Texas Published 4 hours ago Houston's historic Old Braeswood neighbourhood is affluent and tree-lined.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "These cameras are run by a company called Flock Safety and this sabotage, which happened in late July, is a signal of growing concern over the nationwide spread of sophisticated AI-powered surveillance systems.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In response, she's changed her commute to work: \"I try to take different routes every day so there's not a pattern.\" But whether individual law enforcement agencies share info with the federal government is unclear.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f044f4b258d0ef26966f": {
+      "storyId": "f044f4b258d0ef26966f",
+      "url": "https://apnews.com/article/un-africa-map-mercator-equal-earth-projection-b138fe9f76d7ff54cc7d5c9b1ddfa983",
+      "title": "UN General Assembly endorses a new world map that shows more accurately Africa's size",
+      "source": "AP News AI",
+      "published": "2026-09-04T23:35:27",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a70645ba0f2718ae488be106",
+      "bodyFingerprint": "8747d824300333b478f65082",
+      "bodyCharacterCount": 3389,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T05:47:18.681Z",
+      "assessment": {
+        "centralEvent": "UN General Assembly endorses a new world map that shows more accurately Africa's size",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "11, 2011. (AP Photo/David Goldman, file) By THE ASSOCIATED PRESS Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories on G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e718be20d0a14a1275ba": {
+      "storyId": "e718be20d0a14a1275ba",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901010715.htm",
+      "title": "Quantum oscillations defy expectations in this exotic material",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-05T04:18:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "046a2f82170f3436e036354c",
+      "bodyFingerprint": "3cef78ca8cbf9c4ac0129f2d",
+      "bodyCharacterCount": 13985,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T05:47:18.691Z",
+      "assessment": {
+        "centralEvent": "Quantum oscillations defy expectations in this exotic material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The findings show that electrons in zirconium pentatelluride (ZrTe 5 ) can behave in unexpected ways when exposed to temperatures close to absolute zero and extremely powerful magnetic fields.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The findings show that electrons in zirconium pentatelluride (ZrTe 5 ) can behave in unexpected ways when exposed to temperatures close to absolute zero and extremely powerful magnetic fields.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Testing Matter Under Extreme Conditions The experiments were performed at the National High Magnetic Field Laboratory in Los Alamos, one of only a small number of facilities worldwide capable of combining pulsed magnetic fields reaching 60 ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Instead, a single-particle model based on a three-dimensional Dirac Hamiltonian and including strong spin-orbit coupling was able to reproduce the experimental regimes. \"What we saw is that the effect doesn't stem from many-body interaction",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 101,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "071026e4668c8bff93f4": {
+      "storyId": "071026e4668c8bff93f4",
+      "url": "https://apnews.com/article/election-2026-trump-mail-voting-postal-service-ce207ff2d0533de05cc2d299e91a0198",
+      "title": "Federal judge extends block on Trump executive order seeking to limit mail voting in the midterms",
+      "source": "AP News AI",
+      "published": "2026-09-04T21:45:13",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "85cf9fe8229e6fc5bf7b89e2",
+      "bodyFingerprint": "f2588faf75348ce9ef1d3bf8",
+      "bodyCharacterCount": 5526,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T05:47:18.716Z",
+      "assessment": {
+        "centralEvent": "Federal judge extends block on Trump executive order seeking to limit mail voting in the midterms",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He has falsely blamed mail balloting for his 2020 election loss, spreading baseless claims of fraud, but has so far been unable to change the longstanding voting procedure.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The preliminary injunction from U.S.",
+            "matchedRule": "/\\b(?:still developing|preliminary|early findings?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "To date, not a single state has announced that it will do so.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.43,
+        "rawScore": 45.43,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.13,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a75100b50c38cae8ba13": {
+      "storyId": "a75100b50c38cae8ba13",
+      "url": "https://www.theguardian.com/technology/audio/2026/sep/05/black-box-the-chatbots-spirals-ep-1-podcast",
+      "title": "Black Box: The Chatbots | Spirals | Ep 1 – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-05T02:00:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c06f157c8dce3da24f1c9ab8",
+      "bodyFingerprint": "84d5b3eeaad67366e5d1c8e3",
+      "bodyCharacterCount": 603,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T05:47:18.765Z",
+      "assessment": {
+        "centralEvent": "Black Box: The Chatbots | Spirals | Ep 1 – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "20f5ec0dcbbf18c66493": {
+      "storyId": "20f5ec0dcbbf18c66493",
+      "url": "https://apnews.com/article/kyrsten-sinema-bodyguard-homewrecker-lawsuit-15b185d781bf3f5e6281fbd46333c0ae",
+      "title": "Judge clears a lawsuit against Kyrsten Sinema under North Carolina's 'homewrecker' law",
+      "source": "AP News AI",
+      "published": "2026-09-04T19:57:51",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a0b06914d608fd6aed060c7b",
+      "bodyFingerprint": "5a7f699d0eb482072b98eecc",
+      "bodyCharacterCount": 2899,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-05T05:47:18.771Z",
+      "assessment": {
+        "centralEvent": "Judge clears a lawsuit against Kyrsten Sinema under North Carolina's 'homewrecker' law",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Kyrsten Sinema can be sued under North Carolina’s homewrecker law over her relationship with a member of her security detail, a judge ruled Friday.",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-05T00:59:53.972Z"
+  "updatedAt": "2026-09-05T05:47:18.771Z"
 }
