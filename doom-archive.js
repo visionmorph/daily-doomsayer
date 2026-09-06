@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-06T21:00:00.000Z",
+  "generatedAt": "2026-09-06T23:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-06",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 51.26,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 51.26
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/ffc7f03/2147483647/strip/true/crop/3050x2032+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8b%2F2a%2Fca1b58787eb7aa9d545b67b973b3%2F723207af8d7b4e55800e6b6002e01325",
           "peak": 49.99,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T21:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 49.99
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 49.55
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/02nmLnQuzyfWhNjD4DLJDYT/hero-image.jpg",
           "peak": 49.34,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T14:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 49.34
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 49.17
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.17,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 49.17
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
           "peak": 49.17,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 49.17
         }
       ]
@@ -1263,11 +1263,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 51.26,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 2,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T13:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 51.26
         },
         {
@@ -1277,11 +1277,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 42,
+          "observations": 43,
           "daysTracked": 7,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1555,11 +1555,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 51.26,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 2,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T13:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 51.26
         },
         {
@@ -1569,11 +1569,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 38,
+          "observations": 39,
           "daysTracked": 6,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1597,11 +1597,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/ffc7f03/2147483647/strip/true/crop/3050x2032+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8b%2F2a%2Fca1b58787eb7aa9d545b67b973b3%2F723207af8d7b4e55800e6b6002e01325",
           "peak": 49.99,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T21:00:00.000Z",
-          "lastObservedAt": "2026-09-06T21:00:00.000Z",
+          "lastObservedAt": "2026-09-06T23:00:00.000Z",
           "average": 49.99
         }
       ]
