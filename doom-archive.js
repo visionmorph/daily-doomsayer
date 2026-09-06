@@ -5,23 +5,37 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-06T05:00:00.000Z",
+  "generatedAt": "2026-09-06T11:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-06",
       "stories": [
         {
+          "storyId": "dbdb05d68256d3a01b36",
+          "title": "Putin meets with US envoys at the Kremlin for renewed talks on ending the war in Ukraine",
+          "url": "https://apnews.com/article/russia-ukraine-war-kushner-witkoff-visit-36a991feaff241bb8f24857ac159202a",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/247e665/2147483647/strip/true/crop/3342x2227+0+160/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4c%2F29%2Ffd2a591e158a9d96339af190296f%2F9decac750302497ca6e76873c6413d61",
+          "peak": 69.17,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-06",
+          "firstObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "average": 69.17
+        },
+        {
           "storyId": "6fafc326689b1a7d13c7",
           "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
           "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
           "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 51.26,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 51.26
         },
         {
@@ -31,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/2cf0e37/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc2%2F02%2F59affd348701aaff358a8ec7010c%2F49362fe7898047c3a0e76cb94b304a0c",
           "peak": 49.77,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 49.77
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 49.55
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 49.17
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.17,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 49.17
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
           "peak": 49.17,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 49.17
         },
         {
@@ -115,26 +129,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.17,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 49.17
-        },
-        {
-          "storyId": "301317348545cbdd6c29",
-          "title": "This Is Flock’s AI Search Tool for Cops",
-          "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a87505516e3a66e632977e8/master/pass/Security_FlockLetsCopsConductAISearchUsingPolitics_v1.gif",
-          "peak": 49.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-09-06",
-          "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
-          "average": 49.01
         },
         {
           "storyId": "3e1d6c425ac38dd0059f",
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d4d7/live/a14c8c30-a8c8-11f1-b109-879e35c24276.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 49.01
         }
       ]
@@ -160,7 +160,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
           "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
           "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 51.26,
           "observations": 6,
           "daysTracked": 1,
@@ -1215,6 +1215,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 70.16
         },
         {
+          "storyId": "dbdb05d68256d3a01b36",
+          "title": "Putin meets with US envoys at the Kremlin for renewed talks on ending the war in Ukraine",
+          "url": "https://apnews.com/article/russia-ukraine-war-kushner-witkoff-visit-36a991feaff241bb8f24857ac159202a",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/247e665/2147483647/strip/true/crop/3342x2227+0+160/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4c%2F29%2Ffd2a591e158a9d96339af190296f%2F9decac750302497ca6e76873c6413d61",
+          "peak": 69.17,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-06",
+          "firstObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "average": 69.17
+        },
+        {
           "storyId": "1ba2d1aad50f660a62cd",
           "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
           "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
@@ -1247,13 +1261,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
           "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
           "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 51.26,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T13:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 51.26
         },
         {
@@ -1263,11 +1277,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 37,
+          "observations": 38,
           "daysTracked": 7,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1297,20 +1311,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-02T18:00:00.000Z",
           "lastObservedAt": "2026-09-03T00:00:00.000Z",
           "average": 50.55
-        },
-        {
-          "storyId": "7bf10f0134b168e1bd5d",
-          "title": "AI Meets the US Midterm Elections",
-          "url": "https://techpolicy.press/newsletter-august-16-2026",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 50.27,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-08-31",
-          "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-08-31T05:00:00.000Z",
-          "average": 50.27
         }
       ]
     },
@@ -1507,6 +1507,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 70.16
         },
         {
+          "storyId": "dbdb05d68256d3a01b36",
+          "title": "Putin meets with US envoys at the Kremlin for renewed talks on ending the war in Ukraine",
+          "url": "https://apnews.com/article/russia-ukraine-war-kushner-witkoff-visit-36a991feaff241bb8f24857ac159202a",
+          "source": "AP News AI",
+          "image": "https://dims.apnews.com/dims4/default/247e665/2147483647/strip/true/crop/3342x2227+0+160/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4c%2F29%2Ffd2a591e158a9d96339af190296f%2F9decac750302497ca6e76873c6413d61",
+          "peak": 69.17,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-06",
+          "firstObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "average": 69.17
+        },
+        {
           "storyId": "1ba2d1aad50f660a62cd",
           "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
           "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
@@ -1539,13 +1553,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
           "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
           "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 51.26,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T13:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 51.26
         },
         {
@@ -1555,11 +1569,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 33,
+          "observations": 34,
           "daysTracked": 6,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1583,26 +1597,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/2cf0e37/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc2%2F02%2F59affd348701aaff358a8ec7010c%2F49362fe7898047c3a0e76cb94b304a0c",
           "peak": 49.77,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T19:00:00.000Z",
-          "lastObservedAt": "2026-09-06T05:00:00.000Z",
+          "lastObservedAt": "2026-09-06T11:00:00.000Z",
           "average": 49.77
-        },
-        {
-          "storyId": "ef50ad066e690c66a70e",
-          "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
-          "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg",
-          "peak": 49.61,
-          "observations": 21,
-          "daysTracked": 4,
-          "peakDate": "2026-09-01",
-          "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-04T16:00:00.000Z",
-          "average": 49.61
         }
       ]
     },
