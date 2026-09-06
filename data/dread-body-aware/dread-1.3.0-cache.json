@@ -104882,8 +104882,518 @@
           "vulnerability": 0
         }
       }
+    },
+    "632e747639f17525fd5f": {
+      "storyId": "632e747639f17525fd5f",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business",
+      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "source": "TechCrunch AI",
+      "published": "2026-09-06T16:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "29517df948784a1a8fea980a",
+      "bodyFingerprint": "56c766e1e7c269cf83d0267a",
+      "bodyCharacterCount": 2399,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T17:05:58.445Z",
+      "assessment": {
+        "centralEvent": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Transportation TechCrunch Mobility: Tesla Cybercab hits the road — and a snag Kirsten Korosec 38 minutes ago Hardware Let’s take a look at the retro te",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 10,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a340f27b1683581cb47b": {
+      "storyId": "a340f27b1683581cb47b",
+      "url": "https://www.inc.com/kimanzi-constable/the-ai-talent-war-is-heating-up-and-google-deepmind-is-feeling-it/91401054",
+      "title": "The AI Talent War Is Heating Up, and Google DeepMind Is Feeling It",
+      "source": "Inc. AI",
+      "published": "2026-09-06T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5bd93f252ea221632d11907b",
+      "bodyFingerprint": "3c22d85aa0bb0c359d84c10f",
+      "bodyCharacterCount": 53,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-06T17:05:58.473Z",
+      "assessment": {
+        "centralEvent": "The AI Talent War Is Heating Up, and Google DeepMind Is Feeling It",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cc2a25db85748676eadd": {
+      "storyId": "cc2a25db85748676eadd",
+      "url": "https://mashable.com/tech/openai-microsoft-face-another-publishing-lawsuit",
+      "title": "OpenAI, Microsoft face copyright lawsuit from local newspapers",
+      "source": "Mashable AI",
+      "published": "2026-09-06T15:37:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "be71fca0531478fba8f4a9da",
+      "bodyFingerprint": "1934971ad3641e251f115498",
+      "bodyCharacterCount": 3639,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T17:05:58.517Z",
+      "assessment": {
+        "centralEvent": "OpenAI, Microsoft face copyright lawsuit from local newspapers",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "SEE ALSO: Massachusetts state police ordered to make surveillance camera locations public The chatbots were able to reproduce entire passages and closely paraphrase reporters' work, the publishers claim.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The lawsuit demands that the tech companies destroy any existing copies of the published material, as well as training datasets or AI models that incorporate it, Reuters reported.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Related Stories OpenAI officially launches GPT-6 Astra, a boundary-breaking new model Apple reveals ‘shocking evidence’ in OpenAI trade secrets lawsuit Elon Musk's SpacexAI faces another lawsuit from child sexual abuse survivor Meta will pa",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6e33326553c19e6875c1": {
+      "storyId": "6e33326553c19e6875c1",
+      "url": "https://www.inc.com/heather-wilde/ai-is-leaving-the-screen-and-changing-the-physical-world/91399578",
+      "title": "AI Is Leaving the Screen and Changing the Physical World",
+      "source": "Inc. AI",
+      "published": "2026-09-06T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1d8538e7c9ed38c27303ee76",
+      "bodyFingerprint": "05d86622b955b73af7afc28b",
+      "bodyCharacterCount": 50,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-06T17:05:58.520Z",
+      "assessment": {
+        "centralEvent": "AI Is Leaving the Screen and Changing the Physical World",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9146fac20ceff442c26e": {
+      "storyId": "9146fac20ceff442c26e",
+      "url": "https://www.inc.com/entrepreneurs-organization/i-made-my-most-important-ai-agent-take-an-exam-it-failed/91399860",
+      "title": "I Made My Most Important AI Agent Take an Exam. It Failed",
+      "source": "Inc. AI",
+      "published": "2026-09-06T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2437a7c05d90f68432f86568",
+      "bodyFingerprint": "e5a06c037ecffc4f8d9e5089",
+      "bodyCharacterCount": 44,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-06T17:05:58.557Z",
+      "assessment": {
+        "centralEvent": "I Made My Most Important AI Agent Take an Exam. It Failed",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 1,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "78a4a6af41a39b533caf": {
+      "storyId": "78a4a6af41a39b533caf",
+      "url": "https://apnews.com/article/indonesia-volcano-eruption-airport-flights-cancel-12c3cb67859b2c51054b378d60148d33",
+      "title": "Volcanic island in Indonesia erupts, forcing the cancellation of hundreds of flights",
+      "source": "AP News AI",
+      "published": "2026-09-06T01:46:15",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d5ee5140f272c9860369cc6",
+      "bodyFingerprint": "f1fcaf101ac417c10a77b5b9",
+      "bodyCharacterCount": 10467,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T17:05:58.657Z",
+      "assessment": {
+        "centralEvent": "Volcanic island in Indonesia erupts, forcing the cancellation of hundreds of flights",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sunday and for 16 seconds about three hours later, Indonesia’s Geological Agency said.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2254fed5267d6b16663d": {
+      "storyId": "2254fed5267d6b16663d",
+      "url": "https://apnews.com/article/cardinals-tilted-hats-eddings-7f9895ea8e4f08700593a4abf6b1c030",
+      "title": "Cardinals, Rockies players tilt caps a day after umpire Eddings' comments to St. Louis rookie",
+      "source": "AP News AI",
+      "published": "2026-09-06T02:29:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "742f109e2065e6548cf2b104",
+      "bodyFingerprint": "14fee0e19a3a8de1d3171435",
+      "bodyCharacterCount": 7720,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T17:05:58.669Z",
+      "assessment": {
+        "centralEvent": "Cardinals, Rockies players tilt caps a day after umpire Eddings' comments to St. Louis rookie",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Goodman was the only hitter to face Rincon at the time of the warning, and the catcher told MLB.com on Saturday that he did not complain to Eddings.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "4, 2026, in Denver. (AP Photo/David Zalubowski) Read More Cardinals, Rockies players tilt caps a day after umpire Eddings’ comments to St.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Rincon allowed another single before being replaced by Justin Bruihl.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "aa3eecb4e3f8be933edb": {
+      "storyId": "aa3eecb4e3f8be933edb",
+      "url": "https://apnews.com/article/trump-midterms-iran-tariffs-data-centers-f07499f53269e37ccd2565564cc01e4e",
+      "title": "A whiplash election year enters its final stretch as Trump holds wild cards",
+      "source": "AP News AI",
+      "published": "2026-09-06T11:23:03",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "589b47ffef37164f30eb27f0",
+      "bodyFingerprint": "df3c409e87c287acf85876f9",
+      "bodyCharacterCount": 15933,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T17:05:58.689Z",
+      "assessment": {
+        "centralEvent": "A whiplash election year enters its final stretch as Trump holds wild cards",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "His effort to limit mail ballots could add uncertainty to the voting process just as such ballots are being distributed in states like North Carolina, home to a critical U.S.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Mark Gordon of Wyoming, a Republican, said recently that the behavior of Justice Department officials who monitored poll workers and observed voters was “a bit aggressive” and “irregular.” “I feel very strongly about the federal government ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Since President Donald Trump entered politics more than a decade ago, he’s had a knack for dominating the national conversation so thoroughly that it can be hard to keep up.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Missouri’s Republican attorney general is appealing a court ruling last week that blocked a Trump-backed map there.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 102,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.63,
+        "rawScore": 27.63,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-06T14:12:49.306Z"
+  "updatedAt": "2026-09-06T17:05:58.689Z"
 }
