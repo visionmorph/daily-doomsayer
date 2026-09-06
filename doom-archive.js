@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-06T11:00:00.000Z",
+  "generatedAt": "2026-09-06T14:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-06",
@@ -29,13 +29,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
           "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
           "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=800&dpr=2&s=none&crop=none",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 51.26,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 51.26
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/2cf0e37/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc2%2F02%2F59affd348701aaff358a8ec7010c%2F49362fe7898047c3a0e76cb94b304a0c",
           "peak": 49.77,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 49.77
         },
         {
@@ -73,12 +73,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 49.55
+        },
+        {
+          "storyId": "ee57b998ced3fa297410",
+          "title": "How AI child sexual abuse material is colliding with free speech protections",
+          "url": "https://mashable.com/tech/ai-generated-child-sexual-abuse-material-ruling",
+          "source": "Mashable AI",
+          "image": "https://helios-i.mashable.com/imagery/articles/02nmLnQuzyfWhNjD4DLJDYT/hero-image.jpg",
+          "peak": 49.34,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-06",
+          "firstObservedAt": "2026-09-06T14:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
+          "average": 49.34
         },
         {
           "storyId": "b95ed8026c025433b444",
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 49.17
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 49.17
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 49.17
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-06",
           "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 49.17
-        },
-        {
-          "storyId": "3e1d6c425ac38dd0059f",
-          "title": "Flock says its cameras make US safer - so why are they being sabotaged?",
-          "url": "https://www.bbc.co.uk/news/articles/cew9kz1kxpvo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d4d7/live/a14c8c30-a8c8-11f1-b109-879e35c24276.jpg",
-          "peak": 49.01,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-06",
-          "firstObservedAt": "2026-09-06T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
@@ -160,7 +160,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
           "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
           "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=800&dpr=2&s=none&crop=none",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 51.26,
           "observations": 6,
           "daysTracked": 1,
@@ -1261,13 +1261,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
           "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
           "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=800&dpr=2&s=none&crop=none",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 51.26,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T13:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 51.26
         },
         {
@@ -1277,11 +1277,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 38,
+          "observations": 39,
           "daysTracked": 7,
           "peakDate": "2026-08-31",
           "firstObservedAt": "2026-08-31T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1553,13 +1553,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?",
           "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
           "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=800&dpr=2&s=none&crop=none",
+          "image": "https://i.guim.co.uk/img/media/60d7e7e81794fd869d6ab863955afeaf44c17065/1133_0_6250_5000/master/6250.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 51.26,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T13:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 51.26
         },
         {
@@ -1569,11 +1569,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 34,
+          "observations": 35,
           "daysTracked": 6,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1597,11 +1597,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "AP News AI",
           "image": "https://dims.apnews.com/dims4/default/2cf0e37/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc2%2F02%2F59affd348701aaff358a8ec7010c%2F49362fe7898047c3a0e76cb94b304a0c",
           "peak": 49.77,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-09-05",
           "firstObservedAt": "2026-09-05T19:00:00.000Z",
-          "lastObservedAt": "2026-09-06T11:00:00.000Z",
+          "lastObservedAt": "2026-09-06T14:00:00.000Z",
           "average": 49.77
         }
       ]
