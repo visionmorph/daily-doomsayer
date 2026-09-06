@@ -105392,8 +105392,166 @@
           "vulnerability": 0
         }
       }
+    },
+    "6f3a9c077333c05689e9": {
+      "storyId": "6f3a9c077333c05689e9",
+      "url": "https://apnews.com/article/trump-mail-voting-executive-order-lawsuit-65067233db6ebda8dedcdc3f6714a96c",
+      "title": "Trump administration makes another appeal to the Supreme Court to allow mail ballot restrictions",
+      "source": "AP News AI",
+      "published": "2026-09-06T14:30:26",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2fda7deda6e7a5e4cbc47a86",
+      "bodyFingerprint": "9d4fd71daf2bb1fc98447b1b",
+      "bodyCharacterCount": 7841,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T19:14:32.890Z",
+      "assessment": {
+        "centralEvent": "Trump administration makes another appeal to the Supreme Court to allow mail ballot restrictions",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He has falsely blamed mail balloting for his 2020 election loss to Democrat Joe Biden , spreading baseless claims of fraud.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The high court has allowed the plan to move forward but not ruled on whether it is legal.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The Trump administration is renewing its appeal to the Supreme Court after a federal judge blocked new restrictions on mail ballots ahead of the midterms.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.15,
+        "rawScore": 46.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "97a55218fb39fe957962": {
+      "storyId": "97a55218fb39fe957962",
+      "url": "https://apnews.com/article/san-diego-mosque-shooting-caleb-vazquez-fbi-c77f20815e1d3a514f9f5643e3f348df",
+      "title": "Parents of San Diego mosque gunman say a mental health facility failed to heed FBI warning",
+      "source": "AP News AI",
+      "published": "2026-09-05T23:41:08",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6c3e1a2c2c7c3e936984745c",
+      "bodyFingerprint": "1024a2fa4d33d71af7d27d0f",
+      "bodyCharacterCount": 6384,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T19:14:32.903Z",
+      "assessment": {
+        "centralEvent": "Parents of San Diego mosque gunman say a mental health facility failed to heed FBI warning",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Video surveillance footage subsequently showed Vazquez leaving the property at 8 p.m. the night before.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Parents of San Diego mosque gunman say a mental health facility failed to heed FBI warning 1 of 3 | People embrace near the scene of a shooting outside the Islamic Center in San Diego, May 18, 2026, (AP Photo/Gregory Bull, File) Read More 2",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "SAFIYAH RIDDLE Riddle is a national law enforcement reporter based in Los Angeles, California. mailto",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Only he and his coconspirator bear responsibility for their conduct and, ultimately, his death.” Sign up for Morning Wire: Our flagship newsletter breaks down the biggest headlines of the day.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Federal law enforcement warned the parents of Caleb Vazquez, one of two teenagers involved in a San Diego mosque shooting, about his concerning online comments days before the attack.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.99,
+        "rawScore": 49.99,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.545,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-06T17:05:58.689Z"
+  "updatedAt": "2026-09-06T19:14:32.903Z"
 }
