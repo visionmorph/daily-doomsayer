@@ -105550,8 +105550,209 @@
           "vulnerability": 0
         }
       }
+    },
+    "b5898210effe4127fb3c": {
+      "storyId": "b5898210effe4127fb3c",
+      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement",
+      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "source": "TechCrunch AI",
+      "published": "2026-09-06T20:47:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2918c49a875fec5d38d70cfb",
+      "bodyFingerprint": "8e2bfcb833d0d62f68d98083",
+      "bodyCharacterCount": 4890,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T21:24:57.200Z",
+      "assessment": {
+        "centralEvent": "Authors push back as publishers and agents make claims on Anthropic settlement",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Anthropic settled a copyright class action suit last year, after a judge ruled that training AI models on copyrighted material is legal under fair use doctrine, but pirating that material was not.",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9dd6e75bbac133af6131": {
+      "storyId": "9dd6e75bbac133af6131",
+      "url": "https://apnews.com/article/amazon-cargo-plane-miami-airport-47411c751782887757922efa5f634aa5",
+      "title": "Amazon cargo plane sends up billowing cloud of smoke after overrunning runway at Miami airport",
+      "source": "AP News AI",
+      "published": "2026-09-06T19:21:41",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "175071d9344fc7ac7b905917",
+      "bodyFingerprint": "361930304949524988bbbe13",
+      "bodyCharacterCount": 6312,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T21:24:57.232Z",
+      "assessment": {
+        "centralEvent": "Amazon cargo plane sends up billowing cloud of smoke after overrunning runway at Miami airport",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Prime Air plane came to rest beside a roadway near two semi-trucks, according to images from the scene.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dac429f11d5ae4618d7d": {
+      "storyId": "dac429f11d5ae4618d7d",
+      "url": "https://apnews.com/article/germany-saxony-anhalt-election-far-right-afd-c538060710a2495c72425b6468df0d40",
+      "title": "German far-right party set for regional election triumph but uncertain of governing",
+      "source": "AP News AI",
+      "published": "2026-09-06T06:08:24",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "191112fcd27d1c11d999c384",
+      "bodyFingerprint": "4848e3648bbcdbc5aa432849",
+      "bodyCharacterCount": 17816,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T21:24:57.248Z",
+      "assessment": {
+        "centralEvent": "German far-right party set for regional election triumph but uncertain of governing",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit Read More Related Stories German companies under pressure to adapt as China challenges them at their own game 5 MIN READ 12 An upcoming election",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The influence there of Saxony-Anhalt, one of the smaller states in a nation of 83.5 people, is limited — it controls four of the 69 votes. ___ Geir Moulson reported from Berlin.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "title",
+            "excerpt": "German far-right party set for regional election triumph but uncertain of governing",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Every day this man is in the chancellery is one too many.” Top candidate Ulrich Siegmund shows thumbs up beside party leaders Tino Chrupalla and Alice Weidel, from left, at an election party of the “Alternative for Germany” (AfD) after the ",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.91,
+        "rawScore": 27.91,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.355,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-06T19:14:32.903Z"
+  "updatedAt": "2026-09-06T21:24:57.249Z"
 }
