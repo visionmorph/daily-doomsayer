@@ -104117,8 +104117,358 @@
           "vulnerability": 0
         }
       }
+    },
+    "ee57b998ced3fa297410": {
+      "storyId": "ee57b998ced3fa297410",
+      "url": "https://mashable.com/tech/ai-generated-child-sexual-abuse-material-ruling",
+      "title": "How AI child sexual abuse material is colliding with free speech protections",
+      "source": "Mashable AI",
+      "published": "2026-09-06T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "98ba91ad5c76e0079a34ae26",
+      "bodyFingerprint": "4e793a55a03c35c682894fc3",
+      "bodyCharacterCount": 7596,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T11:00:38.379Z",
+      "assessment": {
+        "centralEvent": "How AI child sexual abuse material is colliding with free speech protections",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "How AI child sexual abuse material is colliding with free speech protections",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Namely, in 1969, the Supreme Court ruled in Stanley v.",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Meta, Instagram's parent company, detected and reported the image and reported it to the National Center for Missing and Exploited Children's CyberTipline .",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The decision recognized that, possession of CSAM, even if viewed only in the home, serves both as a permanent record of a child's abuse and as a potential lure for other victims.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.34,
+        "rawScore": 49.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4551964ee1bb58136133": {
+      "storyId": "4551964ee1bb58136133",
+      "url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts",
+      "title": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
+      "source": "WIRED AI",
+      "published": "2026-09-06T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d84c178b62636e1c599e9f41",
+      "bodyFingerprint": "a4b6e27bdc38ee26cb071c7f",
+      "bodyCharacterCount": 10624,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T11:00:38.430Z",
+      "assessment": {
+        "centralEvent": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like In your inbox: WIRED's most ambitious, future-defining stories AI slop backlash is actually having an impact Big Story: The cop who took on Flock The rise of ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In late August, X announced that it had identified 200 accounts linked to China that were helping to spread anti-data center talking points on the platform, causing a flurry of alarmist headlines and tweets. (“China is secretly fueling Amer",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“AI is just a tool,” one person tells WIRED.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Kate Knibbs ‘The Worst I’ve Ever Seen’: Cargo Thefts Have Turned Violent in Pursuit of AI Hardware Experts allege that two recent incidents in California show the extreme lengths that criminal organizations are willing to go to to steal ser",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.36,
+        "rawScore": 27.36,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.305,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e008a204ceb80f12bf23": {
+      "storyId": "e008a204ceb80f12bf23",
+      "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai",
+      "title": "My Brief Summer Fling With Siri AI",
+      "source": "WIRED AI",
+      "published": "2026-09-06T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ef8bdebb366be05a5ad07680",
+      "bodyFingerprint": "093b4999a1507572e46f9258",
+      "bodyCharacterCount": 7390,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T11:00:38.439Z",
+      "assessment": {
+        "centralEvent": "My Brief Summer Fling With Siri AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Will Siri bear the weight of criticism for not being as good as some of its peers?",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "David Nield OpenAI Is Developing a ‘Persistent’ AI Agent Code reviewed by WIRED reveals the company is developing a feature that enables Codex to continue working proactively until it is “put to sleep.” Maxwell Zeff Silicon Valley Doesn't G",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Ramon Llamas, a research director analyzing the mobile device market at the International Data Corporation , believes users deep in the Apple ecosystem, who previously had qualms about the safety of other AI tools, may be open to trying the",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a599a715e5b331e861c9": {
+      "storyId": "a599a715e5b331e861c9",
+      "url": "https://apnews.com/article/michigan-western-michigan-score-95cd312e290a27cb72453f4d09a8a210",
+      "title": "Wait just a second: No. 16 Michigan catches second-chance Hail Mary, survives scare vs WMU",
+      "source": "AP News AI",
+      "published": "2026-09-06T03:06:59",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9e6acd8fcb9fb05190a5f087",
+      "bodyFingerprint": "6b8180e9b88fd198eba4f395",
+      "bodyCharacterCount": 9136,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T11:00:38.468Z",
+      "assessment": {
+        "centralEvent": "Wait just a second: No. 16 Michigan catches second-chance Hail Mary, survives scare vs WMU",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "TV replays showed the clock hitting zero before the ball hit the hands of a Western Michigan defender, but officials ruled there was a second still to play.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a8d610b4f01fc8ccac10": {
+      "storyId": "a8d610b4f01fc8ccac10",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260903064215.htm",
+      "title": "AI can now control fusion plasma faster than humans can react",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-06T07:28:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e27c76ceaa3ee9451c5b04fc",
+      "bodyFingerprint": "2b99bc6c2032eafda2999843",
+      "bodyCharacterCount": 12792,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T11:00:38.488Z",
+      "assessment": {
+        "centralEvent": "AI can now control fusion plasma faster than humans can react",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "AI Tested on a Real Fusion Machine Researchers demonstrated PACMAN's flexibility in five experiments using the DOE's DIII-D National Fusion Facility tokamak in San Diego.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-06T05:59:26.463Z"
+  "updatedAt": "2026-09-06T11:00:38.488Z"
 }
