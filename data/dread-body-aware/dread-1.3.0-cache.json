@@ -104467,8 +104467,423 @@
           "vulnerability": 0
         }
       }
+    },
+    "e0b49a58c78598e4c1f2": {
+      "storyId": "e0b49a58c78598e4c1f2",
+      "url": "https://www.theguardian.com/technology/2026/sep/06/daniel-susskind-father-studies-ai-artificial-intelligence-what-parents-need-know",
+      "title": "I’m a father of three who studies the impact of artificial intelligence: this is what parents need to know about AI",
+      "source": "The Guardian AI",
+      "published": "2026-09-06T11:00:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "230dd881ef9d7751af3f9841",
+      "bodyFingerprint": "0cd1b63618aeb983bcfdc2e6",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T14:12:49.011Z",
+      "assessment": {
+        "centralEvent": "I’m a father of three who studies the impact of artificial intelligence: this is what parents need to know about AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "But my dad, who has the same thought as them, sees the disappointment on my face that morning – and decides to risk it.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In January 2026, Anthropic reported that 90% of the code for Claude Code – their AI-powered coding assistant – was itself written by AI.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Since 2009, literacy and numeracy have been falling among young people around the world, according to the OECD’s programme for international student assessment (Pisa); the same holds true for adults.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It doesn’t have fixed office hours or limited classroom time.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It doesn’t have fixed office hours or limited classroom time.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 154,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.99,
+        "rawScore": 27.99,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "32780c30a457808ee4e7": {
+      "storyId": "32780c30a457808ee4e7",
+      "url": "https://www.theguardian.com/technology/2026/sep/06/ai-food-menu-images",
+      "title": "Uncanny and unappetizing: appetites spoil as AI images take over food menus",
+      "source": "The Guardian AI",
+      "published": "2026-09-06T13:00:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8498b4522556cb3056c1076",
+      "bodyFingerprint": "24bc463063dacf1a9c1f9564",
+      "bodyCharacterCount": 7427,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T14:12:49.027Z",
+      "assessment": {
+        "centralEvent": "Uncanny and unappetizing: appetites spoil as AI images take over food menus",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But consumer backlash to the technology can be swift and fierce, especially in the Bay Area, a hotbed for AI development.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“I hope it stays that way, honestly, and we can shame [restaurants] into stopping.” The manager of Jamaican Jerk and Barbecue Restaurant , the Denver restaurant that hosted a pop-up at Sennett’s hospital, confirmed that he had used ChatGPT ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Photograph: Jill Sennett A 2026 report from the National Restaurant Association found 26% of restaurant operators use AI to help with marketing, inventory management, employee scheduling, optimizing menus and taking orders.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.14,
+        "rawScore": 27.14,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "de088660f52143dc1e2f": {
+      "storyId": "de088660f52143dc1e2f",
+      "url": "https://apnews.com/article/iran-us-war-strait-hormuz-ship-attack-a52beec77dc90af3d040d0553837ad20",
+      "title": "Iran claims a strike on a US ship in the Strait of Hormuz but the US denies it",
+      "source": "AP News AI",
+      "published": "2026-09-06T07:03:36",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "395365e3edd25672b020b9ec",
+      "bodyFingerprint": "a5f6a099f0b4e8b04d0bbadb",
+      "bodyCharacterCount": 8023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T14:12:49.045Z",
+      "assessment": {
+        "centralEvent": "Iran claims a strike on a US ship in the Strait of Hormuz but the US denies it",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "At least five people were killed earlier in the week during a U.S. bombardment that returned attention to the area where a school was hit in the war’s opening strikes.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Energy Secretary Chris Wright said that on average, 9 million barrels of oil a day are getting through the strait, which should help to relieve pressure on energy prices.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More US says million barrels of oil a day pass through the strait Tehran’s new leverage focuses on the Strait of Hormuz that is crucial to global oil and natural gas shipments.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 68.18,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b4e5b69f3e0edc113fd9": {
+      "storyId": "b4e5b69f3e0edc113fd9",
+      "url": "https://apnews.com/article/israel-palestinians-west-bank-ambassador-settlers-e33f8c97f368e7babd37c6d8c0a5759d",
+      "title": "US ambassador calls violent Israeli settlers ‘terrorists’ after weeks of West Bank unrest",
+      "source": "AP News AI",
+      "published": "2026-09-05T16:00:21",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c1171d33a41c3a4206c8d63a",
+      "bodyFingerprint": "184cb49b051377eb142e8bda",
+      "bodyCharacterCount": 5011,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T14:12:49.086Z",
+      "assessment": {
+        "centralEvent": "US ambassador calls violent Israeli settlers ‘terrorists’ after weeks of West Bank unrest",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Palestinians check the damage to a mosque that, according to residents, was burned during an attack by Israeli settlers, in the West Bank village of Bazariya, Tuesday, Sept.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "08764e6b228352bac177": {
+      "storyId": "08764e6b228352bac177",
+      "url": "https://apnews.com/article/trump-midterms-maga-inc-ad-spending-texas-02c5df4adf9fa09d9063e8259625fadc",
+      "title": "Trump’s first major midterm money move: A $10M Texas Senate ad blitz",
+      "source": "AP News AI",
+      "published": "2026-09-05T17:47:20",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d8c098470681af1580ebb26e",
+      "bodyFingerprint": "307b9cbcb37000f1440a81ec",
+      "bodyCharacterCount": 6652,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T14:12:49.116Z",
+      "assessment": {
+        "centralEvent": "Trump’s first major midterm money move: A $10M Texas Senate ad blitz",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit BRIDGEWATER, N.J. (AP) — The political group associated with President Donald Trump is spending $10 million on television and digital advertisem",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "68929176e15d1ff09208": {
+      "storyId": "68929176e15d1ff09208",
+      "url": "https://techpolicy.press/virginia-eyes-ai-chatbot-rules-as-observable-risks-warrant-action",
+      "title": "Virginia Eyes AI Chatbot Rules as Observable Risks Warrant Action",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-06T13:23:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "61d195994bcd838609ec557f",
+      "bodyFingerprint": "3962b69c2183285b2dd3716c",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-06T14:12:49.306Z",
+      "assessment": {
+        "centralEvent": "Virginia Eyes AI Chatbot Rules as Observable Risks Warrant Action",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "So JCOTS is a permanent legislative agency that produces research and analysis for legislators in the state of Virginia and the Commonwealth of Virginia.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 144,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-06T11:00:38.488Z"
+  "updatedAt": "2026-09-06T14:12:49.306Z"
 }
