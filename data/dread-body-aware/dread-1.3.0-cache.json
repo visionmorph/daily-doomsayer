@@ -106135,8 +106135,419 @@
           "vulnerability": 0
         }
       }
+    },
+    "4be98e0757022adba5ce": {
+      "storyId": "4be98e0757022adba5ce",
+      "url": "https://mashable.com/tech/sept-7-shark-ai-robot-vacuum-labor-day-deal",
+      "title": "The Shark AV2501AE AI robot vacuum is $300 off in Amazons Labor Day sale",
+      "source": "Mashable AI",
+      "published": "2026-09-07T08:40:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "adab9e4ba7bb074e719294df",
+      "bodyFingerprint": "0d93444c857d10ceae4db7a9",
+      "bodyCharacterCount": 2810,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T10:22:26.977Z",
+      "assessment": {
+        "centralEvent": "The Shark AV2501AE AI robot vacuum is $300 off in Amazons Labor Day sale",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "The Shark AV2501AE AI robot vacuum is $300 off in Amazons Labor Day sale",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "77486a022eb81c655243": {
+      "storyId": "77486a022eb81c655243",
+      "url": "https://mashable.com/tech/sept-7-microsoft-visual-studio-professional-2026-the-premium-learn-to-code",
+      "title": "Get Microsoft Visual Studio 2026 and 15 coding courses for $60",
+      "source": "Mashable AI",
+      "published": "2026-09-07T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c580e812ab87fa88497b8288",
+      "bodyFingerprint": "b91d059c31805b372615e7ac",
+      "bodyCharacterCount": 2901,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T10:22:26.986Z",
+      "assessment": {
+        "centralEvent": "Get Microsoft Visual Studio 2026 and 15 coding courses for $60",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "931e0f1c0145bebf092b": {
+      "storyId": "931e0f1c0145bebf092b",
+      "url": "https://mashable.com/tech/sept-7-1minai-advanced-business-plan-lifetime-subscription",
+      "title": "Gain lifetime access to ChatGPT, Gemini, Claude, and more for $70",
+      "source": "Mashable AI",
+      "published": "2026-09-07T08:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b8383722ffd02f5386ab4957",
+      "bodyFingerprint": "c455e1b03e7e87e3968801c1",
+      "bodyCharacterCount": 2787,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T10:22:26.992Z",
+      "assessment": {
+        "centralEvent": "Gain lifetime access to ChatGPT, Gemini, Claude, and more for $70",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2ac9db55eac0e9b372d1": {
+      "storyId": "2ac9db55eac0e9b372d1",
+      "url": "https://apnews.com/article/cargo-plane-crash-miami-airport-amazon-prime-d5118998e880f380a3fd8786e35fd9bb",
+      "title": "Investigators hunt for what went wrong after cargo plane crash in Miami kills at least 5",
+      "source": "AP News AI",
+      "published": "2026-09-07T04:10:16",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a314a3f2bda35d7b96206740",
+      "bodyFingerprint": "f8f84a13c0e0e3fd2bf75665",
+      "bodyCharacterCount": 10524,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T10:22:27.016Z",
+      "assessment": {
+        "centralEvent": "Investigators hunt for what went wrong after cargo plane crash in Miami kills at least 5",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Investigators hunt for what went wrong after cargo plane crash in Miami kills at least 5 1 of 7 | Authorities said at least five people were killed after an Amazon cargo plane barreled off a Miami airport runway and collided with cars.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Investigators hunt for what went wrong after cargo plane crash in Miami kills at least 5 1 of 7 | Authorities said at least five people were killed after an Amazon cargo plane barreled off a Miami airport runway and collided with cars.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Federal investigators are trying to determine what caused an Amazon cargo jet to barrel off a runway at Miami International Airport, killing at least five people and injuring five others as it struck vehicles and was engulfed in flames.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“We’re heartbroken to learn that five people lost their lives in today’s incident at Miami International Airport,” the company said.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 69,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 68.84,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eab84e70bcf49d85542b": {
+      "storyId": "eab84e70bcf49d85542b",
+      "url": "https://apnews.com/article/us-open-late-finishes-77a6d44a93e8c25d7a86f1db6aaeef96",
+      "title": "Empty seats, tired stars: The US Open’s post-2 a.m. finishes spark a pushback",
+      "source": "AP News AI",
+      "published": "2026-09-06T19:02:16",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "57b303afd7c0c8fafd1d0605",
+      "bodyFingerprint": "e5f5fa2090b59d7116d4c63a",
+      "bodyCharacterCount": 9121,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T10:22:27.093Z",
+      "assessment": {
+        "centralEvent": "Empty seats, tired stars: The US Open’s post-2 a.m. finishes spark a pushback",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But with the tournament this year already setting a record with three post-2 a.m. finishes over the first six days, plus two more going past 1 a.m., concerns are bubbling up about how much after midnight is too much on such a big stage.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8b2a228a91c3477e42a7": {
+      "storyId": "8b2a228a91c3477e42a7",
+      "url": "https://apnews.com/article/russia-ukraine-war-witkoff-kushner-zelenskyy-putin-44bba3b57b480560d9f48dba7d28534e",
+      "title": "US envoys Witkoff and Kushner hold talks in Ukraine after meeting with Putin",
+      "source": "AP News AI",
+      "published": "2026-09-06T07:53:57",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17e1fc537cbc39f3b27c8008",
+      "bodyFingerprint": "1575b2f5b5718be5b3aeac77",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T10:22:27.118Z",
+      "assessment": {
+        "centralEvent": "US envoys Witkoff and Kushner hold talks in Ukraine after meeting with Putin",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Asked whether Washington was prepared to increase pressure on Russia if the talks produced no breakthrough, Kushner said the U.S. approach was to look for a “win-win” outcome.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "US envoys Witkoff and Kushner hold talks in Ukraine after meeting with Putin 1 of 8 | U.S. envoys Steve Witkoff and Jared Kushner met Ukrainian President Volodymyr Zelenskyy in Kyiv on Sunday, a day after talks with Putin in Moscow.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit Read More Zelenskyy held three rounds of talks with the Americans on Sunday, the last of which brought in national security advisers from the Un",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“I hope these steps and these meetings will definitely produce results, because there has been so much bloodshed and so many deaths here that we have to stop all of this,” Lipei told The Associated Press.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Related Stories Putin meets with US envoys at the Kremlin for renewed talks on ending the war in Ukraine 6 MIN READ 206 Round-the-clock Russian attacks disrupt daily life and exhaust Kyiv residents, in photos 1 MIN READ Russian drone strike",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 109,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.32,
+        "rawScore": 30.32,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-07T04:46:13.162Z"
+  "updatedAt": "2026-09-07T10:22:27.118Z"
 }
