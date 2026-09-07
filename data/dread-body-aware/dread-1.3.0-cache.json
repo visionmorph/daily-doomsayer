@@ -107256,8 +107256,565 @@
           "vulnerability": 0
         }
       }
+    },
+    "2d7f32405e4d69730eaa": {
+      "storyId": "2d7f32405e4d69730eaa",
+      "url": "https://www.theguardian.com/society/2026/sep/07/ai-transcriptions-are-no-time-saving-measure-for-doctors",
+      "title": "AI transcriptions are no time-saving measure for doctors | Letters",
+      "source": "The Guardian AI",
+      "published": "2026-09-07T16:50:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "998eecec0b5fbff9148a8884",
+      "bodyFingerprint": "cddf64a92341bf66f3ac3fa2",
+      "bodyCharacterCount": 2800,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T20:36:18.093Z",
+      "assessment": {
+        "centralEvent": "AI transcriptions are no time-saving measure for doctors | Letters",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Dr Mary Gibbs says there are a number of problems with AI, particularly its tendency to misunderstand, as Debbie Cameron can attest I am an out-of-hours GP, and I am glad to see a news report on this issue, which has been causing me increas",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e5a8e881dee5e3f8eb25": {
+      "storyId": "e5a8e881dee5e3f8eb25",
+      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "source": "TechCrunch AI",
+      "published": "2026-09-07T19:24:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "443df6ceac98d3d2319329c2",
+      "bodyFingerprint": "bb6e09e83197af2dcb8c0d75",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T20:36:18.133Z",
+      "assessment": {
+        "centralEvent": "Opaque recurrence, and other AI terms that you should probably know",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Many AI startups are taking large language models as a starting point to build a commercial product but are vying to amp up utility for a target sector or task by supplementing earlier training cycles with fine-tuning based on their own dom",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Mistral AI’s Mixtral model is a well-known example; OpenAI’s newer GPT models are also widely believed to use some version of this approach, though the company has never officially confirmed it. (See: Neural network , deep learning ) Neural",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Open source approaches allow researchers, developers, and companies around the world to build on top of one another’s work, accelerating progress and enabling independent safety audits that closed systems cannot easily provide.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In physics, diffusion is spontaneous and irreversible — sugar diffused in coffee can’t be restored to cube form.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He has helped several non-profit organizations, such as StartHer, an organization that promotes education and empowerment of women in technology, and Techfugees, an organization that empowers displaced people with technology.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 107,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.94,
+        "rawScore": 49.94,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.54,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f7ff2311b4f26db45059": {
+      "storyId": "f7ff2311b4f26db45059",
+      "url": "https://apnews.com/article/britain-king-harry-meghan-letter-status-return-459d1117db5b2ce105cb315e7403fc4d",
+      "title": "King Charles clarifies status of Prince Harry and his wife, Meghan, after their return to the UK",
+      "source": "AP News AI",
+      "published": "2026-09-07T15:12:15",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ba81ce44535d68db71c09739",
+      "bodyFingerprint": "e479176f8928e73f71ce5fda",
+      "bodyCharacterCount": 2726,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T20:36:18.145Z",
+      "assessment": {
+        "centralEvent": "King Charles clarifies status of Prince Harry and his wife, Meghan, after their return to the UK",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "While the communication simply confirms that Harry and Meghan’s status remains unchanged, the decision to send the letter and release it publicly demonstrates the concern among some palace observers that the couple’s status could allow them",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Prince Harry, and Meghan, the Duke and Duchess of Sussex, arrive for an event, during a visit to Bondi Beach, Australia, April 17, 2026. (Jonathan Brady/Pool Photo via AP, File) By DANICA KIRKA Updated [hour]:[minute] [AMPM] [timezone], [mo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "811e526ca3115d0d46df": {
+      "storyId": "811e526ca3115d0d46df",
+      "url": "https://apnews.com/article/germany-afd-saxony-anhalt-election-firewall-902f5d0f4e3181e6565ba29f4320417c",
+      "title": "AfD party's landslide win in eastern Germany tests country's 'firewall' against the far right",
+      "source": "AP News AI",
+      "published": "2026-09-07T12:41:13",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "30aa7dc0486027eb37e83938",
+      "bodyFingerprint": "50b038d15c8d31ff2d167feb",
+      "bodyCharacterCount": 11858,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T20:36:18.157Z",
+      "assessment": {
+        "centralEvent": "AfD party's landslide win in eastern Germany tests country's 'firewall' against the far right",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Germany’s Merz shocked by far-right state election triumph but doubles down on unpopular reforms 5 MIN READ 439 Far-right Alternative for Germany party wins big in regional election but falls short of majority 4 MIN READ 354",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "7, 2026, the day after AfD stunning success in elections. (Michael Kappeler/dpa via AP) Read More 5 of 6 | From left, Chancellor Friedrich Merz, Sven Schulze, Minister-President of Saxony-Anhalt and state chairman of the CDU in Saxony-Anhal",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "AfD party’s landslide win in eastern Germany tests country’s ‘firewall’ against the far right 1 of 6 | German Chancellor Friedrich Merz doubled down Monday on pushing through unpopular reforms to Europe’s largest economy after a far-right p",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fad819dfa6aafb45b680": {
+      "storyId": "fad819dfa6aafb45b680",
+      "url": "https://apnews.com/article/affordable-housing-shortage-poorest-us-80fab2a0fb645e4d629b0ef7e3c2b496",
+      "title": "The poorest in the US can't find housing even as low-income units sit empty",
+      "source": "AP News AI",
+      "published": "2026-09-07T11:34:10",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af9fc47b65e92b9293182571",
+      "bodyFingerprint": "2df6ef6708abf9f76b3f8f5f",
+      "bodyCharacterCount": 10826,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T20:36:18.191Z",
+      "assessment": {
+        "centralEvent": "The poorest in the US can't find housing even as low-income units sit empty",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "24, 2024, in Denver. (AP Photo/David Zalubowski, File) Read More 2 of 3 | Cabin-like tiny homes are seen at a micro community in Denver on June 5, 2024. (AP Photo/Thomas Peipert, File) Read More 3 of 3 | A window lets light into an empty be",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But the majority of low-income housing financed in recent years is for those earning 50% of an area’s median income or above, according to a survey of state housing agencies.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The poorest have few housing options There are only about 4 million affordable rental units available for the country’s 11 million extremely low-income renter households, according to the National Low Income Housing Coalition’s most recent ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They comprise about a quarter of U.S. renter households, and include many people working low-wage jobs, seniors and those with disabilities living on fixed incomes.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They comprise about a quarter of U.S. renter households, and include many people working low-wage jobs, seniors and those with disabilities living on fixed incomes.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "These are people with annual incomes either below the federal poverty guidelines — just under $16,000 for a single-person household — or 30% of the median income in their area, whichever is higher.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.82,
+        "rawScore": 27.82,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3475,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f0d22a9ccaeef3c90ddf": {
+      "storyId": "f0d22a9ccaeef3c90ddf",
+      "url": "https://apnews.com/article/us-open-carlos-alcaraz-interview-05ab14d1ce0fa9d959512f10a4a38f72",
+      "title": "Surprise! Alcaraz learns during ESPN interview he was wrong about his next US Open opponent",
+      "source": "AP News AI",
+      "published": "2026-09-07T01:19:37",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae0684336b915cd864292e0b",
+      "bodyFingerprint": "f6ece7216e6e2758370ae593",
+      "bodyCharacterCount": 3555,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T20:36:18.214Z",
+      "assessment": {
+        "centralEvent": "Surprise! Alcaraz learns during ESPN interview he was wrong about his next US Open opponent",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a317e551901e7e2a4a3b": {
+      "storyId": "a317e551901e7e2a4a3b",
+      "url": "https://www.politico.eu/article/king-charles-to-host-exclusive-ai-gathering",
+      "title": "King Charles to host exclusive AI gathering",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-07T11:36:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f367e434099c8e33362788c5",
+      "bodyFingerprint": "6d3c945124c5e63a6b534aa9",
+      "bodyCharacterCount": 2701,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T20:36:18.526Z",
+      "assessment": {
+        "centralEvent": "King Charles to host exclusive AI gathering",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "LONDON — King Charles has invited leading figures from the artificial intelligence industry to an exclusive event set to take place this month, according to two people familiar with the plans who were granted anonymity because it has yet to",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e867583b35f9c17f0fbd": {
+      "storyId": "e867583b35f9c17f0fbd",
+      "url": "https://www.nature.com/articles/d41586-026-02822-9",
+      "title": "Anthropic AI ‘formalizes’ proof of Fermat’s last theorem in just 11 days",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-07T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b40009e5cde31da69bf10444",
+      "bodyFingerprint": "df41508e72c1a9b6e43f3476",
+      "bodyCharacterCount": 73,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-07T20:36:18.771Z",
+      "assessment": {
+        "centralEvent": "Anthropic AI ‘formalizes’ proof of Fermat’s last theorem in just 11 days",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Anthropic AI ‘formalizes’ proof of Fermat’s last theorem in just 11 days",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-07T16:29:41.560Z"
+  "updatedAt": "2026-09-07T20:36:18.771Z"
 }
