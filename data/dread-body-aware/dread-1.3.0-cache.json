@@ -106546,8 +106546,718 @@
           "vulnerability": 0
         }
       }
+    },
+    "34e69876660aa5265d26": {
+      "storyId": "34e69876660aa5265d26",
+      "url": "https://www.theguardian.com/society/2026/sep/07/mistrust-of-ai-palantir-may-affect-nhs-research",
+      "title": "‘Mistrust’ of Palantir may affect NHS research, says health minister",
+      "source": "The Guardian AI",
+      "published": "2026-09-07T15:33:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fb6a78c31924bc1624f81f08",
+      "bodyFingerprint": "3040e5c4ec69238b99e4ecd5",
+      "bodyCharacterCount": 4698,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T16:29:41.077Z",
+      "assessment": {
+        "centralEvent": "‘Mistrust’ of Palantir may affect NHS research, says health minister",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A spokesperson for the company said it was “helping to deliver better care, with trusts using it recording 110,000 additional operations, a 15% reduction in discharge delays for long-stay patients and a 6.8% improvement in the number of peo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fd27b46537b532766706": {
+      "storyId": "fd27b46537b532766706",
+      "url": "https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns",
+      "title": "Architect of UK’s AI policy quits after Anthropic conflict of interest concerns",
+      "source": "The Guardian AI",
+      "published": "2026-09-07T14:42:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cf3c1c80fb5a9c0c84801c70",
+      "bodyFingerprint": "6f4f95269b60090441936677",
+      "bodyCharacterCount": 4848,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T16:29:41.131Z",
+      "assessment": {
+        "centralEvent": "Architect of UK’s AI policy quits after Anthropic conflict of interest concerns",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Explore more on these topics AI (artificial intelligence) Anthropic Computing news Share Reuse this content More on this story More on this story Hundreds gather to urge Scottish government to pause datacentre boom Architect of UK’s AI stra",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7deee676defc57e69e18": {
+      "storyId": "7deee676defc57e69e18",
+      "url": "https://mashable.com/tech/openai-framework-for-misalignment-incidents-of-rogue-agents",
+      "title": "OpenAI is figuring out how to tell people when its agents go rogue",
+      "source": "Mashable AI",
+      "published": "2026-09-07T14:23:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41e74e8f218739be9773a0b7",
+      "bodyFingerprint": "bbca0b1bbd0e8a2b69cc7798",
+      "bodyCharacterCount": 8828,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T16:29:41.148Z",
+      "assessment": {
+        "centralEvent": "OpenAI is figuring out how to tell people when its agents go rogue",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "4, Reuters reported that OpenAI agents had taken control of a German-language wiki site and used it to communicate with one another.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bc4c1a549946fdd6e8dd": {
+      "storyId": "bc4c1a549946fdd6e8dd",
+      "url": "https://www.bbc.co.uk/news/articles/c1wxppnrqlqo?at_campaign=rss&at_medium=RSS",
+      "title": "Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death",
+      "source": "BBC News AI",
+      "published": "2026-09-07T11:30:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d4c7497275304828830930eb",
+      "bodyFingerprint": "526e03e1c58a5cbc8b8f3c16",
+      "bodyCharacterCount": 4494,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T16:29:41.254Z",
+      "assessment": {
+        "centralEvent": "Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Little over a month later, Robert Redford's daughter Amy spoke out over AI content created , external to pay tribute to the American actor following his death last September. \"Every human being experiences pain and loss in life and my famil",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, Dolly Parton (left) and her sister Stella, pictured at an event in 2015 By Liv McMahon Technology reporter Published 4 hours ago Dolly Parton's sister has issued a plea to fans over \"fake AI garbage",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.85,
+        "rawScore": 27.85,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c609c651627ca0a61ca7": {
+      "storyId": "c609c651627ca0a61ca7",
+      "url": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_campaign=rss&at_medium=RSS",
+      "title": "OpenAI chief scientist warns no-one is prepared for consequences of AI",
+      "source": "BBC News AI",
+      "published": "2026-09-07T12:22:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a137388a0aab898526c82385",
+      "bodyFingerprint": "26dfdc8d9edafab9862f106c",
+      "bodyCharacterCount": 4190,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T16:29:41.260Z",
+      "assessment": {
+        "centralEvent": "OpenAI chief scientist warns no-one is prepared for consequences of AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In July, OpenAI called an incident in which its AI agents - AI systems which can operate alone after human instruction - hacked the tech platform Hugging Face \"unprecedented\".",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Laura Cress Technology reporter Published 4 hours ago OpenAI's chief scientist Jakub Pachocki has called for \"extreme caution\" over AI's runaway progress and warned more intervention may be needed to ensure \"hu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Global regulations are struggling to keep up with the pace of AI development.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5812fe90f4ec31f671af": {
+      "storyId": "5812fe90f4ec31f671af",
+      "url": "https://www.artificialintelligence-news.com/news/mg-ship-ai-route-optimisation-logistics-returns-accelerate",
+      "title": "MG Ship adds AI route optimisation as logistics returns accelerate",
+      "source": "AI News",
+      "published": "2026-09-07T13:01:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c939f7b604768e6272af18f9",
+      "bodyFingerprint": "5b97d3b25d2fe1ed421d3cfa",
+      "bodyCharacterCount": 534,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-07T16:29:41.431Z",
+      "assessment": {
+        "centralEvent": "MG Ship adds AI route optimisation as logistics returns accelerate",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "69cad8f3b5a8cff953a9": {
+      "storyId": "69cad8f3b5a8cff953a9",
+      "url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems",
+      "title": "The complex corporate web behind a $3.2 billion AI data center",
+      "source": "Ars Technica AI",
+      "published": "2026-09-07T11:00:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a4f9020a62ccbed5aeefac6f",
+      "bodyFingerprint": "c274153a7fbdb157241ef16f",
+      "bodyCharacterCount": 14410,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T16:29:41.452Z",
+      "assessment": {
+        "centralEvent": "The complex corporate web behind a $3.2 billion AI data center",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "On July 6, TeraWulf announced a 20-year, $19 billion lease with Anthropic for a Kentucky facility, a deal that TeraWulf CEO Paul Prager told Bloomberg’s The Close the next day was “one of the first things they’ve gone direct on”: no Fluidst",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "10cd24fbb89d129ce11b": {
+      "storyId": "10cd24fbb89d129ce11b",
+      "url": "https://www.wired.com/story/whispering-complaints-into-your-phone-may-be-the-future-of-customer-feedback",
+      "title": "Whispering Complaints Into Your Phone May Be the Future of Customer Feedback",
+      "source": "WIRED AI",
+      "published": "2026-09-07T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "37060d4beb933a9a2d9edec1",
+      "bodyFingerprint": "7e106fdf0ed134206009b528",
+      "bodyCharacterCount": 6864,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T16:29:41.502Z",
+      "assessment": {
+        "centralEvent": "Whispering Complaints Into Your Phone May Be the Future of Customer Feedback",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "We Got Its Code Flock’s surveillance cameras have already sparked outrage.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Use our verified Babbel coupon codes to save up to 65% on student plans and 60% on 6-month subscriptions.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d896d605f0d8b26ffd42": {
+      "storyId": "d896d605f0d8b26ffd42",
+      "url": "https://apnews.com/article/canada-hockey-tariffs-fb12b5e5ebfc8842b6fbcd8d99483277",
+      "title": "The US tariff on Canadian imports could send already soaring hockey gear prices even higher",
+      "source": "AP News AI",
+      "published": "2026-09-07T09:10:06",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "49603764ee7ad0422a82b8e4",
+      "bodyFingerprint": "3747aa32355e3268cd76a748",
+      "bodyCharacterCount": 9476,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T16:29:41.511Z",
+      "assessment": {
+        "centralEvent": "The US tariff on Canadian imports could send already soaring hockey gear prices even higher",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Custom equipment is also manufactured by True Hockey in Canada and imported into the U.S., according to B&R Sports Director of E-commerce John Merola, who said skates and goalie gear fit into that category.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "013a004780ed1bb735bf": {
+      "storyId": "013a004780ed1bb735bf",
+      "url": "https://apnews.com/article/germany-afd-saxony-anhalt-election-e9c2b1bb69a9dab1778b80866ffa4c4f",
+      "title": "Germany's Merz shocked by far-right state election triumph but doubles down on unpopular reforms",
+      "source": "AP News AI",
+      "published": "2026-09-07T07:31:07",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "37c03fb2bd52659b3af74ca6",
+      "bodyFingerprint": "2432aba08b2c00c250a2ad8a",
+      "bodyCharacterCount": 14176,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T16:29:41.547Z",
+      "assessment": {
+        "centralEvent": "Germany's Merz shocked by far-right state election triumph but doubles down on unpopular reforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories AfD party’s landslide win in eastern Germany tests country’s ‘firewall’ against the far right 3 MIN READ 11 Far-right Alternative for Germany party wins big in regional election but falls short of majority 4 MIN READ 341 Ger",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "7, 2026, the day after AfD large success in elections. (Michael Kappeler/dpa via AP) Read More 5 of 7 | Top candidate Ulrich Siegmund speaks at an election party of the “Alternative for Germany” (AfD) after the Saxony-Anhalt state elections",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "German Chancellor Friedrich Merz has doubled down on pushing through unpopular reforms to Europe’s largest economy after a far-right party surged to a landslide victory in a regional election, with a very good chance of forming the first fa",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Russian presidential envoy Kirill Dmitriev on X described the outcome of the election as a “historic win for the pragmatic AfD that will put migration under control.” Dmitriev also said that “AfD will restore Germany and Europe by leading t",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f53b1454a6c8b25a64d2": {
+      "storyId": "f53b1454a6c8b25a64d2",
+      "url": "https://apnews.com/article/emmys-pitt-hacks-reiner-pluribus-widows-bay-29722dd5605e3317e6644ca416659cb6",
+      "title": "'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4",
+      "source": "AP News AI",
+      "published": "2026-09-06T04:41:30",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d934c050b4c463f24fd45f1",
+      "bodyFingerprint": "b2f1e7e71fa128c896f6db2c",
+      "bodyCharacterCount": 13679,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T16:29:41.560Z",
+      "assessment": {
+        "centralEvent": "'Widow's Bay' dominates with 8 Emmys at early ceremony and 'The Pitt' takes 4",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“I’m not saying it’s a complete surprise because ‘The Pitt’ is such a powerful show to come from, but just to get it in your hands is unreal.” Harden’s first speaking role was in the 1975 Robert Redford-Faye Dunaway thriller “Three Days of ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 69,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-07T10:22:27.118Z"
+  "updatedAt": "2026-09-07T16:29:41.560Z"
 }
