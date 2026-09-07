@@ -107813,8 +107813,195 @@
           "vulnerability": 0
         }
       }
+    },
+    "a5237feb3c986c8bec0d": {
+      "storyId": "a5237feb3c986c8bec0d",
+      "url": "https://apnews.com/article/house-senate-elections-labor-day-maine-michigan-texas-bf59e0d457677ae19b84536d96031a47",
+      "title": "Midterm elections head into the home stretch as candidates hit Labor Day events",
+      "source": "AP News AI",
+      "published": "2026-09-07T17:25:21",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd1e20e7169f0573638d3f9e",
+      "bodyFingerprint": "75052d79af8b2dd4214ea3f0",
+      "bodyCharacterCount": 11611,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T23:31:52.198Z",
+      "assessment": {
+        "centralEvent": "Midterm elections head into the home stretch as candidates hit Labor Day events",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "7, 2026, in Readstown, Wis. (AP Photo/Ellen Schmidt) Read More 2 of 5 | Rebecca Cooke, Democratic candidate for Wisconsin’s 3rd Congressional District, greets people during a Labor Day parade, Monday, Sept.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4a34b606b408e2f7ccb5": {
+      "storyId": "4a34b606b408e2f7ccb5",
+      "url": "https://www.bbc.co.uk/news/articles/c0m39g7xzevo?at_campaign=rss&at_medium=RSS",
+      "title": "AI cancer cures slowed by chip shortage, says UK's biggest tech boss",
+      "source": "BBC News AI",
+      "published": "2026-09-07T23:05:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3e1ffc3c23f91bd3ff966189",
+      "bodyFingerprint": "9767ce894920bf3317574906",
+      "bodyCharacterCount": 5738,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T23:31:52.209Z",
+      "assessment": {
+        "centralEvent": "AI cancer cures slowed by chip shortage, says UK's biggest tech boss",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This is where AI delivers real benefit to patients.\" Job losses 'overstated' In a wide-ranging interview, Haas said the chips Arm designs would fuel self-learning AI robots \"in a very large way\" in manufacturing, cleaning, security, buildin",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics Artificial intelligence Cancer Medical research ARM Holdings Companies More on this story OpenAI chief scientist warns no one is prepared for consequences of AI Published 11 hours ago Time is running out for cyber security, w",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Arm's power-efficient technology was now being used in half of AI data centres worldwide, he said.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c00732f98c3fcdf07256": {
+      "storyId": "c00732f98c3fcdf07256",
+      "url": "https://mashable.com/tech/amd-ifa-2026-personal-agentic-ai",
+      "title": "AMD at IFA 2026: A new era of personal and agentic AI",
+      "source": "Mashable AI",
+      "published": "2026-09-07T22:05:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1752f28b50b53239bcbfccd5",
+      "bodyFingerprint": "968b26c86cd6391a01e89d2f",
+      "bodyCharacterCount": 1711,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-07T23:31:52.260Z",
+      "assessment": {
+        "centralEvent": "AMD at IFA 2026: A new era of personal and agentic AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-07T20:36:18.771Z"
+  "updatedAt": "2026-09-07T23:31:52.260Z"
 }
