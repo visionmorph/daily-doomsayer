@@ -108000,8 +108000,339 @@
           "vulnerability": 0
         }
       }
+    },
+    "ec3a7ee1d1ae3e32863f": {
+      "storyId": "ec3a7ee1d1ae3e32863f",
+      "url": "https://apnews.com/article/iran-strait-hormuz-war-washington-shipping-missile-563212b3d68eb50ac3e16e18dd2e6e01",
+      "title": "Iran says improved ballistic missile shows it will take preemptive action against threats",
+      "source": "AP News AI",
+      "published": "2026-09-07T21:24:48",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "259d7c48c17502e628c7a269",
+      "bodyFingerprint": "74b0c082c855434798af73c4",
+      "bodyCharacterCount": 4961,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T04:41:20.219Z",
+      "assessment": {
+        "centralEvent": "Iran says improved ballistic missile shows it will take preemptive action against threats",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Read More Regional countries express frustration Frustration emerged again in the Gulf over the uncertainty around the waterway that’s crucial for shipping global supplies of oil, natural gas and related products like fertilizer.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "7, 2026. (AP Photo/Vahid Salemi) By AMIR-HUSSEIN RADJY and CARA ANNA Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Leer en español Add AP News on Google Add AP News as your preferred source to see more of our stories ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Tehran wants ships to follow a route it chooses through the strait, which was considered an international waterway before the war.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“No single state” should control the strait, Anwar Gargash, a diplomatic adviser to the UAE president, said at a forum of world leaders in Abu Dhabi, adding: “Our energy exports will not be held hostage, nor will our trade and economic acti",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "465a7b4620013d3a4270": {
+      "storyId": "465a7b4620013d3a4270",
+      "url": "https://apnews.com/article/new-hampshire-primary-senate-pappas-manzur-sununu-brown-governor-house-nh01-d87d6cb35b896121df8ea12feae0bca3",
+      "title": "AP Decision Notes: What to expect in New Hampshire’s state primary",
+      "source": "AP News AI",
+      "published": "2026-09-07T12:13:09",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d119c55405f321a4ed34f6f0",
+      "bodyFingerprint": "fe16f422cc9aa7b0754828de",
+      "bodyCharacterCount": 11295,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T04:41:20.231Z",
+      "assessment": {
+        "centralEvent": "AP Decision Notes: What to expect in New Hampshire’s state primary",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Shaheen’s exit sparks a scramble for key seats 3 MIN READ Midterm elections head into the home stretch as candidates hit Labor Day events 4 MIN READ 43 Chapman, Red Sox celebrate his 400th career save as ‘special’ 1 MIN READ The former sena",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 109,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "322d49bc9056cc2d8b4d": {
+      "storyId": "322d49bc9056cc2d8b4d",
+      "url": "https://apnews.com/article/big-ten-replay-michigan-underwood-2b7df7a1b345589534f94012d86b02c0",
+      "title": "Veteran coaches surprised that stadium clock was not official clock in wild Michigan win Saturday",
+      "source": "AP News AI",
+      "published": "2026-09-07T20:01:12",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "01fbbc80892ca2ae842fcd36",
+      "bodyFingerprint": "30d173c5e753cd290c4e595b",
+      "bodyCharacterCount": 9228,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T04:41:20.240Z",
+      "assessment": {
+        "centralEvent": "Veteran coaches surprised that stadium clock was not official clock in wild Michigan win Saturday",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "19 SMU, Florida State kick off after nearly 2-hour delay due to power outage Arion Carter turns an NCAA suspension into a $427-per-tackle for cancer treatments Texas braces for rematch with No.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fe4a097c5652e9141f8a": {
+      "storyId": "fe4a097c5652e9141f8a",
+      "url": "https://www.politico.eu/sponsored-content/draghi-report-or-hugging-face-who-will-win-the-tech-race",
+      "title": "Draghi Report or Hugging Face: who will win the tech race?",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-08T03:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b4899ca6daa74c1bd16e02a",
+      "bodyFingerprint": "8c38e430600beba2f5b5abd4",
+      "bodyCharacterCount": 7242,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T04:41:20.247Z",
+      "assessment": {
+        "centralEvent": "Draghi Report or Hugging Face: who will win the tech race?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "De-risking connectivity is worthy, however, we have serious doubts that this can be done simply by imposing an indiscriminate technology ban, while we would need a proportionate and truly risk-based approach.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "When Mario Draghi published his report on how to re-establish European competitiveness, it took 729 days for Brussels to realize that only a fraction of his recommendations had been enacted.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "That event became a case study on how, and how fast, artificial intelligence (AI) is reshaping both economic and power dynamics worldwide.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a201383bc8b4f7d86c67": {
+      "storyId": "a201383bc8b4f7d86c67",
+      "url": "https://apnews.com/article/labor-day-record-high-gas-prices-dffb7d3fa06ef930aaeebc380e5e4e0e",
+      "title": "Fuel prices at record Labor Day high in US thanks to Iran war and refinery issues",
+      "source": "AP News AI",
+      "published": "2026-09-07T04:03:15",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "067b0c4cce49dec4d9d3e209",
+      "bodyFingerprint": "03bf762041a0bf36f3667127",
+      "bodyCharacterCount": 7459,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T04:41:20.302Z",
+      "assessment": {
+        "centralEvent": "Fuel prices at record Labor Day high in US thanks to Iran war and refinery issues",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The average gas price was $4.15 a gallon, compared with $3.20 at this time last year, according to motor club AAA, which says gas has never been above $4 a gallon on Labor Day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-07T23:31:52.260Z"
+  "updatedAt": "2026-09-08T04:41:20.302Z"
 }
