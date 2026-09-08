@@ -109913,8 +109913,863 @@
           "vulnerability": 0
         }
       }
+    },
+    "9449396e3277891cd78f": {
+      "storyId": "9449396e3277891cd78f",
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
+      "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+      "source": "TechCrunch AI",
+      "published": "2026-09-08T17:32:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "99f5b8f88fb6e2aa46b4c33a",
+      "bodyFingerprint": "3f7513b700f0c9224f3a9b42",
+      "bodyCharacterCount": 6796,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.173Z",
+      "assessment": {
+        "centralEvent": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The findings, made in collaboration with Anthropic mathematician Levent Alpöge and using both Codex and Claude AI models, are significant in themselves — but they’re also accompanied by an unusual controversy surrounding OpenAI’s attempts t",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "NYU mathematics professor Tristan Buckmaster announced three proofs on Tuesday with a preliminary finding on one of the major unsolved problems in theoretical mathematics.",
+            "matchedRule": "/\\b(?:still developing|preliminary|early findings?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The Navier-Stokes existence and smoothness problem is one of the seven Millennium Prize problems — a set of major unsolved math problems, each carrying a $1 million bounty from Clay Mathematics Institute for the first person or group to pro",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.59,
+        "rawScore": 25.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3c847c358ea6854f3545": {
+      "storyId": "3c847c358ea6854f3545",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
+      "title": "A new class action lawsuit questions whether Anthropic broke the law by misleading power users",
+      "source": "The Verge AI",
+      "published": "2026-09-08T17:27:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "77efeec7f31bd5b3327c925f",
+      "bodyFingerprint": "b7a33379ef7a57876dc96c50",
+      "bodyCharacterCount": 7268,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.219Z",
+      "assessment": {
+        "centralEvent": "A new class action lawsuit questions whether Anthropic broke the law by misleading power users",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The rolling 5-hour window is what actually controls whether you can work ...",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e160b964fa803db94824": {
+      "storyId": "e160b964fa803db94824",
+      "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal",
+      "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+      "source": "TechCrunch AI",
+      "published": "2026-09-08T16:20:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "28bceb7c9d2339cfb332286f",
+      "bodyFingerprint": "ab5cbe107bc07161d7205880",
+      "bodyCharacterCount": 5095,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.240Z",
+      "assessment": {
+        "centralEvent": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The organization will live under Accenture, according to a Google spokesperson.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bae1d2f63dba18ca50c9": {
+      "storyId": "bae1d2f63dba18ca50c9",
+      "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape",
+      "title": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
+      "source": "TechCrunch AI",
+      "published": "2026-09-08T15:04:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9b84b4c9749ac4f493f5f257",
+      "bodyFingerprint": "476d2c46d0a8e718a649693e",
+      "bodyCharacterCount": 3427,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.258Z",
+      "assessment": {
+        "centralEvent": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A shorter release schedule would help keep the “N-day” patch gap — the gap between when a security vulnerability is known and when it gets patched — as small as possible.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A shorter release schedule would help keep the “N-day” patch gap — the gap between when a security vulnerability is known and when it gets patched — as small as possible.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A shorter release schedule would help keep the “N-day” patch gap — the gap between when a security vulnerability is known and when it gets patched — as small as possible.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.91,
+        "rawScore": 24.91,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.0825,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7b61d1b053da77e79ee3": {
+      "storyId": "7b61d1b053da77e79ee3",
+      "url": "https://www.theguardian.com/film/2026/sep/08/andrew-garfield-sam-altman-artificial-movie-openai",
+      "title": "Andrew Garfield takes on Sam Altman in creepy first teaser for Artificial",
+      "source": "The Guardian AI",
+      "published": "2026-09-08T16:31:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "87f847b9adaea5f2a68269f7",
+      "bodyFingerprint": "62e1b444c182aefd1c87480d",
+      "bodyCharacterCount": 3348,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.265Z",
+      "assessment": {
+        "centralEvent": "Andrew Garfield takes on Sam Altman in creepy first teaser for Artificial",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c7b866dedf3ffdcd576b": {
+      "storyId": "c7b866dedf3ffdcd576b",
+      "url": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data",
+      "title": "Update to Google’s AI weather model improves forecast accuracy",
+      "source": "Ars Technica AI",
+      "published": "2026-09-08T18:00:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6404b2b9974d49dd740894d1",
+      "bodyFingerprint": "e0dc6dd918ce85137a717b77",
+      "bodyCharacterCount": 5180,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.273Z",
+      "assessment": {
+        "centralEvent": "Update to Google’s AI weather model improves forecast accuracy",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "They note a roughly 5 percent improvement in upper atmosphere condition accuracy over their previous model, for example, which they say equates to about six more hours of accurate forecast lead time.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c4e75e201ea63920648": {
+      "storyId": "8c4e75e201ea63920648",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/09/labor-australians-opt-out-online-algorithms-how-change-feed",
+      "title": "Labor wants Australians to be able to opt out of online algorithms. How will it change your feed?",
+      "source": "The Guardian AI",
+      "published": "2026-09-08T15:00:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d66b50f2704b4206816d8f0f",
+      "bodyFingerprint": "31adb596a1b47af45fd306f0",
+      "bodyCharacterCount": 6610,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.312Z",
+      "assessment": {
+        "centralEvent": "Labor wants Australians to be able to opt out of online algorithms. How will it change your feed?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "For children, this includes content showing pornography, abuse or bullying, the promotion of eating disorders, hostility to women or gender equality, and crime or dangerous stunts.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Some content will also be stripped out of feeds, according to the draft legislation released on Tuesday.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Australia's digital duty of care bill a ‘global reckoning for big tech’, minister says – video How are tech companies responding?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The Coalition has claimed the minister’s power to classify new forms of harm could allow the government to shut down expression of views it does not agree with.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "900e1a000b8f4478530d": {
+      "storyId": "900e1a000b8f4478530d",
+      "url": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics",
+      "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
+      "source": "WIRED AI",
+      "published": "2026-09-08T16:42:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af34e8cff62ac2b6b9222748",
+      "bodyFingerprint": "c14a0813c6b77db0f3643549",
+      "bodyCharacterCount": 7989,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.347Z",
+      "assessment": {
+        "centralEvent": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like In your inbox: WIRED's most ambitious, future-defining stories AI slop backlash is actually having an impact Big Story: The cop who took on Flock The rise of ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company had more than 1,000 agents tackle the problem over more than 50 hours before discovering that it had come up with a solution .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "be583bb4e632e67f8c5c": {
+      "storyId": "be583bb4e632e67f8c5c",
+      "url": "https://apnews.com/article/ap-top-25-rankings-11b750c72b3fd709a9eaa008f4b570eb",
+      "title": "LSU cracks top 10, Oregon slips and Wolverines fall out of AP Top 25 after second-chance Hail Mary",
+      "source": "AP News AI",
+      "published": "2026-09-08T13:59:10",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7d4fde74e843b30259770371",
+      "bodyFingerprint": "11efb1172faa91d2ed3c4853",
+      "bodyCharacterCount": 10044,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.392Z",
+      "assessment": {
+        "centralEvent": "LSU cracks top 10, Oregon slips and Wolverines fall out of AP Top 25 after second-chance Hail Mary",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "1 that day and lost 14-7.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1bee02101c4fdab33ea6": {
+      "storyId": "1bee02101c4fdab33ea6",
+      "url": "https://apnews.com/article/bears-drought-wildlife-climate-grizzly-b53b51491c36ab4ab9ab5f76fe89524f",
+      "title": "Hungry black bears are running into trouble in the Rocky Mountains",
+      "source": "AP News AI",
+      "published": "2026-09-08T04:09:24",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "80932ed87e42139a0b0a4d2a",
+      "bodyFingerprint": "c3b4690049059862547543aa",
+      "bodyCharacterCount": 6888,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.438Z",
+      "assessment": {
+        "centralEvent": "Hungry black bears are running into trouble in the Rocky Mountains",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Hungry bears are on the move Colorado officials report twice as many bear sightings and conflicts with humans this year compared with the average, including bears roaming where they aren’t normally found.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d94d2ba6ad81693874a5": {
+      "storyId": "d94d2ba6ad81693874a5",
+      "url": "https://apnews.com/article/sept-11-25th-anniversary-schools-education-5bbe944901f47ae0b87d09ef3300a608",
+      "title": "Most states prompt schools to teach about 9/11, but the details differ, AP finds",
+      "source": "AP News AI",
+      "published": "2026-09-08T07:11:27",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "920c953b3d0a585942b78c17",
+      "bodyFingerprint": "6da7fa44ec9a007086b2cdd8",
+      "bodyCharacterCount": 14278,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.479Z",
+      "assessment": {
+        "centralEvent": "Most states prompt schools to teach about 9/11, but the details differ, AP finds",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "11, including “Middle Eastern discrimination.” New Mexico envisions discussions that could include not only post-9/11 wars and legislation but also the U.S. detention of suspected enemy combatants at the Guantanamo Bay naval base in Cuba an",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“That’s our biggest fear.” Teaching about 9/11 in schools is more important than ever now that about one-third of Americans were born after al-Qaida hijackers crashed planes and killed nearly 3,000 people in New York, the Pentagon and rural",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "11 fits into “the United States’ military involvement in international conflicts since 1980” for students as young as fifth-graders.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 97,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7f627e3752ad3200149a": {
+      "storyId": "7f627e3752ad3200149a",
+      "url": "https://www.politico.eu/article/ai-is-helping-gangs-grow-illicit-tobacco-networks-eu-auditor-warns",
+      "title": "AI is helping gangs grow illicit tobacco networks, EU auditor warns",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-08T15:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cfa52ccdcb87eacb9a7a4393",
+      "bodyFingerprint": "71e1648ff5ad8ceb01042530",
+      "bodyCharacterCount": 2713,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:12.543Z",
+      "assessment": {
+        "centralEvent": "AI is helping gangs grow illicit tobacco networks, EU auditor warns",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Better intelligence sharing between all relevant actors is essential.” And the Commission needs to take a greater role in coordinating a strategic response of these actors, he added, including: the European Anti-Fraud Office OLAF, Europol,",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The EU and capitals face many challenges clamping down on illicit tobacco trade which cause €13 billion annually in lost revenue, ECA said.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3683da1121c978b71ca4": {
+      "storyId": "3683da1121c978b71ca4",
+      "url": "https://techpolicy.press/newsletter-september-6-2026",
+      "title": "This Labor Day, Consider AI's Impact on Hiring",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-06T18:01:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a640e1f78cb6547a6a6bfd6d",
+      "bodyFingerprint": "f17ec5605b59f3ddef1f15b4",
+      "bodyCharacterCount": 7794,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T18:43:14.066Z",
+      "assessment": {
+        "centralEvent": "This Labor Day, Consider AI's Impact on Hiring",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Zoe Lofgren on FISA, surveillance, the Fourth Amendment For the podcast, Tech Policy Press fellow Jake Laperruque spoke with Rep.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Germany should learn from what has (and hasn’t) worked elsewhere before it builds its own, says Martin Wählisch , an Associate Professor of International Relations at the University of Birmingham and a member of its Centre for AI in Governm",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-08T14:34:42.147Z"
+  "updatedAt": "2026-09-08T18:43:14.066Z"
 }
