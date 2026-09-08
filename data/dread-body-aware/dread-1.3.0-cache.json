@@ -108780,8 +108780,1141 @@
           "vulnerability": 0
         }
       }
+    },
+    "1a956c25f3b2e61c77be": {
+      "storyId": "1a956c25f3b2e61c77be",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
+      "title": "Google’s Atlas of the human genome could pave the way for new treatments",
+      "source": "The Verge AI",
+      "published": "2026-09-08T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "35dd799edb2b7219ec9016ff",
+      "bodyFingerprint": "d8d5d2677b98d886a96fea4f",
+      "bodyCharacterCount": 6088,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:41.420Z",
+      "assessment": {
+        "centralEvent": "Google’s Atlas of the human genome could pave the way for new treatments",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robert Hart AI Google Health Science Tech Most Popular Most Popular Six years later, Sony revisits its legendary XM4 headphones LG TVs caught spying even when offline or on standby The real reason your phone is getting more expensive DIY pl",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2f431554cf8941b6d5e2": {
+      "storyId": "2f431554cf8941b6d5e2",
+      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business",
+      "title": "Mistral raises €3B as sovereign AI becomes big business",
+      "source": "TechCrunch AI",
+      "published": "2026-09-08T14:17:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cf439e666fac102fbdd297ae",
+      "bodyFingerprint": "4ea05dad21253fc9e9751ff4",
+      "bodyCharacterCount": 5412,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:41.433Z",
+      "assessment": {
+        "centralEvent": "Mistral raises €3B as sovereign AI becomes big business",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Amid growing demand for sovereign AI infrastructure, not being an American company has reportedly boosted Mistral’s revenue .",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "df01e054bbeb985be763": {
+      "storyId": "df01e054bbeb985be763",
+      "url": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
+      "title": "Adobe is trying to make its AI generators idiot-proof in Premiere",
+      "source": "The Verge AI",
+      "published": "2026-09-08T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "55ab4ee291e8851644a98c88",
+      "bodyFingerprint": "674ff94f76f7676d137eb7f7",
+      "bodyCharacterCount": 3504,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:41.443Z",
+      "assessment": {
+        "centralEvent": "Adobe is trying to make its AI generators idiot-proof in Premiere",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Thomas Ricker Adobe AI Creators News Tech Most Popular Most Popular Six years later, Sony revisits its legendary XM4 headphones LG TVs caught spying even when offline or on standby The real reason your phone is getting more expensive DIY pl",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6436aa48a4b39582c511": {
+      "storyId": "6436aa48a4b39582c511",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260907201552.htm",
+      "title": "Scientists observe Einstein’s gravity in the quantum world for the first time",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-08T12:09:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f3242eab15c64cd0d3ea4412",
+      "bodyFingerprint": "11c773294c261e73905b72a5",
+      "bodyCharacterCount": 10725,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:41.616Z",
+      "assessment": {
+        "centralEvent": "Scientists observe Einstein’s gravity in the quantum world for the first time",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Your Mother’s Age May Leave a Biological Mark That Lasts for Generations A Hidden Hormone Disorder May Be Driving Millions of High Blood Pressure Cases DNA Solves a 166-Year-Old Mystery From the Doomed Franklin ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Physicists have directly observed a long-predicted quantum effect of gravity, putting one of Einstein’s foundational ideas to a striking new test.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: AI/ScienceDaily.com An international team that includes Nobel Prize-winning physicist Professor Sir Roger Penrose has directly observed a long-predicted gravitational effect in a falling quantum object for the first time.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The reunited waves interfered with one another, giving the researchers a way to measure the extremely small difference in quantum phase that had accumulated while one part was falling and the other remained fixed.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The reunited waves interfered with one another, giving the researchers a way to measure the extremely small difference in quantum phase that had accumulated while one part was falling and the other remained fixed.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "11, 2023  Physicists have taken a first step in understanding quantum emergence -- the transition from 'one-to-many' particles -- by studying not one, not many, but two isolated, interacting ...",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.87,
+        "rawScore": 28.87,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9b6313a4d4f7a5f551d6": {
+      "storyId": "9b6313a4d4f7a5f551d6",
+      "url": "https://www.lawfaremedia.org/article/america-must-protect-its-training-data",
+      "title": "America Must Protect Its Training Data",
+      "source": "Lawfare AI",
+      "published": "2026-09-08T14:24:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fde7915978c9b1109aabf8ed",
+      "bodyFingerprint": "ec6c94092bd38c88b780668a",
+      "bodyCharacterCount": 13357,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:41.645Z",
+      "assessment": {
+        "centralEvent": "America Must Protect Its Training Data",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The ‘Covered List’: A Fraud Claimed ‘National Security’ Nicholas Weaver Sep 3, 2026 A tool built to block Huawei and Hikvision now bans drones, routers, and solar inverters—undermining the security it was meant to protect.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "For example, to build one recent evaluation suite, Mercor assembled 256 professionals who averaged nearly 13 years of experience—former consultants from McKinsey and BCG, bankers from Morgan Stanley and Citigroup, corporate lawyers from Dis",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In February 2024, then-President Biden signed Executive Order 14117 , which declared (under the International Emergency Economic Powers Act , or IEEPA) that “countries of concern” (including China) acquiring Americans’ bulk personal data is",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Lastly, while data flow to China will never be fully contained, a policy that raises Beijing’s costs is an improvement over the status quo, where the rule is that there is no rule at all.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.67,
+        "rawScore": 48.67,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4a253cdf2942de5c9690": {
+      "storyId": "4a253cdf2942de5c9690",
+      "url": "https://www.lawfaremedia.org/article/scaling-laws--algorithmic-disgorgement-with-christina-lee",
+      "title": "Scaling Laws: Algorithmic Disgorgement with Christina Lee",
+      "source": "Lawfare AI",
+      "published": "2026-09-08T14:00:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8dcb534763e2befa716d109f",
+      "bodyFingerprint": "a17cf8e44a47563ab4c619b5",
+      "bodyCharacterCount": 2661,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:41.692Z",
+      "assessment": {
+        "centralEvent": "Scaling Laws: Algorithmic Disgorgement with Christina Lee",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Christina explains why the remedy’s expansion matters, especially after the FTC’s Rite Aid settlement, where the alleged wrong was not unlawful data collection but the allegedly unfair use of facial recognition technology.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4eb72a56d90a1eb3a6f0": {
+      "storyId": "4eb72a56d90a1eb3a6f0",
+      "url": "https://techpolicy.press/chinas-disinformation-operations-in-taiwan-are-changing-with-ai",
+      "title": "China’s Disinformation Operations in Taiwan Are Changing with AI",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-08T12:31:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "07103fbc3fb54ee998d994ec",
+      "bodyFingerprint": "3daa8910cbeb6b01d4f591c3",
+      "bodyCharacterCount": 6696,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:41.748Z",
+      "assessment": {
+        "centralEvent": "China’s Disinformation Operations in Taiwan Are Changing with AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Ahead of Taiwan’s 2026 year-end elections, the District Prosecutors’ Office has established a special task force to combat deepfake content, while the Ministry of Digital Affairs plans to launch a reporting network in August.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "This kind of coordination is already documented.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The analysis shows the campaign \"had limited reach, with practically no engagement from organic users.\" William Yang , a Northeast Asia analyst at the Belgium-based International Crisis Group, said the election interference efforts from Chi",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3a009c2de1e8fb7cb5e5": {
+      "storyId": "3a009c2de1e8fb7cb5e5",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/08/openai-rogue-models-hugging-face-investigation",
+      "title": "OpenAI models went rogue. We urgently need a better ‘hugging face’ investigation | Mackenzie Arnold and Stephan Llerena",
+      "source": "The Guardian AI",
+      "published": "2026-09-08T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b33bf5d173d3ba64814a2ac2",
+      "bodyFingerprint": "a0ce6a9e5d3d801f0691ea75",
+      "bodyCharacterCount": 7221,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:41.759Z",
+      "assessment": {
+        "centralEvent": "OpenAI models went rogue. We urgently need a better ‘hugging face’ investigation | Mackenzie Arnold and Stephan Llerena",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "We need an agency capable of full investigations into AI incidents When OpenAI first revealed that its AI agents had autonomously hacked a major real-world company, Hugging Face, many assumed only one or two agents were involved.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "On Friday, Reuters reported that another swarm of OpenAI agents had broken out this spring, hijacking a German website and using it as another message board.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In aviation, the National Transportation Safety Board (NTSB) investigates accidents with subpoena and wide-ranging investigative powers .",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Subsequent reports have revealed that the Hugging Face breach was not an isolated incident and that autonomous agents from Meta, Anthropic and OpenAI have hacked third parties in separate incidents.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.91,
+        "rawScore": 46.91,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.265,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "38fc9938eabf6efd7f18": {
+      "storyId": "38fc9938eabf6efd7f18",
+      "url": "https://apnews.com/article/canada-trump-carney-trade-war-tariffs-4620ffb5ecc029322217207fa6758431",
+      "title": "What to know about Canada’s escalating trade war with the US as Carney retaliates with tariffs",
+      "source": "AP News AI",
+      "published": "2026-09-08T04:07:02",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "833857168c202f0add68acba",
+      "bodyFingerprint": "cf28aed0537e4bb85ed10f6e",
+      "bodyCharacterCount": 12859,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:41.865Z",
+      "assessment": {
+        "centralEvent": "What to know about Canada’s escalating trade war with the US as Carney retaliates with tariffs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The outcome could resonate far beyond Canada, showing other governments whether a smaller U.S. ally can withstand Trump’s economic pressure.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The rupture is especially striking because the countries have long shared one of the world’s closest relationships , with deeply integrated economies, close defense and security cooperation, vast cultural ties and, before relations deterior",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Carney is becoming a global voice for standing up to Trump At the World Economic Forum in Davos in January, Carney warned that great powers are using economic integration to coerce smaller countries.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Trump’s pressure is hardening resistance in Canada Trump’s trade war and repeated talk of making Canada the 51st state have fueled anger and rallied support for Carney.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.17,
+        "rawScore": 29.17,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "83cc652034dbb441dfc6": {
+      "storyId": "83cc652034dbb441dfc6",
+      "url": "https://apnews.com/article/senate-democrats-republicans-midterm-elections-d66dd48f09dca7a8549af1b0c2acba12",
+      "title": "The GOP was confident about keeping its Senate majority. Now the fight for control is wide open",
+      "source": "AP News AI",
+      "published": "2026-09-08T04:00:25",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "192458086ce7d29214db0be5",
+      "bodyFingerprint": "ba2e004d9b31cf71febfe81b",
+      "bodyCharacterCount": 12180,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:41.951Z",
+      "assessment": {
+        "centralEvent": "The GOP was confident about keeping its Senate majority. Now the fight for control is wide open",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Paxton has been shadowed for decades by legal and ethical questions , including indictments for securities fraud, though he was not convicted.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Trump told reporters last week that he will “be making a lot of stops” in the last 30 days before the election.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "He previously reported on Michigan politics for AP. twitter mailto THOMAS BEAUMONT Beaumont covers national politics for The Associated Press.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 100,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "96bac76ab77aedb23703": {
+      "storyId": "96bac76ab77aedb23703",
+      "url": "https://apnews.com/article/naomi-osaka-fashion-us-open-aafe4bc6fa419096629518eff79761f3",
+      "title": "Naomi Osaka exits US Open, but not before displaying one more swaggy fashion ensemble",
+      "source": "AP News AI",
+      "published": "2026-09-08T02:35:42",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7edd8951f0ce85007ac04524",
+      "bodyFingerprint": "aceb403be817b7f23366adba",
+      "bodyCharacterCount": 7430,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:42.027Z",
+      "assessment": {
+        "centralEvent": "Naomi Osaka exits US Open, but not before displaying one more swaggy fashion ensemble",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Zheng Qinwen comes through an injury and qualifying to make a run to the US Open quarterfinals 2 MIN READ Coco Gauff returns to the US Open quarterfinals for the first time since her 2023 title run 1 MIN READ Mirra Andreeva ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1fe9d5ecc0e4f0cd9869": {
+      "storyId": "1fe9d5ecc0e4f0cd9869",
+      "url": "https://www.artificialintelligence-news.com/news/arm-total-design-for-physical-ai-and-robotics-framework",
+      "title": "Arm launches Total Design for Physical AI and robotics framework",
+      "source": "AI News",
+      "published": "2026-09-08T11:44:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bfd8e6df43b592d86dc4114f",
+      "bodyFingerprint": "9ed741e9808b42a1c8bb1209",
+      "bodyCharacterCount": 497,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-08T14:34:42.074Z",
+      "assessment": {
+        "centralEvent": "Arm launches Total Design for Physical AI and robotics framework",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ddb49c97c18a0cef3a15": {
+      "storyId": "ddb49c97c18a0cef3a15",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260903064222.htm",
+      "title": "An important step towards detecting fractons in quantum spin liquids",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-07T05:45:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2bba1fb120ece1a92ee9e8af",
+      "bodyFingerprint": "0bfb4c4e59ef07ecadbb6ef9",
+      "bodyCharacterCount": 7495,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:42.096Z",
+      "assessment": {
+        "centralEvent": "An important step towards detecting fractons in quantum spin liquids",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Your Mother’s Age May Leave a Biological Mark That Lasts for Generations A Hidden Hormone Disorder May Be Driving Millions of High Blood Pressure Cases DNA Solves a 166-Year-Old Mystery From the Doomed Franklin ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Share: Facebook Twitter Pinterest LinkedIN Email FULL STORY Researchers have found new theoretical evidence that elusive quasiparticles called fractons could exist in realistic quantum materials.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "RELATED TOPICS Matter & Energy Graphene Physics Spintronics Inorganic Chemistry Computers & Math Computer Modeling Spintronics Research Mathematical Modeling Virtual Reality RELATED TERMS Quantum computer Introduction to quantum mechanics Q",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "These are unusual states of matter in crystals where the magnetic moments of electrons never settle into a fixed arrangement, even at 0&deg; K.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "These are unusual states of matter in crystals where the magnetic moments of electrons never settle into a fixed arrangement, even at 0&deg; K.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A single fracton is essentially unable to move by itself and can only be shifted through interactions with other fractons.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.87,
+        "rawScore": 28.87,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "682b5e6bce153d621947": {
+      "storyId": "682b5e6bce153d621947",
+      "url": "https://www.artificialintelligence-news.com/news/coca-cola-ai-retailer-ordering-malaysia",
+      "title": "Coca-Cola uses AI to improve retailer ordering in Malaysia",
+      "source": "AI News",
+      "published": "2026-09-08T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d96c210270beb74ffdf0aeaf",
+      "bodyFingerprint": "5f12b0dafdfcce3be971205b",
+      "bodyCharacterCount": 511,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-08T14:34:42.116Z",
+      "assessment": {
+        "centralEvent": "Coca-Cola uses AI to improve retailer ordering in Malaysia",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4c456ea1d6a6668ae701": {
+      "storyId": "4c456ea1d6a6668ae701",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260906170132.htm",
+      "title": "Scientists find a way to slash computer memory energy use by orders of magnitude",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-07T01:14:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "13ef3e6fd700085873028e3b",
+      "bodyFingerprint": "37565ca29c6fa78559652fe6",
+      "bodyCharacterCount": 8316,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:42.141Z",
+      "assessment": {
+        "centralEvent": "Scientists find a way to slash computer memory energy use by orders of magnitude",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Your Mother’s Age May Leave a Biological Mark That Lasts for Generations A Hidden Hormone Disorder May Be Driving Millions of High Blood Pressure Cases DNA Solves a 166-Year-Old Mystery From the Doomed Franklin ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "21, 2023  Researchers have demonstrated a switch, analogous to a transistor, made from a single molecule called fullerene.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As AI becomes more deeply integrated into everyday life, industry, and science, the global need for computing power and data storage continues to climb.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Even more strikingly, the predicted energy requirements move future magnetic memory much closer to the Landauer limit (the fundamental thermodynamic limit) defining the minimum amount of energy required to process a single bit of informatio",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.96,
+        "rawScore": 27.96,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9ba5213edfb76c68a29c": {
+      "storyId": "9ba5213edfb76c68a29c",
+      "url": "https://www.theguardian.com/business/2026/sep/08/ai-cure-cancer-arm-holdings-rene-haas",
+      "title": "AI will help find cure for cancer ‘within our lifetimes’, says Arm Holdings chief",
+      "source": "The Guardian AI",
+      "published": "2026-09-08T11:49:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e5390a6a9dd6f8b2f26d8223",
+      "bodyFingerprint": "7957c9045309698ae7b0585b",
+      "bodyCharacterCount": 3958,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-08T14:34:42.147Z",
+      "assessment": {
+        "centralEvent": "AI will help find cure for cancer ‘within our lifetimes’, says Arm Holdings chief",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Explore more on these topics Arm AI (artificial intelligence) Cancer Medical research Robots Computing Health Share Reuse this content More on this story More on this story BBC News presenter Maryam Moshiri reveals she has incurable blood c",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Haas stepped down from the board of British pharmaceutical giant AstraZeneca in April, Earlier this year, Arm also proposed a pay scheme for Haas that could make him a billionaire if he hits targets to turn the chip designer into a trillion",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“So, in the service industry, the robot that was programmed to make a bed can also learn how to arrange the towels in a room, or clean the dustbins, or whatever you want to go off and do.” Arm, which is listed in New York but retains its gl",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-08T09:44:23.369Z"
+  "updatedAt": "2026-09-08T14:34:42.147Z"
 }
