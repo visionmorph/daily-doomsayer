@@ -114557,8 +114557,1491 @@
           "vulnerability": 0
         }
       }
+    },
+    "8567fad1c4788e2a57f6": {
+      "storyId": "8567fad1c4788e2a57f6",
+      "url": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score",
+      "title": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T18:16:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "96d0c2b7bbf8e5a1f1182640",
+      "bodyFingerprint": "25546d8f377540f580464231",
+      "bodyCharacterCount": 3165,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.235Z",
+      "assessment": {
+        "centralEvent": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "18d2a01944700462d30f": {
+      "storyId": "18d2a01944700462d30f",
+      "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop",
+      "title": "Apple has a new way prove your iPhone photos aren’t AI slop",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T18:08:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a20cc5b8e21012d4bef181a",
+      "bodyFingerprint": "89eaf06a7b2a57bef751f82a",
+      "bodyCharacterCount": 2749,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.240Z",
+      "assessment": {
+        "centralEvent": "Apple has a new way prove your iPhone photos aren’t AI slop",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular Apple’s revamped Health app will calculate your ‘health age’ and readiness score Sarah Perez Apple unveils Watch Series 12 and Watch Ultra 4 with an AI upgrade that can recap your day Aisha Malik Apple has a new wa",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a237d2c5e45c6c8a327c": {
+      "storyId": "a237d2c5e45c6c8a327c",
+      "url": "https://mashable.com/tech/apple-ios-27-release-date-how-to-download",
+      "title": "Apple iOS 27 release date: When you can download it",
+      "source": "Mashable AI",
+      "published": "2026-09-09T18:15:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fa375637765c35799c1d9aa0",
+      "bodyFingerprint": "2f81e7b386b43161d9be821f",
+      "bodyCharacterCount": 2889,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.251Z",
+      "assessment": {
+        "centralEvent": "Apple iOS 27 release date: When you can download it",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Apple, users with compatible iPhones will be able to install iOS 27 on Monday, Sept.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d53dc1b159f7850f8bfc": {
+      "storyId": "d53dc1b159f7850f8bfc",
+      "url": "https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone",
+      "title": "Apple CEO John Ternus says the best AI device is still the iPhone",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T17:36:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3fb6f93a0758713b500fc07c",
+      "bodyFingerprint": "8723f9cdb09899a7501f7817",
+      "bodyCharacterCount": 3272,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.281Z",
+      "assessment": {
+        "centralEvent": "Apple CEO John Ternus says the best AI device is still the iPhone",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "447e9c0246173f06dd8e": {
+      "storyId": "447e9c0246173f06dd8e",
+      "url": "https://www.politico.com/news/2026/09/09/house-democrats-weigh-ai-select-committee-01068764",
+      "title": "House Democrats weigh AI select committee",
+      "source": "POLITICO AI",
+      "published": "2026-09-09T17:49:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c56862f84a9f3f3860e0a3df",
+      "bodyFingerprint": "666aacfa23fcc7a1d4c18dd7",
+      "bodyCharacterCount": 167,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T18:39:35.311Z",
+      "assessment": {
+        "centralEvent": "House Democrats weigh AI select committee",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Democratic leaders are open to creating a new panel to investigate the tech industry if the party wins back the House, according to four people familiar with planning.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b98a2905dcf4fbc3e191": {
+      "storyId": "b98a2905dcf4fbc3e191",
+      "url": "https://mashable.com/tech/new-ios-27-features-apple-iphone-event-2026",
+      "title": "iOS 27 is officially here. Check out the iPhone 18s new AI features (and a few surprises)",
+      "source": "Mashable AI",
+      "published": "2026-09-09T17:37:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c42918862e71032d3bdbd636",
+      "bodyFingerprint": "db5f6b777ccd6f2aca8840e1",
+      "bodyCharacterCount": 3887,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.319Z",
+      "assessment": {
+        "centralEvent": "iOS 27 is officially here. Check out the iPhone 18s new AI features (and a few surprises)",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories iPhone 18 Pro price report: Apple confirms price hikes Apple introduces variable aperture and more AI tools for creators How Apple Lost Its Cool (And How It Can Get It Back) Apple announces two new AirPods 5 models at iPhone",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "68f1210878a9d8355ef0": {
+      "storyId": "68f1210878a9d8355ef0",
+      "url": "https://www.wired.com/story/i-used-ai-to-hack-my-home-network",
+      "title": "I Let an AI Agent Hack All My Gadgets—and I’d Do It Again",
+      "source": "WIRED AI",
+      "published": "2026-09-09T18:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af7b2723866e7e37ea2b875f",
+      "bodyFingerprint": "c1d2e7786f32a09345946480",
+      "bodyCharacterCount": 12344,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.367Z",
+      "assessment": {
+        "centralEvent": "I Let an AI Agent Hack All My Gadgets—and I’d Do It Again",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "After I removed the safety guardrails from a powerful open-source model, it found vulnerabilities in my household devices and hacked into a PC.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Will Knight This Coin-Sized Device Can Hack a Boeing 737 Security researchers found that in less than 60 seconds, they could open a hatch on a plane’s exterior, plug in a tiny device, and redirect the aircraft’s autopilot or sabotage its fl",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The challenge is that many companies aren’t thinking about shoring up their defenses.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Zoë Schiffer A Zoom Screen-Sharing Bug Let Anyone Take Over Other Devices on a Call Researchers say it took fewer than 20 prompts for a public AI tool to find a flaw (now fixed) allowing anyone on a Zoom call to hijack another participants’",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "After all that, I shut down the model and went back to using a regular, fully aligned version.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 94,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.55,
+        "rawScore": 47.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3225,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a187394b272fb72e9b1a": {
+      "storyId": "a187394b272fb72e9b1a",
+      "url": "https://mashable.com/tech/siri-ai-beta-apple-intelligence-updates-iphone-event-2026",
+      "title": "Apple readies Siri AI for launch alongside iPhone 18 Pro",
+      "source": "Mashable AI",
+      "published": "2026-09-09T17:14:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4481f04fc9c2295ce3d844b9",
+      "bodyFingerprint": "b30eaf16dc772ed3a6ac87e7",
+      "bodyCharacterCount": 3786,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.401Z",
+      "assessment": {
+        "centralEvent": "Apple readies Siri AI for launch alongside iPhone 18 Pro",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "be07e88e346dd80a8bd1": {
+      "storyId": "be07e88e346dd80a8bd1",
+      "url": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
+      "title": "Microsoft has new AI privacy rules for schools",
+      "source": "The Verge AI",
+      "published": "2026-09-09T17:07:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "089628a5f5efd87b1ae04ee3",
+      "bodyFingerprint": "e86050fbf7ba008c7ffefddb",
+      "bodyCharacterCount": 4604,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.438Z",
+      "assessment": {
+        "centralEvent": "Microsoft has new AI privacy rules for schools",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The terms include pledging not to train AI models on student or educator data, limiting the amount of data Microsoft collects in the first place and disclosing to families how its tools work in plain language, prohibiting AI companions, and",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Lauren Feiner AI Microsoft Policy Tech Most Popular Most Popular iPhone 18 live blog: On the ground at Apple’s biggest event Apple announces the iPhone 18 Pro and 18 Pro Max LG TVs caught spying even when offline or on standby The iPhone Du",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f867246ab8283b26b020": {
+      "storyId": "f867246ab8283b26b020",
+      "url": "https://www.inc.com/moses-jeanfrancois/will-a-researchers-warning-hurt-anthropic-ipo-experts-say-not-biggest-risk/91402860",
+      "title": "Will a Researcher’s Warning Hurt Anthropic’s IPO? Experts Say That’s Not the Biggest Risk",
+      "source": "Inc. AI",
+      "published": "2026-09-09T16:40:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e73137afe81b15a0bf22d818",
+      "bodyFingerprint": "b847418e9bea11847c7ee079",
+      "bodyCharacterCount": 140,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T18:39:35.571Z",
+      "assessment": {
+        "centralEvent": "Will a Researcher’s Warning Hurt Anthropic’s IPO? Experts Say That’s Not the Biggest Risk",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Will a Researcher’s Warning Hurt Anthropic’s IPO?",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Experts Say That’s Not the Biggest Risk",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5e6cc885d41ddb3e766e": {
+      "storyId": "5e6cc885d41ddb3e766e",
+      "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it",
+      "title": "Superintelligence is coming. Should we let it?",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T16:05:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "21dacb4ff7fa14459e9bee5a",
+      "bodyFingerprint": "03f3c9bad4bf8f1f695e2a8c",
+      "bodyCharacterCount": 474,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T18:39:35.600Z",
+      "assessment": {
+        "centralEvent": "Superintelligence is coming. Should we let it?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "181c51fbb02654daa46e": {
+      "storyId": "181c51fbb02654daa46e",
+      "url": "https://arstechnica.com/science/2026/09/googles-ai-genome-system-evaluates-every-possible-one-base-change",
+      "title": "Google's AI genome system evaluates every possible one-base change",
+      "source": "Ars Technica AI",
+      "published": "2026-09-09T16:34:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c82dbe8b3d8434a9bc5f669a",
+      "bodyFingerprint": "82df27c2902503d881432532",
+      "bodyCharacterCount": 6564,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.674Z",
+      "assessment": {
+        "centralEvent": "Google's AI genome system evaluates every possible one-base change",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Being able to identify the functional portion is very useful, as is having all the analysis done by a single software package.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "022c8217233a781f3514": {
+      "storyId": "022c8217233a781f3514",
+      "url": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all",
+      "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
+      "source": "Ars Technica AI",
+      "published": "2026-09-09T16:59:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "715cf69461bb321f346a09f1",
+      "bodyFingerprint": "667f035190e010cca5854abd",
+      "bodyCharacterCount": 7232,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.678Z",
+      "assessment": {
+        "centralEvent": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "I personally think it is >10% within the next decade.” Hubinger points to a lengthy August report from the Anthropic alignment team that predicts the potential for “catastrophic risk” from current models is “low.” But that report also says ",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6a9c4c3b80f3aeebca46": {
+      "storyId": "6a9c4c3b80f3aeebca46",
+      "url": "https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction",
+      "title": "Anthropic researchers say AI could cause human extinction by 2030",
+      "source": "The Guardian AI",
+      "published": "2026-09-09T15:53:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4459e41b10fa801ffb0ca747",
+      "bodyFingerprint": "d0959051f3b5f85d59b16b07",
+      "bodyCharacterCount": 5158,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.699Z",
+      "assessment": {
+        "centralEvent": "Anthropic researchers say AI could cause human extinction by 2030",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A sharp rise was reported this summer in incidents of AIs escaping users’ control to lie, ignore instructions and pursue goals in harmful ways. skip past newsletter promotion after newsletter promotion In one of the most publicized examples",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Anthropic researchers say AI could cause human extinction by 2030",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "If anything, many executives and senior researchers will couch their phrasing in the press to sound sensible – but I hear the same people express fear privately.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Those executives, however, have stopped short of agreeing with the fully doomsday warnings like Coxon’s and have bristled at any attempts to regulate the AI industry.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 66.58,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "76c148f3c8a309fab387": {
+      "storyId": "76c148f3c8a309fab387",
+      "url": "https://www.inc.com/jessica-stillman/nearly-1-in-3-college-students-are-changing-careers-over-ai-should-they/91400710",
+      "title": "Nearly 1 in 3 College Students Are Changing Careers Over AI. Should They?",
+      "source": "Inc. AI",
+      "published": "2026-09-09T15:21:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f2799c273059d0da343ab615",
+      "bodyFingerprint": "bb25c3a84efc40af1cc0597e",
+      "bodyCharacterCount": 121,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T18:39:35.700Z",
+      "assessment": {
+        "centralEvent": "Nearly 1 in 3 College Students Are Changing Careers Over AI. Should They?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d7e615e9b600290cb54c": {
+      "storyId": "d7e615e9b600290cb54c",
+      "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary",
+      "title": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T15:50:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7395fcfec72ed2322ff69025",
+      "bodyFingerprint": "f0e9e4a0411e695a9c54cf8c",
+      "bodyCharacterCount": 4139,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.706Z",
+      "assessment": {
+        "centralEvent": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular OpenAI fought dirty on career-making math problem, says NYU mathematician Russell Brandom A secret new Elizabeth Holmes documentary stuns Telluride Connie Loizos TechCrunch Mobility: Tesla Cybercab hits the road — ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "247c59038a6974bd1dfc": {
+      "storyId": "247c59038a6974bd1dfc",
+      "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address",
+      "title": "Viral AI assistant Instinct now has its own email address",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T15:13:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ddd193750b648d304a2896b6",
+      "bodyFingerprint": "ecef35886a734d6e291a06b0",
+      "bodyCharacterCount": 4754,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.725Z",
+      "assessment": {
+        "centralEvent": "Viral AI assistant Instinct now has its own email address",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e225c74ef331550f498b": {
+      "storyId": "e225c74ef331550f498b",
+      "url": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant",
+      "title": "Shipt becomes the latest delivery app with an AI shopping assistant",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T14:51:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea9cf63f01f25a4d3bbe070d",
+      "bodyFingerprint": "b54c21f67bc2ca708d8fdd8a",
+      "bodyCharacterCount": 2367,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.731Z",
+      "assessment": {
+        "centralEvent": "Shipt becomes the latest delivery app with an AI shopping assistant",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Apps Instacart launches an AI grocery shopping assistant called Clementine Aisha Malik 5 hours ago AI A consumer watchdog issued a warning about Google",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In Brief Posted: 7:51 AM PDT · September 9, 2026 Image Credits: Shipt Aisha Malik Shipt becomes the latest delivery app with an AI shopping assistant Shipt , the same-day delivery platform owned by Target, is the latest delivery app to join",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "15792853147eaef874c8": {
+      "storyId": "15792853147eaef874c8",
+      "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai",
+      "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T15:02:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ce1eb5ccda812d2d15c2e1c9",
+      "bodyFingerprint": "6f23b28f06ef70cd8caada4f",
+      "bodyCharacterCount": 7501,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.758Z",
+      "assessment": {
+        "centralEvent": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The public resignation comes amid growing pressure from policymakers and industry insiders to slow down AI development, following several incidents involving AI agents breaking out of their sandboxes and accessing the open internet.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The most serious so far have been OpenAI systems breaching Hugging Face’s servers , an event that researchers say remains poorly understood, due in part to the limited nature of the independent investigations into the incident.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "I don’t feel like we’re on track to prevent a global race, which may require costly actions such as a temporary ban on improving model capabilities.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Leahy, who advised on both bills, noted that the U.K.’s legislation points to recursive self-improvement as a precursor to superintelligence that “must be regulated and prevented.” “Superintelligence is not a tool,” Leahy said.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The public resignation comes amid growing pressure from policymakers and industry insiders to slow down AI development, following several incidents involving AI agents breaking out of their sandboxes and accessing the open internet.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.23,
+        "rawScore": 28.23,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.385,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6a54d93d632c3ae5aabd": {
+      "storyId": "6a54d93d632c3ae5aabd",
+      "url": "https://www.lawfaremedia.org/article/gps-and-the-limits-of-control",
+      "title": "GPS and the Limits of Control",
+      "source": "Lawfare AI",
+      "published": "2026-09-09T17:21:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6d2f68fe643640e55a339efa",
+      "bodyFingerprint": "13d2e89c99d30e3edcdfc1c5",
+      "bodyCharacterCount": 18021,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:35.832Z",
+      "assessment": {
+        "centralEvent": "GPS and the Limits of Control",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Financial transactions depend on precise GPS time stamps for regulatory compliance and fraud detection.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Miraculously, these whispers are heard by 6 billion users every day and can be used to pinpoint your location to within three to five meters.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Many of us cannot imagine a world without the Global Positioning System (GPS).",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "GPS technologies and services.” The same directive established a permanent Interagency GPS Executive Board ( now the National Executive Committee for Space-Based Positioning, Navigation, and Timing ), jointly chaired by the departments of D",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Miraculously, these whispers are heard by 6 billion users every day and can be used to pinpoint your location to within three to five meters.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 118,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 51.15,
+        "rawScore": 51.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.65,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bdb90712e1c72ee72293": {
+      "storyId": "bdb90712e1c72ee72293",
+      "url": "https://www.eff.org/deeplinks/2026/09/new-records-reveal-problems-medicares-ai-prior-authorization-experiment",
+      "title": "New Records Reveal Problems with Medicare’s AI Prior Authorization Experiment",
+      "source": "EFF AI",
+      "published": "2026-09-08T19:19:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cd42d9ee433432787ee9eed0",
+      "bodyFingerprint": "ae347917f0daa026cac85bb2",
+      "bodyCharacterCount": 9094,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:36.060Z",
+      "assessment": {
+        "centralEvent": "New Records Reveal Problems with Medicare’s AI Prior Authorization Experiment",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The documents (available here) show that WISeR has resulted in widespread delays and denials of care, operational chaos, and reports of patient harm.",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Delayed Responses to Prior Authorization Requests CMS publicly states that WISeR vendors should respond to prior authorization requests within 72 hours, but records received by EFF show widespread delays.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "One company, Virtix, the vendor that CMS required to submit a Corrective Action Plan, denied more requests than it approved during this time period.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 104,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 66.69,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "feb449065beb8c6894f9": {
+      "storyId": "feb449065beb8c6894f9",
+      "url": "https://www.politico.eu/article/eu-big-tech-data-center-clean-power-supply-teresa-ribera",
+      "title": "Ribera says EU data centers should build their own clean energy supply",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-09T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "36f6180727a53bc526d69755",
+      "bodyFingerprint": "09ea3ca568983923ac715a5a",
+      "bodyCharacterCount": 3720,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T18:39:36.128Z",
+      "assessment": {
+        "centralEvent": "Ribera says EU data centers should build their own clean energy supply",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "So this creates some tensions.” Advertisement Governments have three choices, Ribera said: Do nothing, and risk rising economic and societal conflict as “prices are getting higher and higher” due to increasing demand; impose a moratorium on",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5a3336b6255158a619a0": {
+      "storyId": "5a3336b6255158a619a0",
+      "url": "https://www.nature.com/articles/d41586-026-02846-1",
+      "title": "Use AI as a sparring partner, not an oracle",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-09T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a684f8ecdc2037827d8eb97",
+      "bodyFingerprint": "5da45767864d3f287ee1da4f",
+      "bodyCharacterCount": 44,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T18:39:36.482Z",
+      "assessment": {
+        "centralEvent": "Use AI as a sparring partner, not an oracle",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-09T14:38:51.906Z"
+  "updatedAt": "2026-09-09T18:39:36.482Z"
 }
