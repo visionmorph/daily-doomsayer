@@ -116040,8 +116040,1128 @@
           "vulnerability": 0
         }
       }
+    },
+    "b265afb9a5e13a3fb747": {
+      "storyId": "b265afb9a5e13a3fb747",
+      "url": "https://www.politico.com/live-updates/2026/09/09/congress/sanders-to-host-ai-briefing-for-senators-01069212",
+      "title": "Bernie Sanders to host AI briefing for US senators",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-09T21:12:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9621d32ab394c9bea82cc1b3",
+      "bodyFingerprint": "0df3a0fdc3bf350c44257623",
+      "bodyCharacterCount": 113,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T21:44:02.761Z",
+      "assessment": {
+        "centralEvent": "Bernie Sanders to host AI briefing for US senators",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7991d7bc4b787f58b9ba": {
+      "storyId": "7991d7bc4b787f58b9ba",
+      "url": "https://www.theverge.com/tech/992919/apple-siri-ai-audio-intelligence-privacy",
+      "title": "Read the Apple document explaining how new listening features still protect your privacy",
+      "source": "The Verge AI",
+      "published": "2026-09-09T20:44:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ce1ffcc40b4b9d1b2f3e7f94",
+      "bodyFingerprint": "599dc7c09f12c623fb14a29a",
+      "bodyCharacterCount": 4610,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:02.808Z",
+      "assessment": {
+        "centralEvent": "Read the Apple document explaining how new listening features still protect your privacy",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters An hour ago Most Popular Most Popular The iPhone Duo is Apple’s first foldable iPhone 18 live blog: On the ground at Apple’s biggest event Apple announces the iPhone 18 Pro and 18 Pro Max Hands-on with the foldable iPhone Duo LG ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ed4c714c44aa756416c3": {
+      "storyId": "ed4c714c44aa756416c3",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "source": "The Verge AI",
+      "published": "2026-09-09T21:16:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eb515acbf83d973a5f197d70",
+      "bodyFingerprint": "ff5c269cae4e029930705c6e",
+      "bodyCharacterCount": 11595,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:02.819Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The ensuing controversy has surfaced allegations of scooping, spying ...",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As Abhishek Saha, a mathematics professor at Queen Mary University of London, explains it, OpenAI has engaged in the “kind of things that mathematicians will generally not do.” In a blog post published Tuesday , OpenAI said it took one of i",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "There are only so many high-caliber problems companies like OpenAI and its rivals would be willing to spend such vast sums solving, Saha speculated.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.19,
+        "rawScore": 27.19,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5a44a5539042946085c2": {
+      "storyId": "5a44a5539042946085c2",
+      "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+      "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+      "source": "MIT News AI",
+      "published": "2026-09-09T20:40:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1ff52c023d96acfae143c7e9",
+      "bodyFingerprint": "416fb8235fb54566447a6016",
+      "bodyCharacterCount": 7134,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:02.851Z",
+      "assessment": {
+        "centralEvent": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "You can think of it as a tool, or a new framing to help you solve the problem in your specific domain.” From pilot workshop to educator network Participants ended the week by reflecting on which workshop materials and teaching approaches th",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6ce545c0e95ca2b436ec": {
+      "storyId": "6ce545c0e95ca2b436ec",
+      "url": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads",
+      "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
+      "source": "WIRED AI",
+      "published": "2026-09-09T21:15:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c668068e8d877956ae0be221",
+      "bodyFingerprint": "aa851aef54003760a319f53e",
+      "bodyCharacterCount": 10314,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:02.941Z",
+      "assessment": {
+        "centralEvent": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“The scale, persistence, and nature of the problems documented here suggest that Meta’s isolated takedown efforts are woefully inadequate,” the letter from Chiu says, requesting Meta provide a response within 28 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The company said the “total ad spend” for the 300-plus ads found by the researchers was “under $5,000.” The letter, which says the City Attorney’s Office has reviewed many of the ads found by the TTP researchers, demands that Meta stop the ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“These findings are especially troubling because they do not appear to reflect an isolated failure that Meta corrected when first alerted to the problem,” Chiu writes.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.02,
+        "rawScore": 48.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "60397224e19ebd7d2f79": {
+      "storyId": "60397224e19ebd7d2f79",
+      "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening",
+      "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T20:24:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6de334f0747e833700d33a14",
+      "bodyFingerprint": "6ff43a477ed971755d97d063",
+      "bodyCharacterCount": 7206,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:02.953Z",
+      "assessment": {
+        "centralEvent": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This is especially true given the broader consumer backlash against surveillance technology like Flock cameras , AI data centers, and AI apps in general .",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On its own, Audio Intelligence seems to be a useful feature for the deaf or hard of hearing, as it can alert Apple Watch owners to sounds like sirens, alarms, doorbells, babies crying, and more, using on-device AI.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44.55,
+        "rawScore": 44.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "878f832f960c47b42128": {
+      "storyId": "878f832f960c47b42128",
+      "url": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch",
+      "title": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T20:03:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "85f12e520f2f9fedac4a616f",
+      "bodyFingerprint": "455e6d4160deed010b9d6218",
+      "bodyCharacterCount": 6499,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:02.959Z",
+      "assessment": {
+        "centralEvent": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Apple says the iPhone Duo delivers up to 31 hours of video playback on its inner display and up to 44 hours on its outer display.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "97571935d7c661c24bb3": {
+      "storyId": "97571935d7c661c24bb3",
+      "url": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
+      "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
+      "source": "The Verge AI",
+      "published": "2026-09-09T19:30:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8c046dfc4c034e2e3ba5e749",
+      "bodyFingerprint": "1dbb169976e5c4f130ca3d73",
+      "bodyCharacterCount": 4260,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:02.973Z",
+      "assessment": {
+        "centralEvent": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters 33 minutes ago Read the Apple document explaining how new listening features still protect your privacy Stevie Bonifield 58 minutes ago How the new Apple Watches compare to the last-gen models Brad Bourque 60 minutes ago Most Pop",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6ebb4ea854642f3307a7": {
+      "storyId": "6ebb4ea854642f3307a7",
+      "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai",
+      "title": "The hinge for Apple’s new foldable phone was built with AI",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T19:21:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "feb9b9069f119a7a5d2449f8",
+      "bodyFingerprint": "32f39ebaccb8624aa173b5f6",
+      "bodyCharacterCount": 2690,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:02.987Z",
+      "assessment": {
+        "centralEvent": "The hinge for Apple’s new foldable phone was built with AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Hardware Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch Aisha Malik 1 hour ago Ga",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "02497375e6fcbb9591b5": {
+      "storyId": "02497375e6fcbb9591b5",
+      "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models",
+      "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
+      "source": "Ars Technica AI",
+      "published": "2026-09-09T20:06:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83d30c34e6e45055f71e4559",
+      "bodyFingerprint": "e9300bfdae0b20d22f3d86e0",
+      "bodyCharacterCount": 10766,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:03.046Z",
+      "assessment": {
+        "centralEvent": "Six Chinese AI firms accused of aggressively copying US frontier models",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "First, AI firms must improve detection of sophisticated campaigns that allegedly use tens of thousands of accounts relying on “a gray market of proxies” to evade geographical restrictions and “route distillation requests through multiple pa",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "First, AI firms must improve detection of sophisticated campaigns that allegedly use tens of thousands of accounts relying on “a gray market of proxies” to evade geographical restrictions and “route distillation requests through multiple pa",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a joint release Tuesday, the National Security Agency (NSA), Cybersecurity and Infrastructure Security Agency (CISA), and Federal Bureau of Investigation (FBI) alleged that DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI have ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "First, AI firms must improve detection of sophisticated campaigns that allegedly use tens of thousands of accounts relying on “a gray market of proxies” to evade geographical restrictions and “route distillation requests through multiple pa",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.34,
+        "rawScore": 48.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.395,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c73551b307f23298a9ae": {
+      "storyId": "c73551b307f23298a9ae",
+      "url": "https://www.theguardian.com/technology/2026/sep/08/apple-new-folding-iphone",
+      "title": "Apple unveils folding iPhone Duo as new CEO takes center stage",
+      "source": "The Guardian AI",
+      "published": "2026-09-09T18:45:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d17d3797c76778b7a1bf32c9",
+      "bodyFingerprint": "f8adc9b94ce682c2a1af12fc",
+      "bodyCharacterCount": 5867,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:03.088Z",
+      "assessment": {
+        "centralEvent": "Apple unveils folding iPhone Duo as new CEO takes center stage",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The passport-size iPhone Duo serves as the first big test for John Ternus, who took over for Tim Cook last week Apple has unveiled the iPhone Duo, the company’s first foldable phone and the most significant change to the iPhone since the sm",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Both new iPhones also represent a “massive leap” in battery life, executives said – the iPhone 18 Pro Max will have 45 hours of battery life and the iPhone 18 pro will have 36 hours of battery life.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Apple’s new CEO introduces himself at annual showcase: ‘I continue to be inspired every single day’ Read more The product release event, titled “Surprise and Shine”, began at 10am Pacific Standard Time on Apple’s campus in Cupertino, Califo",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7d16b4044ff126149704": {
+      "storyId": "7d16b4044ff126149704",
+      "url": "https://mashable.com/tech/apple-event-2026-everything-announced-iphone-18-duo",
+      "title": "Apple Event 2026: Everything announced, including iPhone Duo",
+      "source": "Mashable AI",
+      "published": "2026-09-09T19:48:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4f1aebbaa36ad3a1725b7c1b",
+      "bodyFingerprint": "191fb0dd1700ffe6fe58a309",
+      "bodyCharacterCount": 12148,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:03.183Z",
+      "assessment": {
+        "centralEvent": "Apple Event 2026: Everything announced, including iPhone Duo",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Battery life sees a notable jump, particularly on the Pro Max, which Apple says can deliver up to 45 hours of video playback in eSIM-only configuration, which is the largest battery-life increase in iPhone history, according to the company.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "325c8b3f8fd588069c6b": {
+      "storyId": "325c8b3f8fd588069c6b",
+      "url": "https://www.politico.eu/article/mistral-ai-arthur-mensch-emmanuel-macron-gouvernement-france",
+      "title": "How Emmanuel Macron brought France’s AI darling to the world stage",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-09T18:32:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4dcbcd29917c9a9057c69743",
+      "bodyFingerprint": "665394d8f07ad53122124ce0",
+      "bodyCharacterCount": 13693,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:03.385Z",
+      "assessment": {
+        "centralEvent": "How Emmanuel Macron brought France’s AI darling to the world stage",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On the left, the parties have unanimously backed the company — and called for sovereign AI — in response to the risk of American models being weaponized against European countries.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Mistral’s rise over the past three years, according to a dozen public officials and representatives of France’s tech ecosystem interviewed by POLITICO, owes much to the privileged relationship it built with Macron — enabling the company to ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Advertisement By the time the deal was official, the companies could announce that BNP Paribas, Orange, SNCF and Thales had all expressed interest in the partnership — boosting Mistral’s official entry into the global race for computing pow",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Mensch has been brought along on almost every presidential trip abroad in the past two years, giving him repeated opportunities to sharpen and spread his AI counter-narrative to contrast with the all-powerful Silicon Valley vision.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 83,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.07,
+        "rawScore": 28.07,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.37,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f9cd39e184c6827a4302": {
+      "storyId": "f9cd39e184c6827a4302",
+      "url": "https://www.artificialintelligence-news.com/news/cloudnc-aims-to-accelerate-ai-supply-chain-machining",
+      "title": "CloudNC aims to accelerate AI supply chain machining",
+      "source": "AI News",
+      "published": "2026-09-09T10:34:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f3e7b83e1e754ea03eaff795",
+      "bodyFingerprint": "b08079dc7ed3b53be4ebd4e2",
+      "bodyCharacterCount": 463,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T21:44:03.665Z",
+      "assessment": {
+        "centralEvent": "CloudNC aims to accelerate AI supply chain machining",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ba76ef8b7afb34885bd5": {
+      "storyId": "ba76ef8b7afb34885bd5",
+      "url": "https://www.eff.org/deeplinks/2026/09/digital-sovereignty-what-it-what-it-could-be",
+      "title": "Digital Sovereignty: What It Is, What It Could Be",
+      "source": "EFF AI",
+      "published": "2026-09-09T18:04:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "62e5d2b9753655f282c75bbf",
+      "bodyFingerprint": "dc173ae36264e8d58449bc73",
+      "bodyCharacterCount": 12360,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T21:44:03.736Z",
+      "assessment": {
+        "centralEvent": "Digital Sovereignty: What It Is, What It Could Be",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "In a January article, Almasri pointed to growing concerns about granting greater sovereignty and influence to governments over citizens’ data, communications, and websites, writing: “This is particularly worrisome in countries that impose h",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "In global majority countries in particular, wars, sanctions, and the growing fragmentation of the internet have demonstrated for many that the physical infrastructure that underlies digital life is neither neutral nor invulnerable.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Governments throughout the global majority use it to argue for greater control over data and communications infrastructure and boost their economies.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "There is no singular definition of digital sovereignty, nor is there a single coherent position in the digital rights space.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 141,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.96,
+        "rawScore": 47.96,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6e4d532849b95eacba8d": {
+      "storyId": "6e4d532849b95eacba8d",
+      "url": "https://www.artificialintelligence-news.com/news/samsung-mistral-ai-models-for-semiconductor-manufacturing",
+      "title": "Samsung taps Mistral AI models for semiconductor manufacturing",
+      "source": "AI News",
+      "published": "2026-09-09T08:52:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aead812eecc5c6a79f72d6fd",
+      "bodyFingerprint": "e8216ac3d7808db21e184784",
+      "bodyCharacterCount": 498,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T21:44:03.874Z",
+      "assessment": {
+        "centralEvent": "Samsung taps Mistral AI models for semiconductor manufacturing",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4fe13a42ef8795ce5cf7": {
+      "storyId": "4fe13a42ef8795ce5cf7",
+      "url": "https://www.nature.com/articles/d41586-026-02845-2",
+      "title": "AI model predicts which breast-cancer drugs work best",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-09T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1e30851806afd49dba1923e5",
+      "bodyFingerprint": "2fcb6076cc93240bd6321075",
+      "bodyCharacterCount": 54,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T21:44:04.315Z",
+      "assessment": {
+        "centralEvent": "AI model predicts which breast-cancer drugs work best",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "AI model predicts which breast-cancer drugs work best",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-09T18:39:36.482Z"
+  "updatedAt": "2026-09-09T21:44:04.315Z"
 }
