@@ -113092,8 +113092,1473 @@
           "vulnerability": 0
         }
       }
+    },
+    "185b780b546d3acda766": {
+      "storyId": "185b780b546d3acda766",
+      "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign",
+      "title": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T14:18:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8b3e7fde271705d070cb0974",
+      "bodyFingerprint": "c692c9a9ee5dad9dbe3b105d",
+      "bodyCharacterCount": 4765,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.398Z",
+      "assessment": {
+        "centralEvent": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The adoption of AI tools by businesses slowed in August, according to spending data at 70,000 companies collected by the payments company Ramp.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f61533cfbb92894ead4c": {
+      "storyId": "f61533cfbb92894ead4c",
+      "url": "https://www.politico.com/live-updates/2026/09/09/congress/congress-reacts-to-ai-warning-01068556",
+      "title": "US lawmakers urge Congress to act after AI researcher’s dire warning",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-09T14:01:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "649078150dc3104ddcd08caf",
+      "bodyFingerprint": "502786c7a7cbffb16905bcc3",
+      "bodyCharacterCount": 79,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T14:38:50.420Z",
+      "assessment": {
+        "centralEvent": "US lawmakers urge Congress to act after AI researcher’s dire warning",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "US lawmakers urge Congress to act after AI researcher’s dire warning",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7bd06b11c1289ff0ba95": {
+      "storyId": "7bd06b11c1289ff0ba95",
+      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks",
+      "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "47dc37d6501914294205e17d",
+      "bodyFingerprint": "ba5c654385e80e49b4c26610",
+      "bodyCharacterCount": 8035,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.460Z",
+      "assessment": {
+        "centralEvent": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In July, OpenAI disclosed that agents being tested for cybersecurity capabilities had circumvented safeguards and compromised systems at AI platform Hugging Face .",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Cymphony stated it helped close the exposure and verified that none of the files had been accessed through those AI systems.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AI agents do not necessarily go through the same access and identity controls as employees, but they have access to multiple systems and handle large amounts of corporate data.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Beyond identifying risks, Cymphony uses AI agents to investigate incidents, prioritize what security teams should address, and automate some remediation, including correcting access permissions.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Cymphony had built a product, signed a double-digit number of enterprise customers, and reached seven figures in annual recurring revenue within its first year of sales, the startup told TechCrunch.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.45,
+        "rawScore": 48.45,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.405,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7c2014e71f663c8500bc": {
+      "storyId": "7c2014e71f663c8500bc",
+      "url": "https://www.theguardian.com/technology/2026/sep/09/ai-superintelligence-risks-warnings-scientists-politicians",
+      "title": "AI could kill all humans in next decade, warn experts: but how seriously should we take them?",
+      "source": "The Guardian AI",
+      "published": "2026-09-09T13:46:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "00412fc775c94139f7b8f28e",
+      "bodyFingerprint": "6782d45e75b12513ba180812",
+      "bodyCharacterCount": 8411,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.490Z",
+      "assessment": {
+        "centralEvent": "AI could kill all humans in next decade, warn experts: but how seriously should we take them?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Alarming warnings from industry insiders increase pressure for curbs on artificial superintelligence Does artificial superintelligence really pose a risk greater than nuclear weapons?",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "These warnings were issued over the past 48 hours on both sides of the Atlantic about the potential impact of a technology that most people still think of as a more talkative search engine.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Beatrice Fihn, who won the 2017 Nobel peace prize for leading the International Campaign to Abolish Nuclear Weapons, told parliamentarians: “It is not the first time we’re confronted with abilities that could end up killing us all.” The ses",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There are vulnerabilities in the software frameworks that need to be patched.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There are vulnerabilities in the software frameworks that need to be patched.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.09,
+        "rawScore": 29.09,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "872d282d869c29b5007f": {
+      "storyId": "872d282d869c29b5007f",
+      "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine",
+      "title": "Instacart launches an AI grocery shopping assistant called Clementine",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4127c5b7bc75cbc05b2b3e41",
+      "bodyFingerprint": "2d671c3aeb9acc45d9f1f5cd",
+      "bodyCharacterCount": 3650,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.513Z",
+      "assessment": {
+        "centralEvent": "Instacart launches an AI grocery shopping assistant called Clementine",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2a9fa3a0339a52634311": {
+      "storyId": "2a9fa3a0339a52634311",
+      "url": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing",
+      "title": "Amazon Prime Video’s new AI tech matches lips to dubbed audio",
+      "source": "The Verge AI",
+      "published": "2026-09-09T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d6164d4dbb8481cbfe835ed3",
+      "bodyFingerprint": "9d415a46a380badbcbc2977b",
+      "bodyCharacterCount": 3308,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.560Z",
+      "assessment": {
+        "centralEvent": "Amazon Prime Video’s new AI tech matches lips to dubbed audio",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Last year, Prime Video began experimenting with “AI-aided” dubbing in English and Spanish across 12 movies and TV shows, including El Cid: La Leyenda , Mi Mamá Lora , and Long Lost .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e636608c7838aa6d30d5": {
+      "storyId": "e636608c7838aa6d30d5",
+      "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up",
+      "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T12:05:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b0ce07ef379d73c819c2b978",
+      "bodyFingerprint": "0676c9b6535ea7c573e774dc",
+      "bodyCharacterCount": 4071,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.565Z",
+      "assessment": {
+        "centralEvent": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Despite these controversies, Suno has raised over $819 million in funding to date, according to PitchBook data.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f165b33b514aacd5cee6": {
+      "storyId": "f165b33b514aacd5cee6",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
+      "title": "Students who use AI generally score worse at school",
+      "source": "The Verge AI",
+      "published": "2026-09-09T12:05:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c09aa0350b84387fcc381580",
+      "bodyFingerprint": "67b8bf98ae9d821548717448",
+      "bodyCharacterCount": 5326,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.572Z",
+      "assessment": {
+        "centralEvent": "Students who use AI generally score worse at school",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational report.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "66efa25f492177ae141e": {
+      "storyId": "66efa25f492177ae141e",
+      "url": "https://techcrunch.com/2026/09/09/besxar-is-strapping-advanced-chip-fabs-onto-spacexs-falcon-9-rockets",
+      "title": "Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T12:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ece248fb09419f617f64fdc2",
+      "bodyFingerprint": "41ec3de78fcb3cd6df07e092",
+      "bodyCharacterCount": 5143,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.655Z",
+      "assessment": {
+        "centralEvent": "Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Pilipiszyn first approached SpaceX three years ago to talk about buying flights on Starship and eventually settled on the booster payload deal as a way to de-risk her technology in the meantime.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Besxar expects to keep iterating over the next two years, with the ultimate goal of flying larger fabs onboard a vehicle like SpaceX’s Starship, the company’s next-generation rocket still in development.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "If you want to manufacture in space—and bring the products back again—there’s a limited set of options: Wait to go to the International Space Station, or partner with a handful of start-ups launching spacecraft that spend time in orbit befo",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e43fda801729068a96f5": {
+      "storyId": "e43fda801729068a96f5",
+      "url": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck",
+      "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+      "source": "WIRED AI",
+      "published": "2026-09-09T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7581fcf52f4bae3284f27ecb",
+      "bodyFingerprint": "6968d97b0ca2d9128e476ec2",
+      "bodyCharacterCount": 12328,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.773Z",
+      "assessment": {
+        "centralEvent": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Boone Ashworth Corsair Discount Code: Up to 50% Off for September 2026 Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Save this story Save this story An ambitious chip startup that has spent more than seven years quietly trying to redesign the architecture for computer memory has just come out of stealth mode and believes its new approach can help ease the",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In terms of improving HBM, Kepler says it has developed a novel 3D-manufacturing technique that fits more memory chips within a fixed footprint.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In terms of improving HBM, Kepler says it has developed a novel 3D-manufacturing technique that fits more memory chips within a fixed footprint.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The art is in keeping that material really well isolated through our production flow,” Kaste says.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.87,
+        "rawScore": 48.87,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5c0ccc5efed45d2eba49": {
+      "storyId": "5c0ccc5efed45d2eba49",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909005212.htm",
+      "title": "Have we found alien life? Hundreds of scientists weigh in",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-09T11:13:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e48924a0382a686a90c79be9",
+      "bodyFingerprint": "c2fcd1f1c6f6175fdf8c79c4",
+      "bodyCharacterCount": 9801,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.816Z",
+      "assessment": {
+        "centralEvent": "Have we found alien life? Hundreds of scientists weigh in",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "When a scientific controversy or breakthrough dominates headlines, press officers and journalists often quote a handful of experts.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "What scientists actually thought We surveyed hundreds of astrobiologists from across the global research community, within days of each announcement.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "What scientists actually thought We surveyed hundreds of astrobiologists from across the global research community, within days of each announcement.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "One possible reason is that the two cases involved different kinds of evidence.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 93,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.84,
+        "rawScore": 28.84,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2f2cd6bbc952d0003515": {
+      "storyId": "2f2cd6bbc952d0003515",
+      "url": "https://news.sky.com/story/more-than-10-chance-ai-could-kill-all-humans-anthropic-researcher-13583522",
+      "title": "More than 10% chance AI 'could kill all humans', insider warns",
+      "source": "Sky News AI",
+      "published": "2026-09-09T10:43:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "50604e1f46a7d871de2320df",
+      "bodyFingerprint": "bd6622e986d3c94667781fb8",
+      "bodyCharacterCount": 130,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T14:38:50.870Z",
+      "assessment": {
+        "centralEvent": "More than 10% chance AI 'could kill all humans', insider warns",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4c2384d2d8e097048366": {
+      "storyId": "4c2384d2d8e097048366",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "title": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
+      "source": "The Verge AI",
+      "published": "2026-09-09T09:56:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e0c21ba0036ec67f230a951d",
+      "bodyFingerprint": "7839d693b306eb27b50981f9",
+      "bodyCharacterCount": 4871,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.879Z",
+      "assessment": {
+        "centralEvent": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are ca",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "66cd833a1e473dee0430": {
+      "storyId": "66cd833a1e473dee0430",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909005217.htm",
+      "title": "Interstellar comet 3I/ATLAS is bursting with methanol",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-09T08:47:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b04c14bd9b45357b27fb6b48",
+      "bodyFingerprint": "7af5ee2af7c27ad24232f893",
+      "bodyCharacterCount": 8581,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.936Z",
+      "assessment": {
+        "centralEvent": "Interstellar comet 3I/ATLAS is bursting with methanol",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Unusual Chemistry Points to Different Origins The measurements suggest that the ice inside 3I/ATLAS formed under, or was later exposed to, conditions very different from those experienced by most comets in our solar system.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Comet 3I/ATLAS is only the third confirmed object ever observed entering our solar system from interstellar space, following 1I/'Oumuamua and 2I/Borisov.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Science News from research organizations Interstellar comet 3I/ATLAS is bursting with methanol Date: September 9, 2026 Source: National Radio Astronomy Observatory Summary: Interstellar comet 3I/ATLAS contains exceptionally high levels of m",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.13,
+        "rawScore": 47.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5f1683fab117dbbc93ff": {
+      "storyId": "5f1683fab117dbbc93ff",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909005148.htm",
+      "title": "Chinese scientists find a hidden atomic structure that unlocks methane",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-09T05:33:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b1ce211fe57cbc4145f3579",
+      "bodyFingerprint": "bbe1eca5720b4677d3c15c4f",
+      "bodyCharacterCount": 8671,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:50.991Z",
+      "assessment": {
+        "centralEvent": "Chinese scientists find a hidden atomic structure that unlocks methane",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Bats May Hold the Secret to Fighting Aging, Cancer, and Infection Scientists Discover a Bacterial Molecule That “Disarms” a Dangerous Fungus Millions Take Blood Pressure Drugs, but Many May Be Missing Their Hear",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The metallic Ni observed after a reaction may simply form when nickel oxide is reduced by syngas at high temperatures, rather than representing the species that actually performs the catalysis.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An international team has now demonstrated that MXenes, properly functionalized, are excellent catalysts for the oxygen evolution reaction in ...",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "However, there has been an important unresolved question.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Catalyst Can Control Methane Emissions in Natural Gas Engines July 20, 2023  A catalyst using a single or just a few palladium atoms removed 90% of unburned methane from natural gas engine exhaust at low temperatures in a recent study.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.95,
+        "rawScore": 28.95,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.45,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fae1d77bd16222cf008b": {
+      "storyId": "fae1d77bd16222cf008b",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260907201600.htm",
+      "title": "Dark energy debunked? Cosmic acceleration may be an illusion",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-09T03:59:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "89fca7cb7912b2a503dce7f8",
+      "bodyFingerprint": "b819aefa39fff30bee7a6e08",
+      "bodyCharacterCount": 9657,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:51.047Z",
+      "assessment": {
+        "centralEvent": "Dark energy debunked? Cosmic acceleration may be an illusion",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Bats May Hold the Secret to Fighting Aging, Cancer, and Infection Scientists Discover a Bacterial Molecule That “Disarms” a Dangerous Fungus Millions Take Blood Pressure Drugs, but Many May Be Missing Their Hear",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "After accounting for the ages of the stars that produce these explosions, researchers found signs that cosmic expansion may actually be slowing.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ce6149f5febadd4c571b": {
+      "storyId": "ce6149f5febadd4c571b",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260907201556.htm",
+      "title": "Astronomers detect ancient hydrogen signal that could help map the Universe",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-09T03:06:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a5aacac978f216f89f82b38e",
+      "bodyFingerprint": "94ea9b4ac46620d0f0242439",
+      "bodyCharacterCount": 9318,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:51.103Z",
+      "assessment": {
+        "centralEvent": "Astronomers detect ancient hydrogen signal that could help map the Universe",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Bats May Hold the Secret to Fighting Aging, Cancer, and Infection Scientists Discover a Bacterial Molecule That “Disarms” a Dangerous Fungus Millions Take Blood Pressure Drugs, but Many May Be Missing Their Hear",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A Signal From Billions of Years Ago The researchers examined about 96 hours of MeerKAT observations and found the signal from two separate periods in cosmic history.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The international team, led by researchers at the University of Manchester and the University of the Western Cape, used South Africa's MeerKAT radio telescope to measure emissions from neutral hydrogen dating to a period when the Universe w",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e1d3a27c68d48ec91c2d": {
+      "storyId": "e1d3a27c68d48ec91c2d",
+      "url": "https://arstechnica.com/tech-policy/2026/09/man-told-chatgpt-he-was-feeling-delusional-chatgpt-insisted-he-was-jesus",
+      "title": "Man told ChatGPT he was feeling delusional. ChatGPT insisted he was Jesus.",
+      "source": "Ars Technica AI",
+      "published": "2026-09-09T11:00:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a9c5a831925821630c199fae",
+      "bodyFingerprint": "375624ed0d8b6e35f8080400",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:51.125Z",
+      "assessment": {
+        "centralEvent": "Man told ChatGPT he was feeling delusional. ChatGPT insisted he was Jesus.",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“This vulnerability is significantly exacerbated for the more than 80 million people living with Bipolar Disorder and Schizophrenia worldwide—where ChatGPT’s purposefully sycophantic architecture actively preys upon those with mental health",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Log showing start of religious delusions. via Michael Lines complaint Log showing start of religious delusions. via Michael Lines complaint Log showing ChatGPT confirmed user is Jesus. via Michael Lines complaint Log showing ChatGPT confirm",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“This vulnerability is significantly exacerbated for the more than 80 million people living with Bipolar Disorder and Schizophrenia worldwide—where ChatGPT’s purposefully sycophantic architecture actively preys upon those with mental health",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“This vulnerability is significantly exacerbated for the more than 80 million people living with Bipolar Disorder and Schizophrenia worldwide—where ChatGPT’s purposefully sycophantic architecture actively preys upon those with mental health",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 103,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.13,
+        "rawScore": 28.13,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.375,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9b1c5067a6fb18e987e1": {
+      "storyId": "9b1c5067a6fb18e987e1",
+      "url": "https://restofworld.org/2026/china-expert-ai-trainers",
+      "title": "Now it’s China’s experts who are gig workers training AI data",
+      "source": "Rest of World AI",
+      "published": "2026-09-09T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "282cb77794d93ad9f33761fb",
+      "bodyFingerprint": "bca2626c16b7a9209a407ed5",
+      "bodyCharacterCount": 9052,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:51.300Z",
+      "assessment": {
+        "centralEvent": "Now it’s China’s experts who are gig workers training AI data",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“In the AI era, what can middle-aged people do after getting laid off?” MeetChances posted on social network RedNote — Xiaohongshu i Xiaohongshu Xiaohongshu, which translates to “little red book” in Chinese, is a lifestyle e-commerce and so",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "China’s AI training data market is expected to reach 7.8 billion yuan ($1.1 billion) in 2026, a 25% increase from 2025, according to IDC.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“What can middle-aged people do?” Alibaba i Alibaba Alibaba, founded in 1999 by Chinese entrepreneur Jack Ma, is one of the most prominent global e-commerce companies that operates platforms like AliExpress, Taobao, and Tmall.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a1ec15abf468ded8be75": {
+      "storyId": "a1ec15abf468ded8be75",
+      "url": "https://www.theguardian.com/us-news/2026/sep/09/us-military-pentagon-allies-ai",
+      "title": "US allies lack resources to keep pace on AI, top Pentagon official says",
+      "source": "The Guardian AI",
+      "published": "2026-09-09T10:00:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "db24faff32e3589c12d04471",
+      "bodyFingerprint": "64d3a09b4ea051d39a230658",
+      "bodyCharacterCount": 3579,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T14:38:51.357Z",
+      "assessment": {
+        "centralEvent": "US allies lack resources to keep pace on AI, top Pentagon official says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Project Maven, the Pentagon’s original AI targeting program launched in 2017, became the Palantir-built Maven Smart System, which the US leaned on heavily during its 2026 air campaign against Iran, helping strike more than 13,000 targets ov",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "92c399cb4002d31d8c50": {
+      "storyId": "92c399cb4002d31d8c50",
+      "url": "https://www.nature.com/articles/d41586-026-02804-x",
+      "title": "The Einstein test: what happens when AI tries to rediscover relativity?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-09T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d816fca5af71e2ad2b7ea02",
+      "bodyFingerprint": "db060c4a93ceb68eb5750d92",
+      "bodyCharacterCount": 72,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-09T14:38:51.906Z",
+      "assessment": {
+        "centralEvent": "The Einstein test: what happens when AI tries to rediscover relativity?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-09T09:49:30.874Z"
+  "updatedAt": "2026-09-09T14:38:51.906Z"
 }
