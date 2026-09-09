@@ -111980,8 +111980,293 @@
           "vulnerability": 0
         }
       }
+    },
+    "a586d1f0261840e2725b": {
+      "storyId": "a586d1f0261840e2725b",
+      "url": "https://www.bbc.co.uk/news/articles/c1j1896e973o?at_campaign=rss&at_medium=RSS",
+      "title": "Should promotion depend on how workers use AI?",
+      "source": "BBC News AI",
+      "published": "2026-09-08T23:05:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cb1a1ba338371e8a3688e3e5",
+      "bodyFingerprint": "fe789daf147b220740f8106b",
+      "bodyCharacterCount": 8807,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T00:17:35.619Z",
+      "assessment": {
+        "centralEvent": "Should promotion depend on how workers use AI?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Or are they effectively making themselves redundant, thus acting as a disincentive to be productive?\" Chander advises businesses to have clear policies, training and boundaries in place, otherwise they risk employees opening up disputes abo",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Duncan Trevithick Image caption, Duncan Trevithick's firm has a bonus scheme based on the use of AI By MaryLou Costa Technology reporter Published 1 hour ago It's in Duncan Trevithick's interest to be good at using AI at work ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics International Business Technology of Business Artificial intelligence Careers Pay More on this story AI is 'not smart' so what's next in artificial intelligence?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But if it can't, I'm not going to force you to do that.'\" Meanwhile, in May, the Financial Times reported , external that Amazon had shut down an internal leaderboard which tracked employee's use of AI.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "That shift, she adds, means that AI capabilities are now counting for more than actual experience, which is creating a \"two tier workforce\". \"You've got the same job title, same tenure, but different value based on whether someone treats AI",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.99,
+        "rawScore": 29.99,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.545,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "79c9848f3f4ab6ecc930": {
+      "storyId": "79c9848f3f4ab6ecc930",
+      "url": "https://apnews.com/article/canada-carney-trump-tariffs-trade-war-a5fbb50d1c30327ae813482556a37ac3",
+      "title": "US banning dairy products, most alcoholic beverages and motorcycles from Canada",
+      "source": "AP News AI",
+      "published": "2026-09-08T15:57:37",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41cf10abeb44fb5dc8ebf3fa",
+      "bodyFingerprint": "18f70cbd9b01da61824fdba6",
+      "bodyCharacterCount": 8521,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T00:17:35.734Z",
+      "assessment": {
+        "centralEvent": "US banning dairy products, most alcoholic beverages and motorcycles from Canada",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "How the trade war ends could carry consequences far beyond Canada, testing whether a smaller U.S. ally can resist Trump’s economic pressure without being forced to yield.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "16 and address the European Parliament the following day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Canadians have sharply cut travel to the United States and boycotted U.S. goods, moves Carney praised as signs of national resolve.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Trump’s trade war and repeated talk of making Canada the 51st state have fueled anger across the country.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.68,
+        "rawScore": 28.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "25afe6d910715fd97f87": {
+      "storyId": "25afe6d910715fd97f87",
+      "url": "https://apnews.com/article/ncaa-lsu-lawsuit-sec-kick-out-6dcea392c8d266d456bfc23c5627cc1e",
+      "title": "Southeastern Conference leaders to discuss expelling LSU over player eligibility dispute",
+      "source": "AP News AI",
+      "published": "2026-09-08T17:08:55",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d8d2c814ccd02d0e2ddad74",
+      "bodyFingerprint": "031c14db625ce3fefd74a097",
+      "bodyCharacterCount": 9306,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T00:17:35.748Z",
+      "assessment": {
+        "centralEvent": "Southeastern Conference leaders to discuss expelling LSU over player eligibility dispute",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "31, 2026, in Baton Rouge, La. (AP Photo/Brett Martel) License this photo Read More 4 of 4 | Greg Sankey, commissioner of the Southeastern Conference, speaks during NCAA college basketball women’s SEC Media Day, Oct.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fe31594328d5743e3029": {
+      "storyId": "fe31594328d5743e3029",
+      "url": "https://apnews.com/article/redistricting-congress-trump-gerrymandering-house-aadd3c4e6cc3a2c8100756cb7b352289",
+      "title": "Federal judge temporarily blocks Missouri from using old House map after Supreme Court declined case",
+      "source": "AP News AI",
+      "published": "2026-09-08T21:42:54",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea6cd78a0514657e56c63094",
+      "bodyFingerprint": "992a12a85843c6198b4ac435",
+      "bodyCharacterCount": 11267,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-09T00:17:35.769Z",
+      "assessment": {
+        "centralEvent": "Federal judge temporarily blocks Missouri from using old House map after Supreme Court declined case",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Clark’s order remains in place for 14 days, allowing time for additional court proceedings.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 93,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-08T21:53:32.383Z"
+  "updatedAt": "2026-09-09T00:17:35.769Z"
 }
