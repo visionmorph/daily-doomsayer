@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-09T18:00:00.000Z",
+  "generatedAt": "2026-09-09T21:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-09",
@@ -17,12 +17,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "6a54d93d632c3ae5aabd",
+          "title": "GPS and the Limits of Control",
+          "url": "https://www.lawfaremedia.org/article/gps-and-the-limits-of-control",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 51.15,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-09",
+          "firstObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "average": 51.15
         },
         {
           "storyId": "e5a8e881dee5e3f8eb25",
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 49.55
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 49.17
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
           "peak": 49.17,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 49.17
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a9e9eca147ff8c9409f7051/master/pass/MetaSignalAi.jpg",
           "peak": 48.92,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 48.92
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a99ec2e5d2ca173f400bbc3/master/pass/00-kepler-wafer_memory_technology.jpg",
           "peak": 48.87,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T18:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 48.87
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/3M-St-Paul-Monument-place001-rgb.jpg",
           "peak": 48.84,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 48.84
         },
         {
@@ -129,25 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/AIvsAI-Final-768x432.jpg",
           "peak": 48.84,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
-          "average": 48.84
-        },
-        {
-          "storyId": "4be17d64057dce8c8252",
-          "title": "OpenAI Agents Hacked Another Website",
-          "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a9b056f355eb442715c734d/master/pass/Security_OpenAIAgentsTriedtoHackAnotherWebsite_v1-ezgif.com-video-to-gif-converter.gif",
-          "peak": 48.84,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-09-09",
-          "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 48.84
         }
       ]
@@ -1628,12 +1628,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "6a54d93d632c3ae5aabd",
+          "title": "GPS and the Limits of Control",
+          "url": "https://www.lawfaremedia.org/article/gps-and-the-limits-of-control",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 51.15,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-09",
+          "firstObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "average": 51.15
         },
         {
           "storyId": "e5a8e881dee5e3f8eb25",
@@ -1656,11 +1670,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 49.55
         },
         {
@@ -1684,11 +1698,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 49.17
         },
         {
@@ -1698,11 +1712,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
           "peak": 49.17,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 49.17
         },
         {
@@ -1732,20 +1746,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
           "lastObservedAt": "2026-09-08T09:00:00.000Z",
           "average": 49.17
-        },
-        {
-          "storyId": "cfb812e23cbbdfb53925",
-          "title": "Muse, Meta’s New Personal AI Agent, Needs You to Trust It",
-          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a9e9eca147ff8c9409f7051/master/pass/MetaSignalAi.jpg",
-          "peak": 48.92,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-09-08",
-          "firstObservedAt": "2026-09-09T00:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
-          "average": 48.92
         }
       ]
     },
@@ -2149,12 +2149,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 54,
+          "observations": 55,
           "daysTracked": 9,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-09T18:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "6a54d93d632c3ae5aabd",
+          "title": "GPS and the Limits of Control",
+          "url": "https://www.lawfaremedia.org/article/gps-and-the-limits-of-control",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 51.15,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-09",
+          "firstObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "average": 51.15
         },
         {
           "storyId": "21c3e78a8e10cda30769",
@@ -2169,20 +2183,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-02T18:00:00.000Z",
           "lastObservedAt": "2026-09-03T00:00:00.000Z",
           "average": 50.55
-        },
-        {
-          "storyId": "97a55218fb39fe957962",
-          "title": "Parents of San Diego mosque gunman say a mental health facility failed to heed FBI warning",
-          "url": "https://apnews.com/article/san-diego-mosque-shooting-caleb-vazquez-fbi-c77f20815e1d3a514f9f5643e3f348df",
-          "source": "AP News AI",
-          "image": "https://dims.apnews.com/dims4/default/ffc7f03/2147483647/strip/true/crop/3050x2032+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8b%2F2a%2Fca1b58787eb7aa9d545b67b973b3%2F723207af8d7b4e55800e6b6002e01325",
-          "peak": 49.99,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-06",
-          "firstObservedAt": "2026-09-06T21:00:00.000Z",
-          "lastObservedAt": "2026-09-06T23:00:00.000Z",
-          "average": 49.99
         }
       ]
     },
