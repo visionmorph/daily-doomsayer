@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-10T14:00:00.000Z",
+  "generatedAt": "2026-09-10T18:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-10",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-10",
           "firstObservedAt": "2026-09-10T09:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
           "average": 51.23
         },
         {
@@ -39,18 +39,60 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 51.15
         },
         {
+          "storyId": "548edb3d91eeb6290f37",
+          "title": "Why the current tech backlash feels different",
+          "url": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_Mailbag.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-10",
+          "firstObservedAt": "2026-09-10T18:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
+          "average": 50.66
+        },
+        {
           "storyId": "6444114201a49ef09166",
           "title": "Why some experts increasingly fear AI will take over",
           "url": "https://www.bbc.co.uk/news/articles/c74edv9887eo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-10",
           "firstObservedAt": "2026-09-10T09:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
           "average": 49.94
+        },
+        {
+          "storyId": "d594a3a9e967c7c3d47e",
+          "title": "OpenAI not on track to reduce risk of ‘catastrophic’ loss of control, says board member",
+          "url": "https://www.theguardian.com/technology/2026/sep/10/openai-risk-catastrophic-loss-control-board-member-paul-christiano",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/de993976d5cf433c665692fb79570e93c6c73828/776_42_6116_4896/master/6116.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 49.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-10",
+          "firstObservedAt": "2026-09-10T18:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
+          "average": 49.75
+        },
+        {
+          "storyId": "43677b1cc9bd285cb046",
+          "title": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
+          "url": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
+          "peak": 49.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-10",
+          "firstObservedAt": "2026-09-10T18:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
+          "average": 49.66
         },
         {
           "storyId": "18514da62116892af479",
@@ -59,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-10",
           "firstObservedAt": "2026-09-10T09:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
           "average": 49.55
         },
         {
@@ -73,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-10",
           "firstObservedAt": "2026-09-10T09:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
           "average": 49.17
         },
         {
@@ -101,54 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a9e9eca147ff8c9409f7051/master/pass/MetaSignalAi.jpg",
           "peak": 48.92,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-10",
           "firstObservedAt": "2026-09-10T09:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
           "average": 48.92
-        },
-        {
-          "storyId": "e43fda801729068a96f5",
-          "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
-          "url": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6a99ec2e5d2ca173f400bbc3/master/pass/00-kepler-wafer_memory_technology.jpg",
-          "peak": 48.87,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-10",
-          "firstObservedAt": "2026-09-10T09:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
-          "average": 48.87
-        },
-        {
-          "storyId": "3c0eda88434513ec8cec",
-          "title": "‘Show How 3M Is 0% at Fault:’ Expert Witness Used ChatGPT to Write Report Defending Company in Deadly Explosion Lawsuit",
-          "url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
-          "source": "404 Media AI",
-          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/3M-St-Paul-Monument-place001-rgb.jpg",
-          "peak": 48.84,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-10",
-          "firstObservedAt": "2026-09-10T09:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
-          "average": 48.84
-        },
-        {
-          "storyId": "2f1ce688a79e27310726",
-          "title": "The UAE is fighting AI hackers with AI of its own",
-          "url": "https://restofworld.org/2026/uae-ai-cyberattacks-cyber-factory-defenses/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://restofworld.org/wp-content/uploads/2026/08/AIvsAI-Final-768x432.jpg",
-          "peak": 48.84,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-09-10",
-          "firstObservedAt": "2026-09-10T09:00:00.000Z",
-          "lastObservedAt": "2026-09-10T09:00:00.000Z",
-          "average": 48.84
         }
       ]
     },
@@ -1773,11 +1773,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 19,
+          "observations": 20,
           "daysTracked": 4,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1793,6 +1793,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-09T21:00:00.000Z",
           "lastObservedAt": "2026-09-10T14:00:00.000Z",
           "average": 51.15
+        },
+        {
+          "storyId": "548edb3d91eeb6290f37",
+          "title": "Why the current tech backlash feels different",
+          "url": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_Mailbag.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-10",
+          "firstObservedAt": "2026-09-10T18:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
+          "average": 50.66
         },
         {
           "storyId": "e5a8e881dee5e3f8eb25",
@@ -1815,12 +1829,40 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-10T04:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
           "average": 49.94
+        },
+        {
+          "storyId": "d594a3a9e967c7c3d47e",
+          "title": "OpenAI not on track to reduce risk of ‘catastrophic’ loss of control, says board member",
+          "url": "https://www.theguardian.com/technology/2026/sep/10/openai-risk-catastrophic-loss-control-board-member-paul-christiano",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/de993976d5cf433c665692fb79570e93c6c73828/776_42_6116_4896/master/6116.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 49.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-10",
+          "firstObservedAt": "2026-09-10T18:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
+          "average": 49.75
+        },
+        {
+          "storyId": "43677b1cc9bd285cb046",
+          "title": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
+          "url": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
+          "peak": 49.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-10",
+          "firstObservedAt": "2026-09-10T18:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
+          "average": 49.66
         },
         {
           "storyId": "18514da62116892af479",
@@ -1829,11 +1871,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 19,
+          "observations": 20,
           "daysTracked": 4,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
           "average": 49.55
         },
         {
@@ -1849,48 +1891,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
           "lastObservedAt": "2026-09-09T04:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "b95ed8026c025433b444",
-          "title": "Meta's $17 Billion Settlement is a Bad Deal for Teens and All Social Media Users",
-          "url": "https://www.eff.org/deeplinks/2026/09/metas-17-billion-settlement-bad-deal-teens-and-all-social-media-users",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
-          "peak": 49.17,
-          "observations": 19,
-          "daysTracked": 4,
-          "peakDate": "2026-09-07",
-          "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
-          "average": 49.17
-        },
-        {
-          "storyId": "14aac003fa5b3a91c7ff",
-          "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
-          "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
-          "peak": 49.17,
-          "observations": 19,
-          "daysTracked": 4,
-          "peakDate": "2026-09-07",
-          "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
-          "average": 49.17
-        },
-        {
-          "storyId": "7f2fe90b2352c6f97646",
-          "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-          "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 49.17,
-          "observations": 7,
-          "daysTracked": 2,
-          "peakDate": "2026-09-07",
-          "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-08T14:00:00.000Z",
-          "average": 49.17
         }
       ]
     },
@@ -2294,11 +2294,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 59,
+          "observations": 60,
           "daysTracked": 10,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-10T14:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
           "average": 51.23
         },
         {
@@ -2316,18 +2316,18 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 51.15
         },
         {
-          "storyId": "21c3e78a8e10cda30769",
-          "title": "Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI",
-          "url": "https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/46cd27119d365fb4e0fcb8b1a7e4456e941a3908/1245_0_4590_3674/master/4590.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 50.55,
-          "observations": 3,
+          "storyId": "548edb3d91eeb6290f37",
+          "title": "Why the current tech backlash feels different",
+          "url": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_Mailbag.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.66,
+          "observations": 1,
           "daysTracked": 1,
-          "peakDate": "2026-09-02",
-          "firstObservedAt": "2026-09-02T18:00:00.000Z",
-          "lastObservedAt": "2026-09-03T00:00:00.000Z",
-          "average": 50.55
+          "peakDate": "2026-09-10",
+          "firstObservedAt": "2026-09-10T18:00:00.000Z",
+          "lastObservedAt": "2026-09-10T18:00:00.000Z",
+          "average": 50.66
         }
       ]
     },
