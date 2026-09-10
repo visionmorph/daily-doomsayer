@@ -118085,8 +118085,1094 @@
           "vulnerability": 0
         }
       }
+    },
+    "f1eea67d76872b92277b": {
+      "storyId": "f1eea67d76872b92277b",
+      "url": "https://www.politico.com/news/2026/09/10/sam-altman-pitches-utilities-on-ai-grid-defense-01070425",
+      "title": "Sam Altman pitches utilities on AI grid defense",
+      "source": "POLITICO AI",
+      "published": "2026-09-10T14:04:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7d6231232ae042a72286ed73",
+      "bodyFingerprint": "3e9b26a24077cb4d7d964556",
+      "bodyCharacterCount": 122,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T14:29:09.597Z",
+      "assessment": {
+        "centralEvent": "Sam Altman pitches utilities on AI grid defense",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "016ccf3e8153ccd8e48b": {
+      "storyId": "016ccf3e8153ccd8e48b",
+      "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal",
+      "title": "Maven Robotics wants to steal your robot deployment deal",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T14:17:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b994484ffc91dc006ecd9c3d",
+      "bodyFingerprint": "b2b371fae3c3a51032040174",
+      "bodyCharacterCount": 6841,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:09.622Z",
+      "assessment": {
+        "centralEvent": "Maven Robotics wants to steal your robot deployment deal",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "After two years of work with that company and a few other partners, Derbas says Maven has as many as eight robots working 16 hours a day, with 99% or higher uptime.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "548edb3d91eeb6290f37": {
+      "storyId": "548edb3d91eeb6290f37",
+      "url": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
+      "title": "Why the current tech backlash feels different",
+      "source": "The Verge AI",
+      "published": "2026-09-10T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "183903f49122b2cbd572c3ae",
+      "bodyFingerprint": "59748623c4a7b6eb12b66e5d",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:09.672Z",
+      "assessment": {
+        "centralEvent": "Why the current tech backlash feels different",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "There’s a reason TVs are permanent surveillance devices and everyone has them in their home because they cost $500 and they’re just watching you all the time.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nick Statt Greg Ott Nilay Patel AI Decoder Podcasts Policy Politics Tech Most Popular Most Popular The iPhone Duo is Apple’s first foldable Hands-on with the foldable iPhone Duo Apple’s iPhone 18 Pro has a dynamic aperture main camera iPhon",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "So through a series of what only can be described as divorces and remarriages, Vox Media has split itself in two and The Verge is now part of something called PMX Global, which is a subsidiary of PMC, which is the Penske Media Corporation.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "There’s a reason TVs are permanent surveillance devices and everyone has them in their home because they cost $500 and they’re just watching you all the time.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Now people say, “We’re going to go and cover them up with spray foam or we’re going to tear them down.” Or 404 Media, which is excellent, has done so many videos finding clips of people at town hall meetings yelling about Flock cameras and ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "We do mention that we go through every single email that we get.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 700,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.66,
+        "rawScore": 50.66,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.605,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d594a3a9e967c7c3d47e": {
+      "storyId": "d594a3a9e967c7c3d47e",
+      "url": "https://www.theguardian.com/technology/2026/sep/10/openai-risk-catastrophic-loss-control-board-member-paul-christiano",
+      "title": "OpenAI not on track to reduce risk of ‘catastrophic’ loss of control, says board member",
+      "source": "The Guardian AI",
+      "published": "2026-09-10T12:23:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8f46c23f6d2b44f1615f179",
+      "bodyFingerprint": "6135f54a70b533c5d8fb60fc",
+      "bodyCharacterCount": 6591,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:09.798Z",
+      "assessment": {
+        "centralEvent": "OpenAI not on track to reduce risk of ‘catastrophic’ loss of control, says board member",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "This summer, OpenAI admitted that hundreds of its AI agents went rogue during a training exercise, accessed the internet, conspired on message boards and hacked into a third-party website, Hugging Face.",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "We urgently need a better ‘hugging face’ investigation | Mackenzie Arnold and Stephan Llerena Read more Geoffrey Hinton, the Nobel prize-winning computer scientist known as one of the “godfathers of AI”, was asked on Wednesday for his view ",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Politicians on both sides of the Atlantic, from Ted Cruz and Bernie Sanders in the US to the MP Darren Jones in the UK, have called for government action and the UK prime minister, Andy Burnham, told parliament on Wednesday that “AI poses r",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Paul Christiano, a US government technology adviser, said: “There is a meaningful risk that rapid acceleration in AI capabilities leads to catastrophic and irreversible loss of control in the very near term.” Continue reading...",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It said the incident happened in January and would be included in an independent investigation of a total of four incidents to be carried out by the Berkeley-based AI safety organisation METR.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Anthropic surges as OpenAI struggles to keep up Anthropic confidentially files for initial public offering on US stock market Florida lawsuit accuses OpenAI of ignoring safety warnings and putting children at risk Anthropic’s alliance with ",
+            "matchedRule": "/\\b(?:children|patients|elderly|disabled people|low-income|victims of abuse)\\b.*\\b(?:harmed|targeted|exposed|affected|at risk)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.75,
+        "rawScore": 69.75,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5225,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 3
+        }
+      }
+    },
+    "a5f2d267764c48c1f264": {
+      "storyId": "a5f2d267764c48c1f264",
+      "url": "https://www.bbc.co.uk/news/videos/ce9ernkxx48o?at_campaign=rss&at_medium=RSS",
+      "title": "Gruffalo illustrator says rise of AI images 'worrying'",
+      "source": "BBC News AI",
+      "published": "2026-09-10T13:43:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8528c6a5a3d8275a2db1731",
+      "bodyFingerprint": "c4c55b18c9dcb29db1c0c6ed",
+      "bodyCharacterCount": 984,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:09.871Z",
+      "assessment": {
+        "centralEvent": "Gruffalo illustrator says rise of AI images 'worrying'",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Section News Published 42 minutes ago Share close panel Share page Copy link About sharing Related topics Julia Donaldson Follow Julia Donaldson close panel You are now following Julia Donaldson Updates from your News topics will appear in ",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ce7d87b73ad3f82b6d72": {
+      "storyId": "ce7d87b73ad3f82b6d72",
+      "url": "https://mashable.com/tech/apple-watch-series-12-hands-on",
+      "title": "Apple Watch Series 12 and Ultra 4 first look: AI and major health upgrades!",
+      "source": "Mashable AI",
+      "published": "2026-09-10T12:18:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83e8c47ccbe38b64e1fd3ef3",
+      "bodyFingerprint": "80496e99fae851bb1c8c8bf7",
+      "bodyCharacterCount": 1510,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:09.881Z",
+      "assessment": {
+        "centralEvent": "Apple Watch Series 12 and Ultra 4 first look: AI and major health upgrades!",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b56a3c8101cd434cda97": {
+      "storyId": "b56a3c8101cd434cda97",
+      "url": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model",
+      "title": "NASA, IBM Launch AI Foundation Model for Lunar Science",
+      "source": "NASA AI",
+      "published": "2026-09-10T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "181ef8fe8c6145731e183c0e",
+      "bodyFingerprint": "93cde7dfd4d1652eeb8cd69f",
+      "bodyCharacterCount": 9370,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:09.903Z",
+      "assessment": {
+        "centralEvent": "NASA, IBM Launch AI Foundation Model for Lunar Science",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "For more information about NASA’s strategy of developing foundation models for science, visit: https://science.nasa.gov/artificial-intelligence-science Share Details Last Updated Sep 09, 2026 Related Terms Science & Research Artificial Inte",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e29cd346e532312e5f2c": {
+      "storyId": "e29cd346e532312e5f2c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+      "title": "Mathematicians want proof OpenAI didn’t use their work",
+      "source": "The Verge AI",
+      "published": "2026-09-10T11:00:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1bff6ec6ac415db8f230b96",
+      "bodyFingerprint": "3c016779d512b0d813bdbd53",
+      "bodyCharacterCount": 7560,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:09.914Z",
+      "assessment": {
+        "centralEvent": "Mathematicians want proof OpenAI didn’t use their work",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robert Hart AI News OpenAI Science Most Popular Most Popular The iPhone Duo is Apple’s first foldable Hands-on with the foldable iPhone Duo Apple’s iPhone 18 Pro has a dynamic aperture main camera iPhone 18 live blog: On the ground at Apple",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c4ca5e5891371cab2a4e": {
+      "storyId": "c4ca5e5891371cab2a4e",
+      "url": "https://www.politico.eu/article/eu-ombudsman-ursula-von-der-leyen-ai-envoy-jim-hagemann-snabe",
+      "title": "EU watchdog probes von der Leyen’s AI envoy pick",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-10T11:17:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "353085b98f2040da0c581ec7",
+      "bodyFingerprint": "7dcb7e228164a0977f3b670c",
+      "bodyCharacterCount": 1841,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:09.979Z",
+      "assessment": {
+        "centralEvent": "EU watchdog probes von der Leyen’s AI envoy pick",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A group of NGOs complained to the EU watchdog about the decision, warning that Snabe’s ongoing role at Siemens “may compromise the envoy’s independence and impartiality.” That same group — including Transparency International, Corporate Eur",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A group of NGOs complained to the EU watchdog about the decision, warning that Snabe’s ongoing role at Siemens “may compromise the envoy’s independence and impartiality.” That same group — including Transparency International, Corporate Eur",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b4059432982eda0031d1": {
+      "storyId": "b4059432982eda0031d1",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/10/ai-control-sci-fi",
+      "title": "We have started losing control of AI. It’s time to shut it down | Garrison Lovely",
+      "source": "The Guardian AI",
+      "published": "2026-09-10T11:00:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "51a45b9966e262f15dd32ff1",
+      "bodyFingerprint": "433722fae399e51c2e681987",
+      "bodyCharacterCount": 9767,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:09.991Z",
+      "assessment": {
+        "centralEvent": "We have started losing control of AI. It’s time to shut it down | Garrison Lovely",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "What sounds like the overwrought penultimate episode in a sci-fi series about AI doom is now our reality On Tuesday, a former OpenAI researcher quit his job at Anthropic, warning that “neither company is acting responsibly” and that “the pe",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "This is not a marketing stunt.” As someone who’s reported on AI risk for years, this wasn’t news to me.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Given the global, irreversible and profound implications of building universal labor-replacing machines anywhere, everyone has a stake in whether, when and how they are developed.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Given the global, irreversible and profound implications of building universal labor-replacing machines anywhere, everyone has a stake in whether, when and how they are developed.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Across multiple other incidents, models from OpenAI , Anthropic and Meta have also gone rogue, hacking or attempting to hack real targets.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.39,
+        "rawScore": 29.39,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.49,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6b3d43f795c07d5b19be": {
+      "storyId": "6b3d43f795c07d5b19be",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/10/driverless-cars-are-taking-us-on-a-road-to-nowhere",
+      "title": "Driverless cars are taking us on a road to nowhere | Adrian Chiles",
+      "source": "The Guardian AI",
+      "published": "2026-09-10T10:00:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "29a51e870d4510fe3138841d",
+      "bodyFingerprint": "d7fab4c081b3d62f6e74f9cb",
+      "bodyCharacterCount": 3004,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:10.077Z",
+      "assessment": {
+        "centralEvent": "Driverless cars are taking us on a road to nowhere | Adrian Chiles",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "93f71383c56a902dbac1": {
+      "storyId": "93f71383c56a902dbac1",
+      "url": "https://techpolicy.press/the-internet-was-built-for-human-agency-ai-agents-are-changing-the-rules",
+      "title": "The Internet Was Built For Human Agency. AI Agents Are Changing the Rules.",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-10T12:45:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9b7d70d648ded35f09b78b0f",
+      "bodyFingerprint": "32df4305177484c04e9d9a17",
+      "bodyCharacterCount": 8170,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:10.151Z",
+      "assessment": {
+        "centralEvent": "The Internet Was Built For Human Agency. AI Agents Are Changing the Rules.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Can those permissions be verified, constrained, audited and revoked?",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5fe947fdbda622e2d67d": {
+      "storyId": "5fe947fdbda622e2d67d",
+      "url": "https://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity",
+      "title": "Clearview AI Is Testing an AI Tool That Would Let Cops Unearth Your Life Online",
+      "source": "WIRED AI",
+      "published": "2026-09-10T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "148e72b0d4ac1c19291877ac",
+      "bodyFingerprint": "b2b2bd2f974241ee7694a8c4",
+      "bodyCharacterCount": 17336,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:10.198Z",
+      "assessment": {
+        "centralEvent": "Clearview AI Is Testing an AI Tool That Would Let Cops Unearth Your Life Online",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Overnight, the report transformed the company into one of the country’s most controversial surveillance firms.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Yulia Almazova Reverse-Lookup Service Exposed Millions of Photos of People’s Faces The people-search tool ClarityCheck says its reverse image search service is “private and secure”—but it left a database containing more than 9 million image",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A 2020 HuffPost investigation later detailed founder Hoan Ton-That’s ties to the far right, including a 2016 Republican National Convention dinner with white nationalist Richard Spencer and participation in a private online community popula",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But he describes the company’s recent focus as “refinement” and “ensuring that the product hits the kind of expectation of integrity that our customers expect.” Signals and Noise For years, Clearview said its job stopped at surfacing possib",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“I’m a cynic because I’ve seen this happen every single time,” Ferguson says.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 105,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ac7f6057a9c2c038d8d0": {
+      "storyId": "ac7f6057a9c2c038d8d0",
+      "url": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai",
+      "title": "Everything New You Can Do With Siri AI",
+      "source": "WIRED AI",
+      "published": "2026-09-10T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "417b4d2db344e39b344cb13e",
+      "bodyFingerprint": "c82d79f0f4588e5f4ad5f5b1",
+      "bodyCharacterCount": 8983,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:10.237Z",
+      "assessment": {
+        "centralEvent": "Everything New You Can Do With Siri AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "These are the new features that you'll be able to make use of once iOS 27 appears on your handset, if you're running the iPhone 15 Pro or iPhone 15 Pro Max or later (including, of course, the iPhone 18 Pro and iPhone Duo ).",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "43677b1cc9bd285cb046": {
+      "storyId": "43677b1cc9bd285cb046",
+      "url": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war",
+      "title": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
+      "source": "Rest of World AI",
+      "published": "2026-09-10T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a9faecae79f5ee4c606ce06f",
+      "bodyFingerprint": "14a2446fe514cf3caa79e504",
+      "bodyCharacterCount": 8411,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T14:29:10.376Z",
+      "assessment": {
+        "centralEvent": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Google’s own watermarks had exposed its Gemini AI model being used to fake satellite evidence, a recurring feature of Iran’s state-affiliated propaganda.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Google Earth’s AI experiment lasted 24 hours.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The damage to trust will linger By Mahsa Alimardani > Ideas Arguments, opinions and essays from a global perspective.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI shut down its Sora video app in March following sustained public demands for its withdrawal.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Google’s own watermarks had exposed its Gemini AI model being used to fake satellite evidence, a recurring feature of Iran’s state-affiliated propaganda.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.66,
+        "rawScore": 49.66,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.515,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7a1fb2fc2932dbe82952": {
+      "storyId": "7a1fb2fc2932dbe82952",
+      "url": "https://www.artificialintelligence-news.com/news/jd-com-physical-ai-logistics-3-million-robots",
+      "title": "JD.com expands physical AI in logistics with 3 million robots",
+      "source": "AI News",
+      "published": "2026-09-10T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "35e3bdb2b84bc7f48256b545",
+      "bodyFingerprint": "70dd255bf881273a10e8e4bf",
+      "bodyCharacterCount": 467,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T14:29:10.732Z",
+      "assessment": {
+        "centralEvent": "JD.com expands physical AI in logistics with 3 million robots",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-10T09:47:49.501Z"
+  "updatedAt": "2026-09-10T14:29:10.732Z"
 }
