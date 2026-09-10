@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-09T21:00:00.000Z",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-09",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 51.15,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T21:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 51.15
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 49.55
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 49.17
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
           "peak": 49.17,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 49.17
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a9e9eca147ff8c9409f7051/master/pass/MetaSignalAi.jpg",
           "peak": 48.92,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 48.92
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6a99ec2e5d2ca173f400bbc3/master/pass/00-kepler-wafer_memory_technology.jpg",
           "peak": 48.87,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T18:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 48.87
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/3M-St-Paul-Monument-place001-rgb.jpg",
           "peak": 48.84,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 48.84
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/AIvsAI-Final-768x432.jpg",
           "peak": 48.84,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T09:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 48.84
         }
       ]
@@ -1628,11 +1628,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 3,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -1642,11 +1642,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 51.15,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T21:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 51.15
         },
         {
@@ -1670,11 +1670,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 3,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 49.55
         },
         {
@@ -1698,11 +1698,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 3,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 49.17
         },
         {
@@ -1712,11 +1712,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
           "peak": 49.17,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 3,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 49.17
         },
         {
@@ -2149,11 +2149,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 55,
+          "observations": 56,
           "daysTracked": 9,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -2163,11 +2163,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 51.15,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-09T21:00:00.000Z",
-          "lastObservedAt": "2026-09-09T21:00:00.000Z",
+          "lastObservedAt": "2026-09-10T00:00:00.000Z",
           "average": 51.15
         },
         {
