@@ -117160,8 +117160,536 @@
           "vulnerability": 0
         }
       }
+    },
+    "3c86237f473dae12e46a": {
+      "storyId": "3c86237f473dae12e46a",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks",
+      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T00:00:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2d9dc5e60c3c4d46c559eb59",
+      "bodyFingerprint": "8cd0c363b9ea67dfed291d18",
+      "bodyCharacterCount": 4830,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T00:17:11.037Z",
+      "assessment": {
+        "centralEvent": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Listen Labs, a market research startup that uses voice AI to conduct customer interviews, recently signed a term sheet for a $125 million Series C at a $1.5 billion valuation, with Menlo Ventures set to lead the round, according to several ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7110db8bb43e62cbc145": {
+      "storyId": "7110db8bb43e62cbc145",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T22:25:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1932f22aad328ef9fff25a56",
+      "bodyFingerprint": "bc1280f03fcb9ecd59be9815",
+      "bodyCharacterCount": 4450,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T00:17:11.047Z",
+      "assessment": {
+        "centralEvent": "OpenAI adds a prominent AI doomer to its board of directors",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“I now believe there is a meaningful risk that rapid acceleration in AI capabilities leads to catastrophic and irreversible loss of control in the very near term,” Christiano wrote in a social media post .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to the frontier lab’s announcement, Christiano will continue advising the government while serving in his new role as a board member, but will recuse himself from OpenAI matters and model evaluations.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b0124931f3e2a5a75218": {
+      "storyId": "b0124931f3e2a5a75218",
+      "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules",
+      "title": "Massachusetts hits data centers with new clean power rules",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T21:43:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cd7fbcba65691497494a122f",
+      "bodyFingerprint": "4fc8c187f3e8e3e294c703ce",
+      "bodyCharacterCount": 4489,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T00:17:11.083Z",
+      "assessment": {
+        "centralEvent": "Massachusetts hits data centers with new clean power rules",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Massachusetts is also directing communities to “avoid signing non-disclosure agreements,” according to the executive order.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6444114201a49ef09166": {
+      "storyId": "6444114201a49ef09166",
+      "url": "https://www.bbc.co.uk/news/articles/c74edv9887eo?at_campaign=rss&at_medium=RSS",
+      "title": "AI is becoming harder to control – can humans stay in charge?",
+      "source": "BBC News AI",
+      "published": "2026-09-09T23:17:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "46c6fc2d075004b3f4e69cdd",
+      "bodyFingerprint": "b2dac856ec94bbc6a5f4e7ba",
+      "bodyCharacterCount": 12161,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T00:17:11.174Z",
+      "assessment": {
+        "centralEvent": "AI is becoming harder to control – can humans stay in charge?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AI scientist Sasha Luccioni - who used to work at Hugging Face, which was hacked by OpenAI's rogue bots - is also not in the doomer camp but she is increasingly concerned that these AI might cause some real world harm to people without acti",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Image source, JUSTIN TALLIS / AFP via Getty Images Image caption, Groups like PauseAI UK - pictured above protesting at Google's London office - are worried about the speed of AI development Many cyber-security experts argue that the activi",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Reuters Image caption, Google DeepMind founder Sir Dennis Hassabis has called for international regulation of AI safety The alignment problem has been a worry for years.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "These complex and lengthy logs are the focal point of ongoing investigations into how and why the bots at OpenAI broke out of their containment and went on an uncontrollable hacking spree.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "By Joe Tidy Cyber correspondent, BBC World Service \"OH MY GOD!\" \"We've found other agents!\" This is the moment an AI bot posted an eerily human-like comment after discovering a way to communicate with other bots and break out of its isolate",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.94,
+        "rawScore": 49.94,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.54,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cb6883475c7deaa3a58a": {
+      "storyId": "cb6883475c7deaa3a58a",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+      "title": "Suno releases its first AI music model made with record industry help",
+      "source": "The Verge AI",
+      "published": "2026-09-09T21:42:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "93b8e3b08fea1f39a74d6114",
+      "bodyFingerprint": "3cefda264ce90abd0ed49765",
+      "bodyCharacterCount": 4966,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T00:17:11.223Z",
+      "assessment": {
+        "centralEvent": "Suno releases its first AI music model made with record industry help",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI Entertainment Hands-on Music News Reviews Tech Most Popular Most Popular The iPhone Duo is Apple’s first foldable Hands-on with the foldable iPhone Duo Apple announces the iPhone 18 Pro and 18 Pro Max iPhone 18 live blog",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3e5f9f2bb7ad7fbd3772": {
+      "storyId": "3e5f9f2bb7ad7fbd3772",
+      "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity",
+      "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+      "source": "WIRED AI",
+      "published": "2026-09-09T22:11:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6d37714f9799b3b19fc099f9",
+      "bodyFingerprint": "bee8b69261a34a31d25361e8",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T00:17:11.311Z",
+      "assessment": {
+        "centralEvent": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenAI has rushed to respond to a security incident in which its agents hacked the platform Hugging Face .",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Meanwhile, Anthropic is trying to assure investors it has these concerns under control as it reportedly prepares to file for what could be the largest IPO ever.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Down the line, he thinks coordination among international power players, including the US and China, will be necessary.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI has leaks every day.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 155,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.85,
+        "rawScore": 47.85,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "acf123b8b055bf4bdaab": {
+      "storyId": "acf123b8b055bf4bdaab",
+      "url": "https://www.inc.com/melissa-angell/safety-researcher-warned-systems-can-hack-anything-now-congress-calling-for-action/91402991",
+      "title": "A Safety Researcher Warned of Systems That Can ‘Hack Anything.’ Now Congress Is Calling for Action",
+      "source": "Inc. AI",
+      "published": "2026-09-09T21:40:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d28859ae62c33e099dbeeef1",
+      "bodyFingerprint": "2f7042cc71a35eb225a66991",
+      "bodyCharacterCount": 107,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T00:17:11.332Z",
+      "assessment": {
+        "centralEvent": "A Safety Researcher Warned of Systems That Can ‘Hack Anything.’ Now Congress Is Calling for Action",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6e709671f8daac27d773": {
+      "storyId": "6e709671f8daac27d773",
+      "url": "https://thedispatch.com/newsletter/boilingfrogs/artificial-intelligence-existential-threat-government-response",
+      "title": "Trump Is AWOL on the AI Threat",
+      "source": "The Dispatch AI",
+      "published": "2026-09-09T22:11:53+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d82883f55d30c6b2ce20ec52",
+      "bodyFingerprint": "ddbcdbb59fc178b07d312e70",
+      "bodyCharacterCount": 5497,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T00:17:11.831Z",
+      "assessment": {
+        "centralEvent": "Trump Is AWOL on the AI Threat",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-09T21:44:04.315Z"
+  "updatedAt": "2026-09-10T00:17:11.832Z"
 }
