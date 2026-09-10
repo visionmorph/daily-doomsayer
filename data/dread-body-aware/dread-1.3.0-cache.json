@@ -117834,8 +117834,259 @@
           "vulnerability": 0
         }
       }
+    },
+    "774efa61e33c6f977c04": {
+      "storyId": "774efa61e33c6f977c04",
+      "url": "https://www.inc.com/jessica-stillman/a-relationship-scientist-explains-why-ai-matchmakers-wont-help-you-find-love/91401487",
+      "title": "A Relationship Scientist Explains Why AI Matchmakers Won’t Help You Find Love",
+      "source": "Inc. AI",
+      "published": "2026-09-10T08:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "da3f2c8c2121c3b76532c108",
+      "bodyFingerprint": "1a4cb51b44706299df819466",
+      "bodyCharacterCount": 124,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T09:47:49.328Z",
+      "assessment": {
+        "centralEvent": "A Relationship Scientist Explains Why AI Matchmakers Won’t Help You Find Love",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ae05242423c2c9ef085f": {
+      "storyId": "ae05242423c2c9ef085f",
+      "url": "https://mashable.com/tech/sept-10-umanwrite-ai-humanizing-content-creator-unlimited-plan-lifetime",
+      "title": "Pay $79 once for an AI platform that lets you write, humanize, detect, and polish",
+      "source": "Mashable AI",
+      "published": "2026-09-10T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a16ecd6fcff039013fac06ad",
+      "bodyFingerprint": "468bb6926f9bcf37a6a2a460",
+      "bodyCharacterCount": 3116,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T09:47:49.345Z",
+      "assessment": {
+        "centralEvent": "Pay $79 once for an AI platform that lets you write, humanize, detect, and polish",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d24b26f623c29d646cec": {
+      "storyId": "d24b26f623c29d646cec",
+      "url": "https://www.theguardian.com/news/2026/sep/10/weatherwatch-ai-model-beats-standard-methods-at-predicting-cyclones",
+      "title": "Weatherwatch: AI model beats standard methods at predicting cyclones",
+      "source": "The Guardian AI",
+      "published": "2026-09-10T05:00:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e45326e7ec9cf7750026ff0f",
+      "bodyFingerprint": "094213306a1622ab90bbed84",
+      "bodyCharacterCount": 2975,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T09:47:49.391Z",
+      "assessment": {
+        "centralEvent": "Weatherwatch: AI model beats standard methods at predicting cyclones",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Explore more on these topics Hurricanes Weatherwatch Extreme weather AI (artificial intelligence) UK weather Google Europe weather US weather features Share Reuse this content More on this story More on this story Weather tracker: Hurricane",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Explore more on these topics Hurricanes Weatherwatch Extreme weather AI (artificial intelligence) UK weather Google Europe weather US weather features Share Reuse this content More on this story More on this story Weather tracker: Hurricane",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ce67f418bffd972c2cb": {
+      "storyId": "4ce67f418bffd972c2cb",
+      "url": "https://news.sky.com/story/greens-propose-ai-crackdown-in-new-policy-push-after-existential-warnings-13583704",
+      "title": "Plan to curb tech giants after warning of AI 'threat to humanity'",
+      "source": "Sky News AI",
+      "published": "2026-09-09T18:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "46e00e38eb0136bc8e05654b",
+      "bodyFingerprint": "20320349b2db2cde5107579b",
+      "bodyCharacterCount": 183,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T09:47:49.501Z",
+      "assessment": {
+        "centralEvent": "Plan to curb tech giants after warning of AI 'threat to humanity'",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Plan to curb tech giants after warning of AI 'threat to humanity'",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The Green Party has proposed a five-point plan to curb the power of tech giants after industry insiders warned that artificial intelligence could pose an existential risk to humanity.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-10T04:54:08.532Z"
+  "updatedAt": "2026-09-10T09:47:49.501Z"
 }
