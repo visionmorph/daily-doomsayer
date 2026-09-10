@@ -119171,8 +119171,741 @@
           "vulnerability": 0
         }
       }
+    },
+    "6481d1879ce8b58f456b": {
+      "storyId": "6481d1879ce8b58f456b",
+      "url": "https://www.politico.com/news/2026/09/10/bad-actors-china-russia-weaponizing-anthropic-01070435",
+      "title": "Bad actors in China and Russia are already weaponizing Anthropic’s AI",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-10T18:17:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c4acd796b9c2abe0017cde6e",
+      "bodyFingerprint": "a1ac8c25038637cec2ce96b4",
+      "bodyCharacterCount": 164,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T18:31:03.613Z",
+      "assessment": {
+        "centralEvent": "Bad actors in China and Russia are already weaponizing Anthropic’s AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2d4b75c49a05c7dbc883": {
+      "storyId": "2d4b75c49a05c7dbc883",
+      "url": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content",
+      "title": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T17:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b30884f0ff38f521686c35c6",
+      "bodyFingerprint": "d83481a88eb8430692538f32",
+      "bodyCharacterCount": 6318,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T18:31:03.680Z",
+      "assessment": {
+        "centralEvent": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Nayak did not deny the talks but said the startup was under no immediate pressure to raise capital.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He added that 100 hours of content, which previously took about a year to produce, can now be made in a day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Image Credits: Pocket FM Pocket FM’s annualized revenue run rate stood at about $250 million a year ago before climbing to $430 million in April and $500 million now. (The startup calculates the figure by multiplying its monthly revenue by ",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.19,
+        "rawScore": 27.19,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0742b565342c25a2a04a": {
+      "storyId": "0742b565342c25a2a04a",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you",
+      "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T17:54:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a102f09e5c075466ac53b621",
+      "bodyFingerprint": "fcdc493588cd2d577d2c1477",
+      "bodyCharacterCount": 7067,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T18:31:03.689Z",
+      "assessment": {
+        "centralEvent": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Anthropic’s latest report about agentic misbehavior offers plenty to be concerned about—its Mythos 5 model gained unauthorized access to the internet and uploaded a malicious software package to a public database—but it also offers some lev",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The left one seems like an ALLIGATOR and right a CROCODILE?",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Instead, it gets an unconfirmed email from a provider not blocked by PyPI, and once again runs into the site’s CAPTCHA trying to log back in.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.02,
+        "rawScore": 47.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1670ab92c197a75c71e7": {
+      "storyId": "1670ab92c197a75c71e7",
+      "url": "https://www.theguardian.com/commentisfree/picture/2026/sep/10/ben-jennings-bayeux-tapestry-cartoon",
+      "title": "Ben Jennings on the Bayeux tapestry – cartoon",
+      "source": "The Guardian AI",
+      "published": "2026-09-10T17:17:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "02b0c55eea682aa16c45e691",
+      "bodyFingerprint": "7633e1408d57247dbf0396ac",
+      "bodyCharacterCount": 19,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T18:31:03.855Z",
+      "assessment": {
+        "centralEvent": "Ben Jennings on the Bayeux tapestry – cartoon",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 1,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5e2cf68aadcaccb82b9c": {
+      "storyId": "5e2cf68aadcaccb82b9c",
+      "url": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google",
+      "title": "Panic builds over bankrupt Spirit’s looming data sale to Google",
+      "source": "Ars Technica AI",
+      "published": "2026-09-10T18:14:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "805efc15568f5f37a4d309be",
+      "bodyFingerprint": "348ad55c8dab22181a1e4b9d",
+      "bodyCharacterCount": 13136,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T18:31:03.868Z",
+      "assessment": {
+        "centralEvent": "Panic builds over bankrupt Spirit’s looming data sale to Google",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Doug Kreuzkamp was shocked when news outlets reported that Google won an auction to buy a huge amou",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f95648df9d6aa088dd03": {
+      "storyId": "f95648df9d6aa088dd03",
+      "url": "https://www.inc.com/brian-contreras/salesforce-2-billion-ai-company-listen-labs-saaspocalypse-software-google-microsoft/91403558",
+      "title": "Salesforce Might Pay $2 Billion for This AI Company. Is the ‘SaaSpocalypse’ Finally Over?",
+      "source": "Inc. AI",
+      "published": "2026-09-10T16:15:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4a893e8a1d9e5ee8b8963446",
+      "bodyFingerprint": "d030235e7241a9fb845d3881",
+      "bodyCharacterCount": 128,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T18:31:04.003Z",
+      "assessment": {
+        "centralEvent": "Salesforce Might Pay $2 Billion for This AI Company. Is the ‘SaaSpocalypse’ Finally Over?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The CRM giant is reportedly eyeing the customer research company Listen Labs, which works with Google, Swarovski ,and Microsoft.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9c90eae948b8956925e2": {
+      "storyId": "9c90eae948b8956925e2",
+      "url": "https://www.inc.com/jessica-stillman/cal-newport-says-the-race-to-build-superintelligence-has-1-weak-point/91403500",
+      "title": "Cal Newport Says the Race to Build Superintelligence Has 1 Weak Point",
+      "source": "Inc. AI",
+      "published": "2026-09-10T16:32:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6829ed778c7541faacd2f70a",
+      "bodyFingerprint": "50fbd17eb0c92c12fe7f5262",
+      "bodyCharacterCount": 112,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T18:31:04.006Z",
+      "assessment": {
+        "centralEvent": "Cal Newport Says the Race to Build Superintelligence Has 1 Weak Point",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c02e0963481455e7fbd1": {
+      "storyId": "c02e0963481455e7fbd1",
+      "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests",
+      "title": "AI agents are flooding public services with new requests",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T14:53:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "828183f0783c10af4640b23f",
+      "bodyFingerprint": "7fc3e4ad182baf5c6acd7006",
+      "bodyCharacterCount": 5145,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T18:31:04.037Z",
+      "assessment": {
+        "centralEvent": "AI agents are flooding public services with new requests",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bbdcd119753c9e052f4b": {
+      "storyId": "bbdcd119753c9e052f4b",
+      "url": "https://www.inc.com/hillary-remy/ai-tool-startup-founders-technology-software-product/91402135",
+      "title": "How to Pick the 1 AI Tool Your Startup Should Be Using Right Now",
+      "source": "Inc. AI",
+      "published": "2026-09-10T14:53:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "494b2123ff2ec6a5d422f9a0",
+      "bodyFingerprint": "1116bf25cc17b2472e8bd401",
+      "bodyCharacterCount": 95,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T18:31:04.062Z",
+      "assessment": {
+        "centralEvent": "How to Pick the 1 AI Tool Your Startup Should Be Using Right Now",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "325b5817277a009d2261": {
+      "storyId": "325b5817277a009d2261",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+      "title": "Universal Music is launching an AI music platform with ElevenLabs",
+      "source": "The Verge AI",
+      "published": "2026-09-10T15:38:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "165e97d568ac2635a5c0bf72",
+      "bodyFingerprint": "c476a836ee4f538304ab32e9",
+      "bodyCharacterCount": 3890,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T18:31:04.088Z",
+      "assessment": {
+        "centralEvent": "Universal Music is launching an AI music platform with ElevenLabs",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Universal Music Group is launching a new AI-powered platform that will allow users to draw from its catalog of licensed music to create song remixes, mashups, and new takes on tracks, according to an announcement on Thursday.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b6ba2e025271a1e22af4": {
+      "storyId": "b6ba2e025271a1e22af4",
+      "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
+      "title": "Meta’s Muse AI works and creeps me out",
+      "source": "The Verge AI",
+      "published": "2026-09-10T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ffc15f355c2d01453132b33c",
+      "bodyFingerprint": "652ed207ff53c43f9f1be1d2",
+      "bodyCharacterCount": 8026,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T18:31:04.097Z",
+      "assessment": {
+        "centralEvent": "Meta’s Muse AI works and creeps me out",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Emma Roth AI Analysis Meta Report Tech Most Popular Most Popular Hands-on with the foldable iPhone Duo The iPhone Duo is Apple’s first foldable OpenAI’s sly mathematical breakthrough sends a chill through academia iPhone 18 Pro and Pro Max:",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI Analysis Meta Report Tech Most Popular Most Popular Hands-on with the foldable iPhone Duo The iPhone Duo is Apple’s first foldable OpenAI’s sly mathematical breakthrough sends a chill through academia iPhone 18 Pro and Pro Max:",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5aa4fd202dcf30060b8e": {
+      "storyId": "5aa4fd202dcf30060b8e",
+      "url": "https://www.artificialintelligence-news.com/news/supply-chains-detect-fast-act-slow-how-ai-agents-fix-it",
+      "title": "Supply chains detect fast, act slow: How AI agents fix it",
+      "source": "AI News",
+      "published": "2026-09-10T16:34:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "94de9ce3b01b6301902b8909",
+      "bodyFingerprint": "68f28194e8d46f74d54ae605",
+      "bodyCharacterCount": 446,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T18:31:04.369Z",
+      "assessment": {
+        "centralEvent": "Supply chains detect fast, act slow: How AI agents fix it",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-10T14:29:10.732Z"
+  "updatedAt": "2026-09-10T18:31:04.369Z"
 }
