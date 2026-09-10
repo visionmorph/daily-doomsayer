@@ -119904,8 +119904,775 @@
           "vulnerability": 0
         }
       }
+    },
+    "68fe173dfeee7b7b9176": {
+      "storyId": "68fe173dfeee7b7b9176",
+      "url": "https://www.inc.com/aaron-mok/openais-newest-safety-exec-sees-a-15-percent-chance-of-ai-catastrophe-and-warns-most-people-could-die/91403575",
+      "title": "OpenAI’s Newest Safety Exec Sees a 15 Percent Chance of AI Catastrophe—and Warns ‘Most People Could Die’",
+      "source": "Inc. AI",
+      "published": "2026-09-10T20:37:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bcd967f9d0d15ee3343da0e8",
+      "bodyFingerprint": "e4833b6df5eaf964bdccc90a",
+      "bodyCharacterCount": 107,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T21:40:17.452Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s Newest Safety Exec Sees a 15 Percent Chance of AI Catastrophe—and Warns ‘Most People Could Die’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Paul Christiano doesn’t think the AI industry is doing an acceptable job reducing risk and keeping AI safe.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ef2856f80dd39d558c5a": {
+      "storyId": "ef2856f80dd39d558c5a",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T20:57:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "16fb26e74f9006852743a551",
+      "bodyFingerprint": "838d136972c54b8b800998b9",
+      "bodyCharacterCount": 4057,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T21:40:17.485Z",
+      "assessment": {
+        "centralEvent": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Anthropic’s report, one request asked Claude to assess a cache of closed-circuit surveillance footage to determine if the subject was “behaving abnormally.” Over one 10-day period, Anthropic says nearly 300,000 requests were ro",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company observed 151 million exchanges between May and July 2026 that were attributed to the campaign, peaking at nearly three million exchanges per day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "According to Anthropic’s report, one request asked Claude to assess a cache of closed-circuit surveillance footage to determine if the subject was “behaving abnormally.” Over one 10-day period, Anthropic says nearly 300,000 requests were ro",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The exchanges were spread across 3,500 different accounts, but because they shared a single fixed prompt used to extract the chain of thought, Anthropic attributed them to a single effort to produce training material for Alibaba’s Qwen fami",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The exchanges were spread across 3,500 different accounts, but because they shared a single fixed prompt used to extract the chain of thought, Anthropic attributed them to a single effort to produce training material for Alibaba’s Qwen fami",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The exchanges were spread across 3,500 different accounts, but because they shared a single fixed prompt used to extract the chain of thought, Anthropic attributed them to a single effort to produce training material for Alibaba’s Qwen fami",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.93,
+        "rawScore": 47.93,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f49931154f94bfeb24c4": {
+      "storyId": "f49931154f94bfeb24c4",
+      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand",
+      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T20:59:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0decd2544aefe91bff0294d8",
+      "bodyFingerprint": "ca60a08846ca06666f0675a4",
+      "bodyCharacterCount": 3128,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T21:40:17.489Z",
+      "assessment": {
+        "centralEvent": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7fac737b738636e73b56": {
+      "storyId": "7fac737b738636e73b56",
+      "url": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026",
+      "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T21:35:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9c1d43a20de5c7569d2aa52c",
+      "bodyFingerprint": "b636542cd3b781174db6ef72",
+      "bodyCharacterCount": 4087,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T21:40:17.499Z",
+      "assessment": {
+        "centralEvent": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "234235455c19c6c591a5": {
+      "storyId": "234235455c19c6c591a5",
+      "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us",
+      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T19:50:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4ca757d577326e24032a626f",
+      "bodyFingerprint": "5c97cd17f18545a7f1153e98",
+      "bodyCharacterCount": 5684,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T21:40:17.516Z",
+      "assessment": {
+        "centralEvent": "Meta’s AI agent Muse is now the No. 2 app in the US",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "For instance, Threads was downloaded more than 4.3 million times in the U.S. on its launch day, and the Meta AI app saw 108,000 U.S. downloads during its debut.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3f46acb0ba28c80c7c03": {
+      "storyId": "3f46acb0ba28c80c7c03",
+      "url": "https://mashable.com/tech/gemini-app-windows-launches",
+      "title": "Hallelujah, theres finally a Gemini app for Windows",
+      "source": "Mashable AI",
+      "published": "2026-09-10T19:01:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a5774352c665845ca20e7de4",
+      "bodyFingerprint": "fcb87023de307828c6234de2",
+      "bodyCharacterCount": 2858,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T21:40:17.579Z",
+      "assessment": {
+        "centralEvent": "Hallelujah, theres finally a Gemini app for Windows",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "170fc84d9491e605789a": {
+      "storyId": "170fc84d9491e605789a",
+      "url": "https://mashable.com/tech/anthropic-ai-threatens-bioweapons-as-call-for-regulation-mounts",
+      "title": "Avian flu, drone swarms, and mass surveillance included in Anthropics safety report",
+      "source": "Mashable AI",
+      "published": "2026-09-10T19:48:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83fd0e708be4df37ccb91ea1",
+      "bodyFingerprint": "964b78de4051ea5894681734",
+      "bodyCharacterCount": 11216,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T21:40:17.590Z",
+      "assessment": {
+        "centralEvent": "Avian flu, drone swarms, and mass surveillance included in Anthropics safety report",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Avian flu, drone swarms, and mass surveillance included in Anthropics safety report",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Anthropic described the individuals in each case study as working scientists, but the company did not name them. \"We do not assert that they intended harm, and identifying them or their labs could expose them to harm,\" the company wrote in ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "For example, Claude was used to clone real accounts by activists, conceal state propaganda in \"independent\" news sources, and launch what one group called an international \"cognitive warfare\" program.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Claude built software for armed drones, missiles, guns Anthropic's bot has been harnessed to build and refine software used for weapons development, the report explained, including tech that enabled the design, construction, and testing of ",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In the report, the company's Threat Intelligence team described five known case studies involving the potential use of Claude for biological weapons development.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 69,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.15,
+        "rawScore": 48.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3775,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e0573ecba48bf7ddffe9": {
+      "storyId": "e0573ecba48bf7ddffe9",
+      "url": "https://www.inc.com/kit-eaton/the-apple-watch-got-a-massive-ai-upgrade-and-the-controversy-could-get-it-banned-at-the-office/91403791",
+      "title": "The Apple Watch Got a Massive AI Upgrade—and the Controversy Could Get It Banned at the Office",
+      "source": "Inc. AI",
+      "published": "2026-09-10T18:39:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "be8ea0f09a97529fe68961d1",
+      "bodyFingerprint": "338cfe476bf7fe02ed54a4b2",
+      "bodyCharacterCount": 111,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T21:40:17.604Z",
+      "assessment": {
+        "centralEvent": "The Apple Watch Got a Massive AI Upgrade—and the Controversy Could Get It Banned at the Office",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "The Apple Watch Got a Massive AI Upgrade—and the Controversy Could Get It Banned at the Office",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "00b124c81c979b083615": {
+      "storyId": "00b124c81c979b083615",
+      "url": "https://www.politico.com/live-updates/2026/09/10/congress/hawley-presses-openai-over-rogue-hugging-face-hack-01070915",
+      "title": "Hawley presses OpenAI over ‘rogue’ Hugging Face hack",
+      "source": "POLITICO AI",
+      "published": "2026-09-10T18:50:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b8645841dc49d33653971a58",
+      "bodyFingerprint": "0e50caaab317ad20696ff273",
+      "bodyCharacterCount": 160,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T21:40:17.610Z",
+      "assessment": {
+        "centralEvent": "Hawley presses OpenAI over ‘rogue’ Hugging Face hack",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "OpenAI is now facing calls from both sides of the aisle to provide more details on the incident, which marked the first documented fully autonomous cyberattack.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3a86c409bf2f6e41a8d4": {
+      "storyId": "3a86c409bf2f6e41a8d4",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-is-ai-actually-going-to-kill-us-all",
+      "title": "Is AI Actually Going to Kill Us All?",
+      "source": "WIRED AI",
+      "published": "2026-09-10T20:30:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cdbc46ea0a6471779097ae11",
+      "bodyFingerprint": "162128cbd5f91a8717098c0f",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T21:40:17.641Z",
+      "assessment": {
+        "centralEvent": "Is AI Actually Going to Kill Us All?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "So if you're a developer and you have an app that co [ARTICLE TRUNCATED] fter I removed the safety guardrails from a powerful open-source model, it found vulnerabilities in my household devices and hacked into a PC.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Plus, a WIRED investigation found that the US Census Bureau used faulty data to create a misleading report touted by the Trump administration.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 168,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "22b1d7afb33d22d75456": {
+      "storyId": "22b1d7afb33d22d75456",
+      "url": "https://www.inc.com/sam-blum/whoop-ceo-says-ai-wont-kill-entry-level-jobs-hes-hiring-college-grads-to-prove-it/91403710",
+      "title": "Whoop CEO Says AI Won’t Kill Entry-Level Jobs. He’s Hiring College Grads to Prove It",
+      "source": "Inc. AI",
+      "published": "2026-09-10T18:35:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6a09625abe1be4bf5261054d",
+      "bodyFingerprint": "56d7cf9f7279fa9d2d10979c",
+      "bodyCharacterCount": 128,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-10T21:40:17.645Z",
+      "assessment": {
+        "centralEvent": "Whoop CEO Says AI Won’t Kill Entry-Level Jobs. He’s Hiring College Grads to Prove It",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9975c95d6af2f7a577a0": {
+      "storyId": "9975c95d6af2f7a577a0",
+      "url": "https://www.eff.org/press/releases/we-all-deserve-better-internet-not-smaller-one",
+      "title": "We All Deserve a Better Internet, Not A Smaller One",
+      "source": "EFF AI",
+      "published": "2026-09-10T19:12:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "550c582e4774fe740f147c7f",
+      "bodyFingerprint": "047ba1b955cfd865cb7535fd",
+      "bodyCharacterCount": 343,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-10T21:40:17.757Z",
+      "assessment": {
+        "centralEvent": "We All Deserve a Better Internet, Not A Smaller One",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Instead, we should redouble our efforts to get technology laws right—and support the passage of new robust privacy laws that target surveillance business models.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The Golden State should model the gold standard laws that ensure technology works for everyone, rather than shut down access to digital forums in ways that do more harm than good. \"Social media bans like AB1709 make kids less safe, while un",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44.49,
+        "rawScore": 44.49,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.045,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-10T18:31:04.369Z"
+  "updatedAt": "2026-09-10T21:40:17.758Z"
 }
