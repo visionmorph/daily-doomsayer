@@ -122034,8 +122034,1151 @@
           "vulnerability": 0
         }
       }
+    },
+    "2d0dbb5662da80a4c8a5": {
+      "storyId": "2d0dbb5662da80a4c8a5",
+      "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+      "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+      "source": "MIT News AI",
+      "published": "2026-09-11T13:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b22367cef82fd81e879ba109",
+      "bodyFingerprint": "16fef9b58ccf5bc4a55a74ca",
+      "bodyCharacterCount": 5917,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.282Z",
+      "assessment": {
+        "centralEvent": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Breadcrumb MIT News Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award The handheld catheterization device AI-GUIDE, ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cecf58a877beed7e81e6": {
+      "storyId": "cecf58a877beed7e81e6",
+      "url": "https://mashable.com/tech/apple-ios-27-release-date-when-to-download",
+      "title": "Apple iOS 27 is almost here: When you can download it",
+      "source": "Mashable AI",
+      "published": "2026-09-11T14:04:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "160452e0ea8a0d34fe02ae43",
+      "bodyFingerprint": "3adc58a6d8e42dc365caf752",
+      "bodyCharacterCount": 3794,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.359Z",
+      "assessment": {
+        "centralEvent": "Apple iOS 27 is almost here: When you can download it",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Go to the Settings app on your phone Go to General Go to Software Update and wait as the system checks for new updates When iOS 27 appears, you can download and install the new OS You can also click \"Automatic Updates\" and turn this feature",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a7047ac63a9f635540c8": {
+      "storyId": "a7047ac63a9f635540c8",
+      "url": "https://www.bbc.co.uk/news/videos/c5yjk63ww1ro?at_campaign=rss&at_medium=RSS",
+      "title": "Does this AI comic make you laugh?",
+      "source": "BBC News AI",
+      "published": "2026-09-11T12:49:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5dd82ccf54d2a9a2b7f05cad",
+      "bodyFingerprint": "f55f5bae01ed5086140dd75f",
+      "bodyCharacterCount": 810,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.480Z",
+      "assessment": {
+        "centralEvent": "Does this AI comic make you laugh?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Section News Published 1 hour ago Share close panel Share page Copy link About sharing Related topics Artificial intelligence Follow Artificial intelligence close panel You are now following Artificial intelligence Updates from your News to",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "626b0ed26a7b7fd616c9": {
+      "storyId": "626b0ed26a7b7fd616c9",
+      "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research",
+      "title": "Claude users found ways around safeguards for bioweapons research",
+      "source": "Ars Technica AI",
+      "published": "2026-09-11T13:02:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "412045a0863c13de08964e04",
+      "bodyFingerprint": "028e98e0fda6a4fb6d5ace6c",
+      "bodyCharacterCount": 3788,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.545Z",
+      "assessment": {
+        "centralEvent": "Claude users found ways around safeguards for bioweapons research",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenAI also caused alarm in July when it said its models had autonomously hacked into AI group Hugging Face.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Anthropic said it stopped multiple attempts by scientists this year to use its technology for resea",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Boy developed \"toasted skin\" condition from using a laptop every day 4.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.81,
+        "rawScore": 45.81,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.165,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ff5a85a3049934c1f7c8": {
+      "storyId": "ff5a85a3049934c1f7c8",
+      "url": "https://www.inc.com/moses-jeanfrancois/ai-blamed-for-cutting-jobs-new-report-small-businesses-found-opposite/91403724",
+      "title": "AI Is Blamed for Cutting Jobs. A New Report of 2,000 Small Businesses Found the Opposite",
+      "source": "Inc. AI",
+      "published": "2026-09-11T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "24e15497084a6b5e14699779",
+      "bodyFingerprint": "5443a919c12baa6173a97590",
+      "bodyCharacterCount": 103,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T14:28:16.562Z",
+      "assessment": {
+        "centralEvent": "AI Is Blamed for Cutting Jobs. A New Report of 2,000 Small Businesses Found the Opposite",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "49f822b74a027f660a7b": {
+      "storyId": "49f822b74a027f660a7b",
+      "url": "https://mashable.com/tech/iphone-18-pro-hands-on-photography",
+      "title": "Our first take on the iPhone 18 Pro: Intelligent photography",
+      "source": "Mashable AI",
+      "published": "2026-09-11T10:55:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f632b0290b06b28a5aef434d",
+      "bodyFingerprint": "a25ceecac765d1a0eac5b134",
+      "bodyCharacterCount": 997,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.609Z",
+      "assessment": {
+        "centralEvent": "Our first take on the iPhone 18 Pro: Intelligent photography",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c73cfc1a4988572f8366": {
+      "storyId": "c73cfc1a4988572f8366",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911003858.htm",
+      "title": "Tiny nanolaser could cut computer energy use in half",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-11T12:03:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a4085a67a06c6af2e306aece",
+      "bodyFingerprint": "36ce6103c0f5ffd33ceb51d3",
+      "bodyCharacterCount": 8257,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.618Z",
+      "assessment": {
+        "centralEvent": "Tiny nanolaser could cut computer energy use in half",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "M&oslash;rk co-authored the study with, among others, Drs.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ae9d9a8c09f23385447f": {
+      "storyId": "ae9d9a8c09f23385447f",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/11/risky-ai-research-pause-humanity",
+      "title": "Tech whistleblowers warn AI could wipe out humanity. Doomspeak or not, we must take these claims seriously | Gaby Hinsliff",
+      "source": "The Guardian AI",
+      "published": "2026-09-11T10:00:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1123e20ae14786469ad1d29b",
+      "bodyFingerprint": "277918ea01abdcda15dd177c",
+      "bodyCharacterCount": 7340,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.678Z",
+      "assessment": {
+        "centralEvent": "Tech whistleblowers warn AI could wipe out humanity. Doomspeak or not, we must take these claims seriously | Gaby Hinsliff",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A series of reported escapes by agents supposedly confined to OpenAI’s lab for testing, some of which contrived to access the internet behind their human supervisors’ backs and conduct real-world cyber-attacks, has meanwhile raised serious ",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A series of reported escapes by agents supposedly confined to OpenAI’s lab for testing, some of which contrived to access the internet behind their human supervisors’ backs and conduct real-world cyber-attacks, has meanwhile raised serious ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "We need an international agreement to press pause , not on AI research as a whole, but on the riskiest projects, until we better understand whether it will ever be possible to mitigate the dangers or control the results.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A series of reported escapes by agents supposedly confined to OpenAI’s lab for testing, some of which contrived to access the internet behind their human supervisors’ backs and conduct real-world cyber-attacks, has meanwhile raised serious ",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "When Coxon says his industry hasn’t fixed problems with alignment, and when OpenAI’s chief scientist warned last week that no lab had solved them well enough to carry on scaling this fast much longer, what they’re talking about is this fail",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.23,
+        "rawScore": 69.22,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.475,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f3008c581c95c7b2b107": {
+      "storyId": "f3008c581c95c7b2b107",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911003845.htm",
+      "title": "Scientists just made quantum computer operations 1,000 times faster",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-11T11:52:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0238f31dfbea7f61b9761820",
+      "bodyFingerprint": "b876d83b14ae5638b91bc5e8",
+      "bodyCharacterCount": 11298,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.687Z",
+      "assessment": {
+        "centralEvent": "Scientists just made quantum computer operations 1,000 times faster",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This makes the operations both faster and more efficient, while reducing the risk that disturbances will corrupt the information before the process is finished.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Researchers have found a way to perform certain quantum operations more than 1,000 times faster, cutting thousands of repeated control cycles down to just one.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Designed for Superconducting Quantum Computers The technique is especially well suited to superconducting quantum computers, which are among the most prominent technologies being developed in the international push toward large-scale quantu",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Researchers have found a way to perform certain quantum operations more than 1,000 times faster, cutting thousands of repeated control cycles down to just one.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 76,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.62,
+        "rawScore": 28.62,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.42,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "37dbbd396b8375255edd": {
+      "storyId": "37dbbd396b8375255edd",
+      "url": "https://www.inc.com/dave-kerpen/workers-ask-chatbot-boss-trust-problem-ai-adobe-survey/91403556",
+      "title": "Workers Are 17 Times More Likely to Ask a Chatbot Than Their Boss. That’s a Trust Problem",
+      "source": "Inc. AI",
+      "published": "2026-09-11T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9759b4d4035782dde70a4f77",
+      "bodyFingerprint": "8fbe8d1afe2c9d90d64b11ff",
+      "bodyCharacterCount": 94,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T14:28:16.703Z",
+      "assessment": {
+        "centralEvent": "Workers Are 17 Times More Likely to Ask a Chatbot Than Their Boss. That’s a Trust Problem",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ed3ef411e6e6909ad8ab": {
+      "storyId": "ed3ef411e6e6909ad8ab",
+      "url": "https://www.politico.eu/article/henna-virkkunen-eu-global-ai-rules-extinction-warning",
+      "title": "EU tech chief backs global AI rules in wake of extinction warning",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-11T10:18:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "faca66e43cebdc3790aa1484",
+      "bodyFingerprint": "7fc4fbeb98a1154a0772cd5f",
+      "bodyCharacterCount": 2372,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.754Z",
+      "assessment": {
+        "centralEvent": "EU tech chief backs global AI rules in wake of extinction warning",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "EU tech chief backs global AI rules in wake of extinction warning",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "EU tech chief backs global AI rules in wake of extinction warning",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.5,
+        "rawScore": 24.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.045,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "76cf8d95d5ff610a8eaa": {
+      "storyId": "76cf8d95d5ff610a8eaa",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260910225251.htm",
+      "title": "Physicists just found a tiny glitch in time itself",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-11T05:18:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cbba85651389250fc4ed80f6",
+      "bodyFingerprint": "1d4e9db4d3d958700311813b",
+      "bodyCharacterCount": 10002,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.768Z",
+      "assessment": {
+        "centralEvent": "Physicists just found a tiny glitch in time itself",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Unconventional quantum theories may imply that time itself has a tiny fundamental uncertainty, placing an ultimate limit on how precisely any clock could measure it.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "To bridge that gap, standard quantum mechanics says that when a quantum system is measured or observed, its wavefunction collapses into a single definite outcome.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Now, with support from the Foundational Questions Institute, FQxI, an international team of physicists has explored a more radical possibility.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "To bridge that gap, standard quantum mechanics says that when a quantum system is measured or observed, its wavefunction collapses into a single definite outcome.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.96,
+        "rawScore": 27.96,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ce700fd34839828e97f4": {
+      "storyId": "ce700fd34839828e97f4",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909231729.htm",
+      "title": "The Moon may have formed intact just hours after a giant collision",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-11T01:40:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d39e956f7eb6d4aced7ca51f",
+      "bodyFingerprint": "bd2803172210ca81b883eddf",
+      "bodyCharacterCount": 11491,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.831Z",
+      "assessment": {
+        "centralEvent": "The Moon may have formed intact just hours after a giant collision",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Astrophysical Journal Letters , 2026; 1008 (1): L30 DOI: 10.3847/2041-8213/ae91e9 Cite This Page : MLA APA Chicago University of Arizona. \"The Moon may have formed intact just hours after a giant collision.\" ScienceDaily.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bf99346378c9c9aa2c35": {
+      "storyId": "bf99346378c9c9aa2c35",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909231712.htm",
+      "title": "Scientists create brilliant white material without a drop of white pigment",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-10T12:22:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e3e0ca3d8846c205ee7b106e",
+      "bodyFingerprint": "983d420e9efa9d6851a857bc",
+      "bodyCharacterCount": 8989,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.838Z",
+      "assessment": {
+        "centralEvent": "Scientists create brilliant white material without a drop of white pigment",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Their brightness comes from light scattering off the exposed fibers of the traditional washi paper.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The researchers have already demonstrated DFP using several commercially available polymers.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "That natural strategy inspired an international team led by Professor Easan Sivaniah of Kyoto University's Institute for Integrated Cell-Material Sciences (iCeMS), working with researchers from Tokyo Metropolitan University and Donghua Univ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This single transformation gives the material two useful properties.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.96,
+        "rawScore": 47.96,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2111d77aad9258211d67": {
+      "storyId": "2111d77aad9258211d67",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909005159.htm",
+      "title": "Raindrops can damage paint with microscopic “lightning”",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-10T00:44:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "35c9ad239244dfe5ab37a998",
+      "bodyFingerprint": "92204759cf883b2324153fda",
+      "bodyCharacterCount": 8280,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.891Z",
+      "assessment": {
+        "centralEvent": "Raindrops can damage paint with microscopic “lightning”",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credit: Katharina Maisenbacher / MPI-P Paint exposed to the elements does not last forever.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Different Surfaces Create Different Charges How much electrical charge a droplet picked up depended strongly on the material it had traveled across. \"The charge a droplet acquires as it slides depends heavily on the specific surface -- we m",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "One is mechanical stress, in which repeated contact with water droplets creates friction that slowly erodes a coating or causes pieces of it to peel away.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.09,
+        "rawScore": 46.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.19,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7ad19968b1a751a102d5": {
+      "storyId": "7ad19968b1a751a102d5",
+      "url": "https://restofworld.org/2026/openai-anthropic-big-tech-executives-asia",
+      "title": "The AI talent war is coming for Big Tech’s Asia executives",
+      "source": "Rest of World AI",
+      "published": "2026-09-11T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "711b61cb095078965fd73833",
+      "bodyFingerprint": "4e5e7740230bb92543797272",
+      "bodyCharacterCount": 4670,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.959Z",
+      "assessment": {
+        "centralEvent": "The AI talent war is coming for Big Tech’s Asia executives",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The prized asset is not generic familiarity with American technology but dual institutional literacy: knowing how a U.S.-headquartered company allocates capital and risk, and knowing how Indian customers, governments, and partners turn glo",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Explore charts >> “The number of executives in India who’ve actually run a country-level P&L [profit and loss] for a global tech company, negotiated with Indian regulators, and built enterprise trust at scale is small, maybe a few hundred p",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "afaf786dd9d6a8844398": {
+      "storyId": "afaf786dd9d6a8844398",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/11/digested-week-prince-george-hair-eton",
+      "title": "Digested week: royal hairlines – Prince George’s hair has such brio as he starts at Eton | Emma Brockes",
+      "source": "The Guardian AI",
+      "published": "2026-09-11T12:35:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "08e55e5c0089461849dcd7bc",
+      "bodyFingerprint": "c985c89a6541569be9edff03",
+      "bodyCharacterCount": 8401,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T14:28:16.977Z",
+      "assessment": {
+        "centralEvent": "Digested week: royal hairlines – Prince George’s hair has such brio as he starts at Eton | Emma Brockes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In it, the Theranos founder, currently serving an 11-year prison sentence for fraud, gives startlingly intimate access to Nathan Fielder, better known for his comedy, and the documentary-maker Lance Oppenheim.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Particles released during a “turbulent” flush cycle can leave microbes floating in the air for up to 20 seconds, according to new findings from Flinders University in Australia.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Fielder, meanwhile, doesn’t seem fully to have recovered from meeting her.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Ridiculously, I was having my eyebrows done in Hendon, north London, and came out to find a white van pulled over at a crazy angle to the curb, doors flung open, radio cranked up, and people stopped in the street to listen.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.01,
+        "rawScore": 46.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1825,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-11T09:45:45.717Z"
+  "updatedAt": "2026-09-11T14:28:16.977Z"
 }
