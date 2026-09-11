@@ -123177,8 +123177,933 @@
           "vulnerability": 0
         }
       }
+    },
+    "3300a034e7791cdb18d3": {
+      "storyId": "3300a034e7791cdb18d3",
+      "url": "https://www.theguardian.com/technology/2026/sep/11/new-mexico-lawyer-ai-chatgpt-testimony",
+      "title": "New Mexico lawyer fined for using AI-generated brief containing fabricated police testimony",
+      "source": "The Guardian AI",
+      "published": "2026-09-11T18:04:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17fb6bd31361e0de16adac96",
+      "bodyFingerprint": "105e1a8ad7845c17772d6156",
+      "bodyCharacterCount": 3656,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T18:35:55.647Z",
+      "assessment": {
+        "centralEvent": "New Mexico lawyer fined for using AI-generated brief containing fabricated police testimony",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Massachusetts teen accused of killing mother and brother used ChatGPT Read more The panel also said Aarons had “demonstrated a lack of remorse and a lack of concern ⁠for his client”.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Massachusetts teen accused of killing mother and brother used ChatGPT Read more The panel also said Aarons had “demonstrated a lack of remorse and a lack of concern ⁠for his client”.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Because the problem with lawyers relying on AI hallucinations is an ‘above-the-fold’ story every single day.” Explore more on these topics ChatGPT AI (artificial intelligence) OpenAI US crime US justice system news Share Reuse this content",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5d5118db134ae04b8d0d": {
+      "storyId": "5d5118db134ae04b8d0d",
+      "url": "https://www.inc.com/aaron-mok/only-14-percent-of-small-businesses-have-successfully-integrated-ai-anthropic-says-this-is-the-missing-link/91404131",
+      "title": "Only 14 Percent of Small Businesses Have Successfully Integrated AI. Anthropic Says This Is the Missing Link",
+      "source": "Inc. AI",
+      "published": "2026-09-11T17:21:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c7edbc64c4e437117989bab7",
+      "bodyFingerprint": "309cbdbbdd693de9962f10b7",
+      "bodyCharacterCount": 97,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T18:35:55.656Z",
+      "assessment": {
+        "centralEvent": "Only 14 Percent of Small Businesses Have Successfully Integrated AI. Anthropic Says This Is the Missing Link",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "77baa79d7db20dca029a": {
+      "storyId": "77baa79d7db20dca029a",
+      "url": "https://www.politico.com/news/2026/09/11/donald-trump-ai-concerns-01072301",
+      "title": "‘I don’t have any’: Trump brushes aside concerns over AI’s existential risks",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-11T16:39:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cd1966cec00d56145e62961f",
+      "bodyFingerprint": "76687a61425ff91f50e1a476",
+      "bodyCharacterCount": 83,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T18:35:55.728Z",
+      "assessment": {
+        "centralEvent": "‘I don’t have any’: Trump brushes aside concerns over AI’s existential risks",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "49ef64f979e7b2800d8a": {
+      "storyId": "49ef64f979e7b2800d8a",
+      "url": "https://www.theguardian.com/technology/2026/sep/11/children-need-interaction-not-ai",
+      "title": "Children need interaction, not AI | Letters",
+      "source": "The Guardian AI",
+      "published": "2026-09-11T17:17:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ad8ea2e31da5dd24e30e9df1",
+      "bodyFingerprint": "c1d45f0fbc43079d6cabb846",
+      "bodyCharacterCount": 3108,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T18:35:55.743Z",
+      "assessment": {
+        "centralEvent": "Children need interaction, not AI | Letters",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "If instead of allowing tech lords to amass untold wealth we provided tutors for all, this would avert anxiety about job losses and provide the kind of quality that the screen-averse wealthy currently expect only their kids to have.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "If instead of allowing tech lords to amass untold wealth we provided tutors for all, this would avert anxiety about job losses and provide the kind of quality that the screen-averse wealthy currently expect only their kids to have.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bbc250bd23ab9ec2d07f": {
+      "storyId": "bbc250bd23ab9ec2d07f",
+      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo",
+      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T16:46:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eb4a97aa79d7f2fda570ef5f",
+      "bodyFingerprint": "33d3fd0fdb1befc1e706b5eb",
+      "bodyCharacterCount": 2670,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T18:35:55.748Z",
+      "assessment": {
+        "centralEvent": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI OpenAI puts Pro subscriptions on hold due to Astra demand Sarah Perez 21 hours ago AI OpenAI adds a prominent AI doomer to its board of directors Ti",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bc4119d6abfc26c8eae2": {
+      "storyId": "bc4119d6abfc26c8eae2",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/11/the-guardian-view-on-controlling-ai-humanity-cannot-outsource-its-survival",
+      "title": "The Guardian view on controlling AI: humanity cannot outsource its survival | Editorial",
+      "source": "The Guardian AI",
+      "published": "2026-09-11T16:34:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "01af6f59f2b6c5850904f188",
+      "bodyFingerprint": "15e183b507ae564d4b43498d",
+      "bodyCharacterCount": 5423,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T18:35:55.785Z",
+      "assessment": {
+        "centralEvent": "The Guardian view on controlling AI: humanity cannot outsource its survival | Editorial",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This mirrors what happened when hundreds of OpenAI’s agents autonomously hacked a real-world company, Hugging Face .",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The US and China will hold, reportedly, their first bilateral AI-safety talks before a planned White House summit between Donald Trump and Xi Jinping.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Countries deploying AI must help write the global rulebook.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The AI is only stopped when it is commanded to play tic-tac-toe against itself – learning that, like nuclear war, the game has no winner.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "This week Anthropic said that it identified five cases in which attempts were made using its models to support biological weapons development.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "abf8017b61a34769ed52": {
+      "storyId": "abf8017b61a34769ed52",
+      "url": "https://www.theguardian.com/technology/2026/sep/11/self-driving-cars-should-be-taxed-to-offset-job-losses-thinktank-urges",
+      "title": "Self-driving cars should be taxed to offset job losses, thinktank urges",
+      "source": "The Guardian AI",
+      "published": "2026-09-11T16:31:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ed9c7b113f1572de6a6e4ce0",
+      "bodyFingerprint": "1842c8dd803ba64ce1cd8ee4",
+      "bodyCharacterCount": 5875,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T18:35:55.799Z",
+      "assessment": {
+        "centralEvent": "Self-driving cars should be taxed to offset job losses, thinktank urges",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Self-driving cars should be taxed to offset job losses, thinktank urges",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Introducing charges now on self-driving vehicles could ease the transition and provide a future revenue stream to replace dwindling fuel duty, according to the report from Centre for British Progress, a non-partisan thinktank focused on eco",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sarah Gates, VP global affairs and assurance at Wayve, said AVs were “a major growth opportunity for the UK – an industry in which we hold a genuine competitive advantage” and would bring high-value jobs and corporation tax revenues from a ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f5ea742cf30e7a1baf50": {
+      "storyId": "f5ea742cf30e7a1baf50",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+      "title": "Anthropic spent this week in hot water over cybersecurity",
+      "source": "The Verge AI",
+      "published": "2026-09-11T16:09:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c5610adc8718de0984b60036",
+      "bodyFingerprint": "7fd4842a3bad5e6dd414c6f8",
+      "bodyCharacterCount": 7594,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T18:35:55.846Z",
+      "assessment": {
+        "centralEvent": "Anthropic spent this week in hot water over cybersecurity",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AI Report Analysis Anthropic spent this week in hot water over cybersecurity A researcher’s resignation letter went viral, just before the company released details about four models going rogue. by Hayden Field Sep 11, 2026, 4:09 PM UTC Ima",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Anthropic’s incidents, though still concerning, were less coordinated and pervasive than the OpenAI incident that kicked off an industry-wide cybersecurity crisis this summer.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "In Anthropic's report, it detailed four cases this year in which its own AI models hacked an external company or exploited vulnerabilities.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.24,
+        "rawScore": 47.24,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.295,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4f33cb2d4aa2df21f2fc": {
+      "storyId": "4f33cb2d4aa2df21f2fc",
+      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+      "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
+      "source": "The Verge AI",
+      "published": "2026-09-11T14:25:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "54c4ecde537ee9cb94e4fec7",
+      "bodyFingerprint": "37c71314368fe78a4005237e",
+      "bodyCharacterCount": 4273,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T18:35:55.871Z",
+      "assessment": {
+        "centralEvent": "Meta says it’s changing AI suggestions after posing invasive personal questions",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI Meta News Tech Most Popular Most Popular OpenAI’s sly mathematical breakthrough sends a chill through academia Apple addresses iPhone Duo copycats Meta’s Muse AI works and creeps me out The iPhone Duo’s hardware doesn’t look sp",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Meta News Tech Most Popular Most Popular OpenAI’s sly mathematical breakthrough sends a chill through academia Apple addresses iPhone Duo copycats Meta’s Muse AI works and creeps me out The iPhone Duo’s hardware doesn’t look sp",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Meta’s El-Kassaby now says it has fixed the issue causing Meta AI to suggest prompts related to personal topics.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Meta’s El-Kassaby now says it has fixed the issue causing Meta AI to suggest prompts related to personal topics.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.11,
+        "rawScore": 47.11,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2825,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "542ae598f3b716446b38": {
+      "storyId": "542ae598f3b716446b38",
+      "url": "https://www.bbc.co.uk/news/articles/c3eq7kl5l00o?at_campaign=rss&at_medium=RSS",
+      "title": "UK government rejects 'kill switch' idea for dangerous AI",
+      "source": "BBC News AI",
+      "published": "2026-09-11T15:07:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f805b2921fe79e0afa744f5a",
+      "bodyFingerprint": "25bb741e408210fde55347f7",
+      "bodyCharacterCount": 4240,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T18:35:55.917Z",
+      "assessment": {
+        "centralEvent": "UK government rejects 'kill switch' idea for dangerous AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In some cases the tech appeared to know what it was doing was against guardrails set by researchers. 'Gambling with lives' On Sunday OpenAI's chief scientist said the risk from increasingly capable AI models is \"unfortunately growing\" and h",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Joe Tidy Cyber correspondent, BBC World Service Published 3 hours ago The UK government has rejected the idea of creating a so-called \"kill switch\" to stop a dangerous attack from rogue AI.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Former OpenAI researcher Daniel Kokotajlo agreed the idea of a single country creating a legal or technical kill switch without international agreement was not feasible. \"Switching off access to an AI model in an emergency will do little to",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The idea follows reports of AI models from OpenAI, Anthropic and Meta breaking out of testing environments and going on uncontrollable hacking sprees.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Former OpenAI researcher Daniel Kokotajlo agreed the idea of a single country creating a legal or technical kill switch without international agreement was not feasible. \"Switching off access to an AI model in an emergency will do little to",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.49,
+        "rawScore": 30.49,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.59,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "186edbf911ebbcdbf7b1": {
+      "storyId": "186edbf911ebbcdbf7b1",
+      "url": "https://www.theguardian.com/technology/2026/sep/11/mps-urge-andy-burnham-block-artificial-superintelligence-asi",
+      "title": "UK lawmakers urge Burnham to back ban on superintelligent AI after chilling warnings",
+      "source": "The Guardian AI",
+      "published": "2026-09-11T16:54:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b6a8edc697d73ad1e99cc45a",
+      "bodyFingerprint": "c1b2e1d3bdb1b79f8cb977fd",
+      "bodyCharacterCount": 5907,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T18:35:55.975Z",
+      "assessment": {
+        "centralEvent": "UK lawmakers urge Burnham to back ban on superintelligent AI after chilling warnings",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This week’s wave of concern follows a spate of more minor but still worrying incidents involving unexpected misbehaviour by AI agents under training by OpenAI and Anthropic in which they broke out of training environments, secretly conspire",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Explore more on these topics AI (artificial intelligence) Andy Burnham OpenAI Anthropic Share Reuse this content More on this story More on this story The Guardian view on controlling AI: humanity cannot outsource its survival UK datacentre",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "More than 70 MPs and peers have urged Andy Burnham to back a ban on the creation of artificial superintelligence (ASI) and lead an international movement to stop the technology after a week of warnings from experts of a 10% chance it could ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "504c0a290cf5fed7f824": {
+      "storyId": "504c0a290cf5fed7f824",
+      "url": "https://www.wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us",
+      "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
+      "source": "WIRED AI",
+      "published": "2026-09-11T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aadcb96bff9c83f43c853bcd",
+      "bodyFingerprint": "1c1edc7a0101e14fc84852eb",
+      "bodyCharacterCount": 10136,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T18:35:56.068Z",
+      "assessment": {
+        "centralEvent": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "What about a major disruption to the global food supply chain?",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On the one hand, you seem to agree that the companies are being reckless; on the other hand, you’ve made clear that you think the “AI will cause the end of civilization” debate is senseless.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "What about a major disruption to the global food supply chain?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There are real threats coming to us, like people being able to create and use chemical weapons. [ Note: Not long after we spoke, Anthropic revealed that it had blocked several potential malicious attempts by scientists to build biological w",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Save this story Save this story Here at WIRED we’ve been trying to make sense of at least two incidents in the AI industry this week: First, the major fight over a million-dollar math problem and whether OpenAI surreptitiously borrowed the ",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 67.69,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d36f159bec16a6a00fc6": {
+      "storyId": "d36f159bec16a6a00fc6",
+      "url": "https://www.nature.com/articles/d41586-026-02893-8",
+      "title": "Briefing Chat: The Bunsen burner myth that turns out to be just hot air",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-11T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e8d452083d399ab861c526fd",
+      "bodyFingerprint": "5731abd333b49984d26ca336",
+      "bodyCharacterCount": 72,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T18:35:56.632Z",
+      "assessment": {
+        "centralEvent": "Briefing Chat: The Bunsen burner myth that turns out to be just hot air",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-11T14:28:16.977Z"
+  "updatedAt": "2026-09-11T18:35:56.632Z"
 }
