@@ -121145,8 +121145,361 @@
           "vulnerability": 0
         }
       }
+    },
+    "03afdcde6a2c6901911a": {
+      "storyId": "03afdcde6a2c6901911a",
+      "url": "https://www.politico.com/news/2026/09/10/newsom-signs-sweeping-child-safety-restrictions-for-social-media-ai-chatbots-01071275",
+      "title": "California’s Newsom signs online kid safety laws, including rules backed by Sam Altman",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-11T02:57:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c17bab441e986de88b2a7fe1",
+      "bodyFingerprint": "d91dc4c6eef3bd4c1d1c6f2c",
+      "bodyCharacterCount": 99,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T04:45:27.935Z",
+      "assessment": {
+        "centralEvent": "California’s Newsom signs online kid safety laws, including rules backed by Sam Altman",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The new state laws come amid rising concern that social media and AI pose health risks to children.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e295d5f0178fe7166a1b": {
+      "storyId": "e295d5f0178fe7166a1b",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_campaign=rss&at_medium=RSS",
+      "title": "Anthropic blocks 'malicious use' of AI that could develop biological weapons",
+      "source": "BBC News AI",
+      "published": "2026-09-11T02:46:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "47ebe634d331ca30956363a3",
+      "bodyFingerprint": "7cfbc685b420c9f8ab5d7872",
+      "bodyCharacterCount": 5330,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T04:45:27.960Z",
+      "assessment": {
+        "centralEvent": "Anthropic blocks 'malicious use' of AI that could develop biological weapons",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The cases of concern detected over the past eight months ranged from fake dating apps and hotel Wifi scams, to surveillance built to identify dissidents.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Reuters By Nardine Saad Published 1 hour ago Anthropic says it has identified and disrupted attempts to use its AI model for \"malicious activity\" that could support biological and conventional weapons development.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As well as detecting the use of its models for cyber and influence operations, surveillance, scams and fraud and weapon development, Anthropic said it had blocked scientists who used its AI in ways that could support biological weapons deve",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The report highlighted \"five case studies of actors using our models in ways that could support biological weapons development\".",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.35,
+        "rawScore": 47.35,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.305,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "48191fc7fb4863d1156f": {
+      "storyId": "48191fc7fb4863d1156f",
+      "url": "https://www.bbc.co.uk/news/videos/cgjq11576q2o?at_campaign=rss&at_medium=RSS",
+      "title": "Bernie Sanders speaks to the BBC about proposal to ban AI superintelligence",
+      "source": "BBC News AI",
+      "published": "2026-09-10T22:48:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "50427b2eed30a90e406509e8",
+      "bodyFingerprint": "c2b90827703dc5bf965eabbf",
+      "bodyCharacterCount": 1340,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T04:45:27.977Z",
+      "assessment": {
+        "centralEvent": "Bernie Sanders speaks to the BBC about proposal to ban AI superintelligence",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Subsection US & Canada Published 5 hours ago Share close panel Share page Copy link About sharing Related topics Artificial intelligence Follow Artificial intelligence close panel You are now following Artificial intelligence Updates from y",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3ce4fa363988cd6cd1a7": {
+      "storyId": "3ce4fa363988cd6cd1a7",
+      "url": "https://mashable.com/tech/california-passes-child-safety-laws-for-social-media-ai",
+      "title": "Did California just ban social media for teens?",
+      "source": "Mashable AI",
+      "published": "2026-09-11T00:56:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "03b176c566c86f0b62bc92e7",
+      "bodyFingerprint": "9b5becc63ff6a5d18052ffd8",
+      "bodyCharacterCount": 7587,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T04:45:28.000Z",
+      "assessment": {
+        "centralEvent": "Did California just ban social media for teens?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "SEE ALSO: Avian flu, drone swarms, and mass surveillance included in Anthropic's safety report The policy move would place California on par with national governments like Australia , which was the first to bar young users from accessing so",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenAI CEO Sam Altman appealed directly to Newsom about the new legislation package last week, according to insiders, after industry leaders pushed for an increasingly narrower scope.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "SEE ALSO: Avian flu, drone swarms, and mass surveillance included in Anthropic's safety report The policy move would place California on par with national governments like Australia , which was the first to bar young users from accessing so",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Raine's parents filed the first wrongful death lawsuit against an AI company for alleged harmful chatbot behavior.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.23,
+        "rawScore": 48.23,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.385,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "293db14f4a406020e71a": {
+      "storyId": "293db14f4a406020e71a",
+      "url": "https://www.politico.eu/article/eu-response-ai-extinction-warnings",
+      "title": "Keep calm and regulate on: Inside the EU’s response to AI extinction warnings",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-10T19:39:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "75339777aefd1d1690622168",
+      "bodyFingerprint": "e641cbc1724645eb165d2da4",
+      "bodyCharacterCount": 4105,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T04:45:28.322Z",
+      "assessment": {
+        "centralEvent": "Keep calm and regulate on: Inside the EU’s response to AI extinction warnings",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "BRUSSELS — A viral social media post warning that top American AI developers are \"gambling with our lives\" has been met this week in Brussels with business as usual — and a splash of Schadenfreude .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The European Union's corridors of power were one of the few places over the past 48 hours not overtaken by a frenzy after an Anthropic employee announced he was quitting, with a stark warning that the people building AI \"earnestly believe\" ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Systemic risks Under the bloc's AI law, companies like OpenAI and Anthropic must take into account and counter what are called \"systemic risks.\" These include the risk of losing control of a model, or the risk that a model is no longer alig",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-11T00:12:56.028Z"
+  "updatedAt": "2026-09-11T04:45:28.323Z"
 }
