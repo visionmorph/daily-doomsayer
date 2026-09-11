@@ -124102,8 +124102,773 @@
           "vulnerability": 0
         }
       }
+    },
+    "ff32e5f1e5dfe39800c2": {
+      "storyId": "ff32e5f1e5dfe39800c2",
+      "url": "https://www.inc.com/chloe-aiello/this-fda-cleared-ai-could-spot-a-hidden-heart-attack-your-doctor-misses/91404434",
+      "title": "This FDA-Cleared AI Could Spot a Hidden Heart Attack Your Doctor Misses",
+      "source": "Inc. AI",
+      "published": "2026-09-11T20:52:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "711654295218169cd124af0f",
+      "bodyFingerprint": "5b3c9e5eec20ae3fec5f6193",
+      "bodyCharacterCount": 95,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T21:45:03.213Z",
+      "assessment": {
+        "centralEvent": "This FDA-Cleared AI Could Spot a Hidden Heart Attack Your Doctor Misses",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "092a22a77f18748174c5": {
+      "storyId": "092a22a77f18748174c5",
+      "url": "https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026",
+      "title": "One week left to book your exhibit table at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T20:33:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8f873d9222146db2df3519fd",
+      "bodyFingerprint": "0be3f78f9cbaeaec3757ca6e",
+      "bodyCharacterCount": 2786,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T21:45:03.251Z",
+      "assessment": {
+        "centralEvent": "One week left to book your exhibit table at TechCrunch Disrupt 2026",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen Zack Whittaker Automattic’s board forces CEO Matt Mullenweg into leave of absence Julie Bort Sarah Perez Apple u",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The exhibitor program gives your team a dedicated 6′ × 30′′ table in the Expo Hall for all three days — a place to demo what you’re building, answer questions in real time, and turn passing traffic into meaningful conversations.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bf292c264ce3da0c0c25": {
+      "storyId": "bf292c264ce3da0c0c25",
+      "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating",
+      "title": "OpenAI’s feud with mathematicians is only escalating",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T20:57:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aebdbce85cead891ed2dd909",
+      "bodyFingerprint": "a4df7838f7d45e01f27b93ff",
+      "bodyCharacterCount": 4584,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T21:45:03.263Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s feud with mathematicians is only escalating",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen Zack Whittaker Automattic’s board forces CEO Matt Mullenweg into leave of absence Julie Bort Sarah Perez Apple u",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Often these solutions are announced in a rush, leaving no time for a proper writeup, the isolation of new methods and ideas, and citing relevant previous work of others,” they wrote — and OpenAI’s proof remains unverified.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "223c811be8738dde267a": {
+      "storyId": "223c811be8738dde267a",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too",
+      "title": "Y Combinator’s Garry Tan wants U.S. open-weight AI labs to ‘distill’ frontier models, too",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T20:59:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5a239779fbb0135e00ad33c2",
+      "bodyFingerprint": "fb82b1450cc3962609220c11",
+      "bodyCharacterCount": 4189,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T21:45:03.268Z",
+      "assessment": {
+        "centralEvent": "Y Combinator’s Garry Tan wants U.S. open-weight AI labs to ‘distill’ frontier models, too",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Anthropic this week released its second report alleging that Chinese labs are engaged in “illicit distillation attacks,” hiding their identities to distill without permission and relying on fraud and stolen credentials to do so.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The nightmare scenario, the doomer scenario for AI is that there’s just one company,” he said.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“You want open weight models to give people freedom and access.” To him, the true AI doomer scenario is for all the immense power of frontier AI to wind up in the hands of a single powerful, proprietary provider.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44.83,
+        "rawScore": 44.83,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.075,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cd4dece0b1837435f305": {
+      "storyId": "cd4dece0b1837435f305",
+      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue",
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T19:35:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f31094f4612eb0666b91adb2",
+      "bodyFingerprint": "5555a183b883223c95edb63c",
+      "bodyCharacterCount": 2561,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T21:45:03.326Z",
+      "assessment": {
+        "centralEvent": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "While K3's usage figures have declined slightly in recent months, OpenRouter data currently shows as many as 300 billion tokens being generated each day by K3 models on the system.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fe9b4c19366e9eeb7b25": {
+      "storyId": "fe9b4c19366e9eeb7b25",
+      "url": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events",
+      "title": "Final, final, final call for TechCrunch Disrupt 2026 Side Events",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T20:30:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dd95a9c7b90d0ca24c5e8d99",
+      "bodyFingerprint": "eced18860aac4c183246e489",
+      "bodyCharacterCount": 3636,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T21:45:03.382Z",
+      "assessment": {
+        "centralEvent": "Final, final, final call for TechCrunch Disrupt 2026 Side Events",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen Zack Whittaker Automattic’s board forces CEO Matt Mullenweg into leave of absence Julie Bort Sarah Perez Apple u",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4b7a157c5d09d678dc85": {
+      "storyId": "4b7a157c5d09d678dc85",
+      "url": "https://www.eff.org/deeplinks/2026/09/governor-newsom-signs-student-backed-digital-literacy-bills-alongside-misguided",
+      "title": "Governor Newsom Signs Student-Backed Digital Literacy Bills Alongside Misguided Bans",
+      "source": "EFF AI",
+      "published": "2026-09-11T20:25:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7c7d6463f369d64d3e3ba867",
+      "bodyFingerprint": "32ef2402b647b9b43d730cee",
+      "bodyCharacterCount": 2255,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T21:45:03.438Z",
+      "assessment": {
+        "centralEvent": "Governor Newsom Signs Student-Backed Digital Literacy Bills Alongside Misguided Bans",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c0774e79dcbdf32d6ac4": {
+      "storyId": "c0774e79dcbdf32d6ac4",
+      "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time",
+      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T18:41:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6500d7d958bd7ae9c1fe7d1c",
+      "bodyFingerprint": "55142f6cc62530581d5b7e37",
+      "bodyCharacterCount": 5297,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T21:45:03.444Z",
+      "assessment": {
+        "centralEvent": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen Zack Whittaker Automattic’s board forces CEO Matt Mullenweg into leave of absence Julie Bort Sarah Perez Apple u",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4475e1cfed430a105082": {
+      "storyId": "4475e1cfed430a105082",
+      "url": "https://www.inc.com/michael-tasner/anthropics-biggest-communications-problem-isnt-an-outside-critic-its-the-people-inside/91404269",
+      "title": "Anthropic’s Biggest Communications Problem Isn’t an Outside Critic. It’s the People Inside",
+      "source": "Inc. AI",
+      "published": "2026-09-11T18:18:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e408adb32acd36de7571416c",
+      "bodyFingerprint": "9e46a4584fb33e5bd939c552",
+      "bodyCharacterCount": 115,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T21:45:03.477Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s Biggest Communications Problem Isn’t an Outside Critic. It’s the People Inside",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "100612fd29ec106d25fc": {
+      "storyId": "100612fd29ec106d25fc",
+      "url": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems",
+      "title": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
+      "source": "WIRED AI",
+      "published": "2026-09-11T18:59:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f2581daaf279cd775c1341ff",
+      "bodyFingerprint": "ec457591a59e49ada7e6d088",
+      "bodyCharacterCount": 9572,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T21:45:03.594Z",
+      "assessment": {
+        "centralEvent": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "His reporting has examined surveillance, policing, data brokers, platforms, and the government agencies and companies that use them.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Paresh Dave Reverse-Lookup Service Exposed Millions of Photos of People’s Faces The people-search tool ClarityCheck says its reverse image search service is “private and secure”—but it left a database containing more than 9 million image fi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The complaint estimates that the national class could number in the millions.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In November 2021, the company announced that it would shut down the system and delete more than a billion faceprints.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The complaint frames the case as part of a much longer pattern of privacy violations from Meta.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.17,
+        "rawScore": 49.17,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "36965aefbc3a8748c07c": {
+      "storyId": "36965aefbc3a8748c07c",
+      "url": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses",
+      "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
+      "source": "Ars Technica AI",
+      "published": "2026-09-11T19:34:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "436ceeb4ec772c34c744e855",
+      "bodyFingerprint": "2bd33fed86f5e87b51aff31a",
+      "bodyCharacterCount": 11505,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T21:45:03.709Z",
+      "assessment": {
+        "centralEvent": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The state’s top court referred the lawyer to a disciplinary board for further proceedings and concluded that he “demonstrated a lack of remorse and a lack of concern for his client.” Attorney Stephen Aarons “admitted to the Court that he di",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The state’s top court referred the lawyer to a disciplinary board for further proceedings and concluded that he “demonstrated a lack of remorse and a lack of concern for his client.” Attorney Stephen Aarons “admitted to the Court that he di",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Boy developed \"toasted skin\" condition from using a laptop every day 3.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 77,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.97,
+        "rawScore": 26.97,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.27,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d80dad627f987e3155a4": {
+      "storyId": "d80dad627f987e3155a4",
+      "url": "https://www.artificialintelligence-news.com/news/palantir-foundry-cuopt-nvidia-supply-chain-allocation",
+      "title": "Palantir Foundry and cuOpt drive NVIDIA supply chain allocation",
+      "source": "AI News",
+      "published": "2026-09-11T12:00:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5a5d22d39484aef0317a5081",
+      "bodyFingerprint": "df87840607f070d15213f2b5",
+      "bodyCharacterCount": 496,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T21:45:04.119Z",
+      "assessment": {
+        "centralEvent": "Palantir Foundry and cuOpt drive NVIDIA supply chain allocation",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-11T18:35:56.632Z"
+  "updatedAt": "2026-09-11T21:45:04.119Z"
 }
