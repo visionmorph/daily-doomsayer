@@ -121498,8 +121498,544 @@
           "vulnerability": 0
         }
       }
+    },
+    "894eb82aba6448aec14a": {
+      "storyId": "894eb82aba6448aec14a",
+      "url": "https://www.inc.com/larry-alton/most-ai-rollouts-fail-for-the-same-reason-it-has-nothing-to-do-with-training/91403344",
+      "title": "Most AI Rollouts Fail for the Same Reason. It Has Nothing to Do With Training",
+      "source": "Inc. AI",
+      "published": "2026-09-11T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2edc09ea586603b791a4162b",
+      "bodyFingerprint": "f4c2f435524106b955098f3e",
+      "bodyCharacterCount": 131,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T09:45:45.288Z",
+      "assessment": {
+        "centralEvent": "Most AI Rollouts Fail for the Same Reason. It Has Nothing to Do With Training",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "af0233622edd8fc835b8": {
+      "storyId": "af0233622edd8fc835b8",
+      "url": "https://mashable.com/tech/sept-11-musicmagic-starter-plan-lifetime-subscription",
+      "title": "Your imaginary record label can get started for $50",
+      "source": "Mashable AI",
+      "published": "2026-09-11T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c20ec48e8911410a6d6edfef",
+      "bodyFingerprint": "75ec1cfa04f5c4cfdb79a821",
+      "bodyCharacterCount": 3437,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T09:45:45.333Z",
+      "assessment": {
+        "centralEvent": "Your imaginary record label can get started for $50",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a2ff900591ab34ffbe0f": {
+      "storyId": "a2ff900591ab34ffbe0f",
+      "url": "https://mashable.com/tech/google-gemini-3-5-pro-delay-updates",
+      "title": "Where is Gemini 3.5 Pro? The case of the missing AI model.",
+      "source": "Mashable AI",
+      "published": "2026-09-11T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "183135b55947c49e45567fac",
+      "bodyFingerprint": "ca61f27120633d9ae161a3fa",
+      "bodyCharacterCount": 7581,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T09:45:45.340Z",
+      "assessment": {
+        "centralEvent": "Where is Gemini 3.5 Pro? The case of the missing AI model.",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They've also been used to resolve famous open questions in research-level mathematics, such as the Jacobian Conjecture and the Navier-Stokes problem (the latter was resolved with quite a bit of controversy , however).",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In Arena's coding leaderboard , the area where Anthropic and OpenAI have reported such rapid advancements, Google is currently ranked 25th.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Google not only has unprecedented access to the world's data, but it can also put its AI tools directly into the hands of billions of Android and Google Search users worldwide.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "66418ce72604b3bd76b7": {
+      "storyId": "66418ce72604b3bd76b7",
+      "url": "https://news.sky.com/story/anthropic-blocks-effort-to-use-ai-to-research-potential-biological-weapons-13584258",
+      "title": "Anthropic blocks effort to use AI to research potential biological weapons",
+      "source": "Sky News AI",
+      "published": "2026-09-11T08:13:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b30d0f0651da67d68be7279d",
+      "bodyFingerprint": "79c63c993bc1da6151c2ff16",
+      "bodyCharacterCount": 179,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T09:45:45.420Z",
+      "assessment": {
+        "centralEvent": "Anthropic blocks effort to use AI to research potential biological weapons",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dc3579d0bc8085b7a825": {
+      "storyId": "dc3579d0bc8085b7a825",
+      "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone",
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "source": "WIRED AI",
+      "published": "2026-09-11T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "181c92c86eb4171be487556d",
+      "bodyFingerprint": "c9f5bdc1ad6bc286ef83fc0e",
+      "bodyCharacterCount": 9584,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T09:45:45.434Z",
+      "assessment": {
+        "centralEvent": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But it also comes at a time when people are concerned about massive data center build-outs and potential job losses from AI.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Many doomsayers seem to agree that the incentives for big AI companies are hardly aligned with good outcomes, especially as OpenAI and Anthropic barrel toward their respective IPOs.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Many doomsayers seem to agree that the incentives for big AI companies are hardly aligned with good outcomes, especially as OpenAI and Anthropic barrel toward their respective IPOs.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.54,
+        "rawScore": 45.54,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.14,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fd7d64e9acc2c311e223": {
+      "storyId": "fd7d64e9acc2c311e223",
+      "url": "https://news.sky.com/story/economy-shows-surprise-ai-led-growth-but-energy-squeeze-looms-13584214",
+      "title": "Economy shows surprise AI-led growth but energy squeeze looms",
+      "source": "Sky News AI",
+      "published": "2026-09-11T05:09:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4f564180dbb47f7758ef32a2",
+      "bodyFingerprint": "40d79088ac053bd8e722607b",
+      "bodyCharacterCount": 175,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T09:45:45.587Z",
+      "assessment": {
+        "centralEvent": "Economy shows surprise AI-led growth but energy squeeze looms",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The UK economy recorded 0.4% growth in July, partly on the back of artificial intelligence (AI) investment, according to early official figures that outperformed expectations.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ecd2dabeade9b4acdb13": {
+      "storyId": "ecd2dabeade9b4acdb13",
+      "url": "https://www.bbc.co.uk/news/articles/cq5xjlvn71lo?at_campaign=rss&at_medium=RSS",
+      "title": "AI boom helps drive surprise UK growth in July",
+      "source": "BBC News AI",
+      "published": "2026-09-11T08:04:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ca7d44e15e7c85c7569099aa",
+      "bodyFingerprint": "f67f666e919e9904eb1b80ce",
+      "bodyCharacterCount": 3739,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T09:45:45.604Z",
+      "assessment": {
+        "centralEvent": "AI boom helps drive surprise UK growth in July",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Yael Selfin, chief economist at KPMG, said while the headline growth figure was strong, it \"masks a weaker picture for households\". \"Consumer-facing services contracted in July, as retail and hospitality activity fell following earlier incr",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Emer Moreau Business reporter Published 11 September 2026, 07:13 BST Updated 1 hour ago The UK's economy grew faster than expected in July partly helped by businesses using artificial intelligence (AI).",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Chancellor John Healey said the economy, was \"demonstrating a welcome resilience, despite serious global uncertainty\". \"Our growth although still fragile was the fastest in the G7 in the first half of the year,\" he added. \"But, the conflict",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Yael Selfin, chief economist at KPMG, said while the headline growth figure was strong, it \"masks a weaker picture for households\". \"Consumer-facing services contracted in July, as retail and hospitality activity fell following earlier incr",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Yael Selfin, chief economist at KPMG, said while the headline growth figure was strong, it \"masks a weaker picture for households\". \"Consumer-facing services contracted in July, as retail and hospitality activity fell following earlier incr",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.09,
+        "rawScore": 49.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "864708e3a1dd8007660b": {
+      "storyId": "864708e3a1dd8007660b",
+      "url": "https://www.theguardian.com/business/2026/sep/11/uk-economy-defies-forecasts-with-surprise-04-growth-in-july",
+      "title": "UK economy unexpectedly grows 0.4% in July boosted by AI",
+      "source": "The Guardian AI",
+      "published": "2026-09-11T08:10:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6b1d3f1468846bd853e85950",
+      "bodyFingerprint": "20b5aa420e445221d9107e9b",
+      "bodyCharacterCount": 5858,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T09:45:45.717Z",
+      "assessment": {
+        "centralEvent": "UK economy unexpectedly grows 0.4% in July boosted by AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Photograph: Rasid Necati Aslim/Anadolu/Getty Images PWC’s chief economist, Barret Kupelian said: “Artificial intelligence continues to have imprints across the UK economy, with AI exposed sectors – professional services, information technol",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Its director of economic statistics, Liz McKeown, said: “some businesses reported that the warm weather and Fifa World Cup had affected their activity, although effects differed across industries, benefiting some businesses while creating c",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Healey said: “Britain’s economy is demonstrating a welcome resilience, despite serious global uncertainty.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-11T04:45:28.323Z"
+  "updatedAt": "2026-09-11T09:45:45.717Z"
 }
