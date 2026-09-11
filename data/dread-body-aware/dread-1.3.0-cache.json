@@ -120671,8 +120671,482 @@
           "vulnerability": 0
         }
       }
+    },
+    "fd54f6fa68f78187e4a5": {
+      "storyId": "fd54f6fa68f78187e4a5",
+      "url": "https://www.theguardian.com/technology/2026/sep/10/anthropic-report-details-ai-misuse",
+      "title": "Anthropic details bad actors’ efforts to misuse its AI for bioweapons",
+      "source": "The Guardian AI",
+      "published": "2026-09-10T22:35:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a7452bedafdd78120234859e",
+      "bodyFingerprint": "9ab42b0fab68ff88ddd9e16d",
+      "bodyCharacterCount": 4797,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T00:12:55.628Z",
+      "assessment": {
+        "centralEvent": "Anthropic details bad actors’ efforts to misuse its AI for bioweapons",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Those included cyber operations such as Russian espionage and “smash-and-grab” cyberhacks; surveillance operations, including a China-based program targeting Uyghurs in Syria and another targeting internal dissidents; propaganda campaigns i",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Report comes two days after former employee quit claiming company’s models could cause human extinction by 2030 Criminals, state-sponsored groups, spyware vendors, scientists and propagandists have attempted to use Anthropic’s powerful arti",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In its report, Anthropic said that the potential real-world misuse from AI models is not typically in public view, instead, it’s investigated internally and by academics, governments and international organizations.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“We’re publishing this work because we believe we have a responsibility to disclose malicious misuse of our services.” In particular, the company detailed five case studies of scientists using its AI models in biological research.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 47.74,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ad458029cacb4b3324a8": {
+      "storyId": "ad458029cacb4b3324a8",
+      "url": "https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk",
+      "title": "More Anthropic researchers warn of AI’s perils as Musk terms fears a ‘psyop’",
+      "source": "The Guardian AI",
+      "published": "2026-09-10T21:51:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c9274b4387496007beae955f",
+      "bodyFingerprint": "a430ec31d2dd34a1298e1105",
+      "bodyCharacterCount": 5439,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T00:12:55.641Z",
+      "assessment": {
+        "centralEvent": "More Anthropic researchers warn of AI’s perils as Musk terms fears a ‘psyop’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI not on track to reduce risk of ‘catastrophic’ loss of control, says board member Read more Anna Wang, who works on Artificial General Intelligence Safety at Anthropic and previously worked at Google’s DeepMind, said Thursday that man",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Seems like a setup,” he wrote .",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenAI not on track to reduce risk of ‘catastrophic’ loss of control, says board member Read more Anna Wang, who works on Artificial General Intelligence Safety at Anthropic and previously worked at Google’s DeepMind, said Thursday that man",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.54,
+        "rawScore": 25.54,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.14,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3b594c83ebcdbfea8af6": {
+      "storyId": "3b594c83ebcdbfea8af6",
+      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year",
+      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T21:51:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5fab2b037cbcd39962d2fa14",
+      "bodyFingerprint": "b627783a5fd4623a05673e75",
+      "bodyCharacterCount": 5391,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T00:12:55.665Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He took the opportunity to reiterate Nvidia’s revenue outlook for next year — guidance the company provided last month when it reported yet another record-breaking revenue quarter.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e186ce122ea976489eac": {
+      "storyId": "e186ce122ea976489eac",
+      "url": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal",
+      "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
+      "source": "WIRED AI",
+      "published": "2026-09-10T23:28:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "035d44257f652b0b5f88ac38",
+      "bodyFingerprint": "81395b547e2e5406853f778a",
+      "bodyCharacterCount": 7648,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T00:12:55.761Z",
+      "assessment": {
+        "centralEvent": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Substantive coordination on safety between AI labs may risk running afoul of antitrust law , the people say, which poses a significant obstacle to bringing major tech giants on board with the effort.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In the short term, he expects “ voluntary slowdowns to become commonplace until shared safety bars are established.” But some legal scholars say such an effort could conflict with US antitrust laws.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Save this story Save this story OpenAI has asked members of Congress in recent weeks for clear guidance about whether orchestrating an industry-wide slowdown on frontier AI development would be legal, people close to the company tell WIRED.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.04,
+        "rawScore": 26.04,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "36170847786106c44060": {
+      "storyId": "36170847786106c44060",
+      "url": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
+      "title": "Schools are catching on to Big Tech’s playbook",
+      "source": "The Verge AI",
+      "published": "2026-09-10T19:44:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "772c17ec64d225ffb9264383",
+      "bodyFingerprint": "1d36c0c8831bd6b2cfb4f2b1",
+      "bodyCharacterCount": 8573,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T00:12:55.784Z",
+      "assessment": {
+        "centralEvent": "Schools are catching on to Big Tech’s playbook",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Eventually, backlash arrived.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "And unlike the few-and-far-between critiques Singer documented in the early days of tech’s coding push, there appears to be a vibrant grassroots movement fighting the screen- and AI-ification of the classroom among parents and teachers alik",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Some schools are getting rid of ubiquitous Google Chromebooks , and research around the world is finding that adding technology to the classroom often doesn’t have a significant impact on actual learning.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.63,
+        "rawScore": 27.63,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "baa39032259715dd52d8": {
+      "storyId": "baa39032259715dd52d8",
+      "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+      "title": "Slack can now vibe-code interactive charts and reports inside chats",
+      "source": "The Verge AI",
+      "published": "2026-09-10T21:25:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "515c188387e9098641473891",
+      "bodyFingerprint": "ed6dd2022639aed7a03f9b55",
+      "bodyCharacterCount": 4096,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-11T00:12:55.790Z",
+      "assessment": {
+        "centralEvent": "Slack can now vibe-code interactive charts and reports inside chats",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Emma Roth AI Apps News Tech Most Popular Most Popular OpenAI’s sly mathematical breakthrough sends a chill through academia Hands-on with the foldable iPhone Duo The iPhone Duo is Apple’s first foldable iPhone 18 Pro and Pro Max: Our first ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It seems like there are many other ways to use Surfaces, too, like building a live dashboard for a customer support queue that other workers can view, or creating a weather-themed financial forecast that pulls in data from connected apps.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8d901248c89df8d7d0e6": {
+      "storyId": "8d901248c89df8d7d0e6",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/ai-models-capabilities-leap-comes-with-new-safety-warnings-2026-09-09",
+      "title": "NEWSLETTER: Some researchers want AI to slow down. The labs can’t afford to",
+      "source": "Reuters AI",
+      "published": "2026-09-09T21:00:00Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b7948bf86e5e5e9f07a167bd",
+      "bodyFingerprint": "c5aff91fd3c4b5e9275e292d",
+      "bodyCharacterCount": 174,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-11T00:12:56.028Z",
+      "assessment": {
+        "centralEvent": "NEWSLETTER: Some researchers want AI to slow down. The labs can’t afford to",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-10T21:40:17.758Z"
+  "updatedAt": "2026-09-11T00:12:56.028Z"
 }
