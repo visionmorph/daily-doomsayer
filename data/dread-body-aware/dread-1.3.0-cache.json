@@ -125999,8 +125999,538 @@
           "vulnerability": 0
         }
       }
+    },
+    "b3a81ea5718e096b1ba4": {
+      "storyId": "b3a81ea5718e096b1ba4",
+      "url": "https://www.inc.com/entrepreneurs-organization/you-already-have-a-digital-twin-but-are-you-in-control/91402700",
+      "title": "You Already Have a Digital Twin. Are You in Control?",
+      "source": "Inc. AI",
+      "published": "2026-09-12T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "79eca16783d09e5e2a17b87a",
+      "bodyFingerprint": "a99ac0fd1ca677100a26ac1a",
+      "bodyCharacterCount": 54,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-12T17:13:21.718Z",
+      "assessment": {
+        "centralEvent": "You Already Have a Digital Twin. Are You in Control?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7a75ba4b5b75a039d3ed": {
+      "storyId": "7a75ba4b5b75a039d3ed",
+      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier",
+      "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
+      "source": "TechCrunch AI",
+      "published": "2026-09-12T15:52:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5a1dec27c59c70cb8195adab",
+      "bodyFingerprint": "df13948f64d7bc50c231d617",
+      "bodyCharacterCount": 6585,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T17:13:21.736Z",
+      "assessment": {
+        "centralEvent": "Anthropic CEO outlines plan to ‘pace the frontier’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Progress will still seem fast, and we must make wise use of the time we gain.” His proposed first step would involve “embedded evaluators” from third-party organizations like METR — evaluators who can verify that AI companies are actually ",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But he said that if the US government and tech companies take steps like refusing to sell powerful chips or semiconductor manufacturing equipment to Chinese companies, as well as cracking down on model distillation , they could “slow China’",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The debate over AI safety and alignment intensified this week after researcher Jacob Coxon wrote that he’s resigning from Anthropic over concerns that the leading AI companies are “gambling with our lives” while the people building the tech",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.17,
+        "rawScore": 49.17,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6d986e16da7ec69961fb": {
+      "storyId": "6d986e16da7ec69961fb",
+      "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_campaign=rss&at_medium=RSS",
+      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "source": "BBC News AI",
+      "published": "2026-09-12T17:05:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "796b7bcf4b2cba95542f383b",
+      "bodyFingerprint": "7d4f5f2833c93b9c874b748c",
+      "bodyCharacterCount": 5985,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T17:13:21.755Z",
+      "assessment": {
+        "centralEvent": "Anthropic boss Dario Amodei calls for AI development to slow down",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Hugging Face was hacked by OpenAI agents earlier this year prompting an outcry over AI safety. \"Let's make AI safer by making it more transparent.\" Delangue wrote on X.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Why some experts increasingly fear AI will take over Published 2 days ago Anthropic researcher believes more than 10% chance AI 'could kill all humans' Published 3 days ago The contradiction at the heart of the trillion-dollar AI race Publi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Amodei's call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI has said \"the significance of the inter-agent communication activity was not apparent to the leaders\" until July and the company was slowing down training of certain advanced AI models and tools as a result, noting that there was now",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.16,
+        "rawScore": 50.16,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.56,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e6dd64aa6dd8e9363592": {
+      "storyId": "e6dd64aa6dd8e9363592",
+      "url": "https://mashable.com/tech/nvidia-could-bankroll-anthropic-ipo",
+      "title": "Nvidia may bankroll Anthropics massive IPO",
+      "source": "Mashable AI",
+      "published": "2026-09-12T14:59:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d699ee09c7b8b8119d574293",
+      "bodyFingerprint": "63fa4c72fcc69563bd8aae42",
+      "bodyCharacterCount": 3432,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T17:13:21.840Z",
+      "assessment": {
+        "centralEvent": "Nvidia may bankroll Anthropics massive IPO",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Stories Redditors say Anthropic's expensive Claude plans offer far less usage than advertised Avian flu, drone swarms, and mass surveillance included in Anthropic's safety report Jimmy Kimmel responds to Anthropic researcher saying ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credit: CFOTO/Future Publishing via Getty Images Anthropic is reportedly in talks with Nvidia to secure funding for its upcoming IPO, according to an exclusive report from Reuters.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "48cf3008c641c129d155": {
+      "storyId": "48cf3008c641c129d155",
+      "url": "https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown",
+      "title": "‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown",
+      "source": "The Guardian AI",
+      "published": "2026-09-12T15:46:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1e09b24a97f9fca73ea9d8c0",
+      "bodyFingerprint": "1d66c1851d04cb921f3f7d8e",
+      "bodyCharacterCount": 5555,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T17:13:21.867Z",
+      "assessment": {
+        "centralEvent": "‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "No other human activity poses this level of danger.” Anthropic researchers say AI could cause human extinction by 2030 Read more An Anthropic spokesperson said in a statement to the Guardian that the company had “always been transparent tha",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e07dd999e11f1b385952": {
+      "storyId": "e07dd999e11f1b385952",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911214245.htm",
+      "title": "Tiny sound waves could help solve a major quantum computing problem",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-12T14:08:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "31f1cbba72de3252db9b0ac9",
+      "bodyFingerprint": "35f6752ae43e323854a71c20",
+      "bodyCharacterCount": 9956,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T17:13:21.913Z",
+      "assessment": {
+        "centralEvent": "Tiny sound waves could help solve a major quantum computing problem",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Researchers at Harvard have demonstrated a way to protect quantum information using microscopic sound waves.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 79,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5b44178dd613a72af460": {
+      "storyId": "5b44178dd613a72af460",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911204910.htm",
+      "title": "Researchers find a Wordle strategy that wins 99% of the time",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-12T13:35:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4236c6106cebbb9145dca7d8",
+      "bodyFingerprint": "6c0a363b6ca2957fd0b6a3b8",
+      "bodyCharacterCount": 10219,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T17:13:22.004Z",
+      "assessment": {
+        "centralEvent": "Researchers find a Wordle strategy that wins 99% of the time",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Shannon entropy is a mathematical way of measuring uncertainty.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: Binghamton University, State University of New York Millions of people open Wordle each day hoping to solve its five-letter puzzle before their six guesses run out.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Credit: Binghamton University, State University of New York Millions of people open Wordle each day hoping to solve its five-letter puzzle before their six guesses run out.",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "98cf01c9adcb608d888b": {
+      "storyId": "98cf01c9adcb608d888b",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911003854.htm",
+      "title": "Mercury’s surface reveals a surprisingly fiery past",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-12T01:28:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7c1b7d37a819c73e6f45f8ec",
+      "bodyFingerprint": "177da457725cd0d08cbd8edd",
+      "bodyCharacterCount": 11217,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T17:13:22.060Z",
+      "assessment": {
+        "centralEvent": "Mercury’s surface reveals a surprisingly fiery past",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The unexpectedly low amount on Mercury could provide an important clue about how the planet's crust formed. \"Our findings suggest that the volcanic rocks on Mercury formed from more deeply melted mantle material than previously assumed,\" sa",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-12T14:10:50.637Z"
+  "updatedAt": "2026-09-12T17:13:22.060Z"
 }
