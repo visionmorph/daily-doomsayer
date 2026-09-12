@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-12T19:00:00.000Z",
+  "generatedAt": "2026-09-12T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-12",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_Mailbag.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.66,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 50.66
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T19:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 50.16
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 49.94
         },
         {
@@ -73,11 +73,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "average": 49.66
+        },
+        {
+          "storyId": "1d3212cab3a21d438a55",
+          "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+          "url": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/203a/live/5d11e480-ae26-11f1-a540-61c3f7fc4e6c.jpg",
+          "peak": 49.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-12",
+          "firstObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 49.66
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 49.55
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 49.17
         },
         {
@@ -129,25 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa4120d92d2b4de236f2240/master/pass/GettyImages-2289768151.jpg",
           "peak": 49.17,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
-          "average": 49.17
-        },
-        {
-          "storyId": "7a75ba4b5b75a039d3ed",
-          "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
-          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 49.17,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-09-12",
-          "firstObservedAt": "2026-09-12T19:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 49.17
         }
       ]
@@ -2063,11 +2063,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 33,
+          "observations": 34,
           "daysTracked": 6,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -2091,11 +2091,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_Mailbag.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.66,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-09-10",
           "firstObservedAt": "2026-09-10T18:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 50.66
         },
         {
@@ -2105,11 +2105,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T19:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 50.16
         },
         {
@@ -2119,11 +2119,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 17,
+          "observations": 18,
           "daysTracked": 4,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-10T04:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 49.94
         },
         {
@@ -2161,26 +2161,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-09-10",
           "firstObservedAt": "2026-09-10T18:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 49.66
         },
         {
-          "storyId": "18514da62116892af479",
-          "title": "Why the global push to break free from Big Tech keeps falling short",
-          "url": "https://restofworld.org/2026/google-amazon-cloud-china-india/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
-          "peak": 49.55,
-          "observations": 33,
-          "daysTracked": 6,
-          "peakDate": "2026-09-07",
-          "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
-          "average": 49.55
+          "storyId": "1d3212cab3a21d438a55",
+          "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+          "url": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/203a/live/5d11e480-ae26-11f1-a540-61c3f7fc4e6c.jpg",
+          "peak": 49.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-12",
+          "firstObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "average": 49.66
         }
       ]
     },
@@ -2584,11 +2584,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 73,
+          "observations": 74,
           "daysTracked": 12,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -2612,11 +2612,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_Mailbag.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.66,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-09-10",
           "firstObservedAt": "2026-09-10T18:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T22:00:00.000Z",
           "average": 50.66
         }
       ]
