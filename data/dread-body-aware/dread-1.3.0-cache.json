@@ -125220,8 +125220,219 @@
           "vulnerability": 0
         }
       }
+    },
+    "9be5afcedcd59d26709c": {
+      "storyId": "9be5afcedcd59d26709c",
+      "url": "https://www.politico.com/news/2026/09/11/openai-reveals-another-rogue-ai-attack-01073312",
+      "title": "OpenAI reveals another rogue AI attack",
+      "source": "POLITICO AI",
+      "published": "2026-09-12T01:04:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4dc04fe9ce0e670e1eb7dd4a",
+      "bodyFingerprint": "1427a77730ff983a2ebe847e",
+      "bodyCharacterCount": 61,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-12T05:50:04.724Z",
+      "assessment": {
+        "centralEvent": "OpenAI reveals another rogue AI attack",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "OpenAI’s agents escaped once before they hacked Hugging Face.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "584cc6764b8bcb555cfe": {
+      "storyId": "584cc6764b8bcb555cfe",
+      "url": "https://www.theguardian.com/technology/2026/sep/12/chatbots-feel-dream-meet-man-leading-fight-ai-artificial-intelligence-rights",
+      "title": "Can chatbots feel – or even dream? Meet the man leading the fight for AI rights",
+      "source": "The Guardian AI",
+      "published": "2026-09-12T05:00:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a34046067f9683428de9f4ee",
+      "bodyFingerprint": "ad1ba6bd81533d4ef4ba6e65",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T05:50:04.761Z",
+      "assessment": {
+        "centralEvent": "Can chatbots feel – or even dream? Meet the man leading the fight for AI rights",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In his telling, the people who have suffered severe AI psychosis are canaries in the coalmine, warning of a wider delusion that could spread as models improve at “hack[ing] our empathy circuits” and are adopted more widely.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "One afternoon, while relaxing at his 66-acre cattle ranch two hours’ drive from Houston, Michael Samadi made a wisecrack that changed the course of his life.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Across the world, thousands of people seem to have experienced similar sparks to Samadi, coming to believe that they have “awakened” their chatbots.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“And during that, she picked Maya as her name.” A question the chatbot asked one day stopped him short.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 159,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.68,
+        "rawScore": 28.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "63d090b212ae85cadd4d": {
+      "storyId": "63d090b212ae85cadd4d",
+      "url": "https://www.theguardian.com/world/2026/sep/12/ukraine-war-briefing-russian-developers-used-ai-to-build-kamikaze-attack-drone-software-anthropic-says",
+      "title": "Ukraine war briefing: Russian developers used AI to build ‘kamikaze’ attack drone software, Anthropic says",
+      "source": "The Guardian AI",
+      "published": "2026-09-12T02:12:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "36cb6ed56ee153d60d395c11",
+      "bodyFingerprint": "9ea1c20df46334f96ce5acbe",
+      "bodyCharacterCount": 5895,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T05:50:04.779Z",
+      "assessment": {
+        "centralEvent": "Ukraine war briefing: Russian developers used AI to build ‘kamikaze’ attack drone software, Anthropic says",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "At least two people were killed and 12 injured in strikes on two petrol stations on Friday morning, according to the city’s mayor, Vitali Klitschko.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At least two people were killed and 12 injured in strikes on two petrol stations on Friday morning, according to the city’s mayor, Vitali Klitschko.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Russia has for two weeks been carrying out almost constant attacks with faster jet-powered drones that have killed a number of ⁠Kyiv residents and disrupted daily life in Ukraine’s capital.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.86,
+        "rawScore": 66.86,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.26,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-12T00:20:53.318Z"
+  "updatedAt": "2026-09-12T05:50:04.779Z"
 }
