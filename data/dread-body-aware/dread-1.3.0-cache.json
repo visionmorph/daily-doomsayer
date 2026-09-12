@@ -125715,8 +125715,292 @@
           "vulnerability": 0
         }
       }
+    },
+    "108ad35f8cfbec22d9bf": {
+      "storyId": "108ad35f8cfbec22d9bf",
+      "url": "https://www.theguardian.com/technology/2026/sep/12/deepfakes-wrecking-influencers-credibility",
+      "title": "Deepfakes are wrecking influencers’ credibility, one fake ad at a time",
+      "source": "The Guardian AI",
+      "published": "2026-09-12T12:00:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fbc483d229ef34d3716c8201",
+      "bodyFingerprint": "a8a2cabfad19af68268aecaa",
+      "bodyCharacterCount": 8864,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T14:10:50.523Z",
+      "assessment": {
+        "centralEvent": "Deepfakes are wrecking influencers’ credibility, one fake ad at a time",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Global consumers may have lost as much as $3.7bn due to deepfake scams in 2026, according to an investigation from the VPN-maker Surfshark’s research team.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Easy targets for deepfakes Celebrities and influencers are often the easiest to impersonate because they “have hundreds of hours of footage and thousands of pictures of them online.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Global consumers may have lost as much as $3.7bn due to deepfake scams in 2026, according to an investigation from the VPN-maker Surfshark’s research team.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9569178e354dd0943f8f": {
+      "storyId": "9569178e354dd0943f8f",
+      "url": "https://www.inc.com/ash-kumra/the-hidden-cost-of-ai-isnt-your-data-its-your-ability-to-think/91402051",
+      "title": "The Hidden Cost of AI Isn’t Your Data. It’s Your Ability to Think",
+      "source": "Inc. AI",
+      "published": "2026-09-12T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8bdd07c14e377d998827866",
+      "bodyFingerprint": "1c3a1db7118df00080249978",
+      "bodyCharacterCount": 61,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-12T14:10:50.584Z",
+      "assessment": {
+        "centralEvent": "The Hidden Cost of AI Isn’t Your Data. It’s Your Ability to Think",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eeedd70bf03dfb90e2a9": {
+      "storyId": "eeedd70bf03dfb90e2a9",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "title": "OpenAI just wants to win",
+      "source": "The Verge AI",
+      "published": "2026-09-12T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7f67ea7e990378f706a824b5",
+      "bodyFingerprint": "1b75138b4328cd008cb653ef",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T14:10:50.625Z",
+      "assessment": {
+        "centralEvent": "OpenAI just wants to win",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Andreas Thom, a professor at the Technical University of Dresden in Germany, found himself at the center of a controversy last month after OpenAI announced an impressive mathematical result that built heavily on work by him and fellow resea",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI says it took roughly 10,000 agents, tens of millions of dollars of compute, and just 88 hours to find a solution to the Navier-Stokes problem , which concerns the flow of fluids.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Clay Mathematics Institute requires a period of two years to have passed since a result was published, during which it must have “received general acceptance in the global mathematics community.” For now, Navier-Stokes occupies a peculi",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "His allegations prompted Thom to revisit an unresolved question about OpenAI’s breakthrough: whether conversations he and his colleagues had with ChatGPT about the research could have been used to help improve the models that ultimately cra",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 118,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.17,
+        "rawScore": 29.17,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c3a39b9c24ffb5e70a51": {
+      "storyId": "c3a39b9c24ffb5e70a51",
+      "url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china",
+      "title": "I spent $4,000 on a robot dog from China",
+      "source": "Ars Technica AI",
+      "published": "2026-09-12T11:00:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3bf623e393725e3592602407",
+      "bodyFingerprint": "8c7c9719cc6c0626895625e0",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T14:10:50.637Z",
+      "assessment": {
+        "centralEvent": "I spent $4,000 on a robot dog from China",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Was it mine? (Yes.) Did I build it? (No.) Was it being used for surveillance? (No.) Biological dogs kept a safe distance from my mechanical companion.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to filings connected to Unitree’s August stock offering, the company’s quadruped revenue tripled between 2024 and 2025—from RMB 230 million ($34 million) to RMB 697 million ($104 million).",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And the low cost has made Unitree a global leader in humanoid robots.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "I’m not sure if it ran out of power or overheated, but either way it didn’t shut down gracefully—it rolled onto its back with its legs in the air.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 185,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-12T10:50:59.109Z"
+  "updatedAt": "2026-09-12T14:10:50.637Z"
 }
