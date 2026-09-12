@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-12T17:00:00.000Z",
+  "generatedAt": "2026-09-12T19:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-12",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -39,17 +39,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.66
         },
         {
+          "storyId": "6d986e16da7ec69961fb",
+          "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-12",
+          "firstObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "average": 50.16
+        },
+        {
           "storyId": "6444114201a49ef09166",
           "title": "Why some experts increasingly fear AI will take over",
           "url": "https://www.bbc.co.uk/news/articles/c74edv9887eo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 49.94
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 49.66
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 49.55
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 49.17
         },
         {
@@ -115,40 +129,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa4120d92d2b4de236f2240/master/pass/GettyImages-2289768151.jpg",
           "peak": 49.17,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 49.17
         },
         {
-          "storyId": "ecd2dabeade9b4acdb13",
-          "title": "AI boom helps drive surprise UK growth in July",
-          "url": "https://www.bbc.co.uk/news/articles/cq5xjlvn71lo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e509/live/199aa930-adb8-11f1-a540-61c3f7fc4e6c.jpg",
-          "peak": 49.09,
-          "observations": 4,
+          "storyId": "7a75ba4b5b75a039d3ed",
+          "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
+          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.17,
+          "observations": 1,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
-          "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
-          "average": 49.09
-        },
-        {
-          "storyId": "3c0eda88434513ec8cec",
-          "title": "‘Show How 3M Is 0% at Fault:’ Expert Witness Used ChatGPT to Write Report Defending Company in Deadly Explosion Lawsuit",
-          "url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
-          "source": "404 Media AI",
-          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/08/3M-St-Paul-Monument-place001-rgb.jpg",
-          "peak": 48.84,
-          "observations": 4,
-          "daysTracked": 1,
-          "peakDate": "2026-09-12",
-          "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
-          "average": 48.84
+          "firstObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "average": 49.17
         }
       ]
     },
@@ -2063,11 +2063,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 32,
+          "observations": 33,
           "daysTracked": 6,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -2099,17 +2099,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.66
         },
         {
+          "storyId": "6d986e16da7ec69961fb",
+          "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-12",
+          "firstObservedAt": "2026-09-12T19:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
+          "average": 50.16
+        },
+        {
           "storyId": "6444114201a49ef09166",
           "title": "Why some experts increasingly fear AI will take over",
           "url": "https://www.bbc.co.uk/news/articles/c74edv9887eo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 4,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-10T04:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 49.94
         },
         {
@@ -2147,11 +2161,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-09-10",
           "firstObservedAt": "2026-09-10T18:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 49.66
         },
         {
@@ -2161,26 +2175,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 32,
+          "observations": 33,
           "daysTracked": 6,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 49.55
-        },
-        {
-          "storyId": "ee57b998ced3fa297410",
-          "title": "How AI child sexual abuse material is colliding with free speech protections",
-          "url": "https://mashable.com/tech/ai-generated-child-sexual-abuse-material-ruling",
-          "source": "Mashable AI",
-          "image": "https://helios-i.mashable.com/imagery/articles/02nmLnQuzyfWhNjD4DLJDYT/hero-image.jpg",
-          "peak": 49.34,
-          "observations": 11,
-          "daysTracked": 2,
-          "peakDate": "2026-09-07",
-          "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-09T04:00:00.000Z",
-          "average": 49.34
         }
       ]
     },
@@ -2584,11 +2584,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 72,
+          "observations": 73,
           "daysTracked": 12,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T17:00:00.000Z",
+          "lastObservedAt": "2026-09-12T19:00:00.000Z",
           "average": 51.23
         },
         {
