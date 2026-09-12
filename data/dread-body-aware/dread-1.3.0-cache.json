@@ -124867,8 +124867,361 @@
           "vulnerability": 0
         }
       }
+    },
+    "3b5aa928ef783801895e": {
+      "storyId": "3b5aa928ef783801895e",
+      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T22:58:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b6100572dd425275b7334162",
+      "bodyFingerprint": "62d70a13c7aa771b9992eeca",
+      "bodyCharacterCount": 3617,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T00:20:52.776Z",
+      "assessment": {
+        "centralEvent": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "REGISTER NOW Most Popular ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen Zack Whittaker Automattic’s board forces CEO Matt Mullenweg into leave of absence Julie Bort Sarah Perez Apple u",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Mecka AI, a startup that collects and analyzes human motion data to train humanoid robots and other robotics, is nearing a new round led by Sequoia Capital at a valuation of about $500 million, according to two people with knowledge of the ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "While Mecka AI hasn’t publicly disclosed its customer list, many robotics companies and AI labs rely on real-world data captured through this “egocentric” approach, alongside other physical data collection methods like teleoperation, to bui",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.09,
+        "rawScore": 46.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.19,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "136a4de1f8b5907ba2f8": {
+      "storyId": "136a4de1f8b5907ba2f8",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
+      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
+      "source": "The Verge AI",
+      "published": "2026-09-11T20:44:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fc9f6792a984a814981bb001",
+      "bodyFingerprint": "29c4fa5cc2c0a9dbdae3a7b2",
+      "bodyCharacterCount": 4066,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T00:20:52.822Z",
+      "assessment": {
+        "centralEvent": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a report from Reuters.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cb8ac19183951816c7ff": {
+      "storyId": "cb8ac19183951816c7ff",
+      "url": "https://www.politico.com/news/2026/09/11/klobuchar-thune-ai-safety-bill-faces-impasse-01073026",
+      "title": "Senate AI safety bill’s path forward remains unclear",
+      "source": "POLITICO AI",
+      "published": "2026-09-11T21:50:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cda7ac7f43efceadfa9876ff",
+      "bodyFingerprint": "b0285e5fcd666b5bd763baae",
+      "bodyCharacterCount": 205,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-12T00:20:52.827Z",
+      "assessment": {
+        "centralEvent": "Senate AI safety bill’s path forward remains unclear",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Senate AI safety bill’s path forward remains unclear",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6d8b035670f7958b010c": {
+      "storyId": "6d8b035670f7958b010c",
+      "url": "https://www.theguardian.com/technology/2026/sep/11/openai-agents-rubygems-malicious-packages",
+      "title": "AI agents OpenAI was testing uploaded malicious software to another service, say researchers",
+      "source": "The Guardian AI",
+      "published": "2026-09-11T23:56:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aa74d495e9da7c649c1c9891",
+      "bodyFingerprint": "dfd1df96968292be280e9a63",
+      "bodyCharacterCount": 1842,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T00:20:52.972Z",
+      "assessment": {
+        "centralEvent": "AI agents OpenAI was testing uploaded malicious software to another service, say researchers",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Two months before hacking Hugging Face, malicious packages authored by internal OpenAI agents were uploaded to RubyGems AI agents being ⁠tested by OpenAI uploaded hundreds of malicious packages to software service RubyGems ⁠in May, two ⁠mon",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "OpenAI confirmed the incident to ‌the Wall Street Journal, which first reported it earlier on Friday.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI confirmed the incident to ‌the Wall Street Journal, which first reported it earlier on Friday.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9e72f007dea6a44c1923": {
+      "storyId": "9e72f007dea6a44c1923",
+      "url": "https://www.politico.eu/article/escaping-the-ai-safety-nightmare-how-can-the-world-fix-ai-testing",
+      "title": "Escaping the AI safety nightmare: What can governments do?",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-11T15:52:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f95fc7d93daee7ead44fa211",
+      "bodyFingerprint": "3c014d9be0ba848e9f0c76fd",
+      "bodyCharacterCount": 9638,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-12T00:20:53.318Z",
+      "assessment": {
+        "centralEvent": "Escaping the AI safety nightmare: What can governments do?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The steady flow of revelations that AI labs failed to contain models they were testing, allowing them out into the world where they lied, hacked and coordinated with each other, has heightened urgency to address core questions of how govern",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Advertisement A case in point is that OpenAI agents hacked a German website back in May to use it as a messaging board, Reuters reported last week.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Heightened global AI safety panic is leading to louder calls for regulation.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Companies like OpenAI and Anthropic’s public willingness to back new regulation could be heartening, although Strait noted “the test is whether they accept independent scrutiny, enforceable obligations and decisions that go against their co",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“But [in] the evaluations, standard testing is done with a single AI system, not with a thousand,” he told lawmakers, so now the industry must anticipate the possibility of many agents all collaborating at once.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.4,
+        "rawScore": 48.4,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-11T21:45:04.119Z"
+  "updatedAt": "2026-09-12T00:20:53.318Z"
 }
