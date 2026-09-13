@@ -127068,8 +127068,210 @@
           "vulnerability": 0
         }
       }
+    },
+    "4b191da8d7d3c808c3f5": {
+      "storyId": "4b191da8d7d3c808c3f5",
+      "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
+      "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says",
+      "source": "The Guardian AI",
+      "published": "2026-09-12T23:00:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3774f03d05366f1579130073",
+      "bodyFingerprint": "24e27ea20eb6398bec0d8de0",
+      "bodyCharacterCount": 3124,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T01:03:04.464Z",
+      "assessment": {
+        "centralEvent": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown Read more The New York Times in June reported that the San Francisco-based OpenAI was considering whether to hold off on a potentially trillion-dollar IPO until next year.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b10d7fa5e19ae5db423d": {
+      "storyId": "b10d7fa5e19ae5db423d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+      "source": "The Verge AI",
+      "published": "2026-09-12T21:16:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1587bb7bff1845574aaf4f60",
+      "bodyFingerprint": "3b8b8852ffe2b89075bfb525",
+      "bodyCharacterCount": 2921,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T01:03:04.477Z",
+      "assessment": {
+        "centralEvent": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And we don’t feel pressure on that.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "593440c97619d82bd9db": {
+      "storyId": "593440c97619d82bd9db",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+      "title": "OpenAI’s rogue AI tried to hack another company in May",
+      "source": "The Verge AI",
+      "published": "2026-09-12T21:41:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b6054a7aa0866b67f94b836f",
+      "bodyFingerprint": "85edbec762ee97a2c731b30b",
+      "bodyCharacterCount": 3237,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T01:03:04.482Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s rogue AI tried to hack another company in May",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "At the time, RubyGems described it as a \"major malicious attack\" and shut down signups for four days as it tried to mitigate the damage and collect data.",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "They said the behavior observed very closely mirrored that of the swarm that began editing a German wiki , which OpenAI has confirmed its agents were responsible for.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "At the time, RubyGems described it as a \"major malicious attack\" and shut down signups for four days as it tried to mitigate the damage and collect data.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.15,
+        "rawScore": 66.14,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-12T22:21:10.062Z"
+  "updatedAt": "2026-09-13T01:03:04.482Z"
 }
