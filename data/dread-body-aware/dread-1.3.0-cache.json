@@ -127593,8 +127593,311 @@
           "vulnerability": 0
         }
       }
+    },
+    "f24c2170c3019c378fea": {
+      "storyId": "f24c2170c3019c378fea",
+      "url": "https://www.inc.com/jason-aten/ai-companies-love-to-tell-us-how-dangerous-their-products-are-this-time-they-mean-it/91404736",
+      "title": "AI Companies Love to Tell Us How Dangerous Their Products Are. This Time They Mean It",
+      "source": "Inc. AI",
+      "published": "2026-09-13T10:04:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1d24a99d10817b16a3b039c",
+      "bodyFingerprint": "d3afe13219da609f3084e43c",
+      "bodyCharacterCount": 129,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-13T11:57:37.802Z",
+      "assessment": {
+        "centralEvent": "AI Companies Love to Tell Us How Dangerous Their Products Are. This Time They Mean It",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "54c12bfa5d6f0036add5": {
+      "storyId": "54c12bfa5d6f0036add5",
+      "url": "https://news.sky.com/story/5bn-eu-venture-fund-backs-ai-medical-assistant-tandem-health-13585284",
+      "title": "€5bn EU venture fund backs AI medical assistant Tandem Health",
+      "source": "Sky News AI",
+      "published": "2026-09-13T09:03:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4a95534666e1bf3b84807780",
+      "bodyFingerprint": "349104005269ccdb3b4736f1",
+      "bodyCharacterCount": 280,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-13T11:57:37.842Z",
+      "assessment": {
+        "centralEvent": "€5bn EU venture fund backs AI medical assistant Tandem Health",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f3f70aa8ecc16d4baf9c": {
+      "storyId": "f3f70aa8ecc16d4baf9c",
+      "url": "https://www.theguardian.com/technology/2026/sep/13/ai-bootcamps-uk-youth-unemployment-neets-preston",
+      "title": "‘Really helpful’: the AI bootcamps aimed at addressing UK youth unemployment",
+      "source": "The Guardian AI",
+      "published": "2026-09-13T09:00:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5b2d9d81d948e6a62026693f",
+      "bodyFingerprint": "1b9b7b553bd4dd66623ac182",
+      "bodyCharacterCount": 7095,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T11:57:37.873Z",
+      "assessment": {
+        "centralEvent": "‘Really helpful’: the AI bootcamps aimed at addressing UK youth unemployment",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View image in fullscreen The three-week pilot boot camps are open to 70 young people who are classified as Neet or at risk of becoming so.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This is common advice from graduate recruiters, but experts say it can apply to Neets as well, depending on what sector of the economy they are joining.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Pilot project in Preston comes with apprenticeship offer for Neets at end of three-week course In a youth centre opposite Preston bus station, the UK government is trying to address two of the greatest challenges facing the national economy",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But that’s not to be complacent, because AI is doing new things every day and it’s going to affect lots of jobs.” Goulden says if the “first rung of the ladder” is being taken away by AI, it is logical to give young people a foothold in the",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.91,
+        "rawScore": 27.91,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.355,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "54e57a7acfa8122404ff": {
+      "storyId": "54e57a7acfa8122404ff",
+      "url": "https://www.theguardian.com/technology/2026/sep/13/ai-will-transform-capitalism-but-how",
+      "title": "AI will transform capitalism – but how?",
+      "source": "The Guardian AI",
+      "published": "2026-09-13T11:00:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1565e4af35e4d4d74eb2db2",
+      "bodyFingerprint": "9d30f8773883f55591668098",
+      "bodyCharacterCount": 7287,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T11:57:37.934Z",
+      "assessment": {
+        "centralEvent": "AI will transform capitalism – but how?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "92e4506b98f0f667b1c5": {
+      "storyId": "92e4506b98f0f667b1c5",
+      "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power",
+      "title": "AI Agents Are Thirsty for Power",
+      "source": "WIRED AI",
+      "published": "2026-09-13T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "080b99313c4206f07c7badb9",
+      "bodyFingerprint": "e83985305737ea13b2963510",
+      "bodyCharacterCount": 11791,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T11:57:37.964Z",
+      "assessment": {
+        "centralEvent": "AI Agents Are Thirsty for Power",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The technology that’s going to be trained by the data centers that are being proposed and built right now is three to five years away,” Gamazaychikov says.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-13T06:13:29.408Z"
+  "updatedAt": "2026-09-13T11:57:37.964Z"
 }
