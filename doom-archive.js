@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-12T22:00:00.000Z",
+  "generatedAt": "2026-09-13T01:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-12",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
           "peak": 50.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T19:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 50.16
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 49.94
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 49.66
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/08/illo_cloud_break_final-768x432.jpg",
           "peak": 49.55,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 49.55
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
           "peak": 49.17,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 49.17
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa4120d92d2b4de236f2240/master/pass/GettyImages-2289768151.jpg",
           "peak": 49.17,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 49.17
         }
       ]
@@ -2063,11 +2063,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 34,
+          "observations": 35,
           "daysTracked": 6,
           "peakDate": "2026-09-07",
           "firstObservedAt": "2026-09-07T10:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -2105,11 +2105,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
           "peak": 50.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-12",
           "firstObservedAt": "2026-09-12T19:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 50.16
         },
         {
@@ -2119,11 +2119,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 18,
+          "observations": 19,
           "daysTracked": 4,
           "peakDate": "2026-09-09",
           "firstObservedAt": "2026-09-10T04:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 49.94
         },
         {
@@ -2161,11 +2161,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 3,
           "peakDate": "2026-09-10",
           "firstObservedAt": "2026-09-10T18:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 49.66
         },
         {
@@ -2584,11 +2584,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 74,
+          "observations": 75,
           "daysTracked": 12,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-12T22:00:00.000Z",
+          "lastObservedAt": "2026-09-13T01:00:00.000Z",
           "average": 51.23
         },
         {
