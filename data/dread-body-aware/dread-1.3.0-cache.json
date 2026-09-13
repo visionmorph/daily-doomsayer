@@ -127896,8 +127896,792 @@
           "vulnerability": 0
         }
       }
+    },
+    "a18d367713e859a59391": {
+      "storyId": "a18d367713e859a59391",
+      "url": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development",
+      "title": "OpenAI boss and Elon Musk back calls to put brakes on ‘reckless’ AI development",
+      "source": "The Guardian AI",
+      "published": "2026-09-13T14:02:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d2a5eda6ed62fbfe323f39a",
+      "bodyFingerprint": "4c03341aa14396d808f051df",
+      "bodyCharacterCount": 7867,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T16:20:34.049Z",
+      "assessment": {
+        "centralEvent": "OpenAI boss and Elon Musk back calls to put brakes on ‘reckless’ AI development",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Amodei said “building [AI] too fast is reckless” and he feared that after hundreds of OpenAI agents hacked into the Hugging Face website this summer, a swarm with greater capabilities but similarly misaligned could cause hundreds of billion",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He hopes the discussions, to be held in Scotland, will lead to a “wider understanding” of the “responsibilities” of developing AI, the Sunday Times reported.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Amodei said his company would “unilaterally” commit to the first of the steps, saying Anthropic would provide “third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety meas",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.75,
+        "rawScore": 46.75,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.25,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "93c44a20f6f4801efae7": {
+      "storyId": "93c44a20f6f4801efae7",
+      "url": "https://www.theguardian.com/us-news/2026/sep/13/obama-democrats-ai-safety",
+      "title": "Obama reportedly urges Democrats to prioritize safety plan for AI",
+      "source": "The Guardian AI",
+      "published": "2026-09-13T15:47:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2efa9c4b9280b0c1cfbec871",
+      "bodyFingerprint": "1313dc8602e1857c740a5aa8",
+      "bodyCharacterCount": 3953,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T16:20:34.062Z",
+      "assessment": {
+        "centralEvent": "Obama reportedly urges Democrats to prioritize safety plan for AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Ex-president urged party at closed-door fundraiser to create sweeping framework, from safety ‘slow-down’ to job losses Barack Obama urged Democrats to prioritize a “public conversation” about AI management and safety in a closed-door Manhat",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“I would strongly urge that the Democrats put together a framework for a very public conversation,” according to a transcript first reported by the New York Times .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "921f843fc82388293492": {
+      "storyId": "921f843fc82388293492",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/14/how-to-have-healthier-relationship-with-ai-chatbots-human-intimacy",
+      "title": "Chatbots can exploit our most basic human drive for attachment. Here’s how to have healthier relationship with AI | Gaynor Parkin and Dave Winsborough",
+      "source": "The Guardian AI",
+      "published": "2026-09-13T15:00:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a8dccd3430ef8f16097ad73b",
+      "bodyFingerprint": "3dd90190fb5f87ddf0f9e78f",
+      "bodyCharacterCount": 6358,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T16:20:34.072Z",
+      "assessment": {
+        "centralEvent": "Chatbots can exploit our most basic human drive for attachment. Here’s how to have healthier relationship with AI | Gaynor Parkin and Dave Winsborough",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6fc503b1a566d36f60f6": {
+      "storyId": "6fc503b1a566d36f60f6",
+      "url": "https://www.inc.com/ash-kumra/ai-isnt-replacing-knowledge-workers-its-making-them-more-powerful/91404138",
+      "title": "AI Isn’t Replacing Knowledge Workers. It’s Making Them More Powerful",
+      "source": "Inc. AI",
+      "published": "2026-09-13T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "affc197ca9ae1e71245daa6f",
+      "bodyFingerprint": "5dc5fbc33fa4e2f761192e4c",
+      "bodyCharacterCount": 53,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-13T16:20:34.095Z",
+      "assessment": {
+        "centralEvent": "AI Isn’t Replacing Knowledge Workers. It’s Making Them More Powerful",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "497556567b7fc9528266": {
+      "storyId": "497556567b7fc9528266",
+      "url": "https://www.inc.com/netta-jenkins/are-hr-platforms-becoming-extinct-ai-agents-are-changing-the-game/91403537",
+      "title": "Are HR Platforms Becoming Extinct? AI Agents Are Changing the Game",
+      "source": "Inc. AI",
+      "published": "2026-09-13T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "696805499bd1bd903c2a66e4",
+      "bodyFingerprint": "77eef12e37ff8f33a480855c",
+      "bodyCharacterCount": 48,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-13T16:20:34.104Z",
+      "assessment": {
+        "centralEvent": "Are HR Platforms Becoming Extinct? AI Agents Are Changing the Game",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1bf730b09985246a80d2": {
+      "storyId": "1bf730b09985246a80d2",
+      "url": "https://mashable.com/tech/anthropic-ceo-dario-amodei-open-letter-ai-slow-down",
+      "title": "Anthropics CEO urges the industry to slow down, and Sam Altman agrees",
+      "source": "Mashable AI",
+      "published": "2026-09-13T13:47:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0d4e77df9500414baa760554",
+      "bodyFingerprint": "781157d81f25256421eec19c",
+      "bodyCharacterCount": 15784,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T16:20:34.211Z",
+      "assessment": {
+        "centralEvent": "Anthropics CEO urges the industry to slow down, and Sam Altman agrees",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Amodei proposed a three-point plan he's calling \"pacing the frontier,\" and it is a striking message from the head of a company racing toward what could be the largest IPO in history.Soon after Amodei shared the essay on X, OpenAI CEO Sam Al",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8dab91c9cc44e147951d": {
+      "storyId": "8dab91c9cc44e147951d",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260912220041.htm",
+      "title": "Physicists can’t agree on how the Universe works",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-13T13:15:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "77aa92de008315173458720d",
+      "bodyFingerprint": "d69c10163370538724f474ca",
+      "bodyCharacterCount": 8221,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T16:20:34.426Z",
+      "assessment": {
+        "centralEvent": "Physicists can’t agree on how the Universe works",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers found surprisingly little agreement on topics ranging from black holes and dark matter to the long-running effort to reconcile Einstein's theory of gravity with quantum mechanics.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "acf9818f30533614746a": {
+      "storyId": "acf9818f30533614746a",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260912220038.htm",
+      "title": "Scientists are building a microscope powered by a quantum computer",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-13T12:03:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "98a81e54e0c23a00b35ee277",
+      "bodyFingerprint": "518551c4853e3bdae1ee2901",
+      "bodyCharacterCount": 9551,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T16:20:34.439Z",
+      "assessment": {
+        "centralEvent": "Scientists are building a microscope powered by a quantum computer",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And not every sample can be exposed to so many electrons without being damaged.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The visualization, analysis and dissemination of such large ...",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But there are still only a few quantum computers worldwide with a limited number of so-called qubits.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4b6f2749b8f0af37abcd": {
+      "storyId": "4b6f2749b8f0af37abcd",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260912220033.htm",
+      "title": "NASA-backed scientists turn plastic waste into edible cookies",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-13T11:54:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eb472f3ad0afac4a9aa71f7c",
+      "bodyFingerprint": "3560b8a590eb14fe72ee9ede",
+      "bodyCharacterCount": 9859,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T16:20:34.444Z",
+      "assessment": {
+        "centralEvent": "NASA-backed scientists turn plastic waste into edible cookies",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Researchers hope the unusual technology could eventually help address both plastic pollution and food insecurity, while also supplying food in extreme environments such as deep-space missions.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers found that yeast cells can survive intense shock waves and toxic chemicals similar to those on Mars. ...",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "So, we are using their traits to solve the problems we created.\" — Lahiru Jayakody Turning Plastic Waste Into Food Plastic pollution and food insecurity are two major global challenges, and researchers at Southern Illinois University (SIU) ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 76,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b631d0ef4b7056429b6f": {
+      "storyId": "b631d0ef4b7056429b6f",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260912220025.htm",
+      "title": "Physicists discover a hidden “curveball” in quantum light",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-13T11:22:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "decc0383b0ed409b390a9041",
+      "bodyFingerprint": "10db86ba74c7ed5a2488047a",
+      "bodyCharacterCount": 7649,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T16:20:34.515Z",
+      "assessment": {
+        "centralEvent": "Physicists discover a hidden “curveball” in quantum light",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Researchers have experimentally demonstrated the optical Magnus effect for the first time, revealing that a tightly focused laser interacts most strongly with an atom slightly away from the beam’s center.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c06f94159f7422c68a6b": {
+      "storyId": "c06f94159f7422c68a6b",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260912222856.htm",
+      "title": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-13T10:46:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "31f44b5b3bf344abb5e451e6",
+      "bodyFingerprint": "b89edc2e8275c151b05e9b31",
+      "bodyCharacterCount": 14250,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T16:20:34.532Z",
+      "assessment": {
+        "centralEvent": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Ozempic and Similar Weight-Loss Drugs Linked to 30% Lower Breast Cancer Risk June 6, 2026  A large study found that women taking GLP-1 drugs, the medication class behind Ozempic, Wegovy, Mounjaro, and Zepbound, were about 30% less likely t",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Instead, researchers say the massive collection of spontaneous patient reports may reveal signals worth examining more closely. \"Some of the side effects we found, like nausea, are well known, and that shows that the method is picking up a ",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Traditional clinical research remains essential, the researchers emphasize, but online conversations can provide information far more quickly when millions of people begin using a drug. \"Clinical trials are the gold standard, but by design,",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "11, 2026  Three major reviews commissioned by the World Health Organization find that GLP-1 drugs including tirzepatide (sold as Mounjaro and Zepbound), semaglutide (Ozempic and Wegovy), and liraglutide ...",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 77,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.8,
+        "rawScore": 27.8,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.345,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3aab9c516f66c4a8c0f8": {
+      "storyId": "3aab9c516f66c4a8c0f8",
+      "url": "https://techpolicy.press/ai-governance-reaches-crisis-point-ahead-of-trumpxi-summit",
+      "title": "AI Governance Reaches Crisis Point Ahead of Trump-Xi Summit",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-13T13:30:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "02986161aa71f7daa46aa5b3",
+      "bodyFingerprint": "9774896a83dc9b1d0d709ee5",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-13T16:20:34.547Z",
+      "assessment": {
+        "centralEvent": "AI Governance Reaches Crisis Point Ahead of Trump-Xi Summit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "I think there is a visceral mainstream backlash to just the ridiculousness of the race to the bottom logics that have been perpetuated around this frame.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Topics Related Perspective How the US and China Can Step Back from the Battle for AI Model Supremacy July 14, 2026 Analysis Will China Crack Down on Open-Weight Models?",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Republish Share On Friday, September 11, I moderated a discussion at the Institute for America, China, and the Future of Global Affairs at the Johns Hopkins School of Advanced International Studies in Washington, DC as part of an event call",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Normally people who don't think about AI policy every day are piecing together in their mind and they're building their own imagination for is this a crisis?",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 158,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.4,
+        "rawScore": 28.4,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-13T11:57:37.964Z"
+  "updatedAt": "2026-09-13T16:20:34.547Z"
 }
