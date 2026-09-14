@@ -129275,8 +129275,762 @@
           "vulnerability": 0
         }
       }
+    },
+    "96c3d543f4355ca23fe0": {
+      "storyId": "96c3d543f4355ca23fe0",
+      "url": "https://www.theguardian.com/business/live/2026/sep/14/ai-stocks-fall-development-slowdown-anthropic-openai-investors-latest-news-updates",
+      "title": "AI-linked stocks fall after call for development slowdown worries investors – business live",
+      "source": "The Guardian AI",
+      "published": "2026-09-14T06:19:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bf5daec1fb5ea6628d355194",
+      "bodyFingerprint": "2a53d5b45f8c7b1b8caa64f9",
+      "bodyCharacterCount": 8379,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T06:21:29.230Z",
+      "assessment": {
+        "centralEvent": "AI-linked stocks fall after call for development slowdown worries investors – business live",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The Guardian view on controlling AI: humanity cannot outsource its survival Dario Amodei’s pacing proposal has drawn heavy skepticism from critics and researchers who allege that AI firms are attempting to preempt more stringent government ",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2e0800ce56893ca14bc2": {
+      "storyId": "2e0800ce56893ca14bc2",
+      "url": "https://www.bbc.co.uk/news/articles/cwyzvgj70y4o?at_campaign=rss&at_medium=RSS",
+      "title": "MPs and Lords call for new law to address AI threat to human rights",
+      "source": "BBC News AI",
+      "published": "2026-09-14T05:49:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0328c404a4727a10baf80eb0",
+      "bodyFingerprint": "4b9efbeafec96c1da8c11d0c",
+      "bodyCharacterCount": 4194,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T06:21:29.246Z",
+      "assessment": {
+        "centralEvent": "MPs and Lords call for new law to address AI threat to human rights",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One human rights concern raised in recent years is that AI can display biases against particular groups if trained on large datasets scraped from the internet which can include racist, sexist and other undesirable material.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Anthropic boss Dario Amodei calls for AI development to slow down Published 1 day ago Trump downplays warnings of AI risks, citing rivalry with China Published 11 hours ago Questions mount over what an AI 'slowdown' would look like Publishe",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "They said: \"We're leading global efforts to test and understand AI, with the best-resourced security institute in the world, that will help us develop the standards and safeguards necessary to keep people safe.\" On Saturday, the head of the",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "94aca16975b5848a3a9a": {
+      "storyId": "94aca16975b5848a3a9a",
+      "url": "https://www.theguardian.com/education/2026/sep/14/futureproof-your-career-by-choosing-an-ai-resistant-degree",
+      "title": "Can you futureproof your career by choosing an AI-resistant degree?",
+      "source": "The Guardian AI",
+      "published": "2026-09-14T05:00:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a847bf3a91f24c830fd08797",
+      "bodyFingerprint": "af31cd073d8d05b19c125a8c",
+      "bodyCharacterCount": 4004,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T06:21:29.257Z",
+      "assessment": {
+        "centralEvent": "Can you futureproof your career by choosing an AI-resistant degree?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3b8319e3cfc3599a6b63": {
+      "storyId": "3b8319e3cfc3599a6b63",
+      "url": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres",
+      "title": "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn",
+      "source": "The Guardian AI",
+      "published": "2026-09-14T06:00:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eb54d36ed1f0db41b9055e45",
+      "bodyFingerprint": "7df71482b653559fa61e7d5e",
+      "bodyCharacterCount": 5958,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T06:21:29.271Z",
+      "assessment": {
+        "centralEvent": "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The only clear exceptions were the Swiss company Archroma, which was switching to marketing Pfas-free alternatives, and the German giant BASF, which has said it will exit Pfas production by 2028. skip past newsletter promotion after newslet",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to a recent investor note from Danske Bank: “In the world of microchips, these ‘forever chemicals’ are not merely peripheral additives; they are essential ingredients integrated into as many as 1,000 distinct steps at the nanometr",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“The people who lead them must understand that they too are affected by the toxins they produce, which have been detected in the blood of more than 99% of people worldwide,” said Bäckar.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to a recent investor note from Danske Bank: “In the world of microchips, these ‘forever chemicals’ are not merely peripheral additives; they are essential ingredients integrated into as many as 1,000 distinct steps at the nanometr",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.91,
+        "rawScore": 47.91,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.355,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "970cb0f3f503b4076a64": {
+      "storyId": "970cb0f3f503b4076a64",
+      "url": "https://www.theguardian.com/stage/2026/sep/14/jack-thorne-scriptwriters-ai-artificial-intelligence",
+      "title": "Jack Thorne warns some fellow scriptwriters are using AI ‘to cheat’",
+      "source": "The Guardian AI",
+      "published": "2026-09-14T05:00:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1f1e2db72a2c2e215dc1159b",
+      "bodyFingerprint": "8c64b29c78944f876972d6cb",
+      "bodyCharacterCount": 5640,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T06:21:29.281Z",
+      "assessment": {
+        "centralEvent": "Jack Thorne warns some fellow scriptwriters are using AI ‘to cheat’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "If you use AI to generate content and you do not declare it as such, then that is fraud and the companies you do it to should be entitled to prosecute you.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "We are doing the work that’s required to get the right outcomes so both the creative and technical sectors can flourish in this country.” Explore more on these topics Jack Thorne AI (artificial intelligence) Television industry news Share R",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In fact, it requires our government to take global leadership.” A government spokesperson said: “Copyright laws must protect the UK’s position as a creative powerhouse while unlocking the extraordinary potential of AI-driven innovation.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1ec4016bced4a6d87d7c": {
+      "storyId": "1ec4016bced4a6d87d7c",
+      "url": "https://www.theguardian.com/technology/2026/sep/14/ai-ceo-safety-slowdown",
+      "title": "AI CEOs say they need to slow the pace of development. But will they?",
+      "source": "The Guardian AI",
+      "published": "2026-09-14T05:00:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b1e5c6ec50c5879e759b6493",
+      "bodyFingerprint": "0fc7ec8f0480d84e8e876b0a",
+      "bodyCharacterCount": 8088,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T06:21:29.294Z",
+      "assessment": {
+        "centralEvent": "AI CEOs say they need to slow the pace of development. But will they?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "First, a commitment to outside evaluators given employee-level access to monitor risk.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "After apocalyptic warnings about the threats posed by AI, leaders like Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s calls to ‘slow the pace’ Facing a public uproar over Anthropic researchers’ repeated warnings that artificia",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Photograph: Fabrice Coffrini,julien de Rosa,mandel Ngan/AFP/Getty Images The US federal government is committed to a global AI arms race.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI, for instance, shut down a “superalignment” team in 2024 dedicated to studying long term AI risks and earlier this year disbanded another team intended to communicate how OpenAI would benefit humanity.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "After apocalyptic warnings about the threats posed by AI, leaders like Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s calls to ‘slow the pace’ Facing a public uproar over Anthropic researchers’ repeated warnings that artificia",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.02,
+        "rawScore": 28.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dd371037d70c737f462d": {
+      "storyId": "dd371037d70c737f462d",
+      "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+      "title": "MIT spinout turns plastic waste into resilient building materials",
+      "source": "MIT News AI",
+      "published": "2026-09-14T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e5db5caa3c6f7bed9356eb48",
+      "bodyFingerprint": "4939360863a60f59527395e4",
+      "bodyCharacterCount": 9671,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T06:21:29.317Z",
+      "assessment": {
+        "centralEvent": "MIT spinout turns plastic waste into resilient building materials",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Play video “Our mission is to convert waste plastic pollution into durable composites to build 1 billion homes,” says Atlas chair and co-founder A.J.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: Courtesy of Atlas Previous item Next item “At MIT, we’ve demonstrated we can produce 60 to 80 pounds of parts per hour, and the systems we’re specifying in Atlas factories operate in the 150 to 200 pound per hour range,” Perez says.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Perez and Atlas co-founder Matt Pouliot envision deploying thousands of their AI robotic production systems around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Credits : Credit: Courtesy of Atlas ↓ Download Image Caption : Single-use plastic from water bottles and other objects is shredded and fed into the Atlas system, where it is melted and fused with American-made fiberglass to make it stronger",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 69,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2898a53d04394efa7e82": {
+      "storyId": "2898a53d04394efa7e82",
+      "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+      "title": "New method enables AI for safety-critical situations",
+      "source": "MIT News AI",
+      "published": "2026-09-14T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2f55e9c922a16def1e3446a7",
+      "bodyFingerprint": "99bc3f75f0252523d929c503",
+      "bodyCharacterCount": 8650,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T06:21:29.322Z",
+      "assessment": {
+        "centralEvent": "New method enables AI for safety-critical situations",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The research appears this week in the IEEE Transactions on Pattern Analysis and Machine Intelligence .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a49278ff7caf606adfae": {
+      "storyId": "a49278ff7caf606adfae",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/14/we-greet-the-news-that-ai-could-extinguish-us-with-a-glazed-indifference-what-is-the-way-out-of-this-nihilism",
+      "title": "We greet the news that AI could extinguish us with a glazed indifference. What is the way out of this nihilism? | Brigid Delaney",
+      "source": "The Guardian AI",
+      "published": "2026-09-14T03:49:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "84ebbd7070c69505540b2274",
+      "bodyFingerprint": "9edc4203b233ccc2148cd438",
+      "bodyCharacterCount": 5602,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T06:21:29.332Z",
+      "assessment": {
+        "centralEvent": "We greet the news that AI could extinguish us with a glazed indifference. What is the way out of this nihilism? | Brigid Delaney",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Instead it’s just there, in the air, ambient, like pollution, each particle containing its own particular doomsday scenario – and the only way to be in this atmosphere, is to be numb to it.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It’s not talking to a LLM for 18 hours a day about our personal problems.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "49e388c0ab7415faeccc": {
+      "storyId": "49e388c0ab7415faeccc",
+      "url": "https://www.theguardian.com/news/audio/2026/sep/14/ai-isnt-going-to-end-humanity-right-podcast",
+      "title": "AI isn’t going to end humanity ... right? – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-14T02:00:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f6eb6e67bf5a3b2d1b89db99",
+      "bodyFingerprint": "c371b6ec02d241732c558cb9",
+      "bodyCharacterCount": 1038,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T06:21:29.355Z",
+      "assessment": {
+        "centralEvent": "AI isn’t going to end humanity ... right? – podcast",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "A series of figures in the tech world have been warning about – and even resigning over – the existential threat posed by AI.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9599eac3feb6fc97aaeb": {
+      "storyId": "9599eac3feb6fc97aaeb",
+      "url": "https://www.inc.com/bill-murphy-jr/a-new-study-let-kids-play-with-ai-powered-toys-by-stage-3-they-wanted-to-throw-them-in-the-ocean/91404771",
+      "title": "A New Study Let Kids Play With AI-Powered Toys. By Stage 3, They Wanted to Throw Them in the Ocean",
+      "source": "Inc. AI",
+      "published": "2026-09-14T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0313433e3842f027b2ccda07",
+      "bodyFingerprint": "e7f294db35e5c51dc94c2b16",
+      "bodyCharacterCount": 44,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-14T06:21:29.409Z",
+      "assessment": {
+        "centralEvent": "A New Study Let Kids Play With AI-Powered Toys. By Stage 3, They Wanted to Throw Them in the Ocean",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "A New Study Let Kids Play With AI-Powered Toys.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-14T01:08:47.674Z"
+  "updatedAt": "2026-09-14T06:21:29.409Z"
 }
