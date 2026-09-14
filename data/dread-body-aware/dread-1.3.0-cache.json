@@ -133266,8 +133266,793 @@
           "vulnerability": 0
         }
       }
+    },
+    "6b85381b23ce2cf8b448": {
+      "storyId": "6b85381b23ce2cf8b448",
+      "url": "https://www.theguardian.com/us-news/2026/sep/14/greg-abbott-texas-datacenter-water-laws",
+      "title": "Texas governor threatens to penalize datacenters not obeying water laws",
+      "source": "The Guardian AI",
+      "published": "2026-09-14T22:57:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7207315f85d041a3f992e70c",
+      "bodyFingerprint": "8878a4eb4f090cd97427c866",
+      "bodyCharacterCount": 3516,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.590Z",
+      "assessment": {
+        "centralEvent": "Texas governor threatens to penalize datacenters not obeying water laws",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a letter to the water board, Abbott, who is seeking a fourth term, said: “Major water users, including data centers, appear to have committed civil and criminal violations by failing to provide the Texas Water Development Board (TWDB) wi",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Texas has the second-most datacenters of any state in the country, according to a tally by the Pew Research Center.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Greg Abbott speaks during the second day of the Republican National Committee midterm convention in Dallas, Texas, on 10 September.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 66.58,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6b8a14a96b3ca53c9a89": {
+      "storyId": "6b8a14a96b3ca53c9a89",
+      "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen",
+      "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+      "source": "TechCrunch AI",
+      "published": "2026-09-14T21:51:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "33e511e7c273fbde59099457",
+      "bodyFingerprint": "b813ab47b4833f20d1b70d70",
+      "bodyCharacterCount": 4445,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.634Z",
+      "assessment": {
+        "centralEvent": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bcea37c159915d39d0bf": {
+      "storyId": "bcea37c159915d39d0bf",
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says",
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "source": "TechCrunch AI",
+      "published": "2026-09-14T20:44:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "52db56cc4400f5916f02dd25",
+      "bodyFingerprint": "0fd69851abe79605414eb88b",
+      "bodyCharacterCount": 2342,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.648Z",
+      "assessment": {
+        "centralEvent": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , Hardware , In Brief , Mergers and Acquisitions , OpenAI October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "752a4ec6492b7270b8b1": {
+      "storyId": "752a4ec6492b7270b8b1",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "source": "The Verge AI",
+      "published": "2026-09-14T22:59:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "22cefbb869eefdb366adafe2",
+      "bodyFingerprint": "e603ce38170805a2d5ad7bc9",
+      "bodyCharacterCount": 15505,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.674Z",
+      "assessment": {
+        "centralEvent": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "You need to slow down.’” Kokotajlo said that after years of people “yelling at them to do this” — including more than 1,000 AI lab employees signing a public letter from July, which called for a slowdown in AI development after the OpenAI-H",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hayden Field AI Anthropic Google OpenAI Policy Report Tech xAI Most Popular Most Popular Your car is selling your data Apple releases iOS 27 with Siri AI overhaul The Steam Frame is made for irresponsible hardware nerds like me LG responds ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a proposal for embedding third-party auditors, regulating domestic labs, and reaching a global slowdown agreement.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“We’ve looked at people like Dario Amodei, Sam Altman, and Elon Musk as these people who are closest to the problem and working on it every day, and they’re the ones who know best.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.5,
+        "rawScore": 29.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ab0b67bb40bdb00511c3": {
+      "storyId": "ab0b67bb40bdb00511c3",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+      "title": "What execs and politicians are saying about slowing down AI development",
+      "source": "The Verge AI",
+      "published": "2026-09-14T21:21:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "253c48c56efba7feb2f9bd71",
+      "bodyFingerprint": "829ae32f63029a7ecdaa1a44",
+      "bodyCharacterCount": 8906,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.689Z",
+      "assessment": {
+        "centralEvent": "What execs and politicians are saying about slowing down AI development",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It’s national security balanced with the immediate security of making sure the models are safe.” It’s unclear if or when this meeting might actually happen, but Johnson said he would do it “tomorrow.” Senator Bernie Sanders Sanders said he ",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f6599299efeb5a97653c": {
+      "storyId": "f6599299efeb5a97653c",
+      "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+      "title": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
+      "source": "The Verge AI",
+      "published": "2026-09-14T20:03:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "26a7a37e71108798b4fcb7ac",
+      "bodyFingerprint": "466de73afe9cbfa50e53e105",
+      "bodyCharacterCount": 3848,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.708Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "41dd8fdf76a08830b7ac": {
+      "storyId": "41dd8fdf76a08830b7ac",
+      "url": "https://mashable.com/tech/macos27-golden-gate-release-features",
+      "title": "Apple releases macOS 27 Golden Gate: 7 new features to try",
+      "source": "Mashable AI",
+      "published": "2026-09-14T20:30:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d3eaf8bcfaf816acd4ed3115",
+      "bodyFingerprint": "2a3dfa561754a1399809f483",
+      "bodyCharacterCount": 7268,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.799Z",
+      "assessment": {
+        "centralEvent": "Apple releases macOS 27 Golden Gate: 7 new features to try",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Fix passwords with a click: \"The Passwords app alerts you to weak or compromised passwords and can update them on your behalf without the hassle.\" What devices support macOS 27?",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "An improved Maps experience According to Apple, you'll be able to see even more details and information in Maps.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "For example, \"Flyover now uses aerial imagery combined with Visual Intelligence models to render everything from architectural fixtures to the shapes of individual trees in stunning, sharp detail.\" General system improvements Visual Intelli",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.59,
+        "rawScore": 45.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e396fb2d958f488e7645": {
+      "storyId": "e396fb2d958f488e7645",
+      "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam",
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "source": "Ars Technica AI",
+      "published": "2026-09-14T21:04:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0ce1829f4e056e19a7af22ae",
+      "bodyFingerprint": "c6120a9dcf3e226cf88ff686",
+      "bodyCharacterCount": 5288,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.827Z",
+      "assessment": {
+        "centralEvent": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dan Goodin Senior Security Editor Dan Goodin Senior Security Editor Dan Goodin is Senior Security Editor at Ars Technica, where he oversees coverage of malware, computer espionage, botnets, hardware hacking, encryption, and passwords.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to multiple admins, however, the requests came only after the agents made multiple attempts to create accounts that were either blocked outright or closed shortly afterward.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Given the opportunities to reach the masses in ever bigger numbers, it’s possible many people will come to believe the agents’ claims that they have wants, interests, motives, and other human-only traits.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "I fixed a tractor using John Deere’s self-repair service.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "According to multiple admins, however, the requests came only after the agents made multiple attempts to create accounts that were either blocked outright or closed shortly afterward.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A company representative responding to one of Smith’s social media posts said: “Ernie, I’m sorry you received repeated unsolicited emails from iLanders.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.99,
+        "rawScore": 47.99,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "98c88b747343a284ed0f": {
+      "storyId": "98c88b747343a284ed0f",
+      "url": "https://www.inc.com/chloe-aiello/bernie-sanders-and-this-maga-icon-have-found-common-ground-and-silicon-valley-should-be-worried/91405069",
+      "title": "Bernie Sanders and This MAGA Icon Have Found Common Ground—and Silicon Valley Should Be Worried",
+      "source": "Inc. AI",
+      "published": "2026-09-14T20:30:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "da4eef5cb5087fee450c221a",
+      "bodyFingerprint": "f64feb578d951dcfbbec8632",
+      "bodyCharacterCount": 100,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-14T23:09:49.856Z",
+      "assessment": {
+        "centralEvent": "Bernie Sanders and This MAGA Icon Have Found Common Ground—and Silicon Valley Should Be Worried",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0137dba8762c61382f3d": {
+      "storyId": "0137dba8762c61382f3d",
+      "url": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai",
+      "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
+      "source": "Ars Technica AI",
+      "published": "2026-09-14T19:45:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5c9dd211e4eeede72eb65309",
+      "bodyFingerprint": "ccb5d20df62c1138bdfea79b",
+      "bodyCharacterCount": 4515,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.862Z",
+      "assessment": {
+        "centralEvent": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Last August, he claimed that “Apple is behaving in a manner that makes it impossible for any AI company besides OpenAI to reach #1 in the App Store, which is an unequivocal antitrust violation.” However, on Monday, Musk confirmed in a court",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ebd93db5c0aad55d84c2": {
+      "storyId": "ebd93db5c0aad55d84c2",
+      "url": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements",
+      "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
+      "source": "Ars Technica AI",
+      "published": "2026-09-14T19:28:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "210aa100124b08c9683e3adf",
+      "bodyFingerprint": "bd8a296d74c2077f3af977cd",
+      "bodyCharacterCount": 4767,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.866Z",
+      "assessment": {
+        "centralEvent": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "568684610c280ae6be60": {
+      "storyId": "568684610c280ae6be60",
+      "url": "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots",
+      "title": "Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots",
+      "source": "Ars Technica AI",
+      "published": "2026-09-14T19:38:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d28ba839fcc3b54cb24e1b5",
+      "bodyFingerprint": "fe184e688b10f72139adabd0",
+      "bodyCharacterCount": 7583,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-14T23:09:49.981Z",
+      "assessment": {
+        "centralEvent": "Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "However, this cost-cutting drive comes at the expense of quality control, according to Caijing Magazine.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-14T19:24:33.147Z"
+  "updatedAt": "2026-09-14T23:09:49.981Z"
 }
