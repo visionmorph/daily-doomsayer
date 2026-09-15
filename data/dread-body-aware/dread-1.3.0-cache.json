@@ -134051,8 +134051,124 @@
           "vulnerability": 0
         }
       }
+    },
+    "252235111cdde2f9f54e": {
+      "storyId": "252235111cdde2f9f54e",
+      "url": "https://www.politico.com/live-updates/2026/09/14/congress/kennedy-readies-ai-kill-switch-bill-01076078",
+      "title": "Sen. Kennedy readies AI ‘kill switch’ bill",
+      "source": "POLITICO AI",
+      "published": "2026-09-14T23:38:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0405f9b5c6d339aafe4a4306",
+      "bodyFingerprint": "fe063c1c1030e2a72460d5e7",
+      "bodyCharacterCount": 104,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-15T01:31:03.090Z",
+      "assessment": {
+        "centralEvent": "Sen. Kennedy readies AI ‘kill switch’ bill",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "baac4c23f107e79dd8cb": {
+      "storyId": "baac4c23f107e79dd8cb",
+      "url": "https://news.sky.com/story/one-in-five-britons-using-ai-to-get-their-news-says-ofcom-13585860",
+      "title": "'One in five' Britons using AI to get their news, watchdog says",
+      "source": "Sky News AI",
+      "published": "2026-09-14T14:44:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "99179ee405cccd4bf0709e00",
+      "bodyFingerprint": "19c32ab86fb1f28113844407",
+      "bodyCharacterCount": 112,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-15T01:31:03.105Z",
+      "assessment": {
+        "centralEvent": "'One in five' Britons using AI to get their news, watchdog says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "One in five people are now using AI to keep up with current affairs, according to communications watchdog Ofcom.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-14T23:09:49.981Z"
+  "updatedAt": "2026-09-15T01:31:03.105Z"
 }
