@@ -138450,8 +138450,869 @@
           "vulnerability": 0
         }
       }
+    },
+    "2e4a6e94a07c2f3150a6": {
+      "storyId": "2e4a6e94a07c2f3150a6",
+      "url": "https://www.inc.com/aaron-mok/why-joseph-gordon-levitt-says-the-government-should-be-shutting-down-ai-companies/91405498",
+      "title": "Why Joseph Gordon-Levitt Says the Government Should Be Shutting Down AI Companies",
+      "source": "Inc. AI",
+      "published": "2026-09-15T20:34:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "36ec42e9f6271cf9efb72021",
+      "bodyFingerprint": "ffc65a3f24524fca89b651d0",
+      "bodyCharacterCount": 101,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-15T21:26:08.017Z",
+      "assessment": {
+        "centralEvent": "Why Joseph Gordon-Levitt Says the Government Should Be Shutting Down AI Companies",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9150f87f35cb9c1295c8": {
+      "storyId": "9150f87f35cb9c1295c8",
+      "url": "https://www.theguardian.com/technology/2026/sep/15/anthropic-nvidia-ceos-ai",
+      "title": "Anthropic’s CEO calls for AI slowdown as Nvidia’s urges acceleration",
+      "source": "The Guardian AI",
+      "published": "2026-09-15T21:05:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "51df4c62ac942d3cd135aed2",
+      "bodyFingerprint": "e62e605cf6d8da38d847db4d",
+      "bodyCharacterCount": 3942,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-15T21:26:08.032Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s CEO calls for AI slowdown as Nvidia’s urges acceleration",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "“It’s very tempting to attack your competitor and say these guys are unsafe,” he said.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "We may not have had this big, high-profile incident, but I’m sure we’re not perfect.” Nvidia’s Jensen Huang countered not long after, “Run as fast as you can.” Amodei is calling for three courses of action: embedding third-party evaluators ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6c56ac66600e21c6475b": {
+      "storyId": "6c56ac66600e21c6475b",
+      "url": "https://mashable.com/tech/sept-15-ghostshield-ai-powered-vpn-premium-plan-lifetime-subscription",
+      "title": "Stop settling for a basic VPN with this $50 AI-powered lifetime upgrade",
+      "source": "Mashable AI",
+      "published": "2026-09-15T21:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d40a07356f4c14f6565f2de7",
+      "bodyFingerprint": "f2a48e27f5aa16489451e73c",
+      "bodyCharacterCount": 3096,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-15T21:26:08.053Z",
+      "assessment": {
+        "centralEvent": "Stop settling for a basic VPN with this $50 AI-powered lifetime upgrade",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Let GhostShield flag any risks as they arise, so you can prevent your data from being exposed.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "By signing up, you agree to receive recurring automated SMS marketing messages from Mashable Deals at the number provided.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "24a732feba92598c2bcd": {
+      "storyId": "24a732feba92598c2bcd",
+      "url": "https://www.inc.com/dan-schawbel/two-rival-ai-ceos-just-modeled-a-leadership-skill-most-executives-never-learn/91405799",
+      "title": "2 Rival AI CEOs Just Modeled a Leadership Skill Most Executives Never Learn",
+      "source": "Inc. AI",
+      "published": "2026-09-15T19:57:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e0e1df7a5f49be52b544264c",
+      "bodyFingerprint": "2517558cc2cec8ec5a1d3e98",
+      "bodyCharacterCount": 155,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-15T21:26:08.056Z",
+      "assessment": {
+        "centralEvent": "2 Rival AI CEOs Just Modeled a Leadership Skill Most Executives Never Learn",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "82a1e19678ec636f2c2e": {
+      "storyId": "82a1e19678ec636f2c2e",
+      "url": "https://www.politico.com/news/2026/09/15/openai-backs-bipartisan-push-to-address-ai-biothreats-01077755",
+      "title": "OpenAI backs bipartisan push to address AI biothreats",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-15T20:27:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f843e90abce6230f6935ae3e",
+      "bodyFingerprint": "ee0b8323cfb0a15454a9fd05",
+      "bodyCharacterCount": 141,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-15T21:26:08.072Z",
+      "assessment": {
+        "centralEvent": "OpenAI backs bipartisan push to address AI biothreats",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4b3e5790abf4333bdeab": {
+      "storyId": "4b3e5790abf4333bdeab",
+      "url": "https://www.theguardian.com/us-news/2026/sep/15/bernie-sanders-steve-bannon-ai-summit",
+      "title": "Bernie Sanders and Steve Bannon call for curbs on AI at ‘pro-human’ summit",
+      "source": "The Guardian AI",
+      "published": "2026-09-15T19:51:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e8519f40244d319a039c1ff7",
+      "bodyFingerprint": "65efd6782e412da154949f73",
+      "bodyCharacterCount": 7672,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-15T21:26:08.124Z",
+      "assessment": {
+        "centralEvent": "Bernie Sanders and Steve Bannon call for curbs on AI at ‘pro-human’ summit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Bannon has long praised Trump as a historic figure and endorsed his lie that the 2020 presidential election was stolen.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sanders called for international diplomacy and a global agreement, including with Beijing, to ban the development of super-intelligent machines.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "75858c37f7ded94b0880": {
+      "storyId": "75858c37f7ded94b0880",
+      "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup",
+      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "source": "TechCrunch AI",
+      "published": "2026-09-15T20:12:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd51f65063d17820b2684303",
+      "bodyFingerprint": "e20ac1e56ee706d1efe2670f",
+      "bodyCharacterCount": 3654,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-15T21:26:08.185Z",
+      "assessment": {
+        "centralEvent": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f391b75d24dd941d6a3a": {
+      "storyId": "f391b75d24dd941d6a3a",
+      "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "source": "TechCrunch AI",
+      "published": "2026-09-15T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3264f818483f2f38069eed45",
+      "bodyFingerprint": "0c9e6a58264edd49a268deed",
+      "bodyCharacterCount": 8475,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-15T21:26:08.221Z",
+      "assessment": {
+        "centralEvent": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular Revolut confirms customer data breach through fake government requests Jagmeet Singh OpenAI puts Pro subscriptions on hold due to Astra demand Sarah Perez Bending Spoons to buy collaboration tools maker Miro for $1.36B",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "According to S&P Global Market Intelligence , about 42% of AI initiatives are ultimately abandoned by their corporate parents.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A cybersecurity researcher recently built a tool that could extract and display data that Recall had captured, reviving questions about whether Microsoft has actually fixed the underlying problem.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.09,
+        "rawScore": 49.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "57968ef614dd156bdfc8": {
+      "storyId": "57968ef614dd156bdfc8",
+      "url": "https://www.politico.com/live-updates/2026/09/15/congress/trumps-ai-ignorance-is-truly-embarrassing-bernie-sanders-says-01077602",
+      "title": "Trump's AI ignorance is 'truly embarrassing,' Bernie Sanders says",
+      "source": "POLITICO AI",
+      "published": "2026-09-15T18:53:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fb0efafd8b0392598950a674",
+      "bodyFingerprint": "60d54f8043a5f8cd8039ae78",
+      "bodyCharacterCount": 172,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-15T21:26:08.253Z",
+      "assessment": {
+        "centralEvent": "Trump's AI ignorance is 'truly embarrassing,' Bernie Sanders says",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7e80b1190b4584f27cc8": {
+      "storyId": "7e80b1190b4584f27cc8",
+      "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035",
+      "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+      "source": "TechCrunch AI",
+      "published": "2026-09-15T18:29:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5804cb2c41eeed9db6a4e0e2",
+      "bodyFingerprint": "88cdc00d5b1e072a5d170a68",
+      "bodyCharacterCount": 4062,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-15T21:26:08.288Z",
+      "assessment": {
+        "centralEvent": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The facilities could consume about 18 billion cubic feet per day, according to a new report from BloombergNEF , nearly double the amount the organization predicted just nine months ago.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1293889caf9e450e078b": {
+      "storyId": "1293889caf9e450e078b",
+      "url": "https://www.theguardian.com/us-news/video/2026/sep/15/bernie-sanders-congress-ai-artificial-inteligence-video",
+      "title": "Bernie Sanders says Congress has been ‘asleep at the wheel’ over AI – video",
+      "source": "The Guardian AI",
+      "published": "2026-09-15T19:11:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "45775307ee27281ae85abee9",
+      "bodyFingerprint": "2acddc545ff4a56697e84c07",
+      "bodyCharacterCount": 534,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-15T21:26:08.303Z",
+      "assessment": {
+        "centralEvent": "Bernie Sanders says Congress has been ‘asleep at the wheel’ over AI – video",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Bernie Sanders criticised the advancement of artificial intelligence at the Pro-Human Assembly in Washington on Tuesday, warning that the current type of AI was 'the least capable version of AI that we will ever have'.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "130e7dc8b9fbfe9b424e": {
+      "storyId": "130e7dc8b9fbfe9b424e",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyf?at_campaign=rss&at_medium=RSS",
+      "title": "Tech Life",
+      "source": "BBC News AI",
+      "published": "2026-09-15T19:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "98c0ee9258659c42edce1a72",
+      "bodyFingerprint": "b058c789316b17f01a343ea4",
+      "bodyCharacterCount": 863,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-15T21:26:08.340Z",
+      "assessment": {
+        "centralEvent": "Tech Life",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 10,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "79e52b2085710e99a9c2": {
+      "storyId": "79e52b2085710e99a9c2",
+      "url": "https://www.politico.com/news/2026/09/15/openai-ai-hoax-urgency-01077352",
+      "title": "OpenAI: AI capabilities are in a ‘different place’ and require urgency",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-15T18:24:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "35305685db1ab99275546f5d",
+      "bodyFingerprint": "3a7c9e440724df8e231f24eb",
+      "bodyCharacterCount": 70,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-15T21:26:08.353Z",
+      "assessment": {
+        "centralEvent": "OpenAI: AI capabilities are in a ‘different place’ and require urgency",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04d6fd3813bc4ba95d0d": {
+      "storyId": "04d6fd3813bc4ba95d0d",
+      "url": "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers",
+      "title": "Agility’s new humanoid robot will stop, squat to avoid harming human coworkers",
+      "source": "Ars Technica AI",
+      "published": "2026-09-15T18:33:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "16cc242b7b5dbda532d97398",
+      "bodyFingerprint": "a8f5099c6fb59d5ad4067ddf",
+      "bodyCharacterCount": 7031,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-15T21:26:08.633Z",
+      "assessment": {
+        "centralEvent": "Agility’s new humanoid robot will stop, squat to avoid harming human coworkers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Since that time, earlier versions of the Digit robot have accumulated more than 65,000 hours working at warehouses and factories across North America.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-15T18:14:13.355Z"
+  "updatedAt": "2026-09-15T21:26:08.633Z"
 }
