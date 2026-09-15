@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-15T13:00:00.000Z",
+  "generatedAt": "2026-09-15T18:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-15",
@@ -17,12 +17,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "70ad3185c90c3a98f1ea",
+          "title": "Reform UK ‘has no interest in Wales’, says Senedd member who defected to Plaid Cymru – as it happened",
+          "url": "https://www.theguardian.com/politics/live/2026/sep/15/nigel-farage-reform-labour-party-funding-donations-unions-funding-72m-christopher-harborne-ai-louise-haigh-tuc-andy-burnham-uk-politics-latest-news-updates",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/9010d55f38dd24273de878c7257c3a2adf1022c7/0_0_1000_800/master/1000.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-15",
+          "firstObservedAt": "2026-09-15T18:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
+          "average": 50.66
         },
         {
           "storyId": "ce131d6820fe9727d5fc",
@@ -31,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa7c7fafdaacea9a0311827/master/pass/0914-100%20Politicians%20Sexual%20Deepfake.jpg",
           "peak": 50.49,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 50.49
         },
         {
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
           "peak": 50.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 50.16
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 49.94
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 49.66
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/203a/live/5d11e480-ae26-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 49.66
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa81a44054ce52476eda4d7/master/pass/Security_New%20York%20Seizes%20More%20Than%20a%20Dozen%20Celebrity%20Deepfake%20Websites_v1.jpg",
           "peak": 49.34,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "b95ed8026c025433b444",
-          "title": "Meta's $17 Billion Settlement is a Bad Deal for Teens and All Social Media Users",
-          "url": "https://www.eff.org/deeplinks/2026/09/metas-17-billion-settlement-bad-deal-teens-and-all-social-media-users",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
-          "peak": 49.17,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-15",
-          "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
-          "average": 49.17
         }
       ]
     },
@@ -2484,12 +2484,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "70ad3185c90c3a98f1ea",
+          "title": "Reform UK ‘has no interest in Wales’, says Senedd member who defected to Plaid Cymru – as it happened",
+          "url": "https://www.theguardian.com/politics/live/2026/sep/15/nigel-farage-reform-labour-party-funding-donations-unions-funding-72m-christopher-harborne-ai-louise-haigh-tuc-andy-burnham-uk-politics-latest-news-updates",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/9010d55f38dd24273de878c7257c3a2adf1022c7/0_0_1000_800/master/1000.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-15",
+          "firstObservedAt": "2026-09-15T18:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
+          "average": 50.66
         },
         {
           "storyId": "ce131d6820fe9727d5fc",
@@ -2498,11 +2512,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa7c7fafdaacea9a0311827/master/pass/0914-100%20Politicians%20Sexual%20Deepfake.jpg",
           "peak": 50.49,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T19:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 50.49
         },
         {
@@ -2512,11 +2526,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
           "peak": 50.16,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 50.16
         },
         {
@@ -2526,11 +2540,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 49.94
         },
         {
@@ -2540,11 +2554,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 49.66
         },
         {
@@ -2554,11 +2568,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/203a/live/5d11e480-ae26-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.66,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 49.66
         },
         {
@@ -2602,20 +2616,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
           "lastObservedAt": "2026-09-14T06:00:00.000Z",
           "average": 49.55
-        },
-        {
-          "storyId": "8515c21be0e8339ac2a9",
-          "title": "New York Seizes a Dozen Celebrity Deepfake Websites",
-          "url": "https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6aa81a44054ce52476eda4d7/master/pass/Security_New%20York%20Seizes%20More%20Than%20a%20Dozen%20Celebrity%20Deepfake%20Websites_v1.jpg",
-          "peak": 49.34,
-          "observations": 4,
-          "daysTracked": 2,
-          "peakDate": "2026-09-14",
-          "firstObservedAt": "2026-09-14T23:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
-          "average": 49.34
         }
       ]
     },
@@ -3164,11 +3164,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 88,
+          "observations": 89,
           "daysTracked": 15,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-15T13:00:00.000Z",
+          "lastObservedAt": "2026-09-15T18:00:00.000Z",
           "average": 51.23
         },
         {
