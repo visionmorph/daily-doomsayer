@@ -144659,8 +144659,605 @@
           "vulnerability": 0
         }
       }
+    },
+    "f75edc7f646302baf22f": {
+      "storyId": "f75edc7f646302baf22f",
+      "url": "https://www.politico.com/news/2026/09/16/sacks-trump-cutting-through-panic-over-ai-01079130",
+      "title": "Trump’s former AI czar says fears of an AI apocalypse are a ‘hoax’",
+      "source": "POLITICO AI",
+      "published": "2026-09-16T18:09:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ba1fce250d3b3ced53d771f3",
+      "bodyFingerprint": "b0c86934bd4eb91863288a94",
+      "bodyCharacterCount": 178,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-16T20:10:10.948Z",
+      "assessment": {
+        "centralEvent": "Trump’s former AI czar says fears of an AI apocalypse are a ‘hoax’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "16a7d1807bf28e2b6065": {
+      "storyId": "16a7d1807bf28e2b6065",
+      "url": "https://www.inc.com/sam-blum/michael-burry-calls-ai-apocalypse-warnings-a-self-serving-ipo-strategy/91406253",
+      "title": "Michael Burry Calls AI Apocalypse Warnings a ‘Self-Serving’ IPO Strategy",
+      "source": "Inc. AI",
+      "published": "2026-09-16T18:05:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "22c6f8becef0aa74e91c7791",
+      "bodyFingerprint": "a409afcc3b037a0b0c5db9fe",
+      "bodyCharacterCount": 148,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-16T20:10:10.999Z",
+      "assessment": {
+        "centralEvent": "Michael Burry Calls AI Apocalypse Warnings a ‘Self-Serving’ IPO Strategy",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c0e00fe8afc66b4147f0": {
+      "storyId": "c0e00fe8afc66b4147f0",
+      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first",
+      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T18:25:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ad0593c4d695b72522f4c0df",
+      "bodyFingerprint": "a2e9e5da9d3c76a12db53670",
+      "bodyCharacterCount": 8842,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T20:10:11.008Z",
+      "assessment": {
+        "centralEvent": "AI labs want in-house auditors — but maybe they should shut the front door first",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It would be the same as if, instead of writing the Trustworthy Computing Memo , Microsoft said, let’s slow down development.” That memo, written by then-Microsoft CEO Bill Gates in 2002, called on his employees to ensure that their software",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e65057de92a8ff58b280": {
+      "storyId": "e65057de92a8ff58b280",
+      "url": "https://www.inc.com/bruce-crumley/companies-with-strong-tech-governance-are-15-times-more-likely-to-report-high-roi/91406202",
+      "title": "Companies With Strong Tech Governance Are 15 Times More Likely to Report High ROI",
+      "source": "Inc. AI",
+      "published": "2026-09-16T17:14:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b032ab0324b34a9541d3c81",
+      "bodyFingerprint": "e9985b378cc822f6e0a6d791",
+      "bodyCharacterCount": 143,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-16T20:10:11.017Z",
+      "assessment": {
+        "centralEvent": "Companies With Strong Tech Governance Are 15 Times More Likely to Report High ROI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "A new study reveals that clear AI oversight drives higher financial returns, better performance, and increased confidence across the workplace.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "529ac65e1b5265d8ecd1": {
+      "storyId": "529ac65e1b5265d8ecd1",
+      "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices",
+      "title": "Your AI agents can now control your Google Home devices",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eed25c5e1f449b786dc9bf10",
+      "bodyFingerprint": "a9b848c0f7d7eb44a0b84726",
+      "bodyCharacterCount": 3743,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T20:10:11.035Z",
+      "assessment": {
+        "centralEvent": "Your AI agents can now control your Google Home devices",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular Jensen Huang took a call from Trump, and showed off something else, too Connie Loizos The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs Marina Temkin Dominic-Madori Davis Tesla says it will ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4345ef30580523cc1f4b": {
+      "storyId": "4345ef30580523cc1f4b",
+      "url": "https://www.wired.com/story/i-trained-a-fly-on-wired-story-ideas",
+      "title": "I Trained a Fly’s Brain to Generate WIRED Story Ideas",
+      "source": "WIRED AI",
+      "published": "2026-09-16T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8661955663e4b4b7dedda65",
+      "bodyFingerprint": "034885fb00d1f6dfccee0673",
+      "bodyCharacterCount": 8170,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T20:10:11.050Z",
+      "assessment": {
+        "centralEvent": "I Trained a Fly’s Brain to Generate WIRED Story Ideas",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A sampling of his early output: “The Hidden Weather Problem Inside Surveillance”; “The Engineers Who Think Elon Musk Needs Less Computer Security”; and my personal favorite, “Everyone Wants Cooking.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "And someone also put the fly brain in charge of driving virtual cars —it turns out flies are terrible at parallel parking. (Then again, so am I, so I won’t pass judgment.) I haven’t verified that all these projects actually use the connecto",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Steven Levy Why So Many AI Researchers Think the Machines Could Kill Everyone A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.64,
+        "rawScore": 46.64,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1d2a668a6c12745b2ce8": {
+      "storyId": "1d2a668a6c12745b2ce8",
+      "url": "https://www.theguardian.com/us-news/2026/sep/16/mike-johnson-cancels-house-vote-hegseth",
+      "title": "House speaker calls early recess before midterms amid AI regulation frenzy",
+      "source": "The Guardian AI",
+      "published": "2026-09-16T17:10:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "249d2941bd3a73038d960cd1",
+      "bodyFingerprint": "ff2e84f20a440f2b162c74a6",
+      "bodyCharacterCount": 4109,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T20:10:11.090Z",
+      "assessment": {
+        "centralEvent": "House speaker calls early recess before midterms amid AI regulation frenzy",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "However, so far, the current session has fallen short of passing legislation to surpass the two previous House sessions, according to the fact-checking website Snopes .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "96ba891ee6808809e45e": {
+      "storyId": "96ba891ee6808809e45e",
+      "url": "https://www.politico.eu/article/von-der-leyens-call-for-talks-on-pausing-ai-cant-stem-extinction-risk-fears",
+      "title": "Von der Leyen’s call for talks on pausing AI can’t quell extinction risk fears",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-16T16:01:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a50785a0e82b242afa314ab3",
+      "bodyFingerprint": "f218d140033067fa43c86291",
+      "bodyCharacterCount": 5133,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T20:10:11.177Z",
+      "assessment": {
+        "centralEvent": "Von der Leyen’s call for talks on pausing AI can’t quell extinction risk fears",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Von der Leyen rightfully says that the AI Act positions Europe to lead on AI safety,” he said of the dilemma, while “Europe must [also] now build capacity.” In her 73-minute address von der Leyen devoted a notable portion to AI risk scenar",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And while citing the EU’s standing AI rules as a possible building block for global regulations, von der Leyen didn’t use her much-anticipated speech to call on fellow world leaders — particularly U.S.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b526df1000ab58703d8a": {
+      "storyId": "b526df1000ab58703d8a",
+      "url": "https://www.lawfaremedia.org/article/the-forensic-gap-in-ai-safety-laws",
+      "title": "The Forensic Gap in AI Safety Laws",
+      "source": "Lawfare AI",
+      "published": "2026-09-16T17:02:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a8d7a9d6a381bed48cf2eb37",
+      "bodyFingerprint": "9f1705a1a9d010bb00518254",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T20:10:11.694Z",
+      "assessment": {
+        "centralEvent": "The Forensic Gap in AI Safety Laws",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The laws all use the same definition of critical safety incidents as one of four events: unauthorized access to model weights causing death or bodily injury; harm from catastrophic risk; loss of model control causing death or injury; or dec",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The reporting deadlines are 15 days in California , 72 hours in New York and Illinois , and a 24-hour rule in all three for incidents that pose imminent risk of death or serious injury.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He holds teaching appointments at Central European University and Bard College NYC, and was a Stanton Nuclear Security Fellow at the Carnegie Endowment for International Peace's Nuclear Policy Program. } More Articles The First Amendment Pr",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The laws all use the same definition of critical safety incidents as one of four events: unauthorized access to model weights causing death or bodily injury; harm from catastrophic risk; loss of model control causing death or injury; or dec",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "What these techniques cannot do is point to a stuck valve —a malfunctioning or broken part that can be fixed, swapped out, or replaced.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In those industries, safety improvements rely on a cumulative forensic process: Investigators determine what happened in a specific incident, and why, and they propose corrective measures that can prevent it from recurring.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 109,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 51.31,
+        "rawScore": 51.31,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.665,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-16T17:00:42.848Z"
+  "updatedAt": "2026-09-16T20:10:11.694Z"
 }
