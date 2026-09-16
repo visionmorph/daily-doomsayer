@@ -139311,8 +139311,970 @@
           "vulnerability": 0
         }
       }
+    },
+    "8f285d8d38ca79381e26": {
+      "storyId": "8f285d8d38ca79381e26",
+      "url": "https://www.politico.com/news/2026/09/15/blumenthal-says-public-concern-over-ai-is-reaching-a-turning-point-01078565",
+      "title": "Blumenthal says public concern over AI is reaching a turning point",
+      "source": "POLITICO AI",
+      "published": "2026-09-15T23:34:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dda3624e1d3dc268d2d5202d",
+      "bodyFingerprint": "24a1db623a98faaa8c313f67",
+      "bodyCharacterCount": 149,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-16T00:24:17.947Z",
+      "assessment": {
+        "centralEvent": "Blumenthal says public concern over AI is reaching a turning point",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Blumenthal says public concern over AI is reaching a turning point",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f095ad1d825af580d8e8": {
+      "storyId": "f095ad1d825af580d8e8",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_campaign=rss&at_medium=RSS",
+      "title": "OpenAI boss says world 'right to be afraid' but 'should trust' AI firms",
+      "source": "BBC News AI",
+      "published": "2026-09-16T00:13:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "858757e8f356b9ef9491307d",
+      "bodyFingerprint": "8e0615ad0cc5e0a2fafc2130",
+      "bodyCharacterCount": 5535,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T00:24:17.996Z",
+      "assessment": {
+        "centralEvent": "OpenAI boss says world 'right to be afraid' but 'should trust' AI firms",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC Published 2 days ago AI regulation faces political deadlock as calls grow for Congress to act Published 21 hours ago Leaders of OpenAI and Anthropic ha",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a8cb3dee54e5c94a3653": {
+      "storyId": "a8cb3dee54e5c94a3653",
+      "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says",
+      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T00:20:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0fbb6d4267af18fd5e43c69a",
+      "bodyFingerprint": "707738a9c744d9bf9b01f894",
+      "bodyCharacterCount": 5920,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T00:24:18.005Z",
+      "assessment": {
+        "centralEvent": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular Tesla says it will finally unveil the second-generation Roadster on October 1 Anthony Ha Revolut confirms customer data breach through fake government requests Jagmeet Singh OpenAI puts Pro subscriptions on hold due to",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But right now, the industry has a short window to institute self-regulation and to encourage AI labs worldwide, even those inChina, to see the wisdom in participating.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Remember the 2024 CrowdStrike bluescreen-of-death fiasco that grounded thousands of flights and caused other havoc for businesses?",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But if you feel at any given point in time the company’s out of control, or or the product’s not going to be safe, you know, take a pause and make sure you get it right.” In some ways, this is a comforting thought.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The sky’s the limit for every industry, for every single country.” Unfortunately, even companies with the best intentions ship faulty products with unintended consequences, even software.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 52.14,
+        "rawScore": 52.14,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.74,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dc95f4c316c1a3cd5979": {
+      "storyId": "dc95f4c316c1a3cd5979",
+      "url": "https://www.bbc.co.uk/news/articles/cv986j48l66ko?at_campaign=rss&at_medium=RSS",
+      "title": "Why doomsday warnings are not the only threat to the AI juggernaut",
+      "source": "BBC News AI",
+      "published": "2026-09-15T23:39:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd21f98c3c9220d14cd9ad5c",
+      "bodyFingerprint": "b8f94f2c172be916e48f1b48",
+      "bodyCharacterCount": 14023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T00:24:18.025Z",
+      "assessment": {
+        "centralEvent": "Why doomsday warnings are not the only threat to the AI juggernaut",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But it's a harder sell when the AI firms are on the cusp of trillion-dollar-plus valuations but are also expecting massive job losses, and many are asking whether the technology could wipe humans off the face of the Earth.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Lead image: Reuters/AFP via Getty More from InDepth Why some experts increasingly fear AI will take over Published 6 days ago China is winning one AI race, the US another - but either might pull ahead Published 7 April SpaceX's stock market",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The global AI race is being hit by very localised political and environmental concerns",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Part of the eerie sound surrounding data centres is the relative absence of actual permanent workers coming and going.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In a submission to a Commons committee the trade body Water UK criticised \"not a single mention of water\" in Government AI growth strategies. \"There appears to be an assumption that the country will always have enough water for its economic",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 86,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.16,
+        "rawScore": 50.16,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.56,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f795228f07ab9732a69e": {
+      "storyId": "f795228f07ab9732a69e",
+      "url": "https://www.bbc.co.uk/news/articles/cmlyrn2n4zg5o?at_campaign=rss&at_medium=RSS",
+      "title": "AI app ads promoting 'objectification of women' banned by watchdog",
+      "source": "BBC News AI",
+      "published": "2026-09-15T23:27:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d6e78e44546de9fb23ca6a0",
+      "bodyFingerprint": "af294f24887da54de0f60457",
+      "bodyCharacterCount": 4617,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T00:24:18.033Z",
+      "assessment": {
+        "centralEvent": "AI app ads promoting 'objectification of women' banned by watchdog",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But Nicky Baker of the ASA said such content had the potential \"to cause real-world harm\". \"We take a firm line on ads that are likely to cause serious or widespread offence and these ads are a clear example of why that matters,\" she said. ",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researcher Alexios Mantzarlis reported in early September that an investigation , external had found 11,336 ads on Meta's platforms claiming they could be used to turn images of clothed people into sexually explicit videos.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 65.65,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0ba254f71682c8c29dd9": {
+      "storyId": "0ba254f71682c8c29dd9",
+      "url": "https://www.politico.com/news/2026/09/15/a-starting-gun-ai-leaders-push-for-independent-safety-audits-01078262",
+      "title": "Top AI companies are asking for supervision. Here's why Congress might not give it to them.",
+      "source": "POLITICO AI",
+      "published": "2026-09-15T23:15:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "28290877b625f8e8972ec6c0",
+      "bodyFingerprint": "fd5c720209edcc797bcb93c5",
+      "bodyCharacterCount": 139,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-16T00:24:18.037Z",
+      "assessment": {
+        "centralEvent": "Top AI companies are asking for supervision. Here's why Congress might not give it to them.",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "30fb04a6f530a157b6da": {
+      "storyId": "30fb04a6f530a157b6da",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+      "title": "AI and data centers are incredibly unpopular in every poll",
+      "source": "The Verge AI",
+      "published": "2026-09-15T23:34:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "837148aa9bf6e055708c121d",
+      "bodyFingerprint": "55121ee48ebb97021f995804",
+      "bodyCharacterCount": 5115,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T00:24:18.053Z",
+      "assessment": {
+        "centralEvent": "AI and data centers are incredibly unpopular in every poll",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related If you want to know what the data center occupation looks like, visit Loudoun County, Virginia AI backlash is coming for elections The right-wing boomers protesting data centers have a lot in common with the left An NBC News poll in",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Lauren Feiner Sep 2 A Microsoft-backed data center has reportedly been running on unpermitted generators.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "12ef2ddb8559fc08b131": {
+      "storyId": "12ef2ddb8559fc08b131",
+      "url": "https://www.politico.com/news/2026/09/15/nvidia-jensen-huang-ai-safety-01078081",
+      "title": "Nvidia boss on AI safety: ‘We don’t need any new laws’",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-15T22:22:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e451618ae85c551baaf65ce",
+      "bodyFingerprint": "3cd3cd3cf13c9167a0ef5cfb",
+      "bodyCharacterCount": 166,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-16T00:24:18.058Z",
+      "assessment": {
+        "centralEvent": "Nvidia boss on AI safety: ‘We don’t need any new laws’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "24ce071e817aa32eb572": {
+      "storyId": "24ce071e817aa32eb572",
+      "url": "https://www.theguardian.com/us-news/video/2026/sep/15/why-the-real-ai-apocalypse-is-already-here-stateside-with-kai-and-carter",
+      "title": "Why the real AI apocalypse is already here – Stateside with Kai and Carter",
+      "source": "The Guardian AI",
+      "published": "2026-09-15T22:39:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea8616f250461396dc4fd973",
+      "bodyFingerprint": "79661bb17e4367e33a28a2fe",
+      "bodyCharacterCount": 874,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T00:24:18.089Z",
+      "assessment": {
+        "centralEvent": "Why the real AI apocalypse is already here – Stateside with Kai and Carter",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cf06d711f417111b157e": {
+      "storyId": "cf06d711f417111b157e",
+      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry",
+      "title": "The AI data center boom is colliding with cities scarred by big industry",
+      "source": "TechCrunch AI",
+      "published": "2026-09-15T21:47:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "33d8b4f89ea08c2c6c3dae2d",
+      "bodyFingerprint": "b7f6db767ee7a0c13411f2a9",
+      "bodyCharacterCount": 7784,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T00:24:18.115Z",
+      "assessment": {
+        "centralEvent": "The AI data center boom is colliding with cities scarred by big industry",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“We don’t want the pollution, we don’t want the noise, and we know they’re not going to bring us more jobs.” Sanders’ husband, who was also a resident of Grays Ferry, died of a rare bone cancer in 2020.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Burning one cubic foot of natural gas releases the equivalent of 60 grams of carbon dioxide , and additional data center demand is expected to generate an extra 1 million metric tons of greenhouse gas pollution each day, which is about 12% ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But the international race to dominate the AI industry has become so extreme that by 2035, BloombergNEF predicts that U.S. data centers will consume more natural gas than Germany and Japan combined.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Harvard University researchers found in 2021 that fossil fuel air pollution is responsible for one in five deaths worldwide , a staggering figure that is bound to increase in the age of AI.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A lifelong resident of the Grays Ferry neighborhood in Southwest Philadelphia, Pitts grew up next to what was then the East Coast’s largest oil refinery , which shut down after an explosion in 2019.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.33,
+        "rawScore": 50.33,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f57517ba58dc5e0f71c2": {
+      "storyId": "f57517ba58dc5e0f71c2",
+      "url": "https://mashable.com/tech/recursive-self-improvement-ai-explained",
+      "title": "What is recursive self-improvement? Why AI researchers are worried",
+      "source": "Mashable AI",
+      "published": "2026-09-15T22:57:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d05e9122f10bbe5063f38875",
+      "bodyFingerprint": "8a564499a2c2d0da8be1c516",
+      "bodyCharacterCount": 7270,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T00:24:18.129Z",
+      "assessment": {
+        "centralEvent": "What is recursive self-improvement? Why AI researchers are worried",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Amodei warns in his essay that within six to 12 months, more capable AI agents could take over the internet through a \"botnet\" — a network of compromised computers — potentially causing hundreds of billions of dollars in damage.But a runawa",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "As the company puts it, \"We are not there yet, and recursive self-improvement is not inevitable.\"Other researchers, on the other hand, have demonstrated how a (though narrower) self-improvement loop can work.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e3b1c00d9eb8c65c2036": {
+      "storyId": "e3b1c00d9eb8c65c2036",
+      "url": "https://www.inc.com/chloe-aiello/sen-mark-warner-calls-donald-trumps-ai-guardrails-idea-absurd-as-industry-warnings-mount/91405959",
+      "title": "Sen. Mark Warner Calls Donald Trump’s AI Guardrails Idea ‘Absurd’ as Industry Warnings Mount",
+      "source": "Inc. AI",
+      "published": "2026-09-15T21:53:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "67265a1349e783b25f1b9dc4",
+      "bodyFingerprint": "13dfdc930899bb4625dfcd85",
+      "bodyCharacterCount": 147,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-16T00:24:18.160Z",
+      "assessment": {
+        "centralEvent": "Sen. Mark Warner Calls Donald Trump’s AI Guardrails Idea ‘Absurd’ as Industry Warnings Mount",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "67092aacf5b46610c17e": {
+      "storyId": "67092aacf5b46610c17e",
+      "url": "https://news.sky.com/story/no-need-for-new-laws-on-ai-says-nvidia-boss-13586322",
+      "title": "No need for new laws on AI, says Nvidia boss",
+      "source": "Sky News AI",
+      "published": "2026-09-15T20:06:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a3381126bdf4faa6733f392d",
+      "bodyFingerprint": "ebfb8c0b617f0de249a8edcb",
+      "bodyCharacterCount": 129,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-16T00:24:18.218Z",
+      "assessment": {
+        "centralEvent": "No need for new laws on AI, says Nvidia boss",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8d4d35585673ccfdfedc": {
+      "storyId": "8d4d35585673ccfdfedc",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/16/pocock-says-labor-easing-copyright-protections-for-ai-datacentre-investment-would-throw-creatives-under-the-bus",
+      "title": "Labor accused of throwing creatives ‘under the bus’ with proposal to ease copyright protections for AI giants",
+      "source": "The Guardian AI",
+      "published": "2026-09-15T21:29:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "69dfe1dbd22f62972024d784",
+      "bodyFingerprint": "ea6736524a14c4564d59758d",
+      "bodyCharacterCount": 5987,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T00:24:18.289Z",
+      "assessment": {
+        "centralEvent": "Labor accused of throwing creatives ‘under the bus’ with proposal to ease copyright protections for AI giants",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“We want to see this opportunity come to the country [but] it needs to come on terms which are in our national interests.” Marles confirmed that the federal government had spoken with tech companies in San Francisco in the past fortnight on",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1acf36741231d8660857": {
+      "storyId": "1acf36741231d8660857",
+      "url": "https://thedispatch.com/newsletter/boilingfrogs/trump-artificial-intelligence-pacing-frontier-hoax",
+      "title": "The AI ‘Hoax’ Becomes a MAGA Loyalty Test",
+      "source": "The Dispatch AI",
+      "published": "2026-09-15T21:54:07+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ad8a7f3177965c0ccce7868f",
+      "bodyFingerprint": "5de1bc202316b8a48e8cf760",
+      "bodyCharacterCount": 5331,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-16T00:24:18.680Z",
+      "assessment": {
+        "centralEvent": "The AI ‘Hoax’ Becomes a MAGA Loyalty Test",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-15T21:26:08.633Z"
+  "updatedAt": "2026-09-16T00:24:18.680Z"
 }
