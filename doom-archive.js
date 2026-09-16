@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-15T21:00:00.000Z",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-15",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/eadcd6f3311ca07c60d6211bbb3b303b657cf252/1031_0_4874_3900/master/4874.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 51.92,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T21:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 51.92
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T21:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 50.33
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
           "peak": 50.16,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 50.16
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 49.94
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T07:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 49.66
         },
         {
@@ -2484,11 +2484,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/eadcd6f3311ca07c60d6211bbb3b303b657cf252/1031_0_4874_3900/master/4874.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 51.92,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T21:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 51.92
         },
         {
@@ -2498,11 +2498,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -2540,11 +2540,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T21:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 50.33
         },
         {
@@ -2554,11 +2554,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
           "peak": 50.16,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 50.16
         },
         {
@@ -2568,11 +2568,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 49.94
         },
         {
@@ -2582,11 +2582,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 2,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 49.66
         },
         {
@@ -3136,11 +3136,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/eadcd6f3311ca07c60d6211bbb3b303b657cf252/1031_0_4874_3900/master/4874.jpg?width=1900&dpr=2&s=none&crop=none",
           "peak": 51.92,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T21:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 51.92
         },
         {
@@ -3178,11 +3178,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 90,
+          "observations": 91,
           "daysTracked": 15,
           "peakDate": "2026-09-01",
           "firstObservedAt": "2026-09-01T05:00:00.000Z",
-          "lastObservedAt": "2026-09-15T21:00:00.000Z",
+          "lastObservedAt": "2026-09-16T00:00:00.000Z",
           "average": 51.23
         },
         {
