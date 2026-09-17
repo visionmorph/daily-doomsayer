@@ -147195,8 +147195,947 @@
           "vulnerability": 0
         }
       }
+    },
+    "4b4f772616f389c4f8fa": {
+      "storyId": "4b4f772616f389c4f8fa",
+      "url": "https://www.theguardian.com/science/video/2026/sep/17/open-ai-and-the-million-dollar-maths-problem-video",
+      "title": "Open AI and the million dollar maths problem - video",
+      "source": "The Guardian AI",
+      "published": "2026-09-17T13:01:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9fd476d2796b6802edd422ce",
+      "bodyFingerprint": "0ce1f756ae26ffc99479cc2e",
+      "bodyCharacterCount": 871,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:57.700Z",
+      "assessment": {
+        "centralEvent": "Open AI and the million dollar maths problem - video",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The news left mathematicians reeling, and many expressed concern over what will be left for humans as AI becomes ever more adept at unravelling complex problems.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "545a3b47b34be5d21c7a": {
+      "storyId": "545a3b47b34be5d21c7a",
+      "url": "https://www.bbc.co.uk/news/articles/c65ymj7njvl7o?at_campaign=rss&at_medium=RSS",
+      "title": "King Charles warns of 'existential danger' of AI falling into wrong hands",
+      "source": "BBC News AI",
+      "published": "2026-09-17T12:58:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aed3186656b8cc0508d61c1d",
+      "bodyFingerprint": "e6977210d7af97646c823560",
+      "bodyCharacterCount": 3817,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:57.717Z",
+      "assessment": {
+        "centralEvent": "King Charles warns of 'existential danger' of AI falling into wrong hands",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In July, OpenAI announced what it called an \"unprecedented\" incident in which its advanced AI escaped test limits and hacked into the tech platform Hugging Face.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics Artificial intelligence UK Royal Family King Charles III More on this story Uncontrolled AI could lead to 'silicon species' rivalling humans, warns Microsoft Published 5 hours ago OpenAI boss says world 'right to be afraid' b",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "After several other incidents, in September, a resignation post from Anthropic researcher Jacob Coxon went viral when he cited concerns AI could wipe out humanity.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.86,
+        "rawScore": 46.86,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.26,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6c30be3c521acdb6ec16": {
+      "storyId": "6c30be3c521acdb6ec16",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260917003712.htm",
+      "title": "Astronomers just found the youngest known planet ever",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-17T13:00:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c84ab340dabb6e147e026347",
+      "bodyFingerprint": "a0b515630177d114d69585e6",
+      "bodyCharacterCount": 10742,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:57.746Z",
+      "assessment": {
+        "centralEvent": "Astronomers just found the youngest known planet ever",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Astronomers have confirmed a Jupiter-size planet less than a million years old, making Elias 2-24 b the youngest known planet and giving scientists a rare look at a world still being born.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "659d947d8a9bdd4c6bfa": {
+      "storyId": "659d947d8a9bdd4c6bfa",
+      "url": "https://www.theguardian.com/books/2026/sep/17/ai-doom-books-reading-list",
+      "title": "Feeling overwhelmed by the AI doom loop? Here’s the essential reading list to make sense of it all",
+      "source": "The Guardian AI",
+      "published": "2026-09-17T11:00:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "95670e3924d2f417d8ec9193",
+      "bodyFingerprint": "04ec40a11cad36a803b189f0",
+      "bodyCharacterCount": 10520,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:57.789Z",
+      "assessment": {
+        "centralEvent": "Feeling overwhelmed by the AI doom loop? Here’s the essential reading list to make sense of it all",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The best books on the AI industry Empire of AI – Karen Hao The most intensively reported book on the AI industry so far, Empire of AI covers the rise of OpenAI, as well as the formation of Anthropic and OpenAI chief Sam Altman’s split with ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "adcebf01c1d9b13d1e3a": {
+      "storyId": "adcebf01c1d9b13d1e3a",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+      "title": "Inside the suddenly explosive world of AI safety",
+      "source": "The Verge AI",
+      "published": "2026-09-17T11:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7d9a78282299cd825db6505c",
+      "bodyFingerprint": "6e57a0651d683a12b8346363",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:57.823Z",
+      "assessment": {
+        "centralEvent": "Inside the suddenly explosive world of AI safety",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "It broke out of its holding area, finagled access to the internet, and hacked into a competing AI startup's systems - all without OpenAI finding out about it for more than a week.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hayden Field AI Features OpenAI More in AI Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long The AI data center e-waste problem is huge — and getting bigger A",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Another employee said publicly that if it were possible to coordinate a global slowdown in AI capabilities, he “would likely press that magic button.” When a reporter asked Altman if there could be other systems that were hacked by OpenAI, ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "News of the incident quickly escaped containment from the AI-obsessed corners of X and industry forums, infiltrating the mainstream.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Another employee said publicly that if it were possible to coordinate a global slowdown in AI capabilities, he “would likely press that magic button.” When a reporter asked Altman if there could be other systems that were hacked by OpenAI, ",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 97,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.82,
+        "rawScore": 50.82,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.62,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "54417f94afc38d56ad85": {
+      "storyId": "54417f94afc38d56ad85",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260917003703.htm",
+      "title": "JWST’s mysterious little red dots may be black holes growing at incredible speeds",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-17T12:45:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b3c1032e4b894b5d179024d",
+      "bodyFingerprint": "5f260f2b4b357d1da24a90d4",
+      "bodyCharacterCount": 8534,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:57.829Z",
+      "assessment": {
+        "centralEvent": "JWST’s mysterious little red dots may be black holes growing at incredible speeds",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The properties of these simulated black holes closely resemble the Little Red Dots (LRDs) observed by the James Webb Space Telescope (JWST).",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "605c12fdeee0dccdaa72": {
+      "storyId": "605c12fdeee0dccdaa72",
+      "url": "https://www.politico.eu/article/jensen-huang-dont-regulate-ai-like-social-media",
+      "title": "Jensen Huang: Don’t regulate AI like social media",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-17T12:22:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3989269cf465d46b7aac9825",
+      "bodyFingerprint": "197276f0467343f7a5470b75",
+      "bodyCharacterCount": 1999,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:57.858Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang: Don’t regulate AI like social media",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2579aeb5c0c42d3c657c": {
+      "storyId": "2579aeb5c0c42d3c657c",
+      "url": "https://www.politico.eu/article/openai-flags-six-new-cases-of-concerning-ai-behavior",
+      "title": "OpenAI finds 6 new cases of ‘concerning’ AI behavior",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-17T09:52:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c557511c02422e79f87ee01e",
+      "bodyFingerprint": "ee82ac3219b8f8fdba28fb1b",
+      "bodyCharacterCount": 1405,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:57.959Z",
+      "assessment": {
+        "centralEvent": "OpenAI finds 6 new cases of ‘concerning’ AI behavior",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Earlier this Summer, OpenAI-powered agents hacked into AI company Hugging Face — an incident that put the spotlight on rogue agents escaping their test environment and performing uncontrolled tasks on the open internet.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Advertisement AI models going rogue have sparked global backlash after researchers from inside leading AI firms warned that the technology could make humanity go extinct.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 10,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fef91209b7cdcd5d1c60": {
+      "storyId": "fef91209b7cdcd5d1c60",
+      "url": "https://www.theguardian.com/us-news/video/2026/sep/17/naomi-klein-astra-taylor-podcast",
+      "title": "Are we living in the End Times? With Naomi Klein and Astra Taylor – Stateside with Kai and Carter",
+      "source": "The Guardian AI",
+      "published": "2026-09-17T09:45:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "33c85e6ce0ff6f7e168b5f88",
+      "bodyFingerprint": "d220797db83b3f20e01dd825",
+      "bodyCharacterCount": 798,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:58.019Z",
+      "assessment": {
+        "centralEvent": "Are we living in the End Times? With Naomi Klein and Astra Taylor – Stateside with Kai and Carter",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b7d9bccb4ba4a37fec3a": {
+      "storyId": "b7d9bccb4ba4a37fec3a",
+      "url": "https://mashable.com/tech/tribit-flybuds-c3-earbuds-where-to-buy",
+      "title": "Tribit just dropped a pair of featherlight earbuds with 45dB noise cancellation — and they weigh just 4 grams",
+      "source": "Mashable AI",
+      "published": "2026-09-17T10:59:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9b213204b9566a398857e83b",
+      "bodyFingerprint": "e5d21b80323c8c0400d4d842",
+      "bodyCharacterCount": 3569,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:58.024Z",
+      "assessment": {
+        "centralEvent": "Tribit just dropped a pair of featherlight earbuds with 45dB noise cancellation — and they weigh just 4 grams",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Battery life keeps pace with a full week of commutes, offering 8 hours of playback per charge (6 with noise cancellation on) and up to 35 total hours with the case.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b2e61ba5b658236390e9": {
+      "storyId": "b2e61ba5b658236390e9",
+      "url": "https://mashable.com/tech/sept-17-the-2026-complete-claude-ai-claude-code-claude-cowork-chatgpt-training",
+      "title": "Get 6 AI training courses for $30 with this ChatGPT and Claude bundle",
+      "source": "Mashable AI",
+      "published": "2026-09-17T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "304e7c63952c9d524440a214",
+      "bodyFingerprint": "10cd4e0cc92d7c7dceaf3aae",
+      "bodyCharacterCount": 2985,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:58.057Z",
+      "assessment": {
+        "centralEvent": "Get 6 AI training courses for $30 with this ChatGPT and Claude bundle",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "This bundle includes 16 hours of instruction covering ChatGPT 5, Claude AI, Claude Code, Claude Cowork, and large language model fundamentals .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "40dd193e591483fa8045": {
+      "storyId": "40dd193e591483fa8045",
+      "url": "https://www.theguardian.com/technology/2026/sep/17/big-ai-work-universities",
+      "title": "Big AI is trying to own the pathway to work. Universities shouldn’t play along | Ella Hafermalz",
+      "source": "The Guardian AI",
+      "published": "2026-09-17T09:00:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2377a3813fec364932c0ca73",
+      "bodyFingerprint": "61cd2cb2d344db358ba2dbb6",
+      "bodyCharacterCount": 7265,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:58.064Z",
+      "assessment": {
+        "centralEvent": "Big AI is trying to own the pathway to work. Universities shouldn’t play along | Ella Hafermalz",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "They turn to ChatGPT and similar tools for personal problems as well as study help.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2641bdc3ce837d520f29": {
+      "storyId": "2641bdc3ce837d520f29",
+      "url": "https://science.nasa.gov/blogs/planetary-expeditions/2026/09/15/nasa-field-tests-ai-fleet-capability-for-science-exploration",
+      "title": "NASA Field-Tests AI Fleet Capability for Science, Exploration",
+      "source": "NASA AI",
+      "published": "2026-09-15T20:43:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1a906d742983515fc6e6c834",
+      "bodyFingerprint": "7d372ce8a619902ff561d013",
+      "bodyCharacterCount": 4917,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T13:30:58.089Z",
+      "assessment": {
+        "centralEvent": "NASA Field-Tests AI Fleet Capability for Science, Exploration",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "NASA/Bethany Theiling The project’s ultimate goal is to provide a trustworthy extension of the human science team in situations where humans are too far away to give real-time instructions, like on uncrewed missions to the outer planets of ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As the fleet carried out its plan, it continually checked for environmental hazards, reassessed its strategy to adapt to new information, and reported back to its human managers, NASA’s Adaptive Sensing Technology for Responsive Autonomy (A",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2b2f71a660160be9bc89": {
+      "storyId": "2b2f71a660160be9bc89",
+      "url": "https://www.artificialintelligence-news.com/news/agentforce-coworker-adecco-group-rollout",
+      "title": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
+      "source": "AI News",
+      "published": "2026-09-17T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "88e93ed78ecd8f50a6f907ef",
+      "bodyFingerprint": "ee6956c47a236355af23013e",
+      "bodyCharacterCount": 486,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-17T13:30:58.319Z",
+      "assessment": {
+        "centralEvent": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "According to the Adecco [...] The post Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries appeared first on AI News.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b00604ec485558fc10ac": {
+      "storyId": "b00604ec485558fc10ac",
+      "url": "https://www.artificialintelligence-news.com/news/lidl-autonomous-truck-germany",
+      "title": "Lidl deploys driverless truck for store deliveries in Germany",
+      "source": "AI News",
+      "published": "2026-09-17T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7185e9b332b70c17f002ae2b",
+      "bodyFingerprint": "1b72b6c787b2308c4c04415f",
+      "bodyCharacterCount": 469,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-17T13:30:58.545Z",
+      "assessment": {
+        "centralEvent": "Lidl deploys driverless truck for store deliveries in Germany",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-17T07:43:15.328Z"
+  "updatedAt": "2026-09-17T13:30:58.545Z"
 }
