@@ -146463,8 +146463,740 @@
           "vulnerability": 0
         }
       }
+    },
+    "5a9724e864e1f7926d18": {
+      "storyId": "5a9724e864e1f7926d18",
+      "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform",
+      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T05:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83c11b0f03bffb7b0a762b4a",
+      "bodyFingerprint": "fd63933392db44d6a8c5157e",
+      "bodyCharacterCount": 5077,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:14.795Z",
+      "assessment": {
+        "centralEvent": "Iceland-based Treble raises $18 million for its voice simulation platform",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2cf9cee5f81c544e819d": {
+      "storyId": "2cf9cee5f81c544e819d",
+      "url": "https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents",
+      "title": "OpenAI reveals cases of ‘concerning’ AI behaviour as it announces new disclosure system",
+      "source": "The Guardian AI",
+      "published": "2026-09-17T06:58:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "80aca7bdeb594c512300138f",
+      "bodyFingerprint": "1875ba9382be52fcc0956b48",
+      "bodyCharacterCount": 4969,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:14.915Z",
+      "assessment": {
+        "centralEvent": "OpenAI reveals cases of ‘concerning’ AI behaviour as it announces new disclosure system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Wednesday’s new cases came after OpenAI disclosed in July that an AI agent “swarm” hacked into the AI startup Hugging Face during a cybersecurity test.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "In one of the new cases reported by OpenAI, an unreleased research model inserted “jailbreak-like instructions” into its own notes to disregard its normal constraints and told itself to be “freed from the roles and identities that bind othe",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Examples of potential existential threats posed by AI range from facilitating the development of bioweapons to triggering a global financial crash.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "968a1da7fe632938c161": {
+      "storyId": "968a1da7fe632938c161",
+      "url": "https://www.politico.eu/article/king-charles-uk-pace-of-ai-is-deeply-concerning",
+      "title": "King Charles: Pace of AI is ‘deeply concerning’",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-17T05:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b17f385636e2bc5e86702fc4",
+      "bodyFingerprint": "d519bd8bb70c81a533b5a155",
+      "bodyCharacterCount": 2080,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:15.040Z",
+      "assessment": {
+        "centralEvent": "King Charles: Pace of AI is ‘deeply concerning’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The event at Dumfries House in Ayrshire, Scotland, first reported by POLITICO , takes place amid heightened global concern over rapid advances in AI .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The event at Dumfries House in Ayrshire, Scotland, first reported by POLITICO , takes place amid heightened global concern over rapid advances in AI .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The event at Dumfries House in Ayrshire, Scotland, first reported by POLITICO , takes place amid heightened global concern over rapid advances in AI .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The event at Dumfries House in Ayrshire, Scotland, first reported by POLITICO , takes place amid heightened global concern over rapid advances in AI .",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.41,
+        "rawScore": 27.41,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "df1d846c550857833406": {
+      "storyId": "df1d846c550857833406",
+      "url": "https://www.theguardian.com/science/audio/2026/sep/17/the-week-that-changed-maths-for-ever-podcast",
+      "title": "The week that changed maths for ever – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-17T04:00:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7182ef5c65f9412454890cf9",
+      "bodyFingerprint": "2e3116a71230e2883c9a35f6",
+      "bodyCharacterCount": 1044,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:15.077Z",
+      "assessment": {
+        "centralEvent": "The week that changed maths for ever – podcast",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The news left mathematicians reeling, and many expressed concern over what will be left for humans as AI becomes ever more adept at unravelling complex problems.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8138d304443b052d661c": {
+      "storyId": "8138d304443b052d661c",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260916232525.htm",
+      "title": "NASA’s New Horizons spots signs of liquid nitrogen flowing on Pluto",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-17T04:02:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8fb273d8b12aafc544cb59ee",
+      "bodyFingerprint": "6334d1854b40784f7efe3b3f",
+      "bodyCharacterCount": 10326,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:15.085Z",
+      "assessment": {
+        "centralEvent": "NASA’s New Horizons spots signs of liquid nitrogen flowing on Pluto",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Even so, parts of northern Sputnik Planitia have been darkened in patterns that resemble features seen on terrestrial glaciers after they are exposed to rainwater or to liquid emerging from beneath the ice.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "As it moves, it could wet the surrounding nitrogen ice and create the dark markings observed by New Horizons. \"I think the great significance of these findings, and the tantalizing picture that it promotes, is a great motivation and reason ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Kelsi Singer, one of the study's co-authors. \"Pluto has many unique terrains seen nowhere else in the solar system, and this area of Sputnik Planitia is one of them.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.15,
+        "rawScore": 46.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d1f24fc5083534019509": {
+      "storyId": "d1f24fc5083534019509",
+      "url": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026",
+      "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T03:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ad0683c57dc7caa710d246d4",
+      "bodyFingerprint": "c3f996f1fae38deee721725d",
+      "bodyCharacterCount": 7316,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:15.098Z",
+      "assessment": {
+        "centralEvent": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TechCrunch Events View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "86c44ad85092a5e11540": {
+      "storyId": "86c44ad85092a5e11540",
+      "url": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses",
+      "title": "Snap tries to make the case again for its $2,200 smart glasses",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T00:58:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "957516f2a57e0ad931b02dfc",
+      "bodyFingerprint": "79d5a748008d49c7be74599b",
+      "bodyCharacterCount": 6078,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:15.117Z",
+      "assessment": {
+        "centralEvent": "Snap tries to make the case again for its $2,200 smart glasses",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bcf3b340afa912516c91": {
+      "storyId": "bcf3b340afa912516c91",
+      "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash",
+      "title": "Al Gore says the real AI risk isn’t data centers",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T23:43:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d7163bcaf08c5306eedd1410",
+      "bodyFingerprint": "4be0a1730680aba5340774d5",
+      "bodyCharacterCount": 8827,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:15.137Z",
+      "assessment": {
+        "centralEvent": "Al Gore says the real AI risk isn’t data centers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“I think that part of the reason for the growing bipartisan opposition to data centers in so many parts of the U.S. is being driven by the underlying concerns about job losses and some of the other threats that experts inside OpenAI and ins",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The International Energy Agency estimates that global air conditioning already consumes more electricity annually than the entire European Union, and with ownership still under 15% across the hottest, fastest-growing parts of the world, tha",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“I do think that Dario Amodei is very sincere, and I think that Sam Altman and Elon Musk were sincere in seconding [Amodei’s] warning of a few days ago.” Gore being Gore (he often reaches for literature, Scripture, and pop philosophy to mak",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.67,
+        "rawScore": 48.67,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a6c8c6cfabc1a1988ec1": {
+      "storyId": "a6c8c6cfabc1a1988ec1",
+      "url": "https://thedispatch.com/article/ai-doomer-jacob-coxon-anthropic",
+      "title": "The AI Doomsday Scenario: Explained",
+      "source": "The Dispatch AI",
+      "published": "2026-09-17T05:02:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2a732c8014ee57e655e9a8b7",
+      "bodyFingerprint": "7093b2c95b7b1b0550bb36cb",
+      "bodyCharacterCount": 4765,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:15.191Z",
+      "assessment": {
+        "centralEvent": "The AI Doomsday Scenario: Explained",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Before joining The Dispatch, he reported on crypto, most recently at Fortune Magazine.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "638986b2f81dd76b500f": {
+      "storyId": "638986b2f81dd76b500f",
+      "url": "https://thedispatch.com/article/ai-backlash-china-psyops",
+      "title": "Is China Driving Anti-AI Sentiment?",
+      "source": "The Dispatch AI",
+      "published": "2026-09-17T05:03:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "05056e77fb4f795139dc6b3f",
+      "bodyFingerprint": "a40a8802051040fc38540c3f",
+      "bodyCharacterCount": 4969,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:15.324Z",
+      "assessment": {
+        "centralEvent": "Is China Driving Anti-AI Sentiment?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d02b6edaf37a54088bf": {
+      "storyId": "0d02b6edaf37a54088bf",
+      "url": "https://www.bbc.co.uk/news/articles/cmpq0wj5g899o?at_campaign=rss&at_medium=RSS",
+      "title": "OpenAI reveals six more safety issues and unveils plan to disclose incidents",
+      "source": "BBC News AI",
+      "published": "2026-09-17T03:09:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "326419e76f553b36bb558d8a",
+      "bodyFingerprint": "354efa5162f65df14356f048",
+      "bodyCharacterCount": 3800,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T07:43:15.328Z",
+      "assessment": {
+        "centralEvent": "OpenAI reveals six more safety issues and unveils plan to disclose incidents",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenAI made headlines in July when it revealed that some of its most advanced AI models went rogue and hacked Hugging Face, one of the world's largest hubs for sharing AI models, after it lost control of them during a security test.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, OpenAI chief executive Sam Altman By Peter Hoskins Business reporter Published 4 hours ago OpenAI revealed six more incidents of unexpected or concerning behaviour by its intelligence (AI) models, a",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In a series of social media posts, the US president compared warnings about AI to the \"Global Warming Scam\" which, he said, was \"being perpetrated by the Radical Left Dumocrats\".",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-17T01:28:17.190Z"
+  "updatedAt": "2026-09-17T07:43:15.328Z"
 }
