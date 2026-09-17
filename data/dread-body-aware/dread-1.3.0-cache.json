@@ -146037,8 +146037,434 @@
           "vulnerability": 0
         }
       }
+    },
+    "cb281fd96f2ff97eacb5": {
+      "storyId": "cb281fd96f2ff97eacb5",
+      "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+      "source": "The Verge AI",
+      "published": "2026-09-16T23:40:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8bfa218441e72729d18d9e02",
+      "bodyFingerprint": "8592dc613251224c73cac491",
+      "bodyCharacterCount": 4927,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T01:28:16.790Z",
+      "assessment": {
+        "centralEvent": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters AI News Snapchat Tech Most Popular Most Popular The iPhone 18 Pro’s big camera update is all about the small gains The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long The Boox Palma 3 gets stylus support and a sleek red",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7f43b5022f8b8e0d9006": {
+      "storyId": "7f43b5022f8b8e0d9006",
+      "url": "https://mashable.com/tech/microsoft-ai-ceo-mustafa-suleyman-essay-calls-out-anthropic",
+      "title": "Microsofts Mustafa Suleyman calls out Anthropic for chasing AI consciousness",
+      "source": "Mashable AI",
+      "published": "2026-09-16T23:10:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83f23c9f2cfae55bcf76763d",
+      "bodyFingerprint": "4a2ab78b7b11d2f2f14ec9ed",
+      "bodyCharacterCount": 8509,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T01:28:16.811Z",
+      "assessment": {
+        "centralEvent": "Microsofts Mustafa Suleyman calls out Anthropic for chasing AI consciousness",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It's a concept that calls to mind the Turing Test , and a related thought experiment called the Chinese Room , first proposed in 1980.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4d412859e266e8b7bf55": {
+      "storyId": "4d412859e266e8b7bf55",
+      "url": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review",
+      "title": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
+      "source": "The Verge AI",
+      "published": "2026-09-16T20:59:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a611697cb786bdb50c051a24",
+      "bodyFingerprint": "bfdfaf57c498109277aa50e6",
+      "bodyCharacterCount": 7225,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T01:28:16.822Z",
+      "assessment": {
+        "centralEvent": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "46aa3a71d1463843b203": {
+      "storyId": "46aa3a71d1463843b203",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+      "title": "The AI data center e-waste problem is huge — and getting bigger",
+      "source": "The Verge AI",
+      "published": "2026-09-16T20:40:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "82195082e7a40c7590434f95",
+      "bodyFingerprint": "69af94d4a27809a09ac12c17",
+      "bodyCharacterCount": 6157,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T01:28:16.830Z",
+      "assessment": {
+        "centralEvent": "The AI data center e-waste problem is huge — and getting bigger",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters Sep 16 AI and data centers are incredibly unpopular in every poll Richard Lawler Sep 15 Most Popular Most Popular The iPhone 18 Pro’s big camera update is all about the small gains The 2.5-hour AI-generated Odyssey movie is 2.5 h",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0da8c92c52e3b2c064f1": {
+      "storyId": "0da8c92c52e3b2c064f1",
+      "url": "https://www.bbc.co.uk/news/articles/cgqd9zkkvlyo?at_campaign=rss&at_medium=RSS",
+      "title": "Would you buy branded clothing from your favourite tech firm?",
+      "source": "BBC News AI",
+      "published": "2026-09-16T23:18:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e48f8b58a4c230e33f7e3bca",
+      "bodyFingerprint": "7df9e80f71cf95f14ca39fb1",
+      "bodyCharacterCount": 6769,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-17T01:28:16.838Z",
+      "assessment": {
+        "centralEvent": "Would you buy branded clothing from your favourite tech firm?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Take US software firm Palantir Technologies, which has faced criticism due to it work for the military and police, both in the US and overseas.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Angela Baldwin Image caption, Nvidia's clothing lines quickly sell out, bought by fans of the tech giant By Chris Marshall Business reporter Published 2 hours ago For Natalie Fratto, putting on her dark green jumper from US mi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "She explains that it's a representation of a team and ethos \"that I am impressed by and root for\", and she proudly wears the jumper in videos she posts on social media. , external Nvidia certainly plays in the top league of global tech firm",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "022d72923c96ccdada0a": {
+      "storyId": "022d72923c96ccdada0a",
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-ai-ceo-criticises-anthropic-over-model-rights",
+      "title": "Microsoft AI CEO criticises Anthropic over model ‘rights’",
+      "source": "AI News",
+      "published": "2026-09-16T14:47:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "04de6cf75c22dcb0d47fbadd",
+      "bodyFingerprint": "e65a295ead6ec17ba0e17637",
+      "bodyCharacterCount": 483,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-17T01:28:17.187Z",
+      "assessment": {
+        "centralEvent": "Microsoft AI CEO criticises Anthropic over model ‘rights’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3cb09794ac0e18b81fbc": {
+      "storyId": "3cb09794ac0e18b81fbc",
+      "url": "https://www.artificialintelligence-news.com/news/chatgpt-pioneer-launches-jev-model-for-programmatic-logic",
+      "title": "ChatGPT pioneer launches Jev model for programmatic logic",
+      "source": "AI News",
+      "published": "2026-09-16T10:31:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1472e43ff94a6aa6da342c91",
+      "bodyFingerprint": "43cd72f2be4ab19d964bd9b5",
+      "bodyCharacterCount": 517,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-17T01:28:17.190Z",
+      "assessment": {
+        "centralEvent": "ChatGPT pioneer launches Jev model for programmatic logic",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-16T22:58:31.857Z"
+  "updatedAt": "2026-09-17T01:28:17.190Z"
 }
