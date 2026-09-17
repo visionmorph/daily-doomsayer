@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-16T22:00:00.000Z",
+  "generatedAt": "2026-09-17T01:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-16",
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "https://lawfare-assets-new.azureedge.net/assets/images/default-source/article-images/53680707456_97e1650602_o.png?sfvrsn=4b11ad93_5",
           "peak": 51.31,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-16",
           "firstObservedAt": "2026-09-16T22:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 51.31
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-16",
           "firstObservedAt": "2026-09-16T06:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa7c7fafdaacea9a0311827/master/pass/0914-100%20Politicians%20Sexual%20Deepfake.jpg",
           "peak": 50.49,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-16",
           "firstObservedAt": "2026-09-16T06:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 50.49
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
           "peak": 50.16,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-16",
           "firstObservedAt": "2026-09-16T06:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 50.16
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b524/live/d98e1c20-b1a7-11f1-bc1f-3f186ca4140c.jpg",
           "peak": 50.16,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-16",
           "firstObservedAt": "2026-09-16T06:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 50.16
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-16",
           "firstObservedAt": "2026-09-16T06:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 49.94
         }
       ]
@@ -2657,11 +2657,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "https://lawfare-assets-new.azureedge.net/assets/images/default-source/article-images/53680707456_97e1650602_o.png?sfvrsn=4b11ad93_5",
           "peak": 51.31,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-16",
           "firstObservedAt": "2026-09-16T22:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 51.31
         },
         {
@@ -2671,11 +2671,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 3,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -2699,11 +2699,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa7c7fafdaacea9a0311827/master/pass/0914-100%20Politicians%20Sexual%20Deepfake.jpg",
           "peak": 50.49,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T19:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 50.49
         },
         {
@@ -2741,11 +2741,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
           "peak": 50.16,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 3,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 50.16
         },
         {
@@ -2755,11 +2755,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b524/live/d98e1c20-b1a7-11f1-bc1f-3f186ca4140c.jpg",
           "peak": 50.16,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 1,
           "peakDate": "2026-09-16",
           "firstObservedAt": "2026-09-16T06:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 50.16
         }
       ]
@@ -3323,11 +3323,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "https://lawfare-assets-new.azureedge.net/assets/images/default-source/article-images/53680707456_97e1650602_o.png?sfvrsn=4b11ad93_5",
           "peak": 51.31,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-16",
           "firstObservedAt": "2026-09-16T22:00:00.000Z",
-          "lastObservedAt": "2026-09-16T22:00:00.000Z",
+          "lastObservedAt": "2026-09-17T01:00:00.000Z",
           "average": 51.31
         },
         {
