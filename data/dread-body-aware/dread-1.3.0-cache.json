@@ -151432,8 +151432,179 @@
           "vulnerability": 0
         }
       }
+    },
+    "300708b563a824c6e7db": {
+      "storyId": "300708b563a824c6e7db",
+      "url": "https://www.theguardian.com/news/audio/2026/sep/18/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us-podcast",
+      "title": "‘If you build something vastly smarter than you, it better be on your side’: can we stop AI from deceiving us? – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-18T04:00:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1099aab5d224bcd65a501aa3",
+      "bodyFingerprint": "a291bb607e0fd3e470211a50",
+      "bodyCharacterCount": 738,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T05:57:39.381Z",
+      "assessment": {
+        "centralEvent": "‘If you build something vastly smarter than you, it better be on your side’: can we stop AI from deceiving us? – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "12ea1e7618ee05a4713f": {
+      "storyId": "12ea1e7618ee05a4713f",
+      "url": "https://www.theguardian.com/politics/audio/2026/sep/18/is-trumps-ai-obsession-walking-the-world-into-disaster-podcast",
+      "title": "Is Trump’s AI obsession walking the world into disaster? – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-18T04:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2d3d900d2e2d674ab2af74f9",
+      "bodyFingerprint": "d13c4b65b0c484d3f04d2dad",
+      "bodyCharacterCount": 788,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T05:57:39.387Z",
+      "assessment": {
+        "centralEvent": "Is Trump’s AI obsession walking the world into disaster? – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "81f5047420b0618bd498": {
+      "storyId": "81f5047420b0618bd498",
+      "url": "https://www.eff.org/deeplinks/2026/09/eff-lawmakers-ground-ai-cybersecurity-rules-best-practices",
+      "title": "EFF to Lawmakers: Ground AI Cybersecurity Rules in Best Practices",
+      "source": "EFF AI",
+      "published": "2026-09-18T01:16:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "834405dac0298ad45eea38a9",
+      "bodyFingerprint": "fad8fd526266020f4f8796d0",
+      "bodyCharacterCount": 2126,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T05:57:39.427Z",
+      "assessment": {
+        "centralEvent": "EFF to Lawmakers: Ground AI Cybersecurity Rules in Best Practices",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "As they consider potentially regulating frontier AI, they should focus any new legislation on the immediate, demonstrated risks from those incidents.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-18T00:22:36.621Z"
+  "updatedAt": "2026-09-18T05:57:39.427Z"
 }
