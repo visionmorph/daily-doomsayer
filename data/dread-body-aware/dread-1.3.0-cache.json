@@ -154179,8 +154179,1395 @@
           "vulnerability": 0
         }
       }
+    },
+    "34f89a45631ccd21267c": {
+      "storyId": "34f89a45631ccd21267c",
+      "url": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion",
+      "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+      "source": "Ars Technica AI",
+      "published": "2026-09-18T19:20:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3132db02d1aa3ec3b10b4242",
+      "bodyFingerprint": "4dcdc9642c1270e62a98062c",
+      "bodyCharacterCount": 8147,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:20.994Z",
+      "assessment": {
+        "centralEvent": "FAA tees up $875M AI tool to help manage air traffic congestion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A deadly reminder came on January 29, 2025, when 67 people died after a US Army Black Hawk helicopter collided with an American Airlines passenger jet just southeast of Ronald Reagan Washington National Airport.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The air traffic controller workforce was further stressed by having to work without paychecks during a 43-day government shutdown from October 1 to November 12, 2025.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In an article for Global Airspace Radar Magazine , Mann described the new Flow Management Data and Services system as the “backbone,” whereas SMART represents the “predictive layer above it.” Air Space Intelligence claims its separate Flywa",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Since that time, the air traffic controller workforce has operated in a “permanent crisis,” with minimum staffing levels, according to Mann .",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Investigators cited airport tower understaffing as one of multiple “causal factors,” with just one controller handling both helicopter and runway traffic on the night of the fatal incident.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 70.49,
+        "rawScore": 70.49,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.59,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f20b408e3b73028b90dd": {
+      "storyId": "f20b408e3b73028b90dd",
+      "url": "https://mashable.com/tech/oregon-data-center-power-consumption-report",
+      "title": "Oregon’s data centers use almost 25% of the state’s power, report reveals",
+      "source": "Mashable AI",
+      "published": "2026-09-18T19:04:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "767c422b53e0be8401864077",
+      "bodyFingerprint": "c0215eeb5dba03e7c7b89ec4",
+      "bodyCharacterCount": 2441,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.022Z",
+      "assessment": {
+        "centralEvent": "Oregon’s data centers use almost 25% of the state’s power, report reveals",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The researchers behind the report believe that data center energy consumption in Oregon will rise to nearly 25 terawatt hours by 2030.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d0a1362ff9cce82c6b87": {
+      "storyId": "d0a1362ff9cce82c6b87",
+      "url": "https://www.wired.com/story/heres-how-an-ai-slowdown-could-actually-work",
+      "title": "Here’s How an AI Slowdown Could Actually Be Enforced",
+      "source": "WIRED AI",
+      "published": "2026-09-18T19:21:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5473be2ac704c352f9724216",
+      "bodyFingerprint": "55cbddd9768749c55b662290",
+      "bodyCharacterCount": 12287,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.038Z",
+      "assessment": {
+        "centralEvent": "Here’s How an AI Slowdown Could Actually Be Enforced",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "With political and public pressure now growing for a more measured approach to building AI, however, the answer to keeping AI safe is still unclear.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But Douglas and other experts say controlling AI development effectively and reliably will require funding and expertise from outside the AI labs themselves.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Louise Matsakis Why So Many AI Researchers Think the Machines Could Kill Everyone A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The fact that some AI agents have recently escaped containment during testing certainly seems to suggest that more rigor may be required.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.07,
+        "rawScore": 28.07,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.37,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3cc021112ee272484d23": {
+      "storyId": "3cc021112ee272484d23",
+      "url": "https://www.inc.com/dan-schawbel/adobe-new-ceo-challenges/91407749",
+      "title": "Adobe’s Next CEO Already Knows the Business. His Hardest Test Is What the Company Still Can’t See",
+      "source": "Inc. AI",
+      "published": "2026-09-18T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e568f64dcdc954aec6330909",
+      "bodyFingerprint": "ddc257b901ac3dcf9073bea2",
+      "bodyCharacterCount": 106,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T19:39:21.043Z",
+      "assessment": {
+        "centralEvent": "Adobe’s Next CEO Already Knows the Business. His Hardest Test Is What the Company Still Can’t See",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b0f2fc35950c247905dc": {
+      "storyId": "b0f2fc35950c247905dc",
+      "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers",
+      "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+      "source": "TechCrunch AI",
+      "published": "2026-09-18T18:49:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3a7b4722401723d6562c57b8",
+      "bodyFingerprint": "e5f763de25318a230894aea4",
+      "bodyCharacterCount": 6894,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.106Z",
+      "assessment": {
+        "centralEvent": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c9b3aea2b09ec0f67c3a": {
+      "storyId": "c9b3aea2b09ec0f67c3a",
+      "url": "https://www.inc.com/kit-eaton/spacex-wants-to-get-data-for-grok-using-this-controversial-bargain-basement-method/91407828",
+      "title": "SpaceX Wants to Get Data for Grok Using This Controversial Bargain-Basement Method",
+      "source": "Inc. AI",
+      "published": "2026-09-18T18:30:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "310bf383908677ee40b74c06",
+      "bodyFingerprint": "37123a8c30f8188dfb67eab9",
+      "bodyCharacterCount": 128,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T19:39:21.122Z",
+      "assessment": {
+        "centralEvent": "SpaceX Wants to Get Data for Grok Using This Controversial Bargain-Basement Method",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Elon Musk’s rocket company is reportedly eying a scrappy way of training its AI, and it’s all about data from troubled startups.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f4d3ae8707e3bc05840d": {
+      "storyId": "f4d3ae8707e3bc05840d",
+      "url": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters",
+      "title": "Disney’s first CTO led an AI startup it once accused of copying its characters",
+      "source": "TechCrunch AI",
+      "published": "2026-09-18T17:59:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f3235c7c8c9ab78469a257c8",
+      "bodyFingerprint": "f1dcf2f0e5d95419af3b610b",
+      "bodyCharacterCount": 2448,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.134Z",
+      "assessment": {
+        "centralEvent": "Disney’s first CTO led an AI startup it once accused of copying its characters",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Variety reports that Anand was chosen for the role by new Disney CEO Josh D’Amaro, who took over after former company chief Bob Iger stepped down in March.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , AI , character.ai , Disney , entertainment , Media & Entertainment , TC October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One of those legal problems arose in September 2025, when Disney sent the company a cease and desist letter accusing it of infringing on its beloved characters.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "392a515ff6310e69ddc9": {
+      "storyId": "392a515ff6310e69ddc9",
+      "url": "https://www.inc.com/aaron-mok/claudes-new-chief-of-staff-feature-looks-like-a-massive-win-for-lean-startups/91407695",
+      "title": "Claude’s New ‘Chief of Staff’ Feature Looks Like a Massive Win for Lean Startups",
+      "source": "Inc. AI",
+      "published": "2026-09-18T17:50:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e481371f822bcad9f4683678",
+      "bodyFingerprint": "9d438c08d0371204552923c5",
+      "bodyCharacterCount": 100,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T19:39:21.148Z",
+      "assessment": {
+        "centralEvent": "Claude’s New ‘Chief of Staff’ Feature Looks Like a Massive Win for Lean Startups",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0a255d7c17cbd4b0b89a": {
+      "storyId": "0a255d7c17cbd4b0b89a",
+      "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
+      "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+      "source": "The Verge AI",
+      "published": "2026-09-18T18:29:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "86a178316ab9b450505b5e85",
+      "bodyFingerprint": "5ad273288d94fe911e28baad",
+      "bodyCharacterCount": 5067,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.188Z",
+      "assessment": {
+        "centralEvent": "Virginia governor creates an AI task force and moves to restrain data centers",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Jay Peters Sep 16 Most Popular Most Popular The Apple Watch Series 12 is the start of a new wearable era The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long The iPhone 18 Pro’s big camera update is all about the small gains Inside",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters Sep 16 Most Popular Most Popular The Apple Watch Series 12 is the start of a new wearable era The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long The iPhone 18 Pro’s big camera update is all about the small gains Inside",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8ddc536d3af794509a4a": {
+      "storyId": "8ddc536d3af794509a4a",
+      "url": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious",
+      "title": "US government website used Chinese model the FBI called \"malicious\"",
+      "source": "Ars Technica AI",
+      "published": "2026-09-18T17:28:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "91cd35aad689280f6338e9f1",
+      "bodyFingerprint": "3627902e22d9bb86edd36a9b",
+      "bodyCharacterCount": 6810,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.196Z",
+      "assessment": {
+        "centralEvent": "US government website used Chinese model the FBI called \"malicious\"",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Use probably posed no security risks Whether the government use of the Qwen model posed a security risk depends on how it was trained, Georgetown University Law Professor Anupam Chander told Reuters.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav On Wednesday, US government officials removed a Chinese AI search tool that was briefly deployed on",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Earlier this month, the Federal Bureau of Investigation (FBI) named Alibaba among six leading Chinese firms allegedly conducting “industrial-scale distillation” that the agency says is helping America’s biggest competitor cut costs and deve",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Iran strikes on Amazon data centers caused permanent loss of customer data 2.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.28,
+        "rawScore": 29.28,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.48,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "baa33733795ae8a6a36e": {
+      "storyId": "baa33733795ae8a6a36e",
+      "url": "https://www.theguardian.com/technology/2026/sep/18/europe-ai-safety-debate",
+      "title": "Why Europe has been absent from the great AI safety debate",
+      "source": "The Guardian AI",
+      "published": "2026-09-18T18:37:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a9c6477ded33cefa663b63cf",
+      "bodyFingerprint": "33db2513db90680bcb18fcd6",
+      "bodyCharacterCount": 7089,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.252Z",
+      "assessment": {
+        "centralEvent": "Why Europe has been absent from the great AI safety debate",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Margrethe Vestager, who clashed with the US tech industry as the EU’s former competition commissioner, co-authored a report this week – A Transformative AI Strategy for Europe – that echoed Lagarde’s warning.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Solutions to this, according to the report, include building more datacentres – the central nervous systems of AI – and also to ensure the continent is resilient enough to withstand “AI crises” like a powerful model slipping out of control.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But she adds: “Europe must ... build its own AI to strengthen the ecosystem, retain talent, and inspire innovation.” Vestager acknowledges that if there is an existential threat, it requires a global solution; one that does not hand power t",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Solutions to this, according to the report, include building more datacentres – the central nervous systems of AI – and also to ensure the continent is resilient enough to withstand “AI crises” like a powerful model slipping out of control.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.06,
+        "rawScore": 29.06,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.46,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d277e19284fef86a0b54": {
+      "storyId": "d277e19284fef86a0b54",
+      "url": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow",
+      "title": "Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?",
+      "source": "TechCrunch AI",
+      "published": "2026-09-18T17:09:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "919cba75d1cd3c2bedb49b8d",
+      "bodyFingerprint": "6406cdfad4e4244edac56d46",
+      "bodyCharacterCount": 403,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T19:39:21.270Z",
+      "assessment": {
+        "centralEvent": "Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but...how?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "A week after an Anthropic researcher’s doomsday warning rattled the AI world, the company’s CEO Dario Amodei has outlined his plan to “pace the frontier” of AI development.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and it’s already picked up some industry support, along with some pointed pushback from Nvidia’s Jensen Huang.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f05d4ddd7b6f2680c97c": {
+      "storyId": "f05d4ddd7b6f2680c97c",
+      "url": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves",
+      "title": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
+      "source": "TechCrunch AI",
+      "published": "2026-09-18T17:06:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea50f650de17fe230ebfaa32",
+      "bodyFingerprint": "6aa4776b67666dbe58788690",
+      "bodyCharacterCount": 5260,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.275Z",
+      "assessment": {
+        "centralEvent": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "A week after an Anthropic researcher’s doomsday warning rattled the AI world, the company’s CEO Dario Amodei has outlined his plan to “pace the frontier” of AI development.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2857cdaa497d76087e7d": {
+      "storyId": "2857cdaa497d76087e7d",
+      "url": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
+      "title": "Gavin Newsom is pushing for an AI kill switch",
+      "source": "The Verge AI",
+      "published": "2026-09-18T17:04:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "749afd49227aa8063da0ce22",
+      "bodyFingerprint": "e3efef5849824e456a4890fd",
+      "bodyCharacterCount": 5069,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.283Z",
+      "assessment": {
+        "centralEvent": "Gavin Newsom is pushing for an AI kill switch",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Newsom wants the group to consider how the state could require AI companies to embed independent verification groups onsite for regular audits, make their transparency reports and risk assessments subject to standards of independent auditor",
+            "matchedRule": "/\\b(?:measured|verified)\\b.*\\b(?:damage|loss|consequences?|impact)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "577ab8eeab8374f9c1e1": {
+      "storyId": "577ab8eeab8374f9c1e1",
+      "url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops",
+      "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
+      "source": "TechCrunch AI",
+      "published": "2026-09-18T16:35:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e33f95a312aa9ed0f70bc810",
+      "bodyFingerprint": "cd07064fb1f1fa29559c5402",
+      "bodyCharacterCount": 3384,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.309Z",
+      "assessment": {
+        "centralEvent": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ae1772cc55732eb00ffa": {
+      "storyId": "ae1772cc55732eb00ffa",
+      "url": "https://www.theguardian.com/technology/2026/sep/18/could-ai-pose-a-serious-threat-to-our-existence",
+      "title": "Could AI pose a serious threat to our existence? | Letters",
+      "source": "The Guardian AI",
+      "published": "2026-09-18T16:56:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8b5c1334407fe00b79c81540",
+      "bodyFingerprint": "9901d8bcc0b0fd28a87d3887",
+      "bodyCharacterCount": 4461,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.316Z",
+      "assessment": {
+        "centralEvent": "Could AI pose a serious threat to our existence? | Letters",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Readers respond to the warning from a former Anthropic researcher that the technology could ‘kill us all’ by the end of the decade Here we go again with another round of tech bros claiming that AI is going to develop superintelligence and k",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a5c8c93d0bf688638c60": {
+      "storyId": "a5c8c93d0bf688638c60",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings",
+      "title": "What Hollywood thinks about existential AI warnings",
+      "source": "The Verge AI",
+      "published": "2026-09-18T16:35:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e42093814411071d73c1b35",
+      "bodyFingerprint": "2ca05cfa1a617456a7db27a4",
+      "bodyCharacterCount": 9549,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.333Z",
+      "assessment": {
+        "centralEvent": "What Hollywood thinks about existential AI warnings",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Hearing the message from “the CEOs of these companies or the billionaires who’ve made their billions off of doing the exact thing that they’re now warning us might not be good,” has left him unsure “what to trust or what to believe.” But he",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Writers Guild of America East (WGAE) executive director Sam Wheeler was much more pointed in his condemnation of the “tech oligarchs pushing AI on our society” whose recklessness “has been matched only by their rampant dishonesty.” But whil",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The heads of major AI companies including Anthropic, OpenAI, Google DeepMind, and X have also called for an industry-wide slowdown on the technology’s development .",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "872b16b92061a184ea46": {
+      "storyId": "872b16b92061a184ea46",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/18/the-guardian-view-on-nazas-persecuted-directors-journalism-is-not-treason",
+      "title": "The Guardian view on NAZA’s persecuted directors: journalism is not treason | Editorial",
+      "source": "The Guardian AI",
+      "published": "2026-09-18T16:46:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "35adec534513f8fa2c205b07",
+      "bodyFingerprint": "3503c6407e903c7793df5b04",
+      "bodyCharacterCount": 4536,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.363Z",
+      "assessment": {
+        "centralEvent": "The Guardian view on NAZA’s persecuted directors: journalism is not treason | Editorial",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "When civilian fatalities rise to as many as hundreds for one enemy combatant, proportionality looks less like a military assessment and more like a licence for mass death.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "More than 73,000 Palestinians, including more than 20,000 children, have been killed in the campaign by Israel’s military.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Israel’s government might invoke national security to defend its actions.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Named after the Israeli military acronym euphemistically used for “collateral damage”, NAZA features interviews with 24 anonymous insiders who reflect on their role in the death-dealing.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Crucially, Israeli soldiers describe the military accepting large numbers of Palestinian casualties as the price for killing a single Hamas operative.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 69.67,
+        "rawScore": 69.67,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.515,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a2f038ddf6ba57e05116": {
+      "storyId": "a2f038ddf6ba57e05116",
+      "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+      "title": "A new chapter for MIT Reads",
+      "source": "MIT News AI",
+      "published": "2026-09-18T16:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fa778abb473e4579d9d998a0",
+      "bodyFingerprint": "ff1c078601108ca07fdcfc8e",
+      "bodyCharacterCount": 4445,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.382Z",
+      "assessment": {
+        "centralEvent": "A new chapter for MIT Reads",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4c6167b67b89d08a6492": {
+      "storyId": "4c6167b67b89d08a6492",
+      "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households",
+      "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
+      "source": "TechCrunch AI",
+      "published": "2026-09-18T17:33:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "be560451dde4255a91a1b35c",
+      "bodyFingerprint": "687a4bbfe334874238c30b87",
+      "bodyCharacterCount": 5450,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T19:39:21.744Z",
+      "assessment": {
+        "centralEvent": "Google’s new ‘CC’ is an AI agent that helps families run their households",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "61c4e22e04960a7d151e": {
+      "storyId": "61c4e22e04960a7d151e",
+      "url": "https://www.nature.com/articles/d41586-026-02922-6",
+      "title": "AI cracked the Navier–Stokes challenge. What does that mean for physics?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-18T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e3c5e4168d0aede451f5a90",
+      "bodyFingerprint": "2726bdacf9201d57391037b9",
+      "bodyCharacterCount": 73,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T19:39:22.115Z",
+      "assessment": {
+        "centralEvent": "AI cracked the Navier–Stokes challenge. What does that mean for physics?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-18T16:27:13.346Z"
+  "updatedAt": "2026-09-18T19:39:22.115Z"
 }
