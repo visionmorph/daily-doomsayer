@@ -151603,8 +151603,1019 @@
           "vulnerability": 0
         }
       }
+    },
+    "76c6192e963ff936eb16": {
+      "storyId": "76c6192e963ff936eb16",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260917003715.htm",
+      "title": "NASA’s Moon orbiter finds a 728-foot crater that wasn’t there before",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-18T10:18:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0d4de7c3af6a595d7b1ae676",
+      "bodyFingerprint": "4383b1893a14c6979f6b3fd6",
+      "bodyCharacterCount": 11441,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.213Z",
+      "assessment": {
+        "centralEvent": "NASA’s Moon orbiter finds a 728-foot crater that wasn’t there before",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a second paper on September 16 in the same journal, researchers reported that the temperature difference appears to come from changes in the lunar regolith.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 96,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c64a75739366d280077b": {
+      "storyId": "c64a75739366d280077b",
+      "url": "https://www.theguardian.com/politics/video/2026/sep/18/is-trumps-ai-obsession-walking-the-world-into-disaster-politics-weekly-america",
+      "title": "Is Trump’s AI obsession walking the world into disaster? | Politics Weekly America",
+      "source": "The Guardian AI",
+      "published": "2026-09-18T11:00:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "038f30355c1c6ac2c0a4328f",
+      "bodyFingerprint": "b022c70e9ffbcdcc002b8618",
+      "bodyCharacterCount": 568,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.235Z",
+      "assessment": {
+        "centralEvent": "Is Trump’s AI obsession walking the world into disaster? | Politics Weekly America",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "91389808b6c8d60c3f71": {
+      "storyId": "91389808b6c8d60c3f71",
+      "url": "https://restofworld.org/2026/robot-tax-ai-wealth-redistribution",
+      "title": "The case for a robot tax to redistribute wealth",
+      "source": "Rest of World AI",
+      "published": "2026-09-18T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2744bfaac9f884c48220fc7b",
+      "bodyFingerprint": "3aedbcdb7976bfff4c87aa6c",
+      "bodyCharacterCount": 7978,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.300Z",
+      "assessment": {
+        "centralEvent": "The case for a robot tax to redistribute wealth",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The four-day workweek policy reduces the standard working week (usually to 32 hours) without cutting pay, aiming to improve the balance between work and home, productivity and mental health.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ac54ae87ee6c81c86539": {
+      "storyId": "ac54ae87ee6c81c86539",
+      "url": "https://www.wired.com/story/inside-the-surprising-leftist-split-over-ai-doom",
+      "title": "The Leftist Split Over AI Doom",
+      "source": "WIRED AI",
+      "published": "2026-09-18T10:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1620610811f20ad497dcbdd8",
+      "bodyFingerprint": "ee77a6547a4aa908cb4e6a5d",
+      "bodyCharacterCount": 13259,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.346Z",
+      "assessment": {
+        "centralEvent": "The Leftist Split Over AI Doom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "We should address harms like surveillance and Flock cameras, and other important factors.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Save this story Save this story On September 10, two days after researcher Jacob Coxon , who had recently quit his job at Anthropic, sounded the alarm about the industry potentially bringing about the end of humanity , the New York City Dem",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Isabella Ward Why So Many AI Researchers Think the Machines Could Kill Everyone A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Louise Matsakis Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Louise Matsakis Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.82,
+        "rawScore": 50.82,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.62,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3f2bc901245ba9f50e99": {
+      "storyId": "3f2bc901245ba9f50e99",
+      "url": "https://www.bbc.co.uk/news/articles/cm207d6qy0d1o?at_campaign=rss&at_medium=RSS",
+      "title": "Food festivals across UK exploited in AI-powered scam, BBC finds",
+      "source": "BBC News AI",
+      "published": "2026-09-18T09:15:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2fde9b473e7ce2de51a1f1fb",
+      "bodyFingerprint": "df2e1aa89835fa9b0a6bc837",
+      "bodyCharacterCount": 6471,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.369Z",
+      "assessment": {
+        "centralEvent": "Food festivals across UK exploited in AI-powered scam, BBC finds",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Food festivals across UK exploited in AI-powered scam, BBC finds",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Tim Woodier Image caption, Food festivals like Abergavenny are vital points in the calendar for many catering businesses By Gareth Bryer and Annell Dyfri , BBC Wales Published 2 hours ago British food festivals are being used ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Image caption, Food festivals such as Abergavenny are a labour of love for people like Andy With many festivals run by volunteers and attended by small, local traders, Fryers said seeing the emails that used his name had initially been a sh",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Despite publicising her experience to warn other traders and reporting the scam, she said she did not know how they could be stopped. \"It's getting more and more competitive to try and get a stall at these events.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "65702f6d3cb942245388": {
+      "storyId": "65702f6d3cb942245388",
+      "url": "https://www.theguardian.com/technology/2026/sep/18/andrew-hastie-says-ai-advised-him-to-reply-congratulations-to-man-who-planned-to-end-life-with-assisted-dying",
+      "title": "Andrew Hastie says AI advised him to reply ‘congratulations!’ to man who planned to end life with assisted dying",
+      "source": "The Guardian AI",
+      "published": "2026-09-18T09:05:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17eec2440c69df237c455fb1",
+      "bodyFingerprint": "95b4d89334495f2d2589f020",
+      "bodyCharacterCount": 6086,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.382Z",
+      "assessment": {
+        "centralEvent": "Andrew Hastie says AI advised him to reply ‘congratulations!’ to man who planned to end life with assisted dying",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A proposal to give the companies access to everything Australians create online by default sparked a wave of backlash from creatives, who say the companies could pay for local licensing deals to access Australian content.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But Jenna Priestly, the assistant secretary at the attorney general’s department, on Friday confirmed looser copyright laws would also affect AI access to foreign-made content distributed in Australia.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“As Australia’s copyright framework protects not only copyright material that’s Australian in origin, but worldwide, I think it is a fairly large number that [companies] would need to go and strike deals with,” Priestly said.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Abigail Bradshaw, the director general of the Australian Signals Directorate, said her agents needed advanced AI every day to fend off “highly capable malicious cyber actors”.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.95,
+        "rawScore": 28.95,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.45,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "11cd80bdea3a458b30ad": {
+      "storyId": "11cd80bdea3a458b30ad",
+      "url": "https://www.wired.com/story/napster-is-back-and-it-wants-to-digitally-clone-teachers",
+      "title": "Napster Is Back, and It Wants to Digitally Clone Teachers",
+      "source": "WIRED AI",
+      "published": "2026-09-18T09:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b0b246794235dd2a7543da29",
+      "bodyFingerprint": "d9cfdaf6f26bbe122a6e3dd7",
+      "bodyCharacterCount": 10037,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.449Z",
+      "assessment": {
+        "centralEvent": "Napster Is Back, and It Wants to Digitally Clone Teachers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like In your inbox: WIRED's most ambitious, future-defining stories AI slop backlash is actually having an impact Big Story: The cop who took on Flock The rise of ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“We’re creating a better experience using voice, using video, to create a better way to interact with AI to make it more natural, so AI becomes more like coworkers rather than a machine or tool that you prompt, and we apply this technology ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The first phase will be anchored at the Gems School of Research and Innovation, where the Gems Global Education AI Hub and Gems Intelligence 360 platform will provide a real-world environment for educators, students, and partners to codesig",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Maxwell Zeff Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Maxwell Zeff Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.71,
+        "rawScore": 30.71,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.61,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "389f6373045dc1b6e34d": {
+      "storyId": "389f6373045dc1b6e34d",
+      "url": "https://www.politico.com/news/2026/09/18/states-defy-trump-ai-regulation-01083481",
+      "title": "Republican and Democratic states defy Trump on AI regulation",
+      "source": "POLITICO AI",
+      "published": "2026-09-18T09:01:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d244b1138466114cc53513eb",
+      "bodyFingerprint": "b4ae3444e623b206d737b0b9",
+      "bodyCharacterCount": 55,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T11:19:51.483Z",
+      "assessment": {
+        "centralEvent": "Republican and Democratic states defy Trump on AI regulation",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5eaccc3538d96acbdf3d": {
+      "storyId": "5eaccc3538d96acbdf3d",
+      "url": "https://www.inc.com/jason-mitchell/most-companies-think-ai-is-a-tool-the-winners-treat-it-as-a-system/91406338",
+      "title": "Most Companies Think AI Is a Tool. The Winners Treat It as a System",
+      "source": "Inc. AI",
+      "published": "2026-09-18T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4260fe52287376b26c83d22b",
+      "bodyFingerprint": "63363130cb90e3e869a526eb",
+      "bodyCharacterCount": 133,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T11:19:51.493Z",
+      "assessment": {
+        "centralEvent": "Most Companies Think AI Is a Tool. The Winners Treat It as a System",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Companies that once underestimated social media are at risk of making the same mistake again, this time with far bigger consequences.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "23712a7fa1e3bb7366c2": {
+      "storyId": "23712a7fa1e3bb7366c2",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/18/ai-copyright-t-shirt-designs-stolen-temu-sydney-clothing-label-lonely-kids-club",
+      "title": "‘Brutal’: thousands of T-shirt designs stolen and listed on Temu, Sydney label claims",
+      "source": "The Guardian AI",
+      "published": "2026-09-18T07:35:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a1f5c6ae028e6b8e220c2e4",
+      "bodyFingerprint": "274d82290cf08360aa9e273c",
+      "bodyCharacterCount": 4762,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.523Z",
+      "assessment": {
+        "centralEvent": "‘Brutal’: thousands of T-shirt designs stolen and listed on Temu, Sydney label claims",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "‘Brutal’: thousands of T-shirt designs stolen and listed on Temu, Sydney label claims",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Composite: Supplied Amid broader concerns from artists and small brands about their designs being regurgitated by massive online retailers, the Albanese government is considering giving AI companies greater access to Australians’ content.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Sellers are required to comply with applicable laws and platform policies, and those found to violate our IP policies are subject to enforcement actions, including listing removal, account suspensions, or permanent bans.” Levy says Temu sh",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5f9636062ad1e50b014a": {
+      "storyId": "5f9636062ad1e50b014a",
+      "url": "https://www.theguardian.com/community/live/2026/sep/18/could-ai-really-end-humanity-technology-qanda",
+      "title": "Could AI really end humanity? Post your questions for our tech reporters now",
+      "source": "The Guardian AI",
+      "published": "2026-09-18T07:14:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3f92f84a5b1a096d23327e93",
+      "bodyFingerprint": "a072b4a46dfea57a8c2c649d",
+      "bodyCharacterCount": 2843,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.540Z",
+      "assessment": {
+        "centralEvent": "Could AI really end humanity? Post your questions for our tech reporters now",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b0c4129f6042fb80fce6": {
+      "storyId": "b0c4129f6042fb80fce6",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62j06np0gpo?at_campaign=rss&at_medium=RSS",
+      "title": "Sutton's predictions v legendary guitarist Johnny Marr",
+      "source": "BBC News AI",
+      "published": "2026-09-17T15:10:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b94b24960083d5d80810730a",
+      "bodyFingerprint": "3a2dd57bf0c99f9467e71a51",
+      "bodyCharacterCount": 16903,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.562Z",
+      "assessment": {
+        "centralEvent": "Sutton's predictions v legendary guitarist Johnny Marr",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Published 17 September 2026 The pressure is growing on Manchester United boss Michael Carrick, but can his side sign off for the three-week international break by beating Fulham on Sunday? \"For teams who have had a bad start to the season, ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Etihad Stadium, 14:00 Sunderland are a really good team and, on their day, they are more than a match for anyone.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Published 17 September 2026 The pressure is growing on Manchester United boss Michael Carrick, but can his side sign off for the three-week international break by beating Fulham on Sunday? \"For teams who have had a bad start to the season, ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Three times in the past four seasons, United have gone to Craven Cottage and nicked the win late on, but I can't make a case for that happening.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 127,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.84,
+        "rawScore": 28.84,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "78c17f05b3deda8f4ff0": {
+      "storyId": "78c17f05b3deda8f4ff0",
+      "url": "https://www.wired.com/story/why-ai-bioweapons-wont-wipe-out-humanity",
+      "title": "Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons",
+      "source": "WIRED AI",
+      "published": "2026-09-18T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f71ef966cdfb121bb6caa1ba",
+      "bodyFingerprint": "c7872b065b2d6e810a77d282",
+      "bodyCharacterCount": 10966,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T11:19:51.581Z",
+      "assessment": {
+        "centralEvent": "Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Guerra says the risk of an AI-developed biothreat can also be mitigated by strengthening global surveillance systems to detect outbreaks of new diseases and circulating pathogens to researchers as early as possible.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Guerra says the risk of an AI-developed biothreat can also be mitigated by strengthening global surveillance systems to detect outbreaks of new diseases and circulating pathogens to researchers as early as possible.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.61,
+        "rawScore": 49.61,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.51,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "906f8919f8dcf95b8f21": {
+      "storyId": "906f8919f8dcf95b8f21",
+      "url": "https://news.sky.com/story/is-the-government-doing-anything-to-stop-ai-killing-us-all-13589063",
+      "title": "Is the government doing anything to stop AI killing us all?",
+      "source": "Sky News AI",
+      "published": "2026-09-18T05:36:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "46eb7b65aee57a6c83c0d8f6",
+      "bodyFingerprint": "ec4495dd9ad7c14d646ca957",
+      "bodyCharacterCount": 71,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T11:19:51.644Z",
+      "assessment": {
+        "centralEvent": "Is the government doing anything to stop AI killing us all?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a4b4e8296d8d13c06534": {
+      "storyId": "a4b4e8296d8d13c06534",
+      "url": "https://www.artificialintelligence-news.com/news/fulcra-brings-universal-multiplayer-to-any-agents-you-choose",
+      "title": "Fulcra Brings Universal Multiplayer to Any Agents You Choose",
+      "source": "AI News",
+      "published": "2026-09-18T09:15:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8451374a10e7fb24d03918ee",
+      "bodyFingerprint": "c5d0fd7d9e0d3a8b0d5a7abe",
+      "bodyCharacterCount": 454,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T11:19:51.899Z",
+      "assessment": {
+        "centralEvent": "Fulcra Brings Universal Multiplayer to Any Agents You Choose",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-18T05:57:39.427Z"
+  "updatedAt": "2026-09-18T11:19:51.899Z"
 }
