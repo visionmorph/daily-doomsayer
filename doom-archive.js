@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-17T21:00:00.000Z",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-17",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-17",
           "firstObservedAt": "2026-09-17T07:00:00.000Z",
-          "lastObservedAt": "2026-09-17T21:00:00.000Z",
+          "lastObservedAt": "2026-09-18T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268747_AI_safety_RJIANG3.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.82,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-17",
           "firstObservedAt": "2026-09-17T18:00:00.000Z",
-          "lastObservedAt": "2026-09-17T21:00:00.000Z",
+          "lastObservedAt": "2026-09-18T00:00:00.000Z",
           "average": 50.82
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b524/live/d98e1c20-b1a7-11f1-bc1f-3f186ca4140c.jpg",
           "peak": 50.16,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-17",
           "firstObservedAt": "2026-09-17T07:00:00.000Z",
-          "lastObservedAt": "2026-09-17T21:00:00.000Z",
+          "lastObservedAt": "2026-09-18T00:00:00.000Z",
           "average": 50.16
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-17",
           "firstObservedAt": "2026-09-17T07:00:00.000Z",
-          "lastObservedAt": "2026-09-17T21:00:00.000Z",
+          "lastObservedAt": "2026-09-18T00:00:00.000Z",
           "average": 49.94
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.83,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-17",
           "firstObservedAt": "2026-09-17T07:00:00.000Z",
-          "lastObservedAt": "2026-09-17T21:00:00.000Z",
+          "lastObservedAt": "2026-09-18T00:00:00.000Z",
           "average": 49.83
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-17",
           "firstObservedAt": "2026-09-17T07:00:00.000Z",
-          "lastObservedAt": "2026-09-17T21:00:00.000Z",
+          "lastObservedAt": "2026-09-18T00:00:00.000Z",
           "average": 49.66
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa81a44054ce52476eda4d7/master/pass/Security_New%20York%20Seizes%20More%20Than%20a%20Dozen%20Celebrity%20Deepfake%20Websites_v1.jpg",
           "peak": 49.34,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-17",
           "firstObservedAt": "2026-09-17T07:00:00.000Z",
-          "lastObservedAt": "2026-09-17T21:00:00.000Z",
+          "lastObservedAt": "2026-09-18T00:00:00.000Z",
           "average": 49.34
         }
       ]
@@ -2816,11 +2816,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 20,
+          "observations": 21,
           "daysTracked": 4,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-17T21:00:00.000Z",
+          "lastObservedAt": "2026-09-18T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -2830,11 +2830,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268747_AI_safety_RJIANG3.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.82,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-17",
           "firstObservedAt": "2026-09-17T18:00:00.000Z",
-          "lastObservedAt": "2026-09-17T21:00:00.000Z",
+          "lastObservedAt": "2026-09-18T00:00:00.000Z",
           "average": 50.82
         },
         {
