@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-18T11:00:00.000Z",
+  "generatedAt": "2026-09-18T16:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-18",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T05:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +31,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268747_AI_safety_RJIANG3.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.82,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T05:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
+          "average": 50.82
+        },
+        {
+          "storyId": "ac54ae87ee6c81c86539",
+          "title": "The Leftist Split Over AI Doom",
+          "url": "https://www.wired.com/story/inside-the-surprising-leftist-split-over-ai-doom/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6aa9a061b69918de8da37621/master/pass/DSA-split-AI-regulation.jpg",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-18",
+          "firstObservedAt": "2026-09-18T16:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
           "average": 50.82
         },
         {
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b524/live/d98e1c20-b1a7-11f1-bc1f-3f186ca4140c.jpg",
           "peak": 50.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T05:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
           "average": 50.16
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T05:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
           "average": 49.94
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.83,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T05:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
           "average": 49.83
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aab06ffc34fee882b3a156d/master/pass/Uncanny-Valley-Sam-Altman-AI-Risk-Debate-Business-2294955001.jpg",
           "peak": 49.83,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T05:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
           "average": 49.83
         },
         {
@@ -101,12 +115,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T05:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
           "average": 49.66
+        },
+        {
+          "storyId": "78c17f05b3deda8f4ff0",
+          "title": "Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons",
+          "url": "https://www.wired.com/story/why-ai-bioweapons-wont-wipe-out-humanity/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6aa943ce7410d0aed42be028/master/pass/091526-Bioweapon%20AI.jpg",
+          "peak": 49.61,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-18",
+          "firstObservedAt": "2026-09-18T16:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
+          "average": 49.61
         },
         {
           "storyId": "8515c21be0e8339ac2a9",
@@ -121,34 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-18T05:00:00.000Z",
           "lastObservedAt": "2026-09-18T05:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "b95ed8026c025433b444",
-          "title": "Meta's $17 Billion Settlement is a Bad Deal for Teens and All Social Media Users",
-          "url": "https://www.eff.org/deeplinks/2026/09/metas-17-billion-settlement-bad-deal-teens-and-all-social-media-users",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
-          "peak": 49.17,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-18",
-          "firstObservedAt": "2026-09-18T05:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
-          "average": 49.17
-        },
-        {
-          "storyId": "c449ebad7fc9c0337daa",
-          "title": "Will Apple’s ‘Reference Image’ Feature Help Defend Against AI Manipulation?",
-          "url": "https://techpolicy.press/will-apples-reference-image-feature-help-defend-against-ai-manipulation",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.01,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-18",
-          "firstObservedAt": "2026-09-18T05:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
@@ -2961,11 +2961,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 23,
+          "observations": 24,
           "daysTracked": 5,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -2975,11 +2975,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268747_AI_safety_RJIANG3.png?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.82,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-17",
           "firstObservedAt": "2026-09-17T18:00:00.000Z",
-          "lastObservedAt": "2026-09-18T11:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
+          "average": 50.82
+        },
+        {
+          "storyId": "ac54ae87ee6c81c86539",
+          "title": "The Leftist Split Over AI Doom",
+          "url": "https://www.wired.com/story/inside-the-surprising-leftist-split-over-ai-doom/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6aa9a061b69918de8da37621/master/pass/DSA-split-AI-regulation.jpg",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-18",
+          "firstObservedAt": "2026-09-18T16:00:00.000Z",
+          "lastObservedAt": "2026-09-18T16:00:00.000Z",
           "average": 50.82
         },
         {
@@ -3037,20 +3051,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-16T06:00:00.000Z",
           "lastObservedAt": "2026-09-16T17:00:00.000Z",
           "average": 50.33
-        },
-        {
-          "storyId": "6d986e16da7ec69961fb",
-          "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
-          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
-          "peak": 50.16,
-          "observations": 17,
-          "daysTracked": 4,
-          "peakDate": "2026-09-14",
-          "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-17T07:00:00.000Z",
-          "average": 50.16
         }
       ]
     },
