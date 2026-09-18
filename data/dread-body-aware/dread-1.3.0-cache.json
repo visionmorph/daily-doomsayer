@@ -155566,8 +155566,545 @@
           "vulnerability": 0
         }
       }
+    },
+    "0ed705f5b130729c8e7e": {
+      "storyId": "0ed705f5b130729c8e7e",
+      "url": "https://www.eff.org/deeplinks/2026/09/secure-messaging-and-ai-remain-conflict-despite-promise-tees",
+      "title": "Secure Messaging and AI Remain In Conflict Despite the Promise of TEEs",
+      "source": "EFF AI",
+      "published": "2026-09-18T21:53:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0a4aac7799fa6cdcfefa2b2e",
+      "bodyFingerprint": "2e7c537d79c9588e1bb0089e",
+      "bodyCharacterCount": 10388,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T22:36:28.797Z",
+      "assessment": {
+        "centralEvent": "Secure Messaging and AI Remain In Conflict Despite the Promise of TEEs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "This is most relevant for protecting against mass surveillance, and for many people, that might just be enough security.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "If you want to dive into the myriad security issues and limitations of TEEs we’ve seen so far, they’re well documented here, here, here, and here.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Standard encryption algorithms are created by years-long processes collaboratively produced by mathematicians around the world and are based on problems that have been studied for decades.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "It also enables certain backup systems, like how you can restore a phone with your passcode or restore WhatsApp or Signal backups.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Every individual system is the product of a group of engineers who put it out into the world, and each product will have its own quirks and bugs that have to be individually discovered and patched.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 165,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.95,
+        "rawScore": 48.95,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.45,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5bfafe1fb4f3b1588c18": {
+      "storyId": "5bfafe1fb4f3b1588c18",
+      "url": "https://www.eff.org/deeplinks/2026/09/how-limit-what-apples-new-siri-ai-can-access-ios-27",
+      "title": "How to Limit What Apple’s New Siri AI Can Access in iOS 27",
+      "source": "EFF AI",
+      "published": "2026-09-18T21:55:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bb54a2d2421747db72fad307",
+      "bodyFingerprint": "7ac6b94127d4bfa34e71be60",
+      "bodyCharacterCount": 9729,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T22:36:28.806Z",
+      "assessment": {
+        "centralEvent": "How to Limit What Apple’s New Siri AI Can Access in iOS 27",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Apple claims what’s sent to PCC is not stored by the company after it is processed, but there are certain types of data or certain apps you might have on your phone that are not worth the risk.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "If you’d rather your data not get used for training, you can opt out: Open Settings > Privacy & Security > Analytics & Improvements Disable the option for “Improve Siri & Dictation.” According to Apple’s privacy documentation, disabling thi",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Siri AI is currently only available in English, and not available worldwide.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Even better if they gave you a single control to block all Siri AI features from an app entirely.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 131,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.41,
+        "rawScore": 27.41,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ac5537bbc200093dc8e": {
+      "storyId": "4ac5537bbc200093dc8e",
+      "url": "https://www.politico.com/live-updates/2026/09/18/congress/gottheimer-unveils-two-bipartisan-ai-safety-bills-01084520",
+      "title": "Gottheimer unveils 2 bipartisan AI safety bills",
+      "source": "POLITICO AI",
+      "published": "2026-09-18T20:48:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a2bd0034463184778311abbf",
+      "bodyFingerprint": "52081ae32d26e154822633c7",
+      "bodyCharacterCount": 174,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T22:36:28.813Z",
+      "assessment": {
+        "centralEvent": "Gottheimer unveils 2 bipartisan AI safety bills",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bc3b6bff3f8d9d1b3ca0": {
+      "storyId": "bc3b6bff3f8d9d1b3ca0",
+      "url": "https://mashable.com/tech/ai-kill-switch-newsom",
+      "title": "Is an AI kill switch a real thing?",
+      "source": "Mashable AI",
+      "published": "2026-09-18T20:31:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6712d6d99f1174da60a8b781",
+      "bodyFingerprint": "b2d5ddb4b9385abba129f5dc",
+      "bodyCharacterCount": 7458,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T22:36:28.883Z",
+      "assessment": {
+        "centralEvent": "Is an AI kill switch a real thing?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "SEE ALSO: Avian flu, drone swarms, and mass surveillance included in Anthropic's safety report \"The California governor’s executive order rightly prioritizes the development of better guidance regarding the definitions and requirements for ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And even then, it may require a coordinated global response to isolate, stop, and then degrade the AI to a manageable point.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.5,
+        "rawScore": 24.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.045,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e88f2ebb1ff3d5723f90": {
+      "storyId": "e88f2ebb1ff3d5723f90",
+      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture",
+      "title": "Anthropic’s first embedded evaluator is … Accenture?",
+      "source": "TechCrunch AI",
+      "published": "2026-09-18T21:44:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20676591c131aa1d2ee2472c",
+      "bodyFingerprint": "fb9e2cbf9945b54e2608f717",
+      "bodyCharacterCount": 3991,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T22:36:28.893Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s first embedded evaluator is ... Accenture?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "While external evaluations are already a major part of the release of process for new large language models, recent incidents have raised the stakes: AI agents deployed by OpenAI and Anthropic have hacked into outside websites without raisi",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The choice of Accenture surprised many AI watchers — and the markets, where the consultant company’s shares shot up 8% after hours.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "941b6d53ec342c5796b4": {
+      "storyId": "941b6d53ec342c5796b4",
+      "url": "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets",
+      "title": "World model companies are keeping a lot of secrets",
+      "source": "TechCrunch AI",
+      "published": "2026-09-18T20:18:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "512caf70a5698b76a5615ab7",
+      "bodyFingerprint": "d41ce2d27c389b7d00ffe722",
+      "bodyCharacterCount": 5108,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T22:36:28.897Z",
+      "assessment": {
+        "centralEvent": "World model companies are keeping a lot of secrets",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "No one doubts that there are lots of viable businesses to be built on world model tech — and as long as it’s easy to fundraise, there’s no particular pressure to focus on one.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d525cf26554cb14b1ab5": {
+      "storyId": "d525cf26554cb14b1ab5",
+      "url": "https://www.inc.com/marcel-schwantes/there-are-3-workplace-metrics-ceos-and-chros-cant-afford-to-ignore-research-finds/91407661",
+      "title": "There Are 3 Workplace Metrics CEOs and CHROs Can’t Afford to Ignore, Research Finds",
+      "source": "Inc. AI",
+      "published": "2026-09-18T20:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4179f7f21c384ab271e7492c",
+      "bodyFingerprint": "3916aa224630ec8447a1ffff",
+      "bodyCharacterCount": 121,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-18T22:36:28.984Z",
+      "assessment": {
+        "centralEvent": "There Are 3 Workplace Metrics CEOs and CHROs Can’t Afford to Ignore, Research Finds",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "723c449cb1bb389967e4": {
+      "storyId": "723c449cb1bb389967e4",
+      "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report",
+      "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+      "source": "Ars Technica AI",
+      "published": "2026-09-18T20:26:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "33ec903d24df685e310e32b0",
+      "bodyFingerprint": "fea644ee483eb525308751fd",
+      "bodyCharacterCount": 4931,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T22:36:29.053Z",
+      "assessment": {
+        "centralEvent": "AI hallucination of Chinese nuclear components almost led to US military attack",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav The US narrowly avoided boarding a Chinese ship based on an “entirely false” US intelligence report",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-18T19:39:22.115Z"
+  "updatedAt": "2026-09-18T22:36:29.053Z"
 }
