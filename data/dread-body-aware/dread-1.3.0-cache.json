@@ -150734,8 +150734,706 @@
           "vulnerability": 0
         }
       }
+    },
+    "5df4b888b841436f0fb2": {
+      "storyId": "5df4b888b841436f0fb2",
+      "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate",
+      "title": "Google DeepMind launches institute to widen the AGI debate",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T23:21:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "302f8976afd6d6d15a9748b6",
+      "bodyFingerprint": "d31dfec1a7f78e4feafd36c3",
+      "bodyCharacterCount": 3678,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T00:22:36.267Z",
+      "assessment": {
+        "centralEvent": "Google DeepMind launches institute to widen the AGI debate",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Under his framework, developers would initially submit models voluntarily for review up to 30 days before release.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "34d15ad3ce6de8dc9cde": {
+      "storyId": "34d15ad3ce6de8dc9cde",
+      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories",
+      "title": "Crusoe raises $3.9B to build massive data centers and small modular “AI factories”",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T23:25:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bf2dd444acd466ea188686eb",
+      "bodyFingerprint": "4b9b5588d3c03fedb17b78e5",
+      "bodyCharacterCount": 4187,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T00:22:36.274Z",
+      "assessment": {
+        "centralEvent": "Crusoe raises $3.9B to build massive data centers and small modular “AI factories”",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The smaller centers could also help Crusoe sidestep, at least in part, another major obstacle facing data center developers: backlash from local communities protesting massive complexes near their neighborhoods.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "78c0774d9fb5134c35db": {
+      "storyId": "78c0774d9fb5134c35db",
+      "url": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai",
+      "title": "PrismML hopes its tiny LLM will change how we all use AI",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T22:34:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1dce411faf65cfc576b9d140",
+      "bodyFingerprint": "dcf3710420b3f2478c5acc94",
+      "bodyCharacterCount": 5245,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T00:22:36.281Z",
+      "assessment": {
+        "centralEvent": "PrismML hopes its tiny LLM will change how we all use AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "79b36fd6313a012c314d": {
+      "storyId": "79b36fd6313a012c314d",
+      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai",
+      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T22:14:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4ddcab4261ba108727340bc4",
+      "bodyFingerprint": "c2aab1f3878515bd9944d217",
+      "bodyCharacterCount": 2581,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T00:22:36.289Z",
+      "assessment": {
+        "centralEvent": "The FAA’s plan to fix air traffic? $875M worth of AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , air traffic control , Government & Policy , In Brief October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f1c049f07cc4fb7cfa07": {
+      "storyId": "f1c049f07cc4fb7cfa07",
+      "url": "https://www.404media.co/doom-loop-openai-and-microsoft-admits-llms-are-destroying-the-web-and-built-on-theft",
+      "title": "‘Doom Loop’: OpenAI and Microsoft Admits LLMs Are Destroying the Web and Built on Theft",
+      "source": "404 Media AI",
+      "published": "2026-09-17T22:01:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c0a5f324bd9554cda3834c92",
+      "bodyFingerprint": "b745b8b0686e8aaa7e13e8b3",
+      "bodyCharacterCount": 5706,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T00:22:36.381Z",
+      "assessment": {
+        "centralEvent": "‘Doom Loop’: OpenAI and Microsoft Admits LLMs Are Destroying the Web and Built on Theft",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Millions of people around the world will soon consider large models ‘hoovering up’ all their work to be an astonishing theft of unprecedented proportions,” an internal Microsoft document cited in the case read, adding “almost no one intend",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The court filing cites an internal Microsoft document that found that AI products steal from human content creators, then cannibalize clicks from the people and websites they’ve stolen from, thereby destroying their business models.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "\"Millions of people around the world will soon consider large models ‘hoovering up’ all their work to be an astonishing theft of unprecedented proportions.\"",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a927b33874a44105231f": {
+      "storyId": "a927b33874a44105231f",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-heres-what-the-ai-apocalypse-could-look-like",
+      "title": "Here’s What the AI Apocalypse Could Look Like",
+      "source": "WIRED AI",
+      "published": "2026-09-17T22:20:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "92cb9fb4ecf5c43e7b2006f5",
+      "bodyFingerprint": "2f687c288d5b49199816fd2a",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T00:22:36.435Z",
+      "assessment": {
+        "centralEvent": "Here’s What the AI Apocalypse Could Look Like",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This week, Brian Barrett, Zoë Schiffer, and Leah Feiger break down three real-world scenarios experts worry the most about—including hacked water supplies, bioweapons, and autonomous robots.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And instead of just adding to the pile of hot takes that already exist, we're going to walk you through real, specific scenarios to the best of our ability about how AI would actually do this, and why the tech CEOs and politicians cannot se",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "What can we do to make everyone's standards better?\" And then, finally, there should be an international component to it.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OK, guys, so the debate about AI safety has officially escaped containment.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "We watch you every day.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 167,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.83,
+        "rawScore": 49.83,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2c580cd230ab02dcc460": {
+      "storyId": "2c580cd230ab02dcc460",
+      "url": "https://mashable.com/tech/sept-17-lllustratormagic-pro-plan-lifetime-subscription",
+      "title": "Create 1,000 kids’ books for a one-time price with this $40 AI-powered tool",
+      "source": "Mashable AI",
+      "published": "2026-09-17T22:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4cb8a3041104b5a055cfb4a4",
+      "bodyFingerprint": "7e4d92a59973025b4d943124",
+      "bodyCharacterCount": 2961,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T00:22:36.446Z",
+      "assessment": {
+        "centralEvent": "Create 1,000 kids’ books for a one-time price with this $40 AI-powered tool",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8092c8022d580cabe7ab": {
+      "storyId": "8092c8022d580cabe7ab",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+      "title": "The AI Superintelligence Slowdown",
+      "source": "The Verge AI",
+      "published": "2026-09-17T19:28:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5beb4639083b9a907aa149e8",
+      "bodyFingerprint": "99f39cbe30b1e31b28dc3ef1",
+      "bodyCharacterCount": 15159,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T00:22:36.483Z",
+      "assessment": {
+        "centralEvent": "The AI Superintelligence Slowdown",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It broke out of its holding area, finagled access to the internet, and hacked into a competing AI startup’s systems — all without OpenAI finding out about it for more than a week.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Highlights Inside the suddenly explosive world of AI safety Microsoft AI CEO says AI threats are real, and Anthropic is making it worse What execs and politicians are saying about slowing down AI development Anthropic CEO says it’s time to ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The AI titans had declared that their aim was to “pace the frontier,” signing on at least partially to a proposal for embedding third-party auditors, regulating domestic labs, and reaching a global slowdown agreement.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Amodei’s Saturday morning essay outlined three steps for pacing AI development: embedded third-party evaluators that can verify if a company is adhering to safety practices and commitments and report incidents, coordination between frontier",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 95,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0a3be15b32c0f91dbab3": {
+      "storyId": "0a3be15b32c0f91dbab3",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "source": "The Verge AI",
+      "published": "2026-09-17T18:58:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17509b90fd33364c48ef7670",
+      "bodyFingerprint": "80ba518dca5e1c5e524ede7f",
+      "bodyCharacterCount": 3541,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T00:22:36.491Z",
+      "assessment": {
+        "centralEvent": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Stevie Bonifield AI Anthropic News Tech Most Popular Most Popular The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long The Apple Watch Series 12 is the start of a new wearable era The iPhone 18 Pro’s big camera update is all about ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ea22beb53573598d4925": {
+      "storyId": "ea22beb53573598d4925",
+      "url": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions",
+      "title": "Small AI models let drones autonomously identify and attack battlefield targets",
+      "source": "Ars Technica AI",
+      "published": "2026-09-17T22:12:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cc94b6fc5e17ae49e63b53da",
+      "bodyFingerprint": "69e8efc6b373c54dedaf8748",
+      "bodyCharacterCount": 6528,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-18T00:22:36.621Z",
+      "assessment": {
+        "centralEvent": "Small AI models let drones autonomously identify and attack battlefield targets",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav As European militaries adapt to the use of AI and drones in modern warfare, a NATO-backed startup i",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The ALMA concept was first publicly demonstrated during a Winter Demo 2026 event held in Sweden in January.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They can then intermittently share selective updates with computing nodes at the local platoon or company headquarters without transmitting sensitive raw data.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Iran strikes on Amazon data centers caused permanent loss of customer data 2. macOS 27 Golden Gate: The Ars Technica review 3.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“If we can release several new versions of this model that—during the course of a single day or certainly an operation—keep learning and keep improving from this massive amount of sensor data that is generated at a practical edge, that is t",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.13,
+        "rawScore": 48.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.375,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 1,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-17T21:30:01.854Z"
+  "updatedAt": "2026-09-18T00:22:36.621Z"
 }
