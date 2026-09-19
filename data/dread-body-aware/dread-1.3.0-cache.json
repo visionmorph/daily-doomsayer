@@ -158472,8 +158472,689 @@
           "vulnerability": 0
         }
       }
+    },
+    "b0f264082bacb0e8964e": {
+      "storyId": "b0f264082bacb0e8964e",
+      "url": "https://www.politico.com/news/2026/09/19/tech-industry-scratches-head-over-ai-force-01085319",
+      "title": "Tech industry scratches its head over Trump 'AI Force' proposal",
+      "source": "POLITICO AI",
+      "published": "2026-09-19T20:39:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1fd0e8c8bb54b57c73678c2a",
+      "bodyFingerprint": "25d744dfc851e874d3161427",
+      "bodyCharacterCount": 119,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-19T20:44:02.507Z",
+      "assessment": {
+        "centralEvent": "Tech industry scratches its head over Trump 'AI Force' proposal",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Tech sector representatives say they view Trump’s announcement as a response to growing public concern over AI’s risks.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Tech industry scratches its head over Trump 'AI Force' proposal",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f1a03220ac629bb7672f": {
+      "storyId": "f1a03220ac629bb7672f",
+      "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts",
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "source": "TechCrunch AI",
+      "published": "2026-09-19T20:39:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "adae6887a549c55727094efb",
+      "bodyFingerprint": "23a52b69c1c48f1c6db9e6d1",
+      "bodyCharacterCount": 2492,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T20:44:02.536Z",
+      "assessment": {
+        "centralEvent": "Flock reportedly tries to shrink workforce with employee buyouts",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In Brief Posted: 1:39 PM PDT · September 19, 2026 Image Credits: Anthony Ha / TechCrunch Anthony Ha Flock reportedly tries to shrink workforce with employee buyouts Embattled surveillance technology company Flock Safety unveiled a “generous",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The startup’s CEO Garrett Langley recently told the All-In podcast that the “biggest damage” caused by the backlash has been to “internal morale.” Topics AI , Flock , Government & Policy October 13 – 15 San Francisco Last day to book an exh",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI Trump suggests rebranding AI with a new name, says he’s also creating an AI Force Anthony Ha 42 minutes ago Government & Policy The US Navy just told us",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ef57ec1c7b8c93591522": {
+      "storyId": "ef57ec1c7b8c93591522",
+      "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
+      "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+      "source": "TechCrunch AI",
+      "published": "2026-09-19T19:57:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d68140d5e6826d5a8ad30574",
+      "bodyFingerprint": "4bf3c8cad4501299d839b2d2",
+      "bodyCharacterCount": 4738,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T20:44:02.572Z",
+      "assessment": {
+        "centralEvent": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "President Donald Trump has responded in characteristic fashion to the recent debate around AI safety — by declaring that these concerns are part of a long line of hoaxes “generated by the Radical Left Dumocrats, for purposes of destroying o",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "36e9f60abe282bacc694": {
+      "storyId": "36e9f60abe282bacc694",
+      "url": "https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force",
+      "title": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow",
+      "source": "The Guardian AI",
+      "published": "2026-09-19T19:57:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e5320434b0bc9ae7100a486b",
+      "bodyFingerprint": "2bd8922c54decfddfdffca43",
+      "bodyCharacterCount": 5628,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T20:44:02.588Z",
+      "assessment": {
+        "centralEvent": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Google says its Gemini AI model hacked three other companies Read more “I am forming the AI Force, much like I did Space Force, which has been a tremendous SUCCESS, in my First Term.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The creation of a czar and a new AI body in the US appears a response to critics of his stance, which in part is born out of a fear that China will best the US in AI development if the industry in America does not continue its rapid growth.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "As global fears over AI have grown, especially in the past week in the face of multiple industry figures sounding the alarm about its dangers, the president has been critical of calls to slow down development of the fast-moving industry.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But in the post, Trump also repeated his stance that the rapidly emerging technology – which some industry experts fear poses a threat to human existence – is being unfairly maligned.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.52,
+        "rawScore": 47.52,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2616f145bf49b322decd": {
+      "storyId": "2616f145bf49b322decd",
+      "url": "https://www.theguardian.com/australia-news/audio/2026/sep/20/black-box-the-chatbots-happy-accident-ep-3-podcast",
+      "title": "Black Box: The Chatbots | Happy Accident | Ep 3 – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-19T19:00:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8e41edbbcc6514a9b9b40c56",
+      "bodyFingerprint": "a765de08016c44edcc2a8025",
+      "bodyCharacterCount": 1365,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T20:44:02.623Z",
+      "assessment": {
+        "centralEvent": "Black Box: The Chatbots | Happy Accident | Ep 3 – podcast",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The 2022 Anthropic pre-print study that identified sycophancy as a behavioural trait of LLMs.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7c801a59871394cb2462": {
+      "storyId": "7c801a59871394cb2462",
+      "url": "https://www.theguardian.com/technology/2026/sep/20/your-ai-doomsday-questions-answered-could-ai-technology-really-end-humanity",
+      "title": "Your AI doomsday questions answered: ‘What, if anything, can people like me do about it?’",
+      "source": "The Guardian AI",
+      "published": "2026-09-19T20:00:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ac46bb16448ff2e07be6d3c2",
+      "bodyFingerprint": "3eb6ff77f14fd6356da7d0c2",
+      "bodyCharacterCount": 12293,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T20:44:02.721Z",
+      "assessment": {
+        "centralEvent": "Your AI doomsday questions answered: ‘What, if anything, can people like me do about it?’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In science there are many examples of benefits, from Google’s AlphaFold model – which can predict how proteins behave and thus help us study the biological machinery that underpins living organisms – to making weather forecasting more accur",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 106,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c34f31b9487dd3c575dd": {
+      "storyId": "c34f31b9487dd3c575dd",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/20/australia-has-done-precious-little-to-prepare-for-the-dangers-of-ai-where-is-brilliant-leadership-when-you-need-it",
+      "title": "Australia has done precious little to prepare for the dangers of AI. Where is brilliant leadership when you need it? | Zoe Daniel",
+      "source": "The Guardian AI",
+      "published": "2026-09-19T20:00:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "22daa4d1d35e9a2f76ef3d7f",
+      "bodyFingerprint": "a0fefdccecca3a710535b800",
+      "bodyCharacterCount": 6156,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T20:44:02.730Z",
+      "assessment": {
+        "centralEvent": "Australia has done precious little to prepare for the dangers of AI. Where is brilliant leadership when you need it? | Zoe Daniel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The Anthropic chief executive, Dario Amodei, has warned that rogue AI agents, like those from OpenAI that escaped their test environment in July, are ‘capable of taking over the entire internet’ within six to 12 months Photograph: Bloomberg",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A new study from MIT FutureTech and the University of Queensland identifies five risks as the most likely to produce the most severe harms; dangerous capabilities, competitive pressures, weapons and cyber-attacks, concentrated power and fal",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI’s chief scientist, Jakub Pachocki, has said: “International coordination on future AI development needs to become a top priority for governments around the world.” Anthropic lands deal in $31bn datacentre in western Queensland, David",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "This could crash economies and cause untold death and destruction by shutting down healthcare, education, transport, energy and all other communications reliant systems.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A new study from MIT FutureTech and the University of Queensland identifies five risks as the most likely to produce the most severe harms; dangerous capabilities, competitive pressures, weapons and cyber-attacks, concentrated power and fal",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.39,
+        "rawScore": 69.39,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.49,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5074b62738e5fbd33c69": {
+      "storyId": "5074b62738e5fbd33c69",
+      "url": "https://news.sky.com/story/trump-to-create-ai-force-as-lawsuit-claims-firms-illegally-agreed-to-slow-development-13589927",
+      "title": "Trump to create AI force - as lawsuit claims firms illegally agreed to slow development",
+      "source": "Sky News AI",
+      "published": "2026-09-19T18:29:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "985ce18abd1184142219dc7b",
+      "bodyFingerprint": "133bd25e456187df67c56b95",
+      "bodyCharacterCount": 168,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-19T20:44:02.752Z",
+      "assessment": {
+        "centralEvent": "Trump to create AI force - as lawsuit claims firms illegally agreed to slow development",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "da8d841ebb48113f086d": {
+      "storyId": "da8d841ebb48113f086d",
+      "url": "https://mashable.com/tech/trump-announces-plans-for-military-style-ai-force",
+      "title": "Trump announces plans to create an \"AI Force\"",
+      "source": "Mashable AI",
+      "published": "2026-09-19T19:07:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0195d8b05c35a60a56e42130",
+      "bodyFingerprint": "a29872a3615ea1cef04c0c60",
+      "bodyCharacterCount": 3940,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T20:44:02.755Z",
+      "assessment": {
+        "centralEvent": "Trump announces plans to create an \"AI Force\"",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The announcement came in a lengthy Truth Social post in which Trump dismissed growing concern over AI risk as the latest in a string of what he called manufactured \"hoaxes,\" while also promising the new body would go after \"BAD\" actors in t",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The announcement came in a lengthy Truth Social post in which Trump dismissed growing concern over AI risk as the latest in a string of what he called manufactured \"hoaxes,\" while also promising the new body would go after \"BAD\" actors in t",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8ad392a1033f5065185b": {
+      "storyId": "8ad392a1033f5065185b",
+      "url": "https://mashable.com/tech/trump-opens-poll-to-rename-artificial-intelligence",
+      "title": "Trump opens poll to rename AI. Options include Extreme and Supreme Intelligence.",
+      "source": "Mashable AI",
+      "published": "2026-09-19T18:42:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0229d495611a14fadd277b0c",
+      "bodyFingerprint": "d79020731267b959f7da6691",
+      "bodyCharacterCount": 2857,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T20:44:02.771Z",
+      "assessment": {
+        "centralEvent": "Trump opens poll to rename AI. Options include Extreme and Supreme Intelligence.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Trump wants to meet with AI executives next week , the New York Times reported, though a White House official told the Times on Thursday that no meeting was on the calendar.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-19T18:04:07.810Z"
+  "updatedAt": "2026-09-19T20:44:02.771Z"
 }
