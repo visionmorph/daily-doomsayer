@@ -156902,8 +156902,674 @@
           "vulnerability": 0
         }
       }
+    },
+    "da1bcb142132160d054f": {
+      "storyId": "da1bcb142132160d054f",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei",
+      "title": "China bogeyman looms large over American firms’ AI doomsday scenario",
+      "source": "The Guardian AI",
+      "published": "2026-09-19T10:00:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d1dadcd7456cc1b45856fda4",
+      "bodyFingerprint": "62908c89b7e714bc3bbd9589",
+      "bodyCharacterCount": 16756,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T11:03:46.162Z",
+      "assessment": {
+        "centralEvent": "China bogeyman looms large over American firms’ AI doomsday scenario",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“When people are worried about surveillance, of course there are huge dangers there, but it’s like, you will have far fewer rights if America is not in the lead.” The view from China While Amodei and other US AI leaders frame competition wi",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“The United States needs to stay in the lead on AI and you cannot do safety from second place.” Understanding the beliefs of AI companies and CEOs such as Amodei is particularly important, experts say, because the Trump administration’s lai",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“We are locked into a structural conflict.” Silicon Valley’s China hawks Although Amodei is the AI industry’s most prominent voice on China, fears of Beijing gaining advanced AI capabilities and using them for global domination run through ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 92,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cbd68070716d4e777946": {
+      "storyId": "cbd68070716d4e777946",
+      "url": "https://www.theguardian.com/money/2026/sep/19/domestic-datacentres-how-computer-power-can-help-heat-your-home",
+      "title": "Domestic datacentres: how computer power can help heat your home",
+      "source": "The Guardian AI",
+      "published": "2026-09-19T10:00:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fc967874691aef606d8d0b64",
+      "bodyFingerprint": "e980db3a1c089a78c82f633b",
+      "bodyCharacterCount": 6612,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T11:03:46.177Z",
+      "assessment": {
+        "centralEvent": "Domestic datacentres: how computer power can help heat your home",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The planned cost includes installation, leasing the unit, repairs, and will have a minimum 10-year contract.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "967ec9bc42f6b08db4dc": {
+      "storyId": "967ec9bc42f6b08db4dc",
+      "url": "https://mashable.com/tech/sept-19-askanymodel-ai-pro-plan-lifetime-subscription",
+      "title": "Pay $39.99 once to put ChatGPT, Claude, Gemini, and more in a single workspace for life",
+      "source": "Mashable AI",
+      "published": "2026-09-19T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e7b562c5d24f0df418cc01c0",
+      "bodyFingerprint": "bfbd9cec0a7958afcef3b939",
+      "bodyCharacterCount": 2827,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T11:03:46.226Z",
+      "assessment": {
+        "centralEvent": "Pay $39.99 once to put ChatGPT, Claude, Gemini, and more in a single workspace for life",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "91e6483f479c327025b0": {
+      "storyId": "91e6483f479c327025b0",
+      "url": "https://www.wired.com/story/mathematicians-cant-quit-ai",
+      "title": "Mathematicians Hate AI. They Can’t Quit It",
+      "source": "WIRED AI",
+      "published": "2026-09-19T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3e940170bcba59a6cfbe8255",
+      "bodyFingerprint": "a118271a62415a6e565c5f8e",
+      "bodyCharacterCount": 10735,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T11:03:46.256Z",
+      "assessment": {
+        "centralEvent": "Mathematicians Hate AI. They Can’t Quit It",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "It also led OpenAI to do an investigation and amend its announcement about solving Navier-Stokes to say it “confirmed that Buckmaster’s Codex prompts over the two months preceding this announcement and paper on September 8, 2026, could not ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Will Knight Why So Many AI Researchers Think the Machines Could Kill Everyone A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Any mathematicians—especially early-career researchers—risk being “isolated” if they don’t use AI to accelerate their work, he adds.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.97,
+        "rawScore": 26.97,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.27,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "14bead02482bc52c7de5": {
+      "storyId": "14bead02482bc52c7de5",
+      "url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion",
+      "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+      "source": "WIRED AI",
+      "published": "2026-09-19T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "951781ba53be871e12c92eec",
+      "bodyFingerprint": "470b095b32eeec5b619d3c17",
+      "bodyCharacterCount": 7815,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T11:03:46.267Z",
+      "assessment": {
+        "centralEvent": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Will Knight I Let an AI Agent Hack All My Gadgets—and I’d Do It Again After I removed the safety guardrails from a powerful open-source model, it found vulnerabilities in my household devices and hacked into a PC.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers found and disclosed a vast array of vulnerabilities before the rise of AI-enhanced bug hunting as well, but the recent surge is clear.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "AI labs are toying with an industry-wide pact to slow development.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "AI doomers have recently traded one worst-case scenario for another, putting aside a potential software vulnerability apocalypse to focus on the possibility of rogue AI causing mass human death in the next decade.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read More Senior Writer Topics Kernel Panic vulnerabilities artificial intelligence cybersecurity security hacking Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligen",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.77,
+        "rawScore": 50.77,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.615,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "05e303589204e28944f3": {
+      "storyId": "05e303589204e28944f3",
+      "url": "https://www.wired.com/story/join-the-wired-world-fair-in-miami-on-november-4",
+      "title": "Join the WIRED World Fair in Miami on November 4",
+      "source": "WIRED AI",
+      "published": "2026-09-19T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fc45179c7cd60701006657c2",
+      "bodyFingerprint": "4e9f20f7b39f5d3deb9b4b43",
+      "bodyCharacterCount": 5594,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T11:03:46.303Z",
+      "assessment": {
+        "centralEvent": "Join the WIRED World Fair in Miami on November 4",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Ben Collins, CEO, The Onion , on satire and who it’s for now Clément Delangue, cofounder and CEO, Hugging Face , on who owns the future of AI Director Alex Gibney screening his highly anticipated Musk documentary, along with a Q&A Denise He",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Will Knight Silicon Valley Doesn't Get Why You Hate AI Technology leaders don’t seem to understand society’s gripes about AI, but boy, are they posting through it.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Will Knight Why So Many AI Researchers Think the Machines Could Kill Everyone A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.54,
+        "rawScore": 25.54,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.14,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "57ec1f33ac5e8cb4aeeb": {
+      "storyId": "57ec1f33ac5e8cb4aeeb",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/19/tasmania-justice-department-review-ai-artificial-intelligence-fake-citation-murderer-parole-decision-ntwnfb",
+      "title": "Tasmanian justice department review under way after AI and fake citation used in murderer’s parole decision",
+      "source": "The Guardian AI",
+      "published": "2026-09-19T06:21:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae1873971c18c7a4ea830788",
+      "bodyFingerprint": "796dcfeb8fce9f9f49bbea90",
+      "bodyCharacterCount": 3455,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T11:03:46.311Z",
+      "assessment": {
+        "centralEvent": "Tasmanian justice department review under way after AI and fake citation used in murderer’s parole decision",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Tasmania’s justice department on Friday evening confirmed the review was occurring, four days after a parole condition of convicted killer Susan Neill-Fraser was deemed invalid.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "27f40833253bb0844aaf": {
+      "storyId": "27f40833253bb0844aaf",
+      "url": "https://mashable.com/tech/sept-19-chatplayground-ai-unlimited-plan-lifetime-subscriptions",
+      "title": "Own 1 dashboard for ChatGPT, Gemini, Claude, and more for only $54.97",
+      "source": "Mashable AI",
+      "published": "2026-09-19T06:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b3fbbd87338c9fcb07592486",
+      "bodyFingerprint": "239fcf3646df09b91260372b",
+      "bodyCharacterCount": 2630,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T11:03:46.331Z",
+      "assessment": {
+        "centralEvent": "Own 1 dashboard for ChatGPT, Gemini, Claude, and more for only $54.97",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d063983ef0308d4eb309": {
+      "storyId": "d063983ef0308d4eb309",
+      "url": "https://news.sky.com/story/googles-gemini-ai-hacks-three-other-companies-during-security-test-13589551",
+      "title": "Google's Gemini AI hacks three other companies during security test",
+      "source": "Sky News AI",
+      "published": "2026-09-19T07:42:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7158000617a73d7c3c894893",
+      "bodyFingerprint": "7aca2569a61103bad2a50054",
+      "bodyCharacterCount": 182,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-19T11:03:46.346Z",
+      "assessment": {
+        "centralEvent": "Google's Gemini AI hacks three other companies during security test",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Google says its Gemini AI hacked three other companies during a test of its cybersecurity capabilities – in the first known example of the system autonomously committing such an act.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "feba899a50de55e98840": {
+      "storyId": "feba899a50de55e98840",
+      "url": "https://thedispatch.com/podcast/remnant/lets-talk-about-sydney-sweeney-ruminant",
+      "title": "Let’s Talk About Sydney Sweeney | Ruminant",
+      "source": "The Dispatch AI",
+      "published": "2026-09-19T07:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4bfc632c7c70a25388ea6a3e",
+      "bodyFingerprint": "1c0a1f95cf31ad5453d607a7",
+      "bodyCharacterCount": 7281,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T11:03:46.822Z",
+      "assessment": {
+        "centralEvent": "Let’s Talk About Sydney Sweeney | Ruminant",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-19T05:56:47.926Z"
+  "updatedAt": "2026-09-19T11:03:46.822Z"
 }
