@@ -157909,8 +157909,571 @@
           "vulnerability": 0
         }
       }
+    },
+    "66fe02110b7543cca09d": {
+      "storyId": "66fe02110b7543cca09d",
+      "url": "https://www.inc.com/moshe-engelberg/ai-is-moving-faster-than-humans-can-adapt-what-happens-next/91406233",
+      "title": "AI Is Moving Faster Than Humans Can Adapt. What Happens Next?",
+      "source": "Inc. AI",
+      "published": "2026-09-19T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "140862641c1da9e81951832c",
+      "bodyFingerprint": "a02faafb3e91f0bab8a65c01",
+      "bodyCharacterCount": 54,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-19T18:04:07.676Z",
+      "assessment": {
+        "centralEvent": "AI Is Moving Faster Than Humans Can Adapt. What Happens Next?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "839ff1c033792b7b7bdf": {
+      "storyId": "839ff1c033792b7b7bdf",
+      "url": "https://www.inc.com/louise-allen/ikea-used-ai-to-cut-costs-what-organizations-can-learn-from-that/91406654",
+      "title": "IKEA Used AI to Cut Costs. Then It Did Something Unexpected With Its Workers",
+      "source": "Inc. AI",
+      "published": "2026-09-19T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3caa342d473917a72a603f92",
+      "bodyFingerprint": "cf54cfc0ca900bfa655684e0",
+      "bodyCharacterCount": 64,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-19T18:04:07.691Z",
+      "assessment": {
+        "centralEvent": "IKEA Used AI to Cut Costs. Then It Did Something Unexpected With Its Workers",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "675a197c701faf4cedaa": {
+      "storyId": "675a197c701faf4cedaa",
+      "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+      "title": "Google’s Gemini is the latest AI model to hack other companies",
+      "source": "TechCrunch AI",
+      "published": "2026-09-19T17:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fe02856156d03b28dcc8cff1",
+      "bodyFingerprint": "3bb60a1641cdf99c17d8ea6a",
+      "bodyCharacterCount": 2258,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T18:04:07.772Z",
+      "assessment": {
+        "centralEvent": "Google’s Gemini is the latest AI model to hack other companies",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Google said it hadn’t previously revealed the hacks because Gemini had “acted appropriately” by ending each breach as soon as it determined it had hacked a real company.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "However, Jack Cable, the CEO of AI security company Corridor, told the WSJ that Google was “trying to hide behind the norms that have been created for vulnerability disclosure,” rather than acknowledging that “models are going outside the b",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0c5324178046e5a1e6ed": {
+      "storyId": "0c5324178046e5a1e6ed",
+      "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
+      "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+      "source": "TechCrunch AI",
+      "published": "2026-09-19T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aa37d7a6421e54ea577150a4",
+      "bodyFingerprint": "1b0d6899b0f527ced9db9488",
+      "bodyCharacterCount": 6251,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T18:04:07.780Z",
+      "assessment": {
+        "centralEvent": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "157eb76f4ffb309b81da": {
+      "storyId": "157eb76f4ffb309b81da",
+      "url": "https://mashable.com/tech/judge-allows-most-of-reddit-lawsuit-against-anthropic-proceed",
+      "title": "Judge allows most of Reddits lawsuit against Anthropic to proceed",
+      "source": "Mashable AI",
+      "published": "2026-09-19T15:59:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9a4134d6e757274ae67a0732",
+      "bodyFingerprint": "2aeafe90e8a8bca72e2f3ab1",
+      "bodyCharacterCount": 4112,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T18:04:07.785Z",
+      "assessment": {
+        "centralEvent": "Judge allows most of Reddits lawsuit against Anthropic to proceed",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "17 and filed the following day, Judge Harold Kahn overruled Anthropic's demurrer, a legal challenge arguing that even if Reddit's allegations are true, they don't amount to a valid claim.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fd29565670e26ee46611": {
+      "storyId": "fd29565670e26ee46611",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+      "title": "Gemini went rogue, hacked three companies, and Google hid it",
+      "source": "The Verge AI",
+      "published": "2026-09-19T15:25:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9f788258f8cdc07172c4df99",
+      "bodyFingerprint": "e80edc8f89a2b8682f0f0738",
+      "bodyCharacterCount": 4308,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T18:04:07.791Z",
+      "assessment": {
+        "centralEvent": "Gemini went rogue, hacked three companies, and Google hid it",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Gemini went rogue, hacked three companies, and Google hid it",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI Google News Security Tech Most Popular Most Popular OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long The Apple Watch Series 12 is the st",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "According to WSJ, Google didn't disclose the hack because it didn't consider it to be an \"example of model misalignment.\" The company said that it was an instance of \"mistaken identity,\" and once the model realized it had brute-forced its w",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.35,
+        "rawScore": 47.35,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.305,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bdb43cd00457a6802a7e": {
+      "storyId": "bdb43cd00457a6802a7e",
+      "url": "https://www.inc.com/ethan-fixell/ai-is-making-content-cheaper-that-could-make-human-creativity-more-valuable/91405310",
+      "title": "AI Is Making Content Cheaper. That Could Make Human Creativity More Valuable",
+      "source": "Inc. AI",
+      "published": "2026-09-19T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6cd72276ee9ee0f5c4e0ef87",
+      "bodyFingerprint": "ae53e881a8bc187e8b78581c",
+      "bodyCharacterCount": 46,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-19T18:04:07.794Z",
+      "assessment": {
+        "centralEvent": "AI Is Making Content Cheaper. That Could Make Human Creativity More Valuable",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c65ba0a6c6e3046285d6": {
+      "storyId": "c65ba0a6c6e3046285d6",
+      "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable",
+      "title": "AI safety conversations have gotten unbelievable",
+      "source": "TechCrunch AI",
+      "published": "2026-09-19T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3843c183dd999135d1809b5b",
+      "bodyFingerprint": "203bab665b45945159a0d62d",
+      "bodyCharacterCount": 5841,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T18:04:07.801Z",
+      "assessment": {
+        "centralEvent": "AI safety conversations have gotten unbelievable",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Speaking to Dwarkesh Patel on a podcast episode released on Thursday, Brown noted that the true take-away of the Hugging Face incident was that “people underestimated the AI.” Brown said that the weak sandbox — the system intended to preven",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As one person on X , noted about that research, the computers had to be almost touching each other to sense the heat fluctuations, and when they did, the communication rate in tests was about 1-8-bits of data per hour .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As one person on X , noted about that research, the computers had to be almost touching each other to sense the heat fluctuations, and when they did, the communication rate in tests was about 1-8-bits of data per hour .",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "593f7045f83dc6b1e56f": {
+      "storyId": "593f7045f83dc6b1e56f",
+      "url": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now",
+      "title": "Prices go up in 7 days. Get your Disrupt ticket now.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-19T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41f30ae7e82af7fa999953e8",
+      "bodyFingerprint": "d9b8fac38c47a02a0d5d2443",
+      "bodyCharacterCount": 2527,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T18:04:07.810Z",
+      "assessment": {
+        "centralEvent": "Prices go up in 7 days. Get your Disrupt ticket now.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Prices go up in 7 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-19T14:27:44.298Z"
+  "updatedAt": "2026-09-19T18:04:07.810Z"
 }
