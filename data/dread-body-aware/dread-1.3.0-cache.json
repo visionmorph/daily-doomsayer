@@ -157568,8 +157568,349 @@
           "vulnerability": 0
         }
       }
+    },
+    "8ccaedd187751c70ed70": {
+      "storyId": "8ccaedd187751c70ed70",
+      "url": "https://www.inc.com/heather-wilde/silicon-valley-no-longer-has-a-monopoly-on-ai-innovation/91406547",
+      "title": "Silicon Valley No Longer Has a Monopoly on AI Innovation",
+      "source": "Inc. AI",
+      "published": "2026-09-19T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f9d99001fca4262e91a44bc1",
+      "bodyFingerprint": "ddb392026fc6d83323bbe796",
+      "bodyCharacterCount": 58,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-19T14:27:44.222Z",
+      "assessment": {
+        "centralEvent": "Silicon Valley No Longer Has a Monopoly on AI Innovation",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bb8b06c8a13d267fb909": {
+      "storyId": "bb8b06c8a13d267fb909",
+      "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "title": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
+      "source": "The Verge AI",
+      "published": "2026-09-19T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7f2f3eb7a0f7491bf2efc031",
+      "bodyFingerprint": "a2b90921aed0822cab0e9d09",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T14:27:44.269Z",
+      "assessment": {
+        "centralEvent": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "That is a lot of ideas, and I am especially curious about the antitrust piece, which has led to accusations that these companies are seeking regulatory capture, attempting to form a cartel, and even somehow finding a way out from investor p",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nilay Patel AI Antitrust Decoder Podcasts Policy Politics Most Popular Most Popular OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web The Apple Watch Series 12 is the start of a new wearable era The 2.5-hour AI-generate",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "That’s an international relations issue.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "And frankly, if the political scientist in me would trace that back to things like gerrymandering and Citizens United where our process has gotten out of control and Congress, which should be doing its basic job of putting basic safety stan",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Every day I think that it’s weird that they can’t buy their way out of that one.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 544,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 31.48,
+        "rawScore": 31.48,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.68,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "79e6d15835f255d2bc27": {
+      "storyId": "79e6d15835f255d2bc27",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+      "title": "The AI regulation smackdown isn’t over",
+      "source": "The Verge AI",
+      "published": "2026-09-19T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f502312cce8e6cd30bda3a7a",
+      "bodyFingerprint": "7d325775c7e123821210e7f9",
+      "bodyCharacterCount": 9568,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T14:27:44.282Z",
+      "assessment": {
+        "centralEvent": "The AI regulation smackdown isn’t over",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“You see these moments in every technology, whether it was electricity, cars, or airplanes, where, at some point, the industry had to come together to find a way to say, ‘How do we collectively embrace what safety means?’ Cars were unsafe, ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "AI Policy Report The AI regulation smackdown isn’t over It’s AI CEO against AI CEO, and things are changing by the day. by Hayden Field Sep 19, 2026, 1:00 PM UTC Image: The Verge, Getty Images AI Policy Report The AI regulation smackdown is",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic industry, and forging international agreements p",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The president made headlines last week for calling recent fears about AI risks a “hoax.” He called Huang while the latter was onstage at a conference and told a crowd over speakerphone that “The robots will not be taking over.” That same da",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.68,
+        "rawScore": 28.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b1ca5584848e0b21d6a1": {
+      "storyId": "b1ca5584848e0b21d6a1",
+      "url": "https://mashable.com/tech/ai-fake-military-intelligence-report",
+      "title": "AI generated a fake intelligence report that almost started a war",
+      "source": "Mashable AI",
+      "published": "2026-09-19T14:12:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "696f1d8471c299b38235ef60",
+      "bodyFingerprint": "6497eb6ee2565f2d94003335",
+      "bodyCharacterCount": 2797,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T14:27:44.289Z",
+      "assessment": {
+        "centralEvent": "AI generated a fake intelligence report that almost started a war",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Pete Hegseth at the 2026 National POW/MIA Recognition Day Ceremony at the Pentagon in Washington, DC on September 18, 2026.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c5138d9ca614d59c3fa8": {
+      "storyId": "c5138d9ca614d59c3fa8",
+      "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking",
+      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+      "source": "TechCrunch AI",
+      "published": "2026-09-19T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9f4ceaa33ba8af937b9f2ad1",
+      "bodyFingerprint": "3905307f2dcc135c43f946ac",
+      "bodyCharacterCount": 6238,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-19T14:27:44.298Z",
+      "assessment": {
+        "centralEvent": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-19T11:03:46.822Z"
+  "updatedAt": "2026-09-19T14:27:44.298Z"
 }
