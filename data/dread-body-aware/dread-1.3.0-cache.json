@@ -160024,8 +160024,456 @@
           "vulnerability": 0
         }
       }
+    },
+    "bdafa9651e4f395e3939": {
+      "storyId": "bdafa9651e4f395e3939",
+      "url": "https://www.theguardian.com/business/2026/sep/20/ai-slowdown-calls-collapse-of-bubble-datacentre-tech-firms",
+      "title": "AI slowdown calls justified but collapse of bubble may be more immediate threat | Heather Stewart",
+      "source": "The Guardian AI",
+      "published": "2026-09-20T10:38:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "667142cd697db11c51d2ecd3",
+      "bodyFingerprint": "b2b2c744abbba6b06ba2da59",
+      "bodyCharacterCount": 7173,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T12:25:17.827Z",
+      "assessment": {
+        "centralEvent": "AI slowdown calls justified but collapse of bubble may be more immediate threat | Heather Stewart",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Some of the suggestions currently being mooted, including independent analysis of AI models, seem important improvements on the ungoverned status quo.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a0730dbeb36cf62e4255": {
+      "storyId": "a0730dbeb36cf62e4255",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/20/anger-midterm-elections",
+      "title": "‘People are pissed off’: anger at the elite and the establishment is fueling this year’s midterms",
+      "source": "The Guardian AI",
+      "published": "2026-09-20T10:00:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c7363c4c818aabb597607656",
+      "bodyFingerprint": "17544909e6a630dc9bfe4d0c",
+      "bodyCharacterCount": 16991,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T12:25:17.845Z",
+      "assessment": {
+        "centralEvent": "‘People are pissed off’: anger at the elite and the establishment is fueling this year’s midterms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Seth Bodnar, an independent running for US Senate in Montana, shot a Flock camera with a gun in a recent campaign ad that railed against the mass surveillance, saying big tech was using them to track “our every move” then storing the data i",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Revenge of the labor movement: Democrats with union backgrounds aim to retake Congress Read more In Ohio , Nan Whaley, the 2022 Democratic contender for governor, had beers in recent days with a former Republican turned independent.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Leeland’s list of frustrations is long: grifters, liars, the two-party system, money influencing elections, the US’s standing in the world, the growing national debt and a fixation on cultural issues, not just the larger problems that plagu",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "She finally saw someone who she felt was speaking to issues that matters to her as a single mom.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 115,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.02,
+        "rawScore": 48.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "76a22191f070c3e7c2c3": {
+      "storyId": "76a22191f070c3e7c2c3",
+      "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me",
+      "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+      "source": "WIRED AI",
+      "published": "2026-09-20T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83445694787a331353a27af7",
+      "bodyFingerprint": "5009abb9a5a15ef0654c1afc",
+      "bodyCharacterCount": 14361,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T12:25:17.875Z",
+      "assessment": {
+        "centralEvent": "Meta's Muse Is Better at Surveilling Than Helping Me",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Schroeder points to Meta recently opting all adult Instagram users into what was essentially an AI deepfake tool , then pulling the feature a few days later, as akin to Meta’s history of “manipulative tactics” and breaking user trust.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It’s a hit for the company: the Muse app has been downloaded over 900,000 times in its first week, according to Sensor Tower .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“One tweak the site forced: cheese is single-select, so I picked cheddar and left a note asking them to add Swiss too if they can,” read Muse’s explanation of the breakfast order when it asked for my final approval.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 101,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.43,
+        "rawScore": 45.43,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.13,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2d4e91f92471efb9f263": {
+      "storyId": "2d4e91f92471efb9f263",
+      "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers",
+      "title": "It’s Donald Trump Versus MAGA on Data Centers",
+      "source": "WIRED AI",
+      "published": "2026-09-20T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b888b39220290acb45269a7f",
+      "bodyFingerprint": "bf1f15158c058e02ab545a55",
+      "bodyCharacterCount": 10064,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T12:25:17.891Z",
+      "assessment": {
+        "centralEvent": "It’s Donald Trump Versus MAGA on Data Centers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In August, the National Republican Senatorial Committee sent a private memo to AI companies sounding the alarm on how voters perceive data centers, warning that “campaign or party committees can not fix the toxic brand of an entire segment ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "WIRED found grave flaws in its analysis and the process behind it, and confirmed the identity of several of its authors—among them a one-time DOGE affiliate.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The latter is particularly notable given that the state is home to Data Center Alley, a global hot spot for the facilities.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "WIRED found grave flaws in its analysis and the process behind it, and confirmed the identity of several of its authors—among them a one-time DOGE affiliate.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.96,
+        "rawScore": 27.96,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "351e99d5147261a8cadd": {
+      "storyId": "351e99d5147261a8cadd",
+      "url": "https://www.theguardian.com/us-news/2026/sep/20/trump-ai-policy-financial-interest",
+      "title": "As White House shields the AI gold rush, Trump family and other allies strike it rich – with few guardrails",
+      "source": "The Guardian AI",
+      "published": "2026-09-20T10:00:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b36f1d5abd73bd9ca1eed65",
+      "bodyFingerprint": "437794a8b68fb5c1080425e3",
+      "bodyCharacterCount": 10017,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T12:25:17.897Z",
+      "assessment": {
+        "centralEvent": "As White House shields the AI gold rush, Trump family and other allies strike it rich – with few guardrails",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In early September, Jacob Coxon – a researcher who spent three years working on the foundational training of AI models at both OpenAI and Anthropic – resigned and published a stark warning.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Tencent, the Chinese tech giant that owns WeChat , patched the vulnerability before it was deployed and said no accounts were affected, but the firm noted that building the exploit, work it said would once have taken a larger team months, t",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The call came from the White House: We have to get this done,” one person involved in the deal told the outlet.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Tencent, the Chinese tech giant that owns WeChat , patched the vulnerability before it was deployed and said no accounts were affected, but the firm noted that building the exploit, work it said would once have taken a larger team months, t",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Tencent, the Chinese tech giant that owns WeChat , patched the vulnerability before it was deployed and said no accounts were affected, but the firm noted that building the exploit, work it said would once have taken a larger team months, t",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A California cybersecurity firm disclosed this month that it had used artificial intelligence to build a self-spreading worm capable of hijacking WeChat accounts through a single unanswered call, and then automatically spreading through the",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.93,
+        "rawScore": 27.93,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3b6b0ba2405a432b716c": {
+      "storyId": "3b6b0ba2405a432b716c",
+      "url": "https://mashable.com/tech/sept-20-viceforge-creator-elite-plan-lifetime-subscription",
+      "title": "Get 4 video editing tools in one browser tab for $120",
+      "source": "Mashable AI",
+      "published": "2026-09-20T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c80e5ee654900d0d7eccd713",
+      "bodyFingerprint": "b9d95172bb1b2d1b4ca75d2c",
+      "bodyCharacterCount": 3111,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T12:25:17.962Z",
+      "assessment": {
+        "centralEvent": "Get 4 video editing tools in one browser tab for $120",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-20T06:20:53.250Z"
+  "updatedAt": "2026-09-20T12:25:17.962Z"
 }
