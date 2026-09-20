@@ -161666,8 +161666,214 @@
           "vulnerability": 0
         }
       }
+    },
+    "094d5c0d7970fcb9068a": {
+      "storyId": "094d5c0d7970fcb9068a",
+      "url": "https://mashable.com/tech/sept-20-speakbreez-plan-lifetime-subscription",
+      "title": "Replace costly voiceover sessions with this $29.99 lifetime tool",
+      "source": "Mashable AI",
+      "published": "2026-09-20T22:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a5db37ecd9c1237ea2c9cc10",
+      "bodyFingerprint": "96ab8f26d80909f2f0bdac8b",
+      "bodyCharacterCount": 2804,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T22:28:34.743Z",
+      "assessment": {
+        "centralEvent": "Replace costly voiceover sessions with this $29.99 lifetime tool",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "You also receive 200,000 characters per month — roughly four hours of narration — for SpeakBreez’s broader library of 680+ natural AI voices covering more than 120 languages and accents.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d47c82413d2b8bf69c1b": {
+      "storyId": "d47c82413d2b8bf69c1b",
+      "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets",
+      "title": "World model companies are keeping a lot of secrets",
+      "source": "TechCrunch AI",
+      "published": "2026-09-20T20:29:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a7c13c36510cf3bdd2f5b59f",
+      "bodyFingerprint": "e21b357284c93045385a5afc",
+      "bodyCharacterCount": 5155,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T22:28:34.781Z",
+      "assessment": {
+        "centralEvent": "World model companies are keeping a lot of secrets",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "No one doubts that there are lots of viable businesses to be built on world model tech — and as long as it’s easy to fundraise, there’s no particular pressure to focus on one.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2c09a43e7c3d1673aed3": {
+      "storyId": "2c09a43e7c3d1673aed3",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/21/can-trump-and-xi-cooperate-to-guide-humanity-through-the-ai-revolution-humanity-might-depend-on-it",
+      "title": "Can Trump and Xi cooperate to guide humanity through the AI revolution? Humanity might depend on it | Alan Finkel",
+      "source": "The Guardian AI",
+      "published": "2026-09-20T22:00:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7912752c2d9d2d594939aca2",
+      "bodyFingerprint": "1a855ef212e359a0f31d1787",
+      "bodyCharacterCount": 7503,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T22:28:34.944Z",
+      "assessment": {
+        "centralEvent": "Can Trump and Xi cooperate to guide humanity through the AI revolution? Humanity might depend on it | Alan Finkel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Explore more on these topics AI (artificial intelligence) Opinion Sam Altman OpenAI Anthropic Computing Donald Trump Xi Jinping comment Share Reuse this content More on this story More on this story AI slowdown calls justified but collapse ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to the METR research institute, generative AI capability doubled every seven months from 2020 to 2024.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "A flurry of headlines put the spotlight on the current crisis: unregulated competition between technology companies and between the US and China is putting our global infrastructure at risk at the very least, and threatening human existence",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It could be a power blackout across one or more states, bank withdrawals blocked for a week, or a deliberate overload of the global internet so that information flows grind to a halt.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-20T19:28:50.791Z"
+  "updatedAt": "2026-09-20T22:28:34.944Z"
 }
