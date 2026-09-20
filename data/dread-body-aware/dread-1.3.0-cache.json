@@ -159496,8 +159496,536 @@
           "vulnerability": 0
         }
       }
+    },
+    "ebe72d6b09fd32d5766d": {
+      "storyId": "ebe72d6b09fd32d5766d",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/20/intergenerational-report-australian-life-expectancy-forecast-to-rise",
+      "title": "More Australians to live into their 90s as life expectancy forecast to rise over coming decades",
+      "source": "The Guardian AI",
+      "published": "2026-09-20T04:32:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "71bcee9095843909a865bdba",
+      "bodyFingerprint": "16bd1b9896323a7be0c66802",
+      "bodyCharacterCount": 4909,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T06:20:53.004Z",
+      "assessment": {
+        "centralEvent": "More Australians to live into their 90s as life expectancy forecast to rise over coming decades",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Photograph: Lisa Maree Williams/Getty Images More Australians to live into their 90s as life expectancy forecast to rise over coming decades Treasury’s latest intergenerational report projects life expectancy at birth will reach 89 for wome",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4a1246b851a099f9b54b": {
+      "storyId": "4a1246b851a099f9b54b",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031040.htm",
+      "title": "A giant crater may reveal the origin of Mars’ doomed moon",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-19T12:12:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ed5151ee74c8bb6f4a825e7d",
+      "bodyFingerprint": "361d5fac3a74773a51f268d2",
+      "bodyCharacterCount": 11934,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T06:20:53.025Z",
+      "assessment": {
+        "centralEvent": "A giant crater may reveal the origin of Mars’ doomed moon",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Phobos Is More Than a Rock in Orbit Phobos is small and strangely shaped, but Haser says it should not be viewed as simply a 'rock in orbit.' The moon has a mean diameter of only 22.2 km (13.8 miles) and races around Mars once every 7 hours",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 86,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "03865c0f687225bd55aa": {
+      "storyId": "03865c0f687225bd55aa",
+      "url": "https://www.theguardian.com/world/2026/sep/20/why-china-is-pushing-back-on-us-warnings-over-rapid-ai-development",
+      "title": "Why China is pushing back on US warnings over rapid AI development",
+      "source": "The Guardian AI",
+      "published": "2026-09-20T06:00:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "21614ab22f842dc42cd50b60",
+      "bodyFingerprint": "ba0e6129cda079d2c4e1482f",
+      "bodyCharacterCount": 6699,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T06:20:53.077Z",
+      "assessment": {
+        "centralEvent": "Why China is pushing back on US warnings over rapid AI development",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This week China released the third iteration of its AI safety governance framework – a document that functions as a “mapping of the AI risk landscape and roughly what one should do about it”, said Gabriel Wagner, a researcher at Concordia, ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "His clients, well-off parents looking to send their children to study overseas, had begun arriving in his office reeling off information and opinions gleaned not from rival firms, but from chatbots.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And last Saturday Anthropic chief executive Dario Amodei pitched a “worldwide pacing of the frontier ” – something he said would “require cooperation with China”.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04ef9b46be73a5c6e7b4": {
+      "storyId": "04ef9b46be73a5c6e7b4",
+      "url": "https://mashable.com/tech/sept-20-microsoft-visual-studio-professional-2026",
+      "title": "Give your coding workflow an AI-powered upgrade for $30",
+      "source": "Mashable AI",
+      "published": "2026-09-20T06:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1b3bcd0f47d87b84e800ff98",
+      "bodyFingerprint": "cb1f049c22fd7c5bfcf1248b",
+      "bodyCharacterCount": 2821,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T06:20:53.091Z",
+      "assessment": {
+        "centralEvent": "Give your coding workflow an AI-powered upgrade for $30",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Opens in a new window Credit: Microsoft Microsoft Visual Studio Professional 2026 $29.97 $499.99 Save $470.02 Get Deal There’s quite a difference between spending all day building something versus spending all day trying to figure out why y",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "da56f3afe522571729ad": {
+      "storyId": "da56f3afe522571729ad",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260918024810.htm",
+      "title": "This deep-sea enzyme survives heat that destroys most proteins",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-19T11:49:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "27fa6dfed4edcb0c09cd6ece",
+      "bodyFingerprint": "89e051da56afe62475ac9bdd",
+      "bodyCharacterCount": 10218,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T06:20:53.156Z",
+      "assessment": {
+        "centralEvent": "This deep-sea enzyme survives heat that destroys most proteins",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "21, 2025  Instead of relying on energy-hungry reactors to generate high temperatures and pressure, researchers are looking underground at Earth's natural heat and forces to cook up ammonia for fertilizer. ...",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "1, 2024  Among the many chemicals we use every day, ammonia is one of the worst for the atmosphere.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Excess fertilizer use can also contribute to eutrophication and other environmental damage. \"For now, the study provides something more fundamental: an updated molecular view of one of biology's most remarkable chemical reactions.\" RELATED ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "1, 2024  Among the many chemicals we use every day, ammonia is one of the worst for the atmosphere.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.5,
+        "rawScore": 29.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8334a9b5195b365efd58": {
+      "storyId": "8334a9b5195b365efd58",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260918024812.htm",
+      "title": "This tiny organism can shrink to one quarter its size in milliseconds",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-19T11:39:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3055dccbafe8bf5971e60d91",
+      "bodyFingerprint": "ebbf94a81df4cbacbd465f36",
+      "bodyCharacterCount": 9312,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T06:20:53.160Z",
+      "assessment": {
+        "centralEvent": "This tiny organism can shrink to one quarter its size in milliseconds",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This system allows it to contract far more quickly than human muscle, and researchers say the discovery could eventually help guide the development of faster artificial muscles and synthetic cellular machinery.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "35a86969e0e1a970b313": {
+      "storyId": "35a86969e0e1a970b313",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031022.htm",
+      "title": "Scientists find that “perfect” systems may be surprisingly fragile",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-19T11:26:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6e47340a9ff614441a6b3361",
+      "bodyFingerprint": "4b05dd1834995221d781364a",
+      "bodyCharacterCount": 13228,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T06:20:53.166Z",
+      "assessment": {
+        "centralEvent": "Scientists find that “perfect” systems may be surprisingly fragile",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers found that a carefully balanced mix of gold, manganese, and copper creates a powerful synergy ...",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 97,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8cc7bfef6e8be64b150f": {
+      "storyId": "8cc7bfef6e8be64b150f",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260918024759.htm",
+      "title": "Billions in rare earth elements may be hiding in America’s coal ash",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-19T02:08:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7aaee135fe5ac6e6812709eb",
+      "bodyFingerprint": "f4a0559541cf368b236dd521",
+      "bodyCharacterCount": 9487,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T06:20:53.250Z",
+      "assessment": {
+        "centralEvent": "Billions in rare earth elements may be hiding in America’s coal ash",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "21, 2022  Waste materials from oil sands extraction, stored in tailings ponds, can pose a risk to the natural habitat and neighboring communities when they leach into groundwater and surface ecosystems.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Turning Industrial Waste Into Marketable Products The researchers will also study whether the technologies can be scaled economically and practically for industrial use.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "21, 2023  A groundbreaking study has provided new insights into the extensive impact of metal mining contamination on rivers and floodplains across the world, with an estimated 23 million people believed to be ...",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-20T01:12:31.720Z"
+  "updatedAt": "2026-09-20T06:20:53.250Z"
 }
