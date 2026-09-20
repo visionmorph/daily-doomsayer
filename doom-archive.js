@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-20T16:00:00.000Z",
+  "generatedAt": "2026-09-20T19:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-20",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DCA-airport-2560x1440.jpg",
           "peak": 70.49,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-20",
           "firstObservedAt": "2026-09-20T06:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 70.49
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-20",
           "firstObservedAt": "2026-09-20T06:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa9a061b69918de8da37621/master/pass/DSA-split-AI-regulation.jpg",
           "peak": 50.82,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-20",
           "firstObservedAt": "2026-09-20T06:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 50.82
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aada5d618f30d6f17ee2971/master/pass/Kernal-Panic-AI-SlowDown-Wont-Stop-Security-Vulnerability-Explosion-Security.jpg",
           "peak": 50.77,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-20",
           "firstObservedAt": "2026-09-20T06:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 50.77
         },
         {
@@ -81,17 +81,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.16
         },
         {
+          "storyId": "9ea97c2857a0153c1aab",
+          "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+          "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/akrales_220309_4977_0292.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-20",
+          "firstObservedAt": "2026-09-20T19:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
+          "average": 50.16
+        },
+        {
           "storyId": "6444114201a49ef09166",
           "title": "Why some experts increasingly fear AI will take over",
           "url": "https://www.bbc.co.uk/news/articles/c74edv9887eo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-20",
           "firstObservedAt": "2026-09-20T06:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 49.94
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.83,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-20",
           "firstObservedAt": "2026-09-20T06:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 49.83
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-20",
           "firstObservedAt": "2026-09-20T06:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 49.66
         },
         {
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-20T06:00:00.000Z",
           "lastObservedAt": "2026-09-20T06:00:00.000Z",
           "average": 49.61
-        },
-        {
-          "storyId": "c34f31b9487dd3c575dd",
-          "title": "Australia has done precious little to prepare for the dangers of AI. Where is brilliant leadership when you need it? | Zoe Daniel",
-          "url": "https://www.theguardian.com/commentisfree/2026/sep/20/australia-has-done-precious-little-to-prepare-for-the-dangers-of-ai-where-is-brilliant-leadership-when-you-need-it",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/946b0e05dd0e1b4c6e798b7dd5ff3846fd4f4783/620_0_6195_4958/master/6195.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.39,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-09-20",
-          "firstObservedAt": "2026-09-20T06:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
-          "average": 49.39
         }
       ]
     },
@@ -3209,11 +3209,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DCA-airport-2560x1440.jpg",
           "peak": 70.49,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T22:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 70.49
         },
         {
@@ -3279,11 +3279,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 37,
+          "observations": 38,
           "daysTracked": 7,
           "peakDate": "2026-09-14",
           "firstObservedAt": "2026-09-14T06:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -3293,11 +3293,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa9a061b69918de8da37621/master/pass/DSA-split-AI-regulation.jpg",
           "peak": 50.82,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T16:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 50.82
         },
         {
@@ -3321,11 +3321,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aada5d618f30d6f17ee2971/master/pass/Kernal-Panic-AI-SlowDown-Wont-Stop-Security-Vulnerability-Explosion-Security.jpg",
           "peak": 50.77,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-09-19",
           "firstObservedAt": "2026-09-19T14:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 50.77
         },
         {
@@ -3805,11 +3805,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DCA-airport-2560x1440.jpg",
           "peak": 70.49,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T22:00:00.000Z",
-          "lastObservedAt": "2026-09-20T16:00:00.000Z",
+          "lastObservedAt": "2026-09-20T19:00:00.000Z",
           "average": 70.49
         },
         {
