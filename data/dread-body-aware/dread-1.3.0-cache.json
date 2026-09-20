@@ -160472,8 +160472,750 @@
           "vulnerability": 0
         }
       }
+    },
+    "c81b1cc49d5a1aa4aac7": {
+      "storyId": "c81b1cc49d5a1aa4aac7",
+      "url": "https://www.inc.com/netta-jenkins/she-built-8-ai-agents-in-one-week-what-she-didnt-automate-matters-more/91407664",
+      "title": "She Built 8 AI Agents in One Week. What She Didn’t Automate Matters More",
+      "source": "Inc. AI",
+      "published": "2026-09-20T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1a03414cd04cb26d629503ab",
+      "bodyFingerprint": "28c1d38da66a31bbcd6a060d",
+      "bodyCharacterCount": 64,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-20T16:50:16.417Z",
+      "assessment": {
+        "centralEvent": "She Built 8 AI Agents in One Week. What She Didn’t Automate Matters More",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fab6808c5ea272358d9d": {
+      "storyId": "fab6808c5ea272358d9d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+      "title": "Trump now says he wants to form an ‘AI Force’",
+      "source": "The Verge AI",
+      "published": "2026-09-20T15:39:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "caa9d802c7cd428169b606af",
+      "bodyFingerprint": "9b22eaf9d896ec5e3e78f4e7",
+      "bodyCharacterCount": 3289,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T16:50:16.476Z",
+      "assessment": {
+        "centralEvent": "Trump now says he wants to form an ‘AI Force’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Every TV company is spying on you Gemini went rogue, hacked three companies, and Google hid it OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long A24’s reputa",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Every TV company is spying on you Gemini went rogue, hacked three companies, and Google hid it OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long A24’s reputa",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0878612befc7ca4e2810": {
+      "storyId": "0878612befc7ca4e2810",
+      "url": "https://www.theguardian.com/us-news/2026/sep/20/david-sacks-trump-ai-czar",
+      "title": "‘An out-of-touch Silicon Valley radical’: meet Trump’s AI whisperer pushing for limited regulation",
+      "source": "The Guardian AI",
+      "published": "2026-09-20T16:44:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "68e3a0703bcd3d6f4e3875db",
+      "bodyFingerprint": "ee74170bd4d57e12c02fe93c",
+      "bodyCharacterCount": 10706,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T16:50:16.499Z",
+      "assessment": {
+        "centralEvent": "‘An out-of-touch Silicon Valley radical’: meet Trump’s AI whisperer pushing for limited regulation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "He’s called the perceived dangers of the technology a “hoax” and a “scam”, arguing that the government already has “tremendous CRIMINAL and REGULATORY power over these companies”.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The position, as a “special government employee”, only allowed Sacks to work for the administration for a maximum of 130 days a year, but exempted him from confirmation hearings or financial disclosure requirements.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "China bogeyman looms large over American firms’ AI doomsday scenario Read more Sacks, who believes regulation will erase the US lead in the global AI race, is seen as Trump’s AI whisperer – the adviser with the greatest influence in the Whi",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "93f24197b661dc2077af": {
+      "storyId": "93f24197b661dc2077af",
+      "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026",
+      "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-09-20T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "23b24081c9469a0ca1a9b8a2",
+      "bodyFingerprint": "9acdb709f010ffa7b4d0dbc7",
+      "bodyCharacterCount": 3000,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T16:50:16.506Z",
+      "assessment": {
+        "centralEvent": "6 days left to get ahead at TechCrunch Disrupt 2026",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "6 days left to get ahead at TechCrunch Disrupt 2026",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9ea97c2857a0153c1aab": {
+      "storyId": "9ea97c2857a0153c1aab",
+      "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+      "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+      "source": "The Verge AI",
+      "published": "2026-09-20T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d87e7f199d46716c8c1982e9",
+      "bodyFingerprint": "bf5657a8b3ae0680c8d1d595",
+      "bodyCharacterCount": 9813,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T16:50:16.521Z",
+      "assessment": {
+        "centralEvent": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Every TV company is spying on you Gemini went rogue, hacked three companies, and Google hid it OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long A24’s reputa",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "If there is now a 10 percent chance of artificial intelligence one day killing all humans, as some AI developers warn , surely there’s a chance it could knock our lights out in the meantime?",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“In the coming months, AI-enabled cyber attacks will become far more widespread and sophisticated as models around the world become increasingly capable,” OpenAI said in the September 3 announcement.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Even AI executives are talking about whether the technology they’re building could grow so out of control that it triggers an apocalypse.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.16,
+        "rawScore": 50.16,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.56,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "db54351da68b2908642f": {
+      "storyId": "db54351da68b2908642f",
+      "url": "https://www.theguardian.com/business/2026/sep/20/uk-startup-15m-investment-concerts-digital-versions-musicians",
+      "title": "UK startup snares $20m to recreate gigs with ‘hyper-realistic’ digital avatars",
+      "source": "The Guardian AI",
+      "published": "2026-09-20T13:00:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "33a4652083c58755548df849",
+      "bodyFingerprint": "e98dfa907b6ef12a7655a4a3",
+      "bodyCharacterCount": 5019,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T16:50:16.543Z",
+      "assessment": {
+        "centralEvent": "UK startup snares $20m to recreate gigs with ‘hyper-realistic’ digital avatars",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Photograph: Nigel French/PA Wragg said that, in most cases, the startup was “dealing with family members of estates to create something which is well documented and understood – extremely well-known concerts or live recordings.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f75245df556f21e9dd10": {
+      "storyId": "f75245df556f21e9dd10",
+      "url": "https://mashable.com/tech/tilly-norwood-piers-morgan-cantonese-glitch",
+      "title": "AI actress Tilly Norwood bugs out, speaks Cantonese in Piers Morgan interview",
+      "source": "Mashable AI",
+      "published": "2026-09-20T15:02:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9cc3e7b998436f28fab9539f",
+      "bodyFingerprint": "572165bde714fc94b1c2ac77",
+      "bodyCharacterCount": 2597,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T16:50:16.596Z",
+      "assessment": {
+        "centralEvent": "AI actress Tilly Norwood bugs out, speaks Cantonese in Piers Morgan interview",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "After the brief bit of Cantonese (which I cannot personally translate for you), Morgan asked the AI what went wrong, and the AI offered a response in the correct language.\"It seems I had a little hiccup there ... sometimes my wires get a bi",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 10,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "563d98ea3d3881476125": {
+      "storyId": "563d98ea3d3881476125",
+      "url": "https://techpolicy.press/ai-hacks-a-possible-war-crime-and-a-near-miss-with-china-set-stage-for-trumpxi-meeting",
+      "title": "AI Hacks, a Possible War Crime, and a Near Miss With China Set Stage for Trump-Xi Meeting",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-20T15:53:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b95fd221f3474c470ea516a8",
+      "bodyFingerprint": "cada49ce89acf70411c11f6f",
+      "bodyCharacterCount": 14041,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T16:50:16.646Z",
+      "assessment": {
+        "centralEvent": "AI Hacks, a Possible War Crime, and a Near Miss With China Set Stage for Trump-Xi Meeting",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Just in the past couple of days, we’ve learned of new disclosures related to “concerning” AI agent behavior at OpenAI, how Google’s Gemini “accessed the internet and hacked other companies during a test of its cybersecurity capabilities,” a",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "September 13, 2026 Newsletter This Labor Day, Consider AI's Impact on Hiring September 6, 2026 Newsletter This Week's Meta Settlement Will Reverberate Across the World for Years August 30, 2026",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "AI risks and what to do about them continue to dominate headlines around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 85,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b927dcb81870ed886bfb": {
+      "storyId": "b927dcb81870ed886bfb",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920032049.htm",
+      "title": "Scientists opened a sealed envelope after 10 years. Gravity still didn’t make sense",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-20T10:30:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "deee344a3a0748696c69f0a7",
+      "bodyFingerprint": "a5a338af53d406896aadb275",
+      "bodyCharacterCount": 16184,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T16:50:16.661Z",
+      "assessment": {
+        "centralEvent": "Scientists opened a sealed envelope after 10 years. Gravity still didn’t make sense",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Yet they are still larger than researchers would expect from ordinary experimental uncertainty.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Now, after a decade of experiments, corrections, and painstaking analysis, the answer was sitting inside a sealed envelope.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Schlamminger and his colleagues hoped to clarify the problem by carefully replicating a precision experiment carried out by the International Bureau of Weights and Measures (BIPM) in S&egrave;vres, France, in 2007.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Once the blinded data were restored, the NIST measurement did not agree with the French result.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Then they repeated the experiment using sapphire.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 138,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.48,
+        "rawScore": 28.48,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4075,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c635113edbdb7de7ffd5": {
+      "storyId": "c635113edbdb7de7ffd5",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031030.htm",
+      "title": "New nanoparticles make hidden chemical differences light up",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-20T11:35:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dd5cdd11e5d6be18a177f0e4",
+      "bodyFingerprint": "7e7d945cecc07b4f333895d7",
+      "bodyCharacterCount": 12277,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T16:50:16.672Z",
+      "assessment": {
+        "centralEvent": "New nanoparticles make hidden chemical differences light up",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Pollution Monitoring Through Precise Detection of Gold Nanoparticles in Woodlice Apr.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Wu, their emitted light is roughly 150 times brighter than that of upconversion nanoparticles that have not been dye-sensitized.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Explore More from ScienceDaily RELATED STORIES Self-Lighting Chip Uses Quantum Tunneling to Spot a Trillionth of a Gram June 27, 2025  Imagine detecting a single trillionth of a gram of a molecule—like an amino acid—using just electricity ",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.43,
+        "rawScore": 45.43,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.13,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9c628f589524d95453bb": {
+      "storyId": "9c628f589524d95453bb",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031023.htm",
+      "title": "Einstein’s “spooky action” just survived one of physics’ most extreme tests",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-20T05:16:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "acf736a5cae55adbed264385",
+      "bodyFingerprint": "841500643a2159c4a285d362",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-20T16:50:16.790Z",
+      "assessment": {
+        "centralEvent": "Einstein’s “spooky action” just survived one of physics’ most extreme tests",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Albert Einstein famously called entanglement \"spooky action at a distance,\" and scientists have previously observed the effect in systems involving photons, electrons and trapped ions.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-20T12:25:17.962Z"
+  "updatedAt": "2026-09-20T16:50:16.790Z"
 }
