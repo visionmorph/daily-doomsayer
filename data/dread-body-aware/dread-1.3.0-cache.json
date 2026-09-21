@@ -161872,8 +161872,70 @@
           "vulnerability": 0
         }
       }
+    },
+    "cd53e91f692b0adb7ec5": {
+      "storyId": "cd53e91f692b0adb7ec5",
+      "url": "https://www.bbc.co.uk/news/articles/cr5ye7p13jg7o?at_campaign=rss&at_medium=RSS",
+      "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+      "source": "BBC News AI",
+      "published": "2026-09-21T00:34:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d947dfa5d9e21d843d7bf75b",
+      "bodyFingerprint": "cfdcabbe0c47f1e025cba1ab",
+      "bodyCharacterCount": 2734,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T01:09:17.870Z",
+      "assessment": {
+        "centralEvent": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "They're asking to be relieved of the laws we do have, and I think that that's a problem.\" Not all AI workers think the tech could kill everyone Published 1 day ago OpenAI boss says world 'right to be afraid' but should trust AI firms Publis",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-20T22:28:34.944Z"
+  "updatedAt": "2026-09-21T01:09:17.870Z"
 }
