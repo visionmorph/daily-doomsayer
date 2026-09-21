@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-21T06:00:00.000Z",
+  "generatedAt": "2026-09-21T14:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-21",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DCA-airport-2560x1440.jpg",
           "peak": 70.49,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 70.49
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aada5d618f30d6f17ee2971/master/pass/Kernal-Panic-AI-SlowDown-Wont-Stop-Security-Vulnerability-Explosion-Security.jpg",
           "peak": 50.77,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 50.77
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/akrales_220309_4977_0292.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 50.16
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 49.94
         },
         {
@@ -101,25 +101,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 49.83
         },
         {
           "storyId": "a24da9b4fbe345bc0e32",
-          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
+          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
           "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 49.83
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 49.66
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 49.01
         }
       ]
@@ -269,7 +269,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
         },
         {
           "storyId": "a24da9b4fbe345bc0e32",
-          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
+          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
           "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
@@ -3354,11 +3354,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DCA-airport-2560x1440.jpg",
           "peak": 70.49,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 70.49
         },
         {
@@ -3368,11 +3368,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 51.23
         },
         {
@@ -3396,11 +3396,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aada5d618f30d6f17ee2971/master/pass/Kernal-Panic-AI-SlowDown-Wont-Stop-Security-Vulnerability-Explosion-Security.jpg",
           "peak": 50.77,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 50.77
         },
         {
@@ -3410,11 +3410,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/akrales_220309_4977_0292.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 50.16
         },
         {
@@ -3424,11 +3424,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 49.94
         },
         {
@@ -3438,25 +3438,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 49.83
         },
         {
           "storyId": "a24da9b4fbe345bc0e32",
-          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
+          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
           "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 49.83
         },
         {
@@ -3466,11 +3466,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 49.66
         },
         {
@@ -3480,11 +3480,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 49.01
         }
       ]
@@ -4095,11 +4095,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DCA-airport-2560x1440.jpg",
           "peak": 70.49,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 4,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T22:00:00.000Z",
-          "lastObservedAt": "2026-09-21T06:00:00.000Z",
+          "lastObservedAt": "2026-09-21T14:00:00.000Z",
           "average": 70.49
         },
         {
