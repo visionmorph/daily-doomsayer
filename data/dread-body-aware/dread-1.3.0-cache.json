@@ -164955,8 +164955,393 @@
           "vulnerability": 0
         }
       }
+    },
+    "0a150d0a961f18f25d23": {
+      "storyId": "0a150d0a961f18f25d23",
+      "url": "https://www.theguardian.com/politics/2026/sep/21/halt-super-intelligent-ai-ed-davey-lib-dem-conference",
+      "title": "Halt super-intelligent AI with non-proliferation treaty, Ed Davey to say",
+      "source": "The Guardian AI",
+      "published": "2026-09-21T21:30:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5f969e4616eecd83681379c1",
+      "bodyFingerprint": "169b72ba2caf1c81c085c63e",
+      "bodyCharacterCount": 5214,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T23:19:16.611Z",
+      "assessment": {
+        "centralEvent": "Halt super-intelligent AI with non-proliferation treaty, Ed Davey to say",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It comes after the Lib Dems’ home affairs spokesperson, Max Wilkinson, on Monday announced that the party proposed a big tech levy and promised to create a new online crime agency focused on offences including child sexual abuse material, t",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It comes after the Lib Dems’ home affairs spokesperson, Max Wilkinson, on Monday announced that the party proposed a big tech levy and promised to create a new online crime agency focused on offences including child sexual abuse material, t",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "At Lib Dems’ conference in Brighton, leader will accuse Andy Burnham of relying on Donald Trump and ‘tech bros’ to solve problem Ed Davey is to call for a global nuclear-style non-proliferation treaty to halt the development of super-intell",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On Sunday Davey set out a proposal to cut fuel duty by 10p a litre for a fixed three-month period, as well as reducing the bus fare cap from £3 to £1 and other transport-related cost of living policies.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On Sunday Davey set out a proposal to cut fuel duty by 10p a litre for a fixed three-month period, as well as reducing the bus fare cap from £3 to £1 and other transport-related cost of living policies.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "I want to tell people that we have really well thought through policies that will cut their taxes.” Asked if he would propose further tax cuts in the wake of the pledge to slash 10p from fuel duty for three months, Davey replied: “Absolutel",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.77,
+        "rawScore": 47.77,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5fb2a618a0bb669f6bb1": {
+      "storyId": "5fb2a618a0bb669f6bb1",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+      "title": "California tightens rules on AI data center energy and water use",
+      "source": "The Verge AI",
+      "published": "2026-09-21T20:29:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2d37d3b2d5aa9268e63d4e0d",
+      "bodyFingerprint": "784705a5dff02295e9ff9e87",
+      "bodyCharacterCount": 3900,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T23:19:16.640Z",
+      "assessment": {
+        "centralEvent": "California tightens rules on AI data center energy and water use",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Last week, Newsom signed an executive order to speed up the creation of an AI “kill switch.” Related Gavin Newsom is pushing for an AI kill switch “While the Trump administration moves toward deregulation, communities are left to deal with ",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "790cf36b99eec5abd380": {
+      "storyId": "790cf36b99eec5abd380",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "source": "Ars Technica AI",
+      "published": "2026-09-21T22:24:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c23d9b2e17498c22a91176a8",
+      "bodyFingerprint": "832d33cded1aa5e7136f103e",
+      "bodyCharacterCount": 8697,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T23:19:16.664Z",
+      "assessment": {
+        "centralEvent": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "A simple ClickFix attack is only one way to completely hijack the new agent.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "He is also the author of the “The Art of Mac Malware” book series, and a former employee of NASA and the National Security Agency.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Once that happens, the attacker gains permanent control over the Muse account because the token is automatically sent to the malicious server as well.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“So instead of us having to write a very comprehensive Mac malware stealer, we can just leverage the AI assistant itself.” Wardle said he has developed several proof-of-concept attacks that do things like writing malicious files to disk and",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.99,
+        "rawScore": 49.99,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.545,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "abc5627bb547841d349c": {
+      "storyId": "abc5627bb547841d349c",
+      "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems",
+      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T20:15:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ec0f2647bdd9a8824bb1fc73",
+      "bodyFingerprint": "c1cce91198e30823cf7f7ec0",
+      "bodyCharacterCount": 3166,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T23:19:16.719Z",
+      "assessment": {
+        "centralEvent": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Aditya Mehta View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9959d07fd1fd2c45e627": {
+      "storyId": "9959d07fd1fd2c45e627",
+      "url": "https://techpolicy.press/us-china-psyop-accusations-signal-deep-distrust-on-ai-regulation",
+      "title": "US, China Psy-Op Accusations Signal Deep Distrust on AI Regulation",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-21T20:26:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d019f92bd75c12da025fdca7",
+      "bodyFingerprint": "e2185456f5dabac04e3e528c",
+      "bodyCharacterCount": 11490,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T23:19:17.089Z",
+      "assessment": {
+        "centralEvent": "US, China Psy-Op Accusations Signal Deep Distrust on AI Regulation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But outside of deferring to companies as that compromised source of truth, there is no consensus of what slowing down the frontier should look like in practice, or what third-party evaluation or verification protocol could be generally wide",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Sacks’ boss, US President Donald Trump, has emphatically stated that “there is a SICK conspiracy going on against AI and Data Centers, and the only one that is happy about it is China.” Y Combinator CEO Garry Tan wrote in late August that “",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As the Carnegie Endowment for International Peace’s Matt Sheehan said in a recent interview , Chinese state media has implied that US calls for AI safety are part of an effort to unilaterally define the terms of Chinese—and rest-of-world—ad",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "1982 address, Reagan alleged that the nuclear freeze movement was fueled not by \"the sincere, honest people who want peace, but by some who want the weakening of America, and so are manipulating many honest and sincere people”; he repeated ",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.62,
+        "rawScore": 48.62,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.42,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-21T19:31:54.356Z"
+  "updatedAt": "2026-09-21T23:19:17.089Z"
 }
