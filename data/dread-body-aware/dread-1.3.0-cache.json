@@ -161934,8 +161934,130 @@
           "vulnerability": 0
         }
       }
+    },
+    "9e45cc63421a735f6ed3": {
+      "storyId": "9e45cc63421a735f6ed3",
+      "url": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_campaign=rss&at_medium=RSS",
+      "title": "US and China discuss AI safety plan ahead of Trump-Xi summit",
+      "source": "BBC News AI",
+      "published": "2026-09-21T05:50:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7709436c518c7fd1e249b5cb",
+      "bodyFingerprint": "0ba00a3a81da42d02a355cde",
+      "bodyCharacterCount": 2728,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T06:24:27.991Z",
+      "assessment": {
+        "centralEvent": "US and China discuss AI safety plan ahead of Trump-Xi summit",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics International Business China Artificial intelligence Xi Jinping Donald Trump More on this story AI poses huge risks to national security without guardrails, minister says Published 5 days ago Why Trump is all-in on AI despite",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "356d3c9f32bffaf110dd": {
+      "storyId": "356d3c9f32bffaf110dd",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/21/jim-chalmers-intergenerational-report-2026-deaths-outnumber-births-australia2060s",
+      "title": "More Australians will be dying than being born in 40 years as major report predicts future of lower growth",
+      "source": "The Guardian AI",
+      "published": "2026-09-21T02:30:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "25c59a85b9e41ebdda6a241f",
+      "bodyFingerprint": "795c644e5ed1d2f0e068dafe",
+      "bodyCharacterCount": 6122,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T06:24:28.082Z",
+      "assessment": {
+        "centralEvent": "More Australians will be dying than being born in 40 years as major report predicts future of lower growth",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Seventh intergenerational report also outlines how Australia is at cusp of an uncertain age of artificial intelligence Follow our Australia news live blog for latest updates Get our new political email, free app or daily news podcast There ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-21T01:09:17.870Z"
+  "updatedAt": "2026-09-21T06:24:28.083Z"
 }
