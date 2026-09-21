@@ -162056,8 +162056,1609 @@
           "vulnerability": 0
         }
       }
+    },
+    "693823a542ab6ff19ef0": {
+      "storyId": "693823a542ab6ff19ef0",
+      "url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+      "title": "Can John Ternus find Apple’s next big thing?",
+      "source": "The Verge AI",
+      "published": "2026-09-21T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0e8337f432b94f82a682c1d0",
+      "bodyFingerprint": "3541a7d643c8b2b4d9d2a533",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.100Z",
+      "assessment": {
+        "centralEvent": "Can John Ternus find Apple’s next big thing?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "It was new Apple CEO John Ternus’ first major product launch since he took over for former CEO Tim Cook less than two weeks prior.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Within 365 days, you will be wearing them and have video footage of you wearing them at the Steve Jobs Theater.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The problem with that is that it requires a worldwide surveillance database of everyone taking each other’s pictures all day long.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "I’m going to correct you on that because every time I put an article or a post out about the Vision Pro being on life support, I get what amounts to basically a notch or two below a death threat from dozens of people.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Not having that bench of younger people with new ideas or disruptive ideas, I think, prevented them from seeing AI for what it was.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "For $47 million a year, I would talk to Trump and Xi Jinping on the phone every day. [Laughs] I would need at least 50, but that’s just me.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 870,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 51.65,
+        "rawScore": 51.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.695,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c8b7580d0a35361cb49e": {
+      "storyId": "c8b7580d0a35361cb49e",
+      "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+      "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
+      "source": "The Verge AI",
+      "published": "2026-09-21T13:36:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3a332c5be22fe7c7f40140f9",
+      "bodyFingerprint": "bebae4804016fc1647e2b55e",
+      "bodyCharacterCount": 3323,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.118Z",
+      "assessment": {
+        "centralEvent": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI Apple iPhone News Policy Tech Most Popular Most Popular A24’s reputation is on the line with the SCP Foundation movie All roads lead to cable The hidden monopoly behind your TI graphing calculator Gemini went rogue, hacked thre",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10th, 2024, and March 29th, 2025, you can file a claim on the settlement's website, as reported earlier by MacRumors.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "You can receive an estimated $25 per eligible device, but the settlement's website notes that this can increase to $95 depending on how many people file claims.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.09,
+        "rawScore": 46.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.19,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "564fa062ceab532930a6": {
+      "storyId": "564fa062ceab532930a6",
+      "url": "https://mashable.com/tech/googlebooks-laptops-where-to-buy",
+      "title": "The first Googlebooks are available for preorder: Where to buy new HP, Dell, Lenovo, Acer, and Asus models",
+      "source": "Mashable AI",
+      "published": "2026-09-21T13:44:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "61e3fc77adc5f882de8a17a3",
+      "bodyFingerprint": "d6947f92658acc9cbe5c1d22",
+      "bodyCharacterCount": 5710,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.205Z",
+      "assessment": {
+        "centralEvent": "The first Googlebooks are available for preorder: Where to buy new HP, Dell, Lenovo, Acer, and Asus models",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Every Googlebook comes packed with a minimum of 16GB of RAM, at least 14 hours of battery life, dedicated NPU chips for local AI tasks, and a free 12-month offer for Google AI Pro.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b157e2e664b7d5595bff": {
+      "storyId": "b157e2e664b7d5595bff",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920222358.htm",
+      "title": "Black holes of every size follow the same surprising rule",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-21T13:23:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c850e4631af989432784426d",
+      "bodyFingerprint": "a3c17d3c7d57eb754897eb8b",
+      "bodyCharacterCount": 9069,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.410Z",
+      "assessment": {
+        "centralEvent": "Black holes of every size follow the same surprising rule",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "At that later stage, the black hole's feeding rate falls to about two percent of its Eddington limit, the point at which the outward pressure of radiation balances the inward pull of gravity.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Supermassive black holes can produce jets soon after tearing apart a star, then fire up again hundreds or thousands of days later when their feeding rate drops to about 2% of the Eddington limit.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: Shutterstock An international team of astronomers co-led by an IAS scholar has identified what appears to be a universal rule governing one of the most dramatic behaviors of black holes: the production of powerful jets.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5f2c06cf214a4caa9a66": {
+      "storyId": "5f2c06cf214a4caa9a66",
+      "url": "https://techpolicy.press/the-influence-of-ai-on-human-decisions-in-dhs-surveillance",
+      "title": "The Influence of AI on Human Decisions in DHS Surveillance",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-21T13:13:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c485455506b17ac906d85e12",
+      "bodyFingerprint": "7c02a815f6b2e7fa602763f7",
+      "bodyCharacterCount": 10382,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.472Z",
+      "assessment": {
+        "centralEvent": "The Influence of AI on Human Decisions in DHS Surveillance",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "The Influence of AI on Human Decisions in DHS Surveillance",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "That an AI system makes judgments means it is more than simply a source of information that can be independently verified by users.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Her work focuses on migration, US and international democracy development, identity, surveillance, and AI.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "df3e21b3ecd48ad40beb": {
+      "storyId": "df3e21b3ecd48ad40beb",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920222405.htm",
+      "title": "A new process turns plastic waste into gasoline and diesel fuel",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-21T13:08:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "75b1b58deb80dd788cf35346",
+      "bodyFingerprint": "07812764a0e603c14d0da0a5",
+      "bodyCharacterCount": 13221,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.484Z",
+      "assessment": {
+        "centralEvent": "A new process turns plastic waste into gasoline and diesel fuel",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "During the 1960s, its Molten Salt Reactor Experiment demonstrated that mixtures of molten salts could function as both nuclear fuel and reactor coolant.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 79,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d9fa4d76ecd51e9a8758": {
+      "storyId": "d9fa4d76ecd51e9a8758",
+      "url": "https://mashable.com/tech/google-googlebooks-laptops-launched-acer-asus-hp-lenovo-dell",
+      "title": "The first 5 Googlebook laptops are here, with an OS that blends Android and Gemini",
+      "source": "Mashable AI",
+      "published": "2026-09-21T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "faab0d60b8153cae6630b1c0",
+      "bodyFingerprint": "7a724e6207f560e7002dbcf0",
+      "bodyCharacterCount": 9132,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.518Z",
+      "assessment": {
+        "centralEvent": "The first 5 Googlebook laptops are here, with an OS that blends Android and Gemini",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Earlier this year, Google announced the imminent arrival of Googlebooks , a new generation of premium AI laptops running on an entirely new operating system, which blends elements of Android, ChromeOS, and Gemini. (A Google spokesperson con",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8f6e1dc640e5f332d1b4": {
+      "storyId": "8f6e1dc640e5f332d1b4",
+      "url": "https://www.lawfaremedia.org/article/after-the-flood--moving-beyond-the-u.s.-vulnerabilities-equities-process",
+      "title": "After the Flood: Moving Beyond the U.S. Vulnerabilities Equities Process",
+      "source": "Lawfare AI",
+      "published": "2026-09-21T14:02:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "71a650d0302324a05de4b781",
+      "bodyFingerprint": "987c007d8d9b82e33d3c3f6d",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.576Z",
+      "assessment": {
+        "centralEvent": "After the Flood: Moving Beyond the U.S. Vulnerabilities Equities Process",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But a research team at OpenSSL recently used AI to discover 12 zero-day vulnerabilities.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jason Healey @jason_healey Michael Daniel Meet The Authors Subscribe to Lawfare Most governments conduct offensive cyber operations to keep themselves safe from international threats, steal secrets, or disrupt adversaries.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Together, the processes enable defenders to prioritize vulnerabilities for remediation.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The White House’s decision criteria included a range of factors, including whether U.S. infrastructure used the vulnerable system, what harm an adversary could cause, whether the U.S. would know if someone else had access, whether the syste",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 123,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.5,
+        "rawScore": 49.5,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "53f2e8b808c462197415": {
+      "storyId": "53f2e8b808c462197415",
+      "url": "https://techpolicy.press/can-the-united-nations-help-slow-the-ai-race",
+      "title": "Can the United Nations Help Slow the AI Race?",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-21T13:47:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "71cc12350aaf0ca1b11869fb",
+      "bodyFingerprint": "54f9e68a769d300a89168101",
+      "bodyCharacterCount": 7824,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.584Z",
+      "assessment": {
+        "centralEvent": "Can the United Nations Help Slow the AI Race?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Rather than every country building a surveillance system for issues, Schüür suggests that detecting and sharing information about AI incidents is where international action might actually be achievable.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "World leaders are gathering in New York with AI high on the agenda, with OpenAI CEO Sam Altman due to brief the Security Council on the technology’s implications for international security.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04f6435ff3e9a2ef6b3d": {
+      "storyId": "04f6435ff3e9a2ef6b3d",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081058.htm",
+      "title": "NASA just powered up Roman’s massive 300-megapixel camera",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-21T12:10:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a176ff0a2f8ed90e4d6645fe",
+      "bodyFingerprint": "626d46aa9b90fec049350570",
+      "bodyCharacterCount": 9153,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.650Z",
+      "assessment": {
+        "centralEvent": "NASA just powered up Roman’s massive 300-megapixel camera",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "This is a huge milestone for the team at Goddard, our industry teams at BAE Systems, Inc. and Teledyne, and our science centers,\" said Josh Schlieder, the Wide Field Instrument scientist at NASA's Goddard Space Flight Center in Greenbelt, M",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5935f1daac7017da9243": {
+      "storyId": "5935f1daac7017da9243",
+      "url": "https://www.wired.com/story/google-launches-googlebook-laptops",
+      "title": "Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop",
+      "source": "WIRED AI",
+      "published": "2026-09-21T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1402a495f6867c84e57329a2",
+      "bodyFingerprint": "663f1ce05dc088860bef6cd3",
+      "bodyCharacterCount": 11316,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.664Z",
+      "assessment": {
+        "centralEvent": "Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like In your inbox: WIRED's most ambitious, future-defining stories AI slop backlash is actually having an impact Big Story: The cop who took on Flock The rise of ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "They need at least 16 GB of RAM, deliver more than 45 tera operations per second (TOPS) , a touchscreen (LCD or OLED), a backlit keyboard, a haptic trackpad, Dolby Atmos speakers, studio-quality microphones with noise cancellation, and at l",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "976f95e34fbda1901613": {
+      "storyId": "976f95e34fbda1901613",
+      "url": "https://www.inc.com/reed-wilson/ai-doesnt-wait-for-executive-approval/91407267",
+      "title": "AI Doesn’t Wait for Executive Approval",
+      "source": "Inc. AI",
+      "published": "2026-09-21T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fe41a275f9f8e528ad6f05f2",
+      "bodyFingerprint": "adbc73914a61da2fed4c29be",
+      "bodyCharacterCount": 72,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-21T14:13:37.744Z",
+      "assessment": {
+        "centralEvent": "AI Doesn’t Wait for Executive Approval",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "To get the most value from AI and minimize risk, follow these four tips.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3cf1b4f660612f6c0458": {
+      "storyId": "3cf1b4f660612f6c0458",
+      "url": "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats",
+      "title": "US and China Discuss Alerting Each Other to AI National Security Threats",
+      "source": "WIRED AI",
+      "published": "2026-09-21T10:34:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "34a1c248b53e82a57dbf13b3",
+      "bodyFingerprint": "fa7a05d5b1ab208c2e55e568",
+      "bodyCharacterCount": 6235,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.770Z",
+      "assessment": {
+        "centralEvent": "US and China Discuss Alerting Each Other to AI National Security Threats",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Don’t let this doomsday narrative allow someone to relieve them of the laws that currently exist.” Trump has said any slowdown could cede the US lead in the technology to China—a danger because, in his own words: “WHOEVER WINS AI, WINS!” H",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Thomas Wolf, cofounder of open-source AI platform Hugging Face, which Nvidia recently agreed to buy , has questioned whether the US can build global cooperation while “explicitly stating you want to design it to keep widening your own lead.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In an essay suggesting steps for laboratories and governments to pace the technology’s development, Amodei had asked for government assistance in establishing international coordination, including with the Chinese Communist Party.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Officials discussed setting up a mechanism for the two countries to notify each other of AI incidents which could threaten national security.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.19,
+        "rawScore": 27.19,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8b01dd9a86759fd5245a": {
+      "storyId": "8b01dd9a86759fd5245a",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+      "title": "UN says AI safeguards can’t wait for certainty",
+      "source": "The Verge AI",
+      "published": "2026-09-21T10:18:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "685126dd6475fa85e84949b5",
+      "bodyFingerprint": "4e8397d9f37028997fd0d7e4",
+      "bodyCharacterCount": 4350,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.783Z",
+      "assessment": {
+        "centralEvent": "UN says AI safeguards can’t wait for certainty",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Robert Hart AI News OpenAI Policy Politics Most Popular Most Popular A24’s reputation is on the line with the SCP Foundation movie All roads lead to cable The hidden monopoly behind your TI graphing calculator Gemini went rogue, hacked thre",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Every TV company is spying on you Advertiser Content From This is the title for the native ad More in AI Amazon blocks Meta’s Muse AI agent No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown Trump now says he wants",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The United Nations logo at the UN headquarters in New York. | Getty Images Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organizati",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Loss-of-control risk, the panel argues, is exactly the kind of problem the precautionary principle was designed to address: “one where potential harm may be catastrophic or irreversible, even as its likelihood remains scientifically uncerta",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Since the Hugging Face hack was first reported, incidents have been documented at companies including OpenAI , Anthropic , Google , and Meta , including hacks on real-world targets and swarms of agents taking over online messaging boards.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.16,
+        "rawScore": 50.16,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.56,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4a6b47837f74b4fd3f85": {
+      "storyId": "4a6b47837f74b4fd3f85",
+      "url": "https://techpolicy.press/europe-says-its-ai-rules-are-enough-ai-agents-are-testing-that-claim",
+      "title": "Europe Says Its AI Rules Are Enough. AI Agents Are Testing That Claim",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-21T12:06:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9884a6336f5659a2b8264f5d",
+      "bodyFingerprint": "fb217945f47f1c254e2ce67f",
+      "bodyCharacterCount": 9567,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.794Z",
+      "assessment": {
+        "centralEvent": "Europe Says Its AI Rules Are Enough. AI Agents Are Testing That Claim",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As companies compete to develop increasingly capable systems, Gori said, the pressure to move quickly remains strong.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Anthropic and OpenAI have reported similar incidents.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The European Commission told Tech Policy Press that under the AI Act providers of advanced models must assess and mitigate systemic risks, including potential loss of control, and such obligations apply “across the entire lifecycle of the m",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But he also points to limitations: “Providers can say they have addressed the issues, or that they have shut down a model and are using a different one,” he told Tech Policy Press.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d57a8987881456e87039": {
+      "storyId": "d57a8987881456e87039",
+      "url": "https://www.eff.org/deeplinks/2026/09/eu-kids-act-wont-keep-internet-accountable-and-trustworthy",
+      "title": "EU Kids Act Won't Keep the Internet Accountable and Trustworthy",
+      "source": "EFF AI",
+      "published": "2026-09-21T12:27:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6b3c7beaabcb359e8781638a",
+      "bodyFingerprint": "3eba9c6d8c85b86bdc92d887",
+      "bodyCharacterCount": 6144,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.800Z",
+      "assessment": {
+        "centralEvent": "EU Kids Act Won't Keep the Internet Accountable and Trustworthy",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The EU Kids Act distinguishes between age groups and certain services and follows a risk-based approach.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The proposal is built around the following elements: social media age “delay”, safety by design, age assurance and parental responsibility, and strong enforcement.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "It speaks volume that the Kids Act has not gone through a full impact assessment process, which would typically require a systemic check of alternative policy options and stakeholder consultations.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.04,
+        "rawScore": 26.04,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7cd5365733ad83d6206f": {
+      "storyId": "7cd5365733ad83d6206f",
+      "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+      "title": "Amazon blocks Meta’s Muse AI agent",
+      "source": "The Verge AI",
+      "published": "2026-09-21T09:21:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "154109bb393eec447e260d97",
+      "bodyFingerprint": "ff243691df98f7b4a6ffa40d",
+      "bodyCharacterCount": 3997,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.811Z",
+      "assessment": {
+        "centralEvent": "Amazon blocks Meta’s Muse AI agent",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Jess Weatherbed AI Amazon Meta News Tech Most Popular Most Popular A24’s reputation is on the line with the SCP Foundation movie All roads lead to cable The hidden monopoly behind your TI graphing calculator Gemini went rogue, hacked three ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" According to GeekWire, Meta didn't notify Amazon ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.59,
+        "rawScore": 45.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c9a484042e48f0588853": {
+      "storyId": "c9a484042e48f0588853",
+      "url": "https://www.inc.com/larry-alton/ai-search-tools-need-more-than-speed-these-3-factors-separate-the-best/91408011",
+      "title": "AI Search Tools Need More Than Speed. These 3 Factors Separate the Best",
+      "source": "Inc. AI",
+      "published": "2026-09-21T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "53348940f309ffd6f3d33c2b",
+      "bodyFingerprint": "840e1eb90ed2e5b65195593e",
+      "bodyCharacterCount": 117,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-21T14:13:37.845Z",
+      "assessment": {
+        "centralEvent": "AI Search Tools Need More Than Speed. These 3 Factors Separate the Best",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fd29c62c3285475fa8ee": {
+      "storyId": "fd29c62c3285475fa8ee",
+      "url": "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
+      "title": "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030",
+      "source": "The Guardian AI",
+      "published": "2026-09-21T10:31:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d59e0f642af6f1c10245919",
+      "bodyFingerprint": "874c1ee2f0de7345521fbb7e",
+      "bodyCharacterCount": 5372,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.856Z",
+      "assessment": {
+        "centralEvent": "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Humanity might depend on it Nvidia links with Wall Street firms for $500bn AI financing deal AI slowdown calls justified but collapse of bubble may be more immediate threat Stock market turmoil sheds stark light on the opaque AI economy Ope",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It is irresponsible.” AI slowdown calls justified but collapse of bubble may be more immediate threat | Heather Stewart Read more Coxon’s remarks, which were backed by two other researchers at the maker of the AI system Claude, prompted an ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "794a9949c75a1c6a5abe": {
+      "storyId": "794a9949c75a1c6a5abe",
+      "url": "https://restofworld.org/2026/nvidia-open-source-ai-models-uae",
+      "title": "Nvidia’s free AI model could push the UAE closer to the U.S.",
+      "source": "Rest of World AI",
+      "published": "2026-09-21T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1cd97ea48a32ff64baa52a1b",
+      "bodyFingerprint": "048081ab4151a7ccf0a33b01",
+      "bodyCharacterCount": 6719,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.861Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s free AI model could push the UAE closer to the U.S.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AI models have lagged well behind China’s free models, which were downloaded roughly 2 billion times this year, far ahead of any Western rival, according to an August report by Hugging Face, the platform where developers share and download ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5111bf519bdbc34b43a0": {
+      "storyId": "5111bf519bdbc34b43a0",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920222350.htm",
+      "title": "What kills Schrödinger’s cat? Gravity may not be the answer",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-21T09:24:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8f0a7279e0fcb74ccb6195db",
+      "bodyFingerprint": "6e029cd07de886b3ccc12ab6",
+      "bodyCharacterCount": 10238,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.866Z",
+      "assessment": {
+        "centralEvent": "What kills Schrödinger’s cat? Gravity may not be the answer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Since the model was proposed, similar ideas have appeared in several modern attempts to unite gravity and quantum mechanics, including string theory and loop quantum gravity. \"Every quantum gravity approach ends up with predicting the exist",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "After 62 days of measurements with a highly shielded germanium detector, they found no such signal.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The findings were published in the New Journal of Physics in June 2026. \"One of the deepest questions in modern physics is why the strange quantum behavior that governs atoms and elementary particles seems to disappear in the macroscopic wo",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: AI/ScienceDaily.com At some point between the tiny world of particles and atoms and the much larger world we experience every day, quantum behavior appears to fade away.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29,
+        "rawScore": 29,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "19662000ec8d895117b8": {
+      "storyId": "19662000ec8d895117b8",
+      "url": "https://mashable.com/tech/ai-drift-what-is-it-how-to-stop-it",
+      "title": "AI drift: The catastrophic risk youre taking but dont realize",
+      "source": "Mashable AI",
+      "published": "2026-09-21T07:01:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "061d1bc4c471da45b787c076",
+      "bodyFingerprint": "d9c3f6821a98c1ac15484f0d",
+      "bodyCharacterCount": 7553,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T14:13:37.880Z",
+      "assessment": {
+        "centralEvent": "AI drift: The catastrophic risk youre taking but dont realize",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The phrase \"AI drift\" is a play on the term \"model drift,\" which describes the deterioration in a machine learning model's accuracy after it's exposed to real-world data.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "These Stop the AI Drift ads will appear in the New York City subway system for a month.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "She said AI drift sometimes \"sneaks up\" on users. \"There is absolutely no friction or barrier between using AI in one specific area or aspect of your life, and then it just naturally flows into more intimate areas or more personal areas,\" s",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.05,
+        "rawScore": 45.05,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1f6895224dbeffb71cbe": {
+      "storyId": "1f6895224dbeffb71cbe",
+      "url": "https://www.nature.com/articles/d41586-026-02931-5",
+      "title": "AI co-scientists are revolutionizing how research is done",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-21T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41ca76595adc25529bb3dbbb",
+      "bodyFingerprint": "803d3019022386cac2665a3d",
+      "bodyCharacterCount": 58,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-21T14:13:38.366Z",
+      "assessment": {
+        "centralEvent": "AI co-scientists are revolutionizing how research is done",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-21T06:24:28.083Z"
+  "updatedAt": "2026-09-21T14:13:38.366Z"
 }
