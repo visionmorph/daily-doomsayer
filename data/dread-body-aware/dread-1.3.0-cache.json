@@ -163657,8 +163657,1306 @@
           "vulnerability": 0
         }
       }
+    },
+    "4c045e0925c89f1a71c8": {
+      "storyId": "4c045e0925c89f1a71c8",
+      "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch",
+      "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T19:19:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "283999bb6947fa1af5d204ea",
+      "bodyFingerprint": "498a13a2759a3d4ea54bf329",
+      "bodyCharacterCount": 4606,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.496Z",
+      "assessment": {
+        "centralEvent": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Overall, Muse has seen 2.8 million total installs globally in its first 12 days, the firm also said.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d415e37d8ffa09451801": {
+      "storyId": "d415e37d8ffa09451801",
+      "url": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026",
+      "title": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T19:25:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "db447261d507f7a1d1cbf6eb",
+      "bodyFingerprint": "a2b7eef1c90f81a66b809074",
+      "bodyCharacterCount": 6132,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.505Z",
+      "assessment": {
+        "centralEvent": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "759118c9d96e0f18b3f1": {
+      "storyId": "759118c9d96e0f18b3f1",
+      "url": "https://www.inc.com/brian-contreras/ai-infrastructure-nscale-unprofitable-loss-35-billion-ipo-s-1-filing/91408439",
+      "title": "This AI Venture Has Never Turned a Profit. It’s Aiming for a $35 Billion IPO Anyway",
+      "source": "Inc. AI",
+      "published": "2026-09-21T18:57:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b966aabfd9fcbf37dc288b1a",
+      "bodyFingerprint": "aee83df87182062e3949ac5f",
+      "bodyCharacterCount": 69,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-21T19:31:53.509Z",
+      "assessment": {
+        "centralEvent": "This AI Venture Has Never Turned a Profit. It’s Aiming for a $35 Billion IPO Anyway",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Here’s what you need to know about Nscale’s proposed public offering.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "55e73c575e2d23c7b90c": {
+      "storyId": "55e73c575e2d23c7b90c",
+      "url": "https://www.inc.com/michael-tasner/digital-advertising-is-moving-beyond-the-click-the-next-interface-is-a-conversation/91408503",
+      "title": "Digital Advertising Is Moving Beyond the Click. The Next Interface Is a Conversation",
+      "source": "Inc. AI",
+      "published": "2026-09-21T19:21:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "681abd7aa516b6e729611ac7",
+      "bodyFingerprint": "27de892fb334626d8a3ca0e6",
+      "bodyCharacterCount": 93,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-21T19:31:53.516Z",
+      "assessment": {
+        "centralEvent": "Digital Advertising Is Moving Beyond the Click. The Next Interface Is a Conversation",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "684716114b5ee93a7181": {
+      "storyId": "684716114b5ee93a7181",
+      "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com",
+      "title": "Meta’s AI agent has been blocked from using Amazon.com",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T17:55:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5509e480794a61fbfa10b68b",
+      "bodyFingerprint": "6404881aef94d5922ee98a9c",
+      "bodyCharacterCount": 2321,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.527Z",
+      "assessment": {
+        "centralEvent": "Meta’s AI agent has been blocked from using Amazon.com",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , Amazon , Meta , muse October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f987f012fd7e94bf4a0d": {
+      "storyId": "f987f012fd7e94bf4a0d",
+      "url": "https://www.inc.com/aaron-mok/jensen-huang-just-slammed-doomers-with-his-own-prediction-about-the-ai-apocalypse/91408329",
+      "title": "Jensen Huang Just Slammed Doomers With His Own Prediction About the AI Apocalypse",
+      "source": "Inc. AI",
+      "published": "2026-09-21T18:51:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "34e0b746b8ecd54818fa0c12",
+      "bodyFingerprint": "c08517e699a892b8f7496a34",
+      "bodyCharacterCount": 97,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-21T19:31:53.560Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang Just Slammed Doomers With His Own Prediction About the AI Apocalypse",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd11ce5965060707188f": {
+      "storyId": "bd11ce5965060707188f",
+      "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete",
+      "title": "With Tabby, a former accountant is using AI to make accountants obsolete",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T16:38:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9f94e6b6ce971eb2d54abbb0",
+      "bodyFingerprint": "eaf8028b5770bd858635fdbe",
+      "bodyCharacterCount": 4405,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.573Z",
+      "assessment": {
+        "centralEvent": "With Tabby, a former accountant is using AI to make accountants obsolete",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "997594b6864812c45584": {
+      "storyId": "997594b6864812c45584",
+      "url": "https://www.politico.com/news/2026/09/21/openai-global-standards-push-01086199",
+      "title": "OpenAI urges US to lead global standards push",
+      "source": "POLITICO AI",
+      "published": "2026-09-21T17:28:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2c505845291f0a3b0831156a",
+      "bodyFingerprint": "669930bbe6316e5dfe9eadcd",
+      "bodyCharacterCount": 119,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-21T19:31:53.683Z",
+      "assessment": {
+        "centralEvent": "OpenAI urges US to lead global standards push",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e22614e2379711da9171": {
+      "storyId": "e22614e2379711da9171",
+      "url": "https://www.wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping",
+      "title": "AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping",
+      "source": "WIRED AI",
+      "published": "2026-09-21T18:33:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ba5dddcaf05f6093d9137293",
+      "bodyFingerprint": "0bcb6624a102b536fe382d38",
+      "bodyCharacterCount": 7832,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.770Z",
+      "assessment": {
+        "centralEvent": "AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AI Competition According to Scott Bessent, AI safety will be on the agenda for the bilateral meeting.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "69bff250f4017db6b8f7": {
+      "storyId": "69bff250f4017db6b8f7",
+      "url": "https://www.theguardian.com/technology/2026/sep/21/stop-relying-on-chatbots-for-customer-care-uk-service-providers-urged",
+      "title": "Stop relying on chatbots for customer care, UK service providers urged",
+      "source": "The Guardian AI",
+      "published": "2026-09-21T16:35:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "292a8c72ce934bd0ee61f8bd",
+      "bodyFingerprint": "be936032adcaa0f76a6ba38e",
+      "bodyCharacterCount": 4941,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.834Z",
+      "assessment": {
+        "centralEvent": "Stop relying on chatbots for customer care, UK service providers urged",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Without good digital access it takes as long as six weeks offline, putting people “at risk of further harm”.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The spread of the AI-powered systems to provide help about the provision of vital services such as energy, banking, phones and internet, is making it harder for millions of already digitally excluded people to handle snags, according to the",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The spread of the AI-powered systems to provide help about the provision of vital services such as energy, banking, phones and internet, is making it harder for millions of already digitally excluded people to handle snags, according to the",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There’s a role for chatbots, but the quiet erosion of face-to-face and telephone services is letting too many people fall through the cracks.” That erosion of traditional ways of communicating means that people without good digital access c",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There’s a role for chatbots, but the quiet erosion of face-to-face and telephone services is letting too many people fall through the cracks.” That erosion of traditional ways of communicating means that people without good digital access c",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.49,
+        "rawScore": 27.49,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e6edfbe1e17786047431": {
+      "storyId": "e6edfbe1e17786047431",
+      "url": "https://www.politico.eu/article/20-countries-urge-to-strenghten-oversight-of-ai-to-keep-it-under-human-control",
+      "title": "22 countries back call to keep AI ‘under human control’",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-21T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "66fbb626af5f214a8b3f0c2d",
+      "bodyFingerprint": "4070738fa61d0e9562125991",
+      "bodyCharacterCount": 3712,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.854Z",
+      "assessment": {
+        "centralEvent": "22 countries back call to keep AI ‘under human control’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "56fff71c397d1ac332c7": {
+      "storyId": "56fff71c397d1ac332c7",
+      "url": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead",
+      "title": "Trump rejects AI slowdown calls, launches \"AI Force\" instead",
+      "source": "Ars Technica AI",
+      "published": "2026-09-21T15:37:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a2718642e5224aa90bf3d2c4",
+      "bodyFingerprint": "6d9385e7bada6d8918eb91c7",
+      "bodyCharacterCount": 3845,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.875Z",
+      "assessment": {
+        "centralEvent": "Trump rejects AI slowdown calls, launches \"AI Force\" instead",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Rather, we will cherish it, help it, and watch over it, as it grows!” Public anxiety has grown over the dangers of AI after it was revealed that OpenAI agents escaped a test environment, coordinated on a secret message board, and hacked the",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The president offered few details on what his proposed new AI Force would do.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In the latest incident, Google’s Gemini AI system accessed the Internet and autonomously hacked into several companies during cybersecurity tests.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.54,
+        "rawScore": 45.54,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.14,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b723170204a61ca2825b": {
+      "storyId": "b723170204a61ca2825b",
+      "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026",
+      "title": "Google confirms Gemini models hacked three companies in May 2026",
+      "source": "Ars Technica AI",
+      "published": "2026-09-21T16:57:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1ec4fb910d97138f8cc63263",
+      "bodyFingerprint": "1bfabc509dce17d0cb3a2d1f",
+      "bodyCharacterCount": 4333,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.883Z",
+      "assessment": {
+        "centralEvent": "Google confirms Gemini models hacked three companies in May 2026",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Google confirms Gemini models hacked three companies in May 2026",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Following a Wall Street Journal report, Google has confirmed that Gemini models hacked three companies during a May 2026 test, but the nature of the intrusion isn’t as troubling (or impressive) as previous AI hacks.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "For one of the three hacks, Gemini simply guessed passwords until it accessed a company’s online services.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "When OpenAI’s models escaped containment, they did so by using software exploits with the express purpose of accessing information that was not available in their testing environment, all in service of acing a benchmark and earning higher “",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.13,
+        "rawScore": 48.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.375,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b967c00ba01c792f1a8a": {
+      "storyId": "b967c00ba01c792f1a8a",
+      "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026",
+      "title": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b3da233ae0eade5a22a0c718",
+      "bodyFingerprint": "067f43b9b8ea9937471f5b6e",
+      "bodyCharacterCount": 9199,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.892Z",
+      "assessment": {
+        "centralEvent": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TechCrunch Events View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 86,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ca3ac52c49cd8173e7bd": {
+      "storyId": "ca3ac52c49cd8173e7bd",
+      "url": "https://www.theguardian.com/australia-news/audio/2026/sep/22/what-an-ai-deal-could-mean-for-australian-culture-podcast",
+      "title": "What an AI deal could mean for Australian culture – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-21T15:00:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "259053a819f4a70545f95c2a",
+      "bodyFingerprint": "9c3d04301c6feb650ea22aea",
+      "bodyCharacterCount": 1024,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.901Z",
+      "assessment": {
+        "centralEvent": "What an AI deal could mean for Australian culture – podcast",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The Albanese government is considering giving AI companies unrestricted access to Australian content.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d947cdfa9abd9ef70140": {
+      "storyId": "d947cdfa9abd9ef70140",
+      "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini",
+      "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T14:39:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b7db388f7379a0557510d94",
+      "bodyFingerprint": "d235cb0b976353206a71abd6",
+      "bodyCharacterCount": 5495,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.906Z",
+      "assessment": {
+        "centralEvent": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Google says the device will offer up to 14 hours of battery life.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "50fc6616a298b96cc82f": {
+      "storyId": "50fc6616a298b96cc82f",
+      "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026",
+      "title": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "75e84a8741a38634593292c1",
+      "bodyFingerprint": "3558307000518b6fef8c20bf",
+      "bodyCharacterCount": 6157,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.912Z",
+      "assessment": {
+        "centralEvent": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TechCrunch Events View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ee528cab69e758e68d5c": {
+      "storyId": "ee528cab69e758e68d5c",
+      "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026",
+      "title": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T14:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea214978f8b56ed547b4fb59",
+      "bodyFingerprint": "d2d4109c66f64f51367ebfe5",
+      "bodyCharacterCount": 6467,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.920Z",
+      "assessment": {
+        "centralEvent": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TechCrunch Events View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3a7a35657bfd598a1c5a": {
+      "storyId": "3a7a35657bfd598a1c5a",
+      "url": "https://www.theguardian.com/food/2026/sep/21/in-praise-of-the-freshly-fried-chip",
+      "title": "In praise of the freshly fried chip | Brief letters",
+      "source": "The Guardian AI",
+      "published": "2026-09-21T14:52:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cd6712e1abb94f21ae7e37b6",
+      "bodyFingerprint": "eb305eb0fa1ccd9e9b476647",
+      "bodyCharacterCount": 2451,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-21T19:31:53.935Z",
+      "assessment": {
+        "centralEvent": "In praise of the freshly fried chip | Brief letters",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Chippies at risk | Consciousness raising | Cupboard love | Student meals | Death of ties In your article about the plight of fish and chip shops you barely mention the chips (Can fish and chip shops survive?",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Bill Cross Exeter • The original Turing test of “Can a machine pass for a human?” is not so testing any more (Letters, 18 September), so I propose an update: which will be first to get a slot on BBC Radio 4’s Thought for the Day – an AI wit",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "17e84ca0ac20153f1d93": {
+      "storyId": "17e84ca0ac20153f1d93",
+      "url": "https://www.artificialintelligence-news.com/news/multi-agent-ai-systems-supply-chain-execution",
+      "title": "Multi-agent AI systems are taking over supply chain execution",
+      "source": "AI News",
+      "published": "2026-09-21T15:32:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c03805b948e59b3a93d20cdb",
+      "bodyFingerprint": "62d6469defa12b3a99bd0c71",
+      "bodyCharacterCount": 544,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-21T19:31:54.353Z",
+      "assessment": {
+        "centralEvent": "Multi-agent AI systems are taking over supply chain execution",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "68bf0d8de376605c95ba": {
+      "storyId": "68bf0d8de376605c95ba",
+      "url": "https://www.artificialintelligence-news.com/news/how-to-improve-visibility-across-your-enterprise-ai-ecosystem",
+      "title": "How to Improve Visibility Across Your Enterprise AI Ecosystem",
+      "source": "AI News",
+      "published": "2026-09-21T07:50:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ad4db377e8b4e5bbf3e33792",
+      "bodyFingerprint": "ce6cfe2ab180bee162106853",
+      "bodyCharacterCount": 503,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-21T19:31:54.356Z",
+      "assessment": {
+        "centralEvent": "How to Improve Visibility Across Your Enterprise AI Ecosystem",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-21T14:13:38.366Z"
+  "updatedAt": "2026-09-21T19:31:54.356Z"
 }
