@@ -165340,8 +165340,514 @@
           "vulnerability": 0
         }
       }
+    },
+    "be6e7db8a0fd45acd7d0": {
+      "storyId": "be6e7db8a0fd45acd7d0",
+      "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
+      "title": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting",
+      "source": "The Guardian AI",
+      "published": "2026-09-22T04:29:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2217b246f54e8f4bd549e3e9",
+      "bodyFingerprint": "83fd20dd77b2543029444ec6",
+      "bodyCharacterCount": 4485,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T05:00:45.126Z",
+      "assessment": {
+        "centralEvent": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI, which has denied the claims, has said it trains its models to refuse requests that could “meaningfully enable violence”, and notifies law enforcement when conversations suggest “an imminent and credible risk of harm to others”.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“OpenAI remains committed to working collaboratively with government and law enforcement officials, and continuing to advance our ongoing safety work.” British Columbia’s lawsuit comes after more than 30 family members of victims and others",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Canadian province alleges deadly attack could have been prevented if company had warned police of shooter’s ChatGPT use British Columbia has sued OpenAI in California, saying a mass shooting at a school in the province could have been preve",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.7,
+        "rawScore": 26.7,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1187904e742e0637b856": {
+      "storyId": "1187904e742e0637b856",
+      "url": "https://news.sky.com/story/nearly-half-of-young-people-trust-ai-over-a-human-for-fact-checking-report-says-13590558",
+      "title": "Nearly half of young people trust AI over a human",
+      "source": "Sky News AI",
+      "published": "2026-09-22T01:04:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "74225d50fc326d22984a5cc3",
+      "bodyFingerprint": "6a3d370e00948db8a2094249",
+      "bodyCharacterCount": 114,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-22T05:00:45.144Z",
+      "assessment": {
+        "centralEvent": "Nearly half of young people trust AI over a human",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Nearly half of young people trust artificial intelligence over a human to check a fact, according to a new report.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ccb6687b9f29c0be11fe": {
+      "storyId": "ccb6687b9f29c0be11fe",
+      "url": "https://www.politico.eu/sponsored-content/open-source-ai-comes-of-age",
+      "title": "Open-source AI comes of age",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-22T03:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a5beeb45fa7efab46c1a4af8",
+      "bodyFingerprint": "3a6686c30d0345b0dba52411",
+      "bodyCharacterCount": 149,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-22T05:00:45.182Z",
+      "assessment": {
+        "centralEvent": "Open-source AI comes of age",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "78e8d522fb203d5d06c0": {
+      "storyId": "78e8d522fb203d5d06c0",
+      "url": "https://www.bbc.co.uk/news/articles/cqevwpmvpekeo?at_campaign=rss&at_medium=RSS",
+      "title": "Burnham expects to find 'common ground' with Trump in first meeting",
+      "source": "BBC News AI",
+      "published": "2026-09-22T01:31:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d0422fc9fbcaadd735dc3d0a",
+      "bodyFingerprint": "7eb07803e1c296f2f4f8a697",
+      "bodyCharacterCount": 4574,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T05:00:45.244Z",
+      "assessment": {
+        "centralEvent": "Burnham expects to find 'common ground' with Trump in first meeting",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, PA Media Image caption, Prime Minister Andy Burnham and his wife, Marie-France Van Heel, board the aircraft taking them to New York By Chris Mason , Political editor and Isabella Allen , Senior political producer, travelling w",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5926fc28918c47a44354": {
+      "storyId": "5926fc28918c47a44354",
+      "url": "https://www.bbc.co.uk/news/articles/cw8r68mpm6p3o?at_campaign=rss&at_medium=RSS",
+      "title": "Schools not ready for AI and 'crying out' for government guidance, report warns",
+      "source": "BBC News AI",
+      "published": "2026-09-22T00:02:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "11f8c2657292fb91319e4f89",
+      "bodyFingerprint": "401654c5b0dc5a29caffe173",
+      "bodyCharacterCount": 3652,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T05:00:45.249Z",
+      "assessment": {
+        "centralEvent": "Schools not ready for AI and 'crying out' for government guidance, report warns",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Hayley Clarke Education reporter Published 4 hours ago Schools are \"crying out\" for guidance from government on how pupils and teachers can use AI safely and effectively, a new report has warned.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9b2745b3f19fc69f0b8a": {
+      "storyId": "9b2745b3f19fc69f0b8a",
+      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping",
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T23:44:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4474f2d6f4d349139f3ce0da",
+      "bodyFingerprint": "61a3d3f03be45fcda4df7a43",
+      "bodyCharacterCount": 5688,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T05:00:45.270Z",
+      "assessment": {
+        "centralEvent": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "After leaving Apple, Johnson took over J.C.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "11416d984a19630773bd": {
+      "storyId": "11416d984a19630773bd",
+      "url": "https://www.politico.eu/article/eu-lawmakers-ai-apocalypse-warnings-brussels-scrambles-ai-rules-gaps",
+      "title": "EU lawmakers float product liability rules to help avert AI disaster",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-21T18:42:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0dbdd20f48587904fc7b217d",
+      "bodyFingerprint": "1da41e91294e08aa783a6975",
+      "bodyCharacterCount": 5397,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T05:00:45.288Z",
+      "assessment": {
+        "centralEvent": "EU lawmakers float product liability rules to help avert AI disaster",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“The way it works right now basically grants no rights to people who are harmed by artificial intelligence,” said Mario Mariniello, senior fellow on digital and competition issues at think tank Bruegel. \"It reduces the incentives for develo",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BRUSSELS — European lawmakers are pushing to expand the EU’s flagship AI regulations to hold American tech companies liable for the risks their most advanced models pose to humanity, according to correspondence seen by POLITICO.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The move shows Brussels is waking up to a reality in which AI-powered harm is already happening, and risks are multiplying — and marks the first concrete effort within the EU to respond to fears over AI safety that are dominating the global",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "For weeks, Brussels had offered a single standard response to the flurry of AI-powered incidents, warnings by AI researchers and calls from tech executives to slow down AI development: the EU’s Artificial Intelligence Act is already there t",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.41,
+        "rawScore": 47.41,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c4f49a66aba6930f5391": {
+      "storyId": "c4f49a66aba6930f5391",
+      "url": "https://www.politico.com/news/2026/09/21/congress-trump-ai-force-announcement-01086619",
+      "title": "Congress in the dark on Trump’s AI Force announcement",
+      "source": "POLITICO AI",
+      "published": "2026-09-21T23:37:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "66ab23862ec428d9c7ac6936",
+      "bodyFingerprint": "005f55b7b5162e2d65c3a915",
+      "bodyCharacterCount": 74,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-22T05:00:45.358Z",
+      "assessment": {
+        "centralEvent": "Congress in the dark on Trump’s AI Force announcement",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-21T23:19:17.089Z"
+  "updatedAt": "2026-09-22T05:00:45.359Z"
 }
