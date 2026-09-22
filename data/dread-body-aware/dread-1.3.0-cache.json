@@ -169843,8 +169843,1204 @@
           "vulnerability": 0
         }
       }
+    },
+    "2794024e2007bbb004af": {
+      "storyId": "2794024e2007bbb004af",
+      "url": "https://www.bbc.co.uk/news/articles/cm5ydz4kl65ro?at_campaign=rss&at_medium=RSS",
+      "title": "A new skyline of data centres is rising from the rolling plains of rural China",
+      "source": "BBC News AI",
+      "published": "2026-09-22T22:04:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "129f8c51d1d329975f552166",
+      "bodyFingerprint": "f47d0c99add0fa5ce19f7363",
+      "bodyCharacterCount": 8909,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.588Z",
+      "assessment": {
+        "centralEvent": "A new skyline of data centres is rising from the rolling plains of rural China",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "That is producing anxiety over job losses, which, again, is hard to measure.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It certainly doesn't seem like that in places like Ulanqab, where China's AI ambitions are taking shape.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The state-run Global Times, which echoes Beijing, dismissed US fears as part of a \"Cold War playbook\" to \"contain\" China's rise.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "184a5bc396133f5f9bf2": {
+      "storyId": "184a5bc396133f5f9bf2",
+      "url": "https://www.bbc.co.uk/news/videos/cwe8ejvv0leno?at_campaign=rss&at_medium=RSS",
+      "title": "Rare look at the remote engine rooms powering China's AI ambitions",
+      "source": "BBC News AI",
+      "published": "2026-09-22T22:03:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "766494532e2d6de30e810f59",
+      "bodyFingerprint": "aca7e92b8701a3939f24327c",
+      "bodyCharacterCount": 1348,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.601Z",
+      "assessment": {
+        "centralEvent": "Rare look at the remote engine rooms powering China's AI ambitions",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Subsection Asia Published 8 minutes ago Share close panel Share page Copy link About sharing Related topics China-US relations Follow China-US relations close panel You are now following China-US relations Updates from your News topics will",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "16afc5791c45315aa89d": {
+      "storyId": "16afc5791c45315aa89d",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms",
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "source": "TechCrunch AI",
+      "published": "2026-09-22T21:56:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "baa53f874a1f9b4d7ef6b483",
+      "bodyFingerprint": "36425c6ef6871420b404d2d4",
+      "bodyCharacterCount": 3536,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.606Z",
+      "assessment": {
+        "centralEvent": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "749daf198b9c6f98d866": {
+      "storyId": "749daf198b9c6f98d866",
+      "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money",
+      "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+      "source": "Ars Technica AI",
+      "published": "2026-09-22T21:25:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e707d52579d49a8203ee85ba",
+      "bodyFingerprint": "b3af838615083d4b90a20599",
+      "bodyCharacterCount": 6855,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.664Z",
+      "assessment": {
+        "centralEvent": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day 2.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b55c6cd1054ed866620f": {
+      "storyId": "b55c6cd1054ed866620f",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+      "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "source": "The Verge AI",
+      "published": "2026-09-22T20:52:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "567349d988e76eb1d7317370",
+      "bodyFingerprint": "219cbd5e49cbd4e43961061f",
+      "bodyCharacterCount": 3557,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.688Z",
+      "assessment": {
+        "centralEvent": "Rabbit’s new AI agent doesn’t need an R1 to run",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "505db14c5057c35301fd": {
+      "storyId": "505db14c5057c35301fd",
+      "url": "https://mashable.com/tech/openai-chatgpt-6-sol-launches-available-now",
+      "title": "ChatGPT-6 Sol and Luna are here: Pricing and benchmarks data",
+      "source": "Mashable AI",
+      "published": "2026-09-22T20:50:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "185375a7f4db99f0f759138f",
+      "bodyFingerprint": "2d6aa7578ff51e0f3ffe546d",
+      "bodyCharacterCount": 3295,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.744Z",
+      "assessment": {
+        "centralEvent": "ChatGPT-6 Sol and Luna are here: Pricing and benchmarks data",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7edb826e56200036341b": {
+      "storyId": "7edb826e56200036341b",
+      "url": "https://mashable.com/tech/big-banks-concerned-about-ai-chatbot-scams-fraud",
+      "title": "Big banks are worried AI agents could increase the risk of scams and fraud",
+      "source": "Mashable AI",
+      "published": "2026-09-22T21:01:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "70c7803ddbd2bc0ef38559ab",
+      "bodyFingerprint": "d73c7d8e43ea02bf5bcd0cb4",
+      "bodyCharacterCount": 3754,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.750Z",
+      "assessment": {
+        "centralEvent": "Big banks are worried AI agents could increase the risk of scams and fraud",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It was released within 24 hours of the reported discovery of a serious zero-day vulnerability within Meta's Muse agentic AI assistant.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5030ab017220fd38dc93": {
+      "storyId": "5030ab017220fd38dc93",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyg?at_campaign=rss&at_medium=RSS",
+      "title": "Tech Life",
+      "source": "BBC News AI",
+      "published": "2026-09-22T20:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "798de639d96a798f9925db5c",
+      "bodyFingerprint": "28774560363e20f40425df93",
+      "bodyCharacterCount": 641,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.766Z",
+      "assessment": {
+        "centralEvent": "Tech Life",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a2c8ad170c47b3ccab44": {
+      "storyId": "a2c8ad170c47b3ccab44",
+      "url": "https://www.inc.com/jeff-degraff/the-next-great-innovator-may-be-dangerously-unqualified-thats-the-advantage/91409137",
+      "title": "The Next Great Innovator May Be Dangerously Unqualified. That’s the Advantage",
+      "source": "Inc. AI",
+      "published": "2026-09-22T20:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b1b5dc58673acf488619e97",
+      "bodyFingerprint": "65abfde73a9e4d140af8ac0a",
+      "bodyCharacterCount": 93,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-22T22:12:50.769Z",
+      "assessment": {
+        "centralEvent": "The Next Great Innovator May Be Dangerously Unqualified. That’s the Advantage",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "811bcae574a076a77959": {
+      "storyId": "811bcae574a076a77959",
+      "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai",
+      "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
+      "source": "TechCrunch AI",
+      "published": "2026-09-22T20:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "36dc513b6cd77285ec66ef04",
+      "bodyFingerprint": "b957a752a9363a0b26a528f7",
+      "bodyCharacterCount": 3637,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.773Z",
+      "assessment": {
+        "centralEvent": "Qualcomm launches two new smartphone chips with emphasis on AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b287b34a5390dd7e5b08": {
+      "storyId": "b287b34a5390dd7e5b08",
+      "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000",
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "source": "Ars Technica AI",
+      "published": "2026-09-22T19:45:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "579e1dd581b9e061853fe0d7",
+      "bodyFingerprint": "8abc7a00eaef51f85a09fcf2",
+      "bodyCharacterCount": 5647,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.810Z",
+      "assessment": {
+        "centralEvent": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day 2.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“The platform could even recommend fraud strategies, including drafting messages that impersonated trusted contacts to help criminals trick victims into taking action.” Microsoft said users of EvilToken compromised 12,000 customer accounts ",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Named EvilTokens, the platform was introduced over a Telegram channel in February and charged an initial $1,500 fee and a recurring $500 charge each month after that.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.17,
+        "rawScore": 49.17,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "826d7993be6496c8f828": {
+      "storyId": "826d7993be6496c8f828",
+      "url": "https://www.inc.com/chloe-aiello/researchers-just-discovered-new-malware-that-lets-a-panel-of-llms-decide-how-to-attack/91408951",
+      "title": "Researchers Just Discovered New Malware That Lets a Panel of LLMs Decide How to Attack",
+      "source": "Inc. AI",
+      "published": "2026-09-22T19:52:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5e8ae92eee43d16d7c7b3f09",
+      "bodyFingerprint": "8050386831e7a6dfb2a999cd",
+      "bodyCharacterCount": 97,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-22T22:12:50.812Z",
+      "assessment": {
+        "centralEvent": "Researchers Just Discovered New Malware That Lets a Panel of LLMs Decide How to Attack",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Researchers Just Discovered New Malware That Lets a Panel of LLMs Decide How to Attack",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d26078633cee26acb501": {
+      "storyId": "d26078633cee26acb501",
+      "url": "https://www.bbc.co.uk/news/articles/c6rm903e22lgo?at_campaign=rss&at_medium=RSS",
+      "title": "American power, AI and a walkout - key moments from Trump's UN speech",
+      "source": "BBC News AI",
+      "published": "2026-09-22T19:44:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "10004209f009f9969ff337d5",
+      "bodyFingerprint": "c2bec090a441fdc3650a8965",
+      "bodyCharacterCount": 6972,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.830Z",
+      "assessment": {
+        "centralEvent": "American power, AI and a walkout - key moments from Trump's UN speech",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On Tuesday, he said it was under \"enormous pressure\" and \"failing like never before\".",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Figure caption, Watch: Trump threatens to 'annihilate' Iran if no deal reached Published 2 hours ago US President Donald Trump returned to the stage at the United Nations on Tuesday, where he touted his administration's policies in front of",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Trump pushes message of American power By Sarah Smith, North America editor in the room The US president has no great respect for the United Nations – he accused it of imposing a far-left agenda – but he does relish the global platform it g",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A direct threat to 'annihilate' Iran By Khashayar Joneidi, BBC Persian correspondent in Washington Trump presented Iran with a stark choice at the UN General Assembly: reach an agreement with Washington and rebuild the country, or face the ",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29,
+        "rawScore": 29,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a8ca25f3731cf08a6b89": {
+      "storyId": "a8ca25f3731cf08a6b89",
+      "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence",
+      "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+      "source": "TechCrunch AI",
+      "published": "2026-09-22T19:09:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "facac5e366b6cb8ab4811cbc",
+      "bodyFingerprint": "8c102ef5877bb9ef26c3970f",
+      "bodyCharacterCount": 4896,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.844Z",
+      "assessment": {
+        "centralEvent": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio October 13 – 15 San Francisco Last day to book an exhibit table is September 18.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "41bbab0be948ec7494a6": {
+      "storyId": "41bbab0be948ec7494a6",
+      "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting",
+      "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+      "source": "Ars Technica AI",
+      "published": "2026-09-22T19:28:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "50cb774fb1aa0e9eae943ec0",
+      "bodyFingerprint": "530c056d8d024b477327eb00",
+      "bodyCharacterCount": 13619,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.854Z",
+      "assessment": {
+        "centralEvent": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "At that time, human reviewers “examined the flagged conversations” and “concluded that the shooter presented a credible and specific risk of gun violence to real people,” whistleblowers told the WSJ.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But after the shooting, it became an unavoidable “symbol of the trauma.” About 160 students, teachers, and staff “were trapped in classrooms and closets” at the school for hours, and they were too traumatized to ever go back.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "NASA chief: I'm only interested in \"good deals\" from international partners 4.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "They must make meaningful changes to end ChatGPT-assisted violence and then pay whatever it costs to help Tumbler Ridge to rebuild, recover, and heal.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "OpenAI remains committed to working collaboratively with government and law enforcement officials, and continuing to advance our ongoing safety work.” British Columbia maintains that OpenAI has not made ChatGPT any safer following several m",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 76,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30,
+        "rawScore": 30,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.545,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "93a843b6ec6e614f9268": {
+      "storyId": "93a843b6ec6e614f9268",
+      "url": "https://www.theguardian.com/us-news/2026/sep/22/trump-says-relations-better-with-burnham-than-starmer-after-first-face-to-face-meeting",
+      "title": "Trump praises relations with Burnham despite tensions over AI and Iran",
+      "source": "The Guardian AI",
+      "published": "2026-09-22T19:50:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "96c788c687e7aa8d6c3234ae",
+      "bodyFingerprint": "9b948c66a854d24a55ebce10",
+      "bodyCharacterCount": 6900,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.862Z",
+      "assessment": {
+        "centralEvent": "Trump praises relations with Burnham despite tensions over AI and Iran",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On his way to the US, Burnham had revealed he would urge the US president to de-escalate the Iran conflict, with turmoil in the Middle East pushing up global energy prices, putting the UK economy under intense pressure.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "UK officials reacted with relief that the talks appeared to have gone according to plan.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "On his way to the US, Burnham had revealed he would urge the US president to de-escalate the Iran conflict, with turmoil in the Middle East pushing up global energy prices, putting the UK economy under intense pressure.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The president repeated his threat to “annihilate” Iran, adding he would “drive them into hell” if they did not back down and sign a peace deal with the US.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.07,
+        "rawScore": 28.07,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.37,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04e315ebdd57f0b13e35": {
+      "storyId": "04e315ebdd57f0b13e35",
+      "url": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
+      "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
+      "source": "MIT News AI",
+      "published": "2026-09-22T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "104db92029be61df8cd7929f",
+      "bodyFingerprint": "6381e8730d364c825b23fb76",
+      "bodyCharacterCount": 7295,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:50.948Z",
+      "assessment": {
+        "centralEvent": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "By bridging the fields of basic neuroscience, clinical psychiatry, and molecular biology, the center sought to establish a unified blueprint for understanding how psychiatric disorders hijack the mind at every level, from molecular mechanis",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Zhang will study the circuit-level mechanisms behind the brain benefits of physical activity.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7cd408bd684e3e01c427": {
+      "storyId": "7cd408bd684e3e01c427",
+      "url": "https://www.lawfaremedia.org/article/bootstrapping-frontier-ai-governance-by-mutualizing-risk",
+      "title": "Bootstrapping Frontier AI Governance by Mutualizing Risk",
+      "source": "Lawfare AI",
+      "published": "2026-09-22T20:00:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f591ef72f1c1e1888dd39478",
+      "bodyFingerprint": "f03a0ad5760d33aa514e3e5a",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T22:12:51.522Z",
+      "assessment": {
+        "centralEvent": "Bootstrapping Frontier AI Governance by Mutualizing Risk",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Here’s a perfectly plausible alternate timeline of one of the recent incidents at frontier AI companies : Within 48 hours of realizing something has gone wrong, OpenAI notifies AI Mutual Insurance Limited (AIMIL), the industry’s mutual that",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Medical malpractice mutuals pool incident data and member expertise to develop standards and technologies that have greatly reduced patient deaths and have since been adopted worldwide.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Medical malpractice mutuals pool incident data and member expertise to develop standards and technologies that have greatly reduced patient deaths and have since been adopted worldwide.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "We see three potential products (in order of importance): Third-party liability coverage, including liability for catastrophic risks such as mass-casualty events; chemical, biological, radiological, and nuclear (CBRN) attacks; and attacks o",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 126,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.49,
+        "rawScore": 50.49,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.59,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-22T18:57:10.963Z"
+  "updatedAt": "2026-09-22T22:12:51.522Z"
 }
