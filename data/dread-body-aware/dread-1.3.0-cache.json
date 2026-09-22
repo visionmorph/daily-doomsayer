@@ -165846,8 +165846,397 @@
           "vulnerability": 0
         }
       }
+    },
+    "d814d2e13eb523220ef0": {
+      "storyId": "d814d2e13eb523220ef0",
+      "url": "https://mashable.com/tech/amazon-meta-muse-block-shopping-ai-agent",
+      "title": "Amazon blocks Metas Muse AI agent from shopping",
+      "source": "Mashable AI",
+      "published": "2026-09-22T06:21:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "85ca42bc1590c708e7e001f1",
+      "bodyFingerprint": "7da46878ceca7ec2b4b74b1a",
+      "bodyCharacterCount": 3633,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T10:00:05.349Z",
+      "assessment": {
+        "centralEvent": "Amazon blocks Metas Muse AI agent from shopping",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As spotted by GeekWire , people attempting to use Muse to buy products from Amazon are now being served with a warning that doing so violates the online marketplace's terms of use.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Amazon, Meta did not inform it that Muse would access its storefront, and as such received no authorisation to do so.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "baea0d17ad1a9ed33054": {
+      "storyId": "baea0d17ad1a9ed33054",
+      "url": "https://www.theguardian.com/technology/2026/sep/22/ai-could-be-a-bubble-and-is-not-yet-making-australia-more-productive-michele-bullock-says",
+      "title": "AI could be a bubble and is not yet making Australia more productive, Michele Bullock says",
+      "source": "The Guardian AI",
+      "published": "2026-09-22T08:54:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f7f1116eed2dcfd08c3c7a88",
+      "bodyFingerprint": "889d4726d1d9c6a0ea69c6b5",
+      "bodyCharacterCount": 4963,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T10:00:05.378Z",
+      "assessment": {
+        "centralEvent": "AI could be a bubble and is not yet making Australia more productive, Michele Bullock says",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "I don’t have a particular view one way or the other, but it’s a risk that I think we’re watching.” Bullock said the RBA and its overseas colleagues believed AI was “the great white hope” to make economies more productive but had seen little",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "She cited research from the RBA’s South Korean counterpart that found employees adopting AI tended to produce the same output but work 1.5 hours less each week.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "accd2451f5e828aac2b4": {
+      "storyId": "accd2451f5e828aac2b4",
+      "url": "https://www.wired.com/story/apollo-ai-model-ancient-greek-secrets-papyrus",
+      "title": "A New Chatbot Wants to Unlock the Secrets in Tattered Ancient Greek Records",
+      "source": "WIRED AI",
+      "published": "2026-09-22T09:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1f2404a20f52adabf95b196c",
+      "bodyFingerprint": "dcb9f324b733270c330c25bd",
+      "bodyCharacterCount": 7470,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T10:00:05.480Z",
+      "assessment": {
+        "centralEvent": "A New Chatbot Wants to Unlock the Secrets in Tattered Ancient Greek Records",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Academics who find themselves bogged down in painstaking reconstruction work expect Apollo to accelerate things, allowing them to focus on the implications of historical documents, rather than figuring out what they say.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e80b7dda4f9a5f3e25f0": {
+      "storyId": "e80b7dda4f9a5f3e25f0",
+      "url": "https://www.wired.com/story/how-to-use-ai-with-your-privacy-intact",
+      "title": "How to Use AI With Your Privacy Intact",
+      "source": "WIRED AI",
+      "published": "2026-09-22T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b05dfd75c2b2924b09031ca8",
+      "bodyFingerprint": "468a2ae03fb6f5f75288418b",
+      "bodyCharacterCount": 17780,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T10:00:05.497Z",
+      "assessment": {
+        "centralEvent": "How to Use AI With Your Privacy Intact",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Your conversations with AI chatbots are both highly personal and deeply vulnerable to surveillance.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Confer, for instance, uses a freemium model, charging $34.99 a month for its cheapest tier after users run out of the roughly 20 to 25 queries a day it offers for free.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI’s ChatGPT, Anthropic’s Claude, Google’s Gemini, and their countless smaller competitors have become therapists, sounding boards, and virtual confession booths for millions of people around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Anthropic, for instance, doesn’t offer ZDR for its most sophisticated “Mythos-class” models like Fable 5.1, due to what it describes as the potential for misuse like scamming or hacking and even “autonomous misbehavior,” such as AI agents i",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 89,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c3fc60bd0e7b3f6802e": {
+      "storyId": "8c3fc60bd0e7b3f6802e",
+      "url": "https://www.bbc.co.uk/news/articles/c3wyz2rkgrx0o?at_campaign=rss&at_medium=RSS",
+      "title": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
+      "source": "BBC News AI",
+      "published": "2026-09-22T01:44:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "81ed7c6156cc5c06b685df62",
+      "bodyFingerprint": "4043ab38aad9a5e99d658d1a",
+      "bodyCharacterCount": 2261,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T10:00:05.577Z",
+      "assessment": {
+        "centralEvent": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Reuters By Rachel Clun Business reporter Published 8 hours ago A Canadian province is suing OpenAI over its alleged failure to notify authorities about concerning user interactions on ChatGPT prior to the Tumbler Ridge mass sh",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5966f9dd2bc3d9a3d5fe": {
+      "storyId": "5966f9dd2bc3d9a3d5fe",
+      "url": "https://thedispatch.com/article/ai-safety-politics-conversation",
+      "title": "Why AI and Washington Talk Past Each Other",
+      "source": "The Dispatch AI",
+      "published": "2026-09-22T05:02:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c1327a72e490908bb87e4f5b",
+      "bodyFingerprint": "2d527beea241901b0e17280f",
+      "bodyCharacterCount": 4773,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-22T10:00:05.802Z",
+      "assessment": {
+        "centralEvent": "Why AI and Washington Talk Past Each Other",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-22T05:00:45.359Z"
+  "updatedAt": "2026-09-22T10:00:05.802Z"
 }
