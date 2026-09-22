@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-22T14:00:00.000Z",
+  "generatedAt": "2026-09-22T18:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-22",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DCA-airport-2560x1440.jpg",
           "peak": 70.49,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-22",
           "firstObservedAt": "2026-09-22T05:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 70.49
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/JohnTernus_Decoder.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 51.65,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-22",
           "firstObservedAt": "2026-09-22T05:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 51.65
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-22",
           "firstObservedAt": "2026-09-22T05:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 51.23
         },
         {
@@ -67,18 +67,18 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.77
         },
         {
-          "storyId": "9ea97c2857a0153c1aab",
-          "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
-          "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/akrales_220309_4977_0292.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 50.16,
-          "observations": 3,
+          "storyId": "a0a3ee36f76c8858b282",
+          "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+          "url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ab1b117c967476bab903a3e/master/pass/Security_CommandCenter_v4.jpg",
+          "peak": 50.77,
+          "observations": 1,
           "daysTracked": 1,
           "peakDate": "2026-09-22",
-          "firstObservedAt": "2026-09-22T05:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
-          "average": 50.16
+          "firstObservedAt": "2026-09-22T18:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
+          "average": 50.77
         },
         {
           "storyId": "8b01dd9a86759fd5245a",
@@ -86,6 +86,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2234546269.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.16,
+          "observations": 4,
+          "daysTracked": 1,
+          "peakDate": "2026-09-22",
+          "firstObservedAt": "2026-09-22T05:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
+          "average": 50.16
+        },
+        {
+          "storyId": "9ea97c2857a0153c1aab",
+          "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+          "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/akrales_220309_4977_0292.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.16,
           "observations": 3,
           "daysTracked": 1,
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-1152x648.jpg",
           "peak": 49.99,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-22",
           "firstObservedAt": "2026-09-22T05:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 49.99
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-22",
           "firstObservedAt": "2026-09-22T05:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 49.94
         },
         {
@@ -129,25 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 49.83,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-22",
           "firstObservedAt": "2026-09-22T05:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
-          "average": 49.83
-        },
-        {
-          "storyId": "fe736312d6476df2c280",
-          "title": "Making Sense of AI Dread? Don't Get Distracted by Doomer CEOs or the China Canard",
-          "url": "https://techpolicy.press/making-sense-of-ai-dread-dont-get-distracted-by-doomer-ceos-or-the-china-canard",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.83,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-22",
-          "firstObservedAt": "2026-09-22T05:00:00.000Z",
-          "lastObservedAt": "2026-09-22T09:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 49.83
         }
       ]
@@ -3499,11 +3499,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DCA-airport-2560x1440.jpg",
           "peak": 70.49,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 70.49
         },
         {
@@ -3513,11 +3513,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/JohnTernus_Decoder.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 51.65,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T19:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 51.65
         },
         {
@@ -3527,11 +3527,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 51.23
         },
         {
@@ -3563,6 +3563,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.77
         },
         {
+          "storyId": "a0a3ee36f76c8858b282",
+          "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+          "url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ab1b117c967476bab903a3e/master/pass/Security_CommandCenter_v4.jpg",
+          "peak": 50.77,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-22",
+          "firstObservedAt": "2026-09-22T18:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
+          "average": 50.77
+        },
+        {
           "storyId": "9ea97c2857a0153c1aab",
           "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
           "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
@@ -3583,11 +3597,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2234546269.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.16,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T19:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 50.16
         },
         {
@@ -3597,11 +3611,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-1152x648.jpg",
           "peak": 49.99,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-22",
           "firstObservedAt": "2026-09-22T05:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 49.99
         },
         {
@@ -3611,26 +3625,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 49.94
-        },
-        {
-          "storyId": "a24da9b4fbe345bc0e32",
-          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 49.83,
-          "observations": 7,
-          "daysTracked": 2,
-          "peakDate": "2026-09-21",
-          "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
-          "average": 49.83
         }
       ]
     },
@@ -4240,11 +4240,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DCA-airport-2560x1440.jpg",
           "peak": 70.49,
-          "observations": 22,
+          "observations": 23,
           "daysTracked": 5,
           "peakDate": "2026-09-18",
           "firstObservedAt": "2026-09-18T22:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 70.49
         },
         {
@@ -4352,11 +4352,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/JohnTernus_Decoder.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 51.65,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T19:00:00.000Z",
-          "lastObservedAt": "2026-09-22T14:00:00.000Z",
+          "lastObservedAt": "2026-09-22T18:00:00.000Z",
           "average": 51.65
         }
       ]
