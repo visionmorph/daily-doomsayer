@@ -171841,8 +171841,705 @@
           "vulnerability": 0
         }
       }
+    },
+    "305c5904e237edc49d31": {
+      "storyId": "305c5904e237edc49d31",
+      "url": "https://www.404media.co/americans-love-to-use-ai-but-fear-it-will-make-the-world-worse-according-to-new-study",
+      "title": "Americans Fear AI Will Make the World Worse, Love It Anyway",
+      "source": "404 Media AI",
+      "published": "2026-09-23T11:13:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e83967d269b442668671d7e",
+      "bodyFingerprint": "ca4922606d59f81b504f9464",
+      "bodyCharacterCount": 5856,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T11:41:54.876Z",
+      "assessment": {
+        "centralEvent": "Americans Fear AI Will Make the World Worse, Love It Anyway",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "So optimism, skepticism and concern can coexist.” About the author Matthew Gault is a writer covering weird tech, nuclear war, and video games.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Gallup told 404 Media it defined a “daily user” as an employed person who used AI everyday for either work or personal reasons or an unemployed person who used the tech every day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Advertisement &bull; Go ad free News Americans Fear AI Will Make the World Worse, Love It Anyway Matthew Gault · Sep 23, 2026 at 7:13 AM Wealthy countries with many daily AI users tended to fear more for the future in what Gallup called the",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Gallup told 404 Media it defined a “daily user” as an employed person who used AI everyday for either work or personal reasons or an unemployed person who used the tech every day.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "716a82fce17735ae2b46": {
+      "storyId": "716a82fce17735ae2b46",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+      "title": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+      "source": "The Verge AI",
+      "published": "2026-09-23T11:02:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b8b317e726b9b821ada06d7",
+      "bodyFingerprint": "18c188c1ed7908d8f8fef692",
+      "bodyCharacterCount": 3743,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T11:41:54.891Z",
+      "assessment": {
+        "centralEvent": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "80064696c8fe9b96a6ad": {
+      "storyId": "80064696c8fe9b96a6ad",
+      "url": "https://www.politico.com/news/2026/09/23/ted-lieu-ai-democrats-01087182",
+      "title": "Ted Lieu: AI risks are ‘no longer in the realm of science fiction’",
+      "source": "POLITICO AI",
+      "published": "2026-09-23T09:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bee89d8f1e5e4ba3287b5f34",
+      "bodyFingerprint": "a320cd017fde29a6f69e11d6",
+      "bodyCharacterCount": 134,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-23T11:41:54.914Z",
+      "assessment": {
+        "centralEvent": "Ted Lieu: AI risks are ‘no longer in the realm of science fiction’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0c2605ece908629dcbaf": {
+      "storyId": "0c2605ece908629dcbaf",
+      "url": "https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire",
+      "title": "AT&T Is Automating Away Jobs—and Its Old Telecom Empire",
+      "source": "WIRED AI",
+      "published": "2026-09-23T10:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b2f733303e585d4fb65d0b11",
+      "bodyFingerprint": "c20ee9837b3ade92f987152f",
+      "bodyCharacterCount": 9841,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T11:41:54.939Z",
+      "assessment": {
+        "centralEvent": "AT&T Is Automating Away Jobs—and Its Old Telecom Empire",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Paresh Dave How to Use AI With Your Privacy Intact Your conversations with AI chatbots are both highly personal and deeply vulnerable to surveillance.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It also noted that since 2024, shifting away from copper has saved AT&T 660,000 megawatt-hours worth of electricity, or enough to power about 65,000 homes.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "AT&T has been around for 150 years, and it still plays a major role in the global economy.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AT&T’s transition provides a window into how legacy companies are trying to rebuild their operations as artificial intelligence tools become increasingly capable .",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bc80090cecd3024c6ef1": {
+      "storyId": "bc80090cecd3024c6ef1",
+      "url": "https://www.inc.com/jason-aten/meta-keeps-apologizing-for-muse-its-explanations-miss-the-point-entirely/91409363",
+      "title": "Meta Keeps Apologizing For Muse. Its Explanations Miss the Point Entirely",
+      "source": "Inc. AI",
+      "published": "2026-09-23T09:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "148472b86c9bf715305485eb",
+      "bodyFingerprint": "fb85554633d1faf73a9fa816",
+      "bodyCharacterCount": 117,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-23T11:41:54.961Z",
+      "assessment": {
+        "centralEvent": "Meta Keeps Apologizing For Muse. Its Explanations Miss the Point Entirely",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c6f9e921988014b3d5b0": {
+      "storyId": "c6f9e921988014b3d5b0",
+      "url": "https://www.inc.com/amy-zwagerman/chatgpt-ads-convert-1-5-times-better-but-they-arent-for-every-brand/91409026",
+      "title": "ChatGPT Ads Convert 1.5 Times Better, but They Aren’t for Every Brand",
+      "source": "Inc. AI",
+      "published": "2026-09-23T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9cf6b9b8be1f0fd701576e30",
+      "bodyFingerprint": "ddf1ef4ca7b62fec7494e043",
+      "bodyCharacterCount": 125,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-23T11:41:54.965Z",
+      "assessment": {
+        "centralEvent": "ChatGPT Ads Convert 1.5 Times Better, but They Aren’t for Every Brand",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04a3bc5f3fae7e0889a5": {
+      "storyId": "04a3bc5f3fae7e0889a5",
+      "url": "https://www.theguardian.com/us-news/live/2026/sep/23/donald-trump-xi-jinping-ai-china-us-politics-latest-news-updates",
+      "title": "Trump to meet China’s Xi as Congress mulls bill banning artificial superintelligence – US politics live",
+      "source": "The Guardian AI",
+      "published": "2026-09-23T11:40:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ad3deab6201e65e3d1ec68ac",
+      "bodyFingerprint": "15dfdf53f0fd0c773cdfeeb4",
+      "bodyCharacterCount": 5757,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T11:41:54.994Z",
+      "assessment": {
+        "centralEvent": "Trump to meet China’s Xi as Congress mulls bill banning artificial superintelligence – US politics live",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Congress has so far done little to rein in the AI industry even as some of its most prominent leaders warn about potentially catastrophic risks Sign up for US Breaking News emails The Trump administration is refusing to work with the newly ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7722366dc2ad695f9330": {
+      "storyId": "7722366dc2ad695f9330",
+      "url": "https://restofworld.org/2026/china-rejects-dario-amodei-anthropic-ai-slowdown-trump-xi",
+      "title": "Dario Amodei wants to slow AI. China isn’t taking orders",
+      "source": "Rest of World AI",
+      "published": "2026-09-23T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae66503f054ac23f271b5c5f",
+      "bodyFingerprint": "cdc414755b1a321b71de51bf",
+      "bodyCharacterCount": 7532,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T11:41:55.082Z",
+      "assessment": {
+        "centralEvent": "Dario Amodei wants to slow AI. China isn’t taking orders",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This concern echoes the kind of dystopian scenario that former Anthropic researcher Jacob Coxon warned about earlier this month.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The proposal, he wrote in a blog post , would “require cooperation with China, the autocratic country with by far the most advanced AI capabilities.” I don’t see any reason why China would cooperate with [Amodei’s] proposal and be held down",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Earlier this month, Amodei called for the global AI industry to slow the development of its most powerful models, arguing that the pause would buy some time to make them safer.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "18453fe5f924992f6f61": {
+      "storyId": "18453fe5f924992f6f61",
+      "url": "https://www.bbc.co.uk/news/articles/c9rk3856dm07o?at_campaign=rss&at_medium=RSS",
+      "title": "Oompa Loompa, doompety done: Actor takes final bow",
+      "source": "BBC News AI",
+      "published": "2026-09-23T05:36:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ca2ea8c552ee3484d383d23a",
+      "bodyFingerprint": "5d1fa346d02d8799e3be992c",
+      "bodyCharacterCount": 5799,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T11:41:55.113Z",
+      "assessment": {
+        "centralEvent": "Oompa Loompa, doompety done: Actor takes final bow",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The actor died in 2016, but his voice has been recreated using AI, which has received some criticism , despite producers obtaining the consent of his estate and approval of his widow Karen B Wilder.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, JAMES GOURLEY/NETFLIX Image caption, Rusty Goffe is playing an Oompa Loompa for the final time — 55 years after his debut in Willy Wonka & the Chocolate Factory By Danny Fullbrook Bedfordshire, Hertfordshire and Buckinghamshir",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He continues to attend conventions around the world to meet fans of the original film.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "23a8ee2eb7c366ff5bff": {
+      "storyId": "23a8ee2eb7c366ff5bff",
+      "url": "https://www.nature.com/articles/d41586-026-02930-6",
+      "title": "How to stay smart in the age of AI: the science of critical thinking",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-23T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "98a8553d2a945e5bbbacad13",
+      "bodyFingerprint": "1424c8633858982650c249c6",
+      "bodyCharacterCount": 69,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-23T11:41:55.600Z",
+      "assessment": {
+        "centralEvent": "How to stay smart in the age of AI: the science of critical thinking",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6df0336d29022d707b45": {
+      "storyId": "6df0336d29022d707b45",
+      "url": "https://www.artificialintelligence-news.com/news/ai-agents-are-becoming-a-new-malware-distribution-channel",
+      "title": "AI Agents Are Becoming a New Malware Distribution Channel",
+      "source": "AI News",
+      "published": "2026-09-23T07:44:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cc554bd1f76c7f81ec5d5548",
+      "bodyFingerprint": "7a8d07b68aad607a80e9598f",
+      "bodyCharacterCount": 473,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-23T11:41:55.602Z",
+      "assessment": {
+        "centralEvent": "AI Agents Are Becoming a New Malware Distribution Channel",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "AI Agents Are Becoming a New Malware Distribution Channel",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "By Farukh Rakhimov, Head of Compliance, Data Protection and Information Security at AdTech Holding Roughly 7,600 fake GitHub repositories, 6,600 fraudulent profiles and more than 14 million downloads: that is the scale of FakeGit, a malware",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-23T06:01:23.630Z"
+  "updatedAt": "2026-09-23T11:41:55.602Z"
 }
