@@ -172538,8 +172538,1491 @@
           "vulnerability": 0
         }
       }
+    },
+    "51ae79308bb54c33912c": {
+      "storyId": "51ae79308bb54c33912c",
+      "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it",
+      "title": "Even Americans who use AI every day are worried about it",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T16:49:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "37538d35146808358ffabc04",
+      "bodyFingerprint": "4c506f8fc20471b832f3ece3",
+      "bodyCharacterCount": 6790,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:26.948Z",
+      "assessment": {
+        "centralEvent": "Even Americans who use AI every day are worried about it",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But using AI every day doesn’t necessarily mean people are feeling comfortable with its implications for the world: About 68% of Americans who use AI daily are worried about it, according to a new survey conducted by opinion research firm G",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1856c279ad35c5030343": {
+      "storyId": "1856c279ad35c5030343",
+      "url": "https://www.bbc.co.uk/news/articles/c6p3kxpp8lezo?at_campaign=rss&at_medium=RSS",
+      "title": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
+      "source": "BBC News AI",
+      "published": "2026-09-23T16:42:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ca9b5998083db94adaacefd7",
+      "bodyFingerprint": "a53a8fe34df740e171461299",
+      "bodyCharacterCount": 3073,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:26.973Z",
+      "assessment": {
+        "centralEvent": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Trump has rejected calls for safety-driven slowdowns, warning that restrictions risk the US slipping behind China.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to official documents, between $6.5m (£4.8m) and $31m worth of stock in Microsoft was sold on behalf of Trump, while they show purchases of between $165,000 and $400,000.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Trump has previously argued that the US must come out on top in the AI development race, stating last week: \"Whoever wins AI, wins.\" He is firmly against government regulation or introducing new guardrails, putting him at odds with many of ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7607be21cec02e9297c0": {
+      "storyId": "7607be21cec02e9297c0",
+      "url": "https://www.bbc.co.uk/news/articles/ck7v4y45893go?at_campaign=rss&at_medium=RSS",
+      "title": "Uproar in France over award-winning author accused of using AI",
+      "source": "BBC News AI",
+      "published": "2026-09-23T15:28:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9c98549744dffa82c393a2b3",
+      "bodyFingerprint": "b7c4492120551792b405705d",
+      "bodyCharacterCount": 4729,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.006Z",
+      "assessment": {
+        "centralEvent": "Uproar in France over award-winning author accused of using AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The row recalls the controversy over Trinidadian writer Jamir Nazir's The Serpent in the Grove, whose Commonwealth Short Story prize was initially withdrawn in July over allegations that it was written with generative AI.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Joel Saget / AFP via Getty Images Image caption, Thélyson Orélien has denied allegations he used AI in his work By Hugh Schofield , Reporting from Paris and BBC Verify Published 1 hour ago The French book scene is in uproar af",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8348f8f60db16b79faa1": {
+      "storyId": "8348f8f60db16b79faa1",
+      "url": "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
+      "title": "MIT welcomes David Siegel SM ’86, PhD ’91 as its next Innovation Fellow",
+      "source": "MIT News AI",
+      "published": "2026-09-23T15:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "727ad7ae0d253cb53af22a3e",
+      "bodyFingerprint": "57806be1449e8c6c9a5ab511",
+      "bodyCharacterCount": 9515,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.022Z",
+      "assessment": {
+        "centralEvent": "MIT welcomes David Siegel SM ’86, PhD ’91 as its next Innovation Fellow",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5a299724cecafd043f61": {
+      "storyId": "5a299724cecafd043f61",
+      "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features",
+      "title": "YouTube Music gets more conversational with new AI features",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T15:19:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7adab4b0f925912878c89be5",
+      "bodyFingerprint": "6cd6b1a0e23e83921b397b16",
+      "bodyCharacterCount": 3701,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.032Z",
+      "assessment": {
+        "centralEvent": "YouTube Music gets more conversational with new AI features",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Your Podcast Lineup will appear on the podcast page in the YouTube Music app.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0daeabf1513449d89702": {
+      "storyId": "0daeabf1513449d89702",
+      "url": "https://mashable.com/tech/sept-23-samsung-m70h-mini-led-4k-tv-deal",
+      "title": "Samsung’s 2026 55-inch Mini LED 4K TV just hit its lowest-ever price — where to buy for under $300",
+      "source": "Mashable AI",
+      "published": "2026-09-23T15:31:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cc262af5cbc927fd56611b49",
+      "bodyFingerprint": "0d22a1d8c3a5aa440f06b05e",
+      "bodyCharacterCount": 3536,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.050Z",
+      "assessment": {
+        "centralEvent": "Samsung’s 2026 55-inch Mini LED 4K TV just hit its lowest-ever price — where to buy for under $300",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f6372b1e2b5f740e5c6e": {
+      "storyId": "f6372b1e2b5f740e5c6e",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/sep/23/folk-or-ai-could-be-a-winner-for-the-uk-at-eurovision",
+      "title": "Folk or AI could be a winner for the UK at Eurovision | Letters",
+      "source": "The Guardian AI",
+      "published": "2026-09-23T16:40:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7097e0236567986464f055cb",
+      "bodyFingerprint": "3ab8bc13bda01531b4814036",
+      "bodyCharacterCount": 1768,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.076Z",
+      "assessment": {
+        "centralEvent": "Folk or AI could be a winner for the UK at Eurovision | Letters",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Tim Thornton London Zoe Williams’ article on the proposed inquiry into “why are our Eurovision entries so bad?” was very amusing ( Britain loves its underdogs.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dedd20cb4e6c17ac04c0": {
+      "storyId": "dedd20cb4e6c17ac04c0",
+      "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital",
+      "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d15f400ae1a310e6c59882cf",
+      "bodyFingerprint": "f568615f4070df4a45aec9d5",
+      "bodyCharacterCount": 4898,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.100Z",
+      "assessment": {
+        "centralEvent": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular Anthropic releases Opus 5.5 with lower prices and Fable-level performance Russell Brandom Meta’s Muse is outpacing ChatGPT’s early mobile launch Sarah Perez Tilly Norwood’s press tour is going about as well as you’d ex",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "146a9f74798a2b61754e": {
+      "storyId": "146a9f74798a2b61754e",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/24/my-complicated-relationship-with-ai-chatgpt-factchecking",
+      "title": "My (complicated) relationship with AI: often seductive, occasionally frustrating and always demanding vigilance | Setareh Seyedghorban",
+      "source": "The Guardian AI",
+      "published": "2026-09-23T15:00:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4982b6784d0e191e2bea10b2",
+      "bodyFingerprint": "e85ca8c0cebb6d49ad60d053",
+      "bodyCharacterCount": 5713,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.116Z",
+      "assessment": {
+        "centralEvent": "My (complicated) relationship with AI: often seductive, occasionally frustrating and always demanding vigilance | Setareh Seyedghorban",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "But I will continue to think, judge and develop ideas that are stubbornly mine I am walking between carriages in search of a cup of tea on a train travelling over 100 miles an hour from Liverpool to London when I see half the people in my c",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "baa20b51d4c000edd305": {
+      "storyId": "baa20b51d4c000edd305",
+      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
+      "title": "YouTube releases new AI features for creators within its Studio app",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f21b43ce308987a8210c80ee",
+      "bodyFingerprint": "1d65183cfc2ef82f2d07d255",
+      "bodyCharacterCount": 3168,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.125Z",
+      "assessment": {
+        "centralEvent": "YouTube releases new AI features for creators within its Studio app",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular Anthropic releases Opus 5.5 with lower prices and Fable-level performance Russell Brandom Meta’s Muse is outpacing ChatGPT’s early mobile launch Sarah Perez Tilly Norwood’s press tour is going about as well as you’d ex",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7ce14b4ad68207c4b208": {
+      "storyId": "7ce14b4ad68207c4b208",
+      "url": "https://news.sky.com/story/three-reasons-why-ai-could-save-us-all-13591102",
+      "title": "Three reasons why AI could 'save us all'",
+      "source": "Sky News AI",
+      "published": "2026-09-23T15:16:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f32a309c9d01f5393a6161bb",
+      "bodyFingerprint": "c99313a20327a76bf85f8c64",
+      "bodyCharacterCount": 45,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-23T17:05:27.170Z",
+      "assessment": {
+        "centralEvent": "Three reasons why AI could 'save us all'",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e17fe032ddae047f8fc2": {
+      "storyId": "e17fe032ddae047f8fc2",
+      "url": "https://www.politico.com/news/2026/09/23/dems-urge-trump-to-seek-ai-deal-with-china-01089253",
+      "title": "Dems urge Trump to seek AI deal with China",
+      "source": "POLITICO AI",
+      "published": "2026-09-23T14:03:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f53c9d781482f6dcc865c387",
+      "bodyFingerprint": "f7b7bbbce69de2f4ebd9897f",
+      "bodyCharacterCount": 167,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-23T17:05:27.172Z",
+      "assessment": {
+        "centralEvent": "Dems urge Trump to seek AI deal with China",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e14978ff9b482fd8728f": {
+      "storyId": "e14978ff9b482fd8728f",
+      "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai",
+      "title": "YouTube will let you build your own algorithm with AI",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17bbd40695e4ff03473657f3",
+      "bodyFingerprint": "f4c4010779b0b5ec172f4bad",
+      "bodyCharacterCount": 4219,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.182Z",
+      "assessment": {
+        "centralEvent": "YouTube will let you build your own algorithm with AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular Anthropic releases Opus 5.5 with lower prices and Fable-level performance Russell Brandom Meta’s Muse is outpacing ChatGPT’s early mobile launch Sarah Perez Tilly Norwood’s press tour is going about as well as you’d ex",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dcce20a8c56d15e1e8ec": {
+      "storyId": "dcce20a8c56d15e1e8ec",
+      "url": "https://techcrunch.com/2026/09/23/3-days-left-to-save-up-to-200-and-make-impactful-connections-at-techcrunch-disrupt-2026",
+      "title": "3 days left to save up to $200 and make impactful connections at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ec5f75f76ff0b32fda6c3b26",
+      "bodyFingerprint": "f3573b4e59843f336fb2e955",
+      "bodyCharacterCount": 4321,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.195Z",
+      "assessment": {
+        "centralEvent": "3 days left to save up to $200 and make impactful connections at TechCrunch Disrupt 2026",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "3 days left to save up to $200 and make impactful connections at TechCrunch Disrupt 2026",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7f3dc7d8b5f4df0a1e8e": {
+      "storyId": "7f3dc7d8b5f4df0a1e8e",
+      "url": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests",
+      "title": "YouTube is building AI creator tools that do almost everything for them",
+      "source": "The Verge AI",
+      "published": "2026-09-23T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "09a3332799f1b460399176c4",
+      "bodyFingerprint": "a9ff6c0720e545c8acdd51e4",
+      "bodyCharacterCount": 6708,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.281Z",
+      "assessment": {
+        "centralEvent": "YouTube is building AI creator tools that do almost everything for them",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Trump says the US is officially renaming AI to ‘super intelligence’ Advertiser Content From This is the title for the native ad More in Tech This $199 GPS sports watch is repairable, modular, and open-source Discord will now automatically e",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d30a54669d6d323759f": {
+      "storyId": "0d30a54669d6d323759f",
+      "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile",
+      "title": "Spotify is giving you the keys to its recommendation algorithm with US launch of ‘Taste Profile’",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "07a28ea6e0af5b489fc96597",
+      "bodyFingerprint": "26d94dcfd98c4b2306c8e2cf",
+      "bodyCharacterCount": 4578,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.303Z",
+      "assessment": {
+        "centralEvent": "Spotify is giving you the keys to its recommendation algorithm with US launch of ‘Taste Profile’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular Anthropic releases Opus 5.5 with lower prices and Fable-level performance Russell Brandom Meta’s Muse is outpacing ChatGPT’s early mobile launch Sarah Perez Tilly Norwood’s press tour is going about as well as you’d ex",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eef1caf80c21204d7a68": {
+      "storyId": "eef1caf80c21204d7a68",
+      "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day",
+      "title": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+      "source": "WIRED AI",
+      "published": "2026-09-23T12:54:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d4ed41e55f8056a1c2a6f926",
+      "bodyFingerprint": "97fa698c0d0eb272bc528a3c",
+      "bodyCharacterCount": 11749,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.554Z",
+      "assessment": {
+        "centralEvent": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“So instead of us having to write a very comprehensive Mac malware stealer, we can just leverage the AI assistant itself.” Wardle said he has developed several proof-of-concept attacks that do things like writing malicious files to disk and",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "More than 12 hours after this post went live, Meta said it released a hotfix that patched the 0-day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "He is also the author of the The Art of Mac Malware book series and a former employee of NASA and the National Security Agency.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Once that happens, the attacker gains permanent control over the Muse account because the token is automatically sent to the malicious server as well.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "More than 12 hours after this post went live, Meta said it released a hotfix that patched the 0-day.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“So instead of us having to write a very comprehensive Mac malware stealer, we can just leverage the AI assistant itself.” Wardle said he has developed several proof-of-concept attacks that do things like writing malicious files to disk and",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 77,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.49,
+        "rawScore": 50.49,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.59,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f7f013a06ceaf5250eb4": {
+      "storyId": "f7f013a06ceaf5250eb4",
+      "url": "https://www.bbc.co.uk/news/articles/c90kly26d7pzo?at_campaign=rss&at_medium=RSS",
+      "title": "OpenAI gives cyber defence tools to Ukraine",
+      "source": "BBC News AI",
+      "published": "2026-09-23T12:01:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7986b39fbcf5f38ad8f3a177",
+      "bodyFingerprint": "6c6010d25d0f96ad1ecbf1fa",
+      "bodyCharacterCount": 4522,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.577Z",
+      "assessment": {
+        "centralEvent": "OpenAI gives cyber defence tools to Ukraine",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But it's not just bad actors deploying the tech that are of growing concern: in the summer, OpenAI revealed that a group of AI agents it had been testing had escaped from their controls, and secretly worked together to hack to another tech ",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Zoe Kleinman Technology editor Published 5 hours ago The tech giant OpenAI will share its AI cyber defence system Daybreak for free with the Ukraine government to help it protect civilian infrastructure, like h",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Recently, around 100 US companies signed an open letter warning governments and institutions around the world that \"the window is closing\" to ensure cyber defences are robust enough to withstand AI-enabled cyber attacks.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 68.18,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1898b8cd3bcc24490613": {
+      "storyId": "1898b8cd3bcc24490613",
+      "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services",
+      "title": "Ema raises $77M as AI starts eating into enterprise software and services",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5e7af12c0da19a5af4221a28",
+      "bodyFingerprint": "64948a5f47d7f554d240ab40",
+      "bodyCharacterCount": 6656,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.600Z",
+      "assessment": {
+        "centralEvent": "Ema raises $77M as AI starts eating into enterprise software and services",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The financing brings the startup’s total funding to $140 million and more than quadruples its valuation from its last funding round in 2024. (Ema declined to disclose its latest valuation.) The round consisted entirely of primary equity, wi",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "41ff9d51c698848d3732": {
+      "storyId": "41ff9d51c698848d3732",
+      "url": "https://mashable.com/tech/qualcomm-snapdragon-8-elite-gen-6-agentic-ai-chips-summit",
+      "title": "Qualcomms new Snapdragon 8 Elite Gen 6 chips bring agentic AI to mobile phones",
+      "source": "Mashable AI",
+      "published": "2026-09-23T11:59:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2dd1e0afbf4bd5436cffb479",
+      "bodyFingerprint": "cc3c7f2a3e5fe363a85e239e",
+      "bodyCharacterCount": 1232,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.693Z",
+      "assessment": {
+        "centralEvent": "Qualcomms new Snapdragon 8 Elite Gen 6 chips bring agentic AI to mobile phones",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cc9f7397f69cc8d2b679": {
+      "storyId": "cc9f7397f69cc8d2b679",
+      "url": "https://www.artificialintelligence-news.com/news/us-transcom-deploys-randomised-ai-to-secure-military-logistics",
+      "title": "U.S. TRANSCOM deploys randomised AI to secure military logistics",
+      "source": "AI News",
+      "published": "2026-09-23T13:13:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "32473cc5ff29615ebee842a8",
+      "bodyFingerprint": "35830e6d1b7b8e79dcd5934d",
+      "bodyCharacterCount": 566,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-23T17:05:27.715Z",
+      "assessment": {
+        "centralEvent": "U.S. TRANSCOM deploys randomised AI to secure military logistics",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 11,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "90f6d0072d1d6af08876": {
+      "storyId": "90f6d0072d1d6af08876",
+      "url": "https://techpolicy.press/who-is-ai-risk-for-centering-people-in-the-ai-risk-conversation",
+      "title": "Who Is AI Risk For? Centering People in the AI Risk Conversation",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-23T13:19:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1a203edcefdfdbfa81224016",
+      "bodyFingerprint": "0ef68aaa6131ea4988d90fac",
+      "bodyCharacterCount": 17846,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.763Z",
+      "assessment": {
+        "centralEvent": "Who Is AI Risk For? Centering People in the AI Risk Conversation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A few weeks later, OpenAI disclosed that its models escaped a sandboxed test environment and breached Hugging Face’s infrastructure to harvest data in order to “cheat” on evaluations.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Hugging Face characterized it as an agent-driven intrusion, Reuters reported on a “rogue” agent , and the BBC described the antagonist as “ out-of-control AI .” An independent investigation designated governance as out of scope, yet detaile",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Centering People in the AI Risk Conversation Jenny Domino, Jen Weedon / Sep 23, 2026 Jen Weedon is a researcher and lecturer at Columbia University’s School of International Affairs’ Institute for Global Politics.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "One approach converted questions of mass death into technical problems to be optimized, while gatekeeping who was credentialed to speak on these issues at all.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In the mid-1950s , two organizations at RAND adopted dueling approaches to wargaming nuclear escalation: the Mathematical Analytics Division (MAD) and the Social Sciences Division (SSD).",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This would widen the aperture to include affected communities and their legally grounded claims, the complete range of rights affected by specific harms, and the institutional choices and responsibilities behind those impacts.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 101,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.33,
+        "rawScore": 50.33,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 2
+        }
+      }
+    },
+    "2b9431d7d0430deb716d": {
+      "storyId": "2b9431d7d0430deb716d",
+      "url": "https://techpolicy.press/we-need-google-trends-for-ai",
+      "title": "We Need Google Trends for AI",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-23T13:06:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c22af81cc93bed96e97f8019",
+      "bodyFingerprint": "ad68d54c44f930aeaa35e2d8",
+      "bodyCharacterCount": 15622,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T17:05:27.837Z",
+      "assessment": {
+        "centralEvent": "We Need Google Trends for AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And the rise of AI summaries means that people are increasingly exposed to AI answers even if they do not seek them out.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "After discussions, Microsoft provided us with some data, though it was limited to very specific keywords and only broken down by month, with some additional data on 4-day windows around the elections.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But there are also concerns about societal risks if systemic problems compound: for instance, if political leanings or source selection in AI answers mediate how citizens receive news or political information en masse .",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There are various methods for scaling up both the prompting and analysis, with advantages and disadvantages: for instance, automating answers via official APIs may not be fully reflective of answers chatbots give when used normally, but “un",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 111,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-23T11:41:55.602Z"
+  "updatedAt": "2026-09-23T17:05:27.837Z"
 }
