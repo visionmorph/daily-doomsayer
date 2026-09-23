@@ -171226,8 +171226,623 @@
           "vulnerability": 0
         }
       }
+    },
+    "634b3ed0fddfb8fd98ab": {
+      "storyId": "634b3ed0fddfb8fd98ab",
+      "url": "https://www.bbc.co.uk/news/articles/c6n9w410v3vzo?at_campaign=rss&at_medium=RSS",
+      "title": "White House to roll out the red carpet for historic Xi Jinping visit",
+      "source": "BBC News AI",
+      "published": "2026-09-23T05:02:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3c219925d9222f762fcd4d67",
+      "bodyFingerprint": "8cf32f1e116a4939a9f66551",
+      "bodyCharacterCount": 5754,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T06:01:22.421Z",
+      "assessment": {
+        "centralEvent": "White House to roll out the red carpet for historic Xi Jinping visit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But after a series of recent high-profile security incidents involving the emergent technology, there has been growing pressure on the Trump administration to regulate AI and slow its development.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Rare look at the remote engine rooms powering China's AI ambitions Published 7 hours ago Another likely talking point between Trump and Xi is artificial intelligence, a topic that David Firestein from the Bush China Foundation said has \"cli",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Brandon Drenon Reporting from Washington DC Published 57 minutes ago US President Donald Trump will host Chinese leader Xi Jinping this week in Washington, with everything from AI to trade and Taiwan on the age",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f872c69ad688ca80f5ac": {
+      "storyId": "f872c69ad688ca80f5ac",
+      "url": "https://www.bbc.co.uk/news/articles/cqy4z9pv4w0po?at_campaign=rss&at_medium=RSS",
+      "title": "Will Trump's AI rebrand to 'super intelligence' catch on?",
+      "source": "BBC News AI",
+      "published": "2026-09-23T03:20:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b56e7dc2923790f8261e08c",
+      "bodyFingerprint": "9df95e5f1d77d44abecd040e",
+      "bodyCharacterCount": 4511,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T06:01:22.442Z",
+      "assessment": {
+        "centralEvent": "Will Trump's AI rebrand to 'super intelligence' catch on?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Figure caption, Watch: Moment Trump rebrands Artificial Intelligence to Super Intelligence By Osmond Chia and Kali Hays Published 23 September 2026, 03:56 BST Updated 2 hours ago US President Donald Trump says the term artificial intelligen",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0680df213917cf3f338b": {
+      "storyId": "0680df213917cf3f338b",
+      "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai",
+      "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T04:59:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "929cdfa4de56569fabd6410e",
+      "bodyFingerprint": "eb870e6f6509982869d83ffb",
+      "bodyCharacterCount": 8162,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T06:01:22.485Z",
+      "assessment": {
+        "centralEvent": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“If the people who are building the models are telling us, ‘We’re not really sure exactly what’s happening with these models,’” especially in how they improve themselves, he said, “we need to listen to them.” Some form of “smart regulation”",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cb458513f8d9c2fa555b": {
+      "storyId": "cb458513f8d9c2fa555b",
+      "url": "https://www.bbc.co.uk/news/articles/c6rerlq99w30o?at_campaign=rss&at_medium=RSS",
+      "title": "UK to fight Russian disinformation and push new global AI standards, Burnham says",
+      "source": "BBC News AI",
+      "published": "2026-09-23T01:08:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "319b40d499e979fb8aa9b9f7",
+      "bodyFingerprint": "3b24c938f5a10626301bf1d4",
+      "bodyCharacterCount": 6446,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T06:01:22.503Z",
+      "assessment": {
+        "centralEvent": "UK to fight Russian disinformation and push new global AI standards, Burnham says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, REUTERS/Eduardo Munoz Image caption, Andy Burnham accused Russia of a \"disinformation\" campaign at the UN General Assembly By Becky Morton and Harry Sekulich Published 4 hours ago The UK will set up a new centre to \"stem the p",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9a4a8382c8e8f71385b2": {
+      "storyId": "9a4a8382c8e8f71385b2",
+      "url": "https://www.theguardian.com/technology/2026/sep/23/andy-burnham-national-centre-russian-disinformation-deepfakes",
+      "title": "New UK agency will tackle ‘information warfare’ from likes of Russia, Burnham says",
+      "source": "The Guardian AI",
+      "published": "2026-09-23T05:00:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "31b1670154ba0d2448992327",
+      "bodyFingerprint": "ff013ce61a70804dacf2800f",
+      "bodyCharacterCount": 5594,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T06:01:22.549Z",
+      "assessment": {
+        "centralEvent": "New UK agency will tackle ‘information warfare’ from likes of Russia, Burnham says",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Explore more on these topics Cyberwar Deepfake AI (artificial intelligence) news Share Reuse this content Most viewed Most viewed",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Russia-linked accounts spread far-right narrative online during Ceuta migration crisis, analysis finds Read more “We also know that they have tried to stoke tensions and unrest in the wake of horrific events.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "PM aims to ‘stem poisonous tide’ of disinformation and deepfakes with National Centre for Information Defence Security chiefs will set up a new national centre to tackle disinformation and deepfakes from hostile states such as Russia, Andy ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "79c8028645afe64c4bc7": {
+      "storyId": "79c8028645afe64c4bc7",
+      "url": "https://www.theguardian.com/australia-news/commentisfree/2026/sep/23/how-would-ai-actually-kill-all-humans-here-are-the-top-five-most-likely-scenarios",
+      "title": "How would AI actually ‘kill all humans’? Here are the top five most likely scenarios | Toby Walsh",
+      "source": "The Guardian AI",
+      "published": "2026-09-23T00:51:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4fea97ccd5228e5be74300c8",
+      "bodyFingerprint": "f52947bbc87dc38dee5d25d6",
+      "bodyCharacterCount": 6986,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T06:01:22.572Z",
+      "assessment": {
+        "centralEvent": "How would AI actually ‘kill all humans’? Here are the top five most likely scenarios | Toby Walsh",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Imagine – and it doesn’t take a lot of imagination – that AI causes massive job losses , pollutes the information space with misinformation , fractures our politics and destroys human relationships with fake synthetic companionship .",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "‘We’d have to be superintelligent to predict what a superintelligence would be able to do.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The deadliest pandemic in recorded history was the Black Death, when the plague killed more than one-third of Europe’s population in the 14th century.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd8b9a2d12be4fb4841e": {
+      "storyId": "bd8b9a2d12be4fb4841e",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081052.htm",
+      "title": "The Solar System chose fire over ice from the very beginning",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-23T03:06:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a52c6e4ee420bbc0d5ca06db",
+      "bodyFingerprint": "0b22e7e11cfd55ba1d0cb2f6",
+      "bodyCharacterCount": 9426,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T06:01:22.595Z",
+      "assessment": {
+        "centralEvent": "The Solar System chose fire over ice from the very beginning",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Knee Osteoarthritis Isn’t Inevitable: Simple Habits May Lower Your Risk Einstein Called It “Spooky.” CERN Just Found It at Extreme Energies at the Large Hadron Collider Your Favorite Scented Cleaner Could Be Fil",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers have found the first geochemical evidence showing that chondrules were already being preferentially incorporated into solid bodies during the Solar System's first million years.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3f9877f95d38a7ee11c3": {
+      "storyId": "3f9877f95d38a7ee11c3",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260922005649.htm",
+      "title": "The LHC just ruled out another hiding place for quantum black holes",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-23T03:32:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5cd7ef5d09c6fd38128ac6db",
+      "bodyFingerprint": "89f092e7be640754648ce95c",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T06:01:22.637Z",
+      "assessment": {
+        "centralEvent": "The LHC just ruled out another hiding place for quantum black holes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Knee Osteoarthritis Isn’t Inevitable: Simple Habits May Lower Your Risk Einstein Called It “Spooky.” CERN Just Found It at Extreme Energies at the Large Hadron Collider Your Favorite Scented Cleaner Could Be Fil",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "These collisions give physicists access to extremely small distance scales. \"At the LHC, we're colliding particles at extremely high energy, which corresponds to tiny distance scales,\" Incandela said. \"As with microscopy, higher energies me",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Where Quantum Physics Meets Gravity The search is ultimately connected to one of the biggest unresolved problems in modern physics. \"We have two big theories that describe nature,\" Tamas Vami said. \"If you want to describe things that are s",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And when you go to the very, very big you have general relativity that would describe how big and massive objects behave.\" Physicists have spent decades trying to combine these frameworks into a single description of nature.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 108,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.52,
+        "rawScore": 47.52,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "710453aa44a210ed37de": {
+      "storyId": "710453aa44a210ed37de",
+      "url": "https://www.politico.eu/article/poll-ai-anxiety-openai-anthropic-elon-musk-silicon-valley-across-party-lines",
+      "title": "AI anxiety is sweeping the globe — and cutting across party lines",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-22T18:17:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "60f05b0a14575be95dffdfda",
+      "bodyFingerprint": "29a053e892975e0c5a119469",
+      "bodyCharacterCount": 7368,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T06:01:23.629Z",
+      "assessment": {
+        "centralEvent": "AI anxiety is sweeping the globe — and cutting across party lines",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Majorities in six countries said there was at least a “moderate” risk that AI could “destroy humanity,” and a plurality wanted to pause further advancement, a new POLITICO Poll found.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "European policymakers faced additional pressure from activists on Monday, when the Pause AI movement demonstrated in front of the European Parliament buildings in Brussels.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Meanwhile, just 30% to 40% of adults in each country favored continued development to bring about “significant benefits.” An even greater share of adults — more than half in every country surveyed and up to almost two-thirds in the U.S., Fr",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.63,
+        "rawScore": 27.63,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-23T00:37:27.689Z"
+  "updatedAt": "2026-09-23T06:01:23.630Z"
 }
