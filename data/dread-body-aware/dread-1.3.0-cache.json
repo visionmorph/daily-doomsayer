@@ -174021,8 +174021,1197 @@
           "vulnerability": 0
         }
       }
+    },
+    "bd5328839ee23cf9fd87": {
+      "storyId": "bd5328839ee23cf9fd87",
+      "url": "https://www.theguardian.com/technology/2026/sep/23/google-readers-respond-ai-overview-internet-searches",
+      "title": "‘I miss old Google’: readers tell us how they search the internet in the age of AI",
+      "source": "The Guardian AI",
+      "published": "2026-09-23T19:51:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "96792c41748c2f4b4552c183",
+      "bodyFingerprint": "67c66ed3b572252cd2a5a097",
+      "bodyCharacterCount": 7051,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:37.952Z",
+      "assessment": {
+        "centralEvent": "‘I miss old Google’: readers tell us how they search the internet in the age of AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The analysis and chat functions are so much more useful than a ranked list of websites that still need to be explored by the user.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "61d84df46e57859a4cbb": {
+      "storyId": "61d84df46e57859a4cbb",
+      "url": "https://www.inc.com/aaron-mok/these-founders-say-the-ai-apocalypse-debate-misses-the-bigger-problem-for-businesses/91408336",
+      "title": "These Founders Say the AI Apocalypse Debate Misses the Bigger Problem for Businesses",
+      "source": "Inc. AI",
+      "published": "2026-09-23T20:07:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f9c711e7577abfa13959184f",
+      "bodyFingerprint": "9c768e4f13d5ad7f2ed3f0a0",
+      "bodyCharacterCount": 127,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-23T20:25:37.963Z",
+      "assessment": {
+        "centralEvent": "These Founders Say the AI Apocalypse Debate Misses the Bigger Problem for Businesses",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f17f6c43b13566dd989b": {
+      "storyId": "f17f6c43b13566dd989b",
+      "url": "https://www.inc.com/stephanie-davis/ryan-levesque-ask-method-choose-ai-proof-vermont-farm/91409444",
+      "title": "A $70 Million Deal Collapse Nearly Broke Him. Now, This 7-Time Inc. 5000 Founder Is Building an ‘AI-Proof’ Empire on a Farm",
+      "source": "Inc. AI",
+      "published": "2026-09-23T19:49:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "55a6e52793910145cd8a309b",
+      "bodyFingerprint": "2442d9fe4217783aae87438f",
+      "bodyCharacterCount": 199,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-23T20:25:37.965Z",
+      "assessment": {
+        "centralEvent": "A $70 Million Deal Collapse Nearly Broke Him. Now, This 7-Time Inc. 5000 Founder Is Building an ‘AI-Proof’ Empire on a Farm",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b2cab94e5375e0ba8f1a": {
+      "storyId": "b2cab94e5375e0ba8f1a",
+      "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials",
+      "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T19:31:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "52a55627fa8cfcda8fd1edb6",
+      "bodyFingerprint": "697c1e2a57167ba1d2eff67b",
+      "bodyCharacterCount": 2338,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:37.990Z",
+      "assessment": {
+        "centralEvent": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related TechCrunch Disrupt 2026 StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital TechCrunch Events 6 hours ago Startups Snorkel ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d765894abc29e771ba36": {
+      "storyId": "d765894abc29e771ba36",
+      "url": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year",
+      "title": "YouTube promises custom feeds and a lot more AI later this year",
+      "source": "Ars Technica AI",
+      "published": "2026-09-23T19:35:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2142b8b4eb44b7084c941cda",
+      "bodyFingerprint": "e3518c992633b973d0f9f1be",
+      "bodyCharacterCount": 5720,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.052Z",
+      "assessment": {
+        "centralEvent": "YouTube promises custom feeds and a lot more AI later this year",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Woman's brain worm infection confirmed after eggs grow tails in lab test 3.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f50a6831740a834adfff": {
+      "storyId": "f50a6831740a834adfff",
+      "url": "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills",
+      "title": "Data centers are black boxes, but California wants to change that",
+      "source": "The Verge AI",
+      "published": "2026-09-23T18:22:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cf254ce871b17d7b0994cd8b",
+      "bodyFingerprint": "8631165ccd20551812ce8e47",
+      "bodyCharacterCount": 9421,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.089Z",
+      "assessment": {
+        "centralEvent": "Data centers are black boxes, but California wants to change that",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The laws still leave big gaps in what data centers need to report That dearth of information is even more concerning considering what the researchers were able to find.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ae23e4eb6a6aae2cbd9a": {
+      "storyId": "ae23e4eb6a6aae2cbd9a",
+      "url": "https://www.theguardian.com/world/2026/sep/23/how-the-poisonous-tide-of-disinformation-stokes-division-and-sows-despair",
+      "title": "How the ‘poisonous tide’ of disinformation stokes division and sows despair",
+      "source": "The Guardian AI",
+      "published": "2026-09-23T19:24:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "942dd8ce869161a5ecb000b8",
+      "bodyFingerprint": "17c8f886da82c7db024461bc",
+      "bodyCharacterCount": 7450,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.102Z",
+      "assessment": {
+        "centralEvent": "How the ‘poisonous tide’ of disinformation stokes division and sows despair",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The narratives range from a deepfake Tom Cruise slamming the Paris Olympics to portraying a recent Russian attack on a train near the Ukraine-Poland border as a false-flag operation.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Illustration: Storm-1679/Microsoft Threat Analysis Center View image in fullscreen A deepfake image from the fake documentary Olympics Has Fallen, produced by Russia-affiliated influence actor Storm-1679, which advanced pro-Kremlin disinfor",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "It is systematic and Andy Burnham has seen enough, announcing a new anti-disinformation agency, the National Centre for Information Defence .",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The UK thinktank Demos recently highlighted a chatbot “poisoning” campaign where falsehoods published online by a discredited Russian organisation, including the bodies of deceased Ukrainian soldiers being processed into meat products, were",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "87fc3267da767e247945": {
+      "storyId": "87fc3267da767e247945",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping",
+      "title": "Meta’s AI agent is a cute little guy who’s great at spending my money",
+      "source": "The Verge AI",
+      "published": "2026-09-23T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5d4da001b0754972a072c67a",
+      "bodyFingerprint": "b4457374cc6839797955944e",
+      "bodyCharacterCount": 13333,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.117Z",
+      "assessment": {
+        "centralEvent": "Meta’s AI agent is a cute little guy who’s great at spending my money",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It is shockingly easy to spend money when a cute little guy is running around the internet with your credit card There’s a danger in overcommitting yourself when you feel like these AI tools are speeding you up.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "It confirmed that more time had passed than the landscaper initially estimated the bid would take, and drafted a rather snippy but wordy email.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Yes I asked Marley to help me nudge the person I’ve been emailing at a local landscaping company.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It made an attempt to access Amazon and was roundly blocked , complete with a spicy message about AI agents violating terms of service.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 116,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.64,
+        "rawScore": 26.64,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "08befdebd4cbaf5a42d9": {
+      "storyId": "08befdebd4cbaf5a42d9",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
+      "title": "Anthropic’s biolab made a discovery it’s comparing to Crispr",
+      "source": "The Verge AI",
+      "published": "2026-09-23T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "26a52ea2ce476b6ee432be1c",
+      "bodyFingerprint": "c531f4acfa5be3abed2f8b54",
+      "bodyCharacterCount": 4183,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.131Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s biolab made a discovery it’s comparing to Crispr",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Over 21 hours, Anthropic said nearly 950 Claude agents worked through 210 million tokens before one spotted an unusual repeating pattern in the datas ...",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "77d7b294deff701ed4ec": {
+      "storyId": "77d7b294deff701ed4ec",
+      "url": "https://www.wired.com/story/ai-agent-collusion-card-counting-secrets",
+      "title": "AI Agents Teamed Up to Cheat at Blackjack. Their Collusion Is Getting Harder to Spot",
+      "source": "WIRED AI",
+      "published": "2026-09-23T18:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2174d15c1ed261ed97fbfce1",
+      "bodyFingerprint": "64a176079bcbc66a8e3a3a2b",
+      "bodyCharacterCount": 8818,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.161Z",
+      "assessment": {
+        "centralEvent": "AI Agents Teamed Up to Cheat at Blackjack. Their Collusion Is Getting Harder to Spot",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "One project, from Shanghai Jiao Tong University and the Shanghai Artificial Intelligence Laboratory, found that swarms of agents were considerably more dangerous when asked to carry out simulated disinformation campaigns and ecommerce fraud",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "They were better able to adapt to defensive measures, researchers reported.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An independent scientific panel is set to discuss the OpenAI-HuggingFace incident, while Sam Altman is expected to call for international coordination on developing safe AI agents.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Will Knight Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Will Knight Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But groups of rogue agents working together have also featured in several recent high-profile hacking incidents.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 51.92,
+        "rawScore": 51.92,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.72,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "79085ef44f065f74178e": {
+      "storyId": "79085ef44f065f74178e",
+      "url": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges",
+      "title": "Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
+      "source": "Ars Technica AI",
+      "published": "2026-09-23T17:39:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e11ced56f1aee25b340c6ad5",
+      "bodyFingerprint": "9fbef1704fdd4607c7c1342b",
+      "bodyCharacterCount": 4534,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.167Z",
+      "assessment": {
+        "centralEvent": "Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Today, a Samsung representative posted a response to user complaints on the forum, saying, per a Google translation: Yesterday (9/22), an error occurred during the testing process for a Samsung refrigerator software update[.] Abnormal sympt",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "28d87f115f55d25016b4": {
+      "storyId": "28d87f115f55d25016b4",
+      "url": "https://mashable.com/tech/gallup-poll-reveals-widespread-global-ai-optimism",
+      "title": "Gallup poll reveals widespread global AI optimism, not doom and gloom",
+      "source": "Mashable AI",
+      "published": "2026-09-23T17:51:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a19840b74313530e4e79f2e",
+      "bodyFingerprint": "144bfb26e5d55afdac92e8a8",
+      "bodyCharacterCount": 4036,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.178Z",
+      "assessment": {
+        "centralEvent": "Gallup poll reveals widespread global AI optimism, not doom and gloom",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In the United States, a Pew Research Center AI survey published in September 2025 found that 62 percent of Americans interact with AI several times a week, including 31 percent who do so several times a day or \"almost constantly.\" Related S",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "20973d7f22b4af0790a9": {
+      "storyId": "20973d7f22b4af0790a9",
+      "url": "https://mashable.com/tech/youtube-creator-tools-ai-editing-assistant-insights",
+      "title": "YouTube unveils AI editing assistant, new insight tools for creators",
+      "source": "Mashable AI",
+      "published": "2026-09-23T17:06:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e3e571e5ee34945952ed812d",
+      "bodyFingerprint": "fa7921624f1cf97ffadd1459",
+      "bodyCharacterCount": 3662,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.224Z",
+      "assessment": {
+        "centralEvent": "YouTube unveils AI editing assistant, new insight tools for creators",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3b0ddaa2a76ae318b029": {
+      "storyId": "3b0ddaa2a76ae318b029",
+      "url": "https://mashable.com/tech/do-schools-teach-typing-skills",
+      "title": "Kids arent learning to type anymore",
+      "source": "Mashable AI",
+      "published": "2026-09-23T17:18:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8814fbb472921b24ea5772e2",
+      "bodyFingerprint": "5dd00cbd8b93e522de4c2ff0",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.233Z",
+      "assessment": {
+        "centralEvent": "Kids arent learning to type anymore",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Concern about technology's impact on student learning has reached a critical level.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A recent longitudinal study of students aged 7 to 16 found that early adoption of social media negatively impacted kids' learning outcomes.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The 2023 International Computer and Information Literacy Study — a global assessment of students' ability \"to use computers to investigate, create, and communicate in order to participate effectively at home, at school, in the workplace, an",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Complaints about students not knowing basic shortcuts — including classic short keys such as \"Ctrl C\" for copy and \"Ctrl V\" for paste — abound on online forums and subreddits r/Teachers and r/AskTeachers. \"One student was completely blown a",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.41,
+        "rawScore": 27.41,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4cb1dc983c74e0d66538": {
+      "storyId": "4cb1dc983c74e0d66538",
+      "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features",
+      "title": "ChatGPT mobile app gets voice-based agentic features",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "27e6d0a9b8f58ab4c9f77cde",
+      "bodyFingerprint": "17e2377ceefbe2da18e66b84",
+      "bodyCharacterCount": 2490,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.241Z",
+      "assessment": {
+        "centralEvent": "ChatGPT mobile app gets voice-based agentic features",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI YouTube releases new AI features for creators within its Studio app Ivan Mehta 6 hours ago AI Ema raises $77M as AI starts eating into enterprise softwa",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "89e61b840a3d977d5ede": {
+      "storyId": "89e61b840a3d977d5ede",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
+      "title": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison",
+      "source": "The Verge AI",
+      "published": "2026-09-23T16:23:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "da097bd5a9e003aa18424663",
+      "bodyFingerprint": "5c5d8c6fbd6a9209582faafa",
+      "bodyCharacterCount": 5258,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.261Z",
+      "assessment": {
+        "centralEvent": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "If a leader at an AI company violates any of these laws, they could face up to 20 years in prison, “which is similar to existing penalties related to unlawfully developing nuclear weapons,” according to the bill’s one-pager .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "144e79c51fae66cf61eb": {
+      "storyId": "144e79c51fae66cf61eb",
+      "url": "https://www.wired.com/story/popes-ai-advisor-warns-of-cartel-behavior-big-labs",
+      "title": "The Pope’s AI Guy Is Worried About ‘Cartel’ Behavior Among Big Labs",
+      "source": "WIRED AI",
+      "published": "2026-09-23T18:03:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d564b15d3e0638af1a24d109",
+      "bodyFingerprint": "1de5a4f3a4357f7ccdfb1fed",
+      "bodyCharacterCount": 8777,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.274Z",
+      "assessment": {
+        "centralEvent": "The Pope’s AI Guy Is Worried About ‘Cartel’ Behavior Among Big Labs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“That means a significant position of control for human beings over the machine.” Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catc",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But according to Father Paolo Benanti, a priest who advises the Catholic Church on AI, the handwaving over superintelligence distracts from the need for open debate about how to constrain the companies building the technology.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In the letter, the Pope warned against the technocratic logic that runs through the AI industry, which presents “efficiency as the ultimate measure of value,” and casts human beings as “a project to be optimized.” He also called for interna",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "29a3d14cb8118fe050fe": {
+      "storyId": "29a3d14cb8118fe050fe",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/23/the-guardian-view-on-russian-disinformation-a-foreign-threat-that-relies-on-uk-complicity",
+      "title": "The Guardian view on Russian disinformation: a foreign threat that relies on UK complicity | Editorial",
+      "source": "The Guardian AI",
+      "published": "2026-09-23T17:30:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4df30337d0636f1387c5777c",
+      "bodyFingerprint": "f7a0eb5a11cd15136d0d825c",
+      "bodyCharacterCount": 4468,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-23T20:25:38.299Z",
+      "assessment": {
+        "centralEvent": "The Guardian view on Russian disinformation: a foreign threat that relies on UK complicity | Editorial",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "That vulnerability has grown since then.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Earlier this year, analysis by the Guardian found that more than half of accounts on X that were posting about racially aggravated riots in Belfast and civil disorder in Southampton were based outside the UK.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Photograph: Simon Dawson/No 10 Downing Street The prime minister announced the creation of a National Centre for Information Defence to thwart campaigns of epistemological sabotage by hostile actors.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.59,
+        "rawScore": 26.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-23T17:05:27.837Z"
+  "updatedAt": "2026-09-23T20:25:38.299Z"
 }
