@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-24T19:00:00.000Z",
+  "generatedAt": "2026-09-24T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-24",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 51.92
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab2cd9fca426ab5b46f084b/master/pass/Security_Meta%E2%80%99s%20Muse%20AI%20Agent%20Has%20a%20Serious%20Security%20Flaw_v1.jpg",
           "peak": 50.49,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 50.49
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 50.33
         },
         {
@@ -87,12 +87,40 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 49.94
+        },
+        {
+          "storyId": "42b17e61adb7980ce580",
+          "title": "New Jersey fines data center $1.1M after drone pics expose 62 gas generators",
+          "url": "https://arstechnica.com/tech-policy/2026/09/new-jersey-fines-data-center-1-1m-after-satellite-pics-expose-62-gas-generators/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DataOne-drone-image-via-Sustain-SJ-1152x648.jpg",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-24",
+          "firstObservedAt": "2026-09-24T22:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
+          "average": 49.83
+        },
+        {
+          "storyId": "bcb31d434ed42cb8e10d",
+          "title": "Jensen Huang talks about AI and climate change like a supervillain",
+          "url": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-24",
+          "firstObservedAt": "2026-09-24T22:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
+          "average": 49.83
         },
         {
           "storyId": "43677b1cc9bd285cb046",
@@ -101,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 49.66
         },
         {
@@ -115,40 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c694/live/dc86c7a0-a870-11f1-bbad-43eaf67b94b6.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T19:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "b287b34a5390dd7e5b08",
-          "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
-          "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-automation-1152x648.jpg",
-          "peak": 49.17,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-09-24",
-          "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
-          "average": 49.17
-        },
-        {
-          "storyId": "0c2605ece908629dcbaf",
-          "title": "AT&T Is Automating Away Jobs—and Its Old Telecom Empire",
-          "url": "https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6aa145e274a1099024c35a52/master/pass/AT&T-Workforce-Shrink.jpg",
-          "peak": 49.01,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-09-24",
-          "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
@@ -3803,11 +3803,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-23",
           "firstObservedAt": "2026-09-23T23:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 51.92
         },
         {
@@ -3831,11 +3831,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 19,
+          "observations": 20,
           "daysTracked": 4,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -3887,11 +3887,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab2cd9fca426ab5b46f084b/master/pass/Security_Meta%E2%80%99s%20Muse%20AI%20Agent%20Has%20a%20Serious%20Security%20Flaw_v1.jpg",
           "peak": 50.49,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-09-23",
           "firstObservedAt": "2026-09-23T20:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 50.49
         },
         {
@@ -3915,11 +3915,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-09-23",
           "firstObservedAt": "2026-09-23T20:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 50.33
         }
       ]
@@ -4628,11 +4628,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-23",
           "firstObservedAt": "2026-09-23T23:00:00.000Z",
-          "lastObservedAt": "2026-09-24T19:00:00.000Z",
+          "lastObservedAt": "2026-09-24T22:00:00.000Z",
           "average": 51.92
         },
         {
