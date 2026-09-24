@@ -176364,8 +176364,1073 @@
           "vulnerability": 0
         }
       }
+    },
+    "94b5ec063f5cafc264af": {
+      "storyId": "94b5ec063f5cafc264af",
+      "url": "https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924",
+      "title": "The promise and peril of using visual AI to study cities",
+      "source": "MIT News AI",
+      "published": "2026-09-24T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cc00db1543b0e66d7a0d8016",
+      "bodyFingerprint": "082cb9d8bc4397488bbd141b",
+      "bodyCharacterCount": 9623,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.543Z",
+      "assessment": {
+        "centralEvent": "The promise and peril of using visual AI to study cities",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Peter Dizikes | MIT News Publication Date : September 24, 2026 Press Inquiries Press Contact : Abby Abazorius Email: abbya@mit.edu Phone: 617-253-2709 MIT News Office Media Download ↓ Download Image Caption : In “How AI Sees the City,” the ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "The promise and peril of using visual AI to study cities",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The authors are Duarte, a principal research scientist and associate director of the MIT Senseable City Lab; Mazzarello, a research scientist and lead of MIT Senseable City Lab global initiatives; Carlo Ratti, a professor of the practice an",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "01ccbfab63254a3c3188": {
+      "storyId": "01ccbfab63254a3c3188",
+      "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+      "title": "‘That’s so AI!’ What gen Alpha’s biggest insult tells us",
+      "source": "The Guardian AI",
+      "published": "2026-09-24T04:00:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f28ba18e41f233b285445d44",
+      "bodyFingerprint": "80029fafde4a5860c09c5388",
+      "bodyCharacterCount": 2524,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.555Z",
+      "assessment": {
+        "centralEvent": "‘That’s so AI!’ What gen Alpha’s biggest insult tells us",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Very possibly, but that doesn’t concern us right now.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c3a9b81ed669c523fff": {
+      "storyId": "8c3a9b81ed669c523fff",
+      "url": "https://www.politico.com/news/2026/09/23/ai-securty-world-us-china-unga-01090989",
+      "title": "The world wants to secure AI. It may have to try without the US.",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-24T04:06:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b4b3e2bf713b9c497f7a8842",
+      "bodyFingerprint": "00cbf3b464687c6a080238af",
+      "bodyCharacterCount": 147,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-24T04:55:53.573Z",
+      "assessment": {
+        "centralEvent": "The world wants to secure AI. It may have to try without the US.",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e75323e5132064886a81": {
+      "storyId": "e75323e5132064886a81",
+      "url": "https://www.theguardian.com/technology/2026/sep/24/openai-agent-hacked-medicare-australia-what-we-know-so-far-ntwnfb",
+      "title": "An OpenAI agent infiltrated Medicare – and Australia only found out months later. Here’s what we know so far",
+      "source": "The Guardian AI",
+      "published": "2026-09-24T04:50:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3ac4567bf250ab9f3eb15cd3",
+      "bodyFingerprint": "a36d31fdcf5deef78d32eb8c",
+      "bodyCharacterCount": 9054,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.599Z",
+      "assessment": {
+        "centralEvent": "An OpenAI agent infiltrated Medicare – and Australia only found out months later. Here’s what we know so far",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Here’s what we know so far Experts say ‘fairly minor’ breach is a portent of things to come and proprietary closed systems like OpenAI are ‘the least of the worries’ Follow our Australia news live blog for latest updates Get our breaking ne",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "On 10 September, it sent an email to a general Australian government email address which is monitored once a day, advising its AI agent had hacked the country’s universal healthcare system.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The prime minister announced he would establish a taskforce – involving the national cybersecurity coordinator, the office of AI, the Australian Signals Directorate, the Australian AI Safety Institute and Services Australia – to conduct an ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "These hacks could have easily been stopped, indeed never need to have taken place.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1eff56d18c383f1c3b2a": {
+      "storyId": "1eff56d18c383f1c3b2a",
+      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse",
+      "title": "Everything new coming to Meta’s AI agent Muse",
+      "source": "TechCrunch AI",
+      "published": "2026-09-24T01:13:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6fbf3b75fc3c40242a381328",
+      "bodyFingerprint": "31a938dea9827d508af9d4a9",
+      "bodyCharacterCount": 7406,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.610Z",
+      "assessment": {
+        "centralEvent": "Everything new coming to Meta’s AI agent Muse",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Muse agent (the physical avatar is named Jolly, according to Zuckerberg) is designed to handle everyday tasks by connecting to users’ apps and services, including email and calendars.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9675c5f284892814ef76": {
+      "storyId": "9675c5f284892814ef76",
+      "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent",
+      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "source": "TechCrunch AI",
+      "published": "2026-09-24T00:46:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ea4258365e251f4336893dc",
+      "bodyFingerprint": "147240b7a52c82fa72068601",
+      "bodyCharacterCount": 3336,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.616Z",
+      "assessment": {
+        "centralEvent": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular Anthropic releases Opus 5.5 with lower prices and Fable-level performance Russell Brandom Meta’s Muse is outpacing ChatGPT’s early mobile launch Sarah Perez Tilly Norwood’s press tour is going about as well as you’d ex",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d19f5658c9e5e191c706": {
+      "storyId": "d19f5658c9e5e191c706",
+      "url": "https://www.politico.com/news/2026/09/23/openai-australia-government-breach-01091069",
+      "title": "OpenAI model breaches Australian government websites",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-24T00:25:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c148d624c682aa3af28e4221",
+      "bodyFingerprint": "db69c8b4679c24494521b463",
+      "bodyCharacterCount": 132,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-24T04:55:53.675Z",
+      "assessment": {
+        "centralEvent": "OpenAI model breaches Australian government websites",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "727444fa185baac2c61e": {
+      "storyId": "727444fa185baac2c61e",
+      "url": "https://mashable.com/tech/muse-charm-reveal-meta-connect-2026",
+      "title": "Meta to release Muse Charm, a Tamagotchi-like device for the Muse AI agent",
+      "source": "Mashable AI",
+      "published": "2026-09-24T00:15:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "38e8bcf61125b4ad7d78e111",
+      "bodyFingerprint": "9c2ab099e7e405e5c1f3c8ff",
+      "bodyCharacterCount": 3091,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.705Z",
+      "assessment": {
+        "centralEvent": "Meta to release Muse Charm, a Tamagotchi-like device for the Muse AI agent",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Muse Charm will ship by the holidays in December, according to Zuckerberg.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c479a02a61c188d89ef8": {
+      "storyId": "c479a02a61c188d89ef8",
+      "url": "https://mashable.com/tech/everything-announced-meta-connect-2026",
+      "title": "Everything announced at Meta Connect 2026",
+      "source": "Mashable AI",
+      "published": "2026-09-24T01:08:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "04e0e4b2927748de50f77135",
+      "bodyFingerprint": "ec6d3d56008041c03d268aff",
+      "bodyCharacterCount": 9871,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.712Z",
+      "assessment": {
+        "centralEvent": "Everything announced at Meta Connect 2026",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Removing the camera eliminates that concern for anyone who wants smart glasses without it.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Facebook renamed itself Meta in 2021 to signal its bet on shared virtual worlds, and it has since lost an estimated $80 billion on the effort through its Reality Labs division.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Zuckerberg said he expects Muse to become a superintelligence used by billions of people one day, and nearly every hardware announcement tied back to it.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Meta says the feature is free to try and will cost a one-time $149 payment to enable.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d2f07c69bc979a28bb60": {
+      "storyId": "d2f07c69bc979a28bb60",
+      "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+      "title": "Meta is making a standalone Muse AI gadget",
+      "source": "The Verge AI",
+      "published": "2026-09-24T00:15:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bfc9be96080b7594424c256e",
+      "bodyFingerprint": "3e368db2d9d700b8b35ac115",
+      "bodyCharacterCount": 4915,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.736Z",
+      "assessment": {
+        "centralEvent": "Meta is making a standalone Muse AI gadget",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "There appears to be a small camera on the device as well, plus what looks like at least three holes for microphones on the front.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "18f2dd1f93717521d8d7": {
+      "storyId": "18f2dd1f93717521d8d7",
+      "url": "https://www.theguardian.com/technology/2026/sep/23/meta-smart-vr-glasses",
+      "title": "Meta debuts no-camera smart glasses and virtual reality spectacles",
+      "source": "The Guardian AI",
+      "published": "2026-09-24T00:00:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "76c40831009c4989bf6c15f1",
+      "bodyFingerprint": "f59e95b33702a43bbcdd5bbb",
+      "bodyCharacterCount": 4984,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.757Z",
+      "assessment": {
+        "centralEvent": "Meta debuts no-camera smart glasses and virtual reality spectacles",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The new versions are thinner and lighter than the camera versions and last up to 12 hours on battery and will cost £319 (€349/A$529).",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8be8c316f5c239e96f02": {
+      "storyId": "8be8c316f5c239e96f02",
+      "url": "https://mashable.com/tech/meta-connect-2026-muse-ai-assistant",
+      "title": "Meta gets metaphysical laying out vision for Muse AI assistant",
+      "source": "Mashable AI",
+      "published": "2026-09-23T23:33:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5c57dce2bc4eac3ca315453a",
+      "bodyFingerprint": "00a2033894a6e87057661252",
+      "bodyCharacterCount": 3393,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.763Z",
+      "assessment": {
+        "centralEvent": "Meta gets metaphysical laying out vision for Muse AI assistant",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories 10 ways to use Meta's Muse AI app, from flight credits to outfit ideas Meta’s Muse reportedly has zero-day vulnerability that lets attackers take over your Mac Zuckerberg suggested Meta could eventually collect a small fee o",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories 10 ways to use Meta's Muse AI app, from flight credits to outfit ideas Meta’s Muse reportedly has zero-day vulnerability that lets attackers take over your Mac Zuckerberg suggested Meta could eventually collect a small fee o",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Amazon has already blocked Muse from shopping on its site.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.7,
+        "rawScore": 26.7,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e420dd4761282b9c0223": {
+      "storyId": "e420dd4761282b9c0223",
+      "url": "https://mashable.com/tech/meta-connect-2026-muse-smart-glasses-privacy",
+      "title": "Meta pitches new privacy protections for Muse and its smart glasses",
+      "source": "Mashable AI",
+      "published": "2026-09-23T23:33:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "84d34014718283bee2ff936b",
+      "bodyFingerprint": "8f625ada7c90dd7d7f2c846a",
+      "bodyCharacterCount": 2669,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.784Z",
+      "assessment": {
+        "centralEvent": "Meta pitches new privacy protections for Muse and its smart glasses",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Meta Connect 2026: How to watch Mark Zuckerberg's keynote live 10 ways to use Meta's Muse AI app, from flight credits to outfit ideas Meta’s Muse reportedly has zero-day vulnerability that lets attackers take over your Mac W",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Meta Connect 2026: How to watch Mark Zuckerberg's keynote live 10 ways to use Meta's Muse AI app, from flight credits to outfit ideas Meta’s Muse reportedly has zero-day vulnerability that lets attackers take over your Mac W",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d11a21cd7d788e821c36": {
+      "storyId": "d11a21cd7d788e821c36",
+      "url": "https://www.politico.eu/article/dont-believe-the-doomers-europes-tech-industry-slams-ai-panic",
+      "title": "Don’t believe the doomers: Europe’s tech industry slams AI panic",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-24T02:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7466d8f812d1252d49713f61",
+      "bodyFingerprint": "098379d2df7b769d56a16305",
+      "bodyCharacterCount": 6133,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.798Z",
+      "assessment": {
+        "centralEvent": "Don’t believe the doomers: Europe’s tech industry slams AI panic",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "That prosaic call is at the heart of an increasingly bitter backlash in Europe’s tech industry against the U.S.-generated hype about AI extinction.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "That claim, which was widely reported, was derided and debunked in cybersecurity circles.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Leaders from 22 nations adopted a declaration on Monday saying that AI must remain under human direction, oversight and control, and suggesting the creation of a global supervisory regime.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b2a913a983d022a72b70": {
+      "storyId": "b2a913a983d022a72b70",
+      "url": "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses",
+      "title": "Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices",
+      "source": "WIRED AI",
+      "published": "2026-09-23T23:42:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8173b841f37b40d9b68cc2e7",
+      "bodyFingerprint": "9ffc0e07b621915fd894853e",
+      "bodyCharacterCount": 9497,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.873Z",
+      "assessment": {
+        "centralEvent": "Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catch hundreds of AI child abuse ads Big Story: The search for Silicon Valley’s most p",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "They have better battery life—12 hours on a single charge and up to 48 hours with the included charging case.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They have better battery life—12 hours on a single charge and up to 48 hours with the included charging case.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 83,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a5ddd1a518a92b662f2e": {
+      "storyId": "a5ddd1a518a92b662f2e",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081110.htm",
+      "title": "First stellar stream beyond the Milky Way could reveal dark matter",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-23T11:23:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "73b7936adf34b2146cb15d8a",
+      "bodyFingerprint": "1bb2fff8236c864971e17b8a",
+      "bodyCharacterCount": 9450,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-24T04:55:53.895Z",
+      "assessment": {
+        "centralEvent": "First stellar stream beyond the Milky Way could reveal dark matter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Knee Osteoarthritis Isn’t Inevitable: Simple Habits May Lower Your Risk Einstein Called It “Spooky.” CERN Just Found It at Extreme Energies at the Large Hadron Collider Your Favorite Scented Cleaner Could Be Fil",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "4, 2023  In giant clusters of hundreds or thousands of galaxies, innumerable stars wander among the galaxies like lost souls, emitting a ghostly haze of light.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "First Stellar Stream Found Beyond the Milky Way An international team led by PhD student Julie Kiel Holm of the Niels Bohr Institute and Associate Professor Sarah Pearson of DTU Space has now reported a first-of-its-kind discovery.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Demonstrating that globular cluster stellar streams can be studied beyond the Milky Way could allow astronomers to investigate dark matter in many different types of galaxies. \"The insights into dark matter that we have previously been able",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-23T23:44:26.902Z"
+  "updatedAt": "2026-09-24T04:55:53.895Z"
 }
