@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-24T10:00:00.000Z",
+  "generatedAt": "2026-09-24T15:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-24",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 51.92
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab2cd9fca426ab5b46f084b/master/pass/Security_Meta%E2%80%99s%20Muse%20AI%20Agent%20Has%20a%20Serious%20Security%20Flaw_v1.jpg",
           "peak": 50.49,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 50.49
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 50.33
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 49.94
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 49.66
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-automation-1152x648.jpg",
           "peak": 49.17,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 49.17
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/toothbrush-1152x648.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 49.01
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aa145e274a1099024c35a52/master/pass/AT&T-Workforce-Shrink.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-24",
           "firstObservedAt": "2026-09-24T10:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 49.01
         }
       ]
@@ -3803,11 +3803,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-09-23",
           "firstObservedAt": "2026-09-23T23:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 51.92
         },
         {
@@ -3831,11 +3831,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 17,
+          "observations": 18,
           "daysTracked": 4,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -3881,6 +3881,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.77
         },
         {
+          "storyId": "eef1caf80c21204d7a68",
+          "title": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+          "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ab2cd9fca426ab5b46f084b/master/pass/Security_Meta%E2%80%99s%20Muse%20AI%20Agent%20Has%20a%20Serious%20Security%20Flaw_v1.jpg",
+          "peak": 50.49,
+          "observations": 5,
+          "daysTracked": 2,
+          "peakDate": "2026-09-23",
+          "firstObservedAt": "2026-09-23T20:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
+          "average": 50.49
+        },
+        {
           "storyId": "7cd408bd684e3e01c427",
           "title": "Bootstrapping Frontier AI Governance by Mutualizing Risk",
           "url": "https://www.lawfaremedia.org/article/bootstrapping-frontier-ai-governance-by-mutualizing-risk",
@@ -3895,31 +3909,17 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.49
         },
         {
-          "storyId": "eef1caf80c21204d7a68",
-          "title": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
-          "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ab2cd9fca426ab5b46f084b/master/pass/Security_Meta%E2%80%99s%20Muse%20AI%20Agent%20Has%20a%20Serious%20Security%20Flaw_v1.jpg",
-          "peak": 50.49,
-          "observations": 4,
-          "daysTracked": 2,
-          "peakDate": "2026-09-23",
-          "firstObservedAt": "2026-09-23T20:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
-          "average": 50.49
-        },
-        {
           "storyId": "90f6d0072d1d6af08876",
           "title": "Who Is AI Risk For? Centering People in the AI Risk Conversation",
           "url": "https://techpolicy.press/who-is-ai-risk-for-centering-people-in-the-ai-risk-conversation",
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-09-23",
           "firstObservedAt": "2026-09-23T20:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
           "average": 50.33
         }
       ]
@@ -4622,6 +4622,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 52.14
         },
         {
+          "storyId": "77d7b294deff701ed4ec",
+          "title": "AI Agents Teamed Up to Cheat at Blackjack. Their Collusion Is Getting Harder to Spot",
+          "url": "https://www.wired.com/story/ai-agent-collusion-card-counting-secrets/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
+          "peak": 51.92,
+          "observations": 4,
+          "daysTracked": 2,
+          "peakDate": "2026-09-23",
+          "firstObservedAt": "2026-09-23T23:00:00.000Z",
+          "lastObservedAt": "2026-09-24T15:00:00.000Z",
+          "average": 51.92
+        },
+        {
           "storyId": "58e59beeabdca7cc6267",
           "title": "Could AI really wipe out humanity – six experts spell out the risks",
           "url": "https://www.theguardian.com/technology/2026/sep/15/could-ai-really-wipe-out-humanity-and-hijack-the-internet",
@@ -4633,20 +4647,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-09-15",
           "firstObservedAt": "2026-09-15T21:00:00.000Z",
           "lastObservedAt": "2026-09-16T06:00:00.000Z",
-          "average": 51.92
-        },
-        {
-          "storyId": "77d7b294deff701ed4ec",
-          "title": "AI Agents Teamed Up to Cheat at Blackjack. Their Collusion Is Getting Harder to Spot",
-          "url": "https://www.wired.com/story/ai-agent-collusion-card-counting-secrets/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
-          "peak": 51.92,
-          "observations": 3,
-          "daysTracked": 2,
-          "peakDate": "2026-09-23",
-          "firstObservedAt": "2026-09-23T23:00:00.000Z",
-          "lastObservedAt": "2026-09-24T10:00:00.000Z",
           "average": 51.92
         }
       ]
