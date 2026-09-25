@@ -183443,8 +183443,748 @@
           "vulnerability": 0
         }
       }
+    },
+    "bbdefa6e66874bbdc07e": {
+      "storyId": "bbdefa6e66874bbdc07e",
+      "url": "https://www.politico.eu/article/eu-commission-axel-voss-ai-act-enforcement-criticism",
+      "title": "Von der Leyen ally slams EU Commission’s AI response",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-25T07:40:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e7dfd6db7394cf95a730cda1",
+      "bodyFingerprint": "b246607f7fc29485f2c7e3c9",
+      "bodyCharacterCount": 1819,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T07:52:36.524Z",
+      "assessment": {
+        "centralEvent": "Von der Leyen ally slams EU Commission’s AI response",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "One area where Voss sees a need for further regulation is liability of AI companies when their technology does damage. \"What has been wrong from the beginning of this mandate is not to think about liability of AI,\" he said. \"This can have a",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0b159b464e469a1d2187": {
+      "storyId": "0b159b464e469a1d2187",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/25/wake-up-call-labor-considers-changing-australian-laws-after-openai-medicare-hack",
+      "title": "PM rejects ‘nonsense’ suggestion he delayed revealing OpenAI Medicare hack as Labor considers changing laws",
+      "source": "The Guardian AI",
+      "published": "2026-09-25T05:57:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "810e567fadac37f919ffe09e",
+      "bodyFingerprint": "a36f7cc9dbfc4e9f28303663",
+      "bodyCharacterCount": 6996,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T07:52:36.624Z",
+      "assessment": {
+        "centralEvent": "PM rejects ‘nonsense’ suggestion he delayed revealing OpenAI Medicare hack as Labor considers changing laws",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "On Friday, the government said the review by spy agency, the Australian Signals Directorate, would consider whether legislative change was needed after Albanese revealed an artificial intelligence agent developed by OpenAI hacked Medicare’s",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Expert says Australia’s criminal laws should be clarified to determine how fault is applied to a corporation when its AI agent commits a crime Follow our Australia news live blog for latest updates Get our new political email, free app or d",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“It’s great to see the PM on the world stage saying that we need global cooperation on this.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "285e1a493e241d804ec2": {
+      "storyId": "285e1a493e241d804ec2",
+      "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai",
+      "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
+      "source": "TechCrunch AI",
+      "published": "2026-09-25T05:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2029aa63ab34068ae7635529",
+      "bodyFingerprint": "b03d26b938ab1b9fb5f2cb55",
+      "bodyCharacterCount": 5580,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T07:52:36.715Z",
+      "assessment": {
+        "centralEvent": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The new fund, Lightspeed India Partners V, will be half the size of its $500 million predecessor , raised in 2022, and has already secured commitments for 80% of its $250 million target, according to a letter sent to investors on Thursday a",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1f5ae5b62abf63718506": {
+      "storyId": "1f5ae5b62abf63718506",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260924020410.htm",
+      "title": "“We found something never seen before” – A dead star is producing a shock wave that shouldn’t exist",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-25T03:19:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2e9d377341f1112ec3019b3c",
+      "bodyFingerprint": "bed4ec5eac9f6592ac321745",
+      "bodyCharacterCount": 9707,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T07:52:36.969Z",
+      "assessment": {
+        "centralEvent": "“We found something never seen before” – A dead star is producing a shock wave that shouldn’t exist",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In the case of RXJ0528+2838, however, astronomers cannot identify any known process that fully accounts for what they observed.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1154d650d300bfa5f4c5": {
+      "storyId": "1154d650d300bfa5f4c5",
+      "url": "https://www.artificialintelligence-news.com/news/7-ai-powered-document-fraud-detection-tools-for-enterprise-onboarding",
+      "title": "7 AI-Powered Document Fraud Detection Tools for Enterprise Onboarding",
+      "source": "AI News",
+      "published": "2026-09-25T07:12:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5dd4d8072d22c70eb45d00cb",
+      "bodyFingerprint": "bddc67f8d4bb773dc86b498c",
+      "bodyCharacterCount": 433,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-25T07:52:36.972Z",
+      "assessment": {
+        "centralEvent": "7 AI-Powered Document Fraud Detection Tools for Enterprise Onboarding",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "7 AI-Powered Document Fraud Detection Tools for Enterprise Onboarding",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ef5014f627d1bed8738": {
+      "storyId": "4ef5014f627d1bed8738",
+      "url": "https://www.artificialintelligence-news.com/news/how-to-add-ai-to-legacy-software-without-rebuilding-it",
+      "title": "How to Add AI to Legacy Software Without Rebuilding It",
+      "source": "AI News",
+      "published": "2026-09-25T07:43:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "19ae953a8ef06010e3d2a77d",
+      "bodyFingerprint": "050b264127c0dc7c3eeaa371",
+      "bodyCharacterCount": 445,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-25T07:52:36.980Z",
+      "assessment": {
+        "centralEvent": "How to Add AI to Legacy Software Without Rebuilding It",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4d4dab365ec10558a0f1": {
+      "storyId": "4d4dab365ec10558a0f1",
+      "url": "https://www.theguardian.com/us-news/2026/sep/25/key-takeaways-trump-xi-summit-whitehouse-china-ai-trade",
+      "title": "Diplomacy or ‘diplotainment’? Key takeaways from the Trump-Xi summit in Washington",
+      "source": "The Guardian AI",
+      "published": "2026-09-25T03:08:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e3843deb0218ec8ac2165719",
+      "bodyFingerprint": "b39ca86a4c71f2b91cfd8813",
+      "bodyCharacterCount": 6613,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T07:52:37.008Z",
+      "assessment": {
+        "centralEvent": "Diplomacy or ‘diplotainment’? Key takeaways from the Trump-Xi summit in Washington",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Xi said the risk “can be overcome” and urged cooperation.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Taiwan and stalled $14bn arms deal During ​the afternoon discussion, Xi urged Trump to oppose “Taiwan independence,” according to a readout from the official Chinese news agency Xinhua.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "63baf7a8836709b8a68c": {
+      "storyId": "63baf7a8836709b8a68c",
+      "url": "https://www.theguardian.com/world/video/2026/sep/25/we-cant-ignore-ai-or-prevent-it-anthony-albanese-tells-un-general-assembly-video",
+      "title": "‘We can’t ignore AI or prevent it,’ Anthony Albanese tells UN general assembly – video",
+      "source": "The Guardian AI",
+      "published": "2026-09-25T02:15:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cc091d16600c1daf7e47bd92",
+      "bodyFingerprint": "e84ace85cc16b3d177127bd1",
+      "bodyCharacterCount": 794,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T07:52:37.032Z",
+      "assessment": {
+        "centralEvent": "‘We can’t ignore AI or prevent it,’ Anthony Albanese tells UN general assembly – video",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "673d30b4ac530d22718e": {
+      "storyId": "673d30b4ac530d22718e",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260924020355.htm",
+      "title": "Ancient meteorites reveal a powerful force that helped build the Solar System",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-25T02:45:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e8a49bf5b403a2b12108bb9",
+      "bodyFingerprint": "8a72e6f63dce11c1fa22f76d",
+      "bodyCharacterCount": 10837,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T07:52:37.062Z",
+      "assessment": {
+        "centralEvent": "Ancient meteorites reveal a powerful force that helped build the Solar System",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The researchers had already found evidence of magnetism from about 2 million years after the solar system began forming.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7ac001845b13f1801770": {
+      "storyId": "7ac001845b13f1801770",
+      "url": "https://www.theguardian.com/technology/audio/2026/sep/25/rogue-ai-hacks-government-system-in-world-first-full-story-podcast",
+      "title": "Rogue AI hacks government system in world first – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-09-25T01:38:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd1ed9c872a007c53490d778",
+      "bodyFingerprint": "df899359d17a222ccd3f1c4a",
+      "bodyCharacterCount": 935,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T07:52:37.173Z",
+      "assessment": {
+        "centralEvent": "Rogue AI hacks government system in world first – podcast",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "A government database has been hacked for the first time by a rogue OpenAI agent, which infiltrated part of the Australian healthcare scheme in June.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Australia’s prime minister, Anthony Albanese, has expressed his ‘extreme concern’ about the hack, which raises serious AI security concerns for governments around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "87824f0cd5561ad0b8c3": {
+      "storyId": "87824f0cd5561ad0b8c3",
+      "url": "https://www.politico.eu/article/eu-artificial-intelligence-adviser-ai-economy-productivity-focus-jim-hagemann-snabe",
+      "title": "EU’s top AI adviser urges commissioners to use the technology to fix bloc’s economy",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-24T21:46:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6315430bc1bf8ec19a9baf13",
+      "bodyFingerprint": "104d9dce858b3b1e01097c1e",
+      "bodyCharacterCount": 5515,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T07:52:37.464Z",
+      "assessment": {
+        "centralEvent": "EU’s top AI adviser urges commissioners to use the technology to fix bloc’s economy",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "4 seminar, according to two Commission officials.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "43cddc9c01f651dc55e3": {
+      "storyId": "43cddc9c01f651dc55e3",
+      "url": "https://thedispatch.com/article/artificial-intelligence-disaster-scenario-hindenberg",
+      "title": "Is This AI’s Hindenburg Moment?",
+      "source": "The Dispatch AI",
+      "published": "2026-09-25T05:00:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20f35b18d07ec998d8e4d179",
+      "bodyFingerprint": "b6a0c9e968ddee490e573da7",
+      "bodyCharacterCount": 4635,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T07:52:37.567Z",
+      "assessment": {
+        "centralEvent": "Is This AI’s Hindenburg Moment?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The vessel was destroyed within seconds, and 36 people were killed.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The vessel was destroyed within seconds, and 36 people were killed.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 66.2,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-25T01:33:14.406Z"
+  "updatedAt": "2026-09-25T07:52:37.567Z"
 }
