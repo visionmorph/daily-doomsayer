@@ -187136,8 +187136,956 @@
           "vulnerability": 0
         }
       }
+    },
+    "7fc672768bdc43f8027b": {
+      "storyId": "7fc672768bdc43f8027b",
+      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge",
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "source": "TechCrunch AI",
+      "published": "2026-09-25T22:20:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "be5ecd69b4a0a86e0eca1b8d",
+      "bodyFingerprint": "1babbe28581ab5087b62d920",
+      "bodyCharacterCount": 4061,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:52.912Z",
+      "assessment": {
+        "centralEvent": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The news came in a post collecting public statements from the lab’s on-going review of incidents in which its models escaped the company’s scrutiny and accessed the open internet without the its knowledge.",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to OpenAI, its agents posted user-provided images on the internet before the company implemented a series of new security procedures, although exactly when or why this happened remains unclear.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This week, Australian Prime Minister Anthony Albanese said OpenAI agents broke into databases operated by his country’s national healthcare system, one of multiple cybersecurity incidents this year apparently caused by an OpenAI training or",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 67.74,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8d3ddedf5cc86ac1af10": {
+      "storyId": "8d3ddedf5cc86ac1af10",
+      "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features",
+      "title": "Meta opens early access program for new Muse features",
+      "source": "TechCrunch AI",
+      "published": "2026-09-25T20:34:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d15a97da03ce29028c942e75",
+      "bodyFingerprint": "3b76a957c4704471542b4ee5",
+      "bodyCharacterCount": 2872,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:52.936Z",
+      "assessment": {
+        "centralEvent": "Meta opens early access program for new Muse features",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Apps Meta is putting its muscle behind Muse as the AI app takes off Sarah Perez 6 hours ago Hardware Meta’s Muse Charm looks like a Tamagotchi, but it’s ta",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d77142bc749519247290": {
+      "storyId": "d77142bc749519247290",
+      "url": "https://www.theguardian.com/technology/2026/sep/25/trump-xi-ai-arms-race",
+      "title": "Trump and Chinese president Xi end summit without major agreement on AI",
+      "source": "The Guardian AI",
+      "published": "2026-09-25T22:11:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b029be4f13d97dc62771f5a4",
+      "bodyFingerprint": "e35b4e77e5f677a5bb977b54",
+      "bodyCharacterCount": 7313,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:53.062Z",
+      "assessment": {
+        "centralEvent": "Trump and Chinese president Xi end summit without major agreement on AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Xi’s state visit to the US emphasized personal rapport with the US president, rather than substantial agreements to pause their respective countries’ AI arms race Donald Trump and Chinese president Xi Jinping wrapped up their Washington sum",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But Trump – who has repeatedly said the US must forge ahead to maintain its lead over China – appeared more focused on his push to rebrand artificial intelligence as “super intelligence”, later claiming on social media that Xi “seems to lik",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Donald Trump shakes hands with Chinese president Xi Jinping as they depart the National Archives Museum following a tour on 25 September.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.04,
+        "rawScore": 26.04,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "011e6a34724467d78804": {
+      "storyId": "011e6a34724467d78804",
+      "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features",
+      "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
+      "source": "Ars Technica AI",
+      "published": "2026-09-25T21:36:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "37629e9fb8c11e511daafbc5",
+      "bodyFingerprint": "f820155f99346efc72758331",
+      "bodyCharacterCount": 8193,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:53.078Z",
+      "assessment": {
+        "centralEvent": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "She said the definition should not be interpreted to cover “a contractor’s honest and upfront enforcement of restrictions on a covered article’s use disfavored by the government.” Anthropic alleged, and the district court judge in Californi",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A judge in US District Court for the Northern District of California ruled last month that the action was illegal because Anthropic does not meet the definition of a supply-chain risk, which is limited to “the risk that an adversary may sab",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "It also said “the Department reasonably feared that Anthropic might manipulate Claude’s design to prevent it from performing national-security functions that the Department deems contractually authorized and necessary.” Judge’s dissent The ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "We remain confident in our position and are considering all options, including further review.” Despite the ongoing legal battle, Commerce Secretary Howard Lutnick recently said the Trump administration and Anthropic have patched up their r",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "We remain confident in our position and are considering all options, including further review.” Despite the ongoing legal battle, Commerce Secretary Howard Lutnick recently said the Trump administration and Anthropic have patched up their r",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.04,
+        "rawScore": 48.04,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3675,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a61f4dc0c74c161aeed3": {
+      "storyId": "a61f4dc0c74c161aeed3",
+      "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements",
+      "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
+      "source": "Ars Technica AI",
+      "published": "2026-09-25T21:10:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1b505b465a42c191368d126e",
+      "bodyFingerprint": "05b0a9003fb91de55fbdad12",
+      "bodyCharacterCount": 6418,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:53.112Z",
+      "assessment": {
+        "centralEvent": "Tesla workers balk at training Optimus humanoid robots as replacements",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Tesla’s Fremont factory in California has already stopped making the Model S sedan and Model X SUV as of May 2026, with the company switching both line workers and engineers over to working on Optimus, according to The Information.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b127abe2bbeb491103b8": {
+      "storyId": "b127abe2bbeb491103b8",
+      "url": "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
+      "title": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
+      "source": "MIT News AI",
+      "published": "2026-09-25T20:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "013880bc18db2722a47f9e0a",
+      "bodyFingerprint": "011af0ad39a6def83df2d297",
+      "bodyCharacterCount": 9803,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:53.124Z",
+      "assessment": {
+        "centralEvent": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“I think tech for good is genuinely getting out into communities and learning about people who aren't you, creating worldly perspectives that you ultimately can take into everything else that you do.” Wang and fellow intern Lucy Sun, who is",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As Zong explains, “We teach them not knowledge, but curiosity, and the skills to teach themselves.\" The TASC experience “kind of propelled me to self-study calculus,” says Alyssa Theofanidis, a rising high school senior from Houston who is ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“I learned so much that I think should be required curriculum for every single person in this country,” says Wang.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As Elvis Chipiro, a junior in computer science and engineering, reflected after interning with the Cherokee Nation, “Social impact is not separate from mainstream technology; rather, it is embedded in the choices engineers make every day ..",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "At MIT, she says, course instructors routinely prepare students for big technical challenges, but there are fewer opportunities to “work with communities, [learn] how to think about the cultural and historical dimensions of the work, or how",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.85,
+        "rawScore": 27.85,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 2
+        }
+      }
+    },
+    "455ef52f381b6006d0cf": {
+      "storyId": "455ef52f381b6006d0cf",
+      "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal",
+      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+      "source": "TechCrunch AI",
+      "published": "2026-09-25T19:13:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ef8b44271abdf31b50ab1829",
+      "bodyFingerprint": "b1e3fd085de9d42cc0f43bc9",
+      "bodyCharacterCount": 4104,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:53.148Z",
+      "assessment": {
+        "centralEvent": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "CEO Dario Amodei told The New York Times last December that Anthropic does not participate in these deals at the “same scale as some other players.” Akamai shares rose as much as 17% in after-hours trading on Thursday, The Wall Street Journ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d52756e35215352738d7": {
+      "storyId": "d52756e35215352738d7",
+      "url": "https://www.politico.com/news/2026/09/25/bessent-wont-be-the-super-intelligence-czar-trump-says-01093420",
+      "title": "Bessent won’t be the ‘super intelligence’ czar, Trump says",
+      "source": "POLITICO AI",
+      "published": "2026-09-25T19:37:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3ff896ca58136d1b8396d6fa",
+      "bodyFingerprint": "11b3b89e5b8d006bdce73927",
+      "bodyCharacterCount": 118,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-25T22:23:53.165Z",
+      "assessment": {
+        "centralEvent": "Bessent won’t be the ‘super intelligence’ czar, Trump says",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7c4ccc4b5789704ad7b2": {
+      "storyId": "7c4ccc4b5789704ad7b2",
+      "url": "https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026",
+      "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+      "source": "TechCrunch AI",
+      "published": "2026-09-25T18:48:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ec4dfbf9a63c33f22485025",
+      "bodyFingerprint": "37a921cf37104de9ee10d1cb",
+      "bodyCharacterCount": 4215,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:53.197Z",
+      "assessment": {
+        "centralEvent": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d48dc5cb56d9c340abf8": {
+      "storyId": "d48dc5cb56d9c340abf8",
+      "url": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise",
+      "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+      "source": "Ars Technica AI",
+      "published": "2026-09-25T19:11:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6562e4db242a56672751d719",
+      "bodyFingerprint": "60e7242dbde62556d07b6934",
+      "bodyCharacterCount": 5993,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:53.211Z",
+      "assessment": {
+        "centralEvent": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There’s some reason to believe 2026’s graduating job seekers might be more at risk of AI displacement than those graduating just a year or two prior.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But current trends do not imply future performance, of course, and the researchers warn that “if the intensity of AI use in the workplace continues to increase, the graduating classes of 2027 and later might be more affected than the class ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e3f6721d5d12e1078837": {
+      "storyId": "e3f6721d5d12e1078837",
+      "url": "https://www.wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand",
+      "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
+      "source": "WIRED AI",
+      "published": "2026-09-25T20:30:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d83b030436399f0ccd2b3dbb",
+      "bodyFingerprint": "46285f74ae090106eadb2d0a",
+      "bodyCharacterCount": 7054,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:53.237Z",
+      "assessment": {
+        "centralEvent": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catch hundreds of AI child abuse ads Big Story: The search for Silicon Valley’s most p",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The files included thousands of videos and logs showing that the device captured 1.6 million images of 50,000 vehicles in 21 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The trailers were recovered with “40,000 pounds of sand intact.” PlusAI’s tech-enabled truck cabs —where the driver typically sits and controls the vehicle—were parked inside its warehouse and weren’t taken, Kwan says.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In August, WIRED revealed two California incidents in which thieves deliberately struck the vehicles of security escorts that follow high-value tech loads to ensure they reach their destinations.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.27,
+        "rawScore": 47.27,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2975,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6a473ece9005c32461b7": {
+      "storyId": "6a473ece9005c32461b7",
+      "url": "https://mashable.com/tech/spotify-meta-muse-ai-integration",
+      "title": "Spotify already has AI playlists. So what does Meta’s Muse add?",
+      "source": "Mashable AI",
+      "published": "2026-09-25T19:49:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2366bbd073df99ff3a837140",
+      "bodyFingerprint": "546c699c8512f04bd026ef08",
+      "bodyCharacterCount": 3601,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:53.291Z",
+      "assessment": {
+        "centralEvent": "Spotify already has AI playlists. So what does Meta’s Muse add?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "AI drift: The catastrophic risk you're taking but don't realize Doesn’t Spotify already have AI for this?",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cd3c6ad3f323bc82fd7f": {
+      "storyId": "cd3c6ad3f323bc82fd7f",
+      "url": "https://mashable.com/tech/trump-super-intelligence",
+      "title": "Trump tries to rebrand AI. Is it really that super?",
+      "source": "Mashable AI",
+      "published": "2026-09-25T18:41:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "15e09c3f7e28cdd6a647afd6",
+      "bodyFingerprint": "dffc12037c29de2feac10933",
+      "bodyCharacterCount": 4826,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T22:23:53.324Z",
+      "assessment": {
+        "centralEvent": "Trump tries to rebrand AI. Is it really that super?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Check important info.\" SEE ALSO: An OpenAI agent hacked the Australian government Nor is it \"super\" that these models were built by scraping the creative works of human artists without their consent, credit, or compensation.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Although, personally, it might be super if AI took this column and disseminated it around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It is trapped in a permanent identity crisis, marketed by some as a flawless savior while actively functioning as an economic threat, and even a threat to humanity, among other threats that ain’t so super.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Related Stories Jimmy Kimmel roasts Trump's meeting with Xi Jinping 'Artificial' teaser: Andrew Garfield's Sam Altman movie gets unsettling first look Anthropic's CEO urges the industry to slow down, and Sam Altman agrees The day after Trum",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.62,
+        "rawScore": 48.62,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.42,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7ee0334b888a7f355644": {
+      "storyId": "7ee0334b888a7f355644",
+      "url": "https://www.nature.com/articles/d41586-026-03039-6",
+      "title": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-25T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "964ca83e85f7399edcfe0a3b",
+      "bodyFingerprint": "201b1ce8680b4e8339dc5581",
+      "bodyCharacterCount": 71,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-25T22:23:53.992Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-25T18:39:34.556Z"
+  "updatedAt": "2026-09-25T22:23:53.992Z"
 }
