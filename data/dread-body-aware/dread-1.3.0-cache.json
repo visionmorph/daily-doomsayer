@@ -184183,8 +184183,969 @@
           "vulnerability": 0
         }
       }
+    },
+    "57acf734e82e600df09f": {
+      "storyId": "57acf734e82e600df09f",
+      "url": "https://www.inc.com/carmine-gallo/harvard-research-says-if-youre-a-founders-you-are-asking-the-wrong-questions-about-ai-heres-what-they-should-ask/91409319",
+      "title": "New Harvard Research Says Leaders Are Asking the Wrong Questions About AI. It’s Costing Them a Competitive Advantage",
+      "source": "Inc. AI",
+      "published": "2026-09-25T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6491abe3ffa3439ee1146d70",
+      "bodyFingerprint": "ba21060862de41be62f5eeb1",
+      "bodyCharacterCount": 40,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-25T13:51:14.946Z",
+      "assessment": {
+        "centralEvent": "New Harvard Research Says Leaders Are Asking the Wrong Questions About AI. It’s Costing Them a Competitive Advantage",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c58ed3cc3208b882e8c8": {
+      "storyId": "c58ed3cc3208b882e8c8",
+      "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "source": "The Verge AI",
+      "published": "2026-09-25T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e86e6441416ba8a631781614",
+      "bodyFingerprint": "33a7b86c7e953fdec4f6f889",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.022Z",
+      "assessment": {
+        "centralEvent": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "This is in addition to the existing smart alerts, facial recognition, and 10 days of video storage available with HomeKit Secure Video .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 136,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4272cbc1aa2e114ea8e7": {
+      "storyId": "4272cbc1aa2e114ea8e7",
+      "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_campaign=rss&at_medium=RSS",
+      "title": "Pope warns against 'losing humanity' to AI machines",
+      "source": "BBC News AI",
+      "published": "2026-09-25T12:44:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "93e28e3a28a19aed48924a86",
+      "bodyFingerprint": "a579c04b3aa2e0bc334fb62d",
+      "bodyCharacterCount": 5614,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.108Z",
+      "assessment": {
+        "centralEvent": "Pope warns against 'losing humanity' to AI machines",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Pope will also meet a group of migrants in Paris, and in Lourdes some victims of sexual abuse by members of the Catholic clergy.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Figure caption, Watch: Pope Leo XIV arrives in Paris for four-day visit By Hugh Schofield in Paris Published 25 September 2026, 00:17 BST Updated 1 hour ago Pope Leo XIV has issued a warning about the dangers of artificial intelligence (AI)",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics France Paris Pope Leo XIV Europe More on this story Italian PM condemns ally Trump over 'unacceptable' Pope criticism Published 13 April Pope Leo calls for global leaders to choose peace in his first Easter Mass Published 5 A",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a1878a6bc0bda3547cd4": {
+      "storyId": "a1878a6bc0bda3547cd4",
+      "url": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
+      "title": "Trump told Xi Jinping that China helping Iran is ‘unacceptable’, official says – live",
+      "source": "The Guardian AI",
+      "published": "2026-09-25T13:49:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1ef59ebd1842cf03bc35725e",
+      "bodyFingerprint": "c44e47e334f91caf331a8a96",
+      "bodyCharacterCount": 12336,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.145Z",
+      "assessment": {
+        "centralEvent": "Trump told Xi Jinping that China helping Iran is ‘unacceptable’, official says – live",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Lula says Trump wants to ‘colonise’ and capture Brazil’s resources by meddling in election Read more Mikie Sherrill, the Democratic governor of New Jersey, on Thursday called on her own lieutenant governor, Dale Caldwell, to immediately res",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Our reporters take your questions Read more Journalists for CNN and MS Now were denied access to the White House state dinner in honor of Xi Jinping, China’s president, on Thursday evening, hours after a federal judge ruled the Trump admini",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“President Trump made that very clear again ‌yesterday.” Trump’s meeting with Xi is unfolding as the US tries to implement a new round of secondary sanctions on Iran, aiming to sever its remaining ties to the global economy.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "MS Now, another outlet banned from the White House by Trump last week for what he calls overly negative coverage of his presidency, also said its White House reporter, Laura Barrón-López, was prevented from covering Xi’s arrival for the sta",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The investigation, published in a report dated Wednesday but announced by Sherrill the following evening, found that Caldwell had engaged in “serious, repeated violations of state policy.” These included making sexual overtures to the frien",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.66,
+        "rawScore": 49.66,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.515,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "51bf70998a8fcc3ab263": {
+      "storyId": "51bf70998a8fcc3ab263",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/25/ai-israel-gaza-iran-police-surveillance",
+      "title": "It’s not hypothetical: the dangers of AI are already here | Granate Kim and Mohamed Hussein",
+      "source": "The Guardian AI",
+      "published": "2026-09-25T12:00:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "547485c4e6782e3ca22cb145",
+      "bodyFingerprint": "a7a907c3c1df267c56a7fd06",
+      "bodyCharacterCount": 6986,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.155Z",
+      "assessment": {
+        "centralEvent": "It’s not hypothetical: the dangers of AI are already here | Granate Kim and Mohamed Hussein",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Israel and the US have used AI to kill in Gaza and Iran, while law enforcement uses it in surveillance and arrests.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "This was done with little to no meaningful human oversight, as documented in an investigation by Oscar-winning Israeli journalist Yuval Abraham, whose latest film NAZA includes chilling testimonials by the soldiers involved.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Law enforcement agencies nationwide are deploying facial recognition technology despite evidence of algorithmic bias that has led to the wrongful arrest and incarceration of Latino and Black Americans.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The reality is, we don’t have to wait to see how AI will bring about unprecedented death and destruction, because we’ve already witnessed its unleashing.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Though many of these harms have been documented over the years, rightwing government leaders are continuing to shut down dissent through dishonest and draconian measures.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.28,
+        "rawScore": 49.28,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.48,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0584ea1872cc2056888a": {
+      "storyId": "0584ea1872cc2056888a",
+      "url": "https://www.theguardian.com/technology/2026/sep/25/ai-anxiety-comedy",
+      "title": "The comedians turning AI anxiety into punchlines: ‘It’s so good, it’ll completely alter our grasp on reality’",
+      "source": "The Guardian AI",
+      "published": "2026-09-25T12:00:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "763398681ce97b57a1760bff",
+      "bodyFingerprint": "d95d2cd3c18b73f51e74ebaa",
+      "bodyCharacterCount": 10193,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.167Z",
+      "assessment": {
+        "centralEvent": "The comedians turning AI anxiety into punchlines: ‘It’s so good, it’ll completely alter our grasp on reality’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Her serious videos on these topics often meet with some backlash.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Only 11% of Americans would support the building of a datacenter locally, according to UMass Amherst .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ab39be48455141249d5d": {
+      "storyId": "ab39be48455141249d5d",
+      "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+      "source": "The Verge AI",
+      "published": "2026-09-25T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8976ca07e8dd66daf1a79ef5",
+      "bodyFingerprint": "a41ff2e7b66a750aa0e80065",
+      "bodyCharacterCount": 7419,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.175Z",
+      "assessment": {
+        "centralEvent": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "I put them to the test 2:12 AM UTC Here’s the Tesla Semi... again Two hours ago Insta360 conquered 360 cameras — now it’s eyeing glasses Sep 24 It’s sinister that Meta’s Muse AI mascot is so cute",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0135680e932ce382e1fb": {
+      "storyId": "0135680e932ce382e1fb",
+      "url": "https://www.theguardian.com/lifeandstyle/picture/2026/sep/25/ai-psychosis-for-dummies-the-stephen-collins-cartoon",
+      "title": "AI psychosis for dummies: the Stephen Collins cartoon",
+      "source": "The Guardian AI",
+      "published": "2026-09-25T09:30:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "583279abb06fc5bb0eb425cd",
+      "bodyFingerprint": "991a594dd82890d980df3720",
+      "bodyCharacterCount": 484,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.213Z",
+      "assessment": {
+        "centralEvent": "AI psychosis for dummies: the Stephen Collins cartoon",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 2,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "146129b594abfff24a7e": {
+      "storyId": "146129b594abfff24a7e",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/25/exercise-bad-bodies-ai-brains-students-tech-health",
+      "title": "We all know a lack of exercise is bad for our bodies. So what is relying on AI doing to our brains? | Devi Sridhar",
+      "source": "The Guardian AI",
+      "published": "2026-09-25T09:00:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b9336aaa11051f9da7b06df",
+      "bodyFingerprint": "a98b63c3861c277d938e5c3c",
+      "bodyCharacterCount": 6833,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.276Z",
+      "assessment": {
+        "centralEvent": "We all know a lack of exercise is bad for our bodies. So what is relying on AI doing to our brains? | Devi Sridhar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A study of more than 19,000 adults over the age of 50 found greater participation in cognitively stimulating leisure activities (such as crosswords or sudoku) was linked to lower dementia risk and better cognitive functioning in later life.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The 2026 Higher Education Policy Institute survey of students’ use of gen AI found this year that 95% of undergraduates reported using AI in at least one way, and 94% said they had used it in assessed work.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "We must not entrust tech companies with our long-term health Prof Devi Sridhar is chair of global public health at the University of Edinburgh When I was a postgraduate student at the University of Oxford in the early 2000s, I interviewed f",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Over the past few decades , we have seen the health consequences of sedentary behaviour grow: higher rates of chronic disease such as cancers and type-2 diabetes, more chronic back and neck pain, and reduced quality of life.",
+            "matchedRule": "/\\b(?:long-lasting|lasting damage|years to recover|chronic|only partially reversible)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.32,
+        "rawScore": 28.32,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3925,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 3,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d5158f51ec38977091fa": {
+      "storyId": "d5158f51ec38977091fa",
+      "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+      "source": "Ars Technica AI",
+      "published": "2026-09-25T11:00:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "699bda8faeff774d13a07765",
+      "bodyFingerprint": "88bfd165a0e29775b9f4d7eb",
+      "bodyCharacterCount": 12996,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.342Z",
+      "assessment": {
+        "centralEvent": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“The more that Americans learn about WISeR, the more outraged they get at the Trump administration for jeopardizing their care and trying to privatize Medicare.” Technical fumbles WISeR , which stands for Wasteful and Inappropriate Service ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "WISeR is intended to provide authorization decisions within 72 hours, but many have taken weeks, some even months.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In its comment to Ars, Virtix said that it “understand[s] that any delay in care is difficult for patients, and we do not take lightly the impact that the prior authorization process can have on people who are in pain and seeking relief.” T",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5731f1eb71fb56b1557b": {
+      "storyId": "5731f1eb71fb56b1557b",
+      "url": "https://mashable.com/tech/sept-25-shark-ai-robot-vacuum-deal",
+      "title": "This AI-powered Shark robot vacuum hits best-ever price at Amazon — save over $300 before Prime Day",
+      "source": "Mashable AI",
+      "published": "2026-09-25T09:14:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b38297c96651829d7afa89a1",
+      "bodyFingerprint": "834ca4d25e4fbd1f6490b15f",
+      "bodyCharacterCount": 3228,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.449Z",
+      "assessment": {
+        "centralEvent": "This AI-powered Shark robot vacuum hits best-ever price at Amazon — save over $300 before Prime Day",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "This AI-powered Shark robot vacuum hits best-ever price at Amazon — save over $300 before Prime Day",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "059869e718cff2571be1": {
+      "storyId": "059869e718cff2571be1",
+      "url": "https://mashable.com/tech/sept-25-umanwrite-ai-humanizing-content-creator-unlimited-plan-lifetime",
+      "title": "Pay $79 once for a lifetime AI writer that also learns your voice",
+      "source": "Mashable AI",
+      "published": "2026-09-25T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1bf633e45a15f00da7d87ce",
+      "bodyFingerprint": "ec033ed13517d14379159f69",
+      "bodyCharacterCount": 2814,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.477Z",
+      "assessment": {
+        "centralEvent": "Pay $79 once for a lifetime AI writer that also learns your voice",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4cdd770361e561a21f86": {
+      "storyId": "4cdd770361e561a21f86",
+      "url": "https://mashable.com/tech/sept-25-claude-ai-professional-e-degree",
+      "title": "Don’t miss this $15 chance to become a Claude power user",
+      "source": "Mashable AI",
+      "published": "2026-09-25T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "95a18229ab87082dba37b8ce",
+      "bodyFingerprint": "f2b3da97513b05dbb338f496",
+      "bodyCharacterCount": 2817,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:15.480Z",
+      "assessment": {
+        "centralEvent": "Don’t miss this $15 chance to become a Claude power user",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "de2f429f4e574eaaffbe": {
+      "storyId": "de2f429f4e574eaaffbe",
+      "url": "https://www.lawfaremedia.org/article/bring-on-the-ai-lawsuits",
+      "title": "Bring On the AI Lawsuits",
+      "source": "Lawfare AI",
+      "published": "2026-09-25T12:00:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "03aa171ebb4eeaac6d4feef2",
+      "bodyFingerprint": "343109ef66757b164779fcc9",
+      "bodyCharacterCount": 13820,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-25T13:51:16.006Z",
+      "assessment": {
+        "centralEvent": "Bring On the AI Lawsuits",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Most recently, the Wall Street Journal reported last week that Google's Gemini model had hacked three companies during a cybersecurity test in May.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "OpenAI has confirmed it is supporting Hugging Face \"in rapidly using our models' capabilities to improve their defenses.\" Is that $100 million worth of support?",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Amodei proposed embedding independent evaluators within frontier AI companies, common safety standards among companies in democratic countries, and global coordination with authoritarian states to the extent possible.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They’re closer to foreseeable failures that would have been prevented by reasonable controls.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The RubyGems team stopped new user sign-ups for four days, and a member of its security team described the incident as a \"major malicious attack.\" We've not seen any lawsuits yet, but in the wake of the Hugging Face incident, CEO Cl&eacute;",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 88,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.78,
+        "rawScore": 48.78,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.435,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-25T07:52:37.567Z"
+  "updatedAt": "2026-09-25T13:51:16.006Z"
 }
