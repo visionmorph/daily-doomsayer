@@ -189829,8 +189829,153 @@
           "vulnerability": 0
         }
       }
+    },
+    "960b51012f8d643a2607": {
+      "storyId": "960b51012f8d643a2607",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "source": "The Verge AI",
+      "published": "2026-09-26T16:34:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c11c02db8867638c3ec8d645",
+      "bodyFingerprint": "132dc34fcb2761bed5c44c8e",
+      "bodyCharacterCount": 4351,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-26T19:54:07.621Z",
+      "assessment": {
+        "centralEvent": "OpenAI pauses training of its ‘most capable models’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "89f9618650b31d06afa5": {
+      "storyId": "89f9618650b31d06afa5",
+      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "source": "The Verge AI",
+      "published": "2026-09-26T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1feb3439c39b125db0263134",
+      "bodyFingerprint": "c94b18ab5d496d2b691a10de",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-26T19:54:07.673Z",
+      "assessment": {
+        "centralEvent": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Earlier this year, the company laid off more than a thousand people — 20 percent of the company — and then Matthew wrote an op-ed about that decision that ran in the Wall Street Journal under the headline, “How I choose which Cloudflare emp",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "That seems like a really big inflection point right now at this second.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "We’re in over 350 cities worldwide, literally thousands of data centers.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The incentives to put new information on the web just seem to be in permanent decline.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "As of September 15th, we’re going to set the defaults across all of our free customers for it to be that Google is going to be blocked for AI training, but if they won’t differentiate between AI training and search engine training, we’re ju",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "I remember sitting with a bunch of media execs and they’re like, “Oh, how are we going to stop these nerds in Palo Alto from scraping our stuff?” And I was like, “I go to war every day with North Korean and Iranian and Chinese hackers.” The",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 817,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.99,
+        "rawScore": 49.99,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.545,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-26T17:13:17.509Z"
+  "updatedAt": "2026-09-26T19:54:07.673Z"
 }
