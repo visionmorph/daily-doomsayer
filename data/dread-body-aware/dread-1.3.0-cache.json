@@ -188429,8 +188429,890 @@
           "vulnerability": 0
         }
       }
+    },
+    "fc925415c5ca152c4833": {
+      "storyId": "fc925415c5ca152c4833",
+      "url": "https://www.inc.com/heather-wilde/illinois-just-passed-a-tough-new-ai-law-even-small-businesses-should-pay-attention/91410346",
+      "title": "Illinois Just Passed a Tough New AI Law. Even Small Businesses Should Pay Attention",
+      "source": "Inc. AI",
+      "published": "2026-09-26T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "38cb6170fe0a480356914c05",
+      "bodyFingerprint": "5ccb794c2b5fd76aee36da29",
+      "bodyCharacterCount": 48,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-26T13:08:50.273Z",
+      "assessment": {
+        "centralEvent": "Illinois Just Passed a Tough New AI Law. Even Small Businesses Should Pay Attention",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "697e7383cd42f5d04ad9": {
+      "storyId": "697e7383cd42f5d04ad9",
+      "url": "https://www.inc.com/justin-bariso/should-i-worry-others-ai-steal-ideas-brutal-truth/91410973",
+      "title": "Should You Worry About Others (or AI) Stealing Your Ideas? Here’s the Brutal Truth",
+      "source": "Inc. AI",
+      "published": "2026-09-26T11:50:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3783d04068deb7b72ff10477",
+      "bodyFingerprint": "189550e0977dc608ba88fbab",
+      "bodyCharacterCount": 62,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-26T13:08:50.280Z",
+      "assessment": {
+        "centralEvent": "Should You Worry About Others (or AI) Stealing Your Ideas? Here’s the Brutal Truth",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e69b7d8e1942b6274a02": {
+      "storyId": "e69b7d8e1942b6274a02",
+      "url": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
+      "title": "Oxford lets OpenAI train its AI models on Bodleian Library",
+      "source": "The Guardian AI",
+      "published": "2026-09-26T11:00:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "700109ec6a4d54ec5506554f",
+      "bodyFingerprint": "a1b87e6c67d1998b4af0b4aa",
+      "bodyCharacterCount": 5496,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-26T13:08:50.388Z",
+      "assessment": {
+        "centralEvent": "Oxford lets OpenAI train its AI models on Bodleian Library",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The Bodleian material digitised by OpenAI has been used to “populate the OpenAI training set”, according to internal documents.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d1a113255f1930bb2a04": {
+      "storyId": "d1a113255f1930bb2a04",
+      "url": "https://www.theguardian.com/world/2026/sep/26/ai-datacentre-hyperscale-india-andhra-pradesh-village-google-confiscated-land",
+      "title": "Broken promises, confiscated land: the hyperscale AI datacentre being built in a tiny Indian village",
+      "source": "The Guardian AI",
+      "published": "2026-09-26T11:00:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "82370d3800da0bfe8b88e23f",
+      "bodyFingerprint": "d478108bacf633016fe2bb10",
+      "bodyCharacterCount": 10936,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-26T13:08:50.399Z",
+      "assessment": {
+        "centralEvent": "Broken promises, confiscated land: the hyperscale AI datacentre being built in a tiny Indian village",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Venkat Surynarayana, 40, a farmer in Tarluvada, said that when officials had initially come to measure land for the datacentre “they never mentioned anything about risks of pollution or water or heat, they didn’t even tell us what the proje",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In Tarluvada, temperatures regularly soar to about 45C during the summer and there are concerns the datacentres – documented emitters of heat – could make this even worse.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "According to the government of India’s Economic Survey 2025–26, India generated nearly 20% of the world’s data but hosts only about 3% of global datacentres.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“But if this is not stopped, it could be the end of Tarluvada.” For the state government of Andhra Pradesh, the deal struck with Google to build this vast datacentre on its turf is a source of enormous pride, part of a wider policy to make ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Photograph: Hannah Ellis-Petersen/The Guardian Pointing up to the nearby hillside – where bulldozers recently stripped the land bare of trees to ready it for Google’s mega AI campus – Naidu adds: “The work just continues every day.” The sta",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.45,
+        "rawScore": 49.45,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.495,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "126a5f824ddb744b11a7": {
+      "storyId": "126a5f824ddb744b11a7",
+      "url": "https://www.theguardian.com/us-news/2026/sep/26/potential-2028-democratic-presidential-candidates-ai",
+      "title": "The AI debate is already shaping the 2028 election. Here’s where Democratic hopefuls stand",
+      "source": "The Guardian AI",
+      "published": "2026-09-26T11:00:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "43bd3c79a646304c3fec7606",
+      "bodyFingerprint": "a66102a2811d7440e51ad153",
+      "bodyCharacterCount": 9128,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-26T13:08:50.409Z",
+      "assessment": {
+        "centralEvent": "The AI debate is already shaping the 2028 election. Here’s where Democratic hopefuls stand",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Photograph: Tom Williams/CQ-Roll Call, Inc/Getty Images She has also voiced opposition to harms caused by AI such as deepfake pornography.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View image in fullscreen Kamala Harris discusses her new memoir 107 Days at the Southbank Centre’s London Literature Festival in London in 2025.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "View image in fullscreen Mark Kelly speaks at the National Action Network’s annual convention on 11 April 2026 in New York City.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Mark Kelly Senator from Arizona Kelly has called for safely implemented AI in the US through congressional action and called for protections for workers whose jobs are affected by AI.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.62,
+        "rawScore": 48.62,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.42,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 2
+        }
+      }
+    },
+    "ebd2e6d162933168fed9": {
+      "storyId": "ebd2e6d162933168fed9",
+      "url": "https://www.inc.com/chloe-aiello/bill-gates-warns-ai-could-cause-a-billion-deaths-preventing-it-requires-these-groups-to-work-together/91410746",
+      "title": "Bill Gates Warns AI Could ‘Cause a Billion Deaths.’ Preventing It Requires These Groups to Work Together",
+      "source": "Inc. AI",
+      "published": "2026-09-26T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "913de391d45f03691e61952c",
+      "bodyFingerprint": "a092ec81ac6728875c8c3522",
+      "bodyCharacterCount": 54,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-26T13:08:50.412Z",
+      "assessment": {
+        "centralEvent": "Bill Gates Warns AI Could ‘Cause a Billion Deaths.’ Preventing It Requires These Groups to Work Together",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a8207eb974e2ff6416a9": {
+      "storyId": "a8207eb974e2ff6416a9",
+      "url": "https://www.inc.com/marcel-schwantes/brene-browns-3-leadership-trades-for-a-future-nobody-can-predict/91410764",
+      "title": "Brené Brown’s 3 Leadership Trades for a Future Nobody Can Predict",
+      "source": "Inc. AI",
+      "published": "2026-09-26T09:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f86b7f2a51fe2940abf9b2ea",
+      "bodyFingerprint": "48155feb1c4eeb491445458c",
+      "bodyCharacterCount": 73,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-26T13:08:50.457Z",
+      "assessment": {
+        "centralEvent": "Brené Brown’s 3 Leadership Trades for a Future Nobody Can Predict",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Brené Brown’s 3 Leadership Trades for a Future Nobody Can Predict",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f070ad041d7c2c50eb36": {
+      "storyId": "f070ad041d7c2c50eb36",
+      "url": "https://mashable.com/tech/xbotgo-falcon-ai-sports-tracking-camera-review",
+      "title": "XbotGo Falcon review: A soccer dads search for the perfect AI sports tracking camera",
+      "source": "Mashable AI",
+      "published": "2026-09-26T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "165d020442d6d945f67cc327",
+      "bodyFingerprint": "f96a76264f9e80014a1c3d2d",
+      "bodyCharacterCount": 15132,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-26T13:08:50.512Z",
+      "assessment": {
+        "centralEvent": "XbotGo Falcon review: A soccer dads search for the perfect AI sports tracking camera",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "XbotGo Falcon: By the numbers Here are the key specifications to know: 4K video at 30fps or 1080p video at 60fps 1/1.8-inch Sony CMOS sensor 9,600 mAh battery that can last for approximately 4 hours 360-degree rotation 160-degree tilt Recor",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 137,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0ef804d75ccf228b9887": {
+      "storyId": "0ef804d75ccf228b9887",
+      "url": "https://mashable.com/tech/google-sending-ai-data-center-satellite-to-space",
+      "title": "Liftoff: Google is realizing Elon Musks dream of AI data centers in space",
+      "source": "Mashable AI",
+      "published": "2026-09-26T09:30:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e72a0bbc4f58800ef501a2bb",
+      "bodyFingerprint": "8361d335ddf96ba0878a39d4",
+      "bodyCharacterCount": 4122,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-26T13:08:50.531Z",
+      "assessment": {
+        "centralEvent": "Liftoff: Google is realizing Elon Musks dream of AI data centers in space",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The experimental satellite will be able answer simple A.I. prompts from space, according to the New York Times .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2b4257aa33dc84d0bd32": {
+      "storyId": "2b4257aa33dc84d0bd32",
+      "url": "https://www.inc.com/pam-didner/your-ai-agent-may-be-an-automation-with-a-more-expensive-label/91410261",
+      "title": "Your AI Agent May Be an Automation With a More Expensive Label",
+      "source": "Inc. AI",
+      "published": "2026-09-26T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af04aafb24a40bc14d055613",
+      "bodyFingerprint": "580fe5cbc4a23fd4c071707b",
+      "bodyCharacterCount": 110,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-26T13:08:50.536Z",
+      "assessment": {
+        "centralEvent": "Your AI Agent May Be an Automation With a More Expensive Label",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "12cca2b6afcac7c6f738": {
+      "storyId": "12cca2b6afcac7c6f738",
+      "url": "https://www.inc.com/kevin-haynes/walmart-embraces-new-digital-shelf-labels-not-dynamic-pricing-we-wont-do-it-ceo-vows/91410956",
+      "title": "Walmart Embraces New Digital Shelf Labels, Not Dynamic Pricing: ‘We Won’t Do It,’ CEO Vows",
+      "source": "Inc. AI",
+      "published": "2026-09-26T08:14:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "572720438f47a2cd65fce2ba",
+      "bodyFingerprint": "6130ae3f2df1880576b410e0",
+      "bodyCharacterCount": 183,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-26T13:08:50.558Z",
+      "assessment": {
+        "centralEvent": "Walmart Embraces New Digital Shelf Labels, Not Dynamic Pricing: ‘We Won’t Do It,’ CEO Vows",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c348023faf3fb8305ce6": {
+      "storyId": "c348023faf3fb8305ce6",
+      "url": "https://mashable.com/tech/ai-safety-anthropic-openai-google",
+      "title": "AI leaders say they want safety, but on whose terms?",
+      "source": "Mashable AI",
+      "published": "2026-09-26T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9109b2114b2ffb88bc0d7059",
+      "bodyFingerprint": "d2fcfabcf8c132e40f3acdc7",
+      "bodyCharacterCount": 8484,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-26T13:08:50.570Z",
+      "assessment": {
+        "centralEvent": "AI leaders say they want safety, but on whose terms?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Limited transparency and accountability Furlong credited Anthropic for recently releasing a comprehensive safety report on AI-enabled risks like bioweapons and mass surveillance.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Acknowledging the lengthy process of passing laws, Amodei also backed a voluntary effort on behalf of AI companies to set standards subsequently verified by \"embedded\" third-party evaluators.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Using the Financial Industry Regulatory Authority as an example, Hassabis said the standards body would lead on developing model assessment protocols and collaborating with federal agencies specifically on national security testing.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.13,
+        "rawScore": 47.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "daa657db50c69f435b78": {
+      "storyId": "daa657db50c69f435b78",
+      "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy",
+      "title": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
+      "source": "WIRED AI",
+      "published": "2026-09-26T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2981d88ab2c409cd6bba23d4",
+      "bodyFingerprint": "64cedc4233d23da4bf203af4",
+      "bodyCharacterCount": 9174,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-26T13:08:50.592Z",
+      "assessment": {
+        "centralEvent": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Agents like Muse are trying to convince us they’re just a cute little guy who lives in your pocket, and definitely not an always-open portal into the servers of a major surveillance company.” Research suggests that adopting AI agents could",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Boone Ashworth Face Recognition Is Becoming the Norm for Dating Apps To keep scammers at bay, dating apps are embracing biometric scanning tools and “verified human” badges.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bb4f0ac2f6e32bbfb9ec": {
+      "storyId": "bb4f0ac2f6e32bbfb9ec",
+      "url": "https://news.sky.com/story/openai-models-accessed-us-government-data-and-tried-to-hack-education-site-13591998",
+      "title": "OpenAI models accessed US government data and 'tried to hack another site'",
+      "source": "Sky News AI",
+      "published": "2026-09-26T07:56:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3830650d4533bc660bfa1f82",
+      "bodyFingerprint": "b2b387043b228d9233e6b517",
+      "bodyCharacterCount": 162,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-26T13:08:50.676Z",
+      "assessment": {
+        "centralEvent": "OpenAI models accessed US government data and 'tried to hack another site'",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "OpenAI models accessed data on two US government websites and carried out an unsuccessful hack on a Department of Education site, according to new investigations.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-26T07:45:33.302Z"
+  "updatedAt": "2026-09-26T13:08:50.676Z"
 }
