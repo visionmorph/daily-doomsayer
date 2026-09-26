@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-26T19:00:00.000Z",
+  "generatedAt": "2026-09-26T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-26",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-26",
           "firstObservedAt": "2026-09-26T07:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
           "average": 51.92
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-26",
           "firstObservedAt": "2026-09-26T07:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-26",
           "firstObservedAt": "2026-09-26T07:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
           "average": 50.33
         },
         {
@@ -73,12 +73,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/01a09c7a797fe840f3618b3ad42adebb2b1c2108/647_0_4164_3333/master/4164.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 50.27,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-26",
           "firstObservedAt": "2026-09-26T07:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
           "average": 50.27
+        },
+        {
+          "storyId": "89f9618650b31d06afa5",
+          "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+          "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_2026-09-26_Prince.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.99,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-26",
+          "firstObservedAt": "2026-09-26T22:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
+          "average": 49.99
         },
         {
           "storyId": "6444114201a49ef09166",
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-26",
           "firstObservedAt": "2026-09-26T07:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
           "average": 49.94
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DataOne-drone-image-via-Sustain-SJ-1152x648.jpg",
           "peak": 49.83,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-26",
           "firstObservedAt": "2026-09-26T07:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
           "average": 49.83
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 49.83,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-26",
           "firstObservedAt": "2026-09-26T07:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
           "average": 49.83
         },
         {
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-26T07:00:00.000Z",
           "lastObservedAt": "2026-09-26T07:00:00.000Z",
           "average": 49.83
-        },
-        {
-          "storyId": "43677b1cc9bd285cb046",
-          "title": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
-          "url": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
-          "peak": 49.66,
-          "observations": 4,
-          "daysTracked": 1,
-          "peakDate": "2026-09-26",
-          "firstObservedAt": "2026-09-26T07:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
-          "average": 49.66
         }
       ]
     },
@@ -4093,11 +4093,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 4,
           "peakDate": "2026-09-23",
           "firstObservedAt": "2026-09-23T23:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
           "average": 51.92
         },
         {
@@ -4121,11 +4121,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 30,
+          "observations": 31,
           "daysTracked": 6,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -4918,11 +4918,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 4,
           "peakDate": "2026-09-23",
           "firstObservedAt": "2026-09-23T23:00:00.000Z",
-          "lastObservedAt": "2026-09-26T19:00:00.000Z",
+          "lastObservedAt": "2026-09-26T22:00:00.000Z",
           "average": 51.92
         },
         {
