@@ -190378,8 +190378,208 @@
           "vulnerability": 0
         }
       }
+    },
+    "8208a3660ff1f0e17765": {
+      "storyId": "8208a3660ff1f0e17765",
+      "url": "https://www.inc.com/chris-morris/databricks-ceo-says-the-biggest-ai-threat-isnt-superintelligence/91409495",
+      "title": "Databricks CEO Says the Biggest AI Threat Isn’t Superintelligence",
+      "source": "Inc. AI",
+      "published": "2026-09-27T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "26b07707856a3ea35e30352f",
+      "bodyFingerprint": "5312b2e48197a10191d54355",
+      "bodyCharacterCount": 104,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-27T14:03:13.646Z",
+      "assessment": {
+        "centralEvent": "Databricks CEO Says the Biggest AI Threat Isn’t Superintelligence",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a87d19317d74f22c76a2": {
+      "storyId": "a87d19317d74f22c76a2",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/27/democracy-ai-datacenters-power",
+      "title": "Democracy blindsides Silicon Valley’s power players looking to transform the world with AI",
+      "source": "The Guardian AI",
+      "published": "2026-09-27T11:00:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af353c45aafdb9ad28c9af39",
+      "bodyFingerprint": "82bccf72f626d4cfb8d06b1e",
+      "bodyCharacterCount": 15470,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T14:03:13.680Z",
+      "assessment": {
+        "centralEvent": "Democracy blindsides Silicon Valley’s power players looking to transform the world with AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In response to the popular backlash, the Environmental Protection Agency is planning to nix the rule that requires states to solicit public input on applications for air pollution permits for industrial facilities like datacenters and the p",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Some 73% of Americans think the costs of datacenters outweigh the benefits, according to a survey by the Marquette University Law School.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Myriad international treaties were similarly designed to protect economic intercourse from democratic challenges, to provide businesses insulation from political agendas and guarantee the political stability they required to invest.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A widely shared belief that there’s at least a 10% chance that AI could cause human extinction has, rightly, scared the bejesus out of many and follows repeated statements that artificial intelligence will end all jobs as we know them.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 108,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.07,
+        "rawScore": 48.07,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.37,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "82f778bcc5adb3c24930": {
+      "storyId": "82f778bcc5adb3c24930",
+      "url": "https://www.theguardian.com/us-news/2026/sep/27/bill-gates-artificial-intelligence-kristen-welker",
+      "title": "Bill Gates says unchecked AI could ‘cause a billion deaths’ in call for regulation",
+      "source": "The Guardian AI",
+      "published": "2026-09-27T09:00:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4aa5af780f4a17685708165f",
+      "bodyFingerprint": "54df77a32088b1999182fcae",
+      "bodyCharacterCount": 4324,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T14:03:13.687Z",
+      "assessment": {
+        "centralEvent": "Bill Gates says unchecked AI could ‘cause a billion deaths’ in call for regulation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Many reporting or commenting on his conversation with Welker noted that it occurred in the wake of a nearly 6,000-word essay that he published in late August warning about AI and the potentially lethal ills it poses to humanity on a large s",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Company employees and activists have organized a campaign aimed at getting Microsoft to cut ties with the Israeli military, which has used AI tools to kill in Gaza and – alongside US forces – in Iran, according to a Guardian essay published",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-27T08:14:31.748Z"
+  "updatedAt": "2026-09-27T14:03:13.687Z"
 }
