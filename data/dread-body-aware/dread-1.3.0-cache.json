@@ -191361,8 +191361,279 @@
           "vulnerability": 0
         }
       }
+    },
+    "566a52e15e047c95713b": {
+      "storyId": "566a52e15e047c95713b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+      "title": "Engram is a sampler that turns broken AI hallucinations into music",
+      "source": "The Verge AI",
+      "published": "2026-09-27T20:46:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e8bad41837cc66661ac6fbd8",
+      "bodyFingerprint": "cf3c077318d1a5a8a68c0448",
+      "bodyCharacterCount": 4266,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T22:15:01.803Z",
+      "assessment": {
+        "centralEvent": "Engram is a sampler that turns broken AI hallucinations into music",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "We have not trained and will never train our models on non-commercial, pirated, or otherwise stolen data.” The company also plans to open up Engram’s firmware so that others can tweak it or load their own custom models.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "According to the Kickstarter listing, the model is designed in-house and custom-trained.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Meta makes the Muse filesystem even more accessible Sony and UMG are suing Suno again One company is at the center of a wave of rogue AI attacks Can Apple Home’s AI camera features outsmart Amazon’s and Google’s?",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c14ca803e3fc11697070": {
+      "storyId": "c14ca803e3fc11697070",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump",
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "source": "TechCrunch AI",
+      "published": "2026-09-27T20:34:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6a77fa2af73b0cac061fa608",
+      "bodyFingerprint": "c289d0ad7205219479ca01b6",
+      "bodyCharacterCount": 2055,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T22:15:01.924Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s CEO is about to have dinner with President Trump",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Amodei released a plan to slow AI development (or at least proceed with more caution), while Trump has insisted , without evidence, that the AI backlash is a Democratic hoax; he also wants to rebrand the technology as “super intelligence.” ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Anthony Ha 2 hours ago Latest in AI In Brief Anthropic’s CEO is about to have dinner with President Trump Anthony Ha 1 hour ago AI Can Muse overcome Meta’s trust issues?",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3bb8d18f44686569065c": {
+      "storyId": "3bb8d18f44686569065c",
+      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues",
+      "title": "Can Muse overcome Meta’s trust issues?",
+      "source": "TechCrunch AI",
+      "published": "2026-09-27T19:57:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f68767ba556b5c9f0dbaa75e",
+      "bodyFingerprint": "2ba18dc6c8ea9750148f0670",
+      "bodyCharacterCount": 9184,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T22:15:01.931Z",
+      "assessment": {
+        "centralEvent": "Can Muse overcome Meta’s trust issues?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And having it in your hand, on an app that works like a relatively good chatbot as the interface, it does seem pretty powerful.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "10b36a4664fdbcacd3f2": {
+      "storyId": "10b36a4664fdbcacd3f2",
+      "url": "https://www.theguardian.com/australia-news/live/2026/sep/28/labor-anthony-albanese-openai-ai-hacks-coalition-one-nation-medicare-budget-ntwnfb",
+      "title": "Australia news live: Chalmers and Gallagher to present final budget outcome; RBA interest rate hike looms",
+      "source": "The Guardian AI",
+      "published": "2026-09-27T22:09:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5d85f27b3bd8156f77bcb7a3",
+      "bodyFingerprint": "014120541d58db982812d4d5",
+      "bodyCharacterCount": 7110,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T22:15:01.988Z",
+      "assessment": {
+        "centralEvent": "Australia news live: Chalmers and Gallagher to present final budget outcome; RBA interest rate hike looms",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On Sunday the deputy prime minister, Richard Marles, said the government knew households were “doing it tough” and was working to put downward pressure on inflation.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "They have a warning for Australia The Populist The Populist: Money nation | Episode 3 – podcast Back to Back Barries Back to Back Barries: Should the media boycott One Nation? – podcast It’s going to take more than an email to a public inbo",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "She told Radio National breakfast this morning: I think this incident really adds weight to the arguments that the PM that has been putting forward about needing to legislate, to provide some protections, some guardrails, and also, you know",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.59,
+        "rawScore": 26.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-27T18:27:19.831Z"
+  "updatedAt": "2026-09-27T22:15:01.988Z"
 }
