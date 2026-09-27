@@ -190578,8 +190578,791 @@
           "vulnerability": 0
         }
       }
+    },
+    "be8ba8158751a6cc8aad": {
+      "storyId": "be8ba8158751a6cc8aad",
+      "url": "https://www.politico.com/news/2026/09/27/bill-gates-ai-kill-switch-01094236",
+      "title": "Bill Gates says an AI ‘kill switch’ isn’t enough",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-27T18:02:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b3da27ac519e87c43d0590bc",
+      "bodyFingerprint": "e022c3ae73d8882f8d21e8ce",
+      "bodyCharacterCount": 139,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-27T18:27:18.980Z",
+      "assessment": {
+        "centralEvent": "Bill Gates says an AI ‘kill switch’ isn’t enough",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "da402e2a54fb457bee1b": {
+      "storyId": "da402e2a54fb457bee1b",
+      "url": "https://www.politico.com/news/2026/09/27/anthropic-amodei-trump-white-house-dinner-01094287",
+      "title": "Anthropic CEO to attend White House dinner with Trump",
+      "source": "POLITICO AI",
+      "published": "2026-09-27T18:25:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e9ac24bf83c88aefca7075f5",
+      "bodyFingerprint": "193e53cdb341f88b70a417cc",
+      "bodyCharacterCount": 199,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-27T18:27:18.997Z",
+      "assessment": {
+        "centralEvent": "Anthropic CEO to attend White House dinner with Trump",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c35bd152b345cd2b7b37": {
+      "storyId": "c35bd152b345cd2b7b37",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "source": "The Verge AI",
+      "published": "2026-09-27T17:21:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bc5cb8983ff2d6bef312c6e9",
+      "bodyFingerprint": "25736303682d0b4a24501a8d",
+      "bodyCharacterCount": 3652,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T18:27:19.029Z",
+      "assessment": {
+        "centralEvent": "OpenAI agents tried to ‘bruteforce’ a UN website",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It eventually realized it could hijack Google’s XSS game (a cross-site scripting learning tool) to accomplish its goals.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "According to Howard-Jones, the agents were likely tasked with retrieving publicly available data related to the Productive Capacities Index (PCI) through the UNCTADstat API.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Meta makes the Muse filesystem even more accessible Sony and UMG are suing Suno again One company is at the center of a wave of rogue AI attacks Can Apple Home’s AI camera features outsmart Amazon’s and Google’s?",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.59,
+        "rawScore": 45.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "394c28065044192839ac": {
+      "storyId": "394c28065044192839ac",
+      "url": "https://www.inc.com/jerry-colonna/the-hidden-leadership-cost-of-letting-ai-do-too-much-thinking/91409634",
+      "title": "The Hidden Leadership Cost of Letting AI Do Too Much Thinking",
+      "source": "Inc. AI",
+      "published": "2026-09-27T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3165304422467eff26d56a11",
+      "bodyFingerprint": "7f67d94889df6e337f9b2863",
+      "bodyCharacterCount": 62,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-27T18:27:19.060Z",
+      "assessment": {
+        "centralEvent": "The Hidden Leadership Cost of Letting AI Do Too Much Thinking",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a776633a7f7c7026cb15": {
+      "storyId": "a776633a7f7c7026cb15",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment",
+      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+      "source": "TechCrunch AI",
+      "published": "2026-09-27T16:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "04431ee1654a3f8eac0c370b",
+      "bodyFingerprint": "f605f54cbb4f9352ea337d9f",
+      "bodyCharacterCount": 2385,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T18:27:19.095Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s Dario Amodei gets the SNL treatment",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI Anthropic to pay Akamai $11.6 billion over seven years in cloud deal Aditya Mehta 2 days ago Apps BeReal gets its own Saturday Night Live skit Amanda Si",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a2df3939a7c0abc5180d": {
+      "storyId": "a2df3939a7c0abc5180d",
+      "url": "https://www.inc.com/entrepreneurs-organization/ai-is-telling-your-future-clients-who-you-are-what-is-it-saying/91409277",
+      "title": "AI Is Telling Your Future Clients Who You Are. What Is It Saying?",
+      "source": "Inc. AI",
+      "published": "2026-09-27T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e986b352d962cc3fe2f387dd",
+      "bodyFingerprint": "fe885bd2857b8edd938033c1",
+      "bodyCharacterCount": 36,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-27T18:27:19.107Z",
+      "assessment": {
+        "centralEvent": "AI Is Telling Your Future Clients Who You Are. What Is It Saying?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8e8932fcbf05da1585d6": {
+      "storyId": "8e8932fcbf05da1585d6",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/sep/28/parenthood-millennial-mothers-overwhelmed",
+      "title": "‘I can’t be the mum I want to be’: why does parenthood feel so impossible for millennial mothers?",
+      "source": "The Guardian AI",
+      "published": "2026-09-27T15:00:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bf46c7f049eb8c7cad71bece",
+      "bodyFingerprint": "51c2a3324cea44c9269da4af",
+      "bodyCharacterCount": 16007,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T18:27:19.289Z",
+      "assessment": {
+        "centralEvent": "‘I can’t be the mum I want to be’: why does parenthood feel so impossible for millennial mothers?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“I don’t know how you change that sort of cultural pressure.” D espite the exhaustion, the financial pressure, the feeling that we are all furiously spinning our gears to keep our lives in motion the women I have spoken to do not hate their",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In one of the most comprehensive studies of the subject, researchers looked at data spanning 11 countries over nearly 50 years and found that in every single country the amount of time spent directly caring for children each day increased d",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“There hasn’t been enough attention paid, I think, in policy, as to how to lower the amount of time that is expected of households to be in the market now.” skip past newsletter promotion after newsletter promotion Craig says many people ex",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "One of the findings that is repeated again and again across sociological research globally is that parents today – of both genders – spend more time caring for children than parents did midway through last century.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 106,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "422f4096f6b4fda08980": {
+      "storyId": "422f4096f6b4fda08980",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/28/uk-celebrity-warning-for-australia-ai-copyright",
+      "title": "British celebrities beat AI companies lobbying to get free use of their work. They have a warning for Australia",
+      "source": "The Guardian AI",
+      "published": "2026-09-27T15:00:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a470752f20ec765bedd03afc",
+      "bodyFingerprint": "b98330914c992d0f0e38121a",
+      "bodyCharacterCount": 5914,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T18:27:19.355Z",
+      "assessment": {
+        "centralEvent": "British celebrities beat AI companies lobbying to get free use of their work. They have a warning for Australia",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "They have a warning for Australia",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Photograph: Buda Mendes/Getty Images Analysis British celebrities beat AI companies lobbying to get free use of their work.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“There is no one out there, who does not work for an AI company, who thinks AI companies should not pay for the content they use,” he says.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.59,
+        "rawScore": 25.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2390795ac62a073dbe33": {
+      "storyId": "2390795ac62a073dbe33",
+      "url": "https://www.theguardian.com/technology/2026/sep/28/australia-is-run-on-legacy-systems-that-ai-agents-can-easily-exploit-former-un-cyber-negotiator-warns",
+      "title": "Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns",
+      "source": "The Guardian AI",
+      "published": "2026-09-27T15:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "523cc777ea9654028b6f6142",
+      "bodyFingerprint": "0ca132386903f9bb6d6fc4ae",
+      "bodyCharacterCount": 5988,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T18:27:19.376Z",
+      "assessment": {
+        "centralEvent": "Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Federal cabinet will discuss the OpenAI breach on Monday as the AI giant pauses testing of latest models amid fallout Get our new political email, free app or daily news podcast Ageing computer systems used throughout Australia’s government",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Axios reported on Sunday that OpenAI, Anthropic and security researchers were investigating tens of thousands of incidents globally in which frontier models undertook problematic or unexpected actions.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Weaver, who completed her term at the UN in 2021, said thorough investigation and remediation efforts would be required to close vulnerability gaps, calling on AI companies not to release models they could not control on the internet.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Sign up for Guardian Australia’s Politics, really newsletter here After the Australian hack was revealed on Thursday, the company disclosed moves to review several incidents in which OpenAI agents searching American government websites went",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "16e08664029394bdc01d": {
+      "storyId": "16e08664029394bdc01d",
+      "url": "https://www.inc.com/netta-jenkins/she-built-an-ai-agent-to-get-her-next-job-it-worked/91410184",
+      "title": "She Built an AI Agent to Get Her Next Job. It Worked",
+      "source": "Inc. AI",
+      "published": "2026-09-27T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d12a08b70870d143648e269",
+      "bodyFingerprint": "51756b7a7afbee49ad9812ff",
+      "bodyCharacterCount": 59,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-27T18:27:19.376Z",
+      "assessment": {
+        "centralEvent": "She Built an AI Agent to Get Her Next Job. It Worked",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3807ed03ed11519aa19d": {
+      "storyId": "3807ed03ed11519aa19d",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/28/university-ai-marking-academic-overworked-staff-student-shortcut",
+      "title": "Academics and AI marking: a welcome aid for overworked staff or a sloppy shortcut?",
+      "source": "The Guardian AI",
+      "published": "2026-09-27T15:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "07cbe82902b4bb7a6fe2d814",
+      "bodyFingerprint": "13f8fa2a0e3fe2b028d4cb40",
+      "bodyCharacterCount": 8711,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T18:27:19.385Z",
+      "assessment": {
+        "centralEvent": "Academics and AI marking: a welcome aid for overworked staff or a sloppy shortcut?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Because I think there’s always a risk, at the moment, for higher education to collapse”.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He calls this “verification drift”: after a few AI generated assessments appear fine, the human charged with its oversight – often overworked themselves – stops being as vigilant and AI hallucinations slip through as facts.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d0e5cca543fb14b801f9": {
+      "storyId": "d0e5cca543fb14b801f9",
+      "url": "https://techpolicy.press/at-the-un-and-in-washington-leaders-clash-on-approach-to-ai",
+      "title": "At the UN and in Washington, Leaders Clash on Approach to AI",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-27T16:03:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3f6f9b1611692bf19978073a",
+      "bodyFingerprint": "a0d84a7fd076666568e893cc",
+      "bodyCharacterCount": 14865,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T18:27:19.831Z",
+      "assessment": {
+        "centralEvent": "At the UN and in Washington, Leaders Clash on Approach to AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "We had a handful of pieces that addressed questions related to the US-China AI dialogue. \"Worms\" are a type of malware that can self-replicate and autonomously spread across networks.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "On Saturday, Axios reported that “OpenAI, Anthropic and security researchers are investigating tens of thousands of incidents in which their frontier models took steps that outside evaluators would consider problematic,” which is sure to ke",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "CEO of OpenAI Sam Altman speaks during a United Nations Security Council meeting on artificial intelligence and international security under “Maintenance of International Peace and Security” on September 23, 2026 in New York City.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Independent tech policy analyst Aahil Sheikh writes that this approach could restore control to users when platform-based safety measures fail.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The two leaders agreed to ongoing dialogue on AI issues and a communications channel to discuss serious AI security incidents.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.66,
+        "rawScore": 49.66,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.515,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-27T14:03:13.687Z"
+  "updatedAt": "2026-09-27T18:27:19.831Z"
 }
