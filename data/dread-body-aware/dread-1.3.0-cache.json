@@ -190239,8 +190239,147 @@
           "vulnerability": 0
         }
       }
+    },
+    "a44eac78d89310004eb8": {
+      "storyId": "a44eac78d89310004eb8",
+      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "source": "TechCrunch AI",
+      "published": "2026-09-27T01:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "89399ea9fe6dbfcd3cf46191",
+      "bodyFingerprint": "4ffd073061a3228f4d6a4842",
+      "bodyCharacterCount": 4873,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T08:14:31.688Z",
+      "assessment": {
+        "centralEvent": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The Flipkart test seen by TechCrunch appears different from the Google-hosted checkout experience the Gemini maker demonstrated earlier.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1d2186bd1aadf44e6499": {
+      "storyId": "1d2186bd1aadf44e6499",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/27/people-are-standing-up-and-fighting-back-north-devon-ai-datacentre",
+      "title": "‘People are standing up and fighting back’: the north Devon revolt against a vast AI datacentre",
+      "source": "The Guardian AI",
+      "published": "2026-09-27T07:00:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8b6a31af270fb96c9a897d50",
+      "bodyFingerprint": "e8946311a4d6e0cb993e8ddb",
+      "bodyCharacterCount": 11933,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-27T08:14:31.748Z",
+      "assessment": {
+        "centralEvent": "‘People are standing up and fighting back’: the north Devon revolt against a vast AI datacentre",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "She was one of the forces behind achieving a permanent datacentre ban in Coachella, California, over concerns about air pollution, water and energy use.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But according to research by the House of Commons Library, the government does not hold data on the projected land use required for the expansion, has no specific policies for their location, and has no definitive estimate of the number of ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“This is a global issue; we are all connected.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "She was one of the forces behind achieving a permanent datacentre ban in Coachella, California, over concerns about air pollution, water and energy use.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.73,
+        "rawScore": 48.73,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.43,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-27T01:29:55.405Z"
+  "updatedAt": "2026-09-27T08:14:31.748Z"
 }
