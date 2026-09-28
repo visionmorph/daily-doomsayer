@@ -191686,8 +191686,1852 @@
           "vulnerability": 0
         }
       }
+    },
+    "1928639318f8b8159ae2": {
+      "storyId": "1928639318f8b8159ae2",
+      "url": "https://www.inc.com/ray-fernandez/startup-company-data-prompt-ai-labs-agentic-infrastructure/91411070",
+      "title": "Is Your Company Handing Over Data to Frontier AI Labs?",
+      "source": "Inc. AI",
+      "published": "2026-09-28T15:02:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "afb0bd0424a0ac3ebddd0dde",
+      "bodyFingerprint": "b0ae51e7ff32feecc9cc231a",
+      "bodyCharacterCount": 93,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-28T15:32:10.396Z",
+      "assessment": {
+        "centralEvent": "Is Your Company Handing Over Data to Frontier AI Labs?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7efc194f98da4813c972": {
+      "storyId": "7efc194f98da4813c972",
+      "url": "https://www.inc.com/aaron-mok/drowning-in-email-use-this-chatgpt-voice-hack-to-hit-inbox-zero/91405963",
+      "title": "Drowning in Email? Use This ChatGPT Voice Hack to Hit Inbox Zero",
+      "source": "Inc. AI",
+      "published": "2026-09-28T14:57:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7071673ff353cad0391311c7",
+      "bodyFingerprint": "33132ee58325395840593564",
+      "bodyCharacterCount": 122,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-28T15:32:10.455Z",
+      "assessment": {
+        "centralEvent": "Drowning in Email? Use This ChatGPT Voice Hack to Hit Inbox Zero",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7fd200f9c5d61cd2345f": {
+      "storyId": "7fd200f9c5d61cd2345f",
+      "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action",
+      "title": "After a deepfake voice fooled her grandfather, this founder sprang into action",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0e9c62c0062c4c0befff3e7c",
+      "bodyFingerprint": "70e19b41d633a802c8747dc4",
+      "bodyCharacterCount": 5753,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:10.466Z",
+      "assessment": {
+        "centralEvent": "After a deepfake voice fooled her grandfather, this founder sprang into action",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "After a deepfake voice fooled her grandfather, this founder sprang into action",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "People 60 and older lost twice as much as those aged 50 to 59.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Padmanabhuni says she began working in machine learning at age 12 and later studied cyber-physical systems (technology that links software with physical machinery) at Manipal Institute of Technology in India, where she says she became the y",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d3c128888a84b05ea027": {
+      "storyId": "d3c128888a84b05ea027",
+      "url": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026",
+      "title": "Next five VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "33d3869be540c7083ab804fd",
+      "bodyFingerprint": "f89de6e1ac7e9b2153f125f5",
+      "bodyCharacterCount": 6502,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:10.477Z",
+      "assessment": {
+        "centralEvent": "Next five VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Hundreds of hours spent evaluating startups from around the world.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a437996218ff145394ce": {
+      "storyId": "a437996218ff145394ce",
+      "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite",
+      "title": "Modulate raises $25M for its voice models and analysis suite",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T14:05:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "87c83a99ee97093d9e0a5b35",
+      "bodyFingerprint": "7cafc62c55e4469651bc5e15",
+      "bodyCharacterCount": 5098,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:10.515Z",
+      "assessment": {
+        "centralEvent": "Modulate raises $25M for its voice models and analysis suite",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Modulate deploys its models to detect deepfake, fraud and scam",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Modulate raises $25M for its voice models and analysis suite",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Ivan Mehta Ivan covers global consumer tech developments at TechCrunch.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6262df1abeda30c3fbb1": {
+      "storyId": "6262df1abeda30c3fbb1",
+      "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round",
+      "title": "Insuretech Outmarket raises $34.5M just months after prior round",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b33330c8ad639552c6159956",
+      "bodyFingerprint": "f3b112aaf9625da6d78add28",
+      "bodyCharacterCount": 4024,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:10.536Z",
+      "assessment": {
+        "centralEvent": "Insuretech Outmarket raises $34.5M just months after prior round",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“There are over 250 different types of coverages that are out there, depending on what business you are and what risk you have and what you want to cover,” Sankhala said.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The new round, which comes four months after the startup’s $17 million Series A, valued the company at $355 million, according to a person familiar with the investment.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Ninety-five percent of insurance in the U.S. and worldwide is still sold through [human] agents, and when you look at sort of like how the process is today, it’s very manual,” Sankhala told TechCrunch.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Outcast is set to announce that it raised a $34.5 million Series B led by SignalFire, with participation from Fika Ventures, Permanent Capital Ventures, TTV Capital and Dash Fund.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.73,
+        "rawScore": 28.73,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.43,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "30c360deff16ab4b2ce1": {
+      "storyId": "30c360deff16ab4b2ce1",
+      "url": "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2",
+      "title": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is Oct. 2",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cfcd236b5c20c65fa67509d7",
+      "bodyFingerprint": "404e62447ae383e80b6f06e5",
+      "bodyCharacterCount": 4077,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:10.553Z",
+      "assessment": {
+        "centralEvent": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is Oct. 2",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "With an exhibit table , you can: Demo your product to potential investors, partners, and decision-makers Meet VCs actively looking for their next startup to add to their portfolio Capture leads through the Disrupt mobile app and invaluable ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "92b6078a9159e0aa77a9": {
+      "storyId": "92b6078a9159e0aa77a9",
+      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation",
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T13:38:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ce11b8af8cfcf94fbd6d82ec",
+      "bodyFingerprint": "a60502107a40e7fd31287911",
+      "bodyCharacterCount": 4302,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:10.570Z",
+      "assessment": {
+        "centralEvent": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a press release on Monday, Instinct confirmed this was a Series C round — a pretty quick growth round for a startup that launched its invite-only service in August 2026.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ae785329e8a58042fbe5": {
+      "storyId": "ae785329e8a58042fbe5",
+      "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
+      "title": "The SaaSpocalypse that wasn’t, with Atlassian CEO Mike Cannon-Brookes",
+      "source": "The Verge AI",
+      "published": "2026-09-28T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6a9f4f1dcc49fe11b8c5ef44",
+      "bodyFingerprint": "5ecccad6acc272c7388f7fdf",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:10.620Z",
+      "assessment": {
+        "centralEvent": "The SaaSpocalypse that wasn’t, with Atlassian CEO Mike Cannon-Brookes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "In March, you laid off about 10% of the company.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "If you think about that sales deal exception process that you just mentioned again there, if AI can take 80% of the exception — say this customer wants 45 days, not 30 days — and we can write a relatively readable document, AI is pretty goo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "They are global conglomerations of rules, compliance, laws, staff in different places, human inconsistency — which is the same as saying human creativity — that they’re putting it all together to try to deliver products and services for the",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "We’re trying to rebuild the web browser in a totally new form for knowledge workers who live in applications who have their browser open 80-90% of the day as their front surface area, and they want a better way of managing those application",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "This is very powerful and Amazon is furious about it and has blocked this web browser.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "But there was a time when I was the managing editor of The Verge and my job, straightforwardly, was to look at Trello every day and make sure everyone was doing the right thing at the right time.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 965,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.82,
+        "rawScore": 50.82,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.62,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "83b596142f1a968494e4": {
+      "storyId": "83b596142f1a968494e4",
+      "url": "https://www.theguardian.com/technology/2026/sep/28/ai-godfathers-warn-of-runaway-intelligence-explosion",
+      "title": "AI godfathers warn of runaway ‘intelligence explosion’",
+      "source": "The Guardian AI",
+      "published": "2026-09-28T15:00:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a0eccb414d43308d3d0657d6",
+      "bodyFingerprint": "9877783043e7b3a57bfdb715",
+      "bodyCharacterCount": 6349,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:10.638Z",
+      "assessment": {
+        "centralEvent": "AI godfathers warn of runaway ‘intelligence explosion’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Humanity might depend on it AI slowdown calls justified but collapse of bubble may be more immediate threat OpenAI ‘ethically hacked’ with help of Anthropic’s Claude chatbot OpenAI reveals cases of ‘concerning’ AI behaviour as it announces ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Preliminary evidence suggests that a software-driven intelligence explosion is possible,” the paper says, adding this would lead to the “extremely rapid development of highly capable or superhuman AI systems”. skip past newsletter promotio",
+            "matchedRule": "/\\b(?:still developing|preliminary|early findings?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma Launch of UK’s ‘largest AI superc",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Once AI systems reach expert-level capabilities at AI R&D, a single developer could run a workforce equivalent to “millions” of top human researchers, the paper says.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.41,
+        "rawScore": 47.41,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "64fdf8a89fbdaa8925dc": {
+      "storyId": "64fdf8a89fbdaa8925dc",
+      "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+      "title": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
+      "source": "The Verge AI",
+      "published": "2026-09-28T13:36:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fbe4a3ef4fce789e64a85a7d",
+      "bodyFingerprint": "7399e605db08e194ba7052d0",
+      "bodyCharacterCount": 4207,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:10.660Z",
+      "assessment": {
+        "centralEvent": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related OpenAI agents tried to ‘bruteforce’ a UN website One company is at the center of a wave of rogue AI attacks Concerns about AI safety have risen in recent weeks , as OpenAI , Anthropic , and Google have all revealed incidents where t",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Richard Lawler Sep 25 Most Popular Most Popular The smart home graveyard is getting crowded Googlebooks might be the real deal OpenAI agents tried to ‘bruteforce’ a UN website Why OLPC’s $100 laptop never stood a chance One company is at th",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Several major tech companies are backing Nvidia’s Open Agent Safety Platform, including Anthropic, Microsoft, and SpaceX.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Richard Lawler Sep 26 Bill Gates says regulate AI, because it’s powerful enough to cause a billion deaths.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9f36f404a2067592f2bd": {
+      "storyId": "9f36f404a2067592f2bd",
+      "url": "https://www.theguardian.com/technology/2026/sep/28/teachers-euan-blair-firm-report-horrendous-stress-ai-used-to-rate-their-work",
+      "title": "Teachers at Euan Blair firm report ‘horrendous stress’ after AI used to rate their work",
+      "source": "The Guardian AI",
+      "published": "2026-09-28T11:57:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9ffe0c90ba6e3c709742097b",
+      "bodyFingerprint": "4175afa4b5729b8598ad58d9",
+      "bodyCharacterCount": 10655,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:10.830Z",
+      "assessment": {
+        "centralEvent": "Teachers at Euan Blair firm report ‘horrendous stress’ after AI used to rate their work",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AI’s real threat is worker control and surveillance Read more With critics warning AI monitoring risks eroding human agency, one study has suggested it can backfire by turning workers rebellious and new research to be published this week re",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "I’ve gone through a lot of things in my life, and I haven’t ever been in a position where I’m waking up in the middle of the night.” Previously instructors were observed monthly by a human manager but are now watched for several hours a day",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "I don’t know why this is happening.” John Chadfield, the national tech officer at the CWU, said the public would be horrified to hear of bosses “deploying deeply intrusive surveillance on workers” but that “this news won’t surprise tech wor",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "What fails the standard is a PERVASIVE REPEATED pattern of filler, hedging or re-explanation.” When a trainer is setting a task “if the instructor is visibly confused themselves or had to self-correct while giving the instruction, that conf",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.13,
+        "rawScore": 48.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.375,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "11cfd2a3ca76a5ba8352": {
+      "storyId": "11cfd2a3ca76a5ba8352",
+      "url": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government",
+      "title": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
+      "source": "WIRED AI",
+      "published": "2026-09-28T11:32:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1d8f234dca3bf75a7a668803",
+      "bodyFingerprint": "500514ec8417fcddf19cfcc0",
+      "bodyCharacterCount": 5775,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:11.273Z",
+      "assessment": {
+        "centralEvent": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "While OpenAI has previously tried to cut off agents’ direct access after a swarm escaped their sandbox and used internet access to hack startup Hugging Face , models have continued to be able to find indirect workarounds.",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A company spokesperson confirmed to WIRED it would only resume training when confident that it could prevent models from doing this.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 65.65,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f8320cd56c6bd3c76743": {
+      "storyId": "f8320cd56c6bd3c76743",
+      "url": "https://techpolicy.press/what-nonwestern-governments-said-about-ai-at-the-un",
+      "title": "What Non-Western Governments Said About AI at the UN",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-28T14:57:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "631b9e8491c08b42f407343d",
+      "bodyFingerprint": "4a9afc4336183aa1c53389ff",
+      "bodyCharacterCount": 7443,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:11.347Z",
+      "assessment": {
+        "centralEvent": "What Non-Western Governments Said About AI at the UN",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Analysis What Non-Western Governments Said About AI at the UN Ramsha Jahangir, Justin Hendrix / Sep 28, 2026 Sam Altman (seated on top right end), CEO of OpenAI, arrives to speak at a UN Security Council meeting on Artificial Intelligence d",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2c747406de745ef043e3": {
+      "storyId": "2c747406de745ef043e3",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/28/ai-extinction-threats",
+      "title": "AI leaders have known about the extinction threat for decades | Judith Levine",
+      "source": "The Guardian AI",
+      "published": "2026-09-28T10:00:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f6288922a5797acfd734f811",
+      "bodyFingerprint": "b57d93ce88e647428fc77f39",
+      "bodyCharacterCount": 10013,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:11.393Z",
+      "assessment": {
+        "centralEvent": "AI leaders have known about the extinction threat for decades | Judith Levine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It’s not hypothetical: the dangers of AI are already here | Granate Kim and Mohamed Hussein Read more It was not until their creations’ powers were exposed in September – the hack happened in early July and was neither the first nor the onl",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In 2001, he founded the Machine Intelligence Research Institute (Miri) and published “ Creating Friendly AI 1.0: The analysis and design of benevolent architectures ”, a paper extolling the utopian potential of the “transhuman mind”.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It’s not hypothetical: the dangers of AI are already here | Granate Kim and Mohamed Hussein Read more It was not until their creations’ powers were exposed in September – the hack happened in early July and was neither the first nor the onl",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "By 2003, as he explained later in a series of posts called “ Yudkowsky’s Coming of Age ”, he stopped developing and started warning.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "47f0146b4a215a9e8dbc": {
+      "storyId": "47f0146b4a215a9e8dbc",
+      "url": "https://restofworld.org/2026/samsung-sk-hynix-ai-memory-chip-war-nvidia-openai",
+      "title": "South Korea’s AI chip giants are fighting for a bigger role in America’s AI boom",
+      "source": "Rest of World AI",
+      "published": "2026-09-28T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "128ec669f65f2891abe90b7e",
+      "bodyFingerprint": "1668003ceb4fd9f3fc8a9a34",
+      "bodyCharacterCount": 5621,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:11.472Z",
+      "assessment": {
+        "centralEvent": "South Korea’s AI chip giants are fighting for a bigger role in America’s AI boom",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Building relationships with alternative AI chip suppliers like AMD and Broadcom provide a secondary opportunity to build share.” Side effects of the U.S.-China chip war Both SK Hynix and Samsung remain deeply exposed to China, where they ha",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Rest of World/iStock By Ananya Bhattacharya 28 September 2026 Two South Korean companies control 83% of the global memory chip market.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d9eecfdcfb8e2661b047": {
+      "storyId": "d9eecfdcfb8e2661b047",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225030.htm",
+      "title": "Blood tests reveal why astronauts get constipated in space",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-28T12:49:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "00e14dacb11bd2ffcde8e7b1",
+      "bodyFingerprint": "a741acb662971d82b5785952",
+      "bodyCharacterCount": 11280,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:11.518Z",
+      "assessment": {
+        "centralEvent": "Blood tests reveal why astronauts get constipated in space",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The shift could help explain astronaut constipation and may have wider effects on health, making it an important concern for future missions to Mars.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "NASA Astronaut Suni Williams Retires After 608 Days in Space and Nine Spacewalks Jan.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Scientists analyzed blood samples from 52 astronauts who spent months aboard the International Space Station and found signs that the digestive system begins changing relatively soon after astronauts leave Earth. \"We see changes in astronau",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Explore More from ScienceDaily RELATED STORIES Scientists Finally Explain Why Chronic Constipation Treatments Often Fail Feb.",
+            "matchedRule": "/\\b(?:long-lasting|lasting damage|years to recover|chronic|only partially reversible)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 80,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.42,
+        "rawScore": 29.42,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4925,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 3,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "70fd75bdec7f1529b226": {
+      "storyId": "70fd75bdec7f1529b226",
+      "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs",
+      "title": "Microsoft goes quiet after church groups ask for 1% of data center costs",
+      "source": "Ars Technica AI",
+      "published": "2026-09-28T11:00:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8e4b5d079f021eb43b445f68",
+      "bodyFingerprint": "50e4daeedcab21e96e9768b5",
+      "bodyCharacterCount": 17840,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:11.631Z",
+      "assessment": {
+        "centralEvent": "Microsoft goes quiet after church groups ask for 1% of data center costs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They also expect such messaging could make it harder for officials seen as favoring corporate interests to win elections as data center backlash mounts nationwide .",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "During an interview with a local radio station, a different Microsoft rep confirmed that the proposal was not on his radar, said Andre Stoner, a former pastor and peace activist who leads We Make Indiana.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Bernie Sanders (I-Vt.) has introduced a plan for a national “sovereign wealth fund” that would force AI firms to donate as much as $7 trillion to benefit Americans.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A rumored Meta data center was blocked after the group rallied hundreds to pressure officials to vote against it at a public meeting that lasted until 4 am.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "We Make Indiana was disappointed to learn from a company liaison that Microsoft will only approve a series of one-time nonprofit donations totaling up to $1 million.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 112,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.96,
+        "rawScore": 27.96,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6fb8d323a664475248cd": {
+      "storyId": "6fb8d323a664475248cd",
+      "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+      "title": "New formulation helps RNA vaccines withstand high temperatures",
+      "source": "MIT News AI",
+      "published": "2026-09-28T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "37f070fa4c758b4c7a5aca58",
+      "bodyFingerprint": "d716844896d65a2407709704",
+      "bodyCharacterCount": 10068,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:11.701Z",
+      "assessment": {
+        "centralEvent": "New formulation helps RNA vaccines withstand high temperatures",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "One of the drawbacks to these vaccines is that they require ultracold storage, but researchers from MIT have found a promising way to overcome that limitation.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "667c4606e9398cc2ee04": {
+      "storyId": "667c4606e9398cc2ee04",
+      "url": "https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it",
+      "title": "AI Agents Are About to Flood the Workforce. No One’s Ready for It",
+      "source": "WIRED AI",
+      "published": "2026-09-28T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "74d000f898dcd9893583e253",
+      "bodyFingerprint": "7a2696e15842d2a1da39578a",
+      "bodyCharacterCount": 10415,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:11.747Z",
+      "assessment": {
+        "centralEvent": "AI Agents Are About to Flood the Workforce. No One’s Ready for It",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Read More Senior Writer Topics future of work Work artificial intelligence agentic AI Labor Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing The company is reducing pressure on workers to use artificial intelligence t",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Will Knight Why So Many AI Researchers Think the Machines Could Kill Everyone A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 77,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.99,
+        "rawScore": 24.99,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.09,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "15040965503de02f2b79": {
+      "storyId": "15040965503de02f2b79",
+      "url": "https://www.wired.com/story/solving-maths-greatest-problems-was-an-art-form-until-ai",
+      "title": "Solving Math’s Greatest Problems Was an Art Form. Then Came AI",
+      "source": "WIRED AI",
+      "published": "2026-09-28T09:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d629b81a1c00e1e124ff86d0",
+      "bodyFingerprint": "a651000f5ec6dc467c239769",
+      "bodyCharacterCount": 14307,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:11.955Z",
+      "assessment": {
+        "centralEvent": "Solving Math’s Greatest Problems Was an Art Form. Then Came AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They Can’t Quit It Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In the case of Navier-Stokes and other areas where AI systems have come up with proofs, the LLM demonstrated how to win a game, but Gavassino thinks the technology is still far from being able to invent new ones.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Will Knight Why So Many AI Researchers Think the Machines Could Kill Everyone A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 103,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.64,
+        "rawScore": 26.64,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "df5f6915d4248bed1221": {
+      "storyId": "df5f6915d4248bed1221",
+      "url": "https://www.wired.com/story/nvidias-answer-to-rogue-agents-is-an-open-source-ai-security-system",
+      "title": "Nvidia’s Answer to Rogue Agents Is an Open-Source AI Security System",
+      "source": "WIRED AI",
+      "published": "2026-09-28T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "46ea61faf2a3e552d4380303",
+      "bodyFingerprint": "8f93acc0f48540f4159e4b92",
+      "bodyCharacterCount": 9457,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:11.974Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s Answer to Rogue Agents Is an Open-Source AI Security System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Over the last few months, frontier AI labs have disclosed multiple incidents in which AI agents have hacked into other companies or, in more recent examples, probed official US and Australian government websites.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The company also says Anthropic and Nvidia are “building security into Claude Managed Agents.” Salesforce, Scale AI, and SAP are all confirmed to be integrating OpenShell to some degree.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In July Nvidia launched an industry-wide AI safety coalition that now comprises more than 120 companies.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Over the last few months, frontier AI labs have disclosed multiple incidents in which AI agents have hacked into other companies or, in more recent examples, probed official US and Australian government websites.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.8,
+        "rawScore": 47.8,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.345,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fed88d4ea82bf616c247": {
+      "storyId": "fed88d4ea82bf616c247",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925093158.htm",
+      "title": "James Webb reveals why planet formation is a race against time",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-28T12:02:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "81cbb4ff58cbae2b8209d203",
+      "bodyFingerprint": "bffe8eb261e5a3b56d9ac66d",
+      "bodyCharacterCount": 10039,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:12.082Z",
+      "assessment": {
+        "centralEvent": "James Webb reveals why planet formation is a race against time",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "By directly tracing molecular hydrogen in the new observations, Bajaj's team confirmed those predictions with JWST images.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 76,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c9331f8f627acf48afab": {
+      "storyId": "c9331f8f627acf48afab",
+      "url": "https://www.wired.com/story/the-next-evolution-of-ai-is-learning-from-your-dodgy-gaming-skills",
+      "title": "The Next Evolution of AI Is Learning From Your Dodgy Gaming Skills",
+      "source": "WIRED AI",
+      "published": "2026-09-28T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "edf5ce26eed5eefc3ffbb72c",
+      "bodyFingerprint": "4f491f33bf3680c1c871f5d3",
+      "bodyCharacterCount": 9002,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:12.095Z",
+      "assessment": {
+        "centralEvent": "The Next Evolution of AI Is Learning From Your Dodgy Gaming Skills",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dhruv Mehrotra How to Use AI With Your Privacy Intact Your conversations with AI chatbots are both highly personal and deeply vulnerable to surveillance.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“The cost of error with a car, plane, drone, factory forklift, or autonomous quadruped is very high.” Worldmodeldata says it has licensed almost 1 million hours' worth of data from studios behind various popular video games, though Loucas d",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Will Knight Why So Many AI Researchers Think the Machines Could Kill Everyone A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d754ac12a237fd6f0b27": {
+      "storyId": "d754ac12a237fd6f0b27",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/28/anthropic-will-not-appear-at-senate-inquiry-into-ai-and-datacentres-amid-fallout-from-openai-hack-ntwnfb",
+      "title": "Anthropic will not appear at Senate inquiry into AI and datacentres amid fallout from OpenAI hack",
+      "source": "The Guardian AI",
+      "published": "2026-09-28T08:00:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4b68d04a0d1d81887efa69d1",
+      "bodyFingerprint": "5cd9c4261e186ed97d6b4fea",
+      "bodyCharacterCount": 5911,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:12.410Z",
+      "assessment": {
+        "centralEvent": "Anthropic will not appear at Senate inquiry into AI and datacentres amid fallout from OpenAI hack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Company behind Claude chatbot expected to attend separate Australian government hearing on AI next week Get our new political email, free app or daily news podcast The chief executive of Anthropic will turn down an invitation to appear at a",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Gallagher said the investigation would take a matter of weeks to be completed but confirmed the statistical website accessed in the incident had been decommissioned and the data transferred to a new portal.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The company has made a submission to that committee in which Anthropic warned that governments had a critical role in reinforcing a responsible approach to AI by industry, while also arguing that frontier AI was not just an economic capabil",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Cabinet was briefed on the ongoing investigation on Monday, as the company continued to cooperate with Services Australia and the intelligence agency, the Australian Signals Directorate.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "An obscure German wiki site that was reportedly hijacked and used as a message board for the agents to communicate with each other included messages showing the agents tried and failed to access the AIHW website data over multiple days in J",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.45,
+        "rawScore": 48.45,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.405,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "84d1ade07a3a3829f9dd": {
+      "storyId": "84d1ade07a3a3829f9dd",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225041.htm",
+      "title": "Is the universe infinite? The answer gets weird fast",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-28T03:18:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "767b40e9474cf2b3ac89bb2b",
+      "bodyFingerprint": "106c069f211c7d1012196da5",
+      "bodyCharacterCount": 12040,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-28T15:32:12.775Z",
+      "assessment": {
+        "centralEvent": "Is the universe infinite? The answer gets weird fast",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "16, 2026  Scientists studying a mysterious effect called cosmic birefringence—a subtle twist in the polarization of the universe’s oldest light—have developed a new way to reduce uncertainty in how ...",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Astronomers can therefore compare the observed size of the CMB features with the size predicted for different cosmic geometries.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "One strategy is to look for repeated patterns in the cosmic microwave background.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 130,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.64,
+        "rawScore": 26.64,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-28T06:58:11.356Z"
+  "updatedAt": "2026-09-28T15:32:12.775Z"
 }
