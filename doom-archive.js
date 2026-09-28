@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-27T22:00:00.000Z",
+  "generatedAt": "2026-09-28T00:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-27",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-27",
           "firstObservedAt": "2026-09-27T08:00:00.000Z",
-          "lastObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 51.92
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-27",
           "firstObservedAt": "2026-09-27T08:00:00.000Z",
-          "lastObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-27",
           "firstObservedAt": "2026-09-27T08:00:00.000Z",
-          "lastObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 50.33
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_2026-09-26_Prince.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 49.99,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-27",
           "firstObservedAt": "2026-09-27T08:00:00.000Z",
-          "lastObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 49.99
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-27",
           "firstObservedAt": "2026-09-27T08:00:00.000Z",
-          "lastObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 49.94
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DataOne-drone-image-via-Sustain-SJ-1152x648.jpg",
           "peak": 49.83,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-27",
           "firstObservedAt": "2026-09-27T08:00:00.000Z",
-          "lastObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 49.83
         },
         {
@@ -129,25 +129,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-09-27",
           "firstObservedAt": "2026-09-27T08:00:00.000Z",
-          "lastObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 49.66
         },
         {
-          "storyId": "a1878a6bc0bda3547cd4",
-          "title": "US supreme court rejects Republican-drawn midterm map in Missouri for third time – as it happened",
-          "url": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/f56c9386312fca928956dfa8ac27216bea06f2e5/593_0_6882_5504/master/6882.jpg?width=800&dpr=2&s=none&crop=none",
+          "storyId": "d0e5cca543fb14b801f9",
+          "title": "At the UN and in Washington, Leaders Clash on Approach to AI",
+          "url": "https://techpolicy.press/at-the-un-and-in-washington-leaders-clash-on-approach-to-ai",
+          "source": "Tech Policy Press AI",
+          "image": "",
           "peak": 49.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-27",
-          "firstObservedAt": "2026-09-27T08:00:00.000Z",
-          "lastObservedAt": "2026-09-27T08:00:00.000Z",
+          "firstObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 49.66
         }
       ]
@@ -4238,11 +4238,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 22,
+          "observations": 23,
           "daysTracked": 5,
           "peakDate": "2026-09-23",
           "firstObservedAt": "2026-09-23T23:00:00.000Z",
-          "lastObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 51.92
         },
         {
@@ -4266,11 +4266,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 36,
+          "observations": 37,
           "daysTracked": 7,
           "peakDate": "2026-09-21",
           "firstObservedAt": "2026-09-21T06:00:00.000Z",
-          "lastObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -5063,11 +5063,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ab16fccade3d66cae78d5ff/191:100/w_1280,c_limit/AI-Lab-How-Bunch-of-AI-Agents-Planned-Casino-Heist-Business.jpg",
           "peak": 51.92,
-          "observations": 22,
+          "observations": 23,
           "daysTracked": 5,
           "peakDate": "2026-09-23",
           "firstObservedAt": "2026-09-23T23:00:00.000Z",
-          "lastObservedAt": "2026-09-27T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T00:00:00.000Z",
           "average": 51.92
         },
         {
