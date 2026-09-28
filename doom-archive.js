@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-28T15:00:00.000Z",
+  "generatedAt": "2026-09-28T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-28",
@@ -31,12 +31,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "ae785329e8a58042fbe5",
+          "title": "The SaaSpocalypse that wasn’t, with Atlassian CEO Mike Cannon-Brookes",
+          "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_2026-09-28_Cannon-Brookes.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-28",
+          "firstObservedAt": "2026-09-28T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
+          "average": 50.82
         },
         {
           "storyId": "90f6d0072d1d6af08876",
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 50.33
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 49.94
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DataOne-drone-image-via-Sustain-SJ-1152x648.jpg",
           "peak": 49.83,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 49.83
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 49.66
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 49.66
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c694/live/dc86c7a0-a870-11f1-bbad-43eaf67b94b6.jpg",
           "peak": 49.34,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "0ed705f5b130729c8e7e",
-          "title": "Secure Messaging and AI Remain In Conflict Despite the Promise of TEEs",
-          "url": "https://www.eff.org/deeplinks/2026/09/secure-messaging-and-ai-remain-conflict-despite-promise-tees",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
-          "peak": 48.95,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-28",
-          "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
-          "average": 48.95
         }
       ]
     },
@@ -4383,12 +4383,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "ae785329e8a58042fbe5",
+          "title": "The SaaSpocalypse that wasn’t, with Atlassian CEO Mike Cannon-Brookes",
+          "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_2026-09-28_Cannon-Brookes.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-28",
+          "firstObservedAt": "2026-09-28T22:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
+          "average": 50.82
         },
         {
           "storyId": "90f6d0072d1d6af08876",
@@ -4397,11 +4411,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 50.33
         },
         {
@@ -4425,11 +4439,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 49.94
         },
         {
@@ -4439,11 +4453,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DataOne-drone-image-via-Sustain-SJ-1152x648.jpg",
           "peak": 49.83,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 49.83
         },
         {
@@ -4453,11 +4467,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 49.66
         },
         {
@@ -4467,11 +4481,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 49.66
         },
         {
@@ -4481,26 +4495,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c694/live/dc86c7a0-a870-11f1-bbad-43eaf67b94b6.jpg",
           "peak": 49.34,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
+          "lastObservedAt": "2026-09-28T22:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "0ed705f5b130729c8e7e",
-          "title": "Secure Messaging and AI Remain In Conflict Despite the Promise of TEEs",
-          "url": "https://www.eff.org/deeplinks/2026/09/secure-messaging-and-ai-remain-conflict-despite-promise-tees",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
-          "peak": 48.95,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-28",
-          "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
-          "average": 48.95
         }
       ]
     },
