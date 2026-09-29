@@ -195893,8 +195893,561 @@
           "vulnerability": 0
         }
       }
+    },
+    "d08507c6dd8f3ff175b5": {
+      "storyId": "d08507c6dd8f3ff175b5",
+      "url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
+      "title": "The effects of an “algorithmic monoculture” depend on the details",
+      "source": "MIT News AI",
+      "published": "2026-09-29T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "451fa662c3d64655639385e1",
+      "bodyFingerprint": "aba579ac8bff5f88bfdf29e7",
+      "bodyCharacterCount": 10298,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T08:35:03.218Z",
+      "assessment": {
+        "centralEvent": "The effects of an “algorithmic monoculture” depend on the details",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Share this news article on: X Facebook LinkedIn Reddit Print Paper: “Algorithmic Monoculture and its Critics” Related Links Brian Hedden Manish Raghavan Laboratory for Information and Decision Systems Department of Linguistics and Philosoph",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "In a study focusing on hiring decisions, MIT researchers found the use of a single algorithm by many firms could benefit job seekers in certain situations.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Similarly, a handful of resume screening algorithms are commonly used by many Fortune 500 companies.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "In a study focusing on hiring decisions, MIT researchers found the use of a single algorithm by many firms could benefit job seekers in certain situations.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.97,
+        "rawScore": 46.97,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.27,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "30d3e0d4c51df52c56ae": {
+      "storyId": "30d3e0d4c51df52c56ae",
+      "url": "https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929",
+      "title": "Who we become when we talk to machines",
+      "source": "MIT News AI",
+      "published": "2026-09-29T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ced41ed7cbc2106f6e2f681b",
+      "bodyFingerprint": "02184c07c840c29f51917f4c",
+      "bodyCharacterCount": 11303,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T08:35:03.239Z",
+      "assessment": {
+        "centralEvent": "Who we become when we talk to machines",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In “Reclaiming Conversation” (2015), she documented the costs of texting and using social media.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ed80416146aa63da538e": {
+      "storyId": "ed80416146aa63da538e",
+      "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity",
+      "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T05:13:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "115091c26456703db0cc8426",
+      "bodyFingerprint": "21d7658c9eec32c8344328f3",
+      "bodyCharacterCount": 4662,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T08:35:03.278Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Another rival, Mark Zuckerberg, has meanwhile swatted away concerns , telling NBC News last week that he doesn’t “think that we need some kind of industrywide coordination.” The warnings follow a string of security incidents in which AI age",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Anthropic devoted nearly a third of its hotly anticipated IPO prospectus to risk factors, according to the Financial Times , which says it has reviewed the filing in recent days.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "CEO Dario Amodei has spent the month publicly calling to “ pace the frontier ” of AI development, telling the UN Security Council last week that AI could threaten humankind and calling it “the most important global security issue facing the",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c7503d652bf7aa0c685d": {
+      "storyId": "c7503d652bf7aa0c685d",
+      "url": "https://www.theguardian.com/business/live/2026/sep/29/anthropic-ipo-warning-existential-risks-to-humanity-from-ai-astrazeneca-2bn-cancer-drug-tie-up-diesel-stock-market-live-news-updates",
+      "title": "Anthropic warns of ‘existential risks to humanity’ from AI; AstraZeneca makes $2bn cancer drug tie-up – business live",
+      "source": "The Guardian AI",
+      "published": "2026-09-29T08:22:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "462defaac876caa9ae15523c",
+      "bodyFingerprint": "03a49bf2f98ee595e8a2e3e3",
+      "bodyCharacterCount": 12325,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T08:35:03.297Z",
+      "assessment": {
+        "centralEvent": "Anthropic warns of ‘existential risks to humanity’ from AI; AstraZeneca makes $2bn cancer drug tie-up – business live",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The Board of Vesuvius is evaluating the Latest Proposal carefully, including the financial terms and execution risk associated with the proposed transaction, together with its financial and legal advisers, and a further announcement will be",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "This is up from 5.91% the previous working day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "They say: The average 2-year fixed residential mortgage rate today is 5.93%.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "They say: The average 2-year fixed residential mortgage rate today is 5.93%.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.11,
+        "rawScore": 27.11,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2825,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1b8119791a8382425bd6": {
+      "storyId": "1b8119791a8382425bd6",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/29/ai-models-security-risk-agents-openai-independent-security",
+      "title": "As AI models go rogue, do you still trust OpenAI and Anthropic to stop them? I don’t and neither should you | Chris Stokel-Walker",
+      "source": "The Guardian AI",
+      "published": "2026-09-29T05:00:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a9abd4c9d0301ecc3467c7a7",
+      "bodyFingerprint": "e9dabe7e478e9d2f7ecb5846",
+      "bodyCharacterCount": 6631,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T08:35:03.311Z",
+      "assessment": {
+        "centralEvent": "As AI models go rogue, do you still trust OpenAI and Anthropic to stop them? I don’t and neither should you | Chris Stokel-Walker",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI says it has notified dozens of third parties affected by its agents, and that its review of past activity is still ongoing.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f48966a8b7ea6cb02b30": {
+      "storyId": "f48966a8b7ea6cb02b30",
+      "url": "https://www.theguardian.com/technology/2026/sep/29/openai-apology-rogue-agent-hacked-medicare-australian-government-websites",
+      "title": "‘New kind of cyber incident’: OpenAI apologises for Medicare hack and reveals extent of attack",
+      "source": "The Guardian AI",
+      "published": "2026-09-29T02:51:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5c47660cdec5cdc47775898c",
+      "bodyFingerprint": "79516c3a6341100572dffc02",
+      "bodyCharacterCount": 6470,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T08:35:03.344Z",
+      "assessment": {
+        "centralEvent": "‘New kind of cyber incident’: OpenAI apologises for Medicare hack and reveals extent of attack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The agent discovered an exposed access key to query the Victorian agency for health information’s reporting system to access aggregate survey statistics.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Guardian Australia reported on Monday that Anthropic would also appear at this hearing, but not at a Senate inquiry into AI and datacentres this week.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma Read more OpenAI said it would commit resources and expertise to affected agencies, and provide Australian government agencies with supp",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The company said on Tuesday it had “a lot of work ahead” to rebuild trust with Australians but said it was making “meaningful changes”.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Australian government agencies and industries will also be given credits out of OpenAI’s US$1bn (AU$1.4bn) Daybreak fund, which lets those organisations use frontier AI for cyberdefence, and to harden their systems by reviewing code and sys",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“And we’ve seen those risks exposed – not just in what occurred in Australia, but the revelation that has occurred in the United States and other countries as well.” The federal government has flagged it could introduce mandatory reporting ",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.06,
+        "rawScore": 49.06,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.46,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6372c0a197a978e3d953": {
+      "storyId": "6372c0a197a978e3d953",
+      "url": "https://www.politico.com/news/2026/09/28/do-better-for-australia-openai-apologizes-for-unauthorized-access-01096507",
+      "title": "‘Do better for Australia’: OpenAI apologizes for unauthorized access",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-29T03:19:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b0f7c38a0ecb07d2b7887ec0",
+      "bodyFingerprint": "bc5fec0546017894703dbfa7",
+      "bodyCharacterCount": 75,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-29T08:35:03.369Z",
+      "assessment": {
+        "centralEvent": "‘Do better for Australia’: OpenAI apologizes for unauthorized access",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "‘Do better for Australia’: OpenAI apologizes for unauthorized access",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd1c0b677b21e5e98611": {
+      "storyId": "bd1c0b677b21e5e98611",
+      "url": "https://news.sky.com/story/openai-scraps-release-of-new-ai-model-after-it-showed-higher-levels-of-deception-13593074",
+      "title": "OpenAI model shelved after showing 'higher levels of deception'",
+      "source": "Sky News AI",
+      "published": "2026-09-28T23:17:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "114ad2dd7fe9fc9a8e7ee9df",
+      "bodyFingerprint": "a4c88eb44259f316e4fabae7",
+      "bodyCharacterCount": 142,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-29T08:35:03.384Z",
+      "assessment": {
+        "centralEvent": "OpenAI model shelved after showing 'higher levels of deception'",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-29T02:00:21.768Z"
+  "updatedAt": "2026-09-29T08:35:03.384Z"
 }
