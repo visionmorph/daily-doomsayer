@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-29T08:00:00.000Z",
+  "generatedAt": "2026-09-29T15:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-29",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
           "peak": 52.06,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 52.06
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_2026-09-28_Cannon-Brookes.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.82,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 50.82
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 50.33
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 49.94
         },
         {
@@ -95,25 +95,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.83
         },
         {
-          "storyId": "43677b1cc9bd285cb046",
-          "title": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
-          "url": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
-          "peak": 49.66,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-09-29",
-          "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
-          "average": 49.66
-        },
-        {
           "storyId": "d0e5cca543fb14b801f9",
           "title": "At the UN and in Washington, Leaders Clash on Approach to AI",
           "url": "https://techpolicy.press/at-the-un-and-in-washington-leaders-clash-on-approach-to-ai",
           "source": "Tech Policy Press AI",
           "image": "",
+          "peak": 49.66,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-09-29",
+          "firstObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "average": 49.66
+        },
+        {
+          "storyId": "43677b1cc9bd285cb046",
+          "title": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
+          "url": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
           "observations": 1,
           "daysTracked": 1,
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c694/live/dc86c7a0-a870-11f1-bbad-43eaf67b94b6.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 49.34
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac1/live/580d3570-bbc8-11f1-bc1f-3f186ca4140c.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 49.34
         }
       ]
@@ -4514,11 +4514,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
           "peak": 52.06,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-29T02:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 52.06
         },
         {
@@ -4542,11 +4542,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -4556,11 +4556,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_2026-09-28_Cannon-Brookes.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.82,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T22:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 50.82
         },
         {
@@ -4570,11 +4570,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 50.33
         },
         {
@@ -4598,11 +4598,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 49.94
         },
         {
@@ -4620,25 +4620,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.83
         },
         {
-          "storyId": "43677b1cc9bd285cb046",
-          "title": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
-          "url": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
-          "peak": 49.66,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-09-28",
-          "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
-          "average": 49.66
-        },
-        {
           "storyId": "d0e5cca543fb14b801f9",
           "title": "At the UN and in Washington, Leaders Clash on Approach to AI",
           "url": "https://techpolicy.press/at-the-un-and-in-washington-leaders-clash-on-approach-to-ai",
           "source": "Tech Policy Press AI",
           "image": "",
+          "peak": 49.66,
+          "observations": 6,
+          "daysTracked": 2,
+          "peakDate": "2026-09-28",
+          "firstObservedAt": "2026-09-28T06:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "average": 49.66
+        },
+        {
+          "storyId": "43677b1cc9bd285cb046",
+          "title": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
+          "url": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
           "peak": 49.66,
           "observations": 5,
           "daysTracked": 2,
@@ -5498,11 +5498,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
           "peak": 52.06,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-29T02:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
+          "lastObservedAt": "2026-09-29T15:00:00.000Z",
           "average": 52.06
         },
         {
