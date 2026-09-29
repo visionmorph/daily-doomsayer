@@ -198582,8 +198582,2144 @@
           "vulnerability": 0
         }
       }
+    },
+    "7edfae31d25f46f7d9e1": {
+      "storyId": "7edfae31d25f46f7d9e1",
+      "url": "https://www.politico.com/news/2026/09/29/ai-execs-morally-binding-constitution-01097855",
+      "title": "Trump says tech execs signed ‘morally binding’ constitution",
+      "source": "POLITICO AI",
+      "published": "2026-09-29T20:29:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae8ee5ff0b6f5b20c745d7c8",
+      "bodyFingerprint": "2fce65dc0ac49ea805c5ce48",
+      "bodyCharacterCount": 134,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-29T20:50:56.589Z",
+      "assessment": {
+        "centralEvent": "Trump says tech execs signed ‘morally binding’ constitution",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ce7038776241850babc7": {
+      "storyId": "ce7038776241850babc7",
+      "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model",
+      "title": "OpenAI’s latest features take direct aim at the app store model",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T20:15:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "04f72f26924097595c24ff1f",
+      "bodyFingerprint": "b458c2c06c702d9e1e00a199",
+      "bodyCharacterCount": 7766,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.625Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s latest features take direct aim at the app store model",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image Credits: OpenAI Users get an incentive to use that channel too, because “ Sign in with ChatGPT ” will let them bring their AI allowance with them. (OpenAI has 16 launch partners on this effort, including Cognition’s Devin, Notion, Ver",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eb17e6acbf165ed75dcd": {
+      "storyId": "eb17e6acbf165ed75dcd",
+      "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation",
+      "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T19:52:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7583fc369ad6ceae64fd087b",
+      "bodyFingerprint": "a7cc291bc201e5650d73f556",
+      "bodyCharacterCount": 2431,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.640Z",
+      "assessment": {
+        "centralEvent": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite Lucas Ropek 3 hours ago AI OpenAI launches Dots, its",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3c1b26d98de1e701e609": {
+      "storyId": "3c1b26d98de1e701e609",
+      "url": "https://mashable.com/tech/openai-devday-2026-biggest-announcements",
+      "title": "The biggest announcements from OpenAI DevDay: Dots, GPT-6.1 Sol, Ultrafast",
+      "source": "Mashable AI",
+      "published": "2026-09-29T19:58:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f223e4974ede3213648dad34",
+      "bodyFingerprint": "5d7ad2bf5ff6f72099b7b171",
+      "bodyCharacterCount": 3545,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.649Z",
+      "assessment": {
+        "centralEvent": "The biggest announcements from OpenAI DevDay: Dots, GPT-6.1 Sol, Ultrafast",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenAI recently released GPT-6 Astra , an advanced new model, but it's also facing demands for much stricter regulation after its AI agents hacked third-party systems .",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to OpenAI, Dots work and complete tasks across existing context and connected applications.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cfe8d99517b6b7ed1eaf": {
+      "storyId": "cfe8d99517b6b7ed1eaf",
+      "url": "https://mashable.com/tech/openai-dev-day-dots-ai-agents",
+      "title": "OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026",
+      "source": "Mashable AI",
+      "published": "2026-09-29T19:15:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b1fca34fa6b10b7d5f90f326",
+      "bodyFingerprint": "f7748ddd3c811d71b3c4ab8c",
+      "bodyCharacterCount": 4017,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.679Z",
+      "assessment": {
+        "centralEvent": "OpenAI introduces Dots, a new always-on AI agent, at Dev Day 2026",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As Mashable has reported, AI agents with control over a user's apps, devices, and data can accomplish a wide variety of tasks , but the greater their access, the greater the potential cybersecurity risk .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "307512794fb64ad0dff7": {
+      "storyId": "307512794fb64ad0dff7",
+      "url": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_campaign=rss&at_medium=RSS",
+      "title": "OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
+      "source": "BBC News AI",
+      "published": "2026-09-29T19:17:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0bd18bd9d1d6d6fb6ec4f6f1",
+      "bodyFingerprint": "60d74a12e3165df8996b2106",
+      "bodyCharacterCount": 3016,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.698Z",
+      "assessment": {
+        "centralEvent": "OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And both companies have lately been clear that they believe AI poses a genuine risk on a large scale, be it to public infrastructure or public safety.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By Kali Hays Technology reporter , Reporting from San Francisco Published 1 hour ago OpenAI has chosen to rename new versions of artificial intelligence tools widely known as agents.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Speaking last week to the UN, Altman pleaded for \"national and international\" AI standards on measuring the capabilities of an AI tool, assessing related risks, AI safeguards, and the degree to which human oversight over such tools is maint",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "304a78164a85918e7d5f": {
+      "storyId": "304a78164a85918e7d5f",
+      "url": "https://www.bbc.co.uk/news/articles/cwly5lmvy38qo?at_campaign=rss&at_medium=RSS",
+      "title": "Trump rules out joint US-China venture to develop AI",
+      "source": "BBC News AI",
+      "published": "2026-09-29T20:24:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "05d0ccb726ae82fdd3f7f625",
+      "bodyFingerprint": "7afffdc4952e07fbca1acf25",
+      "bodyCharacterCount": 3589,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.706Z",
+      "assessment": {
+        "centralEvent": "Trump rules out joint US-China venture to develop AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The US president, however, has repeatedly shrugged off safety concerns, referring to them as a \"hoax\" and comparing them to the \"global warming scam\" he claims is \"being perpetrated by radical left Dumocrats\".",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics China-US relations China Artificial intelligence Donald Trump United States More on this story Trump-Xi summit: What wasn't said might matter the most Published 1 day ago Why Trump is all-in on AI despite the warnings Publish",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The US president, however, has repeatedly shrugged off safety concerns, referring to them as a \"hoax\" and comparing them to the \"global warming scam\" he claims is \"being perpetrated by radical left Dumocrats\".",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The two countries also established a new communications channel to prevent misunderstandings during AI-related incidents.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e2667af5263aa0701ab5": {
+      "storyId": "e2667af5263aa0701ab5",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyh?at_campaign=rss&at_medium=RSS",
+      "title": "Tech Life",
+      "source": "BBC News AI",
+      "published": "2026-09-29T19:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f41765406c104ce4185f8b15",
+      "bodyFingerprint": "ad1b07c16247ee88f95ee997",
+      "bodyCharacterCount": 759,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.710Z",
+      "assessment": {
+        "centralEvent": "Tech Life",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bdf8116cd7d58ff745bf": {
+      "storyId": "bdf8116cd7d58ff745bf",
+      "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents",
+      "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T18:35:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9bc9a37ec1f35e7801b73a2b",
+      "bodyFingerprint": "f577e73772844d4ad3235dd7",
+      "bodyCharacterCount": 6270,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.729Z",
+      "assessment": {
+        "centralEvent": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "That’s because OpenAI, in particular, could benefit from this tech, at least according to Hugging Face founder and CEO Clem Delangue (who just sold his company to Nvidia for $12.9 billion earlier this month ).",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ab407bcb07934e47c8be": {
+      "storyId": "ab407bcb07934e47c8be",
+      "url": "https://www.inc.com/sarah-bregel/maryland-tech-company-ciena-200-million-fund-ai-startups-and-data-center-startups/91411842",
+      "title": "A Maryland Tech Company Just Launched a $200 Million Fund to Invest in AI Startups and Data Center Tech",
+      "source": "Inc. AI",
+      "published": "2026-09-29T18:46:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3be8ec2079ec15f13f00827d",
+      "bodyFingerprint": "c124b96d7e22d8786ae4758b",
+      "bodyCharacterCount": 113,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-29T20:50:56.801Z",
+      "assessment": {
+        "centralEvent": "A Maryland Tech Company Just Launched a $200 Million Fund to Invest in AI Startups and Data Center Tech",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0650fde3416fc5bc9ceb": {
+      "storyId": "0650fde3416fc5bc9ceb",
+      "url": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack",
+      "title": "OpenAI Gets Sued Over the Hugging Face Hack",
+      "source": "WIRED AI",
+      "published": "2026-09-29T19:05:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "81159a0dbe89b0477a261a4c",
+      "bodyFingerprint": "3b6ac041804a80b5d5987c86",
+      "bodyCharacterCount": 7194,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.874Z",
+      "assessment": {
+        "centralEvent": "OpenAI Gets Sued Over the Hugging Face Hack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It alleges that OpenAI’s agents violated California’s Comprehensive Computer Data Access and Fraud Act (CDAFA) by breaching Hugging Face over the summer.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "So given that it didn’t seem like anyone else was going to do anything about this, we moved forward.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As governments weigh AI regulation amid both existential safety questions and economic and national security considerations, researchers and people around the world have increasingly called for accountability mechanisms for AI.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Protections built into mainstream, consumer AI systems have largely prevented mass rogue activity so far, but rapidly advancing capabilities in general, as well as situations where guardrails are suspended (such as in the Hugging Face case ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.02,
+        "rawScore": 47.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6513f9d2a8718a95705a": {
+      "storyId": "6513f9d2a8718a95705a",
+      "url": "https://www.wired.com/story/anthropic-says-it-discovered-a-crispr-like-system-now-what",
+      "title": "Anthropic Says It Discovered a Crispr-Like System. Now What?",
+      "source": "WIRED AI",
+      "published": "2026-09-29T18:03:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3a29b19ffcfd2b8f72685b9f",
+      "bodyFingerprint": "1fc64227b4e735df3bcb8d6c",
+      "bodyCharacterCount": 10731,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.900Z",
+      "assessment": {
+        "centralEvent": "Anthropic Says It Discovered a Crispr-Like System. Now What?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catch hundreds of AI child abuse ads Big Story: The search for Silicon Valley’s most p",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "According to Anthropic, about 950 Claude agents running simultaneously found the interesting genetic sequences in 21.5 hours.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Reece Rogers National Coffee Day Is a Good Excuse to Upgrade Your Coffee Setup From a $100 Keurig to a rare discount on a De’Longhi espresso machine, these WIRED-tested picks caught my eye.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0e2bb5739f098ce88af8": {
+      "storyId": "0e2bb5739f098ce88af8",
+      "url": "https://www.inc.com/annabel-burba/muse-for-small-business-can-analyze-months-of-customer-reviews-in-minutes/91411823",
+      "title": "Muse for Small Business Can Analyze Months of Customer Reviews in Minutes",
+      "source": "Inc. AI",
+      "published": "2026-09-29T17:53:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d0647d3a56a77210db73ca0c",
+      "bodyFingerprint": "4a44d61be809301fd40180a1",
+      "bodyCharacterCount": 116,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-29T20:50:56.901Z",
+      "assessment": {
+        "centralEvent": "Muse for Small Business Can Analyze Months of Customer Reviews in Minutes",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e2a232be530f75b6fb8c": {
+      "storyId": "e2a232be530f75b6fb8c",
+      "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite",
+      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T17:45:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6e832e4b18c03567ae37a6a3",
+      "bodyFingerprint": "90ee9e136e3480fd466aa21d",
+      "bodyCharacterCount": 3371,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.915Z",
+      "assessment": {
+        "centralEvent": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI also launched Pages, a companion word processor that the company describes as “a new type of document, built for human and agent collaboration.” It appears to be OpenAI’s answer to Google Docs and Microsoft Word.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "073cd16b5854aead08eb": {
+      "storyId": "073cd16b5854aead08eb",
+      "url": "https://www.inc.com/bree-fowler/the-best-strategy-to-protect-against-getting-hacked-is-surprisingly-old-school/91411679",
+      "title": "The Best Strategy to Protect Against Getting Hacked Is Surprisingly Old-School",
+      "source": "Inc. AI",
+      "published": "2026-09-29T17:23:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "02796625203a5587b72039a5",
+      "bodyFingerprint": "8fb35589ff9aafe3380a4f6b",
+      "bodyCharacterCount": 128,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-29T20:50:56.925Z",
+      "assessment": {
+        "centralEvent": "The Best Strategy to Protect Against Getting Hacked Is Surprisingly Old-School",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "The Best Strategy to Protect Against Getting Hacked Is Surprisingly Old-School",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "15dab461f6a8414af191": {
+      "storyId": "15dab461f6a8414af191",
+      "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience",
+      "title": "AI-powered app maker Wabi pivots to a messaging experience",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T17:20:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6ea677939beb992e2090b8d5",
+      "bodyFingerprint": "fd6c86717f1c1f597b625ed6",
+      "bodyCharacterCount": 4513,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.937Z",
+      "assessment": {
+        "centralEvent": "AI-powered app maker Wabi pivots to a messaging experience",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e6349844de066b99700b": {
+      "storyId": "e6349844de066b99700b",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar",
+      "title": "OpenAI launches Dots, its bubbly agentic avatar",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T17:17:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1054982e8d797d4f260af88d",
+      "bodyFingerprint": "41deacb42bca5bbcff2f80ff",
+      "bodyCharacterCount": 3293,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.951Z",
+      "assessment": {
+        "centralEvent": "OpenAI launches Dots, its bubbly agentic avatar",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In another, a scientist employs a dot to rerun analysis and investigate unexpected result as experimental data becomes available.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "07446bbf95c47d29a21b": {
+      "storyId": "07446bbf95c47d29a21b",
+      "url": "https://www.theguardian.com/technology/2026/sep/29/oura-ring-public-offering",
+      "title": "Smart ring maker Oura puts off initial public offering due to market ‘uncertainty’",
+      "source": "The Guardian AI",
+      "published": "2026-09-29T17:57:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6b8a93cf3d2dc47deef58599",
+      "bodyFingerprint": "a818bca613e8899e5201425d",
+      "bodyCharacterCount": 1878,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.959Z",
+      "assessment": {
+        "centralEvent": "Smart ring maker Oura puts off initial public offering due to market ‘uncertainty’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Smart ring maker Oura puts off initial public offering due to market ‘uncertainty’",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Researchers say the IPO market was off to a solid start but tailed off in the third quarter Smart ring maker Oura Inc says it is postponing a planned initial public offering due to market “uncertainty”.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6420a077037ecf99121b": {
+      "storyId": "6420a077037ecf99121b",
+      "url": "https://arstechnica.com/ai/2026/09/heres-what-actually-happened-in-openais-australian-govt-server-hack",
+      "title": "Here's what actually happened in OpenAI's Australian gov't server hack",
+      "source": "Ars Technica AI",
+      "published": "2026-09-29T18:11:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5d6d82fd1aa89b51a5e09d0b",
+      "bodyFingerprint": "447a1844bd9090910ec57423",
+      "bodyCharacterCount": 6606,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.978Z",
+      "assessment": {
+        "centralEvent": "Here's what actually happened in OpenAI's Australian gov't server hack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a newly published disclosure email that was sent to Australia’s Public Disclosure account earlier this month, OpenAI said its model had “identified a way to make the server carry out instructions sent through the public reporting interfa",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a newly published disclosure email that was sent to Australia’s Public Disclosure account earlier this month, OpenAI said its model had “identified a way to make the server carry out instructions sent through the public reporting interfa",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "With the benefit of hindsight, it’s hard to see why those kinds of protections were not in place in June, and whether they could have prevented a potential international incident in this case.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "With the benefit of hindsight, it’s hard to see why those kinds of protections were not in place in June, and whether they could have prevented a potential international incident in this case.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In public analyses of multiple “misalignment” incidents published earlier this month, OpenAI identified multiple instances of “reward hacking,” where an agent resorted to extreme methods to generate a better answer to a user’s prompt.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.23,
+        "rawScore": 48.23,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.385,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3e2da47f73a8838a90ac": {
+      "storyId": "3e2da47f73a8838a90ac",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less",
+      "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T17:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3825f53eec7c24bf40b11954",
+      "bodyFingerprint": "fbfdbe2ce094e1ad4964a4aa",
+      "bodyCharacterCount": 3419,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:56.992Z",
+      "assessment": {
+        "centralEvent": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "OpenAI claims it observed no attempts to circumvent the automated safety reviewer, consistent with GPT-6 Astra and GPT-6 Sol.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8998751e9ec322f2dfab": {
+      "storyId": "8998751e9ec322f2dfab",
+      "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations",
+      "title": "OpenAI expands ChatGPT’s plugins with app-like interfaces and automations",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T17:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b76ad1ed154d39aeac2fe62e",
+      "bodyFingerprint": "e3e66f51d1a1b514b2144f0d",
+      "bodyCharacterCount": 3350,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:57.002Z",
+      "assessment": {
+        "centralEvent": "OpenAI expands ChatGPT’s plugins with app-like interfaces and automations",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI also said it’s adding support for the proposed MCP Events specification, which would allow plugins to start automations based on events in a connected app.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "253bb9272cffb0483e82": {
+      "storyId": "253bb9272cffb0483e82",
+      "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices",
+      "title": "OpenAI gives Codex reusable cloud environments that work across devices",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T17:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8a208a1bc01b2d3e76d7f100",
+      "bodyFingerprint": "cd18076f980ba5a4b7bb5557",
+      "bodyCharacterCount": 4367,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:57.011Z",
+      "assessment": {
+        "centralEvent": "OpenAI gives Codex reusable cloud environments that work across devices",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4715e6b9f27d386db74b": {
+      "storyId": "4715e6b9f27d386db74b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
+      "title": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
+      "source": "The Verge AI",
+      "published": "2026-09-29T17:35:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1a34d8c13e4e0f5509be34a5",
+      "bodyFingerprint": "09df7a860f04e70fdc136380",
+      "bodyCharacterCount": 4767,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:57.035Z",
+      "assessment": {
+        "centralEvent": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A top House Democrat wants answers Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing OpenAI launches Dots, its Muse competitor Emma Roth 5:15 PM UTC Protesters gather at OpenAI’s DevDay Hayden Field 5:12 PM UTC OpenAI DevDay ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "032218cff42a1f4022f6": {
+      "storyId": "032218cff42a1f4022f6",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+      "title": "OpenAI launches Dots, its Muse competitor",
+      "source": "The Verge AI",
+      "published": "2026-09-29T17:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "02c746e5b8d5298296acefe2",
+      "bodyFingerprint": "5f4f7e0e8478626d79963db8",
+      "bodyCharacterCount": 5936,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:57.047Z",
+      "assessment": {
+        "centralEvent": "OpenAI launches Dots, its Muse competitor",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A top House Democrat wants answers Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’ Stevie Bonifield Two hours ago Protesters gath",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bfa9d50cf52c3e5ce991": {
+      "storyId": "bfa9d50cf52c3e5ce991",
+      "url": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out",
+      "title": "Can a chatbot fix the government maze? The White House is about to find out",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T16:55:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5e6ad143bbc3162ad28b117c",
+      "bodyFingerprint": "b92edadb04d8661f595c6148",
+      "bodyCharacterCount": 2611,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:57.051Z",
+      "assessment": {
+        "centralEvent": "Can a chatbot fix the government maze? The White House is about to find out",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI OpenAI’s latest features take direct aim at the app store model Sarah Perez 13 minutes ago AI Google is killing off Gemini’s Gems in favor of ‘skills’ S",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7b1e2c115f5f99856671": {
+      "storyId": "7b1e2c115f5f99856671",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
+      "title": "Protesters gather at OpenAI’s DevDay",
+      "source": "The Verge AI",
+      "published": "2026-09-29T17:12:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6d83638a3700f9237c045d15",
+      "bodyFingerprint": "4d87687f40d1bb7230b8f8cf",
+      "bodyCharacterCount": 5159,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:57.058Z",
+      "assessment": {
+        "centralEvent": "Protesters gather at OpenAI’s DevDay",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A top House Democrat wants answers Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’ Stevie Bonifield Two hours ago OpenAI launches",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cbd6a3f5d906c71697f7": {
+      "storyId": "cbd6a3f5d906c71697f7",
+      "url": "https://www.inc.com/lou-shipley/ai-startup-compensation-pay-employees-work-hard-win/91411799",
+      "title": "In the Age of AI, Don’t Pay Your People to Work Hard. Pay Them to Win",
+      "source": "Inc. AI",
+      "published": "2026-09-29T16:23:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1c458690b4d9aad4aeb5bc0",
+      "bodyFingerprint": "7b6959f50d6a07f4100db187",
+      "bodyCharacterCount": 132,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-29T20:50:57.061Z",
+      "assessment": {
+        "centralEvent": "In the Age of AI, Don’t Pay Your People to Work Hard. Pay Them to Win",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7a2b36a4880f0ce6bf64": {
+      "storyId": "7a2b36a4880f0ce6bf64",
+      "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help",
+      "title": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse",
+      "source": "WIRED AI",
+      "published": "2026-09-29T17:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f3ca9b4586264d904bb9ed72",
+      "bodyFingerprint": "bee76e24979279e7e66c100e",
+      "bodyCharacterCount": 7018,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:57.076Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catch hundreds of AI child abuse ads Big Story: The search for Silicon Valley’s most p",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jason Parham Top Petlibro Offers: 30% Off in September 2026 (Hydration Season) Save on Petlibro essentials, including automatic feeders, water fountains, and accessories to keep cats and dogs fed, hydrated, and comfortable every day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Users can start by controlling one Dot, but the company is expected to eventually roll out the ability to control multiple agents at the same time.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jason Parham Top Petlibro Offers: 30% Off in September 2026 (Hydration Season) Save on Petlibro essentials, including automatic feeders, water fountains, and accessories to keep cats and dogs fed, hydrated, and comfortable every day.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.02,
+        "rawScore": 48.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cf8c4186da9302ba8487": {
+      "storyId": "cf8c4186da9302ba8487",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
+      "title": "OpenAI DevDay 2026: The biggest news and announcements",
+      "source": "The Verge AI",
+      "published": "2026-09-29T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a580605cd9b55add51aa52a3",
+      "bodyFingerprint": "6866c89176f11747a09cb50c",
+      "bodyCharacterCount": 5204,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:57.089Z",
+      "assessment": {
+        "centralEvent": "OpenAI DevDay 2026: The biggest news and announcements",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The AI industry has been rocked by revelations of agents hacking outside companies, including OpenAI’s own models, which breached Hugging Face earlier this year.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Sam Altman, get off it, put people over profit,” said a group of protesters marching in a circle in front of a series of signs that spelled out “PEOPLE OVER PROFIT.” More than a dozen organizations came together to sponsor a rally outside ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f248e20027b3d4d8f4f9": {
+      "storyId": "f248e20027b3d4d8f4f9",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/29/even-george-osborne-might-be-a-nimby-if-an-ai-datacente-was-built-next-to-his-home",
+      "title": "Even George Osborne might be a nimby if an AI datacentre was built next to his home | Letters",
+      "source": "The Guardian AI",
+      "published": "2026-09-29T16:48:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "70b3c5dd0a211dd3971f8435",
+      "bodyFingerprint": "52487195e69d5f101c7ccaab",
+      "bodyCharacterCount": 1903,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:57.094Z",
+      "assessment": {
+        "centralEvent": "Even George Osborne might be a nimby if an AI datacentre was built next to his home | Letters",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The size of this proposed development is quite out of proportion to its location – larger than the town itself – and accessed by narrow lanes.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dac09fb649a2ca931a68": {
+      "storyId": "dac09fb649a2ca931a68",
+      "url": "https://www.inc.com/moses-jeanfrancois/quarter-of-anthropic-revenue-come-from-2-customers-experts-say-real-test-comes-next/91411817",
+      "title": "A Quarter of Anthropic’s Revenue Comes From 2 Customers. Experts Say the Real Test Comes Next",
+      "source": "Inc. AI",
+      "published": "2026-09-29T16:04:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b4ea1622dfe0b0532dccba63",
+      "bodyFingerprint": "d43c98a995bfa61063c59a64",
+      "bodyCharacterCount": 153,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-29T20:50:57.096Z",
+      "assessment": {
+        "centralEvent": "A Quarter of Anthropic’s Revenue Comes From 2 Customers. Experts Say the Real Test Comes Next",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Experts Say the Real Test Comes Next",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ced60dfd9894a1105425": {
+      "storyId": "ced60dfd9894a1105425",
+      "url": "https://www.inc.com/tomas-gorny/ai-trust-deficit-customer-service/91411835",
+      "title": "The ‘AI-Trust Deficit’ Is Real: How a Corporate Blindspot Handed Innovative Leaders a Huge Advantage",
+      "source": "Inc. AI",
+      "published": "2026-09-29T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "77a83ca5e72cdefb9f855094",
+      "bodyFingerprint": "8f9451491b5bf020b2c2a555",
+      "bodyCharacterCount": 100,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-29T20:50:57.097Z",
+      "assessment": {
+        "centralEvent": "The ‘AI-Trust Deficit’ Is Real: How a Corporate Blindspot Handed Innovative Leaders a Huge Advantage",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c988ef97e05a970582b8": {
+      "storyId": "c988ef97e05a970582b8",
+      "url": "https://www.inc.com/aaron-mok/how-a-new-chatgpt-integration-could-solve-the-biggest-e-commerce-shipping-headaches/91409492",
+      "title": "How a New ChatGPT Integration Could Solve the Biggest E-Commerce Shipping Headaches",
+      "source": "Inc. AI",
+      "published": "2026-09-29T16:03:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b1e8f37aacccc776cdb65d06",
+      "bodyFingerprint": "e479d1b27808577258b3d7c1",
+      "bodyCharacterCount": 140,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-29T20:50:57.099Z",
+      "assessment": {
+        "centralEvent": "How a New ChatGPT Integration Could Solve the Biggest E-Commerce Shipping Headaches",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e1057c7f8924cd8ac2cd": {
+      "storyId": "e1057c7f8924cd8ac2cd",
+      "url": "https://www.politico.eu/article/eu-to-trump-we-will-keep-pushing-for-global-ai-safety-rules",
+      "title": "EU to Trump: We will keep pushing for global AI safety rules",
+      "source": "POLITICO Europe AI",
+      "published": "2026-09-29T13:39:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "196d05bb96e5f43d7199a1ad",
+      "bodyFingerprint": "ac9be9c153f8bb37b5102dc2",
+      "bodyCharacterCount": 2226,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-29T20:50:57.310Z",
+      "assessment": {
+        "centralEvent": "EU to Trump: We will keep pushing for global AI safety rules",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "On Tuesday, OpenAI reportedly said it would not release its latest model out of safety concerns, while rival Anthropic will note AI's \"risk to humanity\" in its upcoming IPO documents. \"This summer, we have seen AI agents act in a ways we ma",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On Tuesday, OpenAI reportedly said it would not release its latest model out of safety concerns, while rival Anthropic will note AI's \"risk to humanity\" in its upcoming IPO documents. \"This summer, we have seen AI agents act in a ways we ma",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "EU to Trump: We will keep pushing for global AI safety rules",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-29T15:55:25.309Z"
+  "updatedAt": "2026-09-29T20:50:57.310Z"
 }
