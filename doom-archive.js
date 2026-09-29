@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-29T15:00:00.000Z",
+  "generatedAt": "2026-09-29T20:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-29",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
           "peak": 52.06,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
           "average": 52.06
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
           "average": 51.23
         },
         {
@@ -53,18 +53,46 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.82
         },
         {
+          "storyId": "ec719ae10932ea59e860",
+          "title": "The AI agents are spiraling out of control",
+          "url": "https://www.theguardian.com/global/2026/sep/28/ai-agents-spiral",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/af3c9637a7db6b20740131eb506b4866396715ab/482_0_2917_2333/master/2917.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-29",
+          "firstObservedAt": "2026-09-29T20:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
+          "average": 50.82
+        },
+        {
           "storyId": "90f6d0072d1d6af08876",
           "title": "Who Is AI Risk For? Centering People in the AI Risk Conversation",
           "url": "https://techpolicy.press/who-is-ai-risk-for-centering-people-in-the-ai-risk-conversation",
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
           "average": 50.33
+        },
+        {
+          "storyId": "47295a383120f58ab871",
+          "title": "RFK Jr outlines expansive vision for collecting US health data at Maha event",
+          "url": "https://www.theguardian.com/us-news/2026/sep/29/rfk-jr-collect-health-data",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/c830d61a3ff7d140ffd13b03fbb18a8d2c2e637b/572_0_5001_4000/master/5001.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.08,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-29",
+          "firstObservedAt": "2026-09-29T20:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
+          "average": 50.08
         },
         {
           "storyId": "6444114201a49ef09166",
@@ -73,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
           "average": 49.94
         },
         {
@@ -101,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-09-29",
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
           "average": 49.66
         },
         {
@@ -121,34 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-29T08:00:00.000Z",
           "lastObservedAt": "2026-09-29T08:00:00.000Z",
           "average": 49.66
-        },
-        {
-          "storyId": "cde4475b23a137345a37",
-          "title": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
-          "url": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c694/live/dc86c7a0-a870-11f1-bbad-43eaf67b94b6.jpg",
-          "peak": 49.34,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-29",
-          "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
-          "average": 49.34
-        },
-        {
-          "storyId": "38403d02ac3065f0d9a2",
-          "title": "OpenAI scraps rollout of new model over safety concerns",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac1/live/580d3570-bbc8-11f1-bc1f-3f186ca4140c.jpg",
-          "peak": 49.34,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-29",
-          "firstObservedAt": "2026-09-29T08:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
-          "average": 49.34
         }
       ]
     },
@@ -4514,11 +4514,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
           "peak": 52.06,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-29T02:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
           "average": 52.06
         },
         {
@@ -4542,11 +4542,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
           "average": 51.23
         },
         {
@@ -4564,18 +4564,46 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.82
         },
         {
+          "storyId": "ec719ae10932ea59e860",
+          "title": "The AI agents are spiraling out of control",
+          "url": "https://www.theguardian.com/global/2026/sep/28/ai-agents-spiral",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/af3c9637a7db6b20740131eb506b4866396715ab/482_0_2917_2333/master/2917.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-29",
+          "firstObservedAt": "2026-09-29T20:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
+          "average": 50.82
+        },
+        {
           "storyId": "90f6d0072d1d6af08876",
           "title": "Who Is AI Risk For? Centering People in the AI Risk Conversation",
           "url": "https://techpolicy.press/who-is-ai-risk-for-centering-people-in-the-ai-risk-conversation",
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
           "average": 50.33
+        },
+        {
+          "storyId": "47295a383120f58ab871",
+          "title": "RFK Jr outlines expansive vision for collecting US health data at Maha event",
+          "url": "https://www.theguardian.com/us-news/2026/sep/29/rfk-jr-collect-health-data",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/c830d61a3ff7d140ffd13b03fbb18a8d2c2e637b/572_0_5001_4000/master/5001.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.08,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-29",
+          "firstObservedAt": "2026-09-29T20:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
+          "average": 50.08
         },
         {
           "storyId": "89f9618650b31d06afa5",
@@ -4598,11 +4626,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
           "average": 49.94
         },
         {
@@ -4618,34 +4646,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
           "lastObservedAt": "2026-09-29T08:00:00.000Z",
           "average": 49.83
-        },
-        {
-          "storyId": "d0e5cca543fb14b801f9",
-          "title": "At the UN and in Washington, Leaders Clash on Approach to AI",
-          "url": "https://techpolicy.press/at-the-un-and-in-washington-leaders-clash-on-approach-to-ai",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.66,
-          "observations": 6,
-          "daysTracked": 2,
-          "peakDate": "2026-09-28",
-          "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
-          "average": 49.66
-        },
-        {
-          "storyId": "43677b1cc9bd285cb046",
-          "title": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
-          "url": "https://restofworld.org/2026/google-earth-ai-deepfake-iran-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_google_earth_doubt_final-768x432.jpg",
-          "peak": 49.66,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-09-28",
-          "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
-          "average": 49.66
         }
       ]
     },
@@ -5498,11 +5498,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
           "peak": 52.06,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-29T02:00:00.000Z",
-          "lastObservedAt": "2026-09-29T15:00:00.000Z",
+          "lastObservedAt": "2026-09-29T20:00:00.000Z",
           "average": 52.06
         },
         {
