@@ -201766,8 +201766,314 @@
           "vulnerability": 0
         }
       }
+    },
+    "5be68511f04cc9bd6bfa": {
+      "storyId": "5be68511f04cc9bd6bfa",
+      "url": "https://www.theguardian.com/film/2026/sep/30/ai-greta-garbo-stars-again-ball-bearing-advert",
+      "title": "Reanimated AI Greta Garbo stars again … in a ball-bearing advert",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T05:00:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a785afa0833cf001704ee9ba",
+      "bodyFingerprint": "79d27810e38150fe6a3a8da8",
+      "bodyCharacterCount": 5339,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T06:46:12.444Z",
+      "assessment": {
+        "centralEvent": "Reanimated AI Greta Garbo stars again ... in a ball-bearing advert",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At one point, she sounds like Liz Truss complaining about the “disgrace” of Britain’s cheese imports , when she says “around 20% of all global energy is lost to friction: a terrible waste”.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ab8ff23ee9c15b8d0655": {
+      "storyId": "ab8ff23ee9c15b8d0655",
+      "url": "https://www.bbc.co.uk/news/articles/cv5yjgrj4ello?at_campaign=rss&at_medium=RSS",
+      "title": "How AI is creating a UK super-museum and revealing our planet's history",
+      "source": "BBC News AI",
+      "published": "2026-09-30T00:46:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f95d0d5d2560c760f4b1a45c",
+      "bodyFingerprint": "26df544eca4197e74fe787cd",
+      "bodyCharacterCount": 7817,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T06:46:12.558Z",
+      "assessment": {
+        "centralEvent": "How AI is creating a UK super-museum and revealing our planet's history",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Kevin Church/BBC Image caption, Beetles that look as if they are gold plated are among the millions of specimens that will be available to view online By Pallab Ghosh , Science Correspondent , Kevin Church and Maddie Molloy Pu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "141a330d69d80da85571": {
+      "storyId": "141a330d69d80da85571",
+      "url": "https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_campaign=rss&at_medium=RSS",
+      "title": "Three takeaways from Trump's 'Super Intelligence' summit",
+      "source": "BBC News AI",
+      "published": "2026-09-30T04:01:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ac45d5318f16ab7e8c55aa75",
+      "bodyFingerprint": "ef0f1d2c6a492ebe64d16b6f",
+      "bodyCharacterCount": 6865,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T06:46:12.563Z",
+      "assessment": {
+        "centralEvent": "Three takeaways from Trump's 'Super Intelligence' summit",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Reuters Image caption, Trump met with top tech leaders at the White House on Tuesday to discuss AI By Osmond Chia Business reporter Published 30 September 2026, 03:41 BST Updated 2 hours ago US President Donald Trump hosted a ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "278a900edd7750656492": {
+      "storyId": "278a900edd7750656492",
+      "url": "https://www.theguardian.com/film/2026/sep/30/skf-advert-review-lets-hope-this-dull-ai-greta-garbo-is-not-the-future",
+      "title": "SKF advert review – let’s hope this dull AI Greta Garbo is not the future",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T05:00:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "009734429158d60d8a8efc73",
+      "bodyFingerprint": "9b645427939dd1cf06bd526b",
+      "bodyCharacterCount": 3541,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T06:46:12.583Z",
+      "assessment": {
+        "centralEvent": "SKF advert review – let’s hope this dull AI Greta Garbo is not the future",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In 1921, the 15-year-old future screen icon, then known as Greta Gustafsson, really did briefly appear in a promotional film for SKF. (This appears to have been an offshoot for the women’s clothing commercials she was doing at the time for ",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7109a2641261ad6a1ddd": {
+      "storyId": "7109a2641261ad6a1ddd",
+      "url": "https://thedispatch.com/article/florida-open-ai-injunction-altman-regulation",
+      "title": "Can Republican-Run Florida Lead the Way in AI Regulation?",
+      "source": "The Dispatch AI",
+      "published": "2026-09-30T05:01:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "58f763d3309b79fcaad02a6f",
+      "bodyFingerprint": "ed6f31074723c8ae49118c99",
+      "bodyCharacterCount": 4970,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T06:46:12.877Z",
+      "assessment": {
+        "centralEvent": "Can Republican-Run Florida Lead the Way in AI Regulation?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Before joining The Dispatch, he reported on crypto, most recently at Fortune Magazine.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-30T00:30:16.380Z"
+  "updatedAt": "2026-09-30T06:46:12.877Z"
 }
