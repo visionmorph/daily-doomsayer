@@ -203202,8 +203202,2583 @@
           "vulnerability": 0
         }
       }
+    },
+    "cf62474a33d2d5a6c67c": {
+      "storyId": "cf62474a33d2d5a6c67c",
+      "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents",
+      "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T19:00:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e883d70882c473187b9238f9",
+      "bodyFingerprint": "b94044ebc4fde2cfa915c507",
+      "bodyCharacterCount": 5242,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.634Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "However, there is clearly interest , according to the conversations on X.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eec5de6c9900bf841da9": {
+      "storyId": "eec5de6c9900bf841da9",
+      "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-america-gov-ai-chatbot",
+      "title": "Trump’s AI chatbot turns on its master",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T19:12:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e8e20fd35ea924decc0f4e40",
+      "bodyFingerprint": "d390fbaaa4669ce2549177a9",
+      "bodyCharacterCount": 4644,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.658Z",
+      "assessment": {
+        "centralEvent": "Trump’s AI chatbot turns on its master",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It stands ready to debunk his false claims on all sorts of things, including election fraud, inflation and the impact of wind turbines on whales.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "No conspiracy, no mystery, just a gift from a Russian oligarch Read more Unfortunately for Trump, America.gov – which, according to the executive order he signed, is a place where Americans can “receive accurate answers” to all sorts of que",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "It said there was no widespread voter fraud in the 2020 election, in contrast to Trump’s repeated, untrue claims.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.09,
+        "rawScore": 46.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.19,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "15e2cb3e524d4e55ad8b": {
+      "storyId": "15e2cb3e524d4e55ad8b",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves",
+      "title": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves",
+      "source": "Ars Technica AI",
+      "published": "2026-09-30T18:47:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "42f836a4d11316ae7f13c7ae",
+      "bodyFingerprint": "f25222eb9826aaffecd0865f",
+      "bodyCharacterCount": 10375,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.664Z",
+      "assessment": {
+        "centralEvent": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It would have been modeled after the Financial Industry Regulatory Authority, a nonprofit non-governmental group that protects against securities fraud.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "On Wednesday, the Federal Trade Commission also announced a broad investigation into potential consumer harms from rogue AI agents from firms like Anthropic and OpenAI, The New York Times reported .",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AI industry sources told Axios that “they were concerned self-policing would not solve the safety problem currently embroiling the industry.” Most glaringly, OpenAI, which has been behind several recent incidents, still doesn’t appear to kn",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.31,
+        "rawScore": 46.31,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.21,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ea85306d25eb7dc14f98": {
+      "storyId": "ea85306d25eb7dc14f98",
+      "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps",
+      "title": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development—Even Without AI",
+      "source": "WIRED AI",
+      "published": "2026-09-30T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a058bae4504be8e090326b63",
+      "bodyFingerprint": "f7ea0b482ec4b326731c05af",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.704Z",
+      "assessment": {
+        "centralEvent": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development—Even Without AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The name was leaked to the press about a decade ago, so FEMA officials decided to declassify the name, and that’s why Fugate could talk about it a little bit, and I was able to bring information to the table that lets your imagination kick ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Given the likelihood of a bioweapon coming back on its creator, it really does seem like any deliberate release would have to be a non-state actor who maybe doesn’t care so much whether they live or die.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "What I came to understand is that the only people crazy enough to deploy or release a biological weapon into the community, knowing full well that the blowback would be extraordinary and would create a pandemic around the world, would be so",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "What I came to understand is that the only people crazy enough to deploy or release a biological weapon into the community, knowing full well that the blowback would be extraordinary and would create a pandemic around the world, would be so",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The president declares the Insurrection Act, and at that point, as things really spiral out of control, the “continuity of government readiness” condition is lifted to Condition 1, which is the most extreme.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A “misuse” report Anthropic made public earlier this month detailed five cases in which foreign scientists tried to evade Claude’s guardrails on “gain of function” inquiries.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 150,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.82,
+        "rawScore": 50.82,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.62,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e58a056b5ceed21e622b": {
+      "storyId": "e58a056b5ceed21e622b",
+      "url": "https://www.inc.com/aaron-mok/cognitions-devin-can-now-tap-a-subscription-many-founders-already-pay-for/91412660",
+      "title": "Cognition’s Devin Can Now Tap a Subscription Many Founders Already Pay For",
+      "source": "Inc. AI",
+      "published": "2026-09-30T18:39:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "816fbe641eb986c6b47745a7",
+      "bodyFingerprint": "b60b340ea5c975b736d5021d",
+      "bodyCharacterCount": 146,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T19:23:52.706Z",
+      "assessment": {
+        "centralEvent": "Cognition’s Devin Can Now Tap a Subscription Many Founders Already Pay For",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9917c277a4e022e95ba7": {
+      "storyId": "9917c277a4e022e95ba7",
+      "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b",
+      "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T18:23:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b6b49c11191835895b89af63",
+      "bodyFingerprint": "8fd4780e464a70e4fb78486c",
+      "bodyCharacterCount": 2371,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.715Z",
+      "assessment": {
+        "centralEvent": "AI voice startup ElevenLabs doubles valuation to $22B",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation Marina Temkin 2 days ago AI ElevenLabs’ CEO on margins, IPO timing,",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d0e1658413df69bfded2": {
+      "storyId": "d0e1658413df69bfded2",
+      "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack",
+      "title": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack",
+      "source": "Ars Technica AI",
+      "published": "2026-09-30T18:25:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "726db8820f07f87a95860292",
+      "bodyFingerprint": "560b835c5ab675942e95a230",
+      "bodyCharacterCount": 6855,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.738Z",
+      "assessment": {
+        "centralEvent": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The lawsuit was filed by Legal Advocates for Safe Science & Technology (LASST), which said yesterday that the hack in which OpenAI “agents stole credentials, uploaded malicious files, and gained control over key parts of Hugging Face’s inte",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "LASST staff put dozens of work hours into responding to OpenAI’s unsafe development practices, the lawsuit said.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "47a49b1193d382f58d4d": {
+      "storyId": "47a49b1193d382f58d4d",
+      "url": "https://www.404media.co/chatgpt-fake-witnesses-testimony-stephen-aarons-new-mexico",
+      "title": "Lawyer Cites ChatGPT-Invented Fake Witnesses in Murder Appeal",
+      "source": "404 Media AI",
+      "published": "2026-09-30T18:15:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "86249803f32abb76b81524d2",
+      "bodyFingerprint": "dc5271dbf0216370e562a3f3",
+      "bodyCharacterCount": 5380,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.760Z",
+      "assessment": {
+        "centralEvent": "Lawyer Cites ChatGPT-Invented Fake Witnesses in Murder Appeal",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He “assumed” ChatGPT would generate a “bulletproof summary of proceedings.” Instead, ChatGPT generated false testimony from “wholly fabricated witnesses,” according to an order of direct contempt from the New Mexico Supreme Court.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4c43cdf35a2c87a72bb7": {
+      "storyId": "4c43cdf35a2c87a72bb7",
+      "url": "https://www.theguardian.com/us-news/2026/sep/30/ftc-investigation-anthropic-openai",
+      "title": "US trade regulator opens investigation into AI giants including Anthropic and OpenAI",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T18:35:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "69548f1960c637e9791313d2",
+      "bodyFingerprint": "17364141171192c35a3d996e",
+      "bodyCharacterCount": 2857,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.790Z",
+      "assessment": {
+        "centralEvent": "US trade regulator opens investigation into AI giants including Anthropic and OpenAI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Andrew Ferguson, the FTC chair, had concerns about the companies before AI agents developed by OpenAI hacked the open-source platform Hugging Face.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "FTC move is first official US enforcement ⁠action on rogue AI agents, following surge in incidents first reported in July The US’s main trade regulator is conducting an industry-wide investigation ⁠into Anthropic, OpenAI and other ⁠AI labs ",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The incident, in which OpenAI agents probed the AI coding hub for vulnerabilities before carrying out a large-scale attack, sparked global discussion of the issue.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "FTC move is first official US enforcement ⁠action on rogue AI agents, following surge in incidents first reported in July The US’s main trade regulator is conducting an industry-wide investigation ⁠into Anthropic, OpenAI and other ⁠AI labs ",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.96,
+        "rawScore": 47.96,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7c1ab39a3f3f47469474": {
+      "storyId": "7c1ab39a3f3f47469474",
+      "url": "https://mashable.com/tech/meta-muse-ai-private-messages-permission",
+      "title": "Did Muse read private texts without permission? Meta says it couldn’t.",
+      "source": "Mashable AI",
+      "published": "2026-09-30T18:42:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1ed3ffc17c24c1d06a3a2e7d",
+      "bodyFingerprint": "acc3c7818843d417a94d124a",
+      "bodyCharacterCount": 4620,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.796Z",
+      "assessment": {
+        "centralEvent": "Did Muse read private texts without permission? Meta says it couldn’t.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Meta denies claims its Muse AI agent read private Apple Messages without permission after a journalist reported unexpected access.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e637e73511fd9be6fe53": {
+      "storyId": "e637e73511fd9be6fe53",
+      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots",
+      "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T17:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1ddc00de8d37ad8a73b344a6",
+      "bodyFingerprint": "88b15a2b302aa2429d273879",
+      "bodyCharacterCount": 5060,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.802Z",
+      "assessment": {
+        "centralEvent": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Reddit says RSS has now become a “common surface for large-scale scraping and automated abuse,” which is why it’s made the decision to wind down RSS feeds on its platform.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The latter will include limiting access to logged-in moderators and recent users — changes Reddit also said were required because of “abusive scraping and automated traffic.” Reddit said in the next few months it will limit access for logge",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The RSS change was one of several updates issued on Wednesday by the company.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "218cab42c4611ca6f909": {
+      "storyId": "218cab42c4611ca6f909",
+      "url": "https://www.inc.com/marcel-schwantes/the-future-of-work-will-come-down-to-2-types-of-companies-that-see-ai-very-differently/91411841",
+      "title": "The Future of Work Will Come Down to 2 Types of Companies That See AI Very Differently",
+      "source": "Inc. AI",
+      "published": "2026-09-30T17:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e37a66c7bf862c87cf138e57",
+      "bodyFingerprint": "0875ae9ccf4fed0e04936ce8",
+      "bodyCharacterCount": 116,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T19:23:52.805Z",
+      "assessment": {
+        "centralEvent": "The Future of Work Will Come Down to 2 Types of Companies That See AI Very Differently",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a8d59171d38049116b63": {
+      "storyId": "a8d59171d38049116b63",
+      "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai",
+      "title": "The ugly economics of consumer AI",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T17:24:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a81ea0164d6a56428fb6c8c5",
+      "bodyFingerprint": "4211c0f36be8814c9c9a45c6",
+      "bodyCharacterCount": 6166,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.812Z",
+      "assessment": {
+        "centralEvent": "The ugly economics of consumer AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The company’s widely reported pivot to enterprise has been largely successful, with enterprise bookings reportedly doubling since July.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6894c5a065ddff2bfaea": {
+      "storyId": "6894c5a065ddff2bfaea",
+      "url": "https://www.theguardian.com/us-news/2026/sep/30/senate-datacenter-energy-bill",
+      "title": "Senate Democrats block datacenter energy bill, saying ‘toothless’ legislation ‘misses the mark’",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T17:48:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "70d1ddba450d2102cbe58832",
+      "bodyFingerprint": "82a169b39a75917e02062410",
+      "bodyCharacterCount": 3876,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.827Z",
+      "assessment": {
+        "centralEvent": "Senate Democrats block datacenter energy bill, saying ‘toothless’ legislation ‘misses the mark’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Datacenter construction and electricity consumption has grown in recent years amid advances in AI and other technologies, and with it has come increasing anxiety among voters about the facilities’ impacts on their energy bills. skip past ne",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Detroit residents protest DTE Energy's plan to provide power for a proposed $7bn datacenter in rural Michigan, on 3 December 2025.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Republicans supported legislation although Democrats said it wouldn’t effectively address energy consumption Senate Democrats on Wednesday blocked legislation intended to offset the impact of datacenters on consumer electricity bills, calli",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.05,
+        "rawScore": 45.05,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bedad874f5a39513d56d": {
+      "storyId": "bedad874f5a39513d56d",
+      "url": "https://www.inc.com/stephanie-davis/ai-startup-founders-ryan-levesque-book-return-to-real/91412167",
+      "title": "AI Is Changing What People Value. Smart Founders Are Changing What They Build",
+      "source": "Inc. AI",
+      "published": "2026-09-30T16:55:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "71858eec1fcb7f636c2591f5",
+      "bodyFingerprint": "82e2ed130e387b59617be4d8",
+      "bodyCharacterCount": 157,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T19:23:52.830Z",
+      "assessment": {
+        "centralEvent": "AI Is Changing What People Value. Smart Founders Are Changing What They Build",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "afbc17700e934e1b45e4": {
+      "storyId": "afbc17700e934e1b45e4",
+      "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission",
+      "title": "Meta disputes claim that Muse read a user’s private messages without permission",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T16:24:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "891f7f252303cfce0309ec0c",
+      "bodyFingerprint": "b9bbb2aff6af54c7e14b3e03",
+      "bodyCharacterCount": 5197,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.839Z",
+      "assessment": {
+        "centralEvent": "Meta disputes claim that Muse read a user’s private messages without permission",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3d09c9ead0a45c93597e": {
+      "storyId": "3d09c9ead0a45c93597e",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+      "title": "Here’s what AI leaders are saying about Trump’s new safety plan",
+      "source": "The Verge AI",
+      "published": "2026-09-30T17:15:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e8a0fb2f18b90547eb06e1cd",
+      "bodyFingerprint": "d18eef139b3da5c1392a2fd2",
+      "bodyCharacterCount": 7979,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.869Z",
+      "assessment": {
+        "centralEvent": "Here’s what AI leaders are saying about Trump’s new safety plan",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "What a great life.” Pichai did not seem amused by this despite awkwardly laughing it off.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e1f60c1c2506179f52db": {
+      "storyId": "e1f60c1c2506179f52db",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+      "title": "The AI Tamagotchis are coming",
+      "source": "The Verge AI",
+      "published": "2026-09-30T18:07:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1b997e0516f94fc17d4a0a83",
+      "bodyFingerprint": "343ceb1ebdb1cac3a72e710b",
+      "bodyCharacterCount": 6412,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.874Z",
+      "assessment": {
+        "centralEvent": "The AI Tamagotchis are coming",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Dedicated AI devices like the Friend and Humane AI Pin have inspired mainly frustration and backlash, which may only worsen as public anger against AI grows.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters Sep 29 Most Popular Most Popular Apple’s ‘HomePad’ will reportedly launch on October 13th OpenAI launches Dots, its Muse competitor Your car’s data privacy problems are worse than you think Samsung gives its two-year-old Galaxy T",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "50f190ff33200bc6d5ff": {
+      "storyId": "50f190ff33200bc6d5ff",
+      "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food",
+      "title": "DoorDash launches an AI agent you can text to order food",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T16:00:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "49ec79d4031e4f953cda624f",
+      "bodyFingerprint": "aaae468c28f9186d6331e02d",
+      "bodyCharacterCount": 2236,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.881Z",
+      "assessment": {
+        "centralEvent": "DoorDash launches an AI agent you can text to order food",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI Meta is expanding its AI agent Muse to small businesses Aisha Malik 1 day ago Startups Ex-Tesla team raises $12.5M to put supply chains on autopilot Sea",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "184992c63836d3b5269d": {
+      "storyId": "184992c63836d3b5269d",
+      "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-ai-accord-spelling-error",
+      "title": "‘President of the Unites States’: White House’s AI accord includes spelling error",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T16:11:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a22651a09afc5556bee7c474",
+      "bodyFingerprint": "e9e1e70ffeb8b6e783f71cca",
+      "bodyCharacterCount": 3751,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.893Z",
+      "assessment": {
+        "centralEvent": "‘President of the Unites States’: White House’s AI accord includes spelling error",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It is unclear how the misspelling occurred or whether it will appear in the Federal Register, the database that contains official presidential actions and other government documents.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "620277cbc15ab949875f": {
+      "storyId": "620277cbc15ab949875f",
+      "url": "https://www.inc.com/netta-jenkins/adviser-or-ai-why-people-are-asking-chatbots-their-money-questions-first/91411171",
+      "title": "Adviser or AI? Why People Are Asking Chatbots Their Money Questions First",
+      "source": "Inc. AI",
+      "published": "2026-09-30T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5a14e591892b90a7d880db64",
+      "bodyFingerprint": "1ec12ef17f8dc532b0053433",
+      "bodyCharacterCount": 59,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T19:23:52.898Z",
+      "assessment": {
+        "centralEvent": "Adviser or AI? Why People Are Asking Chatbots Their Money Questions First",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2ed1894955472c34b08b": {
+      "storyId": "2ed1894955472c34b08b",
+      "url": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page",
+      "title": "Destro AI’s secret sauce is getting robots and humans on the same page",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1742a4fffdeed9e0c5205c77",
+      "bodyFingerprint": "d01e22c2f7b499191d8c06c9",
+      "bodyCharacterCount": 7290,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.905Z",
+      "assessment": {
+        "centralEvent": "Destro AI’s secret sauce is getting robots and humans on the same page",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The best path to successfully deploying a robot is not building one at all, according to Destro, a startup that came out of stealth Tuesday with an $8 million seed round.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c8e84b1169e0f8f3de69": {
+      "storyId": "c8e84b1169e0f8f3de69",
+      "url": "https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-amounts-are-tiny",
+      "title": "Google's early attempt to pay websites for AI answers is struggling",
+      "source": "Ars Technica AI",
+      "published": "2026-09-30T16:03:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2a1b50619bb4628618161adc",
+      "bodyFingerprint": "df679f9511745ad8d065594b",
+      "bodyCharacterCount": 5185,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.914Z",
+      "assessment": {
+        "centralEvent": "Google's early attempt to pay websites for AI answers is struggling",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to The Information , Google has admitted about 100 publishers to the AI contribution pilot.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d7273c0551bf0d660ed0": {
+      "storyId": "d7273c0551bf0d660ed0",
+      "url": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick",
+      "title": "Instinct’s new product recommendations are giving some users the ick",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T15:56:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "09f96e5b58926cb1c7e38937",
+      "bodyFingerprint": "02036c7794f65d79c972a46e",
+      "bodyCharacterCount": 6222,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.924Z",
+      "assessment": {
+        "centralEvent": "Instinct’s new product recommendations are giving some users the ick",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "At least make me a personalized shopping list of things I actually need!! https://t.co/hmH2iiE8lF pic.twitter.com/TNQIEwK9z2 — Shruti Gandhi / Array VC preseed rounds (@atShruti) September 29, 2026 Another entrepreneur, Andrew Yeung, confir",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "af4c8dc5b4944fab3692": {
+      "storyId": "af4c8dc5b4944fab3692",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+      "title": "All the latest news on Meta’s cute, creepy Muse AI agent",
+      "source": "The Verge AI",
+      "published": "2026-09-30T15:18:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b50632d979bde359a1dc9c40",
+      "bodyFingerprint": "0e27e27cb586ab46d4d7aae5",
+      "bodyCharacterCount": 17085,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:52.943Z",
+      "assessment": {
+        "centralEvent": "All the latest news on Meta’s cute, creepy Muse AI agent",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Image: The Verge Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "I’d asked for a workout regimen for a sub-30 minute 5K and regaining lost muscle.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Animation: Verge Staff Read Article > Sep 21 Jess Weatherbed Amazon blocks Meta’s Muse AI agent Image: The Verge Meta’s Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 124,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.7,
+        "rawScore": 26.7,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "30adc0707984e54450d5": {
+      "storyId": "30adc0707984e54450d5",
+      "url": "https://www.theguardian.com/culture/2026/sep/30/seth-meyers-trump-federal-funds-ai",
+      "title": "Seth Meyers on Trump canceling $1bn in federal funds: ‘Is he adding a waterslide to the reflecting pool?’",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T15:46:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5f0b0d51902899a05a1d6a18",
+      "bodyFingerprint": "4e5afea41a523009ad750a17",
+      "bodyCharacterCount": 4526,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.038Z",
+      "assessment": {
+        "centralEvent": "Seth Meyers on Trump canceling $1bn in federal funds: ‘Is he adding a waterslide to the reflecting pool?’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The White House has also rebuked criticism of taxpayer-funded TV ads .",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Is he adding a waterslide?” Meyers closed his monologue with news that the makers of a smart glasses brand have recalled frames after customers reported them overheating and causing burns.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "17f635e65de8780754dc": {
+      "storyId": "17f635e65de8780754dc",
+      "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
+      "title": "MIT Transit Lab to develop an AI platform for public transit agencies",
+      "source": "MIT News AI",
+      "published": "2026-09-30T15:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "25e533ac19d4f1509349418f",
+      "bodyFingerprint": "f140310e7082b67bfc283d6c",
+      "bodyCharacterCount": 7377,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.047Z",
+      "assessment": {
+        "centralEvent": "MIT Transit Lab to develop an AI platform for public transit agencies",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“We expect that PTIQ will take what is largely a siloed environment and connect it in ways that provide powerful benefits for the agency workforce and its riders,” says Aloisi, who is also a former secretary of transportation for the Common",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7da2fad95c73d56cb5c3": {
+      "storyId": "7da2fad95c73d56cb5c3",
+      "url": "https://www.eff.org/deeplinks/2026/09/hey-siri-how-do-i-limit-ai-data-access-effector-3817",
+      "title": "📱 Hey Siri, How Do I Limit AI Data Access? | EFFector 38.17",
+      "source": "EFF AI",
+      "published": "2026-09-30T16:45:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7194d8adb71f096f8eaf214d",
+      "bodyFingerprint": "52ddab6ca73e22f512c84151",
+      "bodyCharacterCount": 1512,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.049Z",
+      "assessment": {
+        "centralEvent": "📱 Hey Siri, How Do I Limit AI Data Access? | EFFector 38.17",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ab3ea875398eeff5c861": {
+      "storyId": "ab3ea875398eeff5c861",
+      "url": "https://www.inc.com/netta-jenkins/ai-adoption-forget-training-this-company-gives-employees-time-off-to-build-with-claude/91410278",
+      "title": "Forget AI Training. This Company Gives Employees Time Off to Build With Claude",
+      "source": "Inc. AI",
+      "published": "2026-09-30T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "591e477f22920c60f1201130",
+      "bodyFingerprint": "f3e1db1aa3a743219353ecb6",
+      "bodyCharacterCount": 53,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T19:23:53.058Z",
+      "assessment": {
+        "centralEvent": "Forget AI Training. This Company Gives Employees Time Off to Build With Claude",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "03dddcc866a982e13bdd": {
+      "storyId": "03dddcc866a982e13bdd",
+      "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+      "title": "This game-playing AI is the new champ at Stratego",
+      "source": "MIT News AI",
+      "published": "2026-09-30T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9f9a0f7d88e1158f041fef0a",
+      "bodyFingerprint": "debc18a708b3f762161164de",
+      "bodyCharacterCount": 9722,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.062Z",
+      "assessment": {
+        "centralEvent": "This game-playing AI is the new champ at Stratego",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A human might start freaking out if their most valuable piece is exposed, but the bot can be surprisingly composed.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The research appears today in Nature .",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "This research is funded, in part, by the Office of Naval Research, the New York University Department of Civil and Urban Engineering, the C2SMART Center, the National Science Foundation, and a Schmidt Sciences AI2050 Early Career Fellowship",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "842d4475124f13ead327": {
+      "storyId": "842d4475124f13ead327",
+      "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
+      "title": "Google reportedly tests paying publishers for AI search results",
+      "source": "The Verge AI",
+      "published": "2026-09-30T14:51:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a57fdb7fe0e94e9bcf058dc3",
+      "bodyFingerprint": "85dcfcb0987adf41af8dca45",
+      "bodyCharacterCount": 3599,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.072Z",
+      "assessment": {
+        "centralEvent": "Google reportedly tests paying publishers for AI search results",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Google further buries search results under AI mode Sundar Pichai on AI, the future of search, and what’s happening to the web Google’s AI-focused search changes have not only drawn criticism and lawsuits from publishers , but also f",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Google News Tech Most Popular Most Popular Apple’s ‘HomePad’ will reportedly launch on October 13th OpenAI launches Dots, its Muse competitor Your car’s data privacy problems are worse than you think Samsung gives its two-year-",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "80d6abafb0a0d295face": {
+      "storyId": "80d6abafb0a0d295face",
+      "url": "https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube",
+      "title": "Instagram is adding an AI ‘assistant’ to tell you how to post",
+      "source": "The Verge AI",
+      "published": "2026-09-30T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7e9fb3849d19f6f1efac1db6",
+      "bodyFingerprint": "517987d8cd8f11171ab6de7e",
+      "bodyCharacterCount": 5455,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.078Z",
+      "assessment": {
+        "centralEvent": "Instagram is adding an AI ‘assistant’ to tell you how to post",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Mia Sato AI Creators Instagram Meta Tech Most Popular Most Popular Apple’s ‘HomePad’ will reportedly launch on October 13th OpenAI launches Dots, its Muse competitor Your car’s data privacy problems are worse than you think Samsung gives it",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ad318ba6bb2e4c5de428": {
+      "storyId": "ad318ba6bb2e4c5de428",
+      "url": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins",
+      "title": "Google figures out how to watermark AI-designed proteins",
+      "source": "Ars Technica AI",
+      "published": "2026-09-30T15:54:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41db603adb80d9f86ca2e446",
+      "bodyFingerprint": "eb39209bf3083eef738369d4",
+      "bodyCharacterCount": 9793,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.084Z",
+      "assessment": {
+        "centralEvent": "Google figures out how to watermark AI-designed proteins",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Nearly a year after that risk was flagged, it still wasn’t clear what anyone could do about it.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav AI-based tools seem to be causing security threats on a nearly daily basis, in part because we’ve b",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One way to think about this is that, when the system comes across a location where a set of chemically related amino acids will all work (like leucine/isoleucine/valine or serine/threonine), it will use one that’s consistent with the waterm",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 84,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "53e84d2c749c1f260eef": {
+      "storyId": "53e84d2c749c1f260eef",
+      "url": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026",
+      "title": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "268b2370fbc5c3427e210883",
+      "bodyFingerprint": "bc7490096b2f840c43dc5378",
+      "bodyCharacterCount": 5749,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.091Z",
+      "assessment": {
+        "centralEvent": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In August, the company reported more than 600 megawatts of data center capacity live or under contract for delivery by the end of 2027 and said it was increasing manufacturing capacity more than tenfold during 2026.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e3ddc2e2356ffa7dc215": {
+      "storyId": "e3ddc2e2356ffa7dc215",
+      "url": "https://www.theguardian.com/us-news/2026/sep/30/carnegie-mellon-historic-donation",
+      "title": "Hedge fund CEO gives $3bn to Carnegie Mellon University in historic donation",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T15:13:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3781ce7f74a2e04fe8aa038c",
+      "bodyFingerprint": "e0b6e09cbe84b7fe084d8251",
+      "bodyCharacterCount": 4314,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.096Z",
+      "assessment": {
+        "centralEvent": "Hedge fund CEO gives $3bn to Carnegie Mellon University in historic donation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to the university, education there will instead be structured around “societal challenges”.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04161754fcbe811f71c7": {
+      "storyId": "04161754fcbe811f71c7",
+      "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents",
+      "title": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T14:27:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4902de8ea85b924feba661f1",
+      "bodyFingerprint": "b5a9f175ee704ddb9935e681",
+      "bodyCharacterCount": 4914,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.101Z",
+      "assessment": {
+        "centralEvent": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Over the last few months, Restate has closed multiple six- and seven-figure customer contracts, according to Ewen.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e4c7292c45d201bdb9a1": {
+      "storyId": "e4c7292c45d201bdb9a1",
+      "url": "https://www.inc.com/aaron-mok/openais-new-workshops-for-small-businesses-could-help-lean-teams-punch-above-their-weight/91411843",
+      "title": "OpenAI’s New Workshops for Small Businesses Could Help Lean Teams Punch Above Their Weight",
+      "source": "Inc. AI",
+      "published": "2026-09-30T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "701963467d97c63365f26336",
+      "bodyFingerprint": "ff978bcdc5d9caa3b741fa78",
+      "bodyCharacterCount": 98,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T19:23:53.102Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s New Workshops for Small Businesses Could Help Lean Teams Punch Above Their Weight",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "88381ea1958893294973": {
+      "storyId": "88381ea1958893294973",
+      "url": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns",
+      "title": "OpenAI delays IPO over AI safety concerns",
+      "source": "Ars Technica AI",
+      "published": "2026-09-30T14:06:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "544ec9ebf1fe661cdd76126c",
+      "bodyFingerprint": "93a5d353084b870087bd6419",
+      "bodyCharacterCount": 4803,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:53.115Z",
+      "assessment": {
+        "centralEvent": "OpenAI delays IPO over AI safety concerns",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav OpenAI will not go public until it can “make confident safety decisions,” according to chief execut",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0c3e8d032bfb77c7a37e": {
+      "storyId": "0c3e8d032bfb77c7a37e",
+      "url": "https://www.inc.com/rebecca-hinds/5-ai-delusions-that-could-quietly-derail-your-business-productivity/91410457",
+      "title": "5 AI Delusions That Could Derail Your Business",
+      "source": "Inc. AI",
+      "published": "2026-09-30T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b1a8163fca4b27d31a602772",
+      "bodyFingerprint": "c2bf80069c27bb1a2d655d12",
+      "bodyCharacterCount": 46,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T19:23:53.142Z",
+      "assessment": {
+        "centralEvent": "5 AI Delusions That Could Derail Your Business",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1402d6e6a3a4e9ffed74": {
+      "storyId": "1402d6e6a3a4e9ffed74",
+      "url": "https://www.nature.com/articles/d41586-026-03033-y",
+      "title": "Secret watermark labels proteins as ‘made by AI’",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-30T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8c81a0c55a207b1760b0e51e",
+      "bodyFingerprint": "05d6664804b411c8594a6615",
+      "bodyCharacterCount": 49,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T19:23:53.637Z",
+      "assessment": {
+        "centralEvent": "Secret watermark labels proteins as ‘made by AI’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7cd98aa8d48b6b65fd8a": {
+      "storyId": "7cd98aa8d48b6b65fd8a",
+      "url": "https://www.nature.com/articles/d41586-026-03086-z",
+      "title": "This award-winning microscopy image used AI — igniting controversy in a prestigious competition",
+      "source": "Nature AI News & Comment",
+      "published": "2026-09-30T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d343d8de7c4c61fb1ec11df0",
+      "bodyFingerprint": "a5c8b2d7a8fb5bc48b873129",
+      "bodyCharacterCount": 5877,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T19:23:54.109Z",
+      "assessment": {
+        "centralEvent": "This award-winning microscopy image used AI — igniting controversy in a prestigious competition",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Researchers say that the winning video of this year’s Small World in Motion competition depicts features that are biologically implausible and might have been hallucinated by an artificial-intelligence (AI) tool.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-30T13:47:31.141Z"
+  "updatedAt": "2026-09-30T19:23:54.109Z"
 }
