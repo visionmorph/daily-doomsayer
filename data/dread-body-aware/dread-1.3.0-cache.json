@@ -202072,8 +202072,1138 @@
           "vulnerability": 0
         }
       }
+    },
+    "50dc2b74b437f2f27973": {
+      "storyId": "50dc2b74b437f2f27973",
+      "url": "https://www.inc.com/justin-bariso/emotionally-intelligent-people-use-simple-3-word-phrase-guide-approach-to-ai/91412557",
+      "title": "Emotionally Intelligent People Use a Simple 3-Word Phrase to Guide Their Approach to A.I.",
+      "source": "Inc. AI",
+      "published": "2026-09-30T11:58:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aad2eb52012e1f8222667093",
+      "bodyFingerprint": "20624209cf8d6d4f5447c98e",
+      "bodyCharacterCount": 104,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T13:47:29.995Z",
+      "assessment": {
+        "centralEvent": "Emotionally Intelligent People Use a Simple 3-Word Phrase to Guide Their Approach to A.I.",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f47c86bd597275f32106": {
+      "storyId": "f47c86bd597275f32106",
+      "url": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features",
+      "title": "Airbnb adds AI search, more social features",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5d71e623af68b05366a4199d",
+      "bodyFingerprint": "7e1df5017135e078fdeafeb0",
+      "bodyCharacterCount": 3792,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.019Z",
+      "assessment": {
+        "centralEvent": "Airbnb adds AI search, more social features",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04885edf45af0b22aeb7": {
+      "storyId": "04885edf45af0b22aeb7",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+      "title": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
+      "source": "The Verge AI",
+      "published": "2026-09-30T12:24:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "76f78bd3e1487acd3bb08ba4",
+      "bodyFingerprint": "41029c6685105d0eb9460243",
+      "bodyCharacterCount": 5789,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.048Z",
+      "assessment": {
+        "centralEvent": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And that’s despite Google , OpenAI , and Anthropic having all violated that first rule over the last few months when their AIs went rogue and hacked other companies and even government websites .",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jess Weatherbed AI News OpenAI Policy Politics xAI Most Popular Most Popular OpenAI launches Dots, its Muse competitor Apple’s ‘HomePad’ will reportedly launch on October 13th Your car’s data privacy problems are worse than you think Firefo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "120ed476e9b6ed3bd65b": {
+      "storyId": "120ed476e9b6ed3bd65b",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260930020252.htm",
+      "title": "A record-breaking X-ray flash may reveal the birth of a magnetar",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-30T12:27:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "959c1d61e0e510629e2442e4",
+      "bodyFingerprint": "0486daf933f64b0216882321",
+      "bodyCharacterCount": 10963,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.133Z",
+      "assessment": {
+        "centralEvent": "A record-breaking X-ray flash may reveal the birth of a magnetar",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com A Drug Made People Burn More Calories – Scientists Aren’t Sure How “Crawzilla” – Scientists Just Found North America’s Biggest Known Crayfish Scientist Reveals 7 of the Strangest Things Coffee Does to Your Body ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "34bc09c0767cef4fb694": {
+      "storyId": "34bc09c0767cef4fb694",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260928100537.htm",
+      "title": "NASA's Perseverance Mars rover finds groundwater, lakes, and hot fluids in one place",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-30T11:34:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5d8aee045f29c9774b4e607d",
+      "bodyFingerprint": "066a2d865c2c3c6b53fd46c9",
+      "bodyCharacterCount": 10764,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.160Z",
+      "assessment": {
+        "centralEvent": "NASA's Perseverance Mars rover finds groundwater, lakes, and hot fluids in one place",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Much later, erosion removed the material above it and exposed the rock at the surface.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com A Drug Made People Burn More Calories – Scientists Aren’t Sure How “Crawzilla” – Scientists Just Found North America’s Biggest Known Crayfish Scientist Reveals 7 of the Strangest Things Coffee Does to Your Body ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Instead, it became a meeting point for several different water systems that altered the same rocks at different stages of Mars' history. \"If there is one thing I have learned after 10 years working with Mars rovers, it is that Mars constant",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Together, the observations show that the Margin Unit was not shaped by a single lake environment.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 76,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.52,
+        "rawScore": 47.52,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3a53b9ca90d4a82a338c": {
+      "storyId": "3a53b9ca90d4a82a338c",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260928100527.htm",
+      "title": "Black hole jets may decide the fate of entire galaxies",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-30T10:51:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "634e95094de00d77d2fd478e",
+      "bodyFingerprint": "118310cb8b53ab702521d085",
+      "bodyCharacterCount": 12433,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.213Z",
+      "assessment": {
+        "centralEvent": "Black hole jets may decide the fate of entire galaxies",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com A Drug Made People Burn More Calories – Scientists Aren’t Sure How “Crawzilla” – Scientists Just Found North America’s Biggest Known Crayfish Scientist Reveals 7 of the Strangest Things Coffee Does to Your Body ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 94,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b6448e9812724ca6dd14": {
+      "storyId": "b6448e9812724ca6dd14",
+      "url": "https://www.theguardian.com/technology/2026/sep/30/intervene-ai-growing-threat-bank-of-england-boss",
+      "title": "We need ‘right to intervene’ in AI amid growing threat, says Bank of England boss",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T10:41:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "07846c0afe0ff27310e0c437",
+      "bodyFingerprint": "59dd63e1e015440bff2f4fb6",
+      "bodyCharacterCount": 4281,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.233Z",
+      "assessment": {
+        "centralEvent": "We need ‘right to intervene’ in AI amid growing threat, says Bank of England boss",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "517191a8e673b248b708": {
+      "storyId": "517191a8e673b248b708",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/30/bill-gates-thinks-ai-could-kill-people-can-we-trust-judgment-after-epstein",
+      "title": "Bill Gates predicts AI will kill a billion people – but saying he’s been wrong before is quite the understatement | Arwa Mahdawi",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T10:00:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ff0ee2575c847c7d3ca0604b",
+      "bodyFingerprint": "a010f16e76b40c0cec6dd4e6",
+      "bodyCharacterCount": 3134,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.267Z",
+      "assessment": {
+        "centralEvent": "Bill Gates predicts AI will kill a billion people – but saying he’s been wrong before is quite the understatement | Arwa Mahdawi",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Now, however, the Microsoft co-founder is once again thrusting himself into the public consciousness, this time with a dire warning about AI.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Bill Gates predicts AI will kill a billion people – but saying he’s been wrong before is quite the understatement | Arwa Mahdawi",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He has also said that Epstein “knew a lot of very rich people and [claimed he] could get them to give money to global health”.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5cbdce38002f08a50e30": {
+      "storyId": "5cbdce38002f08a50e30",
+      "url": "https://www.theguardian.com/technology/2026/sep/30/ai-tool-copied-actor-kenjiro-tsuda-tokyo-court",
+      "title": "AI tool that copied actor’s ‘lustrous’ voice violated his rights, Tokyo court rules",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T11:09:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "38d5c78e4f61bcd4daf0bbad",
+      "bodyFingerprint": "cccdb3ffc13e6a846b809f66",
+      "bodyCharacterCount": 4734,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.291Z",
+      "assessment": {
+        "centralEvent": "AI tool that copied actor’s ‘lustrous’ voice violated his rights, Tokyo court rules",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Kenjiro Tsuda wins case against TikTok account in landmark Japanese verdict to protect publicity rights A court in Japan has ruled that the human voice has legal protection after a landmark case involving a well-known actor and a TikTok acc",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1bd3ebc07955f8e43b1e": {
+      "storyId": "1bd3ebc07955f8e43b1e",
+      "url": "https://www.theguardian.com/technology/2026/sep/30/ai-deepfakes-politicans",
+      "title": "As AI images become common, the threat to elections draws alarm: ‘How will voters know what’s true?’",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T10:00:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bdaa9a27596852272e70f32a",
+      "bodyFingerprint": "0f5179f4ad7b55f4ebb50dc9",
+      "bodyCharacterCount": 6777,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.301Z",
+      "assessment": {
+        "centralEvent": "As AI images become common, the threat to elections draws alarm: ‘How will voters know what’s true?’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Despite significant apprehension around the potential economic consequences of AI, concern about deepfake images being used to sexualize women or children, or to influence elections, outstrips concern about AI affecting jobs by about three ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "While legislators in Georgia began debated deepfake protections in bills proposed in 2024 and 2025, they have not yet enacted legislation.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The fact that it’s fake is spreading faster, now, but only after it had been seen by thousands of people.",
+            "matchedRule": "/\\b(?:thousands|hundreds)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Senator Rand Paul of Kentucky blocked Kennedy’s bill, describing the effort as premature without additional industry input.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2b6698d8d5dd2ddc87d3": {
+      "storyId": "2b6698d8d5dd2ddc87d3",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/30/humans-or-ai-bots-uk-civil-service",
+      "title": "Things are changing behind the scenes, so you must decide: do you want human civil servants or AI bots? | The civil servant",
+      "source": "The Guardian AI",
+      "published": "2026-09-30T11:00:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b7790552c7377f9aa5dbaa26",
+      "bodyFingerprint": "dcdc73fefe0a3235c14b549c",
+      "bodyCharacterCount": 7263,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.338Z",
+      "assessment": {
+        "centralEvent": "Things are changing behind the scenes, so you must decide: do you want human civil servants or AI bots? | The civil servant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "And try arguing with a faceless digital bureaucrat Another day, another apocalyptic warning about the likelihood that rampantly uncontrollable artificial intelligence will solve all of our problems, including the problem of being alive.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It is trust, including the trust that – while below the OECD average – the British public still has in the civil service, and which, according to the public accounts committee , is being jeopardised by inadequate transparency and weak stand",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Yes, Burnham went to the United Nations and risked enraging the Orange One with talk of Britain’s prospects of leading the drawing-up of international rules for AI.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Before DSIT was deleted, its permanent secretary, Emran Mian, reportedly had plans for AI to eventually replace almost every departing civil servant in his department rather than replacing them with humans.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "And try arguing with a faceless digital bureaucrat Another day, another apocalyptic warning about the likelihood that rampantly uncontrollable artificial intelligence will solve all of our problems, including the problem of being alive.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.71,
+        "rawScore": 30.71,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.61,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0fad9bc486cebdb516ee": {
+      "storyId": "0fad9bc486cebdb516ee",
+      "url": "https://www.bbc.co.uk/news/articles/cvzez7k0pn40o?at_campaign=rss&at_medium=RSS",
+      "title": "Regulating AI 'not the right place to start' says Bailey",
+      "source": "BBC News AI",
+      "published": "2026-09-30T10:20:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cd7db94cb0691497b2c901a2",
+      "bodyFingerprint": "ab759f7a25eae0439cb02d5f",
+      "bodyCharacterCount": 2612,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.371Z",
+      "assessment": {
+        "centralEvent": "Regulating AI 'not the right place to start' says Bailey",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Carl Court/Getty Images By Dearbail Jordan Business reporter Published 3 hours ago The Governor of the Bank of England has said regulating artificial intelligence (AI) \"is not the right place to start\" but instead called first",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5d347778ccddb103d718": {
+      "storyId": "5d347778ccddb103d718",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260930020312.htm",
+      "title": "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-30T08:36:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e08eb237dbb5f7c22a9a3058",
+      "bodyFingerprint": "54566b04947446fef69b2971",
+      "bodyCharacterCount": 7345,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.381Z",
+      "assessment": {
+        "centralEvent": "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The Dragon could reach the orbiting laboratory in just 7 hours and 50 minutes, making it the fastest U.S. spacecraft journey to the ISS in history.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2ac5d64a3b9f1ecf2dd3": {
+      "storyId": "2ac5d64a3b9f1ecf2dd3",
+      "url": "https://restofworld.org/2026/ai-safety-independent-evaluation",
+      "title": "AI companies want to embed safety evaluators, but countries need their own",
+      "source": "Rest of World AI",
+      "published": "2026-09-30T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "92b5710538b95db87421d264",
+      "bodyFingerprint": "fe14d89cbdd0199e4b162610",
+      "bodyCharacterCount": 9052,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.396Z",
+      "assessment": {
+        "centralEvent": "AI companies want to embed safety evaluators, but countries need their own",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "An OpenAI agent hacked into an Australian national healthcare database and accessed “public and non-public files,” Prime Minister Anthony Albanese said last week.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It was the first such reported case.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Days later, OpenAI said it had alerted “dozens” of global institutions that its AI agents had acted improperly to get information from their websites, sometimes circumventing security measures.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "What I would love is for every single one of those ministers to be equally thinking about how they secure and ensure equitable access and equitable outcomes from AI implementation, rather than seeing this loss of control as ‘That is for the",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.41,
+        "rawScore": 47.41,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4623f6f9c1700bfad22b": {
+      "storyId": "4623f6f9c1700bfad22b",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260928100556.htm",
+      "title": "NASA’s Curiosity rover just hit 5,000 days on Mars and sent back this stunning view",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-30T04:34:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "61bf7fcb427504766e008292",
+      "bodyFingerprint": "57c1c71252104a45e1a685dd",
+      "bodyCharacterCount": 5517,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.431Z",
+      "assessment": {
+        "centralEvent": "NASA’s Curiosity rover just hit 5,000 days on Mars and sent back this stunning view",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "NASA’s Curiosity rover just hit 5,000 days on Mars and sent back this stunning view",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c46d10ed72ff2d01774b": {
+      "storyId": "c46d10ed72ff2d01774b",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260929053550.htm",
+      "title": "Quantum teleportation breakthrough: Scientists crack a 25-year entanglement challenge",
+      "source": "ScienceDaily Technology",
+      "published": "2026-09-29T12:02:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cbfd31b2c37881009708d22d",
+      "bodyFingerprint": "93056b89f88b9a50a2579e0b",
+      "bodyCharacterCount": 9142,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:30.465Z",
+      "assessment": {
+        "centralEvent": "Quantum teleportation breakthrough: Scientists crack a 25-year entanglement challenge",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com A Drug Made People Burn More Calories – Scientists Aren’t Sure How “Crawzilla” – Scientists Just Found North America’s Biggest Known Crayfish Scientist Reveals 7 of the Strangest Things Coffee Does to Your Body ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "43c35acf1e3a133ec38e": {
+      "storyId": "43c35acf1e3a133ec38e",
+      "url": "https://techpolicy.press/universities-need-ai-infrastructure-they-dont-need-ai-lockin",
+      "title": "Universities Need AI Infrastructure. They Don’t Need AI Lock-In",
+      "source": "Tech Policy Press AI",
+      "published": "2026-09-30T07:30:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6dff6fcb55faaf1d300c931c",
+      "bodyFingerprint": "28adbaa847cc025176270ee7",
+      "bodyCharacterCount": 11389,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T13:47:31.141Z",
+      "assessment": {
+        "centralEvent": "Universities Need AI Infrastructure. They Don’t Need AI Lock-In",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Topics Related Perspective Let’s Not Wait for Court Cases to Address Cognitive Harms in Education September 15, 2026 Analysis Burnham's First Week Redraws the Map of UK Tech Governance July 29, 2026 Perspective Unmasking EdTech's Surveillan",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Topics Related Perspective Let’s Not Wait for Court Cases to Address Cognitive Harms in Education September 15, 2026 Analysis Burnham's First Week Redraws the Map of UK Tech Governance July 29, 2026 Perspective Unmasking EdTech's Surveillan",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Education’s emerging platform problem UNESCO put this problem unusually clearly on the international policy agenda in September.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A university regulation might give academics discretion over appropriate AI use in assessment, while the rule experienced by students is implemented through settings inside a learning management system: AI permitted here, prohibited there, ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 113,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-30T06:46:12.877Z"
+  "updatedAt": "2026-09-30T13:47:31.141Z"
 }
