@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-09-30T19:00:00.000Z",
+  "generatedAt": "2026-09-30T23:00:00.000Z",
   "daily": [
     {
       "period": "2026-09-30",
@@ -17,12 +17,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-30",
           "firstObservedAt": "2026-09-30T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T19:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "ea85306d25eb7dc14f98",
+          "title": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development—Even Without AI",
+          "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-30",
+          "firstObservedAt": "2026-09-30T23:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
+          "average": 50.82
         },
         {
           "storyId": "90f6d0072d1d6af08876",
@@ -31,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-30",
           "firstObservedAt": "2026-09-30T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T19:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
           "average": 50.33
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-30",
           "firstObservedAt": "2026-09-30T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T19:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
           "average": 49.94
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-30",
           "firstObservedAt": "2026-09-30T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T19:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
           "average": 49.66
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac1/live/580d3570-bbc8-11f1-bc1f-3f186ca4140c.jpg",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-30",
           "firstObservedAt": "2026-09-30T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T19:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
           "average": 49.34
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
           "peak": 48.95,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-30",
           "firstObservedAt": "2026-09-30T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T19:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
           "average": 48.95
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.84,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-09-30",
           "firstObservedAt": "2026-09-30T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T19:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
           "average": 48.84
-        },
-        {
-          "storyId": "9959d07fd1fd2c45e627",
-          "title": "US, China Psy-Op Accusations Signal Deep Distrust on AI Regulation",
-          "url": "https://techpolicy.press/us-china-psyop-accusations-signal-deep-distrust-on-ai-regulation",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 48.62,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-09-30",
-          "firstObservedAt": "2026-09-30T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T06:00:00.000Z",
-          "average": 48.62
         }
       ]
     },
@@ -4687,11 +4687,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 11,
+          "observations": 12,
           "daysTracked": 3,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T19:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -4723,17 +4723,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.82
         },
         {
+          "storyId": "ea85306d25eb7dc14f98",
+          "title": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development—Even Without AI",
+          "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-09-30",
+          "firstObservedAt": "2026-09-30T23:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
+          "average": 50.82
+        },
+        {
           "storyId": "90f6d0072d1d6af08876",
           "title": "Who Is AI Risk For? Centering People in the AI Risk Conversation",
           "url": "https://techpolicy.press/who-is-ai-risk-for-centering-people-in-the-ai-risk-conversation",
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 11,
+          "observations": 12,
           "daysTracked": 3,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T19:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
           "average": 50.33
         },
         {
@@ -4771,26 +4785,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 11,
+          "observations": 12,
           "daysTracked": 3,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-30T19:00:00.000Z",
+          "lastObservedAt": "2026-09-30T23:00:00.000Z",
           "average": 49.94
-        },
-        {
-          "storyId": "42b17e61adb7980ce580",
-          "title": "New Jersey fines data center $1.1M after drone pics expose 62 gas generators",
-          "url": "https://arstechnica.com/tech-policy/2026/09/new-jersey-fines-data-center-1-1m-after-satellite-pics-expose-62-gas-generators/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/DataOne-drone-image-via-Sustain-SJ-1152x648.jpg",
-          "peak": 49.83,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-09-28",
-          "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-29T08:00:00.000Z",
-          "average": 49.83
         }
       ]
     },
