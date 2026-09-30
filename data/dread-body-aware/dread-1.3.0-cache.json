@@ -200718,8 +200718,1056 @@
           "vulnerability": 0
         }
       }
+    },
+    "2bc14b0ab4f69eff8078": {
+      "storyId": "2bc14b0ab4f69eff8078",
+      "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch",
+      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T23:30:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cf94c25137becfdbd5974f78",
+      "bodyFingerprint": "b0f36cf176a86daea682a872",
+      "bodyCharacterCount": 5543,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.063Z",
+      "assessment": {
+        "centralEvent": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "If, like me, you have never played Minecraft, this response may seem like a cause for concern.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The government partnered with Google and SpaceXAI to help build the America.gov chatbot, which has proved difficult for people to jailbreak so far. (It’s worth nothing, however, that the chatbot says that Joe Biden won the 2020 election, a ",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.04,
+        "rawScore": 26.04,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d6b003b6ebfae6b242c3": {
+      "storyId": "d6b003b6ebfae6b242c3",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+      "source": "The Verge AI",
+      "published": "2026-09-30T00:19:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4db767cae1968a6111d776b4",
+      "bodyFingerprint": "a31f3ba7e1dab75e59cf3fae",
+      "bodyCharacterCount": 5122,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.084Z",
+      "assessment": {
+        "centralEvent": "Sam Altman says OpenAI won’t go public until its models are safe",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In July, news broke that an unreleased OpenAI model had hacked into a rival AI lab, Hugging Face, without OpenAI’s knowledge.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth Sep 29 Most Popular Most Popular OpenAI launches Dots, its Muse competitor Bose’s first wired earbuds in 11 years add noise canceling Your car’s data privacy problems are worse than you think Nothing’s new flagship Headphone 1 Pro",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04f4be688d06b8992c95": {
+      "storyId": "04f4be688d06b8992c95",
+      "url": "https://news.sky.com/story/sky-news-speaks-to-trump-at-the-white-house-on-ai-and-raf-fairford-incident-13593499",
+      "title": "Sky News speaks to Trump at the White House - on AI and RAF Fairford",
+      "source": "Sky News AI",
+      "published": "2026-09-29T23:22:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2024faa2bc494bc138ccd1c8",
+      "bodyFingerprint": "dda5d4d5f660133eb8e8a8cd",
+      "bodyCharacterCount": 41,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T00:30:16.091Z",
+      "assessment": {
+        "centralEvent": "Sky News speaks to Trump at the White House - on AI and RAF Fairford",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1f2684ece82a4b595a8c": {
+      "storyId": "1f2684ece82a4b595a8c",
+      "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+      "title": "Trump orders US government to call AI ‘Super Intelligence’",
+      "source": "The Verge AI",
+      "published": "2026-09-29T22:25:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "749aecc11c7c9e0e0efd27da",
+      "bodyFingerprint": "4d94b11927083eb01aa75ebc",
+      "bodyCharacterCount": 4705,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.111Z",
+      "assessment": {
+        "centralEvent": "Trump orders US government to call AI ‘Super Intelligence’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Fake news.” He first mentioned plans for the rebrand in a speech to the United Nations General Assembly last week, aiming to quell fears over AI advancing too quickly and posing a safety risk.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A top House Democrat wants answers Florida seeks a ban on ChatGPT acting like a person Apple hit with $5.7 billion in damages over haptic patents Sony and UMG are suing Suno again Meta employees ordered ‘attorney/client privilege’ hats whil",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“And we automatically have regulation with the Department of Justice, the FBI, all of that.” On the local level, where tech companies have faced the most hurdles in building out massive data centers needed to run their services, Trump says ",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f727cb245a5f03423767": {
+      "storyId": "f727cb245a5f03423767",
+      "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch",
+      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T22:20:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5131cd8cdd2e6b4177c3a139",
+      "bodyFingerprint": "3facaa3dc455b42daf20cf42",
+      "bodyCharacterCount": 2928,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.126Z",
+      "assessment": {
+        "centralEvent": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents Julie Bort 6 hours ago AI OpenAI takes on Microsoft with the launc",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cc0813c27cef5ecd4ac3": {
+      "storyId": "cc0813c27cef5ecd4ac3",
+      "url": "https://mashable.com/tech/trump-admin-launches-america-gov-ai-chatbot",
+      "title": "Trumps AI-powered America.gov is here. It was built by DOGE alumni and runs on Grok.",
+      "source": "Mashable AI",
+      "published": "2026-09-29T22:45:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "348a7c3343482ee316c5366e",
+      "bodyFingerprint": "5fffe7d80d54239b7e7f2fcb",
+      "bodyCharacterCount": 8720,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.159Z",
+      "assessment": {
+        "centralEvent": "Trumps AI-powered America.gov is here. It was built by DOGE alumni and runs on Grok.",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories Despite the backlash, Donald Trump is using AI again Trump tries to rebrand AI.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The site's \"Why you can trust\" section on the About page says it doesn't retain conversations, though some answers may be cached for up to 2 hours.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Speaking of who designed the website, America.gov is the flagship product of the National Design Studio (NDS).",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "DOGE also shut down 18F , a technology consulting unit within the GSA.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On Tuesday, the White House launched a revamped America.gov , an AI-powered portal meant to be a single front door to the federal government.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "21aea061ef9876972445": {
+      "storyId": "21aea061ef9876972445",
+      "url": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+      "title": "Elon Musk’s AI-powered Grokipedia is updating again",
+      "source": "The Verge AI",
+      "published": "2026-09-29T21:49:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3625f33ec87f5a7d118e83ee",
+      "bodyFingerprint": "5f9c1992f9802f832641ced2",
+      "bodyCharacterCount": 3900,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.176Z",
+      "assessment": {
+        "centralEvent": "Elon Musk’s AI-powered Grokipedia is updating again",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters AI Elon Musk News Tech Most Popular Most Popular OpenAI launches Dots, its Muse competitor Bose’s first wired earbuds in 11 years add noise canceling Your car’s data privacy problems are worse than you think Nothing’s new flagshi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "676620cb6052b145b400": {
+      "storyId": "676620cb6052b145b400",
+      "url": "https://mashable.com/tech/openai-dots-ai-agents-cute-characters",
+      "title": "OpenAI Dots has its own little guy mascots to rival Meta Muse",
+      "source": "Mashable AI",
+      "published": "2026-09-29T21:35:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6044154004b2b916b76b145a",
+      "bodyFingerprint": "3a7496abb55515816879dd4b",
+      "bodyCharacterCount": 3804,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.216Z",
+      "assessment": {
+        "centralEvent": "OpenAI Dots has its own little guy mascots to rival Meta Muse",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It might be loading or has been removed. \"Dots are frontier intelligence that have your back,\" OpenAI wrote in its announcement. \"Powered by GPT‐6 Astra , they have their own cloud computer, learn from feedback over time, and can work towar",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cdd0729390cf13b8031a": {
+      "storyId": "cdd0729390cf13b8031a",
+      "url": "https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence",
+      "title": "Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’",
+      "source": "The Guardian AI",
+      "published": "2026-09-29T23:21:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "28a3c3b0b6bd6f4b830bf274",
+      "bodyFingerprint": "9f8f1d3c0571f5311b09815e",
+      "bodyCharacterCount": 4384,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.252Z",
+      "assessment": {
+        "centralEvent": "Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The tech industry has faced increased public scrutiny following a series of incidents where major AI companies inadvertently hacked into outside organizations during safety tests.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The joint commitment that Trump posted to his Truth Social account on Tuesday appears to carry no enforcement mechanisms or legal implications and is instead a voluntary commitment.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The AI agents are spiraling out of control Read more The agreement, which Trump suggested would allow the companies to perform “tremendous self-policing” of their products and technologies, outlines a vague framework for how AI firms would ",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "26afe82f54ffcc86cae7": {
+      "storyId": "26afe82f54ffcc86cae7",
+      "url": "https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-target-openai-with-titanic-themed-protest-art",
+      "title": "Protests against OpenAI get increasingly creative",
+      "source": "Ars Technica AI",
+      "published": "2026-09-29T21:52:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "453131a403930277dbf8cf5c",
+      "bodyFingerprint": "90540f3956d081e99b1b6b04",
+      "bodyCharacterCount": 3269,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.308Z",
+      "assessment": {
+        "centralEvent": "Protests against OpenAI get increasingly creative",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "According to a description of the piece, the 5-foot-tall sculpture “shows OpenAI’s leaders and investors escaping a sinking ship with unimaginable wealth, while everyone else is left to face the cost of AI.” One of the co-creators of the pi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "369c2048b3671909764c": {
+      "storyId": "369c2048b3671909764c",
+      "url": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_campaign=rss&at_medium=RSS",
+      "title": "Chinese AI tool told researchers how to make bioweapons",
+      "source": "BBC News AI",
+      "published": "2026-09-29T23:15:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "61ce39f5335040ef4453df6d",
+      "bodyFingerprint": "85346c17c561189d0db2bcdb",
+      "bodyCharacterCount": 4497,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.337Z",
+      "assessment": {
+        "centralEvent": "Chinese AI tool told researchers how to make bioweapons",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Jailbreaks present a different kind of risk to those seen with the recent slew of high-profile AI incidents .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Chris Vallance Senior technology reporter Published 1 hour ago Chinese AI developer Moonshot is conducting an internal review after researchers were able to persuade two of its popular Kimi models to tell them ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Prof Woodward said international regulation was unlikely to match the pace of AI development, saying: \"It's taken us decades to agree on the format of telephone numbers.\" Like Mindgard founder Garraghan, Prof Woodward believes there should ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It arose during a process called \"jailbreaking\", where researchers use a series of complex instructions to see if AI tools ignore guardrails - which Mindgard said should have stopped Kimi from discussing concerning topics.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.68,
+        "rawScore": 28.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "989d39632f0c3a32e6ee": {
+      "storyId": "989d39632f0c3a32e6ee",
+      "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup",
+      "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+      "source": "Ars Technica AI",
+      "published": "2026-09-29T21:14:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a35f0e0781c52a225ae645af",
+      "bodyFingerprint": "d3f717a15aae925b5ca1aa03",
+      "bodyCharacterCount": 4122,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.349Z",
+      "assessment": {
+        "centralEvent": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to World Labs’ announcement of the deal, Fei-Fei Li will become Executive Vice President and Chief Scientist at AMD, while “Justin Johnson and Ben Mildenhall will work with Fei-Fei to continue leading the World Labs team as it joi",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "25780e229dd589f68808": {
+      "storyId": "25780e229dd589f68808",
+      "url": "https://www.theguardian.com/technology/2026/sep/29/openai-announces-dots-agent-safety-concerns",
+      "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+      "source": "The Guardian AI",
+      "published": "2026-09-29T21:25:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "71b7f9a228fde2f78bad9deb",
+      "bodyFingerprint": "cdbba0c6babe8ddb324d53c2",
+      "bodyCharacterCount": 3339,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.354Z",
+      "assessment": {
+        "centralEvent": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Company’s product comes weeks after Meta introduced its own artificially intelligent agent Muse Less than 24 hours after OpenAI announced it would scrap the launch of an artificial intelligence model over safety concerns, the company debute",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f513f6fb9058f4df9cb2": {
+      "storyId": "f513f6fb9058f4df9cb2",
+      "url": "https://www.inc.com/colleen-batchelder/mark-cuban-is-teaching-teens-ai-skills-for-free-small-businesses-should-be-the-ones-hiring-them/91412231",
+      "title": "Mark Cuban Is Teaching Teens AI Skills for Free. Small Businesses Should Be the Ones Hiring Them",
+      "source": "Inc. AI",
+      "published": "2026-09-29T21:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0fdd41b34d3addd3d251afef",
+      "bodyFingerprint": "80b0a2e5bbba4f52804e1b73",
+      "bodyCharacterCount": 98,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-09-30T00:30:16.358Z",
+      "assessment": {
+        "centralEvent": "Mark Cuban Is Teaching Teens AI Skills for Free. Small Businesses Should Be the Ones Hiring Them",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0af7466cd9ace1c46553": {
+      "storyId": "0af7466cd9ace1c46553",
+      "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation",
+      "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T19:52:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "928a920cf5520676515d8e8a",
+      "bodyFingerprint": "06b651a5d2861833296fb2a3",
+      "bodyCharacterCount": 2432,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.362Z",
+      "assessment": {
+        "centralEvent": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite Lucas Ropek 6 hours ago AI OpenAI launches Dots, its",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9d7d516b31bb118668e2": {
+      "storyId": "9d7d516b31bb118668e2",
+      "url": "https://mashable.com/tech/anthropic-lost-42-billion-in-2025",
+      "title": "Anthropic IPO docs reportedly reveal over $40 billion in losses last year",
+      "source": "Mashable AI",
+      "published": "2026-09-29T21:13:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ff33b83b5f112a0f39fbc991",
+      "bodyFingerprint": "b2c7903b110a7ff453c1895a",
+      "bodyCharacterCount": 2650,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-09-30T00:30:16.380Z",
+      "assessment": {
+        "centralEvent": "Anthropic IPO docs reportedly reveal over $40 billion in losses last year",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Anthropic lost billions of dollars last year, according to its prospectus to potential investors.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-29T20:50:57.310Z"
+  "updatedAt": "2026-09-30T00:30:16.380Z"
 }
