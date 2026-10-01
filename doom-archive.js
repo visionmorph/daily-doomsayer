@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-01T05:00:00.000Z",
+  "generatedAt": "2026-10-01T13:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-01",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
           "peak": 50.82,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 50.82
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/035f/live/4e878500-bcdb-11f1-babe-4199b0e7ccea.jpg",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 50.33
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 50.33
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 49.94
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 49.66
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac1/live/580d3570-bbc8-11f1-bc1f-3f186ca4140c.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 49.34
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
           "peak": 48.95,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 48.95
         },
         {
@@ -137,17 +137,17 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 48.84
         },
         {
-          "storyId": "c82dc0e8da63e28f2e20",
-          "title": "OpenAI bots meddled with multiple US government agency sites",
-          "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe1e/live/6ddbd170-b954-11f1-96dc-f7c10dbde38b.jpg",
+          "storyId": "d19becbf9daf79c5a630",
+          "title": "America is in the wrong AI race with China",
+          "url": "https://restofworld.org/2026/america-china-ai-race-trust/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_china_us_race_final2-768x432.jpg",
           "peak": 48.51,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 48.51
         }
       ]
@@ -4832,11 +4832,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 4,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 51.23
         },
         {
@@ -4854,6 +4854,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.82
         },
         {
+          "storyId": "ea85306d25eb7dc14f98",
+          "title": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development—Even Without AI",
+          "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
+          "peak": 50.82,
+          "observations": 3,
+          "daysTracked": 2,
+          "peakDate": "2026-09-30",
+          "firstObservedAt": "2026-09-30T23:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
+          "average": 50.82
+        },
+        {
           "storyId": "ec719ae10932ea59e860",
           "title": "The AI agents are spiraling out of control",
           "url": "https://www.theguardian.com/global/2026/sep/28/ai-agents-spiral",
@@ -4868,31 +4882,17 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.82
         },
         {
-          "storyId": "ea85306d25eb7dc14f98",
-          "title": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development—Even Without AI",
-          "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
-          "peak": 50.82,
-          "observations": 2,
-          "daysTracked": 2,
-          "peakDate": "2026-09-30",
-          "firstObservedAt": "2026-09-30T23:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
-          "average": 50.82
-        },
-        {
           "storyId": "90f6d0072d1d6af08876",
           "title": "Who Is AI Risk For? Centering People in the AI Risk Conversation",
           "url": "https://techpolicy.press/who-is-ai-risk-for-centering-people-in-the-ai-risk-conversation",
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 4,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 50.33
         },
         {
@@ -4902,11 +4902,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/035f/live/4e878500-bcdb-11f1-babe-4199b0e7ccea.jpg",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 50.33
         },
         {
@@ -5676,11 +5676,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 51.23
         },
         {
@@ -5690,11 +5690,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
           "peak": 50.82,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 50.82
         },
         {
@@ -5704,11 +5704,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/035f/live/4e878500-bcdb-11f1-babe-4199b0e7ccea.jpg",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 50.33
         },
         {
@@ -5718,11 +5718,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 50.33
         },
         {
@@ -5732,11 +5732,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 49.94
         },
         {
@@ -5746,11 +5746,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 49.66
         },
         {
@@ -5760,11 +5760,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac1/live/580d3570-bbc8-11f1-bc1f-3f186ca4140c.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 49.34
         },
         {
@@ -5774,11 +5774,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
           "peak": 48.95,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 48.95
         },
         {
@@ -5796,17 +5796,17 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 48.84
         },
         {
-          "storyId": "c82dc0e8da63e28f2e20",
-          "title": "OpenAI bots meddled with multiple US government agency sites",
-          "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe1e/live/6ddbd170-b954-11f1-96dc-f7c10dbde38b.jpg",
+          "storyId": "d19becbf9daf79c5a630",
+          "title": "America is in the wrong AI race with China",
+          "url": "https://restofworld.org/2026/america-china-ai-race-trust/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_china_us_race_final2-768x432.jpg",
           "peak": 48.51,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T05:00:00.000Z",
+          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 48.51
         }
       ]
