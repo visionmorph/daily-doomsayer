@@ -5,23 +5,37 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-01T19:00:00.000Z",
+  "generatedAt": "2026-10-01T23:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-01",
       "stories": [
         {
+          "storyId": "b42fd229837078bf957a",
+          "title": "Senate Hearing on 'Rogue AI: Securing the Homeland Against AI Agent Attacks'",
+          "url": "https://techpolicy.press/senate-hearing-on-rogue-ai-securing-the-homeland-against-ai-agent-attacks",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 71.48,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-01",
+          "firstObservedAt": "2026-10-01T23:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
+          "average": 71.48
+        },
+        {
           "storyId": "3bf44cdfb8f59b7f06d5",
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
           "peak": 50.82,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 50.82
         },
         {
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/035f/live/4e878500-bcdb-11f1-babe-4199b0e7ccea.jpg",
           "peak": 50.33,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 50.33
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 49.94
         },
         {
@@ -95,17 +109,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.66
         },
         {
+          "storyId": "e52668df7bb2e8337172",
+          "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
+          "url": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_1001_Oleary.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-01",
+          "firstObservedAt": "2026-10-01T23:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
+          "average": 49.66
+        },
+        {
           "storyId": "38403d02ac3065f0d9a2",
           "title": "OpenAI scraps rollout of new model over safety concerns",
           "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac1/live/580d3570-bbc8-11f1-bc1f-3f186ca4140c.jpg",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 49.34
         },
         {
@@ -115,40 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T19:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "f2cda153ad0e8f1c5be9",
-          "title": "AI chatbots remove hijabs from images of Muslim women when prompted",
-          "url": "https://www.theguardian.com/technology/2026/oct/01/ai-chatbots-hijabs-muslim-women",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/976016b244ec75038c7b4d519a0cbce1e2e70696/0_103_3400_2720/master/3400.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-01",
-          "firstObservedAt": "2026-10-01T19:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "6dd751b2164a5fac33bb",
-          "title": "Steve Hilton, Xavier Becerra clash in testy California governor’s race debate",
-          "url": "https://www.theguardian.com/us-news/2026/oct/01/steve-hilton-xavier-becerra-clash-california-governor-race-debate",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/440889f9ea1e51ffe57f9fd5c9a51abfa63a35cc/131_0_1542_1233/master/1542.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-01",
-          "firstObservedAt": "2026-10-01T19:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
@@ -4798,6 +4798,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
       "period": "2026-W40",
       "stories": [
         {
+          "storyId": "b42fd229837078bf957a",
+          "title": "Senate Hearing on 'Rogue AI: Securing the Homeland Against AI Agent Attacks'",
+          "url": "https://techpolicy.press/senate-hearing-on-rogue-ai-securing-the-homeland-against-ai-agent-attacks",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 71.48,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-01",
+          "firstObservedAt": "2026-10-01T23:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
+          "average": 71.48
+        },
+        {
           "storyId": "2d7c9a64295142414b53",
           "title": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
@@ -4830,14 +4844,28 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 4,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "ea85306d25eb7dc14f98",
+          "title": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development—Even Without AI",
+          "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
+          "peak": 50.82,
+          "observations": 5,
+          "daysTracked": 2,
+          "peakDate": "2026-09-30",
+          "firstObservedAt": "2026-09-30T23:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
+          "average": 50.82
         },
         {
           "storyId": "ae785329e8a58042fbe5",
@@ -4851,20 +4879,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T22:00:00.000Z",
           "lastObservedAt": "2026-09-29T15:00:00.000Z",
-          "average": 50.82
-        },
-        {
-          "storyId": "ea85306d25eb7dc14f98",
-          "title": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development—Even Without AI",
-          "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
-          "peak": 50.82,
-          "observations": 4,
-          "daysTracked": 2,
-          "peakDate": "2026-09-30",
-          "firstObservedAt": "2026-09-30T23:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
           "average": 50.82
         },
         {
@@ -4902,11 +4916,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/035f/live/4e878500-bcdb-11f1-babe-4199b0e7ccea.jpg",
           "peak": 50.33,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 50.33
         },
         {
@@ -4922,20 +4936,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-09-29T20:00:00.000Z",
           "lastObservedAt": "2026-09-30T06:00:00.000Z",
           "average": 50.08
-        },
-        {
-          "storyId": "89f9618650b31d06afa5",
-          "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
-          "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_2026-09-26_Prince.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 49.99,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-09-28",
-          "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-09-28T15:00:00.000Z",
-          "average": 49.99
         }
       ]
     },
@@ -5670,17 +5670,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
       "period": "2026-10",
       "stories": [
         {
+          "storyId": "b42fd229837078bf957a",
+          "title": "Senate Hearing on 'Rogue AI: Securing the Homeland Against AI Agent Attacks'",
+          "url": "https://techpolicy.press/senate-hearing-on-rogue-ai-securing-the-homeland-against-ai-agent-attacks",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 71.48,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-01",
+          "firstObservedAt": "2026-10-01T23:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
+          "average": 71.48
+        },
+        {
           "storyId": "3bf44cdfb8f59b7f06d5",
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
-          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -5690,11 +5704,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
           "peak": 50.82,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 50.82
         },
         {
@@ -5704,11 +5718,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/035f/live/4e878500-bcdb-11f1-babe-4199b0e7ccea.jpg",
           "peak": 50.33,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 50.33
         },
         {
@@ -5732,11 +5746,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 49.94
         },
         {
@@ -5754,17 +5768,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.66
         },
         {
+          "storyId": "e52668df7bb2e8337172",
+          "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
+          "url": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_1001_Oleary.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-01",
+          "firstObservedAt": "2026-10-01T23:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
+          "average": 49.66
+        },
+        {
           "storyId": "38403d02ac3065f0d9a2",
           "title": "OpenAI scraps rollout of new model over safety concerns",
           "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac1/live/580d3570-bbc8-11f1-bc1f-3f186ca4140c.jpg",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 49.34
         },
         {
@@ -5774,40 +5802,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T19:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
+          "lastObservedAt": "2026-10-01T23:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "f2cda153ad0e8f1c5be9",
-          "title": "AI chatbots remove hijabs from images of Muslim women when prompted",
-          "url": "https://www.theguardian.com/technology/2026/oct/01/ai-chatbots-hijabs-muslim-women",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/976016b244ec75038c7b4d519a0cbce1e2e70696/0_103_3400_2720/master/3400.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-01",
-          "firstObservedAt": "2026-10-01T19:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "6dd751b2164a5fac33bb",
-          "title": "Steve Hilton, Xavier Becerra clash in testy California governor’s race debate",
-          "url": "https://www.theguardian.com/us-news/2026/oct/01/steve-hilton-xavier-becerra-clash-california-governor-race-debate",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/440889f9ea1e51ffe57f9fd5c9a51abfa63a35cc/131_0_1542_1233/master/1542.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-01",
-          "firstObservedAt": "2026-10-01T19:00:00.000Z",
-          "lastObservedAt": "2026-10-01T19:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
