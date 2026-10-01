@@ -206796,8 +206796,396 @@
           "vulnerability": 0
         }
       }
+    },
+    "059ec580b7be34a73440": {
+      "storyId": "059ec580b7be34a73440",
+      "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_campaign=rss&at_medium=RSS",
+      "title": "AI boom could trigger market shocks, Bank of England boss warns",
+      "source": "BBC News AI",
+      "published": "2026-10-01T04:03:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6fbcca3dd949e8473bba93b7",
+      "bodyFingerprint": "b29762147508264bb7dd41fd",
+      "bodyCharacterCount": 4288,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T06:00:03.688Z",
+      "assessment": {
+        "centralEvent": "AI boom could trigger market shocks, Bank of England boss warns",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Figure caption, Watch: Governor of the Bank of England Andrew Bailey says quality of deepfakes 'alarming' By Mitchell Labiak , Business reporter and Faisal Islam , Economics editor Published 1 hour ago Artificial intelligence (AI) could tri",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "23e350f474c128b5172c": {
+      "storyId": "23e350f474c128b5172c",
+      "url": "https://www.politico.com/news/2026/09/30/new-mexico-ai-regulation-bill-01101379",
+      "title": "New Mexico to jump into frontier AI regulation",
+      "source": "POLITICO AI",
+      "published": "2026-10-01T00:26:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "73a69c3b400cdd2ce7d6b019",
+      "bodyFingerprint": "f3038b105450c995ebedae9f",
+      "bodyCharacterCount": 137,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-01T06:00:03.699Z",
+      "assessment": {
+        "centralEvent": "New Mexico to jump into frontier AI regulation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Attorney General Raúl Torrez is set to announce a proposal for safety checks on AI development, following California and New York’s lead.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e8e507d803b02f7c6dac": {
+      "storyId": "e8e507d803b02f7c6dac",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0zewj483wo?at_campaign=rss&at_medium=RSS",
+      "title": "Son who used AI to help save mum's life hopes case unlocks clues for other Parkinson's patients",
+      "source": "BBC News AI",
+      "published": "2026-10-01T00:52:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4a3ffea779db81c592bac327",
+      "bodyFingerprint": "bd9b6032ba150f6588910d95",
+      "bodyCharacterCount": 7401,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T06:00:03.710Z",
+      "assessment": {
+        "centralEvent": "Son who used AI to help save mum's life hopes case unlocks clues for other Parkinson's patients",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But earlier this year, the US Food and Drug Administration put out a memo , external saying that particular drugs used to treat Parkinson's should carry a warning about potential links to B6 deficiency.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image caption, Ed Patrick and his mother, Ann, who has Parkinson's Disease, and father John By Tim Johns Published 5 hours ago An NHS doctor who says he saved his mum's life with the help of AI hopes what he learned can help others with Par",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Although Parkinson's affects millions of people worldwide, only 14 similar cases have ever been reported.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Charity Parkinson's UK welcomed the prospect of more research trials in light of this case and said it could \"transform care\" for some others with Parkinson's. 'High-fiving the neurologist' In May this year Patrick said hospital staff calle",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Within minutes of administering vitamin B6, Ann's seizure activity stopped. \"We are now working to raise awareness of this potential issue, beginning with changes to practice within our own team.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.33,
+        "rawScore": 30.33,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "424684aadf8a1da24ddf": {
+      "storyId": "424684aadf8a1da24ddf",
+      "url": "https://www.theguardian.com/technology/2026/oct/01/how-ai-could-supercharge-fake-news-elections-south-east-asia",
+      "title": "How AI could ‘supercharge’ election risks across south-east Asia",
+      "source": "The Guardian AI",
+      "published": "2026-10-01T01:58:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eb39472fca4dc27dbdd25f92",
+      "bodyFingerprint": "e7bfff74b25709bae26f9538",
+      "bodyCharacterCount": 5911,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T06:00:03.755Z",
+      "assessment": {
+        "centralEvent": "How AI could ‘supercharge’ election risks across south-east Asia",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5f1e49db4cdaaa6a1c7e": {
+      "storyId": "5f1e49db4cdaaa6a1c7e",
+      "url": "https://www.theguardian.com/us-news/2026/sep/30/gavin-newsom-california-ai-threat",
+      "title": "Gavin Newsom signs laws to protect California workers from AI threat",
+      "source": "The Guardian AI",
+      "published": "2026-10-01T00:17:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "487ef847cd26417c2ccac3f5",
+      "bodyFingerprint": "f67989e36d83ce4d10ac9847",
+      "bodyCharacterCount": 4170,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T06:00:03.762Z",
+      "assessment": {
+        "centralEvent": "Gavin Newsom signs laws to protect California workers from AI threat",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The laws ban employers from using the technology to predict a worker’s emotional state by using their biometric data, require employers to send written notices to workers if AI is responsible for mass layoffs and ban employers from relying ",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e3b90bc1c87c24e21fa7": {
+      "storyId": "e3b90bc1c87c24e21fa7",
+      "url": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+      "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+      "source": "The Verge AI",
+      "published": "2026-10-01T00:23:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "952ce62d4b10f8c830256b40",
+      "bodyFingerprint": "7461a81fcc4d254f8f09d95d",
+      "bodyCharacterCount": 4185,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T06:00:03.779Z",
+      "assessment": {
+        "centralEvent": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But earlier this year, it appeared that Grokipedia stopped making updates altogether, with Lawfare publishing a report in August where it said that “As far as we can tell, no entry has changed in more than three months.” Given these recent ",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-09-30T23:52:59.118Z"
+  "updatedAt": "2026-10-01T06:00:03.779Z"
 }
