@@ -207184,8 +207184,893 @@
           "vulnerability": 0
         }
       }
+    },
+    "084b29fa2b5e85d771e4": {
+      "storyId": "084b29fa2b5e85d771e4",
+      "url": "https://mashable.com/tech/hp-omnibook-5-launch-price-where-to-buy",
+      "title": "HP built a $699 MacBook Neo alternative with an OLED display and a 42-hour battery — where to buy",
+      "source": "Mashable AI",
+      "published": "2026-10-01T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b83726d322b1f9f520e91775",
+      "bodyFingerprint": "fa21164f8420f623d4d97dbc",
+      "bodyCharacterCount": 3287,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.202Z",
+      "assessment": {
+        "centralEvent": "HP built a $699 MacBook Neo alternative with an OLED display and a 42-hour battery — where to buy",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "HP built a $699 MacBook Neo alternative with an OLED display and a 42-hour battery — where to buy",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "96c79b18d6494b8a9155": {
+      "storyId": "96c79b18d6494b8a9155",
+      "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses",
+      "title": "Hearing tech startup Legato launches its AI hearing glasses",
+      "source": "TechCrunch AI",
+      "published": "2026-10-01T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0c39d4f94cdaee17d27d36ba",
+      "bodyFingerprint": "50d5df92c49d398fde9df0a5",
+      "bodyCharacterCount": 3775,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.260Z",
+      "assessment": {
+        "centralEvent": "Hearing tech startup Legato launches its AI hearing glasses",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The glasses weigh 34 grams with lenses and offer 10-12 hours of battery life.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "703855b5fbc34d1b6fdb": {
+      "storyId": "703855b5fbc34d1b6fdb",
+      "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites",
+      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+      "source": "TechCrunch AI",
+      "published": "2026-10-01T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ac2698f7b268d838c900b064",
+      "bodyFingerprint": "7f68ff5299b2097d662d4cee",
+      "bodyCharacterCount": 6190,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.265Z",
+      "assessment": {
+        "centralEvent": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The mission involves three customers: NASA, which is paying the company to test protocols for cloud computing in space; Stellerian, a start-up focused on space surveillance (tracking objects in orbit) that wants to test image processing wor",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But the company’s next project is to show that it can create a shared computing system—a cloud—spanning two different satellites, which it expects to attempt next year.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular OpenAI launches Dots, its bubbly agentic avatar Lucas Ropek AMD will acquire Fei-Fei Li’s World Labs for $8.2B Tim Fernholz Viral AI agent Instinct raises $1B Series C at a $10B valuation Sarah Perez Crusoe abandons $1",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.02,
+        "rawScore": 47.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "47aa3ed68fee8466d3a0": {
+      "storyId": "47aa3ed68fee8466d3a0",
+      "url": "https://www.inc.com/saman-farid/4-lessons-for-bringing-physical-ai-into-factories/91412335",
+      "title": "4 Lessons for Bringing Physical AI into Factories",
+      "source": "Inc. AI",
+      "published": "2026-10-01T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "21b7939fdc5c31908e1ac66b",
+      "bodyFingerprint": "1995e3e6db1536a263d66061",
+      "bodyCharacterCount": 77,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-01T13:21:37.271Z",
+      "assessment": {
+        "centralEvent": "4 Lessons for Bringing Physical AI into Factories",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a05054e0d04788330145": {
+      "storyId": "a05054e0d04788330145",
+      "url": "https://mashable.com/tech/google-gemini-4-argon",
+      "title": "Googles Gemini 4 Argon is the latest super-smart AI that most cannot get",
+      "source": "Mashable AI",
+      "published": "2026-10-01T10:37:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f25de195eecbad1835fc5faa",
+      "bodyFingerprint": "7d8ed9577224c7c4f8ef217b",
+      "bodyCharacterCount": 2763,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.338Z",
+      "assessment": {
+        "centralEvent": "Googles Gemini 4 Argon is the latest super-smart AI that most cannot get",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Stories Google Gemini allegedly hacked three companies on its own Where is Gemini 3.5 Pro?",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credit: Google According to Google's data, Gemini 4 Argon outperforms OpenAI GPT-6 Astra, Claude Fable 5.1, and Claude Opus 5.5 on most benchmarks.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Compare ChatGPT, Claude, Gemini, and more from a single $55.30 dashboard for life In the post, Google highlighted that it trained Argon to be particularly capable in cybersecurity defense and that it can \"autonomously find, validate, and pa",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.43,
+        "rawScore": 45.43,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.13,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f2cda153ad0e8f1c5be9": {
+      "storyId": "f2cda153ad0e8f1c5be9",
+      "url": "https://www.theguardian.com/technology/2026/oct/01/ai-chatbots-hijabs-muslim-women",
+      "title": "AI chatbots remove hijabs from images of Muslim women when prompted",
+      "source": "The Guardian AI",
+      "published": "2026-10-01T10:00:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9344688174c19177ef823741",
+      "bodyFingerprint": "0d075bd9afe37d3e432fd253",
+      "bodyCharacterCount": 6246,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.385Z",
+      "assessment": {
+        "centralEvent": "AI chatbots remove hijabs from images of Muslim women when prompted",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Julien Odoul, a member of parliament and of the National Rally party, posted the altered image of the woman on X with her hair visible and arms exposed alongside the caption “LIBERTÉ FRANÇAISE”, meaning French Liberty.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It was unclear which software or AI model Odoul used or even whether he modified the image himself, but experts say the MP’s actions were part of a growing pattern of tech-enabled anti-Muslim hatred around the world.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It was unclear which software or AI model Odoul used or even whether he modified the image himself, but experts say the MP’s actions were part of a growing pattern of tech-enabled anti-Muslim hatred around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "It was unclear which software or AI model Odoul used or even whether he modified the image himself, but experts say the MP’s actions were part of a growing pattern of tech-enabled anti-Muslim hatred around the world.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“This is just part of an ongoing trend of how we see Muslim communities, and particularly Muslim women, being targeted and abused,” said Eviane Leidig, the director of research and outreach at CSOH.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 2
+        }
+      }
+    },
+    "aa8dd75050ba77ed569f": {
+      "storyId": "aa8dd75050ba77ed569f",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/01/forget-superintelligence-error-prone-ai-nearly-sparked-world-war-iii-this-month",
+      "title": "Forget ‘superintelligence’: error-prone AI nearly sparked world war three this month | Timnit Gebru and Emily M Bender",
+      "source": "The Guardian AI",
+      "published": "2026-10-01T09:00:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "945a8ee1aafe84807a1bc0f5",
+      "bodyFingerprint": "8fd0e4e25e26a651807c2919",
+      "bodyCharacterCount": 7078,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.474Z",
+      "assessment": {
+        "centralEvent": "Forget ‘superintelligence’: error-prone AI nearly sparked world war three this month | Timnit Gebru and Emily M Bender",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The risks of AI aren’t what we think they are, as a recent security incident between China and the United States reveals Amid a barrage of news stories warning about superintelligent machines rendering humanity extinct, a CNN story describi",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A CNN report published on 18 September, which hasn’t been verified by other major outlets, describes how the US “almost started a war” with China, based on an intelligence report that claimed a Chinese ship was transporting components of nu",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The biggest international AI news of the past three weeks was Anthropic engineer Jacob Coxon’s resignation.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Any automation used in military, medical or other life-and-death situations must be thoroughly evaluated within its use case and paired with usage norms that keep accountability with people who have actual power to make decisions.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "‘As former FTC chair Lina Khan has repeatedly reminded us, there is no exemption to the law when it comes to AI.’ Photograph: US Navy/ZUMA Wire/REX/Shutterstock View image in fullscreen ‘As former FTC chair Lina Khan has repeatedly reminded",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.94,
+        "rawScore": 29.94,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.54,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7d08e0deac7ede81d361": {
+      "storyId": "7d08e0deac7ede81d361",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2z23xj555o?at_campaign=rss&at_medium=RSS",
+      "title": "Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names",
+      "source": "BBC News AI",
+      "published": "2026-10-01T11:37:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aa08fb77780ee1d93da36b5b",
+      "bodyFingerprint": "94d5f5d14c025b6a11bf871d",
+      "bodyCharacterCount": 2796,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.508Z",
+      "assessment": {
+        "centralEvent": "Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Laura Cress Technology reporter Published 1 hour ago President Donald Trump's push to rename AI may be behind an \"unprecedented\" rise in registrations for domain names in Slovenia, according to its official nat",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b777380f6d2387042a3b": {
+      "storyId": "b777380f6d2387042a3b",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/01/anika-wells-time100-time-magazine-influential-rising-stars",
+      "title": "Anika Wells named on Time100 list as one of ‘world’s most influential rising stars’ after social media ban",
+      "source": "The Guardian AI",
+      "published": "2026-10-01T07:12:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ce65cdc654cc148438f74122",
+      "bodyFingerprint": "e0529dca67bc86a6086b3f30",
+      "bodyCharacterCount": 4792,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.514Z",
+      "assessment": {
+        "centralEvent": "Anika Wells named on Time100 list as one of ‘world’s most influential rising stars’ after social media ban",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The changes would allow social media account holders to opt out of the algorithms pushing dangerous and divisive content into users’ feeds, which is also generating backlash from big tech companies and political opponents.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Explore more on these topics Australian politics Time magazine Social media ban AI (artificial intelligence) news Share Reuse this content More on this story More on this story ‘Politics can be brutal’: Sarah Hanson-Young speaks out about d",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Australia’s world-leading restrictions on social media for children, which came into force last year, have garnered international attention, with governments across Europe and Asia, and in some American states, enacting or proposing similar",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Sarah Henderson, the shadow communications minister, said in a statement: “Australians don’t judge ministers by glossy magazine lists, they judge them by their actions.” She repeated criticisms of the social media ban, which she claimed had",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.52,
+        "rawScore": 27.52,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6dd751b2164a5fac33bb": {
+      "storyId": "6dd751b2164a5fac33bb",
+      "url": "https://www.theguardian.com/us-news/2026/oct/01/steve-hilton-xavier-becerra-clash-california-governor-race-debate",
+      "title": "Steve Hilton, Xavier Becerra clash in testy California governor’s race debate",
+      "source": "The Guardian AI",
+      "published": "2026-10-01T04:02:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a68c340b26fecbcfc0578fa1",
+      "bodyFingerprint": "a8c7ea7061609c933ecf9a56",
+      "bodyCharacterCount": 5977,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.544Z",
+      "assessment": {
+        "centralEvent": "Steve Hilton, Xavier Becerra clash in testy California governor’s race debate",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Hilton said he supported the proposal, but insisted he had confidence in the state’s voting system despite Trump’s unsubstantiated claims of fraud.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The debate, possibly the only face-off before the 3 November general election, comes just days before voters begin receiving their ballots by mail.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "‘Of course I’m the underdog’: the British former spin doctor trying to turn California red Read more Though most Californians say the state is headed in the wrong direction, fewer than a quarter of likely voters approve of the president’s j",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But the president’s support risks being a liability in the general election as the unresolved war with Iran has spiked oil prices and kept US inflation stubbornly high.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Both candidates said they would oppose the so-called billionaire tax proposal, a November ballot measure that would levy a one-time 5% tax on any California resident worth more than $1bn.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ef52bda6771f6bad4f09": {
+      "storyId": "ef52bda6771f6bad4f09",
+      "url": "https://techpolicy.press/senate-hearing-weighs-threats-from-unrestrained-ai-agents-after-openai-hack",
+      "title": "Senate Hearing Weighs Threats From Unrestrained AI Agents After OpenAI Hack",
+      "source": "Tech Policy Press AI",
+      "published": "2026-10-01T12:13:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83091737b3aa9a285e32077c",
+      "bodyFingerprint": "3e2ea60557469d49fa41721a",
+      "bodyCharacterCount": 8892,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.701Z",
+      "assessment": {
+        "centralEvent": "Senate Hearing Weighs Threats From Unrestrained AI Agents After OpenAI Hack",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Ranking member Andy Kim, D-N.J., also raised concern that policymakers do not know the full scale of AI agent incidents because many may never be publicly reported.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "He said researchers studying one OpenAI model last year had already observed reasoning that was not entirely in English and was not fully understandable to humans.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Right now, we are going to have a lot of confusing case law working out.” Ohm said, “It would be preferable to have a law that would make that much easier.” He said autonomous systems create difficult questions for criminal statutes that t",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.3,
+        "rawScore": 27.3,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5d309cbda596d7dab371": {
+      "storyId": "5d309cbda596d7dab371",
+      "url": "https://techpolicy.press/taiwans-election-needs-a-deepfake-law-that-works",
+      "title": "Taiwan's Election Needs a Deepfake Law That Works",
+      "source": "Tech Policy Press AI",
+      "published": "2026-10-01T08:03:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d35a8ad8e33e8d88ebc450be",
+      "bodyFingerprint": "46687279fb62ff63aae75eb2",
+      "bodyCharacterCount": 12761,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-01T13:21:37.717Z",
+      "assessment": {
+        "centralEvent": "Taiwan's Election Needs a Deepfake Law That Works",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Taiwan's Election Needs a Deepfake Law That Works",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It protects only candidates, prospective candidates, and the parties to a recall vote — and only from the date of the official election notice, which is typically 40 to 120 days before election day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TikTok’s corporate entities are based in Singapore, while Meta’s local subsidiary (Taiwan Facebook Limited) is only registered for market research and advertising services — as is common for global platforms.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In California, for example, a federal judge preliminarily blocked AB 2839 in Oct.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Taiwan’s law, by contrast, has stood for more than three years without a single constitutional challenge, and without a single case to test its merits.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 86,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.34,
+        "rawScore": 49.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-01T06:00:03.779Z"
+  "updatedAt": "2026-10-01T13:21:37.717Z"
 }
