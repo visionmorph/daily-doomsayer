@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-02T18:00:00.000Z",
+  "generatedAt": "2026-10-02T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-02",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T05:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 71.48
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T05:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,25 +45,39 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
           "peak": 50.82,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T05:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 50.82
         },
         {
+          "storyId": "deb3b6cf4c86fef5e692",
+          "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
+          "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
+          "peak": 50.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-02",
+          "firstObservedAt": "2026-10-02T22:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
+          "average": 50.22
+        },
+        {
           "storyId": "4eeb1f5ee48a5fb8503b",
-          "title": "\"Rogue\" AI Isn't Going Anywhere",
+          "title": "'Rogue' AI Isn't Going Anywhere",
           "url": "https://www.lawfaremedia.org/article/rogue--ai-isn't-going-anywhere",
           "source": "Lawfare AI",
           "image": "",
           "peak": 49.99,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T18:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 49.99
         },
         {
@@ -73,12 +87,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T05:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 49.94
+        },
+        {
+          "storyId": "54236135eb7ff95ed134",
+          "title": "OpenAI’s Medicare attack has exposed Australia’s ‘tech debt’. Fixing it could bring a big bill for taxpayers",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/961de574f870d32e3b4daa471716efcb42a6d0c5/904_0_5223_4179/master/5223.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 49.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-02",
+          "firstObservedAt": "2026-10-02T22:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
+          "average": 49.75
         },
         {
           "storyId": "e52668df7bb2e8337172",
@@ -101,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T05:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 49.34
         },
         {
@@ -115,40 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/AI-safety-Nesta-768x432.jpg",
           "peak": 49.23,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-02",
-          "firstObservedAt": "2026-10-02T18:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
-          "average": 49.23
-        },
-        {
-          "storyId": "f2cda153ad0e8f1c5be9",
-          "title": "AI chatbots remove hijabs from images of Muslim women when prompted",
-          "url": "https://www.theguardian.com/technology/2026/oct/01/ai-chatbots-hijabs-muslim-women",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/976016b244ec75038c7b4d519a0cbce1e2e70696/0_103_3400_2720/master/3400.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.01,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-10-02",
-          "firstObservedAt": "2026-10-02T05:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "6dd751b2164a5fac33bb",
-          "title": "Steve Hilton, Xavier Becerra clash in testy California governor’s race debate",
-          "url": "https://www.theguardian.com/us-news/2026/oct/01/steve-hilton-xavier-becerra-clash-california-governor-race-debate",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/440889f9ea1e51ffe57f9fd5c9a51abfa63a35cc/131_0_1542_1233/master/1542.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.01,
           "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-02",
-          "firstObservedAt": "2026-10-02T05:00:00.000Z",
-          "lastObservedAt": "2026-10-02T12:00:00.000Z",
-          "average": 49.01
+          "firstObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
+          "average": 49.23
         }
       ]
     },
@@ -4949,11 +4949,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T23:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 71.48
         },
         {
@@ -4991,11 +4991,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 19,
+          "observations": 20,
           "daysTracked": 5,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -5005,11 +5005,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
           "peak": 50.82,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-09-30",
           "firstObservedAt": "2026-09-30T23:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 50.82
         },
         {
@@ -5069,18 +5069,18 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.33
         },
         {
-          "storyId": "47295a383120f58ab871",
-          "title": "RFK Jr outlines expansive vision for collecting US health data at Maha event",
-          "url": "https://www.theguardian.com/us-news/2026/sep/29/rfk-jr-collect-health-data",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/c830d61a3ff7d140ffd13b03fbb18a8d2c2e637b/572_0_5001_4000/master/5001.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 50.08,
-          "observations": 3,
-          "daysTracked": 2,
-          "peakDate": "2026-09-29",
-          "firstObservedAt": "2026-09-29T20:00:00.000Z",
-          "lastObservedAt": "2026-09-30T06:00:00.000Z",
-          "average": 50.08
+          "storyId": "deb3b6cf4c86fef5e692",
+          "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
+          "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
+          "peak": 50.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-02",
+          "firstObservedAt": "2026-10-02T22:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
+          "average": 50.22
         }
       ]
     },
@@ -5821,11 +5821,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T23:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 71.48
         },
         {
@@ -5835,11 +5835,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -5849,11 +5849,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abc561adcf8a088a1995737/master/pass/science_biological_weapons_ai.jpg",
           "peak": 50.82,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 50.82
         },
         {
@@ -5885,17 +5885,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.33
         },
         {
+          "storyId": "deb3b6cf4c86fef5e692",
+          "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
+          "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
+          "peak": 50.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-02",
+          "firstObservedAt": "2026-10-02T22:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
+          "average": 50.22
+        },
+        {
           "storyId": "4eeb1f5ee48a5fb8503b",
-          "title": "\"Rogue\" AI Isn't Going Anywhere",
+          "title": "'Rogue' AI Isn't Going Anywhere",
           "url": "https://www.lawfaremedia.org/article/rogue--ai-isn't-going-anywhere",
           "source": "Lawfare AI",
           "image": "",
           "peak": 49.99,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T18:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 49.99
         },
         {
@@ -5905,12 +5919,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
           "average": 49.94
+        },
+        {
+          "storyId": "54236135eb7ff95ed134",
+          "title": "OpenAI’s Medicare attack has exposed Australia’s ‘tech debt’. Fixing it could bring a big bill for taxpayers",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/961de574f870d32e3b4daa471716efcb42a6d0c5/904_0_5223_4179/master/5223.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 49.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-02",
+          "firstObservedAt": "2026-10-02T22:00:00.000Z",
+          "lastObservedAt": "2026-10-02T22:00:00.000Z",
+          "average": 49.75
         },
         {
           "storyId": "e52668df7bb2e8337172",
@@ -5925,34 +5953,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-01T23:00:00.000Z",
           "lastObservedAt": "2026-10-02T18:00:00.000Z",
           "average": 49.66
-        },
-        {
-          "storyId": "d0e5cca543fb14b801f9",
-          "title": "At the UN and in Washington, Leaders Clash on Approach to AI",
-          "url": "https://techpolicy.press/at-the-un-and-in-washington-leaders-clash-on-approach-to-ai",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.66,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-01",
-          "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T13:00:00.000Z",
-          "average": 49.66
-        },
-        {
-          "storyId": "5d309cbda596d7dab371",
-          "title": "Taiwan's Election Needs a Deepfake Law That Works",
-          "url": "https://techpolicy.press/taiwans-election-needs-a-deepfake-law-that-works",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.34,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-10-01",
-          "firstObservedAt": "2026-10-01T19:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
-          "average": 49.34
         }
       ]
     },
