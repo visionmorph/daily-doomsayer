@@ -213421,8 +213421,932 @@
           "vulnerability": 0
         }
       }
+    },
+    "674f9eeb677b6aa6c1b0": {
+      "storyId": "674f9eeb677b6aa6c1b0",
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music",
+      "title": "Sean Parker is rebuilding Stability AI around music",
+      "source": "TechCrunch AI",
+      "published": "2026-10-02T21:09:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5076870d1b9082b3d65becd9",
+      "bodyFingerprint": "09424c9ff51fde78f1a69240",
+      "bodyCharacterCount": 2430,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.025Z",
+      "assessment": {
+        "centralEvent": "Sean Parker is rebuilding Stability AI around music",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related TechCrunch Disrupt 2026 TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants TechCrunch Events 5 hours ago AI Chat",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9afde3cc94f727f4b952": {
+      "storyId": "9afde3cc94f727f4b952",
+      "url": "https://mashable.com/tech/apple-will-update-full-disk-access-due-to-updates-ai-agents",
+      "title": "Apple will update Macs to protect users from AI agents with full disk access",
+      "source": "Mashable AI",
+      "published": "2026-10-02T21:50:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0daaef31f88fc6fb36ddd6fd",
+      "bodyFingerprint": "c7c3cea471dc3ab9d481ed32",
+      "bodyCharacterCount": 4055,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.032Z",
+      "assessment": {
+        "centralEvent": "Apple will update Macs to protect users from AI agents with full disk access",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "You May Also Like SEE ALSO: Big banks are worried AI agents could increase the risk of scams and fraud When a Mac user downloads a third-party app, some apps require the ability to access specific functionality on their computer.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Apple, the company will soon release additional controls to \"Full Disk Access,\" which will explicitly ask Mac users if they'd like to grant a third-party access to a specific part of their system.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d903d42f890fc782267b": {
+      "storyId": "d903d42f890fc782267b",
+      "url": "https://mashable.com/tech/openai-ai-agent-australia-government-hack-bushfire-data",
+      "title": "OpenAI discloses another Australian government hack",
+      "source": "Mashable AI",
+      "published": "2026-10-02T21:09:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0fd0b137580cd2580ae05008",
+      "bodyFingerprint": "59e22f630f4d0ce5fa2bdd7c",
+      "bodyCharacterCount": 3704,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.037Z",
+      "assessment": {
+        "centralEvent": "OpenAI discloses another Australian government hack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "You May Also Like SEE ALSO: An OpenAI agent hacked the Australian government If this sounds familiar, that's because Australia is already dealing with the fallout from a similar incident.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "29, and conducted a 48-hour review before notifying the NSW government on Thursday, Oct.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "According to The Guardian , the breach occurred in June and involved New South Wales' National Parks and Wildlife Service, part of the state's Department of Climate Change, Energy, the Environment and Water.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories An OpenAI agent hacked the Australian government Google Gemini allegedly hacked three companies on its own Meta: One of our models escaped containment and hacked someone too!",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.66,
+        "rawScore": 49.66,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.515,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "038134d95b4f933ef0d5": {
+      "storyId": "038134d95b4f933ef0d5",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "source": "The Verge AI",
+      "published": "2026-10-02T21:08:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "81a9f40aee3619300f7f27f9",
+      "bodyFingerprint": "c2db50677e886fffd0965a32",
+      "bodyCharacterCount": 3978,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.045Z",
+      "assessment": {
+        "centralEvent": "Meta open sources code to let you make Muse AI gadgets",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Program an off-the-shelf ESP32 board or set up a Raspberry Pi with our SDKs, then connect Muse to your displays, buttons, sensors, actuators, and whatever else you’ve got lying on your workbench.” However, Meta cautions that you should “Pr",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It manufactured 5,000 of the gadgets, according to Meta Superintelligence Labs’ Nat Friedman , and you can claim a waitlist spot for the Muse Home Link now ahead of shipping sometime this month.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ac153d8f7821405e727c": {
+      "storyId": "ac153d8f7821405e727c",
+      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "source": "The Verge AI",
+      "published": "2026-10-02T20:08:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a0b805e8ba66e2defaeb0e12",
+      "bodyFingerprint": "96752629c291a0b82fca94fb",
+      "bodyCharacterCount": 4041,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.053Z",
+      "assessment": {
+        "centralEvent": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b5c444f81dbac9799839": {
+      "storyId": "b5c444f81dbac9799839",
+      "url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars",
+      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "source": "TechCrunch AI",
+      "published": "2026-10-02T19:15:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d0f20c02358891cd40df445e",
+      "bodyFingerprint": "58d8c3927d565d7bb5bca6aa",
+      "bodyCharacterCount": 4839,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.064Z",
+      "assessment": {
+        "centralEvent": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "If you’ve been laid off, you can get a TechCrunch Disrupt 2026 Expo+ Pass for just $75 .",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bebca6424b0efee5984c": {
+      "storyId": "bebca6424b0efee5984c",
+      "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
+      "title": "Computational tools for society’s most complex challenges",
+      "source": "MIT News AI",
+      "published": "2026-10-02T19:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cb44dac5a2c07cadb7f35d7a",
+      "bodyFingerprint": "06a32eb8278d5306e8eda3c3",
+      "bodyCharacterCount": 9970,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.153Z",
+      "assessment": {
+        "centralEvent": "Computational tools for society’s most complex challenges",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "During that time, she observed that transportation researchers were spending years developing optimization methods to model and analyze a single new variant of a system.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "90c6c9903271281ae042": {
+      "storyId": "90c6c9903271281ae042",
+      "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash",
+      "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+      "source": "Ars Technica AI",
+      "published": "2026-10-02T20:30:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "46632b05c98d2b7dcc22bf3a",
+      "bodyFingerprint": "9410b1544bbfb7ef06b8c4d2",
+      "bodyCharacterCount": 4902,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.160Z",
+      "assessment": {
+        "centralEvent": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Amazon praised for ending NDAs but slammed for downplaying data center pollution.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Communities will face 33 million tons of harmful air pollution every year—with the power plant using the same amount of energy needed to run more than 1.9 million homes.” Additionally, Stand.Earth called out Amazon for claiming that most d",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "However, advocates at Stand.Earth—a global nonprofit that’s been fighting for environmental protections in communities hosting data centers—told Ars that Amazon is the one being “misleading” by spreading “corporate propaganda.” Seemingly in",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "However, advocates at Stand.Earth—a global nonprofit that’s been fighting for environmental protections in communities hosting data centers—told Ars that Amazon is the one being “misleading” by spreading “corporate propaganda.” Seemingly in",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“For all the claims Amazon makes about investing in carbon-free energy, it conveniently leaves out that it is constructing the single-largest source of climate emissions in the United States in Pecos, Texas,” Stand.Earth said.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2f4f004108cc6797fcc1": {
+      "storyId": "2f4f004108cc6797fcc1",
+      "url": "https://www.inc.com/moses-jeanfrancois/2-startup-ceos-fought-over-1-executive-in-public-legal-expert-explains/91412998",
+      "title": "2 Startup CEOs Fought Over 1 Executive in Public. A Legal Expert Explains What the Callouts Accomplish",
+      "source": "Inc. AI",
+      "published": "2026-10-02T19:46:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "76938d501b154cf3ebc23de9",
+      "bodyFingerprint": "1cbc65a402d10160c7d6771b",
+      "bodyCharacterCount": 106,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-02T22:59:51.203Z",
+      "assessment": {
+        "centralEvent": "2 Startup CEOs Fought Over 1 Executive in Public. A Legal Expert Explains What the Callouts Accomplish",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b4cce8a935b135cd6d89": {
+      "storyId": "b4cce8a935b135cd6d89",
+      "url": "https://www.inc.com/kit-eaton/apples-new-gadgets-may-be-home-security-cameras-the-twist-they-wont-actually-record-video/91413947",
+      "title": "Apple’s New Gadgets May Be Home Security Cameras. The Twist? They Won’t Actually Record Video",
+      "source": "Inc. AI",
+      "published": "2026-10-02T18:58:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fafded10522c2d2cc08689b6",
+      "bodyFingerprint": "4a2eb86288d5c860cf83dad8",
+      "bodyCharacterCount": 109,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-02T22:59:51.205Z",
+      "assessment": {
+        "centralEvent": "Apple’s New Gadgets May Be Home Security Cameras. The Twist? They Won’t Actually Record Video",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "How does a company like Apple reconcile privacy with home surveillance?",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "72ba434926260d43667c": {
+      "storyId": "72ba434926260d43667c",
+      "url": "https://www.theguardian.com/us-news/2026/oct/02/arrest-smuggled-computer-servers-china",
+      "title": "US arrests California man for allegedly smuggling $300m worth of computer servers to China",
+      "source": "The Guardian AI",
+      "published": "2026-10-02T18:46:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ab327f1c23408a4f588acbde",
+      "bodyFingerprint": "3a8c857c5bd32b0f8bdebf6e",
+      "bodyCharacterCount": 2554,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.224Z",
+      "assessment": {
+        "centralEvent": "US arrests California man for allegedly smuggling $300m worth of computer servers to China",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“We will aggressively prosecute those who put our national security at risk for profit,” he added.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Lui operated a technology company called Earthmade Computer, which he used to buy and send items to China without the licenses required by the US Department of Commerce from 2023 to 2024, according to the statement.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Explore more on these topics California AI (artificial intelligence) China International trade US crime Law (US) news Share Reuse this content Most viewed Most viewed",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9c74b8828a2c0cb543e8": {
+      "storyId": "9c74b8828a2c0cb543e8",
+      "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china",
+      "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+      "source": "Ars Technica AI",
+      "published": "2026-10-02T18:39:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1a6c3f4ae38d929d6d36e23d",
+      "bodyFingerprint": "9347f9d04293386e71bae411",
+      "bodyCharacterCount": 11464,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.234Z",
+      "assessment": {
+        "centralEvent": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emails and bank records exposed the smuggling scheme, the DOJ alleged, which started in October 2023 and continued until August 2026.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“Government officials and industry experts are increasingly pointing to gaps in Nvidia’s due diligence, questioning how the company failed to catch red flags,” Bloomberg reported.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Increasingly, Nvidia faces questions about its own “blind spots” when it comes to compliance with export controls, according to a lengthy Bloomberg investigation “based on conversations with dozens of people across five countries.” Official",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Nvidia screens buyers and has blocked shipments when end buyers are unknown, but it’s not detecting seemingly obvious fraudulent shipments that some US officials think could easily be flagged.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.13,
+        "rawScore": 48.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.375,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "acde35715fa30a4306bb": {
+      "storyId": "acde35715fa30a4306bb",
+      "url": "https://www.politico.com/news/2026/10/02/ag-bonta-seeking-all-material-information-about-openai-hacks-01104667",
+      "title": "California AG Bonta seeking ‘all material information’ about OpenAI hacks",
+      "source": "POLITICO AI",
+      "published": "2026-10-02T18:32:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83df2824590bb48db7079c59",
+      "bodyFingerprint": "9c03b7ed4ae3e505955c1305",
+      "bodyCharacterCount": 127,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-02T22:59:51.261Z",
+      "assessment": {
+        "centralEvent": "California AG Bonta seeking ‘all material information’ about OpenAI hacks",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "75ef53e0b6cbe3884e53": {
+      "storyId": "75ef53e0b6cbe3884e53",
+      "url": "https://www.theguardian.com/us-news/2026/oct/02/midterms-ai-ballot-privacy",
+      "title": "Georgia holds emergency meeting on AI exposing voters’ secret ballots",
+      "source": "The Guardian AI",
+      "published": "2026-10-02T18:57:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "39391763f36867994ff4d96d",
+      "bodyFingerprint": "3b5a0176d196f3cc01204c35",
+      "bodyCharacterCount": 7363,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-02T22:59:51.383Z",
+      "assessment": {
+        "centralEvent": "Georgia holds emergency meeting on AI exposing voters’ secret ballots",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "A Princeton researcher found that publicly available election records could be combined with AI to link voters to their ballots When voters cast their ballots, their votes are supposed to remain secret: from their family, their neighbors, a",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-02T18:27:14.493Z"
+  "updatedAt": "2026-10-02T22:59:51.383Z"
 }
