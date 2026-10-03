@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-03T17:00:00.000Z",
+  "generatedAt": "2026-10-03T21:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-03",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-03",
           "firstObservedAt": "2026-10-03T08:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 71.48
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-03",
           "firstObservedAt": "2026-10-03T08:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
           "peak": 50.22,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-03",
           "firstObservedAt": "2026-10-03T08:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 50.22
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-03",
           "firstObservedAt": "2026-10-03T08:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 49.94
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/961de574f870d32e3b4daa471716efcb42a6d0c5/904_0_5223_4179/master/5223.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 49.75,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-03",
           "firstObservedAt": "2026-10-03T08:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 49.75
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Mashable AI",
           "image": "https://helios-i.mashable.com/imagery/articles/07EFnzTtBHUT8Qz7eJ4Rq1a/hero-image.jpg",
           "peak": 49.66,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-03",
           "firstObservedAt": "2026-10-03T08:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 49.66
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-03",
           "firstObservedAt": "2026-10-03T08:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 49.34
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/AI-safety-Nesta-768x432.jpg",
           "peak": 49.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-03",
           "firstObservedAt": "2026-10-03T08:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 49.23
         }
       ]
@@ -5094,11 +5094,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T23:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 71.48
         },
         {
@@ -5136,11 +5136,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 24,
+          "observations": 25,
           "daysTracked": 6,
           "peakDate": "2026-09-28",
           "firstObservedAt": "2026-09-28T06:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -5220,11 +5220,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
           "peak": 50.22,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T22:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 50.22
         }
       ]
@@ -5966,11 +5966,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T23:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 71.48
         },
         {
@@ -5980,11 +5980,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -6036,11 +6036,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
           "peak": 50.22,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T22:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 50.22
         },
         {
@@ -6064,11 +6064,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 49.94
         },
         {
@@ -6078,25 +6078,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/961de574f870d32e3b4daa471716efcb42a6d0c5/904_0_5223_4179/master/5223.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 49.75,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T22:00:00.000Z",
-          "lastObservedAt": "2026-10-03T17:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 49.75
         },
         {
-          "storyId": "e52668df7bb2e8337172",
-          "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
-          "url": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_1001_Oleary.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "storyId": "d903d42f890fc782267b",
+          "title": "OpenAI discloses another Australian government hack",
+          "url": "https://mashable.com/tech/openai-ai-agent-australia-government-hack-bushfire-data",
+          "source": "Mashable AI",
+          "image": "https://helios-i.mashable.com/imagery/articles/07EFnzTtBHUT8Qz7eJ4Rq1a/hero-image.jpg",
           "peak": 49.66,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
-          "peakDate": "2026-10-01",
-          "firstObservedAt": "2026-10-01T23:00:00.000Z",
-          "lastObservedAt": "2026-10-02T18:00:00.000Z",
+          "peakDate": "2026-10-02",
+          "firstObservedAt": "2026-10-03T02:00:00.000Z",
+          "lastObservedAt": "2026-10-03T21:00:00.000Z",
           "average": 49.66
         }
       ]
