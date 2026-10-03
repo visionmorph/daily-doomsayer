@@ -214765,8 +214765,540 @@
           "vulnerability": 0
         }
       }
+    },
+    "28f4f3acef44a7657ff5": {
+      "storyId": "28f4f3acef44a7657ff5",
+      "url": "https://mashable.com/tech/oct-3-1minai-advanced-business-plan-lifetime-subscription",
+      "title": "Stop guessing which AI is best: Get GPT, Claude, and Gemini for under $100",
+      "source": "Mashable AI",
+      "published": "2026-10-03T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "682444730c6e943a0fa6e7a4",
+      "bodyFingerprint": "61afdfc15bf1389ac500d2d9",
+      "bodyCharacterCount": 2703,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T13:25:52.275Z",
+      "assessment": {
+        "centralEvent": "Stop guessing which AI is best: Get GPT, Claude, and Gemini for under $100",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "You’ll also need to redeem your code within 30 days of purchase.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2fd29d162e1e269d8ef4": {
+      "storyId": "2fd29d162e1e269d8ef4",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260930225456.htm",
+      "title": "Scientists just made a superconductor stronger using “empty space”",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-03T12:03:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "170e024c2fdf97365c28f6e9",
+      "bodyFingerprint": "5408516fda01f8946a88c83d",
+      "bodyCharacterCount": 10209,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T13:25:52.293Z",
+      "assessment": {
+        "centralEvent": "Scientists just made a superconductor stronger using “empty space”",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "According to quantum electrodynamics and the Heisenberg uncertainty principle, even the lowest energy state is never perfectly still.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Researchers have demonstrated that quantum fluctuations in supposedly empty space can strengthen superconductivity, raising the transition temperature of an ultrathin material by as much as 5.4%.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "For several years, the teams led by Zeng and Cheng have investigated how these vacuum fluctuations affect condensed matter systems.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.64,
+        "rawScore": 26.64,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2764a71c4980aefcecfc": {
+      "storyId": "2764a71c4980aefcecfc",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260930225443.htm",
+      "title": "The early universe wasn’t nearly as pristine as scientists thought",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-02T11:24:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "05c61d171fccfdec59e12960",
+      "bodyFingerprint": "dd8b976035123f227163da88",
+      "bodyCharacterCount": 10102,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T13:25:52.333Z",
+      "assessment": {
+        "centralEvent": "The early universe wasn’t nearly as pristine as scientists thought",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Inside those stars, extreme heat and pressure enabled nuclear fusion and other reactions that created heavier elements such as carbon and oxygen.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nearly 30 hours of exposure time collected enough light for the team to identify extremely faint absorption features in the spectra of the distant galaxies.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This process shows that galaxies are not completely isolated objects.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a5ffd142b1d5f705a787": {
+      "storyId": "a5ffd142b1d5f705a787",
+      "url": "https://www.inc.com/bill-murphy-jr/chatgpt-and-other-ai-tools-are-changing-how-we-learn-a-massive-new-study-calls-it-knowledge-collapse/91413730",
+      "title": "ChatGPT and Other AI Tools Are Changing How We Learn. A Massive New Study Calls It ‘Knowledge Collapse’",
+      "source": "Inc. AI",
+      "published": "2026-10-03T08:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "245fb5a1091462770f396743",
+      "bodyFingerprint": "e1d130d58e2b3a75af27904c",
+      "bodyCharacterCount": 81,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-03T13:25:52.337Z",
+      "assessment": {
+        "centralEvent": "ChatGPT and Other AI Tools Are Changing How We Learn. A Massive New Study Calls It ‘Knowledge Collapse’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "A Massive New Study Calls It ‘Knowledge Collapse’",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd54a2f56ebc5415db9a": {
+      "storyId": "bd54a2f56ebc5415db9a",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm",
+      "title": "NASA’s Roman telescope just opened its planet-hunting eye",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-02T12:21:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8e2ed2c98403bd56c8e42a1e",
+      "bodyFingerprint": "aa5bc8a6ed3c7c813c31e0c9",
+      "bodyCharacterCount": 9548,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T13:25:52.366Z",
+      "assessment": {
+        "centralEvent": "NASA’s Roman telescope just opened its planet-hunting eye",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Our tests confirmed that we are able to keep the observatory very stable for science operations: better than 1/100,000 of a degree for half an hour at a time for Wide Field Instrument observations or for eight hours at a time for Coronagrap",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3ad961614b9e0774c559": {
+      "storyId": "3ad961614b9e0774c559",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260930225452.htm",
+      "title": "Scientists just pushed superconductors beyond their usual current limit",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-02T11:08:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "137254471570d6299460b075",
+      "bodyFingerprint": "a0d415439b3663b8065a6564",
+      "bodyCharacterCount": 10145,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T13:25:52.375Z",
+      "assessment": {
+        "centralEvent": "Scientists just pushed superconductors beyond their usual current limit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Explore More from ScienceDaily RELATED STORIES Scientists Unlocked a Superconductor Mystery Under Crushing Pressure Dec.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Superconductors actually possess a higher fundamental limit known as the depairing current. \"One way to picture it is that the current \"twists\" the phase of the coherent quantum state of the superconductor, rather like winding a spring,\" ex",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "2, 2021  Superconducting coupling between two regions separated by a one micron wide ferromagnetic compound has been proved by an international team.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c87c9866ec1833e39216": {
+      "storyId": "c87c9866ec1833e39216",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260929053548.htm",
+      "title": "Electrons slow to a crawl in a strange new quantum state",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-02T03:10:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bfa88f7a56a6cf3edf85477f",
+      "bodyFingerprint": "db909b4b970b34de1b60a01f",
+      "bodyCharacterCount": 9211,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T13:25:52.391Z",
+      "assessment": {
+        "centralEvent": "Electrons slow to a crawl in a strange new quantum state",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In this case, however, the researchers found that the coherent behavior persisted up to 100 degrees above absolute zero.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cffc2d16a6eee3ae830a": {
+      "storyId": "cffc2d16a6eee3ae830a",
+      "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family",
+      "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+      "source": "WIRED AI",
+      "published": "2026-10-03T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4221e453a4ec250de590cf29",
+      "bodyFingerprint": "c4e681b13ef84f59197863bf",
+      "bodyCharacterCount": 9743,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T13:25:52.403Z",
+      "assessment": {
+        "centralEvent": "Muse Creates Detailed Profiles of All Your Friends and Family",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Reece Rogers How to Use AI With Your Privacy Intact Your conversations with AI chatbots are both highly personal and deeply vulnerable to surveillance.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One of Muse’s instructions appears to be the ability for it to create “a page for every person in the user’s life.” This hourly process involves compiling data on family, partners, friends, colleagues, “collaborators,” and people you “follo",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One of Muse’s instructions appears to be the ability for it to create “a page for every person in the user’s life.” This hourly process involves compiling data on family, partners, friends, colleagues, “collaborators,” and people you “follo",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.05,
+        "rawScore": 45.05,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-03T08:10:20.456Z"
+  "updatedAt": "2026-10-03T13:25:52.403Z"
 }
