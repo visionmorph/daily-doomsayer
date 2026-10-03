@@ -214345,8 +214345,270 @@
           "vulnerability": 0
         }
       }
+    },
+    "b6aee1da4c9da9519c63": {
+      "storyId": "b6aee1da4c9da9519c63",
+      "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget",
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "source": "TechCrunch AI",
+      "published": "2026-10-03T00:45:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6003fd486904b20f85ebb4fa",
+      "bodyFingerprint": "a07c9d9875335b62b905cbf4",
+      "bodyCharacterCount": 3895,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T02:01:12.726Z",
+      "assessment": {
+        "centralEvent": "Meta wants your next gadget to be Muse-infused",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Considering Friedman’s post about Home Link received nearly 30,000 views in a few hours, we’re guessing those freebies have been claimed.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "66fa0c4065ac313de45d": {
+      "storyId": "66fa0c4065ac313de45d",
+      "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_campaign=rss&at_medium=RSS",
+      "title": "US road rage killer's sentence quashed because AI video of victim was shown in court",
+      "source": "BBC News AI",
+      "published": "2026-10-02T23:06:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "158ff9a80a9785a59c002ab0",
+      "bodyFingerprint": "0f1cb7efeae0c24304d22afc",
+      "bodyCharacterCount": 2115,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T02:01:12.816Z",
+      "assessment": {
+        "centralEvent": "US road rage killer's sentence quashed because AI video of victim was shown in court",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The Arizona appeals court ruled that airing an AI message from the dead victim \"crossed that line\".",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fafb6d28caf9cc1b2332": {
+      "storyId": "fafb6d28caf9cc1b2332",
+      "url": "https://www.theguardian.com/stage/2026/oct/03/eliza-review-melbourne-theatre-company-birth-of-ai",
+      "title": "Eliza review – an ambitious, unsettling play about the birth of AI",
+      "source": "The Guardian AI",
+      "published": "2026-10-03T01:57:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b5a32bd7e34f0f201d08ee55",
+      "bodyFingerprint": "69bbba5548645c6154aaf24f",
+      "bodyCharacterCount": 6590,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T02:01:12.898Z",
+      "assessment": {
+        "centralEvent": "Eliza review – an ambitious, unsettling play about the birth of AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Becky, in particular, seems very taken with Eliza, although it could just be that she feels listened to, rare in the chauvinist working environment of 1960s computing science.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5432f5b94c34f514ec03": {
+      "storyId": "5432f5b94c34f514ec03",
+      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "source": "Ars Technica AI",
+      "published": "2026-10-02T23:03:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8f324fc8b4d4f45c1d631dc",
+      "bodyFingerprint": "6827cc13bee4ece1a2a92cd7",
+      "bodyCharacterCount": 5316,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-03T02:01:12.961Z",
+      "assessment": {
+        "centralEvent": "Apple changes full-disk access permissions to curb abuse from AI agents",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Apple changes full-disk access permissions to curb abuse from AI agents",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Apple’s announcement came 11 days after Wardle disclosed a Muse configuration that allowed any app or code running on a Mac—including commands injected through the increasingly effective ClickFix attacks—to take full control of the AI assis",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One is full-disk access, a macOS system-level permission.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It also comes after Amazon blocked Muse from its platform because, Amazon said, all such apps “should operate openly and respect service provider decisions about whether or not to participate.” Taken together, the events suggest that Muse m",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-02T22:59:51.383Z"
+  "updatedAt": "2026-10-03T02:01:12.961Z"
 }
