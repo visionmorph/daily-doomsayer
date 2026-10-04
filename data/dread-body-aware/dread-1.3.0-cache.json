@@ -217183,8 +217183,307 @@
           "vulnerability": 0
         }
       }
+    },
+    "ccc818b4a5bd1ae29746": {
+      "storyId": "ccc818b4a5bd1ae29746",
+      "url": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+      "title": "Sam Altman to Decoded: ‘The world should accept some bad things happening’ for the benefits of AI",
+      "source": "POLITICO AI",
+      "published": "2026-10-04T20:55:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8434a3e482d070c0dc6ae779",
+      "bodyFingerprint": "74526efd2b39bd5cad139b52",
+      "bodyCharacterCount": 86,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-04T21:30:33.327Z",
+      "assessment": {
+        "centralEvent": "Sam Altman to Decoded: ‘The world should accept some bad things happening’ for the benefits of AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1267ee0bced6eed970da": {
+      "storyId": "1267ee0bced6eed970da",
+      "url": "https://www.inc.com/jessica-stillman/my-tiny-hometown-library-put-on-a-bye-bye-ai-event-and-the-internet-went-nuts/91413242",
+      "title": "My Tiny Hometown Library Put on a ‘Bye Bye AI’ Event and the Internet Went Nuts",
+      "source": "Inc. AI",
+      "published": "2026-10-04T17:20:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a872bdd74fbeaa9db6f8268a",
+      "bodyFingerprint": "2e4a3081e9adba56ecab13ff",
+      "bodyCharacterCount": 110,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-04T21:30:33.373Z",
+      "assessment": {
+        "centralEvent": "My Tiny Hometown Library Put on a ‘Bye Bye AI’ Event and the Internet Went Nuts",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "When a tiny small town library tech workshop can go viral, you know the AI backlash is really gathering steam.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3b5df735b596a6959b14": {
+      "storyId": "3b5df735b596a6959b14",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions",
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "source": "TechCrunch AI",
+      "published": "2026-10-04T20:31:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af7b7116620b0befe10ebd93",
+      "bodyFingerprint": "c7325a5dc6f6be9950bebc53",
+      "bodyCharacterCount": 2202,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T21:30:33.401Z",
+      "assessment": {
+        "centralEvent": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Last year, TechCrunch reported that cybersecurity experts were warning of that AI slop posed a serious risk to bug bounty programs .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Anthony Ha 53 minutes ago AI Amazon responds to data center backlash, says it no longer uses NDAs Anthony Ha 1 day ago AI OpenAI safety employee resigns, claiming the company’s ‘culture is broken’ Anthony Ha 1 day ago Latest in AI In Brief ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "960e033424ed8fb15991": {
+      "storyId": "960e033424ed8fb15991",
+      "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem",
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "source": "TechCrunch AI",
+      "published": "2026-10-04T20:08:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b21d007cf68b161549ad24fa",
+      "bodyFingerprint": "9b442a67898451e4512dd953",
+      "bodyCharacterCount": 7476,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T21:30:33.405Z",
+      "assessment": {
+        "centralEvent": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Emil Michael goes off on Anthropic every other day on X, it seems.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "94d91940bbe0ea9ae0ea": {
+      "storyId": "94d91940bbe0ea9ae0ea",
+      "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_news_internet?at_campaign=rss&at_medium=RSS",
+      "title": "Tech Life",
+      "source": "BBC News AI",
+      "published": "2026-09-29T19:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "221434ca0ffc58b2d0a575ef",
+      "bodyFingerprint": "62a3623860cedd9f97d72fe8",
+      "bodyCharacterCount": 1432,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T21:30:33.570Z",
+      "assessment": {
+        "centralEvent": "Tech Life",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-04T17:37:36.446Z"
+  "updatedAt": "2026-10-04T21:30:33.570Z"
 }
