@@ -216721,8 +216721,470 @@
           "vulnerability": 0
         }
       }
+    },
+    "5a1ea27ad999afed24e9": {
+      "storyId": "5a1ea27ad999afed24e9",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "title": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+      "source": "The Verge AI",
+      "published": "2026-10-04T16:16:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d406321bed705a7216bd18f8",
+      "bodyFingerprint": "cefded2e69cbca05b5d734ac",
+      "bodyCharacterCount": 3378,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T17:37:35.883Z",
+      "assessment": {
+        "centralEvent": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Well, if AI said it, it must be true. | Bloomberg via Getty Images New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cf635256c33b7404408d": {
+      "storyId": "cf635256c33b7404408d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "source": "The Verge AI",
+      "published": "2026-10-04T15:21:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "76a1a485c2b3f9ec9cb147c6",
+      "bodyFingerprint": "42401cbab92c8490ac3cdae8",
+      "bodyCharacterCount": 3543,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T17:37:35.891Z",
+      "assessment": {
+        "centralEvent": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI Gaming News OpenAI Most Popular Most Popular 3D movies are finally worth watching HP’s answer to the MacBook Neo is thinner, lighter, and comes with OLED Keurig’s new machine uses plastic-free compressed coffee pucks An ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, it couldn't quite get an edge.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7e55bb6023da58362192": {
+      "storyId": "7e55bb6023da58362192",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force",
+      "title": "Trump unveils his new Super Intelligence Force",
+      "source": "TechCrunch AI",
+      "published": "2026-10-04T15:15:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6909fd9e85ff2628c7fe8674",
+      "bodyFingerprint": "4804df41b498d7ef4de48143",
+      "bodyCharacterCount": 3581,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T17:37:36.040Z",
+      "assessment": {
+        "centralEvent": "Trump unveils his new Super Intelligence Force",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The task force will have reportedly 120 days to create a report on the risks and opportunities presented by AI.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "098b9018430c9075f99e": {
+      "storyId": "098b9018430c9075f99e",
+      "url": "https://www.inc.com/robin-camarote/most-small-businesses-use-ai-few-have-figured-out-how-to-make-it-work/91413220",
+      "title": "Most Small Businesses Use AI. Few Have Figured Out How to Make It Work",
+      "source": "Inc. AI",
+      "published": "2026-10-04T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b9ba76d31760d02a32bcf782",
+      "bodyFingerprint": "37e91a056ed9d838ef40b327",
+      "bodyCharacterCount": 61,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-04T17:37:36.062Z",
+      "assessment": {
+        "centralEvent": "Most Small Businesses Use AI. Few Have Figured Out How to Make It Work",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2a478e448b5e322500b9": {
+      "storyId": "2a478e448b5e322500b9",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/05/queensland-data-centre-anthropic-western-downs-dalby",
+      "title": "Rural Queenslanders have seen gas projects come and go – but a 725-hectare datacentre poses a whole new level of ‘stupidity’",
+      "source": "The Guardian AI",
+      "published": "2026-10-04T14:00:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "70eb2987483719dae1a1ce8f",
+      "bodyFingerprint": "6dedf42d9308fb2cbfb6ec67",
+      "bodyCharacterCount": 9152,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T17:37:36.089Z",
+      "assessment": {
+        "centralEvent": "Rural Queenslanders have seen gas projects come and go – but a 725-hectare datacentre poses a whole new level of ‘stupidity’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Issues like energy demand, noise and poor siting have driven a massive backlash against datacentres in the United States.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Singapore-based developer Zerra DC, its cooling system will be far less water intensive than most existing datacentres’, generating about the same demand as an average shopping centre .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The premier sees ‘opportunity’ for the state – but others fear AI’s global creep From the veranda on his bush block, Denver Kanowski has watched resources companies come and go from rural Queensland for 70 years.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a3e85df3e8fae8ecba4f": {
+      "storyId": "a3e85df3e8fae8ecba4f",
+      "url": "https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar",
+      "title": "Trump names intelligence chief Jay Clayton as new White House AI czar",
+      "source": "The Guardian AI",
+      "published": "2026-10-04T13:44:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b59197d87ebe4e318e8c0e28",
+      "bodyFingerprint": "6a3b74cc9a224727116b1ee5",
+      "bodyCharacterCount": 3216,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T17:37:36.272Z",
+      "assessment": {
+        "centralEvent": "Trump names intelligence chief Jay Clayton as new White House AI czar",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The announcement came after tech industry leaders warned that AI was developing too rapidly to control and that it could harm humans.",
+            "matchedRule": "/\\b(?:could harm|may harm|might harm|potential consequences?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Trump has insisted continued development is paramount to defeating China in the global AI race.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.5,
+        "rawScore": 24.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.045,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "88456c174c9065f4bf70": {
+      "storyId": "88456c174c9065f4bf70",
+      "url": "https://techpolicy.press/an-ai-accord-a-new-czar-and-an-autonomous-warfare-command",
+      "title": "An AI Accord, a New Czar and an Autonomous Warfare Command",
+      "source": "Tech Policy Press AI",
+      "published": "2026-10-04T14:55:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "19d923823545079c9fed6c5f",
+      "bodyFingerprint": "0b7c9740d40bf3fa6802d673",
+      "bodyCharacterCount": 16006,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T17:37:36.446Z",
+      "assessment": {
+        "centralEvent": "An AI Accord, a New Czar and an Autonomous Warfare Command",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "How might we get there from here?” I answered one of the calls, and will give a short, speculative talk on the topic “Why, How, and When to Abandon the Internet.” With corporate and government surveillance, AI agents and machine-generated s",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The task force will issue a report in 120 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "California Attorney General Rob Bonta issued an investigative subpoena to OpenAI over the Hugging Face hack; Europe signaled a continued push for global AI rules despite Washington’s opposition; France is challenging Palantir and Anduril’s ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Tech and elections Days before Brazil’s election, Meta briefly blocked President Luiz Inácio Lula da Silva ’s campaign page from running political ads and removed an Instagram profile behind a viral video on Flávio Bolsonaro .",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 94,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.67,
+        "rawScore": 48.67,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-04T13:13:45.200Z"
+  "updatedAt": "2026-10-04T17:37:36.446Z"
 }
