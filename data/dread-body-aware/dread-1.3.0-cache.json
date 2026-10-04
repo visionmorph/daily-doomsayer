@@ -216312,8 +216312,417 @@
           "vulnerability": 0
         }
       }
+    },
+    "b00e1d0435fe9a0b842b": {
+      "storyId": "b00e1d0435fe9a0b842b",
+      "url": "https://www.politico.com/news/2026/10/04/jay-clayton-ai-trump-01106137",
+      "title": "Spy chief and AI czar: Trump adds to Jay Clayton’s repertoire",
+      "source": "POLITICO AI",
+      "published": "2026-10-04T12:54:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d1571b1cfe6bc9ab16f642be",
+      "bodyFingerprint": "ee41c289491857b2d4986bf6",
+      "bodyCharacterCount": 118,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-04T13:13:44.942Z",
+      "assessment": {
+        "centralEvent": "Spy chief and AI czar: Trump adds to Jay Clayton’s repertoire",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "97d90a5c5d3911bed1f5": {
+      "storyId": "97d90a5c5d3911bed1f5",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261002080026.htm",
+      "title": "Scientists find a surprising clue to why the universe’s expansion doesn’t add up",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-04T12:05:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0845d33d0df36a40fdc7472f",
+      "bodyFingerprint": "41399854791ddcbdc4eff1b9",
+      "bodyCharacterCount": 10401,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T13:13:45.025Z",
+      "assessment": {
+        "centralEvent": "Scientists find a surprising clue to why the universe’s expansion doesn’t add up",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Incredibly strong pressure waves built up and squeezed matter so ...",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The second method is more direct, similar to the one used by Hubble in the 1920s when he first demonstrated that the universe is expanding.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 79,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8faf63feda6182e4684f": {
+      "storyId": "8faf63feda6182e4684f",
+      "url": "https://www.theguardian.com/technology/2026/oct/04/women-ai-jobs-inequality",
+      "title": "The AI industry is booming. Women are getting left behind",
+      "source": "The Guardian AI",
+      "published": "2026-10-04T13:00:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "07fd39eb4125b04486d5b8d5",
+      "bodyFingerprint": "f1405660d759a74f5b4e9e37",
+      "bodyCharacterCount": 7048,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T13:13:45.048Z",
+      "assessment": {
+        "centralEvent": "The AI industry is booming. Women are getting left behind",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Women hold just a fraction of new AI jobs but are overrepresented in roles with high risk of AI disruption There’s a common fear among people who work in Silicon Valley: snag one of the fast-growing, high-paying jobs in artificial intellige",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“If you have very ambitious career goals in this field, there will be seasons when you work beyond normal hours,” she said, noting that a culture of working 12-hour days to keep up was not uncommon.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "‘AI is creating some of the fastest growing, highest paying ... jobs in the global economy.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Women hold just a fraction of new AI jobs but are overrepresented in roles with high risk of AI disruption There’s a common fear among people who work in Silicon Valley: snag one of the fast-growing, high-paying jobs in artificial intellige",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.83,
+        "rawScore": 29.83,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "20b761359c892650410c": {
+      "storyId": "20b761359c892650410c",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261002080012.htm",
+      "title": "A meteor hit Oklahoma 100 million years later than scientists thought",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-04T12:41:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "52ca759b85ea68847a12e165",
+      "bodyFingerprint": "ecaa56fd9bfec5bb0b42171c",
+      "bodyCharacterCount": 9029,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T13:13:45.087Z",
+      "assessment": {
+        "centralEvent": "A meteor hit Oklahoma 100 million years later than scientists thought",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers had found teeth from an ancient eel-like animal called a conodont preserved in the rock.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "71b75e0685be97a5af42": {
+      "storyId": "71b75e0685be97a5af42",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261001214017.htm",
+      "title": "Scientists just found a new way to make hydrogen from water",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-04T11:11:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a8322f4b73a18d697a7446e6",
+      "bodyFingerprint": "f3d0be5a0bc8499846db1eb0",
+      "bodyCharacterCount": 8694,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T13:13:45.129Z",
+      "assessment": {
+        "centralEvent": "Scientists just found a new way to make hydrogen from water",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The material contains an unusual sulfide-to-sulfide bond that temporarily breaks when exposed to light, producing highly reactive sulfur species. \"The organic component does the important work,\" Stylianou said. \"Instead of relying primarily",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "3, 2026  Researchers have found that manganese, an abundant and inexpensive metal, can be used to efficiently convert carbon dioxide into formate, a potential hydrogen source for fuel cells.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "RELATED TOPICS Matter & Energy Chemistry Inorganic Chemistry Engineering and Construction Energy and Resources Earth & Climate Energy and the Environment Sustainability Environmental Issues Global Warming RELATED TERMS Alternative fuel vehi",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bbbb6f3bc97eee9af0aa": {
+      "storyId": "bbbb6f3bc97eee9af0aa",
+      "url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break",
+      "title": "Rural Data Centers Are in for a Big Federal Tax Break",
+      "source": "WIRED AI",
+      "published": "2026-10-04T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "875a3aec62fa0327dbf281c7",
+      "bodyFingerprint": "581297c3b438aae30b27683c",
+      "bodyCharacterCount": 12944,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-04T13:13:45.199Z",
+      "assessment": {
+        "centralEvent": "Rural Data Centers Are in for a Big Federal Tax Break",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catch hundreds of AI child abuse ads Big Story: The search for Silicon Valley’s most p",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Importantly, the company also confirmed that it is no longer using nondisclosure agreements with public officials in communities where it’s building data centers.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Hugo Lowell Lawmakers Want States to Crack Down on Flock Cameras—or Pay the Price A new bipartisan effort in Congress to rein in automated license plate readers takes a page from the national drinking age: Comply, or risk losing federal hig",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Read More Senior Writer, Climate Topics Power Play data centers environment artificial intelligence science Taxes Amazon Says It’s No Longer Using NDAs for Data Centers The company announced it has stopped using secret agreements with count",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-04T06:59:05.504Z"
+  "updatedAt": "2026-10-04T13:13:45.200Z"
 }
