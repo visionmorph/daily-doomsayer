@@ -217482,8 +217482,276 @@
           "vulnerability": 0
         }
       }
+    },
+    "07a6c014d80a9c3e673b": {
+      "storyId": "07a6c014d80a9c3e673b",
+      "url": "https://www.theguardian.com/technology/2026/oct/05/internet-watch-foundation-huge-rise-ai-child-sexual-abuse-material",
+      "title": "Internet Watch Foundation reports huge rise in AI child sexual abuse material",
+      "source": "The Guardian AI",
+      "published": "2026-10-05T05:00:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f10cb77adfb93d9b4271a858",
+      "bodyFingerprint": "53915060c60ec67c26f4e6ad",
+      "bodyCharacterCount": 3621,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-05T07:06:35.673Z",
+      "assessment": {
+        "centralEvent": "Internet Watch Foundation reports huge rise in AI child sexual abuse material",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Internet Watch Foundation reports huge rise in AI child sexual abuse material",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Kanishka Narayan, the UK’s AI minister, has said “nothing is off the table” in terms of fresh regulation, but that the test for any legislative proposal will be: “Will it make the British people safer?” Hannah Swirsky, the head of policy at",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The use of AI tools to create abuse tools has led to the National Crime Agency and IWF encouraging parents and guardians to keep pictures of their children off social media.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9ec7d3f21239a207a672": {
+      "storyId": "9ec7d3f21239a207a672",
+      "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_campaign=rss&at_medium=RSS",
+      "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+      "source": "BBC News AI",
+      "published": "2026-10-05T06:15:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a75bb85062834f72713398d6",
+      "bodyFingerprint": "62ed04010df3a719cbf89fe5",
+      "bodyCharacterCount": 4955,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-05T07:06:35.730Z",
+      "assessment": {
+        "centralEvent": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The announcement of the taskforce follows growing pressure from prominent figures in the industry, including executives of OpenAI and Anthropic, to tighten regulation of the technology.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Three takeaways from Trump's 'Super Intelligence' summit Published 5 days ago OpenAI scraps rollout of new model over safety concerns Published 5 days ago Trump has dismissed calls for stronger oversight and largely left it to AI companies ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics International Business Artificial intelligence Donald Trump Elon Musk United States More on this story Are AI models the next big danger for body image?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "On AI, Clayton has previously said: \"When something's both an opportunity and a threat, you better get your arms around it.\" Clayton previously served as US attorney for the Southern District of New York, overseeing several prominent cases,",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.84,
+        "rawScore": 28.84,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4c737218bae5a6d1e920": {
+      "storyId": "4c737218bae5a6d1e920",
+      "url": "https://www.politico.eu/sponsored-content/europe-is-fighting-the-wrong-ai-sovereignty-battle",
+      "title": "Europe is fighting the wrong AI sovereignty battle",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-05T03:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6e0ba58b16b5e96514433e0a",
+      "bodyFingerprint": "0ab1ba83b21ca237b794ec61",
+      "bodyCharacterCount": 335,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-05T07:06:35.823Z",
+      "assessment": {
+        "centralEvent": "Europe is fighting the wrong AI sovereignty battle",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0fd21c9cfe4abd8e7c59": {
+      "storyId": "0fd21c9cfe4abd8e7c59",
+      "url": "https://thedispatch.com/article/artificial-intelligence-hugging-face-security-death",
+      "title": "Will AI Kill You?",
+      "source": "The Dispatch AI",
+      "published": "2026-10-05T05:00:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9f766125cd486f370b7e2aff",
+      "bodyFingerprint": "0914d6e207db51589a02ce5a",
+      "bodyCharacterCount": 4612,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-05T07:06:36.252Z",
+      "assessment": {
+        "centralEvent": "Will AI Kill You?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Jesse Singal Jesse Singal is a contributing writer at The Dispatch , a cohost of the Blocked and Reported podcast, and the author of the Singal-Minded newsletter .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-05T00:58:25.501Z"
+  "updatedAt": "2026-10-05T07:06:36.253Z"
 }
