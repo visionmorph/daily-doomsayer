@@ -221294,8 +221294,273 @@
           "vulnerability": 0
         }
       }
+    },
+    "86fdce4506f99c1735d6": {
+      "storyId": "86fdce4506f99c1735d6",
+      "url": "https://www.inc.com/moses-jeanfrancois/woman-treated-claude-like-private-diary-messages-sent-to-police/91414624",
+      "title": "A Woman Treated Claude Like a Private Diary. Then Her Messages Were Sent to Police",
+      "source": "Inc. AI",
+      "published": "2026-10-05T22:44:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "73cabf923aa1710909561da5",
+      "bodyFingerprint": "c9f6d560eabf8d26922a1d90",
+      "bodyCharacterCount": 89,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-06T03:01:41.058Z",
+      "assessment": {
+        "centralEvent": "A Woman Treated Claude Like a Private Diary. Then Her Messages Were Sent to Police",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a915c9746bc5b31c9989": {
+      "storyId": "a915c9746bc5b31c9989",
+      "url": "https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon",
+      "title": "OpenAI to reiterate apology to Australia over Medicare hack as inquiry told artists risk becoming ‘roadkill’",
+      "source": "The Guardian AI",
+      "published": "2026-10-06T00:53:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8246b764a0fb2603b4017aec",
+      "bodyFingerprint": "d4b646d629762925c4cb5746",
+      "bodyCharacterCount": 6244,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-06T03:01:41.072Z",
+      "assessment": {
+        "centralEvent": "OpenAI to reiterate apology to Australia over Medicare hack as inquiry told artists risk becoming ‘roadkill’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "They have a warning for Australia Read more ABC’s head of content and legal operations, Kate Gilchrist, said an opt-out system as proposed by AI companies places burdens and costs on rights holders, as it would require ongoing surveillance ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day Read more Following the revelation of another hack – on the NSW national parks and wildlife service last week – Kwon will tell the commit",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day Read more Following the revelation of another hack – on the NSW national parks and wildlife service last week – Kwon will tell the commit",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Company executive to acknowledge ‘more work to do to rebuild trust with the Australian people’ as ABC says copyright laws do not need changing",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "19745539452346e87dcc": {
+      "storyId": "19745539452346e87dcc",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "title": "Gemini Call for Me might tell your mom you’re running late",
+      "source": "The Verge AI",
+      "published": "2026-10-05T23:09:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a36bf2d30685cddbf2effcff",
+      "bodyFingerprint": "ef38edc795575791824a48e9",
+      "bodyCharacterCount": 3525,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-06T03:01:41.084Z",
+      "assessment": {
+        "centralEvent": "Gemini Call for Me might tell your mom you’re running late",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Android Authority also says it found “granular permissions” for Gemini actions in individual apps, including what appear to be settings for phone call permissions.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0c63d8f12412d2a518ee": {
+      "storyId": "0c63d8f12412d2a518ee",
+      "url": "https://www.politico.eu/article/europol-ai-new-weapons-new-privacy-risks-reboots-for-the-era",
+      "title": "New weapons, new risks: Europe’s AI policing plan stokes privacy concerns",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-05T17:28:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "94a41aca830b992fb35518ac",
+      "bodyFingerprint": "c1e4c26faa8cc41c0d4c9810",
+      "bodyCharacterCount": 6414,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-06T03:01:41.140Z",
+      "assessment": {
+        "centralEvent": "New weapons, new risks: Europe’s AI policing plan stokes privacy concerns",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As Europol takes on a potentially massive new volume of information, privacy protection may be the principle most at risk.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“But I have to ask, why there is nothing about the way to supervise Europol in the proposal?” Faster, at scale Jürgen Ebner, the agency’s deputy executive director, who was named last month to take its helm, said that crimefighting today re",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "While “we need a stronger Europol, with the resources and capabilities to effectively support national law enforcement authorities,” Keller said.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.04,
+        "rawScore": 26.04,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-05T22:40:37.734Z"
+  "updatedAt": "2026-10-06T03:01:41.140Z"
 }
