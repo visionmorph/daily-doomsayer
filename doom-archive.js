@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-06T17:00:00.000Z",
+  "generatedAt": "2026-10-06T21:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-06",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T10:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 71.48
         },
         {
@@ -39,17 +39,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 69.83
         },
         {
+          "storyId": "076739a25693e037eaba",
+          "title": "The UN's AI Panel Sees Misalignment. We See Corporate (Mis)Behavior.",
+          "url": "https://techpolicy.press/the-uns-ai-panel-sees-misalignment-we-see-corporate-misbehavior",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 51.37,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-06",
+          "firstObservedAt": "2026-10-06T21:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
+          "average": 51.37
+        },
+        {
           "storyId": "3bf44cdfb8f59b7f06d5",
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T10:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
           "peak": 50.22,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T10:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 50.22
         },
         {
@@ -73,12 +87,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T10:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 49.94
+        },
+        {
+          "storyId": "5281204e897c204567bc",
+          "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
+          "url": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ac390393e484daf0cf6af34/master/pass/100516-Big%20Interview%20K%20Roose%20Solo.jpg",
+          "peak": 49.5,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-06",
+          "firstObservedAt": "2026-10-06T21:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
+          "average": 49.5
         },
         {
           "storyId": "22dc9eaa3c04174f83c7",
@@ -101,54 +129,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.34,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T10:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 49.34
         },
         {
-          "storyId": "c185b1f669ce177c88ba",
-          "title": "Who gets to decide if AI is safe? Africa wants a say",
-          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://restofworld.org/wp-content/uploads/2026/09/AI-safety-Nesta-768x432.jpg",
-          "peak": 49.23,
-          "observations": 2,
+          "storyId": "6652c28e29f482e93fd9",
+          "title": "How to Make an AI Deal With China: Trade Throttling for Pacing",
+          "url": "https://www.lawfaremedia.org/article/how-to-make-an-ai-deal-with-china--trade-throttling-for-pacing",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 49.34,
+          "observations": 1,
           "daysTracked": 1,
           "peakDate": "2026-10-06",
-          "firstObservedAt": "2026-10-06T10:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
-          "average": 49.23
-        },
-        {
-          "storyId": "90c6c9903271281ae042",
-          "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
-          "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2292181016.jpg",
-          "peak": 49.01,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-06",
-          "firstObservedAt": "2026-10-06T10:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "0ed705f5b130729c8e7e",
-          "title": "Secure Messaging and AI Remain In Conflict Despite the Promise of TEEs",
-          "url": "https://www.eff.org/deeplinks/2026/09/secure-messaging-and-ai-remain-conflict-despite-promise-tees",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
-          "peak": 48.95,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-06",
-          "firstObservedAt": "2026-10-06T10:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
-          "average": 48.95
+          "firstObservedAt": "2026-10-06T21:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
+          "average": 49.34
         }
       ]
     },
@@ -5529,11 +5529,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-05",
           "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 71.48
         },
         {
@@ -5551,17 +5551,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 69.83
         },
         {
+          "storyId": "076739a25693e037eaba",
+          "title": "The UN's AI Panel Sees Misalignment. We See Corporate (Mis)Behavior.",
+          "url": "https://techpolicy.press/the-uns-ai-panel-sees-misalignment-we-see-corporate-misbehavior",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 51.37,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-06",
+          "firstObservedAt": "2026-10-06T21:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
+          "average": 51.37
+        },
+        {
           "storyId": "3bf44cdfb8f59b7f06d5",
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-05",
           "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -5571,11 +5585,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
           "peak": 50.22,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-05",
           "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 50.22
         },
         {
@@ -5585,11 +5599,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-05",
           "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 49.94
         },
         {
@@ -5605,6 +5619,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-05T07:00:00.000Z",
           "lastObservedAt": "2026-10-06T03:00:00.000Z",
           "average": 49.66
+        },
+        {
+          "storyId": "5281204e897c204567bc",
+          "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
+          "url": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ac390393e484daf0cf6af34/master/pass/100516-Big%20Interview%20K%20Roose%20Solo.jpg",
+          "peak": 49.5,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-06",
+          "firstObservedAt": "2026-10-06T21:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
+          "average": 49.5
         },
         {
           "storyId": "22dc9eaa3c04174f83c7",
@@ -5627,40 +5655,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.34,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-05",
           "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "c185b1f669ce177c88ba",
-          "title": "Who gets to decide if AI is safe? Africa wants a say",
-          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://restofworld.org/wp-content/uploads/2026/09/AI-safety-Nesta-768x432.jpg",
-          "peak": 49.23,
-          "observations": 6,
-          "daysTracked": 2,
-          "peakDate": "2026-10-05",
-          "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
-          "average": 49.23
-        },
-        {
-          "storyId": "90c6c9903271281ae042",
-          "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
-          "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2292181016.jpg",
-          "peak": 49.01,
-          "observations": 6,
-          "daysTracked": 2,
-          "peakDate": "2026-10-05",
-          "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
@@ -6546,11 +6546,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 22,
+          "observations": 23,
           "daysTracked": 6,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T23:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 71.48
         },
         {
@@ -6568,17 +6568,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 69.83
         },
         {
+          "storyId": "076739a25693e037eaba",
+          "title": "The UN's AI Panel Sees Misalignment. We See Corporate (Mis)Behavior.",
+          "url": "https://techpolicy.press/the-uns-ai-panel-sees-misalignment-we-see-corporate-misbehavior",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 51.37,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-06",
+          "firstObservedAt": "2026-10-06T21:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
+          "average": 51.37
+        },
+        {
           "storyId": "3bf44cdfb8f59b7f06d5",
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 25,
+          "observations": 26,
           "daysTracked": 6,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -6630,11 +6644,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
           "peak": 50.22,
-          "observations": 18,
+          "observations": 19,
           "daysTracked": 5,
           "peakDate": "2026-10-02",
           "firstObservedAt": "2026-10-02T22:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 50.22
         },
         {
@@ -6658,26 +6672,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d8/live/512242b0-acf9-11f1-a540-61c3f7fc4e6c.jpg",
           "peak": 49.94,
-          "observations": 25,
+          "observations": 26,
           "daysTracked": 6,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-06T17:00:00.000Z",
+          "lastObservedAt": "2026-10-06T21:00:00.000Z",
           "average": 49.94
-        },
-        {
-          "storyId": "54236135eb7ff95ed134",
-          "title": "OpenAI’s Medicare attack has exposed Australia’s ‘tech debt’. Fixing it could bring a big bill for taxpayers",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/961de574f870d32e3b4daa471716efcb42a6d0c5/904_0_5223_4179/master/5223.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.75,
-          "observations": 8,
-          "daysTracked": 3,
-          "peakDate": "2026-10-02",
-          "firstObservedAt": "2026-10-02T22:00:00.000Z",
-          "lastObservedAt": "2026-10-04T06:00:00.000Z",
-          "average": 49.75
         }
       ]
     },
