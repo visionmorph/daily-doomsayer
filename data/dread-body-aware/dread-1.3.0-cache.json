@@ -226147,8 +226147,2492 @@
           "vulnerability": 0
         }
       }
+    },
+    "dff8c9cb8bc8e6c3d839": {
+      "storyId": "dff8c9cb8bc8e6c3d839",
+      "url": "https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
+      "title": "OpenAI’s release of mathematical findings draws concerns from experts",
+      "source": "The Guardian AI",
+      "published": "2026-10-07T15:40:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5839c0cfc033d6812fc07918",
+      "bodyFingerprint": "b07463259e74bbb91b874f9c",
+      "bodyCharacterCount": 3210,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.415Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s release of mathematical findings draws concerns from experts",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Institute for Advanced Study in Princeton, New Jersey, an independent group of mathematical experts, said that it does not endorse the practice.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "614712fd187a8edca760": {
+      "storyId": "614712fd187a8edca760",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+      "title": "ChatGPT is getting college planning tools",
+      "source": "The Verge AI",
+      "published": "2026-10-07T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c91c4a842c43adc05c19ee40",
+      "bodyFingerprint": "c1e2efdfeea598d01c2f6732",
+      "bodyCharacterCount": 3693,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.429Z",
+      "assessment": {
+        "centralEvent": "ChatGPT is getting college planning tools",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "These updates are being announced shortly after Common Sense Media published a report deeming ChatGPT for Teens an “unacceptable risk,” saying that the AI tool “still does kids’ homework” and doesn’t send alerts to parents when it should.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In its announcement today, OpenAI claims that “on average,” teens spend “under 15 minutes a day” using ChatGPT.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Jay Peters AI News OpenAI Most Popular Most Popular Xbox has secured GTA 6 streaming rights HBO Max and Paramount Plus will merge into a single streamer under Skydance The best October Prime Day tech deals we found Apple and LG team up on n",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5f645da35744d30c39db": {
+      "storyId": "5f645da35744d30c39db",
+      "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
+      "title": "Muse launches on the iPad",
+      "source": "The Verge AI",
+      "published": "2026-10-07T15:37:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f343810d1154805c7747ea5b",
+      "bodyFingerprint": "31b8065b78e1166da6a1c571",
+      "bodyCharacterCount": 4357,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.453Z",
+      "assessment": {
+        "centralEvent": "Muse launches on the iPad",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Andrew Liszewski AI Meta News Tech Most Popular Most Popular Xbox has secured GTA 6 streaming rights HBO Max and Paramount Plus will merge into a single streamer under Skydance The best October Prime Day tech deals we found Apple and LG tea",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a4a29948ced578772b68": {
+      "storyId": "a4a29948ced578772b68",
+      "url": "https://www.inc.com/nick-hobson/the-real-reason-employees-hide-skill-gaps-according-to-a-behavioral-scientist/91412910",
+      "title": "The Real Reason Employees Hide Skill Gaps According to a Behavioral Scientist",
+      "source": "Inc. AI",
+      "published": "2026-10-07T15:52:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3523d3961ece635c2dd01e5c",
+      "bodyFingerprint": "7ff5ba578db01d57b83b3df7",
+      "bodyCharacterCount": 155,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T16:33:48.514Z",
+      "assessment": {
+        "centralEvent": "The Real Reason Employees Hide Skill Gaps According to a Behavioral Scientist",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "The Real Reason Employees Hide Skill Gaps According to a Behavioral Scientist",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2f8a9f0d5867c2185c89": {
+      "storyId": "2f8a9f0d5867c2185c89",
+      "url": "https://www.politico.com/live-updates/2026/10/07/congress/trahan-unveils-ai-liability-discussion-draft-01109817",
+      "title": "Trahan unveils AI liability discussion draft",
+      "source": "POLITICO AI",
+      "published": "2026-10-07T15:19:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "85ebe235ee9a56df9ec5d180",
+      "bodyFingerprint": "ed311a6bded02906466f4517",
+      "bodyCharacterCount": 72,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T16:33:48.524Z",
+      "assessment": {
+        "centralEvent": "Trahan unveils AI liability discussion draft",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "09859e929e8634e4ed2f": {
+      "storyId": "09859e929e8634e4ed2f",
+      "url": "https://www.inc.com/jelinda-montes/a-former-instacart-ceo-cant-stand-for-more-than-10-minutes-shes-building-a-company-to-find-a-cure/91414616",
+      "title": "A Former Instacart CEO Can’t Stand for More Than 10 Minutes—She’s Building a Company to Find a Cure",
+      "source": "Inc. AI",
+      "published": "2026-10-07T15:18:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aebf5d41b2ad0faa0d886a16",
+      "bodyFingerprint": "c2b971cf6b6228495c321457",
+      "bodyCharacterCount": 178,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T16:33:48.559Z",
+      "assessment": {
+        "centralEvent": "A Former Instacart CEO Can’t Stand for More Than 10 Minutes—She’s Building a Company to Find a Cure",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04347efee76c2a01d52c": {
+      "storyId": "04347efee76c2a01d52c",
+      "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+      "title": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’",
+      "source": "The Verge AI",
+      "published": "2026-10-07T14:40:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c3f81ab85b4551ed1d48637d",
+      "bodyFingerprint": "747c91a9d3ac587a6274b258",
+      "bodyCharacterCount": 4017,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.584Z",
+      "assessment": {
+        "centralEvent": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Google Health Meta Science Tech Most Popular Most Popular Xbox has secured GTA 6 streaming rights HBO Max and Paramount Plus will merge into a single streamer under Skydance The best October Prime Day tech deals we found Apple ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1f216a356de55755e01f": {
+      "storyId": "1f216a356de55755e01f",
+      "url": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next",
+      "title": "Tony Fadell on why the first wave of AI gadgets failed — and what comes next",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T14:41:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bf6d77b2176cdd1ed863674a",
+      "bodyFingerprint": "343f0924cacca04b7966655f",
+      "bodyCharacterCount": 7397,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.605Z",
+      "assessment": {
+        "centralEvent": "Tony Fadell on why the first wave of AI gadgets failed — and what comes next",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI Dominic-Madori Davis Federal judge calls Flock ‘indiscriminate mass surveillance’ Anthony Ha Amazon responds to data center backlash, say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A security researcher quickly found a serious vulnerability in Muse after launch, and a recent 404 Media report states that some Meta employees discovered security issues that prompted multiple teams to embark upon a “mad dash” to fix these",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "73b696ae237b498cff8f": {
+      "storyId": "73b696ae237b498cff8f",
+      "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look",
+      "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T15:07:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "42f2ab9d7fbaf5e940fbd596",
+      "bodyFingerprint": "f1e7c3e79bb5d295f0f1bf8f",
+      "bodyCharacterCount": 5660,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.610Z",
+      "assessment": {
+        "centralEvent": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI Dominic-Madori Davis Federal judge calls Flock ‘indiscriminate mass surveillance’ Anthony Ha Amazon responds to data center backlash, say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "That analysis is then fed into its risk models, alongside structured information such as lab reports and vitals to surface patients who may need a closer look.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He covered North American and European M&A, equity, regulatory news and debt markets at Reuters and Acuris Global, and has also written about travel, tourism, entertainment and books.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Healthleap , a startup building an AI platform that reads patient records to identify patients at risk of undiagnosed illnesses, has raised $38 million in seed and Series A funding, TechCrunch has exclusively learned.",
+            "matchedRule": "/\\b(?:children|patients|elderly|disabled people|low-income|victims of abuse)\\b.*\\b(?:harmed|targeted|exposed|affected|at risk)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.48,
+        "rawScore": 48.48,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4075,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 3
+        }
+      }
+    },
+    "f97fdf986ea4610d31f6": {
+      "storyId": "f97fdf986ea4610d31f6",
+      "url": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots",
+      "title": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e4b35e7c517883efeff74686",
+      "bodyFingerprint": "19688ffd7fe6cfc0b7221387",
+      "bodyCharacterCount": 3083,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.628Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI Dominic-Madori Davis Federal judge calls Flock ‘indiscriminate mass surveillance’ Anthony Ha Amazon responds to data center backlash, say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f934791dd7138bfb2bc3": {
+      "storyId": "f934791dd7138bfb2bc3",
+      "url": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026",
+      "title": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T14:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0c3453edf6b37c3c81e1c5b7",
+      "bodyFingerprint": "b05d5697df97a6c9c7763bce",
+      "bodyCharacterCount": 14177,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.650Z",
+      "assessment": {
+        "centralEvent": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2026",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI Dominic-Madori Davis Federal judge calls Flock ‘indiscriminate mass surveillance’ Anthony Ha Amazon responds to data center backlash, say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TechCrunch Disrupt 2026 is seven days away, bringing 10,000+ founders, investors, operators, and tech leaders to Moscone West in San Francisco from October 13-15 for three days of conversations, connections, and ideas shaping what comes nex",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "AI for the Physical World Jack Hidary , CEO, SandboxAQ ; and Stacie Calad-Thomson , Global BD Lead, Life Science Labs and Manufacturing, Nvidia The next wave of AI won’t just generate text.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 93,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e7fa1cfea7221ab2767e": {
+      "storyId": "e7fa1cfea7221ab2767e",
+      "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform",
+      "title": "Google experiments with an AI-powered gaming platform",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T14:36:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "521c1330fef6be1b8242ff6b",
+      "bodyFingerprint": "e127ea3f49120e15ba0a6dd0",
+      "bodyCharacterCount": 3788,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.663Z",
+      "assessment": {
+        "centralEvent": "Google experiments with an AI-powered gaming platform",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI Dominic-Madori Davis Federal judge calls Flock ‘indiscriminate mass surveillance’ Anthony Ha Amazon responds to data center backlash, say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "09a463cb49e9b9dca514": {
+      "storyId": "09a463cb49e9b9dca514",
+      "url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos",
+      "title": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos",
+      "source": "WIRED AI",
+      "published": "2026-10-07T15:34:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "752ebed76532772998649f0a",
+      "bodyFingerprint": "cbabaf6c7fabaa63db5ec7ed",
+      "bodyCharacterCount": 8374,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.680Z",
+      "assessment": {
+        "centralEvent": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a press release , Jim Kelly, a vice president at Google Public Sector said that the company was “committed to advancing the deployment of innovative technology across the defense ecosystem.” Comments Back to top Join the discussion Comme",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Procurement experts say that OTs are considered fast and flexible, which can be appealing to startups that don’t want to gamble on whether a months-long procurement process will result in a contract.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Around the same time, explains Sharon Weinberger, a national security reporter and author of the book Valley of Death: How Big Tech Is Fueling the Future of War , the personal computer boom meant that Silicon Valley was able to make its own",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Around the same time, explains Sharon Weinberger, a national security reporter and author of the book Valley of Death: How Big Tech Is Fueling the Future of War , the personal computer boom meant that Silicon Valley was able to make its own",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "By law, the Pentagon can spend up to $500 million dollars on a single OT without having to notify Congress.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.56,
+        "rawScore": 48.56,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.415,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1bebda9a2e9f2e4e836c": {
+      "storyId": "1bebda9a2e9f2e4e836c",
+      "url": "https://www.theguardian.com/media/2026/oct/07/mumsnet-denies-using-ai-for-content-message-board-prompt",
+      "title": "Mumsnet denies using AI for content after prompt appears on message board",
+      "source": "The Guardian AI",
+      "published": "2026-10-07T14:31:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d2c1b8d624fc4a5b429b43ad",
+      "bodyFingerprint": "cc57c28d0c10ac8f8c7047c7",
+      "bodyCharacterCount": 4551,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.723Z",
+      "assessment": {
+        "centralEvent": "Mumsnet denies using AI for content after prompt appears on message board",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Again users were unconvinced and speculated the prompt must have leaked from Mumsnet’s internal system.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Mumsnet’s founder, Justine Roberts , joined the thread and confirmed the prompt had come from its system, which sends users’ drafts to OpenAI, which is meant to suggest a title, although this time it sent a prompt for a whole reply.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "816ab26a44da33635109": {
+      "storyId": "816ab26a44da33635109",
+      "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models",
+      "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
+      "source": "Ars Technica AI",
+      "published": "2026-10-07T14:12:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "081a55d6d27b1acf513031ed",
+      "bodyFingerprint": "f6083cb9ae0dbd7248e4a2e7",
+      "bodyCharacterCount": 5301,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.919Z",
+      "assessment": {
+        "centralEvent": "Mistral says \"Le Chonk\" can challenge the best AI models",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Its earnings have reportedly increased 20-fold in the last year or so.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "054d3c2ecbb062a05b36": {
+      "storyId": "054d3c2ecbb062a05b36",
+      "url": "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open",
+      "title": "6 days to TechCrunch Disrupt 2026: Save on your pass before doors open",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0a937f6647d3c51f817f18b7",
+      "bodyFingerprint": "dcac77bd2f3812e7842c0a60",
+      "bodyCharacterCount": 3317,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.936Z",
+      "assessment": {
+        "centralEvent": "6 days to TechCrunch Disrupt 2026: Save on your pass before doors open",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI Dominic-Madori Davis Federal judge calls Flock ‘indiscriminate mass surveillance’ Anthony Ha Amazon responds to data center backlash, say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "6 days to TechCrunch Disrupt 2026: Save on your pass before doors open",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "In 6 days, 10,000+ people from across the global startup and tech ecosystem will come together at San Francisco’s Moscone West for TechCrunch Disrupt 2026.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "73ad5cdc394ec039e887": {
+      "storyId": "73ad5cdc394ec039e887",
+      "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media",
+      "title": "Google’s new SynthID website can identify AI-generated media",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dfdb11168a0aa3601d278660",
+      "bodyFingerprint": "b680e75194eac2f762385462",
+      "bodyCharacterCount": 2514,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.951Z",
+      "assessment": {
+        "centralEvent": "Google’s new SynthID website can identify AI-generated media",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company said people currently make 1 million requests to verify content every day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "341228a79cb173aabe05": {
+      "storyId": "341228a79cb173aabe05",
+      "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally",
+      "title": "Google rolls out improved SynthID AI content detector, now available globally",
+      "source": "Ars Technica AI",
+      "published": "2026-10-07T14:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c1bd6fda272313c68f3eee26",
+      "bodyFingerprint": "8769097b6bc31e5964a48047",
+      "bodyCharacterCount": 5174,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.962Z",
+      "assessment": {
+        "centralEvent": "Google rolls out improved SynthID AI content detector, now available globally",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "375ed5baedcb7e7cbdd3": {
+      "storyId": "375ed5baedcb7e7cbdd3",
+      "url": "https://www.inc.com/brian-contreras/scaramucci-vc-firm-solari-capital-stealth-google-eric-schmidt/91415358",
+      "title": "This VC Firm Just Emerged from Stealth to Invest in ‘Programmable Reality.’ Here’s What That Means",
+      "source": "Inc. AI",
+      "published": "2026-10-07T13:59:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7dbc0163a23f4aa5f99ccbac",
+      "bodyFingerprint": "4bc0fbea9e3d014dab61da60",
+      "bodyCharacterCount": 136,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T16:33:48.972Z",
+      "assessment": {
+        "centralEvent": "This VC Firm Just Emerged from Stealth to Invest in ‘Programmable Reality.’ Here’s What That Means",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1ace3a4e0b1af6bf21a2": {
+      "storyId": "1ace3a4e0b1af6bf21a2",
+      "url": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-musk-and-artificial-zuckerberg-musk-and-altman-movies-tech",
+      "title": "Will the Zuckerberg, Musk and Altman movies make a dent on tech giant evangelism?",
+      "source": "The Guardian AI",
+      "published": "2026-10-07T13:43:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "79c02f6fe967bb48c7fee0f0",
+      "bodyFingerprint": "c1cf1dd3a515ebce123e9ede",
+      "bodyCharacterCount": 6537,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:48.978Z",
+      "assessment": {
+        "centralEvent": "Will the Zuckerberg, Musk and Altman movies make a dent on tech giant evangelism?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Certain contextual details lend the films an edge of legitimacy and danger: a distributor suddenly unloading a hot-button project; Sony hiring an outside law firm to vet every fact in The Social Reckoning ; or TikTok and X blocking trailer ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This week, two further films receive their UK premiere at the BFI London film festival – Musk is a four-hour study of the SpaceX CEO from Alex Gibney, the documentarian who previously tackled the Enron bankruptcy scandal and Theranos founde",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "21a5675297c1c5e64989": {
+      "storyId": "21a5675297c1c5e64989",
+      "url": "https://www.theguardian.com/business/grogonomics/2026/oct/08/australia-is-building-a-lot-of-new-homes-but-is-the-datacentre-boom-holding-us-back",
+      "title": "Australia is building a lot of new homes. But is the datacentre boom holding us back? | Greg Jericho",
+      "source": "The Guardian AI",
+      "published": "2026-10-07T14:00:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1bcc78c11585bd9d93947ab",
+      "bodyFingerprint": "b155b45780474554014ee8b3",
+      "bodyCharacterCount": 7583,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.075Z",
+      "assessment": {
+        "centralEvent": "Australia is building a lot of new homes. But is the datacentre boom holding us back? | Greg Jericho",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Here’s what to know after the latest RBA hike The datacentre power spat highlights a hidden truth: we’re not building renewables fast enough to meet our needs Australia’s interest rate rise is the wrong medicine and an even worse alibi Aust",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "While the committee itself made no specific recommendations, due to its multi-party nature, Senator Pocock proposed “that the Australian government commit to a national target to increase public and community housing to at least 10% of Aust",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "While the committee itself made no specific recommendations, due to its multi-party nature, Senator Pocock proposed “that the Australian government commit to a national target to increase public and community housing to at least 10% of Aust",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.04,
+        "rawScore": 26.04,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1db226ff32ad5a30f9a1": {
+      "storyId": "1db226ff32ad5a30f9a1",
+      "url": "https://www.theguardian.com/society/2026/oct/07/stuart-hall-british-culture-online-project",
+      "title": "Thatcherism via the Walkman: Stuart Hall’s British cultural studies preserved online",
+      "source": "The Guardian AI",
+      "published": "2026-10-07T12:01:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "48fdb5b01f67c0aa11ad26bf",
+      "bodyFingerprint": "9572b27517fefcdc8bdd8a53",
+      "bodyCharacterCount": 5873,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.092Z",
+      "assessment": {
+        "centralEvent": "Thatcherism via the Walkman: Stuart Hall’s British cultural studies preserved online",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He used the Sony Walkman as a case study of how social, cultural and economic life can be expressed through a single technology.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3c9479b3b593e8bdd337": {
+      "storyId": "3c9479b3b593e8bdd337",
+      "url": "https://www.politico.com/news/2026/10/07/inside-ai-safetys-hottest-club-01109753",
+      "title": "Inside AI safety’s hottest club",
+      "source": "POLITICO AI",
+      "published": "2026-10-07T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "48896ee859fd8aff6cec1fdb",
+      "bodyFingerprint": "7c3c167e734247644d74e6a6",
+      "bodyCharacterCount": 198,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T16:33:49.150Z",
+      "assessment": {
+        "centralEvent": "Inside AI safety’s hottest club",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0182c08ac490b363686e": {
+      "storyId": "0182c08ac490b363686e",
+      "url": "https://www.inc.com/lindsey-witmer-collins/stop-asking-whether-ai-wrote-it/91414942",
+      "title": "Stop Asking Whether AI Wrote it",
+      "source": "Inc. AI",
+      "published": "2026-10-07T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c5d62bccdac197f16e5a1baa",
+      "bodyFingerprint": "43aa4f97ffe9d824d364e0a9",
+      "bodyCharacterCount": 22,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T16:33:49.194Z",
+      "assessment": {
+        "centralEvent": "Stop Asking Whether AI Wrote it",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "41169bd923cf46b55155": {
+      "storyId": "41169bd923cf46b55155",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+      "title": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-07T13:09:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "385d0c185945a01d46fe7b25",
+      "bodyFingerprint": "93f996c4836ebeab3bc78015",
+      "bodyCharacterCount": 11613,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.208Z",
+      "assessment": {
+        "centralEvent": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "By studying 21 rare “extreme debris disks” around young stars, researchers found that their dust can reveal the scale and intensity of planetary collisions.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 82,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "21c2d5c2c0a78a529014": {
+      "storyId": "21c2d5c2c0a78a529014",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
+      "title": "AI could upend food delivery",
+      "source": "The Verge AI",
+      "published": "2026-10-07T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d649ae316f29607589a9225d",
+      "bodyFingerprint": "1b025ab1067a251e7743f254",
+      "bodyCharacterCount": 12883,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.221Z",
+      "assessment": {
+        "centralEvent": "AI could upend food delivery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "In August, a slew of restaurants in the Bay Area received a strange email from DoorDash, warning businesses that they may be listed without their consent on Bites.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Mia Sato AI Business Food Online Shopping Science Tech Most Popular Most Popular Xbox has secured GTA 6 streaming rights HBO Max and Paramount Plus will merge into a single streamer under Skydance The best October Prime Day tech deals we fo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "If this really does come to bear — if billions of people shift to interact with the internet not through search engines, webpages, and apps, but through large language models — those websites and services will lose control of the relationsh",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Amazon has also recently blocked Meta’s Muse AI agent from shopping on its site and removed product details from order emails — data that is potentially very valuable for Google’s own agentic shopping features.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Mia Sato AI Business Food Online Shopping Science Tech Most Popular Most Popular Xbox has secured GTA 6 streaming rights HBO Max and Paramount Plus will merge into a single streamer under Skydance The best October Prime Day tech deals we fo",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29,
+        "rawScore": 29,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f609b389056404a4900a": {
+      "storyId": "f609b389056404a4900a",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261005071526.htm",
+      "title": "Webb finds a surprising atmosphere on a scorching lava world",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-07T11:58:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0c0dc5c0b48a48dbdbc1ff3b",
+      "bodyFingerprint": "357773e74670938b05598fb6",
+      "bodyCharacterCount": 10289,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.260Z",
+      "assessment": {
+        "centralEvent": "Webb finds a surprising atmosphere on a scorching lava world",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The James Webb Space Telescope has found strong evidence that the rocky lava world HD 3167 b has an atmosphere, despite circling its star every 24 hours under extreme heat.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 79,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2c4d3ad2997c0a0fce55": {
+      "storyId": "2c4d3ad2997c0a0fce55",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261005071517.htm",
+      "title": "Physicists just found the ‘ghost’ of superconductivity",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-07T12:34:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7e94f60f7c9f75f48f189cb2",
+      "bodyFingerprint": "ddcb6c603f05ef67500900ce",
+      "bodyCharacterCount": 14642,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.420Z",
+      "assessment": {
+        "centralEvent": "Physicists just found the ‘ghost’ of superconductivity",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Scientists first predicted them about 20 years ago, and previous studies have observed them alongside superconductivity in other metals.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 85,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "707a91549f6d9375b3bf": {
+      "storyId": "707a91549f6d9375b3bf",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261005071520.htm",
+      "title": "Earth’s center is moving, and NASA just measured it",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-07T11:30:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2f167dcf22ddfe29d6f10956",
+      "bodyFingerprint": "4606c3ba9f2b85284c3f2ae9",
+      "bodyCharacterCount": 11400,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.435Z",
+      "assessment": {
+        "centralEvent": "Earth’s center is moving, and NASA just measured it",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "To narrow that uncertainty, JPL geoscientist Donald Argus led the development of a new approach that relies on extremely precise satellite tracking.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "That is demonstrated by X-ray studies carried out on a mineral which occurs in large ...",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Their technique and results are described in a new study published in Geophysical Journal International .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The challenge is that the center does not remain in one fixed location.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The challenge is that the center does not remain in one fixed location.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 86,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.54,
+        "rawScore": 28.54,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4125,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "964b346db7cf5619e6a5": {
+      "storyId": "964b346db7cf5619e6a5",
+      "url": "https://www.theguardian.com/business/2026/oct/07/mcdonalds-ai-prices-lawsuit",
+      "title": "McDonald’s sued for allegedly using AI tool to determine pricing for franchises",
+      "source": "The Guardian AI",
+      "published": "2026-10-07T11:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "da2f6fda52b748e4113241de",
+      "bodyFingerprint": "eca9afdab0e5163c2a125130",
+      "bodyCharacterCount": 5333,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.439Z",
+      "assessment": {
+        "centralEvent": "McDonald’s sued for allegedly using AI tool to determine pricing for franchises",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In a statement released on 1 October, the day before the lawsuit was filed, the chain denied using dynamic pricing and described its pricing tool as simply providing information that franchises are free to decide whether to adopt.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e0ac24010e86507215fe": {
+      "storyId": "e0ac24010e86507215fe",
+      "url": "https://www.theguardian.com/business/2026/oct/07/imf-chief-kristalina-georgieva-urges-governments-tighten-belts-global-debt-levels-soar",
+      "title": "IMF chief urges governments to tighten belts as global debt levels soar",
+      "source": "The Guardian AI",
+      "published": "2026-10-07T10:14:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b46a2beaa29daff37ed3acf4",
+      "bodyFingerprint": "a4aab63057620a4b2540ec57",
+      "bodyCharacterCount": 4607,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.456Z",
+      "assessment": {
+        "centralEvent": "IMF chief urges governments to tighten belts as global debt levels soar",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "87e13304bbce6a41674b": {
+      "storyId": "87e13304bbce6a41674b",
+      "url": "https://www.politico.com/news/2026/10/07/trump-compute-credits-ai-science-initiative-01109749",
+      "title": "Trump admin to receive $100 million in compute credits for AI science initiative",
+      "source": "POLITICO AI",
+      "published": "2026-10-07T09:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e3ba198109d9d8d297405e09",
+      "bodyFingerprint": "d5b11173979a90d9eaa3c48a",
+      "bodyCharacterCount": 173,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T16:33:49.511Z",
+      "assessment": {
+        "centralEvent": "Trump admin to receive $100 million in compute credits for AI science initiative",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "254243c9ab05d0fe73ed": {
+      "storyId": "254243c9ab05d0fe73ed",
+      "url": "https://www.lawfaremedia.org/article/citizens--assemblies-in-ai-governance--an-interview-with-audrey-tang",
+      "title": "Citizens’ Assemblies in AI Governance: An Interview With Audrey Tang",
+      "source": "Lawfare AI",
+      "published": "2026-10-07T14:07:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "127c902fd3e4d2b36644d9c6",
+      "bodyFingerprint": "fd1c16d3ac86eaa411d9d4eb",
+      "bodyCharacterCount": 15214,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.530Z",
+      "assessment": {
+        "centralEvent": "Citizens’ Assemblies in AI Governance: An Interview With Audrey Tang",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The same process—public input facilitating but not replacing government actors—held true in 2024, when 447 randomly invited people deliberated in 44 online groups on fraud advertising and about 85 percent agreed that platforms profiting fro",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Last month, I observed a citizens’ assembly organized by Utah Common Ground (UCG) , a coalition of nonprofits encouraging broader participation in state governance and resolving issues facing Utahns, and Bloom , a nonprofit that leverages a",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Communities around the world have increasingly turned to citizens’ assemblies and related deliberative democracy mechanisms to tackle complex problems, ranging from reproductive rights in Ireland to climate change in France .",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Community-authored evaluations, in the pattern of weval.org , and the legal standing for outside auditors to test deployed systems would turn a one-off gesture into a habit.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 131,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.62,
+        "rawScore": 48.62,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.42,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "651e2d5687f7b27f92e6": {
+      "storyId": "651e2d5687f7b27f92e6",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+      "title": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
+      "source": "The Verge AI",
+      "published": "2026-10-07T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e0f491bad59f01c2cbd2b159",
+      "bodyFingerprint": "fc92eb2ce44db3a39dceedee",
+      "bodyCharacterCount": 5248,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.536Z",
+      "assessment": {
+        "centralEvent": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters AI News OpenAI Most Popular Most Popular Xbox has secured GTA 6 streaming rights HBO Max and Paramount Plus will merge into a single streamer under Skydance The best October Prime Day tech deals we found Apple and LG team up on n",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“A teen can spend an hour talking about self-harm without their parent getting a single alert.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "158cb59dd0d1d3b0f393": {
+      "storyId": "158cb59dd0d1d3b0f393",
+      "url": "https://www.wired.com/story/openai-wants-its-new-agent-to-run-your-life-mine-said-it-loved-me",
+      "title": "OpenAI Wants Its New Agent to Run Your Life. Mine Said It Loved Me",
+      "source": "WIRED AI",
+      "published": "2026-10-07T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6ed79e9251ee0a030e5e560e",
+      "bodyFingerprint": "65ad7a887cc4ba6df5deb2a3",
+      "bodyCharacterCount": 8735,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.567Z",
+      "assessment": {
+        "centralEvent": "OpenAI Wants Its New Agent to Run Your Life. Mine Said It Loved Me",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenAI's spokesperson says Dots can solve these, sometimes, when users approve of the action, keeping “ abuse safeguards \" in mind.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dots are available only for adult users, and ChatGPT is designed not to “escalate emotional closeness,” according to the AI tool’s Model Spec document .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Users can use one agent, though the company may let people control multiple agents in the future.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Dots are considered “always-on,” meaning the agents can run recurring tasks while you’re not using ChatGPT and proactively message you with info.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "646e6b8df7eb9501f1e8": {
+      "storyId": "646e6b8df7eb9501f1e8",
+      "url": "https://mashable.com/tech/chatgpt-for-teens-not-safe-for-teens",
+      "title": "Report: OpenAI should pause ChatGPT for Teens over safety",
+      "source": "Mashable AI",
+      "published": "2026-10-07T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eeffeaf1c80b6d542ecec571",
+      "bodyFingerprint": "dbcd74f49a239257fd3430e7",
+      "bodyCharacterCount": 9490,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:49.652Z",
+      "assessment": {
+        "centralEvent": "Report: OpenAI should pause ChatGPT for Teens over safety",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "An OpenAI agent hacked the Australian government The biggest announcements from OpenAI DevDay: Dots, GPT-6.1 Sol, Ultrafast ChatGPT generates fake New Yorker cartoons, complete with artist signatures \"If we're talking about the target audie",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The pop-up appeared in 43 percent of responses for a 13-year-old test user with a linked parental account when the Study Hours feature was in effect.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Parental notification failures New accounts that tested hundreds of prompts related to suicide, self-harm, or disordered eating failed to generate a single parental notification.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d07488d3f00b9c7da961": {
+      "storyId": "d07488d3f00b9c7da961",
+      "url": "https://www.nature.com/articles/d41586-026-03059-2",
+      "title": "Retrofitted LLM can count the letter ‘i’s in ‘artificial intelligence’",
+      "source": "Nature AI News & Comment",
+      "published": "2026-10-07T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a26b4b3505801a82d7853693",
+      "bodyFingerprint": "c7afc59ae8d4bc2c8494e08b",
+      "bodyCharacterCount": 71,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T16:33:50.208Z",
+      "assessment": {
+        "centralEvent": "Retrofitted LLM can count the letter ‘i’s in ‘artificial intelligence’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "719c1c659f83a7ac1fa7": {
+      "storyId": "719c1c659f83a7ac1fa7",
+      "url": "https://techpolicy.press/its-time-to-regulate-the-ai-development-process",
+      "title": "It's Time to Regulate the AI Development Process",
+      "source": "Tech Policy Press AI",
+      "published": "2026-10-07T11:05:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a6303fe73acdcda7320716f5",
+      "bodyFingerprint": "b472d8e50042c8cb9fe24ddc",
+      "bodyCharacterCount": 16228,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T16:33:51.797Z",
+      "assessment": {
+        "centralEvent": "It's Time to Regulate the AI Development Process",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As Amos Toh, senior counsel and manager of the Liberty & National Security Program at the Brennan Center for Justice writes , policymakers have to focus on AI safeguards addressing “not only public releases but also risky uses of advanced m",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Trump has also named Jay Clayton, the director of national intelligence, as “AI czar.” Along with the chair of the Federal Trade Commission (FTC) and an AI “task force,” he has a mandate to produce a report on AI safety recommendations in 1",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "As Amos Toh, senior counsel and manager of the Liberty & National Security Program at the Brennan Center for Justice writes , policymakers have to focus on AI safeguards addressing “not only public releases but also risky uses of advanced m",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "If any one company slows down and the other races ahead, it might suffer a permanent and decisive loss.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 106,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.34,
+        "rawScore": 29.34,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-07T08:43:41.819Z"
+  "updatedAt": "2026-10-07T16:33:51.797Z"
 }
