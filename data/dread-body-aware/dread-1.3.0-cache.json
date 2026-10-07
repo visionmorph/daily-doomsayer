@@ -225399,8 +225399,356 @@
           "vulnerability": 0
         }
       }
+    },
+    "c7e9c927bb8258f07551": {
+      "storyId": "c7e9c927bb8258f07551",
+      "url": "https://www.theguardian.com/technology/2026/oct/07/privacy-regulator-probe-kmart-anko-meta-smartglasses-australia",
+      "title": "Privacy watchdog launches probe into China-based company behind Kmart ‘pervert glasses’ app",
+      "source": "The Guardian AI",
+      "published": "2026-10-06T23:58:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "70c060b8b769abbbf300b282",
+      "bodyFingerprint": "0fa39db1bb2bfb08da377c88",
+      "bodyCharacterCount": 4847,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T01:35:10.027Z",
+      "assessment": {
+        "centralEvent": "Privacy watchdog launches probe into China-based company behind Kmart ‘pervert glasses’ app",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Instead, the entity providing the software at use in the device is likely to be the entity that collects and holds the information for the purpose of privacy law.” Kind said that potential changes to the privacy act proposed by the governm",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In August, Guardian Australia reported Kmart had sold out of the Anko-branded discount version of Meta’s smartglasses that can capture images and record high-definition video, which led to widespread concern and calls to ban or restrict the",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“These reforms are likely to become increasingly necessary as we face subsequent generations of surveillance wearables and connected devices, from personal assistant gadgets to ambient recording badges.” Researchers at the University of Syd",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0e401bad0dd434d616ea": {
+      "storyId": "0e401bad0dd434d616ea",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+      "title": "OpenAI drops another batch of mathematical breakthroughs",
+      "source": "The Verge AI",
+      "published": "2026-10-06T23:26:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2a546cbcc4547718e8741796",
+      "bodyFingerprint": "d1f4d344e5ade3009aa08105",
+      "bodyCharacterCount": 5502,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T01:35:10.066Z",
+      "assessment": {
+        "centralEvent": "OpenAI drops another batch of mathematical breakthroughs",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robert Hart AI OpenAI More in: All the drama around AI’s takeover of mathematics OpenAI keeps bulldozing mathematicians Robert Hart Sep 28 OpenAI wants to consult elite mathematicians about how to not fumble again Robert Hart Sep 23 OpenAI ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b20e35e65c00c0f43769": {
+      "storyId": "b20e35e65c00c0f43769",
+      "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product",
+      "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+      "source": "TechCrunch AI",
+      "published": "2026-10-06T22:34:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6c328176738adb36e5b348fc",
+      "bodyFingerprint": "b1f60d6fc8577c9973073c1d",
+      "bodyCharacterCount": 4269,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T01:35:10.084Z",
+      "assessment": {
+        "centralEvent": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI Dominic-Madori Davis Federal judge calls Flock ‘indiscriminate mass surveillance’ Anthony Ha Amazon responds to data center backlash, say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He acknowledged that Higgsfield, a three-year-old company that has hit over $700 million in annualized revenue, “is growing like mad,” but according to Kim, the size of the market is so large that it can support multiple competitors.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a43c2e0816bbaf3df57d": {
+      "storyId": "a43c2e0816bbaf3df57d",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/07/openai-australia-apology-without-answering-key-questions",
+      "title": "OpenAI came to Australia to apologise. It will leave without answering these key questions | Toby Walsh",
+      "source": "The Guardian AI",
+      "published": "2026-10-07T01:00:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b8db0b2d4db61fd2b55c1eb",
+      "bodyFingerprint": "9c66a62340c1e468fbc4bc13",
+      "bodyCharacterCount": 4395,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T01:35:10.107Z",
+      "assessment": {
+        "centralEvent": "OpenAI came to Australia to apologise. It will leave without answering these key questions | Toby Walsh",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "For instance, as far as we know, no personal data was compromised.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "AI should be no different OpenAI’s CEO Sam Altman was asked to appear before the Joint Select Committee on Artificial Intelligence in Australia and explain how and why their agents have been hacking into multiple government websites.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Someone should have asked him why OpenAI had no oversight for months over the swarm of agents hacking websites around the world?",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d196bc9f38590dde3dda": {
+      "storyId": "d196bc9f38590dde3dda",
+      "url": "https://www.politico.eu/article/document-read-the-charter-for-the-white-houses-super-intelligence-force",
+      "title": "Read the charter for the White House’s ‘Super Intelligence Force’",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-06T21:51:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f56857e9dbaf834f54acf938",
+      "bodyFingerprint": "7ed716f0c607c4c1aa51fa2d",
+      "bodyCharacterCount": 4407,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T01:35:10.297Z",
+      "assessment": {
+        "centralEvent": "Read the charter for the White House’s ‘Super Intelligence Force’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The document also calls out two risk areas that have come under increased scrutiny in recent months: biosecurity and threats to the water supply.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The task force will stand for 120 days, but its work can be extended – or functions transferred to another government agency – at Wiles’ direction, per the charter.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The Trump administration has given its newly created “Super Intelligence Force” broad authority to determine how the tech industry and the federal government should address threats to national security and civil liberties posed by fast-evol",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenAI recently threw its weight behind a slate of bills aimed at preventing AI models from exacerbating the threat of biological weapons, and rival lab Anthropic disclosed several incidents in which scientists in foreign countries used the",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.34,
+        "rawScore": 28.34,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.395,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-06T21:40:34.037Z"
+  "updatedAt": "2026-10-07T01:35:10.297Z"
 }
