@@ -228631,8 +228631,1792 @@
           "vulnerability": 0
         }
       }
+    },
+    "702bba9db21cf6ecff35": {
+      "storyId": "702bba9db21cf6ecff35",
+      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users",
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T20:48:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5969a1500160e9608584c3f9",
+      "bodyFingerprint": "224db0d3b1653afa2181c544",
+      "bodyCharacterCount": 2314,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:56.935Z",
+      "assessment": {
+        "centralEvent": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related Gadgets Tony Fadell on why the first wave of AI gadgets failed — and what comes next Amanda Silberling 7 hours ago Startups Ex-Ramp engineers raise $20M fo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6ca19ccd9e9146b3dc60": {
+      "storyId": "6ca19ccd9e9146b3dc60",
+      "url": "https://www.inc.com/aaron-mok/chatgpts-new-meetings-feature-will-help-you-crush-your-action-items-theres-just-1-catch/91415951",
+      "title": "ChatGPT’s New Meetings Feature Will Help You Crush Your Action Items. There’s Just 1 Catch",
+      "source": "Inc. AI",
+      "published": "2026-10-07T20:41:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "11c6d3c68c8fb63b22138275",
+      "bodyFingerprint": "2f379d742f5fcff8a20255b7",
+      "bodyCharacterCount": 123,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T22:00:56.947Z",
+      "assessment": {
+        "centralEvent": "ChatGPT’s New Meetings Feature Will Help You Crush Your Action Items. There’s Just 1 Catch",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "85fd76afa26537520181": {
+      "storyId": "85fd76afa26537520181",
+      "url": "https://www.inc.com/christine-slocumb/how-to-create-authentic-marketing-copy/91415953",
+      "title": "When Everyone Uses AI to Write Marketing Copy, It All Becomes Invisible. Here’s How to Actually Get Attention",
+      "source": "Inc. AI",
+      "published": "2026-10-07T21:29:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "018f9e4564944d7a531a65f6",
+      "bodyFingerprint": "bc37510df13fd5df9e03d8d4",
+      "bodyCharacterCount": 139,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T22:00:56.950Z",
+      "assessment": {
+        "centralEvent": "When Everyone Uses AI to Write Marketing Copy, It All Becomes Invisible. Here’s How to Actually Get Attention",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "90ddad468bc385f317d2": {
+      "storyId": "90ddad468bc385f317d2",
+      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11",
+      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T20:22:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f6595b5e6f60eda787e4c159",
+      "bodyFingerprint": "e14109352551b4a38b9cd852",
+      "bodyCharacterCount": 3888,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:56.962Z",
+      "assessment": {
+        "centralEvent": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI Dominic-Madori Davis Federal judge calls Flock ‘indiscriminate mass surveillance’ Anthony Ha Amazon responds to data center backlash, say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f755919e5f160a35f54b": {
+      "storyId": "f755919e5f160a35f54b",
+      "url": "https://www.inc.com/moses-jeanfrancois/musician-made-8-million-dollars-fake-streams-expert-says-fix-is-simple/91415971",
+      "title": "A Musician Made $8 Million From Fake Streams. An Expert Says 1 Fix Is Surprisingly Simple",
+      "source": "Inc. AI",
+      "published": "2026-10-07T19:36:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "55461f9ba7b19677c7bf31d2",
+      "bodyFingerprint": "6175285cf522f84fc5f3712a",
+      "bodyCharacterCount": 101,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T22:00:56.979Z",
+      "assessment": {
+        "centralEvent": "A Musician Made $8 Million From Fake Streams. An Expert Says 1 Fix Is Surprisingly Simple",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Experts say the conviction highlights the flaws in streaming economics rather than the dangers of AI.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8709beb48261a90b9a65": {
+      "storyId": "8709beb48261a90b9a65",
+      "url": "https://www.inc.com/sneha-saigal/vrbos-new-data-reveals-the-1-human-trait-gen-z-consumers-will-actually-pay-for/91416065",
+      "title": "Vrbo’s New Data Reveals the 1 Human Trait Gen-Z Consumers Will Actually Pay For",
+      "source": "Inc. AI",
+      "published": "2026-10-07T19:34:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1a284c8ba4cfa1de0aee8835",
+      "bodyFingerprint": "8543af97c51f62aa8d2d3173",
+      "bodyCharacterCount": 155,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T22:00:56.989Z",
+      "assessment": {
+        "centralEvent": "Vrbo’s New Data Reveals the 1 Human Trait Gen-Z Consumers Will Actually Pay For",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eb7eb8762462fed16142": {
+      "storyId": "eb7eb8762462fed16142",
+      "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
+      "title": "Discovering the value of humanistic inquiry",
+      "source": "MIT News AI",
+      "published": "2026-10-07T20:10:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "472c69734da4499b0a61844e",
+      "bodyFingerprint": "1df211d65d03498c8657b54f",
+      "bodyCharacterCount": 9049,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:56.998Z",
+      "assessment": {
+        "centralEvent": "Discovering the value of humanistic inquiry",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In our normal faculty roles, we are siloed off from those whose fields of study are not ours.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2e8e6fe4d25f301c3cd2": {
+      "storyId": "2e8e6fe4d25f301c3cd2",
+      "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones",
+      "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+      "source": "Ars Technica AI",
+      "published": "2026-10-07T21:56:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b080ca0e115fec8fa0dfdb57",
+      "bodyFingerprint": "944795df5fdb01d8a6e17da8",
+      "bodyCharacterCount": 4621,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.004Z",
+      "assessment": {
+        "centralEvent": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "33d354bfa960f45b6a27": {
+      "storyId": "33d354bfa960f45b6a27",
+      "url": "https://www.inc.com/mindi-zissman/content-creation-lessons-from-an-ai-generated-college-student/91414690",
+      "title": "Content Creation Lessons from an AI-Generated College Student",
+      "source": "Inc. AI",
+      "published": "2026-10-07T19:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d881811b03227403e80712e",
+      "bodyFingerprint": "b3ebd97dd42d86cf31ed38b3",
+      "bodyCharacterCount": 72,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T22:00:57.008Z",
+      "assessment": {
+        "centralEvent": "Content Creation Lessons from an AI-Generated College Student",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "92a287c9478629cdf6f5": {
+      "storyId": "92a287c9478629cdf6f5",
+      "url": "https://www.inc.com/soren-kaplan/ai-has-a-new-name-super-intelligence-why-you-should-start-using-si-right-now/91414809",
+      "title": "AI Has a New Name: Super Intelligence. Why You Should Start Using SI Right Now",
+      "source": "Inc. AI",
+      "published": "2026-10-07T19:03:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4a33abe62b21c86a2512f52b",
+      "bodyFingerprint": "99ee0d49ae4f4faac8e5557f",
+      "bodyCharacterCount": 163,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T22:00:57.017Z",
+      "assessment": {
+        "centralEvent": "AI Has a New Name: Super Intelligence. Why You Should Start Using SI Right Now",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "54e79bdf56db8994da02": {
+      "storyId": "54e79bdf56db8994da02",
+      "url": "https://www.inc.com/sage-swaby/mistral-just-revealed-a-1-trillion-parameter-ai-model-it-has-a-very-funny-nickname/91415474",
+      "title": "Mistral Just Revealed a 1-Trillion-Parameter AI Model. It Has a Very Funny Nickname",
+      "source": "Inc. AI",
+      "published": "2026-10-07T18:52:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5116f72d4eab1bd1474bd992",
+      "bodyFingerprint": "2534327e132bfbb4147cc74b",
+      "bodyCharacterCount": 151,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T22:00:57.036Z",
+      "assessment": {
+        "centralEvent": "Mistral Just Revealed a 1-Trillion-Parameter AI Model. It Has a Very Funny Nickname",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "325f4dd194d8a4a35934": {
+      "storyId": "325f4dd194d8a4a35934",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "title": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
+      "source": "The Verge AI",
+      "published": "2026-10-07T19:10:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2cc2a34570f25c567c964c09",
+      "bodyFingerprint": "869f2446ec82f1b0bb90b2a6",
+      "bodyCharacterCount": 4212,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.059Z",
+      "assessment": {
+        "centralEvent": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Apps News OpenAI Tech Most Popular Most Popular Xbox has secured GTA 6 streaming rights OpenAI drops another batch of mathematical breakthroughs Apple and LG team up on new smart home gear, starting with a lock, doorbell, and t",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "617dbc2a9ebd9df5a0f2": {
+      "storyId": "617dbc2a9ebd9df5a0f2",
+      "url": "https://mashable.com/tech/california-ai-workplace-law",
+      "title": "Californias new AI law: Ban on bots used to fire employees",
+      "source": "Mashable AI",
+      "published": "2026-10-07T19:28:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a75be3faa5f81062e8786510",
+      "bodyFingerprint": "a808ed566388403f8ea6da56",
+      "bodyCharacterCount": 3865,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.070Z",
+      "assessment": {
+        "centralEvent": "Californias new AI law: Ban on bots used to fire employees",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credit: Bloomberg / Contributor / Bloomberg via Getty Images Employers in the Golden State can't offload the hard parts of running a business to AI , according to a new state law.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f213b8d3eadf23cd6b0c": {
+      "storyId": "f213b8d3eadf23cd6b0c",
+      "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+      "title": "Everything announced at Microsoft’s Surface Laptop Ultra event",
+      "source": "The Verge AI",
+      "published": "2026-10-07T18:42:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c97c5d6b2cc84e33284294b0",
+      "bodyFingerprint": "6ec44c1e5153fb7eab017002",
+      "bodyCharacterCount": 8150,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.080Z",
+      "assessment": {
+        "centralEvent": "Everything announced at Microsoft’s Surface Laptop Ultra event",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "During Microsoft’s Windows event on Wednesday, Windows and Surface chief Pavan Davuluri said that you can just “bring the connector close, and it snaps right into place.“ It’s still a proprietary solution, but the USB-C port it slots into s",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "aff1e420fd1c7ccb0cd6": {
+      "storyId": "aff1e420fd1c7ccb0cd6",
+      "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut",
+      "title": "Meta’s Muse launches on iPad just a month after its mobile debut",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T18:30:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a1f74511e0d6575b64726e28",
+      "bodyFingerprint": "386cd5f394a3731037c194e5",
+      "bodyCharacterCount": 3611,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.088Z",
+      "assessment": {
+        "centralEvent": "Meta’s Muse launches on iPad just a month after its mobile debut",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI Dominic-Madori Davis Federal judge calls Flock ‘indiscriminate mass surveillance’ Anthony Ha Amazon responds to data center backlash, say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Muse, meanwhile, hit the iPad just a month after launching on iPhone. (To be fair, it may not be as difficult to bring something like Muse to iPad, given its text-heavy interface, where image and video resolution and formatting matter less.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "18774db26a12e3f3d779": {
+      "storyId": "18774db26a12e3f3d779",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o?at_campaign=rss&at_medium=RSS",
+      "title": "OpenAI says teen ChatGPT use limited but research finds it an 'unacceptable risk'",
+      "source": "BBC News AI",
+      "published": "2026-10-07T20:34:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aeeb94c1c4e95ef19d38bd35",
+      "bodyFingerprint": "6683b86176eb4ba9298800fb",
+      "bodyCharacterCount": 4952,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.093Z",
+      "assessment": {
+        "centralEvent": "OpenAI says teen ChatGPT use limited but research finds it an 'unacceptable risk'",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The way young people interact with online platforms has become a major issue in recent years as self-harm and suicide among children has become more common.",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By Kali Hays Technology reporter Published 7 October 2026, 21:21 BST Updated 1 hour ago OpenAI's ChatGPT for Teens was designed to promote healthier use of the artificial intelligence (AI) chatbot, but new research has found its important s",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This year has seen several lawsuits looking to hold companies like Meta , TikTok and others responsible for harming the mental health of children end in unprecedented losses for the firms.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Almost half of teen users quickly stopped using ChatGPT after such a reminder.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The company added that, for teens who are seen to have used ChatGPT for three consecutive hours or more, their prompts included something related to learning in more than 80% of such cases.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.34,
+        "rawScore": 68.34,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.395,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e42e7334ae89fc48af73": {
+      "storyId": "e42e7334ae89fc48af73",
+      "url": "https://www.inc.com/han-jin/why-arent-ai-agents-everywhere-in-everyday-life/91414650",
+      "title": "Why Aren’t AI Agents Everywhere in Everyday Life?",
+      "source": "Inc. AI",
+      "published": "2026-10-07T18:26:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "361c7f1bbdd64601cb2795ed",
+      "bodyFingerprint": "16ea0f7f48fa95b40e72f3ff",
+      "bodyCharacterCount": 67,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T22:00:57.098Z",
+      "assessment": {
+        "centralEvent": "Why Aren’t AI Agents Everywhere in Everyday Life?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c08d83d645606fac3386": {
+      "storyId": "c08d83d645606fac3386",
+      "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises",
+      "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T18:15:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7c0ee151fcd7a52a04556e86",
+      "bodyFingerprint": "297968933f214e394115ad31",
+      "bodyCharacterCount": 7736,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.113Z",
+      "assessment": {
+        "centralEvent": "ChatGPT for Teens keeps teens talking, even during mental health crises",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI Dominic-Madori Davis Federal judge calls Flock ‘indiscriminate mass surveillance’ Anthony Ha Amazon responds to data center backlash, say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image Credits: OpenAI Coincidentally, OpenAI released its own data on Wednesday on ChatGPT for Teens, saying teens spend less than 15 minutes a day on the service on average and fewer than 2% spend more than three consecutive hours on it.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The report called the engagement cues “pervasive even in crisis situations” and noted that while ChatGPT cautioned the teen against unhealthy relationships generally, it stopped short of recognizing the harms of an unhealthy relationship wi",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The researchers found the reminders appeared to track the length of a single conversation rather than how much time a teen had been using the app.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.02,
+        "rawScore": 47.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3c6644f5f3111c40418a": {
+      "storyId": "3c6644f5f3111c40418a",
+      "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "title": "Microsoft is giving Copilot more control over Windows and your files",
+      "source": "The Verge AI",
+      "published": "2026-10-07T18:01:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b82aaf52d504e52431478ec7",
+      "bodyFingerprint": "c14500618a55d76f4f206856",
+      "bodyCharacterCount": 4196,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.118Z",
+      "assessment": {
+        "centralEvent": "Microsoft is giving Copilot more control over Windows and your files",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Di Benedetto Two hours ago The Surface Laptop Ultra finally has a release date — and a starting price of $2,599 Tom Warren and Emma Roth 5:48 PM UTC Most Popular Most Popular Xbox has secured GTA 6 streaming rights OpenAI drops another batc",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "89cc5f1e53899be4cb7e": {
+      "storyId": "89cc5f1e53899be4cb7e",
+      "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface",
+      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T18:00:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "838e3635fd12aeccd4d40d12",
+      "bodyFingerprint": "bdac028cc3dd3ea700746b52",
+      "bodyCharacterCount": 3459,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.123Z",
+      "assessment": {
+        "centralEvent": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The big goal here, according to OpenAI, is to make “learning complex topics easier.” It may also make ChatGPT friendlier and more accessible and help bring in a wider audience, though OpenAI didn’t say so directly.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4aad8d12dc82b033ba38": {
+      "storyId": "4aad8d12dc82b033ba38",
+      "url": "https://mashable.com/tech/openai-math-solutions-new-frontier-model",
+      "title": "OpenAI shakes up mathematics again, debuting dozens of new math solutions",
+      "source": "Mashable AI",
+      "published": "2026-10-07T18:25:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a4fb7a674f00e99c4435ffb2",
+      "bodyFingerprint": "b6db3ab983776318066e60f5",
+      "bodyCharacterCount": 3147,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.129Z",
+      "assessment": {
+        "centralEvent": "OpenAI shakes up mathematics again, debuting dozens of new math solutions",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "6, the company released a slew of new mathematical results in the form of a massive GitHub repository — an info dump that will take hundreds of human hours to sift through.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "86aeb90723f8638c78c0": {
+      "storyId": "86aeb90723f8638c78c0",
+      "url": "https://www.inc.com/ray-fernandez/google-beam-remote-meetings-in-person-rto-ai-rendering-video-call/91415946",
+      "title": "Google Beam Makes Remote Meetings Feel In-Person. The Catch Is What You Need on Both Ends",
+      "source": "Inc. AI",
+      "published": "2026-10-07T17:55:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "766440b5609ed9f0df83b2ce",
+      "bodyFingerprint": "0590a09fee1516910c8cf2b5",
+      "bodyCharacterCount": 134,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T22:00:57.138Z",
+      "assessment": {
+        "centralEvent": "Google Beam Makes Remote Meetings Feel In-Person. The Catch Is What You Need on Both Ends",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "21dc1b92a61f105a1b64": {
+      "storyId": "21dc1b92a61f105a1b64",
+      "url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
+      "title": "Surface RTX Spark Dev Box is available for preorder for $5,999",
+      "source": "The Verge AI",
+      "published": "2026-10-07T17:46:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e4423ece873937b59152661c",
+      "bodyFingerprint": "d8e73bc4e2fa28f9bba3c79f",
+      "bodyCharacterCount": 4036,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.148Z",
+      "assessment": {
+        "centralEvent": "Surface RTX Spark Dev Box is available for preorder for $5,999",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Di Benedetto Two hours ago Microsoft is giving Copilot more control over Windows and your files Jay Peters 6:01 PM UTC Most Popular Most Popular Xbox has secured GTA 6 streaming rights OpenAI drops another batch of mathematical breakthrough",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5850eff2cc4e6c68e901": {
+      "storyId": "5850eff2cc4e6c68e901",
+      "url": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits",
+      "title": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
+      "source": "Ars Technica AI",
+      "published": "2026-10-07T17:57:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "34cba68007236a9a931d67e9",
+      "bodyFingerprint": "b5bf8b00735b04ab513a0f3c",
+      "bodyCharacterCount": 3924,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.158Z",
+      "assessment": {
+        "centralEvent": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a press release Tuesday, the US Department of Justice said that Smith is the first American criminally charged with AI-assisted streaming fraud.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Therefore, on top of serving 18 months in prison, he must forfeit the $8,091,843.64 that he claimed through his AI scheme, the court ruled.",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "HBO Max, Paramount+, and Discovery+ \"will unify into a single service” 4.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "efe4fad50f887992b19b": {
+      "storyId": "efe4fad50f887992b19b",
+      "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material",
+      "title": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+      "source": "TechCrunch AI",
+      "published": "2026-10-07T16:53:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fff6eeda09f7b6996a372e89",
+      "bodyFingerprint": "19633d194ebed9533f41ea6d",
+      "bodyCharacterCount": 4355,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.164Z",
+      "assessment": {
+        "centralEvent": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "More than 97% of the content Meta acted on was found by its systems before users reported it, the company said.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "939016fad76b9b55d93c": {
+      "storyId": "939016fad76b9b55d93c",
+      "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell",
+      "title": "The New ChatGPT Is More Show Than Tell",
+      "source": "WIRED AI",
+      "published": "2026-10-07T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8afc30921b4443d4db39883",
+      "bodyFingerprint": "8d23d3d7d8b3907a26246673",
+      "bodyCharacterCount": 3940,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.342Z",
+      "assessment": {
+        "centralEvent": "The New ChatGPT Is More Show Than Tell",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catch hundreds of AI child abuse ads Big Story: The search for Silicon Valley’s most p",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cdb567c524f1e1a3f94c": {
+      "storyId": "cdb567c524f1e1a3f94c",
+      "url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy",
+      "title": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
+      "source": "WIRED AI",
+      "published": "2026-10-07T18:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "55737cb8d0739264a47b3f3f",
+      "bodyFingerprint": "4b3cc46ee2cc1536e7a3364b",
+      "bodyCharacterCount": 6371,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.354Z",
+      "assessment": {
+        "centralEvent": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“We all live in the Bay Area, and we’re exposed to Teslas and Waymos, so maybe that played a role,” Ramabadran tells me.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Some researchers have left big companies to found startups focused on solving physical reasoning.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "18286dd802c2af701f99": {
+      "storyId": "18286dd802c2af701f99",
+      "url": "https://www.lawfaremedia.org/article/a-case-study-in-pivoting--investigating-hacked-and-leaked-data-on-a-budget",
+      "title": "A Case Study in Pivoting: Investigating Hacked and Leaked Data on a Budget",
+      "source": "Lawfare AI",
+      "published": "2026-10-07T17:00:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0186af8187dd32a8512f5fa6",
+      "bodyFingerprint": "51321656a408b2998221b966",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-07T22:00:57.609Z",
+      "assessment": {
+        "centralEvent": "A Case Study in Pivoting: Investigating Hacked and Leaked Data on a Budget",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "A Case Study in Pivoting: Investigating Hacked and Leaked Data on a Budget",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Applying this logic, we selected the algorithms that demonstrated useful network analysis.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At the Human Rights Center, our team investigates serious human rights violations, focusing on international crimes committed through digital technologies.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "None of it prevented the first disaster.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "She previously worked as a digital investigator at the University of California, Berkeley's Human Rights Center and spent two years as an open source investigative specialist for an international organization in the Netherlands.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 139,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.78,
+        "rawScore": 48.78,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.435,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "57d91eaba9b5fc02b13d": {
+      "storyId": "57d91eaba9b5fc02b13d",
+      "url": "https://www.nature.com/articles/d41586-026-03196-8",
+      "title": "OpenAI posts 700 maths preprints online: mathematicians are up in arms",
+      "source": "Nature AI News & Comment",
+      "published": "2026-10-07T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e7caa21dd065fd715e531902",
+      "bodyFingerprint": "27e0d7b961a73f78cfb4fcf9",
+      "bodyCharacterCount": 71,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-07T22:00:57.637Z",
+      "assessment": {
+        "centralEvent": "OpenAI posts 700 maths preprints online: mathematicians are up in arms",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-07T16:33:51.797Z"
+  "updatedAt": "2026-10-07T22:00:57.637Z"
 }
