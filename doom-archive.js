@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-08T09:00:00.000Z",
+  "generatedAt": "2026-10-08T16:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-08",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 71.48
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.37,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 51.37
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac390393e484daf0cf6af34/master/pass/100516-Big%20Interview%20K%20Roose%20Solo.jpg",
           "peak": 49.5,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 49.5
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/AI-safety-Nesta-768x432.jpg",
           "peak": 49.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 49.23
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
           "peak": 48.95,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 48.95
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 48.78,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 48.78
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.67,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 48.67
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6abbccfabe7d0477fd09a6c4/master/pass/Security_Pentagon%20Hopes%20to%20Speed%20Up%20%E2%80%98Kill%20Chain%E2%80%99%20AI%20Buys%20With%205-Minute%20Videos_v1.jpg",
           "peak": 48.56,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 48.56
         }
       ]
@@ -5819,11 +5819,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 4,
           "peakDate": "2026-10-05",
           "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 71.48
         },
         {
@@ -5847,11 +5847,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.37,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T21:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 51.37
         },
         {
@@ -5861,11 +5861,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 4,
           "peakDate": "2026-10-05",
           "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -5917,11 +5917,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac390393e484daf0cf6af34/master/pass/100516-Big%20Interview%20K%20Roose%20Solo.jpg",
           "peak": 49.5,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T21:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 49.5
         },
         {
@@ -6836,11 +6836,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 29,
+          "observations": 30,
           "daysTracked": 8,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T23:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 71.48
         },
         {
@@ -6864,11 +6864,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.37,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T21:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 51.37
         },
         {
@@ -6878,11 +6878,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 32,
+          "observations": 33,
           "daysTracked": 8,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
+          "lastObservedAt": "2026-10-08T16:00:00.000Z",
           "average": 51.23
         },
         {
