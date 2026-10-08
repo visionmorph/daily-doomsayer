@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-08T16:00:00.000Z",
+  "generatedAt": "2026-10-08T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-08",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 71.48
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.37,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 51.37
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -67,17 +67,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.5
         },
         {
+          "storyId": "e5e54eb2b2f4765e5801",
+          "title": "The AI Model Distillation Paradox",
+          "url": "https://www.lawfaremedia.org/article/the-ai-model-distillation-paradox",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 49.5,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-08",
+          "firstObservedAt": "2026-10-08T22:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
+          "average": 49.5
+        },
+        {
           "storyId": "c185b1f669ce177c88ba",
           "title": "Who gets to decide if AI is safe? Africa wants a say",
           "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/AI-safety-Nesta-768x432.jpg",
           "peak": 49.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 49.23
         },
         {
@@ -87,12 +101,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
           "peak": 48.95,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 48.95
+        },
+        {
+          "storyId": "a0f23ec6badbd2df979a",
+          "title": "Einstein Probe reveals a hidden phase of neutron star collisions",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261006234511.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 48.87,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-08",
+          "firstObservedAt": "2026-10-08T22:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
+          "average": 48.87
         },
         {
           "storyId": "18286dd802c2af701f99",
@@ -115,40 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.67,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-08",
           "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 48.67
-        },
-        {
-          "storyId": "254243c9ab05d0fe73ed",
-          "title": "Citizens’ Assemblies in AI Governance: An Interview With Audrey Tang",
-          "url": "https://www.lawfaremedia.org/article/citizens--assemblies-in-ai-governance--an-interview-with-audrey-tang",
-          "source": "Lawfare AI",
-          "image": "",
-          "peak": 48.62,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-08",
-          "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T09:00:00.000Z",
-          "average": 48.62
-        },
-        {
-          "storyId": "09a463cb49e9b9dca514",
-          "title": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos",
-          "url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6abbccfabe7d0477fd09a6c4/master/pass/Security_Pentagon%20Hopes%20to%20Speed%20Up%20%E2%80%98Kill%20Chain%E2%80%99%20AI%20Buys%20With%205-Minute%20Videos_v1.jpg",
-          "peak": 48.56,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-08",
-          "firstObservedAt": "2026-10-08T09:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
-          "average": 48.56
         }
       ]
     },
@@ -5819,11 +5819,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 4,
           "peakDate": "2026-10-05",
           "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 71.48
         },
         {
@@ -5847,11 +5847,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.37,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T21:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 51.37
         },
         {
@@ -5861,11 +5861,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 4,
           "peakDate": "2026-10-05",
           "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -5925,6 +5925,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.5
         },
         {
+          "storyId": "e5e54eb2b2f4765e5801",
+          "title": "The AI Model Distillation Paradox",
+          "url": "https://www.lawfaremedia.org/article/the-ai-model-distillation-paradox",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 49.5,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-08",
+          "firstObservedAt": "2026-10-08T22:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
+          "average": 49.5
+        },
+        {
           "storyId": "22dc9eaa3c04174f83c7",
           "title": "Production, Persuasion, and Power: How Generative and Agentic AI Are Transforming Influence Operations",
           "url": "https://www.lawfaremedia.org/article/production--persuasion--and-power--how-generative-and-agentic-ai-are-transforming-influence-operations",
@@ -5937,20 +5951,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-05T22:00:00.000Z",
           "lastObservedAt": "2026-10-06T10:00:00.000Z",
           "average": 49.45
-        },
-        {
-          "storyId": "5d309cbda596d7dab371",
-          "title": "Taiwan's Election Needs a Deepfake Law That Works",
-          "url": "https://techpolicy.press/taiwans-election-needs-a-deepfake-law-that-works",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.34,
-          "observations": 9,
-          "daysTracked": 3,
-          "peakDate": "2026-10-05",
-          "firstObservedAt": "2026-10-05T07:00:00.000Z",
-          "lastObservedAt": "2026-10-07T08:00:00.000Z",
-          "average": 49.34
         }
       ]
     },
@@ -6836,11 +6836,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/d33c4862611cb2b005b799ac7e127647283d6ae4-1200x675.png",
           "peak": 71.48,
-          "observations": 30,
+          "observations": 31,
           "daysTracked": 8,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T23:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 71.48
         },
         {
@@ -6864,11 +6864,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.37,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T21:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 51.37
         },
         {
@@ -6878,11 +6878,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 33,
+          "observations": 34,
           "daysTracked": 8,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-08T16:00:00.000Z",
+          "lastObservedAt": "2026-10-08T22:00:00.000Z",
           "average": 51.23
         },
         {
