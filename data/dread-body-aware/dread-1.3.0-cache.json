@@ -235148,8 +235148,535 @@
           "vulnerability": 0
         }
       }
+    },
+    "4ab95cdb6d171e9ffebd": {
+      "storyId": "4ab95cdb6d171e9ffebd",
+      "url": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
+      "title": "OpenAI projected to bring in $20bn less in revenue than expected",
+      "source": "The Guardian AI",
+      "published": "2026-10-09T08:06:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5d2808fe4f528abcd4b72e42",
+      "bodyFingerprint": "d5718a2acac104f749f5ce67",
+      "bodyCharacterCount": 4522,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T09:09:53.095Z",
+      "assessment": {
+        "centralEvent": "OpenAI projected to bring in $20bn less in revenue than expected",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Explore more on these topics OpenAI ChatGPT AI (artificial intelligence) Technology sector Anthropic Computing news Share Reuse this content More on this story More on this story ‘Dystopian’: Co-op becomes latest firm to put staff under AI ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Explore more on these topics OpenAI ChatGPT AI (artificial intelligence) Technology sector Anthropic Computing news Share Reuse this content More on this story More on this story ‘Dystopian’: Co-op becomes latest firm to put staff under AI ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0425fdbe39bba50eacb8": {
+      "storyId": "0425fdbe39bba50eacb8",
+      "url": "https://www.theguardian.com/technology/2026/oct/09/palantir-tom-watson-mob-rule-government-contracts",
+      "title": "Palantir’s Tom Watson says ‘mob rule’ must not dictate awarding of government contracts",
+      "source": "The Guardian AI",
+      "published": "2026-10-09T07:20:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8b1a10e13f5b17dec1de9a5c",
+      "bodyFingerprint": "ca2b6fb7dd0bb2a99e3b7ef5",
+      "bodyCharacterCount": 4353,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T09:09:53.105Z",
+      "assessment": {
+        "centralEvent": "Palantir’s Tom Watson says ‘mob rule’ must not dictate awarding of government contracts",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Palantir was co-founded by the Trump-supporting billionaire Peter Thiel and has provided AI-powered software to the Israeli military and the White House’s ICE immigration crackdown , leading to a public and political backlash against its de",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The key issue is we can’t be so dependent on one company.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It’s a US company, subject to US legislation regarding access to our data.” Explore more on these topics Palantir Tom Watson Public services policy NHS Metropolitan police Sadiq Khan Andy Burnham news Share Reuse this content More on this s",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.99,
+        "rawScore": 24.99,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.09,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ddaee144f56f95f9defa": {
+      "storyId": "ddaee144f56f95f9defa",
+      "url": "https://www.bbc.co.uk/news/articles/cjzxz9yp1kq9o?at_campaign=rss&at_medium=RSS",
+      "title": "'Careless use of AI is the real threat - not the ghost stories'",
+      "source": "BBC News AI",
+      "published": "2026-10-09T07:05:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e9d536ff321d96d0a96d96cf",
+      "bodyFingerprint": "5c55e32084841f64ff782924",
+      "bodyCharacterCount": 7542,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T09:09:53.119Z",
+      "assessment": {
+        "centralEvent": "'Careless use of AI is the real threat - not the ghost stories'",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Alvaro Alvarez/ BBC Image caption, Meredith Whittaker believes science doesn't support the idea that AI will turn against humans By Megha Mohan Gender and identity correspondent Published 2 hours ago Warning: This article cont",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2979df4e92c806d1db08": {
+      "storyId": "2979df4e92c806d1db08",
+      "url": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_campaign=rss&at_medium=RSS",
+      "title": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
+      "source": "BBC News AI",
+      "published": "2026-10-09T07:14:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b9cb24b335117f869bcb0f4",
+      "bodyFingerprint": "12f1919474dd13693ffa3bb8",
+      "bodyCharacterCount": 4051,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T09:09:53.125Z",
+      "assessment": {
+        "centralEvent": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Firmus By Osmond Chia Business reporter Published 9 October 2026, 04:41 BST Updated 1 hour ago Artificial intelligence (AI) data centre company Firmus has scrapped its plans for what would have been one of Australia's biggest-",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7311e6548c2ec4792a34": {
+      "storyId": "7311e6548c2ec4792a34",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/09/gordon-brown-british-households-5000-richer-innovation",
+      "title": "British households would be £5,000 richer if we were more innovative. Let’s unleash our talents | Gordon Brown",
+      "source": "The Guardian AI",
+      "published": "2026-10-09T05:00:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8deebec8cfdf64826b7eafb4",
+      "bodyFingerprint": "8343eb124e466d54ec2edcda",
+      "bodyCharacterCount": 7076,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T09:09:53.136Z",
+      "assessment": {
+        "centralEvent": "British households would be £5,000 richer if we were more innovative. Let’s unleash our talents | Gordon Brown",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "If we were to raise Britain to Swedish or Japanese levels of innovation intensity we would, over time, leave every household £5,000 better off (according to my calculations), and increase our national income by £150bn a year as higher inves",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "928316037e7a873b03a9": {
+      "storyId": "928316037e7a873b03a9",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5zjx92v1mero?at_campaign=rss&at_medium=RSS",
+      "title": "Sutton's predictions v Starsailor frontman James Walsh",
+      "source": "BBC News AI",
+      "published": "2026-10-08T20:46:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1dcd588fe14a9bc6b48ba9a0",
+      "bodyFingerprint": "657fdd046dc2ad73a29e5bb6",
+      "bodyCharacterCount": 15016,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T09:09:53.151Z",
+      "assessment": {
+        "centralEvent": "Sutton's predictions v Starsailor frontman James Walsh",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Sutton's prediction: 2-1 James' prediction: This is a high-pressure fixture for both teams but, being at home, United should edge it, and give their fans a bit of respite.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sutton's prediction: 2-1 James' prediction: Villa have lost some key players but I still expect them to get it together at some stage and maybe this is the game, against a Brentford team in really good form.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Adam Docker Image caption, Starsailor's debut album, Love Is Here, has sold more than 1m copies worldwide since it reached number two in the UK album charts in 2001, and has amassed more than 56m streams on Spotify When Love i",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "So, this game will tell us a lot about where Arsenal are and how they have recovered from that Brighton defeat.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 106,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.59,
+        "rawScore": 28.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "578c09efa74b5c33b0d1": {
+      "storyId": "578c09efa74b5c33b0d1",
+      "url": "https://www.politico.eu/article/eu-cybersecurity-and-science-researchers-are-testing-chinese-ai-models",
+      "title": "EU cyber and science researchers are testing Chinese AI models",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-08T20:54:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "88d3458cca4cd8f80592ce21",
+      "bodyFingerprint": "e7180147830cf6bc082f57d2",
+      "bodyCharacterCount": 3185,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T09:09:53.257Z",
+      "assessment": {
+        "centralEvent": "EU cyber and science researchers are testing Chinese AI models",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Advertisement AI safety and security — topics currently under intense scrutiny following a series of incidents in which advanced AI models hacked real-world networks during testing activities — are not the core focus of the JRC’s testing ac",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The Joint Research Centre (JRC) — the EU’s in-house scientific research center — is evaluating “publicly available open-weight models” originating from China, European Commission spokesperson Maciej Berestecki confirmed.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b8b7a9171efc486959af": {
+      "storyId": "b8b7a9171efc486959af",
+      "url": "https://thedispatch.com/article/ai-workers-pastor-lawyer-radiologist",
+      "title": "Welcome to the AI Workplace",
+      "source": "The Dispatch AI",
+      "published": "2026-10-09T05:02:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae3ba03229e8a8897706882a",
+      "bodyFingerprint": "40afd74ea9a116f9b96ce569",
+      "bodyCharacterCount": 4750,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T09:09:53.778Z",
+      "assessment": {
+        "centralEvent": "Welcome to the AI Workplace",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Before joining The Dispatch, he reported on crypto, most recently at Fortune Magazine.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-09T02:13:04.347Z"
+  "updatedAt": "2026-10-09T09:09:53.778Z"
 }
