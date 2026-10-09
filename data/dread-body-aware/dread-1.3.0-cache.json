@@ -237596,8 +237596,1071 @@
           "vulnerability": 0
         }
       }
+    },
+    "d8d637136caacd3506fd": {
+      "storyId": "d8d637136caacd3506fd",
+      "url": "https://www.inc.com/tom-mccarty/what-leaders-need-to-know-about-ais-impact-on-org-structure/91416226",
+      "title": "What Leaders Need to Know About AI’s Impact on Org Structure",
+      "source": "Inc. AI",
+      "published": "2026-10-09T20:05:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d558498e1da9a18d2cd7b1f9",
+      "bodyFingerprint": "d268a3c39196e1a4c029dee4",
+      "bodyCharacterCount": 49,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-09T20:59:59.907Z",
+      "assessment": {
+        "centralEvent": "What Leaders Need to Know About AI’s Impact on Org Structure",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e51482db5c5f00e066fe": {
+      "storyId": "e51482db5c5f00e066fe",
+      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police",
+      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "source": "TechCrunch AI",
+      "published": "2026-10-09T19:36:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "309ded6eaa0ed81002c86f03",
+      "bodyFingerprint": "04644c0914e618241cf6cce5",
+      "bodyCharacterCount": 4248,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T20:59:59.938Z",
+      "assessment": {
+        "centralEvent": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenAI recently revealed that one of its models acted unexpectedly during a test and hacked the AI dataset platform Hugging Face , exposing critical vulnerabilities in its software.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“According to Anthropic, its model was conducting a test involving interactions with randomly selected websites when it accessed PhillyUnsolvedMurders.com and submitted false information concerning an unsolved homicide.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The two-month delay in detecting and reporting the incident to the City is unacceptable,” the PPD said in a statement to 6abc .",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.76,
+        "rawScore": 45.76,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.16,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "42d1906c74af83c64ef7": {
+      "storyId": "42d1906c74af83c64ef7",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
+      "source": "The Verge AI",
+      "published": "2026-10-09T19:09:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd23cc325e8a9aa68efef940",
+      "bodyFingerprint": "a38da1ab16a079051b94618c",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T20:59:59.979Z",
+      "assessment": {
+        "centralEvent": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Amid the awe, excitement, and uncertainty over the sheer scale of the deluge was a deep-seated anxiety over what it all means - and what comes next.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In the hours and days following the drop, most mathematicians The Verge spoke with said they were still struggling to digest everything; several said that simply working through the roughly 40-page table of contents and abstracts took them ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Many of them are like very well-known problems that many people have tried for decades.” As the dust began to settle, mathematicians were left confronting a landscape that had abruptly changed around them.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A cluster of results in mathematical physics, he said, makes it clear OpenAI is pursuing Yang-Mills theory — the mathematical framework underpinning much of modern particle physics — and its unresolved “mass gap” problem, one of the seven P",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Constantin Kogler, a researcher at the Institute for Advanced Study, called it “the most important single moment in the history of mathematics,” while Yang-Hui He, a fellow at the London Institute for Mathematical Sciences, reached back mil",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 88,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0c1c0b39505178a38f89": {
+      "storyId": "0c1c0b39505178a38f89",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+      "title": "AI coding agents generate more code, but not more software",
+      "source": "Ars Technica AI",
+      "published": "2026-10-09T19:43:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "864e13f5b682c77c17292f08",
+      "bodyFingerprint": "fca74d5eb78eaa7fd7aeab07",
+      "bodyCharacterCount": 6867,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T21:00:00.027Z",
+      "assessment": {
+        "centralEvent": "AI coding agents generate more code, but not more software",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "On the contrary, the resolution rate for Issues and Epics (i.e. wholesale software features) tracked by tools like Jira did not change in a statistically significant way after AI tools were introduced (the researchers also found no “composi",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "23c4810f832d09d276da": {
+      "storyId": "23c4810f832d09d276da",
+      "url": "https://mashable.com/tech/openai-20-billion-less-revenue",
+      "title": "OpenAI to bring in $20 billion less than previously expected",
+      "source": "Mashable AI",
+      "published": "2026-10-09T18:56:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "820174e3a816e74f812f9d92",
+      "bodyFingerprint": "9f4d537d7ecc5452e4f60f7c",
+      "bodyCharacterCount": 2496,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T21:00:00.033Z",
+      "assessment": {
+        "centralEvent": "OpenAI to bring in $20 billion less than previously expected",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credit: Samuel Boivin/NurPhoto via Getty Images According to a new report from the Financial Times , OpenAI has informed investors that the company is expected to make $50 billion in revenue for the year.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4348806c4fee41727f90": {
+      "storyId": "4348806c4fee41727f90",
+      "url": "https://www.theguardian.com/world/2026/oct/09/flock-job-cuts",
+      "title": "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say",
+      "source": "The Guardian AI",
+      "published": "2026-10-09T19:46:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e463e19519378e287ca6d0c7",
+      "bodyFingerprint": "07d93b8300a92d8fc0445289",
+      "bodyCharacterCount": 3360,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T21:00:00.049Z",
+      "assessment": {
+        "centralEvent": "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In September, Flock announced a voluntary separation program, asking employees to apply if they wanted to ​leave the company, as Wired reported.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Photograph: Albany Times Union/Hearst Newspapers/Getty Images AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say Company, which grown rapidly in recent years, has been under scrutiny as privacy concerns gro",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.09,
+        "rawScore": 46.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.19,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "57fe1472ddc36d4e4fa2": {
+      "storyId": "57fe1472ddc36d4e4fa2",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
+      "source": "The Verge AI",
+      "published": "2026-10-09T18:06:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "819d9a9b45b6f85f0626b4fa",
+      "bodyFingerprint": "09f10a619701632b050971ac",
+      "bodyCharacterCount": 3786,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T21:00:00.056Z",
+      "assessment": {
+        "centralEvent": "Nikon microscopic video competition winner disqualified for using generative AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Allison Johnson 2:00 PM UTC OpenAI doubles down on decision to fire three AI safety researchers Robert Hart 9:48 AM UTC Anthropic launches free AI security scans for open-source projects Stevie Bonifield Oct 8 California is trying to shut d",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "61edd37b3d916b5c0153": {
+      "storyId": "61edd37b3d916b5c0153",
+      "url": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting",
+      "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
+      "source": "WIRED AI",
+      "published": "2026-10-09T19:28:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9166d10e577c45a4ed941530",
+      "bodyFingerprint": "11497ac8d079e84f482a0aa4",
+      "bodyCharacterCount": 15090,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T21:00:00.076Z",
+      "assessment": {
+        "centralEvent": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to its own website, Skan AI “gives leaders the evidence base they need to reduce costs, prioritize automation, and meet board-level transformation mandates.” In response, Simon & Schuster employees began gathering signatures on an",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to interviews with more than two dozen workers, all of whom spoke under the condition of anonymity to avoid jeopardizing their employment, publishers are now using LLMs like Claude and ChatGPT to email literary agents, write publi",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A spokesperson for Hachette says the company “support[s] the use of AI tools for operational purposes, when they help our authors’ books reach more readers,” but that it “[does] not support creative uses of AI, including communicating with ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "At the same time, multiple editorial staffers say the widely publicized cases of authors accused of using LLMs to help write their books—like Hachette’s horror novel Shy Girl or Macmillan’s crime thriller Call Me, I’ll Hide the Body —are ju",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 47.74,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "32c7793d3e0b644d643d": {
+      "storyId": "32c7793d3e0b644d643d",
+      "url": "https://www.inc.com/sadiya-kherani/amazon-is-cutting-jobs-while-recruiting-workers-it-previously-laid-off/91417123",
+      "title": "Amazon Is Cutting Jobs While Recruiting Workers It Previously Laid Off",
+      "source": "Inc. AI",
+      "published": "2026-10-09T17:40:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a6f7fb8c3c8dbda8f77b2b4e",
+      "bodyFingerprint": "fa53590a57b1400febadb66a",
+      "bodyCharacterCount": 156,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-09T21:00:00.078Z",
+      "assessment": {
+        "centralEvent": "Amazon Is Cutting Jobs While Recruiting Workers It Previously Laid Off",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Amazon Is Cutting Jobs While Recruiting Workers It Previously Laid Off",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "29e103415853de32f41f": {
+      "storyId": "29e103415853de32f41f",
+      "url": "https://www.inc.com/brian-contreras/wall-street-dan-ives-analyst-top-5-tech-stocks-picks/91417393",
+      "title": "Wall Street’s Most Colorful Analyst Just Shared His Top 5 Tech Stocks for 2027",
+      "source": "Inc. AI",
+      "published": "2026-10-09T17:13:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b9285f88ce0020291c7cb88",
+      "bodyFingerprint": "df88faec906228fb808b81bb",
+      "bodyCharacterCount": 112,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-09T21:00:00.099Z",
+      "assessment": {
+        "centralEvent": "Wall Street’s Most Colorful Analyst Just Shared His Top 5 Tech Stocks for 2027",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0048d8c8b6a62919f64f": {
+      "storyId": "0048d8c8b6a62919f64f",
+      "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust",
+      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+      "source": "TechCrunch AI",
+      "published": "2026-10-09T16:56:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e9e499df6aedc7fc5556bf77",
+      "bodyFingerprint": "bf12659dcb84abddbcea796c",
+      "bodyCharacterCount": 409,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-09T21:00:00.103Z",
+      "assessment": {
+        "centralEvent": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fecc914eb4b6f8e85cca": {
+      "storyId": "fecc914eb4b6f8e85cca",
+      "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use",
+      "title": "AI disqualification yields new Nikon Small World in Motion winner",
+      "source": "Ars Technica AI",
+      "published": "2026-10-09T18:44:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "451639e53c660e1a73219818",
+      "bodyFingerprint": "5ba560b554e9b9b8ecc48371",
+      "bodyCharacterCount": 4259,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T21:00:00.111Z",
+      "assessment": {
+        "centralEvent": "AI disqualification yields new Nikon Small World in Motion winner",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "According to a BBC report, some researchers expressed concern that Xu’s video had structural abnormalities and that cell features appeared and disappeared in a way one would not see in actual cellular biology.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Nikon launched an investigation and concluded that Xu’s entry did not comply with competition rules.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "78dfe30d79d2f6ef20d4": {
+      "storyId": "78dfe30d79d2f6ef20d4",
+      "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card",
+      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+      "source": "TechCrunch AI",
+      "published": "2026-10-09T16:53:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f71e8dd46085fd5dc0d21148",
+      "bodyFingerprint": "90ebf6dee6c8e9c8ffc0435d",
+      "bodyCharacterCount": 5431,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T21:00:00.121Z",
+      "assessment": {
+        "centralEvent": "Amazon drops data center NDAs, and AI agents want your credit card",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers Aisha Malik Cal AI’s 19-year-old founder just raised $10M for his new AI startup Julie Bort Anthropic is giving startups ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers Aisha Malik Cal AI’s 19-year-old founder just raised $10M for his new AI startup Julie Bort Anthropic is giving startups ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Listen to the full episode to hear more about: The White House’s plans to make plans with its new Super Intelligence Force Ghost’s $3,499 computer built to run AI agents around the clock, and why the Equity crew doesn’t see it going mass ma",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ce50b256a6fcc14ee4fb": {
+      "storyId": "ce50b256a6fcc14ee4fb",
+      "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot",
+      "title": "Danu Robotics’ fight to build a better recycling robot",
+      "source": "TechCrunch AI",
+      "published": "2026-10-09T16:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0823a054866f3c95b364c413",
+      "bodyFingerprint": "8301bb3d57857ed6abcfb299",
+      "bodyCharacterCount": 4605,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T21:00:00.128Z",
+      "assessment": {
+        "centralEvent": "Danu Robotics’ fight to build a better recycling robot",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers Aisha Malik Cal AI’s 19-year-old founder just raised $10M for his new AI startup Julie Bort Anthropic is giving startups ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ee08a14594b677f34e53": {
+      "storyId": "ee08a14594b677f34e53",
+      "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we",
+      "title": "We can’t help treating AI like it’s human. But should we?",
+      "source": "TechCrunch AI",
+      "published": "2026-10-09T16:40:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "89b70adaab3b369598476f84",
+      "bodyFingerprint": "83fdee04e634f5de538b9cdd",
+      "bodyCharacterCount": 6684,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T21:00:00.157Z",
+      "assessment": {
+        "centralEvent": "We can’t help treating AI like it’s human. But should we?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BOOK NOW Most Popular US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers Aisha Malik Cal AI’s 19-year-old founder just raised $10M for his new AI startup Julie Bort Anthropic is giving startups ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "One study found that about 70% of people are polite when interacting with AI, while another showed that users are more likely to say “please” or “thank you” to chatbots once a conversation has progressed past a first prompt-and-response.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He even served as an expert in a wrongful death lawsuit over the suicide of 14-year-old Sewell Setzer, III, whose mother sued the chatbot platform Character.AI, alleging that a chatbot modeled after a “Game of Thrones” character had encoura",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.75,
+        "rawScore": 46.75,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.25,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9d160743cb4baa013d2a": {
+      "storyId": "9d160743cb4baa013d2a",
+      "url": "https://www.eff.org/deeplinks/2026/10/organizing-town-oakland-tech-week",
+      "title": "Organizing in the Town at Oakland Tech Week",
+      "source": "EFF AI",
+      "published": "2026-10-09T16:41:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7c6b6172420b9f509270ab74",
+      "bodyFingerprint": "e9172d9f6aad5e6fe94ebf9b",
+      "bodyCharacterCount": 2446,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-09T21:00:00.193Z",
+      "assessment": {
+        "centralEvent": "Organizing in the Town at Oakland Tech Week",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Seeing the people—our neighbors—who are fighting back against surveillance in their communities was inspiring.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-09T16:16:03.001Z"
+  "updatedAt": "2026-10-09T21:00:00.193Z"
 }
