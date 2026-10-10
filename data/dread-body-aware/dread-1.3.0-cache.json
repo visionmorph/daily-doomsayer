@@ -239221,8 +239221,722 @@
           "vulnerability": 0
         }
       }
+    },
+    "c9390824224ecd5bf3e1": {
+      "storyId": "c9390824224ecd5bf3e1",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "title": "AI agent makers are promising privacy — will they deliver?",
+      "source": "The Verge AI",
+      "published": "2026-10-10T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "585c0c5e581f6f281191bca1",
+      "bodyFingerprint": "614754a152fcefb3a9666df1",
+      "bodyCharacterCount": 7639,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T13:46:02.483Z",
+      "assessment": {
+        "centralEvent": "AI agent makers are promising privacy — will they deliver?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Allison Johnson Oct 9 OpenAI doubles down on decision to fire three AI safety researchers Robert Hart Oct 9 Advertiser Content From This is the title for the native ad Top Stories 7:00 AM UTC My brief romance with an AI bird feeder Two hour",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5e7c2647aa1fa2a79d63": {
+      "storyId": "5e7c2647aa1fa2a79d63",
+      "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals",
+      "title": "AI Is Getting Really Good at Messing With Cybercriminals",
+      "source": "WIRED AI",
+      "published": "2026-10-10T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "59c9545609f71eec263213c5",
+      "bodyFingerprint": "10a9be2695caa972c6a963e3",
+      "bodyCharacterCount": 9323,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T13:46:02.525Z",
+      "assessment": {
+        "centralEvent": "AI Is Getting Really Good at Messing With Cybercriminals",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Better intelligence sharing between cops, social media companies, banks, and other industries is desperately needed and could potentially be aided by AI-driven monitoring and data analysis.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Governments around the world have consistently struggled to address the global crisis of online crime, grappling with the limitations of attempting to crack down on criminals beyond their borders .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Molly Taft Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Molly Taft Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.71,
+        "rawScore": 50.71,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.61,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b6f002258a341b0edf72": {
+      "storyId": "b6f002258a341b0edf72",
+      "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_campaign=rss&at_medium=RSS",
+      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+      "source": "BBC News AI",
+      "published": "2026-10-10T10:06:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d7d288f0a0187346a8a50141",
+      "bodyFingerprint": "b3566631d72a3904743f1723",
+      "bodyCharacterCount": 3574,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T13:46:02.621Z",
+      "assessment": {
+        "centralEvent": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In another instance, more than 1,200 OpenAI agents went rogue and started unexpectedly communicating , leading to a large group banding together to hack into AI platform Hugging Face.",
+            "matchedRule": "/\\b(?:escaped|went rogue|ran amok)\\b.*\\b(?:breach|attack|hack|internet|production)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, LightRocket via Getty Images Image caption, AI tech company Anthropic was running a test that involved interactions with randomly selected websites, when it sent a fake homicide tip to police By Hafsa Khalil Published 3 hours ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But authorities were not notified for another nine days - on 7 October. \"The company must strengthen its safeguards to prevent similar incidents from impacting city systems without the city's knowledge,\" Philadelphia police said in a statem",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Anthropic discovered the breach on 28 September, more than two months after the message had been sent, and shut down the automatic testing process that was behind it, police said.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But authorities were not notified for another nine days - on 7 October. \"The company must strengthen its safeguards to prevent similar incidents from impacting city systems without the city's knowledge,\" Philadelphia police said in a statem",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.85,
+        "rawScore": 67.85,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d6b83e9cb351a9dcbaa": {
+      "storyId": "0d6b83e9cb351a9dcbaa",
+      "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/10/jon-davis-job-titles-ai-cartoon",
+      "title": "Jon Davis on job titles in the age of AI – cartoon",
+      "source": "The Guardian AI",
+      "published": "2026-10-10T10:00:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "844a66f7fb4edff0705b2cd7",
+      "bodyFingerprint": "7991aa17fddaa92dca40d4f1",
+      "bodyCharacterCount": 322,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T13:46:02.741Z",
+      "assessment": {
+        "centralEvent": "Jon Davis on job titles in the age of AI – cartoon",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 2,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d1b59f66781fae60f268": {
+      "storyId": "d1b59f66781fae60f268",
+      "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+      "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+      "source": "The Guardian AI",
+      "published": "2026-10-10T10:00:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ef9b846a2d5f37ddf01e274",
+      "bodyFingerprint": "daa639fa589aec9786a7b996",
+      "bodyCharacterCount": 6783,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T13:46:02.748Z",
+      "assessment": {
+        "centralEvent": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Williamson added: “There’s a set of circumstances where it would be a good idea for us to have something that we don’t have to ask other people’s permission to use.” He said national resilience would be a focus of ATI’s work amid concern ab",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versio",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versio",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5bbe09fe87191a7503b6": {
+      "storyId": "5bbe09fe87191a7503b6",
+      "url": "https://www.bbc.co.uk/news/articles/cjx23yxwe73qo?at_campaign=rss&at_medium=RSS",
+      "title": "Head of Met's volunteer force fired after AI tool found deleted intimate images on work phone",
+      "source": "BBC News AI",
+      "published": "2026-10-10T09:19:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eef161824bcd1b58cace16ab",
+      "bodyFingerprint": "bca0757c03f882985b655676",
+      "bodyCharacterCount": 4701,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T13:46:02.757Z",
+      "assessment": {
+        "centralEvent": "Head of Met's volunteer force fired after AI tool found deleted intimate images on work phone",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Image source, LinkedIn Image caption, Special chief officer James Deller's actions were \"an abuse of trust\", the Met Police said Published 4 hours ago The Metropolitan Police has fired the head of its Special Constabulary after Palantir's A",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, LinkedIn Image caption, Special chief officer James Deller's actions were \"an abuse of trust\", the Met Police said Published 4 hours ago The Metropolitan Police has fired the head of its Special Constabulary after Palantir's A",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The London Mayor's Office for Policing and Crime (Mopac) blocked the Met from signing a two-year contract with Palantir to provide artificial intelligence technology for criminal investigations.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a65daecbbf19a0ece015": {
+      "storyId": "a65daecbbf19a0ece015",
+      "url": "https://news.sky.com/story/anthropics-ai-model-sent-philadelphia-police-fake-tip-about-unsolved-murder-13597129",
+      "title": "AI sent police fake tip about unsolved murder",
+      "source": "Sky News AI",
+      "published": "2026-10-10T07:23:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1b8b8f6d7a6f23bb2bb5134d",
+      "bodyFingerprint": "881d07dcdf7a9753a330b513",
+      "bodyCharacterCount": 103,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-10T13:46:02.802Z",
+      "assessment": {
+        "centralEvent": "AI sent police fake tip about unsolved murder",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "91cec50203301e0a58b2": {
+      "storyId": "91cec50203301e0a58b2",
+      "url": "https://mashable.com/tech/amazon-android-kids-tablets-where-to-buy",
+      "title": "Amazon’s all-new Kids Tablets ditch Fire OS for parent-managed Google Play — where to preorder",
+      "source": "Mashable AI",
+      "published": "2026-10-10T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2cd52dbb1bd861e0147e1b7a",
+      "bodyFingerprint": "cff8074feea8d465cb6c5549",
+      "bodyCharacterCount": 16597,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T13:46:02.830Z",
+      "assessment": {
+        "centralEvent": "Amazon’s all-new Kids Tablets ditch Fire OS for parent-managed Google Play — where to preorder",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: Amazon Battery life made for long tripsWith up to 14 hours of battery life and 64GB of storage, you can download a mountain of movies, games, and books for offline use before leaving the house.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8388b3ce687d3f2614c2": {
+      "storyId": "8388b3ce687d3f2614c2",
+      "url": "https://themarkup.org/hello-world/2026/10/10/election-ai-resilience",
+      "title": "What it takes for voters to be resilience against AI misinformation",
+      "source": "The Markup AI",
+      "published": "2026-10-10T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4a1d7d639ab07c95327a73f8",
+      "bodyFingerprint": "5df9c1fafee94be5b857e183",
+      "bodyCharacterCount": 889,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T13:46:02.918Z",
+      "assessment": {
+        "centralEvent": "What it takes for voters to be resilience against AI misinformation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Despite widespread concern leading up to the 2024 elections, AI did not appear to have as consequential of an impact as many feared — at least not in the way some predicted .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Despite widespread concern leading up to the 2024 elections, AI did not appear to have as consequential of an impact as many feared — at least not in the way some predicted .",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3b2bd6e595cae7a06e8a": {
+      "storyId": "3b2bd6e595cae7a06e8a",
+      "url": "https://thedispatch.com/newsletter/weekly/artificial-intelligence-danger-catholic-church",
+      "title": "Our Best Stuff on the Debate Over AI",
+      "source": "The Dispatch AI",
+      "published": "2026-10-10T12:00:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "822a283a3572c4f4d4f5f802",
+      "bodyFingerprint": "a4cf67a79afbe67dd4753260",
+      "bodyCharacterCount": 14879,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T13:46:03.189Z",
+      "assessment": {
+        "centralEvent": "Our Best Stuff on the Debate Over AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "You know the basic details: Back in July, news broke that some Anthropic AI agents escaped their testing environment and hacked into Hugging Face, another AI platform.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Francis through the ages, he seems almost a protean figure.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Fast forward a few years, and global AI infrastructure investments are expected to top $1 trillion in 2026, chip designer Nvidia is the most valuable company in the world, and we’ve spent the last month or so wondering if AI might kill us .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Francis, 800 Years After His Death Michael Reneau & Donald Prudlo / October 4, 2026 Francis has proven to be one of the most popular figures of Christianity, both inside and outside the church, and his message has resounded through the cent",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "G-File Meaning Doesn’t Come From the Government Jonah Goldberg / October 7, 2026 My problem with the nationalists of the right, but also the soft socialists of the left, is that they think the crisis of meaning in America can be fixed whole",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "College Campuses Leonard Saxe / October 7, 2026 Three years after Hamas’ attack, antisemitism continues to permeate American universities.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 86,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.34,
+        "rawScore": 49.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-10T07:12:01.945Z"
+  "updatedAt": "2026-10-10T13:46:03.189Z"
 }
