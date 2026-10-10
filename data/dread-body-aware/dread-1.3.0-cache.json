@@ -239022,8 +239022,207 @@
           "vulnerability": 0
         }
       }
+    },
+    "2989038e616ccdf34e02": {
+      "storyId": "2989038e616ccdf34e02",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/10/recruitment-boss-accused-of-being-behind-doxxing-campaign-against-rnli-and-anti-racism-activists",
+      "title": "Recruitment boss accused of being behind ‘doxxing’ campaign against RNLI and anti-racism activists",
+      "source": "The Guardian AI",
+      "published": "2026-10-10T07:00:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "51737bfe68bcf931c45929bb",
+      "bodyFingerprint": "1d83a2808f05878b95538423",
+      "bodyCharacterCount": 4874,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T07:12:01.204Z",
+      "assessment": {
+        "centralEvent": "Recruitment boss accused of being behind ‘doxxing’ campaign against RNLI and anti-racism activists",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Social media companies, the media and politicians have a responsibility to clamp down on misinformation and the division it causes.” RNLI warns supporters their personal information may have been hacked Read more A number of businesses, big",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "That included regular references by the account to being in Puerto Rico, where Futura is based according to its LinkedIn account, and references to working in recruitment for technical roles.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Tom Watson, of Worcester, alleged to be behind Big Time Charlie X account that created so-called Traitorbase The owner of a recruitment firm has been accused of being at the centre of a so-called “doxxing” campaign against the Royal Nationa",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It also claimed to have donated £2,500 to Lowe’s Restore Britain party and joined its “Cromwell Club” for those activists who pay a certain level of donation.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.41,
+        "rawScore": 47.41,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ae4f553408057dde60d9": {
+      "storyId": "ae4f553408057dde60d9",
+      "url": "https://www.theguardian.com/politics/audio/2026/oct/10/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast",
+      "title": "‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-10-10T06:45:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fec9c2fcce9ed78d6142ab5e",
+      "bodyFingerprint": "648530624740555c2aaa938c",
+      "bodyCharacterCount": 2176,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T07:12:01.314Z",
+      "assessment": {
+        "centralEvent": "‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Paul Heideman gives a lucid analysis in his recent book Rogue Elephant.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f6ffe8952ee70fbea5ec": {
+      "storyId": "f6ffe8952ee70fbea5ec",
+      "url": "https://thedispatch.com/article/ai-intimacy-turkle-magic-knowledge",
+      "title": "When AI Is Better Than Humans",
+      "source": "The Dispatch AI",
+      "published": "2026-10-10T05:00:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "49e3c6edd063ace20e189180",
+      "bodyFingerprint": "a731dc52d822c13f95212a68",
+      "bodyCharacterCount": 4061,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T07:12:01.945Z",
+      "assessment": {
+        "centralEvent": "When AI Is Better Than Humans",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments More on AI Science & Technology Welcome to the AI Workplace Jack Kubinec / October 9, 2026 The Morning Dispatch The FBI Was Hacked.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-10T00:54:55.427Z"
+  "updatedAt": "2026-10-10T07:12:01.945Z"
 }
