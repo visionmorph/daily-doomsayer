@@ -240253,8 +240253,661 @@
           "vulnerability": 0
         }
       }
+    },
+    "e3e71b588b88d685ed7c": {
+      "storyId": "e3e71b588b88d685ed7c",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "source": "TechCrunch AI",
+      "published": "2026-10-10T21:47:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9d131f0d52fff73332c3d781",
+      "bodyFingerprint": "15c81fc4df9744083c49daf1",
+      "bodyCharacterCount": 2397,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T22:36:04.420Z",
+      "assessment": {
+        "centralEvent": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As outlined by Nadella, this approach “means separating the model from the harness that orchestrates its work,” as well as “externalizing controls and safeguards.” He also called for “every meaningful model action” to be documented with “ta",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "BOOK NOW Newsletters See More Subscribe for the industry’s biggest tech news Related AI Apple discloses deal to hire team and license tech from personalized podcast startup Huxe Anthony Ha 2 hours ago AI Here are the top AI agents that can ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As outlined by Nadella, this approach “means separating the model from the harness that orchestrates its work,” as well as “externalizing controls and safeguards.” He also called for “every meaningful model action” to be documented with “ta",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "498030eadd312a222ba1": {
+      "storyId": "498030eadd312a222ba1",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "source": "TechCrunch AI",
+      "published": "2026-10-10T19:50:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1c5697d26d46eb00b4d0296b",
+      "bodyFingerprint": "22c2f339b2b2cd5684ad9ab9",
+      "bodyCharacterCount": 3582,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T22:36:04.433Z",
+      "assessment": {
+        "centralEvent": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As first reported in MacRumors , Apple disclosed to the European Commission that it has agreed to make employment offers to “certain employees of Huxe AI,” and to “receive a non-exclusive license to Huxe’s intellectual property rights.” Rev",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "15e4c17584a6d4c090f8": {
+      "storyId": "15e4c17584a6d4c090f8",
+      "url": "https://www.theguardian.com/australia-news/audio/2026/oct/11/black-box-the-chatbots-the-line-ep-5-full-story-podcast",
+      "title": "Black Box: The Chatbots | The Line | Ep 5 - podcast",
+      "source": "The Guardian AI",
+      "published": "2026-10-10T19:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "15f7b7797a34c1c6965298c4",
+      "bodyFingerprint": "e7719193b3310e11560aa43e",
+      "bodyCharacterCount": 456,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T22:36:04.438Z",
+      "assessment": {
+        "centralEvent": "Black Box: The Chatbots | The Line | Ep 5 - podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "47aa66d1b4eb0050da85": {
+      "storyId": "47aa66d1b4eb0050da85",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+      "source": "The Verge AI",
+      "published": "2026-10-10T22:10:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d2b5a3e11b0bfda051ac7a8d",
+      "bodyFingerprint": "9ad0545c84c1a21382cb7e12",
+      "bodyCharacterCount": 3929,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T22:36:04.449Z",
+      "assessment": {
+        "centralEvent": "Satya Nadella says we should assume all AI models are ‘compromised’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Satya Nadella says we should assume all AI models are ‘compromised’",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "He calls for building a more transparent system where models can be contained, observed, and leaves behind \"tamper-proof human readable evidence.\" Many of his recommendations align with what we've heard from others in the industry: timely i",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "An authorized person should always be able to pause or shut down a model mid-task.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.15,
+        "rawScore": 46.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6d57a260d9ad3ce2f42a": {
+      "storyId": "6d57a260d9ad3ce2f42a",
+      "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+      "source": "The Verge AI",
+      "published": "2026-10-10T18:52:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bc3ff923f3a3c987eca86c0f",
+      "bodyFingerprint": "c29dd8c8cc9db997f46dcd57",
+      "bodyCharacterCount": 5578,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T22:36:04.466Z",
+      "assessment": {
+        "centralEvent": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“They should have allowed artists to have recourse in this and a warning to debate,” he said, “but I’ve been told by former employees they see customer service as a waste of profits since they have such a high market share and remain ubiqui",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9b0ccec2096436815a5a": {
+      "storyId": "9b0ccec2096436815a5a",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008005239.htm",
+      "title": "Scientists create a lightsaber-like laser antenna that transmits radio waves",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-09T17:55:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3ad44e0c98eec2587e7c5996",
+      "bodyFingerprint": "b366d6ff0070a57b8bfa055d",
+      "bodyCharacterCount": 11996,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T22:36:04.792Z",
+      "assessment": {
+        "centralEvent": "Scientists create a lightsaber-like laser antenna that transmits radio waves",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com This Strange New Magnetism Could Change How Computers Work Scientists Decode a 12,000-Year-Old Mystery Hidden in Ancient Spear Points Switzerland’s Glaciers Lost More Than 5% of Their Ice in Just One Year Scient",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com This Strange New Magnetism Could Change How Computers Work Scientists Decode a 12,000-Year-Old Mystery Hidden in Ancient Spear Points Switzerland’s Glaciers Lost More Than 5% of Their Ice in Just One Year Scient",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Because the antenna is created by a laser rather than built from a fixed metal structure, its dimensions can be adjusted by changing the laser's settings. \"By controlling the parameters of the laser, you can control the characteristics of t",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Because the antenna is created by a laser rather than built from a fixed metal structure, its dimensions can be adjusted by changing the laser's settings. \"By controlling the parameters of the laser, you can control the characteristics of t",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.11,
+        "rawScore": 27.11,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2825,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5a67580c5652f03edd81": {
+      "storyId": "5a67580c5652f03edd81",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042106.htm",
+      "title": "Hubble Space Telescope may have found a planet born after its star died",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-09T17:31:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a32e7326a337872823a9564",
+      "bodyFingerprint": "01b24be9dc51750e0c0d0d8a",
+      "bodyCharacterCount": 10105,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T22:36:04.800Z",
+      "assessment": {
+        "centralEvent": "Hubble Space Telescope may have found a planet born after its star died",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com This Strange New Magnetism Could Change How Computers Work Scientists Decode a 12,000-Year-Old Mystery Hidden in Ancient Spear Points Switzerland’s Glaciers Lost More Than 5% of Their Ice in Just One Year Scient",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com This Strange New Magnetism Could Change How Computers Work Scientists Decode a 12,000-Year-Old Mystery Hidden in Ancient Spear Points Switzerland’s Glaciers Lost More Than 5% of Their Ice in Just One Year Scient",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Searching for Planets Born After Stellar Death Many questions remain about systems like this one, including how second-generation planets form, whether they are common or exceptionally rare, and how they change while orbiting a \"dead\" star.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Instead of coming from material associated with a star's birth, it may trace matter expelled during the star's death. \"Niobium and other elements heavier than iron are astronomically special because, unlike many common elements, they are no",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "2, 2023  Astronomers have directly measured the mass of a single, isolated white dwarf -- the surviving core of a burned-out, Sun-like star.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.17,
+        "rawScore": 29.17,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6186b770b69f113f43ba": {
+      "storyId": "6186b770b69f113f43ba",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
+      "title": "Scientists may have found a shortcut to fusion energy",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-10T18:57:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c1509e0576735ecb07688012",
+      "bodyFingerprint": "2107711c84e470cd47c014ad",
+      "bodyCharacterCount": 15126,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T22:36:04.811Z",
+      "assessment": {
+        "centralEvent": "Scientists may have found a shortcut to fusion energy",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The team's calculations show that tungsten contamination at a concentration of just one part in 10,000 can approximately double the pressure required to achieve fusion ignition.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com This Strange New Magnetism Could Change How Computers Work Scientists Decode a 12,000-Year-Old Mystery Hidden in Ancient Spear Points Switzerland’s Glaciers Lost More Than 5% of Their Ice in Just One Year Scient",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "National Ignition Facility Achieves Fusion Ignition Dec.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "By slightly angling a Faraday screen near the plasma antenna, they stopped unwanted ...",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Treating the Lawson criterion as a single unchanging threshold overlooks physical processes that can substantially alter the requirements for ignition.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 106,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0b68a0354ab9c1697ec4": {
+      "storyId": "0b68a0354ab9c1697ec4",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008005240.htm",
+      "title": "MIT astronomers catch a star in a feast that could last billions of years",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-10T18:56:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "508e1a32b6b04b588f86b5b5",
+      "bodyFingerprint": "9fdcbe18a23dd22d973481e2",
+      "bodyCharacterCount": 16220,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-10T22:36:04.887Z",
+      "assessment": {
+        "centralEvent": "MIT astronomers catch a star in a feast that could last billions of years",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com This Strange New Magnetism Could Change How Computers Work Scientists Decode a 12,000-Year-Old Mystery Hidden in Ancient Spear Points Switzerland’s Glaciers Lost More Than 5% of Their Ice in Just One Year Scient",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com This Strange New Magnetism Could Change How Computers Work Scientists Decode a 12,000-Year-Old Mystery Hidden in Ancient Spear Points Switzerland’s Glaciers Lost More Than 5% of Their Ice in Just One Year Scient",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In a study published October 5 in Nature Astronomy , an international team led by scientists at MIT describes a star that is slowly feeding on a brown dwarf, an object more massive than a typical planet but not massive enough to sustain the",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Those changes in visibility produce the distinctive pattern of brightening and dimming that the astronomers had struggled to understand. \"It's like you've got this continuous fireball onto one of the objects, and as one orbits the other, th",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 112,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.17,
+        "rawScore": 29.17,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-10T18:39:15.775Z"
+  "updatedAt": "2026-10-10T22:36:04.888Z"
 }
