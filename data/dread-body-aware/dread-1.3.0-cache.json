@@ -241575,8 +241575,479 @@
           "vulnerability": 0
         }
       }
+    },
+    "10ff9df7a5585aaf706b": {
+      "storyId": "10ff9df7a5585aaf706b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "source": "The Verge AI",
+      "published": "2026-10-11T18:33:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "82caf1c8121f1a98fc957371",
+      "bodyFingerprint": "bfe992aea568a8a84cc419a4",
+      "bodyCharacterCount": 4265,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-11T20:19:59.562Z",
+      "assessment": {
+        "centralEvent": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI News Policy Politics Most Popular Most Popular Satya Nadella says we should assume all AI models are ‘compromised’ Decade-old RAM is making a comeback GTA VI leaks continue with a lengthy (and very nude) gameplay video ‘",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Hayden Field Oct 10 Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide Emma Roth Oct 9 Advertiser Content From This is the title for the native ad Top Stories 11:00 AM UTC Learning to use local AI is exciting, ove",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dfeef58f7514840dcb2e": {
+      "storyId": "dfeef58f7514840dcb2e",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next",
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "source": "TechCrunch AI",
+      "published": "2026-10-11T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ed361fce91982688af671e31",
+      "bodyFingerprint": "37d393118288bcfa32d3964d",
+      "bodyCharacterCount": 3780,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-11T20:19:59.569Z",
+      "assessment": {
+        "centralEvent": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2b537537572cb2b2a4a9": {
+      "storyId": "2b537537572cb2b2a4a9",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas",
+      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "source": "TechCrunch AI",
+      "published": "2026-10-11T16:52:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2dfb31cd108f529c51bd84b2",
+      "bodyFingerprint": "1979d35a1adc770d9cbae054",
+      "bodyCharacterCount": 9196,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-11T20:19:59.575Z",
+      "assessment": {
+        "centralEvent": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Sean, meanwhile, suggested that a big reason for the backlash is the industry’s poor communication.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It’s [that] we need to take the time to study this.” Which gives them a lot of room to say later on, “Actually, we’ve decided this is great.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "There are so many things that could be said about whether or not people should be worried about the effect that data centers have on their property values, on their electricity bills, on their water usage in the area, and whether or not tho",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "What I’ve heard from some people I’ve spoken to, who deal with data centers every day, a lot of these moratoriums that are getting passed — and there are a significant number of them, including one recently in San Francisco , which is prett",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.41,
+        "rawScore": 27.41,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a439fdc2654eaaf3ce0c": {
+      "storyId": "a439fdc2654eaaf3ce0c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "source": "The Verge AI",
+      "published": "2026-10-11T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1c2d39ff9dff8bb7af0f5993",
+      "bodyFingerprint": "59a70aec73b4aab41918e6a4",
+      "bodyCharacterCount": 9735,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-11T20:19:59.609Z",
+      "assessment": {
+        "centralEvent": "Learning to use local AI is exciting, overwhelming, and frustrating",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Di Benedetto AI Apple macOS Microsoft Report Tech Windows Most Popular Most Popular Satya Nadella says we should assume all AI models are ‘compromised’ Decade-old RAM is making a comeback GTA VI leaks continue with a lengthy (and very nude)",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Another simple thing I did was data analysis.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 84,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7650d64e4b32b2d7776a": {
+      "storyId": "7650d64e4b32b2d7776a",
+      "url": "https://mashable.com/tech/anthropic-updates-usage-policy-to-protect-claudes-feelings",
+      "title": "Anthropic just took steps to protect Claudes feelings. Heres what that means.",
+      "source": "Mashable AI",
+      "published": "2026-10-11T16:03:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b2f08db96a71a037cadbf4e",
+      "bodyFingerprint": "f6db325b64220b0f41a7c4b5",
+      "bodyCharacterCount": 2753,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-11T20:19:59.736Z",
+      "assessment": {
+        "centralEvent": "Anthropic just took steps to protect Claudes feelings. Heres what that means.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "SEE ALSO: Claude sent phony tip about an unsolved murder to Philadelphia police Anthropic was quick to point out that these measures won't be triggered by \"common versions of user frustration, pushback, dark creative themes, or model testin",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5117de75543b47e18c40": {
+      "storyId": "5117de75543b47e18c40",
+      "url": "https://www.theguardian.com/science/2026/oct/11/feelgood-factor-of-human-interaction",
+      "title": "Feelgood factor of human interaction | Brief letters",
+      "source": "The Guardian AI",
+      "published": "2026-10-11T15:52:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1d9b2b8c15468a91ebf5b6b3",
+      "bodyFingerprint": "cf839a069851f809a46142f5",
+      "bodyCharacterCount": 2052,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-11T20:19:59.793Z",
+      "assessment": {
+        "centralEvent": "Feelgood factor of human interaction | Brief letters",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Happy hormones | Fuel costs | Drive-in parking | Guys and girls | Young or old? | Singapore pollution Re your report (‘Pull the plug’: protesters resort to direct action against AI firms, 6 October), the US neuroscientist Ben Rein has shown",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5595a0fc93ebb3f796ae": {
+      "storyId": "5595a0fc93ebb3f796ae",
+      "url": "https://techpolicy.press/coding-kids-drone-wars-and-algorithmic-realism",
+      "title": "Coding Kids, Drone Wars and Algorithmic Realism",
+      "source": "Tech Policy Press AI",
+      "published": "2026-10-11T18:10:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8bdbad86f2870fca5542a18c",
+      "bodyFingerprint": "b59ccfbb502495e97515a971",
+      "bodyCharacterCount": 10466,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-11T20:20:00.270Z",
+      "assessment": {
+        "centralEvent": "Coding Kids, Drone Wars and Algorithmic Realism",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "AI and surveillance United States Customs and Border Protection's warrantless device searches at the border have nearly doubled since early 2023, writes Tech Policy Press fellow Jake Laperruque , and a new 2nd Circuit ruling keeps in place ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "New research on political participation online Tech policy analyst Tim Bernard examines a new Belgian study finding that exposure to political content on social media is positively associated with current affairs knowledge—but that people w",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Steve Feldstein , a senior fellow at the Carnegie Endowment for International Peace, discusses Bytes and Bullets: Global Rivalries, Big Tech, and the New Shape of Modern Warfare (St.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-11T15:44:51.636Z"
+  "updatedAt": "2026-10-11T20:20:00.270Z"
 }
