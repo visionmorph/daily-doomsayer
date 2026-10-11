@@ -240906,8 +240906,143 @@
           "vulnerability": 0
         }
       }
+    },
+    "c4f51d05a1ac3f981dfa": {
+      "storyId": "c4f51d05a1ac3f981dfa",
+      "url": "https://www.bbc.co.uk/news/articles/c5vgjm3gk7rzo?at_campaign=rss&at_medium=RSS",
+      "title": "AI is creating a 'human premium' for art made by people. But will it hold?",
+      "source": "BBC News AI",
+      "published": "2026-10-10T23:18:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "769642b173f0f0f3f3b67572",
+      "bodyFingerprint": "5d96a262d846a2e7042cc508",
+      "bodyCharacterCount": 11792,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-11T01:56:52.589Z",
+      "assessment": {
+        "centralEvent": "AI is creating a 'human premium' for art made by people. But will it hold?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "To introduce us to new things.\" Image source, Getty Image caption, The AI-generated 'actor' Tilly Norwood has created controversy I recognise this from my own habits.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Susskind points to another example, this time a chess match in 1997, when a world champion, Garry Kasparov, lost for the first time to a computer, Deep Blue.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In fact, chess is more popular than ever, played by millions. \"It wasn't simply the moves on the board that people care about.",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 95,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7113efc77f1c641cb47d": {
+      "storyId": "7113efc77f1c641cb47d",
+      "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+      "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
+      "source": "The Guardian AI",
+      "published": "2026-10-10T23:01:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1851024bd383238f458e76d",
+      "bodyFingerprint": "4e7a1af6d0fbdf5fab371b64",
+      "bodyCharacterCount": 4907,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-11T01:56:52.612Z",
+      "assessment": {
+        "centralEvent": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "We’re starting from the premise that if you are a policymaker today, whether at the global multilateral level or at the national level, these are the potential threats that you could face, and this is the magnitude by which, if you act, you",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-10T22:36:04.888Z"
+  "updatedAt": "2026-10-11T01:56:52.612Z"
 }
