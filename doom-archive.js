@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-12T07:00:00.000Z",
+  "generatedAt": "2026-10-12T17:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-12",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/b8cb7c78983896599c7e2edc4977560ad6e41e5e-1200x675.png",
           "peak": 51.37,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 51.37
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/master/pass/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
           "peak": 50.71,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 50.71
         },
         {
@@ -57,13 +57,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "AI is less regulated than milk, says Microsoft president",
           "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d8b/live/700367c0-c60a-11f1-9a39-31b474234113.jpg",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 50.16
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 49.34
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/AI-safety-Nesta-768x432.jpg",
           "peak": 49.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 49.23
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
           "peak": 48.95,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 48.95
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_china_us_race_final2-768x432.jpg",
           "peak": 48.51,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 48.51
         }
       ]
@@ -6399,11 +6399,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/b8cb7c78983896599c7e2edc4977560ad6e41e5e-1200x675.png",
           "peak": 51.37,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 51.37
         },
         {
@@ -6413,11 +6413,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 51.23
         },
         {
@@ -6427,11 +6427,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/master/pass/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
           "peak": 50.71,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 50.71
         },
         {
@@ -6439,13 +6439,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "AI is less regulated than milk, says Microsoft president",
           "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d8b/live/700367c0-c60a-11f1-9a39-31b474234113.jpg",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 50.16
         },
         {
@@ -6455,11 +6455,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 49.34
         },
         {
@@ -6469,11 +6469,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/AI-safety-Nesta-768x432.jpg",
           "peak": 49.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 49.23
         },
         {
@@ -6483,11 +6483,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
           "peak": 48.95,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 48.95
         },
         {
@@ -6525,11 +6525,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://restofworld.org/wp-content/uploads/2026/09/illo_china_us_race_final2-768x432.jpg",
           "peak": 48.51,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 48.51
         }
       ]
@@ -7589,11 +7589,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "https://cdn.sanity.io/images/3tzzh18d/production/b8cb7c78983896599c7e2edc4977560ad6e41e5e-1200x675.png",
           "peak": 51.37,
-          "observations": 24,
+          "observations": 25,
           "daysTracked": 7,
           "peakDate": "2026-10-06",
           "firstObservedAt": "2026-10-06T21:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 51.37
         },
         {
@@ -7603,11 +7603,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 49,
+          "observations": 50,
           "daysTracked": 12,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 51.23
         },
         {
@@ -7631,11 +7631,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/master/pass/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
           "peak": 50.71,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-10-10",
           "firstObservedAt": "2026-10-10T18:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 50.71
         },
         {
@@ -7685,13 +7685,13 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "title": "AI is less regulated than milk, says Microsoft president",
           "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d8b/live/700367c0-c60a-11f1-9a39-31b474234113.jpg",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-12T07:00:00.000Z",
+          "lastObservedAt": "2026-10-12T17:00:00.000Z",
           "average": 50.16
         }
       ]
