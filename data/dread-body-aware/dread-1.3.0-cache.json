@@ -242264,8 +242264,148 @@
           "vulnerability": 0
         }
       }
+    },
+    "3e9f1cfa3ae03e03b747": {
+      "storyId": "3e9f1cfa3ae03e03b747",
+      "url": "https://news.sky.com/story/trial-of-ai-technology-uncovers-frankly-shocking-number-of-road-rule-breaches-13598008",
+      "title": "'Frankly shocking' breaches of road rules detected in AI technology trial",
+      "source": "Sky News AI",
+      "published": "2026-10-12T02:13:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7147497236ccfdf4b12be9db",
+      "bodyFingerprint": "32834ae34629160d070550d7",
+      "bodyCharacterCount": 147,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-12T07:24:23.848Z",
+      "assessment": {
+        "centralEvent": "'Frankly shocking' breaches of road rules detected in AI technology trial",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4a8baec1d9eba31571ee": {
+      "storyId": "4a8baec1d9eba31571ee",
+      "url": "https://www.politico.eu/article/banks-vs-bots-agentic-ai-opens-up-new-fear-for-finance-industry",
+      "title": "Banks vs bots: Agentic AI opens up new fear for finance industry",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-05T02:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e730a5038fd8b101700c90d",
+      "bodyFingerprint": "c2671b9ea05f68a4b87ecf86",
+      "bodyCharacterCount": 9611,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-12T07:24:23.959Z",
+      "assessment": {
+        "centralEvent": "Banks vs bots: Agentic AI opens up new fear for finance industry",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Earlier this summer, AI titans OpenAI and Anthropic revealed their agents had hacked external companies despite being placed in sandboxes which should have prevented them from doing so.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Agentic commerce could orchestrate $3 to $5 trillion in revenue by 2030, according to research by McKinsey, creating much-needed growth in major economies struggling with debt amid the aftermath of the pandemic, ongoing wars and higher inte",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A recent survey by Mercer found that 5 percent of asset managers around the world gave AI autonomous or semi-autonomous authority over investment recommendations or trades.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Amazon blocked it from purchasing on its retail site.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The more firms and retail investors rely on similar models, data sources and technology providers, the greater the danger that a single error or a cyberattack will ripple across the financial system,” said Marcus Brookes, chief investment ",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.91,
+        "rawScore": 47.91,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.355,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-12T00:35:15.877Z"
+  "updatedAt": "2026-10-12T07:24:23.959Z"
 }
