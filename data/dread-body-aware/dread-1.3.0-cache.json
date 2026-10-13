@@ -249007,8 +249007,2053 @@
           "vulnerability": 0
         }
       }
+    },
+    "08d1bb7044624eeb3d4e": {
+      "storyId": "08d1bb7044624eeb3d4e",
+      "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
+      "title": "How artificial neural networks build their own learning machinery",
+      "source": "MIT News AI",
+      "published": "2026-10-13T21:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eae9136102b85f493ed0da0f",
+      "bodyFingerprint": "afc446822a09f74343c5066f",
+      "bodyCharacterCount": 7471,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:56.942Z",
+      "assessment": {
+        "centralEvent": "How artificial neural networks build their own learning machinery",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "They explain that in their model, learning is enabled by self-assembling motifs that emerge according to simple rules, then serve as building blocks for functional circuits.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e2c278ab2328153dcf1e": {
+      "storyId": "e2c278ab2328153dcf1e",
+      "url": "https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013",
+      "title": "MIT Lincoln Laboratory hosts National Security Commission on Emerging Biotechnology",
+      "source": "MIT News AI",
+      "published": "2026-10-13T20:40:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0463a60bf66b384ed5c549fb",
+      "bodyFingerprint": "0c7be2111662ae1ae09a4b30",
+      "bodyCharacterCount": 8974,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:56.967Z",
+      "assessment": {
+        "centralEvent": "MIT Lincoln Laboratory hosts National Security Commission on Emerging Biotechnology",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In 2022, Congress established the NSCEB to study the national security implications of this rapidly advancing field and issue policy recommendations to ensure continued U.S. leadership.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6ec803e44d1742ccbdc9": {
+      "storyId": "6ec803e44d1742ccbdc9",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "title": "OpenAI employee arrested for allegedly planting recording device",
+      "source": "The Verge AI",
+      "published": "2026-10-13T20:45:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a670041d568d7e84aa1a2963",
+      "bodyFingerprint": "a1985b16415c322bc0f6747d",
+      "bodyCharacterCount": 4346,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.020Z",
+      "assessment": {
+        "centralEvent": "OpenAI employee arrested for allegedly planting recording device",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI News OpenAI Most Popular Most Popular Everything Apple launched at its ‘Welcome Home’ event Apple launches HomeView, its first smart display for the home All the news from Apple’s ‘Welcome Home’ event The new Apple TV 4K has bu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "92ed65ab4032b5d39e1a": {
+      "storyId": "92ed65ab4032b5d39e1a",
+      "url": "https://mashable.com/tech/raye-reveals-the-scale-of-scalper-ai-bots-buying-up-concert-tickets",
+      "title": "Musician Raye reveals the scale of reseller AI bots buying up concert tickets",
+      "source": "Mashable AI",
+      "published": "2026-10-13T20:42:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c1aee7977c410b9bdef0202b",
+      "bodyFingerprint": "437c4867d23e457cffa09ee1",
+      "bodyCharacterCount": 3633,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.033Z",
+      "assessment": {
+        "centralEvent": "Musician Raye reveals the scale of reseller AI bots buying up concert tickets",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The vast majority of those sign-ups were AI bots, according to Raye, run by profit-seeking resellers hoping to make money off her fans.\"This Symphony May Contain Hope\" is a planned one-night live concert by Raye at the Royal Albert Hall in ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "08fd96628f1f1efeaac0": {
+      "storyId": "08fd96628f1f1efeaac0",
+      "url": "https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning",
+      "title": "AI in your oven? Anthropic warns models ‘months away’ from self-replication on smart devices",
+      "source": "The Guardian AI",
+      "published": "2026-10-13T20:55:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "18bd47b47f62fa25aaca4392",
+      "bodyFingerprint": "a4a34ad829fa880a428a2231",
+      "bodyCharacterCount": 3505,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.040Z",
+      "assessment": {
+        "centralEvent": "AI in your oven? Anthropic warns models ‘months away’ from self-replication on smart devices",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“A replicator like this would be challenging to shut down,” Anthropic researchers wrote in a report released on Monday, “since there’s no centralized point to shut off.” The company said these “AI worms”, a kind of autonomous malware, could",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The devices Anthropic lists as susceptible all come with small built-in AI chips, including smart ovens, smart TVs, automatic lawnmowers, security cameras and video-conferencing units. skip past newsletter promotion after newsletter promoti",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“A replicator like this would be challenging to shut down,” Anthropic researchers wrote in a report released on Monday, “since there’s no centralized point to shut off.” The company said these “AI worms”, a kind of autonomous malware, could",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.15,
+        "rawScore": 46.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f1305662a1d2e7c412f2": {
+      "storyId": "f1305662a1d2e7c412f2",
+      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "title": "Shopify opens its catalog up to more AI agents",
+      "source": "The Verge AI",
+      "published": "2026-10-13T19:42:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d3ca9c18ce888e6189e38c2d",
+      "bodyFingerprint": "e4b694e027760d3921cc2f80",
+      "bodyCharacterCount": 4359,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.046Z",
+      "assessment": {
+        "centralEvent": "Shopify opens its catalog up to more AI agents",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b5a0bcffb5b3a77b578c": {
+      "storyId": "b5a0bcffb5b3a77b578c",
+      "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+      "title": "Xbox is officially embracing the chaos of AI-powered game ports",
+      "source": "The Verge AI",
+      "published": "2026-10-13T19:00:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1622805c7052e9bdce0ce5f0",
+      "bodyFingerprint": "d5efb7873f4372b657f78844",
+      "bodyCharacterCount": 8673,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.062Z",
+      "assessment": {
+        "centralEvent": "Xbox is officially embracing the chaos of AI-powered game ports",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Games share many of those same properties, and people spend more than 72 billion hours a year playing XBOX games, roughly five times the estimated time spent writing code worldwide.” Xbox Labs is clearly a way for Microsoft to experiment wi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c0f7708d6047bea155f3": {
+      "storyId": "c0f7708d6047bea155f3",
+      "url": "https://mashable.com/tech/google-launches-gemini-4-argon",
+      "title": "Google releases Gemini 4 Argon, its new frontier model: Benchmarks, how to try it, and pricing",
+      "source": "Mashable AI",
+      "published": "2026-10-13T18:58:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "39472568d4423846b59ca8a7",
+      "bodyFingerprint": "e965dc2293c86380dd996300",
+      "bodyCharacterCount": 8429,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.096Z",
+      "assessment": {
+        "centralEvent": "Google releases Gemini 4 Argon, its new frontier model: Benchmarks, how to try it, and pricing",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "On the independent Artificial Analysis Intelligence Index , Argon ties GPT-6 Astra at 53 with high reasoning enabled, one point above GPT-6.1 Sol and the new Muse Wonder Max.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 82,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "47b1c61501a00890c87a": {
+      "storyId": "47b1c61501a00890c87a",
+      "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case",
+      "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T20:36:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2d67cc9347a99041a4ca8a45",
+      "bodyFingerprint": "057d344dd1af8269acde15f4",
+      "bodyCharacterCount": 4155,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.116Z",
+      "assessment": {
+        "centralEvent": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "333dc1ab1c32dd4b3410": {
+      "storyId": "333dc1ab1c32dd4b3410",
+      "url": "https://www.inc.com/marcel-schwantes/nvidia-has-an-employee-turnover-rate-of-just-3-7-its-leaders-practice-1-habit-worth-copying/91417504",
+      "title": "Nvidia Has an Employee Turnover Rate of Just 3.7 Percent. Its Leaders Practice 1 Habit Worth Copying",
+      "source": "Inc. AI",
+      "published": "2026-10-13T19:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9e20aff2100ba216bb3a456d",
+      "bodyFingerprint": "305bd516d097594143479b89",
+      "bodyCharacterCount": 102,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T21:17:57.126Z",
+      "assessment": {
+        "centralEvent": "Nvidia Has an Employee Turnover Rate of Just 3.7 Percent. Its Leaders Practice 1 Habit Worth Copying",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "30599ae6992ac08a38f7": {
+      "storyId": "30599ae6992ac08a38f7",
+      "url": "https://www.inc.com/hannah-cranston/why-consumers-dont-believe-in-your-marketing/91417646",
+      "title": "Why Consumers Don’t Believe in Your Marketing",
+      "source": "Inc. AI",
+      "published": "2026-10-13T18:40:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cbe5624ab8aa2d951c6c57e0",
+      "bodyFingerprint": "7c9931be8cb6635d9060638a",
+      "bodyCharacterCount": 78,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T21:17:57.128Z",
+      "assessment": {
+        "centralEvent": "Why Consumers Don’t Believe in Your Marketing",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fd0dc8b4fea02801dc1b": {
+      "storyId": "fd0dc8b4fea02801dc1b",
+      "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads",
+      "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T18:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "53a3c1abbdccf8a32bf64896",
+      "bodyFingerprint": "8b591d305c70bff87722efe4",
+      "bodyCharacterCount": 6873,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.152Z",
+      "assessment": {
+        "centralEvent": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The company expects to end 2026 with revenue of about $1.5 million, Nozkova said.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b5b8a08608e1d9e3b11b": {
+      "storyId": "b5b8a08608e1d9e3b11b",
+      "url": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables",
+      "title": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+      "source": "The Verge AI",
+      "published": "2026-10-13T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1530e68c4fbc62f34eb9f10a",
+      "bodyFingerprint": "ea6379e8cbf1fc7318ea2a4d",
+      "bodyCharacterCount": 13990,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.168Z",
+      "assessment": {
+        "centralEvent": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This is me wondering how my beat went from tracking steps to discussing wearable surveillance and hoping bystanders won’t punch me.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The smart glasses also come with supplemental terms of service and privacy policies / notices, including: Supplemental Meta Platforms Technologies Terms of Service Supplemental Meta Platforms Technologies Privacy Policy Meta AI app terms Me",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "I was able to eke out two full workdays without sticking the glasses back into the case.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 123,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.15,
+        "rawScore": 46.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d2b49f5446522b415ed6": {
+      "storyId": "d2b49f5446522b415ed6",
+      "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm",
+      "title": "Facebook is giving users more control over their algorithm",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T18:05:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5f51c5bba0d02d746a2d4be4",
+      "bodyFingerprint": "9193ac0f1f058debcaa4212f",
+      "bodyCharacterCount": 3629,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.196Z",
+      "assessment": {
+        "centralEvent": "Facebook is giving users more control over their algorithm",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Meta, the feature is designed to make content recommendations more relevant.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f0f1c2f3634e5356d16e": {
+      "storyId": "f0f1c2f3634e5356d16e",
+      "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T17:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1bbf398d5d81d7b06e5c1598",
+      "bodyFingerprint": "44dd0e4f4b5679dc742487e0",
+      "bodyCharacterCount": 7881,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.207Z",
+      "assessment": {
+        "centralEvent": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Using their academic research as a base, Sun and Liu built Laplace, so named for “Laplace’s demon,” an 1814 thought experiment by French scholar Pierre-Simon Laplace, who imagined that if you knew the exact state of everything in the univer",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5fcf05a50ec797f666b9": {
+      "storyId": "5fcf05a50ec797f666b9",
+      "url": "https://www.inc.com/nick-hobson/an-openai-safety-insider-thought-the-doomsday-warnings-were-nuts-then-he-saw-how-the-company-worked/91419003",
+      "title": "An OpenAI Safety Insider Thought the Doomsday Warnings Were ‘Nuts’. Then He Saw How the Company Worked",
+      "source": "Inc. AI",
+      "published": "2026-10-13T17:20:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "59aa0aeabd867a26e8267acd",
+      "bodyFingerprint": "c548aa910c9915867625b004",
+      "bodyCharacterCount": 159,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T21:17:57.213Z",
+      "assessment": {
+        "centralEvent": "An OpenAI Safety Insider Thought the Doomsday Warnings Were ‘Nuts’. Then He Saw How the Company Worked",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "After quitting OpenAI, a former safety leader issued a stark warning about the AI industry’s rush, citing a dangerous mix of money, fear, and human psychology.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bb575fe9ad4e4a983b92": {
+      "storyId": "bb575fe9ad4e4a983b92",
+      "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us",
+      "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+      "source": "WIRED AI",
+      "published": "2026-10-13T19:35:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3a8ba713823834ddcf98bd57",
+      "bodyFingerprint": "8ab173bf2fcb67bd75788ec9",
+      "bodyCharacterCount": 9035,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.225Z",
+      "assessment": {
+        "centralEvent": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Asked directly whether he supported a statutory framework, Google DeepMind’s Owen Larter said: “Focus on the standards is what we would be doing.” Meta’s Rob Sherman pointed to Britain’s existing regulators, telling MPs they were “not writi",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Exposing this divide in a second jurisdiction was the point, according to select committee chair Liam Byrne.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company, he said, has “consistently believed that there should be binding rules on companies and that voluntary commitments are not enough.” OpenAI vice president Tom Duff Gordon was more cautious but still supportive, backing a statuto",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Responding to this comment, Byrne told WIRED: “The fact that the head of MI5 is warning about incredibly dangerous capability uplifts for bioterrorists in one part of Whitehall, and then in another part of Whitehall the permanent secretary ",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Isabella Ward US and China Discuss Alerting Each Other to AI National Security Threats Officials discussed setting up a mechanism for the two countries to notify each other of AI incidents which could threaten national security.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.39,
+        "rawScore": 49.39,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.49,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1cf0caa6f9098b3153d3": {
+      "storyId": "1cf0caa6f9098b3153d3",
+      "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech",
+      "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+      "source": "Ars Technica AI",
+      "published": "2026-10-13T18:23:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4ba9dea755a01a827d31a497",
+      "bodyFingerprint": "f5bb628a95110aa8520f4f45",
+      "bodyCharacterCount": 7351,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.231Z",
+      "assessment": {
+        "centralEvent": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav In a bankruptcy proceeding that kicked off yesterday, Disney has offered to buy some of the technol",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Any keen potential buyer likely observed that Character Technologies’ blog noted that transitioning the service to a new buyer could impact platform safety, though.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "39-year-old unvaccinated woman becomes 6th measles death in Pennsylvania Customize",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And although the press release noted that the platform would have to shut down if no buyer wanted to take on the potential liabilities of managing it, Character.AI promised users that “we’re focused on finding the best path forward for our ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.8,
+        "rawScore": 27.8,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.345,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2cecf88dbaf7addd0958": {
+      "storyId": "2cecf88dbaf7addd0958",
+      "url": "https://www.inc.com/michael-tasner/apple-embroidered-logo-event-teaser/91419022",
+      "title": "Apple Just Used a Grandma Hobby to Tease Its ‘Welcome Home’ Event—Here’s Why It Abandoned High-Tech Ads",
+      "source": "Inc. AI",
+      "published": "2026-10-13T17:04:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4b69b6dc5508893c228a44fb",
+      "bodyFingerprint": "d659fff638e405f4b853659d",
+      "bodyCharacterCount": 127,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T21:17:57.232Z",
+      "assessment": {
+        "centralEvent": "Apple Just Used a Grandma Hobby to Tease Its ‘Welcome Home’ Event—Here’s Why It Abandoned High-Tech Ads",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a579d9458f5d4ccba8f3": {
+      "storyId": "a579d9458f5d4ccba8f3",
+      "url": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+      "title": "Facebook will let you customize your feed algorithm using AI",
+      "source": "The Verge AI",
+      "published": "2026-10-13T17:01:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9181f418bc28c7bbc8e294b5",
+      "bodyFingerprint": "637c67c46cccba4a5623fd8d",
+      "bodyCharacterCount": 3792,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.240Z",
+      "assessment": {
+        "centralEvent": "Facebook will let you customize your feed algorithm using AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Stevie Bonifield AI Facebook Meta News Social Media Tech Most Popular Most Popular Everything Apple launched at its ‘Welcome Home’ event Apple launches HomeView, its first smart display for the home All the news from Apple’s ‘Welcome Home’ ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4e9e4f1d9cd106f632b9": {
+      "storyId": "4e9e4f1d9cd106f632b9",
+      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache",
+      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T17:18:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "26107fc66a1c8f01dbfef824",
+      "bodyFingerprint": "243d66ca6740a96d9c124b06",
+      "bodyCharacterCount": 6491,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.247Z",
+      "assessment": {
+        "centralEvent": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Her startup’s tools apparently found a vibe-coded app made by a finance employee at a Fortune 500 company to manage customer information and churn, but the app was left exposed to the internet.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Her startup’s tools apparently found a vibe-coded app made by a finance employee at a Fortune 500 company to manage customer information and churn, but the app was left exposed to the internet.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He covered North American and European M&A, equity, regulatory news and debt markets at Reuters and Acuris Global, and has also written about travel, tourism, entertainment and books.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "She said Pluto began selling in April and has already crossed $2 million in annual recurring revenue, with more than 30 enterprise customers, including Oscar Health, Workato, Sixt, and AlphaSense.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.17,
+        "rawScore": 49.17,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "20321888fc5ad637cd8e": {
+      "storyId": "20321888fc5ad637cd8e",
+      "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+      "title": "Google makes it easier to launch your vibe-coded apps",
+      "source": "The Verge AI",
+      "published": "2026-10-13T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "977835551e0f22aa91bcb478",
+      "bodyFingerprint": "ec94bb3a5a9366b30594b917",
+      "bodyCharacterCount": 3603,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.257Z",
+      "assessment": {
+        "centralEvent": "Google makes it easier to launch your vibe-coded apps",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Android Google Mobile News Tech Most Popular Most Popular Everything Apple launched at its ‘Welcome Home’ event Apple launches HomeView, its first smart display for the home All the news from Apple’s ‘Welcome Home’ event The ne",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c49df01b10d488b69559": {
+      "storyId": "c49df01b10d488b69559",
+      "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store",
+      "title": "Google wants to host your personal vibe-coded apps in the Play Store",
+      "source": "Ars Technica AI",
+      "published": "2026-10-13T17:00:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5616534ad4af272451a1ebf3",
+      "bodyFingerprint": "faf987127d14a0ae440c5ba6",
+      "bodyCharacterCount": 4726,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.268Z",
+      "assessment": {
+        "centralEvent": "Google wants to host your personal vibe-coded apps in the Play Store",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Google says you’ll eventually be able to prompt Game Finder with fairly specific game preferences, but it’s unclear how much customization will be available at launch.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "45d87d6cab7a70aff9e6": {
+      "storyId": "45d87d6cab7a70aff9e6",
+      "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you",
+      "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "396cf4f5938224fe8461ef7a",
+      "bodyFingerprint": "0ef0caf819a7fc465c8b9387",
+      "bodyCharacterCount": 5008,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.272Z",
+      "assessment": {
+        "centralEvent": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image Credits: Google Google will also allow users to curate their own lists of games, post questions about games to a new Community Posts section, and join new 48-hour gaming challenges called Sprints, among other gaming-related feature up",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8e68e2cc66d400ede701": {
+      "storyId": "8e68e2cc66d400ede701",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+      "title": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
+      "source": "The Verge AI",
+      "published": "2026-10-13T16:42:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f2b4bad135d6e6e4da4839b3",
+      "bodyFingerprint": "6e1913f98f1db593dcbf6c51",
+      "bodyCharacterCount": 5549,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.286Z",
+      "assessment": {
+        "centralEvent": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Mia Sato AI Creators Entertainment Instagram Meta Tech Most Popular Most Popular Everything Apple launched at its ‘Welcome Home’ event Apple launches HomeView, its first smart display for the home All the news from Apple’s ‘Welcome Home’ ev",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d7b14f9f570fe409c9e5": {
+      "storyId": "d7b14f9f570fe409c9e5",
+      "url": "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
+      "title": "Apple unveils new smart home devices that showcase upgraded Siri AI",
+      "source": "The Guardian AI",
+      "published": "2026-10-13T16:25:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "84408bf0809ab7966ca0c768",
+      "bodyFingerprint": "9826ec677a7da346f4367a41",
+      "bodyCharacterCount": 3256,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.291Z",
+      "assessment": {
+        "centralEvent": "Apple unveils new smart home devices that showcase upgraded Siri AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c84e593e0844397d895c": {
+      "storyId": "c84e593e0844397d895c",
+      "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites",
+      "title": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T16:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aac5cfbaf810431482d78b66",
+      "bodyFingerprint": "eb5a0cb4a53fec909c58b5d6",
+      "bodyCharacterCount": 6325,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.294Z",
+      "assessment": {
+        "centralEvent": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The mission involves three customers: NASA, which is paying the company to test protocols for cloud computing in space; Stellerian, a startup focused on space surveillance (tracking objects in orbit) that wants to test image processing work",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But the company’s next project is to show that it can create a shared computing system — a cloud — spanning two different satellites, which it expects to attempt next year.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9201d4684f7b6de1a203": {
+      "storyId": "9201d4684f7b6de1a203",
+      "url": "https://www.inc.com/heather-wilde/build-trust-with-ai-by-giving-people-more-time-to-be-human/91417800",
+      "title": "Build Trust With AI by Giving People More Time to Be Human",
+      "source": "Inc. AI",
+      "published": "2026-10-13T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "51fc29b21c377ecd023f33f4",
+      "bodyFingerprint": "ca1b050ff4f43d467d809bb1",
+      "bodyCharacterCount": 62,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T21:17:57.309Z",
+      "assessment": {
+        "centralEvent": "Build Trust With AI by Giving People More Time to Be Human",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f9f5ac5db3b603f4975a": {
+      "storyId": "f9f5ac5db3b603f4975a",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+      "title": "Google finally releases Gemini 4 Argon",
+      "source": "The Verge AI",
+      "published": "2026-10-13T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1be0b0f9c577e93aa2b06fb9",
+      "bodyFingerprint": "66de37786f552e89cd4d68a3",
+      "bodyCharacterCount": 5011,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.316Z",
+      "assessment": {
+        "centralEvent": "Google finally releases Gemini 4 Argon",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robert Hart AI Google News Tech Most Popular Most Popular Everything Apple launched at its ‘Welcome Home’ event Apple launches HomeView, its first smart display for the home All the news from Apple’s ‘Welcome Home’ event The new Apple TV 4K",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "172801b07e38eb18deb6": {
+      "storyId": "172801b07e38eb18deb6",
+      "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay",
+      "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+      "source": "Ars Technica AI",
+      "published": "2026-10-13T16:00:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "502bc28b0f92497ff8f5bfaf",
+      "bodyFingerprint": "80df970a1cc0f02a914f92f3",
+      "bodyCharacterCount": 4211,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.319Z",
+      "assessment": {
+        "centralEvent": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Google seems to have worked all that out pretty quickly, though.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2f2b75ba2a94fb2ddbb9": {
+      "storyId": "2f2b75ba2a94fb2ddbb9",
+      "url": "https://news.mit.edu/2026/3-questions-best-path-forward-for-ai-academia-1008",
+      "title": "3 Questions: What is the best path forward for AI in academia?",
+      "source": "MIT News AI",
+      "published": "2026-10-08T21:25:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea0f642dc59ca1e9f904e34c",
+      "bodyFingerprint": "7817746a35eaed0b79b618b7",
+      "bodyCharacterCount": 8274,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T21:17:57.335Z",
+      "assessment": {
+        "centralEvent": "3 Questions: What is the best path forward for AI in academia?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Tasks that once demonstrated advanced mathematical ability can increasingly be performed by AI.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1637515eee8a93925acb": {
+      "storyId": "1637515eee8a93925acb",
+      "url": "https://news.sky.com/story/saudi-national-charged-with-allegedly-installing-a-hidden-recording-device-at-openai-13598276",
+      "title": "Saudi national charged with allegedly installing a hidden recording device at OpenAI",
+      "source": "Sky News AI",
+      "published": "2026-10-12T16:56:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8e86f58c911b2c9aac51022e",
+      "bodyFingerprint": "af175d92873e7b4cd8cf8e15",
+      "bodyCharacterCount": 96,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T21:17:57.397Z",
+      "assessment": {
+        "centralEvent": "Saudi national charged with allegedly installing a hidden recording device at OpenAI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b3801b00435a9c61107e": {
+      "storyId": "b3801b00435a9c61107e",
+      "url": "https://news.sky.com/story/tech-firms-promise-to-take-down-ai-platforms-if-british-secret-services-show-they-are-unsafe-13598926",
+      "title": "Tech firms promise to take down AI platforms if British secret services show they are unsafe",
+      "source": "Sky News AI",
+      "published": "2026-10-13T16:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8103c93fbf5de1f6e763cb4",
+      "bodyFingerprint": "51d1c5b71ac1fc350cc2979c",
+      "bodyCharacterCount": 166,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T21:17:57.398Z",
+      "assessment": {
+        "centralEvent": "Tech firms promise to take down AI platforms if British secret services show they are unsafe",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Tech firms promise to take down AI platforms if British secret services show they are unsafe",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-13T16:02:54.358Z"
+  "updatedAt": "2026-10-13T21:17:57.398Z"
 }
