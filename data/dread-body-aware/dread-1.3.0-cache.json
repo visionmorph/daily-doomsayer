@@ -245767,8 +245767,224 @@
           "vulnerability": 0
         }
       }
+    },
+    "86d056a4b8dd3b41c17b": {
+      "storyId": "86d056a4b8dd3b41c17b",
+      "url": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
+      "title": "Q&A: Building accountability behind our words — and AI’s — in civic conversations",
+      "source": "MIT News AI",
+      "published": "2026-10-13T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0a6762fd701519132dac8b88",
+      "bodyFingerprint": "5b6f610800defd4b2291fdf8",
+      "bodyCharacterCount": 16364,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T07:45:47.301Z",
+      "assessment": {
+        "centralEvent": "Q&A: Building accountability behind our words — and AI’s — in civic conversations",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As I write in the essay, “That fraud was caught because it left fingerprints: templated text, duplicated phrasing.” But large language models erase the fingerprints.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Share this news article on: X Facebook LinkedIn Reddit Print Paper: “Who stands behind the words?” Related Links Deb Roy Center for Constructive Communication Media Lab Related Topics Interview Faculty Artificial intelligence Technology and",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The New Social Forms project pertains to a very interesting pattern emerging in workplaces around the world, certainly the ones we’re connected to.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "I gave several presentations to my own graduate students trying to make the case that, even though AI seems so intelligent, it’s actually different in kind — and I could not convince them.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 122,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 47.74,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9c4c927e6cfff2ec2b3a": {
+      "storyId": "9c4c927e6cfff2ec2b3a",
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "source": "The Guardian AI",
+      "published": "2026-10-13T03:15:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "84a37988024e4254de5c4d4a",
+      "bodyFingerprint": "4c1a0c26156c6dee9ea62d89",
+      "bodyCharacterCount": 4257,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T07:45:47.351Z",
+      "assessment": {
+        "centralEvent": "Threat of AI share crash puts world financial stability at risk, says IMF",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Aside from the US, Asian markets would be most exposed, and the UK and euro area potentially more insulated – though investors with US holdings would be hit.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The IMF’s analysis underlined the interconnected nature of big AI companies, and the high levels of borrowing being undertaken to fund investment in the sector.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "High valuations and debt put sector in danger, while fund also warns on government borrowing and cyber-attacks IMF warns global economy ‘could soon test the limits of resilience’ The threat of an AI share price crash rippling out across glo",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ffddd0ed8fa82a047069": {
+      "storyId": "ffddd0ed8fa82a047069",
+      "url": "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026",
+      "title": "IMF warns global economy ‘could soon test the limits of resilience’",
+      "source": "The Guardian AI",
+      "published": "2026-10-13T02:00:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "baacd34ad4fd5074d08f69e6",
+      "bodyFingerprint": "a4db5d13bfb114be0b74353a",
+      "bodyCharacterCount": 5461,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T07:45:47.356Z",
+      "assessment": {
+        "centralEvent": "IMF warns global economy ‘could soon test the limits of resilience’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Read more But in a sign of the system’s vulnerability, the US strategic petroleum reserve was recently reported to have fallen to its lowest level since 1982.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-13T00:44:34.125Z"
+  "updatedAt": "2026-10-13T07:45:47.356Z"
 }
