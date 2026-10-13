@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-13T16:00:00.000Z",
+  "generatedAt": "2026-10-13T21:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-13",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/master/pass/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
           "peak": 50.71,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 50.71
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 50.16
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 49.34
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 49.23
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 49.01
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
           "peak": 48.95,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 48.95
         }
       ]
@@ -6558,11 +6558,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -6572,11 +6572,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/master/pass/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
           "peak": 50.71,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 50.71
         },
         {
@@ -6586,11 +6586,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 50.16
         },
         {
@@ -6614,11 +6614,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 49.34
         },
         {
@@ -6628,11 +6628,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 49.23
         },
         {
@@ -6656,11 +6656,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.01,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-13T00:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 49.01
         },
         {
@@ -6670,11 +6670,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
           "peak": 48.95,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 48.95
         }
       ]
@@ -7748,11 +7748,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 53,
+          "observations": 54,
           "daysTracked": 13,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -7776,11 +7776,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/master/pass/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
           "peak": 50.71,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 4,
           "peakDate": "2026-10-10",
           "firstObservedAt": "2026-10-10T18:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 50.71
         },
         {
@@ -7832,11 +7832,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T16:00:00.000Z",
+          "lastObservedAt": "2026-10-13T21:00:00.000Z",
           "average": 50.16
         }
       ]
