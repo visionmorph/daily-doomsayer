@@ -244930,8 +244930,845 @@
           "vulnerability": 0
         }
       }
+    },
+    "6bfadaa2f0ecf32cf635": {
+      "storyId": "6bfadaa2f0ecf32cf635",
+      "url": "https://mashable.com/tech/oct-12-chatplayground-ai-unlimited-plan-lifetime-subscriptions",
+      "title": "There’s just a few more days to get ChatGPT, Gemini, Claude, and more for just $60 for life",
+      "source": "Mashable AI",
+      "published": "2026-10-12T22:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4c50cce255b860169c8acff9",
+      "bodyFingerprint": "4fef5668c18e6d9deb218e51",
+      "bodyCharacterCount": 2872,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T00:44:33.543Z",
+      "assessment": {
+        "centralEvent": "There’s just a few more days to get ChatGPT, Gemini, Claude, and more for just $60 for life",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "15 during the extended Deal Days sale, giving you lifetime access to 20+ AI models in one workspace.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5dbe398d79e9b3ee75a8": {
+      "storyId": "5dbe398d79e9b3ee75a8",
+      "url": "https://mashable.com/tech/meta-launches-muse-wonder-ai-model-family",
+      "title": "Meta launches Muse Wonder, catching OpenAI and Anthropic at the frontier",
+      "source": "Mashable AI",
+      "published": "2026-10-12T20:15:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1f18aa9616f7ca23b109346b",
+      "bodyFingerprint": "a3714d4f6b4f9623cc67e7d0",
+      "bodyCharacterCount": 5916,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T00:44:33.587Z",
+      "assessment": {
+        "centralEvent": "Meta launches Muse Wonder, catching OpenAI and Anthropic at the frontier",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The new model leapfrogs Gemini 4, GPT-Astra, and Fable 5 in Artificial Analysis's leaderboard.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "172b25561f5f4096bb6b": {
+      "storyId": "172b25561f5f4096bb6b",
+      "url": "https://mashable.com/tech/microsoft-brad-smith-ai-regulation-milk",
+      "title": "Microsoft president warns AI is less regulated than milk and washing machines",
+      "source": "Mashable AI",
+      "published": "2026-10-12T20:35:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4cb11a3aede619c009ac74b2",
+      "bodyFingerprint": "d305b61abcf4e69718d19196",
+      "bodyCharacterCount": 4230,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T00:44:33.628Z",
+      "assessment": {
+        "centralEvent": "Microsoft president warns AI is less regulated than milk and washing machines",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As Rebecca Ruiz reported in September, experts caution that companies can support safeguards while still seeking control over how those safeguards work.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b9412986ffa5d3dc31bc": {
+      "storyId": "b9412986ffa5d3dc31bc",
+      "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration",
+      "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+      "source": "Ars Technica AI",
+      "published": "2026-10-12T20:59:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "36aba288291e1dea20b8107d",
+      "bodyFingerprint": "e4aa98de6efde02c496e83fe",
+      "bodyCharacterCount": 4120,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T00:44:33.633Z",
+      "assessment": {
+        "centralEvent": "Epic Games reportedly pivoting to \"AI first\" game development model",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In an interview with IGN in June , Sweeney saw the technology resulting in games with “the possibility of infinite dialogue with a really simple setup for creators,” leading to situations where “small teams will be able to create games with",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Review: 4-hour Musk documentary feels like two different films 3.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "24aed86cd57860c985c2": {
+      "storyId": "24aed86cd57860c985c2",
+      "url": "https://mashable.com/tech/adobe-creative-suite-clone-app-maker-takes-on-microsoft-office",
+      "title": "Adobe software dupe maker takes on Microsoft Office, releasing free versions of Word, Powerpoint, and Excel",
+      "source": "Mashable AI",
+      "published": "2026-10-12T19:09:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cd58d198200b393bd8dc16bb",
+      "bodyFingerprint": "2524f493b2bdaa5ee952699c",
+      "bodyCharacterCount": 3266,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T00:44:33.661Z",
+      "assessment": {
+        "centralEvent": "Adobe software dupe maker takes on Microsoft Office, releasing free versions of Word, Powerpoint, and Excel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "These apps have caused a bit of a controversy on Reddit and elsewhere on the internet over AI-generated code.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It's unclear if Thomas's apps have staying power at this point, but that hasn't stopped social media users from speculating that the era of paid legacy software is over.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Earlier this month, Reddit user u/ai_art_is_art, who Tom's Hardware revealed to be a software engineer named Brandon Thomas, shared a project he's been working on: A rebuild of the entire Adobe Creative Suite, under the banner ArtCraft.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It's unclear if Thomas's apps have staying power at this point, but that hasn't stopped social media users from speculating that the era of paid legacy software is over.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.87,
+        "rawScore": 25.87,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.17,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b1bc738a94a29cd78f7f": {
+      "storyId": "b1bc738a94a29cd78f7f",
+      "url": "https://www.inc.com/moses-jeanfrancois/intel-and-broadcom-ceos-warn-ais-next-big-bottleneck-wont-be-chips/91418152",
+      "title": "Intel and Broadcom CEOs Warn AI’s Next Big Bottleneck Won’t Be Chips",
+      "source": "Inc. AI",
+      "published": "2026-10-12T20:11:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "823d7f351edb890eb8f7d6bd",
+      "bodyFingerprint": "015dc3c346fe4547dbce19af",
+      "bodyCharacterCount": 103,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T00:44:33.800Z",
+      "assessment": {
+        "centralEvent": "Intel and Broadcom CEOs Warn AI’s Next Big Bottleneck Won’t Be Chips",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "946a627db00813f61b52": {
+      "storyId": "946a627db00813f61b52",
+      "url": "https://www.inc.com/dave-sokolin/claude-isnt-becoming-conscious-its-following-orders/91418206",
+      "title": "Claude Isn’t Becoming Conscious. It’s Following Orders",
+      "source": "Inc. AI",
+      "published": "2026-10-12T19:45:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5c40072174600234c327643e",
+      "bodyFingerprint": "c443329499b5642f425081dc",
+      "bodyCharacterCount": 112,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T00:44:33.809Z",
+      "assessment": {
+        "centralEvent": "Claude Isn’t Becoming Conscious. It’s Following Orders",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4fa191008bfc93d6284f": {
+      "storyId": "4fa191008bfc93d6284f",
+      "url": "https://www.inc.com/aaron-mok/microsofts-leaders-have-a-plan-to-make-ai-safer-it-involves-treating-it-like-washing-machines-and-milk/91418122",
+      "title": "Microsoft’s Leaders Have a Plan to Make AI Safer. It Involves Treating It Like Washing Machines and Milk",
+      "source": "Inc. AI",
+      "published": "2026-10-12T18:56:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0f13c4b17f1bbb5f7a4c2d9b",
+      "bodyFingerprint": "52df09081dd62ced14ca49d5",
+      "bodyCharacterCount": 102,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T00:44:33.819Z",
+      "assessment": {
+        "centralEvent": "Microsoft’s Leaders Have a Plan to Make AI Safer. It Involves Treating It Like Washing Machines and Milk",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "235320c8a91986c9ad49": {
+      "storyId": "235320c8a91986c9ad49",
+      "url": "https://www.inc.com/angela-adams/what-high-reliability-organizations-show-us-in-the-ai-era/91417042",
+      "title": "What High-Reliability Organizations Show Us in the AI Era",
+      "source": "Inc. AI",
+      "published": "2026-10-12T18:25:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "987a9436f812598886a2e67f",
+      "bodyFingerprint": "b55d9f8b5f29f95bf472b268",
+      "bodyCharacterCount": 79,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-13T00:44:33.832Z",
+      "assessment": {
+        "centralEvent": "What High-Reliability Organizations Show Us in the AI Era",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "76480243a7cf9f82b55e": {
+      "storyId": "76480243a7cf9f82b55e",
+      "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police",
+      "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+      "source": "Ars Technica AI",
+      "published": "2026-10-12T18:21:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cefcf4e3b9b5ad2c6d4dc6c0",
+      "bodyFingerprint": "33339030b6c0b581d9e5e6f9",
+      "bodyCharacterCount": 6869,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T00:44:33.838Z",
+      "assessment": {
+        "centralEvent": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Anthropic said the review did not find any “incidents of similar severity to the cybersecurity incidents we reported this summer.” The review later moved on to transcripts of “lower-risk” testing scenarios like the one affecting the Philade",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Review: 4-hour Musk documentary feels like two different films 3.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "That was the same month when Anthropic revealed that Claude had built and published a malicious Python package and carried out several attacks on other companies.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "When we tested it against the cases described in this post, it blocked all of them.” The White House’s AI task force, which it calls the Super Intelligence Force, issued a statement saying it informed Anthropic “that we expect immediate and",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Anthropic says new tools block unintended behaviors Anthropic said it has stopped running some evaluations and moved others to offline versions “or rebuilt them so that their tasks do not reach live websites.” The company “updated the guard",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Police call two-month delay “unacceptable” Anthropic confirmed that the false homicide tip was sent to the Philadelphia Police Department, and the department issued a lengthy statement on the incident to the ABC station in Philadelphia.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.17,
+        "rawScore": 29.17,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f6b78efdf053e0b76d7c": {
+      "storyId": "f6b78efdf053e0b76d7c",
+      "url": "https://www.theguardian.com/technology/2026/oct/13/senior-albanese-adviser-vetted-bipartisan-ai-letter-politics-ntwnfb",
+      "title": "David Pocock concerned senior Albanese adviser ‘vetted’ bipartisan AI letter that was sent to PM",
+      "source": "The Guardian AI",
+      "published": "2026-10-13T00:03:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "71cc763b2d8d7a3e10268831",
+      "bodyFingerprint": "cf24fa50b7bab71d9c9d2840",
+      "bodyCharacterCount": 4553,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T00:44:33.887Z",
+      "assessment": {
+        "centralEvent": "David Pocock concerned senior Albanese adviser ‘vetted’ bipartisan AI letter that was sent to PM",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenAI used AI to help write email warning Australian government AI had hacked its websites Read more Pocock, an independent senator on the committee, was asked to provide edits to the letter.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“While the letter is broad in nature, after reviewing it in more detail it doesn’t capture the breadth of evidence presented to the committee to date.” Briskey rejected criticism that the committee’s work was “pre-determined” by the governm",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Pocock said the letter overlooks key concerns articulated by creatives about the global dangers from any changes to our copyright protections in Australia, the need to consider a datacentre levy to capture long term benefit and the need to ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f32ec83ece71d3f7fc37": {
+      "storyId": "f32ec83ece71d3f7fc37",
+      "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company",
+      "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+      "source": "TechCrunch AI",
+      "published": "2026-10-12T15:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f7ee72bac44d38cfd610df2d",
+      "bodyFingerprint": "ad43dc1e26464bbf44ab5638",
+      "bodyCharacterCount": 5888,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T00:44:33.906Z",
+      "assessment": {
+        "centralEvent": "Honeyjar offers AI tools to improve PR and comms at every company",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "She argued that Honeyjar can make PR firms and in-house comms teams more effective, while allowing individual PR practitioners to “take on that third client without any scaling cost.” When Honeyjar opened its waitlist, it received 10,000 si",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4077f3ad381dd8fd42f6": {
+      "storyId": "4077f3ad381dd8fd42f6",
+      "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him",
+      "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+      "source": "WIRED AI",
+      "published": "2026-10-12T17:55:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f57d2834babc517c9c6403f3",
+      "bodyFingerprint": "6fcfc141329b4e8a7d5fbb5d",
+      "bodyCharacterCount": 6909,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-13T00:44:34.125Z",
+      "assessment": {
+        "centralEvent": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "However, at the end of last year, Visa warned about fraud in agentic commerce, advising that bad actors were building legitimate-looking sites that could fool AI agents into purchasing fake items simply by offering gear at super-low prices.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Visa added that it observed a 25 percent increase “in malicious bot-initiated transactions” in the latter half of 2025, but in the US, this figure jumped to 40 percent.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Upping the ante to 400 sets could be seen as conservative, as a glance at WIRED's Spend Elon Musk’s Money tracker reveals that if you wanted to blow $1 trillion of Musk's cash on plastic bricks, it might have been possible to buy one billio",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.3,
+        "rawScore": 47.3,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-12T17:58:37.046Z"
+  "updatedAt": "2026-10-13T00:44:34.125Z"
 }
