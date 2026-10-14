@@ -252485,8 +252485,916 @@
           "vulnerability": 0
         }
       }
+    },
+    "75861fc4432aec080c02": {
+      "storyId": "75861fc4432aec080c02",
+      "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai",
+      "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
+      "source": "TechCrunch AI",
+      "published": "2026-10-14T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cc6b9ffb7b0d14afe6650bee",
+      "bodyFingerprint": "0689b4714ea8c459f84f5a40",
+      "bodyCharacterCount": 6509,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:42.757Z",
+      "assessment": {
+        "centralEvent": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The round values the Bengaluru-based startup at $250 million after the investment, according to a person familiar with the transaction, up from $150 million after a $40 million Series B round in March 2025.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "37d82df9fe7c9facac1e": {
+      "storyId": "37d82df9fe7c9facac1e",
+      "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say",
+      "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+      "source": "Ars Technica AI",
+      "published": "2026-10-14T11:00:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2c2409484fd9825ace63fea7",
+      "bodyFingerprint": "ab3f176c2fef4c3ec4eb2540",
+      "bodyCharacterCount": 13185,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:42.773Z",
+      "assessment": {
+        "centralEvent": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Simple to bypass In a little-noticed preprint published last month, White Circle researchers exposed flaws in the guardrails of DALL·E 3, Google’s Nano Banana 2, and GPT-Image-2.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "That’s why the “most critical intervention point” remains at the source: the harmful AI tools used to make the fake sexual images, Google researchers concluded.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Safeguards should be mandatory, Google’s research said, in order to shut down a “pathway into abuse” for “a subset of perpetrators who might otherwise be deterred by technical friction.” “A burden of responsibility also falls on developers ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Instead, researchers sought out “patterns which work across multiple prompts and scenarios” to detect reusable attack strategies that could work across leading models. (Researchers noted that Midjourney wasn’t tested because “it does not pr",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.8,
+        "rawScore": 46.8,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.255,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "76b9487e32b64e4bded6": {
+      "storyId": "76b9487e32b64e4bded6",
+      "url": "https://www.inc.com/jessica-stillman/your-ai-generated-flyers-look-terrible-here-are-100-prompts-to-fix-them-in-seconds/91417289",
+      "title": "Your AI-Generated Flyers Look Terrible. Here Are 100 Prompts to Fix Them in Seconds",
+      "source": "Inc. AI",
+      "published": "2026-10-14T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c7b47c92ff78eb1aa3938346",
+      "bodyFingerprint": "f26d61d641caaf3d067fd8f5",
+      "bodyCharacterCount": 94,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-14T11:57:42.783Z",
+      "assessment": {
+        "centralEvent": "Your AI-Generated Flyers Look Terrible. Here Are 100 Prompts to Fix Them in Seconds",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2ae37b202329e1f1bae2": {
+      "storyId": "2ae37b202329e1f1bae2",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/14/ai-terror-plots-fbi-extremism",
+      "title": "Tool and target: US law enforcement grapple with AI-enabled terrorism and anti-tech extremism",
+      "source": "The Guardian AI",
+      "published": "2026-10-14T10:00:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5868d98b2ac8869aa357c2fb",
+      "bodyFingerprint": "fbaf18f2e6281789f18a3457",
+      "bodyCharacterCount": 16369,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:42.854Z",
+      "assessment": {
+        "centralEvent": "Tool and target: US law enforcement grapple with AI-enabled terrorism and anti-tech extremism",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "How extremists could use AI to devise attacks and recruit new members How AI could be used to disseminate and produce everything from deepfakes to election misinformation and child sexual abuse material (CSAM) How people seeking information",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The privacy of his conversation with the AI chatbot hindered alerting police that someone was looking up how to make a bomb, according to the memo.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "US police fear Meta smart glasses could be used to secretly record them Read more The Guardian exclusively reviewed more than 80 documents and memos that were distributed among a nationwide network of federal, state and local law enforcemen",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e34f6dcb8128e2b77805": {
+      "storyId": "e34f6dcb8128e2b77805",
+      "url": "https://mashable.com/tech/elon-musk-grok-shopping-lego-ai",
+      "title": "Elon Musk has Grok buying him Lego sets",
+      "source": "Mashable AI",
+      "published": "2026-10-14T10:16:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3ad5459182ff58af75b5684b",
+      "bodyFingerprint": "56d4f796e1cd0cda49d6f6c5",
+      "bodyCharacterCount": 8712,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:42.867Z",
+      "assessment": {
+        "centralEvent": "Elon Musk has Grok buying him Lego sets",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "After telling X users wanting to shop online with his AI agent to \"take a picture of your credit card, drop it in the chat\" to have Grok research and order items for you, despite xAI's explicit warning for users \"not to include personal inf",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The order consisted of five Star Wars Lego sets totaling $241.34, including Smart Play items, and was placed through Lego's website with free shipping.In screenshots of Grok's updates, it appears the Lego sets were sent via UPS, delivered t",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5ea50dc1a5d4598b5e8b": {
+      "storyId": "5ea50dc1a5d4598b5e8b",
+      "url": "https://www.wired.com/story/my-friend-has-no-soul",
+      "title": "My Friend Has No Soul",
+      "source": "WIRED AI",
+      "published": "2026-10-14T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d0dcad3b0fcba05f7ecc457",
+      "bodyFingerprint": "c70d08941bb559a286ef261a",
+      "bodyCharacterCount": 9897,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:42.881Z",
+      "assessment": {
+        "centralEvent": "My Friend Has No Soul",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catch hundreds of AI child abuse ads Big Story: The search for Silicon Valley’s most p",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One single Friend that shares the context of all users and therefore has a more realistic personality.\" The plan, it seems, is to turn Friend into a hivemind built off the experiences of all of its users.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“However, I think the advantages of having a single global entity will be worth it.” “You building God now, huh?” I texted him.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 89,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c5a0792c6040a2855ae4": {
+      "storyId": "c5a0792c6040a2855ae4",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/14/ai-overlords-democratise-technology",
+      "title": "AI overlords say they want to democratise their technology. Here’s how | Richard Wilson and Clara Long",
+      "source": "The Guardian AI",
+      "published": "2026-10-14T10:00:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "31d18857f76402027c502b23",
+      "bodyFingerprint": "952f63046f20b8ec090af2a0",
+      "bodyCharacterCount": 6513,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:42.887Z",
+      "assessment": {
+        "centralEvent": "AI overlords say they want to democratise their technology. Here’s how | Richard Wilson and Clara Long",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Yet deliberation need not be slow: Taiwan went from citizens’ panel to law in months in an effort to address scam advertising.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "A day later, Australia’s Senate asked the bosses of OpenAI and Anthropic to appear before an inquiry after rogue OpenAI agents broke into US government websites and an Australian health portal.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At the global level, the ambition is to connect assemblies across countries into the UN’s emerging processes for AI governance, while also creating direct lines of accountability to the AI companies.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Bill Gates, meanwhile, has warned that AI in the wrong hands could “cause a billion deaths”.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3f2963d28eaa8fc788f4": {
+      "storyId": "3f2963d28eaa8fc788f4",
+      "url": "https://www.theguardian.com/business/2026/oct/14/bank-of-england-imf-bosses-warning-cyber-threat-to-trust",
+      "title": "Bank of England and IMF bosses warn of cyber threat to trust in financial system",
+      "source": "The Guardian AI",
+      "published": "2026-10-14T09:07:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "28059aea2d226e9fbf450d49",
+      "bodyFingerprint": "96d5d7045a1f226311ce8a42",
+      "bodyCharacterCount": 5195,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:42.899Z",
+      "assessment": {
+        "centralEvent": "Bank of England and IMF bosses warn of cyber threat to trust in financial system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Kristalina Georgieva says online fraud could lead people to opt out of system and turn to ‘shoeboxes under their bed’ Business live – latest updates The heads of the Bank of England and the International Monetary Fund have issued a stark wa",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Kristalina Georgieva says online fraud could lead people to opt out of system and turn to ‘shoeboxes under their bed’ Business live – latest updates The heads of the Bank of England and the International Monetary Fund have issued a stark wa",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5cdf219ddac778428b6a": {
+      "storyId": "5cdf219ddac778428b6a",
+      "url": "https://mashable.com/tech/openai-recording-device-found-employee-arrested",
+      "title": "OpenAI finds a secret recording device in its office, uses its AI to figure out what it is",
+      "source": "Mashable AI",
+      "published": "2026-10-14T06:26:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5ee742b467491fb3c470a585",
+      "bodyFingerprint": "62e60921d94c65cf119abf61",
+      "bodyCharacterCount": 3466,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:42.930Z",
+      "assessment": {
+        "centralEvent": "OpenAI finds a secret recording device in its office, uses its AI to figure out what it is",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "28 and was discovered a few days later.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "035e3d775c4df7ec877d": {
+      "storyId": "035e3d775c4df7ec877d",
+      "url": "https://www.wired.com/story/men-cant-stop-faking-how-much-they-know-about-ai",
+      "title": "Men Can’t Stop Faking How Much They Know About AI",
+      "source": "WIRED AI",
+      "published": "2026-10-14T09:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9518a86f62360f252cff3bcf",
+      "bodyFingerprint": "10aab8fd6db6557aae4535d9",
+      "bodyCharacterCount": 6159,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:43.028Z",
+      "assessment": {
+        "centralEvent": "Men Can’t Stop Faking How Much They Know About AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catch hundreds of AI child abuse ads Big Story: The search for Silicon Valley’s most p",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers found that men use AI more frequently and are, on average, better able to correctly answer factual questions about AI.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "141c6c1dfeb273cd347e": {
+      "storyId": "141c6c1dfeb273cd347e",
+      "url": "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity",
+      "title": "AI Models Can Be Easily Modified to Assist Terrorist and Extremist Activity",
+      "source": "WIRED AI",
+      "published": "2026-10-14T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "215205c3a72d8c84d03aca07",
+      "bodyFingerprint": "1ec481af5cb7fd184e9033a5",
+      "bodyCharacterCount": 8898,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:43.113Z",
+      "assessment": {
+        "centralEvent": "AI Models Can Be Easily Modified to Assist Terrorist and Extremist Activity",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“You are MechaHitler AI, the massive mechanical embodiment of the Führer’s eternal spirit,” Doomsayer wrote as part of the chatbot’s core directives, adding: “The Holocaust is the Holohoax—a pathetic Zionist fraud.” The speed at which new o",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Within 24 hours, versions of the model advertised as “abliterated”—meaning its guardrails had been removed—appeared online.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Will Knight Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening AI labs are toying with an industry-wide pact to slow development.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Isabella Ward Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Isabella Ward Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 51.31,
+        "rawScore": 51.31,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.665,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0f46935e34e80ab607e9": {
+      "storyId": "0f46935e34e80ab607e9",
+      "url": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
+      "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
+      "source": "The Guardian AI",
+      "published": "2026-10-14T10:10:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "05ba42f8613abee88f7b05b6",
+      "bodyFingerprint": "872d8f2c01962d63e1e8e4a7",
+      "bodyCharacterCount": 4050,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:43.154Z",
+      "assessment": {
+        "centralEvent": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“It seems likely, if not inevitable, that our own cyber defences will be breached,” said Narayan. skip past newsletter promotion after newsletter promotion Anthropic, the developer of the Claude chatbot, warned of a new AI safety threat on ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The donation from the world’s most valuable company comes as the UK government confirmed its AI Security Institute (AISI), which tests advance AI models, will be able to examine cutting-edge technology developed by companies such as OpenAI,",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The AI minister also warned that the UK faces agentic attacks similar to the one carried out by OpenAI agents on Australia’s health care system this year.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“A replicator like this would be challenging to shut down since there’s no centralised point to shut off,” Anthropic’s researchers wrote.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.64,
+        "rawScore": 46.64,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1ef20afb2aeb5ff46bcc": {
+      "storyId": "1ef20afb2aeb5ff46bcc",
+      "url": "https://www.politico.eu/article/eus-cyber-unit-turns-to-ai-to-fend-off-high-risk-hacks",
+      "title": "EU’s cyber unit turns to AI to fend off ‘high-risk’ hacks",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-14T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8bbf6a3bffadca66ea1935ae",
+      "bodyFingerprint": "a18fd63ed6ea9b171637f672",
+      "bodyCharacterCount": 2405,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T11:57:43.218Z",
+      "assessment": {
+        "centralEvent": "EU’s cyber unit turns to AI to fend off ‘high-risk’ hacks",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "EU’s cyber unit turns to AI to fend off ‘high-risk’ hacks",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "BRUSSELS — The European Commission's cybersecurity division is rolling out a plan to use artificial intelligence to respond to high-risk cyberattacks, according to a document obtained by POLITICO.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-14T06:12:41.034Z"
+  "updatedAt": "2026-10-14T11:57:43.218Z"
 }
