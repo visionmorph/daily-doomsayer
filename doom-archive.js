@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-14T06:00:00.000Z",
+  "generatedAt": "2026-10-14T11:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-14",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 50.16
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceab66cc5b61e4cd2bfb17/master/pass/Man-Arrested-for-Listening-Device-in-OpenAI-Office-Security.jpg",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 49.83
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg",
           "peak": 49.39,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 49.39
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 49.34
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 49.23
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.17,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 49.17
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
           "peak": 48.95,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 48.95
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 48.95,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 48.95
         }
       ]
@@ -6703,11 +6703,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 51.23
         },
         {
@@ -6731,11 +6731,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 50.16
         },
         {
@@ -6745,11 +6745,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceab66cc5b61e4cd2bfb17/master/pass/Man-Arrested-for-Listening-Device-in-OpenAI-Office-Security.jpg",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 49.83
         },
         {
@@ -6773,11 +6773,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg",
           "peak": 49.39,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-14T01:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 49.39
         },
         {
@@ -6787,11 +6787,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 49.34
         },
         {
@@ -6801,11 +6801,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 49.23
         },
         {
@@ -6815,11 +6815,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-14T01:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 49.17
         }
       ]
@@ -7893,11 +7893,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 56,
+          "observations": 57,
           "daysTracked": 14,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 51.23
         },
         {
@@ -7977,11 +7977,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-14T06:00:00.000Z",
+          "lastObservedAt": "2026-10-14T11:00:00.000Z",
           "average": 50.16
         }
       ]
