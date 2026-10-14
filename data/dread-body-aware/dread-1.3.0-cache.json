@@ -252029,8 +252029,464 @@
           "vulnerability": 0
         }
       }
+    },
+    "7e2a03702157d22e0694": {
+      "storyId": "7e2a03702157d22e0694",
+      "url": "https://www.bbc.co.uk/news/articles/c8040531w45eo?at_campaign=rss&at_medium=RSS",
+      "title": "Russell T Davies criticises BBC boss's 'clumsy' AI Doctor Who comments",
+      "source": "BBC News AI",
+      "published": "2026-10-14T04:58:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7969535feb14b18af62e2db6",
+      "bodyFingerprint": "e7488c9eb8ada347c8113806",
+      "bodyCharacterCount": 4390,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T06:12:34.382Z",
+      "assessment": {
+        "centralEvent": "Russell T Davies criticises BBC boss's 'clumsy' AI Doctor Who comments",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Addressing criticism he has received, Brittin told a staff meeting last week he was attempting to make a point around the \"pace of change\" while stressing he believed in \"human creativity\".",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, James Watkins / BBC By Katie Razzall Culture and Media Editor Published 1 hour ago Longtime Doctor Who writer and showrunner Russell T Davies has criticised the new BBC director general over comments he made about an AI-genera",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3bb702ffbfbf2230d7f5": {
+      "storyId": "3bb702ffbfbf2230d7f5",
+      "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/14/is-the-internet-finally-unusable-time-to-go-back-to-faxes-and-landlines",
+      "title": "Is the internet finally unusable? Time to go back to faxes and landlines | First Dog on the Moon",
+      "source": "The Guardian AI",
+      "published": "2026-10-14T05:19:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae513643b92799b143c66a67",
+      "bodyFingerprint": "6524400d2a6f5382d45d93ea",
+      "bodyCharacterCount": 682,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T06:12:34.466Z",
+      "assessment": {
+        "centralEvent": "Is the internet finally unusable? Time to go back to faxes and landlines | First Dog on the Moon",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4647727cd7a1a66dae79": {
+      "storyId": "4647727cd7a1a66dae79",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261013015758.htm",
+      "title": "AI reveals a hidden chemical shortcut that could turn CO2 into fuel",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-14T00:01:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3218992a84487bcacdc0196f",
+      "bodyFingerprint": "279fb82a3379bcdd139418eb",
+      "bodyCharacterCount": 10501,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T06:12:34.484Z",
+      "assessment": {
+        "centralEvent": "AI reveals a hidden chemical shortcut that could turn CO2 into fuel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A Surprising Hydrogen Pathway Challenges Conventional Chemistry Beyond improving the predictions, the much larger reaction network exposed an unexpected mechanism involving hydrogen.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Additional quantum mechanics calculations confirmed that this pathway can be especially favorable when hydrogen is transferred to intermediates containing oxygen.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "28, 2023  Humanity continuously emits greenhouse gases and thereby worsens global warming.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They also determined which transformations could take place in a single reaction step.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.96,
+        "rawScore": 47.96,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fdcc7aa249c6186f4fa1": {
+      "storyId": "fdcc7aa249c6186f4fa1",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185017.htm",
+      "title": "AI can act exactly like a human, but we still don't think it's conscious",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-14T01:41:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6d80bde13cc9b871f29e18d2",
+      "bodyFingerprint": "b49d906e39b438f23e2480d4",
+      "bodyCharacterCount": 9433,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T06:12:34.494Z",
+      "assessment": {
+        "centralEvent": "AI can act exactly like a human, but we still don't think it's conscious",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Existential Risk” – Why Scientists Are Racing to Define Consciousness Feb.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Researchers found that participants considered even the most responsive AI less conscious than the least responsive human.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "That makes our choice of language important.\" RELATED TOPICS Mind & Brain Language Acquisition Social Psychology Perception Child Development Computers & Math Neural Interfaces Artificial Intelligence Educational Technology Math Puzzles REL",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.14,
+        "rawScore": 27.14,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ee42e0fa971ce26520ff": {
+      "storyId": "ee42e0fa971ce26520ff",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185015.htm",
+      "title": "A planet 320 light-years away confirms what scientists long suspected",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-14T00:24:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e6d3873e6b61329d622af07b",
+      "bodyFingerprint": "24679d47063a1e6f82f252dd",
+      "bodyCharacterCount": 11491,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T06:12:34.501Z",
+      "assessment": {
+        "centralEvent": "A planet 320 light-years away confirms what scientists long suspected",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Science News from research organizations A planet 320 light-years away confirms what scientists long suspected A scorching-hot planet 320 light-years away has confirmed a long-held assumption about planet formation, offering a powerful new ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "da426f404581bc54a43d": {
+      "storyId": "da426f404581bc54a43d",
+      "url": "https://www.politico.eu/article/europe-ai-strategy-frontier-models-us-china",
+      "title": "Europe’s leaders abandon the race for frontier AI",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-13T18:47:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d2715724d525a2bbde2e61ca",
+      "bodyFingerprint": "5a80a26ceb17fc8f9f20fad5",
+      "bodyCharacterCount": 7594,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T06:12:34.685Z",
+      "assessment": {
+        "centralEvent": "Europe’s leaders abandon the race for frontier AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "For Europe, relying on U.S. or Chinese models is not without risk, as the bloc is already dependent on both for all the technology underpinning AI, such as chips and cloud services.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The scale of the challenge is clear: At the end of last year, only 1 in 5 European businesses used AI in their activities, with Denmark as the frontrunner (42%) and Romania at the bottom of the pack (5.2%), according to Eurostat.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“I would rather see us put more thinking cycles into how do we capitalize on the technology rather than how do we try to catch up.” The suggestion that frontier AI models are now out of reach for European AI labs comes as the most advanced ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "afb9e860ebf47010e236": {
+      "storyId": "afb9e860ebf47010e236",
+      "url": "https://www.nature.com/articles/d41586-026-03223-8",
+      "title": "China’s AI research is booming. Where is it headed?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-10-14T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a6e704da7a7759ac54eee088",
+      "bodyFingerprint": "f8bdb85a0e169712dc647137",
+      "bodyCharacterCount": 52,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-14T06:12:41.034Z",
+      "assessment": {
+        "centralEvent": "China’s AI research is booming. Where is it headed?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-14T01:14:57.815Z"
+  "updatedAt": "2026-10-14T06:12:41.034Z"
 }
