@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-13T21:00:00.000Z",
+  "generatedAt": "2026-10-14T01:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-13",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/master/pass/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
           "peak": 50.71,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 50.71
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 50.16
         },
         {
@@ -81,17 +81,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.66
         },
         {
+          "storyId": "bb575fe9ad4e4a983b92",
+          "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+          "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg",
+          "peak": 49.39,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-13",
+          "firstObservedAt": "2026-10-14T01:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
+          "average": 49.39
+        },
+        {
           "storyId": "3b2bd6e595cae7a06e8a",
           "title": "Our Best Stuff on the Debate Over AI",
           "url": "https://thedispatch.com/newsletter/weekly/artificial-intelligence-danger-catholic-church/",
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 49.34
         },
         {
@@ -101,12 +115,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 49.23
+        },
+        {
+          "storyId": "4e9e4f1d9cd106f632b9",
+          "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+          "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.17,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-13",
+          "firstObservedAt": "2026-10-14T01:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
+          "average": 49.17
         },
         {
           "storyId": "3b1ffdee2a00b8a28fc4",
@@ -121,34 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-13T07:00:00.000Z",
           "lastObservedAt": "2026-10-13T07:00:00.000Z",
           "average": 49.12
-        },
-        {
-          "storyId": "442b4c6c66fc5ac61581",
-          "title": "NASA spots a giant patch of Moon-like rock on Earth",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261008102707.htm",
-          "source": "ScienceDaily Technology",
-          "image": "",
-          "peak": 49.01,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-10-13",
-          "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "0ed705f5b130729c8e7e",
-          "title": "Secure Messaging and AI Remain In Conflict Despite the Promise of TEEs",
-          "url": "https://www.eff.org/deeplinks/2026/09/secure-messaging-and-ai-remain-conflict-despite-promise-tees",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
-          "peak": 48.95,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-10-13",
-          "firstObservedAt": "2026-10-13T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
-          "average": 48.95
         }
       ]
     },
@@ -6558,11 +6558,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -6572,11 +6572,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/master/pass/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
           "peak": 50.71,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 50.71
         },
         {
@@ -6586,11 +6586,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 50.16
         },
         {
@@ -6608,17 +6608,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.66
         },
         {
+          "storyId": "bb575fe9ad4e4a983b92",
+          "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+          "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg",
+          "peak": 49.39,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-13",
+          "firstObservedAt": "2026-10-14T01:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
+          "average": 49.39
+        },
+        {
           "storyId": "3b2bd6e595cae7a06e8a",
           "title": "Our Best Stuff on the Debate Over AI",
           "url": "https://thedispatch.com/newsletter/weekly/artificial-intelligence-danger-catholic-church/",
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 49.34
         },
         {
@@ -6628,12 +6642,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 49.23
+        },
+        {
+          "storyId": "4e9e4f1d9cd106f632b9",
+          "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+          "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.17,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-13",
+          "firstObservedAt": "2026-10-14T01:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
+          "average": 49.17
         },
         {
           "storyId": "3b1ffdee2a00b8a28fc4",
@@ -6648,34 +6676,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-13T00:00:00.000Z",
           "lastObservedAt": "2026-10-13T07:00:00.000Z",
           "average": 49.12
-        },
-        {
-          "storyId": "442b4c6c66fc5ac61581",
-          "title": "NASA spots a giant patch of Moon-like rock on Earth",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261008102707.htm",
-          "source": "ScienceDaily Technology",
-          "image": "",
-          "peak": 49.01,
-          "observations": 4,
-          "daysTracked": 2,
-          "peakDate": "2026-10-12",
-          "firstObservedAt": "2026-10-13T00:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "0ed705f5b130729c8e7e",
-          "title": "Secure Messaging and AI Remain In Conflict Despite the Promise of TEEs",
-          "url": "https://www.eff.org/deeplinks/2026/09/secure-messaging-and-ai-remain-conflict-despite-promise-tees",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/keys-crossed-pink-starburst.png",
-          "peak": 48.95,
-          "observations": 6,
-          "daysTracked": 2,
-          "peakDate": "2026-10-12",
-          "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
-          "average": 48.95
         }
       ]
     },
@@ -7748,11 +7748,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 54,
+          "observations": 55,
           "daysTracked": 13,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -7776,11 +7776,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/master/pass/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
           "peak": 50.71,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 4,
           "peakDate": "2026-10-10",
           "firstObservedAt": "2026-10-10T18:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 50.71
         },
         {
@@ -7832,11 +7832,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-13T21:00:00.000Z",
+          "lastObservedAt": "2026-10-14T01:00:00.000Z",
           "average": 50.16
         }
       ]
